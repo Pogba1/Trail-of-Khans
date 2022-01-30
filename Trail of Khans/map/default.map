@@ -23,7 +23,7 @@ sea_starts = {
 	3266 3267 3268 3269 3270 3271 3272 3273 3275 3276 3277 3278 3279 3280 3281 3283 3284 3286 3287 3288 3289 3290 3291 3292 3293 3294 3296 3297
 }
     
-definitions = "../mod/IGoRS_puir 10.0.6/map/definition.csv"
+definitions = "../mod/Trail of Khans/map/definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
 terrain = "terrain.bmp"
