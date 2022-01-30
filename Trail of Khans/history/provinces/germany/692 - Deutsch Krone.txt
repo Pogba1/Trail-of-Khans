@@ -1,6 +1,7 @@
-owner = PLC
-controller = PLC
-add_core = PRU
+owner = POL
+controller = POL
+add_core = POL
+add_core = PLC
 add_core = GER
 trade_goods = grain
 life_rating = 40

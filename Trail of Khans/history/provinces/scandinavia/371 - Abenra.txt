@@ -1,10 +1,6 @@
-owner = DNN
-controller = DNN
-add_core = DNN
-add_core = DEN
-add_core = SCH
+owner = LUB
+controller = LUB
+add_core = LUB
 add_core = GER
-add_core = SWH
-add_core = SCA
 trade_goods = cattle
 life_rating = 35
