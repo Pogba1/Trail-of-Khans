@@ -1,6 +1,8 @@
+owner = SVF
+controller = SVF
+add_core = SVF
+add_core = ARM
+add_core = AZB
+add_core = TCA
 trade_goods = iron
-life_rating = 1
-
-
-
-set_province_flag = mine
+life_rating = 35

@@ -1,7 +1,14 @@
-owner = SWI
-controller = SWI
+owner = HRE
+controller = HRE
+add_core = HRE
 add_core = SWI
 trade_goods = cattle
-life_rating = 35
-
-set_province_flag = farm
+life_rating = 32
+party_loyalty = {
+    ideology = conservative
+    loyalty_value = 20
+}
+party_loyalty = {
+    ideology = liberal
+    loyalty_value = 15
+}

@@ -5,50 +5,51 @@
     aristocrats = {
         culture = central_american
         religion = catholic
-        size = 2422
-        militancy = 9
+        size = 1425
+        militancy = 5
     }
 
     bureaucrats = {
         culture = central_american
         religion = catholic
-        size = 255
-        militancy = 9
+        size = 150
+        militancy = 6
     }
 
     officers = {
         culture = central_american
         religion = catholic
-        size = 212
+        size = 125
         militancy = 9
     }
 
     clergymen = {
         culture = central_american
         religion = catholic
-        size = 1105
-        militancy = 9
+        size = 650
+        militancy = 4
     }
 
     artisans = {
         culture = central_american
         religion = catholic
-        size = 5525
+        size = 3250
         militancy = 9
     }
 
     soldiers = {
         culture = central_american
         religion = catholic
-        size = 1870
+        size = 1100
+
         militancy = 9
     }
 
     farmers = {
         culture = central_american
         religion = catholic
-        size = 99195
-        militancy = 9
+        size = 58350
+        militancy = 4
     }
 }
 #San Miguel (156000/44000 POPS)
@@ -56,35 +57,37 @@
     aristocrats = {
         culture = central_american
         religion = catholic
-        size = 1615
+        size = 950
         militancy = 9
     }
 
     clergymen = {
         culture = central_american
         religion = catholic
-        size = 765
+        size = 450
         militancy = 9
     }
 
     artisans = {
         culture = central_american
         religion = catholic
-        size = 3740
+        size = 2200
         militancy = 9
     }
 
     soldiers = {
         culture = central_american
         religion = catholic
-        size = 765
+        size = 450
+
         militancy = 9
     }
 
     farmers = {
         culture = central_american
         religion = catholic
-        size = 67915
-        militancy = 9
+        size = 39950
+        militancy = 4
     }
+
 }

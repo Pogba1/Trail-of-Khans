@@ -1,10 +1,9 @@
-owner = AUS
-controller = AUS
-add_core = AUS
+owner = HPS
+controller = HPS
+add_core = HPS
 add_core = SER
+add_core = BAN
 add_core = HUN
-
+add_core = SIE
 trade_goods = grain
 life_rating = 35
-
-set_province_flag = farm

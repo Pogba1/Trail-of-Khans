@@ -1,8 +1,8 @@
-owner = ENG
-controller = ENG
+owner = SIK
+controller = SIK
 add_core = HND
-trade_goods = tea
+add_core = SIK
+add_core = BNG
+trade_goods = wool
 life_rating = 32
-colonial = 1
-
-set_province_flag = farm
+colonial = 2

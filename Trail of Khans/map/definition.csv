@@ -2588,8 +2588,8 @@ province;red;green;blue;x;x
 2587;51;9;23;Kola;x
 2588;93;12;151;Onega;x
 2589;135;15;24;Kanin;x
-2590;177;18;152;Chukchi;x
-2591;51;24;153;Sisimiut;x
+2590;177;18;152;Ceuta;x
+2591;51;24;153;Tranquebar;x
 2592;93;27;26;Ungava;x
 2593;135;30;154;Fort George;x
 2594;177;33;27;Pickle;x
@@ -2630,7 +2630,7 @@ province;red;green;blue;x;x
 2629;0;60;10;Beatton River;x
 2630;42;63;138;Fairbanks;x
 2631;84;66;11;Yukon;x
-2632;126;69;139;Isortoq;x
+2632;126;69;139;Kwangchowan;x
 2633;168;72;12;Palana;x
 2634;0;75;140;Khatyrka;x
 2635;42;78;13;Kariba;x
@@ -2645,7 +2645,7 @@ province;red;green;blue;x;x
 2644;0;105;145;Tommot;x
 2645;42;108;18;Artemovskij;x
 2646;42;153;153;Niznevartovsk;x
-2647;126;114;19;Deputackij;x
+2647;126;114;19;Lifau;x
 2648;168;117;147;Handyga;x
 2649;0;120;20;Tomtor;x
 2650;42;123;148;Malykaj;x
@@ -3246,67 +3246,78 @@ province;red;green;blue;x;x
 3245;106;203;253;Southern Pacific #39;x
 3246;49;150;138;Jan Mayen;x
 3247;52;14;236;West Hawaii;x
-3248;53;14;240;West Magellan Strait;x 
-3249;222;29;42;Guangzhouwan;x
-3250;15;185;6;Ceuta;x
-3251;103;130;176;Trankebar;x
-3252;104;18;91;Vaduz;x
-3253;183;210;36;Diu;x
-3254;123;55;26;Bandung;x
-3255;130;75;46;Cuneo;x
-3256;54;14;244;Kampen;x
-3257;55;14;248;Almere;x
-3258;216;153;42;Benevento;x
-3259;168;122;40;Avellino;x
-3260;167;137;82;Rieta;x
-3261;33;40;150;x;Po River;x
-3262;14;8;110;x;Danube River;x
-3263;40;20;158;x;Rhine River;x
-3264;29;16;160;x;Seine River;x
-3265;40;37;171;x;Rhone River;x
-3266;29;33;155;x;Elbe River;x
-3267;20;32;150;x;Vistula River;x
-3268;30;20;125;x;Dnieper River;x
-3269;48;36;155;x;Daugava River;x
-3270;25;35;137;x;Volga River;x
-3271;39;43;161;x;Loire River;x
-3272;26;17;121;x;Oder River;x
-3273;15;103;176;x;Nile River;x
-3274;64;188;106;x;Elephantine;x
-3275;31;61;172;x;Tigris and Euphrates River;x
-3276;27;68;161;x;Indus River;x
-3277;15;102;145;x;Ganges River;x
-3278;28;108;148;x;Mekong River;x
-3279;18;92;162;x;Pearl River;x
-3280;23;93;159;x;Yangtze River;x
-3281;23;76;175;x;Yellow River;x
-3282;121;154;46;x;Dornogovi Aimag;x
-3283;39;62;182;x;Liao River;x
-3284;27;35;125;x;Amur River;x
-3285;122;38;164;x;Tanchon;x
-3286;25;34;143;x;Amnok and Duman River;x
-3287;43;27;166;x;Mississippi River System;x
-3288;39;54;173;x;StLawrence River;x
-3289;19;38;158;x;Rio Grande River;x
-3290;18;58;164;x;Amazon River;x
-3291;38;14;161;x;Orinoco River;x;
-3292;28;126;165;x;Uruguay River;x;
-3293;72;30;168;x;Paraguay River System;x;
-3294;51;30;167;x;Ebro River;x
-3295;93;16;240;x;Lleida;x
-3296;100;17;170;x;Congo River;x
-3297;30;30;146;x;Niger River;x
-;96;16;232;x
-;97;16;236;x
-;98;16;240;x
-;99;16;244;x
-;100;16;248;x
-;101;16;232;x
-;102;16;236;x
-;103;16;240;x
-;104;16;244;x
-;105;16;248;x
-;106;16;232;x
-;107;16;236;x
-;108;16;240;x
-;109;16;244;x
+3248;53;14;240;West Magellan Strait;x
+3249;144;176;1;Kiritimati;x
+3250;26;27;255;Dead Sea;x
+3251;111;17;245;Lake of the Woods;x
+3252;111;17;246;Lake Nipissing;x
+3253;111;17;247;Lake Simcoe;x
+3254;111;17;248;Lake Winnebago;x
+3255;1;222;201;Iberá lake;x
+3256;1;222;202;Lake Saint-Jean;x
+3257;1;222;203;Lake Manicouagan;x
+3258;1;222;204;Lake Mistassini;x
+3259;1;222;205;Lake Sakami;x
+3260;1;222;206;Lobstick Lake;x
+3261;1;222;207;Lake Bienville;x
+3262;1;222;208;Clearwater Lakes;x
+3263;1;222;209;Lake Qullinaaraaluk;x
+3264;1;222;210;God's Lake;x
+3265;1;222;211;Wollaston Lake;x
+3266;1;222;212;Cree Lake;x
+3267;1;222;213;Churchill Lake;x
+3268;1;222;214;Nueltin Lake;x
+3269;1;222;215;Kasba Lake;x
+3270;1;222;216;Wholdaia Lake;x
+3271;1;222;217;Dubawnt Lake;x
+3272;1;222;218;Yathkyed Lake;x
+3273;1;222;219;Baker Lake;x
+3274;1;222;220;Schultz Lake;x
+3275;1;222;221;Aberdeen Lake;x
+3276;1;222;222;Clinton-Colden Lake;x
+3277;1;222;223;Williston Lake;x
+3278;1;222;224;Lake Okeechobee;x
+3279;1;222;225;Lake Tuz;x
+3280;1;222;226;Sevan Lake;x
+3281;0;33;255;Lake Iso-Kalla;x
+3282;0;34;255;Lake Pyhajarvi;x
+3283;17;20;233;Lake Geneva
+3284;1;222;229;Lake Constance;x
+3285;111;17;244;Fagnano Lake;x
+3286;0;1;255;Songkhla Lake;x
+3287;0;2;255;Lake Gairdner;x
+3288;0;3;255;Lake Torrens;x
+3289;0;4;255;Lake Frome;x
+3290;0;5;255;Lake Eyre;x
+3291;0;6;255;Lake Mackay;x
+3292;0;7;255;Lake Argyle;x
+3293;0;8;255;Lake Rukwa;x
+3294;0;9;255;Lake Mweru;x
+3295;0;10;255;Taihu Lake;x
+3296;0;11;255;Chott el Djerid;x
+3297;0;12;255;Chott Melghir;x
+3298;0;13;255;Chott el Hodna;x
+3299;0;14;255;Chott Chergui;x
+3300;0;15;255;Siling Lake;x
+3301;0;16;255;Hung-tse Lake;x
+3302;0;17;255;Khanka Lake;x
+3303;0;18;255;Lake Alakol;x
+3304;0;19;255;Lake Zaysan;x
+3305;0;20;255;Khovsgol Lake;x
+3306;0;21;255;Uvs Lake;x
+3307;0;22;255;Khyargas Lake;x
+3308;0;23;255;Khar Us Lake;x
+3309;0;24;255;Namak Lake;x
+3310;0;25;255;Hulun Lake;x
+3311;73;43;222;Lough Neagh;x
+3312;0;26;255;Lake Hjalmaren;x
+3313;0;27;255;Lake Siljan;x
+3314;0;28;255;Lake Storsjon;x
+3315;0;29;255;Lake Segozero;x
+3316;0;30;255;Lake Oulujarvi;x
+3317;0;31;255;Lake Päijänne;x
+3318;0;32;255;Lake Saimaa;x
+3319;1;129;178;Vahitahi;x
+3320;1;129;179;Vairaatea;x
+3321;1;129;180;Nukutavake;x
+3322;1;129;181;Pinaki;x

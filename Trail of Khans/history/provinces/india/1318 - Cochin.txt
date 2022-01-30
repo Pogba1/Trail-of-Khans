@@ -1,7 +1,6 @@
-owner = HND
-controller = HND
+owner = DNN
+controller = DNN
 add_core = HND
+add_core = TRA
 trade_goods = grain
 life_rating = 32
-
-set_province_flag = farm

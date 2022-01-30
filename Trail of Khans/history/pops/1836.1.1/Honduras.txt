@@ -5,50 +5,53 @@
     aristocrats = {
         culture = central_american
         religion = catholic
-        size = 1615
+        size = 950
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 
     bureaucrats = {
         culture = central_american
         religion = catholic
-        size = 212
-        militancy = 9
+        size = 125
     }
 
     officers = {
         culture = central_american
         religion = catholic
-        size = 170
+        size = 100
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 
     clergymen = {
         culture = central_american
         religion = catholic
-        size = 765
+        size = 450
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 
     artisans = {
         culture = central_american
         religion = catholic
-        size = 3825
-        militancy = 9
+        size = 2250
     }
 
     soldiers = {
         culture = central_american
         religion = catholic
-        size = 765
+        size = 1450
+
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 
     farmers = {
         culture = central_american
         religion = catholic
-        size = 69147
-        militancy = 9
+        size = 40675
+        militancy = 5
     }
 }
 #San Pedro Sula (92000/23000 POPS)
@@ -56,36 +59,40 @@
     aristocrats = {
         culture = central_american
         religion = catholic
-        size = 935
+        size = 550
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 
     clergymen = {
         culture = central_american
         religion = catholic
-        size = 382
+        size = 225
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 
     artisans = {
         culture = central_american
         religion = catholic
-        size = 1955
-        militancy = 9
+        size = 1150
     }
 
     soldiers = {
         culture = central_american
         religion = catholic
-        size = 382
+        size = 225
+
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 
     farmers = {
         culture = central_american
         religion = catholic
-        size = 35445
+        size = 20850
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 }
 #La Ceiba (68000/17000 POPS)
@@ -93,36 +100,40 @@
     aristocrats = {
         culture = central_american
         religion = catholic
-        size = 722
+        size = 425
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 
     clergymen = {
         culture = central_american
         religion = catholic
-        size = 297
+        size = 175
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 
     artisans = {
         culture = central_american
         religion = catholic
-        size = 1445
-        militancy = 9
+        size = 850
     }
 
     soldiers = {
         culture = central_american
         religion = catholic
-        size = 297
+        size = 175
+
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 
     farmers = {
         culture = central_american
         religion = catholic
-        size = 26137
+        size = 15375
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 }
 #Puerto Lempira (12000/3000 POPS)
@@ -130,35 +141,39 @@
     aristocrats = {
         culture = central_american
         religion = catholic
-        size = 127
+        size = 75
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 
     clergymen = {
         culture = central_american
         religion = catholic
-        size = 85
+        size = 50
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 
     artisans = {
         culture = central_american
         religion = catholic
-        size = 255
-        militancy = 9
+        size = 150
     }
 
     soldiers = {
         culture = central_american
         religion = catholic
-        size = 42
+        size = 25
+
         militancy = 9
+        rebel_type = nationalist_rebels
     }
 
     farmers = {
         culture = central_american
         religion = catholic
-        size = 4590
-        militancy = 9
+        size = 2700
+        militancy = 5
     }
+
 }

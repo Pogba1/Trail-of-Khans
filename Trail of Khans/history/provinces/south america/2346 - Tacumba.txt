@@ -1,7 +1,11 @@
-owner = URU
-controller = URU
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+add_core = ARG
 add_core = URU
-trade_goods = wool
+trade_goods = fish
 life_rating = 35
-
-set_province_flag = farm
+party_loyalty = {
+    ideology = conservative
+    loyalty_value = 25
+}

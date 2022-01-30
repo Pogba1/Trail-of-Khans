@@ -1,7 +1,6 @@
-owner = TUR
-controller = TUR
+owner = BYZ
+controller = BYZ
+add_core = BYZ
 add_core = TUR
-trade_goods = grain
+trade_goods = fish
 life_rating = 35
-
-set_province_flag = farm

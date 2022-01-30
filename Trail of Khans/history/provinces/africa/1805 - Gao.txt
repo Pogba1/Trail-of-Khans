@@ -1,4 +1,8 @@
-trade_goods = sulphur
-life_rating = 15
-
-set_province_flag = mine
+owner = DND
+controller = DND
+add_core = SEG
+add_core = MAS
+add_core = DND
+trade_goods = wool
+terrain = semidesert
+life_rating = 30

@@ -1,9 +1,8 @@
-owner = ENG
-controller = ENG
+owner = FRA
+controller = FRA
 add_core = HND
-trade_goods = opium
+add_core = BIH
+trade_goods = fish
 life_rating = 32
-colonial = 1
+colonial = 2
 1861.1.1 = { railroad = 3 }
-
-set_province_flag = farm

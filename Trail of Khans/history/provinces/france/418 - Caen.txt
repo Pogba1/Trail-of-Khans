@@ -1,24 +1,26 @@
 owner = FRA
 controller = FRA
 add_core = FRA
-trade_goods = cotton
-life_rating = 31
+trade_goods = cattle
+life_rating = 35
 naval_base = 2
-#state_building = {
-#	level = 1
-#	building = regular_clothes_factory
-#	upgrade = yes
-#}
+state_building = {
+    level = 1
+    building = regular_clothes_factory
+    upgrade = yes
+}
+state_building = {
+    level = 1
+    building = clipper_shipyard
+    upgrade = yes
+}
 1861.1.1 = {
-	state_building = {
-		level = 1
-		building = ammunition_factory
-		upgrade = yes
-	}
+    state_building = {
+        level = 1
+        building = ammunition_factory
+        upgrade = yes
+    }
 }
-1861.1.1 = { 
-	railroad = 3
-	naval_base = 3
+1861.1.1 = {
+    railroad = 3
 }
-
-set_province_flag = farm

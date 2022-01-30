@@ -1,4 +1,8 @@
-trade_goods = cotton
-life_rating = 15
-
-set_province_flag = farm
+owner = GEL
+controller = GEL
+add_core = MAJ
+add_core = GEL
+add_core = WRL
+trade_goods = fruit
+terrain = savanna
+life_rating = 35

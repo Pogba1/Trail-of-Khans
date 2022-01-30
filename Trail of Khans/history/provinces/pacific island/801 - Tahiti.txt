@@ -1,4 +1,5 @@
-trade_goods = sulphur
+trade_goods = fish
 life_rating = 15
-
-set_province_flag = mine
+terrain = plains
+colonial = 2
+add_core = TMT

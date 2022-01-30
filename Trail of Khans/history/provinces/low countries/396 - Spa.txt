@@ -1,13 +1,8 @@
-owner = BEL
-controller = BEL
-add_core = BEL
-add_core = NET
-#add_core = WLL
+owner = HRE
+controller = HRE
+add_core = HRE
+add_core = RHI
+add_core = GER
 trade_goods = coal
 life_rating = 35
-1861.1.1 = { 
-	railroad = 3 
-	remove_core = NET
-}
-
-set_province_flag = mine
+1861.1.1 = { railroad = 3 }

@@ -1,7 +1,10 @@
 owner = BRZ
 controller = BRZ
 add_core = BRZ
-trade_goods = tobacco
+add_core = RGS
+trade_goods = cattle
 life_rating = 35
-
-set_province_flag = farm
+1861.1.1 = {
+    owner = BRZ
+    controller = BRZ
+}

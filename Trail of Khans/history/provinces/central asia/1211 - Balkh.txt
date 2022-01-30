@@ -1,11 +1,11 @@
-owner = BUK
-controller = BUK
+owner = SVF
+controller = SVF
+add_core = BDK
 add_core = AFG
+terrain = dryhills
 trade_goods = grain
 life_rating = 35
-1861.1.1 = {
-	owner = AFG
-	controller = AFG
+1860.1.1 = {
+    owner = AFG
+    controller = AFG
 }
-
-set_province_flag = farm

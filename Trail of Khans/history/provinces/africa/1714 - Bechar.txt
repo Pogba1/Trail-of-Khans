@@ -1,4 +1,6 @@
+owner = ARG
+controller = ARG
+add_core = ARG
+add_core = BOL
 trade_goods = wool
-life_rating = 10
-
-set_province_flag = farm
+life_rating = 33

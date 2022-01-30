@@ -1,7 +1,6 @@
 owner = JAP
 controller = JAP
 add_core = JAP
-trade_goods = tobacco
+add_core = TKG
+trade_goods = wool
 life_rating = 35
-
-set_province_flag = farm

@@ -1,7 +1,10 @@
-owner = JAP
-controller = JAP
-add_core = JAP
+owner = TKG
+controller = TKG
+add_core = TKG
 trade_goods = timber
 life_rating = 35
-
-set_province_flag = mine
+1861.1.1 = {
+    owner = TKG
+    controller = TKG
+    add_core = TKG
+}

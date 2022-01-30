@@ -1,11 +1,10 @@
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = MLT
+controller = MLT
+add_core = MLT
 trade_goods = fish
-life_rating = 38
-colonial = 2
+life_rating = 33
 naval_base = 1
-1861.1.1 = { 
-	naval_base = 2 #Valetta
+terrain = small_island
+1861.1.1 = {
+    naval_base = 2 #Valetta
 }
-set_province_flag = farm

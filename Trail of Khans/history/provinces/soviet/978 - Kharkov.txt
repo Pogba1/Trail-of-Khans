@@ -1,20 +1,19 @@
-owner = RUS
-controller = RUS
-add_core = RUS
+owner = PLC
+controller = PLC
+add_core = PLC
 add_core = UKR
 trade_goods = coal
-life_rating = 37
-state_building = {
-	level = 1
-	building = steel_factory
-	upgrade = yes
-} 
-1861.1.1 = { 
-	state_building = {
-		level = 1
-		building = cement_factory
-		upgrade = yes
-	} 
+life_rating = 35
+terrain = mining_district
+1861.1.1 = {
+    state_building = {
+        level = 1
+        building = steel_factory
+        upgrade = yes
+    }
+    state_building = {
+        level = 1
+        building = cement_factory
+        upgrade = yes
+    }
 }
-
-set_province_flag = mine

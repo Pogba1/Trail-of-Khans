@@ -1,9 +1,7 @@
-owner = RUS
-controller = RUS
-add_core = RUS
+owner = PLC
+controller = PLC
+add_core = PLC
 add_core = UKR
-#add_core = PLC
 trade_goods = coal
-life_rating = 37
-
-set_province_flag = mine
+life_rating = 35
+terrain = mining_district

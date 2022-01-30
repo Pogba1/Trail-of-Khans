@@ -1,13 +1,7 @@
-owner = RUS
-controller = RUS
-add_core = RUS
+owner = ROM
+controller = ROM
 add_core = MOL
-#add_core = ROM
-
+add_core = MDV
+add_core = ROM
 trade_goods = fruit
 life_rating = 35
-1861.1.1 = {
-	remove_core = MOL
-}
-
-set_province_flag = farm

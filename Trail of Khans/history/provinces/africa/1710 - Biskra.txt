@@ -1,13 +1,11 @@
 owner = ALD
 controller = ALD
 add_core = ALD
-trade_goods = iron
-life_rating = 35
+trade_goods = wool
+life_rating = 31
+terrain = semidesert
 1861.1.1 = {
-	owner = FRA
-	controller = FRA
-	colonial = 2
+    owner = FRA
+    controller = FRA
+    colonial = 2
 }
-
-
-set_province_flag = mine

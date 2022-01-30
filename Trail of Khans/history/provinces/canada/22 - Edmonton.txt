@@ -1,12 +1,3 @@
-owner = RPL
-controller = RPL
-add_core = CAN
-add_core = RPL
+add_core = MTC
 trade_goods = grain
-life_rating = 35
-1836.1.2 = {
-	owner = CAN
-	controller = CAN
-	colonial = 0
-}
-set_province_flag = farm
+life_rating = 31

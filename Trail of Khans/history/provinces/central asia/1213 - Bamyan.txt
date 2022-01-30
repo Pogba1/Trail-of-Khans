@@ -1,7 +1,5 @@
-owner = AFG
-controller = AFG
+owner = SVF
+controller = SVF
 add_core = AFG
 trade_goods = grain
 life_rating = 35
-
-set_province_flag = farm

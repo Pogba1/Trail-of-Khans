@@ -1,13 +1,9 @@
-owner = RUS
-controller = RUS
+owner = SWE
+controller = SWE
 add_core = FIN
 add_core = SWE
 trade_goods = fish
 life_rating = 35
 fort = 1
 naval_base = 2
-1861.1.1 = {
-	naval_base = 3
-}
-
-set_province_flag = farm
+terrain = small_island

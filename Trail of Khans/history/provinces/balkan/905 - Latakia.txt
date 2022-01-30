@@ -1,13 +1,12 @@
 owner = EGY
 controller = EGY
 add_core = EGY
-add_core = TUR
 add_core = SYR
-trade_goods = iron
+trade_goods = tobacco
 life_rating = 35
-1861.1.1 = {
-	controller = TUR 
-	owner = TUR
-}
+terrain = hills
 
-set_province_flag = farm
+1861.1.1 = {
+    controller = TUR
+    owner = TUR
+}

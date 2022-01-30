@@ -1,5 +1,4 @@
 add_core = RUS
+add_core = KAM
 trade_goods = timber
-life_rating = 15
-
-set_province_flag = mine
+life_rating = 10

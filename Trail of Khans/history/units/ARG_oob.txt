@@ -1,161 +1,28 @@
-CHL = { value = -75 }
-URU = { value = -75 }
-PRG = { value = -75 }
-PEU = { value = -90 }
-ECU = { value = -75 }
-VNZ = { value = -75 }
-UCA = { value = -75 }
-
-leader = {
-	name = "Manuel Blanco"
-	picture = aus_gen_windischgraetz
-	date = 1826.1.1
-	type = land
-	personality = defence_1.1
-	background = attack_1.1
-	prestige = 0.3
-}
-leader = {
-	name = "Jose Joaquú‹ Prieto"
-	picture = aus_gen_rukavina
-	date = 1829.1.1
-	type = land
-	personality = defence_1.1
-	background = attack_1.1
-	prestige = 0.2
-}
-leader = {
-	name = "Manuel Bulnes"
-	picture = aus_gen_nugent
-	date = 1815.1.1
-	type = land
-	personality = defence_1.1
-	background = attack_1.1
-	prestige = 0.3
-}
-
 army = {
-	name = "1. Army"
-	location = 2349
-	
-	regiment = {
-		name= "1. Hussar"
-		type = hussar
-		home = 2373
-	}
-	regiment = {
-		name= "2. División de Infanteru"
-		type = infantry
-		home = 2376
-	}
-	regiment = {
-		name= "2. División de Infanteru"
-		type = infantry
-		home = 2379
-	}
-	regiment = {
-		name= "2. División de Infanteru"
-		type = infantry
-		home = 2379
-	}
-	regiment = {
-		name= "2. División de Infanteru"
-		type = infantry
-		home = 2348
-	}
-	regiment = {
-		name= "1. Artillery"
-		type = artillery
-		home = 2348
-	}
-	regiment = {
-		name= "2. Artillery"
-		type = artillery
-		home = 2354
-	}
-	regiment = {
-		name= "3. Artillery"
-		type = artillery
-		home = 2355
-	}
-	regiment = {
-		name= "4. Artillery"
-		type = artillery
-		home = 2382
-	}
-	regiment = {
-		name= "5. Artillery"
-		type = artillery
-		home = 2393
-	}
-}
+    name = "Ejército de Buenos Aires"
+    location = 2349
+    regiment = {
+        name= "1. División de Infantería"
+        type = infantry
+        home = 2348
+    }
 
-army = {
-	name = "2. Army"
-	location = 2348
-	
-	regiment = {
-		name= "16. Artillery"
-		type = artillery
-		home = 2400
-	}
-	
-	regiment = {
-		name= "7. Artillery"
-		type = artillery
-		home = 2356
-	}
+    regiment = {
+        name= "2. División de Infantería"
+        type = infantry
+        home = 2348
+    }
 
-	regiment = {
-		name= "8. Artillery"
-		type = artillery
-		home = 2360
-	}
+    regiment = {
+        name= "3. División de Infantería"
+        type = infantry
+        home = 2348
+    }
 
-	regiment = {
-		name= "9. Artillery"
-		type = artillery
-		home = 2362
-	}
+    regiment = {
+        name= "4. División de Infantería"
+        type = infantry
+        home = 2349
+    }
 
-	regiment = {
-		name= "10. Artillery"
-		type = artillery
-		home = 2391
-	}
-}
-	
-army = {
-	name = "3. Army"
-	location = 2350
-	
-	regiment = {
-		name= "11. Artillery"
-		type = artillery
-		home = 2379
-	}
-	
-	regiment = {
-		name= "12. Artillery"
-		type = artillery
-		home = 2356
-	}
-	
-	regiment = {
-		name= "13. Artillery"
-		type = artillery
-		home = 2362
-	}
-	
-	regiment = {
-		name= "14. Artillery"
-		type = artillery
-		home = 2382
-	}
-	
-	regiment = {
-		name= "15. Artillery"
-		type = artillery
-		home = 2349
-	}
 }

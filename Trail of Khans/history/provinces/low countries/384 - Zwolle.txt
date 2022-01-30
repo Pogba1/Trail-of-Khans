@@ -1,7 +1,5 @@
 owner = NET
 controller = NET
 add_core = NET
-trade_goods = grain
-life_rating = 36
-
-set_province_flag = farm
+trade_goods = fish
+life_rating = 35

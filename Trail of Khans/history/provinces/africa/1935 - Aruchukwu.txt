@@ -1,4 +1,6 @@
-trade_goods = fish
-life_rating = 20
-
-set_province_flag = farm
+owner = ARO
+controller = ARO
+add_core = ARO
+add_core = WRI
+trade_goods = grain
+life_rating = 30

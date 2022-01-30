@@ -1,12 +1,6 @@
-owner = ENG
-controller = ENG
-add_core = CAN
-add_core = COL
-trade_goods = fish
+owner = RUS
+controller = RUS
+add_core = LSK
+trade_goods = coal
 life_rating = 35
-1836.1.2 = {
-	owner = CAN
-	controller = CAN
-	colonial = 0
-}
-set_province_flag = farm
+colonial = 2

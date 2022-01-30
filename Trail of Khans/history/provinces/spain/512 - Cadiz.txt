@@ -1,21 +1,16 @@
-owner = SPA
-controller = SPA
+owner = IBE
+controller = IBE
+add_core = IBE
 add_core = SPA
 trade_goods = fish
-life_rating = 34naval_base = 1
+life_rating = 35
+naval_base = 1
 #state_building = {
-#	level = 1
-#	building = canned_food_factory
-#	upgrade = yes
+#    level = 1
+#    building = canned_food_factory
+#    upgrade = yes
 #}
-state_building = {
-	level = 1
-	building = clipper_shipyard
-	upgrade = yes
+1861.1.1 = {
+    railroad = 2
+    naval_base = 2
 }
-1861.1.1 = { 
-	railroad = 2 
-	naval_base = 2
-}
-
-set_province_flag = farm

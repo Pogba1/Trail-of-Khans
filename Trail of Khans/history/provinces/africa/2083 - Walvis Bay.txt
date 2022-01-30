@@ -1,4 +1,7 @@
+owner = ENG
+controller = ENG
+add_core = NMB
+terrain = semidesert
 trade_goods = wool
-life_rating = 20
-
-set_province_flag = farm
+life_rating = 10
+colonial = 1

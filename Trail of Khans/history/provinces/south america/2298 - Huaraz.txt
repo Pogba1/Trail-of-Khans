@@ -1,9 +1,6 @@
 owner = PEU
 controller = PEU
 add_core = PEU
-trade_goods = iron
-life_rating = 33
-
-
-
-set_province_flag = mine
+trade_goods = wool
+terrain = dryhills
+life_rating = 35

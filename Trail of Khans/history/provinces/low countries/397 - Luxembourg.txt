@@ -1,20 +1,14 @@
-owner = BEL
-controller = BEL
+owner = FRA
+controller = FRA
+add_core = FRA
 add_core = LUX
-add_core = BEL
 add_core = NET
-trade_goods = iron
+trade_goods = coal
 life_rating = 35
-fort = 1
+terrain = mining_district
+1861.1.1 = { railroad = 3 }
 1861.1.1 = {
-	owner = LUX
-	controller = LUX
-	remove_core = NET
-	remove_core = BEL
-	railroad = 3
-	fort = 2
+    owner = LUX
+    controller = LUX
+    remove_core = NET
 }
-
-
-
-set_province_flag = mine

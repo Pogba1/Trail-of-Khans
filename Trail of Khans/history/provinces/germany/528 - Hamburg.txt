@@ -1,10 +1,11 @@
-owner = HAM
-controller = HAM
+owner = DNN
+controller = DNN
 add_core = HAM
-#add_core = GER
+add_core = GER
+add_core = DEN
+add_core = DNN
 trade_goods = fruit
-life_rating = 43
+life_rating = 40
+fort = 1
 naval_base = 1
 1861.1.1 = { railroad = 3 }
-
-set_province_flag = farm

@@ -1,4 +1,5 @@
+add_core = LUN
+terrain = savanna
 trade_goods = grain
-life_rating = 15
-
-set_province_flag = farm
+life_rating = 10
+colonial = 2

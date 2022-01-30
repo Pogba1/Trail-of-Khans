@@ -1,7 +1,8 @@
-owner = NEJ
-controller = NEJ
+owner = SVF
+controller = SVF
+add_core = SVF
 add_core = NEJ
-trade_goods = grain
+trade_goods = fish
 life_rating = 35
-
-set_province_flag = farm
+terrain = semidesert
+colonial = 2

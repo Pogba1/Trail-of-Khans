@@ -1,7 +1,12 @@
-owner = BRZ
-controller = BRZ
-add_core = BRZ
-trade_goods = tropical_wood
-life_rating = 30
-
-set_province_flag = mine
+owner = SVF
+controller = SVF
+add_core = SVF
+add_core = TUR
+add_core = BHT
+add_core = KDS
+trade_goods = grain
+life_rating = 35
+1861.1.1 = {
+    owner = TUR
+    controller = TUR
+}

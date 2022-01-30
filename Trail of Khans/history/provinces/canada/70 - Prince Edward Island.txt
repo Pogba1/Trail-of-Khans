@@ -1,12 +1,6 @@
-owner = ENG
-controller = ENG
-add_core = CAN
+owner = FRA
+controller = FRA
+add_core = QUE
 trade_goods = fish
-life_rating = 35
+life_rating = 31
 colonial = 2
-1836.1.2 = {
-	owner = CAN
-	controller = CAN
-	colonial = 0
-}
-set_province_flag = farm

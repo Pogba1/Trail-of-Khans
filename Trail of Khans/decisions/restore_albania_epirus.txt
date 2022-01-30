@@ -1,0 +1,20 @@
+political_decisions = {
+	restore_albania_epirs = {
+	picture = "preacher"
+	potential = {
+	tag = ALB
+	NOT = {exists = EPI}
+	}
+	allow = {
+	EPI = {all_core = {owned_by = THIS}}
+	}
+	
+	effect = {
+	add_accepted_culture = greek
+	change_tag = EPI
+	change_tag_no_core_switch = EPI
+	prestige = 5
+	}
+	
+	}
+}

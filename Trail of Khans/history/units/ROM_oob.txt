@@ -1,0 +1,44 @@
+army = {
+    name = "Prima Armata a Daciei"
+    location = 669
+    regiment = {
+        name= "Prima Brigada de Infanterie"
+        type = infantry
+        home = 664
+    }
+
+    regiment = {
+        name= "A II-a Brigada de Infanterie"
+        type = infantry
+        home = 668
+    }
+
+    regiment = {
+        name= "A III-a Brigada de Infanterie"
+        type = infantry
+        home = 669
+    }
+	army = {
+    name = "A II-a Armata a Daciei"
+    location = 673
+    regiment = {
+        name= "A IV-a Brigada de Infanterie"
+        type = infantry
+        home = 670
+    }
+
+    regiment = {
+        name= "A V-a Brigada de Infanterie"
+        type = infantry
+        home = 672
+    }
+
+    regiment = {
+        name= "A VI-a Brigada de Infanterie"
+        type = infantry
+        home = 673
+    }
+
+}
+
+}

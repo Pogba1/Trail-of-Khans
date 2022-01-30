@@ -1,8 +1,9 @@
-owner = PER
-controller = PER
+owner = SVF
+controller = SVF
+add_core = SVF
 add_core = PER
 add_core = AZB
-trade_goods = silk
+add_core = KDS
+add_core = MKN
+trade_goods = wool
 life_rating = 35
-
-set_province_flag = farm

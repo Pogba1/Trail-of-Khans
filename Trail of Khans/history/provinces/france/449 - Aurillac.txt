@@ -2,6 +2,4 @@ owner = FRA
 controller = FRA
 add_core = FRA
 trade_goods = cattle
-life_rating = 32
-
-set_province_flag = farm
+life_rating = 35

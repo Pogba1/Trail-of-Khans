@@ -1,7 +1,11 @@
-owner = GRE
-controller = GRE
+owner = BYZ
+controller = BYZ
+add_core = BYZ
 add_core = GRE
 trade_goods = cotton
 life_rating = 35
-
-set_province_flag = farm
+state_building = {
+    level = 1
+    building = fabric_factory
+    upgrade = yes
+}

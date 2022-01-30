@@ -1,4 +1,5 @@
+owner = KON
+controller = KON
+add_core = KON
 trade_goods = fruit
-life_rating = 20
-
-set_province_flag = farm
+life_rating = 35

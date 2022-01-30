@@ -1,6 +1,5 @@
+owner = KLM
+controller = KLM
 add_core = KLM
-#add_core = INO
 trade_goods = grain
-life_rating = 15
-
-set_province_flag = farm
+life_rating = 31

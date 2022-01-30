@@ -1,7 +1,5 @@
 owner = PEU
 controller = PEU
 add_core = PEU
-trade_goods = timber
-life_rating = 25
-
-set_province_flag = mine
+trade_goods = rubber
+life_rating = 31

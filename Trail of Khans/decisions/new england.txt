@@ -1,0 +1,267 @@
+political_decisions = {
+	purchase_florida = {
+	
+	potential = {
+		tag = USA
+		NOT = {has_country_flag = florida_purchase}
+		NOT = {197 = {owned_by=THIS}}
+		NOT = {198 = {owned_by=THIS}}
+		NOT = {199 = {owned_by=THIS}}
+		NOT = {200 = {owned_by=THIS}}
+	}
+	
+	allow = {
+		money = 100000
+		197 = {owned_by=IBE}
+		198 = {owned_by=IBE}
+		199 = {owned_by=IBE}
+		200 = {owned_by=IBE}
+		war = no
+		all_core = {owned_by=THIS}
+	}
+	
+	effect = {
+		THIS = {IBE={country_event = 200301}}
+		THIS = {IBE={country_event = 200302}}
+		set_country_flag = florida_purchase
+	}
+	
+	}
+	
+	
+	march_into_florida = {
+	picture = "romanians_marching"
+	potential = {
+		tag = USA
+		NOT = {has_global_flag = march_into_florida}
+	}
+	
+	allow = {
+		military_score = 50
+		all_core = {owned_by = THIS}
+	}
+	
+	effect = {
+		197 = {add_core = THIS}
+		198 = {add_core = THIS}
+		199 = {add_core = THIS}
+		200 = {add_core = THIS}
+		
+		set_global_flag = march_into_florida
+		badboy = 2
+	}
+	
+	}
+	
+	appalache_destiny = {
+	picture = "romanians_marching"
+	potential = {
+		tag = USA
+		NOT = {has_global_flag = appalache_destiny}
+	}
+	
+	allow = {
+		state_n_government = 1
+		romanticism = 1
+		200 = {owned_by = THIS}
+		197 = {owned_by = THIS}
+	}
+	
+	effect = {
+		196 = {add_core = THIS}
+		191 = {add_core = THIS}
+		190 = {add_core = THIS}
+		185 = {add_core = THIS}
+		set_global_flag = appalache_destiny
+		badboy = 2
+	}
+	
+	}
+	
+	northern_destiny_I = {
+	picture = "romanians_marching"
+	potential = {
+		tag = USA
+		NOT = {has_global_flag = northern_destiny_I}
+		has_global_flag = appalache_destiny
+	}
+	
+	allow = {
+		state_n_government = 1
+		romanticism = 1
+		year = 1850
+		all_core = {owned_by = THIS}
+	}
+	
+	effect = {
+		USA_178 = {add_core = THIS}
+		USA_170 = {add_core = THIS}
+		174 = {add_core = THIS}
+		173 = {add_core = THIS}
+		175 = {add_core = THIS}
+		176 = {add_core = THIS}
+		55 = {add_core = THIS}
+		54 = {add_core = THIS}
+		53 = {add_core = THIS}
+		46 = {add_core = THIS}
+		52 = {add_core = THIS}
+		56 = {add_core = THIS}
+		57 = {add_core = THIS}
+		74 = {add_core = THIS}
+		75 = {add_core = THIS}
+		set_global_flag = northern_destiny_I
+		badboy = 2
+	}
+	
+	}
+	
+	northern_destiny_II = {
+	picture = "romanians_marching"
+	potential = {
+		tag = USA
+		NOT = {has_global_flag = northern_destiny_II}
+		has_global_flag = northern_destiny_I
+	}
+	
+	allow = {
+		state_n_government = 1
+		romanticism = 1
+		year = 1850
+		all_core = {owned_by = THIS}
+	}
+	
+	effect = {
+		CAN_58 = {add_core = THIS}
+		CAN_60 = {add_core = THIS}
+		2625 = {add_core = THIS}
+		76 = {add_core = THIS}
+		70 = {add_core = THIS}
+		73 = {add_core = THIS}
+		set_global_flag = northern_destiny_II
+		badboy = 2
+	}
+	
+	}
+	
+	southern_destiny_I = {
+	picture = "romanians_marching"
+	potential = {
+		tag = USA
+		NOT = {has_global_flag = southern_destiny_I}
+		has_global_flag = appalache_destiny
+	}
+	
+	allow = {
+		state_n_government = 1
+		romanticism = 1
+		year = 1850
+		all_core = {owned_by = THIS}
+	}
+	
+	effect = {
+		USA_194 = {add_core = THIS}
+		188 = {add_core = THIS}
+		189 = {add_core = THIS}
+		186 = {add_core = THIS}
+		184 = {add_core = THIS}
+		187 = {add_core = THIS}
+		set_global_flag = southern_destiny_I
+		badboy = 2
+	}
+	
+	}
+	
+	southern_destiny_II = {
+	picture = "romanians_marching"
+	potential = {
+		tag = USA
+		NOT = {has_global_flag = southern_destiny_II}
+		has_global_flag = southern_destiny_I
+	}
+	
+	allow = {
+		state_n_government = 1
+		romanticism = 1
+		year = 1850
+		all_core = {owned_by = THIS}
+	}
+	
+	effect = {
+		USA_139 = {add_core = THIS}
+		USA_144 = {add_core = THIS}
+		set_global_flag = southern_destiny_II
+		badboy = 2
+	}
+	
+	}
+	
+	great_lakes_domination = {
+	picture = "romanians_marching"
+	potential = {
+		tag = USA
+		NOT = {has_global_flag = great_lakes_domination}
+		has_global_flag = southern_destiny_I
+		has_global_flag = northern_destiny_II
+	}
+	
+	allow = {
+		state_n_government = 1
+		romanticism = 1
+		year = 1850
+		all_core = {owned_by = THIS}
+	}
+	
+	effect = {
+		CAN_50 = {add_core = THIS}
+		USA_158 = {add_core = THIS}
+		50 = {add_core = THIS}
+		36 = {add_core = THIS}
+		USA_162 = {add_core = THIS}
+		USA_151 = {add_core = THIS}
+		USA_148 = {add_core = THIS}
+		USA_168 = {add_core = THIS}
+		set_global_flag = great_lakes_domination
+		badboy = 2
+	}
+	
+	}
+	
+	great_plains_domination = {
+	picture = "romanians_marching"
+	potential = {
+		tag = USA
+		NOT = {has_global_flag = great_plains_domination}
+		has_global_flag = great_plains_domination
+	}
+	
+	allow = {
+		state_n_government = 1
+		romanticism = 1
+		year = 1850
+		all_core = {owned_by = THIS}
+	}
+	
+	effect = {
+		ENG_36 = {add_core = THIS}
+		ENG_30 = {add_core = THIS}
+		ENG_22 = {add_core = THIS}
+		USA_116 = {add_core = THIS}
+		USA_118 = {add_core = THIS}
+		USA_121 = {add_core = THIS}
+		USA_111 = {add_core = THIS}
+		USA_124 = {add_core = THIS}
+		127 = {add_core = THIS}
+		126	= {add_core = THIS}
+		106 = {add_core = THIS}
+		109 = {add_core = THIS}
+		108 = {add_core = THIS}
+		
+		set_global_flag = great_plains_domination
+		badboy = 2
+	}
+	
+	}
+	
+	
+	
+}

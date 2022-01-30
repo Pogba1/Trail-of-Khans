@@ -1,8 +1,6 @@
-owner = SPA
-controller = SPA
+owner = IBE
+controller = IBE
 add_core = PHL
-trade_goods = fish
-life_rating = 30
+trade_goods = fruit
+life_rating = 35
 colonial = 2
-
-set_province_flag = farm

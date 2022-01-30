@@ -1,11 +1,9 @@
-owner = UCA
-controller = UCA
-add_core = UCA
-#add_core = COS
+owner = GCO
+controller = GCO
+add_core = COS
 trade_goods = coffee
-life_rating = 30
+life_rating = 33
 1861.1.1 = {
-	owner = COS
-	controller = COS
+    owner = COS
+    controller = COS
 }
-set_province_flag = farm

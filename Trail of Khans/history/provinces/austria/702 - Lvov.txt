@@ -1,11 +1,8 @@
-owner = AUS
-controller = AUS
-add_core = AUS
+owner = PLC
+controller = PLC
 add_core = PLC
-#add_core = RUT
-##add_core = RUT
-#add_core = PLC
+add_core = RUT
+add_core = POL
+add_core = UKR
 trade_goods = coal
 life_rating = 35
-
-set_province_flag = mine

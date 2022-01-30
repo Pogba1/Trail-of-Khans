@@ -1,4 +1,8 @@
+owner = DND
+controller = DND
+add_core = SEG
+add_core = MAS
+add_core = DND
 trade_goods = cattle
-life_rating = 10
-
-set_province_flag = farm
+terrain = semidesert
+life_rating = 30

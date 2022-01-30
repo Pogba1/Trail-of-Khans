@@ -1,13 +1,12 @@
-owner = RPL
-controller = RPL
-add_core = CAN
-add_core = MTC
-add_core = RPL
+owner = FRA
+controller = FRA
+add_core = QUE
 trade_goods = timber
-life_rating = 25
-1836.1.2 = {
-	owner = CAN
-	controller = CAN
-	colonial = 0
+terrain = new_world_arctic
+life_rating = 10
+1861.1.1 = {
+    owner = ENG
+    controller = ENG
+    add_core = RPL
+    colonial = 2
 }
-set_province_flag = mine

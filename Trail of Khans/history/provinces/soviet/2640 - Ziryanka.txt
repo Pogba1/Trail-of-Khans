@@ -1,5 +1,8 @@
-add_core = RUS
-trade_goods = cattle
-life_rating = 15
-
-set_province_flag = farm
+owner = OMA
+controller = OMA
+add_core = OMA
+add_core = BLC
+add_core = MAK
+trade_goods = fish
+terrain = mountain
+life_rating = 31

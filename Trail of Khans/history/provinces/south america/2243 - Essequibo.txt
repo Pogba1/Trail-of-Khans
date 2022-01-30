@@ -1,6 +1,9 @@
-owner = ENG
-controller = ENG
+owner = GCO
+controller = GCO
+add_core = GCO
+add_core = GUY
+add_core = VNZ
 trade_goods = fruit
-life_rating = 30
+terrain = jungle
+life_rating = 35
 colonial = 2
-set_province_flag = farm

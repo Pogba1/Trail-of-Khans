@@ -1,7 +1,9 @@
-owner = ABU
-controller = ABU
-add_core = ABU
-trade_goods = precious_metal
-life_rating = 35
-
-set_province_flag = mine
+owner = SVF
+controller = SVF
+add_core = SVF
+add_core = BHR
+add_core = NEJ
+trade_goods = fruit
+terrain = semidesert
+life_rating = 34
+colonial = 2

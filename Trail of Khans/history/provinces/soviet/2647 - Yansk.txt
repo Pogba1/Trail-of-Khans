@@ -1,5 +1,7 @@
-add_core = RUS
-trade_goods = timber
-life_rating = 15
-
-set_province_flag = mine
+owner = IBE
+controller = IBE
+add_core = TMR
+trade_goods = fish
+life_rating = 35
+colonial = 2
+terrain = hills

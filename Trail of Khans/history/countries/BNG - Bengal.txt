@@ -4,10 +4,8 @@ culture = bihari
 religion = hindu
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.1
-
-set_country_flag = has_lapsed
 
 # Political reforms
 slavery = no_slavery
@@ -16,9 +14,8 @@ vote_franschise = none_voting
 public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-voting_system = jefferson_method
+voting_system = first_past_the_post
 political_parties = underground_parties
-
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -29,48 +26,30 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
+#New Reforms
+conscription = four_year_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = culture_voting_only
+border_policy = open_borders
+
+set_country_flag = hindu_country
+
+# Inventions
+#bottling_process = yes
+modern_winemaking = yes
+#big_sail_ships = yes
+#sail_ships_transport = yes
+#big_sail_support = yes
+
 ruling_party = BNG_conservative
 upper_house = {
-	fascist = 0
-	liberal = 11
-	conservative = 73
-	reactionary = 16
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
+    fascist = 0
+    liberal = 11
+    conservative = 73
+    reactionary = 16
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
 }
-
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-army_schools = yes_army_schools
-
-# Technologies
-military_staff_system = 1
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-late_enlightenment_philosophy = 1
-private_banks = 1
-early_classical_theory_and_critique = 1
-
-# Inventions
-
-1861.1.1 = {
-
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-foreign_officers = yes_foreign_officers
-army_schools = yes_army_schools
-
-# Technologies
-military_staff_system = 1
-flintlock_rifles = 1
-army_command_principle = 1
-bronze_muzzle_loaded_artillery = 1
-late_enlightenment_philosophy = 1
-private_banks = 1
-early_classical_theory_and_critique = 1
-
-# Inventions
-
-}
-

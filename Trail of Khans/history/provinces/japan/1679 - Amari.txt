@@ -1,9 +1,7 @@
 owner = JAP
 controller = JAP
 add_core = JAP
-trade_goods = iron
+add_core = RYU
+trade_goods = fish
 life_rating = 35
-
-
-
-set_province_flag = mine
+terrain = small_island

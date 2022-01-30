@@ -4,13 +4,11 @@ culture = bedouin
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.08
-civilized = yes
-prestige = 10
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -28,24 +26,32 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
+# New Reforms
+conscription = no_draft
+debt_law = peonage
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+
 ruling_party = SYR_conservative
 last_election = 1834.1.1
 upper_house = {
-	fascist = 0
-	liberal = 35
-	conservative = 55
-	reactionary = 10
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
+    fascist = 0
+    liberal = 35
+    conservative = 55
+    reactionary = 10
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
 }
 
-# Technologies
-military_staff_system = 1
-flintlock_rifles = 1
-no_standard = 1
-late_enlightenment_philosophy = 1
-private_banks = 1
-early_classical_theory_and_critique = 1
+set_country_flag = sunni_country
+schools = developing_tech_school
 
-# Inventions
+foreign_artillery = yes_foreign_artillery
+foreign_weapons = yes_foreign_weapons
+
+# Technologies
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1

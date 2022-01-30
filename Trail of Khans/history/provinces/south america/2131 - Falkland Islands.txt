@@ -1,8 +1,13 @@
 owner = ENG
 controller = ENG
 add_core = ENG
+add_core = ARG
 trade_goods = wool
 life_rating = 30
 colonial = 2
-
-set_province_flag = farm
+terrain = new_world_arctic
+1861.1.1 = {
+    add_core = ARG
+    remove_core = ARC
+    colonial = 0
+}

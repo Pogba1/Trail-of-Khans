@@ -1,7 +1,5 @@
 owner = DAI
 controller = DAI
 add_core = DAI
-trade_goods = tea
-life_rating = 30
-
-set_province_flag = farm
+trade_goods = wool
+life_rating = 34

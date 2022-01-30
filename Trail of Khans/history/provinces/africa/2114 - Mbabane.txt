@@ -1,8 +1,5 @@
-owner = TRN
-controller = TRN
-add_core = TRN
-add_core = SAF
-trade_goods = coal
+owner = ZUL
+controller = ZUL
+add_core = SUA
+trade_goods = grain
 life_rating = 35
-
-set_province_flag = mine

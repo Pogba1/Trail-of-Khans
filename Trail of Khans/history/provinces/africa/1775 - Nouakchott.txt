@@ -1,4 +1,6 @@
+owner = TRZ
+controller = TRZ
+add_core = TRZ
 trade_goods = fish
-life_rating = 20
-
-set_province_flag = farm
+terrain = desert
+life_rating = 15

@@ -1,10 +1,7 @@
-owner = POR
-controller = POR
+owner = IBE
+controller = IBE
+terrain = savanna
 trade_goods = grain
 life_rating = 35
 colonial = 2
-1861.1.1 = {
-	naval_base = 1
-}
-
-set_province_flag = farm
+1861.1.1 = { naval_base = 1 }

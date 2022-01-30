@@ -1,8 +1,13 @@
-owner = USA
-controller = USA
-add_core = USA
-trade_goods = grain
+owner = FRA
+controller = FRA
+add_core = IRO
+add_core = LOU
+trade_goods = coal
 life_rating = 35
-1861.1.1 = { railroad = 3 }
 
-set_province_flag = farm
+party_loyalty = {
+    ideology = liberal
+    loyalty_value = 10
+}
+
+1861.1.1 = { railroad = 3 }

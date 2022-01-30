@@ -1,10 +1,7 @@
-owner = TUR
-controller = TUR
-add_core = TUR
+owner = BYZ
+controller = BYZ
+add_core = BYZ
 add_core = BUL
-#add_core = ROM
- 
+add_core = ROM
 trade_goods = grain
 life_rating = 35
-
-set_province_flag = farm

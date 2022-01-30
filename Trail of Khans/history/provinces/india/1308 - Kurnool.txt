@@ -1,8 +1,7 @@
-owner = ENG
-controller = ENG
+owner = HYD
+controller = HYD
+add_core = HYD
+add_core = MYS
 add_core = HND
-trade_goods = tea
+trade_goods = cattle
 life_rating = 32
-colonial = 1
-
-set_province_flag = farm

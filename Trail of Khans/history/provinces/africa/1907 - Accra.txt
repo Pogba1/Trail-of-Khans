@@ -1,13 +1,11 @@
-owner = DEN
-controller = DEN
-colonial = 1
-trade_goods = cattle
+owner = HRE
+controller = HRE
+add_core = ASH
+trade_goods = coffee
 life_rating = 35
+colonial = 1
 1861.1.1 = {
-	owner = ENG
-	controller = ENG
-	colonial = 1
-	life_rating = 35
+    owner = ENG
+    controller = ENG
+    colonial = 2
 }
-
-set_province_flag = farm

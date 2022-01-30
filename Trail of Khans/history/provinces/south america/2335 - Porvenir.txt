@@ -1,4 +1,4 @@
+add_core = PTG
 trade_goods = wool
-life_rating = 1
-
-set_province_flag = farm
+terrain = new_world_arctic
+life_rating = 15

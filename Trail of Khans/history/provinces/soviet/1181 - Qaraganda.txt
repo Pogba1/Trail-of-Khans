@@ -1,9 +1,6 @@
+owner = RUS
+controller = RUS
+add_core = KAZ
 trade_goods = coal
-add_core = RUS
-life_rating = 25
-1861.1.1 = {
-	owner = RUS
-	controller = RUS
-	colonial = 2
-}
-set_province_flag = mine
+life_rating = 35
+colonial = 2

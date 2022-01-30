@@ -1,9 +1,8 @@
-owner = TUR
-controller = TUR
-add_core = TUR
-#add_core = CYP
+owner = VEN
+controller = VEN
+add_core = VEN
+add_core = CYP
 add_core = GRE
 trade_goods = fruit
 life_rating = 35
-
-set_province_flag = farm
+terrain = mountain

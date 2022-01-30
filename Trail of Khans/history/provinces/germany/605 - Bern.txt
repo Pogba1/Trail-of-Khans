@@ -1,14 +1,18 @@
-owner = SWI
-controller = SWI
+owner = HRE
+controller = HRE
+add_core = HRE
 add_core = SWI
 trade_goods = iron
-life_rating = 35
+life_rating = 34
 fort = 1
-1861.1.1 = { 
-	railroad = 1 
-	fort = 2
+
+party_loyalty = {
+    ideology = conservative
+    loyalty_value = 1
+}
+party_loyalty = {
+    ideology = liberal
+    loyalty_value = 30
 }
 
-
-
-set_province_flag = mine
+1861.1.1 = { railroad = 1 }

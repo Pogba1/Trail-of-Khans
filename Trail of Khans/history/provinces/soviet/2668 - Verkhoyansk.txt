@@ -1,5 +1,8 @@
+owner = RUS
+controller = RUS
 add_core = RUS
+add_core = YAK
 trade_goods = grain
-life_rating = 15
-
-set_province_flag = farm
+terrain = boreal
+life_rating = 10
+colonial = 2

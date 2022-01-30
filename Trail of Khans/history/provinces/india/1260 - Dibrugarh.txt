@@ -1,8 +1,6 @@
-owner = ENG
-controller = ENG
+owner = ASM
+controller = ASM
 add_core = HND
-trade_goods = tea
+add_core = ASM
+trade_goods = fruit
 life_rating = 32
-colonial = 1
-
-set_province_flag = farm

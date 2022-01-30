@@ -1,7 +1,7 @@
 owner = BRZ
 controller = BRZ
 add_core = BRZ
+add_core = PNB
 trade_goods = tobacco
-life_rating = 33
-
-set_province_flag = farm
+terrain = farmlands
+life_rating = 35

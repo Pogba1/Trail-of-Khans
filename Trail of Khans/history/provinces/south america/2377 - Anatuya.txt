@@ -2,6 +2,5 @@ owner = ARG
 controller = ARG
 add_core = ARG
 trade_goods = timber
-life_rating = 35
-
-set_province_flag = mine
+terrain = savanna
+life_rating = 15

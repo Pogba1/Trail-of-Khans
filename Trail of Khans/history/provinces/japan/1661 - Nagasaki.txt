@@ -1,10 +1,5 @@
-owner = JAP
-controller = JAP
+owner = IBE
+controller = IBE
 add_core = JAP
-trade_goods = coal
+trade_goods = tea
 life_rating = 35
-1861.1.1 = {
-	naval_base = 1
-}
-
-set_province_flag = mine

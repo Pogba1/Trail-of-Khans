@@ -1,12 +1,9 @@
-owner = PRU
-controller = PRU
+owner = PLC
+controller = PLC
 add_core = PRU
-#add_core = GER
+add_core = GER
 add_core = PLC
-#add_core = PLC
+add_core = POL
 trade_goods = cattle
 life_rating = 40
-fort = 1
 1861.1.1 = { railroad = 3 }
-
-set_province_flag = farm

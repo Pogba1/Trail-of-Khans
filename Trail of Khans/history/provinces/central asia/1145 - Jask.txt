@@ -1,7 +1,8 @@
-owner = PER
-controller = PER
+owner = SVF
+controller = SVF
+add_core = SVF
 add_core = PER
-trade_goods = fish
+add_core = BLC
+trade_goods = fruit
 life_rating = 35
-
-set_province_flag = farm
+terrain = dryhills

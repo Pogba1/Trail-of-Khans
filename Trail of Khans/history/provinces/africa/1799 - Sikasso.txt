@@ -1,4 +1,6 @@
-trade_goods = cotton
-life_rating = 15
-
-set_province_flag = farm
+owner = MAS
+controller = MAS
+add_core = SEG
+add_core = MAS
+trade_goods = fruit
+life_rating = 30

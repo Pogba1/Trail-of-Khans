@@ -1,6 +1,12 @@
-owner = ARG
-controller = ARG
+owner = ARG
+controller = ARG
 add_core = ARG
 trade_goods = fruit
-life_rating = 35
-set_province_flag = farm
+terrain = dryhills
+life_rating = 35
+1861.1.1 = {
+    owner = ARG
+    controller = ARG
+    add_core = ARG
+    remove_core = ARC
+    }

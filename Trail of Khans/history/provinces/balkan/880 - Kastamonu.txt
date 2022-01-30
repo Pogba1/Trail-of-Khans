@@ -1,7 +1,7 @@
-owner = TUR
-controller = TUR
+owner = BYZ
+controller = BYZ
+add_core = BYZ
+add_core = PNT
 add_core = TUR
 trade_goods = coal
 life_rating = 35
-
-set_province_flag = mine

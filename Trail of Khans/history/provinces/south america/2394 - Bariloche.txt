@@ -1,6 +1,4 @@
-owner = ARG
-controller = ARG
-add_core = ARG
-trade_goods = coal
-life_rating = 25
-set_province_flag = mine
+add_core = PTG
+trade_goods = wool
+terrain = steppe
+life_rating = 15

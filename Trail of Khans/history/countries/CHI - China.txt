@@ -1,34 +1,22 @@
-capital = 1612
+capital = 1616
 primary_culture = beifaren
-culture = manchu
 culture = nanfaren
+culture = manchu
+culture = hakka
+culture = miao
+culture = min
+culture = zhuang
+culture = yue
+culture = yi
 religion = mahayana
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
-literacy = 0.04
+nationalvalue = nv_autocracy
+literacy = 0.08
 non_state_culture_literacy = 0.02
-is_releasable_vassal = no	#No more Duke forced civilized
+is_releasable_vassal = no
 
-#set_country_flag = conquerable_1865
-
-ruling_party = CHI_conservative
-upper_house = {
-	fascist = 0
-	liberal = 10
-	conservative = 75
-	reactionary = 15
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
-}
-
-# Starting Consciousness
-consciousness = 0
-nonstate_consciousness = 0
-
-oob = "CHI_oob.txt"
-
+# Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
@@ -38,36 +26,71 @@ trade_unions = no_trade_unions
 voting_system = jefferson_method
 political_parties = underground_parties
 
+# Social Reforms
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
-
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
-1839.1.1 = {
-	decision = appoint_lin_zexu
+#New Reforms
+conscription = two_year_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = all_voting_pops
+border_policy = closed_borders
+
+set_country_flag = mahayana_country
+
+ruling_party = CHI_conservative
+upper_house = {
+    fascist = 0
+    liberal = 0
+    conservative = 75
+    reactionary = 25
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
 }
 
+# Technologies
+
+# Inventions
+#bottling_process = yes
+modern_winemaking = yes
+#big_sail_ships = yes
+#sail_ships_transport = yes
+#big_sail_support = yes
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "CHI_oob.txt"
 1861.1.1 = {
-	oob = "/1861/CHI_oob.txt"
-	literacy = 0.07
-	non_state_culture_literacy = 0.04
+    oob = "/1861/CHI_oob.txt"
+}
+1861.1.1 = {
 
-	#Military Reforms
-	foreign_training = yes_foreign_training
-	foreign_weapons = yes_foreign_weapons
-	military_constructions = yes_military_constructions
-	foreign_officers = yes_foreign_officers
-	foreign_naval_officers = yes_foreign_naval_officers
+set_country_flag = has_lost_mandate
+set_global_flag = kowloon_incident
+set_global_flag = taiping_has_happened
+decision = clear_out_the_manchu_elite
 
-	#Technologies
-	post_napoleonic_thought = 1
-	flintlock_rifles = 1
-	bronze_muzzle_loaded_artillery = 1
-	army_command_principle = 1
-	post_nelsonian_thought = 1
-	water_wheel_power = 1
+foreign_weapons = yes_foreign_weapons
+foreign_officers = yes_foreign_officers
+army_schools = yes_army_schools
+admin_reform = yes_admin_reform
+finance_reform = yes_finance_reform
+
+# Technologies
+flintlock_rifles = 1
+military_staff_system = 1
+
+# Inventions
+#bottling_process = yes
+
 }

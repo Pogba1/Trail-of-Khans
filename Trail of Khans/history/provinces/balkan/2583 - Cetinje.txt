@@ -1,8 +1,6 @@
-owner = MON
-controller = MON
+owner = HPS
+controller = HPS
+add_core = HPS
 add_core = MON
-
 trade_goods = fruit
 life_rating = 35
-
-set_province_flag = farm

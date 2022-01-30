@@ -4,24 +4,17 @@ political_decisions = {
 			tag = RUS
 			has_country_flag = serfdom_not_abolished
 			#government = absolute_monarchy
+			debt_law = serfdom
 		}
 		allow = {
-			OR = {
-				AND = {
-					upper_house = {
-						ideology = liberal
-						value = 0.3
-					}
-					average_consciousness = 3
-				}	
-				AND = {
-					ruling_party_ideology = liberal
-					average_consciousness = 4
-				}
-				average_militancy = 4
-			}
+			
+				ideological_thought = 1
+				ruling_party_ideology = liberal
+				#average_militancy = 4
+			
 		}
 		effect = {
+			political_reform = peonage
 			farmers = {
 				militancy = -2
 				consciousness = 1
@@ -31,318 +24,304 @@ political_decisions = {
 				consciousness = 1
 			}
 			badboy = -4
-			#years_of_research = 0.05
+			years_of_research = 0.05
 			clr_country_flag = serfdom_not_abolished
 		}
 	}
-	establish_the_sovnarkom = {
+	peasants_reform = {
+		picture = "vassal_payment"
 		potential = {
 			tag = RUS
-			NOT = {
-				has_country_flag = big_brother_is_watching
-			}
-			government = proletarian_dictatorship
+			NOT = {has_country_flag =peasants_reform}
 		}
 		allow = {
-			mass_politics = 1
-		}
-		
-		effect = {
-			any_pop = {
-				militancy = -1
-				consciousness = -1
-				ideology = {
-					value = socialist
-					factor = 0.05
-				}
-			}
-			prestige = 5
-			set_country_flag = big_brother_is_watching
-		}
-	}
-	
-	manifesto_on_unshakable_autocracy = {
-		potential = {
-			tag = RUS
-			government = absolute_monarchy
-			NOT = {
-				has_country_flag = the_manifesto
-			}
-			nationalism_n_imperialism = 1
-		}
-		
-		allow = {
-			revolution_n_counterrevolution = 1
-		}
-		
-		effect = {
-			prestige = 5
-			badboy = 3
-			any_pop = {
-				consciousness = -0.5
-				militancy = -0.5
-			}
-			set_country_flag = the_manifesto
-		}
-	}
-	
-	promulgate_the_ems_ukaz = {
-		potential = {
-			tag = RUS
-			NOT = {
-				has_country_flag = ems_ukaz_dispatched
-			}
-			government = absolute_monarchy
-			owns = 958
-			revolution_n_counterrevolution = 1
-			exists = GER
-			GER = {
-				owns = 570
-			}
-		}
-		
-		allow = {
+			NOT = {debt_law = serfdom}
 			biologism = 1
 		}
-		
 		effect = {
-			any_pop = {
-				limit = {
-					has_pop_culture = ukrainian
-				}
-				militancy = 3
-				consciousness = -2
-			}
-			set_country_flag = ems_ukaz_dispatched
+		THIS = {add_country_modifier = {name = peasants_reform duration = 4380}}
+		social_reform = low_schools
+		set_country_flag = peasants_reform
 		}
 	}
-
-	protect_eastern_christians = {
-		potential = {
-			tag = RUS
-			is_greater_power = yes
-			government = absolute_monarchy
-			NOT = {
-				has_country_flag = eastern_christians_up_in_here_yall
-			}
-			exists = TUR
-			TUR = {
-				government = absolute_monarchy
-				is_greater_power = no
-			}
-		}
-		
-		allow = {
-			NOT = {
-				relation = {
-					who = TUR
-					value = 0
-				}
-			}
-			TUR = {
-				average_militancy = 3
-			}
-		}
-		
-		effect = {
-			set_country_flag = eastern_christians_up_in_here_yall
-			add_country_modifier = {
-				name = protector_of_eastern_christendom
-				duration = -1
-			}
-			any_greater_power = {
-				limit = {
-					NOT = {
-						tag = TUR
-					}
-					capital_scope = {
-						continent = europe
-					}
-				}
-				country_event = { id=19030 days=0 }
-			}
-		}
-	}
-	
-	peking_convention = {
-		potential = {
-			tag = RUS
-			MCK = {
-					owns = 1082 }
-			NOT = {
-				has_country_flag = peking_convention
-				war_with = MCK
-			}
-			OR = {
-				is_sphere_leader_of = MCK
-				has_global_flag = summer_palace_torched
-			}
-		}
-		
-		allow = {
-			is_greater_power = yes
-		}
-		
-		effect = {
-			CHI_1082 = {
-				add_core = RUS
-			}
-			1469 = {
-				add_core = RUS
-				remove_core = CHI
-			}
-			set_country_flag = peking_convention			
-			MCK = {
-				country_event = { id=80000 days=0 }
-			}
-			prestige = 2
-			badboy = 2
-		}
-	}
-
-	russian_vladivostok = {
-		potential = {
+	reclaim_ruthenia = {
+		picture =greater_ukraine
+		potential={
 		tag = RUS
-		owns = 1085
-		owns = 1084
-		owns = 2617
-		owns = 1083
-        	owns = 1082
-		NOT = {
-				has_global_flag = russian_vladivostok
-			}
+		NOT = {has_country_flag =reclaim_ruthenia}
+			
 		}
-		
 		allow = {
-			prestige = 10
+			RUS = {RUS_977 = {owned_by = THIS}}
+			state_n_government = 1
 		}
 		
 		effect = {
-			1085 = {
-				change_province_name = "Blagoveshchensk"
+			set_country_flag = reclaim_ruthenia
+			badboy = 10
+			RUS_978 = {add_core = THIS}
+			RUS_973 = {add_core = THIS}
+			RUS_964 = {add_core = THIS}
+			RUS_955 = {add_core = THIS}
+			RUS_968 = {add_core = THIS}
+			RUS_958 = {add_core = THIS}
+			RUS_959 = {add_core = THIS}
+			RUS_940 = {add_core = THIS}
+			RUS_718 = {add_core = THIS}
 			}
-			1084 = {
-				change_province_name = "Nikolayevsk-na-amure"
+		ai_will_do = { factor = 1 }
+	}
+	integrate_circassia= {
+	picture = "embrace_minority"
+	potential={
+	tag = RUS
+	NOT = {has_country_flag =integrate_circassia}
+		OR={
+			CIR = {vassal_of=THIS}
+			CIR = {substate_of = THIS}
+			AND={
+			1051 = {owned_by=THIS}
+			NOT={exists = CIR}
 			}
-			1083 = {
-				change_province_name = "Khabarovsk"
-			}
-			2617 = {
-				change_province_name = "Pashkovo"
-			}
-			1082 = {
-				change_province_name = "Vladivostok"
-				state_scope = {
-					change_region_name = "Primorye"
+		}
+	}
+	allow = {
+		state_n_government = 1
+	}
+	
+	effect = {
+		set_country_flag = integrate_circassia
+		prestige = 5
+		inherit = CIR
+		add_accepted_culture = circassian
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	new_frontiers= {
+	picture = "kwangchowan_china"
+	potential={
+	NOT = {has_country_flag =new_frontiers}
+		tag = RUS
+	}
+	allow = {
+		state_n_government = 1
+		1060 = {owned_by = THIS}
+		RUS_2685 = {owned_by = THIS}
+		1184 = {owned_by = THIS}
+		2611 = {owned_by = THIS}
+		1181 = {owned_by = THIS}
+		RUS_1064 = {owned_by = THIS}
+		RUS_1469 = {owned_by = THIS}
+		2674 = {owned_by = THIS}
+		1077 = {owned_by = THIS}
+		2691 = {owned_by = THIS}
+		2701 = {owned_by = THIS}
+		RUS_1075 = {owned_by = THIS}
+		RUS_1079 = {owned_by = THIS}
+		2644 = {owned_by = THIS}
+		2696 = {owned_by = THIS}
+		2641 = {owned_by = THIS}
+		1080 = {owned_by = THIS}
+	}
+	
+	effect = {
+		set_country_flag = new_frontiers
+		1060 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		RUS_2685 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1184 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2611 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1181 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		RUS_1064 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		RUS_1469 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2674 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1077 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2691 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2701 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		RUS_1075 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		RUS_1079 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2644 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2696 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2641 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1080 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		cattle = -50
+		grain = -100
+		}
+	ai_will_do = { factor = 1 }
+	
+	}
+	
+	jewel_of_the_pacific = {
+	picture = "kwangchowan_china"
+	potential={
+	has_country_flag =new_frontiers
+	NOT = {has_country_flag =jewel_of_the_pacific}
+		tag = RUS
+	}
+	allow = {
+	money = 10000
+	#any_owned_province = {NOT={has_province_modifier = siberian_frontier}}
+	1081 = {owned_by = THIS}
+	2697 = {owned_by = THIS}
+	CHI_1082 = {owned_by = THIS}
+	}
+	
+	effect = {
+		set_country_flag = jewel_of_the_pacific
+		treasury = -10000
+		1081 = {add_core = RUS}
+		2697 = {add_core = RUS}
+		CHI_1082 = {add_core = RUS}
+		1082 = {change_province_name = "Vladivostok"}
+		1082 = {life_rating = 8}
+		1082 = {naval_base = 1}
+		1082 = {infrastructure  = 1}
+		1082 = {add_province_modifier = {name = jewel_of_the_pacific duration = 3650}}
+		1082 = {add_core = RUS}
+		1082 = {remove_core = MCK}
+		1082 = {remove_core = CHI}
+		1082 = {remove_core = QNG}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	influence_in_manchuria= {
+	picture = "kwangchowan_china"
+	potential={
+	has_country_flag =jewel_of_the_pacific
+	NOT = {has_country_flag =influence_in_manchuria}
+		tag = RUS
+	}
+	allow = {
+	MCK = {
+			all_core = {
+			OR = {
+				OR = {
+				owned_by = THIS
+				owner = {
+						in_sphere = THIS
+						OR = {
+							AND = {
+								is_vassal = no
+								is_substate = no
+								}
+							vassal_of = THIS
+						}
+					}
 				}
+				province_id = 1481
 			}
-			prestige = 5
-			set_global_flag = russian_vladivostok
+			
+			}
+			
 		}
 	}
 	
-	move_capital_to_moscow = {
-		potential = {
-			tag = RUS
-			AND = {
-				NOT = { owns = 339 } # Viipuri
-				NOT = { is_our_vassal = FIN }
+	effect = {
+		set_country_flag = influence_in_manchuria
+		CHI_1479 = {add_core = RCH}
+		CHI_1552 = {add_core = RCH}
+		1481 = {add_core = RCH}
+		release = RCH
+		CHI_1479 = {owner = {country_event = {id = 2300103 days = 1}}}
+		CHI_1552 = {owner = {country_event = {id = 2300103 days = 1}}}
+		create_vassal = RCH
+		1081 = {
+				any_pop = {
+					limit = {has_pop_culture = russian}
+					move_pop = 1553
+				}
 			}
-			owns = 1008 # Moscow
-			capital = 994
 		}
-		
-		allow = {
-			owns = 1008 # Moscow
-		}
-		
-		effect = {
-			capital = 1008
-			prestige = 5
-		}
-		ai_will_do = {
-			factor = 1
-		}
+		ai_will_do = { factor = 1 }
 	}
-	found_the_imperial_academy = {
-			potential = {
-				tag = RUS
-				NOT = { tech_school = russian_tech_school }
-			}
-			
-			allow = {
-				owns = 994
-				idealism = 1
-				army_professionalism = 1
-				naval_professionalism = 1
-			}
-			
-			effect = {
-				tech_school = russian_tech_school
-				prestige = 5
-			}
-			ai_will_do = {
-				factor = 1
-				modifier = { 
-					factor = 0
-					NOT = { business_banks = 1 }
-				}
-				modifier = { 
-					factor = 0
-					NOT = { biologism = 1 }
-				}
-			}
-	}
-	russian_sakhalin = {
-			picture = map_yellow_sea
-			potential = {
-				tag = RUS
-				OR = {
-					owns = 1086 #Pogobi
-					owns = 1087 #Ootomari
-				}
-				OR = {
-					has_global_flag = japanese_sakhalin
-					NOT = { has_global_flag = russian_sakhalin }
-				}
-			}
-			allow = {
 	
-				owns = 1086 #Pogobi/Sagaren
-				owns = 1087 #Ootomari/Toyohara
-				owns = 1088 #Shumshu/Shumushu
-				owns = 1089 #Etorofu
-			}
-			effect = {
-				prestige = 5
-				any_country = {
-					limit = {
-						tag = JAP
-						exists = yes
-					}
-					prestige = -10
-				}
-				1088 = {
-					change_province_name = "Shumshu"
-				}
-				1089 = {
-					change_province_name = "Iturrup"
-				}
-				1086 = {
-					change_province_name = "Yuzhno"
-				}
-				1086 = {
-					change_province_name = "Pogobi"
-					state_scope = {
-						change_region_name = "Sakhalin"
-						any_owned = { add_core = THIS }
-					}
-				}
-				clr_global_flag = japanese_sakhalin
-				set_global_flag = russian_sakhalin
-			}
-			ai_will_do = {
-				factor = 1
-			}
+	
+	trans_siberian= {
+	picture = "build_gotthard_tunnel"
+	potential={
+	NOT = {has_country_flag =trans_siberian}
+	has_country_flag =jewel_of_the_pacific
+		tag = RUS
+	}
+	allow = {
+	money = 55000
+	integral_rail_system = 1
+	1008 = {owned_by = THIS}
+	1013 = {owned_by = THIS}
+	1020 = {owned_by = THIS}
+	1030 = {owned_by = THIS}
+	1042 = {owned_by = THIS}
+	1059 = {owned_by = THIS}
+	2658 = {owned_by = THIS}
+	1061 = {owned_by = THIS}
+	1064 = {owned_by = THIS}
+	2686 = {owned_by = THIS}
+	2698 = {owned_by = THIS}
+	2674 = {owned_by = THIS}
+	2691 = {owned_by = THIS}
+	1076 = {owned_by = THIS}
+	2677 = {owned_by = THIS}
+	1075 = {owned_by = THIS}
+	2670 = {owned_by = THIS}
+	1079 = {owned_by = THIS}
+	1081 = {owned_by = THIS}
+	2697 = {owned_by = THIS}
+	1084 = {owned_by = THIS}
+	1083 = {owned_by = THIS}
+	1082 = {owned_by = THIS}
+	}
+	
+	effect = {
+		set_country_flag = trans_siberian
+		treasury = -55000
+		1008 = {infrastructure = 2}
+		1013 = {infrastructure = 2}
+		1020 = {infrastructure = 2}
+		1030 = {infrastructure = 2}
+		1042 = {infrastructure = 2}
+		1059 = {infrastructure = 2}
+		2658 = {infrastructure = 2}
+		1061 = {infrastructure = 2}
+		1064 = {infrastructure = 2}
+		2686 = {infrastructure = 2}
+		2698 = {infrastructure = 2}
+		2674 = {infrastructure = 2}
+		2691 = {infrastructure = 2}
+		1076 = {infrastructure = 2}
+		2677 = {infrastructure = 2}
+		1075 = {infrastructure = 2}
+		2670 = {infrastructure = 2}
+		1079 = {infrastructure = 2}
+		1081 = {infrastructure = 2}
+		2697 = {infrastructure = 2}
+		1084 = {infrastructure = 2}
+		1083 = {infrastructure = 2}
+		1082 = {infrastructure = 2}
+		1008 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1013 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1020 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1030 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1042 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1059 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2658 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1061 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1064 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2686 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2698 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2674 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2691 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1076 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2677 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1075 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2670 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1079 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1081 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		2697 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1084 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1083 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		1082 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		}
+		ai_will_do = { factor = 1 }
 	}
 }

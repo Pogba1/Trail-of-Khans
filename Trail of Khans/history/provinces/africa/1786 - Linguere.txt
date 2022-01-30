@@ -1,4 +1,7 @@
+owner = WOL
+controller = WOL
+add_core = WOL
+add_core = TOO
 trade_goods = grain
-life_rating = 20
-
-set_province_flag = farm
+terrain = semidesert
+life_rating = 30

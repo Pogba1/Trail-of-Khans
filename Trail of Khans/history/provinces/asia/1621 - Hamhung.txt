@@ -2,8 +2,4 @@ owner = KOR
 controller = KOR
 add_core = KOR
 trade_goods = iron
-life_rating = 35
-
-
-
-set_province_flag = mine
+life_rating = 31

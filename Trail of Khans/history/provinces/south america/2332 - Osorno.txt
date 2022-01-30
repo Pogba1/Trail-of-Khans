@@ -1,7 +1,8 @@
-owner = CHL
-controller = CHL
+owner = PEU
+controller = PEU
+add_core = PEU
 add_core = CHL
-trade_goods = grain
-life_rating = 32
-
-set_province_flag = farm
+add_core = PTG
+trade_goods = fish
+terrain = montane_forest
+life_rating = 35

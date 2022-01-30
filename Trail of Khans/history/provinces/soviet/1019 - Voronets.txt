@@ -1,8 +1,6 @@
-owner = RUS
-controller = RUS
+owner = PLC
+controller = PLC
+add_core = PLC
 add_core = RUS
-#add_core = UKR
 trade_goods = grain
-life_rating = 33
-
-set_province_flag = farm
+life_rating = 35

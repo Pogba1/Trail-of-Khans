@@ -1,10 +1,8 @@
-owner = CHL
-controller = CHL
+owner = PEU
+controller = PEU
+add_core = PEU
 add_core = CHL
 trade_goods = iron
-life_rating = 32
+terrain = dryhills
+life_rating = 35
 1861.1.1 = { railroad = 1 }
-
-
-
-set_province_flag = mine

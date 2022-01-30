@@ -1,7 +1,7 @@
-owner = AST
-controller = AST
+owner = NET
+controller = NET
 add_core = AST
 trade_goods = fish
-life_rating = 30
+life_rating = 31
 
-set_province_flag = farm
+terrain = small_island

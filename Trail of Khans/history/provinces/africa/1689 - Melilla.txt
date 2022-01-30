@@ -1,8 +1,9 @@
-owner = SPA
-controller = SPA
+owner = IBE
+controller = IBE
+add_core = IBE
+add_core = SPA
 add_core = MOR
 trade_goods = fish
+terrain = urban
 life_rating = 35
 colonial = 2
-
-set_province_flag = farm

@@ -1,7 +1,8 @@
 owner = RUS
 controller = RUS
 add_core = RUS
+add_core = URA
 trade_goods = timber
-life_rating = 15
-
-set_province_flag = mine
+terrain = boreal
+life_rating = 10
+colonial = 2

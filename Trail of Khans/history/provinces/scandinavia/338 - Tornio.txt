@@ -1,10 +1,7 @@
-owner = FIN
-controller = FIN
+owner = SWE
+controller = SWE
 add_core = FIN
 add_core = SWE
 trade_goods = iron
-life_rating = 35
-
-
-
-set_province_flag = mine
+terrain = boreal
+life_rating = 10

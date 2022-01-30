@@ -1,11 +1,7 @@
-owner = AUS
-controller = AUS
+owner = HRE
+controller = HRE
+add_core = HRE
 add_core = AUS
 trade_goods = sulphur
 life_rating = 35
-1861.1.1 = { 
-	railroad = 3
-	fort = 2
-}
-
-set_province_flag = mine
+1861.1.1 = { railroad = 3 }

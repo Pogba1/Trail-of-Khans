@@ -1,12 +1,8 @@
-owner = PRU
-controller = PRU
-add_core = PRU
-#add_core = GER
-add_core = PLC
-#add_core = PLC
+owner = HPS
+controller = HPS
+add_core = HPS
+add_core = GER
+add_core = SLS
 trade_goods = coal
-life_rating = 38
-fort = 1
+life_rating = 40
 1861.1.1 = { railroad = 3 }
-
-set_province_flag = mine

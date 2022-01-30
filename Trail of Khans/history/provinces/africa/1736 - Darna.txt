@@ -1,8 +1,7 @@
-owner = TUR
-controller = TUR
+owner = TRI
+controller = TRI
 add_core = TRI
+add_core = CYR
 trade_goods = fish
 life_rating = 35
-colonial = 2
-
-set_province_flag = farm
+terrain = plains

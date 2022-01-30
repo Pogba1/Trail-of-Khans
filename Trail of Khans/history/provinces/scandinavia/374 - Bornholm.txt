@@ -1,8 +1,8 @@
-owner = DEN
-controller = DEN
+owner = DNN
+controller = DNN
+add_core = DNN
 add_core = DEN
-#add_core = SCA
+add_core = SCA
 trade_goods = fish
 life_rating = 35
-
-set_province_flag = farm
+terrain = small_island

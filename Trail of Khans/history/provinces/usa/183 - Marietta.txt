@@ -1,12 +1,17 @@
-owner = USA
-
-controller = USA
-
-add_core = USA
-
-trade_goods = coal
+owner = IRO
+controller = IRO
+add_core = IRO
+add_core = LOU
+trade_goods = cotton
 life_rating = 35
 
-1861.1.1 = { railroad = 3 }
+party_loyalty = {
+    ideology = conservative
+    loyalty_value = 5
+}
+party_loyalty = {
+    ideology = liberal
+    loyalty_value = 17
+}
 
-set_province_flag = mine
+1861.1.1 = { railroad = 3 }

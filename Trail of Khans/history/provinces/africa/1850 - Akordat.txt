@@ -1,7 +1,11 @@
-owner = EGY
-controller = EGY
-add_core = EGY
+owner = TIG
+controller = TIG
+add_core = ETH
+add_core = TIG
 trade_goods = fruit
-life_rating = 30
-
-set_province_flag = farm
+terrain = semidesert
+life_rating = 32
+1861.1.1 = {
+    owner = ETH
+    controller = ETH
+}

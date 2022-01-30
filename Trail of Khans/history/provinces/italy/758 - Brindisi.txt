@@ -1,15 +1,13 @@
-owner = SIC
-controller = SIC
+owner = IBE
+controller = IBE
+add_core = IBE
 add_core = SIC
-#add_core = ITA
-
-trade_goods = fish
+add_core = NAP
+add_core = ITA
+trade_goods = cotton
 naval_base = 1
-life_rating = 33
+life_rating = 40
 1861.1.1 = {
-	controller = ITA
-	owner = ITA
-	#add_core = ITA
-	naval_base = 2
+    controller = ITA
+    owner = ITA
 }
-set_province_flag = farm

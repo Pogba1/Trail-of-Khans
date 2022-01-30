@@ -1,4 +1,7 @@
+owner = SOK
+controller = SOK
+add_core = SOK
+add_core = KBO
 trade_goods = cattle
-life_rating = 15
-
-set_province_flag = farm
+terrain = semidesert
+life_rating = 30

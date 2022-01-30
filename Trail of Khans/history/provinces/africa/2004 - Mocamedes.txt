@@ -1,6 +1,5 @@
-owner = POR
-controller = POR
+owner = IBE
+controller = IBE
+terrain = semidesert
 trade_goods = fish
-life_rating = 35
-colonial = 2
-set_province_flag = farm
+life_rating = 25

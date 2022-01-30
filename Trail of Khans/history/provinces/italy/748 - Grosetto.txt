@@ -1,13 +1,12 @@
-owner = TUS
-controller = TUS
+owner = BIT
+controller = BIT
+add_core = BIT
 add_core = TUS
-#add_core = ITA
-
+add_core = ITA
 trade_goods = cattle
 life_rating = 35
 1861.1.1 = {
-	controller = ITA
-	owner = ITA
-	#add_core = ITA
+    controller = ITA
+    owner = ITA
+    add_core = ITA
 }
-set_province_flag = farm

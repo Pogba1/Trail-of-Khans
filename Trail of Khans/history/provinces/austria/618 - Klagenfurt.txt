@@ -1,7 +1,6 @@
-owner = AUS
-controller = AUS
+owner = HRE
+controller = HRE
+add_core = HRE
 add_core = AUS
 trade_goods = coal
 life_rating = 35
-
-set_province_flag = mine

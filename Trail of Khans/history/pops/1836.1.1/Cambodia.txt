@@ -35,35 +35,41 @@
     soldiers = {
         culture = khmer
         religion = theravada
-        size = 4000
+        size = 3000
+    }
+
+    soldiers = {
+        culture = khmer
+        religion = theravada
+        size = 1000
     }
 
     farmers = {
         culture = khmer
         religion = theravada
-        size = 98025
+        size = 93025
     }
 
     slaves = {
         culture = khmer
         religion = theravada
-        size = 2000
+        size = 9000
     }
 
     clergymen = {
-        culture = khmer
+        culture = yue
         religion = mahayana
         size = 75
     }
 
     artisans = {
-        culture = khmer
+        culture = yue
         religion = mahayana
         size = 1250
     }
 
     farmers = {
-        culture = khmer
+        culture = vietnamese
         religion = mahayana
         size = 2675
     }
@@ -101,24 +107,30 @@
     }
 
     clergymen = {
-        culture = khmer
+        culture = yue
         religion = mahayana
         size = 25
     }
 
     artisans = {
-        culture = khmer
+        culture = yue
         religion = mahayana
         size = 500
     }
 
     farmers = {
-        culture = khmer
+        culture = vietnamese
         religion = mahayana
         size = 1475
     }
+
+    slaves = {
+        culture = vietnamese
+        religion = mahayana
+        size = 3000
+    }
 }
-#Stongtreng (84000/21000 POPS)
+#Stongtreng (84000/21000 POPS) - Asian Minors represent the muslim Champa
 1368 = {
     aristocrats = {
         culture = khmer
@@ -151,33 +163,39 @@
     }
 
     aristocrats = {
-        culture = khmer
-        religion = animist
+        culture = vietnamese
+        religion = mahayana
         size = 50
     }
 
     clergymen = {
-        culture = khmer
-        religion = animist
+        culture = vietnamese
+        religion = mahayana
         size = 50
     }
 
     artisans = {
-        culture = khmer
-        religion = animist
+        culture = vietnamese
+        religion = mahayana
         size = 125
     }
 
     soldiers = {
-        culture = khmer
-        religion = animist
+        culture = vietnamese
+        religion = mahayana
         size = 25
     }
 
     farmers = {
-        culture = khmer
-        religion = animist
+        culture = asian_minor
+        religion = mahayana
         size = 2750
+    }
+
+    slaves = {
+        culture = vietnamese
+        religion = mahayana
+        size = 2000
     }
 }
 #under the rule of Siam in 1836
@@ -258,30 +276,31 @@
     slaves = {
         culture = khmer
         religion = theravada
-        size = 1100
+        size = 3100
     }
 
     clergymen = {
-        culture = thai
+        culture = yue
         religion = mahayana
         size = 50
     }
 
     artisans = {
-        culture = thai
+        culture = yue
         religion = mahayana
         size = 750
     }
 
     soldiers = {
-        culture = thai
+        culture = yue
         religion = mahayana
         size = 50
     }
 
     farmers = {
-        culture = thai
+        culture = yue
         religion = mahayana
         size = 2150
     }
+
 }

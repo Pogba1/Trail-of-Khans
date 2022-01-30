@@ -1,16 +1,14 @@
-owner = SAR
-controller = SAR
+owner = BIT
+controller = BIT
+add_core = BIT
 add_core = SAR
-#add_core = ITA
+add_core = ITA
 trade_goods = grain
-life_rating = 34
+life_rating = 35
 1861.1.1 = {
-	naval_base = 1
-	remove_core = ITA
-	remove_core = SAR
-	owner = FRA
-	controller = FRA
-	add_core = FRA
+    remove_core = ITA
+    remove_core = SAR
+    owner = FRA
+    controller = FRA
+    add_core = FRA
 }
-
-set_province_flag = farm

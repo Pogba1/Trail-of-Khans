@@ -1,8 +1,8 @@
-owner = TUR
-controller = TUR
+owner = TRI
+controller = TRI
 add_core = TRI
+add_core = CYR
 trade_goods = grain
-life_rating = 35
-colonial = 2
-
-set_province_flag = farm
+life_rating = 32
+terrain = semidesert
+#terrain = coastal_desert

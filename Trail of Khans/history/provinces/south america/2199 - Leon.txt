@@ -1,11 +1,9 @@
-owner = UCA
-controller = UCA
-add_core = UCA
-#add_core = NIC
+owner = GCO
+controller = GCO
+add_core = NIC
 trade_goods = coffee
-life_rating = 30
+life_rating = 35
 1861.1.1 = {
-	owner = NIC
-	controller = NIC
+    owner = NIC
+    controller = NIC
 }
-set_province_flag = farm

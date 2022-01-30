@@ -1,14 +1,11 @@
 capital = 1413
 primary_culture = javan
-culture = malay
 religion = sunni
 government = democracy
 plurality = 0.0
 nationalvalue = nv_equality
 literacy = 0.03
-non_state_culture_literacy = 0
-
-is_releasable_vassal = no
+civilized = yes
 
 # Political reforms
 slavery = no_slavery
@@ -29,13 +26,24 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
+#New Reforms
+conscription = one_year_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+
+schools = developing_tech_school
+set_country_flag = sunni_country
+
 ruling_party = INO_conservative
 upper_house = {
-	fascist = 0
-	liberal = 15
-	conservative = 80
-	reactionary = 5
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
+    fascist = 0
+    liberal = 15
+    conservative = 80
+    reactionary = 5
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
 }

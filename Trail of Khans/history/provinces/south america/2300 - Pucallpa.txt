@@ -2,6 +2,5 @@ owner = PEU
 controller = PEU
 add_core = PEU
 trade_goods = wool
-life_rating = 30
-
-set_province_flag = farm
+terrain = jungle
+life_rating = 31

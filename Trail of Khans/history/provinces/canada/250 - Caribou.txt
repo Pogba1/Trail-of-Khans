@@ -1,19 +1,15 @@
-owner = ENG
-controller = ENG
-add_core = CAN
-#add_core = NEN
+owner = USA
+controller = USA
 add_core = USA
-trade_goods = timber
+add_core = QUE
+trade_goods = grain
 life_rating = 35
-colonial = 2
+colonial = 0
 1861.1.1 = {
-	owner = USA
-	controller = USA
-	colonial = 0
+    owner = USA
+    controller = USA
+    add_core = USA
+    remove_core = MRU
+    remove_core = NEN
+    colonial = 0
 }
-1836.1.2 = {
-	owner = CAN
-	controller = CAN
-	colonial = 0
-}
-set_province_flag = mine

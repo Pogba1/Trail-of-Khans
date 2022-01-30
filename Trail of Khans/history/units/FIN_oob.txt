@@ -1,17 +1,45 @@
-#Relations
+army = {
+    name = "Suomen Kaarti"
+    location = 343
+    regiment = {
+        name= "I. Suomen Tarkk’ampujapataljoona"
+        type = guard
+        home = 343
+    }
 
-RUS = {
-	value = 200
+    regiment = {
+        name= "II. Suomen Tarkk’ampujapataljoona"
+        type = infantry
+        home = 345
+    }
+
+    regiment = {
+        name= "III. Suomen Tarkk’ampujapataljoona"
+        type = infantry
+        home = 346
+    }
+
 }
 
-#Leaders
+navy = {
+    name = "Suomen Meriekipaas"
+    location = 343 #Helsinki
+    ship = {
+        name= "Rurik"
+        type = commerce_raider
+    }
+    ship = {
+        name= "Kalevala"
+        type = commerce_raider
+    }
+}
+
 
 leader = {
-	name = "Anders Edvard Ramsay"
-	picture = fin_gen_ramsayae
-	date = 1828.1.1
-	type = land
-	personality = defence_1.1
-	background = attack_1.1
-	prestige = 0.2
+    name = "Alexander Sergeyevich Menshikov"
+    picture = european_general_24
+    date = 1810.1.1
+    type = land
+    personality = inept
+    background = incompetent
 }

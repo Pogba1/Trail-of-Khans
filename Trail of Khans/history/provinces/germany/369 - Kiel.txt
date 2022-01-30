@@ -1,20 +1,19 @@
-owner = HOL
-controller = HOL
+owner = DNN
+controller = DNN
+add_core = SWH
 add_core = HOL
-#add_core = GER
+add_core = GER
+add_core = DEN
+add_core = DNN
 trade_goods = cattle
-life_rating = 38
+life_rating = 40
 naval_base = 1
-1861.1.1 = { 
-	railroad = 3
-	naval_base = 2
-}
-1861.1.1 = {
-	state_building = {
-		level = 1
-		building = steamer_shipyard
-		upgrade = yes
-	}
-}
 
-set_province_flag = farm
+1861.1.1 = { railroad = 3 }
+1861.1.1 = {
+    state_building = {
+        level = 1
+        building = steamer_shipyard
+        upgrade = yes
+    }
+}

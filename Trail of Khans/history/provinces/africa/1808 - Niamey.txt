@@ -1,4 +1,7 @@
-trade_goods = tropical_wood
-life_rating = 15
-
-set_province_flag = mine
+owner = DND
+controller = DND
+add_core = DND
+add_core = MAS
+trade_goods = grain
+terrain = semidesert
+life_rating = 30

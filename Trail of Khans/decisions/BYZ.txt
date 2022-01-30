@@ -1,0 +1,604 @@
+political_decisions = {
+	###maximum autism decision
+	crimea_rightful = {
+		picture = unite_with_greece
+		potential = {
+		OR = {
+			tag = BYZ
+			tag = GRE
+			}
+		NOT = {has_country_flag = crimea_rightful}
+		967 = {owned_by = THIS}
+		966 = {owned_by = THIS}
+		}
+		effect = {
+		set_country_flag = crimea_rightful
+		967 = {add_core = THIS}
+		966 = {add_core = THIS}
+		}
+	}
+	integrate_the_armenians = {
+        picture = "build_teresina"
+        potential = {
+           tag = BYZ
+		   NOT={has_country_flag=integrate_the_armenians}
+        }
+
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+        }
+
+        effect = {
+            prestige = 5
+            set_country_flag = integrate_the_armenians
+			1105 = {add_core = THIS}
+			885 = {add_core = THIS}
+			890 = {add_core = THIS}
+			891 = {add_core = THIS}
+			2414 = {add_core = THIS}
+			893 = {add_core = THIS}
+			889 = {add_core = THIS}
+			899 = {add_core = THIS}
+			1093 = {add_core = THIS}
+			1099 = {add_core = THIS}
+			1098 = {add_core = THIS}
+			1100 = {add_core = THIS}
+			1101 = {add_core = THIS}
+			1109 = {add_core = THIS}
+			1106 = {add_core = THIS}
+			1102 = {add_core = THIS}
+			1108 = {add_core = THIS}
+			1112 = {add_core = THIS}
+			1107 = {add_core = THIS}
+			1090 = {add_core = THIS}
+			892 = {add_core = THIS}
+            add_accepted_culture = armenian
+        }
+		ai_will_do = {					
+		factor = 1
+		}
+        
+    }
+
+
+
+
+
+	patriarchate_of_antioch = {
+        picture = "build_teresina"
+        potential = {
+           tag = BYZ
+		   NOT={has_country_flag=patriarchate_of_antioch}
+        }
+
+        allow = {
+            war = no
+            900 = {owned_by = BYZ}
+        }
+
+        effect = {
+            prestige = 5
+			900={change_province_name = "Antioch"}
+			897 = {add_core = BYZ}
+			895 = {add_core = BYZ}
+			894 = {add_core = BYZ}
+			896 = {add_core = BYZ}
+			898 = {add_core = BYZ}
+			900 = {add_core = BYZ}
+            set_country_flag = patriarchate_of_antioch
+            any_pop = {
+                limit = {
+                    OR={has_pop_religion = orthodox
+						has_pop_religion = catholic
+						has_pop_religion = protestant
+						has_pop_religion = coptic
+						}
+                }
+                militancy = -1
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+	patriarchate_of_alexandria = {
+        picture = "build_teresina"
+        potential = {
+           tag = BYZ
+		   has_country_flag=patriarchate_of_antioch
+		   NOT={has_country_flag=patriarchate_of_alexandria}
+        }
+
+        allow = {
+            war = no
+            1751 = {owned_by = BYZ}
+        }
+
+        effect = {
+            prestige = 5
+			1751 = {add_core = BYZ}
+			1747 = {add_core = BYZ}
+			1746 = {add_core = BYZ}
+			1748 = {add_core = BYZ}
+			1749 = {add_core = BYZ}
+			1745 = {add_core = BYZ}
+			1750 = {add_core = BYZ}
+            set_country_flag = patriarchate_of_alexandria
+            any_pop = {
+                limit = {
+                    OR={has_pop_religion = orthodox
+						has_pop_religion = catholic
+						has_pop_religion = protestant
+						has_pop_religion = coptic
+						}
+                }
+                militancy = -1
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+	
+	patriarchate_of_rome = {
+        picture = "build_teresina"
+        potential = {
+           tag = BYZ
+		   has_country_flag=patriarchate_of_antioch
+		   NOT={has_country_flag=patriarchate_of_rome}
+        }
+
+        allow = {
+            war = no
+            749 = {owned_by = BYZ}
+        }
+
+        effect = {
+            prestige = 15
+			749 = {add_core = BYZ}
+			749 = {add_province_modifier={name = rome_renovated duration = 3650}}
+			capital = 749
+            set_country_flag = patriarchate_of_rome
+            any_pop = {
+                limit = {
+                    OR={has_pop_religion = orthodox
+						has_pop_religion = catholic
+						has_pop_religion = protestant
+						has_pop_religion = coptic
+						}
+                }
+                militancy = -5
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+	
+	turkish_compromise = {
+        picture = "embrace_minority"
+        potential = {
+           tag = BYZ
+		   has_country_flag=patriarchate_of_antioch
+		   NOT = {has_country_flag = turkish_compromise}
+		   NOT = {has_country_flag = reassert_greek_superiority}
+        }
+
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+			idealism = 1
+			muzzle_loaded_rifles = 1
+        }
+
+        effect = {
+            prestige = -2
+			add_accepted_culture = turkish
+			add_accepted_culture = rumelian
+			set_country_flag = turkish_compromise
+        }
+        ai_will_do = { factor = 0 } 
+    }
+	
+	reassert_greek_superiority = {
+        picture = "founding_yadanabon"
+        potential = {
+           tag = BYZ
+		   has_country_flag=patriarchate_of_antioch
+		   NOT = {has_country_flag = turkish_compromise}
+		   NOT = {has_country_flag = reassert_greek_superiority}
+        }
+
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+			idealism = 1
+			muzzle_loaded_rifles = 1
+        }
+
+        effect = {
+            any_owned = {
+			limit = {is_core = TUR}
+			remove_core = TUR
+			add_province_modifier = {name = reassert_greek_superiority duration = -1}
+			}
+			set_country_flag = reassert_greek_superiority
+        }
+        ai_will_do = { factor = 1 }
+    }
+	
+	byz_the_holy_city = {
+        picture = "founding_yadanabon"
+        potential = {
+           tag = BYZ
+		   has_country_flag=patriarchate_of_antioch
+		   NOT = {has_country_flag = the_holy_city}
+        }
+
+        allow = {
+            war = no
+            917 = {owned_by = BYZ}
+        }
+
+        effect = {
+             any_pop = {
+                limit = {
+                    OR={has_pop_religion = orthodox
+						has_pop_religion = catholic
+						has_pop_religion = protestant
+						has_pop_religion = coptic
+						}
+                }
+                militancy = -4
+            }
+			prestige = 10
+			917 = {add_core = BYZ}
+			917 = {add_province_modifier={name=holy_city_jerusalem duration = -1}}
+			set_country_flag = the_holy_city
+        }
+        ai_will_do = { factor = 1 }
+    }
+	
+	sack_mecca_medina = {
+        picture = "conquest_of_the_south"
+        potential = {
+           tag = BYZ
+		   has_country_flag=the_holy_city
+		   NOT = {has_country_flag = sack_mecca_medina}
+        }
+
+        allow = {
+            1153 = {owned_by = BYZ}
+			1151 = {owned_by = BYZ}
+        }
+
+        effect = {
+             any_pop = {
+                limit = {
+                    OR={has_pop_religion = sunni
+						has_pop_religion = shiite
+						has_pop_religion = ibadi
+						has_pop_religion = druze
+						}
+                }
+                militancy = 10
+				consciousness = 2
+            }
+			prestige = 15
+			badboy = 20
+			1151 = {add_province_modifier={name=recently_sacked duration = 720}}
+			1153 = {add_province_modifier={name=recently_sacked duration = 720}}
+			1151 = {
+			any_pop = {
+			limit = {
+			 OR={has_pop_religion = sunni
+						has_pop_religion = shiite
+						has_pop_religion = ibadi
+						has_pop_religion = druze
+						}
+			OR={
+			strata=middle
+			strata=rich
+			}
+			}
+				
+			reduce_pop = 0.5
+			}
+			any_pop = {
+			limit = {
+			 OR={has_pop_religion = sunni
+						has_pop_religion = shiite
+						has_pop_religion = ibadi
+						has_pop_religion = druze
+						}
+			
+			strata=poor
+			
+			}
+				
+			reduce_pop = 0.75
+			}
+			
+			}
+			1153 = {
+			any_pop = {
+			limit = {
+			 OR={has_pop_religion = sunni
+						has_pop_religion = shiite
+						has_pop_religion = ibadi
+						has_pop_religion = druze
+						}
+			OR={
+			strata=middle
+			strata=rich
+			}
+			}
+				
+			reduce_pop = 0.5
+			}
+			any_pop = {
+			limit = {
+			 OR={has_pop_religion = sunni
+						has_pop_religion = shiite
+						has_pop_religion = ibadi
+						has_pop_religion = druze
+						}
+			
+			strata=poor
+			
+			}
+				
+			reduce_pop = 0.75
+			}
+			
+			}
+			any_country = { limit = {OR={religion = sunni religion = shiite religion = ibadi religion = druze}}
+									relation = {
+									who = BYZ
+									value = -200
+										}
+							}
+			set_country_flag = sack_mecca_medina
+        }
+        ai_will_do = { factor = 0 }
+    }
+	
+	settle_the_aegean_coast = {
+        picture = "bytown_1853"
+        potential = {
+           tag = BYZ
+		   NOT={has_country_flag=settle_the_aegean_coast}
+		   has_country_flag = patriarchate_of_antioch
+		   860 = {owned_by = BYZ}
+			858 = {owned_by = BYZ}
+			859 = {owned_by = BYZ}
+			828 = {owned_by = BYZ}
+			830 = {owned_by = BYZ}
+			829 = {owned_by = BYZ}
+			823 = {owned_by = BYZ}
+			822 = {owned_by = BYZ}
+			805 = {owned_by = BYZ}
+			821 = {owned_by = BYZ}
+			832 = {owned_by = BYZ}
+			836 = {owned_by = BYZ}
+			835 = {owned_by = BYZ}
+			834 = {owned_by = BYZ}
+			838 = {owned_by = BYZ}
+			845 = {owned_by = BYZ}
+			843 = {owned_by = BYZ}
+			844 = {owned_by = BYZ}
+			861 = {owned_by = BYZ}
+			862 = {owned_by = BYZ}
+			863 = {owned_by = BYZ}
+			864 = {owned_by = BYZ}
+			865 = {owned_by = BYZ}
+			869 = {owned_by = BYZ}
+			872 = {owned_by = BYZ}
+        }
+
+        allow = {
+            war = no
+			state_n_government = 1
+			medicine = 1
+            
+        }
+
+        effect = {
+			860 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			858 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			859 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			828 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			830 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			829 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			823 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			822 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			805 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			821 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			832 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			836 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			835 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			834 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			838 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			845 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			843 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			844 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			861 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			862 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			863 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			864 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			865 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			869 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			872 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+            set_country_flag = settle_the_aegean_coast
+        }
+        ai_will_do = { factor = 1 }
+    }
+	
+	reintegrate_peloponese = {
+        picture = "government_decisions"
+        potential = {
+           tag = BYZ
+		 #OR={  
+		#	has_country_flag = turkish_compromise
+		#	has_country_flag = reassert_greek_superiority
+		 #}
+		   NOT = {has_country_flag = reintegrate_peloponese}
+        }
+
+        allow = {
+            war = no
+            840 = {owned_by = BYZ}
+			839 = {owned_by = BYZ}
+			841 = {owned_by = BYZ}
+			842 = {owned_by = BYZ}
+			#827 = {owned_by = BYZ}
+			#828 = {owned_by = BYZ}
+        }
+
+        effect = {
+			840 = {add_core = BYZ}
+			839 = {add_core = BYZ}
+			827 = {add_core = BYZ}
+			828 = {add_core = BYZ}
+			841 = {add_core = BYZ}
+			842 = {add_core = BYZ}
+			847 = {add_core = BYZ}
+			848 = {add_core = BYZ}
+			856 = {add_core = BYZ}
+			855 = {add_core = BYZ}
+			857 = {add_core = BYZ}
+			826 = {add_core = BYZ}
+            set_country_flag = reintegrate_peloponese
+        }
+        ai_will_do = { factor = 1 }
+    }
+	
+	dominance_in_the_balkans = {
+        picture = "conquest_adriatic"
+        potential = {
+           tag = BYZ
+		 
+			has_country_flag = reintegrate_peloponese
+			
+		 
+		   NOT = {has_country_flag = dominance_in_the_balkans}
+        }
+
+        allow = {
+            war = no
+            is_greater_power = yes
+			all_core = {owned_by = THIS}
+        }
+
+        effect = {
+			785 = {add_core = BYZ}
+			852 = {add_core = BYZ}
+			849 = {add_core = BYZ}
+			851 = {add_core = BYZ}
+			850 = {add_core = BYZ}
+			803 = {add_core = BYZ}
+			802 = {add_core = BYZ}
+			799 = {add_core = BYZ}
+			798 = {add_core = BYZ}
+			804 = {add_core = BYZ}
+			2577 = {add_core = BYZ}
+			800 = {add_core = BYZ}
+			2583 = {add_core = BYZ}
+			2569 = {add_core = BYZ}
+			2582 = {add_core = BYZ}
+			795 = {add_core = BYZ}
+			796 = {add_core = BYZ}
+			794 = {add_core = BYZ}
+			797 = {add_core = BYZ}
+			788 = {add_core = BYZ}
+			787 = {add_core = BYZ}
+			786 = {add_core = BYZ}
+			783 = {add_core = BYZ}
+			789 = {add_core = BYZ}
+			784 = {add_core = BYZ}
+			791 = {add_core = BYZ}
+			793 = {add_core = BYZ}
+			777 = {add_core = BYZ}
+			779 = {add_core = BYZ}
+			772 = {add_core = BYZ}
+			776 = {add_core = BYZ}
+			775 = {add_core = BYZ}
+			771 = {add_core = BYZ}
+			773 = {add_core = BYZ}
+			774 = {add_core = BYZ}
+			781 = {add_core = BYZ}
+			780 = {add_core = BYZ}
+			782 = {add_core = BYZ}
+            set_country_flag = dominance_in_the_balkans
+        }
+        ai_will_do = { factor = 1 }
+    }
+	
+	dreams_of_rome = {
+        picture = "belgrade_view"
+        potential = {
+           tag = BYZ
+		 
+			has_country_flag = dominance_in_the_balkans
+			
+		 
+		   NOT = {has_country_flag = dreams_of_rome}
+        }
+
+        allow = {
+            war = no
+            is_greater_power = yes
+			764 = {owned_by = BYZ}
+			762 = {owned_by = BYZ}
+			763 = {owned_by = BYZ}
+        }
+
+        effect = {
+			764 = {add_core = BYZ}
+			762 = {add_core = BYZ}
+			763 = {add_core = BYZ}
+			759 = {add_core = BYZ}
+			760 = {add_core = BYZ}
+			761 = {add_core = BYZ}
+			755 = {add_core = BYZ}
+			754 = {add_core = BYZ}
+			2567 = {add_core = BYZ}
+			2577 = {add_core = BYZ}
+			753 = {add_core = BYZ}
+			10 = {add_core = BYZ}
+			757 = {add_core = BYZ}
+			756 = {add_core = BYZ}
+			758 = {add_core = BYZ}
+			749 = {add_core = BYZ}
+			750 = {add_core = BYZ}
+			751 = {add_core = BYZ}
+			752 = {add_core = BYZ}
+			add_accepted_culture = south_italian
+            set_country_flag = dreams_of_rome
+        }
+        ai_will_do = { factor = 1 }
+    }
+	
+	intervene_in_morea = {
+        picture = "belgrade_view"
+        potential = {
+           tag = BYZ
+		   exists = MEA
+		   MEA = {war_with = VEN}
+		   NOT = {has_country_flag = intervene_in_morea}
+        }
+
+        allow = {
+            BYZ = {neighbour = MEA}
+        }
+
+        effect = {
+			create_vassal = MEA
+			create_alliance = MEA
+			MEA = {end_war = VEN}
+			war = {
+				target = VEN
+				attacker_goal = { casus_belli = humiliate }
+				defender_goal = { casus_belli = acquire_state state_province_id = 839 }
+				call_ally = yes
+			}
+            set_country_flag = intervene_in_morea
+        }
+        ai_will_do = { factor = 1 }
+    }
+}

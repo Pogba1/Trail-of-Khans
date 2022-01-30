@@ -1,13 +1,13 @@
-owner = AUS
-controller = AUS
+owner = BIT
+controller = BIT
+add_core = BIT
 add_core = LOM
-#add_core = ITA
-trade_goods = cattle
+add_core = ITA
+trade_goods = cotton
 life_rating = 35
 1861.1.1 = {
-	owner = ITA
-	controller = ITA
+    owner = ITA
+    controller = ITA
+    remove_core = LOM
 }
 1861.1.1 = { railroad = 1 }
-
-set_province_flag = farm

@@ -1,8 +1,6 @@
 owner = RUS
 controller = RUS
-add_core = RUS
 add_core = GEO
+add_core = TCA
 trade_goods = fruit
 life_rating = 35
-
-set_province_flag = farm

@@ -1,12 +1,8 @@
-owner = TRI
-controller = TRI
-add_core = TRI
-trade_goods = sulphur
-life_rating = 25
-1861.1.1 = {
-	owner = TUR
-	controller = TUR
-	colonial = 2
-}
-
-set_province_flag = mine
+owner = HRE
+controller = HRE
+add_core = HRE
+add_core = HAN
+add_core = GER
+trade_goods = cattle
+life_rating = 40
+1861.1.1 = { railroad = 3 }

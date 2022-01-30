@@ -1,10 +1,13 @@
-owner = ARG
-
-controller = ARG
-
+owner = BRZ
+controller = BRZ
+add_core = BRZ
 add_core = ARG
-
-trade_goods = silk
-life_rating = 35
-
-set_province_flag = farm
+trade_goods = cattle
+life_rating = 34
+1861.1.1 = {
+    owner = ARG
+    controller = ARG
+    add_core = ARG
+    remove_core = CRT
+    remove_core = ARC
+}

@@ -1,7 +1,6 @@
-owner = AFG
-controller = AFG
+owner = SVF
+controller = SVF
 add_core = AFG
 trade_goods = cotton
 life_rating = 35
-
-set_province_flag = farm
+terrain = dryhills

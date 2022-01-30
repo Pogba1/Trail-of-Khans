@@ -1,4 +1,7 @@
-trade_goods = fish
-life_rating = 1
+owner = NET
+controller = NET
+add_core = AST
+colonial = 2
+trade_goods = wool
+life_rating = 33
 
-set_province_flag = farm

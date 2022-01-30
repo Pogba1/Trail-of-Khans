@@ -1,7 +1,4 @@
-owner = MOR
-controller = MOR
-add_core = MOR
 trade_goods = fish
-life_rating = 30
-
-set_province_flag = farm
+terrain = semidesert
+life_rating = 10
+colonial = 1

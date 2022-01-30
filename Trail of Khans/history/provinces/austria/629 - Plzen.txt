@@ -1,9 +1,12 @@
-owner = AUS
-controller = AUS
-add_core = AUS
+owner = HPS
+controller = HPS
+add_core = HPS
 add_core = BOH
-#add_core = CZH
+add_core = CZH
 trade_goods = coal
 life_rating = 35
-
-set_province_flag = mine
+state_building = {
+    level = 1
+    building = artillery_factory
+    upgrade = yes
+}

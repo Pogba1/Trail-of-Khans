@@ -1,12 +1,11 @@
-owner = HND
-controller = HND
+owner = NAG
+controller = NAG
+add_core = NAG
 add_core = HND
 trade_goods = dye
 life_rating = 32
 1861.1.1 = {
-	owner = ENG
-	controller = ENG
-	colonial = 1
+    owner = ENG
+    controller = ENG
+    colonial = 2
 }
-
-set_province_flag = farm

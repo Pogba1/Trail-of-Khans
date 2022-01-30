@@ -1,7 +1,6 @@
-owner = HND
-controller = HND
+owner = IND
+controller = IND
+add_core = IND
 add_core = HND
-trade_goods = cotton
+trade_goods = opium
 life_rating = 32
-
-set_province_flag = farm

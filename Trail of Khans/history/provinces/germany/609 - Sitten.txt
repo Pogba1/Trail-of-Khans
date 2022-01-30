@@ -1,7 +1,14 @@
-owner = SWI
-controller = SWI
+owner = FRA
+controller = FRA
+add_core = FRA
 add_core = SWI
 trade_goods = coal
-life_rating = 35
-
-set_province_flag = mine
+life_rating = 31
+party_loyalty = {
+    ideology = conservative
+    loyalty_value = 20
+}
+party_loyalty = {
+    ideology = liberal
+    loyalty_value = 5
+}

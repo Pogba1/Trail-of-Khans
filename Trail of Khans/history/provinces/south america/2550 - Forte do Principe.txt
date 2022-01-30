@@ -1,7 +1,5 @@
 owner = BRZ
 controller = BRZ
 add_core = BRZ
-trade_goods = rubber
-life_rating = 25
-
-set_province_flag = mine
+trade_goods = tropical_wood
+life_rating = 31

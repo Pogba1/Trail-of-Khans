@@ -14,7 +14,7 @@ country_event = {
 	option = {
 	ai_chance={factor=100}
 	name = "Our money is better spent at home."
-		#FROM = { country_event = {id = 100010 days = 0} }
+		FROM = { country_event = {id = 100010 days = 0} }
 	
 	}
 	option = {

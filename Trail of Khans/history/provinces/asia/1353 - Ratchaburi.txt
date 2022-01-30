@@ -2,8 +2,4 @@ owner = SIA
 controller = SIA
 add_core = SIA
 trade_goods = iron
-life_rating = 30
-
-
-
-set_province_flag = mine
+life_rating = 35

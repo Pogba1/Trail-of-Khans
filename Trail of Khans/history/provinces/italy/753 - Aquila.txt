@@ -1,13 +1,13 @@
-owner = SIC
-controller = SIC
+owner = IBE
+controller = IBE
+add_core = IBE
 add_core = SIC
-#add_core = ITA
-
-trade_goods = wool
-life_rating = 33
+add_core = NAP
+add_core = ITA
+trade_goods = coal
+life_rating = 35
 1861.1.1 = {
-	controller = ITA
-	owner = ITA
-	#add_core = ITA
+    controller = ITA
+    owner = ITA
+    add_core = ITA
 }
-set_province_flag = farm

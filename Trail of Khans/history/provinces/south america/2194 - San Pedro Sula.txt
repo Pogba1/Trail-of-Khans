@@ -1,11 +1,9 @@
-owner = UCA
-controller = UCA
-add_core = UCA
-#add_core = HON
-trade_goods = fruit
-life_rating = 30
+owner = GCO
+controller = GCO
+add_core = HON
+trade_goods = grain
+life_rating = 35
 1861.1.1 = {
-	owner = HON
-	controller = HON
+    owner = HON
+    controller = HON
 }
-set_province_flag = farm

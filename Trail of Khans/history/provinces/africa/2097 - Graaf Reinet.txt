@@ -1,12 +1,7 @@
-owner = ENG
-controller = ENG
-add_core = SAF
-trade_goods = fruit
+owner = NET
+controller = NET
+add_core = NET
+add_core = XHO
+trade_goods = iron
 life_rating = 35
 colonial = 2
-1836.1.2 = {
-	owner = SAF
-	controller = SAF
-	colonial = 0
-}
-set_province_flag = farm

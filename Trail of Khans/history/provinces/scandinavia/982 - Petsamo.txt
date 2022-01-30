@@ -1,10 +1,6 @@
-owner = FIN
-controller = FIN
-add_core = FIN
-add_core = SWE
+owner = RUS
+controller = RUS
+add_core = RUS
+add_core = KRL
 trade_goods = iron
-life_rating = 35
-
-
-
-set_province_flag = mine
+life_rating = 10

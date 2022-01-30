@@ -2,40 +2,18 @@ owner = ENG
 controller = ENG
 add_core = ENG
 trade_goods = coal
-life_rating = 38
-naval_base = 2 #Chatham
+life_rating = 35
+#naval_base = 1 #Chatham
 fort = 1
-state_building = {
-	level = 1
-	building = clipper_shipyard
-	upgrade = yes
+party_loyalty = {
+    ideology = liberal
+    loyalty_value = 5
 }
-state_building = {
-	level = 1
-	building = steamer_shipyard
-	upgrade = yes
+party_loyalty = {
+    ideology = conservative
+    loyalty_value = 20
 }
 1861.1.1 = {
-	state_building = {
-		level = 2
-		building = steamer_shipyard
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = furniture_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = cement_factory
-		upgrade = yes
-	}
-
+    railroad = 3
+#    naval_base = 3 #Chatham
 }
-1861.1.1 = { 
-	railroad = 3 
-	naval_base = 4 #Chatham
-}
-
-set_province_flag = mine

@@ -1,8 +1,7 @@
 owner = FRA
 controller = FRA
-add_core = WIF
-trade_goods = fruit
+trade_goods = coffee
 life_rating = 35
 colonial = 2
-
-set_province_flag = farm
+terrain = new_world_jungle
+naval_base = 1

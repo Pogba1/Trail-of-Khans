@@ -5,73 +5,93 @@
     aristocrats = {
         culture = platinean
         religion = catholic
-        size = 1954
+        size = 575
+        militancy = 9
+        rebel_type = liberal_rebels
     }
 
     bureaucrats = {
         culture = platinean
         religion = catholic
-        size = 170
+        size = 100
+        militancy = 9
+        rebel_type = liberal_rebels
     }
 
     officers = {
         culture = platinean
         religion = catholic
-        size = 170
+        size = 50
+        militancy = 9
+        rebel_type = liberal_rebels
     }
 
     clergymen = {
         culture = platinean
         religion = catholic
-        size = 850
+        size = 250
     }
 
     artisans = {
         culture = platinean
         religion = catholic
-        size = 3332
+        size = 980
+        militancy = 9
+        rebel_type = liberal_rebels
     }
 
     soldiers = {
         culture = platinean
         religion = catholic
-        size = 3740
+        size = 5000
+        militancy = 9
+        rebel_type = liberal_rebels
     }
 
     farmers = {
         culture = platinean
         religion = catholic
-        size = 68322
+        size = 18095
+        militancy = 9
+        rebel_type = liberal_rebels
     }
 
     clergymen = {
-        culture = brazilian
+        culture = afro_caribeno
         religion = catholic
-        size = 85
+        size = 50
     }
 
     artisans = {
-        culture = brazilian
+        culture = afro_caribeno
         religion = catholic
-        size = 425
+        size = 250
+        militancy = 9
+        rebel_type = liberal_rebels
     }
 
     soldiers = {
-        culture = brazilian
+        culture = afro_caribeno
         religion = catholic
-        size = 85
+        size = 500
+        militancy = 9
+        rebel_type = liberal_rebels
     }
 
     farmers = {
-        culture = brazilian
+        culture = afro_caribeno
         religion = catholic
-        size = 5355
+        size = 3150
+        militancy = 9
+        rebel_type = liberal_rebels
     }
 
     slaves = {
-        culture = brazilian
+        culture = afro_caribeno
         religion = catholic
-        size = 2550
+        size = 3500
+        militancy = 9
+        rebel_type = liberal_rebels
     }
 }
 #Paysandu (36000/9000 POPS)
@@ -79,142 +99,166 @@
     aristocrats = {
         culture = platinean
         religion = catholic
-        size = 680
-    }
-
-    clergymen = {
-        culture = platinean
-        religion = catholic
-        size = 254
-    }
-
-    artisans = {
-        culture = platinean
-        religion = catholic
-        size = 1530
-    }
-
-    soldiers = {
-        culture = platinean
-        religion = catholic
-        size = 3740
-    }
-
-    farmers = {
-        culture = platinean
-        religion = catholic
-        size = 24734
-    }
-}
-#Tacumba (12000/3000 POPS)
-2346 = {
-    aristocrats = {
-        culture = platinean
-        religion = catholic
-        size = 84
-    }
-
-    clergymen = {
-        culture = platinean
-        religion = catholic
-        size = 170
-    }
-
-    artisans = {
-        culture = platinean
-        religion = catholic
-        size = 340
-    }
-
-    soldiers = {
-        culture = platinean
-        religion = catholic
-        size = 84
-    }
-
-    farmers = {
-        culture = platinean
-        religion = catholic
-        size = 6120
-    }
-
-    clergymen = {
-        culture = brazilian
-        religion = catholic
         size = 25
     }
 
+    bureaucrats = {
+        culture = platinean
+        religion = catholic
+        size = 10
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 100
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 1800
+    }
+
     artisans = {
         culture = brazilian
         religion = catholic
-        size = 85
+        size = 100
     }
 
     soldiers = {
         culture = brazilian
         religion = catholic
-        size = 17
+        size = 100
     }
 
     farmers = {
         culture = brazilian
         religion = catholic
-        size = 1572
+        size = 840
     }
+
+}
+#Tacumba (12000/3000 POPS)
+2346 = {
+
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 200
+    }
+
+    bureaucrats = {
+        culture = platinean
+        religion = catholic
+        size = 20
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 75
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 450
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 1000
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 1500
+        militancy = 9
+        rebel_type = liberal_rebels
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 7275
+    }
+
 }
 #Melo (40000/10000 POPS)
 2347 = {
     aristocrats = {
         culture = platinean
         religion = catholic
-        size = 510
+        size = 150
+    }
+
+    bureaucrats = {
+        culture = platinean
+        religion = catholic
+        size = 10
     }
 
     clergymen = {
         culture = platinean
         religion = catholic
-        size = 170
+        size = 50
     }
 
     artisans = {
         culture = platinean
         religion = catholic
-        size = 1190
+        size = 350
     }
 
     soldiers = {
         culture = platinean
         religion = catholic
-        size = 3740
+        size = 400
     }
 
     farmers = {
         culture = platinean
         religion = catholic
-        size = 18530
+        size = 5450
     }
 
     clergymen = {
         culture = brazilian
         religion = catholic
-        size = 85
+        size = 50
     }
 
     artisans = {
         culture = brazilian
         religion = catholic
-        size = 255
+        size = 150
     }
 
     soldiers = {
         culture = brazilian
         religion = catholic
-        size = 42
+        size = 100
     }
 
     farmers = {
         culture = brazilian
         religion = catholic
-        size = 4717
+        size = 2775
     }
+
 }

@@ -1,4 +1,7 @@
-trade_goods = fish
+owner = SVF
+controller = SVF
+add_core = KHI
+add_core = TKM
+terrain = desert
+trade_goods = opium
 life_rating = 15
-
-set_province_flag = farm

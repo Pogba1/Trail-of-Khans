@@ -1,4 +1,5 @@
+owner = SLW
+controller = SLW
+add_core = SLW
 trade_goods = timber
-life_rating = 1
-
-set_province_flag = mine
+life_rating = 31

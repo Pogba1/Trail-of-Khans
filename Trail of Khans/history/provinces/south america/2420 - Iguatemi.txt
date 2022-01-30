@@ -1,8 +1,7 @@
-owner = PRG
-controller = PRG
+owner = BRZ
+controller = BRZ
 add_core = PRG
 add_core = BRZ
 trade_goods = sulphur
-life_rating = 30
-
-set_province_flag = mine
+terrain = savanna
+life_rating = 31

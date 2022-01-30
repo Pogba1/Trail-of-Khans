@@ -1,10 +1,7 @@
-owner = TUR
-controller = TUR
-add_core = TUR
+owner = HPS
+controller = HPS
+add_core = HPS
 add_core = BOS
-
 add_core = SER
 trade_goods = grain
 life_rating = 35
-
-set_province_flag = farm

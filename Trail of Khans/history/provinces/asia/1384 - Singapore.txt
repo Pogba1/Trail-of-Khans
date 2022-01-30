@@ -1,8 +1,7 @@
-owner = ENG
-controller = ENG
+owner = DNN
+controller = DNN
 add_core = JOH
-trade_goods = tropical_wood
+trade_goods = precious_goods
 life_rating = 40
 colonial = 2
-
-set_province_flag = mine
+naval_base = 2

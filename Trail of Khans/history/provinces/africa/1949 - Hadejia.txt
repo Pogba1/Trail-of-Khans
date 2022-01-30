@@ -1,4 +1,6 @@
-trade_goods = coal
-life_rating = 20
-
-set_province_flag = mine
+owner = SOK
+controller = SOK
+add_core = SOK
+trade_goods = wool
+terrain = semidesert
+life_rating = 30

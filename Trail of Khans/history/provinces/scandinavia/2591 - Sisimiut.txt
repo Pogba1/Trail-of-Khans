@@ -1,8 +1,12 @@
-owner = DEN
-controller = DEN
-add_core = DEN
-#add_core = SCA
+owner = DNN
+controller = DNN
+add_core = HYD
+add_core = KRN
+add_core = HND
 trade_goods = fish
-life_rating = 35
+life_rating = 32
 colonial = 2
-set_province_flag = farm
+1861.1.1 = {
+    owner = ENG
+    controller = ENG
+}

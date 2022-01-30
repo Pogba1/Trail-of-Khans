@@ -1,8 +1,14 @@
-owner = ORA
-controller = ORA
+owner = BSH
+controller = BSH
+add_core = BSH
 add_core = ORA
-add_core = SAF
-trade_goods = coal
+add_core = MAT
+trade_goods = fruit
 life_rating = 35
-
-set_province_flag = mine
+terrain = mining_district
+1861.1.1 = {
+    owner = ORA
+    controller = ORA
+    add_core = SAF
+    remove_core = MAT
+}

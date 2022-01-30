@@ -1,13 +1,8 @@
-owner = BAV
-controller = BAV
+owner = HRE
+controller = HRE
+add_core = HRE
 add_core = BAV
-#add_core = GER
+add_core = GER
 trade_goods = fruit
-life_rating = 35
-fort = 1
-1861.1.1 = { 
-	railroad = 3
-	fort = 2
-}
-
-set_province_flag = farm
+life_rating = 40
+1861.1.1 = { railroad = 3 }

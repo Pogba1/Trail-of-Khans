@@ -1,0 +1,243 @@
+political_decisions = {
+	german_boom = {
+	picture = "essen_ruhr"
+	potential = {
+	NOT={has_country_flag=german_boom}
+	OR={
+	primary_culture = south_german
+	primary_culture = north_german
+	}
+	
+	}
+	allow = {
+	medicine=1
+	
+	}
+	effect={
+	any_owned = {
+	limit = {
+	OR={
+	pop_majority_culture = south_german
+	pop_majority_culture = north_german
+	}
+	}
+	add_province_modifier = { name = german_boom duration = 3650}
+	
+	}
+	set_country_flag=german_boom
+	}
+	}
+	##########################################################
+	grand_duchy_lux = {
+	picture = "hre_duchy"
+	potential = {
+	NOT={has_country_flag=grand_duchy_lux}
+	tag = HRE
+	}
+	allow = {
+	397 = {owned_by = THIS}
+	}
+	effect={
+	397 = {add_core = THIS}
+	set_country_flag=grand_duchy_lux
+	}
+	}
+	
+	rule_over_alsace = {
+	picture = "hre_duchy"
+	potential = {
+	NOT={has_country_flag=rule_over_alsace}
+	tag = HRE
+	}
+	allow = {
+	409 = {owned_by = THIS}
+	412 = {owned_by = THIS}
+	410 = {owned_by = THIS}
+	}
+	effect={
+	409 = {add_core = THIS}
+	412 = {add_core = THIS}
+	410 = {add_core = THIS}
+	set_country_flag=rule_over_alsace
+	}
+	}
+	
+	the_sudetenland = {
+	picture = "hre_duchy"
+	potential = {
+	NOT={has_country_flag=the_sudetenland}
+	tag = HRE
+	}
+	allow = {
+	630 = {owned_by = THIS}
+	629 = {owned_by = THIS}
+	627 = {owned_by = THIS}
+	628 = {owned_by = THIS}
+	632 = {owned_by = THIS}
+	688 = {owned_by = THIS}
+	689 = {owned_by = THIS}
+	2584 = {owned_by = THIS}
+	}
+	effect={
+	630 = {add_core = THIS}
+	629 = {add_core = THIS}
+	627 = {add_core = THIS}
+	628 = {add_core = THIS}
+	632 = {add_core = THIS}
+	688 = {add_core = THIS}
+	689 = {add_core = THIS}
+	2584 = {add_core = THIS}
+	set_country_flag=the_sudetenland
+	}
+	}
+	
+	the_duchy_of_holstein = {
+	picture = "hre_duchy"
+	potential = {
+	NOT={has_country_flag=the_duchy_of_holstein}
+	tag = HRE
+	}
+	allow = {
+	528 = {owned_by = THIS}
+	529 = {owned_by = THIS}
+	530 = {owned_by = THIS}
+	369 = {owned_by = THIS}
+	}
+	effect={
+	528 = {add_core = THIS}
+	529 = {add_core = THIS}
+	530 = {add_core = THIS}
+	369 = {add_core = THIS}
+	set_country_flag=the_duchy_of_holstein
+	}
+	}
+	
+	the_duchy_of_silesia = {
+	picture = "hre_duchy"
+	potential = {
+	NOT={has_country_flag=the_duchy_of_silesia}
+	tag = HRE
+	}
+	allow = {
+	683 = {owned_by = THIS}
+	682 = {owned_by = THIS}
+	684 = {owned_by = THIS}
+	685 = {owned_by = THIS}
+	}
+	effect={
+	683 = {add_core = THIS}
+	682 = {add_core = THIS}
+	684 = {add_core = THIS}
+	685 = {add_core = THIS}
+	set_country_flag=the_duchy_of_silesia
+	}
+	}
+	
+	the_grand_duchy_of_posen = {
+	picture = "hre_duchy"
+	potential = {
+	NOT={has_country_flag=the_grand_duchy_of_posen}
+	tag = HRE
+	}
+	allow = {
+	699 = {owned_by = THIS}
+	700 = {owned_by = THIS}
+	701 = {owned_by = THIS}
+	}
+	effect={
+	699 = {add_core = THIS}
+	700 = {add_core = THIS}
+	701 = {add_core = THIS}
+	set_country_flag=the_grand_duchy_of_posen
+	}
+	}
+	
+	west_prussia = {
+	picture = "hre_duchy"
+	potential = {
+	NOT={has_country_flag=west_prussia}
+	tag = HRE
+	}
+	allow = {
+	692 = {owned_by = THIS}
+	691 = {owned_by = THIS}
+	690 = {owned_by = THIS}
+	693 = {owned_by = THIS}
+	694 = {owned_by = THIS}
+	}
+	effect={
+	692 = {add_core = THIS}
+	691 = {add_core = THIS}
+	690 = {add_core = THIS}
+	693 = {add_core = THIS}
+	694 = {add_core = THIS}
+	set_country_flag=west_prussia
+	}
+	}
+	
+	east_prussia = {
+	picture = "hre_duchy"
+	potential = {
+	NOT={has_country_flag=east_prussia}
+	tag = HRE
+	}
+	allow = {
+	695 = {owned_by = THIS}
+	696 = {owned_by = THIS}
+	697 = {owned_by = THIS}
+	698 = {owned_by = THIS}
+	}
+	effect={
+	695 = {add_core = THIS}
+	696 = {add_core = THIS}
+	697 = {add_core = THIS}
+	698 = {add_core = THIS}
+	set_country_flag=east_prussia
+	}
+	}
+	##########################################################
+	
+	reintegrate_the_lowlands = {
+	picture = "claim_voralberg"
+	potential = {
+	NOT={has_country_flag=reintegrate_the_lowlands}
+	tag = HRE
+	#OR = {
+	#has_country_flag = democratic_hre
+	#has_country_flag = issue_constitution
+	#}
+	has_country_flag = william
+	}
+	allow = {
+	mass_politics=1
+	375 = {owned_by = THIS}
+	}
+	effect={
+	NET_379 = {add_core = THIS}
+	NET_375 = {add_core = THIS}
+	NET_385 = {add_core = THIS}
+	add_accepted_culture = dutch
+	set_country_flag=reintegrate_the_lowlands
+	}
+	}
+	
+	duchy_of_bohemia = {
+	picture = "faidherbe"
+	potential = {
+	NOT={has_country_flag=duchy_of_bohemia}
+	tag = HRE
+	has_country_flag = absolutist_candidate
+	}
+	allow = {
+	mass_politics=1
+	625 = {owned_by = THIS}
+	}
+	effect={
+	AUS_625 = {add_core = THIS}
+	add_accepted_culture = czech
+	set_country_flag=duchy_of_bohemia
+	}
+	}
+
+
+}

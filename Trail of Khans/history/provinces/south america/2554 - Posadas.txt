@@ -1,7 +1,11 @@
-owner = ARG
-controller = ARG
+owner = BRZ
+controller = BRZ
+add_core = BRZ
 add_core = ARG
-trade_goods = tea
-life_rating = 35
-
-set_province_flag = farm
+trade_goods = tobacco
+life_rating = 32
+1861.1.1 = {
+    owner = PRG
+    controller = PRG
+    add_core = PRG
+}

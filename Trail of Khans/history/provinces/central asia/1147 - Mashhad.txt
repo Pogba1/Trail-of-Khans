@@ -1,7 +1,7 @@
-owner = PER
-controller = PER
+owner = SVF
+controller = SVF
+add_core = SVF
 add_core = PER
 trade_goods = coal
 life_rating = 35
-
-set_province_flag = mine
+terrain = dryhills

@@ -1,91 +1,49 @@
-leader = {
-	name = "Manuel Blanco"
-	picture = aus_gen_windischgraetz
-	date = 1826.1.1
-	type = land
-	personality = defence_1.1
-	background = attack_1.1
-	prestige = 0.3
+ECU = {
+    value = -100
 }
+
 leader = {
-	name = "Jose Joaquú‹ Prieto"
-	picture = aus_gen_rukavina
-	date = 1829.1.1
-	type = land
-	personality = defence_1.1
-	background = attack_1.1
-	prestige = 0.2
+    name = "Andres de Santa Cruz"
+    type = land
+    date = 1836.1.1
+    personality = arrogant
+    background = old_school
 }
-leader = {
-	name = "Manuel Bulnes"
-	picture = aus_gen_nugent
-	date = 1815.1.1
-	type = land
-	personality = defence_1.1
-	background = attack_1.1
-	prestige = 0.3
+
+navy = {
+    name = "Marina de Guerra del Peru"
+    location = 2295
+    ship = {
+        name= "Monteagudo"
+        type = frigate
+    }
+
+    ship = {
+        name= "Santa Cruz"
+        type = frigate
+    }
+
 }
 
 army = {
-	name = "1. Army"
-	location = 2291
-	regiment = {
-		name= "1. Brigada de Infanteria"
-		type = infantry
-		home = 2295
-	}
+    name = "Ejército del Perú"
+    location = 2295
+    regiment = {
+        name= "1. Brigada de Infantería"
+        type = infantry
+        home = 2295
+    }
 
-	regiment = {
-		name= "2. Brigada de Infanteria"
-		type = infantry
-		home = 2295
-	}
+    regiment = {
+        name= "2. Brigada de Infantería"
+        type = infantry
+        home = 2295
+    }
 
-	regiment = {
-		name= "3. Brigada de Infanteria"
-		type = infantry
-		home = 2295
-	}
-	
-	regiment = {
-		name= "4. Brigada de Infanteria"
-		type = infantry
-		home = 2295
-	}
+    regiment = {
+        name= "3. Brigada de Infantería"
+        type = infantry
+        home = 2302
+    }
 
-	regiment = {
-		name= "1. Hussar"
-		type = hussar
-		home = 2295
-	}
-
-	regiment = {
-		name= "1. Artillery"
-		type = artillery
-		home = 2295
-	}
-	
-	regiment = {
-		name= "2. Artillery"
-		type = artillery
-		home = 2295
-	}
-	
-	regiment = {
-		name= "3. Artillery"
-		type = artillery
-		home = 2295
-	}
-	
-	regiment = {
-		name= "4. Artillery"
-		type = artillery
-		home = 2302
-	}
-	
-	regiment = {
-		name= "5. Artillery"
-		type = artillery
-		home = 2295
-	}
 }

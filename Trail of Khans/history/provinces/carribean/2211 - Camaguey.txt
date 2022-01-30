@@ -1,7 +1,6 @@
-owner = SPA
-controller = SPA
+owner = IBE
+controller = IBE
 add_core = CUB
 trade_goods = tobacco
 life_rating = 35
 colonial = 2
-set_province_flag = farm

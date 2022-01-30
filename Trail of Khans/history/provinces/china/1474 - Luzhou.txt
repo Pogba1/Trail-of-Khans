@@ -1,14 +1,10 @@
-owner = CHI
-controller = CHI
+owner = QNG
+controller = QNG
 add_core = CHI
-#add_core = TPG
-#add_core = HUI
-trade_goods = tea
+trade_goods = cattle
 life_rating = 32
 1861.1.1 = {
-	controller = TPG
-	owner = TPG
-	
+    owner = TPG
+    controller = TPG
+    add_core = TPG
 }
-
-set_province_flag = farm

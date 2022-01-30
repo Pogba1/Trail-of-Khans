@@ -1,7 +1,7 @@
-owner = SPA
-controller = SPA
+owner = IBE
+controller = IBE
+add_core = IBE
 add_core = SPA
-trade_goods = coal
-life_rating = 34
-
-set_province_flag = mine
+trade_goods = iron
+life_rating = 35
+1861.1.1 = { railroad = 3 }

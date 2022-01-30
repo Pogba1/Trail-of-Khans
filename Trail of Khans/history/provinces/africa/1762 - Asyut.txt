@@ -1,4 +1,5 @@
+owner = EGY
+controller = EGY
+add_core = EGY
 trade_goods = cotton
-life_rating = 1
-
-set_province_flag = farm
+life_rating = 35

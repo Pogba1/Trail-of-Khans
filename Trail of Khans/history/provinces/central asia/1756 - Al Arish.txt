@@ -1,7 +1,7 @@
 owner = EGY
 controller = EGY
 add_core = EGY
-trade_goods = coal
-life_rating = 35
-
-set_province_flag = mine
+trade_goods = fruit
+life_rating = 20
+terrain = semidesert
+#terrain = coastal_desert

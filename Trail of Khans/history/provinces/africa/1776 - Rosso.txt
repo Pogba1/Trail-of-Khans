@@ -1,4 +1,6 @@
-trade_goods = wool
-life_rating = 20
-
-set_province_flag = farm
+owner = TRZ
+controller = TRZ
+add_core = TRZ
+trade_goods = fish
+terrain = semidesert
+life_rating = 15

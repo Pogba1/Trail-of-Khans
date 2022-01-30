@@ -1,9 +1,6 @@
-owner = FIN
-controller = FIN
+owner = SWE
+controller = SWE
 add_core = FIN
 add_core = SWE
-trade_goods = fish
+trade_goods = grain
 life_rating = 35
-naval_base = 2
-
-set_province_flag = farm

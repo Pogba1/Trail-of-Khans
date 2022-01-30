@@ -1,13 +1,11 @@
 owner = PAP
 controller = PAP
 add_core = PAP
-#add_core = ITA
-
-trade_goods = fruit
-life_rating = 33
+add_core = ITA
+trade_goods = coal
+life_rating = 35
 1861.1.1 = {
-	controller = ITA
-	owner = ITA
-	#add_core = ITA
+    controller = ITA
+    owner = ITA
+    add_core = ITA
 }
-set_province_flag = farm

@@ -1,7 +1,6 @@
-owner = GRE
-controller = GRE
+owner = VEN
+controller = VEN
+add_core = MEA
 add_core = GRE
 trade_goods = fruit
 life_rating = 35
-
-set_province_flag = farm

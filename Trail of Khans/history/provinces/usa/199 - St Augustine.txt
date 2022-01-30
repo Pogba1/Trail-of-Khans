@@ -1,17 +1,23 @@
-owner = USA
-controller = USA
-add_core = USA
+owner = IBE
+controller = IBE
 trade_goods = cotton
 life_rating = 35
-colony = 2
+colonial = 2
 is_slave = yes
-1861.1.1 = {
-	colony = 0
 
-	controller = CSA
-	owner = CSA
-	add_core = CSA
-	railroad = 3 
+party_loyalty = {
+    ideology = conservative
+    loyalty_value = 5
+}
+party_loyalty = {
+    ideology = liberal
+    loyalty_value = 12
 }
 
-set_province_flag = farm
+1861.1.1 = {
+    colonial = 0
+    controller = CSA
+    owner = CSA
+    add_core = CSA
+    railroad = 3
+}

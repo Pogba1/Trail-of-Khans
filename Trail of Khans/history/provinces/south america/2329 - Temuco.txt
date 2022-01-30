@@ -1,4 +1,7 @@
-trade_goods = coal
-life_rating = 1
-
-set_province_flag = mine
+owner = PEU
+controller = PEU
+add_core = PEU
+add_core = PTG
+trade_goods = wool
+terrain = montane_forest
+life_rating = 35

@@ -1,12 +1,7 @@
-owner = ENG
-controller = ENG
-add_core = CAN
+owner = IRO
+controller = IRO
+add_core = IRO
+add_core = QUE
 trade_goods = grain
 life_rating = 35
-colonial = 2
-1836.1.2 = {
-	owner = CAN
-	controller = CAN
-	colonial = 0
-}
-set_province_flag = farm
+colonial = 0

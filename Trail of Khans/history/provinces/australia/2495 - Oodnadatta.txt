@@ -1,7 +1,4 @@
 add_core = AST
-trade_goods = iron
-life_rating = 25
-
-
-
-set_province_flag = mine
+trade_goods = fruit
+terrain = semidesert
+life_rating = 15

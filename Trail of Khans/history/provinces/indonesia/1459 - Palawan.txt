@@ -1,7 +1,6 @@
-owner = SPA
-controller = SPA
+owner = IBE
+controller = IBE
 add_core = PHL
 trade_goods = tropical_wood
-life_rating = 30
-
-set_province_flag = mine
+life_rating = 35
+colonial = 2

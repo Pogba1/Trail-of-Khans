@@ -1,9 +1,9 @@
-owner = MEC
-controller = MEC
+owner = HRE
+controller = HRE
+add_core = HRE
 add_core = MEC
-#add_core = GER
+add_core = GER
 trade_goods = grain
-life_rating = 38
+life_rating = 40
+naval_base = 1
 1861.1.1 = { railroad = 3 }
-
-set_province_flag = farm

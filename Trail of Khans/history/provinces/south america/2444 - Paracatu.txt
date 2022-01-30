@@ -2,6 +2,5 @@ owner = BRZ
 controller = BRZ
 add_core = BRZ
 trade_goods = cattle
-life_rating = 25
-
-set_province_flag = farm
+terrain = savanna
+life_rating = 31

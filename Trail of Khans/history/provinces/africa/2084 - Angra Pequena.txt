@@ -1,4 +1,5 @@
-trade_goods = grain
-life_rating = 20
-
-set_province_flag = farm
+add_core = NMB
+terrain = desert
+trade_goods = fish
+life_rating = 10
+colonial = 1

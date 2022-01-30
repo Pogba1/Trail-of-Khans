@@ -1,7 +1,5 @@
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = HRE
+controller = HRE
 trade_goods = fish
-life_rating = 35
-
-set_province_flag = farm
+life_rating = 30
+terrain = small_island

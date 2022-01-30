@@ -1,7 +1,6 @@
 owner = MOR
 controller = MOR
 add_core = MOR
-trade_goods = fruit
-life_rating = 35
-
-set_province_flag = farm
+terrain = semidesert
+trade_goods = wool
+life_rating = 31

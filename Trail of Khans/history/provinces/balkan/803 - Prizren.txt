@@ -1,9 +1,7 @@
-owner = TUR
-controller = TUR
-add_core = TUR
+owner = EPI
+controller = EPI
+add_core = EPI
 add_core = SER
-
+add_core = ALB
 trade_goods = timber
 life_rating = 35
-
-set_province_flag = mine

@@ -1,11 +1,10 @@
 owner = RUS
 controller = RUS
-add_core = RUS
 add_core = CIR
-trade_goods = sulphur
+trade_goods = grain
 life_rating = 35
-1861.1.1 = { 
-	add_core = RUS
+colonial = 2
+1861.1.1 = {
+    owner = RUS
+    controller = RUS
 }
-
-set_province_flag = mine

@@ -1,13 +1,6 @@
-owner = TUR
-controller = TUR
-add_core = TUR
+owner = BYZ
+controller = BYZ
+add_core = BYZ
 add_core = GRE
-trade_goods = tobacco
+trade_goods = cotton
 life_rating = 35
-state_building = {
-	level = 1
-	building = ammunition_factory
-	upgrade = yes
-}
-
-set_province_flag = farm

@@ -2,9 +2,7 @@ owner = NET
 controller = NET
 add_core = NET
 trade_goods = grain
-life_rating = 36
+life_rating = 35
 1861.1.1 = {
-	naval_base = 2
+    naval_base = 2
 }
-
-set_province_flag = farm

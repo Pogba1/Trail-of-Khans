@@ -1,4 +1,90 @@
 # Country unit colors.
+SAM = {
+    color1= { 98 107 49 }
+    color2= { 162 145 29  }
+    color3= { 183 176 194  }
+}
+RCH = {
+	color1= { 103 115 65  }
+    color2= { 144 52 53  }
+    color3= { 107 170 77  }
+}
+MEA = {
+	color1 = {252 36 3}
+	color2 = {120 30 20}
+	color3= { 131 101 85  }
+}
+EPI = {
+	color1 = {36 66 138}
+	color2= { 161 126 128 }
+    color3= { 131 101 85  }
+}
+
+EGE = {
+	color1 = {130 140 14}
+	color2 = {130 140 14}
+	color3 = {130 140 14}
+}
+GPN = {
+	color1 = {196 53 18}
+	color2 = {196 53 18}
+	color3 = {196 53 18}
+}
+HPS = {
+	color1 = {197 199 201}
+	color2 = {197 199 201}
+	color3 = {197 199 201}
+}
+SVF = {
+	color1 = {168 133 50}
+	color2 = {168 133 50}
+	color3 = {168 133 50}
+
+}
+BRN = {
+	color1= { 175 15 15  }
+    color2= { 70 70 70  }
+    color3= { 255 255 255  }
+}
+BIT = {
+	color1 = {87 217 160}
+    color2 = {87 217 160}
+    color3 = {87 217 160}
+}	
+ROM =  {
+	color1= {30 92 227}
+	color2= {88 125 140}
+	color3= {30 92 227}
+}
+IBE = {
+	color1= {179 145 61}
+	color2= {179 145 61}
+	color3= {179 145 61}
+
+
+}
+DNN = {
+	color1= { 122 57 43 }
+	color2= { 122 57 43 }
+	color3= { 122 57 43 }
+}
+
+HRE = {
+	color1= { 252 173 3 }
+	color2= { 255 255 255 }
+	color3= { 193 26 14 }
+}
+IRO = {
+	color1= { 53 91 156 }
+	color2= { 255 255 255 }
+	color3= { 193 26 14 }
+}
+
+LOU = {
+	color1= { 56 175 199 }
+	color2= { 255 255 255 }
+	color3= { 193 26 14 }
+}
 
 # Sweden
 SWE = {
@@ -35,7 +121,7 @@ ALB = {
     color2= { 161 126 128  }
     color3= { 131 101 85  }
 }
- 
+
 # Awadh FIXED
 AWA = {
     color1= { 215 59 53  }
@@ -44,7 +130,7 @@ AWA = {
 }
 
 # Belgium FIXED
-BEL	 = {
+BEL     = {
     color1= { 244 56 49  }
     color2= { 248 199 67  }
     color3= { 107 170 77  }
@@ -118,7 +204,7 @@ SER = {
 # Wallachia FIXED
 WAL = {
     color1= { 248 199 67  }
-    color2= { 244 56 49  }	
+    color2= { 244 56 49  }
     color3= { 187 79 86  }
 }
 
@@ -203,36 +289,36 @@ PRG = {
 
 # Argentina
 ARG = {
-	color1= { 112 145 181  }
+    color1= { 112 145 181  }
     color2= { 255 255 255  }
     color3= { 80 79 88  }
-}	
-	
+}
+
 # Uruguay
 URU = {
     color1= { 68 79 141  }
     color2= { 167 157 94  }
     color3= { 80 79 88  }
-}	
-	
+}
+
 # Venezuela
 VNZ = {
     color1= { 162 145 29  }
     color2= { 66 66 121  }
     color3= { 197 92 106  }
-}	
-	
+}
+
 # Ecuador
 ECU = {
     color1= { 97 144 157  }
     color2= { 255 255 255  }
     color3= { 197 92 106  }
-}		
-	
+}
+
 # Colombia
 CLM = {
     color1= { 143 42 39  }
-    color2= { 162 145 29  }  
+    color2= { 162 145 29  }
     color3= { 197 92 106  }
 }
 
@@ -266,7 +352,7 @@ QUE = {
 
 # USA
 USA = {
-    color1= { 69 157 208  }
+    color1= { 0 89 0  }
     color2= { 124 140 162  }
     color3= { 137 183 124  }
 }
@@ -312,7 +398,7 @@ ANH = {
     color2= { 244 56 49  }
     color3= { 134 166 117  }
 }
- 
+
 #  Baden FIXED
 BAD = {
     color1= { 255 242 103  }
@@ -483,11 +569,11 @@ ITA = {
 }
 
 # Manhattan Commune
-MAN = {
-    color1= { 191 83 101  }
-    color2= { 126 203 120  }
-    color3= { 99 137 153  }
-}
+#MAN = {
+#    color1= { 191 83 101  }
+#    color2= { 126 203 120  }
+#    color3= { 99 137 153  }
+#}
 
 # Modena
 MOD = {
@@ -506,7 +592,7 @@ PAP = {
 # Parma FIXED
 PAR = {
     color1= { 255 255 255  }
-	color2= { 248 199 67  }
+    color2= { 248 199 67  }
     color3= { 112 150 105  }
 }
 
@@ -524,6 +610,12 @@ SIC = {
     color3= { 131 101 85  }
 }
 
+NAP = {
+    color1= { 150  30  154  }
+    color2= { 255 255 255  }
+    color3= { 131 101 85  }
+}
+
 # Siebenbürgen
 SIE = {
     color1= { 75 111 205  }
@@ -531,7 +623,7 @@ SIE = {
     color3= { 117 127 174  }
 }
 
-# Tuscany FIXED 
+# Tuscany FIXED
 TUS = {
     color1= { 217 80 75  }
     color2= { 255 255 255  }
@@ -569,7 +661,7 @@ HOL = {
 # Lippe-Detmold FIXED
 LIP = {
     color1= { 248 199 67  }
-    color2= { 244 56 49  }	
+    color2= { 244 56 49  }
     color3= { 255 255 255  }
 }
 
@@ -699,8 +791,8 @@ EGY = {
     color1= { 179 54 57  }
     color2= { 123 16 21  }
     color3= { 48 164 51  }
-}	
-	
+}
+
 # Transvaal FIXED
 TRN = {
     color1= { 49 244 76  }
@@ -741,8 +833,8 @@ MAD = {
     color1= { 36 84 245  }
     color2= { 236 159 89  }
     color3= { 121 162 109  }
-}	
-	
+}
+
 # Khiva
 KHI = {
     color1= { 121 159 109  }
@@ -840,7 +932,7 @@ JOH = {
     color2= { 244 56 49  }
     color3= { 107 170 77  }
 }
-	
+
 # Korea
 KOR = {
     color1= { 244 56 49  }
@@ -953,14 +1045,14 @@ NEP = {
     color3= { 69 157 208  }
 }
 
-# Nagpur 
+# Nagpur
 NAG = {
     color1= { 215 93 53  }
     color2= { 100 100 100  }
     color3= { 69 157 208  }
 }
 
-# Nejd 
+# Nejd
 NEJ = {
     color1= { 87 146 87  }
     color2= { 0 0 0  }
@@ -1036,11 +1128,4 @@ TRA = {
     color1= { 215 59 53  }
     color2= { 122 182 242 }
     color3= { 255 255 255  }
-}
-
-# Liechtenstein
-LCT = {
-    color1= { 123 183 244  }
-    color2= { 255 255 255  }
-    color3= { 188 80 87  }
 }

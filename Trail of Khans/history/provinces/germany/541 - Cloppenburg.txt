@@ -1,8 +1,7 @@
-owner = OLD
-controller = OLD
+owner = HRE
+controller = HRE
+add_core = HRE
 add_core = OLD
-#add_core = GER
+add_core = GER
 trade_goods = coal
 life_rating = 40
-
-set_province_flag = mine

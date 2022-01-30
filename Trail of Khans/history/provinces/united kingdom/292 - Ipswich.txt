@@ -2,29 +2,18 @@ owner = ENG
 controller = ENG
 add_core = ENG
 trade_goods = grain
-life_rating = 38
+life_rating = 35
 naval_base = 2
 fort = 1
-state_building = {
-	level = 1
-	building = canned_food_factory
-	upgrade = yes
+party_loyalty = {
+    ideology = conservative
+    loyalty_value = 15
 }
-state_building = {
-	level = 1
-	building = clipper_shipyard
-	upgrade = yes
+party_loyalty = {
+    ideology = liberal
+    loyalty_value = 5
 }
 1861.1.1 = {
-	state_building = {
-		level = 2
-		building = canned_food_factory
-		upgrade = yes
-	}
+    railroad = 3
+    naval_base = 3
 }
-1861.1.1 = { 
-	railroad = 3 
-	naval_base = 3 
-}
-
-set_province_flag = farm

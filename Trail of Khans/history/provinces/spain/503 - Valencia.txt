@@ -1,30 +1,30 @@
-owner = SPA
-controller = SPA
+owner = IBE
+controller = IBE
+add_core = IBE
 add_core = SPA
-trade_goods = fruit
+add_core = CAT
+trade_goods = silk
 life_rating = 35
 #state_building = {
-#	level = 1
-#	building = glass_factory
-#	upgrade = yes
+#    level = 1
+#    building = glass_factory
+#    upgrade = yes
 #}
 #state_building = {
-#	level = 1
-#	building = winery
-#	upgrade = yes
+#    level = 1
+#    building = winery
+#    upgrade = yes
 #}
-1861.1.1 = { 
-	state_building = {
-		level = 1
-		building = winery
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = ammunition_factory
-		upgrade = yes
-	}
+1861.1.1 = {
+    state_building = {
+        level = 1
+        building = winery
+        upgrade = yes
+    }
+    state_building = {
+        level = 1
+        building = luxury_clothes_factory
+        upgrade = yes
+    }
 }
 1861.1.1 = { railroad = 2 }
-
-set_province_flag = farm

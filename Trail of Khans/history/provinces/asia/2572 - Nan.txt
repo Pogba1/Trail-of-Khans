@@ -1,7 +1,6 @@
 owner = SIA
 controller = SIA
 add_core = SIA
-trade_goods = opium
-life_rating = 30
-
-set_province_flag = farm
+add_core = SHA
+trade_goods = wool
+life_rating = 35

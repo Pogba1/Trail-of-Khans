@@ -1,4 +1,6 @@
-trade_goods = timber
+owner = TRZ
+controller = TRZ
+add_core = TRZ
+trade_goods = cattle
 life_rating = 15
-
-set_province_flag = mine
+terrain = semidesert

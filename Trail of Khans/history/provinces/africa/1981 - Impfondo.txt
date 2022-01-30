@@ -1,4 +1,13 @@
-trade_goods = timber
-life_rating = 15
-
-set_province_flag = mine
+owner = BIT
+controller = BIT
+add_core = BIT
+add_core = TUS
+add_core = ITA
+trade_goods = iron
+life_rating = 31
+terrain = small_island
+1861.1.1 = {
+    controller = ITA
+    owner = ITA
+    remove_core = TUS
+}

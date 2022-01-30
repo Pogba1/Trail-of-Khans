@@ -3,6 +3,4 @@ controller = FRA
 add_core = FRA
 add_core = CAT
 trade_goods = grain
-life_rating = 31
-
-set_province_flag = farm
+life_rating = 35

@@ -1,10 +1,7 @@
-owner = SPA
-controller = SPA
+owner = IBE
+controller = IBE
+add_core = IBE
 add_core = SPA
-trade_goods = iron
+trade_goods = fruit
 life_rating = 35
 1861.1.1 = { railroad = 2 }
-
-
-
-set_province_flag = mine

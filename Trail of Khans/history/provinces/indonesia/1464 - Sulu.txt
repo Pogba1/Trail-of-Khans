@@ -1,8 +1,6 @@
-owner = SPA
-controller = SPA
+owner = SUL
+controller = SUL
 add_core = PHL
+add_core = SUL
 trade_goods = fish
-life_rating = 30
-colonial = 2
-
-set_province_flag = farm
+life_rating = 35

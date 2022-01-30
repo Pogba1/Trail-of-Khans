@@ -1,4 +1,5 @@
-trade_goods = tobacco
-life_rating = 15
-
-set_province_flag = farm
+owner = IBE
+controller = IBE
+trade_goods = fruit
+life_rating = 10
+colonial = 2

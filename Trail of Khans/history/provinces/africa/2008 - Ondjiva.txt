@@ -1,6 +1,4 @@
-trade_goods = iron
-life_rating = 15
-
-
-
-set_province_flag = mine
+terrain = savanna
+trade_goods = fruit
+life_rating = 10
+colonial = 2

@@ -1,6 +1,5 @@
-owner = HAI
-controller = HAI
-add_core = HAI
+owner = IBE
+controller = IBE
 add_core = DOM
 trade_goods = tobacco
 life_rating = 35
@@ -8,5 +7,3 @@ life_rating = 35
 owner = DOM
 controller = DOM
 }
-
-set_province_flag = farm

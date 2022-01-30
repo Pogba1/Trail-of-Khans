@@ -1,7 +1,12 @@
+owner = TOO
+controller = TOO
+add_core = WOL
+add_core = TOO
 trade_goods = fruit
-life_rating = 20
+terrain = semidesert
+life_rating = 30
 1861.1.1 = {
-	life_rating = 30
+    owner = FRA
+    controller = FRA
+    colonial = 2
 }
-
-set_province_flag = farm

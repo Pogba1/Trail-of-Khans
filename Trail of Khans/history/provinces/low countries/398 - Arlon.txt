@@ -1,13 +1,14 @@
-owner = BEL
-controller = BEL
-add_core = BEL
+owner = FRA
+controller = FRA
+add_core = FRA
 add_core = NET
-#add_core = WLL
-trade_goods = timber
+add_core = WLL
+add_core = LUX
+trade_goods = coal
 life_rating = 35
-1861.1.1 = { 
-	railroad = 3 
-	remove_core = NET
+terrain = mining_district
+1861.1.1 = {
+    railroad = 3
+    remove_core = LUX
+    remove_core = NET
 }
-
-set_province_flag = mine

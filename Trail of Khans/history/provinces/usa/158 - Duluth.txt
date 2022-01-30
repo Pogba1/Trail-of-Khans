@@ -1,12 +1,10 @@
-owner = USA
-controller = USA
-add_core = USA
-trade_goods = iron
+owner = FRA
+controller = FRA
+add_core = QUE
+trade_goods = fish
 life_rating = 35
-colony = 2
+colonial = 2
 1861.1.1 = {
-	colony = 0
-	}
-
-
-set_province_flag = mine
+    colonial = 0
+    remove_core = CAN
+}

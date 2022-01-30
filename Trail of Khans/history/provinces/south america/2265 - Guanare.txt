@@ -1,8 +1,6 @@
-owner = VNZ
-controller = VNZ
+owner = GCO
+controller = GCO
+add_core = GCO
 add_core = VNZ
-#add_core = GCO
-trade_goods = coffee
+trade_goods = fruit
 life_rating = 30
-
-set_province_flag = farm

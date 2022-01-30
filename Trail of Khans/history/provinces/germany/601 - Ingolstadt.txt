@@ -1,11 +1,7 @@
-owner = BAV
-controller = BAV
+owner = HRE
+controller = HRE
+add_core = HRE
 add_core = BAV
-#add_core = GER
+add_core = GER
 trade_goods = grain
-life_rating = 38
-1861.1.1 = {
-	fort = 2
-}
-
-set_province_flag = farm
+life_rating = 40

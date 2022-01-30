@@ -1,12 +1,12 @@
-owner = HND
-controller = HND
+owner = FRA
+controller = FRA
+add_core = AWA
+add_core = MUG
 add_core = HND
 trade_goods = timber
 life_rating = 32
 1861.1.1 = {
-	owner = ENG
-	controller = ENG
-	colonial = 1
+    owner = ENG
+    controller = ENG
+    colonial = 2
 }
-
-set_province_flag = mine

@@ -1,38 +1,35 @@
-owner = SWI
-controller = SWI
+owner = HRE
+controller = HRE
+add_core = HRE
 add_core = SWI
-trade_goods = cattle
-life_rating = 35
-railroad = 1
+trade_goods = iron
+life_rating = 34
 fort = 1
-state_building = {
-	level = 1
-	building = fabric_factory
-	upgrade = yes
+
+party_loyalty = {
+    ideology = conservative
+    loyalty_value = 1
 }
-state_building = {
-	level = 1
-	building = lumber_mill
-	upgrade = yes
-}
-1861.1.1 = { 
-	railroad = 1
-	fort = 2 
-	state_building = {
-		level = 1
-		building = regular_clothes_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = canned_food_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = small_arms_factory
-		upgrade = yes
-	}
+party_loyalty = {
+    ideology = liberal
+    loyalty_value = 30
 }
 
-set_province_flag = farm
+state_building = {
+    level = 1
+    building = artillery_factory
+    upgrade = yes
+}
+state_building = {
+    level = 1
+    building = liquor_distillery
+    upgrade = yes
+}
+1861.1.1 = { railroad = 1 }
+1861.1.1 = {
+    state_building = {
+        level = 1
+        building = luxury_clothes_factory
+        upgrade = yes
+    }
+}

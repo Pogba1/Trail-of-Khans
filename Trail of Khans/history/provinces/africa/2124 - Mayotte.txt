@@ -1,8 +1,12 @@
+owner = DNN
+controller = DNN
+add_core = CMS
 trade_goods = grain
-life_rating = 35
+life_rating = 30
+terrain = small_island
+colonial = 2
 1861.1.1 = {
-	owner = FRA
-	controller = FRA
-	colonial = 2
+    owner = FRA
+    controller = FRA
+    naval_base = 1
 }
-set_province_flag = farm
