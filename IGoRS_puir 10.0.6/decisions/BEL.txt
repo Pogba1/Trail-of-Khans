@@ -1,0 +1,162 @@
+political_decisions = {
+	colonial_destiny = {
+		picture = rhodesia_charter
+		potential = {
+			tag = BEL
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+			}
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+			NOT = {
+				has_country_flag = colonial_beginnings
+				any_owned_province = { continent = africa }
+			}
+			1983 = {
+				OR = {
+					empty = yes
+					owner = {
+						civilized = no
+						ai = yes
+					}
+				}
+			}		
+		}
+
+		allow = {
+			war = no
+			invention = mission_to_civilize
+			invention = colonial_negotiations
+		}
+
+		effect = {
+			set_country_flag = colonial_beginnings
+			prestige = 10
+			1983 = { 
+				secede_province = BEL
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	force_publique = {
+		potential = {
+			tag = BEL
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+			}
+			has_country_flag = colonial_beginnings
+			NOT = { has_country_flag = force_publique_formed }
+		}
+		allow = {
+			any_owned_province = { continent = africa }
+			military_logistics = 1
+			year = 1885
+		}
+		effect = {
+			set_country_flag = force_publique_formed
+			any_pop = {
+				limit = {
+					location = { continent = africa }
+					NOT = {
+						culture = wallonian
+						culture = flemish
+					}
+				}
+				consciousness = 4
+				militancy = 3
+			}
+			any_owned = {
+				limit = { continent = africa }
+				add_province_modifier = {
+					name = force_publique
+					duration = -1
+				}
+			}
+			any_greater_power = {
+				relation = {
+					who = THIS
+					value = -40
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	rename_the_congo = {
+		potential = {
+			tag = BEL
+			OR = {
+				AND = {
+					exists = CNG
+					CNG = { vassal_of = THIS }
+				}
+				AND = {
+					owns = 1987
+					owns = 1982
+					owns = 1993
+					owns = 1996
+				}
+			}
+			NOT = {
+				has_global_flag = congo_renamed
+			}
+		}
+		
+		allow = {
+			invention = mission_to_civilize
+		}
+		
+		effect = {
+			1987 = {
+				change_province_name = "Elisabethville"
+				state_scope = { 
+					any_owned = { life_rating = 20 }
+				}
+			}		
+			1982 = {
+				change_province_name = "Leopoldville"
+				state_scope = { 
+					any_owned = { life_rating = 20 }
+				}
+			}
+			1984 = {
+				change_province_name = "Port-Francqui"
+				state_scope = { 
+					any_owned = { life_rating = 20 }
+				}
+			}
+			1989 = {
+				change_province_name = "Albertville"
+			}
+			1993 = {
+				change_province_name = "Coquilhatville"
+				state_scope = { 
+					any_owned = { life_rating = 20 }
+				}
+			}
+			1996 = {
+				change_province_name = "Stanleyville"
+				state_scope = { 
+					any_owned = { life_rating = 20 }
+				}
+			}
+
+			prestige = 10
+			set_global_flag = congo_renamed
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

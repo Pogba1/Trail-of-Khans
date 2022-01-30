@@ -1,0 +1,17 @@
+#Relations
+
+RUS = {
+	value = 200
+}
+
+#Leaders
+
+leader = {
+	name = "Anders Edvard Ramsay"
+	picture = fin_gen_ramsayae
+	date = 1828.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}

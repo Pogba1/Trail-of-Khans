@@ -1,0 +1,34 @@
+country_event = {
+	id = 476008
+	title = "EVTNAME476008"
+	desc = "EVTDESC476008"
+	picture = "native_force"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Sounds good!"
+		any_country = {
+			limit = { has_country_flag = unsiege_this } 
+				country_event = { id=476009 days=0 } }	
+	}
+}
+
+country_event = {
+	id = 476009
+	title = "EVTNAME476008"
+	desc = "EVTDESC476008"
+	picture = "native_force"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Sounds good!"
+		THIS = {
+			any_owned = {
+				change_controller = { THIS }
+			}
+		}
+		THIS = { clr_country_flag = unsiege_this }
+	}
+}

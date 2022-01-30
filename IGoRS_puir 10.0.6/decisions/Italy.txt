@@ -1,0 +1,907 @@
+political_decisions = {
+	cavours_diplomacy = {
+		potential = {
+			OR = {
+				AND = { 
+					OR = { 
+						tag = ITA
+						tag = AIT
+					}
+					NOT = { exists = SAR }
+				}
+				AND = { 
+					tag = SAR
+					NOT = { 
+						exists = ITA
+						exists = AIT
+					}
+				}
+			}
+			NOT = {
+				has_country_flag = cavour_has_done_his
+			}
+			owns = 465
+			owns = 466
+			owns = 472
+			FRA = {
+				exists = yes
+				is_greater_power = yes
+			}
+		}
+		allow = {
+			relation = {
+				who = FRA
+				value = 150
+			}
+			owns = 726
+			owns = 727
+			owns = 728
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -10
+			relation = {
+				who = FRA
+				value = 50
+			}
+			726 = {
+				add_core = SAR
+			}
+			727 = {
+				add_core = SAR
+			}
+			728 = {
+				add_core = SAR
+			}
+			465 = {
+				remove_core = ITA
+				remove_core = AIT
+				remove_core = SAR
+				add_core = FRA
+				secede_province = FRA
+			}
+			466 = {
+				remove_core = ITA
+				remove_core = AIT
+				remove_core = SAR
+				add_core = FRA
+				secede_province = FRA
+			}
+			472 = {
+				remove_core = ITA
+				remove_core = AIT
+				remove_core = SAR
+				add_core = FRA
+				secede_province = FRA
+			}
+			set_country_flag = cavour_has_done_his
+		}
+	}
+	
+	award_order_of_st_francis = {
+		potential = {
+			tag = SIC
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = order_awarded
+			}
+		}
+		
+		allow = {
+			prestige = 35
+		}
+		
+		effect = {
+			years_of_research = 0.02
+			prestige = 2
+			set_country_flag = order_awarded
+		}
+	}
+	
+	statuto_albertino = {
+		potential = {
+			tag = SAR
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = get_your_statuto_albertino_here
+			}
+		}
+		
+		allow = {
+			average_militancy = 3
+		}
+		
+		effect = {
+			any_pop = {
+				militancy = -2
+			}
+			prestige = 5
+			government = prussian_constitutionalism
+			political_reform = appointed
+			political_reform = wealth_weighted_voting
+			political_reform = yes_meeting
+			political_reform = free_press
+			political_reform = secret_ballots
+			set_country_flag = get_your_statuto_albertino_here
+		}
+	}
+	recognize_argentinas_independence = { #original VIP event by Generalisimo
+		potential = {
+			OR = {
+				tag = SAR
+				tag = ITA
+			}
+			exists = ARG
+			OR = { #is a monarchy
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+			NOT = {
+				has_country_flag = recognize_argentinas_independence
+			}
+		}
+		
+		allow = {
+			NOT = {
+				war_with = ARG
+			}
+			war = no
+			ARG = {
+				war = no
+			}
+			year = 1850
+		}
+		
+		effect = {
+			ARG = {
+				country_event = 146603
+				relation = { who = THIS value = 20 }
+			}
+			SPA = {
+				relation = { who = THIS value = -10 }
+			} 
+			prestige = 1
+			set_country_flag = recognize_argentinas_independence
+		}
+	}
+	build_vittoriano = {
+		potential = {
+			OR = { 
+				tag = ITA
+				tag = AIT
+			}
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = vittoriano_built
+			}
+		}
+		
+		allow = {
+			realism = 1
+		}
+		
+		effect = {
+			prestige = 5
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = vittoriano_built
+		}
+	}
+	the_case_of_edgardo_mortara = {
+		potential = {
+			tag = PAP
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = edgardo_mortara
+			}
+			year = 1858
+			owns = 741
+		}
+		allow = {
+			idealism = 1
+		}
+		effect = {
+			prestige = 15
+			badboy = 1
+			any_greater_power = {
+				relation = {
+					value = -20
+					who = THIS
+				}
+			}
+			set_country_flag = edgardo_mortara
+		}
+	}
+	
+	the_first_vatican_council = {
+		potential = {
+			tag = PAP
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = first_vatican_council_held
+			}
+		}
+		
+		allow = {
+			empiricism = 1
+		}
+		
+		effect = {
+			prestige = 10
+			badboy = 1
+			any_country = {
+				limit = {
+					religion = catholic
+				}
+				relation = {
+					who = THIS
+					value = 10
+				}
+			}
+			set_country_flag = first_vatican_council_held
+		}
+	}
+
+
+	the_vesuvius_observatory = { #original VIP event by aprof
+		potential = {
+			tag = SIC #Two Sicilies
+			NOT = {
+				has_country_flag = the_vesuvius_observatory
+			}
+		}
+		
+		allow = {
+			invention = machine_tools
+		}
+		
+		effect = {
+			research_points = 100
+			set_country_flag = the_vesuvius_observatory
+		}
+	}
+
+	accademia_della_crusca = {
+        	potential = {
+           		tag = TUS
+            		NOT = { has_country_flag = accademia_della_crusca }
+		}
+
+		allow = {
+			romanticism = 1
+			idealism = 1
+		}
+
+		effect = { 
+           	 	prestige = 15                   
+           	 	political_reform = free_press
+           	 	set_country_flag = accademia_della_crusca
+        	}
+	}
+
+	unite_with_tuscany = {
+		picture = gtfo
+		potential = {
+			tag = LUC
+			exists = TUS
+			NOT = { has_country_flag = unite_with_tuscany }
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+			OR = {
+				part_of_sphere = no
+				AND = {
+					sphere_owner = { is_sphere_leader_of = TUS }
+					year = 1847
+				}
+			}
+			TUS = {
+				war = no
+				neighbour = LUC
+				is_vassal = no
+			}
+		}
+
+		effect = {
+			set_country_flag = unite_with_tuscany
+			all_core = {
+				remove_core = LUC
+				add_core = TUS
+			}
+			random_country = {
+				limit = {
+					tag = TUS
+					ai = yes
+					LUC = { ai = yes }
+				}
+				inherit = LUC
+			}
+			random_country = {
+				limit = {
+					tag = TUS
+					ai = yes
+					LUC = { ai = no }
+				}
+				any_owned = { secede_province = LUC }
+				LUC = {
+					random_owned = {
+						limit = { province_id = 744 }
+						owner = { capital = 744 }
+					}
+					change_tag = TUS
+				}	
+			}
+			random_country = {
+				limit = {
+					tag = TUS
+					ai = no
+				}
+				country_event = 60130
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	law_of_guarantees = {
+		potential = {
+			OR = {
+				tag = ITA
+				tag = AIT
+			}
+			NOT = {
+				capital = 749
+			}
+		}
+		
+		allow = {
+			war = no
+			owns = 749
+		}
+		
+		effect = {
+			capital = 749
+			prestige = 5
+			badboy = -2
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = SAR
+						is_core = SIC
+						is_core = MOD
+						is_core = TUS
+						is_core = LUC
+						is_core = PAR
+						is_core = PAP
+						is_core = LOM
+						is_core = VEN
+					}
+				}
+				remove_core = SAR
+				remove_core = SIC
+				remove_core = MOD
+				remove_core = TUS
+				remove_core = LUC
+				remove_core = PAR
+				remove_core = PAP
+				remove_core = VEN
+				remove_core = LOM
+			}
+		}
+	}
+
+	italia_irredenta = {
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = italia_ulterior
+			}
+		}
+		
+		allow = {
+			NOT = { exists = SAR }
+			NOT = { exists = SIC }
+			NOT = { exists = AIT }
+		}
+		
+		effect = {
+			set_country_flag = italia_ulterior
+			badboy = 8
+			LOM = { all_core = { remove_core = LOM add_core = ITA } }
+			VEN = { all_core = { remove_core = VEN add_core = ITA } }
+			TRE = { all_core = { remove_core = TRE add_core = ITA } }
+			inherit = TRE
+			inherit = LOM
+			inherit = VEN
+			AUS_726 = {
+				limit = {
+					NOT = { life_rating = 36 }
+				}
+				life_rating = 2
+			}
+			AUS_729 = {
+				limit = {
+					NOT = { life_rating = 36 }
+				}
+				life_rating = 2
+			}
+			AUS_736 = {
+				limit = {
+					NOT = { life_rating = 36 }
+				}
+				life_rating = 2
+			}
+			AUS_734 = { 
+				add_core = ITA
+			} #South Tirol
+			473 = { 
+				add_core = ITA 
+			} #Corsica
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	claim_the_adriatic = {
+		picture = conquest_adriatic
+		potential = {
+			tag = ITA
+			NOT = { has_country_flag = adriatic_claimed }
+			has_country_flag = italia_ulterior
+		}
+		
+		allow = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			war_policy = jingoism
+			NOT = {
+				government = democracy
+			}
+			NOT = { exists = SAR }
+			NOT = { exists = SIC }
+			NOT = { exists = AIT }
+		}
+		
+		effect = {
+			badboy = 2
+			set_country_flag = adriatic_claimed
+			AUS_778 = {
+				add_core = ITA
+			}	#Istria
+#			AUS_781 = { add_core = ITA add_core = AIT } #North Dalmatia
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}	
+#	anti_italy = {
+#		picture = form_italy
+#		potential = {
+#			ai = no
+#			OR = {
+#				AND = { 
+#					tag = SIC
+#					exists = ITA
+#				}
+#				AND = { 
+#					tag = SAR
+#					exists = ITA
+#				}
+#			}
+#		}
+#	
+#		allow = {
+#			ai = no
+#			OR = {
+#				AND = { 
+#					tag = SIC
+#					exists = ITA
+#				}
+#				AND = { 
+#					tag = SAR
+#					exists = ITA
+#				}
+#			}
+#		}
+#	
+#		effect = {		
+#			change_tag = AIT
+#			add_accepted_culture = north_italian
+#			add_accepted_culture = south_italian
+#			SAR_466 = { 
+#				add_core = AIT
+#			}
+#			SAR_720 = { 
+#				add_core = AIT
+#			}
+#			SAR_765 = { 
+#				add_core = AIT
+#			}
+#			TUS_744 = { 
+#				add_core = AIT
+#			}
+#			PAP_741 = { 
+#				add_core = AIT
+#			}
+#			PAP_752 = { 
+#				add_core = AIT
+#			}
+#			SIC_756 = { 
+#				add_core = AIT
+#			}
+#			ITA_753 = { 
+#				add_core = AIT
+#			}
+#			SIC_763 = { 
+#				add_core = AIT
+#			}
+#			AUS_726 = { 
+#				add_core = AIT
+#			}
+#		}
+#	}
+#	
+#	italy_victory = {
+#		picture = form_italy
+#		potential = {
+#			ai = no
+#			tag = ITA
+#			NOT = { has_country_flag = italia_united }
+#		}
+#	
+#		allow = {
+#			ai = no
+#			NOT = { has_country_flag = italia_united }
+#			war = no
+#				owns = 720 
+#				owns = 721 
+#				owns = 722 
+#				owns = 723 
+#				owns = 724 
+#				owns = 725 
+#				owns = 726 
+#				owns = 727
+#				owns = 728
+#				owns = 738 
+#				owns = 739 
+#				owns = 740 
+#				owns = 741 
+#				owns = 742 
+#				owns = 743 
+#				owns = 744 
+#				owns = 745 
+#				owns = 746 
+#				owns = 747 
+#				owns = 748 
+#				owns = 749 
+#				owns = 750 
+#				owns = 751 
+#				owns = 752 
+#				owns = 753 
+#				owns = 754 
+#				owns = 755 
+#				owns = 756 
+#				owns = 757 
+#				owns = 758 
+#				owns = 759 
+#				owns = 760 
+#				owns = 761 
+#				owns = 762 
+#				owns = 763 
+#				owns = 764
+#				owns = 2567 
+#				owns = 3258 
+#				owns = 3259 
+#				owns = 3260
+#		}
+#	
+#		effect = {
+#			set_country_flag = italia_united
+#			720 = { remove_core = AIT }
+#			721 = { remove_core = AIT }
+#			722 = { remove_core = AIT }
+#			723 = { remove_core = AIT }
+#			724 = { remove_core = AIT }
+#			725 = { remove_core = AIT }
+#			726 = { remove_core = AIT }
+#			727 = { remove_core = AIT }
+#			728 = { remove_core = AIT }
+#			729 = { remove_core = AIT }
+#			730 = { remove_core = AIT }
+#			731 = { remove_core = AIT }
+#			732 = { remove_core = AIT }
+#			733 = { remove_core = AIT }
+#			734 = { remove_core = AIT }
+#			735 = { remove_core = AIT }
+#			736 = { remove_core = AIT }
+#			737 = { remove_core = AIT }
+#			738 = { remove_core = AIT }
+#			739 = { remove_core = AIT }
+#			740 = { remove_core = AIT }
+#			741 = { remove_core = AIT }
+#			742 = { remove_core = AIT }
+#			743 = { remove_core = AIT }
+#			744 = { remove_core = AIT }
+#			745 = { remove_core = AIT }
+#			746 = { remove_core = AIT }
+#			747 = { remove_core = AIT }
+#			748 = { remove_core = AIT }
+#			749 = { remove_core = AIT }
+#			750 = { remove_core = AIT }
+#			751 = { remove_core = AIT }
+#			752 = { remove_core = AIT }
+#			753 = { remove_core = AIT }
+#			754 = { remove_core = AIT }
+#			755 = { remove_core = AIT }
+#			756 = { remove_core = AIT }
+#			757 = { remove_core = AIT }
+#			758 = { remove_core = AIT }
+#			759 = { remove_core = AIT }
+#			760 = { remove_core = AIT }
+#			761 = { remove_core = AIT }
+#			762 = { remove_core = AIT }
+#			763 = { remove_core = AIT }
+#			764 = { remove_core = AIT }
+#			765 = { remove_core = AIT }
+#			766 = { remove_core = AIT }
+#			2567 = { remove_core = AIT }
+#			3258 = { remove_core = AIT }
+#			3259 = { remove_core = AIT }
+#			3260 = { remove_core = AIT }
+#			472 = { remove_core = AIT }
+#			473 = { remove_core = AIT }
+#			465 = { remove_core = AIT }
+#			466 = { remove_core = AIT }
+#		}
+#	}
+#	
+#	anti_italy_victory = {
+#		picture = form_italy
+#		potential = {
+#			ai = no
+#			tag = AIT
+#			NOT = { has_country_flag = italia_united }
+#		}
+#	
+#		allow = {
+#			ai = no
+#			NOT = { has_country_flag = italia_united }
+#			war = no
+#				owns = 720 
+#				owns = 721 
+#				owns = 722 
+#				owns = 723 
+#				owns = 724 
+#				owns = 725 
+#				owns = 726 
+#				owns = 727
+#				owns = 728
+#				owns = 738 
+#				owns = 739 
+#				owns = 740 
+#				owns = 741 
+#				owns = 742 
+#				owns = 743 
+#				owns = 744 
+#				owns = 745 
+#				owns = 746 
+#				owns = 747 
+#				owns = 748 
+#				owns = 749 
+#				owns = 750 
+#				owns = 751 
+#				owns = 752 
+#				owns = 753 
+#				owns = 754 
+#				owns = 755 
+#				owns = 756 
+#				owns = 757 
+#				owns = 758 
+#				owns = 759 
+#				owns = 760 
+#				owns = 761 
+#				owns = 762 
+#				owns = 763 
+#				owns = 764 
+#				owns = 2567 
+#				owns = 3258 
+#				owns = 3259 
+#				owns = 3260
+#		}
+#	
+#		effect = {
+#			set_country_flag = italia_united
+#			720 = { remove_core = ITA }
+#			721 = { remove_core = ITA }
+#			722 = { remove_core = ITA }
+#			723 = { remove_core = ITA }
+#			724 = { remove_core = ITA }
+#			725 = { remove_core = ITA }
+#			726 = { remove_core = ITA }
+#			727 = { remove_core = ITA }
+#			728 = { remove_core = ITA }
+#			729 = { remove_core = ITA }
+#			730 = { remove_core = ITA }
+#			731 = { remove_core = ITA }
+#			732 = { remove_core = ITA }
+#			733 = { remove_core = ITA }
+#			734 = { remove_core = ITA }
+#			735 = { remove_core = ITA }
+#			736 = { remove_core = ITA }
+#			737 = { remove_core = ITA }
+#			738 = { remove_core = ITA }
+#			739 = { remove_core = ITA }
+#			740 = { remove_core = ITA }
+#			741 = { remove_core = ITA }
+#			742 = { remove_core = ITA }
+#			743 = { remove_core = ITA }
+#			744 = { remove_core = ITA }
+#			745 = { remove_core = ITA }
+#			746 = { remove_core = ITA }
+#			747 = { remove_core = ITA }
+#			748 = { remove_core = ITA }
+#			749 = { remove_core = ITA }
+#			750 = { remove_core = ITA }
+#			751 = { remove_core = ITA }
+#			752 = { remove_core = ITA }
+#			753 = { remove_core = ITA }
+#			754 = { remove_core = ITA }
+#			755 = { remove_core = ITA }
+#			756 = { remove_core = ITA }
+#			757 = { remove_core = ITA }
+#			758 = { remove_core = ITA }
+#			759 = { remove_core = ITA }
+#			760 = { remove_core = ITA }
+#			761 = { remove_core = ITA }
+#			762 = { remove_core = ITA }
+#			763 = { remove_core = ITA }
+#			764 = { remove_core = ITA }
+#			765 = { remove_core = ITA }
+#			766 = { remove_core = ITA }
+#			2567 = { remove_core = ITA }
+#			3258 = { remove_core = ITA }
+#			3259 = { remove_core = ITA }
+#			3260 = { remove_core = ITA }
+#			472 = { remove_core = ITA }
+#			473 = { remove_core = ITA }
+#			465 = { remove_core = ITA }
+#			466 = { remove_core = ITA }
+#		}
+#	}
+#	
+#	ait_italia_irredenta = {
+#		picture = italia_irredenta
+#		potential = {
+#			ai = no
+#			tag = AIT
+#			NOT = {
+#				has_country_flag = italia_ulterior
+#			}
+#		}
+#		
+#		allow = {
+#			ai = no
+#			OR = {
+#				invention = national_fraternity
+#				is_greater_power = yes
+#			}
+#			NOT = { exists = SAR }
+#			NOT = { exists = SIC }
+#			NOT = { exists = ITA }
+#		}
+#		
+#		effect = {
+#			set_country_flag = italia_ulterior
+#			badboy = 8
+#			AUS_729 = { 
+#				add_core = AIT
+#				remove_core = VEN
+#			} #Venetia
+#			AUS_736 = { 
+#				add_core = AIT
+#				remove_core = VEN
+#			} #Friuli
+#			AUS_734 = { 
+#				add_core = AIT
+#			} #South Tirol
+#			473 = { 
+#				add_core = AIT
+#			} #Corsica
+#			AUS_726 = { 
+#				remove_core = LOM
+#			} #lombardia
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
+#	ait_claim_the_adriatic = {
+#		picture = conquest_adriatic
+#		potential = {
+#			ai = no
+#			tag = AIT
+#			NOT = { has_country_flag = adriatic_claimed }
+#			has_country_flag = italia_ulterior
+#		}
+#		
+#		allow = {
+#			ai = no
+#			is_greater_power = yes
+#			nationalism_n_imperialism = 1
+#			war_policy = jingoism
+#			NOT = {
+#				government = democracy
+#			}
+#			NOT = { exists = SAR }
+#			NOT = { exists = SIC }
+#			NOT = { exists = ITA }
+#		}
+#		
+#		effect = {
+#			badboy = 2
+#			set_country_flag = adriatic_claimed
+#			AUS_778 = {
+#				add_core = AIT
+#			}	#Istria
+#			AUS_781 = { add_core = AIT } #North Dalmatia
+#		}
+#		
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
+#
+
+
+### Reno Additions
+#sardinia_reaction = {
+#		potential = {
+#			tag = SAR
+#			NOT = {
+#				has_country_flag = sardinia_reaction
+#			}
+#		}
+#		
+#		allow = {
+#			SIC = {
+#				any_owned_province = {
+#					OR = {
+#						is_core = LUC
+#						is_core = MOD
+#						is_core = PAR
+#						is_core = TUS
+#						is_core = PAP
+#						is_core = SAR
+#						is_core = LOM
+#						is_core = VEN
+#						is_core = TRE
+#				}
+#			}
+#		}		
+#		effect = {
+#			set_country_flag = sardinia_reaction
+#			PAR = { all_core = { remove_core = PAR add_core = SAR } }
+#			MOD = { all_core = { remove_core = MOD add_core = SAR } }
+#			LUC = { all_core = { remove_core = LUC add_core = SAR } }
+#			TUS = { all_core = { remove_core = TUS add_core = SAR } }
+#			PAP = { all_core = { remove_core = PAP add_core = SAR } }
+#			inherit = PAR
+#			inherit = MOD
+#			inherit = LUC
+#			inherit = TUS
+#			inherit = PAP
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
+#}

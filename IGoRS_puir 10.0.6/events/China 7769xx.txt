@@ -1,0 +1,33 @@
+#	#China Leaves SOI
+#country_event = {
+#	id = 776901
+#	title = "EVTNAME776901"
+#	desc = "EVTDESC776901"
+#	picture = "rome_buildings"
+#
+#	trigger = {
+#		NOT = { year = 1900 }
+#		OR = {
+#			tag = CHI
+#			tag = YNN
+#			tag = GXI
+#			tag = TPG
+#		}
+#		OR = {
+#			CHI = { part_of_sphere = yes }
+#			YNN = { part_of_sphere = yes }
+#			GXI = { part_of_sphere = yes }
+#			TPG = { part_of_sphere = yes }
+#		}
+#	}
+#		
+#	mean_time_to_happen = { days = 1 }
+#	
+#	option = {
+#		name = "EVT776901OPTA" 
+#					CHI = { sphere_owner = { diplomatic_influence = { who = THIS value = -200 } } }
+#					YNN = { sphere_owner = { diplomatic_influence = { who = THIS value = -200 } } }
+#					GXI = { sphere_owner = { diplomatic_influence = { who = THIS value = -200 } } }
+#					TPG = { sphere_owner = { diplomatic_influence = { who = THIS value = -200 } } }
+#	}
+#}

@@ -1,0 +1,77 @@
+
+political_decisions = {
+
+	form_arabia = {
+
+		potential = {
+			ARA = { exists = no }
+			is_culture_group = arab
+		}
+		
+		allow = {
+			OR = { 
+				AND = { 
+					is_greater_power = yes
+					any_neighbor_country = {
+						in_sphere = this
+						is_culture_group = arab
+						relation = { who = THIS value = 100 }
+					}
+				}
+				AND = {
+					tag = NEJ
+					HDJ = { 
+						all_core = { 
+							owned_by = THIS 
+						} 
+					}
+				}
+				AND = {
+					#is_secondary_power = yes
+					nationalism_n_imperialism = 1
+					owns = 1151 #Mecca
+					owns = 1153 #Medina
+					owns = 917 #Jerusalem
+					owns = 902 #Damascus
+					owns = 926 #Baghdad
+					owns = 1745 #Cairo
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS 
+				add_core = ARA
+			}
+			change_tag = ARA
+			random_country = {
+				limit = {
+					is_culture_group = THIS
+					in_sphere = THIS
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+					}
+				}
+				country_event = 111011928
+			}
+			add_accepted_culture = union
+			any_country = {
+				limit = {
+					is_culture_group = THIS
+				}
+				all_core = {
+					add_core = ARA
+				}
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

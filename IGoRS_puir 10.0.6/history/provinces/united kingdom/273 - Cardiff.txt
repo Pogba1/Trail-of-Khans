@@ -1,0 +1,34 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+trade_goods = coal
+naval_base = 1
+life_rating = 38
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fertilizer_factory
+	upgrade = yes
+}
+1861.1.1 = {
+	state_building = {
+		level = 2
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = fertilizer_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { 
+	railroad = 3
+	naval_base = 2
+}
+
+set_province_flag = mine

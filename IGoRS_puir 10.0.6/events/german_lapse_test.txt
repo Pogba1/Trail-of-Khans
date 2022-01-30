@@ -1,0 +1,150 @@
+#German Lapse 1/2
+country_event = {
+	id = 954954
+	title = "German Lapse PROC"
+	desc = "You're getting annexed."
+
+	picture = "Rebellion"
+
+	trigger = {
+		in_sphere = PRU
+		primary_culture = north_german
+	}
+
+	mean_time_to_happen = {
+		months = 50000
+		
+		modifier = {
+			factor = 0.000001
+			TAG = HES
+			year = 1838
+		}
+		modifier = {
+			factor = 0.000001
+			TAG = HEK
+			year = 1840
+		}
+		modifier = {
+			factor = 0.000001
+			TAG = NAS
+			year = 1842
+		}
+		modifier = {
+			factor = 0.000001
+			TAG = WEI
+			year = 1844
+		}
+		modifier = {
+			factor = 0.000001
+			TAG = COB
+			year = 1846
+		}
+		modifier = {
+			factor = 0.000001
+			TAG = BRE
+			year = 1847
+		}
+		modifier = {
+			factor = 0.000001
+			TAG = MEI
+			year = 1848
+		}
+		modifier = {
+			factor = 0.000001
+			TAG = OLD
+			year = 1849
+		}
+		modifier = {
+			factor = 0.000001
+			TAG = ANH
+			year = 1850
+			}
+		modifier = {
+			factor = 0.000001
+			TAG = HOL
+			year = 1851
+			}
+		modifier = {
+			factor = 0.000001
+			TAG = LIP
+			year = 1852
+			}
+		modifier = {
+			factor = 0.000001
+			TAG = MEC
+			year = 1853
+			}
+		modifier = {
+			factor = 0.000001
+			TAG = FRM
+			year = 1854
+			}
+		modifier = {
+			factor = 0.000001
+			TAG = LUB
+			year = 1855
+			}
+		modifier = {
+			factor = 0.000001
+			TAG = HAM
+			year = 1856
+			}
+		modifier = {
+			factor = 0.000001
+			TAG = HAN
+			year = 1857
+			}
+		modifier = {
+			factor = 0.000001
+			TAG = SAX
+			year = 1858
+			}
+		modifier = {
+			factor = 0.00001
+			year = 1860
+			}			
+	}
+
+	option = {
+		name = "EVTOPTA13357"
+		PRU = {
+			country_event = { id=954955 days=0 }
+		}
+		all_core = {
+			add_core = PRU
+			remove_core = THIS
+		}
+	}
+}
+
+#German Lapse 2/2
+country_event = {
+	id = 954955
+	title = "German Sphereling Annexation"
+	desc = "Another component of the wider German Nation has chosen to align themselves with our cause!"
+
+	picture = "Rebellion"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Very Good!"
+		inherit = FROM
+	}
+}
+
+# Doctrine of Lapse 3/2 Reference in on_actions file for yearly pulse
+#country_event = {
+#	id = 954956
+#	title = "German Lapse Flag Clear"
+#	desc = "Yearly Clear of Flag for timer balance."
+#
+#	picture = "Rebellion"
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "W.e dude"
+#		clr_global_flag = german_lapse
+#	}
+#}

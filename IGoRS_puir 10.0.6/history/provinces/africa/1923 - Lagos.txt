@@ -1,0 +1,11 @@
+trade_goods = timber
+life_rating = 20
+colonial = 1
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = OYO
+	life_rating = 35
+}
+
+set_province_flag = mine

@@ -1,0 +1,39 @@
+political_decisions = { 
+	develop_bioweapons = {
+		picture = "development_bio_weapons"
+			potential = {
+			ai = no
+			tag = LCT
+			NOT = { has_global_flag = enable_bioweapons }
+			}
+		
+			allow = {
+			tag = LCT
+			}
+		
+			effect = {
+				set_global_flag = enable_bioweapons
+				set_global_flag = zombies_allowed
+			}
+	}
+	
+	use_experimental_bioweapon = {
+		picture = "end_strategic_bombardment"
+		
+			potential = {
+			ai = no
+			tag = LCT
+			has_global_flag = enable_bioweapons
+			has_global_flag = zombies_allowed
+			ai = no
+			}
+		
+			allow = {
+			tag = LCT
+			}
+		
+			effect = {
+				country_event = 999901
+			}
+	}
+}

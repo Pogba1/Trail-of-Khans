@@ -1,0 +1,13 @@
+owner = DEN
+controller = DEN
+colonial = 1
+trade_goods = cattle
+life_rating = 35
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 1
+	life_rating = 35
+}
+
+set_province_flag = farm

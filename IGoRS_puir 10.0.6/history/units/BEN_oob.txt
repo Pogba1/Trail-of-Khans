@@ -1,0 +1,48 @@
+NET = {
+	value = 40
+}
+
+POR = {
+	value = 50
+}
+
+SOK = {
+	value = -30
+}
+
+SPA = {
+	value = 50
+}
+
+FRA = {
+	value = 60
+}
+
+ENG = {
+	value = 60
+}
+OYO = {
+	value = 30
+}
+
+
+army = {
+	name = "Legions of the Empire of Benin"
+	location = 1928
+regiment = {
+		name= "Oba's Guards"		
+	type = infantry	home = 1928	}
+
+
+regiment = {
+		name= "Queen's Own Warriors"	
+	type = infantry
+	}
+
+regiment = {
+		name= "Akure Warriors"		
+	type = infantry
+	}
+}
+
+

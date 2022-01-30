@@ -1,0 +1,43 @@
+#political_decisions = {
+#
+#	bureaucrats_fix = {
+#		alert = yes
+#		effect = {
+#			add_country_modifier = {
+#				name = bureaucrats_fix_cooldown
+#				duration = 3650
+#			}
+#		}
+#		potential = {
+#			ai = no
+#			NOT = { has_country_modifier = bureaucrats_fix_cooldown }
+#		}
+#		allow = { 
+#			NOT = { has_country_modifier = bureaucrats_fix_cooldown } 
+#			ai = no
+#		}
+#		effect = {
+#			country_event = {id = 40404040 days = 0}
+#		}
+#
+#	}
+#}
+#below is better written
+political_decisions = {
+    bureaucrats_fix = {
+        potential = {
+            ai = no
+            NOT = { has_country_modifier = bureaucrats_fix_cooldown }
+			NOT = { tag = LCT }
+        }
+        allow = {
+        }
+        effect = {
+            country_event = 40404040
+            add_country_modifier = {
+                name = bureaucrats_fix_cooldown
+                duration = 3650
+            }
+        }
+    }
+}

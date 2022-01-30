@@ -1,0 +1,11 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+add_core = PLC
+#add_core = RUT
+#add_core = PLC
+##add_core = RUT
+trade_goods = grain
+life_rating = 35
+1861.1.1 = { railroad = 3 }
+set_province_flag = farm

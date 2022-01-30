@@ -1,0 +1,13 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+add_core = GEO
+add_core = CIR
+trade_goods = grain
+life_rating = 35
+1861.1.1 = {
+owner = RUS
+controller = RUS
+}
+
+set_province_flag = farm

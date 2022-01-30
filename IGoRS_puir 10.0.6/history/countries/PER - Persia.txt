@@ -1,0 +1,96 @@
+capital = 1121
+primary_culture = aryan
+culture = azerbaijani
+culture = north_caucasian
+religion = shiite
+government = absolute_monarchy
+plurality = 5.0
+nationalvalue = nv_order
+literacy = 0.07
+
+ruling_party = PER_conservative
+upper_house = {
+	fascist = 0
+	liberal = 12
+	conservative = 60
+	reactionary = 28
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+#Reforms
+foreign_training = yes_foreign_training
+foreign_weapons = yes_foreign_weapons
+foreign_officers = yes_foreign_officers
+land_reform = yes_land_reform
+finance_reform = yes_finance_reform
+industrial_construction = yes_western_science
+
+#Technologies
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+army_command_principle = 1
+private_banks = 1
+late_enlightenment_philosophy = 1
+water_wheel_power = 1
+mechanized_mining = 1
+basic_chemistry = 1
+
+
+oob = "PER_oob.txt"
+
+1851.1.1 = {
+	decision = establish_the_dar_al_funun
+}
+
+1861.1.1 = {
+	oob = "/1861/PER_oob.txt"
+	literacy = 0.12
+	non_state_culture_literacy = 0.12
+
+	#Economic Reforms
+	land_reform = land_reform_two
+	admin_reform = yes_admin_reform
+	finance_reform = finance_reform_two
+	education_reform = education_reform_two
+	transport_improv = yes_transport_improv
+	industrial_construction = western_science_two
+
+	#Military Reforms
+	foreign_weapons = foreign_weapons_two
+	military_constructions = yes_military_constructions
+
+	#Technologies
+	muzzle_loaded_rifles = 1
+	stock_exchange = 1
+	no_standard = 1
+	early_classical_theory_and_critique = 1
+	freedom_of_trade = 1
+	malthusian_thought = 1
+	practical_steam_engine = 1
+	experimental_railroad = 1
+	medicine = 1
+}

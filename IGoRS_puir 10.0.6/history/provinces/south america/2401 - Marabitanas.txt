@@ -1,0 +1,8 @@
+owner = CLM
+controller = CLM
+add_core = BRZ
+#add_core = GCO
+trade_goods = tobacco
+life_rating = 25
+
+set_province_flag = farm

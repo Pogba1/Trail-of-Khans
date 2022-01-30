@@ -1,0 +1,83 @@
+leader = {
+	name = "Milosav Zdravkovic"
+	picture = ser_gen_zdravkovic
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
+}
+leader = {
+	name = "Prince Aleksandar"
+	picture = ser_gen_karajordjevic
+	type = land
+	date="1836.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "Army of the Principality of Serbia"
+	location = 794
+	regiment = {
+		name= "1st Serbian Infantry"
+		type = hussar
+		home = 794
+	}
+
+	regiment = {
+		name= "2nd Serbian Infantry"
+		type = infantry
+		home = 795
+	}
+
+	regiment = {
+		name= "3rd Serbian Infantry"
+		type = infantry
+		home = 794
+	}
+	
+	regiment = {
+		name= "4th Serbian Infantry"
+		type = infantry
+		home = 794
+	}
+	
+	regiment = {
+		name= "5th Serbian Infantry"
+		type = infantry
+		home = 795
+	}
+	
+	regiment = {
+		name= "6th Serbian Infantry"
+		type = artillery
+		home = 795
+	}
+	
+	regiment = {
+		name= "7th Serbian Infantry"
+		type = artillery
+		home = 796
+	}
+	
+	regiment = {
+		name= "8th Serbian Infantry"
+		type = artillery
+		home = 796
+	}
+	
+	regiment = {
+		name= "9th Serbian Infantry"
+		type = artillery
+		home = 797
+	}
+	
+	regiment = {
+		name= "10th Serbian Infantry"
+		type = artillery
+		home = 797
+	}
+
+}
+

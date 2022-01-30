@@ -1,0 +1,8 @@
+owner = ATJ
+controller = ATJ
+add_core = ATJ
+#add_core = INO
+trade_goods = grain
+life_rating = 30
+
+set_province_flag = farm

@@ -1,0 +1,10 @@
+add_core = FIJ
+trade_goods = fish
+life_rating = 15
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+
+set_province_flag = farm

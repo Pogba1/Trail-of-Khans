@@ -1,0 +1,516 @@
+#Sphere of Influence
+MEX = {
+	value = 75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+ECU = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+PEU = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BOL = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+CHL = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+PRG = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+UCA = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+CLM = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BRZ = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+URU = {
+	value = 75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+POR = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+FRA = {
+	value = 55
+}
+ALD = {
+	value = 75
+}
+
+leader = {
+	name = "Baldomero Espartero"
+	picture = spa_gen_espartero
+	type = land
+	date="1834.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Francisco Serrano"
+	picture = spa_gen_serrano
+	type = land
+	date="1833.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Ramón María Narváez"
+	picture = spa_gen_narvaez
+	type = land
+	date="1835.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Leopoldo O'Donnell"
+	picture = spa_gen_odonnell
+	type = land
+	date="1836.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Gerónimo Valdés"
+	picture = spa_gen_valdes
+	type = land
+	date="1836.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Juan Van Halen"
+	picture = spa_gen_vanhalen
+	type = land
+	date="1823.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Juan Ramón Rodil"
+	picture = spa_gen_rodil
+	type = land
+	date="1824.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Luis Fernández de Córdova"
+	picture = spa_gen_luiscordova
+	type = land
+	date="1833.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Gaspar de Jáuregui"
+	picture = spa_gen_jauregui
+	type = land
+	date="1833.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Francisco Javier de Uriarte"
+	picture = spa_adm_uriarte
+	type = sea
+	date="1802.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "José Primo de Rivera"
+	picture = spa_adm_primorivera
+	type = sea
+	date="1827.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Francisco Javier de Ulloa"
+	picture = spa_adm_ulloa
+	type = sea
+	date="1825.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Casimiro Vigodet"
+	picture = spa_adm_vigodet
+	type = sea
+	date="1836.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+#Army
+army = {
+	name = "Ejército Cristino del Centro"
+	location = 487
+	regiment = {
+		name= "1. Granaderos del Rey"
+		type = hussar
+		home = 487
+	}
+
+	regiment = {
+		name= "2. Granaderos del Rey"
+		type = infantry
+		home = 489
+	}
+
+	regiment = {
+		name= "3. Guardia Real"
+		type = infantry
+		home = 481
+	}
+
+	regiment = {
+		name= "1. Brigada de Infantería 'El Ramillete'"
+		type = infantry
+		home = 503
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantería"
+		type = infantry
+		home = 509
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantería"
+		type = artillery
+		home = 513
+	}
+
+	regiment = {
+		name= "1. Brigada de Ingenieros"
+		type = artillery
+		home = 495
+	}
+
+	regiment = {
+		name= "1. Granaderos del Rey"
+		type = artillery
+		home = 487
+	}
+
+	regiment = {
+		name= "2. Granaderos del Rey"
+		type = artillery
+		home = 489
+	}
+
+	regiment = {
+		name= "3. Granaderos del Rey"
+		type = artillery
+		home = 488
+	}
+}
+
+army = {
+	name = "Ejército del Norte"
+	location = 498
+	
+	regiment = {
+		name= "4. Brigada de Infantería 'San Jorge'"
+		type = hussar
+		home = 498
+	}
+
+	regiment = {
+		name= "1. Brigada de Artillería"
+		type = infantry
+		home = 476
+	}
+	
+	regiment = {
+		name= "5. Brigada de Infantería"
+		type = infantry
+		home = 482
+	}
+	
+	regiment = {
+		name= "6. Brigada de Infantería 'La Granja'"
+		type = infantry
+		home = 483
+	}
+
+	regiment = {
+		name= "7. Brigada de Infantería"
+		type = infantry
+		home = 497
+	}
+
+	regiment = {
+		name= "8. Brigada de Infantería"
+		type = artillery
+		home = 512
+	}
+
+	regiment = {
+		name= "9. Brigada de Infantería"
+		type = artillery
+		home = 514
+	}
+
+	regiment = {
+		name= "10. Brigada de Infantería"
+		type = artillery
+		home = 510
+	}
+
+	regiment = {
+		name= "11. Brigada de Infantería"
+		type = artillery
+		home = 516
+	}
+	
+	regiment = {
+		name= "12. Brigada de Infantería"
+		type = artillery
+		home = 515
+	}
+}
+
+army = {
+	name = "Ejército de Cuba"
+	location = 480
+	
+	regiment = {
+		name = "1. Brigada Colonial"
+		type = hussar
+		home = 474
+	}
+	
+	regiment = {
+		name = "2. Brigada Colonial"
+		type = infantry
+		home = 2209
+	}
+	
+	regiment = {
+		name = "3. Brigada Colonial"
+		type = infantry
+		home = 475
+	}
+
+	regiment = {
+		name = "4. Brigada Colonial"
+		type = infantry
+		home = 1455
+	}
+
+	regiment = {
+		name = "5. Brigada Colonial"
+		type = infantry
+		home = 1463
+	}
+	
+	regiment = {
+		name = "6. Brigada Colonial"
+		type = artillery
+		home = 1456
+	}
+	
+	regiment = {
+		name = "7. Brigada Colonial"
+		type = artillery
+		home = 1457
+	}
+	
+	regiment = {
+		name = "1. Brigada"
+		type = artillery
+		home = 513
+	}
+	
+	regiment = {
+		name = "2. Brigada"
+		type = artillery
+		home = 509
+	}
+	
+	regiment = {
+		name = "3. Brigada"
+		type = artillery
+		home = 474
+	}
+}
+
+navy = {
+	name = "Armada Real Española"
+	location = 506
+	
+	ship = {
+		name = "Santiago"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Hespérides"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Centinela"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Isla de Cuba"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Cristóbal Colón"
+		type = frigate
+	}
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "Alerta"
+		type = manowar
+	}
+	
+	ship = {
+		name = "San Fernando"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Legazpi"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Victoria"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Nuestra Señora del Patrocinio"
+		type = frigate
+	}
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "San Raimundo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Héroe"
+		type = manowar
+	}
+
+	ship = {
+		name= "San Pablo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ceres"
+		type = frigate
+	}
+
+	ship = {
+		name= "Gloria"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nuestra Señora de Asunción"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nuestra Señora de Atocha"
+		type = frigate
+	}
+
+	ship = {
+		name= "Santa Sabina"
+		type = frigate
+	}
+
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "4a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}

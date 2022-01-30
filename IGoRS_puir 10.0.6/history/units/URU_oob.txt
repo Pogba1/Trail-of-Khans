@@ -1,0 +1,69 @@
+leader = {
+	name = "Manuel Blanco"
+	picture = aus_gen_windischgraetz
+	date = 1826.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Jose Joaquú‹ Prieto"
+	picture = aus_gen_rukavina
+	date = 1829.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Manuel Bulnes"
+	picture = aus_gen_nugent
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+
+army = {
+	name = "1. Army"
+	location = 2344
+	regiment = {
+		name= "1. División de Infanteru"
+		type = infantry
+		home = 2344
+	}
+	
+	regiment = {
+		name= "1. División de Infanteru"
+		type = infantry
+		home = 2344
+	}
+	
+	regiment = {
+		name= "1. Hussar"
+		type = hussar
+		home = 2347
+	}
+	
+	regiment = {
+		name= "1. Artillery"
+		type = artillery
+		home = 2347
+	}
+	
+	regiment = {
+		name= "1. Artillery"
+		type = artillery
+		home = 2345
+	}
+	
+	regiment = {
+		name= "1. Artillery"
+		type = artillery
+		home = 2345
+	}
+
+}
+

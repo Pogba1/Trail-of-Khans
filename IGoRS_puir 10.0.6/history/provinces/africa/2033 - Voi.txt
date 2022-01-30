@@ -1,0 +1,11 @@
+trade_goods = grain
+life_rating = 35
+owner = OMA
+controller = OMA
+add_core = ZAN
+1861.1.1 = {
+	owner = ZAN
+	controller = ZAN
+}
+
+set_province_flag = farm

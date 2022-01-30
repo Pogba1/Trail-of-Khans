@@ -1,0 +1,876 @@
+#Atacama Region (164000) #see Peru.txt for balance of Region
+#Ruled by Bolivia 1836
+#Antofagasta (80000/20000 POPS)
+2305 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 722
+    }
+
+    bureaucrats = {
+        culture = platinean
+        religion = catholic
+        size = 42
+    }
+
+    officers = {
+        culture = platinean
+        religion = catholic
+        size = 42
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 255
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 680
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 127
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 11730
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 1020
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 212
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 19082
+    }
+}
+#Calama (32000/8000 POPS)
+2309 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 297
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 255
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 4377
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 425
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 7990
+    }
+}
+#Ruled by Peru 1836
+#Iquique (32000/8000 POPS)
+2307 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 297
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 170
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 42
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 2805
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 510
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 127
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 9477
+    }
+}
+#Arica (20000/5000 POPS)
+2308 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 212
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 127
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 17
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 1258
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 42
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 340
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 6332
+    }
+}
+#Chile Norte Region (116000)
+#Ruled by Chile 1836
+#Copiapo (52000/13000 POPS)
+2322 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 467
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 212
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 1105
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 212
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 20102
+    }
+}
+#La Serena (64000/16000 POPS)
+2323 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 595
+    }
+
+    bureaucrats = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    officers = {
+        culture = platinean
+        religion = catholic
+        size = 42
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 255
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 1360
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 297
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 24565
+    }
+}
+#Valle Central Region (640000)
+#Ruled by Chile 1836
+#Santiago (420000/105000 POPS)
+2324 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 3740
+    }
+
+    bureaucrats = {
+        culture = platinean
+        religion = catholic
+        size = 510
+    }
+
+    officers = {
+        culture = platinean
+        religion = catholic
+        size = 297
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 1785
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 17000
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 12750
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 6800
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 135617
+    }
+}
+#Valparaiso (128000/32000 POPS)
+2325 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 1147
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 552
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 17000
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 3400
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 1870
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 30600
+    }
+}
+#Vina del Mar (72000/18000 POPS)
+2326 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 637
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 297
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 1530
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 1870
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 26435
+    }
+}
+#Talca (20000/5000 POPS)
+2327 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 212
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 425
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 7692
+    }
+}
+#Bio-Bio Region (232000)
+#Ruled by Chile 1836
+#Valdivia (92000/23000 POPS)
+2328 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 595
+    }
+
+    bureaucrats = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    officers = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 297
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 1445
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 1870
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 24735
+    }
+
+    aristocrats = {
+        culture = platinean
+        religion = animist
+        size = 170
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = animist
+        size = 85
+    }
+
+    artisans = {
+        culture = platinean
+        religion = animist
+        size = 510
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = animist
+        size = 127
+    }
+
+    farmers = {
+        culture = platinean
+        religion = animist
+        size = 9307
+    }
+}
+#Temuco (36000/9000 POPS)
+2329 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 212
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 425
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 85
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 7692
+    }
+
+    aristocrats = {
+        culture = platinean
+        religion = animist
+        size = 85
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = animist
+        size = 127
+    }
+
+    artisans = {
+        culture = platinean
+        religion = animist
+        size = 340
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = animist
+        size = 85
+    }
+
+    farmers = {
+        culture = platinean
+        religion = animist
+        size = 6162
+    }
+}
+#Cauquenes (68000/17000 POPS)
+2330 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 595
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 255
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 1445
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 1870
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 24905
+    }
+}
+#Chillan (36000/9000 POPS)
+2331 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 297
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 127
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 595
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 127
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 10752
+    }
+
+    aristocrats = {
+        culture = platinean
+        religion = animist
+        size = 42
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = animist
+        size = 85
+    }
+
+    artisans = {
+        culture = platinean
+        religion = animist
+        size = 170
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = animist
+        size = 42
+    }
+
+    farmers = {
+        culture = platinean
+        religion = animist
+        size = 3060
+    }
+}
+#Magellanes Region (92000)
+#Ruled by Chile 1836
+#Osorno (68000/17000 POPS)
+2332 = {
+    aristocrats = {
+        culture = platinean
+        religion = catholic
+        size = 467
+    }
+
+    bureaucrats = {
+        culture = platinean
+        religion = catholic
+        size = 25
+    }
+
+    officers = {
+        culture = platinean
+        religion = catholic
+        size = 17
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = catholic
+        size = 212
+    }
+
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 1105
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 212
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 20060
+    }
+
+    aristocrats = {
+        culture = platinean
+        religion = animist
+        size = 127
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = animist
+        size = 127
+    }
+
+    artisans = {
+        culture = platinean
+        religion = animist
+        size = 340
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = animist
+        size = 85
+    }
+
+    farmers = {
+        culture = platinean
+        religion = animist
+        size = 6120
+    }
+}
+#uncolonized/claimed by Chile 1836
+#Puerto Aisen (12000/3000 POPS)
+2333 = {
+    aristocrats = {
+        culture = platinean
+        religion = animist
+        size = 85
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = animist
+        size = 127
+    }
+
+    artisans = {
+        culture = platinean
+        religion = animist
+        size = 255
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = animist
+        size = 42
+    }
+
+    farmers = {
+        culture = platinean
+        religion = animist
+        size = 4590
+    }
+}
+#Punta Arenas (8000/2000 POPS)
+2334 = {
+    aristocrats = {
+        culture = platinean
+        religion = animist
+        size = 42
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = animist
+        size = 85
+    }
+
+    artisans = {
+        culture = platinean
+        religion = animist
+        size = 170
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = animist
+        size = 42
+    }
+
+    farmers = {
+        culture = platinean
+        religion = animist
+        size = 3060
+    }
+}
+#Porvenir (4000/1000 POPS)
+2335 = {
+    aristocrats = {
+        culture = platinean
+        religion = animist
+        size = 17
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = animist
+        size = 42
+    }
+
+    artisans = {
+        culture = platinean
+        religion = animist
+        size = 85
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = animist
+        size = 25
+    }
+
+    farmers = {
+        culture = platinean
+        religion = animist
+        size = 1530
+    }
+}

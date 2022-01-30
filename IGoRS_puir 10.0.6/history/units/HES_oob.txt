@@ -1,0 +1,29 @@
+leader = {
+	name = "Prince Georg"
+	picture = hes_gen_prinzgeorg
+	date = 1820.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "Prince Karl"
+	picture = hes_gen_prinzkarl
+	date = 1836.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "Groﬂherzogliche Armee"
+	location = 2560
+	regiment = {
+		name= "1. Groﬂherzogliche Infanterie"
+		type = infantry
+		home = 2560
+	}
+
+}

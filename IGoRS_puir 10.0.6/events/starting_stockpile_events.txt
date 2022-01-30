@@ -1,0 +1,18 @@
+# Japanese Goods
+country_event = {
+	id = 9999910
+	title = "Japanese Ships"
+	desc = "Starting clipper goods for Japan."
+	picture = "dixie"
+	
+ 	trigger = {
+		tag = JAP
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Gimme the Goods"
+			clipper_convoy = 500
+	}
+}

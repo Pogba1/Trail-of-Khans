@@ -1,0 +1,10 @@
+owner = UCAcontroller = UCAadd_core = UCAadd_core = YUC
+#add_core = GUA
+trade_goods = dye
+life_rating = 30
+1861.1.1 = {
+	owner = GUA
+	controller = GUA
+}
+
+set_province_flag = farm

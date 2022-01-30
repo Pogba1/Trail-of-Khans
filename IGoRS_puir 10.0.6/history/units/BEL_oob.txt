@@ -1,0 +1,181 @@
+leader = {
+	name = "Emmanuel Van der Linden"
+	picture = bel_gen_vanderlinden
+	date = 1830.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Lambert Nypels"
+	picture = bel_gen_nypels
+	date = 1830.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Louis Evain"
+	picture = bel_gen_evain
+	date = 1831.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Albert Goblet d'Alviella"
+	picture = bel_gen_goblet
+	date = 1831.1.31
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Leopold I"
+	picture = bel_gen_leopold
+	date = 1831.7.21
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
+}
+leader = {
+	name = "Albert Prisse"
+	picture = bel_gen_prisse
+	date = 1834.4.12
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+army = {
+	name = "1e Infanterie Divisie"
+	location = 387 #Brussels
+	regiment = {
+		name= "1e Infanterie Brigade"
+		type = hussar
+		home = 387 #Brussels
+	}
+
+	regiment = {
+		name= "2e Infanterie Brigade"
+		type = infantry
+		home = 388 #Bruges
+	}
+
+	regiment = {
+		name= "3e Infanterie Brigade"
+		type = infantry
+		home = 389 #Ghent
+	}
+
+	regiment = {
+		name= "1er Brigade d'Artillerie"
+		type = infantry
+		home = 392 #Liege
+	}
+
+	regiment = {
+		name= "4e Infanterie Brigade"
+		type = infantry
+		home = 390 #Antwerp
+	}
+
+	regiment = {
+		name= "5eme Brigade d'Infanterie"
+		type = artillery
+		home = 393 #Tournai
+	}
+
+	regiment = {
+		name= "6eme Brigade d'Infanterie"
+		type = artillery
+		home = 394 #Charleroi
+	}
+
+	location = 388 #Brugges
+	regiment = {
+		name= "7eme Brigade d'Infanterie"
+		type = artillery
+		home = 395 #Namur
+	}
+
+	regiment = {
+		name= "8eme Brigade d'Infanterie"
+		type = artillery
+		home = 396 #Spa
+	}
+
+	regiment = {
+		name= "9eme Brigade d'Infanterie"
+		type = artillery
+		home = 398 #Arlon
+	}
+
+}
+
+army = {
+	name = "2e Infanterie Divisie"
+	location = 395 #Namur
+	regiment = {
+		name= "1er Brigade de Cavalerie"
+		type = hussar
+		home = 387 #Brussels
+	}
+
+	regiment = {
+		name= "2eme Brigade de Cavalerie"
+		type = artillery
+		home = 392 #Liege
+	}
+
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = artillery
+		home = 391 #Hasselt
+	}
+	
+	regiment = {
+		name= "4e Cavalerie Brigade"
+		type = artillery
+		home = 392 #Hasselt
+	}
+	
+	regiment = {
+		name= "5e Cavalerie Brigade"
+		type = artillery
+		home = 397 #Hasselt
+	}
+	
+	regiment = {
+		name= "6e Cavalerie Brigade"
+		type = artillery
+		home = 387 #Hasselt
+	}
+
+}
+
+navy = {
+	name = "Belgische Koninklijk Marine"
+	location = 388
+	ship = {
+		name= "1e Transport Flottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2e Transport Flotille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3e Transport Flotille"
+		type = clipper_transport
+	}
+
+}

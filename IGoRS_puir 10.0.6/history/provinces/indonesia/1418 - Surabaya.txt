@@ -1,0 +1,12 @@
+owner = NET
+controller = NET
+add_core = JAV
+#add_core = INO
+trade_goods = sulphur
+life_rating = 30
+colonial = 2
+1861.1.1 = {
+	naval_base = 2
+}
+
+set_province_flag = mine

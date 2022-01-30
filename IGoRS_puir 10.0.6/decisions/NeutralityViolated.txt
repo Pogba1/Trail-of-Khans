@@ -1,0 +1,1625 @@
+#Decisions for nations to violate the neutrality of another nation (PUIR)
+political_decisions = {
+   	#violate_neutrality_on = { 
+	#	picture = gtfo 
+	#	alert = no 
+	#	potential = { 
+	#		any_country = { has_country_modifier = political_neutrality }
+	#		NOT = { has_country_flag = vn } 
+	#	} 
+	#	allow = { ai = no } 
+	#	effect = { set_country_flag = vn } 
+	#}
+   	#violate_neutrality_off = { picture = gtfo alert = no potential = { has_country_flag = gtfo } allow = { ai = no } effect = { clr_country_flag = gtfo } }
+	ARG_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			ARG = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			ARG = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = ARG 
+				truce_with = ARG 
+				alliance_with = ARG 
+			}
+		}
+		effect = {
+			badboy = 15
+			ARG = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = ARG value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = ARG
+						is_sphere_leader_of = ARG
+						relation = { who = ARG value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	BRZ_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			BRZ = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			BRZ = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = BRZ
+				truce_with = BRZ 
+				alliance_with = BRZ 
+			}
+		}
+		effect = {
+			badboy = 15
+			BRZ = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = BRZ value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = BRZ
+						is_sphere_leader_of = BRZ
+						relation = { who = BRZ value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	AUS_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			AUS = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			AUS = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = AUS 
+				truce_with = AUS
+				alliance_with = AUS 
+			}
+		}
+		effect = {
+			badboy = 15
+			AUS = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = AUS value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = AUS
+						is_sphere_leader_of = AUS
+						relation = { who = AUS value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	BEL_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			BEL = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			BEL = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = BEL 
+				truce_with = BEL
+				alliance_with = BEL
+			}
+		}
+		effect = {
+			badboy = 15
+			BEL = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = BEL value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = BEL
+						is_sphere_leader_of = BEL
+						relation = { who = BEL value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	CAN_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			CAN = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			CAN = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = CAN 
+				truce_with = CAN
+				alliance_with = CAN 
+			}
+		}
+		effect = {
+			badboy = 15
+			CAN = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = ARG value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = CAN
+						is_sphere_leader_of = CAN
+						relation = { who = CAN value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	CHI_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			CHI = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			CHI = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = CHI 
+				truce_with = CHI 
+				alliance_with = CHI 
+			}
+		}
+		effect = {
+			badboy = 15
+			CHI = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = ARG value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = CHI
+						is_sphere_leader_of = CHI
+						relation = { who = CHI value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	CHL_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			CHL = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			CHL = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = ARG 
+				truce_with = ARG 
+				alliance_with = ARG 
+			}
+		}
+		effect = {
+			badboy = 15
+			CHL = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = ARG value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = ARG
+						is_sphere_leader_of = ARG
+						relation = { who = ARG value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	CLM_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			CLM = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			CLM = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = CLM 
+				truce_with = CLM
+				alliance_with = CLM 
+			}
+		}
+		effect = {
+			badboy = 15
+			CLM = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = CLM value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = CLM
+						is_sphere_leader_of = CLM
+						relation = { who = CLM value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	DEN_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			DEN = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			DEN = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = DEN 
+				truce_with = DEN 
+				alliance_with = DEN 
+			}
+		}
+		effect = {
+			badboy = 15
+			DEN = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = DEN value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = DEN
+						is_sphere_leader_of = DEN
+						relation = { who = DEN value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	EGY_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			EGY = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			EGY = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = EGY 
+				truce_with = EGY 
+				alliance_with = EGY 
+			}
+		}
+		effect = {
+			badboy = 15
+			EGY = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = ARG value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = EGY
+						is_sphere_leader_of = EGY
+						relation = { who = EGY value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	ENG_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			ENG = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			ENG = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = ENG 
+				truce_with = ENG 
+				alliance_with = ENG 
+			}
+		}
+		effect = {
+			badboy = 15
+			ENG = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = ENG value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = ENG
+						is_sphere_leader_of = ENG
+						relation = { who = ENG value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	FRA_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			FRA = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			FRA = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = FRA 
+				truce_with = FRA 
+				alliance_with = FRA 
+			}
+		}
+		effect = {
+			badboy = 15
+			FRA = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = FRA value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = FRA
+						is_sphere_leader_of = FRA
+						relation = { who = FRA value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	GCO_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			GCO = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			GCO = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = GCO 
+				truce_with = GCO 
+				alliance_with = GCO 
+			}
+		}
+		effect = {
+			badboy = 15
+			GCO = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = GCO value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = GCO
+						is_sphere_leader_of = GCO
+						relation = { who = GCO value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	GER_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			GER = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			GER = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = GER 
+				truce_with = GER 
+				alliance_with = GER 
+			}
+		}
+		effect = {
+			badboy = 15
+			GER = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = GER value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = GER
+						is_sphere_leader_of = GER
+						relation = { who = GER value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	GRE_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			GRE = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			ARG = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = GRE 
+				truce_with = GRE 
+				alliance_with = GRE 
+			}
+		}
+		effect = {
+			badboy = 15
+			GRE = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = GRE value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = GRE
+						is_sphere_leader_of = GRE
+						relation = { who = GRE value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	ITA_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			ITA = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			ITA = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = ITA 
+				truce_with = ITA
+				alliance_with = ITA 
+			}
+		}
+		effect = {
+			badboy = 15
+			ITA = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = ITA value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = ITA
+						is_sphere_leader_of = ITA
+						relation = { who = ITA value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	JAP_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			JAP = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			JAP = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = JAP 
+				truce_with = JAP
+				alliance_with = JAP
+			}
+		}
+		effect = {
+			badboy = 15
+			JAP = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = ARG value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = JAP
+						is_sphere_leader_of = JAP
+						relation = { who = JAP value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	KUK_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			KUK = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			KUK = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = KUK 
+				truce_with = KUK 
+				alliance_with = KUK 
+			}
+		}
+		effect = {
+			badboy = 15
+			KUK = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = KUK value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = KUK
+						is_sphere_leader_of = KUK
+						relation = { who = KUK value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	MEX_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			MEX = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			MEX = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = MEX 
+				truce_with = MEX 
+				alliance_with = MEX 
+			}
+		}
+		effect = {
+			badboy = 15
+			MEX = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = MEX value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = MEX
+						is_sphere_leader_of = MEX
+						relation = { who = MEX value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	MOL_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			MOL = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			MOL = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = MOL 
+				truce_with = MOL 
+				alliance_with = MOL 
+			}
+		}
+		effect = {
+			badboy = 15
+			MOL = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = MOL value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = MOL
+						is_sphere_leader_of = MOL
+						relation = { who = MOL value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	NET_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			NET = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			NET = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = NET 
+				truce_with = NET 
+				alliance_with = NET 
+			}
+		}
+		effect = {
+			badboy = 15
+			NET = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = NET value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = NET
+						is_sphere_leader_of = NET
+						relation = { who = NET value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	NGF_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			NGF = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			NGF = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = NGF 
+				truce_with = NGF 
+				alliance_with = NGF 
+			}
+		}
+		effect = {
+			badboy = 15
+			NGF = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = NGF value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = NGF
+						is_sphere_leader_of = NGF
+						relation = { who = NGF value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	PBA_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			PBA = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			PBA = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = PBA 
+				truce_with = PBA 
+				alliance_with = PBA 
+			}
+		}
+		effect = {
+			badboy = 15
+			PBA = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = PBA value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = PBA
+						is_sphere_leader_of = PBA
+						relation = { who = PBA value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	POR_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			POR = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			POR = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = POR
+				truce_with = POR
+				alliance_with = POR 
+			}
+		}
+		effect = {
+			badboy = 15
+			POR = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = POR value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = POR
+						is_sphere_leader_of = POR
+						relation = { who = POR value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	PRU_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			PRU = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			PRU = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = PRU 
+				truce_with = PRU
+				alliance_with = PRU 
+			}
+		}
+		effect = {
+			badboy = 15
+			PRU = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = PRU value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = PRU
+						is_sphere_leader_of = PRU
+						relation = { who = PRU value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	ROM_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			ROM = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			ROM = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = ROM 
+				truce_with = ROM
+				alliance_with = ROM 
+			}
+		}
+		effect = {
+			badboy = 15
+			ROM = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = ROM value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = ROM
+						is_sphere_leader_of = ROM
+						relation = { who = ROM value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	RUS_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			RUS = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			RUS = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = RUS 
+				truce_with = RUS
+				alliance_with = RUS 
+			}
+		}
+		effect = {
+			badboy = 15
+			RUS = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = ARG value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = RUS
+						is_sphere_leader_of = RUS
+						relation = { who = RUS value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	SCA_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			SCA = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			SCA = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = SCA 
+				truce_with = SCA 
+				alliance_with = SCA 
+			}
+		}
+		effect = {
+			badboy = 15
+			SCA = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = SCA value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = SCA
+						is_sphere_leader_of = SCA
+						relation = { who = SCA value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	SAR_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			SAR = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			SAR = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = SAR 
+				truce_with = SAR 
+				alliance_with = SAR 
+			}
+		}
+		effect = {
+			badboy = 15
+			SAR = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = SAR value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = SAR
+						is_sphere_leader_of = SAR
+						relation = { who = SAR value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	SIC_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			SIC = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			SIC = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = SIC 
+				truce_with = SIC 
+				alliance_with = SIC 
+			}
+		}
+		effect = {
+			badboy = 15
+			SIC = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = SIC value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = SIC
+						is_sphere_leader_of = SIC
+						relation = { who = SIC value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	SPA_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			SPA = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			SPA = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = SPA 
+				truce_with = SPA
+				alliance_with = SPA 
+			}
+		}
+		effect = {
+			badboy = 15
+			SPA = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = SPA value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = SPA
+						is_sphere_leader_of = SPA
+						relation = { who = SPA value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	SWE_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			SWE = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			SWE = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = SWE 
+				truce_with = SWE 
+				alliance_with = SWE 
+			}
+		}
+		effect = {
+			badboy = 15
+			SWE = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = SWE value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = SWE
+						is_sphere_leader_of = SWE
+						relation = { who = SWE value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	TUR_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			TUR = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			TUR = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = TUR 
+				truce_with = TUR 
+				alliance_with = TUR 
+			}
+		}
+		effect = {
+			badboy = 15
+			TUR = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = TUR value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = TUR
+						is_sphere_leader_of = TUR
+						relation = { who = TUR value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	USA_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			USA = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			USA = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = USA 
+				truce_with = USA 
+				alliance_with = USA 
+			}
+		}
+		effect = {
+			badboy = 15
+			USA = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = USA value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = USA
+						is_sphere_leader_of = USA
+						relation = { who = USA value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+	
+	WAL_violate_neutrality = {
+		picture = declare_neutrality
+		alert = no
+		potential = {
+			ai = no
+			WAL = { 
+				NOT = { tag = THIS }
+				exists = yes 
+				has_country_modifier = generic_neutrality 
+			}
+		}
+		allow = {
+			WAL = { has_country_modifier = generic_neutrality }
+			war_policy = jingoism
+			NOT = { 
+				is_sphere_leader_of = WAL 
+				truce_with = WAL 
+				alliance_with = WAL 
+			}
+		}
+		effect = {
+			badboy = 15
+			WAL = { 
+				set_country_flag = neutrality_violated 
+				remove_country_modifier = generic_neutrality 
+				relation = { who = THIS value = -200 } 
+			}
+			diplomatic_influence = { who = WAL value = -200 }
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = WAL
+						is_sphere_leader_of = WAL
+						relation = { who = WAL value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+		}
+	}
+}

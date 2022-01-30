@@ -1,0 +1,19 @@
+#Leaders
+leader = {
+	name = "Friedrich August I"
+	date = 1829.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
+}
+
+army = {
+	name = "Oldenburgische Armee"
+	location = 540
+	regiment = {
+		name= "1. Oldenburgische Infanteriebrigade"
+		type = infantry
+		home = 540
+	}
+}

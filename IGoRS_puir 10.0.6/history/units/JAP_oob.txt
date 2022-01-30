@@ -1,0 +1,293 @@
+#Future Sphere of Influence
+KOR = {
+	value = -200		#relation
+	level = 1		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+CHI = {
+	value = -150
+}
+
+leader = {
+	name = "Tokugawa Nariaki"
+	picture = jap_gen_tokugawanariaki
+	date = 1836.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+army = {
+	name = "Army of the Tokugawa Shogunate"	
+	location = 1649
+	regiment = {
+		name= "1.Edo"
+		type = infantry
+		home = 1650
+	}
+
+	regiment = {
+		name= "2.Edo"
+		type = infantry
+		home = 1649
+	}
+
+	regiment = {
+		name= "3.Edo"
+		type = infantry
+		home = 1652
+	}
+	
+	regiment = {
+		name= "1.Choshu"
+		type = infantry
+		home = 1640
+	}
+
+	regiment = {
+		name= "2.Choshu"
+		type = infantry
+		home = 1638
+	}
+
+	regiment = {
+		name= "3.Choshu"
+		type = artillery
+		home = 1641
+	}
+	
+	regiment = {
+		name= "1.1 Satsuma"
+		type = artillery
+		home = 1662
+	}
+
+	regiment = {
+		name= "2.1 Satsuma"
+		type = artillery
+		home = 1660
+	}
+
+	regiment = {
+		name= "3.1 Satsuma"
+		type = artillery
+		home = 1661
+	}
+	
+	regiment = {
+		name= "1.Tosa"
+		type = artillery
+		home = 1665
+	}
+
+}
+
+army = {
+	name = "Army of Daimyo Yamanuchi"
+	location = 1653
+
+	regiment = {
+		name= "2.Tosa"
+		type = infantry
+		home = 1667
+	}
+
+	regiment = {
+		name= "3.Tosa"
+		type = infantry
+		home = 1666
+	}
+	
+	regiment = {
+		name= "1.Sendai"
+		type = infantry
+		home = 1668
+	}
+
+	regiment = {
+		name= "2.Sendai"
+		type = infantry
+		home = 1673
+	}
+
+	regiment = {
+		name= "3.Sendai"
+		type = infantry
+		home = 1669
+	}
+	
+	regiment = {
+		name= "1.Kaga"
+		type = artillery
+		home = 1645
+	}
+
+	regiment = {
+		name= "2.Kaga"
+		type = artillery
+		home = 1675
+	}
+
+	regiment = {
+		name= "3.Kaga"
+		type = artillery
+		home = 1677
+	}
+	
+	regiment = {
+		name= "4.Kaga"
+		type = artillery
+		home = 1651
+	}
+	
+	regiment = {
+		name= "5.Kaga"
+		type = artillery
+		home = 1653
+	}
+
+}
+
+army = {
+	name = "Army of Basedo Nursu_Renu"
+	location = 1652
+
+	regiment = {
+		name= "1. Reno"
+		type = infantry
+		home = 1649
+	}
+
+	regiment = {
+		name= "2. Reno"
+		type = infantry
+		home = 1657
+	}
+	
+	regiment = {
+		name= "3. Reno"
+		type = infantry
+		home = 1657
+	}
+
+	regiment = {
+		name= "4. Reno"
+		type = infantry
+		home = 1658
+	}
+
+	regiment = {
+		name= "5. Reno"
+		type = infantry
+		home = 1656
+	}
+	
+	regiment = {
+		name= "6. Reno"
+		type = artillery
+		home = 1655
+	}
+
+	regiment = {
+		name= "7. Reno"
+		type = artillery
+		home = 1655
+	}
+
+	regiment = {
+		name= "8. Reno"
+		type = artillery
+		home = 1659
+	}
+	
+	regiment = {
+		name= "9. Reno"
+		type = artillery
+		home = 1664
+	}
+	
+	regiment = {
+		name= "10. Reno"
+		type = artillery
+		home = 1675
+	}
+
+}
+
+navy = {
+	name = "Imperial Fleet"
+	location = 1650
+	ship = {
+		name= "1 Yusosentai1"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1 Yusosentai2"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1 Yusosentai3"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1 Yusosentai4"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1 Yusosentai5"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1 Yusosentai6"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1 Yusosentai7"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1 Yusosentai8"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1 Yusosentai9"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1 Yusosentai10"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1 Frigate1"
+		type = frigate
+	}
+	ship = {
+		name= "1 Frigate2"
+		type = frigate
+	}
+	ship = {
+		name= "1 Frigate3"
+		type = frigate
+	}
+	ship = {
+		name= "1 Frigate4"
+		type = frigate
+	}
+	ship = {
+		name= "1 Frigate5"
+		type = frigate
+	}
+
+}
+

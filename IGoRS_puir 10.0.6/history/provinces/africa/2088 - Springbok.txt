@@ -1,0 +1,10 @@
+trade_goods = wool
+life_rating = 30
+add_core = SAF
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+
+set_province_flag = farm

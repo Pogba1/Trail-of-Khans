@@ -1,0 +1,12 @@
+owner = CHI
+controller = CHI
+add_core = CHI
+#add_core = TPG
+#add_core = HUI
+trade_goods = silk
+life_rating = 32
+1861.1.1 = {
+	controller = REB
+}
+
+set_province_flag = farm

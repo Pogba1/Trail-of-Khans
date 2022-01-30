@@ -1,0 +1,12 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+add_core = SLV
+add_core = HUN
+#add_core = CZH
+add_core = PLC
+#add_core = RUT
+trade_goods = coal
+life_rating = 35
+
+set_province_flag = mine

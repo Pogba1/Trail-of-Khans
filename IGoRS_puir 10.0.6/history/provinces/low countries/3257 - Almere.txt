@@ -1,0 +1,11 @@
+owner = NET
+controller = NET
+add_core = NET
+trade_goods = cattle
+life_rating = 36
+#state_building = {
+#	level = 1
+#	building = glass_factory
+#	upgrade = yes
+#}
+set_province_flag = farm

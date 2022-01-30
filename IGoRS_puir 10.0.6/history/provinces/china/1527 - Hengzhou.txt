@@ -1,0 +1,10 @@
+add_core = CHI
+#add_core = GXI
+#add_core = TPG
+trade_goods = tea
+life_rating = 32
+
+owner = CHI
+controller = CHI
+
+set_province_flag = farm

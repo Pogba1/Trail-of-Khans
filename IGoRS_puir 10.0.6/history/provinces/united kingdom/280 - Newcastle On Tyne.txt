@@ -1,0 +1,50 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+trade_goods = coal
+life_rating = 37
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = steel_factory
+	upgrade = yes
+}
+1861.1.1 = {
+	state_building = {
+		level = 2
+		building = glass_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = liquor_distillery
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	railroad = 3 
+}
+
+set_province_flag = mine

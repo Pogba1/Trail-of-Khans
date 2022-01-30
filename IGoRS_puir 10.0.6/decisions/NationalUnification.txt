@@ -1,0 +1,1476 @@
+political_decisions = {
+	form_south_german_confederation = {
+		potential = {
+			#is_greater_power = yes
+			primary_culture = south_german
+			NOT = {
+				exists = SGF
+				exists = GER
+				tag = AUS
+				tag = KUK
+			}
+		}	
+		allow = {
+			war = no
+			FRA_412 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			BAV_595 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			BAV_599 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			WUR_589 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			BAD_586 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			any_country = {
+				limit = {
+					primary_culture = south_german
+					OR = {
+						in_sphere = THIS
+						overlord = {
+							tag = THIS
+						}
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			BAV = { all_core = { remove_core = BAV add_core = SGF } }
+			WUR = { all_core = { remove_core = WUR add_core = SGF } }
+			BAD = { all_core = { remove_core = BAD add_core = SGF } }
+			FRA_412 = {
+				add_core = SGF
+			}
+			change_tag = SGF
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	austrian_form_south_german_confederation = {
+		potential = {
+			OR = {
+				tag = AUS
+				tag = KUK
+			}
+			is_greater_power = yes
+			primary_culture = south_german
+			NOT = {
+				exists = GER
+				exists = SGF
+			}
+		}	
+		allow = {
+			war = no
+			FRA_412 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			BAV_595 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			BAV_599 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			WUR_589 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			BAD_586 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			any_country = {
+				limit = {
+					primary_culture = south_german
+					OR = {
+						in_sphere = THIS
+						overlord = {
+							tag = THIS
+						}
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			BAV = { all_core = { remove_core = BAV add_core = SGF } }
+			WUR = { all_core = { remove_core = WUR add_core = SGF } }
+			BAD = { all_core = { remove_core = BAD add_core = SGF } }
+			FRA_412 = {
+				add_core = SGF
+			}
+			release_vassal = SGF
+			diplomatic_influence = {
+				who = SGF
+				value = 300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	form_north_german_confederation = {
+		potential = {
+			OR = {
+				is_greater_power = yes
+				tag = PRU
+			}
+			primary_culture = north_german
+			NOT = {
+				exists = GER
+				exists = NGF
+			}
+		}	
+		allow = {
+			war = no
+			OR = {
+				#revanchism = 0.01
+				year = 1870
+				AND = {
+					NOT = {	exists = HES }
+					NOT = {	exists = HEK }
+					NOT = {	exists = NAS }
+					NOT = {	exists = WEI }
+					NOT = {	exists = COB }
+					NOT = {	exists = BRE }
+					NOT = {	exists = MEI }
+					NOT = {	exists = OLD }
+					NOT = {	exists = ANH }
+					NOT = {	exists = HOL }
+					NOT = {	exists = LIP }
+					NOT = {	exists = MEC }
+					NOT = {	exists = FRM }
+					NOT = {	exists = LUB }
+					NOT = {	exists = HAN }
+					NOT = {	exists = HAM }
+					NOT = {	exists = SAX }
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 15
+			FRA_412 = {
+				add_core = NGF
+			}
+			change_tag = NGF
+			PRU = { all_core = { remove_core = PRU add_core = NGF } }
+			LIP = { all_core = { remove_core = LIP add_core = NGF } }
+			ANH = { all_core = { remove_core = ANH add_core = NGF } }
+			HES = { all_core = { remove_core = HES add_core = NGF } }
+			MEC = { all_core = { remove_core = MEC add_core = NGF } }
+			LUB = { all_core = { remove_core = LUB add_core = NGF } }
+			HOL = { all_core = { remove_core = HOL add_core = NGF } }
+			HAM = { all_core = { remove_core = HAM add_core = NGF } }
+			HAN = { all_core = { remove_core = HAN add_core = NGF } }
+			BRA = { all_core = { remove_core = BRA add_core = NGF } }
+			BRE = { all_core = { remove_core = BRE add_core = NGF } }
+			OLD = { all_core = { remove_core = OLD add_core = NGF } }
+			NAS = { all_core = { remove_core = NAS add_core = NGF } }
+			FRM = { all_core = { remove_core = FRM add_core = NGF } }
+			HEK = { all_core = { remove_core = HEK add_core = NGF } }
+			COB = { all_core = { remove_core = COB add_core = NGF } }
+			MEI = { all_core = { remove_core = MEI add_core = NGF } }
+			WEI = { all_core = { remove_core = WEI add_core = NGF } }
+			SAX = { all_core = { remove_core = SAX add_core = NGF } }
+			inherit = LIP
+			inherit = ANH
+			inherit = HES
+			inherit = MEC
+			inherit = LUB
+			inherit = HOL
+			inherit = HAM
+			inherit = HAN
+			inherit = BRA
+			inherit = BRE
+			inherit = OLD
+			inherit = NAS
+			inherit = FRM
+			inherit = HEK
+			inherit = COB
+			inherit = MEI
+			inherit = WEI
+			inherit = SAX
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_union_nation = {
+		potential = {
+			culture_has_union_tag = yes
+			NOT = {
+				OR = {
+					cultural_union = { exists = yes }
+					is_culture_group = germanic
+					is_culture_group = scandinavian
+					is_culture_group = italian
+					is_culture_group = arab
+					tag = ECU
+					tag = CLM
+					tag = VNZ
+					tag = WAL
+					tag = MOL
+				}
+			}
+		}
+		
+		allow = {
+			prestige = 45
+			war = no
+			cultural_union = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			change_tag = culture
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+						tag = AUS
+						tag = KUK
+					}
+					is_culture_group = THIS
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+			add_accepted_culture = union
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+		
+	form_germany = {
+		news = yes
+		news_desc_long = "form_germany_NEWS_LONG"
+		news_desc_medium = "form_germany_NEWS_MEDIUM"
+		news_desc_short = "form_germany_NEWS_SHORT"
+		potential = {
+			tag = NGF
+			NOT = {
+				exists = GER
+				tag = ISR
+			}
+		}
+		
+		allow = {
+			tag = NGF
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			FRA_412 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			BAV_595 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			BAV_599 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			WUR_589 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			BAD_586 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = GER
+			add_accepted_culture = north_german
+			add_accepted_culture = south_german
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = germanic
+					OR = {
+						in_sphere = THIS
+						overlord = {
+							tag = THIS
+						}
+					}
+				}
+				country_event = { id=11101 days=0 }
+			}
+			PRU = { all_core = { remove_core = PRU add_core = GER } }
+			NGF = { all_core = { remove_core = NGF add_core = GER } }
+			LIP = { all_core = { remove_core = LIP add_core = GER } }
+			ANH = { all_core = { remove_core = ANH add_core = GER } }
+			HES = { all_core = { remove_core = HES add_core = GER } }
+			BAV = { all_core = { remove_core = BAV add_core = GER } }
+			MEC = { all_core = { remove_core = MEC add_core = GER } }
+			LUB = { all_core = { remove_core = LUB add_core = GER } }
+			HOL = { all_core = { remove_core = HOL add_core = GER } }
+			HAM = { all_core = { remove_core = HAM add_core = GER } }
+			HAN = { all_core = { remove_core = HAN add_core = GER } }
+			BRA = { all_core = { remove_core = BRA add_core = GER } }
+			BRE = { all_core = { remove_core = BRE add_core = GER } }
+			OLD = { all_core = { remove_core = OLD add_core = GER } }
+			NAS = { all_core = { remove_core = NAS add_core = GER } }
+			FRM = { all_core = { remove_core = FRM add_core = GER } }
+			HEK = { all_core = { remove_core = HEK add_core = GER } }
+			COB = { all_core = { remove_core = COB add_core = GER } }
+			MEI = { all_core = { remove_core = MEI add_core = GER } }
+			WEI = { all_core = { remove_core = WEI add_core = GER } }
+			SAX = { all_core = { remove_core = SAX add_core = GER } }
+			WUR = { all_core = { remove_core = WUR add_core = GER } }
+			BAD = { all_core = { remove_core = BAD add_core = GER } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_italy_sic = {
+		news = yes
+		news_desc_long = "form_italy_NEWS_LONG"
+		news_desc_medium = "form_italy_NEWS_MEDIUM"
+		news_desc_short = "form_italy_NEWS_SHORT"
+		picture = form_italy
+		potential =	{ 
+			tag = SIC
+			NOT = { exists = ITA }
+		}
+			
+		allow = {
+		OR = {
+				AND = {
+					year = 1840
+				owns = 720
+				owns = 739
+				owns = 744
+				owns = 749
+				owns = 754
+					}
+				AND = {
+					year = 1844
+					OR = {
+				AND = { owns = 720 owns = 739 owns = 744 owns = 749 }
+				AND = { owns = 720 owns = 739 owns = 744 owns = 754 }
+				AND = { owns = 720 owns = 739 owns = 749 owns = 754 }
+				AND = { owns = 720 owns = 744 owns = 749 owns = 754 }
+				AND = { owns = 739 owns = 744 owns = 749 owns = 754 }
+					} 
+				}
+				AND = {
+					year = 1848
+					OR = {
+				AND = { owns = 720 owns = 739 owns = 744 } AND = { owns = 720 owns = 739 owns = 749 } AND = { owns = 720 owns = 739 owns = 754 }		
+				AND = { owns = 720 owns = 744 owns = 749 } AND = { owns = 720 owns = 744 owns = 754 } AND = { owns = 720 owns = 749 owns = 754 }
+				AND = { owns = 739 owns = 744 owns = 749 } AND = { owns = 739 owns = 744 owns = 754 } AND = { owns = 739 owns = 749 owns = 754 }
+				AND = { owns = 744 owns = 749 owns = 754 } 
+					} 
+				}
+				AND = {
+					year = 1852
+					OR = {
+				AND = { owns = 720 owns = 739 }	AND = { owns = 720 owns = 744 }	AND = { owns = 720 owns = 749 }	AND = { owns = 720 owns = 754 }
+				AND = { owns = 739 owns = 744 }	AND = { owns = 739 owns = 749 }	AND = { owns = 739 owns = 754 }
+				AND = { owns = 744 owns = 749 }	AND = { owns = 744 owns = 754 }	
+				AND = { owns = 749 owns = 754 }
+					} 
+				NOT = { SAR = { OR = {  
+							AND = { owns = 720 owns = 739 }	AND = { owns = 720 owns = 744 }	AND = { owns = 720 owns = 749 }	AND = { owns = 720 owns = 754 }
+							AND = { owns = 739 owns = 744 }	AND = { owns = 739 owns = 749 }	AND = { owns = 739 owns = 754 }
+							AND = { owns = 744 owns = 749 }	AND = { owns = 744 owns = 754 }	
+							AND = { owns = 749 owns = 754 } } } }
+					}
+				AND = {
+					year = 1856
+					OR = { owns = 720 owns = 739 owns = 744 owns = 749 owns = 754 }
+					NOT = { SAR = { OR = { owns = 720 owns = 739 owns = 744 owns = 749 owns = 754 } } }
+				}
+			}
+			war = no
+			}
+			
+		effect = {
+			prestige = 20
+			change_tag = ITA
+			capital = 749
+			add_accepted_culture = north_italian
+			add_accepted_culture = south_italian
+			SAR = { all_core = { remove_core = SAR add_core = ITA } }
+			#LOM = { all_core = { remove_core = LOM add_core = ITA } }
+			#VEN = { all_core = { remove_core = VEN add_core = ITA } }
+			PAR = { all_core = { remove_core = PAR add_core = ITA } }
+			MOD = { all_core = { remove_core = MOD add_core = ITA } }
+			PAP = { all_core = { remove_core = PAP add_core = ITA } }
+			LUC = { all_core = { remove_core = LUC add_core = ITA } }
+			TUS = { all_core = { remove_core = TUS add_core = ITA } }
+			SIC = { all_core = { remove_core = SIC add_core = ITA } }
+			#TRE = { all_core = { remove_core = TRE add_core = ITA } }
+			THIS = {
+				limit = {
+					tag = SAR
+				}
+				inherit SIC
+			}
+			THIS = {
+				limit = {
+					tag = SIC
+				}
+				inherit SAR
+			}
+			#inherit = LOM
+			#inherit = VEN
+			inherit = PAR
+			inherit = MOD
+			inherit = PAP
+			inherit = LUC
+			inherit = TUS
+			#inherit = TRE
+			all_core = {
+				limit = {
+					NOT = { life_rating = 36 }
+				}
+				life_rating = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+		form_italy_sar = {
+		news = yes
+		news_desc_long = "form_italy_NEWS_LONG"
+		news_desc_medium = "form_italy_NEWS_MEDIUM"
+		news_desc_short = "form_italy_NEWS_SHORT"
+		picture = form_italy
+		potential =	{ 
+				tag = SAR
+				NOT = { exists = ITA } }
+			
+		allow = {
+		OR = {
+				AND = {
+					year = 1840
+				owns = 720
+				owns = 739
+				owns = 744
+				owns = 749
+				owns = 754
+					}
+				AND = {
+					year = 1844
+					OR = {
+				AND = { owns = 720 owns = 739 owns = 744 owns = 749 } AND = { owns = 720 owns = 739 owns = 744 owns = 754 }
+				AND = { owns = 720 owns = 739 owns = 749 owns = 754 } AND = { owns = 720 owns = 744 owns = 749 owns = 754 } AND = { owns = 739 owns = 744 owns = 749 owns = 754 }
+					} 
+				}
+				AND = {
+					year = 1848
+					OR = {
+				AND = { owns = 720 owns = 739 owns = 744 } AND = { owns = 720 owns = 739 owns = 749 } AND = { owns = 720 owns = 739 owns = 754 }		
+				AND = { owns = 720 owns = 744 owns = 749 } AND = { owns = 720 owns = 744 owns = 754 } AND = { owns = 720 owns = 749 owns = 754 }
+				AND = { owns = 739 owns = 744 owns = 749 } AND = { owns = 739 owns = 744 owns = 754 } AND = { owns = 739 owns = 749 owns = 754 }
+				AND = { owns = 744 owns = 749 owns = 754 } 
+					} 
+				}
+				AND = {
+					year = 1852
+					OR = {
+				AND = { owns = 720 owns = 739 }	AND = { owns = 720 owns = 744 }	AND = { owns = 720 owns = 749 }	AND = { owns = 720 owns = 754 }
+				AND = { owns = 739 owns = 744 }	AND = { owns = 739 owns = 749 }	AND = { owns = 739 owns = 754 }
+				AND = { owns = 744 owns = 749 }	AND = { owns = 744 owns = 754 }	
+				AND = { owns = 749 owns = 754 }
+					} 
+				NOT = { SAR = { OR = {  
+							AND = { owns = 720 owns = 739 }	AND = { owns = 720 owns = 744 }	AND = { owns = 720 owns = 749 }	AND = { owns = 720 owns = 754 }
+							AND = { owns = 739 owns = 744 }	AND = { owns = 739 owns = 749 }	AND = { owns = 739 owns = 754 }
+							AND = { owns = 744 owns = 749 }	AND = { owns = 744 owns = 754 }	
+							AND = { owns = 749 owns = 754 } } } }
+					}
+				AND = {
+					year = 1856
+					OR = { owns = 720 owns = 739 owns = 744 owns = 749 owns = 754 }
+					NOT = { SAR = { OR = { owns = 720 owns = 739 owns = 744 owns = 749 owns = 754 } } }
+				}
+			}
+			war = no
+			}
+			
+		effect = {
+			prestige = 20
+			change_tag = ITA
+			capital = 749
+			add_accepted_culture = north_italian
+			add_accepted_culture = south_italian
+			SAR = { all_core = { remove_core = SAR add_core = ITA } }
+			#LOM = { all_core = { remove_core = LOM add_core = ITA } }
+			#VEN = { all_core = { remove_core = VEN add_core = ITA } }
+			PAR = { all_core = { remove_core = PAR add_core = ITA } }
+			MOD = { all_core = { remove_core = MOD add_core = ITA } }
+			PAP = { all_core = { remove_core = PAP add_core = ITA } }
+			LUC = { all_core = { remove_core = LUC add_core = ITA } }
+			TUS = { all_core = { remove_core = TUS add_core = ITA } }
+			SIC = { all_core = { remove_core = SIC add_core = ITA } }
+			#TRE = { all_core = { remove_core = TRE add_core = ITA } }
+			THIS = {
+				limit = {
+					tag = SAR
+				}
+				inherit SIC
+			}
+			THIS = {
+				limit = {
+					tag = SIC
+				}
+				inherit SAR
+			}
+			#inherit = LOM
+			#inherit = VEN
+			inherit = PAR
+			inherit = MOD
+			inherit = PAP
+			inherit = LUC
+			inherit = TUS
+			#inherit = TRE
+			all_core = {
+				limit = {
+					NOT = { life_rating = 36 }
+				}
+				life_rating = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			}
+		}
+	
+	form_scandinavia = {
+		news = yes
+		news_desc_long = "form_scandinavia_NEWS_LONG"
+		news_desc_medium = "form_scandinavia_NEWS_MEDIUM"
+		news_desc_short = "form_scandinavia_NEWS_SHORT"
+		potential = {
+			OR = {
+				is_culture_group = scandinavian
+				is_culture_group = bears
+			}
+			NOT = {
+				exists = SCA
+			}
+			NOT = { has_country_flag = stormaktstiden }
+		}
+		
+		allow = {
+			SCH_370 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			DEN_367 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			DEN_372 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			SWE_329 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			SWE_313 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			SWE_308 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			SWE_322 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			#RUS_340 = {
+			#	OR = {
+			#		owned_by = THIS
+			#		owner = {
+			#			in_sphere = THIS
+			#		}
+			#		owner = {
+			#			is_our_vassal = THIS
+			#		}
+			#	}
+			#}
+			#RUS_336 = {
+			#	OR = {
+			#		owned_by = THIS
+			#		owner = {
+			#			in_sphere = THIS
+			#		}
+			#		owner = {
+			#			is_our_vassal = THIS
+			#		}
+			#	}
+			#}
+			#DEN_251 = {
+			#	OR = {
+			#		owned_by = THIS
+			#		owner = {
+			#			in_sphere = THIS
+			#		}
+			#		owner = {
+			#			is_our_vassal = THIS
+			#		}
+			#	}
+			#}
+			AND = {
+				prestige = 90
+				state_n_government = 1
+				war = no
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = SCA
+			add_accepted_culture = swedish
+			add_accepted_culture = danish
+			add_accepted_culture = norwegian
+			add_accepted_culture = finnish
+			add_accepted_culture = icelandic
+			add_accepted_culture = sami
+			SCH = { all_core = { remove_core = SCH add_core = SCA } }
+			DEN = { all_core = { remove_core = DEN add_core = SCA } }
+			SWE = { all_core = { remove_core = SWE add_core = SCA } }
+			NOR = { all_core = { remove_core = NOR add_core = SCA } }
+			FIN = { all_core = { remove_core = FIN add_core = SCA } }
+			ICL = { all_core = { remove_core = ICL add_core = SCA } }
+
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = scandinavian
+					OR = {
+						in_sphere = THIS
+						overlord = {
+							tag = THIS
+						}
+					}
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+#	concede_finland = {
+#		potential = {
+#			tag = SWE
+#			NOT = {
+#				has_country_flag = Conceded_Finland
+#			}
+#		}
+#		
+#		allow = {
+#			#NOT = {
+#			#	prestige = 40
+#			#}
+#			relation = {
+#				who = RUS
+#				value = 100
+#			}
+#			average_consciousness = 4
+#		}
+#		
+#		effect = {
+#			RUS_336 = {
+#				remove_core = SWE
+#			}
+#			RUS_340 = {
+#				remove_core = SWE
+#			}
+#			prestige = 10
+#			any_pop = {
+#				militancy = -1
+#			}
+#			set_country_flag = Conceded_Finland
+#		}
+#		ai_will_do = {
+#			factor = 1
+#			modifier = {
+#				factor = 0
+#				NOT = {
+#					average_militancy = 4
+#				}
+#			}
+#		}
+#	}
+	
+	reichsland_elsass = {
+		potential = {
+			OR = {
+				tag = PRU
+				tag = GER
+				tag = NGF
+			}
+			owns = 410
+			owns = 409
+			owns = 412
+			NOT = {
+				has_global_flag = germany_has_renamed_elsass
+			}
+		}
+		
+		allow = {
+			prestige = 10
+		}
+		
+		effect = {
+			410 = {
+				change_province_name = "Kolmar"
+			}
+			409 = {
+				change_province_name = "Straﬂburg"
+				state_scope = {
+					change_region_name = "Elsaﬂ-Lothringen"
+				}
+			}
+			prestige = 5
+			set_global_flag = germany_has_renamed_elsass
+		}
+	}
+	
+	restore_alsace = {
+		potential = {
+			tag = FRA
+			has_global_flag = germany_has_renamed_elsass
+			owns = 410
+			owns = 409
+			owns = 412
+		}
+		
+		allow = {
+			prestige = 10
+		}
+		
+		effect = {
+			410 = {
+				change_province_name = "Colmar"
+			}
+			409 = {
+				change_province_name = "Strasbourg"
+				state_scope = {
+					change_region_name = "Alsace-Lorraine"
+				}
+			}
+			prestige = 10
+			clr_global_flag = germany_has_renamed_elsass
+		}
+	}
+	
+	form_gran_colombia = {
+		alert = yes
+		potential = {
+			OR = {
+				tag = ECU
+				tag = CLM
+				tag = VNZ
+			}
+			NOT = {
+				exists = GCO
+			}
+		}	
+		allow = {
+		war = no
+		OR = {
+		
+			AND = {
+				2247 = { #Bogota
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								overlord = {
+									tag = THIS
+								}
+							}
+						}
+					}
+				}
+				2264 = { #Caracas
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								overlord = {
+									tag = THIS
+								}
+							}
+						}
+					}
+				}
+			}
+			
+		AND = {
+			2247 = { #Bogota
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+								}
+							}
+						}
+					}
+				}
+			2279 = { #Quito
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								overlord = {
+									tag = THIS
+								}
+							}
+						}
+					}
+				}
+			}
+			
+		AND = {
+			2264 = { #Caracas
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+								}
+							}
+						}
+					}
+				}
+			2279 = { #Quito
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								overlord = {
+									tag = THIS
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+		effect = {
+			prestige = 10
+			any_country = {
+				limit = {
+				primary_culture = north_andean 
+					OR = {
+						vassal_of = THIS
+						in_sphere = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			
+			PNM = { all_core = { add_core = GCO } }
+			CLM = { all_core = { add_core = GCO } }
+			VNZ = { all_core = { add_core = GCO } }
+			ECU = { all_core = { add_core = GCO } }
+		
+#Old cores get removed via a group of events # events\GCO_core_disposal #
+		
+			any_country = {
+				limit = {
+					in_sphere = THIS
+				}
+				
+				any_owned = {
+					limit = {
+						is_core = GCO
+					}
+					secede_province = THIS
+				}
+
+			}
+			
+			2242 = { add_core = GCO }
+			2200 = { add_core = GCO }
+			2201 = { add_core = GCO }
+			2202 = { add_core = GCO }
+			2203 = { add_core = GCO }
+
+			change_tag = GCO
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	form_peru_bolivia_confederation = {
+		picture = peru_bolivia
+		alert = yes
+		potential = {
+			OR = {
+				tag = BOL
+				tag = PEU
+			}
+			NOT = {
+				exists = PBC
+			}
+		}	
+		allow = {
+			war = no
+			2310 = { #La Paz
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			2295 = { #Lima
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			any_country = {
+				limit = {
+					OR = {
+						tag = PEU
+						tag = BOL
+					}
+					OR = {
+						vassal_of = THIS
+						in_sphere = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			
+			PEU = { all_core = { remove_core = PEU add_core = PBC } }
+			BOL = { all_core = { remove_core = BOL add_core = PBC } }
+			ECU = { all_core = { remove_core = PBC } }
+			any_country = {
+				limit = {
+					in_sphere = THIS
+				}
+				
+				any_owned = {
+					limit = {
+						is_core = PBC
+					}
+					secede_province = THIS
+				}
+
+			}
+
+			change_tag = PBC
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	unite_moldavia_wallachia = {
+		potential = {
+			OR = {
+				tag = WAL
+				tag = MOL
+			}
+			exists = WAL
+			exists = MOL
+			NOT = { exists = ROM }
+		}
+
+		allow = {
+			OR = {
+				state_n_government = 1
+				is_vassal = no
+			}
+			WAL = {
+				war = no
+				is_vassal = no
+			}
+			MOL = {
+				war = no
+				is_vassal = no
+			}
+		}
+
+		effect = {
+			prestige = 10
+			change_tag = ROM
+			random_country = {
+				limit = {
+					tag = WAL
+					exists = yes
+				}
+				country_event = 11101
+			}
+			random_country = {
+				limit = {
+					tag = MOL
+					exists = yes
+				}
+				country_event = 11101
+			}
+			capital = 664
+			WAL_665 = {
+				add_core = ROM
+				remove_core = WAL
+				remove_core = MOL
+			}
+			MOL_673 = {
+				add_core = ROM
+				remove_core = WAL
+				remove_core = MOL
+			}
+			AUS_654 = {
+				add_core = ROM
+				remove_core = WAL
+				remove_core = MOL
+			}
+			AUS_657 = {
+				add_core = ROM
+				remove_core = WAL
+				remove_core = MOL
+			}
+			TUR_674 = {
+				add_core = ROM
+				remove_core = WAL
+				remove_core = MOL
+			}
+			AUS_647 = {
+				add_core = ROM
+				remove_core = WAL
+				remove_core = MOL
+			}
+			RUS_676 = {
+				add_core = ROM
+				remove_core = WAL
+				remove_core = MOL
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	form_yugoslavia = {
+		potential = {
+			is_culture_group = south_slavic
+			NOT = { exists = YUG }
+			NOT = { has_global_flag = yugoslavia_formed }
+			NOT = {
+				OR = {
+					tag = ALB
+					tag = BUL
+				}
+			}
+		}
+
+		allow = {
+			war = no
+			SER = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = {
+								is_culture_group = south_slavic
+								relation = { who = THIS value = 100 }
+							}
+						}
+					}
+				}
+			}
+			BOS = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = {
+								is_culture_group = south_slavic
+								relation = { who = THIS value = 100 }
+							}
+						}
+					}
+				}
+			}
+			CRO = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = {
+								is_culture_group = south_slavic
+								relation = { who = THIS value = 100 }
+							}
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = yugoslavia_formed
+			prestige = 20
+			all_core = { add_core = YUG }
+			SER = { all_core = { add_core = YUG } }
+			MON = { all_core = { add_core = YUG } }
+			CRO = { all_core = { add_core = YUG } }
+			BOS = { all_core = { add_core = YUG } }
+			SLO = { all_core = { add_core = YUG } }
+			add_accepted_culture = serb
+			add_accepted_culture = bosniak
+			add_accepted_culture = croat
+			add_accepted_culture = slovene
+			change_tag = YUG
+			any_country = {
+				limit = {
+					NOT = { is_culture_group = south_slavic }
+					in_sphere = THIS
+					war = no
+					any_owned_province = {
+						OR = {
+							is_core = SER
+							is_core = BOS
+							is_core = CRO
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = SER
+							is_core = BOS
+							is_core = CRO
+						}
+					}
+					secede_province = THIS
+				}
+			}
+			any_country = {
+				limit = {
+					war = no
+					is_culture_group = south_slavic
+					NOT = { tag = ALB }
+					OR = {
+						in_sphere = THIS
+						sphere_owner = { is_sphere_leader_of = THIS }
+						relation = { who = THIS value = 50 }
+					}
+				}
+				country_event = 11108
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

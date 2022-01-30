@@ -1,0 +1,103 @@
+leader = {
+	name = "Demetrios Kalergis"
+	picture = gre_gen_kalergis
+	type = land
+	date="1836.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Ioannis Kolokotronis"
+	picture = gre_gen_kolokotronis
+	type = land
+	date="1833.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Antonios Kriezis"
+	picture = gre_adm_kriezis
+	type = sea
+	date="1836.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "Stratós Thessalías"
+	location = 834
+	regiment = {
+		name= "1. Taxiarchia Pezikou"
+		type = hussar
+		home = 834
+	}
+
+	regiment = {
+		name= "2. Taxiarchia Pezikou"
+		type = infantry
+		home = 836
+	}
+
+	regiment = {
+		name= "3. Taxiarchia Pezikou"
+		type = infantry
+		home = 835
+	}
+
+	regiment = {
+		name= "4. Taxiarchia Pezikou"
+		type = infantry
+		home = 838
+	}
+
+	regiment = {
+		name= "5. Taxiarchia Pezikou"
+		type = infantry
+		home = 837
+	}
+
+	regiment = {
+		name= "6. Taxiarchia Pezikou"
+		type = artillery
+		home = 841
+	}
+	
+	regiment = {
+		name= "6. Taxiarchia Pezikou"
+		type = artillery
+		home = 834
+	}
+	
+	regiment = {
+		name= "6. Taxiarchia Pezikou"
+		type = artillery
+		home = 839
+	}
+	
+	regiment = {
+		name= "6. Taxiarchia Pezikou"
+		type = artillery
+		home = 840
+	}
+	
+	regiment = {
+		name= "6. Taxiarchia Pezikou"
+		type = artillery
+		home = 842
+	}
+}
+
+navy = {
+	name = "Hellenic Navy"
+	location = 834
+
+	ship = {
+		name= "Leda"
+		type = clipper_transport
+	}
+
+}
+

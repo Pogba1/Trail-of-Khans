@@ -1,0 +1,13 @@
+owner = ZUL
+controller = ZUL
+add_core = ZUL
+add_core = SAF
+trade_goods = coal
+life_rating = 35
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 1
+}
+
+set_province_flag = mine

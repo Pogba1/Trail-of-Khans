@@ -1,0 +1,8 @@
+owner = ION
+controller = ION
+add_core = ION
+add_core = GRE
+trade_goods = fish
+life_rating = 35
+
+set_province_flag = farm

@@ -1,0 +1,22 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+trade_goods = iron
+life_rating = 37
+
+1861.1.1 = { 
+	state_building = {
+		level = 1
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = steel_factory
+		upgrade = yes
+	}
+}
+
+
+
+set_province_flag = mine

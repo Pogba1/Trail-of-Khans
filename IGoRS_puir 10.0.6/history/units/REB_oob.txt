@@ -1,0 +1,260 @@
+army = {
+	name = "1st Carlist Army"
+	
+	leader = {
+		name = "Zumalacárregui"
+		type = land
+		date="1833.1.1"
+		personality = defence_1.1
+		background = attack_1.1
+		prestige = 0.1
+	}
+
+	location = 493
+	regiment = {
+		name = "1. Regiment"
+		type = infantry
+		home = 493
+	}
+	regiment = {
+		name = "2. Regiment"
+		type = infantry
+		home = 493
+	}
+	regiment = {
+		name = "3. Regiment"
+		type = infantry
+		home = 493
+	}
+	regiment = {
+		name = "4. Regiment"
+		type = infantry
+		home = 493
+	}
+	regiment = {
+		name = "5. Regiment"
+		type = irregular
+		home = 493
+	}
+	regiment = {
+		name = "6. Regiment"
+		type = irregular
+		home = 493
+	}
+	regiment = {
+		name = "7. Regiment"
+		type = irregular
+		home = 493
+	}
+}
+
+army = {
+	name = "2nd Carlist Army"
+	
+	leader = {
+		name = "Ramón Cabrera"
+		type = land
+		date="1833.1.1"
+		personality = skilled
+		background = rising_star
+		prestige = 0.1
+	}
+	
+	location = 500
+	regiment = {
+		name = "8. Regiment"
+		type = infantry
+		home = 500
+	}
+	regiment = {
+		name = "9. Regiment"
+		type = infantry
+		home = 500
+	}
+	regiment = {
+		name = "10. Regiment"
+		type = irregular
+		home = 500
+	}
+	regiment = {
+		name = "11. Regiment"
+		type = irregular
+		home = 500
+	}
+}
+
+army = {
+	name = "3rd Carlist Army"
+	
+	leader = {
+		name = "Miguel Gómez"
+		type = land
+		date="1833.1.1"
+		personality = audacious
+		background = expert_raider
+		prestige = 0.1
+	}
+	
+	location = 501
+	regiment = {
+		name = "12. Regiment"
+		type = infantry
+		home = 501
+	}
+	regiment = {
+		name = "13. Regiment"
+		type = infantry
+		home = 501
+	}
+	regiment = {
+		name = "14. Regiment"
+		type = irregular
+		home = 501
+	}
+	regiment = {
+		name = "15. Regiment"
+		type = irregular
+		home = 501
+	}
+}
+
+
+army = {
+	name = "4th Carlist Army"
+
+	leader = {
+		name = "Rafael Yserns"
+		type = land
+		date="1814.1.1"
+		personality = implacable
+		background = colonial_b
+		prestige = 0.2
+	}
+	
+	location = 499
+	regiment = {
+		name= "16.Regiment"
+		type = infantry
+		home = 499
+	}
+
+	regiment = {
+		name= "17.Regiment"
+		type = irregular
+		home = 499
+	}
+}
+
+
+army = {
+	name = "1st Cabanagem Army"
+
+	leader = {
+		name = "Manuel"
+		type = land
+		date="1824.1.1"
+		personality = bold
+		background = colonial_b
+		prestige = 0.0
+	}
+	
+	location = 2410
+	regiment = {
+		name= "1.Regiment"
+		type = cavalry
+		home = 2410
+	}
+
+	regiment = {
+		name= "2.Regiment"
+		type = irregular
+		home = 2410
+	}
+
+	regiment = {
+		name= "3.Regiment"
+		type = irregular
+		home = 2410
+	}
+
+	regiment = {
+		name= "4.Regiment"
+		type = irregular
+		home = 2411
+	}
+
+	regiment = {
+		name= "5.Regiment"
+		type = irregular
+		home = 2600
+	}
+
+	regiment = {
+		name= "6.Regiment"
+		type = irregular
+		home = 2424
+	}
+
+	regiment = {
+		name= "7.Regiment"
+		type = irregular
+		home = 2413
+	}
+
+	regiment = {
+		name= "8.Regiment"
+		type = irregular
+		home = 2425
+	}
+}
+
+
+army = {
+	name = "1st Riograndense Army"
+
+	leader = {
+		name = "Bento"
+		type = land
+		date="1824.1.1"
+		personality = coolminded
+		background = natural_born_leader
+		prestige = 0.1
+	}
+	
+	location = 2464
+	regiment = {
+		name= "1.Regiment"
+		type = dragoon
+		home = 2463
+	}
+
+	regiment = {
+		name= "2.Regiment"
+		type = dragoon
+		home = 2464
+	}
+
+	regiment = {
+		name= "3.Regiment"
+		type = infantry
+		home = 2465
+	}
+
+	regiment = {
+		name= "4.Regiment"
+		type = infantry
+		home = 2466
+	}
+
+	regiment = {
+		name= "5.Regiment"
+		type = infantry
+		home = 2467
+	}
+
+	regiment = {
+		name= "6.Regiment"
+		type = infantry
+		home = 2463
+	}
+}

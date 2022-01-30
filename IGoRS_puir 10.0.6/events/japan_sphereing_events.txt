@@ -1,0 +1,63 @@
+# Japanese sphereing events - 1836 only
+country_event = {
+	id = 7770001
+	title = "The Japanese Question"
+	desc = "Japan has requested you sphere them with this one time use event!"
+	picture = "dixie"
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Alright, sounds good."
+		diplomatic_influence = {
+			who = JAP
+			value = 400
+		}
+		JAP = {
+			country_event = { id=7770003 days=0 }
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "Fuck Off."
+		JAP = {
+			clr_country_flag = jap_sphere_chosen
+			country_event = { id=7770002 days=0 }
+		}
+	}
+}
+
+country_event = {
+	id = 7770002
+	title = "$FROMCOUNTRY$ rejected us!"
+	desc = "Our sphere request to $FROMCOUNTRY$ has been rejected!"
+	picture = "dixie"
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "God Damnit"
+	}
+}
+
+country_event = {
+	id = 7770003
+	title = "$FROMCOUNTRY$ accepted us!"
+	desc = "Our sphere request to $FROMCOUNTRY$ has been accepted!"
+	picture = "dixie"
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Thank God"
+	}
+}

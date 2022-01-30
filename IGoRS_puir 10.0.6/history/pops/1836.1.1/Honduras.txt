@@ -1,0 +1,164 @@
+#Honduras Region (352000)
+#Ruled by Central America 1836
+#Tegucigapa (180000/45000 POPS)
+2193 = {
+    aristocrats = {
+        culture = central_american
+        religion = catholic
+        size = 1615
+        militancy = 9
+    }
+
+    bureaucrats = {
+        culture = central_american
+        religion = catholic
+        size = 212
+        militancy = 9
+    }
+
+    officers = {
+        culture = central_american
+        religion = catholic
+        size = 170
+        militancy = 9
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = catholic
+        size = 765
+        militancy = 9
+    }
+
+    artisans = {
+        culture = central_american
+        religion = catholic
+        size = 3825
+        militancy = 9
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = catholic
+        size = 765
+        militancy = 9
+    }
+
+    farmers = {
+        culture = central_american
+        religion = catholic
+        size = 69147
+        militancy = 9
+    }
+}
+#San Pedro Sula (92000/23000 POPS)
+2194 = {
+    aristocrats = {
+        culture = central_american
+        religion = catholic
+        size = 935
+        militancy = 9
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = catholic
+        size = 382
+        militancy = 9
+    }
+
+    artisans = {
+        culture = central_american
+        religion = catholic
+        size = 1955
+        militancy = 9
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = catholic
+        size = 382
+        militancy = 9
+    }
+
+    farmers = {
+        culture = central_american
+        religion = catholic
+        size = 35445
+        militancy = 9
+    }
+}
+#La Ceiba (68000/17000 POPS)
+2195 = {
+    aristocrats = {
+        culture = central_american
+        religion = catholic
+        size = 722
+        militancy = 9
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = catholic
+        size = 297
+        militancy = 9
+    }
+
+    artisans = {
+        culture = central_american
+        religion = catholic
+        size = 1445
+        militancy = 9
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = catholic
+        size = 297
+        militancy = 9
+    }
+
+    farmers = {
+        culture = central_american
+        religion = catholic
+        size = 26137
+        militancy = 9
+    }
+}
+#Puerto Lempira (12000/3000 POPS)
+2196 = {
+    aristocrats = {
+        culture = central_american
+        religion = catholic
+        size = 127
+        militancy = 9
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = catholic
+        size = 85
+        militancy = 9
+    }
+
+    artisans = {
+        culture = central_american
+        religion = catholic
+        size = 255
+        militancy = 9
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = catholic
+        size = 42
+        militancy = 9
+    }
+
+    farmers = {
+        culture = central_american
+        religion = catholic
+        size = 4590
+        militancy = 9
+    }
+}

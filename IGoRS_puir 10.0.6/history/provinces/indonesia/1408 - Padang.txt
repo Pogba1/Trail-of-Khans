@@ -1,0 +1,9 @@
+owner = NET
+controller = NET
+add_core = SAK
+#add_core = INO
+trade_goods = tobacco
+life_rating = 30
+colonial = 2
+
+set_province_flag = farm

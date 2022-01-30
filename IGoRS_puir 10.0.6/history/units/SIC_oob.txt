@@ -1,0 +1,184 @@
+leader = {
+	name = "Leopoldo di Borbone"
+	picture = sic_gen_leopoldo
+	date = 1809.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Francesco Emanuele Pinto"
+	picture = sic_gen_pinto
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Ferdinando II di Borbone"
+	picture = sic_gen_ferdinando
+	date = 1830.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
+}
+leader = {
+	name = "Carlo Filangieri"
+	picture = sic_gen_filangieri
+	date = 1831.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Rafaella de Cosa"
+	date = 1836.1.1
+	type = sea
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Francesco Mendoza"
+	date = 1830.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Paolo Ruffo"
+	date = 1836.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "Esercito delle Due Sicilia"
+	location = 754
+	regiment = {
+		name= "1. Fanteria di Linea - Re e Regina"
+		type = hussar
+		home = 754
+	}
+
+	regiment = {
+		name= "2. Fanteria di Linea - Duca di Calabria"
+		type = hussar
+		home = 757
+	}
+
+	regiment = {
+		name= "3. Fanteria di Linea - Duca di Noto"
+		type = artillery
+		home = 755
+	}
+
+	regiment = {
+		name= "4. Fanteria di Linea"
+		type = artillery
+		home = 2567
+	}
+
+	regiment = {
+		name= "1. Cavalleria di Linea"
+		type = artillery
+		home = 754
+	}
+
+	regiment = {
+		name= "2. Cavalleria di Linea"
+		type = artillery
+		home = 753
+	}
+
+	regiment = {
+		name= "3. Cavalleria di Linea"
+		type = artillery
+		home = 756
+	}
+
+	regiment = {
+		name= "1. Guardia Reale"
+		type = artillery
+		home = 762
+	}
+
+	regiment = {
+		name= "2. Guardia Reale"
+		type = artillery
+		home = 764
+	}
+
+	regiment = {
+		name= "3. Guardia Reale"
+		type = artillery
+		home = 759
+	}
+
+	regiment = {
+		name= "1. Truppe Svizzere"
+		type = artillery
+		home = 760
+	}
+
+	regiment = {
+		name= "2. Truppe Svizzere"
+		type = artillery
+		home = 761
+	}
+}
+
+navy = {
+	name = "Real Marina delle Due Sicilie"
+	location = 754
+	ship = {
+		name= "Ferdinando II"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Christina"
+		type = frigate
+	}
+
+	ship = {
+		name= "Regina Isabella"
+		type = frigate
+	}
+
+	ship = {
+		name= "Principe Carlo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Partenope"
+		type = frigate
+	}
+
+	ship = {
+		name= "Caracciolo"
+		type = frigate
+	}
+
+	ship = {
+		name= "1a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+}
+

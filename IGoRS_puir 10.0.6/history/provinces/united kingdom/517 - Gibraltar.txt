@@ -1,0 +1,15 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+trade_goods = fish
+life_rating = 35
+colonial = 2
+naval_base = 2
+fort = 1
+1861.1.1 = {
+	colonial = 1
+	fort = 3
+	naval_base = 3
+}
+
+set_province_flag = farm

@@ -1,0 +1,196 @@
+political_decisions = {
+
+	player_alliances = {
+		picture = host_nation
+		alert = yes
+		potential = {
+			tag = LCT
+			ai = no
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+				}
+				create_alliance = LCT				
+			}
+		}
+	}
+
+    Kick_player = {
+        potential = {
+ 			tag = LCT
+            ai = no
+        }
+        allow = {
+			tag = LCT
+            ai = no
+        }
+        effect = {
+            any_country = {
+                Limit = {
+                    NOT = {
+                        alliance_with = THIS
+                        has_country_flag = host_nation
+                    }
+                    ai = no
+                }
+                country_event = 50004
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+	open_unsiege_system = {
+        potential = {
+ 			tag = LCT
+            ai = no
+			NOT = { has_country_flag = unsiege_system_active }
+        }
+        allow = {
+			tag = LCT
+            ai = no
+			NOT = { has_country_flag = unsiege_system_active }
+        }
+ 		effect = {
+			THIS = { set_country_flag = unsiege_system_active }
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	
+	close_unsiege_system = {
+        potential = {
+ 			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+        allow = {
+			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+ 		effect = {
+			THIS = { clr_country_flag = unsiege_system_active }
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+	unsiege_this_nation = {
+        potential = {
+ 			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+        allow = {
+			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+ 		effect = {
+			any_country = {
+				limit = {
+					ai = no
+					NOT = {
+						alliance_with = THIS
+						has_country_flag = host_nation
+                    }
+				}
+				set_country_flag = unsiege_this
+				create_alliance = LCT
+			}
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+	unsiege_now = {
+        potential = {
+ 			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+        allow = {
+			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+ 		effect = {
+			any_country = {
+				limit = {
+					ai = no
+					has_country_flag = unsiege_this
+				}
+				country_event = { id=476009 days=0 }
+			}
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }
+	
+	clear_unsiege_flags = {
+        potential = {
+ 			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+        allow = {
+			tag = LCT
+            ai = no
+			has_country_flag = unsiege_system_active
+        }
+ 		effect = {
+			any_country = { clr_country_flag = unsiege_this }
+		}
+        ai_will_do = {
+            factor = 0
+        }
+    }	
+	
+	total_war_cb = {
+		picture = "development_bio_weapons"
+		alert = yes
+		potential = {
+			tag = LCT
+			ai = no
+			NOT = { has_global_flag = total_war_cbs_enabled }
+			has_global_flag = total_war_cb_safety_off
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			set_global_flag = total_war_cbs_enabled
+		}
+	}
+	
+	total_war_cb_safety = {
+		picture = "development_bio_weapons"
+		alert = yes
+		potential = {
+			tag = LCT
+			ai = no
+			NOT = { has_global_flag = total_war_cb_safety_off }
+			NOT = { has_global_flag = total_war_cbs_enabled }
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			set_global_flag = total_war_cb_safety_off
+		}
+	}
+}

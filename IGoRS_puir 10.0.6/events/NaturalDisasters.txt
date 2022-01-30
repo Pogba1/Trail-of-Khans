@@ -1,0 +1,497 @@
+#Tunguska Meteor Strike
+country_event = {
+	id = 21500
+	title = "EVTNAME21500"
+	desc = "EVTDESC21500"
+	news = yes
+	news_desc_long = "EVTDESC21500_NEWS_LONG"
+	news_desc_medium = "EVTDESC21500_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC21500_NEWS_SHORT"
+	picture = "destroyed_forest"
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		year = 1908
+		owns = 2694
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "EVTOPTA21500"
+		2694 = {
+			any_pop = {
+				reduce_pop = 0.90
+			}
+			life_rating = -10
+		}
+	}
+}
+
+#Krakatoa Explodes
+country_event = {
+	id = 21510
+	title = "EVTNAME21510"
+	desc = "EVTDESC21510"
+	news = yes
+	news_desc_long = "EVTDESC21510_NEWS_LONG"
+	news_desc_medium = "EVTDESC21510_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC21510_NEWS_SHORT"
+	picture = "pelee"
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		year = 1883
+		owns = 1414
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+		name = "EVTOPTA21510"
+		1414 = {
+			any_pop = {
+				reduce_pop = 0.8
+			}
+			life_rating = -10
+		}
+	}
+}
+
+# San Francisco Earthquake
+country_event = {
+	id = 21520
+	title = "EVTNAME21520"
+	desc = "EVTDESC21520"
+	news = yes
+	news_desc_long = "EVTDESC21520_NEWS_LONG"
+	news_desc_medium = "EVTDESC21520_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC21520_NEWS_SHORT"
+	picture = "earthquake"
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		year = 1906
+		owns = 84
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "EVTOPTA21520"
+		84 = {
+			any_pop = {
+				reduce_pop = 0.90
+			}
+		}
+	}
+}
+
+# Yellow River Flood of 1851
+country_event = {
+	id = 21530
+	title = "EVTNAME21530"
+	desc = "EVTDESC21530"
+	#news = yes
+	#news_desc_long = "EVTDESC21530_NEWS_LONG"
+	#news_desc_medium = "EVTDESC21530_NEWS_MEDIUM"
+	#news_desc_short = "EVTDESC21530_NEWS_SHORT"
+	picture = "starving"
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		year = 1851
+		owns = 1509
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "EVTOPTA21530"
+		1509 = {
+			any_pop = {
+				#reduce_pop = 0.95
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1536 = {
+			any_pop = {
+				#reduce_pop = 0.95
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1542 = {
+			any_pop = {
+				#reduce_pop = 0.95
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1508 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1515 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1511 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1510 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1575 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1573 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1572 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		XBI = {
+			1561 = {
+				any_pop = {
+					#reduce_pop = 0.90
+					militancy = 3
+					consciousness = 3
+				}
+			}
+			2062 = {
+				any_pop = {
+					#reduce_pop = 0.90
+					militancy = 3
+					consciousness = 3
+				}
+			}
+			1559 = {
+				any_pop = {
+					#reduce_pop = 0.90
+					militancy = 3
+					consciousness = 3
+				}
+			}
+		}
+		MGL = {
+			1552 = {
+				any_pop = {
+					#reduce_pop = 0.90
+					militancy = 3
+					consciousness = 3
+				}
+			}
+		}
+	}
+}
+# Yellow River Flood of 1887
+country_event = {
+	id = 21540
+	title = "EVTNAME21540"
+	desc = "EVTDESC21540"
+	#news = yes
+	#news_desc_long = "EVTDESC21540_NEWS_LONG"
+	#news_desc_medium = "EVTDESC21540_NEWS_MEDIUM"
+	#news_desc_short = "EVTDESC21540_NEWS_SHORT"
+	picture = "starving"
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		year = 1887
+		owns = 1508
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "EVTOPTA21540"
+		1570 = {
+			any_pop = {
+				#reduce_pop = 0.95
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1567 = {
+			any_pop = {
+				#reduce_pop = 0.95
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1563 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1568 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+
+		1564 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1614 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1508 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1515 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1511 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1510 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1575 = {
+			any_pop = {
+				#reduce_pop = 0.95
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1573 = {
+			any_pop = {
+				#reduce_pop = 0.95
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1572 = {
+			any_pop = {
+				#reduce_pop = 0.95
+				militancy = 3
+				consciousness = 3
+			}
+		}
+	}
+}
+# Yellow River Flood of 1931
+country_event = {
+	id = 21550
+	title = "EVTNAME21550"
+	desc = "EVTDESC21550"
+	#news = yes
+	#news_desc_long = "EVTDESC21550_NEWS_LONG"
+	#news_desc_medium = "EVTDESC21550_NEWS_MEDIUM"
+	#news_desc_short = "EVTDESC21550_NEWS_SHORT"
+	picture = "starving"
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		year = 1931
+		owns = 1508
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "EVTOPTA21540"
+		1570 = {
+			any_pop = {
+				#reduce_pop = 0.95
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1567 = {
+			any_pop = {
+				#reduce_pop = 0.95
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1563 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+
+		1568 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+
+		1564 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1614 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1508 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1515 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1511 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1510 = {
+			any_pop = {
+				#reduce_pop = 0.90
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1575 = {
+			any_pop = {
+				#reduce_pop = 0.95
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1573 = {
+			any_pop = {
+				#reduce_pop = 0.95
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1572 = {
+			any_pop = {
+				#reduce_pop = 0.95
+				militancy = 3
+				consciousness = 3
+			}
+		}
+		1561 = {
+			any_pop = {
+				#reduce_pop = 0.98
+				militancy = 1
+				consciousness = 1
+			}
+		}
+		2062 = {
+			any_pop = {
+				#reduce_pop = 0.98
+				militancy = 1
+				consciousness = 1
+			}
+		}
+		1559 = {
+			any_pop = {
+				#reduce_pop = 0.98
+				militancy = 1
+				consciousness = 1
+			}
+		}
+		1552 = {
+			any_pop = {
+				#reduce_pop = 0.98
+				militancy = 1
+				consciousness = 1
+			}
+		}
+	}
+}

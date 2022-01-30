@@ -1,0 +1,305 @@
+#Relations:
+
+DEN = {
+	value = 100
+}
+
+leader = {
+	name = "Johan Henrik Tawast"
+	picture = swe_gen_tawast
+	date = 1807.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Gustaf Cederström"
+	picture = swe_gen_cederstromgustaf
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Johann Peter af Billbergh"
+	picture = swe_gen_billbergh
+	date = 1814.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Axel Otto Mörner"
+	picture = swe_gen_morner
+	date = 1818.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Carl XIV Johan"
+	picture = swe_gen_carlxivjohan
+	date = 1818.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
+}
+leader = {
+	name = "Prins Oscar"
+	picture = swe_gen_prinsoscar
+	date = 1822.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Carl Cederström"
+	picture = swe_gen_cederstromcarl
+	date = 1824.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Gustaf Abraham Peyron"
+	picture = swe_gen_peyron
+	date = 1827.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Magnus Brahe"
+	picture = swe_gen_brahe
+	date = 1830.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Carl Reinhold Nordenskjold"
+	picture = swe_adm_nordenskjold
+	date = 1834.1.1
+	type = sea
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Karl August Gyllengranat"
+	picture = swe_adm_gyllengranat
+	date = 1834.1.1
+	type = sea
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Baltzar von Platen"
+	picture = swe_adm_platen
+	date = 1836.1.1
+	type = sea
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "1. Svenska Armén"
+	location = 322
+	regiment = {
+		name= "Svea Livgarde"
+		type = hussar
+		home = 322
+	}
+
+	regiment = {
+		name= "Södermanlands Regemente"
+		type = infantry
+		home = 326
+	}
+
+	regiment = {
+		name= "Första Livgrenadjärregementet"
+		type = infantry
+		home = 325
+	}
+
+	regiment = {
+		name= "Upplands Regemente"
+		type = infantry
+		home = 324
+	}
+
+	regiment = {
+		name= "Västgöta Regemente"
+		type = infantry
+		home = 330
+	}
+
+	regiment = {
+		name= "Kalmar Regemente"
+		type = artillery
+		home = 332
+	}
+
+	regiment = {
+		name= "Jönköpings Regemente"
+		type = artillery
+		home = 333
+	}
+
+	regiment = {
+		name= "Södra Skånska Infanteriregementet"
+		type = artillery
+		home = 334
+	}
+
+	regiment = {
+		name= "Kronprinsens Husarregemente"
+		type = artillery
+		home = 335
+	}
+
+	regiment = {
+		name= "Norrlands Dragonregemente"
+		type = artillery
+		home = 321
+	}
+
+}
+
+army = {
+	name = "2. Svenska Armén"
+	location = 330
+	regiment = {
+		name= "Svea Livgarde"
+		type = hussar
+		home = 305
+	}
+
+	regiment = {
+		name= "Södermanlands Regemente"
+		type = infantry
+		home = 309
+	}
+
+	regiment = {
+		name= "Första Livgrenadjärregementet"
+		type = infantry
+		home = 310
+	}
+
+	regiment = {
+		name= "Upplands Regemente"
+		type = infantry
+		home = 313
+	}
+
+	regiment = {
+		name= "Västgöta Regemente"
+		type = infantry
+		home = 317
+	}
+
+	regiment = {
+		name= "Kalmar Regemente"
+		type = artillery
+		home = 322
+	}
+
+	regiment = {
+		name= "Jönköpings Regemente"
+		type = artillery
+		home = 322
+	}
+
+	regiment = {
+		name= "Södra Skånska Infanteriregementet"
+		type = artillery
+		home = 323
+	}
+
+	regiment = {
+		name= "Kronprinsens Husarregemente"
+		type = artillery
+		home = 327
+	}
+
+	regiment = {
+		name= "Norrlands Dragonregemente"
+		type = artillery
+		home = 328
+	}
+
+}
+
+navy = {
+	name = "Swedish Navy"
+	location = 322
+	ship = {
+		name= "Karl XIII"
+		type = manowar
+	}
+
+	ship = {
+		name= "Karl XIV Johan"
+		type = manowar
+	}
+
+	ship = {
+		name= "Fäderneslandet"
+		type = manowar
+	}
+
+	ship = {
+		name= "Manligheten"
+		type = manowar
+	}
+
+
+	ship = {
+		name= "Camilla"
+		type = frigate
+	}
+
+	ship = {
+		name= "Af Chapman"
+		type = frigate
+	}
+
+	ship = {
+		name= "Eurydice"
+		type = frigate
+	}
+
+	ship = {
+		name= "Galatea"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+

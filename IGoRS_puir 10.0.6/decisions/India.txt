@@ -1,0 +1,23 @@
+political_decisions = {
+	move_capital_to_delhi = {
+		picture = map_india
+		potential = {
+			tag = HND
+			owns = 1236 # Delhi
+			NOT = { capital = 1236 }
+		}	
+		
+		allow = {
+			NOT = { capital = 1236 }
+		}
+		
+		effect = {
+			capital = 1236
+			prestige = 5
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

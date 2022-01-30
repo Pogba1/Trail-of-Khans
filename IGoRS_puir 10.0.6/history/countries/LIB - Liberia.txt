@@ -1,0 +1,117 @@
+capital = 1887
+primary_culture = afro_american
+religion = protestant
+government = democracy
+plurality = 0.0
+nationalvalue = nv_order
+literacy = 0.10
+non_state_culture_literacy = 0.03
+
+set_country_flag = conquerable_1865
+
+#Political Reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = landed_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+#Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+ruling_party = LIB_conservative_2
+last_election = 1822.1.1
+upper_house = {
+	fascist = 0
+	liberal = 22
+	conservative = 62
+	reactionary = 16
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "LIB_oob.txt"
+
+#Reforms
+industrial_construction = yes_western_science
+
+#Technologies
+late_enlightenment_philosophy = 1
+basic_chemistry = 1
+
+1847.7.26 = {
+	set_country_flag = liberia_liberated
+}
+
+1847.9.27 = {
+	set_country_flag = liberian_constitution_enacted
+}
+
+1861.1.1 = {
+	oob = "/1861/LIB_oob.txt"
+	prestige = 1
+	literacy = 0.2
+	non_state_culture_literacy = 0.03
+
+	#Political Reforms - modeled on USA 1861
+	slavery = no_slavery
+	upper_house_composition = state_equal_weight
+	vote_franschise = universal_weighted_voting
+	public_meetings = yes_meeting
+	press_rights = free_press
+	trade_unions = all_trade_unions
+	voting_system = first_past_the_post
+	political_parties = gerrymandering
+
+	#Social Reforms
+	wage_reform = no_minimum_wage
+	work_hours = no_work_hour_limit
+	safety_regulations = no_safety
+	health_care = no_health_care
+	unemployment_subsidies = no_subsidies
+	pensions = no_pensions
+	school_reforms = no_schools
+
+	#Economic Reforms
+	land_reform = land_reform_two
+	admin_reform = admin_reform_two
+	finance_reform = yes_finance_reform
+	industrial_construction = western_science_two
+
+	#Military Reforms
+	foreign_training = yes_foreign_training
+	foreign_weapons = foreign_weapons_two
+	military_constructions = military_constructions_two
+	foreign_navies = yes_foreign_navies
+
+	#Technologies
+	post_napoleonic_thought = 1
+	flintlock_rifles = 1
+	muzzle_loaded_rifles = 1
+	bronze_muzzle_loaded_artillery = 1
+	iron_muzzle_loaded_artillery = 1
+	clipper_design = 1
+	naval_design_bureaus = 1
+	private_banks = 1
+	no_standard = 1
+	ad_hoc_money_bill_printing = 1
+	freedom_of_trade = 1
+	water_wheel_power = 1
+	practical_steam_engine = 1
+	mechanized_mining = 1
+	medicine = 1
+}

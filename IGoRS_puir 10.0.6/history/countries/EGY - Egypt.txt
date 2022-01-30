@@ -1,0 +1,112 @@
+capital = 1745
+primary_culture = misri
+culture = mashriqi
+religion = sunni
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_order
+literacy = 0.07
+non_state_culture_literacy = 0.05
+prestige = 5 #was 40
+
+#Political Reforms
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+
+#Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+# Starting Consciousness
+consciousness = 5
+nonstate_consciousness = 0
+
+ruling_party = EGY_conservative
+upper_house = {
+	fascist = 0
+	liberal = 10
+	conservative = 72
+	reactionary = 18
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+foreign_training = yes_foreign_training
+#foreign_weapons = yes_foreign_weapons				#9.0.1 nerf
+military_constructions = yes_military_constructions
+#foreign_officers = yes_foreign_officers			#9.0.1 nerf
+foreign_navies = yes_foreign_navies
+foreign_naval_officers = yes_foreign_naval_officers
+land_reform = yes_land_reform
+education_reform = yes_education_reform
+pre_indust = yes_pre_indust
+industrial_construction = yes_western_science
+
+# Technology
+post_napoleonic_thought = 1
+#flintlock_rifles = 1						#9.0.1 nerf
+bronze_muzzle_loaded_artillery = 1
+#army_command_principle = 1					#9.0.1 nerf
+post_nelsonian_thought = 1
+clipper_design = 1
+naval_design_bureaus = 1
+guild_based_production = 1
+late_enlightenment_philosophy = 1
+water_wheel_power = 1
+mechanized_mining = 1
+basic_chemistry = 1
+malthusian_thought = 1						#9.0.1 addition
+
+oob = "EGY_oob.txt"
+
+1837.1.1 = {
+	decision = enact_muhammad_alis_reforms
+}
+1861.1.1 = {
+	set_country_flag = muhammad_alis_reforms_enacted
+	oob = "/1861/EGY_oob.txt"
+	prestige = 5
+	literacy = 0.10
+	non_state_culture_literacy = 0.05
+
+	# Starting Consciousness
+	consciousness = 5
+	nonstate_consciousness = 0
+
+	#Economic Reforms
+	finance_reform = finance_reform_two #International Debt
+	transport_improv = yes_transport_improv
+	industrial_construction = western_science_two
+
+
+	#Military Reforms
+	foreign_training = foreign_training_two
+	foreign_weapons = foreign_weapons_two
+	military_constructions = military_constructions_two
+	foreign_navies = foreign_navies_two
+
+	#Technology
+
+	strategic_mobility = 1
+	muzzle_loaded_rifles = 1
+	iron_muzzle_loaded_artillery = 1
+	steamers = 1
+	private_banks = 1
+	stock_exchange = 1
+	early_classical_theory_and_critique = 1
+	experimental_railroad = 1
+	medicine = 1
+}

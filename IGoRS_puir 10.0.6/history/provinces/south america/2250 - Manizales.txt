@@ -1,0 +1,10 @@
+owner = CLM
+controller = CLM
+add_core = CLM
+#add_core = GCO
+trade_goods = iron
+life_rating = 30
+
+
+
+set_province_flag = mine

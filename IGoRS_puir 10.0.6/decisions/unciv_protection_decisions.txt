@@ -1,0 +1,73 @@
+#1865 country flag clear
+#political_decisions = {
+#	
+#	unciv_protection_off = {
+#		picture = "development_bio_weapons"
+#		alert = yes
+#		potential = {
+#			OR = {
+#				tag = JAP
+#				tag = CHI
+#			}
+#			has_country_flag = conquerable_1865
+#			NOT = { has_country_flag = chose_protection }
+#			ai = no
+#			year = 1836
+#			NOT = { year = 1837 }
+#			war = no
+#		}
+#		
+#		allow = { 
+#			OR = {
+#				tag = JAP
+#				tag = CHI
+#			}
+#			has_country_flag = conquerable_1865 
+#			NOT = { has_country_flag = chose_protection }
+#			ai = no
+#			year = 1836
+#			NOT = { year = 1837 }
+#			war = no
+#		}
+#		
+#		effect = {
+#			clr_country_flag = conquerable_1865
+#			set_country_flag = chose_no_protection
+#		}
+#	}
+#
+#	unciv_protection_on = {
+#		picture = "development_bio_weapons"
+#		alert = yes
+#		potential = {
+#			OR = {
+#				tag = JAP
+#				tag = CHI
+#			}
+#			NOT = { has_country_flag = conquerable_1865 }
+#			NOT = { has_country_flag = chose_no_protection }
+#			ai = no
+#			year = 1836
+#			NOT = { year = 1837 }
+#			war = no
+#		}
+#		
+#		allow = { 
+#			OR = {
+#				tag = JAP
+#				tag = CHI
+#			}
+#			NOT = { has_country_flag = conquerable_1865 }
+#			NOT = { has_country_flag = chose_no_protection }
+#			ai = no
+#			year = 1836
+#			NOT = { year = 1837 }
+#			war = no
+#		}
+#		
+#		effect = {
+#			set_country_flag = conquerable_1865
+#			set_country_flag = chose_protection
+#		}
+#	}
+#}

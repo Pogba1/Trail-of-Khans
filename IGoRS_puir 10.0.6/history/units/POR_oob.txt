@@ -1,0 +1,194 @@
+CHI = {
+	value = 125		#relation
+}
+
+OMA = {
+	value = 100		#relation
+}
+
+ZUL = {
+	value = 100		#relation
+}
+
+BEN = {
+	value = 100		#relation
+}
+
+TRN = {
+	value = 100		#relation
+}
+
+ALD = {
+	value = 100		#relation
+}
+
+#Leaders
+leader = {
+	name = "José Travassos Valdez"
+	picture = por_gen_bonfim
+	date = 1832.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Joao Carlos de Saldanha"
+	picture = por_gen_saldanha
+	date = 1835.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "António José Severim de Noronha"
+	picture = por_gen_terceira
+	date = 1823.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Francisco Xavier da Silva Pereira"
+	picture = por_gen_antas
+	date = 1834.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+	
+}
+leader = {
+	name = "Luís do Rego Barreto"
+	date = 1817.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+
+army = {
+	name = "Exército Português"
+	location = 521
+	regiment = {
+		name= "1. Brigada de Infantaria"
+		type = hussar
+		home = 521
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantaria"
+		type = infantry
+		home = 524
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantaria"
+		type = infantry
+		home = 518
+	}
+
+	regiment = {
+		name= "4. Brigada de Infantaria"
+		type = infantry
+		home = 520
+	}
+
+	regiment = {
+		name= "5. Brigada de Infantaria"
+		type = infantry
+		home = 522
+	}
+	
+	regiment = {
+		name= "6. Brigada de Infantaria"
+		type = artillery
+		home = 521
+	}
+
+	regiment = {
+		name= "1. Brigada de Caballaria"
+		type = artillery
+		home = 519
+	}
+
+	regiment = {
+		name = "1. Divisão Colonial"
+		type = artillery
+		home = 525
+	}
+	
+	regiment = {
+		name = "2. Divisão Colonial"
+		type = artillery
+		home = 2134
+	}
+	
+	regiment = {
+		name = "3. Divisão Colonial"
+		type = artillery
+		home = 1303
+	}
+}
+
+navy = {
+	name = "Portugese Royal Navy"
+	location = 524
+	ship = {
+		name= "Rainha de Portugal "
+		type = manowar
+	}
+
+	ship = {
+		name= "Dom João VI "
+		type = manowar
+	}
+
+	ship = {
+		name= "Nossa Senhora da Conceição"
+		type = manowar
+	}
+
+	ship = {
+		name= "São Sebastião"
+		type = manowar
+	}
+
+	ship = {
+		name= "Amazônia"
+		type = manowar
+	}
+
+	ship = {
+		name= "Princesa Carlota"
+		type = manowar
+	}
+
+	ship = {
+		name= "Teresa"
+		type = manowar
+	}
+
+	ship = {
+		name= "Príncipe do Brasil"
+		type = manowar
+	}
+
+	ship = {
+		name= "1o Navios de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2o Navios de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3o Navios de Transporte"
+		type = clipper_transport
+	}
+
+}
+

@@ -1,0 +1,9 @@
+owner = NET
+controller = NET
+add_core = KLM
+#add_core = INO
+trade_goods = sulphur
+life_rating = 30
+colonial = 2
+
+set_province_flag = mine

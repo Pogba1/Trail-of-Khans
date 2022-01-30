@@ -1,0 +1,304 @@
+#Police State
+country_event = {
+	id = 7771010
+	title = "The Police State"
+	desc = "You've facilitated the establishment of a Police State."
+#	picture = "native_force"
+	
+	trigger = {
+		NOT = { has_country_modifier = policestate_modifier }
+		invention = the_police_state
+		OR = {
+			government = proletarian_dictatorship
+			government = fascist_dictatorship
+		}
+	}
+	
+	option = {
+		name = "We'll see how this unfolds.."
+		add_country_modifier = {
+			name = policestate_modifier
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 7771011
+	title = "The Police State Removed!"
+	desc = "You've removed the circumstances that created a Police State in your country."
+#	picture = "native_force"
+	
+	trigger = {
+		has_country_modifier = policestate_modifier
+		NOT = {
+			OR = {
+				government = proletarian_dictatorship
+				government = fascist_dictatorship
+			}
+		}
+	}
+	
+	option = {
+		name = "Thank God"
+		remove_country_modifier = policestate_modifier
+	}
+}
+
+#One Party State
+country_event = {
+	id = 7771012
+	title = "One Party State"
+	desc = "Your Nation has been taken over by a One Party System."
+#	picture = "native_force"
+	
+	trigger = {
+		NOT = { has_country_modifier = one_party_state_modifier }
+		invention = the_one_party_state
+		OR = {
+			government = proletarian_dictatorship
+			government = fascist_dictatorship
+		}
+	}
+	
+	option = {
+		name = "We'll see how this unfolds.."
+		add_country_modifier = {
+			name = one_party_state_modifier
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 7771013
+	title = "One Party State Removed!"
+	desc = "Uh, maybe we were wrong?"
+#	picture = "native_force"
+	
+	trigger = {
+		has_country_modifier = one_party_state_modifier
+		NOT = {
+			OR = {
+				government = proletarian_dictatorship
+				government = fascist_dictatorship
+			}
+		}
+	}
+	
+	option = {
+		name = "Thank God"
+		remove_country_modifier = one_party_state_modifier
+	}
+}
+#Totalitarianism
+
+country_event = {
+	id = 7771014
+	title = "Totalitarianism"
+	desc = "Your Nation has been taken over by a Totalitarian."
+#	picture = "native_force"
+	
+	trigger = {
+		NOT = { has_country_modifier = totalitarianism_modifier }
+		invention = totalitarianism
+		OR = {
+			government = proletarian_dictatorship
+			government = fascist_dictatorship
+		}
+	}
+	
+	option = {
+		name = "We'll see how this unfolds.."
+		add_country_modifier = {
+			name = totalitarianism_modifier
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 7771015
+	title = "Totalitarianism Removed!"
+	desc = "Uh, maybe we were wrong?"
+#	picture = "native_force"
+	
+	trigger = {
+		has_country_modifier = totalitarianism_modifier
+		NOT = {
+			OR = {
+				government = proletarian_dictatorship
+				government = fascist_dictatorship
+			}
+		}
+	}
+	
+	option = {
+		name = "Thank God"
+		remove_country_modifier = totalitarianism_modifier
+	}
+}
+#Leadership Principle
+
+country_event = {
+	id = 7771016
+	title = "Leadership Principle"
+	desc = "Your Nation has been enthralled by the Leadership Principle."
+#	picture = "native_force"
+	
+	trigger = {
+		NOT = { has_country_modifier = leadership_principle_modifier }
+		invention = the_leadership_principle
+		government = fascist_dictatorship
+	}
+	
+	option = {
+		name = "We'll see how this unfolds.."
+		add_country_modifier = {
+			name = leadership_principle_modifier
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 7771017
+	title = "Leadership Principle Removed!"
+	desc = "Uh, maybe we were wrong?"
+#	picture = "native_force"
+	
+	trigger = {
+		has_country_modifier = leadership_principle_modifier
+		NOT = {
+			government = fascist_dictatorship
+		}
+	}
+	
+	option = {
+		name = "Thank God"
+		remove_country_modifier = leadership_principle_modifier
+	}
+}
+#Ultranationalism
+
+country_event = {
+	id = 7771018
+	title = "Ultranationalism"
+	desc = "Your Nation has been enthralled by Ultranationalism."
+#	picture = "native_force"
+	
+	trigger = {
+		NOT = { has_country_modifier = ultranationalism_modifier }
+		invention = ultranationalism_n_the_volk
+		government = fascist_dictatorship
+	}
+	
+	option = {
+		name = "We'll see how this unfolds.."
+		add_country_modifier = {
+			name = ultranationalism_modifier
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 7771019
+	title = "Ultranationalism Removed!"
+	desc = "Uh, maybe we were wrong?"
+#	picture = "native_force"
+	
+	trigger = {
+		has_country_modifier = ultranationalism_modifier
+		NOT = {
+			government = fascist_dictatorship
+		}
+	}
+	
+	option = {
+		name = "Thank God"
+		remove_country_modifier = ultranationalism_modifier
+	}
+}
+# Collectivsation
+
+country_event = {
+	id = 7771020
+	title = "Collectivisation"
+	desc = "Your Nation has been enthralled by Collectivisation."
+#	picture = "native_force"
+	
+	trigger = {
+		NOT = { has_country_modifier = collectivisation_modifier }
+		invention = collectivisation
+		government = proletarian_dictatorship
+	}
+	
+	option = {
+		name = "We'll see how this unfolds.."
+		add_country_modifier = {
+			name = collectivisation_modifier
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 7771021
+	title = "Collectivisation Removed!"
+	desc = "Uh, maybe we were wrong?"
+#	picture = "native_force"
+	
+	trigger = {
+		has_country_modifier = collectivisation_modifier
+		NOT = {
+			government = proletarian_dictatorship
+		}
+	}
+	
+	option = {
+		name = "Thank God"
+		remove_country_modifier = collectivisation_modifier
+	}
+}
+#Classless Society
+
+country_event = {
+	id = 7771022
+	title = "The Classless Society"
+	desc = "Your Nation has been reformed into a classless society."
+#	picture = "native_force"
+	
+	trigger = {
+		NOT = { has_country_modifier = classless_society_modifier }
+		invention = the_classless_society
+		government = proletarian_dictatorship
+	}
+	
+	option = {
+		name = "We'll see how this unfolds.."
+		add_country_modifier = {
+			name = classless_society_modifier
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 7771023
+	title = "The Classless Society Removed!"
+	desc = "Uh, maybe we were wrong?"
+#	picture = "native_force"
+	
+	trigger = {
+		has_country_modifier = classless_society_modifier
+		NOT = {
+			government = proletarian_dictatorship
+		}
+	}
+	
+	option = {
+		name = "Thank God"
+		remove_country_modifier = classless_society_modifier
+	}
+}

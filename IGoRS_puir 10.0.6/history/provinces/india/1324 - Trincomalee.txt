@@ -1,0 +1,10 @@
+owner = ENG
+controller = ENG
+add_core = SRI
+trade_goods = tea
+life_rating = 32
+colonial = 2
+1861.1.1 = { 
+	naval_base = 1
+}
+set_province_flag = farm

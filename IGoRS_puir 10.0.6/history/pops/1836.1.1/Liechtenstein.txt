@@ -1,0 +1,44 @@
+#Vaduz (20000/5000 POPS)
+3252 = {
+	aristocrats = {
+		culture = swiss
+		religion = catholic
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = swiss
+		religion = catholic
+		size = 75
+	}
+
+	officers = {
+		culture = swiss
+		religion = catholic
+		size = 15
+	}
+
+	clergymen = {
+		culture = swiss
+		religion = catholic
+		size = 175
+	}
+
+	artisans = {
+		culture = swiss
+		religion = catholic
+		size = 300
+	}
+
+	soldiers = {
+		culture = swiss
+		religion = catholic
+		size = 200
+	}
+
+	farmers = {
+		culture = swiss
+		religion = catholic
+		size = 4135
+	}
+}

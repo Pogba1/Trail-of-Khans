@@ -1,0 +1,61 @@
+leader = {
+	name = "Santiago Mariño"
+	picture = vnz_gen_marino
+	date = 1825.1.1 #1815
+	type = land
+	personality = fanatic
+	background = natural_born_leader
+	prestige = 0.3
+}
+
+leader = {
+	name = "José Antonio Páez"
+	picture = vnz_gen_paez
+	date = 1830.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+
+army = {
+	name = "Ejército de Venezuela"
+	location = 2264
+	regiment = {
+		name= "1. División de Infantería"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "2. División de Infantería"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "3. División de Infantería"
+		type = infantry
+		home = 2267
+	}
+
+	regiment = {
+		name= "1. División de Caballería"
+		type = cavalry
+		home = 2268
+	}
+
+	regiment = {
+		name= "2. División de Caballería"
+		type = cavalry
+		home = 2269
+	}
+
+	regiment = {
+		name= "3. División de Caballería"
+		type = cavalry
+		home = 2271
+	}
+
+}
+

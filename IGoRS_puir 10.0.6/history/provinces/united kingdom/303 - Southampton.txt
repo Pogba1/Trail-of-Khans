@@ -1,0 +1,12 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+trade_goods = fish
+life_rating = 38
+naval_base = 2
+1861.1.1 = { 
+	railroad = 3 
+	naval_base = 4 #Portsmouth
+}
+
+set_province_flag = farm

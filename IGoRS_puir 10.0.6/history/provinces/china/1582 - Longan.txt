@@ -1,0 +1,10 @@
+owner = CHI
+controller = CHI
+add_core = CHI
+#add_core = SZC
+#add_core = TPG
+add_core = TIB
+trade_goods = coal
+life_rating = 32
+
+set_province_flag = mine

@@ -1,0 +1,8 @@
+owner = HEK
+controller = HEK
+add_core = HEK
+#add_core = GER
+trade_goods = grain
+life_rating = 38
+
+set_province_flag = farm

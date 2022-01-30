@@ -1,0 +1,199 @@
+leader = {
+	name = "Antonio López de Santa Anna"
+	picture = mex_gen_santaanna
+	type = land
+	date="1821.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+
+leader = {
+	name = "Martín de Cos"
+	picture = mex_gen_cos
+	type = land
+	date="1833.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "José de Urrea"
+	picture = mex_gen_urrea
+	type = land
+	date="1835.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Vicente Filísola"
+	picture = mex_gen_filisola
+	type = land
+	date="1822.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Anastasio Bustamante"
+	picture = mex_gen_bustamante
+	type = land
+	date="1822.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Mariano Arista"
+	picture = mex_gen_arista
+	type = land
+	date="1830.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Juan Álvarez"
+	picture = mex_gen_alvarez
+	type = land
+	date="1830.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Valentín Canalizo"
+	picture = mex_gen_canalizo
+	type = land
+	date="1835.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "José Joaquín de Herrera"
+	picture = mex_gen_herrera
+	type = land
+	date="1821.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "José Mariano Salas"
+	picture = mex_gen_salas
+	type = land
+	date="1836.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Mariano Paredes"
+	picture = mex_gen_paredes
+	type = land
+	date="1832.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Adrián Woll"
+	picture = mex_gen_woll
+	type = land
+	date="1832.1.1"
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "Artillery 1"
+	location = 2159
+	regiment = {
+		name= "1111.Division Cos"
+		type = artillery
+		home = 2172
+	}
+	
+	regiment = {
+		name= "11.Division Cos"
+		type = artillery
+		home = 2174
+	}
+
+	regiment = {
+		name= "21.Division Cos"
+		type = artillery
+		home = 2174
+	}
+
+	regiment = {
+		name= "31.Division Cos"
+		type = artillery
+		home = 2174
+	}
+
+	regiment = {
+		name= "11.Oajaca y Tlaxcala"
+		type = artillery
+		home = 2177
+	}
+}
+
+army = {
+	name = "Artillery 2"
+	location = 2163
+	
+	regiment = {
+		name= "23.Oajaca y Tlaxcala"
+		type = artillery
+		home = 2177
+	}
+
+	regiment = {
+		name= "33.Oajaca y Tlaxcala"
+		type = artillery
+		home = 2177
+	}
+	
+	regiment = {
+		name= "13.Division Comonfort"
+		type = artillery
+		home = 2176
+	}
+
+	regiment = {
+		name= "23.Division Comonfort"
+		type = artillery
+		home = 2176
+	}
+
+	regiment = {
+		name= "33.Division Comonfort"
+		type = artillery
+		home = 2176
+	}
+}
+
+navy = {
+	name = "Armada de Mexico"
+	location = 2162
+	ship = {
+		name= "Vencedor del Alamo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Matilda"
+		type = clipper_transport
+	}
+
+}
+

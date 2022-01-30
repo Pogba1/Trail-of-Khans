@@ -1,0 +1,8 @@
+owner = CHI
+controller = CHI
+add_core = CHI
+#add_core = SXI
+trade_goods = wool
+life_rating = 32
+
+set_province_flag = farm

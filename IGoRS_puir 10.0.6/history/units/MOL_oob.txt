@@ -1,0 +1,64 @@
+army = {
+	name = "Armata Principatul Moldovei"
+	location = 673
+	regiment = {
+		name= "1. Infanterie Moldovei"
+		type = hussar
+		home = 670
+	}
+
+	regiment = {
+		name= "2. Infanterie Moldovei"
+		type = infantry
+		home = 672
+	}
+
+	regiment = {
+		name= "3. Infanterie Moldovei"
+		type = infantry
+		home = 673
+	}
+	
+	regiment = {
+		name= "4. Infanterie Moldovei"
+		type = infantry
+		home = 670
+	}
+	
+	regiment = {
+		name= "5. Infanterie Moldovei"
+		type = infantry
+		home = 670
+	}
+	
+	regiment = {
+		name= "6. Infanterie Moldovei"
+		type = artillery
+		home = 670
+	}
+	
+	regiment = {
+		name= "7. Infanterie Moldovei"
+		type = artillery
+		home = 671
+	}
+	
+	regiment = {
+		name= "8. Infanterie Moldovei"
+		type = artillery
+		home = 672
+	}
+	
+	regiment = {
+		name= "9. Infanterie Moldovei"
+		type = artillery
+		home = 672
+	}
+	
+	regiment = {
+		name= "10. Infanterie Moldovei"
+		type = artillery
+		home = 673
+	}
+}
+

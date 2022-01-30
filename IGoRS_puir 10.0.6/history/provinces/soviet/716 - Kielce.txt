@@ -1,0 +1,15 @@
+owner = RUS
+
+controller = RUS
+
+add_core = PLC
+
+#add_core = PLC
+
+#add_core = CPL
+trade_goods = wool
+
+life_rating = 39
+1861.1.1 = { railroad = 3 }
+
+set_province_flag = farm

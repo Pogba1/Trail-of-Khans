@@ -1,0 +1,134 @@
+political_decisions = {
+	hellenic_parliament = {
+		potential = {
+			tag = GRE
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = voule_ton_ellinon
+			}
+		}
+	
+		allow = {
+			plurality = 30
+			prestige = 1
+		}
+		
+		effect = {
+			set_country_flag = voule_ton_ellinon
+			political_reform = wealth_weighted_voting
+			government = hms_government
+			nationalvalue = nv_liberty
+			ruling_party_ideology = liberal
+			any_pop = {
+				militancy = -2
+			}
+			any_pop = {
+				consciousness = 2
+			}
+			any_pop = {
+				limit = {
+					culture = greek
+				}
+				dominant_issue = {
+					value = jingoism
+					factor = 0.8
+				}
+			}
+		}
+	}
+	
+	megali_idea = {
+		potential = {
+			tag = GRE
+			NOT = {
+				has_country_flag = greece_has_got_a_brand_new_bag
+			}
+		}
+		
+		allow = {
+			invention = national_fraternity
+			owns = 832
+			owns = 831
+			owns = 833
+			owns = 825
+			owns = 824
+			owns = 820
+			owns = 819
+			owns = 821
+			owns = 805
+			owns = 822
+			owns = 823
+			owns = 829
+			owns = 830
+			owns = 844
+			owns = 843
+			owns = 846
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			TUR_860 = {
+				add_core = GRE
+			}
+			TUR_863 = {
+				add_core = GRE
+			}
+			TUR_869 = {
+				add_core = GRE
+			}
+			TUR_884 = {
+				add_core = GRE
+			}
+			set_country_flag = greece_has_got_a_brand_new_bag
+		}
+	}
+	
+	form_byzantine_empire = {
+		potential = {
+			tag = GRE
+			has_country_flag = greece_has_got_a_brand_new_bag
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}			
+		}
+		allow = {
+			OR = {
+				is_greater_power = yes
+				prestige = 300
+				military_score = 250
+			}
+			GRE_837 = { owned_by = THIS } #Greece
+			TUR_805 = { owned_by = THIS } #Macedonia
+			TUR_860 = { owned_by = THIS } #Thrace
+			TUR_863 = { owned_by = THIS } #Lydia
+			TUR_884 = { owned_by = THIS } #Amasya		
+		}
+		effect = {
+			change_tag = BYZ
+			capital = 860
+			860 = { change_province_name = "Constantinople" }
+			828 = { change_province_name = "Adrianople" }
+			858 = { change_province_name = "Saranta Ekklisiès" }
+			861 = { change_province_name = "Skoutarion" }
+			any_owned = {
+				limit = {
+					is_colonial = no
+					OR = {
+						culture = greek
+						culture = turkish
+					}
+				}
+				add_core = BYZ
+				remove_core = TUR
+			}
+			#TUR_860 = {
+			#	remove_core = TUR
+			#}
+			prestige = 40
+			badboy = -10
+		}
+	}
+}

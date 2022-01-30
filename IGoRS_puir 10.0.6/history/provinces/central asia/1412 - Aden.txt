@@ -1,0 +1,13 @@
+owner = YEM
+controller = YEM
+add_core = YEM
+trade_goods = precious_metal
+life_rating = 35
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+	naval_base = 1
+}
+
+set_province_flag = mine

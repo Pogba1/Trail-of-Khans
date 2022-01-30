@@ -1,0 +1,1313 @@
+#Outbreak
+country_event = {
+	id = 999901
+	title = "OUTBREAK_START_TITLE"
+	desc = "OUTBREAK_START_DESC"
+	picture = outbreakannouncement
+
+	fire_only_once = yes
+	
+	trigger = {
+		ai = no
+		has_global_flag = zombies_allowed
+		NOT = {
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+			has_global_flag = first_zombie_invasion
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "OUTBREAK_START_OPT"
+		set_global_flag = first_zombie_invasion
+		random_country = {
+			limit = {
+				number_of_states = 2
+				OR = {
+				continent = asia
+				continent = oceania
+				}
+				NOT = { has_country_flag = zombie_outbreak }
+			}
+			country_event = 999902
+		}
+		random_country = {
+			limit = {
+				number_of_states = 2
+				continent = europe
+				NOT = { has_country_flag = zombie_outbreak }
+			}
+			country_event = 999902
+		}
+		random_country = {
+			limit = {
+				number_of_states = 2
+				OR = {
+				continent = north_america
+				continent = south_america
+				}
+				NOT = { has_country_flag = zombie_outbreak }
+			}
+			country_event = 999902
+		}
+		random_country = {
+			limit = {
+				number_of_states = 2
+				NOT = { has_country_flag = zombie_outbreak }
+			}
+			country_event = 999902
+		}
+	}
+}
+
+#Inital Infection
+country_event = {
+	id = 999902
+	title = "OUTBREAK_START_LOCAL_TITLE"
+	desc = "OUTBREAK_START_LOCAL_DESC"
+	picture = disease
+
+	trigger = {
+		any_owned_province = {
+			any_neighbor_province = {
+				has_province_modifier = zombie_outbreak
+				is_colonial = no
+			}
+		}
+		NOT = {
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "OUTBREAK_START_LOCAL_OPT"
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			any_pop = {
+				reduce_pop = 0.95
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			any_pop = {
+				reduce_pop = 0.95
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			any_pop = {
+				reduce_pop = 0.95
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999918
+		}
+	}
+}
+
+#Port Infection Europe
+country_event = {
+	id = 999903
+	title = "OUTBREAK_SPREAD_PORT_TITLE"
+	desc = "OUTBREAK_SPREAD_PORT_DESC"
+	picture = portinfection
+
+	trigger = {
+		has_global_flag = first_zombie_invasion
+		total_num_of_ports = 1
+		
+		any_neighbor_country = {
+				any_owned_province = {
+					AND = {
+					is_blockaded = no
+					port = yes
+					has_province_modifier = zombie_outbreak
+					continent = europe
+					NOT = { units_in_province = 20 }
+					}
+				}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "OUTBREAK_SPREAD_PORT_OPT"
+		random_province = {
+			limit = {
+				AND = { 
+					continent = europe
+					port = yes
+					has_recent_imigration = 30
+					NOT = { units_in_province = 20 }
+					NOT = { has_province_modifier = zombie_outbreak }
+				}
+			}
+			any_pop = {
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+	}
+}
+
+#Port Infection Africa
+country_event = {
+	id = 999904
+	title = "OUTBREAK_SPREAD_PORT_TITLE"
+	desc = "OUTBREAK_SPREAD_PORT_DESC"
+	picture = portinfection
+
+	trigger = {
+		has_global_flag = first_zombie_invasion
+		total_num_of_ports = 1
+		
+		any_neighbor_country = {
+				any_owned_province = {
+					AND = {
+					is_blockaded = no
+					port = yes
+					has_province_modifier = zombie_outbreak
+					continent = africa
+					NOT = { units_in_province = 20 }
+					}
+				}	
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "OUTBREAK_SPREAD_PORT_OPT"
+		random_province = {
+			limit = {
+				AND = { 
+					continent = africa
+					port = yes
+					has_recent_imigration = 30
+					NOT = { units_in_province = 20 }
+					NOT = { has_province_modifier = zombie_outbreak }
+				}
+			}
+			any_pop = {
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+	}
+}
+
+#Port Infection Americas
+country_event = {
+	id = 999905
+	title = "OUTBREAK_SPREAD_PORT_TITLE"
+	desc = "OUTBREAK_SPREAD_PORT_DESC"
+	picture = portinfection
+
+	trigger = {
+		has_global_flag = first_zombie_invasion
+		total_num_of_ports = 1
+		
+		any_neighbor_country = {
+				any_owned_province = {
+					AND = {
+					is_blockaded = no
+					port = yes
+					has_province_modifier = zombie_outbreak
+					NOT = { units_in_province = 20 }
+					}
+					OR = {
+					continent = north_america
+					continent = south_america
+					}
+				}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "OUTBREAK_SPREAD_PORT_OPT"
+		random_province = {
+			limit = {
+				AND = { 
+					OR = {
+						continent = north_america
+						continent = south_america
+					}
+					port = yes
+					has_recent_imigration = 30
+					NOT = { units_in_province = 20 }
+					NOT = { has_province_modifier = zombie_outbreak }
+				}
+			}
+			any_pop = {
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+	}
+}
+
+#Port Infection Asia & Oceania
+country_event = {
+	id = 999906
+	title = "OUTBREAK_SPREAD_PORT_TITLE"
+	desc = "OUTBREAK_SPREAD_PORT_DESC"
+	picture = portinfection
+
+	trigger = {
+		has_global_flag = first_zombie_invasion
+		total_num_of_ports = 1
+		
+		any_neighbor_country = {
+				any_owned_province = {
+					AND = {
+					is_blockaded = no
+					port = yes
+					has_province_modifier = zombie_outbreak
+					OR = {
+					continent = asia
+					continent = oceania
+					}
+					NOT = { units_in_province = 20 }
+					}
+				}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "OUTBREAK_SPREAD_PORT_OPT"
+		random_province = {
+			limit = {
+				AND = { 
+					OR = {
+					continent = asia
+					continent = oceania
+					}
+					port = yes
+					has_recent_imigration = 30
+					NOT = { units_in_province = 20 }
+					NOT = { has_province_modifier = zombie_outbreak }
+				}
+			}
+			any_pop = {
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+	}
+}
+
+#Port Infection Europe --> Americas
+country_event = {
+	id = 999907
+	title = "OUTBREAK_SPREAD_PORT_TITLE"
+	desc = "OUTBREAK_SPREAD_PORT_DESC"
+	picture = portinfection
+
+	trigger = {
+		has_global_flag = first_zombie_invasion
+		total_num_of_ports = 1
+		
+		any_country = {
+				any_owned_province = {
+					AND = {
+					is_blockaded = no
+					port = yes
+					has_province_modifier = zombie_outbreak
+					OR = {
+					continent = europe
+					}
+					NOT = { units_in_province = 20 }
+					}
+				}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {
+		name = "OUTBREAK_SPREAD_PORT_OPT"
+		random_province = {
+			limit = {
+				AND = { 
+					OR = {
+					continent = north_america
+					continent = south_america
+					}
+					port = yes
+					has_recent_imigration = 30
+					NOT = { units_in_province = 20 }
+					NOT = { has_province_modifier = zombie_outbreak }
+				}
+			}
+			any_pop = {
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+	}
+}
+
+#Port Infection Americas --> Europe
+country_event = {
+	id = 999908
+	title = "OUTBREAK_SPREAD_PORT_TITLE"
+	desc = "OUTBREAK_SPREAD_PORT_DESC"
+	picture = portinfection
+
+	trigger = {
+		has_global_flag = first_zombie_invasion
+		total_num_of_ports = 1
+		
+		any_country = {
+				any_owned_province = {
+					AND = {
+					is_blockaded = no
+					port = yes
+					has_province_modifier = zombie_outbreak
+					OR = {
+					continent = north_america
+					continent = south_america
+					}
+					NOT = { units_in_province = 20 }
+					}
+				}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {
+		name = "OUTBREAK_SPREAD_PORT_OPT"
+		random_province = {
+			limit = {
+				AND = { 
+					OR = {
+					continent = europe
+					}
+					port = yes
+					has_recent_imigration = 30
+					NOT = { units_in_province = 20 }
+					NOT = { has_province_modifier = zombie_outbreak }
+				}
+			}
+			any_pop = {
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+	}
+}
+
+#Province Victory
+province_event = {
+	id = 999914
+	title = "OUTBREAK_PLAYER_VICTORY_TITLE"
+	desc = "OUTBREAK_PLAYER_VICTORY_DESC"
+
+	trigger = {
+		has_province_modifier = zombie_outbreak
+		NOT = {
+			controlled_by = REB
+			country_units_in_province = REB
+		}
+		units_in_province = 9
+	}
+
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = 1.25
+			any_neighbor_province = {
+				has_province_modifier = zombie_outbreak
+			}
+		}
+	}
+
+	option = {
+		name = "Excellent."
+		remove_province_modifier = zombie_outbreak
+		any_pop = {
+			consciousness = 2
+			militancy = -8
+		}
+	}
+}
+
+#Country Victory
+country_event = {
+	id = 999915
+	title = "OUTBREAK_PLAYER_VICTORY_NATION_TITLE"
+	desc = "OUTBREAK_PLAYER_VICTORY_NATION_DESC"
+	picture = prosper
+
+	trigger = {
+		has_country_flag = zombie_outbreak
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak_victory
+			num_of_revolts = 1
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	option = {
+		name = "Excellent."
+		clr_country_flag = zombie_outbreak
+		set_country_flag = zombie_outbreak_victory
+		any_pop = {
+			consciousness = -5
+			militancy = -8
+		}
+	}
+}
+
+#Province to Province
+country_event = {
+	id = 999916
+	title = "OUTBREAK_SPREAD_LOCAL_TITLE"
+	desc = "OUTBREAK_SPREAD_LOCAL_DESC"
+	picture = outbreakannouncement
+
+	trigger = {
+			any_owned_province = {	
+				has_province_modifier = zombie_outbreak
+			}
+		}	
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "OUTBREAK_SPREAD_LOCAL_OPT"
+			any_owned = {
+			limit = {
+				has_province_modifier = zombie_outbreak
+			}
+			any_neighbor_province = {
+			limit = {
+				NOT = { has_province_modifier = zombie_outbreak }
+				NOT = { units_in_province = 20 }
+			}
+			any_pop = {
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+			}
+			}
+			any_owned = {
+			limit = {
+				has_province_modifier = zombie_outbreak
+			}
+			any_neighbor_country = {
+			limit = {
+				neighbor = THIS
+			}
+			any_neighbor_province = {
+			limit = {
+				NOT = { has_province_modifier = zombie_outbreak }
+				NOT = { units_in_province = 20 }
+			}
+			any_pop = {
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+			}
+			}
+			}
+		}
+}
+
+#Inital Outbreak Boost
+country_event = {
+	id = 999917
+	title = "OUTBREAK_BOOST_LOCAL_TITLE"
+	desc = "OUTBREAK_BOOST_LOCAL_DESC"
+	picture = outbreakannouncement
+
+	trigger = {
+			NOT = { has_country_flag = zombie_outbreak }
+			any_owned_province = {
+				is_colonial = no
+				has_province_modifier = zombie_outbreak
+			}
+		}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "OUTBREAK_START_LOCAL_OPT"
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			any_pop = {
+				reduce_pop = 0.95
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			any_pop = {
+				reduce_pop = 0.95
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			any_pop = {
+				reduce_pop = 0.95
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999918
+		}
+	}
+}
+
+#Zombie Outbreak Announcement
+country_event = {
+	id = 999918
+	title = "OUTBREAK_ANNOUNCEMENT_TITLE"
+	desc = "OUTBREAK_ANNOUNCEMENT_DESC"
+	picture = outbreakannouncement
+	
+	allow_multiple_instances = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "OUTBREAK_ANNOUNCEMENT_OPTA"	
+	}	
+}
+
+#Developing Bioweapon Announcement
+country_event = {
+	id = 999919
+	title = "COUNTRY_DEVELOPING_BIOWEAPONS_TITLE"
+	desc = "COUNTRY_DEVELOPING_BIOWEAPONS_DESC"
+	picture = biological_weapons
+	
+	allow_multiple_instances = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "COUNTRY_DEVELOPING_BIOWEAPONS_OPTA"	
+	}	
+}
+
+#Developed Bioweapons
+#country_event = {
+#	id = 999920
+#	title = "COUNTRY_DEVELOPED_BIOWEAPONS_TITLE"
+#	desc = "COUNTRY_DEVELOPED_BIOWEAPONS_DESC"
+#	picture = biological_weapons
+#	
+#	trigger = {
+#		has_country_flag = developing_bioweapons
+#		NOT = { has_country_modifier = developing_bioweapons }
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	option = {
+#		name = "COUNTRY_DEVELOPED_BIOWEAPONS_OPTA"
+#		clr_country_flag = developing_bioweapons
+#		remove_country_modifier = developing_bioweapons
+#		add_country_modifier = {
+#				name = experimental_bioweapon
+#				duration = -1
+#		}
+#		any_country = {
+#			limit = {
+#				ai = no
+#			}
+#			country_event = 999921
+#		}
+#	}	
+#}
+
+#Country has Developed Bioweapon Announcement
+country_event = {
+	id = 999921
+	title = "COUNTRY_ANNOUNCEMENT_DEVELOPED_BIOWEAPONS_TITLE"
+	desc = "COUNTRY_ANNOUNCEMENT_DEVELOPED_BIOWEAPONS_DESC"
+	picture = biological_weapons
+	
+	allow_multiple_instances = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "COUNTRY_ANNOUNCEMENT_DEVELOPED_BIOWEAPONS_OPTA"
+	}	
+}
+
+#Country has used Bioweapon Announcement
+country_event = {
+	id = 999922
+	title = "COUNTRY_ANNOUNCEMENT_USED_BIOWEAPONS_TITLE"
+	desc = "COUNTRY_ANNOUNCEMENT_USED_BIOWEAPONS_DESC"
+	picture = outbreakannouncement
+	
+	allow_multiple_instances = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "COUNTRY_ANNOUNCEMENT_USED_BIOWEAPONS_OPTA"
+	}	
+}
+
+#Forced Removal of WMDs
+#country_event = {
+#	id = 999923
+#	title = "REMOVE_WMDS_TITLE"
+#	desc = "REMOVE_WMDS_DESC"
+#	
+#	allow_multiple_instances = yes
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "REMOVE_WMDS_OPTA"	
+#		remove_country_modifier = developing_bioweapons
+#		remove_country_modifier = experimental_bioweapon
+#		clr_country_flag = developing_bioweapons
+#	}	
+#}
+
+#Global Defeat
+country_event = {
+	id = 999924
+	title = "OUTBREAK_TETW_TITLE"
+	desc = "OUTBREAK_TETW_DESC"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Oh uh."
+		clr_country_flag = zombie_outbreak
+		set_country_flag = zombie_outbreak_defeat
+		any_pop = {
+			reduce_pop = 0.1
+			consciousness = -5
+			militancy = -10
+		}
+		any_owned_province = {
+			remove_province_modifier = zombie_outbreak
+		}
+	}
+}
+
+##### Added 12/18/11 #####
+
+#The Zombies are back!
+country_event = {
+	id = 999928
+	title = "OUTBREAK_RESURGE_TITLE"
+	desc = "OUTBREAK_RESURGE_DESC"
+	picture = disease
+
+	trigger = {
+		any_owned_province = {
+			has_province_modifier = zombie_outbreak
+		}
+		has_country_flag = zombie_outbreak_victory
+	}
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {
+		name = "Oh no!"
+		clr_country_flag = zombie_outbreak_victory
+		set_country_flag = zombie_outbreak
+		any_owned_province = {
+			limit = {
+				has_province_modifier = zombie_outbreak
+			}
+			any_pop = {
+				reduce_pop = 0.99
+				consciousness = -3
+				militancy = 10
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 999931
+	title = "EVTNAME999931"
+	desc = "EVTDESC999931"
+	picture = "rome_buildings"
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	option = {
+		name = "EVT999931OPTA"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999931OPTB"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 1
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999931OPTC"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 2
+				NOT = { rank = 1 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999931OPTD"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 3
+				NOT = { rank = 2 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999931OPTE"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 4
+				NOT = { rank = 3 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999931OPTF"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 5
+				NOT = { rank = 4 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999931OPTG"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 6
+				NOT = { rank = 5 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999931OPTH"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 7
+				NOT = { rank = 6 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999931OPTI"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 8
+				NOT = { rank = 7 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999931OPTJ"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 9
+				NOT = { rank = 8 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999931OPTK"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 10
+				NOT = { rank = 9 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999931OPTL"
+			country_event = 999932		
+	}
+	
+}		
+
+country_event = {
+	id = 999932
+	title = "EVTNAME999932"
+	desc = "EVTDESC999932"
+	picture = "rome_buildings"
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+		option = {
+		name = "EVT999932OPTM"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 12
+				NOT = { rank = 11 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999932OPTN"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 13
+				NOT = { rank = 12 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999932OPTO"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 14
+				NOT = { rank = 13 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999932OPTP"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 15
+				NOT = { rank = 14 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999932OPTQ"
+		set_global_flag = first_zombie_invasion
+
+		any_country = {
+			limit = {
+				ai = no
+			}
+			country_event = 999922
+		}
+		random_country = { 
+			limit = { 
+				rank = 16
+				NOT = { rank = 15 }
+				war_with = THIS
+				OR = { 
+					rank = 16
+					ai = no
+				}
+				
+			}
+			country_event = 999902
+			war_exhastion = 10
+		}
+	}
+	option = {
+		name = "EVT999932OPTR"
+
+		country_event = 999931
+	}
+#	option = {
+#		name = "EVT999932OPTS"
+#		remove_country_modifier = bioweapon_cooldown
+#	}
+		
+}
+

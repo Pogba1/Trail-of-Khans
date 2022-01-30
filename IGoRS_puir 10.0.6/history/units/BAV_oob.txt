@@ -1,0 +1,99 @@
+leader = {
+	name = "Karl Theodor zu Pappenheim"
+	picture = bav_gen_pappenheim
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Jakob von Washington"
+	picture = bav_gen_washington
+	date = 1825.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Prince Karl"
+	picture = bav_gen_prinzkarl
+	date = 1825.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Karl von Heideck"
+	picture = bav_gen_heideck
+	date = 1832.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
+army = {
+	name = "I. Korps"
+	location = 599
+	regiment = {
+		name= "1. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 599
+	}
+
+	regiment = {
+		name= "2. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 592
+	}
+
+	regiment = {
+		name= "3. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 602
+	}
+
+	regiment = {
+		name= "4. Kgl. Bayer. Infanteriebrigade"
+		type = artillery
+		home = 601
+	}
+
+}
+
+army = {
+	name = "II. Korps"
+	location = 595
+	regiment = {
+		name= "5. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "6. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "7. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 597
+	}
+
+}
+
+army = {
+	name = "III. Korps"
+	location = 571
+	
+	regiment = {
+		name = "8. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 571
+	}
+}

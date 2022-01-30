@@ -1,0 +1,213 @@
+#Relations
+
+SWI = { 
+	value = 125
+}
+
+leader = {
+	name = "Carlo Alberto di Savoia"
+	picture = sar_gen_carloalberto
+	date = 1831.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
+}
+leader = {
+	name = "Emanuele Pes"
+	picture = sar_gen_pes
+	date = 1820.11.20
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Eusebio Bava"
+	picture = sar_gen_bava
+	date = 1832.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Ettore Gerbaix di Sonnaz"
+	picture = sar_gen_gerbaixettore
+	date = 1834.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Giuseppe Albini"
+	picture = sar_adm_albini
+	date = 1836.1.1 #1838 but they need an admiral
+	type = sea
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Antonio Franzini"
+	picture = sar_gen_franzini
+	date = 1836.1.1 #1839
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Agostino Chiodo"
+	picture = sar_gen_chiodo
+	date = 1836.1.1 #1839
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+
+army = {
+	name = "Arma dei Carabinieri"
+	location = 720
+	regiment = {
+		name= "1.Carabinieri"
+		type = hussar
+		home = 720
+	}
+
+	regiment = {
+		name= "2.Carabinieri"
+		type = infantry
+		home = 720
+	}
+
+	regiment = {
+		name= "1.Carabinieri Reali"
+		type = infantry
+		home = 720
+	}
+
+	regiment = {
+		name= "2.Carabinieri Reali"
+		type = infantry
+		home = 722
+	}
+	
+	regiment = {
+		name= "1.Fanteria di Linea"
+		type = infantry
+		home = 723
+	}
+
+	regiment = {
+		name= "2.Fanteria di Linea"
+		type = artillery
+		home = 724
+	}
+
+	regiment = {
+		name= "3.Fanteria di Linea"
+		type = artillery
+		home = 724
+	}
+
+	regiment = {
+		name= "1.Granatieri di Sardegna"
+		type = artillery
+		home = 725
+	}
+
+	regiment = {
+		name= "2.Granatieri di Sardegna"
+		type = artillery
+		home = 465
+	}
+
+	regiment = {
+		name= "2.Bersaglieri"
+		type = artillery
+		home = 466
+	}
+}
+army = {
+	name = "Armi Sarde"
+	location = 723
+	regiment = {
+		name= "2.Fanteria di Linea"
+		type = artillery
+		home = 472
+	}
+
+	regiment = {
+		name= "3.Fanteria di Linea"
+		type = artillery
+		home = 3255
+	}
+
+	regiment = {
+		name= "1.Granatieri di Sardegna"
+		type = artillery
+		home = 765
+	}
+
+	regiment = {
+		name= "2.Granatieri di Sardegna"
+		type = artillery
+		home = 766
+	}
+
+	regiment = {
+		name= "2.Bersaglieri"
+		type = artillery
+		home = 723
+	}
+}
+navy = {
+	name = "Armata di Mare"
+	location = 724
+
+	ship = {
+		name= "Ferdinando II"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Christina"
+		type = frigate
+	}
+
+	ship = {
+		name= "Regina Isabella"
+		type = frigate
+	}
+
+	ship = {
+		name= "Principe Carlo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Partenope"
+		type = frigate
+	}
+
+	ship = {
+		name= "Caracciolo"
+		type = frigate
+	}
+
+	ship = {
+		name= "1a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Squadrone Transporti"
+		type = clipper_transport
+	}
+}
+

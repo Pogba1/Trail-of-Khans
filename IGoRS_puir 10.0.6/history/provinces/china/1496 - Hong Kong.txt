@@ -1,0 +1,16 @@
+owner = CHI
+controller = CHI
+add_core = CHI
+#add_core = TPG
+trade_goods = precious_metal
+life_rating = 32
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}
+1861.1.1 = { 
+	fort = 1
+	naval_base = 1
+}
+set_province_flag = mine

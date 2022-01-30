@@ -1,0 +1,11 @@
+owner = PRU
+controller = PRU
+add_core = PRU
+#add_core = GER
+trade_goods = fish
+life_rating = 43
+1861.1.1 = {
+	fort = 1
+}
+
+set_province_flag = farm

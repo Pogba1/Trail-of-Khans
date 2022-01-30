@@ -1,0 +1,18 @@
+leader = {
+	name = "Great Duke Paul Friedrich"
+	picture = mec_gen_paulfriedrich
+	date = 1836.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "Mecklenburgische Armee"
+	location = 545
+	regiment = {
+		name= "1. Mecklenburgische Infanterie-Brigade"
+		type = infantry
+		home = 545
+	}
+}

@@ -1,0 +1,27 @@
+country_event = {
+	id = 40404040
+	title = "Non-Accepted Bureaucrats Decision (10 year cooldown)"
+	desc = "This decision is intended to convert non-accepted Bureaucrats into Artisans, in both states and colonies, so they stop getting fat off of state admin funding."
+	picture = "Opiumwar"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "Force them into Artisans!"
+		any_owned = {
+			any_pop = {
+				limit = { 
+					AND = {
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					type = bureaucrats
+				}
+				pop_type = artisans
+			}
+				
+		}
+		
+	}
+}

@@ -1,0 +1,16 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+add_core = MOL
+add_core = PLC
+#add_core = RUT
+#add_core = ROM
+##add_core = RUT
+
+trade_goods = fruit
+life_rating = 35
+1861.1.1 = {
+	remove_core = MOL
+}
+
+set_province_flag = farm

@@ -1,0 +1,50 @@
+NET = {
+	value = 50
+}
+
+POR = {
+	value = 35
+}
+
+BEN = {
+	value = 30
+}
+
+SOK = {
+	value = -30
+}
+
+SPA = {
+	value = 30
+}
+
+FRA = {
+	value = 40
+}
+
+ENG = {
+	value = 55
+}
+
+
+army = {
+	name = "Army of the Oyo Empire"
+	location = 1926
+	regiment = {
+		name= "Alaafin of Oyo's Guards"		
+		type = cavalry
+		home = 1924
+	}
+	regiment = {
+		name= "1st Yoruba Warriors"	
+		type = infantry
+		home = 1925
+	}
+	regiment = {
+		name= "2nd Yoruba Warriors"		
+		type = infantry
+		home = 1926
+	}
+}
+
+

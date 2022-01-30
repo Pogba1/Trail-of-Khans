@@ -1,0 +1,125 @@
+political_decisions = {
+	form_the_rcmp = {
+		potential = {
+			tag = CAN
+			NOT = { has_country_modifier = rcmp }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			owns = 22
+			owns = 30
+			owns = 36
+		}
+		effect = {
+			add_country_modifier = {
+				name = rcmp
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	build_the_cnr = {
+		picture = whistlestop_tour
+		potential = {
+			tag = CAN
+			NOT = { has_country_flag = build_the_cnr }
+		}
+		allow = {
+			early_railroad = 1
+			money = 50000
+			owns = 52
+			owns = 36
+			owns = 30
+			owns = 26
+			owns = 13
+		}
+		effect = {
+			set_country_flag = build_the_cnr
+			prestige = 25
+			treasury = -50000
+			52 = { infrastructure = 1 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	join_confederation = {
+		picture = treaty_signing
+		potential = {
+			OR = {
+				tag = NEW
+				tag = QUE
+				tag = COL
+				tag = MTC
+				tag = RPL
+				primary_culture = anglo_canadian
+				AND = {
+					primary_culture = british
+					accepted_culture = anglo_canadian
+					NOT = { tag = ENG }
+				}
+			}
+			CAN = {
+				OR = {
+					government = democracy
+					government = hms_government
+				}
+			}
+			OR = {
+				government = democracy
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+			}
+			exists = CAN
+			any_owned_province = {
+				any_neighbor_province = { owned_by = CAN }
+			}
+			NOT = {
+				has_country_flag = confederation_we_have_applied
+				tag = CAN
+			}
+		}
+		allow = {
+			war = no
+			CAN = { war = no }
+			OR = {
+				is_vassal = no
+				overlord = { is_our_vassal = CAN }
+				overlord = {
+					ai = yes
+					is_sphere_leader_of = CAN
+				}
+				overlord = { is_our_vassal = ENG }
+				overlord = {
+					ai = yes
+					is_sphere_leader_of = ENG
+				}
+			}
+			OR = {
+				in_sphere = CAN
+				in_sphere = ENG
+				AND = {
+					part_of_sphere = no
+					relation = { who = CAN value = 150 }
+				}
+				sphere_owner = { is_sphere_leader_of = CAN }
+				sphere_owner = { is_sphere_leader_of = ENG }
+			}
+		}
+		effect = {
+			set_country_flag = confederation_we_have_applied
+			CAN = {
+				country_event = 44325
+				war_exhaustion = -20
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

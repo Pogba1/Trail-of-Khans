@@ -1,0 +1,356 @@
+political_decisions = {
+
+	unite_indonesia = {
+		picture = map_east_indies
+		potential = {
+			OR = {
+				tag = DJA
+				tag = KLM
+				tag = SLW
+				tag = SAK
+				tag = JAV
+				tag = BAL
+				tag = ATJ
+			}
+			NOT = {
+				has_global_flag = indonesia_formed
+				exists = INO
+			}
+		}
+
+		allow = {
+			war = no
+			prestige = 45
+			state_n_government = 1
+			OR = {
+				tag = DJA
+				AND = {
+					exists = DJA
+					DJA = { war = no }
+					relation = {
+						who = DJA
+						value = 50
+					}
+				}
+				DJA = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
+			}
+			OR = {
+				tag = SAK
+				AND = {
+					exists = SAK
+					SAK = { war = no }
+					relation = {
+						who = SAK
+						value = 50
+					}
+				}
+				SAK = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
+			}
+			OR = {
+				tag = ATJ
+				AND = {
+					exists = ATJ
+					ATJ = { war = no }
+					relation = {
+						who = ATJ
+						value = 50
+					}
+				}
+				ATJ = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
+			}
+			OR = {
+				tag = SLW
+				AND = {
+					exists = SLW
+					SLW = { war = no }
+					relation = {
+						who = SLW
+						value = 50
+					}
+				}
+				SLW = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
+			}
+			OR = {
+				tag = JAV
+				AND = {
+					exists = JAV
+					JAV = { war = no }
+					relation = {
+						who = JAV
+						value = 50
+					}
+				}
+				JAV = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
+			}
+			OR = {
+				tag = BAL
+				AND = {
+					exists = BAL
+					BAL = { war = no }
+					relation = {
+						who = BAL
+						value = 50
+					}
+				}
+				BAL = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = indonesia_formed
+			prestige = 50
+			all_core = {
+				remove_core = THIS
+				add_core = INO
+			}
+			change_tag = INO
+			add_accepted_culture = javan
+			add_accepted_culture = malay
+			1421 = { add_core = INO }
+			any_country = {
+				limit = {
+					OR = {						tag = DJA
+						tag = KLM
+						tag = SLW
+						tag = SAK
+						tag = JAV
+						tag = BAL
+						tag = ATJ
+					}
+					NOT = { tag = THIS }
+					war = no
+					OR = {
+						in_sphere = THIS
+						relation = {
+							who = THIS
+							value = 50
+						}
+					}
+				}
+				country_event = 95255
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	claim_moluccas = {
+		picture = map_east_indies
+		potential = {
+			tag = INO
+			NOT = {
+				has_country_flag = archipelago_unite
+				#has_country_flag = archipegalo_unite
+			}
+		}
+		
+		allow = {
+				steel_steamers = 1
+				OR = {
+					is_secondary_power = yes
+					is_greater_power = yes
+				}
+		}
+		
+		effect = {
+			set_country_flag = archipelago_unite
+			add_accepted_culture = moluccan
+			badboy = 10
+			1439 = {
+				add_core = INO
+			}
+			1440 = {
+				add_core = INO
+			}
+			1441 = {
+				add_core = INO
+			}
+			1443 = {
+				add_core = INO
+			}
+			1444 = {
+				add_core = INO
+			}
+			1445 = {
+				add_core = INO
+			}
+			1446 = {
+				add_core = INO
+			}
+			1447 = {
+				add_core = INO
+			}
+			1448 = {
+				add_core = INO
+			}
+			1449 = {
+				add_core = INO
+			}
+			1450 = {
+				add_core = INO
+			}
+			1451 = {
+				add_core = INO
+			}
+		}
+	}
+
+	flores_sale = {
+		picture = map_east_indies
+		alert = no
+		potential = {
+			war = no
+			NOT = { has_country_flag = flores_sale }
+			OR = {
+				tag = POR
+				tag = PBA
+			}
+			OR = {
+				owns = 1439
+				owns = 1444
+			}
+			NOT = {
+				owns = 1445
+				owns = 1440
+				owns = 1451
+			}
+		}
+		
+		allow = {
+			prestige = 5
+			ideological_thought = 1
+			1445 = { 
+				owner = { 
+					relation = { who = POR value = 0 }
+					money = 50000
+				}
+
+			}	
+		}
+		
+		effect = {
+			set_country_flag = flores_sale
+			1445 = { 
+				owner = { 
+					country_event = 97125
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { year = 1851 }
+
+
+			}
+			modifier = {
+				factor = 0
+				is_greater_power = yes
+			}
+			modifier = {
+				factor = 0
+				1445 = { 
+					owner = { 
+						is_secondary_power = no
+						is_greater_power = no					
+					}
+				}
+			}	
+		}
+	}
+	
+	
+	form_french_indochina = {
+		picture = map_east_indies
+		potential = {
+			tag = FRA
+			1380 = {
+				owned_by = THIS
+				is_colonial = yes
+			}
+			NOT = { has_country_flag = created_french_indochina }
+		}
+		
+		allow = {
+			owns = 1380
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			set_country_flag = created_french_indochina
+			prestige = 10
+			1380 = {
+				naval_base = 1
+				add_province_modifier = {
+					name = colonial_recruitment
+					duration = 1825
+				}
+			}
+			any_owned = {
+				limit = { region = ANN_1383 }
+				add_province_modifier = {
+					name = colonial_exploitation
+					duration = 1825
+				}
+			}
+			any_neighbor_country = {
+				limit = {
+					OR = {
+						primary_culture = vietnamese
+						primary_culture = thai
+						primary_culture = lao
+						primary_culture = khmer
+					}
+					civilized = no
+				}
+				relation = { who = THIS value = -100 }
+			}	
+		}
+	}
+}

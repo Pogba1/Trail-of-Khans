@@ -1,0 +1,8 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+trade_goods = coal
+life_rating = 37
+1861.1.1 = { railroad = 4 }
+
+set_province_flag = mine

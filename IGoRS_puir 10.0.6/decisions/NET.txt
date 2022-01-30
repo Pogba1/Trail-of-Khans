@@ -1,0 +1,129 @@
+political_decisions = {
+#	sign_treaty_of_london = {
+#		potential = {
+#			tag = NET
+#			exists = BEL
+#			NOT = {
+#				has_country_flag = signed_treay_of_london
+#			}
+#		}
+#		allow = {
+#			OR = { 
+#				relation = {
+#					who = ENG
+#					value = 100
+#				}
+#				ENG = { 
+#					diplomatic_influence = {
+#						who = THIS
+#						value = 50
+#					}
+#				}
+#				ideological_thought = 1
+#			}		
+#		}
+#		effect = {
+#			remove_core = 387
+#			remove_core = 388
+#			remove_core = 389
+#			remove_core = 390
+#			remove_core = 391
+#			remove_core = 392
+#			remove_core = 393
+#			remove_core = 394
+#			remove_core = 395
+#			remove_core = 396
+#			remove_core = 398
+#			prestige = 20
+#			any_greater_power = {
+#				limit = { 
+#					NOT = { 
+#						OR = {
+#							tag = FRA
+#							tag = ENG
+#						}
+#					}
+#				}	
+#				relation = {
+#					who = THIS
+#					value = 20
+#				}
+#			}
+#			ENG = {
+#				relation = {
+#					who = THIS
+#					value = 150
+#				}
+#			}
+#			FRA = {
+#				relation = {
+#					who = THIS
+#					value = 150
+#				}
+#			}
+#			BEL = {
+#				relation = {
+#					who = THIS
+#					value = 25
+#				}
+#			}
+#			set_country_flag = signed_treay_of_london
+#		}
+#		ai_will_do = {
+#			factor = 0
+#
+#		}
+#	}
+	the_railroad_law = { #Originally modified from VIP
+		potential = {
+			tag = NET
+			early_railroad = 1 
+			NOT = {
+				has_country_flag = rails_regulated
+			}
+		}
+		allow = {
+			year = 1860
+			money = 5000
+			NOT = { iron_railroad = 1 }
+		}
+
+		effect = {
+			treasury = -5000
+			research_points = -500
+			activate_technology = iron_railroad
+			set_country_flag = rails_regulated
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	begin_cultuurstelsel = { #Originally modified from VIP
+		potential = {
+			tag = NET
+			owns = 1413 #Batavia
+			NOT = {
+				has_country_flag = batavia_reborn
+			}
+		}
+		allow = {
+			money = 50000
+		}
+
+		effect = {
+			treasury = -50000
+			prestige = 5
+			set_country_flag = batavia_reborn
+			1413 = {
+				add_province_modifier = {
+					name = cultuurstelsel
+					duration = -1
+				}
+			life_rating = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

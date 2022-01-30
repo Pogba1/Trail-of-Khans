@@ -1,0 +1,54 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+add_core = BOH
+#add_core = CZH
+trade_goods = iron
+life_rating = 35
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = artillery_factory
+	upgrade = yes
+}
+1861.1.1 = { railroad = 3 }
+1861.1.1 = {
+	state_building = {
+		level = 2
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = explosives_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = machine_parts_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = liquor_distillery
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = ammunition_factory
+		upgrade = yes
+	}
+}
+
+
+
+set_province_flag = mine

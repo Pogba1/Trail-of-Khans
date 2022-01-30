@@ -1,0 +1,122 @@
+political_decisions = {
+	equatoria_expedition_ARA = {
+		picture = equatoria_expedition
+		potential = {
+			tag = ARA
+			NOT = { has_country_flag = equatoria_claimed }
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+			}
+			1843 = {
+				OR = {
+					empty = yes
+					owner = {
+						civilized = no
+						ai = yes
+					}
+				}
+			}
+			OR = { 
+				ARA = { owns = 1839 } #ARAptian provinces bordering Equatoria
+				ARA = { owns = 1840 }
+				ARA = { owns = 1832 }
+			}
+		}
+
+		allow = {
+			war = no
+			OR = {
+				year = 1869
+				invention = expansionism
+			}
+			money = 40000
+		}
+
+		effect = {
+			set_country_flag = equatoria_claimed
+			treasury = -40000
+			prestige = 25
+			define_general = { 
+				name = "Samuel Baker"
+				personality = "defence_4.1"
+				background = "attack_4.1"
+			}
+			1846 = { 
+				secede_province = ARA
+				life_rating = 15
+			}
+			1843 = { 
+				secede_province = ARA
+				life_rating = 15
+			}
+			1844 = { 
+				secede_province = ARA
+				life_rating = 15
+			}
+			1845 = { 
+				secede_province = ARA
+				life_rating = 15
+			}
+			1847 = { 
+				secede_province = ARA
+				life_rating = 15
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	conquest_of_darfur_ARA = {
+		picture = conquest_of_darfur
+		potential = {
+			tag = ARA
+			NOT = { has_country_flag = darfur_conquered }
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+			}
+			1841 = {
+				OR = {
+					empty = yes
+					owner = {
+						civilized = no
+						ai = yes
+					}
+				}
+			}
+			OR = { 
+				ARA = { owns = 1839 } #Arabia provinces bordering Darfur
+				ARA = { owns = 1838 }
+			}		
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				year = 1874
+				invention = expansionism
+			}
+			NOT = { badboy = 0.76 }
+		}
+
+		effect = {
+			set_country_flag = darfur_conquered
+			badboy = 5
+			prestige = 10
+			1841 = { 
+				secede_province = ARA
+				life_rating = 15
+			}
+			1842 = { 
+				secede_province = ARA
+				life_rating = 15
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
