@@ -1,7 +1,6 @@
-owner = HRE
-controller = HRE
-add_core = HRE
-add_core = WES
+owner = NAS
+controller = NAS
+add_core = NAS
 add_core = GER
 trade_goods = cattle
 life_rating = 40

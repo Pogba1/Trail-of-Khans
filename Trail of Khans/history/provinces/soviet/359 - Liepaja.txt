@@ -1,7 +1,6 @@
-owner = PLC
-controller = PLC
-add_core = PLC
-add_core = UBD
+owner = LUB
+controller = LUB
+add_core = LUB
 add_core = LAT
 trade_goods = grain
 life_rating = 35
