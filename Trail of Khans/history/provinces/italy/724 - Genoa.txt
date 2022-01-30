@@ -1,7 +1,6 @@
-owner = BIT
-controller = BIT
-add_core = BIT
-add_core = SAR
+owner = GEN
+controller = GEN
+add_core = GEN
 add_core = ITA
 trade_goods = fruit
 life_rating = 40

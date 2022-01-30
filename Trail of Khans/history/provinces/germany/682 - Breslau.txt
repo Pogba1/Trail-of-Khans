@@ -1,8 +1,7 @@
-owner = HPS
-controller = HPS
-add_core = HPS
+owner = BOH
+controller = BOH
+add_core = BOH
 add_core = SLS
-add_core = GER
 trade_goods = grain
 life_rating = 40
 1861.1.1 = {

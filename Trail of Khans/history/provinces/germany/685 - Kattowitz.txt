@@ -1,7 +1,6 @@
-owner = HPS
-controller = HPS
-add_core = HPS
-add_core = GER
+owner = BOH
+controller = BOH
+add_core = BOH
 add_core = SLS
 trade_goods = coal
 life_rating = 40

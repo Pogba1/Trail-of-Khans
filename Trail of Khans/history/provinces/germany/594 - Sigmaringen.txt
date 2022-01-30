@@ -1,8 +1,6 @@
-owner = HRE
-controller = HRE
-add_core = HRE
-add_core = SGM
-add_core = PRU
+owner = WUR
+controller = WUR
+add_core = WUR
 add_core = GER
 trade_goods = grain
 life_rating = 40

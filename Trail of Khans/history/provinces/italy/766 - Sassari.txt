@@ -1,7 +1,6 @@
-owner = IBE
-controller = IBE
-add_core = IBE
-add_core = SAR
+owner = GEN
+controller = GEN
+add_core = GEN
 add_core = SRD
 add_core = ITA
 trade_goods = grain
