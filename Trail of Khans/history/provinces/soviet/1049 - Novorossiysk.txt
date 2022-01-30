@@ -1,7 +1,7 @@
-owner = CIR
-controller = CIR
+owner = GOL
+controller = GOL
+add_core = GOL
 add_core = CIR
-add_core = DON
 trade_goods = grain
 life_rating = 35
 1861.1.1 = {
