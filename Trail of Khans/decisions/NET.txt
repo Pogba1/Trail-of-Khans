@@ -1,19 +1,5 @@
 political_decisions = {
-	integrate_wallonians = {
-	picture = become_wallonia
-		potential = {
-		tag = NET
-
-		NOT = {has_country_flag = integrate_wallonians}
-		}
-		allow = {
-			395 = {owned_by = THIS}
-		}
-		effect = {
-		set_country_flag = integrate_wallonians
-		add_accepted_culture = wallonian
-		}
-	}
+	
 	integrate_picards = {
 		potential = {
 		tag = NET

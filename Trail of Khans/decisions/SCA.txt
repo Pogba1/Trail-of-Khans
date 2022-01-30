@@ -66,63 +66,14 @@ political_decisions = {
 	 ai_will_do = { factor = 1 }
 	}
 	
-	baltikum_är_vårt = {
-		picture = "new_life"
-	potential = {
-	OR = {
-		tag = SCA
-		tag = SWE
-	}
-		NOT = {has_country_flag = baltikum_är_vårt}
-	}
-	allow = {
-		blue_and_brown_water_schools = 1
-		RUS_349 = {owned_by = THIS}
-		RUS_354 = {owned_by = THIS}
-		RUS_360 = {owned_by = THIS}
-	 }
-	effect = {
-		set_country_flag = baltikum_är_vårt
-		add_accepted_culture = estonian
-		add_accepted_culture = latvian
-		add_accepted_culture = lithuanian
-		RUS_349 = {add_core = THIS}
-		RUS_354 = {add_core = THIS}
-		RUS_360 = {add_core = THIS}
-	 }
-	 ai_will_do = { factor = 1 }
-	}
 	
-	claim_novgorod = {
-		picture = "claim_voralberg"
-	potential = {
-		tag = SWE
-		NOT = {has_country_flag = claim_novgorod}
-	}
-	allow = {
-		is_greater_power = yes
-		machine_guns = 1
-		RUS_349 = {owned_by = THIS}
-		RUS_354 = {owned_by = THIS}
-		994 = {owned_by = THIS}
-	 }
-	effect = {
-		set_country_flag = claim_novgorod
-		add_accepted_culture = russian
-		add_accepted_culture = ugrian
-		RUS_339 = {add_core = THIS}
-		994 = {add_core = THIS}
-		RUS_981 = {add_core = THIS}
-	 }
-	 ai_will_do = { factor = 1 }
-	}
 	
 	kiruna_mine = {
 		picture = "essen_ruhr"
 	potential = {
 	OR = {
 		tag = SCA
-		tag = SWE
+		tag = NOR
 	}
 		NOT = {has_global_flag = kiruna_mine}
 		321 = {owned_by = THIS}

@@ -1,39 +1,4 @@
 political_decisions = {
-	finish_off_ezo = {
-        picture = "yamagata_aritomo"
-		
-        potential = {
-           tag = JAP
-		   NOT={has_country_flag=finish_off_ezo}
-        }
-
-        allow = {
-            war = no
-            OR = {
-			1642 = {owned_by = THIS}
-			TKG = {in_sphere = THIS}
-			}
-        }
-
-        effect = {
-            prestige = 5
-			research_points = 7200
-            set_country_flag = finish_off_ezo
-			set_global_flag = finish_off_ezo
-			JAP_1088 = {add_core = THIS}
-			1087 = {add_core = THIS}
-			1089 = {add_core = THIS}
-			
-				any_owned = {
-					limit = {is_core = TKG}
-					remove_core = TKG
-					add_core = JAP
-				}
-			inherit = TKG
-        }
-       ai_will_do = { factor = 1 } 
-    }
-	
 	send_students_to_foreign_countries = {
         picture = "petrograd_city"
 		
@@ -58,32 +23,32 @@ political_decisions = {
          ai_will_do = { factor = 1 }
     }
 	
-	japan_korea_annexation_treaty = {
-        picture = "order_to_expel_barbarians"
-		
-        potential = {
-           tag = JAP
-		   NOT = {has_country_flag = japan_korea_annexation_treaty}
-		   exists = KOR
-        }
-
-        allow = {
-            war = no
-          OR = {  
-			KOR = {vassal_of = THIS}
-		AND = {
-			KOR = {in_sphere = THIS}
-			AND = {is_vassal = no is_substate = no}
-		  }
-		  }
-        }
-
-        effect = {
-			inherit = KOR
-			set_country_flag = japan_korea_annexation_treaty
-        }
-         ai_will_do = { factor = 1 }
-    }
+	#japan_korea_annexation_treaty = {
+    #    picture = "order_to_expel_barbarians"
+	#	
+    #    potential = {
+    #       tag = JAP
+	#	   NOT = {has_country_flag = japan_korea_annexation_treaty}
+	#	   exists = KOR
+    #    }
+	#
+    #    allow = {
+    #        war = no
+    #      OR = {  
+	#		KOR = {vassal_of = THIS}
+	#	AND = {
+	#		KOR = {in_sphere = THIS}
+	#		AND = {is_vassal = no is_substate = no}
+	#	  }
+	#	  }
+    #    }
+	#
+    #    effect = {
+	#		inherit = KOR
+	#		set_country_flag = japan_korea_annexation_treaty
+    #    }
+    #     ai_will_do = { factor = 1 }
+    #}
 	
 	ainu_protection_policy = {
         picture = "order_to_expel_barbarians"
