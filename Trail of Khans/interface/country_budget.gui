@@ -128,12 +128,12 @@ guiTypes = {
 			maxHeight = 32	
 			format = centre
 		}
-		
+		### Inverted, Upper class above, Lower below
 		instantTextBoxType = { 
-			name = "tax_0_desc"
+			name = "tax_2_desc"
 			position = { x = 80 y = 53 }
 			font = "vic_18"
-			text = "BUDGET_TAX_POOR"	
+			text = "BUDGET_TAX_RICH"	
 			maxWidth = 170
 			maxHeight = 32	
 			format = left
@@ -150,14 +150,14 @@ guiTypes = {
 		}
 		
 		instantTextBoxType = { 
-			name = "tax_2_desc"
+			name = "tax_0_desc"
 			position = { x = 80 y = 217 }
 			font = "vic_18"
-			text = "BUDGET_TAX_RICH"	
+			text = "BUDGET_TAX_POOR"	
 			maxWidth = 170
 			maxHeight = 32	
 			format = left
-		}			
+		}
 		#instantTextBoxType = { 
 		#	name = "tax_0_perc"
 		#	position = { x = 200 y = 53 }
@@ -189,15 +189,15 @@ guiTypes = {
 		#}	
 		
 		instantTextBoxType = { 
-			name = "tax_0_inc"
+			name = "tax_2_inc"
 			position = { x = 405 y = 101 }
 			font = "vic_22_black"
 			text = "10p"	
 			maxWidth = 100
 			maxHeight = 32	
 			format = centre
-		}			
-		
+		}		
+				
 		instantTextBoxType = { 
 			name = "tax_1_inc"
 			position = { x = 405 y = 183 }
@@ -209,14 +209,15 @@ guiTypes = {
 		}							
 			
 		instantTextBoxType = { 
-			name = "tax_2_inc"
+			name = "tax_0_inc"
 			position = { x = 405 y = 265 }
 			font = "vic_22_black"
 			text = "10p"	
 			maxWidth = 100
 			maxHeight = 32	
 			format = centre
-		}		
+		}			
+		
 		
 		instantTextBoxType = { 
 			name = "gold_desc"
@@ -240,7 +241,7 @@ guiTypes = {
 		
 		instantTextBoxType = { 
 			name = "total_inc"
-			position = { x = 267 y = 338 }
+			position = { x = 270 y = 338 }
 			font = "vic_32_black"
 			text = "10¤"	
 			maxWidth = 190
@@ -445,7 +446,7 @@ guiTypes = {
 		}
 		instantTextBoxType = { 
 			name = "overseas_desc"
-			position = { x = 824   y = 81 }
+			position = { x = 817   y = 81 }
 			font = "Arial12_black"
 			text = "BUDGET_OVERSEAS"	
 			maxWidth = 170
@@ -454,7 +455,7 @@ guiTypes = {
 		}
 		instantTextBoxType = { 
 			name = "overseas_cost_val"
-			position = { x = 920 y = 81 }
+			position = { x = 922 y = 81 }
 			font = "Arial12_black"
 			text = "0¤"	
 			maxWidth = 60
@@ -604,12 +605,12 @@ guiTypes = {
 		
 		instantTextBoxType = { 
 			name = "balance_desc"
-			position = { x = 620 y = 590 }
-			font = "vic_22_black"
+			position = { x = 515 y = 585 }
+			font = "vic_32_black"
 			text = "BUDGET_DAILY_BALANCE"	
 			maxWidth = 300
-			maxHeight = 64	
-			format = left
+			maxHeight = 64
+			format = centre
 		}
 		
 		instantTextBoxType = { 
@@ -625,7 +626,7 @@ guiTypes = {
 		
 		
 		##############
-		# SLIDERS #
+		# SLIDERS # Inverted, since MAM didn't do that
 		##############
 
 		scrollbarType = {
@@ -635,7 +636,7 @@ guiTypes = {
 			leftbutton = "up"
 			rightbutton = "down"
 			size = {x = 220 y = 20 }
-			position = {x= 261 y =63}
+			position = {x= 261 y = 227 }
 			priority = 100			
 			minValue = 0
 			maxValue = 100
@@ -741,7 +742,7 @@ guiTypes = {
 			leftbutton = "up"
 			rightbutton = "down"
 			size = {x = 220 y = 16 }
-			position = {x= 261 y =227}
+			position = {x= 261 y = 63 }
 			priority = 100			
 			minValue = 0
 			maxValue = 100
@@ -1213,20 +1214,20 @@ guiTypes = {
 		
 		
 		##########   CHARTS  ##############
-		
+		### MAM: Inverted, Upper class above, Lower below
 		
 		iconType = {
-			name = "chart_0"
+			name = "chart_2"
 			spriteType = "GFX_pop_wealth_chart"
 			position = { x= 70 y = 76 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
-			name = "overlay_0"
+			name = "overlay_2"
 			spriteType = "GFX_chart_overlay_small"
 			position = { x= 39 y = 69 }
 			Orientation = "UPPER_LEFT"
-		}
+		}		
 		iconType = {
 			name = "chart_1"
 			spriteType = "GFX_pop_wealth_chart"
@@ -1240,17 +1241,17 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
-			name = "chart_2"
-			spriteType = "GFX_pop_wealth_chart"
+			name = "chart_0"
 			position = { x= 70 y = 240 }
+			spriteType = "GFX_pop_wealth_chart"
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
-			name = "overlay_2"
+			name = "overlay_0"
 			spriteType = "GFX_chart_overlay_small"
 			position = { x= 39 y = 233 }
 			Orientation = "UPPER_LEFT"
-		}		
+		}
 		
 		iconType = {
 			name = "chart_debt"
@@ -1274,10 +1275,10 @@ guiTypes = {
 		
 		
 		#### ICONS ######
-		
+		### MAM: Inverted, Upper class above, Lower below
 		iconType = {
-			name = "icon_0"
-			spriteType = "GFX_budget_poor_icon"
+			name = "icon_2"
+			spriteType = "GFX_budget_high_icon"
 			position = { x= 38 y = 46 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -1288,8 +1289,8 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
-			name = "icon_2"
-			spriteType = "GFX_budget_high_icon"
+			name = "icon_0"
+			spriteType = "GFX_budget_poor_icon"
 			position = { x= 38 y = 210 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -1346,7 +1347,35 @@ guiTypes = {
 			spriteType = "GFX_budget_tariff_icon"
 			position = { x= 533 y = 494 }
 			Orientation = "UPPER_LEFT"
-		}		
+		}
+		
+		iconType = {
+			name = "icon_12"
+			spriteType = "GFX_budget_bankicon"
+			position = { x = 41 y = 384 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name = "icon_13"
+			spriteType = "GFX_budget_total_funds"
+			position = { x = 267 y = 384 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name = "icon_14"
+			spriteType = "GFX_budget_total_debt"
+			position = { x = 44 y = 426 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name = "icon_15"
+			spriteType = "GFX_budget_interest_icon"
+			position = { x = 271 y = 426 }
+			Orientation = "UPPER_LEFT"
+		}
 		
 		listboxType = 	{
 			name ="debt_listbox"
@@ -1362,9 +1391,9 @@ guiTypes = {
 		
 		#### POP ICONS  #########
 		#####################
-		
+		### MAM: Inverted, Upper class above, Lower below
 		OverlappingElementsBoxType = {
-			name = "tax_0_pops"
+			name = "tax_2_pops"
 			position = { x = 105 y = 70 }
 			size = { x=200 y= 32 }
 			Orientation = "UPPER_LEFT"
@@ -1380,7 +1409,7 @@ guiTypes = {
 			spacing = 1.0
 		}
 		OverlappingElementsBoxType = {
-			name = "tax_2_pops"
+			name = "tax_0_pops"
 			position = { x = 105 y = 234 }
 			size = { x=200 y= 32 }
 			Orientation = "UPPER_LEFT"
@@ -1708,7 +1737,7 @@ guiTypes = {
 			position = {x= 91 y =85}
 			priority = 100			
 			borderSize = {x =16 y = 16}	
-			maxValue = 0
+			maxValue = 100
 			minValue = 0
 			stepSize =1
 			startValue = 20
