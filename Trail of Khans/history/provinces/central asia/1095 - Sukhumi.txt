@@ -1,7 +1,6 @@
-owner = CIR
-controller = CIR
+owner = ARM
+controller = ARM
 add_core = ABK
-add_core = CIR
 add_core = GEO
 trade_goods = grain
 life_rating = 35

@@ -8,15 +8,6 @@ leader = {
 }
 
 leader = {
-    name = "Carl XIV Johan"
-    date = 1818.1.1
-    type = land
-    personality = charismatic
-    background = elderly
-    prestige = 0.5
-}
-
-leader = {
     name = "Johan Tawast"
     date = 1807.1.1
     type = land
@@ -139,12 +130,7 @@ navy = {
     name = "Swedish Navy"
     location = 322
     ship = {
-        name= "Karl XIII"
-        type = manowar
-    }
-
-    ship = {
-        name= "Karl XIV Johan"
+        name= "Stockholm"
         type = manowar
     }
 
@@ -153,46 +139,6 @@ navy = {
         type = manowar
     }
 
-    ship = {
-        name= "Manligheten"
-        type = manowar
-    }
-
-
-    ship = {
-        name= "Camilla"
-        type = frigate
-    }
-
-    ship = {
-        name= "Af Chapman"
-        type = frigate
-    }
-
-    ship = {
-        name= "Eurydice"
-        type = frigate
-    }
-
-    ship = {
-        name= "Galatea"
-        type = frigate
-    }
-
-
-    ship = {
-        name= "1st Transport Flotilla"
-        type = clipper_transport
-    }
-
-    ship = {
-        name= "2nd Transport Flotilla"
-        type = clipper_transport
-    }
-
-    ship = {
-        name= "3rd Transport Flotilla"
-        type = clipper_transport
-    }
+    
 
 }
