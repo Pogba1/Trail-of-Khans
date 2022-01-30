@@ -320,13 +320,13 @@ vassal = {
 #    end_date = 1864.1.1
 #}
 
-# Sweden-Norway
-#vassal = {
-#    first = SWE
-#    second = NOR
-#    start_date = 1836.1.1
-#    end_date = 1905.1.1
-#}
+ #Norway-Sweden
+vassal = {
+    first = NOR
+    second = SWE
+    start_date = 1836.1.1
+    end_date = 1905.1.1
+}
 
 ##Russia - Transcaucasia Namestnik
 #substate = {

@@ -1,7 +1,6 @@
-owner = SVF
-controller = SVF
-add_core = SVF
-add_core = AZB
+owner = ARM
+controller = ARM
+add_core = ARM
 add_core = TCA
 trade_goods = grain
 life_rating = 35

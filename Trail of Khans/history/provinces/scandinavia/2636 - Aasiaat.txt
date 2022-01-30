@@ -1,8 +1,7 @@
-owner = DNN
-controller = DNN
-add_core = DNN
+owner = NOR
+controller = NOR
+add_core = NOR
 add_core = GRN
-add_core = DEN
 trade_goods = fish
 life_rating = 10
 colonial = 2

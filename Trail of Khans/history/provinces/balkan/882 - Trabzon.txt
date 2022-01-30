@@ -1,8 +1,7 @@
-owner = BYZ
-controller = BYZ
-add_core = BYZ
-add_core = TUR
+owner = ARM
+controller = ARM
 add_core = ARM
+add_core = BYZ
 add_core = PNT
 trade_goods = cattle
 life_rating = 35

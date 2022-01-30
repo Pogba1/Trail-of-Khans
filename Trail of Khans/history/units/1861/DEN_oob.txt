@@ -42,7 +42,7 @@ leader = {
 }
 
 navy = {
-    name = "Danish Northsea Fleet"
+    name = "Northsea Fleet"
     location = 372
     ship = {
         name= "Dannebrog"
@@ -131,8 +131,8 @@ navy = {
 }
 
 army = {
-    name = "Danske Heeren"
-    location = 372
+    name = "Den Norske Haeren"
+    location = 313
     regiment = {
         name= "1.1. Division"
         type = infantry
@@ -148,73 +148,67 @@ army = {
     regiment = {
         name= "3.1. Division"
         type = infantry
-        home = 373
+        home = 305
     }
 
     regiment = {
         name= "4.1. Division"
         type = artillery
-        home = 372
+        home = 309
     }
 
     regiment = {
         name= "1.2. Division"
         type = infantry
-        home = 366
+        home = 313
     }
 
     regiment = {
         name= "2.2. Division"
         type = infantry
-        home = 366
+        home = 313
     }
 
     regiment = {
         name= "3.2. Division"
         type = infantry
-        home = 374
+        home = 1291
     }
 
     regiment = {
         name= "1.3. Division"
         type = infantry
-        home = 367
+        home = 1292
     }
 
     regiment = {
         name= "2.3. Division"
         type = infantry
-        home = 368
+        home = 1293
     }
 
     regiment = {
         name= "3.3. Division"
         type = infantry
-        home = 371
+        home = 1294
     }
 
     regiment = {
         name= "4.3. Division"
         type = engineer
-        home = 373
+        home = 1295
     }
 
     regiment = {
         name= "1.4. Division"
         type = hussar
-        home = 372
+        home = 1296
     }
 
     regiment = {
         name= "2.4. Division"
         type = dragoon
-        home = 373
-    }
-
-    regiment = {
-        name= "3.4. Division"
-        type = dragoon
-        home = 366
+        home = 1297
     }
 
 }

@@ -1,7 +1,6 @@
-owner = DNN
-controller = DNN
-add_core = DNN
-add_core = DEN
+owner = NOR
+controller = NOR
+add_core = NOR
 add_core = ICL
 trade_goods = fish
 life_rating = 32
