@@ -259,13 +259,13 @@
     soldiers = {
         culture = norwegian
         religion = protestant
-        size = 100
+        size = 3000
     }
 
     farmers = {
         culture = norwegian
         religion = protestant
-        size = 17075
+        size = 47075
     }
 }
 #Drammen (132000/33000 POPS)
@@ -279,7 +279,7 @@
     clergymen = {
         culture = norwegian
         religion = protestant
-        size = 125
+        size = 1125
     }
 
     artisans = {
@@ -291,13 +291,13 @@
     soldiers = {
         culture = norwegian
         religion = protestant
-        size = 250
+        size = 3250
     }
 
     farmers = {
         culture = norwegian
         religion = protestant
-        size = 32125
+        size = 62125
     }
 
 }
@@ -337,13 +337,13 @@
     soldiers = {
         culture = norwegian
         religion = protestant
-        size = 3000
+        size = 15000
     }
 
     farmers = {
         culture = norwegian
         religion = protestant
-        size = 18275
+        size = 98275
     }
 
     capitalists = {
@@ -439,13 +439,13 @@
     soldiers = {
         culture = norwegian
         religion = protestant
-        size = 150
+        size = 3150
     }
 
     farmers = {
         culture = norwegian
         religion = protestant
-        size = 17025
+        size = 47025
     }
 
 }

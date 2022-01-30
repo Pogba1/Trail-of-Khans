@@ -1,6 +1,7 @@
 country_event = {
 	id = 800000
 	allow_multiple_instances = yes
+	picture = "joe_biden"
 	trigger = {
 	ai = no
 	NOT = {
@@ -14,8 +15,8 @@ country_event = {
 	immediate = {
 		define_general = {
 			name = "Joe Biden"
-			personality = audacious
-			#5/5 General
+			personality = politician
+			#3/3 General
 			background = weakest_albanian
 		}
 	}
