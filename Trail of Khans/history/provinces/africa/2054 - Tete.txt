@@ -1,5 +1,6 @@
-owner = IBE
-controller = IBE
+owner = AGC
+controller = AGC
+add_core = AGC
 add_core = SHO
 trade_goods = precious_metal
 life_rating = 35

@@ -1,16 +1,13 @@
 capital = 300
-primary_culture = british
-culture = irish
-culture = scottish
+primary_culture = british_danish
 religion = catholic
 government = hms_government
 plurality = 30
 nationalvalue = nv_order
-literacy = 0.6
+literacy = 0.4
 civilized = yes
 
-#GreaterPowers = prestige
-prestige = 80
+prestige = 5
 
 
 # Political reforms
@@ -107,11 +104,6 @@ govt_flag = {
     flag = theocracy
 }
 
-foreign_investment = {
-    BEL = 20000
-    POR = 60000
-    DEN = 2000
-}
 
 oob = "ENG_oob.txt"
 

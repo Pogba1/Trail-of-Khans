@@ -3,8 +3,8 @@
 #Belfast (540000/135000 POPs)
 254 = {
     farmers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 13000
     }
 
@@ -33,58 +33,58 @@
     }
 
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 1100
     }
 
     officers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 250
     }
 
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 1125
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 500
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
-        size = 1250
+        culture = irish
+        religion = catholic
+        size = 10050
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 10000
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 2000
     }
 
     farmers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 74875
     }
 }
 #Londonderry (524000/131000 POPS)
 255 = {
     farmers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 13000
     }
 
@@ -113,32 +113,32 @@
     }
 
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 500
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 250
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 5000
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 1100
     }
 
     farmers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 62250
     }
 }
@@ -151,8 +151,8 @@
     }
 
     farmers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 10000
     }
 
@@ -171,44 +171,44 @@
     soldiers = {
         culture = irish
         religion = catholic
-        size = 250
+        size = 10050
     }
 
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 250
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 2500
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 1100
     }
 
     farmers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 33000
     }
 }
 #Donegal (508000/127000 POPS)
 257 = {
     farmers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 9000
     }
 
@@ -243,26 +243,26 @@
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 50
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 2250
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 125
     }
 
     farmers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 7575
     }
 
@@ -304,8 +304,8 @@
 #Sligo (768000/192000 POPs)
 259 = {
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 500
     }
 
@@ -336,7 +336,7 @@
     soldiers = {
         culture = irish
         religion = catholic
-        size = 2500
+        size = 10000
     }
 
     farmers = {
@@ -395,7 +395,7 @@
     soldiers = {
         culture = irish
         religion = catholic
-        size = 1500
+        size = 6000
     }
 
     farmers = {
@@ -405,32 +405,32 @@
     }
 
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 900
     }
 
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 750
     }
 
     officers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 250
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 500
     }
 
     farmers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 8550
     }
 }
@@ -463,7 +463,7 @@
     soldiers = {
         culture = irish
         religion = catholic
-        size = 1500
+        size = 6000
     }
 
     farmers = {
@@ -510,14 +510,14 @@
 #Dublin (860000/215000 POPs)
 263 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 700
     }
 
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 625
     }
 
@@ -548,7 +548,7 @@
     soldiers = {
         culture = irish
         religion = catholic
-        size = 2500
+        size = 10000
     }
 
     artisans = {
@@ -596,8 +596,8 @@
 #Kildare (532000/133000 POPs)
 264 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 350
     }
 
@@ -634,8 +634,8 @@
 #Wexford (444000/111000 POPS)
 265 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 350
     }
 

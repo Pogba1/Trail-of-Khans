@@ -66,7 +66,7 @@
     farmers = {
         culture = scottish
         religion = catholic
-        size = 86090
+        size = 166090
     }
 }
 
@@ -190,15 +190,15 @@
     }
 
     soldiers = {
-        culture = scottish
-        religion = catholic
-        size = 2500
-    }
+		culture = scottish
+		religion = catholic
+		size = 6000
+	}
 
     farmers = {
         culture = scottish
         religion = catholic
-        size = 69175
+        size = 138175
     }
 
     clergymen = {
@@ -252,21 +252,21 @@
     }
 	
 	artisans = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 500
     }
 	
     soldiers = {
-        culture = british
-        religion = protestant
-        size = 1100
-    }
+		culture = scottish
+		religion = catholic
+		size = 18000
+	}
 
     farmers = {
         culture = scottish
         religion = catholic
-        size = 97100
+        size = 184100
     }
 
     farmers = {
@@ -322,12 +322,12 @@
     soldiers = {
         culture = scottish
         religion = catholic
-        size = 7000
+        size = 21000
     }
 
     farmers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1150
     }
 
@@ -340,7 +340,7 @@
     farmers = {
         culture = scottish
         religion = catholic
-        size = 94900
+        size = 184900
     }
 
     craftsmen = {
@@ -368,11 +368,15 @@
         religion = catholic
         size = 2000
     }
-
+	soldiers = {
+		culture = scottish
+		religion = catholic
+		size = 6000
+	}
     labourers = {
         culture = scottish
         religion = catholic
-        size = 58800
+        size = 108800
     }
 
 }
@@ -380,241 +384,265 @@
 #Cardiff (380000/95000 POPS)
 273 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 500
     }
 
     capitalists = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 100
     }
 
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 1025
     }
 
     officers = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 350
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 375
     }
 
     clerks = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 50
     }
 
     craftsmen = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 1100
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 3500
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 1100
     }
 
     labourers = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 106000
+    }
+	labourers = {
+        culture = british
+        religion = catholic
+        size = 16000
     }
 }
 #Cardigan (168000/42000 POPS)
 274 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 125
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 1100
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 1000
     }
-
+	bureaucrats = {
+		culture = irish
+		religion = catholic
+		size = 1000
+	}
     farmers = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
+        size = 109625
+    }
+	farmers = {
+        culture = irish
+        religion = catholic
         size = 59625
     }
 }
 #Llandrindod (182000/45500 POPS)
 275 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 250
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
-        size = 500
+        culture = welsh
+        religion = catholic
+        size = 3500
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 2250
     }
 
     farmers = {
+        culture = welsh
+        religion = catholic
+        size = 100250
+    }
+	farmers = {
         culture = british
-        religion = protestant
-        size = 60250
+        religion = catholic
+        size = 3250
     }
 }
 #Holyhead (240000/60000 POPS)
 276 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 250
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 750
     }
 
     clerks = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 150
     }
 
     craftsmen = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 3000
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 3100
     }
 
     farmers = {
-        culture = british
-        religion = protestant
+        culture = welsh
+        religion = catholic
         size = 70500
     }
-
+	
+	farmers = {
+        culture = british
+        religion = catholic
+        size = 3250
+    }
 }
 
 #Lancashire Region : 1896000
 #Liverpool (936000/234000 POPS)
 277 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1100
     }
 
     officers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 500
     }
 
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1550
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1100
     }
 
     capitalists = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1250
     }
 
     clerks = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1750
     }
 
-    craftsmen = {
-        culture = british
-        religion = protestant
+    farmers = {
+        culture = scottish
+        religion = catholic
         size = 30000
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 10000
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 2500
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 3000
     }
 
     labourers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 156850
     }
 
@@ -643,25 +671,25 @@
     }
 
     clergymen = {
-        culture = irish
+        culture = scottish
         religion = catholic
         size = 125
     }
 
     craftsmen = {
-        culture = irish
+        culture = scottish
         religion = catholic
         size = 2250
     }
 
     artisans = {
-        culture = irish
+        culture = scottish
         religion = catholic
         size = 10750
     }
 
     farmers = {
-        culture = irish
+        culture = scottish
         religion = catholic
         size = 7875
     }
@@ -670,50 +698,50 @@
 278 = {
     aristocrats = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1500
     }
 
     clergymen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 2100
     }
 
     clerks = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1150
     }
 
     craftsmen = {
         culture = british
-        religion = protestant
-        size = 82500
+        religion = catholic
+        size = 42500
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 10000
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 500
     }
 
     soldiers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 6000
     }
 
     labourers = {
         culture = british
-        religion = protestant
-        size = 83350
+        religion = catholic
+        size = 123350
     }
 
     clergymen = {
@@ -743,37 +771,37 @@
 #Carlisle (216000/54000 POPS)
 279 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 250
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 4000
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 500
     }
 
     farmers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 46000
     }
 
     farmers = {
-        culture = british
+        culture = scottish
         religion = catholic
         size = 2000
     }
@@ -815,9 +843,9 @@
     }
 
     farmers = {
-        culture = irish
+        culture = british
         religion = catholic
-        size = 1250
+        size = 5250
     }
 
 }
@@ -825,44 +853,44 @@
 #Newcastle-upon-Tyne (552000/138000 POPS)
 280 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1100
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 750
     }
 
     craftsmen = {
-        culture = british
-        religion = protestant
-        size = 30000
+        culture = scottish
+        religion = catholic
+        size = 3000
     }
     artisans = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 10000
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 5900
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1500
     }
 
     labourers = {
-        culture = british
-        religion = protestant
-        size = 98850
+        culture = scottish
+        religion = catholic
+        size = 118850
     }
 	
 	aristocrats = {
@@ -905,9 +933,15 @@
         religion = catholic
         size = 9885
     }
-
+	
+	labourers = {
+        culture = british_danish
+        religion = catholic
+        size = 9885
+    }
+	
     labourers = {
-        culture = irish
+        culture = scottish
         religion = catholic
         size = 14000
     }
@@ -915,44 +949,44 @@
 #Hull (512000/128000 POPS)
 281 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 1100
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 750
     }
 
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 10000
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 1300
     }
-
+	
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 1100
     }
 
     labourers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 122950
     }
 
     labourers = {
-        culture = british
+        culture = scottish
         religion = catholic
         size = 5000
     }
@@ -960,110 +994,115 @@
 #Leeds (468000/117000 POPS)
 282 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 750
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 625
     }
 
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 10000
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 750
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1250
     }
 
     labourers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 92625
     }
 
     farmers = {
-        culture = british
+        culture = british_danish
         religion = catholic
-        size = 3000
+        size = 53000
     }
 }
 #Sheffield (658000/164500 POPS)
 283 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 2050
     }
 
     officers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 1250
     }
 
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 2150
     }
-    craftsmen = {
-        culture = british
-        religion = protestant
+    labourers = {
+        culture = british_danish
+        religion = catholic
         size = 25000
     }
+	craftsmen = {
+        culture = british_danish
+        religion = catholic
+        size = 5000
+    }
     officers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1100
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 875
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 10000
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 750
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1500
     }
 
     labourers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 102825
     }
 
     farmers = {
-        culture = british
+        culture = british_danish
         religion = catholic
         size = 4000
     }
@@ -1073,112 +1112,118 @@
 #Birmingham (644000/161000 POPS)
 284 = {
     aristocrats = {
+        culture = scottish
+        religion = catholic
+        size = 1000
+    }
+	aristocrats = {
         culture = british
-        religion = protestant
-        size = 1100
+        religion = catholic
+        size = 100
     }
 
     officers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 500
     }
 
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 2525
     }
 
     capitalists = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 350
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1625
     }
 
     clerks = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1100
     }
 
     craftsmen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 16000
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 10000
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 2000
     }
 
     soldiers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 3000
     }
 
     labourers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 136900
     }
 
     farmers = {
-        culture = british
+        culture = british_danish
         religion = catholic
         size = 1100
     }
 
     farmers = {
-        culture = irish
+        culture = british
         religion = catholic
         size = 3000
     }
+	
 }
 #Chester (368000/92000 POPS)
 285 = {
     aristocrats = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 750
     }
 
     clergymen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 625
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 5000
     }
 
     soldiers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1100
     }
 
     labourers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 82625
     }
 
@@ -1198,76 +1243,86 @@
 286 = {
     aristocrats = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 500
     }
 
     clergymen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 375
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 4250
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
-        size = 1100
+        culture = scottish
+        religion = catholic
+        size = 3100
     }
 
     labourers = {
         culture = british
-        religion = protestant
-        size = 86875
+        religion = catholic
+        size = 46875
+    }
+	labourers = {
+        culture = scottish
+        religion = catholic
+        size = 46875
     }
 }
 #Coventry (432000/108000 POPS)
 287 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1100
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 500
     }
 
     clerks = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1100
     }
 
     craftsmen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 3500
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 3000
     }
 
     soldiers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1100
     }
 
     labourers = {
+        culture = scottish
+        religion = catholic
+        size = 53000
+    }
+	labourers = {
         culture = british
-        religion = protestant
-        size = 113000
+        religion = catholic
+        size = 63000
     }
 
 }
@@ -1275,133 +1330,153 @@
 #Nottingham (484000/121000 POPS)
 288 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 750
     }
 
     officers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1100
     }
 
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 750
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 500
     }
 
     capitalists = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 100
     }
 
     clerks = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 200
     }
 
     craftsmen = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 5000
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 3000
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1100
     }
 
     labourers = {
-        culture = british
-        religion = protestant
-        size = 99700
+        culture = scottish
+        religion = catholic
+        size = 49700
+    }
+	labourers = {
+        culture = british_danish
+        religion = catholic
+        size = 50700
     }
 
     farmers = {
-        culture = british
+        culture = scottish
         religion = catholic
-        size = 23000
+        size = 3000
+    }
+	farmers = {
+        culture = british_danish
+        religion = catholic
+        size = 13000
     }
 }
 #Leicester (404000/101000 POPS)
 289 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 375
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 6000
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 1100
     }
 
     labourers = {
-        culture = british
-        religion = protestant
-        size = 108375
+        culture = scottish
+        religion = catholic
+        size = 98375
+    }
+	labourers = {
+        culture = british_danish
+        religion = catholic
+        size = 18375
     }
 }
 #Lincoln (336000/84000 POPS)
 290 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 500
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 500
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 6500
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 1100
     }
 
     labourers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 93500
+    }
+	labourers = {
+        culture = scottish
+        religion = catholic
+        size = 3500
     }
 
 }
@@ -1409,115 +1484,141 @@
 #Cambridge (308000/77000 POPS)
 291 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 500
     }
 
     officers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 250
     }
 
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 1750
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 500
     }
-
-    artisans = {
+	clergymen = {
         culture = british
-        religion = protestant
-        size = 5500
+        religion = catholic
+        size = 500
+    }
+	clergymen = {
+        culture = scottish
+        religion = catholic
+        size = 500
+    }
+    artisans = {
+        culture = british_danish
+        religion = catholic
+        size = 2500
+    }
+	artisans = {
+        culture = scottish
+        religion = catholic
+        size = 2500
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 1100
     }
 
     labourers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 86500
     }
 }
 #Ipswich (676000/169000 POPS)
 292 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 1500
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 1100
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 8500
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 1500
     }
 
     labourers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 174500
     }
 }
 #Chelmsford (276000/69000 POPS)
 293 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 500
     }
-
+	
+	clergymen = {
+        culture = scottish
+        religion = catholic
+        size = 375
+    }
+	
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 375
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 7500
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 1500
     }
 
     labourers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 57125
     }
 
     labourers = {
-        culture = british
+        culture = british_danish
         religion = catholic
         size = 20000
+    }
+	
+	labourers = {
+        culture = scottish
+        religion = catholic
+        size = 10000
     }
 
 }
@@ -1526,75 +1627,81 @@
 294 = {
     aristocrats = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 750
     }
 
     officers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 250
     }
 
     bureaucrats = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1075
     }
 
     clergymen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1500
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 6000
     }
 
     soldiers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1500
     }
 
     labourers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 84625
     }
 }
 #St. Albans (312000/78000 POPS)
 295 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 750
     }
-
+	
+	aristocrats = {
+        culture = scottish
+        religion = catholic
+        size = 50
+    }
+	
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 1500
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 4000
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 1100
     }
 
     labourers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 89750
     }
 
@@ -1604,66 +1711,66 @@
 296 = {
     aristocrats = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 500
     }
 
     officers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 500
     }
 
     bureaucrats = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1550
     }
 
     clergymen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1625
     }
 
     capitalists = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 250
     }
 
     clerks = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 600
     }
 
     craftsmen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 12000
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = scottish
+        religion = catholic
         size = 9000
     }
 
     soldiers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1100
     }
 
     labourers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 71275
     }
 
     farmers = {
-        culture = british
+        culture = scottish
         religion = catholic
         size = 12000
     }
@@ -1672,107 +1779,122 @@
 297 = {
     aristocrats = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1100
     }
 
     clergymen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 625
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 5000
     }
 
     craftsmen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 12000
     }
 
     soldiers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1100
     }
 
     labourers = {
         culture = british
-        religion = protestant
-        size = 100375
+        religion = catholic
+        size = 50375
     }
 }
 #Bath (408000/102000 POPS)
 298 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 1750
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 1625
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 5000
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 1100
     }
     craftsmen = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 12000
     }
 
     labourers = {
         culture = british
-        religion = protestant
-        size = 88625
+        religion = catholic
+        size = 32625
+    }
+	labourers = {
+        culture = irish
+        religion = catholic
+        size = 56625
     }
 }
 #Plymouth (812000/203000 POPS)
 299 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 1500
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 1250
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 5500
     }
 
     soldiers = {
+        culture = irish
+        religion = catholic
+        size = 1500
+    }
+	soldiers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1500
     }
 
     labourers = {
         culture = british
-        religion = protestant
-        size = 204250
+        religion = catholic
+        size = 194250
+    }
+	labourers = {
+        culture = irish
+        religion = catholic
+        size = 14250
     }
 
     farmers = {
@@ -1792,176 +1914,181 @@
 #London (2052000/513000 POPS)
 300 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 5500
     }
 
     officers = {
-        culture = british
-        religion = protestant
+        culture = british_danish
+        religion = catholic
         size = 2500
     }
 
     bureaucrats = {
         culture = british
-        religion = protestant
-        size = 18000
+        religion = catholic
+        size = 1800
     }
 
     clergymen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 18250
     }
 
     capitalists = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 2500
     }
 
     clerks = {
-        culture = british
-        religion = protestant
-        size = 12000
+        culture = british_danish
+        religion = catholic
+        size = 3000
     }
 
     craftsmen = {
         culture = british
-        religion = protestant
-        size = 116000
+        religion = catholic
+        size = 25000
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = catholic
+        size = 2500
+    }
+
+    artisans = {
+        culture = british
+        religion = catholic
+        size = 2500
+    }
+
+    artisans = {
+        culture = british_danish
+        religion = catholic
+        size = 2500
+    }
+
+    artisans = {
+        culture = scottish
+        religion = catholic
+        size = 10000
+    }
+
+    artisans = {
+        culture = british_danish
+        religion = catholic
         size = 10000
     }
 
     artisans = {
         culture = british
-        religion = protestant
-        size = 10000
-    }
-
-    artisans = {
-        culture = british
-        religion = protestant
-        size = 10000
-    }
-
-    artisans = {
-        culture = british
-        religion = protestant
-        size = 10000
-    }
-
-    artisans = {
-        culture = british
-        religion = protestant
-        size = 10000
-    }
-
-    artisans = {
-        culture = british
-        religion = protestant
-        size = 9500
+        religion = catholic
+        size = 2500
     }
 
     soldiers = {
         culture = british
-        religion = protestant
-        size = 40000
+        religion = catholic
+        size = 2500
     }
 
     farmers = {
+        culture = british_danish
+        religion = catholic
+        size = 61600
+    }
+	farmers = {
         culture = british
-        religion = protestant
-        size = 145000
+        religion = catholic
+        size = 21600
     }
 
     artisans = {
         culture = british
-        religion = catholic
-        size = 8000
-    }
-
-    farmers = {
-        culture = british
-        religion = catholic
-        size = 17000
-    }
-
-    clerks = {
-        culture = british
-        religion = jewish
-        size = 100
-    }
-
-    craftsmen = {
-        culture = british
-        religion = jewish
-        size = 1500
-    }
-
-    artisans = {
-        culture = british
-        religion = jewish
-        size = 3400
-    }
-
-    craftsmen = {
-        culture = irish
-        religion = catholic
-        size = 4000
-    }
-
-    artisans = {
-        culture = irish
-        religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = irish
         religion = catholic
         size = 2000
     }
 
     farmers = {
-        culture = north_german
-        religion = protestant
+        culture = british
+        religion = catholic
+        size = 11600
+    }
+
+    clerks = {
+        culture = ashkenazi
+        religion = jewish
+        size = 250
+    }
+
+    craftsmen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 1500
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 3400
+    }
+
+    craftsmen = {
+        culture = scottish
+        religion = catholic
+        size = 1000
+    }
+
+    artisans = {
+        culture = scottish
+        religion = catholic
+        size = 2500
+    }
+
+    artisans = {
+        culture = scottish
+        religion = catholic
+        size = 500
+    }
+
+    farmers = {
+        culture = scottish
+        religion = catholic
         size = 1050
     }
 
     farmers = {
-        culture = ashkenazi
+        culture = scottish
         religion = jewish
         size = 300
     }
 
     farmers = {
-        culture = spanish
+        culture = scottish
         religion = catholic
         size = 400
     }
 
     farmers = {
-        culture = north_italian
+        culture = scottish
         religion = catholic
         size = 400
     }
 
     farmers = {
-        culture = bengali
-        religion = hindu
+        culture = scottish
+        religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = yue
-        religion = mahayana
+        culture = scottish
+        religion = catholic
         size = 100
     }
 
@@ -1971,36 +2098,41 @@
 301 = {
     aristocrats = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 750
     }
 
     clergymen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 625
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 4000
     }
 
     soldiers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1100
     }
 
     labourers = {
         culture = british
-        religion = protestant
-        size = 108625
+        religion = catholic
+        size = 58625
+    }
+	labourers = {
+        culture = british_danish
+        religion = catholic
+        size = 58625
     }
 
     artisans = {
-        culture = irish
+        culture = scottish
         religion = catholic
         size = 1100
     }
@@ -2009,82 +2141,92 @@
 302 = {
     aristocrats = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 750
     }
 
     clergymen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 500
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 10000
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1250
     }
 
     soldiers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1100
     }
 
     labourers = {
         culture = british
-        religion = protestant
-        size = 105500
+        religion = catholic
+        size = 55500
+    }
+	 labourers = {
+        culture = british_danish
+        religion = catholic
+        size = 55500
     }
 }
 #Southampton (332000/83000 POPS)
 303 = {
     aristocrats = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 750
     }
 
     officers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1100
     }
 
     bureaucrats = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 750
     }
 
     clergymen = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 500
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 6000
     }
 
     soldiers = {
         culture = british
-        religion = protestant
+        religion = catholic
         size = 1100
     }
 
     labourers = {
+        culture = british_danish
+        religion = catholic
+        size = 41000
+    }
+	 labourers = {
         culture = british
-        religion = protestant
-        size = 91000
+        religion = catholic
+        size = 51000
     }
 
 }
@@ -2092,43 +2234,43 @@
 #Douglas (46000/11500 POPS)
 304 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 100
     }
 
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 25
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 125
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 3250
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 100
     }
 
     labourers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 7600
     }
 
     labourers = {
-        culture = british
+        culture = irish
         religion = catholic
         size = 300
     }
@@ -2138,38 +2280,38 @@
 #Channel Islands (72000/18000 POPS)
 419 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 100
     }
 
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 50
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 125
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 3400
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 250
     }
 
     farmers = {
-        culture = british
-        religion = protestant
+        culture = irish
+        religion = catholic
         size = 32075
     }
 
