@@ -114,7 +114,7 @@
     labourers = {
         culture = flemish
         religion = catholic
-        size = 75725
+        size = 150725
     }
 
     aristocrats = {
@@ -212,7 +212,7 @@
     farmers = {
         culture = flemish
         religion = catholic
-        size = 100525
+        size = 150525
     }
 }
 #Ghent (704000/176000 POPS)
@@ -319,7 +319,7 @@
     farmers = {
         culture = flemish
         religion = catholic
-        size = 67700
+        size = 127700
     }
 
     clergymen = {
@@ -407,7 +407,7 @@
     farmers = {
         culture = flemish
         religion = catholic
-        size = 62175
+        size = 122175
     }
 
 }
@@ -415,7 +415,7 @@
 #Namur (388000/97000 POPS)
 392 = {
 	bureaucrats = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 200
     }
@@ -473,7 +473,7 @@
         size = 4000
     }
 	labourers = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 9875
     }
@@ -522,7 +522,7 @@
 #Tournai (292000/73000 POPS)
 393 = {
 	bureaucrats = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 200
     }
@@ -584,7 +584,7 @@
     farmers = {
         culture = wallonian
         religion = catholic
-        size = 56075
+        size = 86075
     }
 
     clergymen = {
@@ -608,7 +608,7 @@
 #Charleroi (396000/99000 POPS)
 394 = {
 	bureaucrats = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 200
     }
@@ -669,7 +669,7 @@
     farmers = {
         culture = wallonian
         religion = catholic
-        size = 64725
+        size = 82725
     }
 
     ######Jews
@@ -707,7 +707,7 @@
 #Liege (212000/53000 POPS)
 395 = {
 	bureaucrats = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 500
     }
@@ -744,13 +744,13 @@
     soldiers = {
         culture = wallonian
         religion = catholic
-        size = 3100
+        size = 6100
     }
 	
     farmers = {
         culture = wallonian
         religion = catholic
-        size = 47800
+        size = 97800
     }
 
     farmers = {
@@ -808,7 +808,7 @@
 #Arlon (172000/43000 POPS)
 398 = {
 	bureaucrats = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 200
     }
@@ -845,17 +845,17 @@
     farmers = {
         culture = wallonian
         religion = catholic
-        size = 20425
+        size = 40425
     }
 
     artisans = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 250
     }
 
     farmers = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 4200
     }

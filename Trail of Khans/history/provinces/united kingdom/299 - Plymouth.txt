@@ -1,6 +1,6 @@
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = IRE
+controller = IRE
+add_core = IRE
 trade_goods = fruit
 life_rating = 35
 naval_base = 2
@@ -11,6 +11,11 @@ party_loyalty = {
 party_loyalty = {
     ideology = conservative
     loyalty_value = 5
+}
+state_building = {
+    level = 3
+    building = winery
+    upgrade = yes
 }
 1861.1.1 = {
     railroad = 3

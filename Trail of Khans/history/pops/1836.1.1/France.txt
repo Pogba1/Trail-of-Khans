@@ -2,7 +2,7 @@
 #Lille (620000/155000 POPS)
 399 = {
     aristocrats = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 1400
     }
@@ -76,7 +76,7 @@
 #Dunkirk (396000/99000 POPS)
 400 = {
     aristocrats = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 800
     }
@@ -94,31 +94,31 @@
     }
 
     soldiers = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 3000
     }
 
     soldiers = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 3000
     }
 
     soldiers = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 3000
     }
 
     soldiers = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 3000
     }
 
     soldiers = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 1000
     }
@@ -150,13 +150,13 @@
 #Arras (428000/107000 POPS)
 401 = {
     aristocrats = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 850
     }
 
     clergymen = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 925
     }
@@ -168,7 +168,7 @@
     }
 
     soldiers = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 1150
     }
@@ -176,13 +176,13 @@
     farmers = {
         culture = french
         religion = catholic
-        size = 60200
+        size = 30200
     }
 
     farmers = {
         culture = picard
         religion = catholic
-        size = 70125
+        size = 100125
     }
 }
 #Amiens (552000/138000 POPS)
@@ -322,31 +322,31 @@
 #Cambrai (280000/70000 POPS)
 404 = {
     aristocrats = {
-        culture = french
+        culture = picard
         religion = catholic
         size = 600
     }
 
     clergymen = {
-        culture = french
+        culture = picard
         religion = catholic
         size = 500
     }
 
     artisans = {
-        culture = french
+        culture = picard
         religion = catholic
         size = 3500
     }
 
     soldiers = {
-        culture = french
+        culture = picard
         religion = catholic
         size = 1000
     }
 
     farmers = {
-        culture = french
+        culture = picard
         religion = catholic
         size = 104400
     }
@@ -1279,36 +1279,36 @@
 #Caen (1088000/272000 POPS)
 418 = {
 	craftsmen = {
-	culture = french
+	culture = breton
 	religion = catholic
 	size = 12000
 	}
     aristocrats = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 2650
     }
 
     clergymen = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 2550
     }
 
     artisans = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 10000
     }
 
     artisans = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 3500
     }
 
     soldiers = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 2750
     }
@@ -1330,37 +1330,42 @@
     }
 
     aristocrats = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 3000
     }
+	aristocrats = {
+        culture = french
+        religion = catholic
+        size = 30
+    }
 
     officers = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 750
     }
 
     bureaucrats = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 1550
     }
 
     clergymen = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 500
     }
 
     soldiers = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 400
     }
@@ -1405,19 +1410,19 @@
 421 = {
 
     clergymen = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 200
     }
 
     artisans = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 500
     }
 
     soldiers = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 400
     }
@@ -1429,7 +1434,7 @@
     }
 
     aristocrats = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 1200
     }
@@ -1561,31 +1566,31 @@
 #Rennes (548000/137000 POPS)
 424 = {
     aristocrats = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 1400
     }
 
     clergymen = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 1150
     }
 
     artisans = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 9000
     }
 
     soldiers = {
-        culture = french
+        culture = irish
         religion = catholic
         size = 1000
     }
 
     farmers = {
-        culture = french
+        culture = breton
         religion = catholic
         size = 44050
     }

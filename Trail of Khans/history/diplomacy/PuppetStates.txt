@@ -157,130 +157,130 @@ vassal = {
 }
 
 #French Italian Puppet
-vassal = {
-	first = FRA
-	second = BIT
-	start_date = 1836.1.1
-	end_date = 1936.1.1
-}
-##French Native Substate
-substate = {
-    first = FRA
-    second = GPN
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-substate = {
-    first = FRA
-    second = CHE
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-substate = {
-    first = FRA
-    second = IRO
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
+##vassal = {
+##	first = FRA
+##	second = BIT
+##	start_date = 1836.1.1
+##	end_date = 1936.1.1
+##}
+####French Native Substate
+##substate = {
+##    first = FRA
+##    second = GPN
+##    start_date = 1836.1.1
+##    end_date = 1936.1.1
+##}
+##substate = {
+##    first = FRA
+##    second = CHE
+##    start_date = 1836.1.1
+##    end_date = 1936.1.1
+##}
+##
+##substate = {
+##    first = FRA
+##    second = IRO
+##    start_date = 1836.1.1
+##    end_date = 1936.1.1
+##}
 #hapsburg-epirus
-vassal = {
-	first = HPS
-	second = EPI
-	start_date = 1836.1.1
-	end_date = 1936.1.1
-}
-
+#vassal = {
+#	first = HPS
+#	second = EPI
+#	start_date = 1836.1.1
+#	end_date = 1936.1.1
+#}
+#
 #bokoen india
 vassal = {
-	first = DNN
+	first = NET
 	second = MYS
 	start_date = 1836.1.1
 	end_date = 1936.1.1
 }
 #French India
-vassal = {
-	first = FRA
-	second = HYD
-	start_date = 1836.1.1
-	end_date = 1936.1.1
-}
-vassal = {
-	first = FRA
-	second = NAG
-	start_date = 1836.1.1
-	end_date = 1936.1.1
-}
-vassal = {
-	first = FRA
-	second = ORI
-	start_date = 1836.1.1
-	end_date = 1936.1.1
-}
-vassal = {
-	first = FRA
-	second = BHO
-	start_date = 1836.1.1
-	end_date = 1936.1.1
-}
-vassal = {
-	first = FRA
-	second = IND
-	start_date = 1836.1.1
-	end_date = 1936.1.1
-}
-vassal = {
-	first = FRA
-	second = GWA
-	start_date = 1836.1.1
-	end_date = 1936.1.1
-}
-vassal = {
-	first = FRA
-	second = MUG
-	start_date = 1836.1.1
-	end_date = 1936.1.1
-}
-vassal = {
-	first = FRA
-	second = ASM
-	start_date = 1836.1.1
-	end_date = 1936.1.1
-}
-##Spanish Colonies
-vassal = {
-	first = IBE
-	second = BER
-	start_date = 1836.1.1
-	end_date = 1936.1.1
-}
-substate = {
-    first = IBE
-    second = GCO
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-substate = {
-    first = IBE
-    second = ARG
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-substate = {
-    first = IBE
-    second = PEU
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-substate = {
-    first = IBE
-    second = MEX
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
+#vassal = {
+#	first = FRA
+#	second = HYD
+#	start_date = 1836.1.1
+#	end_date = 1936.1.1
+#}
+#vassal = {
+#	first = FRA
+#	second = NAG
+#	start_date = 1836.1.1
+#	end_date = 1936.1.1
+#}
+#vassal = {
+#	first = FRA
+#	second = ORI
+#	start_date = 1836.1.1
+#	end_date = 1936.1.1
+#}
+#vassal = {
+#	first = FRA
+#	second = BHO
+#	start_date = 1836.1.1
+#	end_date = 1936.1.1
+#}
+#vassal = {
+#	first = FRA
+#	second = IND
+#	start_date = 1836.1.1
+#	end_date = 1936.1.1
+#}
+#vassal = {
+#	first = FRA
+#	second = GWA
+#	start_date = 1836.1.1
+#	end_date = 1936.1.1
+#}
+#vassal = {
+#	first = FRA
+#	second = MUG
+#	start_date = 1836.1.1
+#	end_date = 1936.1.1
+#}
+#vassal = {
+#	first = FRA
+#	second = ASM
+#	start_date = 1836.1.1
+#	end_date = 1936.1.1
+#}
+###Spanish Colonies
+#vassal = {
+#	first = IBE
+#	second = BER
+#	start_date = 1836.1.1
+#	end_date = 1936.1.1
+#}
+#substate = {
+#    first = IBE
+#    second = GCO
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+#substate = {
+#    first = IBE
+#    second = ARG
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+#substate = {
+#    first = IBE
+#    second = PEU
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#substate = {
+#    first = IBE
+#    second = MEX
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
 ##Substates of the Argentine Confederation
 #substate = {
 #    first = ARC
@@ -384,13 +384,13 @@ substate = {
 #    end_date = 1840.7.1    # the Oriental Crisis
 #}
 
-# Egypt-Hedjaz
-vassal = {
-    first = EGY
-    second = HDJ
-    start_date = 1836.1.1
-    end_date = 1840.7.1
-}
+## Egypt-Hedjaz
+#vassal = {
+#    first = EGY
+#    second = HDJ
+#    start_date = 1836.1.1
+#    end_date = 1840.7.1
+#}
 
 #######################
 #        INDIA        #
@@ -581,115 +581,115 @@ vassal = {
 
 
 ##########################China
-#China - Qinghai
-substate = {
-    first = QNG
-    second = XBI
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-#China - Xinjiang
-substate = {
-    first = QNG
-    second = XIN
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-#China - Kashgaria
-vassal = {
-    first = QNG
-    second = KML
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-#China - Tannu Tuva
-vassal = {
-    first = QNG
-    second = TNT
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-#China - Yunnan
-substate = {
-    first = QNG
-    second = YNN
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-#China - Manchuria
-substate = {
-    first = QNG
-    second = MCK
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-#China/Mongolia
-vassal = {
-    first = QNG
-    second = MGL
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# China/Tibet.
-vassal = {
-    first = QNG
-    second = TIB
-    start_date = 1836.1.1
-    end_date = 1912.1.1
-}
-
-#China/Korea
-vassal = {
-    first = QNG
-    second = KOR
-    start_date = 1836.1.1
-    end_date = 1876.1.1
-}
-
-#########1861
-# Siam - Cambodia
-vassal = {
-    first = SIA
-    second = CAM
-    start_date = 1861.1.1
-    end_date = 1936.1.1
-}
-
-## Siam - Champasak
+##China - Qinghai
+#substate = {
+#    first = QNG
+#    second = XBI
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+##China - Xinjiang
+#substate = {
+#    first = QNG
+#    second = XIN
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+##China - Kashgaria
+#vassal = {
+#    first = QNG
+#    second = KML
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+##China - Tannu Tuva
+#vassal = {
+#    first = QNG
+#    second = TNT
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+##China - Yunnan
+#substate = {
+#    first = QNG
+#    second = YNN
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+##China - Manchuria
+#substate = {
+#    first = QNG
+#    second = MCK
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+##China/Mongolia
+#vassal = {
+#    first = QNG
+#    second = MGL
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## China/Tibet.
+#vassal = {
+#    first = QNG
+#    second = TIB
+#    start_date = 1836.1.1
+#    end_date = 1912.1.1
+#}
+#
+##China/Korea
+#vassal = {
+#    first = QNG
+#    second = KOR
+#    start_date = 1836.1.1
+#    end_date = 1876.1.1
+#}
+#
+##########1861
+## Siam - Cambodia
 #vassal = {
 #    first = SIA
-#    second = CHK
-#    start_date = 1836.1.1
-#    end_date =  1936.1.1
+#    second = CAM
+#    start_date = 1861.1.1
+#    end_date = 1936.1.1
 #}
-
-# UK - KAS
-vassal = {
-    first = ENG
-    second = KAS
-    start_date = 1861.1.1
-    end_date = 1936.1.1
-}
-
+#
+### Siam - Champasak
+##vassal = {
+##    first = SIA
+##    second = CHK
+##    start_date = 1836.1.1
+##    end_date =  1936.1.1
+##}
+#
+## UK - KAS
+#vassal = {
+#    first = ENG
+#    second = KAS
+#    start_date = 1861.1.1
+#    end_date = 1936.1.1
+#}
+#
 # # OE - Romania
-# vassal = {
-    # first = TUR
-    # second = ROM
-    # start_date = 1861.1.1
-    # end_date = 1936.1.1
-# }
-
-# # OE - Hejaz
-# vassal = {
-    # first = TUR
-    # second = HDJ
-    # start_date = 1861.1.1
-    # end_date = 1936.1.1
-# }
+## vassal = {
+#    # first = TUR
+#    # second = ROM
+#    # start_date = 1861.1.1
+#    # end_date = 1936.1.1
+## }
+#
+## # OE - Hejaz
+## vassal = {
+#    # first = TUR
+#    # second = HDJ
+#    # start_date = 1861.1.1
+#    # end_date = 1936.1.1
+## }

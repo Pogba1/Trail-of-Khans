@@ -283,7 +283,7 @@ scandinavian = {
         Leuenbach Lovenbalk Michaelsen Mylius Neergaard Obelitz Oxholm Reventlow Rosenkrantz Schack-Schackenborg
         Stemman Suenson Thygeson Trampe Urne "von Holstein" "von Oldenburg" Wadenstierna Wedel-Heinen Zytphen-Adeler }
     }
-	zeelander = {
+	british_danish = {
         color = { 143 89 89}
         first_names = { Aage Adam Alber Anders ASmund Axel Carl Christian Edvard Edvin
         Erik Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar
@@ -355,22 +355,20 @@ finnougric = {
 british = {
     leader = european
     unit = BritishGC
-    british = {
-        color = { 220 100 220}
-        first_names = { Albert Alexander Alfred Archibald Arthur Augustus Benjamin Bernard Charles Colbert
-        Colin Cyril David Donald Douglas Edmund Edwar Fairfax Ferdinand Francis
-        Frederick Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
-        James Jeremy John Joseph Leopold Lester Louis Martin Nigel Oswald
-        Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary }
-
-        last_names = { Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
-        Cochrane Cockburn "de Robeck" Dundas Fisher French Gough Grant Grenfell Haig
-        Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery
-        Moresby Mundy Napier Odoni "of Hannover" "of Saxe-Coburg-Gotha" Plummer Ragland Roberts Seaton Seymour
-        Smith Smith-Dorrien Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood }
-    }
     irish = {
         color = { 35 140 50}
+        radicalism = 15
+        primary = IRE
+        first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
+        Edward Ernes Fionán Frank George Harry Jack James John Joseph
+        Kevin Liam Michael Patrick Peter Richard Robert Séan Thomas William }
+
+        last_names = { Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig "de Valera" Donnelly
+        FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry McGuinness
+        Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara Pearse Plunket White }
+    }
+	welsh = {
+        color = { 70 94 49}
         radicalism = 15
         primary = IRE
         first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
@@ -395,6 +393,20 @@ british = {
 italian = {
     leader = european
     unit = ItalianGC
+	british = {
+        color = { 112 88 59 }
+        first_names = { Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
+        Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
+        Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
+        Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+        Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio }
+
+        last_names = { Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
+        Caviglia Ceccherini Cialdini Cusani d'Absburgo-Toscana d'Austria-Este Dezza "di Borbone di Parma" "di Robilant" "di Savoia"
+        "di Savoia-Aosta" Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti
+        Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux Perruchetti Pianelli Porro
+        Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari "Thaon di Revel" Vaccari Zupelli }
+    }
 	romansh = {
          color = { 180 40 40 }
         first_names = { Adolf Alexander Eduard Ernst Franz Hans Johann Josef Konstantin Martin

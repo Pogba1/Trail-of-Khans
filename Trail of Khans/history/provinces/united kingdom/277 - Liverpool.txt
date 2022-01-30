@@ -1,6 +1,6 @@
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = SCO
+controller = SCO
+add_core = SCO
 trade_goods = fish
 life_rating = 40
 railroad = 1
@@ -13,18 +13,13 @@ party_loyalty = {
     loyalty_value = 5
 }
 state_building = {
-    level = 3
-    building = fabric_factory
-    upgrade = yes
-}
-state_building = {
-    level = 1
-    building = steel_factory
+    level = 2
+    building = explosives_factory
     upgrade = yes
 }
 state_building = {
     level = 2
-    building = regular_clothes_factory
+    building = steel_factory
     upgrade = yes
 }
 state_building = {
