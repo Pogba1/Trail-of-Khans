@@ -1,11 +1,16 @@
-#Prussia - Sigmaringen
-#vassal = {
-#    first = PRU
-#    second = SGM
-#    start_date = 1836.1.1
-#    end_date = 1870.1.1
-#}
-
+#Polish PUs
+vassal = {
+    first = POL
+    second = HUN
+    start_date = 1836.1.1
+    end_date = 1870.1.1
+}
+vassal = {
+    first = POL
+    second = BOH
+    start_date = 1836.1.1
+    end_date = 1870.1.1
+}
 #HRE - Hungary
 #vassal = {
 #    first = HRE

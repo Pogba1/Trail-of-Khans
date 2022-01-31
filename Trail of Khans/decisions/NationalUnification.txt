@@ -1,5 +1,49 @@
 political_decisions = {
+	unite_moldavia_wallachia = {
+		potential = {
+			OR = {
+				tag = WAL
+				tag = MOL
+			}
+			exists = WAL
+			exists = MOL
+			NOT = { exists = ROM }
+		}
 
+		allow = {
+			
+			OR = {	state_n_government = 1
+			AND = {664 = {owned_by = THIS} 670 = {owned_by = THIS}}	
+			}
+			
+		}
+
+		effect = {
+			prestige = 10
+			add_accepted_culture = thracian
+			change_tag = ROM
+			random_country = {
+				limit = {
+					tag = WAL
+					exists = yes
+				}
+				country_event = 11101
+			}
+			random_country = {
+				limit = {
+					tag = MOL
+					exists = yes
+				}
+				country_event = 11101
+			}
+			capital = 664
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
     form_south_german_confederation = {
         potential = {
             capital_scope = { continent = europe }

@@ -163,13 +163,13 @@
     }
 
     aristocrats = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 1000
     }
 
     aristocrats = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 1100
     }
@@ -228,12 +228,12 @@
         size = 5450
     }
 	aristocrats = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 400
     }
 	farmers = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 5050
     }
@@ -287,25 +287,25 @@
     }
 
     clergymen = {
-        culture = turkish #gagauz
+        culture = romanian #gagauz
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = turkish
+        culture = romanian
         religion = orthodox
         size = 150
     }
 
     soldiers = {
-        culture = turkish
+        culture = romanian
         religion = orthodox
         size = 100
     }
 
     farmers = {
-        culture = turkish
+        culture = romanian
         religion = orthodox
         size = 2775
     }

@@ -1,10 +1,18 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+PROV994;Ingria;x
+MCK_ADJ;Jurchen;x
+MCK;Jurchen;x
+MCK_absolute_monarchy;Jurchen;x
+MCK_hms_government;Jurchen;x
+MCK_prussian_constitutionalism;Jurchen;x
+OIR;Oirat;x
+OIR_ADJ;Mongolian;x
 NOV;Novgorod;x
 NOV_ADJ;Novgorodian;x
 NOV_absolute_monarchy;Kingdom of Novgorod;x
-NOV_hms_government;Empire of South America;x
+NOV_hms_government;Kingdom of Novgorod;x
 NOV_prussian_constitutionalism;Kingdom of Novgorod;x
-NOV_fascist_dictatorship;Kingdom of Novgorod;x
+NOV_fascist_dictatorship;Novgorod;x
 NOV_democracy;Novgorod;x
 NOV_bourgeois_dictatorship;Novgorod;x
 NOV_presidential_dictatorship;Novgorod;x
@@ -313,7 +321,7 @@ his_majestys_loyal_subjects;His Majesty's Loyal Subjects;x
 his_majestys_loyal_subjects_desc;The whole population, with some exceptions, are fighting to restore the Monarch to the throne.;x
 EPI;Epirus;x
 EPI_ADJ;Epirote;x
-dacian_oil_title;Dacian Oil;x
+dacian_oil_title;Romanian Oil;x
 dacian_oil_desc; ;x
 march_into_florida_title;March Into Florida;x
 march_into_florida_desc; ;x
@@ -654,12 +662,13 @@ secede_land_arg_title;Cede South American Colonies to Argentina;x
 secede_land_arg_desc;Cede our newly acquired colonial territories to our South American colonial subject.;x
 peruvian;Peruvian;x
 carpato_german;Carpato-German;x
-ROM;Dacia;x
-ROM_ADJ;Dacian;x
-romanian;Dacian;x
-ROM_absolute_monarchy;Kingdom of Dacia;x
-ROM_hms_government;Kingdom of Dacia;x
-ROM_prussian_constitutionalism;Kingdom of Dacia;x
+ROM;Romania;x
+ROM_ADJ;Romanian;x
+romanian;Romanian;x
+thracian;Thracian;x
+ROM_absolute_monarchy;Kingdom of Romania;x
+ROM_hms_government;Kingdom of Romania;x
+ROM_prussian_constitutionalism;Kingdom of Romania;x
 IBE;Iberia;x
 IBE_ADJ;Iberian;x
 IBE_absolute_monarchy_ADJ;Hispanic;x

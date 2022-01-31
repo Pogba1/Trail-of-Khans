@@ -36,7 +36,18 @@
         religion = catholic
         size = 2000
     }
-
+	
+	farmers = {
+        culture = south_italian
+        religion = catholic
+        size = 10525
+    }
+	soldiers = {
+		culture = south_italian
+        religion = catholic
+        size = 3000
+	}
+	
     artisans = {
         culture = maghrebi
         religion = sunni

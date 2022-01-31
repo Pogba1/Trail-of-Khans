@@ -326,6 +326,79 @@
 #under the rule of Russia in 1836
 #Helsinki (132000/33000 POPS)
 343 = {
+	######Jews
+    aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 500
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 400
+    }
+    ########
+
+    aristocrats = {
+        culture = russian
+        religion = orthodox
+        size = 400
+    }
+
+    bureaucrats = {
+        culture = russian
+        religion = orthodox
+        size = 75
+    }
+
+    officers = {
+        culture = russian
+        religion = orthodox
+        size = 65
+    }
+
+    clergymen = {
+        culture = russian
+        religion = orthodox
+        size = 375
+    }
+
+    artisans = {
+        culture = russian
+        religion = orthodox
+        size = 1850
+    }
+
+    soldiers = {
+        culture = russian
+        religion = orthodox
+        size = 375
+    }
+
+    farmers = {
+        culture = russian
+        religion = orthodox
+        size = 7500
+    }
     officers = {
         culture = finnish
         religion = protestant

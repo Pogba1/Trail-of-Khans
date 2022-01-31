@@ -2009,7 +2009,7 @@
     aristocrats = {
         culture = romanian
         religion = orthodox
-        size = 2000
+        size = 3000
     }
 
     aristocrats = {
@@ -2021,7 +2021,7 @@
     bureaucrats = {
         culture = romanian
         religion = orthodox
-        size = 350
+        size = 1050
     }
 
     officers = {
@@ -2045,13 +2045,13 @@
     soldiers = {
         culture = romanian
         religion = orthodox
-        size = 1100
+        size = 3100
     }
 
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 81650
+        size = 150650
     }
 
     serfs = {
@@ -2103,11 +2103,11 @@
     aristocrats = {
         culture = romanian
         religion = orthodox
-        size = 350
+        size = 600
     }
 
     aristocrats = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 400
     }
@@ -2127,13 +2127,13 @@
     soldiers = {
         culture = romanian
         religion = orthodox
-        size = 1100
+        size = 3100
     }
 
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 58500
+        size = 98500
     }
 
     serfs = {
@@ -2151,13 +2151,13 @@
     }
 
     aristocrats = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 450
     }
 	
 	bureaucrats = {
-		culture = daco_russian
+		culture = romanian
 		religion = orthodox
 		size = 10
 	}
@@ -2201,7 +2201,7 @@
     }
 
     aristocrats = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 425
     }
@@ -2245,7 +2245,7 @@
     }
 
     aristocrats = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 630
     }
@@ -2289,7 +2289,7 @@
     }
 
     aristocrats = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 325
     }
@@ -2335,7 +2335,7 @@
     }
 
     aristocrats = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 1775
     }
@@ -2383,7 +2383,7 @@
     }
 	
 	farmers = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 8000
     }
@@ -2447,7 +2447,7 @@
     }
 
     aristocrats = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 500
     }
@@ -2497,13 +2497,13 @@
     }
 
     aristocrats = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 6250
     }
 	
 	clergymen = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 20
     }
@@ -2541,13 +2541,13 @@
 #Galati (272000/68000 POPS)
 673 = {
     aristocrats = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 450
     }
 
     aristocrats = {
-        culture = daco_russian
+        culture = romanian
         religion = orthodox
         size = 550
     }
@@ -2642,37 +2642,37 @@
     }
 
     aristocrats = {
-        culture = bulgarian
+        culture = thracian
         religion = orthodox
         size = 100
     }
 
     officers = {
-        culture = bulgarian
+        culture = thracian
         religion = orthodox
         size = 100
     }
 
     soldiers = {
-        culture = bulgarian
+        culture = thracian
         religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = thracian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = bulgarian
+        culture = thracian
         religion = orthodox
         size = 550
     }
 
     farmers = {
-        culture = bulgarian
+        culture = thracian
         religion = orthodox
         size = 1050
     }

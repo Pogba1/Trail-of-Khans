@@ -5421,6 +5421,40 @@
 #under the rule of Prussia in 1836
 #Konigsberg (484000/121000 POPS)
 695 = {
+	aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 150
+    }
+	bureaucrats = {
+        culture = north_german
+        religion = protestant
+        size = 700
+    }
+
+    officers = {
+        culture = north_german
+        religion = protestant
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 100
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 6850
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 100
+    }
     aristocrats = {
         culture = north_german
         religion = protestant

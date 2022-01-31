@@ -1,0 +1,103 @@
+political_decisions = {
+	#our_homeland_returned = {
+	#	potential = {
+	#	NOT = {has_country_flag = our_homeland_returned}
+	#	tag = ROM
+	#	}
+	#	allow = {
+	#	656 = {owned_by = THIS}
+	#	}
+	#	effect = {
+	#	capital = 656
+	#	prestige = 9
+	#	set_country_flag = our_homeland_returned
+	#	656 = {add_province_modifier = {name = sarmisegetuza duration = 2700}}
+	#	656 = {change_province_name = "Sarmisegetuza"}
+	#	}
+	#}
+	natural_borders = {
+	potential = {
+	tag = ROM
+	NOT = {has_country_flag = natural_borders}
+	}
+	allow = {
+	all_core = {owned_by = THIS}
+	OR = {is_secondary_power = yes
+	is_greater_power = yes
+	}
+	}
+	effect = {
+	792 = {add_core = THIS}
+	649 = {add_core = THIS}
+	650 = {add_core = THIS}
+	648 = {add_core = THIS}
+	set_country_flag = natural_borders
+	}
+	
+	}
+	
+	#natural_borders_II = {
+	#potential = {
+	#tag = ROM
+	#has_country_flag = natural_borders
+	#NOT = {has_country_flag = natural_borders_II}
+	#}
+	#allow = {
+	#all_core = {owned_by = THIS}
+	#OR = {is_secondary_power = yes
+	#is_greater_power = yes
+	#}
+	#}
+	#effect = {
+	#809 = {add_core = THIS}
+	#810 = {add_core = THIS}
+	#812 = {add_core = THIS}
+	#811 = {add_core = THIS}
+	#811 = {add_core = THIS}
+	#813 = {add_core = THIS}
+	#814 = {add_core = THIS}
+	#set_country_flag = natural_borders_II
+	#}
+	#
+	#}
+	
+	dacian_oil = {
+	picture = tea_production
+	potential = {
+	OR = {tag = ROM tag = DNB}
+	year = 1872
+	667 = {owned_by = THIS}
+	672 = {owned_by = THIS}
+	667 = {NOT = {trade_goods = oil}}
+	672 = {NOT = {trade_goods = oil}}
+	}
+	allow = {
+	NOT = {debt_law = serfdom}
+	
+	}
+	effect = {
+	667 = {trade_goods = oil}
+	672 = {trade_goods = oil}
+	}
+	}
+	
+	wallachian_agriculture = {
+	picture = tea_production
+	potential = {
+	OR = {tag = ROM
+		  tag = DNB
+		  tag = WAL
+	}
+	NOT = {has_country_flag = wallachian_agriculture}
+	}
+	allow = {
+	NOT = {debt_law = serfdom}
+	literacy = 0.40
+	WAL_665 = {owned_by = THIS}
+	}
+	effect = {
+	WAL_665 = {add_province_modifier = {name = wallachian_agriculture duration = 7300}}
+	set_country_flag = wallachian_agriculture
+	}
+	}
+}
