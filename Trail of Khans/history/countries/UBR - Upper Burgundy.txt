@@ -1,4 +1,4 @@
-capital = 425
+capital = 607
 primary_culture = french
 religion = catholic
 government = absolute_monarchy
@@ -8,8 +8,8 @@ literacy = 0.50
 non_state_culture_literacy = 0.01
 civilized = yes
 
-#GreaterPowers = prestige
-prestige = 175
+
+prestige = 5
 
 # Political reforms
 slavery = yes_slavery
@@ -69,47 +69,3 @@ hot_blast = 1
 experimental_railroad = 1
 basic_chemistry = 1
 stock_exchange = 1
-ad_hoc_money_bill_printing = 1
-romanticism = 1
-interchangeable_parts = 1
-high_pressure_steam_engine = 1
-late_classical_theory = 1
-
-# Inventions
-secularization = yes
-social_conscience = yes
-
-# Starting Consciousness
-consciousness = 3
-nonstate_consciousness = 1
-
-ruling_party = FRA_conservative
-last_election = 1834.6.21
-upper_house = {
-    fascist = 0
-    liberal = 12
-    conservative = 70
-    reactionary = 18
-    anarcho_liberal = 0
-    socialist = 0
-    communist = 0
-}
-
-govt_flag = {
-    government = hms_government
-    flag = theocracy
-}
-govt_flag = {
-    government = prussian_constitutionalism
-    flag = theocracy
-}
-schools = culture_tech_school
-decision = france_1836_setup
-
-oob = "FRA_oob.txt"
-
-foreign_investment = {
-    PAP = 6000
-    SAR = 4000
-}
-
