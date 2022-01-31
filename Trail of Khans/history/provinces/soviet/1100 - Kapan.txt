@@ -1,6 +1,6 @@
-owner = ARM
-controller = ARM
+owner = PNT
+controller = PNT
+add_core = PNT
 add_core = ARM
-add_core = TCA
 trade_goods = iron
 life_rating = 35

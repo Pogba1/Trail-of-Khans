@@ -130,6 +130,9 @@ SWH        = "countries/Schleswig-Holstein.txt"
 WHA        = "countries/Wales.txt"
 LBR	   = "countries/Lower Burgundy.txt"
 UBR	   = "countries/Upper Burgundy.txt"
+AND		   = "countries/Al Andalus.txt"
+
+
 
 #Germany
 HRE		   = "countries/HolyRomanEmpire.txt"
@@ -184,6 +187,7 @@ TKM        = "countries/Turkmenistan.txt"
 TKS        = "countries/Turkestan.txt"
 UYG        = "countries/Uyghurstan.txt"
 UZB        = "countries/Uzbekistan.txt"
+JER		   = "countries/Jerusalem.txt"
 
 #India
 ASM        = "countries/Assam.txt"
@@ -422,6 +426,9 @@ TUR        ="countries/Ottoman Empire.txt"
 WAL        ="countries/Wallachia.txt"
 YUG        ="countries/Yugoslavia.txt"
 LTN		   ="countries/Latin Empire.txt"
+GAL		   ="countries/Galatia.txt"
+NCE		   ="countries/Nicea.txt"
+
 # Africa
 ALD        ="countries/Aldjazair.txt"
 CNG        ="countries/Congo Free State.txt"

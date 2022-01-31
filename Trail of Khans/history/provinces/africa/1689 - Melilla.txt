@@ -1,7 +1,6 @@
-owner = IBE
-controller = IBE
-add_core = IBE
-add_core = SPA
+owner = AND
+controller = AND
+add_core = AND
 add_core = MOR
 trade_goods = fish
 terrain = urban

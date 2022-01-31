@@ -1,7 +1,6 @@
-owner = IBE
-controller = IBE
-add_core = IBE
-add_core = SPA
+owner = ATR
+controller = ATR
+add_core = ATR
 add_core = CAT
 trade_goods = silk
 life_rating = 35

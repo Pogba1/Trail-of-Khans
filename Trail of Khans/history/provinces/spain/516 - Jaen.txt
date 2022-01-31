@@ -1,7 +1,6 @@
-owner = IBE
-controller = IBE
-add_core = IBE
-add_core = SPA
+owner = AND
+controller = AND
+add_core = AND
 trade_goods = grain
 life_rating = 35
 1861.1.1 = { railroad = 3 }

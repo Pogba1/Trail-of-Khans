@@ -1,6 +1,5 @@
-owner = IBE
-controller = IBE
-add_core = IBE
-add_core = POR
+owner = AND
+controller = AND
+add_core = AND
 trade_goods = fish
 life_rating = 35

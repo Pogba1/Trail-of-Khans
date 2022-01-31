@@ -810,19 +810,19 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 600
+        size = 300
     }
 
     clergymen = {
         culture = french
         religion = catholic
-        size = 850
+        size = 450
     }
 
     artisans = {
         culture = french
         religion = catholic
-        size = 7450
+        size = 3450
     }
 
     soldiers = {
@@ -834,31 +834,31 @@
     farmers = {
         culture = french
         religion = catholic
-        size = 114600
+        size = 50000
     }
 
     bureaucrats = {
         culture = south_german
         religion = catholic
-        size = 175
+        size = 375
     }
 
     clergymen = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 400
     }
 
     artisans = {
         culture = south_german
         religion = catholic
-        size = 1250
+        size = 4250
     }
 
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 45000
     }
 
     farmers = {
@@ -910,19 +910,19 @@
     aristocrats = {
         culture = french
         religion = catholic
-        size = 600
+        size = 300
     }
 
     clergymen = {
         culture = french
         religion = catholic
-        size = 425
+        size = 225
     }
 
     artisans = {
         culture = french
         religion = catholic
-        size = 6000
+        size = 3000
     }
 
     soldiers = {
@@ -934,7 +934,7 @@
     farmers = {
         culture = french
         religion = protestant
-        size = 100825
+        size = 50825
     }
 
     aristocrats = {
@@ -998,19 +998,19 @@
     aristocrats = {
         culture = south_german
         religion = catholic
-        size = 250
+        size = 450
     }
 
     clergymen = {
         culture = south_german
         religion = catholic
-        size = 275
+        size = 475
     }
 
     artisans = {
         culture = south_german
         religion = catholic
-        size = 2500
+        size = 5500
     }
 
     soldiers = {
@@ -1022,7 +1022,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 27775
+        size = 77775
     }
 }
 #Verdun (320000/80000 POPS)
@@ -1030,13 +1030,13 @@
     aristocrats = {
         culture = french
         religion = catholic
-        size = 450
+        size = 250
     }
 
     clergymen = {
         culture = french
         religion = catholic
-        size = 319
+        size = 119
     }
 
     artisans = {
@@ -1048,19 +1048,25 @@
     soldiers = {
         culture = french
         religion = catholic
-        size = 751
+        size = 451
     }
 
     farmers = {
         culture = french
         religion = catholic
-        size = 94919
+        size = 50000
+    }
+	
+	    aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 250
     }
 
     clergymen = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 300
     }
 
     artisans = {
@@ -1072,38 +1078,38 @@
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 500
     }
 
     labourers = {
         culture = south_german
         religion = catholic
-        size = 1400
+        size = 50000
     }
 }
 #Epinal (412000/103000 POPS)
 414 = {
 	craftsmen = {
-		culture = french
+		culture = south_german
 		religion = catholic
 		size = 4000
 	}
     aristocrats = {
         culture = french
         religion = catholic
-        size = 1100
+        size = 550
     }
 
     clergymen = {
         culture = french
         religion = catholic
-        size = 900
+        size = 500
     }
 
     artisans = {
         culture = french
         religion = catholic
-        size = 3750
+        size = 2750
     }
 
     soldiers = {
@@ -1115,19 +1121,25 @@
     labourers = {
         culture = french
         religion = catholic
-        size = 114450
+        size = 44450
+    }
+	
+	    aristocrats = {
+        culture = french
+        religion = catholic
+        size = 550
     }
 
     clergymen = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 500
     }
 
     artisans = {
         culture = south_german
         religion = catholic
-        size = 1225
+        size = 3225
     }
 
     soldiers = {
@@ -1139,7 +1151,7 @@
     labourers = {
         culture = south_german
         religion = catholic
-        size = 700
+        size = 64500
     }
 
 }

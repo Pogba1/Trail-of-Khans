@@ -1,7 +1,6 @@
-owner = IBE
-controller = IBE
-add_core = IBE
-add_core = POR
+owner = AND
+controller = AND
+add_core = AND
 trade_goods = iron
 life_rating = 35
 naval_base = 1

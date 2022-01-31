@@ -1,5 +1,6 @@
-owner = ARM
-controller = ARM
+owner = PNT
+controller = PNT
+add_core = PNT
 add_core = ABK
 add_core = GEO
 trade_goods = grain

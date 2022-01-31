@@ -1,6 +1,5 @@
-owner = ARM
-controller = ARM
-add_core = ARM
-add_core = TCA
+owner = PNT
+controller = PNT
+add_core = PNT
 trade_goods = grain
 life_rating = 35
