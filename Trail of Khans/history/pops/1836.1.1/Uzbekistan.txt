@@ -57,8 +57,8 @@
     }
 
     slaves = {
-        culture = russian
-        religion = orthodox
+        culture = tatar
+        religion = sunni
         size = 3000
     }
 }
@@ -137,8 +137,8 @@
     }
 
     slaves = {
-        culture = russian
-        religion = orthodox
+        culture = tatar
+        religion = sunni
         size = 2100
     }
 
@@ -389,8 +389,8 @@
     }
 
     slaves = {
-        culture = russian
-        religion = orthodox
+        culture = tatar
+        religion = sunni
         size = 5000
     }
 }

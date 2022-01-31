@@ -29,25 +29,25 @@
 
     clergymen = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 100
     }
 
     artisans = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 100
     }
 
     soldiers = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 100
     }
 
     serfs = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 725
     }
 }
@@ -97,38 +97,38 @@
     }
 
     aristocrats = {
-        culture = bosniak
-        religion = sunni
+        culture = serb
+        religion = orthodox
         size = 250
     }
 
     officers = {
-        culture = bosniak
-        religion = sunni
+        culture = serb
+        religion = orthodox
         size = 100
     }
 
     clergymen = {
-        culture = bosniak
-        religion = sunni
+        culture = serb
+        religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = bosniak
-        religion = sunni
+        culture = serb
+        religion = orthodox
         size = 100
     }
 
     soldiers = {
-        culture = bosniak
-        religion = sunni
+        culture = serb
+        religion = orthodox
         size = 125
     }
 
     farmers = {
-        culture = bosniak
-        religion = sunni
+        culture = serb
+        religion = orthodox
         size = 5725
     }
 }
@@ -225,71 +225,71 @@
     }
 
     clergymen = {
-        culture = bosniak
-        religion = sunni
+        culture = serb
+        religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = bosniak
-        religion = sunni
+        culture = serb
+        religion = orthodox
         size = 300
     }
 
     soldiers = {
-        culture = bosniak
-        religion = sunni
+        culture = serb
+        religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = bosniak
-        religion = sunni
+        culture = serb
+        religion = orthodox
         size = 3000
     }
 
     farmers = {
         culture = gypsy
-        religion = sunni
+        religion = orthodox
         size = 200
     }
 }
-#Dalmatia Region (64000) #see Croatia.txt for balance of region
+#Dalmatia Region (64000) #see serbia.txt for balance of region
 #under the rule of Austria in 1836
 #Kotor (64000/16000 POPS)
 2582 = {
     aristocrats = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 200
     }
 
     officers = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 10
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 250
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 8000
     }

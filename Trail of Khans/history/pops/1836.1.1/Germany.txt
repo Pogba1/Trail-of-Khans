@@ -355,6 +355,53 @@
 #under the Rule of Lubeck 1836
 #Lubeck (46503/11626 POPS)
 530 = {
+	clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 150
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 3000
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 200
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 14650
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 2000
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 6750
+    }
     aristocrats = {
         culture = north_german
         religion = protestant

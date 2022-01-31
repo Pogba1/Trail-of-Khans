@@ -1,5 +1,7 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
 PROV994;Ingria;x
+PROV1039;Volga;x
+serb;South Slavic;x
 MCK_ADJ;Jurchen;x
 MCK;Jurchen;x
 MCK_absolute_monarchy;Jurchen;x
@@ -9,6 +11,14 @@ OIR;Oirat;x
 OIR_ADJ;Mongolian;x
 NOV;Novgorod;x
 NOV_ADJ;Novgorodian;x
+NOV_absolute_monarchy_ADJ;Novgorodian;x
+NOV_hms_government_ADJ;Novgorodian;x
+NOV_prussian_constitutionalism_ADJ;Novgorodian;x
+NOV_fascist_dictatorship_ADJ;Novgorodian;x
+NOV_democracy_ADJ;Novgorodian;x
+NOV_bourgeois_dictatorship_ADJ;Novgorodian;x
+NOV_presidential_dictatorship_ADJ;Novgorodian;x
+NOV_proletarian_dictatorship_ADJ;Novgorodian;x
 NOV_absolute_monarchy;Kingdom of Novgorod;x
 NOV_hms_government;Kingdom of Novgorod;x
 NOV_prussian_constitutionalism;Kingdom of Novgorod;x
