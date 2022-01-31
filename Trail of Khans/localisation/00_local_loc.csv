@@ -1,6 +1,4 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
-spanish;Andalusian;x
-basque;Asturian;x
 PROV994;Ingria;x
 PROV1039;Volga;x
 serb;South Slavic;x
@@ -704,8 +702,38 @@ BIT_prussian_constitutionalism;Bourbon Italy;x
 UBR;Upper Burgundy;x
 UBR_ADJ;Upper Burgundian;x
 UBR_democracy;Republic of High Burgundy;x
-UBR_monarchy;Kingdom of Upper Burgundy;x
+UBR_absolute_monarchy;Kingdom of Upper Burgundy;x
 BYE;White Rus;x
 BYE_ADJ;Byelorussian;x
-BYE_republic;White Russian Republic;x
-BYE_monarchy;Grand Duchy of White Russia;x
+BYE_democracy;White Russian Republic;x
+BYE_absolute_monarchy;Grand Duchy of White Russia;x
+EAS;East Frisia;x
+EAS_ADJ;East Frisian;x
+EAS_democracy;Frisian Republic;x
+EAS_democracy_ADJ;Frisian;x
+EAS_absolute_monarchy;Frisian Duchy;x
+EAS_absolute_monarchy_ADJ;Frisian;x
+LTN;Latin Empire;x
+LTN_ADJ;Latin;x
+LTN_democracy;Latin Republic;x
+LTN_democracy_ADJ;Latin;x
+LTN_communist;Union of Latin Peoples;x
+LTN_communist_ADJ;Latin;x
+AND;Al Andalus;x
+AND_ADJ;Andalusian;x
+JER;Jerusalem;x
+JER_ADJ;Crusader;x
+JER_democracy;Republic of Israel;x
+JER_democracy_ADJ;Israelite;x
+JER_monarchy;Kingdom of Jerusalem;x
+JER_monarchy_ADJ;Crusader;x
+PNT;Empire of Trebizond;x
+PNT_ADJ;Trapzon;x
+PNT_republic;Commonwealth of Caucasia;x
+PNT_republic_ADJ;Caucasian;x
+PNT_communist;Plures Union;x
+PNT_communist_ADJ;Trapzon;x
+NCE;Duchy of Nicea;x
+NCE_ADJ;Nicean;x
+GAL;County of Nicea;x
+GAL_ADJ;Galatian;x
