@@ -1,5 +1,5 @@
-owner = ROM
-controller = ROM
+owner = WAL
+controller = WAL
 add_core = WAL
 add_core = ROM
 trade_goods = wool

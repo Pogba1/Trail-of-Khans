@@ -21,14 +21,14 @@ vassal = {
     start_date = 1836.1.1
     end_date = 1870.1.1
 }
-#Russia-Circassia
-#substate = {
-#	first=RUS
-#	second=CIR
-#	start_date = 1836.1.1
-#	end_date = 1936.1.1
-#
-#}
+#Novgorod-Vladimir
+substate = {
+	first=NOV
+	second=VLD
+	start_date = 1836.1.1
+	end_date = 1936.1.1
+
+}
 #Russia - PLC (separated through war)
 #vassal = {
 #    first = RUS

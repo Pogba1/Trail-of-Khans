@@ -1,29 +1,29 @@
-capital = 994
+capital = 1003
 primary_culture = russian
-culture = byelorussian
-culture = ukrainian
+culture = finnish
 culture = ugrian
-culture = alaskan
 religion = orthodox
-government = absolute_monarchy
+government = democracy
 plurality = 5.0
-nationalvalue = nv_autocracy
+nationalvalue = nv_liberty
 literacy = 0.055
 non_state_culture_literacy = 0.01
 civilized = yes
-is_releasable_vassal = no
 
 set_country_flag = serfdom_not_abolished
 
+#GreaterPowers = prestige
+prestige = 80
+
 # Political reforms
 slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = none_voting
+upper_house_composition = state_equal_weight
+vote_franschise = universal_weighted_voting
 public_meetings = yes_meeting
-press_rights = state_press
-trade_unions = no_trade_unions
+press_rights = free_press
+trade_unions = all_trade_unions
 voting_system = first_past_the_post
-political_parties = underground_parties
+political_parties = gerrymandering
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -97,7 +97,7 @@ govt_flag = {
     flag = theocracy
 }
 
-oob = "RUS_oob.txt"
+oob = "NOV_oob.txt"
 1861.1.1 = {
     oob = "/1861/RUS_oob.txt"
 }
