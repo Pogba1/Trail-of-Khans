@@ -2,11 +2,10 @@ capital = 706
 primary_culture = polish
 religion = catholic
 government = hms_government
-plurality = 0.4
+plurality = 0.2
 nationalvalue = nv_order
-literacy = 0.75
+literacy = 0.6
 civilized = yes
-prestige = 75
 
 # Political reforms
 slavery = no_slavery

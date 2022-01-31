@@ -1,8 +1,10 @@
-owner = DLM
-controller = DLM
-add_core = DLM
+owner = HPS
+controller = HPS
+add_core = HPS
+add_core = AUS
 add_core = CRO
 add_core = FIU
+add_core = HUN
 add_core = VEN
 trade_goods = fruit
 naval_base = 1

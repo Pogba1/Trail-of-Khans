@@ -1,7 +1,8 @@
-owner = DLM
-controller = DLM
-add_core = DLM
+owner = VEN
+controller = VEN
+add_core = VEN
 add_core = CRO
+add_core = DLM
 trade_goods = fish
 life_rating = 35
 naval_base = 2

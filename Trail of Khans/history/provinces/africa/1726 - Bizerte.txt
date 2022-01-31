@@ -1,6 +1,5 @@
-owner = ALD
-controller = ALD
-add_core = ALD
+owner = TUN
+controller = TUN
 add_core = TUN
 trade_goods = grain
 life_rating = 35
