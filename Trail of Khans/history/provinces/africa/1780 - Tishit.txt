@@ -1,9 +1,7 @@
-owner = EPI
-controller = EPI
-add_core = BYZ
-add_core = EPI
+owner = LTN
+controller = LTN
+add_core = LTN
 add_core = BUL
-add_core = SER
 add_core = MCD
 add_core = ALB
 trade_goods = fruit

@@ -1,6 +1,5 @@
-owner = EPI
-controller = EPI
-add_core = EPI
+owner = SER
+controller = SER
 add_core = SER
 add_core = ALB
 trade_goods = timber

@@ -1,8 +1,7 @@
-owner = HPS
-controller = HPS
-add_core = HPS
+owner = DLM
+controller = DLM
+add_core = DLM
 add_core = CRO
-add_core = HUN
 naval_base=1
 trade_goods = iron
 life_rating = 35

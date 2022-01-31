@@ -921,6 +921,21 @@ baltic = {
 
 levantine = {
     leader = european
+	latin =  {
+		color = { 221  198  87 }
+		first_names = { Alessandru Beru Duminku Enrico Fernardu Frangisku Gabriel Ferlad Gorg Joseph
+        Karmenu Lawrenz Marju Mikiel Ninu Pawlu Rokku Saber Ugo Valent Adamantios Alexandros Anastasios Andreas Antonios Aristidis Athanasios Augustinos Benizelos
+		Charalambos Charilaos Dimitrios Diomidis Eleftherios Emmanouil Epameinontas Evripidis Gennaios Georgios Ilias
+        Ionnis Kitsos Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
+        Nikolaos Odysseas Othon Panagiotis Pavlos Petros }
+
+        last_names = { Abela Adami Azzopardi Boffa Borg Buhagiar Cassar Farrugia Frendo Gonzi
+        Howard Mifsud Mintoff Mizzi Muscat Olivier Puli Pullicino Strickland Vella Charalambis
+		Christakis-Zografos Danglis	Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
+        Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
+        Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos }#
+		radicalism = 5
+	}
     greek = {
         color = { 122  180  210 }
         first_names = { Adamantios Alexandros Anastasios Andreas Antonios Aristidis Athanasios Augustinos Benizelos Charalambos

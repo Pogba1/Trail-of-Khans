@@ -702,8 +702,14 @@ BIT_prussian_constitutionalism;Bourbon Italy;x
 UBR;Upper Burgundy;x
 UBR_ADJ;Upper Burgundian;x
 UBR_democracy;Republic of High Burgundy;x
-UBR_monarchy;Kingdom of Upper Burgundy;x
+UBR_absolute_monarchy;Kingdom of Upper Burgundy;x
 BYE;White Rus;x
 BYE_ADJ;Byelorussian;x
-BYE_republic;White Russian Republic;x
-BYE_monarchy;Grand Duchy of White Russia;x
+BYE_democracy;White Russian Republic;x
+BYE_absolute_monarchy;Grand Duchy of White Russia;x
+EAS;East Frisia;x
+EAS_ADJ;East Frisian;x
+EAS_democracy;Frisian Republic;x
+EAS_democracy_ADJ;Frisian;x
+EAS_absolute_monarchy;Frisian Duchy;x
+EAS_absolute_monarchy_ADJ;Frisian;x

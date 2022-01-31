@@ -1,8 +1,7 @@
-owner = HPS
-controller = HPS
-add_core = HPS
+owner = DLM
+controller = DLM
+add_core = DLM
 add_core = CRO
-add_core = HUN
 trade_goods = wool
 life_rating = 35
 1861.1.1 = { railroad = 2 }
