@@ -1,0 +1,9 @@
+owner = IBE
+controller = IBE
+add_core = SPA
+add_core = IBE
+add_core = MOR
+trade_goods = precious_goods
+terrain = urban
+life_rating = 35
+colonial = 2

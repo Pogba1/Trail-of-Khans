@@ -1,0 +1,10 @@
+add_core = LSK
+trade_goods = timber
+terrain = mountain
+life_rating = 35
+1861.1.1 = {
+owner = USA
+controller = USA
+add_core = USA
+remove_core = COL
+}

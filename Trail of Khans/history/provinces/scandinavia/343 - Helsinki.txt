@@ -1,0 +1,9 @@
+owner = NOV
+controller = NOV
+add_core = NOV
+add_core = FIN
+add_core = RUS
+trade_goods = grain
+life_rating = 35
+naval_base = 1
+1861.1.1 = { railroad = 1 }
