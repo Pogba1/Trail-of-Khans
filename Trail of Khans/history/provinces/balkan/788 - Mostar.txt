@@ -1,7 +1,7 @@
-owner = HPS
-controller = HPS
-add_core = HPS
+owner = DLM
+controller = DLM
+add_core = DLM
 add_core = BOS
-add_core = SER
+
 trade_goods = grain
 life_rating = 35
