@@ -613,11 +613,11 @@ HPS_hms_government_ADJ;Habsburg;x
 HPS_absolute_monarchy;Habsburg Empire;x
 HPS_prussian_constitutionalism;Hapbburg Empire;x
 HPS_hms_government;Hapbburg Empire;x
-SVF;Iran;x
-SVF_ADJ;Afsharid;x
-SVF_absolute_monarchy;Afsharid Empire;x
-SVF_prussian_constitutionalism;Afsharid Empire;x
-SVF_hms_government;Afsharid Empire;x
+SVF;Seljuks;x
+SVF_ADJ;Seljuk;x
+SVF_absolute_monarchy;Seljuk Empire;x
+SVF_prussian_constitutionalism;Seljuk Empire;x
+SVF_hms_government;Seljuk Empire;x
 post_napoleonic_thought;Post-Revolutionary Thought;x
 post_napoleonic_army_doctrine;Post-Revolutionary Army Doctrine;x
 will_receive_title;Request a Grant;x
@@ -707,6 +707,8 @@ BYE;White Rus;x
 BYE_ADJ;Byelorussian;x
 BYE_democracy;White Russian Republic;x
 BYE_absolute_monarchy;Grand Duchy of White Russia;x
+BYE_prussian_constitutionalism;Grand Duchy of White Russia;x
+BYE_hms_government;Grand Duchy of White Russia;x
 EAS;East Frisia;x
 EAS_ADJ;East Frisian;x
 EAS_democracy;Frisian Republic;x
@@ -723,10 +725,11 @@ AND;Al Andalus;x
 AND_ADJ;Andalusian;x
 JER;Jerusalem;x
 JER_ADJ;Crusader;x
-JER_democracy;Republic of Israel;x
-JER_democracy_ADJ;Israelite;x
-JER_monarchy;Kingdom of Jerusalem;x
-JER_monarchy_ADJ;Crusader;x
+JER_democracy;Republic of Palestine;x
+JER_democracy_ADJ;Palestinian;x
+JER_absolute_monarchy;Kingdom of Jerusalem;x
+JER_prussian_constitutionalism;Kingdom of Jerusalem;x
+JER_hms_government;Kingdom of Jerusalem;x
 PNT;Empire of Trebizond;x
 PNT_ADJ;Trapzon;x
 PNT_republic;Commonwealth of Caucasia;x
