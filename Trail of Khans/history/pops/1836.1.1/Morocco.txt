@@ -699,20 +699,20 @@
 #Melilla (500 POPS)
 1689 = {
     bureaucrats = {
-        culture = spanish
-        religion = catholic
+        culture = portuguese
+        religion = sunni
         size = 5
     }
 
     artisans = {
-        culture = spanish
-        religion = catholic
+        culture = portuguese
+        religion = sunni
         size = 10
     }
 
     soldiers = {
-        culture = spanish
-        religion = catholic
+        culture = portuguese
+        religion = sunni
         size = 40
     }
 
@@ -770,38 +770,38 @@
 2590 = {
 
     aristocrats = {
-        culture = spanish
-        religion = catholic
+        culture = portuguese
+        religion = sunni
         size = 5
     }
 
     bureaucrats = {
-        culture = spanish
-        religion = catholic
+        culture = portuguese
+        religion = sunni
         size = 5
     }
 
     clergymen = {
-        culture = spanish
-        religion = catholic
+        culture = portuguese
+        religion = sunni
         size = 20
     }
 
     artisans = {
-        culture = spanish
-        religion = catholic
+        culture = portuguese
+        religion = sunni
         size = 50
     }
 
     soldiers = {
-        culture = spanish
-        religion = catholic
+        culture = portuguese
+        religion = sunni
         size = 150
     }
 
     farmers = {
-        culture = spanish
-        religion = catholic
+        culture = portuguese
+        religion = sunni
         size = 300
     }
 

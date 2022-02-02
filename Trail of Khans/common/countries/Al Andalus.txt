@@ -2,7 +2,7 @@ color = { 19 100 44 }
 graphical_culture = MoroccoGC
 
 party = {
-    name = "ARA_conservative"
+    name = "AND_conservative"
     start_date = 1800.1.1
     end_date = 2000.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-    name = "ARA_liberal"
+    name = "AND_liberal"
     start_date = 1810.1.1
     end_date = 1936.1.1
 
@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-    name = "ARA_reactionary"
+    name = "AND_reactionary"
     start_date = 1810.1.1
     end_date = 2000.1.1
 
@@ -46,7 +46,7 @@ party = {
     war_policy = jingoism
 }
 party = {
-    name = "ARA_reactionary2"
+    name = "AND_reactionary2"
     start_date = 1810.1.1
     end_date = 2000.1.1
 
@@ -61,7 +61,7 @@ party = {
 }
 
 party = {
-    name = "ARA_anarcho_liberal"
+    name = "AND_anarcho_liberal"
     start_date = 1810.1.1
     end_date = 2000.1.1
 
@@ -76,7 +76,7 @@ party = {
 }
 
 party = {
-    name = "ARA_socialist"
+    name = "AND_socialist"
     start_date = 1818.1.1
     end_date = 2000.1.1
 
@@ -91,7 +91,7 @@ party = {
 }
 
 party = {
-    name = "ARA_communist"
+    name = "AND_communist"
     start_date = 1818.1.1
     end_date = 2000.1.1
 
@@ -106,7 +106,7 @@ party = {
 }
 
 party = {
-    name = "ARA_fascist"
+    name = "AND_fascist"
     start_date = 1805.1.1
     end_date = 2000.1.1
 

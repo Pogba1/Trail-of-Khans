@@ -472,14 +472,14 @@ iberian = {
         radicalism = 15
     }
     spanish = {
-        color = {220 220 30}
+        color = {91 70 99}
         first_names = { Agustín Alberto Alejandro Alfonso Álvaro Antonio "Antonio María" Arsenio Augusto Baldomero
         Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
         Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
         "Francisco Javier" Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
         Joaquín José "José Antonio" "José Manuel" "José María" Juan "Juan Bautista" Julio Leopoldo Lorenzo
         Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
-        Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente }
+        Pedro Rafael Raimundo Ramón Ricardo Sabino Santiago Tomás Sebastián Segismundo Valeriano Vicente }
 
     last_names = { Acuña Aguirre Alcalá-Zamora Allendesalazar Alonso Álvarez "Álvarez de Toledo" Aranda Argüelles-Meres Asensio
         Aznar Barradas Bugallal Cabrera "Cagigal de la Vega" Cano Cervera "de Albornoz" "de Borbón"
@@ -504,22 +504,24 @@ iberian = {
         Roig Sala Saliquet Savalls Serra Sor Tristany Verdaguer Virigili Vives }
     }
     portuguese = {
-        color = {160 220 30}
-        first_names = { Abel Adriano Afonso Alberto Alexandre Alfredo Álvaro André António Aquilino
-        Artur Augusto Bartolomeu Bernardo Bruno Caetano Cândido Carlos Christovão Cláudio
-        Damião Daniel David Dinis Diogo Duarte Ernesto Estêvão Eugénio Fernando
-        Filipe Francisco "Francisco Xavier" Gastão Hermenegildo Ignácio Jerônimo João Joaquim Jorge
-        José Julio Leopoldo Luís Manuel Mário Miguel Nicolau Nuno Orlando
-        Oscar Pascoal Paulo Pedro Rafael Raul Roberto Rodrigo Rui Santiago
-        Sebastião Teodoro Teófilo Tiago Tomé Urbano Vasco Vicente Vitorino Vitório }
+        color = {81 99 70}
+        first_names = {
+            "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali
+            Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid Mahmud
+            Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim Shukri
+            Tawfiq Umar Uthman Yahya Yusuf Zafir
+            }
 
-        last_names = { Amaral Barreto Bleck Braga Cabral Capelo Carmona Coelho Correia Coutinho
-        "da Costa" "da Cunha" "da Silva" "de Albuquerque" "de Almeida" "de Arriaga" "de Bragança" "de Bragança-Coburgo" "de Carvalho"
-        "de Castro" "de Gusmão" "de Lacerda" "de Mesquita" "de Moura" "de Noronha" "de Oliveira" "de Paiva" "de Sousa" "de Vasconcelos"
-        Dias "dos Reis" "dos Santos" Fernandes Ferreira Figueira "Freire de Andrade" Gago Gil Gomes
-        Herculano Ivens Keil Lopes Machado Magalhães Mendes Moniz Mouzinho Nogueira
-        Nunes Ortigão Pereira Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha
-        Ribeiro Rodrigues Salazar Sampaio Sérgio Silveira Tavares Teixeira Vidigal Vieira }
+        last_names = {
+            "al-Annabi" "al-Araishi" "al-Asfawi" "al-Binzarti" "al-Fasi" "al-Gharyani"
+            "al-Jaza'iri" "al-Miknasi" "al-Misurati" "al-Murrakushi" "al-Qabisi" "al-Qayrawani" "al-Ribati" "al-Safaqisi"
+            "al-Silawi" "al-Sirti" "al-Susawi" "al-Tilimsani" "al-Tanjawi" "al-Tatwani" "al-Trablusi" "al-Tunusi"
+            "al-Wahrani" "al-Warqali" "al-Wujdi"
+            "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+            "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid"
+            "ibn Muhammad" "ibn Mustafa" "ibn Salim"
+            "ibn Umar" "ibn Uthman" "ibn Yusuf"
+            }
     }
 }
 
