@@ -496,8 +496,7 @@
 	}
 	
 	clergymen = {
-		culture = south_german_german
-		religion = catholic
+		culture = south_german		religion = catholic
 		size = 270
 	}
 

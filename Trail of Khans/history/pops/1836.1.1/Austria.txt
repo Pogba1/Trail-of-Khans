@@ -150,6 +150,140 @@
 #under the rule of Austria in 1836
 #Graz (380000/95000 POPS)
 616 = {
+	aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 125
+    }
+
+    bureaucrats = {
+        culture = south_german
+        religion = catholic
+        size = 400
+    }
+
+    officers = {
+        culture = south_german
+        religion = catholic
+        size = 200
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    craftsmen = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 1400
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 1100
+    }
+	clergymen = {
+        culture = south_german
+        religion = protestant
+        size = 100
+    }
+
+    artisans = {
+        culture = south_german
+        religion = protestant
+        size = 100
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = protestant
+        size = 100
+    }
+
+    farmers = {
+        culture = south_german
+        religion = protestant
+        size = 3850
+    }
+	aristocrats = {
+        culture = south_german
+        religion = protestant
+        size = 350
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = protestant
+        size = 100
+    }
+
+    artisans = {
+        culture = south_german
+        religion = protestant
+        size = 350
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = protestant
+        size = 100
+    }
+
+    farmers = {
+        culture = south_german
+        religion = protestant
+        size = 6175
+    }
+	aristocrats = {
+        culture = south_german
+        religion = protestant
+        size = 350
+    }
+
+    bureaucrats = {
+        culture = south_german
+        religion = protestant
+        size = 250
+    }
+
+    officers = {
+        culture = south_german
+        religion = protestant
+        size = 100
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = protestant
+        size = 100
+    }
+
+    artisans = {
+        culture = south_german
+        religion = protestant
+        size = 850
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = protestant
+        size = 100
+    }
+
+    farmers = {
+        culture = south_german
+        religion = protestant
+        size = 3320
+    }
     aristocrats = {
         culture = south_german
         religion = catholic
@@ -194,6 +328,47 @@
 }
 #Judenburg (168000/42000 POPS)
 617 = {
+	aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 1400
+    }
+
+    bureaucrats = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 825
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 5500
+    }
+
+    craftsmen = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 1100
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 71075
+    }
     aristocrats = {
         culture = south_german
         religion = catholic
@@ -232,6 +407,53 @@
 }
 #Klagenfurt (188000/47000 POPS)
 618 = {
+	aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 1300
+    }
+
+    bureaucrats = {
+        culture = south_german
+        religion = catholic
+        size = 350
+    }
+
+    officers = {
+        culture = south_german
+        religion = catholic
+        size = 250
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 475
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 3900
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 700
+    }
+
+    craftsmen = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 32925
+    }
     aristocrats = {
         culture = south_german
         religion = catholic
@@ -558,6 +780,47 @@
 }
 #Krems (240000/60000 POPS)
 621 = {
+	aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 250
+    }
+
+    officers = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = south_german
+        religion = catholic
+        size = 140
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 200
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 1550
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 200
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 14610
+    }
     aristocrats = {
         culture = south_german
         religion = catholic
@@ -590,6 +853,53 @@
 }
 #Linz (588000/147000 POPS)
 622 = {
+	aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 3500
+    }
+
+    bureaucrats = {
+        culture = south_german
+        religion = catholic
+        size = 1550
+    }
+
+    officers = {
+        culture = south_german
+        religion = catholic
+        size = 800
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 275
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 7700
+    }
+
+    craftsmen = {
+        culture = south_german
+        religion = catholic
+        size = 300
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 300
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 5775
+    }
     aristocrats = {
         culture = south_german
         religion = catholic
