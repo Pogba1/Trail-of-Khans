@@ -1,8 +1,9 @@
-owner = MEX
-controller = MEX
-add_core = MEX
+owner = FRA
+controller = FRA
+add_core = LOU
 trade_goods = cotton
 life_rating = 35
+colonial = 2
 
 party_loyalty = {
     ideology = conservative

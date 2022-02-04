@@ -1,12 +1,4 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
-BRN_ADJ;Brandenburger;x
-AND_liberal;Islamic Liberal faction;Liberal Faction;Liberal Faction;;Liberal Faction;;;;;;;;;
-AND_conservative;Islamic Conservative Faction;Conservative Faction;;Conservative Faction;;;;;;;;;;
-AND_reactionary;Islamic Fundamentalist Faction;Monarchist Faction;Monarchist Faction;;Monarchist Faction;;;;;;;;;
-AND_socialist;Socialist Faction;Labour Faction;Labour Faction;;Labour Faction;;;;;;;;;
-AND_anarcho_liberals;Anarchist Faction;Anarchist Faction;Anarchist Faction;;Anarchist Faction;;;;;;;;;
-AND_communist;Communist Faction;Communist Faction;Communist Faction;;Communist Faction;;;;;;;;;
-AND_fascist;Mujahideen Faction;Norman Faction;Norman Faction;;Norman Faction;;;;;;;;;
 portuguese;Andalusian;x
 spanish;Asturian;x
 PROV994;Ingria;x
@@ -19,24 +11,6 @@ MCK_hms_government;Jurchen;x
 MCK_prussian_constitutionalism;Jurchen;x
 OIR;Oirat;x
 OIR_ADJ;Mongolian;x
-MEX;Messico;x
-MEX_ADJ;Messican;x
-MEX_absolute_monarchy_ADJ;Messican;x
-MEX_hms_government_ADJ;Messican;x
-MEX_prussian_constitutionalism_ADJ;Messican;x
-MEX_fascist_dictatorship_ADJ;Messican;x
-MEX_democracy_ADJ;Messican;x
-MEX_bourgeois_dictatorship_ADJ;Messican;x
-MEX_presidential_dictatorship_ADJ;Messican;x
-MEX_proletarian_dictatorship_ADJ;Messican;x
-MEX_absolute_monarchy;Impero del Messico;x
-MEX_hms_government;Impero del Messico;x
-MEX_prussian_constitutionalism;Impero del Messico;x
-MEX_fascist_dictatorship;Messico;x
-MEX_democracy;Repubblica Messicana;x
-MEX_bourgeois_dictatorship;Messico;x
-MEX_presidential_dictatorship;Messico;x
-MEX_proletarian_dictatorship;Repubblica Popolare del Messico;x
 NOV;Novgorod;x
 NOV_ADJ;Novgorodian;x
 NOV_absolute_monarchy_ADJ;Novgorodian;x
@@ -663,14 +637,14 @@ negotiated_transfer;Negotiated Transfer;x
 negotiated_transfer_short;Negotiated Transfer;x
 take_capital;Take Capital;x
 take_capital_short;Take Capital;x
-louisianian;Beaucouplais;x
+louisianian;Louisianais;x
 creole;Creole;x
 iroquois;Iroquois;x
-LOU;Beaucouple;;;;;;;;;;;;;
-LOU_ADJ;Beaucouplais;;;;;;;;;;;;;
-LOU_absolute_monarchy;Kingdom of Beaucouple;;;;;;;;;;;;;
-LOU_hms_government;Kingdom of Beaucouple;;;;;;;;;;;;;
-LOU_prussian_constitutionalism;Kingdom of Beaucouple;;;;;;;;;;;;;
+LOU;Louisiana;;;;;;;;;;;;;
+LOU_ADJ;Louisianais;;;;;;;;;;;;;
+LOU_absolute_monarchy;Kingdom of Louisiana;;;;;;;;;;;;;
+LOU_hms_government;Kingdom of Louisiana;;;;;;;;;;;;;
+LOU_prussian_constitutionalism;Kingdom of Louisiana;;;;;;;;;;;;;
 IRO;Iroquois Confederation;;;;;;;;;;;;;
 IRO_ADJ;Iroquois;;;;;;;;;;;;;
 seminoles;Seminoles;;;;;;;;;;;;;

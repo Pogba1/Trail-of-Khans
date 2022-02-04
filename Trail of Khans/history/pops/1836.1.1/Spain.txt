@@ -66,18 +66,13 @@
     soldiers = {
         culture = spanish
         religion = catholic
-        size = 3100
+        size = 1100
     }
 
     labourers = {
         culture = spanish
         religion = catholic
         size = 100850
-    }
-	craftsmen = {
-        culture = spanish
-        religion = catholic
-        size = 10000
     }
 
     clergymen = {
@@ -170,7 +165,7 @@
     soldiers = {
         culture = spanish
         religion = catholic
-        size = 3000
+        size = 700
     }
 
     farmers = {
@@ -1908,12 +1903,12 @@
     farmers = {
         culture = portuguese
         religion = sunni
-        size = 152200
+        size = 102200
     }
 	farmers = {
         culture = spanish
         religion = catholic
-        size = 20220
+        size = 10220
     }
 }
 #Cordoba (324000/81000 POPS)
@@ -1939,13 +1934,13 @@
     soldiers = {
         culture = portuguese
         religion = sunni
-        size = 9100
+        size = 3100
     }
 
     farmers = {
         culture = portuguese
         religion = sunni
-        size = 208500
+        size = 188500
     }
 }
 #Huelva (140000/35000 POPS)
@@ -2143,32 +2138,32 @@
 #Jaen (270000/67500 POPS)
 516 = {
     aristocrats = {
-        culture = portuguese
-        religion = sunni
+        culture = spanish
+        religion = catholic
         size = 1700
     }
 
     clergymen = {
-        culture = portuguese
-        religion = sunni
+        culture = spanish
+        religion = catholic
         size = 600
     }
 
     artisans = {
-        culture = portuguese
-        religion = sunni
+        culture = spanish
+        religion = catholic
         size = 6000
     }
 
     soldiers = {
-        culture = portuguese
-        religion = sunni
+        culture = spanish
+        religion = catholic
         size = 1100
     }
 
     farmers = {
-        culture = portuguese
-        religion = sunni
+        culture = spanish
+        religion = catholic
         size = 78200
     }
 
