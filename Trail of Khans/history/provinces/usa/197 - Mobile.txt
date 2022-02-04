@@ -1,8 +1,7 @@
-owner = IBE
-controller = IBE
+owner = MEX
+controller = MEX
 trade_goods = cotton
 life_rating = 35
-colonial = 2
 
 party_loyalty = {
     ideology = conservative

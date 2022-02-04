@@ -183,132 +183,132 @@ army = {
         home = 399
     }
 }
-army = {
-    name = "Armée Louisianais"
-    location = 139
-    regiment = {
-        name= "1.Brigade Coloniale"
-        type = infantry
-        home = 400
-    }
-
-    regiment = {
-        name= "2. Brigade Coloniale"
-        type = cavalry
-        home = 400
-    }
-
-    regiment = {
-        name= "3.Brigade Coloniale"
-        type = cavalry
-        home = 423
-    }
-
-    regiment = {
-        name= "4.Brigade Coloniale"
-        type = infantry
-        home = 423
-    }
-
-    regiment = {
-        name= "5.Brigade Coloniale"
-        type = infantry
-        home = 139
-    }
-
-    regiment = {
-        name= "6.Brigade Coloniale"
-        type = artillery
-        home = 140
-    }
-
-    regiment = {
-        name= "7.Brigade Coloniale"
-        type = artillery
-        home = 192
-    }
-
-    regiment = {
-        name= "8.Brigade Coloniale"
-        type = artillery
-        home = 195
-    }
-
-    regiment = {
-        name= "9.Brigade Coloniale"
-        type = artillery
-        home = 194
-    }
-
-    regiment = {
-        name= "10.Brigade Coloniale"
-        type = artillery
-        home = 197
-    }
-}
-army = {
-    name = "Armée Canadien"
-    location = 65
-    regiment = {
-        name= "11.Brigade Coloniale"
-        type = infantry
-        home = 395
-    }
-
-    regiment = {
-        name= "12. Brigade Coloniale"
-        type = cavalry
-        home = 395
-    }
-
-    regiment = {
-        name= "13.Brigade Coloniale"
-        type = cavalry
-        home = 397
-    }
-
-    regiment = {
-        name= "14.Brigade Coloniale"
-        type = infantry
-        home = 455
-    }
-
-    regiment = {
-        name= "15.Brigade Coloniale"
-        type = infantry
-        home = 460
-    }
-
-    regiment = {
-        name= "16.Brigade Coloniale"
-        type = artillery
-        home = 457
-    }
-
-    regiment = {
-        name= "17.Brigade Coloniale"
-        type = artillery
-        home = 463
-    }
-
-    regiment = {
-        name= "18.Brigade Coloniale"
-        type = artillery
-        home = 451
-    }
-
-    regiment = {
-        name= "19.Brigade Coloniale"
-        type = artillery
-        home = 414
-    }
-
-    regiment = {
-        name= "20.Brigade Coloniale"
-        type = artillery
-        home = 398
-    }
-}
+#army = {
+#    name = "Armée Louisianais"
+#    location = 139
+#    regiment = {
+#        name= "1.Brigade Coloniale"
+#        type = infantry
+#        home = 400
+#    }
+#
+#    regiment = {
+#        name= "2. Brigade Coloniale"
+#        type = cavalry
+#        home = 400
+#    }
+#
+#    regiment = {
+#        name= "3.Brigade Coloniale"
+#        type = cavalry
+#        home = 423
+#    }
+#
+#    regiment = {
+#        name= "4.Brigade Coloniale"
+#        type = infantry
+#        home = 423
+#    }
+#
+#    regiment = {
+#        name= "5.Brigade Coloniale"
+#        type = infantry
+#        home = 139
+#    }
+#
+#    regiment = {
+#        name= "6.Brigade Coloniale"
+#        type = artillery
+#        home = 140
+#    }
+#
+#    regiment = {
+#        name= "7.Brigade Coloniale"
+#        type = artillery
+#        home = 192
+#    }
+#
+#    regiment = {
+#        name= "8.Brigade Coloniale"
+#        type = artillery
+#        home = 195
+#    }
+#
+#    regiment = {
+#        name= "9.Brigade Coloniale"
+#        type = artillery
+#        home = 194
+#    }
+#
+#    regiment = {
+#        name= "10.Brigade Coloniale"
+#        type = artillery
+#        home = 197
+#    }
+#}
+#army = {
+#    name = "Armée Canadien"
+#    location = 65
+#    regiment = {
+#        name= "11.Brigade Coloniale"
+#        type = infantry
+#        home = 395
+#    }
+#
+#    regiment = {
+#        name= "12. Brigade Coloniale"
+#        type = cavalry
+#        home = 395
+#    }
+#
+#    regiment = {
+#        name= "13.Brigade Coloniale"
+#        type = cavalry
+#        home = 397
+#    }
+#
+#    regiment = {
+#        name= "14.Brigade Coloniale"
+#        type = infantry
+#        home = 455
+#    }
+#
+#    regiment = {
+#        name= "15.Brigade Coloniale"
+#        type = infantry
+#        home = 460
+#    }
+#
+#    regiment = {
+#        name= "16.Brigade Coloniale"
+#        type = artillery
+#        home = 457
+#    }
+#
+#    regiment = {
+#        name= "17.Brigade Coloniale"
+#        type = artillery
+#        home = 463
+#    }
+#
+#    regiment = {
+#        name= "18.Brigade Coloniale"
+#        type = artillery
+#        home = 451
+#    }
+#
+#    regiment = {
+#        name= "19.Brigade Coloniale"
+#        type = artillery
+#        home = 414
+#    }
+#
+#    regiment = {
+#        name= "20.Brigade Coloniale"
+#        type = artillery
+#        home = 398
+#    }
+#}
 army = {
     name = "1ère Armée"
     location = 409

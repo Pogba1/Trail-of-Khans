@@ -2442,6 +2442,47 @@
 #under the rule of Saxe-Meiningen 1836
 #Meiningen (208000/52000 POPS)
 563 = {
+	aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 350
+    }
+
+    bureaucrats = {
+        culture = south_german
+        religion = catholic
+        size = 475
+    }
+
+    officers = {
+        culture = south_german
+        religion = catholic
+        size = 350
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 800
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 4500
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 850
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 75025
+    }
     aristocrats = {
         culture = north_german
         religion = protestant
@@ -5193,6 +5234,7 @@
 #under the rule of Bavaria in 1836
 #Munich (960000/220000 POPS)
 599 = {
+	
     aristocrats = {
         culture = south_german
         religion = catholic
@@ -5311,6 +5353,156 @@
 }
 #Landshut (164000/41000 POPS)
 600 = {
+	aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 1100
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 150
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 800
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 150
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 12900
+    }
+	clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 450
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 6425
+    }
+	clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 450
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 5425
+    }
+	clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 600
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 4300
+    }
+	aristocrats = {
+        culture = south_german
+        religion = protestant
+        size = 200
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = protestant
+        size = 50
+    }
+
+    artisans = {
+        culture = south_german
+        religion = protestant
+        size = 350
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = protestant
+        size = 100
+    }
+
+    farmers = {
+        culture = south_german
+        religion = protestant
+        size = 5350
+    }
+	clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 125
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 750
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 1000
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 13125
+    }
     aristocrats = {
         culture = south_german
         religion = catholic
@@ -5375,6 +5567,41 @@
 }
 #Regensburg (248000/62000 POPS)
 602 = {
+	aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 2250
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 500
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 4300
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 300
+    }
+
+    serfs = {
+        culture = south_german
+        religion = catholic
+        size =  26850
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 31000
+    }
     aristocrats = {
         culture = south_german
         religion = catholic

@@ -3,22 +3,6 @@
 #North Island Region (61000)
 #Auckland (17000/4250 POPS)
 2509 = {
-	aristocrats = {
-        culture = zeelander
-        religion = protestant
-        size = 50
-    }
-	bureaucrats = {
-		culture = zeelander
-		religion = protestant
-		size = 100
-	}
-	
-	farmers = {
-		culture = zeelander
-		religion = protestant
-		size = 775
-	}
     aristocrats = {
         culture = maori
         religion = animist
@@ -48,22 +32,7 @@
 
 #New Plymouth (8000/2000 POPS)
 2510 = {
-	aristocrats = {
-        culture = zeelander
-        religion = protestant
-        size = 25
-    }
-	bureaucrats = {
-		culture = zeelander
-		religion = protestant
-		size = 50
-	}
 	
-	farmers = {
-		culture = zeelander
-		religion = protestant
-		size = 385
-	}
     aristocrats = {
         culture = maori
         religion = animist
@@ -120,22 +89,7 @@
 }
 #Napier (12000/3000 POPS)
 2511 = {
-	aristocrats = {
-        culture = zeelander
-        religion = protestant
-        size = 25
-    }
-	bureaucrats = {
-		culture = zeelander
-		religion = protestant
-		size = 50
-	}
-	
-	farmers = {
-		culture = zeelander
-		religion = protestant
-		size = 385
-	}
+
     aristocrats = {
         culture = maori
         religion = animist
@@ -174,22 +128,6 @@
 }
 #Wellington (12000/3000 POPS)
 2512 = {
-	aristocrats = {
-        culture = zeelander
-        religion = protestant
-        size = 25
-    }
-	bureaucrats = {
-		culture = zeelander
-		religion = protestant
-		size = 50
-	}
-	
-	farmers = {
-		culture = zeelander
-		religion = protestant
-		size = 385
-	}
     aristocrats = {
         culture = maori
         religion = animist
@@ -229,20 +167,20 @@
 #Tauranga (12000/3000 POPS)
 2571 = {
 	aristocrats = {
-        culture = zeelander
-        religion = protestant
-        size = 8
+        culture = maori
+        religion = animist
+        size = 25
     }
 	bureaucrats = {
-		culture = zeelander
-		religion = protestant
-		size = 13
+		culture = maori
+        religion = animist
+		size = 50
 	}
 	
 	farmers = {
-		culture = zeelander
-		religion = protestant
-		size = 129
+		culture = maori
+        religion = animist
+		size = 450
 	}
     aristocrats = {
         culture = maori
@@ -470,19 +408,19 @@
 #Nelson (12000/3000 POPS)
 2516 = {
     aristocrats = {
-        culture = zeelander
-        religion = protestant
+        culture = maori
+        religion = animist
         size = 25
     }
 	bureaucrats = {
-		culture = zeelander
-		religion = protestant
+		culture = maori
+        religion = animist
 		size = 50
 	}
 	
 	farmers = {
-		culture = zeelander
-		religion = protestant
+		culture = maori
+        religion = animist
 		size = 450
 	}
 	

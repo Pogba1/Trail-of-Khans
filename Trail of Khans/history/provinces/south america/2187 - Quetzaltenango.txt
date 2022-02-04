@@ -1,7 +1,6 @@
-owner = GCO
-controller = GCO
-add_core = GUA
-add_core = LOS
+owner = MEX
+controller = MEX
+add_core = MEX
 trade_goods = iron
 life_rating = 33
 1861.1.1 = {
