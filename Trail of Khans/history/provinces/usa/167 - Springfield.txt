@@ -1,10 +1,5 @@
-owner = FRA
-controller = FRA
-add_core = IRO
-add_core = LOU
 trade_goods = cattle
 life_rating = 35
-colonial = 2
 
 party_loyalty = {
     ideology = conservative

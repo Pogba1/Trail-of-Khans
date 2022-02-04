@@ -1,8 +1,7 @@
-owner = USA
-
-controller = USA
-
-add_core = USA
+owner = NET
+controller = NET
+add_core = QUE
+add_core = NET
 trade_goods = grain
 
 life_rating = 35

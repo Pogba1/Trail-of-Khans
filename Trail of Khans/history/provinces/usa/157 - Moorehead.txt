@@ -1,8 +1,6 @@
-owner = GPN
-controller = GPN
-add_core = GPN
+owner = QUE
+controller = QUE
 add_core = QUE
 trade_goods = timber
 life_rating = 35
-colonial = 0
 1861.1.1 = { colonial = 0 }

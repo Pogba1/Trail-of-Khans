@@ -1,9 +1,5 @@
-owner = GPN
-controller = GPN
-add_core = GPN
-add_core = LOU
 trade_goods = timber
-life_rating = 35
+life_rating = 30
 colonial = 0
 
 party_loyalty = {

@@ -2137,11 +2137,60 @@ neo_european_cultures = {
         }
     }
     french_canadian = {
-        color = {168 195 255}
+        color = {176 155 116}
 		primary = QUE
-        first_names = { Narcisse René Èdouard Luc Letellier Théodore Louis Francois Auguste Joseph Pierre Luis-Phillippe Jean Gaspard Eugéne Èssioff Huguel Jean-Pierre Gilles
+        first_names = {
+            Adolf Adriaan Alexander Andreas Antoon Andries Antonius Abraham
+            Barthout
+            Casimir Constantijn Cornelis Christiaan Christoffel
+            Daniël David Dominicus Daniel Dirk
+            Elias Ernst Erwin Eise
+            Frans Frederik
+            Gijsbert Godfried Gustaaf Gaspar Gabriel Gerard Gerben
+            Hendrik Hans Hugo
+            Isaac
+            Johan Jurgen Jacob Jeroen Jan Joost
+            Karel Kasper
+            Luuk Lodewijk Laurens
+            Marius Matthijs Maximiliaam Merkus Moritz Maurits
+            Nikolaas
+            Pauwel Paul Pieter
+            Quinten
+            Rafaël Ruben Rudolf Roeland Rogier Rutger
+            Stefan Simon
+            Thomas
+            Victor Willem Vincent
+            Zacharias
         }
-        last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Pantaléon Langelier Damasne LeBlanc Brodeur Perodeau
+
+        last_names = {
+            "van der Aa" "van Assendelft"
+            Boetge Boumeester "van Bronkhorst" Batenburg Bentinck Boreel Brandt "van Brederode" Brouwer Buyskes "van Braam Houckgeest"
+            "van der Capellen" Chassé Cochius Coops "de Casembroot" Cleerens Coehoorn Coen "de Constant Rebecque" Crijnssen
+
+            "van Culemborg"
+            Duycker    "de Eerens" "de Kock" Deijkerhoff "den Beer Poortugael" Daendels "van Diemen" "van der Does" "van Duivenvoorde"
+            Ellis Engels Engelvaart "van Egmont" Evertzen
+            Fabius
+            Gregory "van Galen" "de Grouwe" "van Geen"
+            "van Ham" "van Haren" "van Heemskerck" "van Heutsz" "Cort-Heyligers" "de Houtman" "van Huchtenbroek"
+            "van Ilpendam"
+            Janssens
+            Köhler Kool Kruys Kater "van Keppel" Kortenaer
+            List Lucas
+            Michiels "van Marnix" Martena "de Moor" "Melvill van Carnbee"
+            Nepveu Nachtegaal "van Nieuwenaar" "van Noort"
+            Ongerboer
+            "van Pallandt"
+            Rijk Röell "van Raephorst" "van Rechteren" Reijersen "van Renesse" "van Riebeeck" "de Rijk" "van Rossum"
+            Sabron "Schimmelpenninck van der Oye" "van Saksen-Weimar" "van Spilbergen" Staal Stokhuyzen Schouten Schenk Spiegel
+
+            Steltman Stuyvesant
+            Tasman "van Troyen" Trip
+            "van Dambenoy" "van den Bosch" "van der Heijden" "van Hoensbroeck" "van Oranje-Nassau" "van Swieten"
+            "van Vredenburch" Verspijck Vetter Weitzel "Van Utenhove"
+            "van Walbeeck" "van Wassenaer" "van der Werff" "van Wesembeke" "van Wingle" "van der Wijck" "van Wijngaarden" "de Winter"
+            Wolterbeek
         }
         radicalism = 10
     }
@@ -2184,19 +2233,17 @@ latin_american_cultures = {
     unit = SouthAmericanGC
     mexican = {
         color = {51 117 62}
-        first_names = { Adrián Agustín Álvaro Anastasio Andrés Ángel Antonio Bernardo Emiliano Emilio
-        Enrique Ernesto Felipe Félix Francisco "Francisco Javier" Gabriel Gaspar Gregorio Ignacio
-        Jerónimo Joaquín José "José Manuel" "José María" Juan "Juan Bautista" Justo Lázaro Manuel
-        Mariano Martín Melchor Miguel Nicolás Pablo Pascual Pedro Porfirio Ramón
-        Ricardo Rómulo Salvador Sebastián Tomás Valentín Valeriano Venustiano Vicente Victoriano
-        }
+        first_names = { Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
+        Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
+        Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
+        Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+        Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio }
 
-        last_names = { Almonte Álvarez Arista Barragán Bocanegra Bravo Bustamante Canalizo Carranza Caserta
-        Cervantes Corona Corra "de Ampudia" "de Cos" "de Itúrbide" Díaz Echeverría Escandón Escobedo
-        Fagoaga "Fernández del Valle" Flores Gómez González Guerrero Huerta Kosterlitzky "López de Santa Ana" Lozada
-        "Martínez del Río" Mejía Miramón Múzquiz Obregón Pedraza Pimentel Reyes "Rincón Gallardo" Robles
-        Ruíz Salas Sánchez "Sarmaniego del Castillo" "Vázquez de la Cadena" Villa Woll Zapata Zaragoza Zuloaga
-        }
+        last_names = { Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
+        Caviglia Ceccherini Cialdini Cusani d'Absburgo-Toscana d'Austria-Este Dezza "di Borbone di Parma" "di Robilant" "di Savoia"
+        "di Savoia-Aosta" Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti
+        Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux Perruchetti Pianelli Porro
+        Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari "Thaon di Revel" Vaccari Zupelli }
     }
     central_american = {
         color = {101 164 172}
