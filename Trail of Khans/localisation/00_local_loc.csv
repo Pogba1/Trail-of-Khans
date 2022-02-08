@@ -1,4 +1,236 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+unite_plc_title;Unite the Polish Empire;x
+unite_plc_desc; ;x
+DESC400001;Rip to a real one;x
+latin;Latin;x
+JER_reactionary;Reactionary Factio;x
+JER_conservative;Factio Conservativa;x
+JER_anarcho_liberal;Anarcho-Liberalis Factio;x
+JER_socialist;Socialisticae Factio;x
+JER_liberal;Factio Liberalis;x
+JER_communist;Factio Communistica;x
+JER_fascist;Fascist Factio;x
+reforge_byzantium_title;Reforge Byzantium;x
+reforge_byzantium_desc;The Failure of the Emperor in 1834 to defend Crete against the Italian states was catastrophic, humiliating the empire and himself. This lead to the themes of the empire to rise up against him, proclaiming themselves as the new emperors, or in some cases, the populace overthrew their noble leaders and replaced them with republics, which is what these themes would do to the empire. Our strong position allows us to reunite the Empire once again, like a phoenix from the ashes.;x
+MAO;Mao Dynasty;x
+MAO_ADJ;Mao;x
+MAO_absolute_monarchy_ADJ;Mao;x
+MAO_hms_government_ADJ;Mao;x
+MAO_prussian_constitutionalism_ADJ;Mao;x
+MAO_fascist_dictatorship_ADJ;Mao;x
+MAO_democracy_ADJ;Mao;x
+MAO_bourgeois_dictatorship_ADJ;Mao;x
+MAO_presidential_dictatorship_ADJ;Mao;x
+MAO_proletarian_dictatorship_ADJ;Mao;x
+MAO_absolute_monarchy;Mao Dynasty;x
+MAO_hms_government;Mao Dynasty;x
+MAO_prussian_constitutionalism;Mao Dynasty;x
+MAO_fascist_dictatorship;People's Republic of China;x
+MAO_democracy;Republic of China;x
+MAO_bourgeois_dictatorship;Chinese Republic;x
+MAO_presidential_dictatorship;Kingdom of China;x
+MAO_proletarian_dictatorship;People's Republic of China;x
+QNG;Shun Dynasty;x
+QNG_ADJ;Shun;x
+QNG_absolute_monarchy_ADJ;Shun;x
+QNG_hms_government_ADJ;Shun;x
+QNG_prussian_constitutionalism_ADJ;Shun;x
+QNG_fascist_dictatorship_ADJ;Shun;x
+QNG_democracy_ADJ;Chinese;x
+QNG_bourgeois_dictatorship_ADJ;Chinese;x
+QNG_presidential_dictatorship_ADJ;Chinese;x
+QNG_proletarian_dictatorship_ADJ;Chinese;x
+QNG_absolute_monarchy;Shun Dynasty;x
+QNG_hms_government;Shun Dynasty;x
+QNG_prussian_constitutionalism;Shun Dynasty;x
+QNG_fascist_dictatorship;Legionnairy China;x
+QNG_democracy;Republic of China;x
+QNG_bourgeois_dictatorship;Chinese Republic;x
+QNG_presidential_dictatorship;Kingdom of China;x
+QNG_proletarian_dictatorship;People's Republic of China;x
+GNG;Ming Dynasty;x
+GNG_ADJ;Ming;x
+GNG_absolute_monarchy_ADJ;Ming;x
+GNG_hms_government_ADJ;Ming;x
+GNG_prussian_constitutionalism_ADJ;Ming;x
+GNG_fascist_dictatorship_ADJ;Ming;x
+GNG_democracy_ADJ;Ming;x
+GNG_bourgeois_dictatorship_ADJ;Ming;x
+GNG_presidential_dictatorship_ADJ;Ming;x
+GNG_proletarian_dictatorship_ADJ;Ming;x
+GNG_absolute_monarchy;Ming Dynasty;x
+GNG_hms_government;Ming Dynasty;x
+GNG_prussian_constitutionalism;Ming Dynasty;x
+GNG_fascist_dictatorship;People's Republic of China;x
+GNG_democracy;Republic of China;x
+GNG_bourgeois_dictatorship;Chinese Republic;x
+GNG_presidential_dictatorship;Kingdom of China;x
+GNG_proletarian_dictatorship;People's Republic of China;x
+FJN;Jiang Dynasty;x
+FJN_ADJ;Jiang;x
+FJN_absolute_monarchy_ADJ;Jiang;x
+FJN_hms_government_ADJ;Jiang;x
+FJN_prussian_constitutionalism_ADJ;Jiang;x
+FJN_fascist_dictatorship_ADJ;Jiang;x
+FJN_democracy_ADJ;Jiang;x
+FJN_bourgeois_dictatorship_ADJ;Chinese;x
+FJN_presidential_dictatorship_ADJ;Chinese;x
+FJN_proletarian_dictatorship_ADJ;Chinese;x
+FJN_absolute_monarchy;Jiang Dynasty;x
+FJN_hms_government;Jiang Dynasty;x
+FJN_prussian_constitutionalism;Jiang Dynasty;x
+FJN_fascist_dictatorship;Social Republic of China;x
+FJN_democracy;Trade Republic of Jiang;x
+FJN_bourgeois_dictatorship;Chinese Republic;x
+FJN_presidential_dictatorship;Kingdom of China;x
+FJN_proletarian_dictatorship;People's Republic of China;x
+XBI;Ma Caliphate;x
+XBI_ADJ;Ma;x
+XBI_absolute_monarchy_ADJ;Ma;x
+XBI_hms_government_ADJ;Ma;x
+XBI_prussian_constitutionalism_ADJ;Ma;x
+XBI_fascist_dictatorship_ADJ;Ma;x
+XBI_democracy_ADJ;Ma;x
+XBI_bourgeois_dictatorship_ADJ;Ma;x
+XBI_presidential_dictatorship_ADJ;Ma;x
+XBI_proletarian_dictatorship_ADJ;Ma;x
+XBI_absolute_monarchy;Ma Caliphate;x
+XBI_hms_government;Ma Caliphate;x
+XBI_prussian_constitutionalism;Ma Caliphate;x
+XBI_fascist_dictatorship;ISIS;x
+XBI_democracy;Republic of Ma;x
+XBI_bourgeois_dictatorship;Xibei San Ma;x
+XBI_presidential_dictatorship;Xibei San Ma;x
+XBI_proletarian_dictatorship;Northwestern People's Republic of Democratic Qinghai;x
+YNN;Xi Dynasty;x
+YNN_ADJ;Xi;x
+YNN_absolute_monarchy_ADJ;Xi;x
+YNN_hms_government_ADJ;Xi;x
+YNN_prussian_constitutionalism_ADJ;Xi;x
+YNN_fascist_dictatorship_ADJ;Yunnanese;x
+YNN_democracy_ADJ;Yunnanese;x
+YNN_bourgeois_dictatorship_ADJ;Yunnanese;x
+YNN_presidential_dictatorship_ADJ;Yunnanese;x
+YNN_proletarian_dictatorship_ADJ;Yunnanese;x
+YNN_absolute_monarchy;Xi Dynasty;x
+YNN_hms_government;Xi Dynasty;x
+YNN_prussian_constitutionalism;Xi Dynasty;x
+YNN_fascist_dictatorship;Yunnan;x
+YNN_democracy;Republic of Yunnan;x
+YNN_bourgeois_dictatorship;Yunnan;x
+YNN_presidential_dictatorship;Yunnan;x
+YNN_proletarian_dictatorship;Yunnan;x
+INC_conservative_1;Council of the Realm ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_conservative_2;Hurin Suyukuna Party;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_fascist;Intip Churin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_liberal_1;Constitutionalists;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_liberal_2;Hanan Suyukuna Party;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_social_liberal;Ayni Party;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_socialist_1;Andine Social Party;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_socialist_2;Catholic Party;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_reactionary_1;Absolute Power;x
+afro_german;Afro-Germanic;x
+afro_brazilian;Afro-Vespuccian;x
+NGV_conservative;Partito Conservatore;x
+NGV_liberal;Liberali;x
+NGV_anarcho_liberal;Anarco-liberali;x
+NGV_conservative_2;Tradizionalisti;x
+NGV_liberal_2;Progressisti;x
+NGV_liberal_3;Unionisti;x
+NGV_conservative_3;Imperialisti;x
+NGV_liberal_4;Partito d'Affari;x
+NGV_reactionary;Monarchici;x
+NGV_socialist;Socialisti;x
+NGV_communist;Comunisti;x
+NGV_fascist;Fascisti;x
+ARG_liberal;Liobralaithe;x
+ARG_conservative;Pairti Coimeadach;x
+ARG_liberal_2;Fhronta Aontaithe;x
+ARG_liberal_3;Forasach;x
+ARG_liberal_4;Poblachtanaigh;x
+ARG_liberal_5;Saoirse;x
+ARG_liberal_6;Aontachtoiri;x
+ARG_reactionary;Pairti Imoibrioch;x
+ARG_anarcho_liberal;Liobralaithe Anarcho;x
+ARG_socialist;Soisialaithe;x
+ARG_communist;Cumannaigh;x
+ARG_fascist;Faisisteach;x
+platinean;Gailenuan;x
+inti;Inti;x
+NGV;Nouvagenova;x
+NGV_ADJ;Nouvagenovan;x
+NGV_absolute_monarchy_ADJ;Nouvagenovan;x
+NGV_hms_government_ADJ;Nouvagenovan;x
+NGV_prussian_constitutionalism_ADJ;Nouvagenovan;x
+NGV_fascist_dictatorship_ADJ;Nouvagenovan;x
+NGV_democracy_ADJ;Nouvagenovan;x
+NGV_bourgeois_dictatorship_ADJ;Nouvagenovan;x
+NGV_presidential_dictatorship_ADJ;Nouvagenovan;x
+NGV_proletarian_dictatorship_ADJ;Nouvagenovan;x
+NGV_absolute_monarchy;Nouvagenova;x
+NGV_hms_government;Nouvagenova;x
+NGV_prussian_constitutionalism;Nouvagenova;x
+NGV_fascist_dictatorship;Nouvagenova;x
+NGV_democracy;Nouvagenova;x
+NGV_bourgeois_dictatorship;Nouvagenova;x
+NGV_presidential_dictatorship;Nouvagenova;x
+NGV_proletarian_dictatorship;Nouvagenova;x
+ARG;Gailenua;x
+ARG_ADJ;Gailenuan;x
+ARG_absolute_monarchy_ADJ;Gailenuan;x
+ARG_hms_government_ADJ;Gailenuan;x
+ARG_prussian_constitutionalism_ADJ;Gailenuan;x
+ARG_fascist_dictatorship_ADJ;Gailenuan;x
+ARG_democracy_ADJ;Gailenuan;x
+ARG_bourgeois_dictatorship_ADJ;Gailenuan;x
+ARG_presidential_dictatorship_ADJ;Gailenuan;x
+ARG_proletarian_dictatorship_ADJ;Gailenuan;x
+ARG_absolute_monarchy;Gailenua;x
+ARG_hms_government;Gailenua;x
+ARG_prussian_constitutionalism;Gailenua;x
+ARG_fascist_dictatorship;Gailenua;x
+ARG_democracy;Gailenua;x
+ARG_bourgeois_dictatorship;Gailenua;x
+ARG_presidential_dictatorship;Gailenua;x
+ARG_proletarian_dictatorship;Gailenuan Workers Commune;x
+INC;Tawantinsuyu;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_ADJ;Inca;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_proletarian_dictatorship;The Socialist Republic of the Andes;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_proletarian_dictatorship_ADJ;Andine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_presidential_dictatorship;The Incan Regency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_bourgeois_dictatorship;The Andes Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_bourgeois_dictatorship_ADJ;Andine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INC_democracy;The Andes Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+brazilian;Vespuccian;x
+cuban;Cuban;x
+BRZ;Vespuccia;x
+BRZ_ADJ;Vespuccia;x
+afro_irish;Afro-Irish;x
+MEX_conservative;Partito Conservatore;x
+MEX_liberal;Liberali;x
+MEX_anarcho_liberal;Anarco-liberali;x
+MEX_conservative_2;Tradizionalisti;x
+MEX_liberal_2;Progressisti;x
+MEX_liberal_3;Unionisti;x
+MEX_conservative_3;Imperialisti;x
+MEX_liberal_4;Partito d'Affari;x
+MEX_reactionary;Monarchici;x
+MEX_socialist;Socialisti;x
+MEX_communist;Comunisti;x
+MEX_fascist;Fascisti;x
+QUE_liberal;Liberale partij;x
+QUE_liberal_2;Vakbondspartij;x
+QUE_conservative;Conservatieven;x
+QUE_socialist;Socialisten;x
+QUE_liberal_3;Progressieven;x
+QUE_reactionary;Koninklijke Regering;x
+QUE_anarcho_liberal;Anarcho-Liberalen'x
+QUE_communist;Arbeiderspartij;x
+QUE_fascist;Fascisten;x
+COL;Salish;x
+COL_ADJ;Salish;x
+end_the_seminole_wars_title;End The Seminole Wars;x
+end_the_seminole_wars_desc; ;x
 french_canadian;Amerikaans;x
 BRN_ADJ;Brandenburger;x
 AND_liberal;Islamic Liberal faction;Liberal Faction;Liberal Faction;;Liberal Faction;;;;;;;;;
@@ -143,9 +375,13 @@ reintegrate_the_lowlands_desc; ;x
 duchy_of_bohemia_title;Duchy of Bohemia;x
 duchy_of_bohemia_desc; ;x
 imperial_restoration;Imperial Restoration;x
-imperial_restoration_setup;Provinces that are formally part of the HRE but not actually part of the HRE are eligible for this CB, this includes cores and certain regions of Europe.;x
+imperial_restoration_setup;This casus-belli is usable on anyone that holds Byzantine cores.;x
 imperial_restoration_cb;Imperial Restoration;x
 imperial_restoration_short;Imperial Restoration;x
+imperial_restoration_annex;Imperial Reintegration;x
+imperial_restoration_annex_setup;This casus-belli is usable on anyone that holds only Byzantine cores.;x
+imperial_restoration_annex_cb;Imperial Reintegration;x
+imperial_restoration_annex_short;Imperial Reintegration;x
 the_question_of_texas_title;The Question of Texas;x
 the_question_of_texas_desc; ;x
 the_question_of_texas_tex_title;Petition For UCNE Annexation;x
@@ -358,8 +594,15 @@ bitter_sentiment;Bitter Sentiment;x
 bitter_sentiment_desc;The population in this province is coping and ,quite possibly, seething at their loss.
 his_majestys_loyal_subjects;His Majesty's Loyal Subjects;x
 his_majestys_loyal_subjects_desc;The whole population, with some exceptions, are fighting to restore the Monarch to the throne.;x
+THR;Thrace-Opsikion;x
+THR_ADJ;Thracian;x
+ATH;Athens;x
+ATH_ADJ;Athenian;x
 EPI;Epirus;x
 EPI_ADJ;Epirote;x
+EPI_absolute_monarchy;Kingdom of Epirus;x
+EPI_prussian_constitutionalism;Kingdom of Epirus;x
+EPI_hms_government;Kingdom of Epirus;x
 dacian_oil_title;Romanian Oil;x
 dacian_oil_desc; ;x
 march_into_florida_title;March Into Florida;x
@@ -642,14 +885,14 @@ HPS_hms_government_ADJ;Habsburg;x
 HPS_absolute_monarchy;Habsburg Empire;x
 HPS_prussian_constitutionalism;Hapbburg Empire;x
 HPS_hms_government;Hapbburg Empire;x
-SVF;Turkey;x
-SVF_ADJ;Turkish;x
-SVF_absolute_monarchy;Seljuk Empire;x
-SVF_prussian_constitutionalism;Seljuk Empire;x
-SVF_hms_government;Seljuk Empire;x
-SVF_absolute_monarchy_ADJ;Seljuk;x
-SVF_prussian_constitutionalism_ADJ;Seljuk;x
-SVF_hms_government_ADJ;Seljuk;x
+SVF;Iranzamin;x
+SVF_ADJ;Iranian;x
+SVF_absolute_monarchy;Iranzamin;x
+SVF_prussian_constitutionalism;Iranzamin;x
+SVF_hms_government;Iranzamin;x
+SVF_absolute_monarchy_ADJ;Iranian;x
+SVF_prussian_constitutionalism_ADJ;Iranian;x
+SVF_hms_government_ADJ;Iranian;x
 post_napoleonic_thought;Post-Revolutionary Thought;x
 post_napoleonic_army_doctrine;Post-Revolutionary Army Doctrine;x
 will_receive_title;Request a Grant;x
@@ -765,7 +1008,10 @@ PNT_republic;Commonwealth of Caucasia;x
 PNT_republic_ADJ;Caucasian;x
 PNT_communist;Plures Union;x
 PNT_communist_ADJ;Trapzon;x
-NCE;Duchy of Nicea;x
+NCE;Nicea;x
+NCE_absolute_monarchy;Duchy of Nicea;x
+NCE_hms_government;Duchy of Nicea;x
+NCE_prussian_constitutionalism;Duchy of Nicea;x
 NCE_ADJ;Nicean;x
-GAL;County of Nicea;x
+GAL;Galatia;x
 GAL_ADJ;Galatian;x

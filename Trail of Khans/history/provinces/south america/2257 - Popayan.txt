@@ -1,7 +1,6 @@
-owner = GCO
-controller = GCO
-add_core = GCO
-add_core = CLM
+owner = BRZ
+controller = BRZ
+add_core = BRZ
 trade_goods = grain
 terrain = montane_forest
 life_rating = 34

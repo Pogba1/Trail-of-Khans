@@ -1,4 +1,6 @@
-add_core = LSK
+add_core = COL
+owner = COL
+controller = COL
 trade_goods = timber
 terrain = mountain
 life_rating = 35

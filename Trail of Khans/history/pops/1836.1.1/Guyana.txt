@@ -3,61 +3,61 @@
 #Georgetown (58600/14650 POPS)
 2239 = {
     aristocrats = {
-        culture = north_andean
+        culture = brazilian
         religion = catholic
         size = 100
     }
 
     bureaucrats = {
-        culture = north_andean
+        culture = brazilian
         religion = catholic
         size = 50
     }
 
     clergymen = {
-        culture = north_andean
+        culture = brazilian
         religion = catholic
         size = 25
     }
 
     artisans = {
-        culture = north_andean
+        culture = brazilian
         religion = catholic
         size = 350
     }
 
     soldiers = {
-        culture = north_andean
+        culture = brazilian
         religion = catholic
         size = 25
     }
 
     farmers = {
-        culture = north_andean
+        culture = brazilian
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = afro_caribbean
+        culture = afro_brazilian
         religion = catholic
         size = 75
     }
 
     artisans = {
-        culture = afro_caribbean
+        culture = afro_brazilian
         religion = catholic
         size = 700
     }
 
     soldiers = {
-        culture = afro_caribbean
+        culture = afro_brazilian
         religion = catholic
         size = 150
     }
 
     farmers = {
-        culture = afro_caribbean
+        culture = afro_brazilian
         religion = catholic
         size = 13075
     }
@@ -97,55 +97,55 @@
 #Essequibo (33000/8250 POPS)
 2243 = {
     aristocrats = {
-        culture = north_andean
+        culture = brazilian
         religion = catholic
         size = 50
     }
 
     clergymen = {
-        culture = north_andean
+        culture = brazilian
         religion = catholic
         size = 25
     }
 
     artisans = {
-        culture = north_andean
+        culture = brazilian
         religion = catholic
         size = 100
     }
 
     soldiers = {
-        culture = north_andean
+        culture = brazilian
         religion = catholic
         size = 25
     }
 
     farmers = {
-        culture = north_andean
+        culture = brazilian
         religion = catholic
         size = 50
     }
 
     clergymen = {
-        culture = afro_caribbean
+        culture = afro_brazilian
         religion = catholic
         size = 75
     }
 
     artisans = {
-        culture = afro_caribbean
+        culture = afro_brazilian
         religion = catholic
         size = 300
     }
 
     soldiers = {
-        culture = afro_caribbean
+        culture = afro_brazilian
         religion = catholic
         size = 75
     }
 
     farmers = {
-        culture = afro_caribbean
+        culture = afro_brazilian
         religion = catholic
         size = 8550
     }

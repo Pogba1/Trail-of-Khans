@@ -49,6 +49,8 @@ upper_house = {
 consciousness = 0
 nonstate_consciousness = 0
 
+oob = "YNN_oob.txt"
+
 govt_flag = {
     government = presidential_dictatorship
     flag = theocracy

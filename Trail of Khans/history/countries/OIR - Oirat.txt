@@ -51,7 +51,7 @@ upper_house = {
     communist = 0
 }
 
-
+oob = "OIR_oob.txt"
 
 foreign_weapons = yes_foreign_weapons
 

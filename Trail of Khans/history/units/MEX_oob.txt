@@ -1,12 +1,12 @@
-USA = {
-    value = 100
+LOU = {
+    value = -10
 }
-SPA = {
-    value = 75
+MEX = {
+    value = 50
 }
 
 leader = {
-    name = "D. Francisco López "
+    name = "Decimo Pizzini"
     type = sea
     date="1820.1.1"
     personality = bastard
@@ -14,7 +14,7 @@ leader = {
 }
 
 leader = {
-    name = "Nicolas Bravo"
+    name = "Fiorenzo La Pera"
     type = land
     date="1836.1.1"
     personality = heroic
@@ -22,7 +22,7 @@ leader = {
 }
 
 leader = {
-    name = "Mariano Arista"
+    name = "Livio Giannetto"
     type = land
     date="1836.1.1"
     personality = skilled
@@ -30,7 +30,7 @@ leader = {
 }
 
 leader = {
-    name = "Juan Álvarez"
+    name = "Arcadio Geronimo"
     type = land
     date="1836.1.1"
     personality = skilled
@@ -38,7 +38,7 @@ leader = {
 }
 
 leader = {
-    name = "José de Herrera"
+    name = "Tullio Palmiero"
     type = land
     date="1836.1.1"
     personality = soldierly
@@ -46,31 +46,31 @@ leader = {
 }
 
 army = {
-    name = "Activo Oajaca"
+    name = "1a Armata"
     location = 2177
 
     regiment = {
         name= "1.Oajaca y Tlaxcala"
-        type = irregular
+        type = infantry
         home = 2177
     }
 
     regiment = {
         name= "2.Oajaca y Tlaxcala"
-        type = irregular
+        type = infantry
         home = 2173
     }
 
     regiment = {
         name= "3.Oajaca y Tlaxcala"
-        type = irregular
+        type = infantry
         home = 2167
     }
 
 }
 
 army = {
-    name = "Ejército del Ciudad Mejico"
+    name = "2a armata"
     location = 2172
     regiment = {
         name= "1.Division Comonfort"
@@ -80,43 +80,43 @@ army = {
 
     regiment = {
         name= "2.Division Comonfort"
-        type = irregular
+        type = infantry
         home = 2159
     }
 
     regiment = {
         name= "3.Division Comonfort"
-        type = irregular
+        type = artillery
         home = 2174
     }
 
 }
 
 navy = {
-    name = "Armada de Mexico"
+    name = "Armada de Messico"
     location = 2184
     ship = {
-        name= "Vencedor del Alamo"
+        name= "Ansovino Regis"
         type = frigate
     }
     ship = {
-        name= "Bravo"
+        name= "Genziano Azzara"
         type = frigate
     }
     ship = {
-        name= "Vera Cruzana"
+        name= "Genziano Azzara"
         type = frigate
     }
     ship = {
-        name= "Montezuma"
+        name= "Remigio Polumbo"
         type = frigate
     }
     ship = {
-        name= "Lubardo"
+        name= "Milo Cocuzza"
         type = frigate
     }
     ship = {
-        name= "Pelicano"
+        name= "Velio Lisa"
         type = frigate
     }
 

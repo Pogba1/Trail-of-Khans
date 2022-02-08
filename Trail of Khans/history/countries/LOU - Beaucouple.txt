@@ -1,5 +1,6 @@
 capital = 210
 primary_culture = louisianian
+culture = creole
 religion = catholic
 government = hms_government
 plurality = 25
@@ -8,7 +9,7 @@ literacy = 0.35
 non_state_culture_literacy = 0.01
 civilized = yes
 #is_releasable_vassal = no
-prestige = 5
+prestige = 30
 
 # Political reforms
 slavery = yes_slavery
@@ -73,6 +74,8 @@ romanticism = 1
 interchangeable_parts = 1
 high_pressure_steam_engine = 1
 late_classical_theory = 1
+
+oob = "LOU_oob.txt"
 
 # Inventions
 secularization = yes

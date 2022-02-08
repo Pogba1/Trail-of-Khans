@@ -1,12 +1,14 @@
-capital = 849
-primary_culture = albanian
-culture = greek
-religion = sunni
+capital = 825
+primary_culture = greek
+culture = albanian
+religion = orthodox
 government = absolute_monarchy
 plurality = 0.4
 nationalvalue = nv_order
-literacy = 0.15
+literacy = 0.3
 civilized = yes
+
+prestige = 30
 
 # Political reforms
 slavery = no_slavery
@@ -35,7 +37,7 @@ child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
 
-ruling_party = ALB_conservative_2
+ruling_party = BYZ_conservative
 upper_house = {
     fascist = 0
     liberal = 25
@@ -70,4 +72,7 @@ piston_steam_engine = 1
 mechanical_production = 1
 hot_blast = 1
 basic_chemistry = 1
-set_country_flag = sunni_country
+
+set_country_flag = orthodox_country
+
+oob="EPI_oob.txt"

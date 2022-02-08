@@ -2,6 +2,11 @@
 #Under rule of Argentina 1836
 #Buenos Aires (132000/33000 POPS)
 2348 = {
+	soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 20100
+    }
     aristocrats = {
         culture = platinean
         religion = catholic

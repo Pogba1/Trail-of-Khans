@@ -71,7 +71,7 @@ mechanical_production = 1
 consciousness = 2
 nonstate_consciousness = 0
 
-
+oob = "JER_oob.txt"
 
     government = prussian_constitutionalism
     plurality = 50

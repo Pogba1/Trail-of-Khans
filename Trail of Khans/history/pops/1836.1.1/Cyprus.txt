@@ -3,37 +3,37 @@
 #Nicosia (64000/16000 POPS)
 855 = {
     aristocrats = {
-        culture = north_italian
+        culture = latin
         religion = catholic
         size = 275
     }
 
     bureaucrats = {
-        culture = north_italian
+        culture = latin
         religion = catholic
         size = 50
     }
 
     officers = {
-        culture = north_italian
+        culture = latin
         religion = catholic
         size = 110
     }
 
     clergymen = {
-        culture = north_italian
+        culture = latin
         religion = catholic
         size = 110
     }
 
     artisans = {
-        culture = north_italian
+        culture = latin
         religion = catholic
         size = 500
     }
 
     soldiers = {
-        culture = north_italian
+        culture = latin
         religion = catholic
         size = 175
     }
@@ -89,25 +89,25 @@
 #Limassol (44000/11000 POPS)
 856 = {
     aristocrats = {
-        culture = north_italian
+        culture = latin
         religion = catholic
         size = 200
     }
 
     clergymen = {
-        culture = north_italian
+        culture = latin
         religion = catholic
         size = 110
     }
 
     artisans = {
-        culture = north_italian
+        culture = latin
         religion = catholic
         size = 300
     }
 
     soldiers = {
-        culture = north_italian
+        culture = latin
         religion = catholic
         size = 100
     }

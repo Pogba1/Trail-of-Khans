@@ -98,16 +98,10 @@
         size = 4200
     }
 
-    soldiers = {
-        culture = platinean
-        religion = catholic
-        size = 20100
-    }
-
     farmers = {
         culture = platinean
         religion = catholic
-        size = 66825
+        size = 86825
     }
 
     clergymen = {
@@ -121,8 +115,12 @@
         religion = catholic
         size = 1200
     }
-
-    soldiers = {
+	soldiers = {
+        culture = guarani
+        religion = catholic
+        size = 300
+    }
+    farmers = {
         culture = guarani
         religion = catholic
         size = 18250
@@ -135,31 +133,31 @@
     }
 
     clergymen = {
-        culture = afro_caribeno
+        culture = afro_brazilian
         religion = catholic
         size = 50
     }
 
     artisans = {
-        culture = afro_caribeno
+        culture = afro_brazilian
         religion = catholic
         size = 250
     }
 
     soldiers = {
-        culture = afro_caribeno
+        culture = afro_brazilian
         religion = catholic
         size = 50
     }
 
     farmers = {
-        culture = afro_caribeno
+        culture = afro_brazilian
         religion = catholic
         size = 150
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_brazilian
         religion = catholic
         size = 9500
     }
@@ -405,7 +403,7 @@
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_brazilian
         religion = catholic
         size = 2500
     }

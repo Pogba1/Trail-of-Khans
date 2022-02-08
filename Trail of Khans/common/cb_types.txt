@@ -40,6 +40,7 @@
 # Order that CBs are executed in a peace treaty
 peace_order = {
 imperial_restoration_cb 
+imperial_restoration_annex_cb
 add_to_sphere 
 take_from_sphere 
 status_quo 
@@ -92,6 +93,58 @@ imperial_restoration = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
+	truce_months = 5
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		
+		
+		THIS = {OR = {tag = NCE tag = EPI tag = ATH tag = MEA tag = GAL tag = THR}}
+		NOT = {exists = BYZ}
+		NOT = { is_our_vassal = THIS }
+		any_owned_province = {
+			is_core = BYZ
+		}
+		
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			is_core = BYZ
+		}
+	}
+
+	po_demand_state = yes
+	
+	war_name = WAR_TAKE_CORE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+imperial_restoration_annex = {
+	sprite_index = 5
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	badboy_factor = 0
+	prestige_factor = 5
+	peace_cost_factor = 0.7
+	penalty_factor = 1
+	always = yes
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
 	truce_months = 0
 	
 	good_relation_prestige_factor = 1
@@ -99,97 +152,24 @@ imperial_restoration = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		THIS = {tag = HRE}
+		THIS = {OR = {tag = NCE tag = EPI tag = ATH tag = MEA tag = GAL tag = THR}}
+		NOT = {exists = BYZ}
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {
-			OR = {
-			is_core = THIS
-			province_id = 627
-			province_id = 629
-			province_id = 630
-			province_id = 628
-			province_id = 397
-			province_id = 625
-			province_id = 626
-			province_id = 631
-			province_id = 632
-			province_id = 688
-			province_id = 689
-			province_id = 2584
-			province_id = 683
-			province_id = 682
-			province_id = 684
-			province_id = 685
-			province_id = 692
-			province_id = 691
-			province_id = 690
-			province_id = 694
-			province_id = 693
-			province_id = 696
-			province_id = 695
-			province_id = 697
-			province_id = 698
-			province_id = 699
-			province_id = 700
-			province_id = 701
-			province_id = 410
-			province_id = 409
-			province_id = 412
-			province_id = 528
-			province_id = 529
-			province_id = 530
-			province_id = 369			
-			}
+			is_core = BYZ
 		}
-		
-	}
-	
-	allowed_states = {
-		any_owned_province = {
-			OR = {
-			is_core = THIS
-			province_id = 627
-			province_id = 629
-			province_id = 630
-			province_id = 628
-			province_id = 397
-			province_id = 625
-			province_id = 626
-			province_id = 631
-			province_id = 632
-			province_id = 688
-			province_id = 689
-			province_id = 2584
-			province_id = 683
-			province_id = 682
-			province_id = 684
-			province_id = 685
-			province_id = 692
-			province_id = 691
-			province_id = 690
-			province_id = 694
-			province_id = 693
-			province_id = 696
-			province_id = 695
-			province_id = 697
-			province_id = 698
-			province_id = 699
-			province_id = 700
-			province_id = 701
-			province_id = 410
-			province_id = 409
-			province_id = 412
-			province_id = 528
-			province_id = 529
-			province_id = 530
-			province_id = 369			
+		NOT = {
+			any_owned_province = {
+				NOT = {
+					is_core = BYZ
+				}
 			}
 		}
 	}
 
-	po_demand_state = yes
+	po_annex = yes
 	
-	war_name = WAR_TAKE_CORE_NAME
+	war_name = WAR_RESTORE_ORDER_NAME
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -549,7 +529,7 @@ acquire_core_state = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 12
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1

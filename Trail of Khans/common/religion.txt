@@ -114,4 +114,9 @@ pagan = {
         color = { 0.5 0.0 0.0 }
         pagan = yes
     }
+	inti = {
+		icon = 22
+		color = { 0.6 0.7 0.6 }
+	}
 }
+

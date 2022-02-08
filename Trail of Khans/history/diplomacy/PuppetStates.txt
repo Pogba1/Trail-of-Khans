@@ -327,8 +327,8 @@ vassal = {
 
  #Norway-Sweden
 vassal = {
-    first = NOR
-    second = SWE
+    first = SWE
+    second = NOR
     start_date = 1836.1.1
     end_date = 1905.1.1
 }

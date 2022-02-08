@@ -1,0 +1,30 @@
+political_decisions = {
+	unite_plc ={
+		potential ={
+			OR={tag = POL
+				tag = BOH
+				tag = HUN
+				}
+			NOT = {has_global_flag = unite_plc}
+			NOT = {exists = PLC}
+		}
+		allow = {
+			POL={all_core = {OR={owned_by = THIS owner = {vassal_of = THIS}}}}
+			BOH={all_core = {OR={owned_by = THIS owner = {vassal_of = THIS}}}}
+			641={OR={owned_by = THIS owner = {vassal_of = THIS}}}
+			633={OR={owned_by = THIS owner = {vassal_of = THIS}}}
+			state_n_government = 1
+		}
+		effect = {
+			add_accepted_culture = polish
+			add_accepted_culture = czech
+			add_accepted_culture = hungarian
+			capital = 703
+			country_event = {
+				id = 400001
+				days = 1
+			}
+			set_global_flag = unite_plc
+		}
+	}
+}

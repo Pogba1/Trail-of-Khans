@@ -4,49 +4,49 @@
 2190 = {
 
     aristocrats = {
-        culture = central_american
+        culture = mexican
         religion = catholic
         size = 40
     }
 
     officers = {
-        culture = central_american
+        culture = mexican
         religion = catholic
         size = 2
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = mexican
+        religion = catholic
         size = 25
     }
 
     clergymen = {
-        culture = central_american
+        culture = mexican
         religion = catholic
         size = 15
     }
 
     artisans = {
         culture = afro_caribbean
-        religion = protestant
+        religion = catholic
         size = 100
     }
 
     soldiers = {
-        culture = central_american
+        culture = mexican
         religion = catholic
         size = 10
     }
 
     farmers = {
         culture = afro_caribbean
-        religion = protestant
+        religion = catholic
         size = 400
     }
 
     farmers = {
-        culture = central_american
+        culture = mexican
         religion = catholic
         size = 1058
     }

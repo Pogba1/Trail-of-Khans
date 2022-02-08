@@ -3,8 +3,8 @@
 #Baalbeck (68000/17000 POPS) #now part of Lebanon
 912 = {
     aristocrats = {
-        culture = mashriqi
-        religion = shiite
+        culture = latin
+        religion = catholic
         size = 125
     }
 
@@ -114,9 +114,42 @@
 #under the rule of Egypt in 1836
 #Beirut (128000/32000 POPS) #mashriqi-catholic = maronites
 913 = {
+	soldiers = {
+        culture = latin
+        religion = catholic
+        size = 3000
+    }
+	aristocrats = {
+        culture = latin
+        religion = catholic
+        size = 75
+    }
+
+    clergymen = {
+        culture = latin
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = latin
+        religion = catholic
+        size = 250
+    }
+
+    soldiers = {
+        culture = latin
+        religion = catholic
+        size = 50
+    }
+	farmers = {
+        culture = latin
+        religion = catholic
+        size = 4575
+    }
     aristocrats = {
-        culture = mashriqi
-        religion = shiite
+        culture = latin
+        religion = catholic
         size = 50
     }
 
@@ -272,6 +305,34 @@
 }
 #Askaleh (48000/12000 POPS)
 914 = {
+	aristocrats = {
+        culture = latin
+        religion = catholic
+        size = 75
+    }
+
+    clergymen = {
+        culture = latin
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = latin
+        religion = catholic
+        size = 250
+    }
+
+    soldiers = {
+        culture = latin
+        religion = catholic
+        size = 50
+    }
+	farmers = {
+        culture = latin
+        religion = catholic
+        size = 4575
+    }
     aristocrats = {
         culture = mashriqi
         religion = sunni
@@ -334,6 +395,34 @@
 }
 #Sidon (84000/21000 POPS)
 915 = {
+	aristocrats = {
+        culture = latin
+        religion = catholic
+        size = 75
+    }
+
+    clergymen = {
+        culture = latin
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = latin
+        religion = catholic
+        size = 250
+    }
+
+    soldiers = {
+        culture = latin
+        religion = catholic
+        size = 50
+    }
+	farmers = {
+        culture = latin
+        religion = catholic
+        size = 4575
+    }
     aristocrats = {
         culture = mashriqi
         religion = sunni
@@ -407,8 +496,8 @@
     }
 
     aristocrats = {
-        culture = mashriqi
-        religion = shiite
+        culture = latin
+        religion = catholic
         size = 100
     }
 

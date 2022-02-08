@@ -387,13 +387,13 @@
     soldiers = {
         culture = greek
         religion = orthodox
-        size = 500
+        size = 3000
     }
 
     farmers = {
         culture = greek
         religion = orthodox
-        size = 55100
+        size = 80100
     }
 
     soldiers = {
@@ -634,32 +634,32 @@
     }
 
     aristocrats = {
-        culture = albanian
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 2600
     }
 
     clergymen = {
-        culture = albanian
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = albanian
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = albanian
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 1100
     }
 
     farmers = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 8075
     }
 
@@ -676,7 +676,7 @@
     }
 
     farmers = {
-        culture = albanian
+        culture = greek
         religion = orthodox
         size = 15600
     }
@@ -736,49 +736,49 @@
     aristocrats = {
         culture = greek
         religion = orthodox
-        size = 250
-    }
-
-    clergymen = {
-        culture = greek
-        religion = orthodox
-        size = 100
-    }
-
-    artisans = {
-        culture = greek
-        religion = orthodox
-        size = 675
-    }
-
-    soldiers = {
-        culture = greek
-        religion = orthodox
-        size = 550
-    }
-
-    farmers = {
-        culture = greek
-        religion = orthodox
         size = 500
     }
 
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 425
+        size =200
     }
 
     artisans = {
         culture = greek
         religion = orthodox
-        size = 2150
+        size = 1255
+    }
+
+    soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 1100
     }
 
     farmers = {
         culture = greek
         religion = orthodox
-        size = 50000
+        size = 1000
+    }
+
+    clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 900
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 4300
+    }
+
+    farmers = {
+        culture = greek
+        religion = orthodox
+        size = 70000
     }
 
     soldiers = {
@@ -1400,7 +1400,7 @@
     bureaucrats = {
         culture = greek
         religion = orthodox
-        size = 850
+        size = 2550
     }
 
     officers = {
@@ -1418,19 +1418,19 @@
     artisans = {
         culture = greek
         religion = orthodox
-        size = 1000
+        size = 2000
     }
 
     soldiers = {
         culture = greek
         religion = orthodox
-        size = 2100
+        size = 9100
     }
 
     farmers = {
         culture = greek
         religion = orthodox
-        size = 40175
+        size = 105175
     }
 
     ######Jews #1250 pops

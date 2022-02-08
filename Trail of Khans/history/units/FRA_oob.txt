@@ -130,12 +130,6 @@ army = {
     }
 
     regiment = {
-        name= "1ère Division d'Hussard"
-        type = hussar
-        home = 420
-    }
-
-    regiment = {
         name= "2ère Division d'Hussard"
         type = hussar
         home = 446
@@ -643,47 +637,7 @@ army = {
     }
 
 }
-army = {
-    name = "L'Armée de Calcutta"
-    location = 1256
 
-    regiment = {
-        name= "1. Brigade Indienne"
-        type = infantry
-        home = 1251
-    }
-
-    regiment = {
-        name= "2. Brigade Indienne"
-        type = infantry
-        home = 1247
-    }
-
-    regiment = {
-        name= "3. Brigade Indienne"
-        type = infantry
-        home = 1254
-    }
-
-    regiment = {
-        name= "4. Brigade Indienne"
-        type = infantry
-        home = 1240
-    }
-
-    regiment = {
-        name= "5. Brigade Indienne"
-        type = infantry
-        home = 1248
-    }
-
-    regiment = {
-        name= "6. Brigade Indienne"
-        type = artillery
-        home = 1243
-    }
-
-}
 army = {
     name = "Garnison de Côte d'Ivoire"
     location = 1894
@@ -709,7 +663,7 @@ army = {
 
 navy = {
     name = "Escadre du Nord"
-    location = 420
+    location = 442
     ship = {
         name= "Couronne"
         type = manowar

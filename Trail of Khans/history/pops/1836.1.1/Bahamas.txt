@@ -2,30 +2,6 @@
 #Ruled by Britain 1836
 #The Bahamas (20000/5000 POPS)
 2219 = {
-    clergymen = {
-        culture = afro_caribeno
-        religion = catholic
-        size = 50
-    }
-
-    artisans = {
-        culture = afro_caribeno
-        religion = catholic
-        size = 100
-    }
-
-    soldiers = {
-        culture = afro_caribeno
-        religion = catholic
-        size = 50
-    }
-
-    slaves = {
-        culture = afro_caribeno
-        religion = catholic
-        size = 2550
-    }
-
     slaves = {
         culture = afro_caribbean
         religion = protestant
@@ -33,31 +9,31 @@
     }
 
     aristocrats = {
-        culture = spanish
+        culture = mexican
         religion = catholic
         size = 15
     }
 
     bureaucrats = {
-        culture = spanish
+        culture = mexican
         religion = catholic
         size = 5
     }
 
     clergymen = {
-        culture = spanish
+        culture = mexican
         religion = catholic
         size = 15
     }
 
     artisans = {
-        culture = spanish
+        culture = mexican
         religion = catholic
         size = 150
     }
 
     soldiers = {
-        culture = spanish
+        culture = mexican
         religion = catholic
         size = 25
     }

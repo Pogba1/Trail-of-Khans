@@ -1,0 +1,29 @@
+country_event = {
+    id = 400001
+    title = "The Unification of Jagiellon Holdings"
+    desc = "DESC400001"
+    picture = "regency"
+
+    trigger = {
+        has_country_flag = impossible
+    }
+
+    option = {
+        name = "Perfect!"
+		any_country = {
+			limit = {OR = {vassal_of = THIS in_sphere = THIS}}
+			any_owned={
+			limit = {is_core = PLC}
+				secede_province = THIS
+			}
+		}
+		any_country = {
+			limit = {AND = {OR = {primary_culture = hungarian primary_culture = czech primary_culture = polish} OR = {vassal_of = THIS in_sphere = THIS}}}
+			annex_to = THIS
+		}
+		change_tag = PLC
+		change_tag_no_core_switch = PLC
+		
+    }
+	}
+}

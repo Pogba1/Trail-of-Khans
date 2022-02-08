@@ -2,30 +2,39 @@
 #under the rule of Egypt in 1836
 #Acre (52000/13000 POPS) #now part of Israel-Palestine  mashriqi-animist = druze
 916 = {
+	soldiers = {
+        culture = latin
+        religion = catholic
+        size = 300
+    }
     aristocrats = {
-        culture = mashriqi
-        religion = sunni
+        culture = latin
+        religion = catholic
         size = 75
     }
 
     clergymen = {
-        culture = mashriqi
-        religion = sunni
+        culture = latin
+        religion = catholic
         size = 50
     }
 
     artisans = {
-        culture = mashriqi
-        religion = sunni
+        culture = latin
+        religion = catholic
         size = 250
     }
 
     soldiers = {
-        culture = mashriqi
-        religion = sunni
+        culture = latin
+        religion = catholic
         size = 50
     }
-
+	farmers = {
+        culture = latin
+        religion = catholic
+        size = 4575
+    }
     farmers = {
         culture = mashriqi
         religion = sunni
@@ -108,6 +117,7 @@
 #under the rule of Egypt in 1836
 #Jerusalem (68000/17000 POPS)
 917 = {
+
     aristocrats = {
         culture = mashriqi
         religion = sunni
@@ -191,9 +201,117 @@
         religion = jewish
         size = 1175
     }
+	
+	
+	#####################
+	
+	#####################
+	
+	aristocrats = {
+        culture = latin
+        religion = catholic
+        size = 600
+    }
+	soldiers = {
+		culture = latin
+        religion = catholic
+		size = 15000
+	}
+    bureaucrats = {
+        culture = latin
+        religion = catholic
+        size = 150
+    }
+
+    officers = {
+        culture = latin
+        religion = catholic
+        size = 225
+    }
+
+    clergymen = {
+        culture = latin
+        religion = catholic
+        size = 300
+    }
+
+    artisans = {
+        culture = latin
+        religion = catholic
+        size = 6900
+    }
+
+    soldiers = {
+        culture = latin
+        religion = catholic
+        size = 175
+    }
+
+    farmers = {
+        culture = latin
+        religion = catholic
+        size = 10100
+    }
+
+    clergymen = {
+        culture = latin
+        religion = catholic
+        size = 75
+    }
+
+    artisans = {
+        culture = latin
+        religion = catholic
+        size = 825
+    }
+
+    farmers = {
+        culture = latin
+        religion = catholic
+        size = 39100
+    }
+
+    farmers = {
+        culture = latin
+        religion = catholic
+        size = 300
+   }
 }
 #Nablus (44000/11000 POPS)
 918 = {
+	soldiers = {
+        culture = latin
+        religion = catholic
+        size = 300
+    }
+	aristocrats = {
+        culture = latin
+        religion = catholic
+        size = 75
+    }
+
+    clergymen = {
+        culture = latin
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = latin
+        religion = catholic
+        size = 250
+    }
+
+    soldiers = {
+        culture = latin
+        religion = catholic
+        size = 50
+    }
+	farmers = {
+        culture = latin
+        religion = catholic
+        size = 4575
+    }
     aristocrats = {
         culture = mashriqi
         religion = sunni
@@ -262,6 +380,39 @@
 }
 #Jaffa (48000/12000 POPS)
 919 = {
+	soldiers = {
+        culture = latin
+        religion = catholic
+        size = 300
+    }
+	aristocrats = {
+        culture = latin
+        religion = catholic
+        size = 75
+    }
+
+    clergymen = {
+        culture = latin
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = latin
+        religion = catholic
+        size = 250
+    }
+
+    soldiers = {
+        culture = latin
+        religion = catholic
+        size = 50
+    }
+	farmers = {
+        culture = latin
+        religion = catholic
+        size = 4575
+    }
     aristocrats = {
         culture = mashriqi
         religion = sunni
@@ -330,6 +481,34 @@
 }
 #Gaza (44000/11000 POPS)
 920 = {
+	aristocrats = {
+        culture = latin
+        religion = catholic
+        size = 75
+    }
+
+    clergymen = {
+        culture = latin
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = latin
+        religion = catholic
+        size = 250
+    }
+
+    soldiers = {
+        culture = latin
+        religion = catholic
+        size = 300
+    }
+	farmers = {
+        culture = latin
+        religion = catholic
+        size = 4575
+    }
     aristocrats = {
         culture = mashriqi
         religion = sunni

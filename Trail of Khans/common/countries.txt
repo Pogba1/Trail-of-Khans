@@ -1,4 +1,7 @@
-#Please keep tags sorted alphabetically when you add/remove country tags
+#"Please keep tags sorted alphabetically when you add/remove country tags" :SOY: :SOY: :SOY:
+
+#Chinese tags
+MAO		   ="countries/Mao Dynasty.txt"
 
 # Special countries...
 REB     =     "countries/rebels.txt"
@@ -66,6 +69,7 @@ EQG        ="countries/Equatorial Guinea.txt"
 
 #Latin America
 
+INC		   = "countries/Inca.txt"
 BAH        = "countries/Bahia.txt"
 CHP        = "countries/Chiapas.txt"
 CEQ        = "countries/Equador Confederation.txt"
@@ -416,6 +420,8 @@ CRE        ="countries/Crete.txt"
 CRO        ="countries/Croatia.txt"
 CYP        ="countries/Cyprus.txt"
 GRE        ="countries/Greece.txt"
+THR		   ="countries/Thrace.txt"
+ATH		   ="countries/Athens.txt"
 ION        ="countries/Ionian Islands.txt"
 MOL        ="countries/Moldavia.txt"
 MON        ="countries/Montenegro.txt"
@@ -560,6 +566,7 @@ PEU        ="countries/Peru.txt"
 PRG        ="countries/Paraguay.txt"
 URU        ="countries/Uruguay.txt"
 VNZ        ="countries/Venezuela.txt"
+NGV		   ="countries/Nouvagenova.txt"
 
 # Australasia
 AST        ="countries/Australia.txt"

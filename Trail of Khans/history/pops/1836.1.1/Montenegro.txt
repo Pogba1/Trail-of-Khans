@@ -2,7 +2,21 @@
 #under the rule of Ottoman Empire in 1836
 #Ulcinj (36000/9000 POPS)
 800 = {
-
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 3000
+	}
     soldiers = {
         culture = serb
         religion = orthodox
@@ -187,7 +201,21 @@
 #under the rule of Ottoman Empire in 1836
 #Pljevlja (52000/13000 POPS) #now part of Montenegro
 2577 = {
-
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 100
+	}
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 3000
+	}
     soldiers = {
         culture = serb
         religion = orthodox
@@ -345,37 +373,37 @@
     aristocrats = {
         culture = north_italian
         religion = catholic
-        size = 100
+        size = 300
     }
 
     officers = {
         culture = north_italian
         religion = catholic
-        size = 10
+        size = 30
     }
 
     clergymen = {
         culture = north_italian
         religion = catholic
-        size = 100
+        size = 300
     }
 
     artisans = {
         culture = north_italian
         religion = catholic
-        size = 100
+        size = 300
     }
 
     soldiers = {
         culture = north_italian
         religion = catholic
-        size = 100
+        size = 300
     }
 
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 2500
+        size = 7600
     }
 
 }

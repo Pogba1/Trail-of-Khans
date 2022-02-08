@@ -1,8 +1,7 @@
-capital = 1482
-primary_culture = min
-culture = nanfaren
+capital = 1538
+primary_culture = nanfaren
 religion = mahayana
-government = absolute_monarchy
+government = democracy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
@@ -65,6 +64,7 @@ ammunition_production = yes
 consciousness = 0
 nonstate_consciousness = 0
 
+oob = "FJN_oob.txt"
 
 1861.1.1 = {
 

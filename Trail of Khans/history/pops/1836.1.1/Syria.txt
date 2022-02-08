@@ -41,37 +41,37 @@
 
 
     aristocrats = {
-        culture = turkish
+        culture = turkmen
         religion = sunni
         size = 300
     }
 
     officers = {
-        culture = turkish
+        culture = turkmen
         religion = sunni
         size = 100
     }
 
     clergymen = {
-        culture = turkish
+        culture = turkmen
         religion = sunni
         size = 100
     }
 
     artisans = {
-        culture = turkish
+        culture = turkmen
         religion = sunni
         size = 700
     }
 
     soldiers = {
-        culture = turkish
+        culture = turkmen
         religion = sunni
         size = 800
     }
 
     farmers = {
-        culture = turkish
+        culture = turkmen
         religion = sunni
         size = 2575
     }
@@ -779,7 +779,7 @@
 1813 = {
 
     farmers = {
-        culture = turkish
+        culture = turkmen
         religion = sunni
         size = 500
     }

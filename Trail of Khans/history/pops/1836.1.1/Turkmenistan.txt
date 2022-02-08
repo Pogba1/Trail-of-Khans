@@ -2,6 +2,16 @@
 #under the rule of Khiva in 1836
 #Dashhowuz (40000/10000 POPS) #now part of Turkmenistan
 1196 = {
+	farmers = {
+        culture = turkmen
+        religion = sunni
+        size = 90175
+    }
+	farmers = {
+        culture = turkmen
+        religion = sunni
+        size = 13200
+    }
     aristocrats = {
         culture = turkmen
         religion = sunni
@@ -67,6 +77,85 @@
 #under the rule of Khiva in 1836
 #Ashkabad (148000/32000 POPS)
 1204 = {
+	farmers = {
+        culture = turkmen
+        religion = shiite
+        size = 47225
+    }
+	farmers = {
+        culture = turkmen
+        religion = sunni
+        size = 39200
+    }
+	aristocrats = {
+        culture = turkmen
+        religion = sunni
+        size = 700
+    }
+	
+	clergymen = {
+        culture = turkmen
+        religion = sunni
+        size = 110
+    }
+
+    artisans = {
+        culture = turkmen
+        religion = sunni
+        size = 800
+    }
+
+    soldiers = {
+        culture = turkmen
+        religion = sunni
+        size = 500
+    }
+
+    farmers = {
+        culture = turkmen
+        religion = sunni
+        size = 1125
+    }
+	
+    bureaucrats = {
+        culture = turkmen
+        religion = sunni
+        size = 250
+    }
+
+    officers = {
+        culture = turkmen
+        religion = sunni
+        size = 100
+    }
+
+    clergymen = {
+        culture = turkmen
+        religion = sunni
+        size = 525
+    }
+
+    artisans = {
+        culture = turkmen
+        religion = sunni
+        size = 2200
+    }
+
+    soldiers = {
+        culture = turkmen
+        religion = sunni
+        size = 1000
+    }
+    farmers = {
+        culture = turkmen
+        religion = sunni
+        size = 22825
+    }
+	farmers = {
+        culture = turkmen
+        religion = sunni
+        size = 24825
+    }
     aristocrats = {
         culture = turkmen
         religion = sunni
@@ -168,6 +257,65 @@
 #under the rule of Bukhara in 1836
 #Chardzhou (132000/33000 POPS)
 1206 = {
+	farmers = {
+        culture = turkmen
+        religion = sunni
+        size = 44375
+    }
+	farmers = {
+        culture = turkmen
+        religion = sunni
+        size = 4939
+    }
+	
+	
+    aristocrats = {
+        culture = turkmen
+        religion = sunni
+        size = 450
+    }
+
+    bureaucrats = {
+        culture = turkmen
+        religion = sunni
+        size = 525
+    }
+
+    officers = {
+        culture = turkmen
+        religion = sunni
+        size = 100
+    }
+
+    clergymen = {
+        culture = turkmen
+        religion = sunni
+        size = 275
+    }
+
+    artisans = {
+        culture = turkmen
+        religion = sunni
+        size = 1650
+    }
+
+    soldiers = {
+        culture = turkmen
+        religion = sunni
+        size = 350
+    }
+	soldiers = {
+        culture = turkmen
+        religion = sunni
+        size = 1000
+    }
+
+    farmers = {
+        culture = turkmen
+        religion = sunni
+        size = 37900
+    }
+	
     aristocrats = {
         culture = uzbek
         religion = sunni

@@ -1,50 +1,50 @@
-PBC = {
-    value = -50
-}
+#PBC = {
+#    value = -50
+#}
 
 army = {
-    name = "Exército Imperial"
-    location = 2447
+    name = "Esercito Repubblicano"
+    location = 2429
     regiment = {
-        name= "1. Brigada de Infantaria"
+        name= "1. Brigata di fanteria"
         type = infantry
-        home = 2447
+        home = 2247
     }
 
     regiment = {
-        name= "2. Brigada de Infantaria"
+        name= "2. Brigata di fanteria"
         type = infantry
-        home = 2450
+        home = 2250
     }
 
     regiment = {
         name= "3. Brigada de Infantaria"
         type = infantry
-        home = 2436
+        home = 2252
     }
 
     regiment = {
         name= "4. Brigada de Infantaria"
         type = infantry
-        home = 2447
+        home = 2255
     }
 
     regiment = {
         name= "5. Brigada de Infantaria"
         type = infantry
-        home = 2457
+        home = 2256
     }
 
     regiment = {
         name= "6. Brigada de Infantaria"
         type = infantry
-        home = 2441
+        home = 2264
     }
 
     regiment = {
         name= "7. Brigada de Infantaria"
         type = infantry
-        home = 2441
+        home = 2264
     }
 
     regiment = {
@@ -54,7 +54,7 @@ army = {
     }
 
     regiment = {
-        name= "2. Brigada de Cavalaria"
+        name= "2. Brigata di cavalleria"
         type = cuirassier
         home = 2434
     }
@@ -66,65 +66,118 @@ army = {
     }
 
 }
-
 leader = {
-    name = "Manuel Marques de Sousa"
-    date = 1830.1.1
+    name = "Ulpiano Metallo"
+    date = 1840.1.1
     type = land
-    personality = brash
-    background = butcher
-    prestige = 0.1
+    personality = relentless
+    background = cavalry_school
+    prestige = 0.2
 }
 
 leader = {
-    name = "Luís Alves de Lima e Silva"
-    picture = southamerican_general_6
-    date = 1836.1.1
+    name = "Amleto Bisso"
+    date = 1841.1.1
     type = land
-    personality = gutsy
-    background = war_college
-    prestige = 0.1
+    personality = brilliant
+    background = innovative_tactician
+    prestige = 0.2
 }
 
 leader = {
-    name = "Frederico Mariath"
-    picture = european_admiral_0
-    date = 1830.1.1
+    name = "Simone Cappadona"
+    date = 1843.1.1
+    type = land
+    personality = coolminded
+    background = generals_aide
+    prestige = 0.2
+}
+
+
+leader = {
+    name = "Liborio Piccinini"
+    date = 1845.1.1
+    type = land
+    personality = imperious
+    background = spartan
+    prestige = 0.2
+}
+
+leader = {
+    name = "Quintiliano Biondo"
+    date = 1847.1.1
     type = sea
-    personality = tactful
-    background = nationalist
+    personality = audacious
+    background = natural_born_leader
+    prestige = 0.2
+}
+
+leader = {
+    name = "Otello Tarsi"
+    date = 1850.1.1
+    type = land
+    personality = efficient
+    background = aristocrat
+    prestige = 0.2
+}
+
+leader = {
+    name = "Santo Verona"
+    date = 1851.1.1
+    type = land
+    personality = active_p
+    background = armchair_general
+    prestige = 0.2
+}
+
+leader = {
+    name = "Alberico Raccio"
+    date = 1861.1.1 #1851
+    type = land
+    personality = efficient
+    background = old_school
+    prestige = 0.2
+}
+
+leader = {
+    name = "Pacomio Oberto"
+    date = 1852.1.1
+    type = sea
+    personality = heroic
+    background = school_of_defense
+    prestige = 0.2
 }
 
 navy = {
-    name = "Brazilian Navy"
-    location = 2447
+    name = "Vespuccian Navy"
+    location = 2410
     ship = {
-        name = "Perdo I"
+        name = "Tarquinia Tesoro"
         type = manowar
     }
 
     ship = {
-        name = "Afonso de Albuquerque"
+        name = "Florina"
         type = manowar
     }
 
     ship = {
-        name = "Imperatriz"
+        name = "Tatiana"
         type = frigate
     }
 
     ship = {
-        name = "Dona Januária"
+        name = "Annica"
         type = frigate
     }
 
     ship = {
-        name = "Nictheroy"
+        name = "Annunziata"
         type = frigate
     }
 
     ship = {
-        name = "Abaeté"
+        name = "Catena"
         type = frigate
     }
 
@@ -134,49 +187,49 @@ navy = {
     }
 
     ship = {
-        name = "Bertioga"
+        name = "Alda"
         type = frigate
     }
 
     ship = {
-        name = "Duquesa de Goiás"
+        name = "Flaviana"
         type = frigate
     }
 
     ship = {
-        name = "Alcântara"
+        name = "Deanna"
         type = frigate
     }
 
     ship = {
-        name = "Amazonas"
+        name = "Gioacchina"
         type = frigate
     }
 
     ship = {
-        name = "Andorinha"
+        name = "Sefora"
         type = frigate
     }
 
     ship = {
-        name = "Barca a Vapor Águia"
+        name = "Battello a Vapore Petronilla"
         type = commerce_raider
     }
 
 
     ship = {
-        name = "Barca a Vapor Amélia"
+        name = "Battello a Vapore Genesia"
         type = commerce_raider
     }
 
     ship = {
-        name = "Brigue Transporte Alcides"
+        name = "Brigue Transporte Prudenzia"
         type = clipper_transport
     }
 
 
     ship = {
-        name = "Brigue Transporte Anibal"
+        name = "Brigue Transporte Patrizia"
         type = clipper_transport
     }
 

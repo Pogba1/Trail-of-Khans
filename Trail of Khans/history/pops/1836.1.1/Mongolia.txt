@@ -265,7 +265,11 @@
         religion = gelugpa
         size = 375
     }
-
+	bureaucrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 100
+	}
     artisans = {
         culture = mongol
         religion = gelugpa
@@ -275,7 +279,12 @@
     soldiers = {
         culture = mongol
         religion = gelugpa
-        size = 375
+        size = 18000
+    }
+	soldiers = {
+        culture = tatar
+        religion = gelugpa
+        size = 15000
     }
 
     farmers = {

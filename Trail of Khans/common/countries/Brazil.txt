@@ -1,4 +1,4 @@
-color = { 129  177  125 }
+color = { 67 97 16 }
 graphical_culture = SouthAmericanGC
 
 party = {
@@ -154,29 +154,27 @@ party = {
 
 unit_names = {
     dreadnought = {
-            "Sao Paulo" "Minas Gerais" "Marechal Floriano" "Marechal Deodoro" "Rio de Janeiro"
-            Riachuelo Constituicao "Santa Catarina" "Almirante Amazonas"
-
+        "Dante Alighieri" "Conti di Cavour" "Giulio Cesare" "Leonarda da Vince" "Andrea Doria" Duilio "Francesco Caracciolo" Littorio Roma Terribile Formidabile "Principe di Carignano" Messina "Conte Verde" "Re d'Italia" "Re di Portogallo" "Regina Maria Pia" "San Martino" Castelfidardo Ancona Affondatore "Principe Amedeo" Italia Lepanto "Ruggiero di Lauria" "Francesco Morosini" "Emanuele Filiberto"
+    }
+    battleship = {
+        "Caio Duilio" "Enrico Dandolo" Italia Lepanto "Ruggiero di Lauria" "Francesco Morosini" "Andrea Doria" "Re Umberto" Sicilia Sardegna "Ammiraglio di Saint Bon" "Emanuele Filiberto" "Regina Margherita" "Benedetto Brin" "Regina Elena" "Vittorio Emanuele" Napoli Roma
     }
     ironclad = {
-            Brasil Tamandaré "Mariz e Barros" Colombo Bahia "Rio Grande Do Norte" Alagoas
-            "Espirito Santo" Fonseca
+        "Dante Alighieri" "Conti di Cavour" "Giulio Cesare" "Leonarda da Vince" "Andrea Doria" Duilio "Francesco Caracciolo" Littorio Roma Terribile Formidabile "Principe di Carignano" Messina "Conte Verde" "Re d'Italia" "Re di Portogallo" "Regina Maria Pia" "San Martino" Castelfidardo Ancona Affondatore "Principe Amedeo" Italia Lepanto "Ruggiero di Lauria" "Francesco Morosini" "Emanuele Filiberto"
     }
     manowar = {
-            "Primeiro De Março" Paraíba Guanabara Trajano "Vital De Oliveira" Niterói
-            Sergipe Paraná Greenhalgh Macapá
+        Sicilia Sardegna Puglia Libia Campania Basilicata Quarto Venezia Trento "Valle d'Aosta" Piemonte Liguria Lombardia Veneto Trentino Friuli "Emilia-Romagna" Toscana Marche Umbria Lazio Abruzzo Molise Calabria
     }
     cruiser = {
-            "Almirante Barrozo" República "Almirante Tamandaré" "Benjamin Constant" Aquidaban
-            Riachuelo Toneleros Fortaleza Tiradentes
+        "Marco Polo" "Carlo Alberto" "Vettor Pisani" "General Garibaldi" "General San Martin" "General Belgrano" "General Pueyrredon" Amalfi Pisa "San Giorgio" "San Marco" "Nino Bixio" Marsala Taranto Brindisi Bari Trieste Fiume Gorizia Pola Zara Bolzano
     }
     frigate = {
-            "Almirante Saldanha" Pernambuco Inhauma Jaceguay Frontin "Julio De Noronha" Niterói
-            Uniao Belém Vigia
+        Fulmine Lampo Freccia Dardo Strale Euro Ostro Nembo Turbine Aquilone Borea Zeffiro Espero Artigliere Bersagliere Corazziere Garibaldino
+        Granatiere Lanciere Alpino Fuciliere Pontiere Ascaro Indomito Impavido Impetuoso Insidioso Intrepido Irrequieto Ardito Ardente Audace Animoso
     }
     monitor = {
-            Javary Solimões "Sete de Setembro" Ipiranga Independência  "Mato Grosso" Maranhão
-            GuanaBara Ceará Humaitá
+        "Dante Alighieri" "Conti di Cavour" "Giulio Cesare" "Leonarda da Vince" "Andrea Doria" Duilio "Francesco Caracciolo" Littorio Roma Terribile Formidabile "Principe di Carignano" Messina "Conte Verde" "Re d'Italia" "Re di Portogallo" "Regina Maria Pia" "San Martino" Castelfidardo Ancona Affondatore "Principe Amedeo" Italia Lepanto "Ruggiero di Lauria" "Francesco Morosini" "Emanuele Filiberto"
+
     }
     clipper_transport = {
 
@@ -185,7 +183,6 @@ unit_names = {
 
     }
     commerce_raider = {
-            Belmonte Jequitinhonha Amazonas Beberibe Iguatemi Mearim Araguari Parnaíba Cabral
-            Barroso Herval Silvado "Lima Barros"
+        "Rosolino Pilo" "Giuseppe Cesare Abba" "Pilade Bronzetti" "Giuseppe Missori" "Antonio Mosto" "Ippolito Nievo" "Francesco Nullo" "Simone Schiaffino" "Giuseppe Sirtori" "Giovanni Acerbi" "Vincenzo Giordano Orsini" "Francesco Stucco"
     }
 }

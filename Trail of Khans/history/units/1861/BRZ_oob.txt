@@ -1,5 +1,5 @@
 leader = {
-    name = "Marquês do Herval"
+    name = "Ulpiano Metallo"
     date = 1840.1.1
     type = land
     personality = relentless
@@ -8,7 +8,7 @@ leader = {
 }
 
 leader = {
-    name = "Luis Alves,Duque de Caxias"
+    name = "Amleto Bisso"
     date = 1841.1.1
     type = land
     personality = brilliant
@@ -17,7 +17,7 @@ leader = {
 }
 
 leader = {
-    name = "José Maria Wandenkolk"
+    name = "Simone Cappadona"
     date = 1843.1.1
     type = land
     personality = coolminded
@@ -27,7 +27,7 @@ leader = {
 
 
 leader = {
-    name = "de Surui"
+    name = "Liborio Piccinini"
     date = 1845.1.1
     type = land
     personality = imperious
@@ -36,7 +36,7 @@ leader = {
 }
 
 leader = {
-    name = "Marquês de Tamandaré"
+    name = "Quintiliano Biondo"
     date = 1847.1.1
     type = sea
     personality = audacious
@@ -45,7 +45,7 @@ leader = {
 }
 
 leader = {
-    name = "Marques de Souza III"
+    name = "Otello Tarsi"
     date = 1850.1.1
     type = land
     personality = efficient
@@ -54,7 +54,7 @@ leader = {
 }
 
 leader = {
-    name = "Jesuíno Lamego da Costa"
+    name = "Santo Verona"
     date = 1851.1.1
     type = land
     personality = active_p
@@ -63,7 +63,7 @@ leader = {
 }
 
 leader = {
-    name = "de Itapevi"
+    name = "Alberico Raccio"
     date = 1861.1.1 #1851
     type = land
     personality = efficient
@@ -72,7 +72,7 @@ leader = {
 }
 
 leader = {
-    name = "F. Manuel Barroso"
+    name = "Pacomio Oberto"
     date = 1852.1.1
     type = sea
     personality = heroic
@@ -81,40 +81,40 @@ leader = {
 }
 
 army = {
-    name = "I Corpo do exército"
+    name = "I Corpo d'Armata"
     location = 2447
     regiment = {
-        name= "1ª Brigada de Infantaria"
+        name= "1ª Brigata di fanteria"
         type = infantry
         home = 2447
     }
 
     regiment = {
-        name= "2ª Brigada de Infantaria"
+        name= "2ª Brigata di fanteria"
         type = infantry
         home = 2450
     }
 
     regiment = {
-        name= "3ª Brigada de Infantaria"
+        name= "3ª Brigata di fanteria"
         type = infantry
         home = 2436
     }
 
     regiment = {
-        name= "1ª Brigada de Cavalaria"
+        name= "1ª Brigata di cavalleria"
         type = cuirassier
         home = 2447
     }
 
     regiment = {
-        name= "2ª Brigada de Cavalaria"
+        name= "2ª Brigata di cavalleria"
         type = cuirassier
         home = 2441
     }
 
     regiment = {
-        name= "1ª Brigada de Artilharia"
+        name= "1ª Brigata de Artilharia"
         type = artillery
         home = 2447
     }
@@ -122,22 +122,22 @@ army = {
 }
 
 army = {
-    name = "II Corpo do exército"
+    name = "II Corpo d'Armata"
     location = 2463
     regiment = {
-        name= "4ª Brigada de Infantaria"
+        name= "4ª Brigata di fanteria"
         type = infantry
         home = 2463
     }
 
     regiment = {
-        name= "5ª Brigada de Infantaria"
+        name= "5ª Brigata di fanteria"
         type = infantry
         home = 2461
     }
 
     regiment = {
-        name= "6ª Brigada de Infantaria"
+        name= "6ª Brigata di fanteria"
         type = infantry
         home = 2457
     }
@@ -145,22 +145,22 @@ army = {
 }
 
 army = {
-    name = "III Corpo do exército"
+    name = "III Corpo d'Armata"
     location = 2429
     regiment = {
-        name= "4ª Brigada de Infantaria"
+        name= "4ª Brigata di fanteria"
         type = infantry
         home = 2429
     }
 
     regiment = {
-        name= "5ª Brigada de Infantaria"
+        name= "5ª Brigata di fanteria"
         type = infantry
         home = 2426
     }
 
     regiment = {
-        name= "6ª Brigada de Infantaria"
+        name= "6ª Brigata di fanteria"
         type = infantry
         home = 2434
     }
@@ -172,21 +172,6 @@ navy = {
     location = 2447
     ship = {
         name= "Manaus"
-        type = commerce_raider
-    }
-
-    ship = {
-        name= "Rio de Janeiro"
-        type = commerce_raider
-    }
-
-    ship = {
-        name= "Sao Paulo"
-        type = commerce_raider
-    }
-
-    ship = {
-        name= "Campos"
         type = commerce_raider
     }
 

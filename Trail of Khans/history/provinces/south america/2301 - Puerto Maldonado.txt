@@ -1,7 +1,6 @@
-owner = PEU
-controller = PEU
-add_core = SPU
-add_core = PEU
+owner = INC
+controller = INC
+add_core = INC
 trade_goods = fruit
 terrain = jungle
 life_rating = 31

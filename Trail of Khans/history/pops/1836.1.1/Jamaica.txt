@@ -3,79 +3,79 @@
 #Jamaica (372000/93000 POPS)
 2217 = {
     aristocrats = {
-        culture = afro_antillean
+        culture = afro_german
         religion = catholic
         size = 100
     }
 
     aristocrats = { #So the state has 2% aristocrats
-        culture = french
+        culture = north_german
         religion = catholic
         size = 1890
     }
 
     bureaucrats = {
-        culture = french
+        culture = north_german
         religion = catholic
         size = 85
     }
 
     clergymen = {
-        culture = afro_antillean
+        culture = afro_german
         religion = catholic
         size = 75
     }
 
     artisans = {
-        culture = french
-        religion = catholic
+        culture = north_german
+        religion = protestant
         size = 1250
     }
 
     soldiers = {
-        culture = french
-        religion = catholic
+        culture = north_german
+        religion = protestant
         size = 50
     }
 
     farmers = {
-        culture = french
-        religion = catholic
+        culture = north_german
+        religion = protestant
         size = 2190
     }
 
     farmers = {
-        culture = afro_antillean
-        religion = catholic
+        culture = afro_german
+        religion = protestant
         size = 10190
     }
 
     clergymen = {
-        culture = french
-        religion = catholic
+        culture = north_german
+        religion = protestant
         size = 625
     }
 
     artisans = {
-        culture = afro_antillean
-        religion = catholic
+        culture = afro_german
+        religion = protestant
         size = 3250
     }
 
     soldiers = {
-        culture = afro_antillean
-        religion = catholic
+        culture = afro_german
+        religion = protestant
         size = 1100
     }
 
     slaves = {
-        culture = afro_antillean
-        religion = catholic
+        culture = afro_german
+        religion = protestant
         size = 44375
     }
 
     slaves = {
-        culture = afro_caribbean
+        culture = afro_german
         religion = protestant
         size = 34375
     }
@@ -83,25 +83,25 @@
 #Cayman Islands : (1200/300 POPS) #still a British Colony
 2218 = {
     clergymen = {
-        culture = caribeno
+        culture = cuban
         religion = catholic
         size = 5
     }
 
     aristocrats = {
-        culture = spanish
+        culture = irish
         religion = catholic
         size = 15
     }
 
     artisans = {
-        culture = caribeno
+        culture = cuban
         religion = catholic
         size = 30
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 280
     }

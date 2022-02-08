@@ -74,6 +74,8 @@ late_classical_theory = 1
 
 set_country_flag = catholic_country
 
+oob = "ATR_oob.txt"
+
 ruling_party = ATR_conservative
 last_election = 1834.1.1
 upper_house = {

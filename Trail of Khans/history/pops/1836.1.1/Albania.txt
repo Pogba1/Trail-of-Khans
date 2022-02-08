@@ -1,37 +1,42 @@
 849 = {
     aristocrats = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 614
+    }
+	soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 3000
     }
     bureaucrats = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 143
     }
     officers = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 122
     }
     clergymen = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 256
     }
     artisans = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 1310
     }
     soldiers = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 819
     }
     farmers = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 40947
     }
     clergymen = {
@@ -56,27 +61,32 @@
 850 = {
     aristocrats = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 880
+    }
+	soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 3000
     }
     clergymen = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 307
     }
     artisans = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 1556
     }
     soldiers = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 819
     }
     farmers = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 30566
     }
     clergymen = {
@@ -98,27 +108,32 @@
 851 = {
     aristocrats = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 245
+    }
+	soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 3000
     }
     clergymen = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 100
     }
     artisans = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 491
     }
     soldiers = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 450
     }
     farmers = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 5632
     }
     clergymen = {
@@ -135,27 +150,32 @@
 852 = {
     aristocrats = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 573
+    }
+	soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 3000
     }
     clergymen = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 256
     }
     artisans = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 1331
     }
     soldiers = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 286
     }
     farmers = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 10947
     }
     clergymen = {
@@ -172,27 +192,32 @@
 853 = {
     aristocrats = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 307
+    }
+	soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 3000
     }
     clergymen = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 102
     }
     soldiers = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 450
     }
     artisans = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 122
     }
     farmers = {
         culture = albanian
-        religion = sunni
+        religion = orthodox
         size = 9246
     }
     soldiers = {

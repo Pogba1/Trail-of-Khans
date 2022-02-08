@@ -425,7 +425,7 @@ navy = {
 #Reserve Fleet
 navy = {
     name = "Reserve Squadron"
-    location = 299 #Plymouth
+    location = 296 #Bristol
 
     ship = {
         name= "Cambridge"

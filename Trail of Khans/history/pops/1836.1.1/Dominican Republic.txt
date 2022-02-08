@@ -3,61 +3,61 @@
 #Santo Domingo (68000/17000 POPS) #now part of Dominican Republic
 2214 = {
     aristocrats = {
-        culture = caribeno
+        culture = french
         religion = catholic
         size = 700
     }
 
     bureaucrats = {
-        culture = caribeno
+        culture = french
         religion = catholic
         size = 25
     }
 
     clergymen = {
-        culture = caribeno
+        culture = french
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = caribeno
+        culture = french
         religion = catholic
         size = 350
     }
 
     soldiers = {
-        culture = caribeno
+        culture = french
         religion = catholic
         size = 75
     }
 
     farmers = {
-        culture = caribeno
+        culture = french
         religion = catholic
         size = 62375
     }
 
     clergymen = {
-        culture = afro_caribeno
+        culture = afro_antillean
         religion = catholic
         size = 50
     }
 
     artisans = {
-        culture = afro_caribeno
+        culture = afro_antillean
         religion = catholic
         size = 500
     }
 
     soldiers = {
-        culture = afro_caribeno
+        culture = afro_antillean
         religion = catholic
         size = 50
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_antillean
         religion = catholic
         size = 45350
     }
@@ -65,55 +65,55 @@
 #La Vega (56000/15000 POPS) #now part of Dominican Republic
 2216 = {
     aristocrats = {
-        culture = caribeno
+        culture = french
         religion = catholic
         size = 550
     }
 
     clergymen = {
-        culture = caribeno
+        culture = french
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = caribeno
+        culture = french
         religion = catholic
         size = 400
     }
 
     soldiers = {
-        culture = caribeno
+        culture = french
         religion = catholic
         size = 50
     }
 
     farmers = {
-        culture = caribeno
+        culture = french
         religion = catholic
         size = 30175
     }
 
     clergymen = {
-        culture = afro_caribeno
+        culture = afro_antillean
         religion = catholic
         size = 50
     }
 
     artisans = {
-        culture = afro_caribeno
+        culture = afro_antillean
         religion = catholic
         size = 300
     }
 
     soldiers = {
-        culture = afro_caribeno
+        culture = afro_antillean
         religion = catholic
         size = 75
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_antillean
         religion = catholic
         size = 19575
     }

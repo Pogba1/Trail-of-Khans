@@ -1,0 +1,13 @@
+name = "Muslim Revolt"
+
+1835.4.19 = {
+    add_attacker = XBI
+    add_defender = QNG
+
+     war_goal = {
+        casus_belli = annex_core_country
+        actor = QNG
+        receiver = XBI
+    }
+
+}
