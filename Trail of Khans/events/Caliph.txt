@@ -1,0 +1,79 @@
+country_event = {
+    id = 198000
+    title = "EVTNAME198000"
+    desc = "EVTDESC198000"
+    picture = "regency"
+
+    trigger = {
+	has_country_modifier = caliph
+	NOT = {1151 = {owned_by=THIS}}
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA198000"
+		remove_country_modifier = caliph
+    }
+}
+###################################
+#Event to add Nile Irrigation back#
+###################################
+country_event = {
+    id = 198001
+    title = "Modernized Nile Irrigation"
+    desc = " "
+    picture = "regency"
+
+    trigger = {
+	has_global_flag = modernize_nile_irrigation
+	high_pressure_steam_engine = 1
+	medicine = 1
+		1766={owned_by = THIS}
+        1768={owned_by = THIS}
+        1767={owned_by = THIS}
+        1769={owned_by = THIS}
+        2559={owned_by = THIS}
+        1762={owned_by = THIS}
+        1764={owned_by = THIS}
+        1765={owned_by = THIS}
+        1763={owned_by = THIS}
+	OR = {	
+		1766={NOT = {has_province_modifier = modernized_irrigation}}
+        1768={NOT = {has_province_modifier = modernized_irrigation}}
+        1767={NOT = {has_province_modifier = modernized_irrigation}}
+        1769={NOT = {has_province_modifier = modernized_irrigation}}
+        2559={NOT = {has_province_modifier = modernized_irrigation}}
+        1762={NOT = {has_province_modifier = modernized_irrigation}}
+        1764={NOT = {has_province_modifier = modernized_irrigation}}
+        1765={NOT = {has_province_modifier = modernized_irrigation}}
+        1763={NOT = {has_province_modifier = modernized_irrigation}}
+		}
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "This will surely bring us prosperity."
+		1766 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1768 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1767 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1769 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		2559 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1762 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1764 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1765 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1763 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1745 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1749 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1748 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1746 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1750 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1747 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+		1751 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+    }
+}

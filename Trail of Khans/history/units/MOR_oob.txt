@@ -93,17 +93,11 @@ army = {
 
 army = {
     name = "Army of the Rif"
-    location = 1686
+    location = 1685
     regiment = {
         name= "10. Infantry Brigade"
         type = irregular
         home = 1686
-    }
-
-    regiment = {
-        name= "11. Infantry Brigade"
-        type = irregular
-        home = 1687
     }
 
     regiment = {
