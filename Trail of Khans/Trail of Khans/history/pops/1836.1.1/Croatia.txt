@@ -513,7 +513,7 @@
 	aristocrats = {
         culture = north_italian
         religion = catholic
-        size = 275
+        size = 575
     }
 
     clergymen = {
@@ -525,7 +525,7 @@
     bureaucrats = {
         culture = north_italian
         religion = catholic
-        size = 200
+        size = 400
     }
 
     artisans = {
@@ -543,7 +543,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 20325
+        size = 40325
     }
 
     clergymen = {
@@ -1317,13 +1317,13 @@
     aristocrats = {
         culture = north_italian
         religion = catholic
-        size = 500
+        size = 2000
     }
 
     clergymen = {
         culture = north_italian
         religion = catholic
-        size = 500
+        size = 3000
     }
 
     artisans = {
@@ -1341,7 +1341,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 35425
+        size = 90425
     }
 
     clergymen = {
@@ -1362,7 +1362,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = serb
         religion = orthodox
         size = 1825

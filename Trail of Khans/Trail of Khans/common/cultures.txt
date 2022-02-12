@@ -402,8 +402,8 @@ british = {
 
 }
 
-italian = {
-    leader = european
+british_latin = {
+	leader = european
     unit = ItalianGC
 	british = {
         color = { 112 88 59 }
@@ -419,6 +419,12 @@ italian = {
         Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux Perruchetti Pianelli Porro
         Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari "Thaon di Revel" Vaccari Zupelli }
     }
+
+}
+
+italian = {
+    leader = european
+    unit = ItalianGC
 	romansh = {
          color = { 180 40 40 }
         first_names = { Adolf Alexander Eduard Ernst Franz Hans Johann Josef Konstantin Martin
