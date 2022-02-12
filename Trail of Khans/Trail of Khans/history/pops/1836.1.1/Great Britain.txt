@@ -74,33 +74,39 @@
 1724 = {
 
     aristocrats = {
-        culture = scottish
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 40
     }
 
     clergymen = {
-        culture = scottish
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 225
     }
 
     soldiers = {
-        culture = scottish
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 375
     }
 
     artisans = {
-        culture = scottish
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 1000
+    }
+	
+	    farmers = {
+        culture = swedish
+        religion = protestant
+        size = 4660
     }
 
     farmers = {
         culture = scottish
         religion = catholic
-        size = 7660
+        size = 3660
     }
 
 }

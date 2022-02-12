@@ -520,25 +520,31 @@
 #Visby (40000/10000 POPS)
 331 = {
     aristocrats = {
-        culture = swedish
+        culture = north_german
         religion = protestant
         size = 100
     }
 
     clergymen = {
-        culture = swedish
+        culture = north_german
         religion = protestant
         size = 50
     }
 
     artisans = {
-        culture = swedish
+        culture = north_german
         religion = protestant
         size = 700
     }
+	
+	    artisans = {
+        culture = swedish
+        religion = protestant
+        size = 500
+    }
 
     soldiers = {
-        culture = swedish
+        culture = north_german
         religion = protestant
         size = 100
     }

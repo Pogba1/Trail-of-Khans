@@ -730,25 +730,25 @@
     }
 
     clergymen = {
-        culture = finnish
+        culture = north_german
         religion = protestant
         size = 5
     }
 
     artisans = {
-        culture = finnish
+        culture = north_german
         religion = protestant
         size = 10
     }
 
     soldiers = {
-        culture = finnish
+        culture = north_german
         religion = protestant
         size = 5
     }
 
     farmers = {
-        culture = finnish
+        culture = north_german
         religion = protestant
         size = 130
     }
