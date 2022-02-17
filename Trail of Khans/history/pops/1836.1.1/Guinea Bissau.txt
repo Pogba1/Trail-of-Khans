@@ -1,28 +1,28 @@
 #Casamance Region (108000) #see Senegal.txt and Guinea.txt for balance of region
-#Uncolonized in 1836/swedish trade post
+#Uncolonized in 1836/scottish trade post
 #Bissau (32000/8000 POPS)
 1877 = {
 
     clergymen = {
-        culture = swedish
+        culture = scottish
         religion = protestant
         size = 100
     }
 
     artisans = {
-        culture = swedish
+        culture = scottish
         religion = protestant
         size = 100
     }
 
     soldiers = {
-        culture = swedish
+        culture = scottish
         religion = protestant
         size = 100
     }
 
     farmers = {
-        culture = swedish
+        culture = scottish
         religion = protestant
         size = 100
     }
