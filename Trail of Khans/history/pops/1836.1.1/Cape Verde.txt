@@ -3,68 +3,68 @@
 #Cape Verde (76000/19000 POPS)
 1876 = {
     aristocrats = {
-        culture = portuguese
-        religion = catholic
+        culture = dutch
+        religion = protestant
         size = 100
     }
 
     officers = {
-        culture = portuguese
-        religion = catholic
+        culture = dutch
+        religion = protestant
         size = 100
     }
 
     clergymen = {
-        culture = portuguese
-        religion = catholic
+        culture = dutch
+        religion = protestant
         size = 100
     }
 
     artisans = {
-        culture = portuguese
-        religion = catholic
+        culture = dutch
+        religion = protestant
         size = 100
     }
 
     soldiers = {
-        culture = portuguese
-        religion = catholic
+        culture = dutch
+        religion = protestant
         size = 100
     }
 
     farmers = {
-        culture = portuguese
-        religion = catholic
+        culture = dutch
+        religion = protestant
         size = 100
     }
 
     clergymen = {
-        culture = kreol
-        religion = catholic
+        culture = hausa
+        religion = protestant
         size = 150
     }
 
     artisans = {
-        culture = kreol
-        religion = catholic
+        culture = hausa
+        religion = protestant
         size = 700
     }
 
     soldiers = {
-        culture = kreol
-        religion = catholic
+        culture = hausa
+        religion = protestant
         size = 150
     }
 
     farmers = {
-        culture = kreol
-        religion = catholic
+        culture = hausa
+        religion = protestant
         size = 13500
     }
 
     slaves = {
-        culture = kreol
-        religion = catholic
+        culture = hausa
+        religion = protestant
         size = 4000
     }
 

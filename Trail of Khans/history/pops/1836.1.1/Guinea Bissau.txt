@@ -1,106 +1,106 @@
 #Casamance Region (108000) #see Senegal.txt and Guinea.txt for balance of region
-#Uncolonized in 1836/Portuguese trade post
+#Uncolonized in 1836/swedish trade post
 #Bissau (32000/8000 POPS)
 1877 = {
 
     clergymen = {
-        culture = portuguese
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 100
     }
 
     artisans = {
-        culture = portuguese
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 100
     }
 
     soldiers = {
-        culture = portuguese
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 100
     }
 
     farmers = {
-        culture = portuguese
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 100
     }
 
     aristocrats = {
-        culture = western_nigritic
-        religion = catholic
+        culture = hausa
+        religion = protestant
         size = 100
     }
 
     officers = {
-        culture = western_nigritic
-        religion = catholic
+        culture = hausa
+        religion = protestant
         size = 100
     }
 
     clergymen = {
-        culture = western_nigritic
-        religion = catholic
+        culture = hausa
+        religion = protestant
         size = 100
     }
 
     artisans = {
-        culture = western_nigritic
-        religion = catholic
+        culture = hausa
+        religion = protestant
         size = 375
     }
 
     soldiers = {
-        culture = western_nigritic
-        religion = catholic
+        culture = hausa
+        religion = protestant
         size = 100
     }
 
     farmers = {
-        culture = western_nigritic
-        religion = catholic
+        culture = hausa
+        religion = protestant
         size = 5300
     }
 
     slaves = {
-        culture = western_nigritic
+        culture = hausa
         religion = animist
         size = 2000
     }
 
         aristocrats = {
-        culture = western_nigritic
+        culture = hausa
         religion = animist
         size = 300
     }
 
     officers = {
-        culture = western_nigritic
+        culture = hausa
         religion = animist
         size = 100
     }
 
     clergymen = {
-        culture = western_nigritic
+        culture = hausa
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = western_nigritic
+        culture = hausa
         religion = animist
         size = 1000
     }
 
     soldiers = {
-        culture = western_nigritic
+        culture = hausa
         religion = animist
         size = 3000
     }
 
     farmers = {
-        culture = western_nigritic
+        culture = hausa
         religion = animist
         size = 12048
     }
@@ -109,80 +109,80 @@
 #Gabu (152000/38000 POPS)
 1878 = {
     aristocrats = {
-        culture = mande
+        culture = hausa
         religion = sunni
         size = 500
     }
 
     bureaucrats = {
-        culture = mande
+        culture = hausa
         religion = sunni
         size = 100
     }
 
     clergymen = {
-        culture = mande
+        culture = hausa
         religion = sunni
         size = 100
     }
 
     artisans = {
-        culture = mande
+        culture = hausa
         religion = sunni
         size = 1000
     }
 
     soldiers = {
-        culture = mande
+        culture = hausa
         religion = sunni
         size = 1100
     }
 
     farmers = {
-        culture = mande
+        culture = hausa
         religion = sunni
         size = 3768
     }
 
 
     aristocrats = {
-        culture = fulbe
+        culture = hausa
         religion = sunni
         size = 400
     }
 
     bureaucrats = {
-        culture = fulbe
+        culture = hausa
         religion = sunni
         size = 100
     }
 
     clergymen = {
-        culture = fulbe
+        culture = hausa
         religion = sunni
         size = 100
     }
 
     artisans = {
-        culture = fulbe
+        culture = hausa
         religion = sunni
         size = 1000
     }
 
     soldiers = {
-        culture = fulbe
+        culture = hausa
         religion = sunni
         size = 1200
     }
 
     farmers = {
-        culture = fulbe
+        culture = hausa
         religion = sunni
         size = 11129
     }
 
     slaves = {
-        culture = western_nigritic
+        culture = hausa
         religion = animist
         size = 2000
     }
