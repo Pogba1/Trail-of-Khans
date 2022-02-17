@@ -323,7 +323,7 @@
     artisans = {
         culture = ukrainian
         religion = orthodox
-        size = 4600
+        size = 2600
     }
 
     soldiers = {
@@ -335,7 +335,7 @@
     serfs = {
         culture = ukrainian
         religion = orthodox
-        size = 85650
+        size = 45650
     }
 
     clergymen = {
@@ -347,7 +347,7 @@
     artisans = {
         culture = slovak
         religion = catholic
-        size = 850
+        size = 2850
     }
 
     soldiers = {
@@ -359,7 +359,7 @@
     farmers = {
         culture = slovak
         religion = catholic
-        size = 15825
+        size = 55825
     }
 
     aristocrats = {
@@ -513,7 +513,7 @@
     farmers = {
         culture = ukrainian
         religion = orthodox
-        size = 77050
+        size = 37050
     }
 
     serfs = {
@@ -561,7 +561,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 84725
+        size = 124725
     }
 	soldiers = {
         culture = polish
@@ -763,7 +763,7 @@
     farmers = {
         culture = ukrainian
         religion = orthodox
-        size = 106200
+        size = 76200
     }
 
     serfs = {
@@ -805,7 +805,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 106700
+        size = 136700
     }
 
     clergymen = {
@@ -829,7 +829,7 @@
     farmers = {
         culture = ashkenazi
         religion = jewish
-        size = 13275
+        size = 23275
     }
 
     clergymen = {
@@ -1113,7 +1113,7 @@
     farmers = {
         culture = ukrainian
         religion = orthodox
-        size = 40200
+        size = 35200
     }
 
     serfs = {
@@ -1149,7 +1149,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 6400
+        size = 16400
     }
 
     aristocrats = {
@@ -1229,7 +1229,7 @@
     farmers = {
         culture = ukrainian
         religion = orthodox
-        size = 43775
+        size = 23775
     }
 
     serfs = {
@@ -1265,7 +1265,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 10375
+        size = 35375
     }
 
     clergymen = {
@@ -1315,7 +1315,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 37450
+        size = 17450
     }
 
     serfs = {
@@ -1355,7 +1355,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 8850
+        size = 28850
     }
 
     clergymen = {

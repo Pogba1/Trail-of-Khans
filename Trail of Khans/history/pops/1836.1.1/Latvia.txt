@@ -148,7 +148,7 @@
     artisans = {
         culture = latvian
         religion = protestant
-        size = 3350
+        size = 1350
     }
 
     soldiers = {
@@ -160,7 +160,7 @@
     farmers = {
         culture = latvian
         religion = protestant
-        size = 112375
+        size = 82375
     }
 
     aristocrats = {
@@ -178,7 +178,7 @@
     artisans = {
         culture = north_german
         religion = protestant
-        size = 600
+        size = 1600
     }
 
     soldiers = {
@@ -238,7 +238,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 1550
+        size = 31550
     }
 
     aristocrats = {
@@ -295,7 +295,7 @@
     farmers = {
         culture = latvian
         religion = protestant
-        size = 19800
+        size = 9800
     }
 
     aristocrats = {
@@ -343,7 +343,7 @@
     farmers = {
         culture = ashkenazi
         religion = jewish
-        size = 1525
+        size = 2525
     }
 
     aristocrats = {
@@ -373,7 +373,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 2050
+        size = 12050
     }
 
     farmers = {
@@ -411,7 +411,7 @@
     farmers = {
         culture = latvian
         religion = protestant
-        size = 28275
+        size = 20275
     }
 
     aristocrats = {
@@ -420,6 +420,12 @@
         size = 1150
     }
 
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 10275
+    }
+	
     clergymen = {
         culture = north_german
         religion = protestant
@@ -435,7 +441,7 @@
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 100
+        size = 500
     }
 
     clergymen = {
@@ -485,7 +491,7 @@
     farmers = {
         culture = latvian
         religion = protestant
-        size = 29450
+        size = 19450
     }
 
     aristocrats = {
@@ -498,6 +504,12 @@
         culture = north_german
         religion = protestant
         size = 100
+    }
+	
+	    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 9450
     }
 
     artisans = {
@@ -565,7 +577,7 @@
     farmers = {
         culture = latvian
         religion = protestant
-        size = 21475
+        size = 11475
     }
 
     aristocrats = {
@@ -590,6 +602,12 @@
         culture = north_german
         religion = protestant
         size = 100
+    }
+	
+	    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 11475
     }
 
     clergymen = {

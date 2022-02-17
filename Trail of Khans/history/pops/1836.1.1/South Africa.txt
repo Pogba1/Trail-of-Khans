@@ -1,4 +1,4 @@
-#file includes modern South Africa, Lesotho and Swaziland
+#file includes modern South Africa, Lekhoisan and Swaziland
 #Western Cape Region (395100)
 #Ruled by Britain 1836
 #Boer POPs represent post-Great Trek migration
@@ -517,13 +517,13 @@
     }
 
     artisans = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     farmers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 9800
     }
@@ -888,31 +888,31 @@
     }
 
     aristocrats = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 25
     }
 
     clergymen = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 25
     }
 
     artisans = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 50
     }
 
     soldiers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 25
     }
 
     farmers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 1875
     }
@@ -920,31 +920,31 @@
 #De Aar (30600/7650 POPS)
 2558 = {
     aristocrats = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 50
     }
 
     clergymen = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 50
     }
 
     artisans = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 150
     }
 
     soldiers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 50
     }
 
     farmers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 5700
     }
@@ -961,64 +961,64 @@
     }
 
     aristocrats = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 400
     }
 
     clergymen = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 400
     }
 
     artisans = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 1600
     }
 
     soldiers = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 400
     }
 
     farmers = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 36200
     }
 }
-#Bechuanaland Region (20000) #see Botswana.txt for balance of region
+#Bechuanaland Region (20000) #see Bokhoisan.txt for balance of region
 #Dikathong (20000/5000 POPS)
 2095 = {
     aristocrats = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 50
     }
 
     clergymen = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 50
     }
 
     artisans = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 200
     }
 
     soldiers = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 50
     }
 
     farmers = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 4650
     }
@@ -1126,31 +1126,31 @@
     }
 
     aristocrats = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     clergymen = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     soldiers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     farmers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 860
     }
@@ -1186,7 +1186,7 @@
     }
 
     soldiers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
@@ -1313,31 +1313,31 @@
     }
 
     aristocrats = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     clergymen = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     soldiers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     farmers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 750
     }
@@ -1537,43 +1537,43 @@
 
 }
 #Transorangia Region (509000)
-#uncolonized in 1836/dominated by the Sotho in 1836
+#uncolonized in 1836/dominated by the khoisan in 1836
 #Boer POPs represent post-Great Trek migration
 #Bloemfontein (194000/48500 POPS)
 2101 = {
     
     aristocrats = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 925
     }
 
     clergymen = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 2375
     }
 
     soldiers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 1475
     }
 
     farmers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 32900
     }
 
     slaves = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 2450
     }
@@ -1583,67 +1583,67 @@
     
 
     aristocrats = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 350
     }
 
     clergymen = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 1100
     }
 
     soldiers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 200
     }
 
     slaves = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 1750
     }
 
     farmers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 18225
     }
 
     aristocrats = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     clergymen = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 250
     }
 
     soldiers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     farmers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 4575
     }
@@ -1654,82 +1654,82 @@
     
 
     aristocrats = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 400
     }
 
     clergymen = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 1025
     }
 
     soldiers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 200
     }
 
     farmers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 18775
     }
 
     slaves = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 1350
     }
 
 }
-#Thaba Bosiu (256000/64000 POPS) #now Lesotho
+#Thaba Bosiu (256000/64000 POPS) #now Lekhoisan
 2104 = {
     aristocrats = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 1250
     }
 
     bureaucrats = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 250
     }
 
     officers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 250
     }
 
     clergymen = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 150
     }
 
     artisans = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 3200
     }
 
     soldiers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 1100
     }
 
     farmers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 58000
     }
@@ -1742,43 +1742,43 @@
 
 }
 #Transvaal Region (349000)
-#uncolonized in 1836/dominated by the Sotho in 1836
+#uncolonized in 1836/dominated by the khoisan in 1836
 #Boer POPs represent post-Great Trek migration
 #Pretoria (137600/34400 POPS)
 2105 = {
     
     aristocrats = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 650
     }
 
     clergymen = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 1350
     }
 
     soldiers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 350
     }
 
     slaves = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 1500
     }
 
     farmers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 21300
     }
@@ -1810,37 +1810,37 @@
     }
 
     aristocrats = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 425
     }
 
     clergymen = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 1250
     }
 
     soldiers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 250
     }
 
     slaves = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 1500
     }
 
     farmers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 18775
     }
@@ -1852,61 +1852,61 @@
     
 
     aristocrats = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 225
     }
 
     clergymen = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 1600
     }
 
     soldiers = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 125
     }
 
     farmers = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 14925
     }
 
     slaves = {
-        culture = tswana
+        culture = khoisan
         religion = animist
         size = 567
     }
 
     aristocrats = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 275
     }
 
     clergymen = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 600
     }
 
     farmers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 8925
     }
@@ -1918,67 +1918,67 @@
 2108 = {
     
     aristocrats = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 75
     }
 
     clergymen = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 200
     }
 
     soldiers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 8000
     }
 
     farmers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 26625
     }
 
     aristocrats = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 125
     }
 
     clergymen = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 350
     }
 
     soldiers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     farmers = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 62375
     }
 
     slaves = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 6972
     }
@@ -1988,108 +1988,108 @@
 2109 = {
     
     aristocrats = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 225
     }
 
     clergymen = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 650
     }
 
     slaves = {
-        culture = sotho
+        culture = khoisan
         religion = animist
         size = 2347
     }
 
     soldiers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 150
     }
 
     farmers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 81850
     }
 }
-#uncolonized in 1836/dominated by the Gaza Nguni
+#uncolonized in 1836/dominated by the Gaza khoisan
 #Thohoyandu (28200/7050 POPS)
 2110 = {
     
 
     aristocrats = {
-        culture = southern_bantu
+        culture = forest_bantu
         religion = animist
         size = 100
     }
 
     clergymen = {
-        culture = southern_bantu
+        culture = forest_bantu
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = southern_bantu
+        culture = forest_bantu
         religion = animist
         size = 150
     }
 
     soldiers = {
-        culture = southern_bantu
+        culture = forest_bantu
         religion = animist
         size = 100
     }
 
     farmers = {
-        culture = southern_bantu
+        culture = forest_bantu
         religion = animist
         size = 4700
     }
 
     aristocrats = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     clergymen = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     slaves = {
-        culture = southern_bantu
+        culture = forest_bantu
         religion = animist
         size = 1350
     }
 
     artisans = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 175
     }
 
     soldiers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     farmers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 1750
     }
@@ -2209,7 +2209,7 @@
     }
 
     slaves = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 712
     }
@@ -2297,7 +2297,7 @@
     }
 
     slaves = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 1376
     }
@@ -2336,43 +2336,43 @@
     }
 
     aristocrats = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 500
     }
 
     bureaucrats = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 100
     }
 
     clergymen = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 250
     }
 
     artisans = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 1300
     }
 
     soldiers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 1000
     }
 
     farmers = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 22950
     }
 
     slaves = {
-        culture = nguni
+        culture = khoisan
         religion = animist
         size = 2450
     }

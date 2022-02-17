@@ -526,31 +526,31 @@
 #Mombasa (100000/25000 POPS)
 2029 = {
     aristocrats = {
-        culture = swahili
+        culture = forest_bantu
         religion = sunni
         size = 200
     }
 
     clergymen = {
-        culture = swahili
+        culture = forest_bantu
         religion = sunni
         size = 100
     }
 
     artisans = {
-        culture = swahili
+        culture = forest_bantu
         religion = sunni
         size = 550
     }
 
     soldiers = {
-        culture = swahili
+        culture = forest_bantu
         religion = sunni
         size = 1100
     }
 
     farmers = {
-        culture = swahili
+        culture = forest_bantu
         religion = sunni
         size = 9150
     }
@@ -586,37 +586,37 @@
     }
 
     aristocrats = {
-        culture = kikuyu
+        culture = forest_bantu
         religion = animist
         size = 175
     }
 
     clergymen = {
-        culture = kikuyu
+        culture = forest_bantu
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = kikuyu
+        culture = forest_bantu
         religion = animist
         size = 500
     }
 
     soldiers = {
-        culture = kikuyu
+        culture = forest_bantu
         religion = animist
         size = 100
     }
 
     farmers = {
-        culture = kikuyu
+        culture = forest_bantu
         religion = animist
         size = 9125
     }
 
     slaves = {
-        culture = kikuyu
+        culture = forest_bantu
         religion = animist
         size = 3000
     }
@@ -693,37 +693,37 @@
 #Voi (104000/26000 POPS)
 2033 = {
     aristocrats = {
-        culture = kikuyu
+        culture = forest_bantu
         religion = animist
         size = 475
     }
 
     clergymen = {
-        culture = kikuyu
+        culture = forest_bantu
         religion = animist
         size = 250
     }
 
     artisans = {
-        culture = kikuyu
+        culture = forest_bantu
         religion = animist
         size = 1300
     }
 
     soldiers = {
-        culture = kikuyu
+        culture = forest_bantu
         religion = animist
         size = 250
     }
 
     farmers = {
-        culture = kikuyu
+        culture = forest_bantu
         religion = animist
         size = 20725
     }
 
     slaves = {
-        culture = kikuyu
+        culture = forest_bantu
         religion = animist
         size = 3000
     }

@@ -424,13 +424,13 @@
     farmers = {
         culture = ukrainian
         religion = orthodox
-        size = 23400
+        size = 53400
     }
 
     serfs = {
         culture = ukrainian
         religion = orthodox
-        size = 1000
+        size = 21000
     }
 
     aristocrats = {
@@ -472,13 +472,13 @@
     farmers = {
         culture = russian
         religion = orthodox
-        size = 58250
+        size = 38250
     }
 
     serfs = {
         culture = russian
         religion = orthodox
-        size = 90000
+        size = 40000
     }
 }
 #Orel (656000/164000 POPS)
@@ -616,13 +616,13 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 74150
+        size = 154150
     }
 
     serfs = {
         culture = ukrainian
         religion = orthodox
-        size = 65000
+        size = 95000
     }
 
     aristocrats = {
@@ -652,19 +652,19 @@
     farmers = {
         culture = russian
         religion = orthodox
-        size = 91975
+        size = 41975
     }
 
     serfs = {
         culture = russian
         religion = orthodox
-        size = 55000
+        size = 25000
     }
 
     serfs = {
         culture = russian
         religion = orthodox
-        size = 50000
+        size = 20000
     }
 }
 #Donbass Region (1188000) #see Ukraine.txt for balance of region
