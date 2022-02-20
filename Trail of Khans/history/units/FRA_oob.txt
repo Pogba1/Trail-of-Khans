@@ -108,75 +108,6 @@ SPA = { value = 55 }
 
 TRZ = { value = -100 }
 
-army = {
-    name = "Garde Royale"
-    location = 425
-    regiment = {
-        name= "1.Garde Royale"
-        type = guard
-        home = 425
-    }
-
-    regiment = {
-        name= "2.Garde Royale"
-        type = guard
-        home = 426
-    }
-
-    regiment = {
-        name= "3.Garde Royale"
-        type = guard
-        home = 427
-    }
-
-    regiment = {
-        name= "2ère Division d'Hussard"
-        type = hussar
-        home = 446
-    }
-
-    regiment = {
-        name= "1.1ère Division d'Infanterie"
-        type = infantry
-        home = 438
-    }
-
-    regiment = {
-        name= "2.1ère Division d'Infanterie"
-        type = infantry
-        home = 400
-    }
-
-    regiment = {
-        name= "3.1ère Division d'Infanterie"
-        type = infantry
-        home = 401
-    }
-
-    regiment = {
-        name= "1.1ère Division d'Artillerie"
-        type = artillery
-        home = 425
-    }
-
-    regiment = {
-        name= "2.1ère Division d'Artillerie"
-        type = artillery
-        home = 400
-    }
-
-    regiment = {
-        name= "3.1ère Division d'Artillerie"
-        type = artillery
-        home = 453
-    }
-
-    regiment = {
-        name= "4.1ère Division d'Artillerie"
-        type = artillery
-        home = 399
-    }
-}
 #army = {
 #    name = "Armée Louisianais"
 #    location = 139
@@ -305,7 +236,7 @@ army = {
 #}
 army = {
     name = "1ère Armée"
-    location = 409
+    location = 407
 
     regiment = {
         name= "1ère Division d'Hussard"
@@ -346,110 +277,32 @@ army = {
     regiment = {
         name= "2.3ème Division d'Infanterie"
         type = infantry
-        home = 399
+        home = 447
     }
 
     regiment = {
         name= "1.1ème Division d'Artillerie"
         type = artillery
-        home = 399
+        home = 423
     }
 
     regiment = {
         name= "2.1ème Division d'Artillerie"
         type = artillery
-        home = 400
+        home = 423
     }
 
     regiment = {
         name= "3.1ème Division d'Artillerie"
         type = artillery
-        home = 399
+        home = 423
     }
 
     regiment = {
         name= "4.1ème Division d'Artillerie"
         type = artillery
-        home = 399
+        home = 447
     }
-}
-
-army = {
-    name = "2ème Armée"
-    location = 471
-
-    regiment = {
-        name= "1.Garde Royale"
-        type = guard
-        home = 440
-    }
-
-    regiment = {
-        name= "1ème Division d'Cuirasser"
-        type = cuirassier
-        home = 418
-    }
-
-    regiment = {
-        name= "2ère Division d'Cuirasser"
-        type = cuirassier
-        home = 406
-    }
-
-    regiment = {
-        name= "1.7ème Division d'Infanterie"
-        type = infantry
-        home = 415
-    }
-
-    regiment = {
-        name= "2.7ème Division d'Infanterie"
-        type = infantry
-        home = 416
-    }
-
-    regiment = {
-        name= "3.7ème Division d'Infanterie"
-        type = infantry
-        home = 417
-    }
-
-    regiment = {
-        name= "4.7ème Division d'Infanterie"
-        type = infantry
-        home = 452
-    }
-
-    regiment = {
-        name= "5.7ème Division d'Infanterie"
-        type = infantry
-        home = 448
-    }
-
-    regiment = {
-        name= "4.1ème Division d'Artillerie"
-        type = artillery
-        home = 470
-    }
-
-    regiment = {
-        name= "4.2ème Division d'Artillerie"
-        type = artillery
-        home = 434
-    }
-
-    regiment = {
-        name= "4.3ème Division d'Artillerie"
-        type = artillery
-        home = 462
-    }
-
-    regiment = {
-        name= "5.3ème Division d'Artillerie"
-        type = artillery
-        home = 461
-    }
-
 }
 
 army = {
@@ -811,161 +664,6 @@ navy = {
 
     ship = {
         name= "Sultane"
-        type = frigate
-    }
-
-}
-
-navy = {
-    name = "Escadre de Méditerranée"
-    location = 470
-    ship = {
-        name= "Triton"
-        type = manowar
-    }
-
-    ship = {
-        name= "Souverain"
-        type = manowar
-    }
-
-    ship = {
-        name= "Marengo"
-        type = manowar
-    }
-
-    ship = {
-        name= "Ville de Marseilles"
-        type = manowar
-    }
-
-    ship = {
-        name= "Hercule"
-        type = manowar
-    }
-
-    ship = {
-        name= "Montebello "
-        type = manowar
-    }
-
-    ship = {
-        name= "Centaure"
-        type = manowar
-    }
-
-    ship = {
-        name= "Jupiter"
-        type = manowar
-    }
-
-    ship = {
-        name= "Duc d’Angouleme"
-        type = manowar
-    }
-
-    ship = {
-        name= "Hercules"
-        type = manowar
-    }
-
-    ship = {
-        name= "Généreux"
-        type = manowar
-    }
-
-    ship = {
-        name= "Diadème"
-        type = manowar
-    }
-
-    ship = {
-        name= "Couronne"
-        type = manowar
-    }
-
-    ship = {
-        name= "Suffren"
-        type = manowar
-    }
-
-    ship = {
-        name= "Trident"
-        type = manowar
-    }
-
-    ship = {
-        name= "Terpsichore"
-        type = frigate
-    }
-
-    ship = {
-        name= "Arthémise"
-        type = frigate
-    }
-
-    ship = {
-        name= "Belle Gabrielle"
-        type = frigate
-    }
-
-    ship = {
-        name= "Didon"
-        type = frigate
-    }
-
-    ship = {
-        name= "Caroline"
-        type = frigate
-    }
-
-    ship = {
-        name= "Herminie"
-        type = frigate
-    }
-
-    ship = {
-        name= "Melpomène"
-        type = frigate
-    }
-
-    ship = {
-        name= "Uranie"
-        type = frigate
-    }
-
-    ship = {
-        name= "Andromède"
-        type = frigate
-    }
-
-    ship = {
-        name= "Jeanne d’Arc"
-        type = frigate
-    }
-
-    ship = {
-        name= "Belle Poule"
-        type = frigate
-    }
-
-    ship = {
-        name= "Erigone"
-        type = frigate
-    }
-
-    ship = {
-        name= "Nereide"
-        type = frigate
-    }
-
-    ship = {
-        name= "Gloire"
-        type = frigate
-    }
-
-    ship = {
-        name= "Reine Blanche"
         type = frigate
     }
 

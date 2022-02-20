@@ -1,0 +1,21 @@
+political_decisions = {
+
+	farmland_for_immigrants = {
+		picture = dreams_of_empire
+		potential = {
+		tag = ARG
+		NOT = {has_country_flag = farmland_for_immigrants}
+		}
+		allow = {
+		war = no
+		state_n_government = 1
+		slavery = no_slavery
+		all_core = {owned_by =THIS}
+		
+		}
+		effect = {
+			set_country_flag = farmland_for_immigrants
+			add_country_modifier = {name = land_grants_arg duration = 3650}
+		}
+	}
+}

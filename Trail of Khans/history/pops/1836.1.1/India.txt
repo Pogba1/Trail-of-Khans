@@ -3582,7 +3582,11 @@
         religion = hindu
         size = 1500
     }
-
+	farmers = {
+        culture = bengali
+        religion = sunni
+        size = 13550
+    }
     farmers = {
         culture = assamese
         religion = hindu
@@ -3646,8 +3650,8 @@
 #Imphal (616000/154000 POPS)
 1259 = {
     aristocrats = {
-        culture = manipuri
-        religion = hindu
+        culture = bengali
+        religion = sunni
         size = 1100
     }
 
@@ -3656,7 +3660,11 @@
         religion = hindu
         size = 1100
     }
-
+	bureaucrats = {
+		culture = bengali
+		religion = sunni
+		size = 20
+	}
     artisans = {
         culture = manipuri
         religion = hindu

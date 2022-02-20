@@ -302,7 +302,9 @@ BAV_595 = { 595 596 597 598 } #Franconia
 
 BAV_599 = { 599 592 600 601 602 } #Upper Bavaria
 
-SWI_603 = { 603 606 611 2568 605 604 607 608 609 } #Switzerland
+SWI_603 = { 603 606 611 2568 } #Switzerland (east)
+
+SWI_607 = { 605 604 607 608 609 } #Western Switzerland
 
 PRU_682 = { 682 683 684 685 } #Silesia
 

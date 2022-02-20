@@ -1,0 +1,145 @@
+political_decisions = {
+	
+	retake_the_north = {
+		picture = "romanians_marching"
+		potential = {
+			tag = FRA
+			NOT = {has_country_flag = retake_north}
+		}
+		allow = {
+		418 = {owned_by = THIS}
+		}
+		effect = {
+		set_country_flag = retake_north
+		424 = {add_core = THIS}
+		421 = {add_core = THIS}
+		420 = {add_core = THIS}
+		}
+	}
+	reintegrate_lorraine = {
+		#picture = 
+		potential = {
+			tag = FRA
+			NOT = {has_country_flag = reintegrate_lorraine}
+		}
+		allow = {
+		411 = {owned_by = THIS}
+		409 = {owned_by = THIS}
+		}
+		effect = {
+		set_country_flag = reintegrate_lorraine
+		FRA_411 = {add_core = THIS}
+		FRA_412 = {add_core = THIS}
+		}
+	
+	}
+	
+	reintegrate_lower_burgundy = {
+		#picture = 
+		potential = {
+			tag = FRA
+			NOT = {has_country_flag = reintegrate_lower_burgundy}
+		}
+		allow = {
+		451 = {owned_by = THIS}
+		468 = {owned_by = THIS}
+		}
+		effect = {
+		set_country_flag = reintegrate_lower_burgundy
+		FRA_451 = {add_core = THIS}
+		FRA_467 = {add_core = THIS}
+		SWI_607 = {add_core = THIS}
+		432 = {add_core = THIS}
+		433 = {add_core = THIS}
+		}
+	
+	}
+	
+	integrate_occitans = {
+		potential = {
+           tag = FRA
+		   NOT={has_country_flag=language_reform}
+		   NOT={has_country_flag=integrate_occitans}
+        }
+		allow = {
+            war = no
+            biologism = 1
+        }
+		effect = {
+			set_country_flag = language_reform
+			add_accepted_culture = occitan
+		}
+	}
+	language_reform = {
+        picture = dissolve_the_parliament
+        potential = {
+           tag = FRA
+		   NOT={has_country_flag=language_reform}
+		   NOT={has_country_flag=integrate_occitans}
+        }
+
+        allow = {
+            war = no
+            biologism = 1
+        }
+
+        effect = {
+            plurality = -3
+            prestige = 5
+            set_country_flag = language_reform
+            any_pop = {
+                limit = {
+                    strata = middle
+                    is_primary_culture = no
+                }
+                militancy = 1
+                consciousness = 2
+            }
+			any_pop = {
+                limit = {
+                    strata = rich
+                    is_primary_culture = no
+                }
+                militancy = 3
+                consciousness = 4
+            }
+			
+			
+			any_owned={
+			limit={
+			is_core = THIS
+			is_overseas = no
+			}
+			
+			add_province_modifier={name=language_reform duration=-1}
+			}
+			remove_accepted_culture = occitan
+			any_owned={
+			limit={
+				is_core = BRT
+			}
+			remove_core = BRT
+			}
+			any_owned={
+			limit={
+				is_core = LBR
+			}
+			remove_core = LBR
+			}
+			
+			any_owned={
+			limit={
+				is_core = UBR
+			}
+			remove_core = UBR
+			}
+			
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+
+
+
+	
+}

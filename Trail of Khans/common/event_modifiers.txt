@@ -2750,10 +2750,10 @@ reassert_greek_superiority = {
 	assimilation_rate = 2
 	icon = 3
 }
-land_grants_tex = {
+land_grants_arg = {
 	global_immigrant_attract = 2.5
 	tax_efficiency = -0.05
-	global_assimilation_rate = 0.2
+	global_assimilation_rate = -0.2
 	icon = 19
 }
 el_tofo = {
