@@ -36,6 +36,23 @@ political_decisions = {
 	
 	}
 	
+	little_paris = {
+		potential = {
+			tag = ROM
+			NOT = {has_global_flag = little_paris}
+		}
+		allow = {
+			664 = {owned_by = THIS}
+			romanticism = 1
+			early_railroad = 1
+		}
+		effect = {
+		set_global_flag = little_paris
+		664 = {life_rating = 5}
+		prestige = 5
+		}
+	}
+	
 	#natural_borders_II = {
 	#potential = {
 	#tag = ROM
@@ -80,7 +97,20 @@ political_decisions = {
 	672 = {trade_goods = oil}
 	}
 	}
-	
+	reform_education = {
+		potential = {
+			tag = ROM
+			NOT = {has_country_flag = reform_education}
+		}
+		allow = {
+			biologism = 1
+			romanticism = 1
+		}
+		effect = {
+			set_country_flag = reform_education
+			add_country_modifier = {name = reform_education duration = 3650}
+		}
+	}
 	wallachian_agriculture = {
 	picture = tea_production
 	potential = {

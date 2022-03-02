@@ -65,6 +65,23 @@ political_decisions = {
 			add_accepted_culture = spanish
 			}
 	}
+	embrace_catalan = {
+		picture = "embrace_minority"
+		potential = {
+			tag = ATR
+			NOT = {has_country_flag = embrace_catalan}
+		}
+		allow = {
+			war = no
+			all_core = {owned_by = THIS}
+			498 = {owned_by = THIS}
+		}
+		effect = {
+			set_country_flag = embrace_catalan
+			add_accepted_culture = catalan
+			}
+	
+	}
 	#######################
 	#AL ANDALOOS CALIPHATE#
 	#######################

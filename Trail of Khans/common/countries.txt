@@ -87,6 +87,7 @@ SPU        = "countries/South Peru.txt"
 YUC        = "countries/Yucatan.txt"
 
 #North America
+NAM		   = "countries/North America.txt"
 GPN		   = "countries/Great Plains.txt"
 IRO		   = "countries/Iroquois.txt"
 BLZ        = "countries/Belize.txt"
@@ -105,6 +106,7 @@ UNM        = "countries/New Mexico.txt"
 UOR        = "countries/Oregon.txt"
 
 #Europe
+GAE		   = "countries/Gaellia.txt"
 EPI		   = "countries/Albania-Epirus.txt"
 HPS		   = "countries/Hapsburgs.txt"
 BRN        = "countries/Brandenburg.txt"

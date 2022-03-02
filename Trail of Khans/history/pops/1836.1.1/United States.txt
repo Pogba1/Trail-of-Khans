@@ -7533,6 +7533,11 @@
 #ruled by the USA
 #Philadelphia (468000/117000 POPS)
 223 = {
+	farmers = {
+        culture = french_canadian
+        religion = catholic
+        size = 36800
+    }
 	clergymen = {
         culture = louisianian
         religion = catholic
@@ -7715,6 +7720,11 @@
 #Coudersport - Formerly Fort Chimo (2400/600 POPS)
 2627 = {
 	farmers = {
+        culture = louisianian
+        religion = catholic
+        size = 6552
+    }
+	farmers = {
         culture = french_canadian
         religion = catholic
         size = 58050
@@ -7787,6 +7797,11 @@
 }
 #Scranton (164000/41000 POPS)
 224 = {
+	farmers = {
+        culture = louisianian
+        religion = catholic
+        size = 2552
+    }
     clergymen = {
         culture = french_canadian
         religion = catholic
@@ -7813,6 +7828,11 @@
 }
 #Williamsport (172000/43000 POPS)
 225 = {
+	farmers = {
+        culture = french_canadian
+        religion = catholic
+        size = 36800
+    }
     clergymen = {
         culture = louisianian
         religion = catholic
@@ -7839,6 +7859,11 @@
 }
 #Harrisburg (292000/73000 POPS)
 226 = {
+	farmers = {
+        culture = french_canadian
+        religion = catholic
+        size = 36800
+    }
     clergymen = {
         culture = louisianian
         religion = catholic
@@ -7865,6 +7890,11 @@
 }
 #Pittsburgh (332000/83000 POPS)
 227 = {
+	farmers = {
+        culture = french_canadian
+        religion = catholic
+        size = 36800
+    }
     clergymen = {
         culture = louisianian
         religion = catholic
@@ -7971,6 +8001,11 @@
 
     farmers = {
         culture = french_canadian
+        religion = catholic
+        size = 2552
+    }
+	farmers = {
+        culture = louisianian
         religion = catholic
         size = 2552
     }
@@ -8217,13 +8252,13 @@
     soldiers = {
         culture = french_canadian
         religion = catholic
-        size = 2000
+        size = 6000
     }
 
     farmers = {
         culture = french_canadian
         religion = catholic
-        size = 145125
+        size = 105125
     }
 
     clergymen = {

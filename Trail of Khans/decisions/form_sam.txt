@@ -1,0 +1,41 @@
+political_decisions = {
+	united_sam = {
+		potential = {
+			primary_culture = brazilian
+			NOT = {exists = SAM}
+		}
+		allow = {
+			2410 = {owned_by = THIS}
+			2447 = {owned_by = THIS}
+		}
+		effect = {
+			BRZ = {all_core = {add_core = THIS}}
+			NGV = {all_core = {add_core = THIS}}
+			change_tag = SAM
+			prestige = 10
+		}
+	}
+	
+	new_life_nw = {
+		picture = dreams_of_empire
+		potential = {
+			OR = {capital_scope = {continent = south_america} capital_scope = {continent = north_america}}
+			NOT = {tag = ARG}
+			NOT = {tag = INC}
+		NOT = {has_country_flag = new_life_nw}
+		}
+		allow = {
+		war = no
+		state_n_government = 1
+		slavery = no_slavery
+		all_core = {owned_by =THIS}
+		number_of_states = 2
+		is_vassal = no
+		civilized = yes
+		}
+		effect = {
+			set_country_flag = new_life_nw
+			add_country_modifier = {name = small_immigration_boom duration = 3650}
+		}
+	}
+}

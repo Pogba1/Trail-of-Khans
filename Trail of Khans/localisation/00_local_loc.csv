@@ -1,5 +1,153 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+GC_NAME;Schizo Campaign;x
+GC_DESC;You forgot your pills again! You just woke up in a strange world where Hyperborean Byzantium is real and the Mongol empire did a large amount of trolling, Poland is very epic and the Italians colonized the Americas.;x
+mongol_unification_cb;Mongol Unification;x
+mongol_unification_setup;Mongol Unification;x
+mongol_unification_short;Mongol Unification;x
+mongol_unification;Mongol Unification;x
+beifaren_integration_title;Beifaren Integration;x
+beifaren_integration_desc; ;x
+restore_the_empire_title;Restore the Empire;x
+restore_the_empire_desc; ;x
+all_welcome_in_the_horde_title;All are Welcome In the Horde;x
+all_welcome_in_the_horde_desc;reno...reno don't turn the africans into 4 cultures renooo;x
+heartland_of_the_empire_sigma_title;Heartland of the Empire;x
+heartland_of_the_empire_sigma_desc; ;x
+bangkok_renovated;Bangkok Renovated;x
+renovate_bangkok_title;Renovate Bangkok;x
+renovate_bangkok_desc;reno;x
+integrate_yue_title;Integrate the Yue;x
+integrate_yue_desc; ;x
+cambodian_integration_title;Cambodian Integration;x
+cambodian_integration_desc; ;x
+the_malay_reconquest_title;Malay Reconquest;x
+the_malay_reconquest_desc; ;x
+form_china_title;Form China;x
+form_china_desc; ;x
+chinese_unification_annex;Chinese Unification;x
+chinese_unification_annex_setup;This casus-belli is usable on anyone that holds Chinese cores.;x
+chinese_unification_annex_cb;Chinese Unification;x
+chinese_unification_annex_short;Chinese Unification;x
+chinese_unification;Annex Chinese State;x
+chinese_unification_setup;This casus-belli is usable on anyone that ONLY holds Chinese cores.;x
+chinese_unification_cb;Annex Chinese State;x
+chinese_unification_short;Annex Chinese State;x
+integrate_ruthenians_plc_title;Integrate Ruthenians;x
+integrate_ruthenians_plc_desc; ;x
+EVTDSC400601;"Legiuirea pentru emanciparea tuturor țiganilor din Principatul Țării Românești", or the act of emancipation of all gypsies of Wallachia was an act issued by the Wallachian government that made all gypsies free from slavery/serfdom.;x
+form_rom_title;Form Romania;x
+form_rom_desc; ;x
+little_paris_title;Little Paris;x
+little_paris_desc; ;x
+develop_jer_title;Develop Jerusalem;x
+develop_jer_desc; ;x
+conquest_egy_jer_title;Conquest of Egypt;x
+conquest_egy_jer_desc; ;x
+western_technology_title;Western Technology;x
+western_technology_desc; ;x
+education_reform_rom;Education Reform;x
+reform_education_title;Reform Education;x
+reform_education_desc; ;x
+conquer_caucasus_svf_title;Conquer the Caucasus;x
+conquer_caucasus_svf_desc; ;x
+destroy_turkmenistan_title;Conquer Turkmenistan;x
+destroy_turkmenistan_desc; ;x
+integrate_turkmen_title;Integrate Turkmen;x
+integrate_turkmen_desc; ;x
+push_east_svf_title;Push East;x
+push_east_svf_desc; ;x
+liberate_jerusalem_title;Liberate Jerusalem;x
+liberate_jerusalem_desc; ;x
+secede_land_new_title;Secede Land to Vinland;x
+secede_land_new_desc; ;x
+reclaim_the_danelaw_title;Reclaim the Danelaw;x
+reclaim_the_danelaw_desc; ;x
+self_governance_vinland_title;Self Governance for Vinland;x
+self_governance_vinland_desc; ;x
+NEW_ADJ;Vinlandic;x
+NEW;Vinland;x
+secure_nouvelle_orleans_title;Secure Nouvelle Orleans;x
+secure_nouvelle_orleans_desc; ;x
+NAM;Federation of North America;x
+NAM_absolute_monarchy;Empire of America;x
+NAM_hms_government;Empire of America;x
+NAM_prussian_constitutionalism;Empire of America;x
+NAM_ADJ;American;x
+CYP_absolute_monarchy;Crusader State of Cyprus;x
+CYP_hms_government;Crusader State of Cyprus;x
+CYP_prussian_constitutionalism;Crusader State of Cyprus;x
+federation_of_america_title;Federation of America;
+federation_of_america_desc; ;x
+inherit_pontus_title;Inherit Pontus;x
+inherit_pontus_desc; ;x
+bulgarian_reintegration_title;Bulgarian Reintegration;x
+bulgarian_reintegration_desc; ;x
+USA_232;Nieuw Amsterdam;x
+integrate_amerikaans_title;Integrate the Amerikaans;
+integrate_amerikaans_desc; ;x
+develop_singapore_title;Develop Singapore;x
+develop_singapore_desc; ;x
+develop_singapore;Develop Singapore;x
+spread_our_influence_title;Spread Our Influence;x
+spread_our_influence_desc; ;x
+conquer_saxony_title;Conquer Saxony;x
+conquer_saxony_desc; ;x
+north_sea_coast_title;North Sea Coast;x
+north_sea_coast_desc; ;x
+form_gae_title;Form Gaellia;x
+form_gae_desc; ;x
+GAE;Gaellia;x
+GAE_ADJ;Gaellic;x
+hegemony_over_the_island_title;Hegemony Over the Island;x
+hegemony_over_the_island_desc; ;x
+britannic_integration_title;Britannic Integration;x
+britannic_integration_desc; ;x
+british_danish_integration_title;Mend Relations with The Danish;x
+british_danish_integration_desc; ;x
+unify_rhine_title;Unify the Rhine;x
+unify_rhine_desc; ;x
+south_german_unity_title;South German Unity;x
+south_german_unity_desc; ;x
+EVTDESC135550;Following the mass riots in Munich,said rioters have almost encircled the Royal residence and are demanding more rights.;x
+dominate_austria_title;Dominate Austria;x
+dominate_austria_desc; ;x
+alpine_hegemony_title;Alpine Hegemony;x
+alpine_hegemony_desc; ;x
+magna_lacus_title;Magna Lacus;x
+magna_lacus_desc; ;x
+amazon_expansion_title;Amazon Expansion;x
+amazon_expansion_desc; ;x
+outlaw_slavery_title;Outlaw Slavery;x
+outlaw_slavery_desc; ;x
+manifest_arg_title;Cinniuint follasach;x
+manifest_arg_desc; ;x
+embrace_catalan_title;Embrace Catalan Culture;x
+embrace_catalan_desc; ;x
+mend_relations_with_ruthenians_title;Mend Ruthenian Relations;x
+mend_relations_with_ruthenians_desc; ;x
+the_conquest_of_tataria_title;The Conquest of Tataria;x
+the_conquest_of_tataria_desc; ;x
+volgan_conquest_title;Volgan Conquest;x
+volgan_conquest_desc; ;x
+ukrainian;Ruthenian;x
+white_russia_title;White Russian Integration;x
+white_russia_desc; ;x
+revoke_vladimirian_autonomy_title;Revoke Vladimirian Autonomy;x
+revoke_vladimirian_autonomy_desc; ;x
+form_rus_title;Form Russia;x
+form_rus_desc; ;x
+farmland_for_immigrants_title;Farmland for Immigrants;x
+farmland_for_immigrants_desc; ;x
+SWI_607;Western Switzerland;x
+retake_the_north_title;Retake the North;x
+retake_the_north_desc; ;x
 assert_northern_dominance_title;Assert Northern Dominance;x
+integrate_occitans_title;Integrate the Occitans;x
+integrate_occitans_desc; ;x
+reintegrate_lorraine_title;Reintegrate Lorraine;x
+reintegrate_lorraine_desc; ;x
+reintegrate_lower_burgundy_title;Reintegrate Lower Burgundy;x
+reintegrate_lower_burgundy_desc; ;x
 assert_northern_dominance_desc; ;x
 conquer_serbia_title;Conquest of Serbia;x
 conquer_serbia_desc; ;x
@@ -463,10 +611,13 @@ begin_further_colonial_centralization_title;Begin Further Colonial Centralizatio
 begin_further_colonial_centralization_desc; ;x
 increased_colonial_centralization;Increased Colonial Centralization;x
 dummy_ibe;Recent Colonial Revolt;x
-el_tofo_title;El Tofo Mine;x
+new_life_nw;New Life in The New World;x
+new_life_nw_title;New Life in The New World;x 
+new_life_nw_desc; ;x 
+el_tofo_title;Darraghare Mine;x
 el_tofo_desc; ;x
-el_tofo;El Tofo Mine;x
-united_sam_title;Unite South America;x
+el_tofo;Darraghare Mine;x
+united_sam_title;Unite Sudamericano Italians;x
 united_sam_desc; ;x
 natural_borders_title;Our Natural Borders;x
 natural_borders_desc; ;x
@@ -483,17 +634,17 @@ SAF_bourgeois_dictatorship;Zuid-Afrika;x
 SAF_presidential_dictatorship;Zuid-Afrika;x
 SAF_proletarian_dictatorship;Zuid-Afrika;x
 SAM;United South America;x
-SAM_ADJ;South American;x
-SAM_absolute_monarchy;Empire of South America;x
-SAM_hms_government;Empire of South America;x
-SAM_prussian_constitutionalism;Empire of South America;x
-SAM_fascist_dictatorship;National South American Union;x
-SAM_democracy;United South America;x
-SAM_bourgeois_dictatorship;United South America;x
-SAM_presidential_dictatorship;United South America;x
-SAM_proletarian_dictatorship;Union of South America;x
+SAM_ADJ;Sudamericano;x
+SAM_absolute_monarchy;Empire of Sud America;x
+SAM_hms_government;Empire of Sud America;x
+SAM_prussian_constitutionalism;Empire of Sud America;x
+SAM_fascist_dictatorship;National Sudamericano Union;x
+SAM_democracy;United Federation of Sud America;x
+SAM_bourgeois_dictatorship;United Sud America;x
+SAM_presidential_dictatorship;United Sud America;x
+SAM_proletarian_dictatorship;Union of Sud America;x
 reform_tasmania_title;Reform Tasmanian Colonial Administration;x
-reform_tasmania_desc; ;x
+reform_tasmania_desc;Discovered by Dutch explorers, Tasmania is relatively low populated, being one of our most recently acquired colonial holdings. Reforming the administration and attracting immigrants to the colony might help us in the long run, especially since it would be quite likely that the new semi-independent colony would ask for reintegration.;x
 integrate_picards_title;Integrate the Picards;x
 integrate_picards_desc; ;x
 integrate_wallonians_title;Integrate Wallonians;x
@@ -533,7 +684,7 @@ RCH_ADJ;Russian-Manchurian;x
 influence_in_manchuria_title;Influence in Manchuria;x
 influence_in_manchuria_desc; ;x
 new_frontiers_title;New Frontiers;x
-new_frontiers_desc;We will support our Cossacks in colonizing Siberia with grain and cattle.;x
+new_frontiers_desc;We will support our Cossacks in colonizing Siberia with grain and cattle. This decision applies to provinces you own in Siberia, the more you have the more valuable it is.;x
 siberian_frontier;Siberian Growth;x
 jewel_of_the_pacific;Jewel Of The Pacific;x
 jewel_of_the_pacific_title;Jewel Of The Pacific;x
@@ -645,10 +796,8 @@ PROV133;Lukas;x
 PROV137;Eliastadt;x
 texan_separatism_title;Texan Identity;x
 texan_separatism_desc; ;x
-land_grants_title;Land Grants;x
-land_grants_desc; ;x
-land_grants_tex;Land Grants;x
-land_grants_tex_desc; ;x
+land_grants_arg;Land Grants;x
+land_grants_arg_desc; ;x
 petition_for_independence_title;Petition For Independence;x
 petition_for_independence_desc;This decision is player-only, and can only be done once.;x
 EVTNAME200105;End of the War;x
@@ -852,11 +1001,11 @@ sack_mecca_medina_desc; ;x
 holy_city_jerusalem;Holy City of Jerusalem;x
 byz_the_holy_city_title;Holy City of Jerusalem;x
 byz_the_holy_city_desc; ;x
-turkish_compromise_title;Turkish Compromise;x
+turkish_compromise_title;Turkmen Compromise;x
 turkish_compromise_desc;Taking this will not allow us to reassert the supremacy of Greek culture.;
 reassert_greek_superiority;Greek Cultural Supremacy;x
 reassert_greek_superiority_title;Reassert the Supremacy of Greek Culture;x
-reassert_greek_superiority_desc;Taking this will not allow us to create a compromise with the Turkish population.;x
+reassert_greek_superiority_desc;Taking this will not allow us to create a compromise with the Turkmen population.;x
 dreams_of_rome_title;Dreams of Rome;x
 dreams_of_rome_desc; ;x
 dominance_in_the_balkans_title;Dominance in the Balkans;x

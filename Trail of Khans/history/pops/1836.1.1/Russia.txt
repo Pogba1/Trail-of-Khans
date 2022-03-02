@@ -882,7 +882,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 4550
+        size = 14550
     }
 }
 #Azov (172000/43000 POPS)
@@ -4957,7 +4957,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 1200
+        size = 90000
     }
 
     aristocrats = {
@@ -4992,7 +4992,7 @@
 
     farmers = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 1100
     }
 }
@@ -5182,9 +5182,18 @@
     soldiers = {
         culture = mongol
         religion = gelugpa
-        size = 1100
+        size = 6100
     }
-
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 30000
+	}
+	farmers = {
+		culture = tatar
+		religion = sunni
+		size = 30000
+	}
     aristocrats = {
         culture = mongol
         religion = gelugpa
@@ -5243,31 +5252,31 @@
 
     aristocrats = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 25
     }
 
     clergymen = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 25
     }
 
     artisans = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 50
     }
 
     soldiers = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 25
     }
 
     farmers = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 875
     }
 
@@ -5607,31 +5616,31 @@
 
     aristocrats = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 2750
     }
 
     clergymen = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 1500
     }
 
     artisans = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 7500
     }
 
     soldiers = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 20000
     }
 
     farmers = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 118250
     }
 }
@@ -5705,28 +5714,28 @@
 
     aristocrats = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 250
         militancy = 3
     }
 
     officers = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 50
         militancy = 3
     }
 
     clergymen = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 125
         militancy = 3
     }
 
     artisans = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 650
         militancy = 3
     }
@@ -5740,14 +5749,14 @@
 
     soldiers = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 1150
         militancy = 3
     }
 
     farmers = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 12775
         militancy = 3
     }
@@ -5811,7 +5820,7 @@
 
     farmers = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 212175
     }
 }
@@ -6054,31 +6063,31 @@
 
     aristocrats = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 2000
     }
 
     clergymen = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 2000
     }
 
     artisans = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 4000
     }
 
     soldiers = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 2000
     }
 
     soldiers = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 20000
     }
 
@@ -6091,11 +6100,15 @@
 #Grozny (68000/17000 POPS)
 1055 = {
     aristocrats = {
-        culture = chechen
+        culture = tatar
         religion = sunni
         size = 1325
     }
-
+	farmers = {
+		culture = tatar
+		religion = sunni
+		size = 10000
+	}
     clergymen = {
         culture = chechen
         religion = sunni
@@ -6154,7 +6167,7 @@
 
     farmers = {
         culture = circassian
-        religion = orthodox
+        religion = sunni
         size = 175875
     }
 

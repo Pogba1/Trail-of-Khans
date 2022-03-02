@@ -4,6 +4,11 @@
         religion = orthodox
         size = 614
     }
+	artisans = {
+		culture = thracian
+		religion = orthodox
+		size = 6000
+	}
 	soldiers = {
         culture = greek
         religion = orthodox
@@ -59,6 +64,16 @@
     ########
 }
 850 = {
+	artisans = {
+		culture = thracian
+		religion = orthodox
+		size = 2000
+	}
+	farmers = {
+		culture = thracian
+		religion = orthodox
+		size = 6000
+	}
     aristocrats = {
         culture = albanian
         religion = orthodox
@@ -190,6 +205,16 @@
     }
 }
 853 = {
+	artisans = {
+		culture = thracian
+		religion = orthodox
+		size = 2000
+	}
+	farmers = {
+		culture = thracian
+		religion = orthodox
+		size = 6000
+	}
     aristocrats = {
         culture = albanian
         religion = orthodox

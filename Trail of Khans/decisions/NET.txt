@@ -1,5 +1,36 @@
 political_decisions = {
-	
+	develop_singapore = {
+		potential = {
+		tag = NET
+		1384 = {owned_by = THIS}
+		NOT = {has_country_flag = develop_singapore}
+		}
+		allow = {
+			1384 = {owned_by = THIS}
+			market_structure = 1
+			central_bank_money_bill_printing = 1
+		}
+		effect = {
+		set_country_flag = develop_singapore
+		1384 = {trade_goods = precious_goods}
+		1384 = {add_province_modifier = {name = develop_singapore duration = 3650}}
+		}
+	}
+	integrate_amerikaans = {
+		potential = {
+		tag = NET
+
+		NOT = {has_country_flag = integrate_amerikaans}
+		}
+		allow = {
+			232 = {owned_by = THIS}
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+		set_country_flag = integrate_amerikaans
+		add_accepted_culture = french_canadian
+		}
+	}
 	integrate_picards = {
 		potential = {
 		tag = NET
@@ -36,6 +67,10 @@ political_decisions = {
 		AST = {add_country_modifier = { name = small_immigration_boom duration = 1825 }}
 		AST = {add_country_modifier = { name = language_reform duration = 1650}}
 		set_global_flag = ast_reform
+		diplomatic_influence = {
+				who = AST
+				value = 100
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -65,6 +100,10 @@ political_decisions = {
 		2087 = {trade_goods = precious_goods}
 		set_global_flag = saf_reform
 		SAF = {country_event = 952518}
+		diplomatic_influence = {
+				who = SAF
+				value = 100
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -89,6 +128,7 @@ political_decisions = {
         effect = {
             set_country_flag = javanese_integrated
             JAV = { tech_school = developing_tech_school country_event = 952500 }
+			inherit = JAV
             badboy = 1
         }
 
@@ -96,35 +136,5 @@ political_decisions = {
             factor = 1
             modifier = { factor = 0 badboy = 0.95 }
         }
-    }
-	
-	the_aceh_question = {
-        picture = the_aceh
-        potential = {
-            tag = NET
-            colonial_nation = yes
-            is_canal_enabled = 2
-            ATJ = {
-                exists = yes
-                part_of_sphere = yes
-                civilized = no
-                NOT = { in_sphere = NET }
-            }
-            NOT = { has_global_flag = gold_coast_treaty }
-            NOT = { has_country_flag = made_aceh_proposal }
-            ATJ = { neighbour = NET }
-        }
-
-        allow = {
-            war = no
-            nationalism_n_imperialism = 1
-        }
-
-        effect = {
-            set_country_flag = made_aceh_proposal
-            ATJ = { sphere_owner = { country_event = 952503 } }
-        }
-
-        ai_will_do = { factor = 1 }
     }
 }

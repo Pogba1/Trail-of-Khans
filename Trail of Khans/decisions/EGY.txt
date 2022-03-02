@@ -7,6 +7,7 @@ political_decisions = {
 	tag = ARA
 	tag = CLP
 	tag = AND
+	tag = JER
 	}
 	EGY_1745={owned_by = THIS}
 	NOT = {has_global_flag = modernize_nile_irrigation}

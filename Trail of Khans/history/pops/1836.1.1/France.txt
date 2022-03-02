@@ -130,19 +130,19 @@
     }
 
     artisans = {
-        culture = flemish
+        culture = dutch
         religion = catholic
         size = 2500
     }
 
     soldiers = {
-        culture = flemish
+        culture = dutch
         religion = catholic
         size = 300
     }
 
     farmers = {
-        culture = flemish
+        culture = dutch
         religion = catholic
         size = 15000
     }
@@ -353,10 +353,15 @@
 }
 #Charleville (308000/77000 POPS)
 405 = {
+	aristocrats = {
+        culture = dutch
+        religion = protestant
+        size = 750
+    }
     aristocrats = {
         culture = french
         religion = catholic
-        size = 850
+        size = 150
     }
 
     clergymen = {
@@ -370,13 +375,21 @@
         religion = protestant
         size = 4250
     }
-
+	artisans = {
+        culture = dutch
+        religion = protestant
+        size = 4250
+    }
     soldiers = {
         culture = french
         religion = catholic
         size = 937
     }
-
+	farmers = {
+        culture = dutch
+        religion = protestant
+        size = 12955
+    }
     farmers = {
         culture = french
         religion = catholic
@@ -855,10 +868,15 @@
         size = 4250
     }
 
-    soldiers = {
+    farmers = {
         culture = south_german
         religion = catholic
         size = 45000
+    }
+	soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 6000
     }
 
     farmers = {

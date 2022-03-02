@@ -190,43 +190,49 @@
     aristocrats = {
         culture = swedish
         religion = protestant
-        size = 250
+        size = 750
     }
 
     bureaucrats = {
         culture = swedish
         religion = protestant
-        size = 750
+        size = 3250
     }
 
     officers = {
         culture = swedish
         religion = protestant
-        size = 500
+        size = 1500
     }
 
     clergymen = {
         culture = swedish
         religion = protestant
-        size = 250
+        size = 750
     }
 
     artisans = {
         culture = swedish
         religion = protestant
-        size = 10000
+        size = 30000
     }
 
     artisans = {
         culture = swedish
         religion = protestant
-        size = 10000
+        size = 30000
     }
 
     artisans = {
         culture = swedish
         religion = protestant
-        size = 1100
+        size = 3100
+    }
+
+    soldiers = {
+        culture = swedish
+        religion = protestant
+        size = 9000
     }
 
     soldiers = {
@@ -235,17 +241,16 @@
         size = 3000
     }
 
-    soldiers = {
-        culture = swedish
-        religion = protestant
-        size = 1000
-    }
-
     farmers = {
         culture = swedish
         religion = protestant
-        size = 35250
+        size = 105750
     }
+	craftsmen = {
+		culture = swedish
+		religion = protestant
+		size = 3000
+	}
 }
 #Falun (144000/36000 POPS)
 323 = {
@@ -446,43 +451,43 @@
     aristocrats = {
         culture = swedish
         religion = protestant
-        size = 250
+        size = 500
     }
 
     bureaucrats = {
         culture = swedish
         religion = protestant
-        size = 650
+        size = 1300
     }
 
     officers = {
         culture = swedish
         religion = protestant
-        size = 250
+        size = 500
     }
 
     clergymen = {
         culture = swedish
         religion = protestant
-        size = 250
+        size = 500
     }
 
     artisans = {
         culture = swedish
         religion = protestant
-        size = 5000
+        size = 10000
     }
 
     soldiers = {
         culture = swedish
         religion = protestant
-        size = 1100
+        size = 2200
     }
 
     farmers = {
         culture = swedish
         religion = protestant
-        size = 33750
+        size = 67500
     }
 }
 #Boras (220000/55000 POPS)

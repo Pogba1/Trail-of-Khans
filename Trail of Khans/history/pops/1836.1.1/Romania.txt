@@ -29,7 +29,7 @@
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 41900
+        size = 51900
     }
 
     serfs = {
@@ -171,7 +171,7 @@
     serfs = {
         culture = romanian
         religion = orthodox
-        size = 32450
+        size = 38450
     }
 
     serfs = {
@@ -1824,11 +1824,17 @@
         religion = jewish
         size = 100
     }
-
+	
+	capitalists = {
+		culture = sephardic
+		religion = jewish
+		size = 5
+	}
+	
     artisans = {
         culture = sephardic
         religion = jewish
-        size = 1100
+        size = 5500
     }
 
     farmers = {
@@ -1967,9 +1973,9 @@
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 72025
+        size = 95025
     }
-
+	
     serfs = {
         culture = gypsy
         religion = orthodox

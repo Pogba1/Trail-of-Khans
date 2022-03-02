@@ -8,7 +8,7 @@ nationalvalue = nv_autocracy
 literacy = 0.03
 non_state_culture_literacy = 0.01
 civilized = yes
-prestige = 4
+prestige = 10
 
 # Political reforms
 slavery = yes_slavery
@@ -66,6 +66,7 @@ late_enlightenment_philosophy = 1
 enlightenment_thought = 1
 piston_steam_engine = 1
 mechanical_production = 1
+basic_chemistry = 1
 
 # Inventions
 

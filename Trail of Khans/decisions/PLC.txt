@@ -26,5 +26,23 @@ political_decisions = {
 			}
 			set_global_flag = unite_plc
 		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	integrate_ruthenians_plc = {
+		potential = {
+			tag = PLC
+			NOT = {has_country_flag = integrate_ruthenians_plc}
+		}
+		allow = {
+			952 = {owned_by = THIS}
+			955 = {owned_by = THIS}
+		}
+		effect = {
+			add_accepted_culture = ukrainian
+			set_country_flag = integrate_ruthenians_plc
+			955 = {add_core = THIS}
+		}
+		ai_will_do = { factor = 1 }
 	}
 }

@@ -244,7 +244,7 @@
     aristocrats = {
         culture = platinean
         religion = catholic
-        size = 275
+        size = 475
     }
 
     clergymen = {
@@ -264,7 +264,11 @@
         religion = catholic
         size = 1125
     }
-
+	farmers = {
+        culture = aimara
+        religion = catholic
+        size = 4000
+    }
     farmers = {
         culture = platinean
         religion = catholic

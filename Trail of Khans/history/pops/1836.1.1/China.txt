@@ -767,37 +767,37 @@
     }
 
     aristocrats = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 1025
     }
 
     officers = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 135
     }
 
     clergymen = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 225
     }
 
     artisans = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 5600
     }
 
     soldiers = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 1325
     }
 
     farmers = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 115100
     }
@@ -842,29 +842,33 @@
     }
 
     clergymen = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 150
     }
 
     artisans = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 700
     }
 
     soldiers = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 150
     }
 
     farmers = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
-        size = 122750
+        size = 100000
     }
-
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 22750
+	}
     slaves = {
         culture = mongol
         religion = gelugpa
@@ -8492,13 +8496,13 @@
     }
 
     labourers = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 20000
     }
 
     slaves = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 5000
     }
@@ -8506,7 +8510,7 @@
     slaves = {
         culture = korean
         religion = mahayana
-        size = 800
+        size = 8000
     }
 }
 #Jilin (1136000/284000 POPS)
@@ -8537,25 +8541,25 @@
     }
 
     clergymen = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 450
     }
 
     artisans = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 900
     }
 
     soldiers = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 1100
     }
 
     farmers = {
-        culture = beifaren
+        culture = manchu
         religion = mahayana
         size = 60000
     }

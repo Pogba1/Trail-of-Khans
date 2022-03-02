@@ -43,27 +43,40 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	form_rom = {
+		potential = {
+			primary_culture = romanian
+			NOT = {exists = ROM}
+			OR = {
+				NOT = {	exists = WAL }
+				NOT = { exists = MOL }
+			}
+		}
+		allow = {
+			670 = {owned_by = THIS}
+			664 = {owned_by = THIS}
+		}
+		effect = {
+			prestige = 10
+			add_accepted_culture = thracian
+			change_tag = ROM
+			capital = 664
+		}
+	}
 	
     form_south_german_confederation = {
         potential = {
             capital_scope = { continent = europe }
-            is_greater_power = yes
+            #is_greater_power = yes
             primary_culture = south_german
             NOT = {
 				tag = HRE
                 has_country_flag = post_colonial_country
+				tag = BAV
                 exists = SGF
                 exists = GER
 				tag = HPS
                 tag = DNB
-                AND = {
-                    tag = AUS
-                    NOT = { has_country_flag = austrian_greater_germany }
-                }
-                AND = {
-                    tag = KUK
-                    NOT = { has_country_flag = austrian_greater_germany }
-                }
             }
         }
         allow = {
@@ -100,6 +113,8 @@ political_decisions = {
             random_owned = { limit = { owner = { accepted_culture = hungarian } } owner = { remove_accepted_culture = hungarian } }
             prestige = 10
             FRA_412 = { add_core = GER }
+			FRA_411 = { add_core = GER }
+			397 = { add_core = GER }
             random_owned = {
                 limit = { owner = { tag = KUK } }
                 HUN = { all_core = { remove_core = KUK } }
@@ -204,6 +219,8 @@ political_decisions = {
         effect = {
             prestige = 10
             FRA_412 = { add_core = GER }
+			FRA_411 = { add_core = GER }
+			397 = { add_core = GER }
             random_owned = { limit = { owner = { accepted_culture = french } } owner = { remove_accepted_culture = french } }
             random_owned = { limit = { owner = { accepted_culture = polish } } owner = { remove_accepted_culture = polish } }
             random_owned = { limit = { owner = { accepted_culture = danish } } owner = { remove_accepted_culture = danish } }
@@ -312,6 +329,8 @@ political_decisions = {
                 owner = { badboy = 10 }
             }
             FRA_412 = { add_core = GER }
+			FRA_411 = { add_core = GER }
+			397 = { add_core = GER }
             all_core = {
                 add_core = GER
                 add_core = SGF
@@ -343,7 +362,7 @@ political_decisions = {
 
     form_north_german_confederation = {
         potential = {
-            is_greater_power = yes
+            #is_greater_power = yes
             primary_culture = north_german
             capital_scope = { continent = europe }
             NOT = {
@@ -406,6 +425,8 @@ political_decisions = {
                 militancy = -1
             }
             FRA_412 = { add_core = GER }
+			FRA_411 = { add_core = GER }
+			397 = { add_core = GER }
             random_owned = {
                 limit = { owner = { ai = yes } }
                 owner = { add_country_modifier = { name = law_changed_by_force duration = 365 } }
@@ -463,6 +484,7 @@ political_decisions = {
                 cultural_union = { exists = yes }
                 has_country_flag = post_colonial_country
                 is_culture_group = germanic
+				is_culture_group = russian
                 is_culture_group = scandinavian
                 is_culture_group = italian
                 is_culture_group = east_asian
@@ -530,6 +552,7 @@ political_decisions = {
             OR = {
                 tag = NGF
                 tag = SGF
+				tag = BAV
             }
             NOT = { exists = GER }
         }
@@ -553,6 +576,10 @@ political_decisions = {
                             is_mobilised = no
                             is_greater_power = no
                         }
+						owner = {
+                            tag = NET
+							is_greater_power = yes
+                        }
                     }
                 }
             }
@@ -572,64 +599,11 @@ political_decisions = {
             random_owned = { limit = { owner = { accepted_culture = danish } } owner = { remove_accepted_culture = danish } }
             random_owned = { limit = { owner = { accepted_culture = hungarian } } owner = { remove_accepted_culture = hungarian } }
             set_global_flag = 3hurrahs
-            random_country = {
-                limit = {
-                    tag = AUS
-                    exists = yes
-                    is_greater_power = no
-                    in_sphere = THIS
-                    war = no
-                    OR = {
-                        vassal_of = THIS
-                        is_vassal = no
-                    }
-                    NOT = {
-                        any_owned_province = {
-                            NOT = {
-                                OR = {
-                                    is_core = AUS
-                                    is_core = GER
-                                    is_colonial = yes
-                                }
-                            }
-                        }
-                    }
-                }
-                country_event = 31530
-            }
-            random_country = {
-                limit = {
-                    OR = {
-                        tag = AUS
-                        tag = KUK
-                    }
-                    exists = yes
-                    is_greater_power = no
-                    in_sphere = THIS
-                    war = no
-                    OR = {
-                        vassal_of = THIS
-                        is_vassal = no
-                    }
-                    any_owned_province = {
-                        NOT = {
-                            OR = {
-                                is_core = AUS
-                                is_core = GER
-                                is_colonial = yes
-                            }
-                        }
-                    }
-                }
-                country_event = 31515
-            }
             any_country = {
                 limit = {
                     is_culture_group = germanic
                     exists = no
-                    NOT = { tag = AUS }
                     NOT = { tag = KUK }
-                    NOT = { tag = DNB }
 					NOT = { tag = HPS }
                     NOT = { tag = PRU }
                     NOT = { tag = BAN }
@@ -639,27 +613,8 @@ political_decisions = {
                         all_core = { owned_by = THIS }
                         tag = NGF
                         tag = SGF
+						tag = BAV
                     }
-                }
-                country_event = 11105
-            }
-            any_country = {
-                limit = {
-                    OR = {
-                        tag = AUS
-                        tag = KUK
-                        tag = DNB
-                    }
-                    exists = no
-                    THIS = { capital = 619 }
-                }
-                country_event = 11105
-            }
-            any_country = {
-                limit = {
-                    tag = PRU
-                    exists = no
-                    THIS = { capital = 549 }
                 }
                 country_event = 11105
             }
@@ -669,13 +624,6 @@ political_decisions = {
                     OR = {
                         is_culture_group = germanic
                         tag = SCH
-                    }
-                    NOT = {
-                        tag = KUK
-                        tag = AUS
-                        tag = DNB
-                        tag = BAN
-                        tag = UBD
                     }
                     OR = {
                         is_vassal = no
