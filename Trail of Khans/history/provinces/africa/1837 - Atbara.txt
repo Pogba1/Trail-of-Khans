@@ -1,4 +1,6 @@
-add_core = SUD
+owner = EGY
+controller = EGY
+add_core = EGY
 trade_goods = fruit
 life_rating = 32
 terrain = semidesert
