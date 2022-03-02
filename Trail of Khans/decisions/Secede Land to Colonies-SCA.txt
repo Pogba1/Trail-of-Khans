@@ -1,0 +1,37 @@
+political_decisions = {
+	secede_land_new = {
+	picture = "deseret_complete_cores"
+	effect = {
+	THIS={country_event = {id=196006}}
+	}
+	allow = {
+	
+	}
+	potential = {
+		OR = {tag = SCA tag = NOR}
+	OR={
+	NEW = {substate_of=THIS}
+	NEW = {vassal_of=THIS}
+	}
+	#THIS = {neighbour = NEW}
+	NOT = {war_with = NEW}
+	any_owned_province = {
+	AND={
+		continent = north_america
+				NOT={
+					is_core = THIS
+				}
+				}
+			}
+	
+	 }
+	}
+	
+	
+	}
+	
+	
+	
+	
+	
+

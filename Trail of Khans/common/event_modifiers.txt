@@ -2568,13 +2568,30 @@ emergency_tax_measures2 = {
     icon = 10
 }
 
-############
-#FrederickN#
-############
+################
+#FrederickN/ToK#
+################
+develop_singapore = {
+	local_RGO_output = -0.25
+	local_RGO_throughput = -0.1
+	poor_life_needs = -0.1
+	middle_life_needs = -0.1
+	rich_life_needs = -0.1
+	assimilation_rate = 1
+	immigrant_attract = 10
+	population_growth = 0.002
+	icon = 19
+}
 peasants_reform = {
 	education_efficiency_modifier = 0.65
 	icon = 7
 }
+
+education_reform_rom = {
+	education_efficiency_modifier = 0.55
+	icon = 7
+}
+
 epirote_independence_war = {
 	land_organisation = 0.05
 	mobilisation_economy_impact = -0.8
@@ -2624,7 +2641,7 @@ hostile_pope = {
 }
 siberian_frontier = {
 	population_growth = 0.001
-	assimilation_rate = 1.25
+	assimilation_rate = 2.5
 	icon = 19
 }
 scandinavian_mines = {
@@ -2729,6 +2746,16 @@ growth_of_tokyo = {
 	population_growth = 0.004
 	icon = 19
 }
+
+bangkok_renovated = {
+	poor_life_needs = -0.1
+	middle_life_needs = -0.1
+	rich_life_needs = -0.1
+	immigrant_attract = 2
+	population_growth = 0.004
+	icon = 19
+}
+
 rome_renovated = {
 	poor_life_needs = -0.1
 	middle_life_needs = -0.1

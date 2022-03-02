@@ -5,7 +5,7 @@
     aristocrats = {
         culture = quechua
         religion = inti
-        size = 1100
+        size = 3300
     }
 
     bureaucrats = {
@@ -47,7 +47,7 @@
     farmers = {
         culture = quechua
         religion = inti
-        size = 19000
+        size = 30000
     }
 
     clergymen = {
@@ -65,7 +65,7 @@
     farmers = {
         culture = aimara
         religion = inti
-        size = 64175
+        size = 128175
     }
 
     clergymen = {

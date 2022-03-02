@@ -11,7 +11,7 @@ political_decisions = {
             war = no
             OR = {
 			relation = { who = FRA value = 100 }
-			relation = { who = HRE value = 100 }
+			relation = { who = SCO value = 100 }
 			}
         }
 
@@ -23,32 +23,28 @@ political_decisions = {
          ai_will_do = { factor = 1 }
     }
 	
-	#japan_korea_annexation_treaty = {
-    #    picture = "order_to_expel_barbarians"
-	#	
-    #    potential = {
-    #       tag = JAP
-	#	   NOT = {has_country_flag = japan_korea_annexation_treaty}
-	#	   exists = KOR
-    #    }
-	#
-    #    allow = {
-    #        war = no
-    #      OR = {  
-	#		KOR = {vassal_of = THIS}
-	#	AND = {
-	#		KOR = {in_sphere = THIS}
-	#		AND = {is_vassal = no is_substate = no}
-	#	  }
-	#	  }
-    #    }
-	#
-    #    effect = {
-	#		inherit = KOR
-	#		set_country_flag = japan_korea_annexation_treaty
-    #    }
-    #     ai_will_do = { factor = 1 }
-    #}
+	japan_korea_annexation_treaty = {
+        picture = "order_to_expel_barbarians"
+		
+        potential = {
+           tag = JAP
+		   NOT = {has_country_flag = japan_korea_annexation_treaty}
+		   exists = KOR
+        }
+	
+        allow = {
+            war = no  
+			KOR = {vassal_of = THIS}
+			state_n_government = 1
+        }
+	
+        effect = {
+			inherit = KOR
+			KOR = {all_core = {add_core = JAP}}
+			set_country_flag = japan_korea_annexation_treaty
+        }
+         ai_will_do = { factor = 1 }
+    }
 	
 	ainu_protection_policy = {
         picture = "order_to_expel_barbarians"

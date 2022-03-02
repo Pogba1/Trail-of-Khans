@@ -71,6 +71,61 @@ army = {
     }
 }
 
+army = {
+    name = "Sekunde Armee"
+    location = 354
+    regiment = {
+        name= "1st Division"
+        type = infantry
+        home = 2557
+    }
+	regiment = {
+        name= "2nd Division"
+        type = infantry
+        home = 368
+    }
+	regiment = {
+        name= "3rd Division"
+        type = infantry
+        home = 369
+    }
+	regiment = {
+        name= "4th Division"
+        type = infantry
+        home = 548
+    }
+	regiment = {
+        name= "5th Division"
+        type = cavalry
+        home = 547
+    }
+	regiment = {
+        name= "6th Division"
+        type = artillery
+        home = 546
+    }
+	regiment = {
+        name= "7th Division"
+        type = artillery
+        home = 679
+    }
+	regiment = {
+        name= "8th Division"
+        type = artillery
+        home = 680
+    }
+	regiment = {
+        name= "9th Division"
+        type = artillery
+        home = 2557
+    }
+	regiment = {
+        name= "10th Division"
+        type = artillery
+        home = 548
+    }
+}
+
 navy = {
     name = "Lübecker Marine"
     location = 530

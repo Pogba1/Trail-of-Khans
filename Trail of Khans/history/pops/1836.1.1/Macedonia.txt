@@ -292,6 +292,16 @@
 
 #Debar - Former Tichit
 1780 = {
+	artisans = {
+		culture = thracian
+		religion = orthodox
+		size = 2000
+	}
+	farmers = {
+		culture = thracian
+		religion = orthodox
+		size = 6000
+	}
     clergymen = {
         culture = albanian
         religion = sunni

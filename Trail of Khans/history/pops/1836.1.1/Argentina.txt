@@ -42,7 +42,31 @@
         religion = catholic
         size = 6000
     }
-
+	farmers = {
+		culture = scottish
+		religion = catholic
+		size = 300
+	}
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 900
+	}
+	farmers = {
+		culture = british
+		religion = catholic
+		size = 300
+	}
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 10
+	}
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 300
+	}
     farmers = {
         culture = platinean
         religion = catholic
@@ -50,7 +74,7 @@
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 3000
     }
@@ -314,7 +338,7 @@
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 5000
     }
@@ -436,13 +460,13 @@
     }
 
     soldiers = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 500
     }
 
     soldiers = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = animist
         size = 500
     }
@@ -482,7 +506,7 @@
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 500
     }
@@ -538,7 +562,7 @@
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 3000
     }
@@ -796,7 +820,7 @@
     }
 
     farmers = {
-        culture = south_andean
+        culture = aimara
         religion = catholic
         size = 200
     }
@@ -847,7 +871,7 @@
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 500
     }
@@ -1009,7 +1033,7 @@
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 2000
     }
@@ -1041,7 +1065,7 @@
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 1000
     }
@@ -1070,6 +1094,11 @@
         culture = platinean
         religion = catholic
         size = 900
+    }
+	farmers = {
+        culture = quechua
+        religion = catholic
+        size = 500
     }
 }
 #Santiago del Estero Region (40000)
@@ -1113,7 +1142,7 @@
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 500
     }
@@ -1235,7 +1264,7 @@
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 7000
     }
@@ -1448,7 +1477,7 @@
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 700
     }
@@ -1506,7 +1535,7 @@
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 500
     }
@@ -1579,7 +1608,7 @@
     }
 
     slaves = {
-        culture = afro_caribeno
+        culture = afro_irish
         religion = catholic
         size = 500
     }

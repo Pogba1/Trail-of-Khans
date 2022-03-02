@@ -1001,7 +1001,7 @@
 #Moulmein (272000/68000 POPS)
 1343 = {
     aristocrats = {
-        culture = karen
+        culture = thai
         religion = theravada
         size = 400
     }
@@ -1032,7 +1032,7 @@
 
     farmers = {
         culture = karen
-        religion = protestant
+        religion = theravada
         size = 300
     }
 
@@ -1079,26 +1079,26 @@
     }
 
     bureaucrats = {
-        culture = burmese
+        culture = thai
         religion = theravada
         size = 100
     }
 
     soldiers = {
-        culture = burmese
+        culture = thai
         religion = theravada
         size = 150
     }
 
     farmers = {
-        culture = burmese
+        culture = thai
         religion = theravada
         size = 5075
     }
 
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = thai
+        religion = theravada
         size = 25
     }
 }
@@ -1136,7 +1136,7 @@
 
     farmers = {
         culture = karen
-        religion = protestant
+        religion = theravada
         size = 300
     }
 
@@ -1212,8 +1212,8 @@
 #Sittwe (176000/44000 POPS)
 1345 = {
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = thai
+        religion = theravada
         size = 10
     }
 

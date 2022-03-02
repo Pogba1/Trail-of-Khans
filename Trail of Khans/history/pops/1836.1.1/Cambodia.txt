@@ -119,14 +119,14 @@
     }
 
     farmers = {
-        culture = vietnamese
-        religion = mahayana
+        culture = thai
+        religion = theravada
         size = 1475
     }
 
-    slaves = {
-        culture = vietnamese
-        religion = mahayana
+    farmers = {
+        culture = thai
+        religion = theravada
         size = 3000
     }
 }

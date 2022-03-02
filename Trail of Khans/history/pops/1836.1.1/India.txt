@@ -278,7 +278,7 @@
     }
 
     slaves = {
-        culture = kilombero #african_minor
+        culture = forest_bantu #african_minor
         religion = animist
         size = 4000
     }
@@ -329,7 +329,7 @@
     }
 
     slaves = {
-        culture = kilombero #african_minor
+        culture = forest_bantu #african_minor
         religion = animist
         size = 5000
     }
@@ -7951,25 +7951,25 @@
     }
 
     aristocrats = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 1375
     }
 
     clergymen = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 375
     }
 
     bureaucrats = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 250
     }
 
     soldiers = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 3000
     }
@@ -8712,6 +8712,11 @@
 #Under Rule of Travancore 1836 (1284000)
 #Cochin (808000/202000 POPS)
 1318 = {
+	soldiers = {
+        culture = dutch
+        religion = protestant
+        size = 27000
+    }
     aristocrats = {
         culture = malayalam
         religion = hindu

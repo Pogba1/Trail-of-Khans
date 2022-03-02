@@ -1,0 +1,61 @@
+#Legiuirea pentru emanciparea tuturor țiganilor din Principatul Țării Românești
+country_event = { #el joe
+    id = 400601
+	picture = "pioneer_column"
+    title = "The Abolition of Serfdom"
+    desc = "EVTDSC400601"
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Hurray"
+		prestige = 1
+		political_reform = debtors_prisons
+		set_global_flag = aboltion_of_serfdom_rom
+	}
+	
+    trigger = {
+	year = 1856
+	OR = {
+		debt_law = peonage	
+		debt_law = serfdom
+	}
+		NOT = {has_global_flag = aboltion_of_serfdom_rom}
+		OR = {
+			tag = WAL
+			tag = ROM
+		}
+    }
+}
+
+
+country_event = { #romanian nationalism
+    id = 400602
+	picture = "pioneer_column"
+    title = "Romanian Nationalism"
+    desc = "Horror!"
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "On god?"
+		any_pop = {
+			limit = {
+				has_pop_culture = romanian
+			}
+			militancy = 8
+		}
+		set_global_flag = romanian_nationalism
+	}
+	
+    trigger = {
+	year = 1860
+	any_owned_province = {is_core = ROM}
+		NOT = {has_global_flag = romanian_nationalism}
+		NOT = {primary_culture = romanian }
+    }
+}

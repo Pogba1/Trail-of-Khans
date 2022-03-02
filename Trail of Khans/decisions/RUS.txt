@@ -34,14 +34,66 @@ political_decisions = {
 		allow = {
 			is_vassal = no
 			all_core = {owned_by = THIS}
-			958 = {owned_by = THIS}
-			1003 = {owned_by = THIS}
-			1013 = {owned_by = THIS}
-			718 = {owned_by = THIS}
+			958 = {OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }}
+			1003 = {OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }}
+			1013 = {OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }}
+			718 = {OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }}
 		}
 		effect = {
 		add_accepted_culture = ukrainian
 		add_accepted_culture = russian
+		any_owned = {
+			limit = {NOT = {is_core = RUS} is_core = THIS}
+			add_core = RUS
+		}
 		change_tag = RUS
 		UKR = {all_core = {add_core = RUS}}
 			any_country = {
@@ -122,44 +174,105 @@ political_decisions = {
 	}
 	allow = {
 		state_n_government = 1
-		1060 = {owned_by = THIS}
-		RUS_2685 = {owned_by = THIS}
-		1184 = {owned_by = THIS}
-		2611 = {owned_by = THIS}
-		1181 = {owned_by = THIS}
-		RUS_1064 = {owned_by = THIS}
-		RUS_1469 = {owned_by = THIS}
-		2674 = {owned_by = THIS}
-		1077 = {owned_by = THIS}
-		2691 = {owned_by = THIS}
-		2701 = {owned_by = THIS}
-		RUS_1075 = {owned_by = THIS}
-		RUS_1079 = {owned_by = THIS}
-		2644 = {owned_by = THIS}
-		2696 = {owned_by = THIS}
-		2641 = {owned_by = THIS}
-		1080 = {owned_by = THIS}
+	any_owned_province = {
+		 
+		OR = {
+			province_id = 1059
+			province_id = 2658
+			province_id = 2685
+			province_id = 2614
+			province_id = 1058
+			province_id = 1066
+			province_id = 1061
+			province_id = 1064
+			province_id = 2683
+			province_id = 2686
+			province_id = 1063
+			province_id = 2698
+			province_id = 1067
+			province_id = 1068
+			province_id = 1469
+			province_id = 2674
+			province_id = 1077
+			province_id = 2701
+			province_id = 2691
+			province_id = 1075
+			province_id = 1076
+			province_id = 2677
+			province_id = 2676
+			province_id = 2695
+			province_id = 2645
+			province_id = 2656
+			province_id = 2694
+			province_id = 2675
+			province_id = 2670
+			province_id = 2671
+			province_id = 1079
+			province_id = 1078
+			province_id = 2644
+			province_id = 2696
+			province_id = 2648
+			province_id = 1081
+			province_id = 2697
+			province_id = 2698
+			province_id = 1080
+			province_id = 2698
+			province_id = 2641
+			}
+			
+	}
 	}
 	
 	effect = {
 		set_country_flag = new_frontiers
-		1060 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		RUS_2685 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		1184 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		2611 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		1181 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		RUS_1064 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		RUS_1469 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		2674 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		1077 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		2691 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		2701 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		RUS_1075 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		RUS_1079 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		2644 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		2696 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		2641 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
-		1080 = {add_province_modifier = {name = siberian_frontier duration = 3650}}
+		any_owned = {
+			limit = {
+			OR = {
+			province_id = 1059
+			province_id = 2658
+			province_id = 2685
+			province_id = 2614
+			province_id = 1058
+			province_id = 1066
+			province_id = 1061
+			province_id = 1064
+			province_id = 2683
+			province_id = 2686
+			province_id = 1063
+			province_id = 2698
+			province_id = 1067
+			province_id = 1068
+			province_id = 1469
+			province_id = 2674
+			province_id = 1077
+			province_id = 2701
+			province_id = 2691
+			province_id = 1075
+			province_id = 1076
+			province_id = 2677
+			province_id = 2676
+			province_id = 2695
+			province_id = 2645
+			province_id = 2656
+			province_id = 2694
+			province_id = 2675
+			province_id = 2670
+			province_id = 2671
+			province_id = 1079
+			province_id = 1078
+			province_id = 2644
+			province_id = 2696
+			province_id = 2648
+			province_id = 1081
+			province_id = 2697
+			province_id = 2698
+			province_id = 1080
+			province_id = 2698
+			province_id = 2641
+			}
+			}
+			add_province_modifier = {name = siberian_frontier duration = 3650} add_core = THIS life_rating = 5
+		}
 		cattle = -50
 		grain = -100
 		}

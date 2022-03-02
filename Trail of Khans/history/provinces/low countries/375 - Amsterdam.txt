@@ -5,6 +5,7 @@ trade_goods = cattle
 life_rating = 40
 fort = 1
 naval_base = 2
+railroad = 1
 #state_building = {
 #    level = 1
 #    building = fabric_factory

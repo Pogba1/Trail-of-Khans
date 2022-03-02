@@ -2686,7 +2686,11 @@
         religion = orthodox
         size = 1000
     }
-
+	farmers = {
+		culture = romanian
+		religion = orthodox
+		size = 13250
+	}
     farmers = {
         culture = ukrainian
         religion = orthodox

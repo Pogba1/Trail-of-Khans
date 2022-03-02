@@ -70,6 +70,48 @@
         religion = protestant
         size = 48075
     }
+	
+	aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 500
+    }
+
+    bureaucrats = {
+        culture = north_german
+        religion = protestant
+        size = 350
+    }
+
+    officers = {
+        culture = north_german
+        religion = protestant
+        size = 200
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 375
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 10000
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 2500
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 48075
+    }
 
     artisans = {
         culture = ashkenazi
@@ -109,6 +151,37 @@
         religion = protestant
         size = 14500
     }
+	
+	
+	aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 250
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 250
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 7000
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 1100
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 14500
+    }
 }
 #Ribe (148000/37000 POPS)
 #1k moved to 2557
@@ -143,6 +216,38 @@
         religion = protestant
         size = 23400
     }
+	
+	#####
+	
+	aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 250
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 250
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 1100
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 1100
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 23400
+    }
 
 }
 
@@ -170,6 +275,33 @@
     }
     farmers = {
         culture = danish
+        religion = protestant
+        size = 23550
+    }
+	####
+	
+	artisans = {
+        culture = north_german
+        religion = protestant
+        size = 1100
+    }
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 125
+    }
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 1100
+    }
+    aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 250
+    }
+    farmers = {
+        culture = north_german
         religion = protestant
         size = 23550
     }
@@ -304,7 +436,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 6550
+        size = 18550
     }
 
 }
@@ -316,9 +448,19 @@
         religion = protestant
         size = 1550
     }
+	aristocrats = {
+        culture = swedish
+        religion = protestant
+        size = 1550
+    }
+	aristocrats = {
+        culture = norwegian
+        religion = protestant
+        size = 1550
+    }
 
     bureaucrats = {
-        culture = danish
+        culture = norwegian
         religion = protestant
         size = 500
     }
@@ -327,6 +469,16 @@
         culture = danish
         religion = protestant
         size = 500
+    }
+	officers = {
+        culture = norwegian
+        religion = protestant
+        size = 500
+    }
+	officers = {
+        culture = swedish
+        religion = protestant
+        size = 100
     }
 
     clergymen = {
@@ -346,13 +498,24 @@
         religion = protestant
         size = 10000
     }
+	artisans = {
+        culture = norwegian
+        religion = protestant
+        size = 10000
+    }
 
     artisans = {
         culture = danish
         religion = protestant
         size = 6000
     }
-
+	
+	artisans = {
+        culture = swedish
+        religion = protestant
+        size = 6000
+    }
+	
     soldiers = {
         culture = danish
         religion = protestant
@@ -369,6 +532,18 @@
         culture = danish
         religion = protestant
         size = 64000
+    }
+	
+	farmers = {
+        culture = norwegian
+        religion = protestant
+        size = 16000
+    }
+	
+	farmers = {
+        culture = swedish
+        religion = protestant
+        size = 5000
     }
 
     artisans = {
