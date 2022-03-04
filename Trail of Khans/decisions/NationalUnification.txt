@@ -73,6 +73,7 @@ political_decisions = {
 				tag = HRE
                 has_country_flag = post_colonial_country
 				tag = BAV
+				tag = GBY
                 exists = SGF
                 exists = GER
 				tag = HPS
@@ -552,7 +553,7 @@ political_decisions = {
             OR = {
                 tag = NGF
                 tag = SGF
-				tag = BAV
+				tag = GBY
             }
             NOT = { exists = GER }
         }
@@ -1013,34 +1014,34 @@ political_decisions = {
         }
     }
 
-    reichsland_elsass = {
-        potential = {
-            is_culture_group = germanic
-            NOT = { tag = ALS }
-            owns = 410
-            owns = 409
-            owns = 412
-            NOT = { has_global_flag = germany_has_renamed_elsass }
-        }
-
-        allow = {
-            prestige = 10
-        }
-
-        effect = {
-            410 = {
-                change_province_name = "Kolmar"
-            }
-            409 = {
-                change_province_name = "Straﬂburg"
-                state_scope = {
-                    change_region_name = "Elsaﬂ-Lothringen"
-                }
-            }
-            prestige = 5
-            set_global_flag = germany_has_renamed_elsass
-        }
-    }
+    #reichsland_elsass = {
+    #    potential = {
+    #        is_culture_group = germanic
+    #        NOT = { tag = ALS }
+    #        owns = 410
+    #        owns = 409
+    #        owns = 412
+    #        NOT = { has_global_flag = germany_has_renamed_elsass }
+    #    }
+	#
+    #    allow = {
+    #        prestige = 10
+    #    }
+	#
+    #    effect = {
+    #        410 = {
+    #            change_province_name = "Kolmar"
+    #        }
+    #        409 = {
+    #            change_province_name = "Straﬂburg"
+    #            state_scope = {
+    #                change_region_name = "Elsaﬂ-Lothringen"
+    #            }
+    #        }
+    #        prestige = 5
+    #        set_global_flag = germany_has_renamed_elsass
+    #    }
+    #}
 
     restore_alsace = {
         potential = {

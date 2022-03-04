@@ -82,12 +82,42 @@ political_decisions = {
 			all_core = {owned_by = THIS}
 		}
 		effect = {
-			WUR = {all_core = {add_core = BAV}}
-			BAD = {all_core = {add_core = BAV}}
-			LOR = {all_core = {add_core = BAV add_core = GER}}
+			WUR = {all_core = {add_core = GBY}}
+			BAD = {all_core = {add_core = GBY}}
+			LOR = {all_core = {add_core = GBY add_core = GER}}
 			inherit = LOR
 			inherit = WUR
 			inherit = BAD
+			any_country = {
+                limit = {
+                    primary_culture = south_german
+                    in_sphere = THIS
+                    NOT = {
+                        has_country_flag = post_colonial_country
+                        tag = THIS
+                    }
+                    OR = {
+                        is_vassal = no
+                        vassal_of = THIS
+                    }
+                }
+                country_event = 11106
+            }
+			all_core = { add_core = GBY }
+            any_owned = {
+                limit = {
+                    NOT = { is_core = THIS }
+                    any_core = {
+                        exists = no
+                        primary_culture = south_german
+                        has_country_flag = wants_to_unify
+                        NOT = { has_country_flag = post_colonial_country }
+                    }
+                }
+                add_core = GBY
+            }
+			change_tag = GBY
+			prestige = 5
 			set_country_flag = south_german_unity
 		}
 	
@@ -113,7 +143,7 @@ political_decisions = {
 	
 	unify_rhine = {
 		potential = {
-			tag = BAV
+			tag = GBY
 			has_country_flag = south_german_unity
 			NOT = {has_country_flag = unify_rhine}
 			OR = {is_secondary_power = yes is_greater_power = yes}
