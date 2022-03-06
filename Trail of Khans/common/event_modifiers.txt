@@ -2871,6 +2871,11 @@ aquila_coal = {
 	icon = 9
 }
 
+teach_gallic = {
+	assimilation_rate = 3
+	icon = 19
+}
+
 settle_tuaregs = {
 	assimilation_rate = 1
 	icon = 19

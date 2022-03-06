@@ -1,7 +1,7 @@
-owner = TIG
-controller = TIG
+owner = AWS
+controller = AWS
+add_core = AWS
 add_core = ETH
-add_core = TIG
 trade_goods = fruit
 terrain = semidesert
 life_rating = 32

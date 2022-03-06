@@ -65,16 +65,20 @@ political_decisions = {
 			NOT = {has_country_flag = attempt_reform_gaul}
 		}
 		allow = {
+		OR = {
 			263 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
+			269 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
+		}
+		OR = {	
 			254 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
+			270 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
+		}
 			258 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
 			260 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			270 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
 			299 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
 			300 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
 			296 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
 			277 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			269 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
 			267 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
 		}
 		
@@ -129,5 +133,51 @@ political_decisions = {
 			set_country_flag = welsh_integration
 		}
 	
+	}
+	attempt_reform_gaul = {
+		potential = {
+			tag = IRE
+			NOT = {has_country_flag = attempt_reform_gaul}
+		}
+		allow = {
+			420 = {owned_by = THIS}
+			423 = {owned_by = THIS}
+		}
+		effect = {
+			set_country_flag = attempt_reform_gaul
+			FRA_420 = {add_core = IRE}
+			FRA_435 = {add_core = IRE}
+			FRA_418 = {add_core = IRE}
+		}
+	}
+	
+	form_gau = {
+		potential = {
+			primary_culture = irish
+			NOT = {exists = GAU}
+			has_country_flag = attempt_reform_gaul
+		}
+		allow = {
+			NOT = {exists = FRA}
+			425 = {owned_by = THIS}
+			420 = {owned_by = THIS}
+			434 = {owned_by = THIS}
+			418 = {owned_by = THIS}
+		}
+		effect = {
+			change_tag = GAU
+			prestige = 10
+			capital = 425
+			primary_culture = gallic
+			add_accepted_culture = irish
+			FRA_420 = {
+				assimilate = yes
+			}
+			FRA = {all_core = {add_core = GAU remove_core = FRA}}
+			any_owned = {
+				limit = {is_core = GAU}
+				add_province_modifier = {name = teach_gallic duration = -1}
+			}
+		}
 	}
 }

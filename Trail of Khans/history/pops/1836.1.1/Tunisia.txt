@@ -67,8 +67,8 @@
     }
 	
 	soldiers = {
-        culture = turkish
-        religion = sunni
+        culture = south_italian
+        religion = catholic
         size = 3000
     }
 
@@ -84,8 +84,8 @@
         size = 96425
     }
 	 farmers = {
-        culture = turkish
-        religion = sunni
+        culture = south_italian
+        religion = catholic
         size = 1425
     }
 

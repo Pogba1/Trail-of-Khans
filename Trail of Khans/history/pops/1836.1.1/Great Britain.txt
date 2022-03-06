@@ -455,7 +455,11 @@
         religion = catholic
         size = 250
     }
-
+	capitalists = {
+		culture = irish
+		religion = catholic
+		size = 300
+	}
     clergymen = {
         culture = welsh
         religion = catholic
@@ -476,14 +480,19 @@
 	bureaucrats = {
 		culture = irish
 		religion = catholic
-		size = 1000
+		size = 3000
 	}
-    farmers = {
+    labourers = {
         culture = welsh
         religion = catholic
         size = 109625
     }
-	farmers = {
+	craftsmen = {
+		culture = welsh
+		religion = catholic
+		size = 50000
+	}
+	labourers = {
         culture = irish
         religion = catholic
         size = 59625

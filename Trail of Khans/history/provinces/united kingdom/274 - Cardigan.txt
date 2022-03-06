@@ -3,7 +3,7 @@ controller = IRE
 add_core = IRE
 add_core = WHA
 trade_goods = iron
-life_rating = 35
+life_rating = 36
 party_loyalty = {
     ideology = conservative
     loyalty_value = 17
@@ -22,4 +22,19 @@ state_building = {
         building = ammunition_factory
         upgrade = yes
     }
+state_building = {
+        level = 1
+        building = fertilizer_factory
+        upgrade = yes
+    }
+state_building = {
+        level = 1
+        building = artillery_factory
+        upgrade = yes
+    }
+state_building = {
+	level = 1
+	building = steamer_shipyard
+	upgrade = yes
+}
 1861.1.1 = { railroad = 3 }

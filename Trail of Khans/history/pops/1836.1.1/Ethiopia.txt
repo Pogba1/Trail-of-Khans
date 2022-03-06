@@ -5,7 +5,7 @@
     aristocrats = {
         culture = amhara
         religion = coptic
-        size = 2100
+        size = 3100
     }
 
     bureaucrats = {
@@ -41,7 +41,7 @@
     farmers = {
         culture = amhara
         religion = coptic
-        size = 90000
+        size = 190000
     }
 
     slaves = {
@@ -193,10 +193,10 @@
     farmers = {
         culture = amhara
         religion = coptic
-        size = 113500
+        size = 213500
     }
 
-    slaves = {
+    farmers = {
         culture = amhara
         religion = coptic
         size = 10000
@@ -249,19 +249,19 @@
     artisans = {
         culture = amhara
         religion = coptic
-        size = 3000
+        size = 4000
     }
 
     soldiers = {
         culture = amhara
         religion = coptic
-        size = 2240
+        size = 6240
     }
 
     farmers = {
         culture = amhara
         religion = coptic
-        size = 110000
+        size = 210000
     }
 
     slaves = {
@@ -539,10 +539,10 @@
     farmers = {
         culture = amhara
         religion = coptic
-        size = 24550
+        size = 124550
     }
 
-    slaves = {
+    farmers = {
         culture = amhara
         religion = sunni
         size = 22000
@@ -625,7 +625,16 @@
         religion = coptic
         size = 11175
     }
-
+	clergymen = {
+		culture = latin
+		religion = catholic
+		size = 6000
+	}
+	soldiers = {
+		culture = latin
+		religion = catholic
+		size = 3000
+	}
     bureaucrats = {
         culture = amhara
         religion = coptic
@@ -812,62 +821,62 @@
 
     aristocrats = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 1325
     }
 
     clergymen = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 675
     }
 
     artisans = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 2725
     }
 
     farmers = {
         culture = amhara
-        religion = sunni
-        size = 53300
+        religion = coptic
+        size = 23300
     }
 
-    slaves = {
+    farmers = {
         culture = amhara
-        religion = animist
+        religion = coptic
         size = 10000
     }
 
     aristocrats = {
         culture = amhara #From here on they were amhara and coptic
-        religion = sunni
+        religion = coptic
         size = 925
     }
 
     clergymen = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 475
     }
 
     artisans = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 1900
     }
 
     soldiers = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 475
     }
 
     farmers = {
         culture = amhara
-        religion = sunni
-        size = 43225
+        religion = coptic
+        size = 73225
     }
 
 }
@@ -876,74 +885,74 @@
 
     aristocrats = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 1250
     }
 
     clergymen = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 150
     }
 
     artisans = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 2650
     }
 
     soldiers = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 450
     }
 
     farmers = {
         culture = amhara
-        religion = sunni
-        size = 50500
+        religion = coptic
+        size = 150500
     }
 
-    slaves = {
+    farmers = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 10000
     }
 
     #From here on they were amhara and coptic
     aristocrats = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 600
     }
 
     clergymen = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 300
     }
 
     artisans = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 1250
     }
 
     soldiers = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 325
     }
 
     farmers = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 26525
     }
 
     slaves = {
         culture = amhara
-        religion = sunni
+        religion = coptic
         size = 2000
     }
 }
@@ -1165,10 +1174,10 @@
     farmers = {
         culture = amhara
         religion = coptic
-        size = 20850
+        size = 120850
     }
 
-    slaves = {
+    farmers = {
         culture = amhara
         religion = coptic
         size = 6000

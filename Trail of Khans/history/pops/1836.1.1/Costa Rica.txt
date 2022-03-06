@@ -4,48 +4,52 @@
 2201 = {
     aristocrats = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 300
        
     }
 
     bureaucrats = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 50
     }
 
     officers = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 25
        
     }
 
     clergymen = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 125
        
     }
 
     artisans = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 650
     }
 
     soldiers = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 525
 
        
     }
-
+	farmers = {
+		culture = afro_german
+		religion = protestant
+		size = 2000
+	}
     farmers = {
         culture = afro_german
-        religion = protestant
+        religion = catholic
         size = 11725
         
     }
@@ -54,27 +58,27 @@
 2202 = {
     aristocrats = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 150
        
     }
 
     clergymen = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 50
        
     }
 
     artisans = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 250
     }
 
     soldiers = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 50
 
        
@@ -82,7 +86,7 @@
 
     farmers = {
         culture = afro_german
-        religion = protestant
+        religion = catholic
         size = 4500
         
     }
@@ -91,35 +95,37 @@
 2203 = {
     aristocrats = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 75
        
     }
 
     clergymen = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 50
        
     }
-
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 100
+	}
     artisans = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 150
     }
 
     soldiers = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 25
-
-       
     }
 
     farmers = {
         culture = afro_german
-        religion = protestant
+        religion = catholic
         size = 2700
         
     }

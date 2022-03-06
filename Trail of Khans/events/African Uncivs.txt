@@ -115,48 +115,48 @@ country_event = { #The Mfecane
         }
     }
 
-#The Toucouleur Empire
-country_event = {
-    id = 95520
-    title = "EVTNAME95520"
-    desc = "EVTDESC95520"
-    picture = "toucouleur"
-
-    trigger = {
-        tag = SEG
-        war = no
-        year = 1845
-        owns = 1800
-        OR = {
-            NOT = { military_score = 3 }
-            war_exhaustion = 50
-        }
-        NOT = { year = 1890 }
-        ai = yes
-    }
-
-    fire_only_once = yes
-
-    mean_time_to_happen = { months = 10 }
-
-    option = {
-        name = "EVT95520OPTA"
-        primary_culture = fulbe
-        add_accepted_culture = bambara
-        add_accepted_culture = songhai
-        add_accepted_culture = tuareg
-        #add_accepted_culture = african_minor
-        all_core = { add_core = TOU }
-        SEG = { all_core = { add_core = TOU } }
-        DND = { all_core = { add_core = TOU } }
-        MAS = { all_core = { add_core = TOU } }
-        SEG = { all_core = { remove_core = SEG } }
-        change_tag = TOU
-        capital = 1800
-        define_general = {
-            name = "Umar Tall"
-            personality = implacable
-            background = natural_born_leader
-        }
-    }
-}
+##The Toucouleur Empire
+#country_event = {
+#    id = 95520
+#    title = "EVTNAME95520"
+#    desc = "EVTDESC95520"
+#    picture = "toucouleur"
+#
+#    trigger = {
+#        tag = SEG
+#        war = no
+#        year = 1845
+#        owns = 1800
+#        OR = {
+#            NOT = { military_score = 3 }
+#            war_exhaustion = 50
+#        }
+#        NOT = { year = 1890 }
+#        ai = yes
+#    }
+#
+#    fire_only_once = yes
+#
+#    mean_time_to_happen = { months = 10 }
+#
+#    option = {
+#        name = "EVT95520OPTA"
+#        primary_culture = fulbe
+#        add_accepted_culture = bambara
+#        add_accepted_culture = songhai
+#        add_accepted_culture = tuareg
+#        #add_accepted_culture = african_minor
+#        all_core = { add_core = TOU }
+#        SEG = { all_core = { add_core = TOU } }
+#        DND = { all_core = { add_core = TOU } }
+#        MAS = { all_core = { add_core = TOU } }
+#        SEG = { all_core = { remove_core = SEG } }
+#        change_tag = TOU
+#        capital = 1800
+#        define_general = {
+#            name = "Umar Tall"
+#            personality = implacable
+#            background = natural_born_leader
+#        }
+#    }
+#}

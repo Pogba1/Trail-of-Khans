@@ -93,8 +93,7 @@ country_event = {
 		UCA_2197 = {add_core = UCA}
 		UCA_2201 = {add_core = UCA}
 		CLM_1723 = {add_core = UCA}
-		2253 = {add_core = UCA}
-		2254 = {add_core = UCA}
+		LUB_2254 = {add_core = UCA}
 		any_pop = { limit = {has_pop_culture = afro_german} militancy = 8 consciousness = 5}
 		set_global_flag = separate_american_identity
         }

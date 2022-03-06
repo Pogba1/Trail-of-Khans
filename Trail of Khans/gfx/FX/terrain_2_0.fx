@@ -1,5 +1,5 @@
-#define BRIGHTNESS 0.05 //-0.03
-#define CONTRAST 1.0
+#define BRIGHTNESS 0.11 //+0.03
+#define CONTRAST 1
 #define DESATURATION 0.3
 
 #define X_OFFSET 0.5

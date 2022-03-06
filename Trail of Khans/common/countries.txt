@@ -6,6 +6,9 @@ MAO		   ="countries/Mao Dynasty.txt"
 # Special countries...
 REB     =     "countries/rebels.txt"
 
+# Schizophrenic Irish Formable
+GAU        ="countries/Gaul.txt"
+
 ##HPM
 PNK        ="countries/Pontianak.txt"
 GHN        ="countries/Ghana.txt"
@@ -440,6 +443,7 @@ GAL		   ="countries/Galatia.txt"
 NCE		   ="countries/Nicea.txt"
 
 # Africa
+ALO		   ="countries/Alodia.txt"
 ALD        ="countries/Aldjazair.txt"
 CNG        ="countries/Congo Free State.txt"
 EGE        ="countries/New Egyptian Empire.txt"

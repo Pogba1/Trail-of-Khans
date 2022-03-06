@@ -229,9 +229,7 @@ political_decisions = {
 			limit = {
 				province_id = 1063
 			}
-			effect = {
 				add_province_modifier = {name = gold_rush duration = 1460}
-			}
 		}
 		any_owned = {
 			limit = {

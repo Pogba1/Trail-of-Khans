@@ -399,6 +399,50 @@ political_decisions = {
         ai_will_do = { factor = 1 }
     }
 	
+	dreams_of_rome = {
+        picture = "belgrade_view"
+        potential = {
+           tag = BYZ
+		 
+			has_country_flag = patriarchate_of_antioch
+			
+		 
+		   NOT = {has_country_flag = dreams_of_rome}
+        }
+
+        allow = {
+            war = no
+            is_greater_power = yes
+			764 = {owned_by = BYZ}
+			762 = {owned_by = BYZ}
+			763 = {owned_by = BYZ}
+        }
+
+        effect = {
+			764 = {add_core = BYZ}
+			762 = {add_core = BYZ}
+			763 = {add_core = BYZ}
+			759 = {add_core = BYZ}
+			760 = {add_core = BYZ}
+			761 = {add_core = BYZ}
+			755 = {add_core = BYZ}
+			754 = {add_core = BYZ}
+			2567 = {add_core = BYZ}
+			2577 = {add_core = BYZ}
+			753 = {add_core = BYZ}
+			10 = {add_core = BYZ}
+			757 = {add_core = BYZ}
+			756 = {add_core = BYZ}
+			758 = {add_core = BYZ}
+			749 = {add_core = BYZ}
+			750 = {add_core = BYZ}
+			751 = {add_core = BYZ}
+			752 = {add_core = BYZ}
+			add_accepted_culture = south_italian
+            set_country_flag = dreams_of_rome
+        }
+        ai_will_do = { factor = 1 }
+    }
 	
 	###############
 	reforge_byzantium = {

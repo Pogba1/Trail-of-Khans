@@ -335,11 +335,30 @@
 #Jibuti (28000/7000 POPS) #now part of Djibouti
 1875 = {
     aristocrats = {
-        culture = somali
-        religion = sunni
+        culture = amhara
+        religion = coptic
         size = 50
     }
-
+	clergymen = {
+		culture = amhara
+		religion = coptic
+		size = 100
+	}
+	clergymen = {
+		culture = latin
+		religion = catholic
+		size = 50
+	}
+	farmers = {
+		culture = amhara
+		religion = coptic
+		size = 60000
+	}
+	soldiers = {
+		culture = amhara
+		religion = coptic
+		size = 300
+	}
     clergymen = {
         culture = somali
         religion = sunni

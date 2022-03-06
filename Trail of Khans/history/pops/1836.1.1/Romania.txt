@@ -1643,25 +1643,25 @@
     clergymen = {
         culture = romanian
         religion = orthodox
-        size = 250
+        size = 750
     }
 
     artisans = {
         culture = romanian
         religion = orthodox
-        size = 1250
+        size = 2550
     }
 
     soldiers = {
         culture = romanian
         religion = orthodox
-        size = 250
+        size = 500
     }
 
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 52250
+        size = 92250
     }
 
     clergymen = {
@@ -2077,55 +2077,55 @@
     aristocrats = {
         culture = romanian
         religion = orthodox
-        size = 550
+        size = 750
     }
 
     aristocrats = {
         culture = romanian
         religion = orthodox
-        size = 1775
+        size = 3775
     }
 
     bureaucrats = {
         culture = romanian
         religion = orthodox
-        size = 575
+        size = 775
     }
 
     officers = {
         culture = romanian
         religion = orthodox
-        size = 350
+        size = 550
     }
 
     clergymen = {
         culture = romanian
         religion = orthodox
-        size = 1175
+        size = 1675
     }
 
     artisans = {
         culture = romanian
         religion = orthodox
-        size = 10000
+        size = 15000
     }
 
     artisans = {
         culture = romanian
         religion = orthodox
-        size = 5000
+        size = 7500
     }
 
     soldiers = {
         culture = romanian
         religion = orthodox
-        size = 3000
+        size = 6000
     }
 
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 98625
+        size = 138625
     }
 	
 	farmers = {

@@ -1,13 +1,10 @@
 capital = 1859
 primary_culture = amhara
-culture = tigray
-culture = oromo
-culture = cushitic
 religion = coptic
 government = absolute_monarchy
 plurality = 5.0
 nationalvalue = nv_tradition
-literacy = 0.07
+literacy = 0.19
 is_releasable_vassal = no
 
 slavery = yes_slavery

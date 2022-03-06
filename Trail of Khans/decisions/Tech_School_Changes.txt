@@ -1,4 +1,18 @@
 political_decisions = {
+	picking_up_a_tech_school = {
+		potential = {
+            civilized = yes
+            NOT = {has_country_flag = picking_up_a_tech_school}
+			NOT = { has_country_modifier = academic_confusion }
+        }
+        allow = {
+            NOT = { has_country_modifier = academic_confusion }
+        }
+        effect = {
+            set_country_flag = picking_up_a_tech_school
+        }
+	
+	}
     switch_to_army_tech = {
         potential = {
             civilized = yes
