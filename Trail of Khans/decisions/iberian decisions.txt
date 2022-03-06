@@ -156,7 +156,7 @@ political_decisions = {
 	}
 	
 	the_caliphate = {
-		picture = ""
+		#picture = ""
 		potential = {
 			
 			tag = AND
@@ -176,6 +176,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = the_caliphate
 			prestige = 20
+			add_country_modifier = {name = caliph_egy duration = -1}
 			change_tag = CLP
 			EGY = {all_core = {add_core = THIS}}
 			TRI = {all_core = {add_core = THIS}}
@@ -194,7 +195,7 @@ political_decisions = {
 			OMA_1166 = {add_core = THIS}
 			TUR_935 = {add_core = THIS}
 			TUR_931 = {add_core = THIS}
-			add_country_modifier = {name = caliph duration = -1}
+			
 			add_accepted_culture = mashriqi
 			}
 	}

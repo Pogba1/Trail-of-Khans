@@ -1,4 +1,19 @@
 political_decisions = {
+	raid_pontus = {
+		potential = {
+			tag = GOL
+			NOT = {has_country_flag = raid_pontus}
+		}
+		allow = {
+			1095 = {owned_by = THIS}
+		}
+		effect = {
+			prestige = 5
+			badboy = 10
+			PNT = {all_core = {add_core = THIS}}
+			set_country_flag = raid_pontus
+		}
+	}
 	restore_the_empire = {
 		potential = {
 			OR = {

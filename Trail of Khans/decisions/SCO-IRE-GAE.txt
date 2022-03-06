@@ -34,6 +34,7 @@ political_decisions = {
 	
 	}
 	
+	
 	hegemony_over_the_island = {
 		potential = {
 			tag = SCO
@@ -107,5 +108,26 @@ political_decisions = {
 		add_accepted_culture = scottish
 		}
 	}
-
+	
+	#######################
+	#SCHIZOPHRENIC IRELAND#
+	#######################
+	
+	welsh_integration = {
+		potential = {
+			primary_culture = irish
+			NOT = {has_country_flag = welsh_integration}
+			year = 1840
+		}
+		allow = {
+			war=no
+			273 = {owned_by = THIS}
+			state_n_government = 1
+		}
+		effect = {
+			add_accepted_culture = welsh
+			set_country_flag = welsh_integration
+		}
+	
+	}
 }

@@ -227,6 +227,14 @@ political_decisions = {
 		set_country_flag = new_frontiers
 		any_owned = {
 			limit = {
+				province_id = 1063
+			}
+			effect = {
+				add_province_modifier = {name = gold_rush duration = 1460}
+			}
+		}
+		any_owned = {
+			limit = {
 			OR = {
 			province_id = 1059
 			province_id = 2658
@@ -309,7 +317,6 @@ political_decisions = {
 		1082 = {add_core = RUS}
 		1082 = {remove_core = MCK}
 		1082 = {remove_core = CHI}
-		1082 = {remove_core = QNG}
 		}
 		ai_will_do = { factor = 1 }
 	}

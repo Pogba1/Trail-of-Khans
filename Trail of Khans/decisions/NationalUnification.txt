@@ -852,6 +852,7 @@ political_decisions = {
 
         effect = {
             prestige = 20
+			DLM = {all_core = {add_core = ITA}}
             all_core = { remove_core = THIS }
             change_tag = ITA
             capital = 749

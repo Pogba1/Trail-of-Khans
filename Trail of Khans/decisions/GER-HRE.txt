@@ -73,11 +73,11 @@ political_decisions = {
 					BAD = {vassal_of = THIS}
 					BAD = {all_core = {owned_by = THIS}}
 				}
-				OR = {
-					LOR = {in_sphere = THIS}
-					LOR = {vassal_of = THIS}
-					LOR = {all_core = {owned_by = THIS}}
-				}
+				#OR = {
+				#	LOR = {in_sphere = THIS}
+				#	LOR = {vassal_of = THIS}
+				#	LOR = {all_core = {owned_by = THIS}}
+				#}
 			}
 			all_core = {owned_by = THIS}
 		}
@@ -85,7 +85,7 @@ political_decisions = {
 			WUR = {all_core = {add_core = GBY}}
 			BAD = {all_core = {add_core = GBY}}
 			LOR = {all_core = {add_core = GBY add_core = GER}}
-			inherit = LOR
+			#inherit = LOR
 			inherit = WUR
 			inherit = BAD
 			any_country = {

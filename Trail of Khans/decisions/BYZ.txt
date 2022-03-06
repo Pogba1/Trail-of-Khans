@@ -101,7 +101,7 @@ political_decisions = {
 		effect = {
 			inherit = PNT
 			PNT = {all_core = {add_core = THIS}}
-		
+			set_country_flag = inherit_pontus
 		}
 	}
 	

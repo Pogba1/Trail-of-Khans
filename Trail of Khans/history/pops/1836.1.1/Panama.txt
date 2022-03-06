@@ -131,9 +131,18 @@
     aristocrats = {
         culture = north_german
         religion = protestant
-        size = 150
+        size = 250
     }
-
+	aristocrats = {
+		culture = afro_german
+		religion = protestant
+		size = 10
+	}
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 100
+	}
     clergymen = {
         culture = north_german
         religion = protestant
@@ -143,9 +152,13 @@
     artisans = {
         culture = north_german
         religion = protestant
-        size = 300
+        size = 800
     }
-
+	artisans = {
+		culture = afro_german
+		religion = protestant
+		size = 100
+	}
     soldiers = {
         culture = north_german
         religion = protestant
@@ -181,6 +194,26 @@
         religion = protestant
         size = 670
     }
+	farmers = {
+        culture = forest_bantu
+        religion = protestant
+        size = 670
+    }
+	farmers = {
+		culture = hausa
+		religion = protestant
+		size = 1000
+	}
+	farmers = {
+        culture = afro_german
+        religion = protestant
+        size = 20070
+    }
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 3000
+	}
 
    
 }

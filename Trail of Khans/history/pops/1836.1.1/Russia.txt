@@ -1517,7 +1517,11 @@
         religion = animist
         size = 10
     }
-
+	farmers = {
+        culture = ugrian
+        religion = orthodox
+        size = 490
+    }
     farmers = {
         culture = ugrian
         religion = animist
@@ -6266,8 +6270,8 @@
     ########
 
     clergymen = {
-        culture = tatar
-        religion = sunni
+        culture = russian
+        religion = orthodox
         size = 50
     }
 
@@ -6278,11 +6282,20 @@
     }
 
     soldiers = {
-        culture = tatar
-        religion = sunni
+        culture = russian
+        religion = orthodox
         size = 25
     }
-
+	soldiers = {
+        culture = russian
+        religion = orthodox
+        size = 25
+    }
+	farmers = {
+        culture = russian
+        religion = orthodox
+        size = 2750
+    }
     farmers = {
         culture = tatar
         religion = sunni
@@ -6318,8 +6331,18 @@
     farmers = {
         culture = tatar
         religion = sunni
-        size = 41400
+        size = 20400
     }
+	farmers = {
+        culture = russian
+        religion = orthodox
+        size = 20000
+    }
+	farmers = {
+		culture = russian
+		religion = sunni
+		size = 5400
+	}	
 }
 #Orsk (180000/45000 POPS)
 1060 = {
@@ -6636,7 +6659,11 @@
 }
 #Muzhi (6000/1500 POPS) => Verkhoturye
 2685 = {
-
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 100
+	}
     farmers = {
         culture = ugrian
         religion = animist

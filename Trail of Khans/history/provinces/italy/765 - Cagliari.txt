@@ -4,6 +4,7 @@ add_core = GEN
 add_core = SRD
 add_core = ITA
 trade_goods = coal
+naval_base = 1
 life_rating = 35
 #state_building = {
 #    level = 1
