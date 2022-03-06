@@ -485,6 +485,39 @@ political_decisions = {
 			prestige = 15
 		}
 	}
+	
+	patriarchate_of_rome = {
+        picture = "build_teresina"
+        potential = {
+           tag = BYZ
+		   has_country_flag=patriarchate_of_antioch
+		   NOT={has_country_flag=patriarchate_of_rome}
+        }
+
+        allow = {
+            war = no
+            749 = {owned_by = BYZ}
+        }
+
+        effect = {
+            prestige = 15
+			749 = {add_core = BYZ}
+			749 = {add_province_modifier={name = rome_renovated duration = 3650}}
+			capital = 749
+            set_country_flag = patriarchate_of_rome
+            any_pop = {
+                limit = {
+                    OR={has_pop_religion = orthodox
+						has_pop_religion = catholic
+						has_pop_religion = protestant
+						has_pop_religion = coptic
+						}
+                }
+                militancy = -5
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
 	#integrate_the_armenians = {
     #    picture = "build_teresina"
     #    potential = {

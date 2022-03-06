@@ -119,7 +119,10 @@ political_decisions = {
 	
 	welsh_integration = {
 		potential = {
+		OR = {
 			primary_culture = irish
+			tag = GAU
+		}
 			NOT = {has_country_flag = welsh_integration}
 			year = 1840
 		}
