@@ -1,0 +1,47 @@
+country_event = {
+                 id = 99404
+				 title = "Graecia capta"
+				 desc = "We have gained a foothold on the greek lands, through the prestigious metropolis of Constantinopolis. However, we must now strengthen this position as we are yet to reclaim the macedonian territories once held by our ancestors. This will come with a choice, either use our position to press our greek claims over both greece and anatolia or found new cultural ties between our two cultures"
+               
+			     is_triggered_only = yes
+				 
+			    option = {
+				          name = "Graecia romanus erit"
+						  
+						  GRE = {
+						         all_core = {
+								             add_core = RMR
+											}
+							    }
+						  TUR_863 = {
+						             add_core = RMR
+							       }
+						  TUR_869 = {
+						             add_core = RMR
+								   }
+						  TUR_873 = {
+						             add_core = RMR
+								   }
+						  TUR_880 = {
+						             add_core = RMR
+								   }
+						  bad_boy = 15
+						  
+						  prestige = 25
+
+						  set_country_flag = the_greek_claims
+						 }
+				
+                option = {
+				          name = "Graeci sunt roman"
+						  
+						  add_accepted_culture = greek
+						  
+						  prestige = 40
+						  
+						  TUR_860 = { 
+						             add_core = RMR
+								   }
+						  set_country_flag = greek_cultural_unity
+						 }
+		        }

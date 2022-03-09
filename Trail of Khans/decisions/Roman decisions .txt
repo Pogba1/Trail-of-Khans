@@ -94,6 +94,27 @@ political_decisions = {
 														}
 											 }
 							}
-						    }										
+	the_greeks = {
+	                potential = {
+					             tag = RMR
+								 NOT = {
+									   has_country_flag = the_greek_claims
+									   has_country_flag = greek_cultural_unity
+							    }
+								
+			            allow = { 
+						         nationalism_n_imperialism = 1
+								 TUR_860 = {
+								            owned_by = THIS
+										 }
+								}
 						
+						    effect = {
+							          country_event = { 
+									                   id=99404 days = 0 
+													}
+								    }
+						
+						    }										
+				   }
 					                        

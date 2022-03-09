@@ -224,6 +224,7 @@ political_decisions = {
 		capital = 749
 		primary_culture = roman
 		remove_accepted_culture = north_italian
+		remove_accepted_culture = south_italian
 		change_tag = RMR
 		prestige = 50
 	    PAP = {
