@@ -1,0 +1,318 @@
+army = {
+    name = "Zaryevka Ord"
+    location = 1040
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1040
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1039
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1057
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1055
+    }
+	regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1054
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1053
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1052
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1103
+    }
+	regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1042
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1035
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1039
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1019
+    }
+	regiment = {
+        name= "Tuslakh Brigad"
+        type = artillery
+        home = 977
+    }
+
+}
+army = {
+    name = "Poltava Ord"
+    location = 963
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 962
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 958
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 961
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 963
+    }
+	regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 963
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 955
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 959
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 969
+    }
+	regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 963
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 963
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 963
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 978
+    }
+	regiment = {
+        name= "Tuslakh Brigad"
+        type = artillery
+        home = 978
+    }
+
+}
+
+army = {
+    name = "Adygei Ord"
+    location = 1051
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1051
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1049
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 964
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1019
+    }
+	regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1019
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1019
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1019
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1019
+    }
+	regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1048
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1048
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1044
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1021
+    }
+	regiment = {
+        name= "Tuslakh Brigad"
+        type = artillery
+        home = 1021
+    }
+
+}
+
+army = {
+    name = "Saratov Ord"
+    location = 1037
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1021
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1021
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1039
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1039
+    }
+	regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1039
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1055
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1055
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1055
+    }
+	regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1056
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1025
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1025
+    }
+
+    regiment = {
+        name= "Moriton"
+        type = cuirassier 
+        home = 1025
+    }
+	regiment = {
+        name= "Tuslakh Brigad"
+        type = artillery
+        home = 1025
+    }
+
+}

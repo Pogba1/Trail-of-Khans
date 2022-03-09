@@ -1,0 +1,151 @@
+
+army = {
+    name = "Esercito Veneziano"
+    location = 729
+    regiment = {
+        name= "1. Divisione di Fanteria"
+        type = infantry
+        home = 729
+    }
+
+    regiment = {
+        name= "2. Divisione di Fanteria"
+        type = infantry
+        home = 729
+    }
+
+    regiment = {
+        name= "3. Divisione di Fanteria"
+        type = infantry
+        home = 729
+    }
+
+    regiment = {
+        name= "1. Brigata di Artiglieria"
+        type = artillery
+        home = 729
+    }
+
+    regiment = {
+        name= "2. Brigata di Artiglieria"
+        type = artillery
+        home = 730
+    }
+
+    regiment = {
+        name= "1. Brigata di cavalleria"
+        type = cavalry
+        home = 731
+    }
+
+}
+
+navy = {
+    name = "Flotta di Venezia"
+    location = 729
+    ship = {
+        name= "San Marco"
+        type = manowar
+    }
+    ship = {
+        name= "Doge"
+        type = manowar
+    }
+    ship = {
+        name= "Venezia"
+        type = manowar
+    }
+    ship = {
+        name= "Ragusa"
+        type = manowar
+    }
+    ship = {
+        name= "Giovanni"
+        type = frigate
+    }
+    ship = {
+        name= "Padua"
+        type = frigate
+    }
+	ship = {
+        name= "Udine"
+        type = frigate
+    }
+    ship = {
+        name= "Verona"
+        type = frigate
+    }
+	ship = {
+        name= "Belluno"
+        type = frigate
+    }
+    ship = {
+        name= "Gorizia"
+        type = frigate
+    }
+	ship = {
+        name= "Creta"
+        type = frigate
+    }
+    ship = {
+        name= "Peloponneso"
+        type = frigate
+    }
+	ship = {
+        name= "Dalmazia"
+        type = frigate
+    }
+    ship = {
+        name= "Nicosia"
+        type = frigate
+    }
+	ship = {
+        name= "Corfu"
+        type = frigate
+    }
+    ship = {
+        name= "Zante"
+        type = frigate
+    }
+	ship = {
+        name= "1. Nave da Trasporto"
+        type = clipper_transport
+    }
+	ship = {
+        name= "2. Nave da Trasporto"
+        type = clipper_transport
+    }
+	ship = {
+        name= "3. Nave da Trasporto"
+        type = clipper_transport
+    }
+	ship = {
+        name= "4. Nave da Trasporto"
+        type = clipper_transport
+    }
+	ship = {
+        name= "5. Nave da Trasporto"
+        type = clipper_transport
+    }
+	ship = {
+        name= "6. Nave da Trasporto"
+        type = clipper_transport
+    }
+	ship = {
+        name= "7. Nave da Trasporto"
+        type = clipper_transport
+    }
+	ship = {
+        name= "8. Nave da Trasporto"
+        type = clipper_transport
+    }
+	ship = {
+        name= "9. Nave da Trasporto"
+        type = clipper_transport
+    }
+	ship = {
+        name= "10. Nave da Trasporto"
+        type = clipper_transport
+    }
+	
+	}

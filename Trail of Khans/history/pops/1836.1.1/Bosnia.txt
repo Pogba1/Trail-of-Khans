@@ -1,0 +1,802 @@
+#Bosnia Region (864000)
+#under the rule of Ottoman Empire in 1836
+#Sarajevo (148000/37000 POPS)
+783 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 200
+	}
+	bureaucrats = {
+        culture = north_italian
+        religion = catholic
+        size = 500
+    }
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 10000
+	}
+    aristocrats = {
+        culture = serb
+        religion = orthodox
+        size = 650
+    }
+
+    bureaucrats = {
+        culture = serb
+        religion = orthodox
+        size = 275
+    }
+
+    officers = {
+        culture = serb
+        religion = orthodox
+        size = 225
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 1200
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 4000
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 34775
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    officers = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 1550
+    }
+
+    serfs = {
+        culture = serb
+        religion = orthodox
+        size = 9000
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    officers = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    soldiers = {
+        culture = serb
+        religion = catholic
+        size = 200
+    }
+
+    clergymen = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = catholic
+        size = 475
+    }
+
+    farmers = {
+        culture = serb
+        religion = catholic
+        size = 3050
+    }
+
+    ######Jews
+    aristocrats = {
+        culture = sephardic
+        religion = jewish
+        size = 100
+    }
+
+    officers = {
+        culture = sephardic
+        religion = jewish
+        size = 100
+    }
+
+    soldiers = {
+        culture = sephardic
+        religion = jewish
+        size = 100
+    }
+
+    clergymen = {
+        culture = sephardic
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = sephardic
+        religion = jewish
+        size = 200
+    }
+
+    farmers = {
+        culture = sephardic
+        religion = jewish
+        size = 200
+    }
+    ########
+}
+#Bihac (100000/25000 POPS)
+784 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 200
+	}
+	bureaucrats = {
+        culture = north_italian
+        religion = catholic
+        size = 500
+    }
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 10000
+	}
+    aristocrats = {
+        culture = serb
+        religion = catholic
+        size = 400
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 750
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 16675
+    }
+
+    soldiers = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = catholic
+        size = 300
+    }
+
+    farmers = {
+        culture = serb
+        religion = catholic
+        size = 3525
+    }
+
+    soldiers = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = catholic
+        size = 200
+    }
+
+    serfs = {
+        culture = serb
+        religion = catholic
+        size = 2650
+    }
+}
+#Banja Luka (116000/29000 POPS)
+785 = {
+    aristocrats = {
+        culture = serb
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 800
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 4500
+    }
+
+    soldiers = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = catholic
+        size = 500
+    }
+
+    farmers = {
+        culture = serb
+        religion = catholic
+        size = 18300
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 150
+    }
+
+    serfs = {
+        culture = serb
+        religion = orthodox
+        size = 3675
+    }
+}
+#Tuzla (168000/42000 POPS)
+786 = {
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 10000
+	}
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 300
+	}
+    aristocrats = {
+        culture = serb
+        religion = orthodox
+        size = 700
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 1150
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 19975
+    }
+
+    soldiers = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = catholic
+        size = 700
+    }
+
+    farmers = {
+        culture = serb
+        religion = catholic
+        size = 19125
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 250
+    }
+
+    serfs = {
+        culture = serb
+        religion = orthodox
+        size = 4675
+    }
+}
+#Foca (92000/23000 POPS)
+787 = {
+    aristocrats = {
+        culture = serb
+        religion = orthodox
+        size = 400
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 600
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 5925
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 15300
+    }
+	
+	
+	aristocrats = {
+        culture = north_italian
+        religion = catholic
+        size = 400
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_italian
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = north_italian
+        religion = catholic
+        size = 600
+    }
+
+    farmers = {
+        culture = north_italian
+        religion = catholic
+        size = 5925
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_italian
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = north_italian
+        religion = catholic
+        size = 500
+    }
+
+    farmers = {
+        culture = north_italian
+        religion = catholic
+        size = 14300
+    }
+}
+#Mostar (104000/26000 POPS)
+788 = {
+    aristocrats = {
+        culture = serb
+        religion = orthodox
+        size = 450
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 600
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 3900
+    }
+
+    soldiers = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = catholic
+        size = 500
+    }
+
+    farmers = {
+        culture = serb
+        religion = catholic
+        size = 14375
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 200
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 5750
+    }
+	
+	
+	aristocrats = {
+        culture = north_italian
+        religion = catholic
+        size = 450
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 600
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 3900
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_italian
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = north_italian
+        religion = catholic
+        size = 500
+    }
+
+    farmers = {
+        culture = north_italian
+        religion = catholic
+        size = 14375
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_italian
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = north_italian
+        religion = catholic
+        size = 200
+    }
+
+    farmers = {
+        culture = north_italian
+        religion = catholic
+        size = 5750
+    }
+}
+#Livno (136000/34000 POPS)
+789 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 200
+	}
+	bureaucrats = {
+        culture = north_italian
+        religion = catholic
+        size = 500
+    }
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 10000
+	}
+    aristocrats = {
+        culture = serb
+        religion = orthodox
+        size = 350
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 1200
+    }
+
+    soldiers = {
+        culture = serb
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = catholic
+        size = 200
+    }
+
+    artisans = {
+        culture = serb
+        religion = catholic
+        size = 1200
+    }
+
+    farmers = {
+        culture = serb
+        religion = catholic
+        size = 24000
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 200
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 6300
+    }
+
+}

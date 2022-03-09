@@ -1,0 +1,76 @@
+
+#Army
+
+army = {
+    name = "1. Armada"
+    location = 625
+    regiment = {
+        name= "1. Jezdecka Brigada"
+        type = cuirassier
+        home = 625
+    }
+
+    regiment = {
+        name= "2. Jezdecka Brigada"
+        type = cuirassier
+        home = 625
+    }
+
+    regiment = {
+        name= "1. Pesi Brigada"
+        type = infantry
+        home = 626
+    }
+
+    regiment = {
+        name= "2. Pesi Brigada"
+        type = infantry
+        home = 627
+    }
+
+    regiment = {
+        name= "3. Pesi Brigada"
+        type = infantry
+        home = 628
+    }
+
+    regiment = {
+        name= "4. Pesi Brigada"
+        type = infantry
+        home = 629
+    }
+
+    regiment = {
+        name= "1. Delostrelectvo"
+        type = artillery
+        home = 630
+    }
+	regiment = {
+        name= "2. Delostrelectvo"
+        type = artillery
+        home = 631
+    }
+	regiment = {
+        name= "3. Delostrelectvo"
+        type = artillery
+        home = 682
+    }
+	regiment = {
+        name= "4. Delostrelectvo"
+        type = artillery
+        home = 682
+    }
+}
+
+
+
+
+leader = {
+    name = "Viktor Hanak"
+    date = 1810.1.1
+    type = land
+    personality = au_fait
+    background = elderly
+    prestige = 0.3
+}
+

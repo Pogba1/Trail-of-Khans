@@ -56,6 +56,35 @@ political_decisions = {
 	
 	}
 	
+	annex_ubr = {
+		potential = {
+			tag = FRA
+			UBR = {in_sphere = THIS}
+			NOT = {has_country_flag = annex_ubr}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			inherit = UBR
+			set_country_flag = annex_ubr
+		}
+	}
+	annex_lbr = {
+		potential = {
+			tag = FRA
+			LBR = {in_sphere = THIS}
+			NOT = {has_country_flag = annex_LBR}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			inherit = LBR
+			set_country_flag = annex_LBR
+		}
+	
+	}
 	integrate_occitans = {
 		potential = {
            tag = FRA

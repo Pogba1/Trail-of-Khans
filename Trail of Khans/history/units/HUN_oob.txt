@@ -1,0 +1,154 @@
+#Sphere of Influence
+
+
+
+
+#Other GP's
+HRE = { value = 75 }
+
+
+
+#Africa
+MOR = {
+    value = 75
+}
+#EGY = {
+#    value = 0
+#    level = 2
+#    influence_value = 0
+#}
+
+#Army
+
+
+army = {
+    name = "I. Hadsereg"
+    location = 641
+    regiment = {
+        name= "1.1. Lovasdandár"
+        type = cuirassier
+        home = 641
+    }
+    regiment = {
+        name= "2.1. Gyalogdandár"
+        type = infantry
+        home = 644
+    }
+	 regiment = {
+        name= "2.2. Gyalogdandár"
+        type = infantry
+        home = 639
+    }
+	regiment = {
+        name= "2.3. Gyalogdandár"
+        type = infantry
+        home = 639
+    }
+	regiment = {
+        name= "3.3. Gyalogdandár"
+        type = infantry
+        home = 639
+    }
+	regiment = {
+        name= "1.1. Tüzérüteg"
+        type = artillery
+        home = 642
+    }
+	regiment = {
+        name= "1.2. Tüzérüteg"
+        type = artillery
+        home = 773
+    }
+	regiment = {
+        name= "2.2. Tüzérüteg"
+        type = artillery
+        home = 633
+    }
+	regiment = {
+        name= "2.3. Tüzérüteg"
+        type = artillery
+        home = 643
+    }
+	regiment = {
+        name= "3.3. Tüzérüteg"
+        type = artillery
+        home = 643
+    }
+	regiment = {
+        name= "3.4. Tüzérüteg"
+        type = artillery
+        home = 644
+    }
+}
+
+
+leader = {
+    name = "Mészáros Lázár"
+    date = 1805.1.1
+    type = land
+    personality = au_fait
+    background = elderly
+    prestige = 0.3
+}
+
+leader = {
+    name = "Lahner György"
+    date = 1835.1.1
+    type = land
+    personality = wrathful
+    background = natural_born_leader
+    prestige = 0.1
+}
+
+leader = {
+    name = "Kiss Erno"
+    date = 1835.1.1
+    type = land
+    personality = active_p
+    background = aristocrat
+    prestige = 0.1
+}
+
+leader = {
+    name = "Móga János"
+    date = 1834.1.1
+    type = land
+    personality = aggressive
+    background = generals_aide
+    prestige = 0.1
+}
+
+leader = {
+    name = "Vetter Antal"
+    date = 1832.1.1
+    type = land
+    personality = bold
+    background = drillmaster
+    prestige = 0.1
+}
+
+leader = {
+    name = "Bottyán János"
+    date = 1826.1.1
+    type = land
+    personality = arrogant
+    background = butcher
+    prestige = 0.3
+}
+
+leader = {
+    name = "Damjanich János"
+    date = 1836.1.1
+    type = land
+    personality = active_p
+    background = aristocrat
+}
+
+leader = {
+    name = "Aulich Lajos"
+    date = 1824.1.1
+    type = sea
+    personality = competent
+    background = aristocrat
+    prestige = 0.1
+}

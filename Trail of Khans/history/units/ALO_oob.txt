@@ -1,0 +1,66 @@
+EGY = {
+    value = 30
+}
+
+JER = {
+	value = 200
+}
+
+GON = {
+    value = 100
+}
+
+TIG = {
+    value = 100
+}
+
+KAF = {
+    value = 100
+}
+
+SID = {
+    value = 100
+}
+
+HAR = {
+    value = 100
+}
+
+AWS = {
+    value = 100
+}
+
+army = {
+    name = "Army of Khartoum"
+    location = 1827
+    regiment = {
+        name= "Guards of Khartoum"
+        type = irregular
+        home = 1827
+    }
+	regiment = {
+        name= "Guards of Khartoum"
+        type = irregular
+        home = 1827
+    }
+	regiment = {
+        name= "1st Wad Madani Regiment"
+        type = irregular
+        home = 1827
+    }
+	regiment = {
+        name= "1st Kassala Regiment"
+        type = irregular
+        home = 1829
+    }
+	regiment = {
+        name= "1st Sennar Regiment"
+        type = irregular
+        home = 1830
+    }
+	regiment = {
+        name= "1st Rabak Regiment"
+        type = irregular
+        home = 1831
+    }
+}

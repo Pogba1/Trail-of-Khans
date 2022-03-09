@@ -1,0 +1,236 @@
+#PBC = {
+#    value = -50
+#}
+
+army = {
+    name = "Esercito Repubblicano"
+    location = 2429
+    regiment = {
+        name= "1. Brigata di fanteria"
+        type = infantry
+        home = 2247
+    }
+
+    regiment = {
+        name= "2. Brigata di fanteria"
+        type = infantry
+        home = 2250
+    }
+
+    regiment = {
+        name= "3. Brigada de Infantaria"
+        type = infantry
+        home = 2252
+    }
+
+    regiment = {
+        name= "4. Brigada de Infantaria"
+        type = infantry
+        home = 2255
+    }
+
+    regiment = {
+        name= "5. Brigada de Infantaria"
+        type = infantry
+        home = 2256
+    }
+
+    regiment = {
+        name= "6. Brigada de Infantaria"
+        type = infantry
+        home = 2264
+    }
+
+    regiment = {
+        name= "7. Brigada de Infantaria"
+        type = infantry
+        home = 2264
+    }
+
+    regiment = {
+        name= "1. Brigada de Cavalaria"
+        type = cuirassier
+        home = 2429
+    }
+
+    regiment = {
+        name= "2. Brigata di cavalleria"
+        type = cuirassier
+        home = 2434
+    }
+
+    regiment = {
+        name= "3. Brigada de Cavalaria"
+        type = cuirassier
+        home = 2426
+    }
+
+}
+leader = {
+    name = "Ulpiano Metallo"
+    date = 1840.1.1
+    type = land
+    personality = relentless
+    background = cavalry_school
+    prestige = 0.2
+}
+
+leader = {
+    name = "Amleto Bisso"
+    date = 1841.1.1
+    type = land
+    personality = brilliant
+    background = innovative_tactician
+    prestige = 0.2
+}
+
+leader = {
+    name = "Simone Cappadona"
+    date = 1843.1.1
+    type = land
+    personality = coolminded
+    background = generals_aide
+    prestige = 0.2
+}
+
+
+leader = {
+    name = "Liborio Piccinini"
+    date = 1845.1.1
+    type = land
+    personality = imperious
+    background = spartan
+    prestige = 0.2
+}
+
+leader = {
+    name = "Quintiliano Biondo"
+    date = 1847.1.1
+    type = sea
+    personality = audacious
+    background = natural_born_leader
+    prestige = 0.2
+}
+
+leader = {
+    name = "Otello Tarsi"
+    date = 1850.1.1
+    type = land
+    personality = efficient
+    background = aristocrat
+    prestige = 0.2
+}
+
+leader = {
+    name = "Santo Verona"
+    date = 1851.1.1
+    type = land
+    personality = active_p
+    background = armchair_general
+    prestige = 0.2
+}
+
+leader = {
+    name = "Alberico Raccio"
+    date = 1861.1.1 #1851
+    type = land
+    personality = efficient
+    background = old_school
+    prestige = 0.2
+}
+
+leader = {
+    name = "Pacomio Oberto"
+    date = 1852.1.1
+    type = sea
+    personality = heroic
+    background = school_of_defense
+    prestige = 0.2
+}
+
+navy = {
+    name = "Vespuccian Navy"
+    location = 2410
+    ship = {
+        name = "Tarquinia Tesoro"
+        type = manowar
+    }
+
+    ship = {
+        name = "Florina"
+        type = manowar
+    }
+
+    ship = {
+        name = "Tatiana"
+        type = frigate
+    }
+
+    ship = {
+        name = "Annica"
+        type = frigate
+    }
+
+    ship = {
+        name = "Annunziata"
+        type = frigate
+    }
+
+    ship = {
+        name = "Catena"
+        type = frigate
+    }
+
+    ship = {
+        name = "Amalia"
+        type = frigate
+    }
+
+    ship = {
+        name = "Alda"
+        type = frigate
+    }
+
+    ship = {
+        name = "Flaviana"
+        type = frigate
+    }
+
+    ship = {
+        name = "Deanna"
+        type = frigate
+    }
+
+    ship = {
+        name = "Gioacchina"
+        type = frigate
+    }
+
+    ship = {
+        name = "Sefora"
+        type = frigate
+    }
+
+    ship = {
+        name = "Battello a Vapore Petronilla"
+        type = commerce_raider
+    }
+
+
+    ship = {
+        name = "Battello a Vapore Genesia"
+        type = commerce_raider
+    }
+
+    ship = {
+        name = "Brigue Transporte Prudenzia"
+        type = clipper_transport
+    }
+
+
+    ship = {
+        name = "Brigue Transporte Patrizia"
+        type = clipper_transport
+    }
+
+}

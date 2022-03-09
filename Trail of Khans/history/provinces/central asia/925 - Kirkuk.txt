@@ -1,0 +1,11 @@
+owner = SVF
+controller = SVF
+add_core = SVF
+
+add_core = HTY
+add_core = IRQ
+add_core = BNB
+add_core = KDS
+trade_goods = grain
+life_rating = 35
+terrain = steppe
