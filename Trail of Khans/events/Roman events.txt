@@ -45,3 +45,39 @@ country_event = {
 						  set_country_flag = greek_cultural_unity
 						 }
 		        }
+				
+country_event = {
+
+                 id = 99405
+				 title = "Roma invicta"
+				 desc = "Rome was famed for her legions. This professional fighting force allowed for increased initiative in the ranks, while still maintaining strict discipline. We shall
+				 
+				 mean_time_to_happen = {
+				                        months = 1
+								    }
+				
+				 trigger = {
+				            GRE = {
+							       all_core = {
+								               owned_by = THIS
+											  }
+								  }
+							tag = RMR
+							OR = { 
+							      has_country_flag = greek_cultural_unity
+								  has_country_flag = the_greek_claims
+								 }
+						    NOT = { has_country_flag = roman_military_prowess }
+						   }
+				 
+                 option = {
+				           name = "Roma Invicta"
+						   
+						   add_country_modifier = {
+                                                    name = roman_military_prowess duration = -1
+												  }
+						   set_country_flag = roman_military_prowess
+						  }
+			    }
+				
+			
