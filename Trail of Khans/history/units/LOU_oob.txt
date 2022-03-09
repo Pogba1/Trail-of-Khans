@@ -1,0 +1,105 @@
+
+leader = {
+    name = "Cédric Beauvais"
+    type = sea
+    date="1820.1.1"
+    personality = bastard
+    background = no_background
+}
+
+leader = {
+    name = "Jean Bravo"
+    type = land
+    date="1836.1.1"
+    personality = heroic
+    background = weakest_albanian
+}
+
+army = {
+    name = "Armée de Beaucouplais"
+    location = 139
+
+    regiment = {
+        name= "1.Brigade d'infanterie"
+        type = infantry
+        home = 60
+    }
+
+    regiment = {
+        name= "2.Brigade d'infanterie"
+        type = infantry
+        home = 139
+    }
+
+    regiment = {
+        name= "3.Brigade d'infanterie"
+        type = infantry
+        home = 140
+    }
+	regiment = {
+        name= "4.Brigade d'infanterie"
+        type = infantry
+        home = 195
+    }
+	regiment = {
+		name = "1.Brigade de cavalerie"
+		type = cavalry
+		home = 197
+	}
+	regiment = {
+		name = "1.Brigade d'artillerie"
+		type = artillery
+		home = 201
+	}
+	regiment = {
+		name = "2.Brigade d'artillerie"
+		type = artillery
+		home = 204
+	}
+	regiment = {
+		name = "3.Brigade d'artillerie"
+		type = artillery
+		home = 205
+	}
+	regiment = {
+		name = "4.Brigade d'artillerie"
+		type = artillery
+		home = 206
+	}
+	regiment = {
+		name = "5.Brigade d'artillerie"
+		type = artillery
+		home = 207
+	}
+
+}
+
+navy = {
+    name = "Flotille de Beaucouplais"
+    location = 205
+    ship = {
+        name= "Abel Barrande"
+        type = frigate
+    }
+    ship = {
+        name= "Noel De Villiers"
+        type = frigate
+    }
+    ship = {
+        name= "Alfred Ouvrard"
+        type = frigate
+    }
+    ship = {
+        name= "Renaud Choffard"
+        type = frigate
+    }
+    ship = {
+        name= "Arsene Delcroix"
+        type = frigate
+    }
+    ship = {
+        name= "Joe Biden"
+        type = frigate
+    }
+
+}

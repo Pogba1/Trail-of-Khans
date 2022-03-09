@@ -1,0 +1,9 @@
+owner = MEX
+controller = MEX
+add_core = BLZ
+add_core = MEX
+trade_goods = fruit
+life_rating = 33
+1861.1.1 = {
+    remove_core = UCA
+}

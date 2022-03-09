@@ -1,0 +1,98 @@
+leader = {
+    name = "Lancilotto Cerminara"
+    type = land
+    date="1833.1.1"
+    personality = romantic
+    background = poet
+    prestige = 0.1
+}
+
+leader = {
+    name = "Aurelio Santella"
+    type = land
+    date="1833.1.1"
+    personality = aweless
+    background = powerful_friends
+    prestige = 0.1
+}
+
+leader = {
+    name = "Stefano Viele"
+    type = sea
+    date="1836.1.1"
+    personality = audacious
+    background = expert_raider
+}
+
+army = {
+    name = "Esercito Dalmata"
+    location = 782
+    regiment = {
+        name= "I. Reggimento Fanteria"
+        type = infantry
+        home = 768
+    }
+
+    regiment = {
+        name= "II. Reggimento Fanteria"
+        type = infantry
+        home = 771
+    }
+
+    regiment = {
+        name= "III. Reggimento Fanteria"
+        type = infantry
+        home = 773
+    }
+	regiment = {
+        name= "I. Reggimento Artiglieria"
+        type = artillery
+        home = 773
+    }
+	regiment = {
+        name= "II. Reggimento Artiglieria"
+        type = artillery
+        home = 782
+    }
+	regiment = {
+		name= "I. Reggimento Cavalleria"
+		type = cavalry
+        home = 782
+	}
+}
+
+navy = {
+    name = "Dalmatian Navy"
+    location = 782
+
+    ship = {
+        name= "1st Steam Transport"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "2nd Steam Transport"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "Ragusa"
+        type = frigate
+    }
+
+    ship = {
+        name= "Antonia"
+        type = frigate
+    }
+
+    ship = {
+        name= "Secondina"
+        type = frigate
+    }
+
+    ship = {
+        name= "Clara"
+        type = frigate
+    }
+
+}
