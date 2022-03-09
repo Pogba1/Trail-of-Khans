@@ -1,0 +1,99 @@
+political_decisions = {
+ 
+    assimilate_venice = {
+					    potential = {
+						             tag = RMR
+									 NOT = { has_country_flag = assimilated_venetians }
+								    }
+						            
+							allow = {
+							         nationalism_n_imperialism = 1
+									 AUS_729 = {
+									            owned_by = THIS
+											}
+									 AUS_733 = {
+									            owned_by = THIS
+											}
+									 AUS_736 = {
+									            owned_by = THIS
+											}
+									}
+							    
+								effect = {
+								          set_country_flag = assimilated_venetians
+								          AUS_729 = {
+										             assimilate = yes
+													 add_core = RMR
+													}
+										  AUS_733 = {
+										             assimilate = yes
+													 add_core = RMR
+													}
+										  AUS_736 = {
+										             assimilate = yes
+													 add_core = RMR
+													}
+										}
+								}
+	
+	
+	
+	assimilate_savoie = {
+	                     potential = {
+						              tag = RMR
+									  NOT = { has_country_flag = assimilated_savoie }
+									 }
+									 
+							allow = {
+								     nationalism_n_imperialism = 1
+									 465 = {
+									        owned_by = THIS
+											}
+									 466 = {
+									        owned_by = THIS
+										    }
+									}
+								
+								effect = { 
+								          set_country_flag = assimilated_savoie
+										  465 = {
+										         assimilate = yes
+												 add_core = RMR
+												}
+										  466 = {
+										         assimilate = yes
+												 add_core = RMR
+												}
+										 }
+						}
+	
+	
+	assimilate_dalmatia = {
+	                       potential = {
+						                tag = RMR
+										NOT = { has_country_flag = assimilated_dalmatia }
+									}
+									
+								allow = {
+								         nationalism_n_imperialism = 1
+								         AUS_780 = {
+										            owned_by = THIS 
+												   }
+										 DLM = {
+										        NOT = {
+												       exists = yes
+													  }
+											    }
+										}
+										
+						            effect = {
+									          set_country_flag = assimilated_dalmatia
+									          AUS_780 = {
+											             add_core = RMR
+														 assimilate = yes
+														}
+											 }
+							}
+						    }										
+						
+					                        
