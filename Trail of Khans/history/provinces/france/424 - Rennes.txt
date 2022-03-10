@@ -1,9 +1,0 @@
-owner = IRE
-controller = IRE
-add_core = IRE
-add_core = BRT
-trade_goods = grain
-
-life_rating = 35
-
-1861.1.1 = { railroad = 3 }
