@@ -155,5 +155,131 @@ political_decisions = {
 		PAP_741 = {add_core = THIS}
 		}
 	}
+	the_papal_states = {
+	    potential = { 
+		            tag=GEN
+					has_country_flag = assert_northern_dominance
+					NOT = {has_country_flag = delt_with_the_papacy}
+				}
+			allow = {
+                     PAP = { 
+					        in_sphere = this
+					    }
+					 state_n_government = 1
+					 is_greater_power = yes
+			    }
+		    effect = { 
+			        set_country_flag = delt_with_the_papacy
+					create_vassal = PAP
+					badboy = 5
+					prestige = 15
+					}
+			}
+					
+					 
+	storm_the_southern_italians = {
+	    potential = {
+	    OR = { 
+		      has_country_flag = delt_with_the_papacy
+			  PAP = {
+			  all_core = 
+			   { owned_by = THIS}
+		    }
+	    }
+		      NOT = { has_country_flag = storm_the_south }
+		      tag = GEN
+		}
+		allow =  {	  
+	    all_core = {owned_by = THIS}
+		nationalism_n_imperialism = 1
+        }
+		effect = { country_event = { id=99403  days=0 }
+		set_country_flag = storm_the_south
+		}
+	}
+	
+    form_the_roman_republic = { 
+	    potential = {
+		tag=GEN
+		OR = {
+		       has_country_flag = storm_the_south
+		            SIC = { 
+                            all_core = {
+							            owned_by = THIS}
+						  }
+			   }
+                                        
+		 }
+		allow = {
+		all_core=  {owned_by = THIS}
+		PAP = {
+		OR = { all_core = {owned_by = THIS}
+		{vassal_of = THIS in_sphere = THIS}
+		}
+		SIC = {
+		all_core = {owned_by = THIS}
+		}
+		}
+		effect = {
+		capital = 749
+		primary_culture = roman
+		remove_accepted_culture = north_italian
+		remove_accepted_culture = south_italian
+		change_tag = RMR
+		prestige = 50
+	    PAP = {
+		        annex_to = THIS
+		    }
+	    AUS_726 = {
+		            assimilate = yes
+				}
+		SAR_720 = {
+		            assimilate = yes
+				}	
+		MOD_739 = {
+		            assimilate = yes 
+				}
+		TUS_744 = {
+		            assimilate = yes
+				}
+		PAP_741 = {
+		            assimilate = yes
+				}
+		PAP_752 = {
+		            assimilate = yes
+				}
+        SIC_753 = {
+                    assimilate = yes
+                }
+        SIC_754 = { 
+                    assimilate = yes
+                }
+        SIC_754 = {
+                    assimilate = yes
+                }
+        SIC_763 = {
+                    assimilate = yes
+                }
+        SIC_765 = {
+                    assimilate = yes
+                }
+		SAR_765 = {
+                    assimilate = yes
+                }					
+        472 = {
+                assimilate = yes
+            }				
+		ITA = {
+		        all_core = {
+						   add_core = RMR
+						   remove_core = ITA}
+			}
+	     PAP = {
+		        annex_to = THIS
+		    }
+      }
 
+   } 
+
+}
 }
