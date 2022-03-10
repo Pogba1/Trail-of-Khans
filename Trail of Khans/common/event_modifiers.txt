@@ -2880,18 +2880,3 @@ settle_tuaregs = {
 	assimilation_rate = 1
 	icon = 19
 }
-
-roman_military_prowess = {
-    land_organisation = 0.1
-    land_unit_start_experience = 5
-    mobilisation_size = 0.02
-	org_regain = 0.15
-	leadership_modifier = 0.2
-	supply_consumption = -0.15
-}
-
-roman_architecture = {
-                      tax_efficiency = 0.05
-					  rgo_output = 0.05
-					  import_cost = -0.1
-}

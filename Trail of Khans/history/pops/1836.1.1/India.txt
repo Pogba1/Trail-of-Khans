@@ -291,7 +291,11 @@
         religion = sunni
         size = 350
     }
-
+	bureaucrats = {
+		culture = parsis
+		religion = zoroastrian
+		size = 50
+	}
     bureaucrats = {
         culture = baluchi
         religion = sunni
@@ -715,7 +719,7 @@
 
     farmers = {
         culture = panjabi
-        religion = sunni
+        religion = hindu
         size = 400600
     }
 }
@@ -967,33 +971,43 @@
 }
 #Bahawalpur (352000/88000 POPS)
 1231 = {
+	farmers = {
+		culture = rajput
+		religion = hindu
+		size = 50000
+	}
+	soldiers = {
+		culture = rajput
+		religion = hindu
+		size = 3000
+	}
     aristocrats = {
         culture = panjabi
-        religion = sunni
+        religion = hindu
         size = 750
     }
 
     clergymen = {
         culture = panjabi
-        religion = sunni
+        religion = hindu
         size = 700
     }
 
     artisans = {
         culture = panjabi
-        religion = sunni
+        religion = hindu
         size = 3500
     }
 
     soldiers = {
         culture = panjabi
-        religion = sunni
+        religion = hindu
         size = 1100
     }
 
     farmers = {
         culture = panjabi
-        religion = sunni
+        religion = hindu
         size = 73050
     }
 
@@ -1287,7 +1301,7 @@
 
     farmers = {
         culture = panjabi
-        religion = sunni
+        religion = hindu
         size = 75450
     }
 
@@ -4564,27 +4578,27 @@
     }
 
     clergymen = {
-        culture = avadhi
-        religion = sunni
-        size = 50
+        culture = rajput
+        religion = hindu
+        size = 7000
     }
 
     artisans = {
-        culture = avadhi
-        religion = sunni
+        culture = rajput
+        religion = hindu
         size = 2000
     }
 
     soldiers = {
-        culture = avadhi
-        religion = sunni
+        culture = rajput
+        religion = hindu
         size = 50
     }
 
     farmers = {
-        culture = avadhi
-        religion = sunni
-        size = 900
+        culture = rajput
+        religion = hindu
+        size = 90000
     }
 
     serfs = {
@@ -6171,37 +6185,37 @@
     }
 
     soldiers = {
-        culture = sindi
-        religion = shiite
+        culture = gujarati
+        religion = hindu
         size = 50
     }
 
     farmers = {
-        culture = sindi
-        religion = shiite
+        culture = gujarati
+        religion = hindu
         size = 5650
     }
 
     aristocrats = {
-        culture = sindi
+        culture = gujarati
         religion = hindu
         size = 350
     }
 
     clergymen = {
-        culture = sindi
+        culture = gujarati
         religion = hindu
         size = 375
     }
 
     artisans = {
-        culture = sindi
+        culture = gujarati
         religion = hindu
         size = 2000
     }
 
     serfs = {
-        culture = sindi
+        culture = gujarati
         religion = hindu
         size = 40000
     }
@@ -6307,25 +6321,25 @@
     }
 
     aristocrats = {
-        culture = sindi
+        culture = gujarati
         religion = hindu
         size = 125
     }
 
     clergymen = {
-        culture = sindi
+        culture = gujarati
         religion = hindu
         size = 125
     }
 
     artisans = {
-        culture = sindi
+        culture = gujarati
         religion = hindu
         size = 800
     }
 
     farmers = {
-        culture = sindi
+        culture = gujarati
         religion = hindu
         size = 14950
     }
@@ -6341,6 +6355,16 @@
 #Under British Rule 1836 (2064000)
 #Ahmadabad (992000/248000 POPS)
 1291 = {
+	farmers = {
+		culture = rajput
+		religion = hindu
+		size = 50000
+	}
+	soldiers = {
+		culture = rajput
+		religion = hindu
+		size = 3000
+	}
     aristocrats = {
         culture = gujarati
         religion = hindu
@@ -6438,8 +6462,8 @@
     }
 
     bureaucrats = {
-        culture = french
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 10
     }
 }
@@ -7063,32 +7087,32 @@
     }
 
     aristocrats = {
-        culture = french
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 1125
     }
 
     bureaucrats = {
-        culture = french
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 250
     }
 
     officers = {
-        culture = french
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 500
     }
 
     clergymen = {
-        culture = french
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 125
     }
 
     soldiers = {
-        culture = french
-        religion = catholic
+        culture = swedish
+        religion = protestant
         size = 3000
     }
 }

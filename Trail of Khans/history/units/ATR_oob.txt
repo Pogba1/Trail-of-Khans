@@ -95,13 +95,13 @@ army = {
     regiment = {
         name= "II. Brigada de Infantería"
         type = infantry
-        home = 809
+        home = 497
     }
 
     regiment = {
         name= "III. Brigada de Infantería"
         type = infantry
-        home = 818
+        home = 503
     }
 	regiment = {
         name= "IV. Brigada de Infantería"
@@ -117,21 +117,15 @@ army = {
     regiment = {
         name= "II. Brigada de Artillería"
         type = artillery
-        home = 487
-    }
-
-    regiment = {
-        name= "III. Brigada de Artillería"
-        type = artillery
         home = 488
     }
 	regiment = {
-        name= "IV. Brigada de Artillería"
+        name= "III. Brigada de Artillería"
         type = artillery
         home = 489
     }
 	regiment = {
-        name= "V. Brigada de Artillería"
+        name= "IV. Brigada de Artillería"
         type = artillery
         home = 489
     }
