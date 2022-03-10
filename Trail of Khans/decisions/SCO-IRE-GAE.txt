@@ -113,26 +113,6 @@ political_decisions = {
 		}
 	}
 	
-	dominance_in_the_channel = {
-		potential = {
-			tag = GAE
-			NOT = {has_country_flag = dominance_in_the_channel}
-		}
-		allow = {
-			all_core = {owned_by = THIS}
-			year = 1880
-		}
-		effect = {
-			400 = {add_core = THIS}
-			402 = {add_core = THIS}
-			415 = {add_core = THIS}
-			418 = {add_core = THIS}
-			424 = {add_core = THIS}
-			421 = {add_core = THIS}
-			420 = {add_core = THIS}
-			set_country_flag = dominance_in_the_channel
-		}	
-	}
 	#######################
 	#SCHIZOPHRENIC IRELAND#
 	#######################
@@ -159,7 +139,6 @@ political_decisions = {
 	}
 	attempt_reform_gaul = {
 		potential = {
-			NOT = {exists = GAU}
 			tag = IRE
 			NOT = {has_country_flag = attempt_reform_gaul}
 		}
@@ -172,64 +151,6 @@ political_decisions = {
 			FRA_420 = {add_core = IRE}
 			FRA_435 = {add_core = IRE}
 			FRA_418 = {add_core = IRE}
-			FRA_399 = {add_core = IRE}
-			FRA_442 = {add_core = IRE}
-		}
-	}
-	
-	attempt_reform_gaulII = {
-		potential = {
-			NOT = {exists = GAU}
-			tag = IRE
-			has_country_flag = attempt_reform_gaul
-			NOT = {has_country_flag = attempt_reform_gaulII}
-		}
-		allow = {
-			420 = {owned_by = THIS}
-			435 = {owned_by = THIS}
-			418 = {owned_by = THIS}
-			399 = {owned_by = THIS}
-			442 = {owned_by = THIS}
-		}
-		effect = {
-			set_country_flag = attempt_reform_gaulII
-			FRA_399 = {add_core = IRE}
-			FRA_425 = {add_core = IRE}
-			FRA_400 = {add_core = IRE}
-			FRA_428 = {add_core = IRE}
-			FRA_445 = {add_core = IRE}
-			FRA_458 = {add_core = IRE}
-			FRA_455 = {add_core = IRE}
-		}
-	}
-	attempt_reform_gaulIII = {
-		potential = {
-			tag = IRE
-			NOT = {exists = GAU}
-			has_country_flag = attempt_reform_gaulII
-			NOT = {has_country_flag = attempt_reform_gaulIII}
-		}
-		allow = {
-			420 = {owned_by = THIS}
-			435 = {owned_by = THIS}
-			418 = {owned_by = THIS}
-			399 = {owned_by = THIS}
-			442 = {owned_by = THIS}
-			FRA_399 = {owned_by = THIS}
-			FRA_425 = {owned_by = THIS}
-			FRA_400 = {owned_by = THIS}
-			FRA_428 = {owned_by = THIS}
-			FRA_445 = {owned_by = THIS}
-			FRA_458 = {owned_by = THIS}
-			FRA_455 = {owned_by = THIS}
-		}
-		effect = {
-			set_country_flag = attempt_reform_gaulIII
-			FRA_448 = {add_core = IRE}
-			FRA_461 = {add_core = IRE}
-			FRA_451 = {add_core = IRE}
-			FRA_467 = {add_core = IRE}
-			FRA = {all_core = {add_core = IRE}}
 		}
 	}
 	
@@ -237,7 +158,7 @@ political_decisions = {
 		potential = {
 			primary_culture = irish
 			NOT = {exists = GAU}
-			has_country_flag = attempt_reform_gaulIII
+			has_country_flag = attempt_reform_gaul
 		}
 		allow = {
 			NOT = {exists = FRA}
@@ -256,7 +177,6 @@ political_decisions = {
 				assimilate = yes
 			}
 			FRA = {all_core = {add_core = GAU remove_core = FRA}}
-			IRE = {all_core = {remove_core = IRE add_core = GAU}}
 			any_owned = {
 				limit = {is_core = GAU}
 				add_province_modifier = {name = teach_gallic duration = -1}

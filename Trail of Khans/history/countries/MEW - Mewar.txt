@@ -1,11 +1,10 @@
 capital = 1269
 primary_culture = rajput
-culture = marathi
 religion = hindu
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.11
+literacy = 0.01
 non_state_culture_literacy = 0.01
 
 # Political reforms
@@ -51,32 +50,15 @@ upper_house = {
 
 foreign_weapons = yes_foreign_weapons
 
-# Level_4
 # Technologies
-early_classical_theory_and_critique = 1
-late_enlightenment_philosophy = 1
-enlightenment_thought = 1
-private_banks = 1
-bronze_muzzle_loaded_artillery = 1
 flintlock_rifles = 1
-no_standard = 1
-military_staff_system = 1
-post_napoleonic_thought = 1
-introspectionism = 1
-army_command_principle = 1
-malthusian_thought = 1
-basic_chemistry = 1
-freedom_of_trade = 1
-# Inventions
 
-# Unciv Reforms
-admin_reform = yes_admin_reform
-army_schools = yes_army_schools
-foreign_weapons = yes_foreign_weapons
-foreign_training = yes_foreign_training
-military_constructions = yes_military_constructions
-foreign_officers = yes_foreign_officers
-education_reform = yes_education_reform
+# Inventions
+#bottling_process = yes
+modern_winemaking = yes
+#big_sail_ships = yes
+#sail_ships_transport = yes
+#big_sail_support = yes
 
 # Starting Consciousness
 consciousness = 0

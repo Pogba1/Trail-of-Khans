@@ -37,17 +37,14 @@ border_policy = open_borders
 set_country_flag = hindu_country
 
 # Technologies
-army_command_principle = 1
 no_standard = 1
 post_napoleonic_thought = 1
 freedom_of_trade = 1
 # Inventions
 
 # Unciv Reforms
-foreign_training = yes_foreign_training
 admin_reform = yes_admin_reform
 military_constructions = yes_military_constructions
-foreign_officers = yes_foreign_officers
 
 oob = "BNG_oob.txt"
 
