@@ -73,7 +73,7 @@ political_decisions = {
 						                tag = RMR
 										NOT = { has_country_flag = assimilated_dalmatia }
 									}
-									_out__
+									
 								allow = {
 								         nationalism_n_imperialism = 1
 								         AUS_780 = {
