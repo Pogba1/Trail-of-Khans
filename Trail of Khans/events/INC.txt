@@ -1,0 +1,19 @@
+country_event = {
+    id = 355500
+    title = "Incan Expansion" 
+    desc = "Glory to the Great Inca!"
+    picture = "guarani_misiones"
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = {
+        name = "Great!"
+        2321 = {secede_province = THIS} 
+		2319 = {secede_province = THIS} 
+        ai_chance = { factor = 1 }
+    }
+	}
+
+    

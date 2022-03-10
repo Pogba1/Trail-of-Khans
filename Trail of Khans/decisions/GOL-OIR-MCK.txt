@@ -1,0 +1,169 @@
+political_decisions = {
+	raid_pontus = {
+		potential = {
+			tag = GOL
+			NOT = {has_country_flag = raid_pontus}
+		}
+		allow = {
+			1095 = {owned_by = THIS}
+		}
+		effect = {
+			prestige = 5
+			badboy = 10
+			PNT = {all_core = {add_core = THIS}}
+			set_country_flag = raid_pontus
+		}
+	}
+	restore_the_empire = {
+		potential = {
+			OR = {
+				primary_culture = mongol
+				primary_culture = tatar
+				primary_culture = manchu
+				tag = SVF
+			}
+			NOT = {exists = MGL}
+		}
+		allow = {
+			1040 = {owned_by = THIS}
+			2702 = {owned_by = THIS}
+			2610 = {owned_by = THIS}
+			1188 = {owned_by = THIS}
+			1596 = {owned_by = THIS}
+			2608 = {owned_by = THIS}
+			1465 = {owned_by = THIS}
+			1534 = {owned_by = THIS}
+			1555 = {owned_by = THIS}
+		}
+		effect = {
+			OIR = {all_core = {add_core = MGL}}
+			GOL = {all_core = {add_core = MGL}}
+			MCK = {all_core = {add_core = MGL}}
+			TKM = {all_core = {add_core = MGL}}
+			AFG = {all_core = {add_core = MGL}}
+			THIS = {all_core = {add_core = MGL remove_core = THIS}}
+			set_global_flag = mongolia_formed
+			add_accepted_culture = tatar
+			add_accepted_culture = mongol
+			add_accepted_culture = manchu
+			change_tag = MGL
+			prestige = 20
+		}
+	}
+	all_welcome_in_the_horde = {
+		potential = {
+			OR = {
+			tag = OIR
+			primary_culture = tatar
+		}
+			NOT = {has_country_flag = all_welcome_in_the_horde}
+		}
+		allow = {
+			civilized = yes
+		}
+		effect = {
+			set_country_flag = all_welcome_in_the_horde
+			add_accepted_culture = kazak
+			add_accepted_culture = panjabi
+			add_accepted_culture = uighur
+			add_accepted_culture = avadhi
+		}
+	}
+	
+	
+	
+	heartland_of_the_empire_sigma = {
+		potential = {
+		OR = {
+			tag = OIR
+			primary_culture = tatar
+		}
+			NOT = {has_country_flag = heartland_of_the_empire_OIR}
+		}
+		allow = {
+			1227 = {owned_by = THIS}
+			military_score = 50
+		}
+		effect = {
+			set_country_flag = heartland_of_the_empire_OIR
+			ENG_1264 = {add_core = THIS}
+			SIN_1288 = {add_core = THIS}
+			ENG_1236 = {add_core = THIS}
+		}
+	
+	}
+	beifaren_integration = {
+		potential = {
+		OR = {
+			tag = MCK
+			primary_culture = manchu
+			}
+			NOT = {has_country_flag = beifaren_integration}
+		}
+		allow = {
+			civilized = yes
+			any_owned_province = {culture = beifaren}
+		}
+		effect = {
+			set_country_flag = beifaren_integration
+			add_accepted_culture = beifaren
+			any_owned = {
+				limit = {
+					culture = beifaren
+				}
+				add_core = THIS
+			}
+		}
+	}
+	integrate_circassia= {
+	picture = "embrace_minority"
+	potential={
+	OR = {
+	tag = GOL
+		AND = {
+			primary_culture = mongol
+		}
+	}
+	NOT = {has_country_flag =integrate_circassia}
+			1051 = {owned_by=THIS}
+			NOT={exists = CIR}
+	}
+	allow = {
+		enlightenment_thought = 1
+	}
+	
+	effect = {
+		set_country_flag = integrate_circassia
+		prestige = 1
+		add_accepted_culture = circassian
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	mend_relations_with_ruthenians= {
+	picture = "embrace_minority"
+	potential={
+	OR = {
+	tag = GOL
+		AND = {
+			primary_culture = mongol
+		}
+	}
+	has_country_flag =integrate_circassia
+	NOT = {has_country_flag =mend_relations_with_ruthenians}
+			958 = {owned_by=THIS}
+			NOT={exists = UKR}
+	}
+	allow = {
+		nationalism_n_imperialism = 1
+		is_greater_power = yes
+	}
+	
+	effect = {
+		set_country_flag = mend_relations_with_ruthenians
+		prestige = 5
+		add_accepted_culture = ukrainian
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

@@ -1,0 +1,12 @@
+owner = NET
+controller = NET
+add_core = NET
+trade_goods = coal
+life_rating = 35
+terrain = mining_district
+railroad = 1
+1861.1.1 = {
+    railroad = 3
+    remove_core = LUX
+    remove_core = NET
+}

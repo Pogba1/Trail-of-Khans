@@ -1,0 +1,140 @@
+leader = {
+    name = "Raja-Putra Chandraprakash"
+    date = 1818.1.1
+    type = land
+    personality = coolminded
+    background = spartan
+    prestige = 0.0
+}
+
+army = {
+    name = "Army of the Raja-Putra"
+    location = 1269
+    regiment = {
+        name= "1.Rajput Contingent"
+        type = irregular
+        home = 1269
+    }
+
+    regiment = {
+        name= "2.Rajput Contingent"
+        type = irregular
+        home = 1269
+    }
+
+    regiment = {
+        name= "3.Rajput Contingent"
+        type = irregular
+        home = 1269
+    }
+	regiment = {
+        name= "4.Rajput Contingent"
+        type = irregular
+        home = 1268
+    }
+
+    regiment = {
+        name= "5.Rajput Contingent"
+        type = irregular
+        home = 1268
+    }
+
+    regiment = {
+        name= "6.Rajput Contingent"
+        type = cavalry
+        home = 1268
+    }
+	
+	regiment = {
+        name= "7.Rajput Contingent"
+        type = infantry
+        home = 1266
+    }
+
+    regiment = {
+        name= "8.Rajput Contingent"
+        type = infantry
+        home = 1266
+    }
+
+    regiment = {
+        name= "9.Rajput Horse"
+        type = cavalry
+        home = 1266
+    }
+	regiment = {
+        name= "10.Rajput Contingent"
+        type = irregular
+        home = 1265
+    }
+	
+	regiment = {
+        name= "11.Rajput Horse"
+        type = cavalry
+        home = 1267
+    }
+
+    regiment = {
+        name= "12.Rajput Horse"
+        type = cavalry
+        home = 1267
+    }
+
+    regiment = {
+        name= "13.Rajput Horse"
+        type = cavalry
+        home = 1267
+    }
+
+    regiment = {
+        name= "14.Rajput Contingent"
+        type = irregular
+        home = 1267
+    }
+
+    regiment = {
+        name= "15.Rajput Contingent"
+        type = irregular
+        home = 1267
+    }
+
+    regiment = {
+        name= "16.Rajput Contingent"
+        type = irregular
+        home = 1267
+    }
+	regiment = {
+        name= "17.Gwailor Contingent"
+        type = irregular
+        home = 1270
+    }
+
+    regiment = {
+        name= "18.Gwailor Contingent"
+        type = irregular
+        home = 1270
+    }
+
+    regiment = {
+        name= "19.Gwailor Contingent"
+        type = irregular
+        home = 1270
+    }
+	regiment = {
+        name= "20.Indore Contingent"
+        type = irregular
+        home = 1271
+    }
+
+    regiment = {
+        name= "21.Indore Contingent"
+        type = irregular
+        home = 1271
+    }
+
+    regiment = {
+        name= "22.Indore Contingent"
+        type = irregular
+        home = 1271
+    }
+}

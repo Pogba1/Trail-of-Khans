@@ -1,0 +1,190 @@
+#Casamance Region (108000) #see Senegal.txt and Guinea.txt for balance of region
+#Uncolonized in 1836/scottish trade post
+#Bissau (32000/8000 POPS)
+1877 = {
+
+    clergymen = {
+        culture = scottish
+        religion = protestant
+        size = 100
+    }
+
+    artisans = {
+        culture = scottish
+        religion = protestant
+        size = 100
+    }
+
+    soldiers = {
+        culture = scottish
+        religion = protestant
+        size = 100
+    }
+
+    farmers = {
+        culture = scottish
+        religion = protestant
+        size = 100
+    }
+
+    aristocrats = {
+        culture = hausa
+        religion = protestant
+        size = 100
+    }
+
+    officers = {
+        culture = hausa
+        religion = protestant
+        size = 100
+    }
+
+    clergymen = {
+        culture = hausa
+        religion = protestant
+        size = 100
+    }
+
+    artisans = {
+        culture = hausa
+        religion = protestant
+        size = 375
+    }
+
+    soldiers = {
+        culture = hausa
+        religion = protestant
+        size = 100
+    }
+
+    farmers = {
+        culture = hausa
+        religion = protestant
+        size = 5300
+    }
+
+    slaves = {
+        culture = hausa
+        religion = animist
+        size = 2000
+    }
+
+        aristocrats = {
+        culture = hausa
+        religion = animist
+        size = 300
+    }
+
+    officers = {
+        culture = hausa
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = hausa
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = hausa
+        religion = animist
+        size = 1000
+    }
+
+    soldiers = {
+        culture = hausa
+        religion = animist
+        size = 3000
+    }
+
+    farmers = {
+        culture = hausa
+        religion = animist
+        size = 12048
+    }
+}
+#under the rule of Gabu in 1836
+#Gabu (152000/38000 POPS)
+1878 = {
+    aristocrats = {
+        culture = hausa
+        religion = sunni
+        size = 500
+    }
+
+    bureaucrats = {
+        culture = hausa
+        religion = sunni
+        size = 100
+    }
+
+    clergymen = {
+        culture = hausa
+        religion = sunni
+        size = 100
+    }
+
+    artisans = {
+        culture = hausa
+        religion = sunni
+        size = 1000
+    }
+
+    soldiers = {
+        culture = hausa
+        religion = sunni
+        size = 1100
+    }
+
+    farmers = {
+        culture = hausa
+        religion = sunni
+        size = 3768
+    }
+
+
+    aristocrats = {
+        culture = hausa
+        religion = sunni
+        size = 400
+    }
+
+    bureaucrats = {
+        culture = hausa
+        religion = sunni
+        size = 100
+    }
+
+    clergymen = {
+        culture = hausa
+        religion = sunni
+        size = 100
+    }
+
+    artisans = {
+        culture = hausa
+        religion = sunni
+        size = 1000
+    }
+
+    soldiers = {
+        culture = hausa
+        religion = sunni
+        size = 1200
+    }
+
+    farmers = {
+        culture = hausa
+        religion = sunni
+        size = 11129
+    }
+
+    slaves = {
+        culture = hausa
+        religion = animist
+        size = 2000
+    }
+
+}

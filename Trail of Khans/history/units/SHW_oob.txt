@@ -1,0 +1,86 @@
+EGY = {
+    value = 30
+}
+
+JER = {
+	value = 200
+}
+
+GON = {
+    value = 100
+}
+
+TIG = {
+    value = 100
+}
+
+KAF = {
+    value = 100
+}
+
+SID = {
+    value = 100
+}
+
+HAR = {
+    value = 100
+}
+
+AWS = {
+    value = 100
+}
+
+leader = {
+   name = "Ras Sahle Selassie"
+   type = land
+   date = 1836.1.1
+   background = gifted_administrator
+   personality = vainglorious
+}
+
+army = {
+    name = "Army of the Negus of Shewa"
+    location = 1859
+    regiment = {
+        name= "Negus' Guards"
+        type = irregular
+        home = 1859
+    }
+
+    regiment = {
+        name= "Negus' Horsemen"
+        type = cavalry
+        home = 1859
+    }
+
+    regiment = {
+        name= "1st Shewa Division"
+        type = irregular
+        home = 1859
+    }
+
+    regiment = {
+        name= "2nd Shewa Division"
+        type = irregular
+        home = 1859
+    }
+
+    regiment = {
+        name= "3rd Shewa Division"
+        type = irregular
+        home = 1859
+    }
+
+    regiment = {
+        name= "1st Hawassa Division"
+        type = irregular
+        home = 1860
+    }
+
+    regiment = {
+        name= "1st Aselia Division"
+        type = irregular
+        home = 1861
+    }
+
+}

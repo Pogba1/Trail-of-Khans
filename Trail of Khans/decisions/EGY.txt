@@ -1,0 +1,52 @@
+political_decisions = {
+	modernize_nile_irrigation = {
+	picture = vietnam_coffee
+	potential = {
+	OR={
+	tag = EGY
+	tag = ARA
+	tag = CLP
+	tag = AND
+	tag = JER
+	}
+	EGY_1745={owned_by = THIS}
+	NOT = {has_global_flag = modernize_nile_irrigation}
+		1766={owned_by = THIS}
+        1768={owned_by = THIS}
+        1767={owned_by = THIS}
+        1769={owned_by = THIS}
+        2559={owned_by = THIS}
+        1762={owned_by = THIS}
+        1764={owned_by = THIS}
+        1765={owned_by = THIS}
+        1763={owned_by = THIS}
+	}
+	allow = {
+	high_pressure_steam_engine = 1
+	medicine = 1
+	}
+	effect = {
+	1766 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1768 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1767 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1769 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	2559 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1762 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1764 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1765 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1763 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1745 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1749 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1748 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1746 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1750 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1747 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1751 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	set_global_flag = modernize_nile_irrigation
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+
+}

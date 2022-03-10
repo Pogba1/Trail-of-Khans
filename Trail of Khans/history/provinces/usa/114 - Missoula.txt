@@ -1,0 +1,8 @@
+add_core = LSK
+trade_goods = cattle
+terrain = mountain
+life_rating = 35
+1861.1.1 = {
+    colonial = 0
+    remove_core = COL
+}

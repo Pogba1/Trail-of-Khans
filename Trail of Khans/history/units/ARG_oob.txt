@@ -1,0 +1,28 @@
+army = {
+    name = "Presidential Army"
+    location = 2349
+    regiment = {
+        name= "1. Infantry Brigade"
+        type = infantry
+        home = 2348
+    }
+
+    regiment = {
+        name= "2. Infantry Brigade"
+        type = infantry
+        home = 2348
+    }
+
+    regiment = {
+        name= "3. Infantry Brigade"
+        type = infantry
+        home = 2348
+    }
+
+    regiment = {
+        name= "4. Infantry Brigade"
+        type = infantry
+        home = 2349
+    }
+
+}

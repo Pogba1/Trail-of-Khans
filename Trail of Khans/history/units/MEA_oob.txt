@@ -1,0 +1,28 @@
+leader = {
+    name = "Spyro Stamelis"
+    type = land
+    date="1833.1.1"
+    personality = spartan
+    background = poet
+    prestige = 0.1
+}
+
+
+army = {
+    name = "Stratós Moréos"
+    location = 839
+    regiment = {
+        name= "I. Sýntagma Pezikoú"
+        type = infantry
+        home = 842
+    }
+
+    regiment = {
+        name= "II. Sýntagma Pezikoú"
+        type = infantry
+        home = 839
+    }
+
+    
+}
+

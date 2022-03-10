@@ -1,0 +1,26 @@
+country_event = {
+	id = 800000
+	allow_multiple_instances = yes
+	picture = "joe_biden"
+	trigger = {
+	ai = no
+	NOT = {
+			has_leader = "Joe Biden"
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "He woke up!"
+	desc = "EVTDESC800000"
+	immediate = {
+		define_general = {
+			name = "Joe Biden"
+			personality = politician
+			#3/3 General
+			background = weakest_albanian
+		}
+	}
+	option = {
+		name = "It's about time..."		
+	}
+}
