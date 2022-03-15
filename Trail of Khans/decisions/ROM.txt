@@ -108,7 +108,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = reform_education
-			add_country_modifier = {name = reform_education duration = 3650}
+			add_country_modifier = {name = education_reform_rom duration = 3650}
 		}
 	}
 	wallachian_agriculture = {
