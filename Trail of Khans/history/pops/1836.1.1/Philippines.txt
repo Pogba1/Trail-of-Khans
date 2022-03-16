@@ -3,31 +3,31 @@
 #Manila (780000/195000 POPS)
 1455 = {
     aristocrats = {
-        culture = spanish
+        culture = south_italian
         religion = catholic
         size = 200
     }
 
     bureaucrats = {
-        culture = spanish
+        culture = south_italian
         religion = catholic
         size = 400
     }
 
     clergymen = {
-        culture = spanish
+        culture = south_italian
         religion = catholic
         size = 250
     }
 
     artisans = {
-        culture = spanish
+        culture = south_italian
         religion = catholic
         size = 1050
     }
 
     soldiers = {
-        culture = spanish
+        culture = south_italian
         religion = catholic
         size = 100
     }
@@ -489,19 +489,19 @@
 #Cebu (304000/76000 POPS)
 2565 = {
     bureaucrats = {
-        culture = spanish
+        culture = south_italian
         religion = catholic
         size = 125
     }
 
     clergymen = {
-        culture = spanish
+        culture = south_italian
         religion = catholic
         size = 50
     }
 
     soldiers = {
-        culture = spanish
+        culture = south_italian
         religion = catholic
         size = 25
     }
@@ -562,23 +562,23 @@
 
 }
 #Mindanao Region (496000)
-#Under Spanish "Rule" 1836
+#Under south_italian "Rule" 1836
 #Davao (152000/38000 POPS)
 1463 = {
     bureaucrats = {
-        culture = spanish
+        culture = north_italian
         religion = catholic
         size = 75
     }
 
     clergymen = {
-        culture = spanish
+        culture = north_italian
         religion = catholic
         size = 50
     }
 
     soldiers = {
-        culture = spanish
+        culture = north_italian
         religion = catholic
         size = 25
     }
@@ -683,20 +683,20 @@
 #Zamboanga (300000/75000 POPS)
 1462 = {
     aristocrats = {
-        culture = filipino
-        religion = sunni
+        culture = north_italian
+        religion = catholic
         size = 600
     }
 
     clergymen = {
-        culture = filipino
-        religion = sunni
+        culture = north_italian
+        religion = catholic
         size = 500
     }
 
     artisans = {
-        culture = filipino
-        religion = sunni
+        culture = north_italian
+        religion = catholic
         size = 2500
     }
 

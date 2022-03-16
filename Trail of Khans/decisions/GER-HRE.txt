@@ -1,32 +1,32 @@
 political_decisions = {
-	german_boom = {
-	picture = "essen_ruhr"
-	potential = {
-	NOT={has_country_flag=german_boom}
-	OR={
-	primary_culture = south_german
-	primary_culture = north_german
-	}
-	
-	}
-	allow = {
-	medicine=1
-	
-	}
-	effect={
-	any_owned = {
-	limit = {
-	OR={
-	pop_majority_culture = south_german
-	pop_majority_culture = north_german
-	}
-	}
-	add_province_modifier = { name = german_boom duration = 2920}
-	
-	}
-	set_country_flag=german_boom
-	}
-	}
+	#german_boom = {
+	#picture = "essen_ruhr"
+	#potential = {
+	#NOT={has_country_flag=german_boom}
+	#OR={
+	#primary_culture = south_german
+	#primary_culture = north_german
+	#}
+	#
+	#}
+	#allow = {
+	#medicine=1
+	#
+	#}
+	#effect={
+	#any_owned = {
+	#limit = {
+	#OR={
+	#pop_majority_culture = south_german
+	#pop_majority_culture = north_german
+	#}
+	#}
+	#add_province_modifier = { name = german_boom duration = 2920}
+	#
+	#}
+	#set_country_flag=german_boom
+	#}
+	#}
 	
 	dominate_austria = {
 		picture = "neuschwanstein"

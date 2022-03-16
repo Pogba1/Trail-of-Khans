@@ -198,20 +198,19 @@ political_decisions = {
 		}
 	}
 	
-    form_the_roman_republic = { 
+######
+#Rome#
+######
+	
+    form_rome = { 
 	    potential = {
-		tag=GEN
-		OR = {
-		       has_country_flag = storm_the_south
-		            SIC = { 
-                            all_core = {
-							            owned_by = THIS}
-						  }
-			   }
-                                        
+		is_culture_group = italian
 		 }
 		allow = {
 		all_core=  {owned_by = THIS}
+		GEN = {
+		       all_core = {owned_by = THIS}
+		}
 		PAP = {
 		OR = { all_core = {owned_by = THIS}
 		{vassal_of = THIS in_sphere = THIS}

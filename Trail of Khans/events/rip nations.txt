@@ -58,7 +58,7 @@ country_event = {
 	#AUS_733 = {owned_by=THIS}
 	729 = {owned_by=THIS}
     }
-
+}
 country_event = {
     id = 200003
 	picture = "cyprus_convention_result"
@@ -91,4 +91,3 @@ country_event = {
     
 }
 
-}

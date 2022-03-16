@@ -26,7 +26,13 @@
         religion = shiite
         size = 1250
     }
-
+	
+	clergymen = {
+        culture = persian
+        religion = shiite
+        size = 1250
+    }
+	
     artisans = {
         culture = azerbaijani
         religion = shiite
@@ -1022,7 +1028,7 @@
     clergymen = {
         culture = persian
         religion = shiite
-        size = 875
+        size = 3475
     }
 
     artisans = {
@@ -1046,7 +1052,12 @@
     farmers = {
         culture = persian
         religion = shiite
-        size = 56125
+        size = 86125
+    }
+	farmers = {
+        culture = mongol
+        religion = shiite
+        size = 16125
     }
 
     slaves = {
@@ -1242,31 +1253,31 @@
     aristocrats = {
         culture = persian
         religion = shiite
-        size = 250
+        size = 750
     }
 
     clergymen = {
         culture = persian
         religion = shiite
-        size = 125
+        size = 3125
     }
 
     artisans = {
         culture = persian
         religion = shiite
-        size = 600
+        size = 1600
     }
 
     soldiers = {
         culture = persian
         religion = shiite
-        size = 125
+        size = 3125
     }
 
     farmers = {
         culture = persian
         religion = shiite
-        size = 10900
+        size = 70900
     }
 }
 #Isfahan Region (700000)
