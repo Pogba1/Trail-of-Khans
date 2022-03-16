@@ -1,0 +1,20 @@
+country_event = {
+
+    id = 99403 
+	title = "Storm the southern italians"
+    desc = "Italia has been split between small city states, the southern sicilians and the papacy for 1000 years now. This status quo cannot last, we shall take this matter into our own hands NOW!"
+    picture = garibaldi_mentana
+	
+	is_triggered_only = yes
+	
+    option = {	
+	name = "To war!"
+
+    GEN = { war = {
+	target = SIC
+	attacker_goal = {
+	casus_belli = conquest}
+	}
+  }
+}
+}	

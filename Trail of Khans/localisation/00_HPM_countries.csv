@@ -127,6 +127,10 @@ ITA_socialist_2;Partito Socialista Italiano;;;;;;;;;;;;;
 ITA_anarcho_liberal;L'Estrema Liberale;;;;;;;;;;;;;
 ITA_communist;Partito Comunista d'Italia;;;;;;;;;;;;;
 ITA_fascist;Partito Nazionale Fascista;;;;;;;;;;;;;
+RMR;Rome;;;;;;;;;;;;;
+RMR_ADJ;Roman;;;;;;;;;;;;;
+RMR_communist;Partito Comunista de Roma;;;;;;;;;;;;;
+RMR_fascist;Partito Nazionale Fascista;;;;;;;;;;;;;
 PGG_reactionary;Jahriyya Menhuan;;;;;;;;;;;;;
 PGG_liberal;Gaige Pai Zhenying;;;;;;;;;;;;;
 PGG_conservative;Qa'id Jami al-Muslimin;;;;;;;;;;;;;
@@ -1248,6 +1252,13 @@ ITA_democracy;Italy;;;;;;;;;;;;;
 ITA_bourgeois_dictatorship_ADJ;Italian;;;;;;;;;;;;;
 ITA_proletarian_dictatorship;The People's Republic of Italy;;;;;;;;;;;;;
 ITA_proletarian_dictatorship_ADJ;Italian;;;;;;;;;;;;;
+RMR_democracy;Senatus Populusque Romanus;;;;;;;;;;;;;
+RMR_absolute_monarchy;Imperivm Romanvm;x
+RMR_prussian_constitutionalism;Imperivm Romanvm;x
+RMR_hms_government;Roma;x
+RMR_bourgeois_dictatorship_ADJ;Roman;;;;;;;;;;;;;
+RMR_proletarian_dictatorship;Populares Roma;;;;;;;;;;;;;
+RMR_proletarian_dictatorship_ADJ;Roman;;;;;;;;;;;;;
 IVC;Ivory Coast;;;;;;;;;;;;;
 IVC_ADJ;Ivorian;;;;;;;;;;;;;
 IVC_liberal;Rally of the Republicans;;;;;;;;;;;;;
