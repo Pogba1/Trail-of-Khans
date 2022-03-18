@@ -115,9 +115,87 @@ political_decisions = {
 													}
 								    }
 						
-						    }										
-    
-	roman_architecture = {
+						    }
+
+    integrate_the_greeks = {
+                            potential = {
+                                         tag = RMR
+                                         has_country_flag = the_greek_claims
+                                        }
+										
+                                allow = {
+                                         revolution_n_counterrevolution =1
+                                         social_science = 1	
+        						         TUR_863 = {
+                                                    owned_by = THIS
+							                      } 
+						                 TUR_869 = {
+						                            owned_by = THIS
+								                  }
+						                 TUR_873 = {
+						                            owned_by = THIS
+								                  }
+						                 TUR_880 = {
+						                            owned_by = THIS
+								                  }
+                                         										 
+                                         GRE = { 
+										        all_core = { 
+												            owned_by = THIS
+														   }
+										       }
+									     NOT = {
+										        BYZ = exists
+											   }
+									    }
+										
+								    effect = { 
+									          add_accepted_culture = greek
+											  prestige = 15
+											 }
+						}
+	
+	administrate_the_greeks = {
+                            potential = {
+                                         tag = RMR
+                                         has_country_flag = greek_cultural_unity
+                                        }
+										
+                                allow = {
+                                         revolution_n_counterrevolution =1
+                                         social_science = 1										 
+                                         GRE = { 
+										        all_core = { 
+												            owned_by = THIS
+														   }
+										       }
+									    }
+										
+								    effect = { 
+									          GRE = {
+											         all_core = {
+													             add_core = RMR
+																}
+													}
+											  TUR_863 = {
+											             add_core = RMR
+													}
+											  TUR_869 = {
+											             add_core = RMR
+													}
+											  TUR_873 = {
+											             add_core = RMR
+													}											             
+											  TUR_880 = {
+											             add_core = RMR
+													}
+                                              badboy = 10
+                                              prestige = 25											  
+											 }
+						}
+	
+						
+	roman_architecture = { 
 	                       potential = {
 						                tag = RMR
 									    NOT = {
