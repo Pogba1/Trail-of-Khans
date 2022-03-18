@@ -1,0 +1,24 @@
+owner = IRE
+controller = IRE
+add_core = IRE
+add_core = BRT
+add_core = FRA
+trade_goods = cattle
+life_rating = 35
+naval_base = 2
+
+state_building = {
+    level = 3
+    building = canned_food_factory
+    upgrade = yes
+}
+1861.1.1 = {
+    state_building = {
+        level = 1
+        building = ammunition_factory
+        upgrade = yes
+    }
+}
+1861.1.1 = {
+    railroad = 3
+}

@@ -1,0 +1,19 @@
+country_event = {
+    id = 99999999999
+    title = "Okay."
+    desc = "Okay."
+    picture = "regency"
+
+    trigger = {
+        tag = TRI
+    }
+
+    mean_time_to_happen = {
+       days = 1
+    }
+
+    option = {
+        name = "Okay."
+        TRI = {end_war = TUR}
+    }
+}

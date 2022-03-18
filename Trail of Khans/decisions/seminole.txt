@@ -1,0 +1,15 @@
+political_decisions = {
+end_the_seminole_wars = {
+		picture = marching_soldiers
+		potential = {
+		any_owned_province = {has_province_modifier = seminole_war}
+		
+		}
+		allow = {
+		muzzle_loaded_rifles = 1
+		}
+		effect = {
+		any_owned = {limit = {has_province_modifier = seminole_war} remove_province_modifier = seminole_war}
+		}
+	}
+}

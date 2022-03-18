@@ -1,0 +1,140 @@
+political_decisions = {
+	develop_singapore = {
+		potential = {
+		tag = NET
+		1384 = {owned_by = THIS}
+		NOT = {has_country_flag = develop_singapore}
+		}
+		allow = {
+			1384 = {owned_by = THIS}
+			market_structure = 1
+			central_bank_money_bill_printing = 1
+		}
+		effect = {
+		set_country_flag = develop_singapore
+		1384 = {trade_goods = precious_goods}
+		1384 = {add_province_modifier = {name = develop_singapore duration = 3650}}
+		}
+	}
+	integrate_amerikaans = {
+		potential = {
+		tag = NET
+
+		NOT = {has_country_flag = integrate_amerikaans}
+		}
+		allow = {
+			232 = {owned_by = THIS}
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+		set_country_flag = integrate_amerikaans
+		add_accepted_culture = french_canadian
+		}
+	}
+	integrate_picards = {
+		potential = {
+		tag = NET
+
+		NOT = {has_country_flag = integrate_picards}
+		has_country_flag = integrate_wallonians
+		}
+		allow = {
+			FRA_404 = {owned_by = THIS}
+		}
+		effect = {
+		set_country_flag = integrate_picards
+		add_accepted_culture = picard
+		FRA_404 = {add_core = THIS}
+		}
+	}
+	
+	reform_tasmania = {
+		picture = "bahrain_trade"
+		potential = {
+		NOT = {has_global_flag = ast_reform}
+		tag = NET
+		any_owned_province = {is_core = AST}
+		}
+		allow = {
+		OR = {NOT = {exists = AST}
+			  AST = {vassal_of = THIS}
+			}
+		nationalism_n_imperialism = 1
+		}
+		effect = {
+		release = AST
+		create_vassal = AST
+		AST = {add_country_modifier = { name = small_immigration_boom duration = 1825 }}
+		AST = {add_country_modifier = { name = language_reform duration = 1650}}
+		set_global_flag = ast_reform
+		diplomatic_influence = {
+				who = AST
+				value = 100
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	reform_saf = {
+		picture = "bahrain_trade"
+		potential = {
+		NOT = {has_global_flag = saf_reform}
+		tag = NET
+		2087 = {owned_by = THIS}
+		2096 = {owned_by = THIS}
+		}
+		allow = {
+		2087 = {owned_by = THIS}
+		2096 = {owned_by = THIS}
+		OR = {NOT = {exists = SAF}
+			  SAF = {vassal_of = THIS}
+			}
+		nationalism_n_imperialism = 1
+		}
+		effect = {
+		
+		release = SAF
+		create_vassal = SAF
+		SAF = {add_country_modifier = { name = small_immigration_boom duration = 1825 }}
+		SAF = {add_country_modifier = { name = language_reform duration = 1650}}
+		2087 = {trade_goods = precious_goods}
+		set_global_flag = saf_reform
+		SAF = {country_event = 952518}
+		diplomatic_influence = {
+				who = SAF
+				value = 100
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	end_the_javanese_sultanates = {
+        picture = map_java
+        potential = {
+            tag = NET
+            JAV = {
+                vassal_of = THIS
+                exists = yes
+                civilized = no
+                }
+            NOT = { has_country_flag = javanese_integrated }
+        }
+
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+        }
+
+        effect = {
+            set_country_flag = javanese_integrated
+            JAV = { tech_school = developing_tech_school country_event = 952500 }
+			inherit = JAV
+            badboy = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 0 badboy = 0.95 }
+        }
+    }
+}

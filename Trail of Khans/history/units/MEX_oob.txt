@@ -1,0 +1,123 @@
+LOU = {
+    value = -10
+}
+MEX = {
+    value = 50
+}
+
+leader = {
+    name = "Decimo Pizzini"
+    type = sea
+    date="1820.1.1"
+    personality = bastard
+    background = no_background
+}
+
+leader = {
+    name = "Fiorenzo La Pera"
+    type = land
+    date="1836.1.1"
+    personality = heroic
+    background = politician
+}
+
+leader = {
+    name = "Livio Giannetto"
+    type = land
+    date="1836.1.1"
+    personality = skilled
+    background = war_college
+}
+
+leader = {
+    name = "Arcadio Geronimo"
+    type = land
+    date="1836.1.1"
+    personality = skilled
+    background = elderly
+}
+
+leader = {
+    name = "Tullio Palmiero"
+    type = land
+    date="1836.1.1"
+    personality = soldierly
+    background = exranker
+}
+
+army = {
+    name = "1a Armata"
+    location = 2177
+
+    regiment = {
+        name= "1.Oajaca y Tlaxcala"
+        type = infantry
+        home = 2177
+    }
+
+    regiment = {
+        name= "2.Oajaca y Tlaxcala"
+        type = infantry
+        home = 2173
+    }
+
+    regiment = {
+        name= "3.Oajaca y Tlaxcala"
+        type = infantry
+        home = 2167
+    }
+
+}
+
+army = {
+    name = "2a armata"
+    location = 2172
+    regiment = {
+        name= "1.Division Comonfort"
+        type = infantry
+        home = 2176
+    }
+
+    regiment = {
+        name= "2.Division Comonfort"
+        type = infantry
+        home = 2159
+    }
+
+    regiment = {
+        name= "3.Division Comonfort"
+        type = artillery
+        home = 2174
+    }
+
+}
+
+navy = {
+    name = "Armada de Messico"
+    location = 2184
+    ship = {
+        name= "Ansovino Regis"
+        type = frigate
+    }
+    ship = {
+        name= "Genziano Azzara"
+        type = frigate
+    }
+    ship = {
+        name= "Genziano Azzara"
+        type = frigate
+    }
+    ship = {
+        name= "Remigio Polumbo"
+        type = frigate
+    }
+    ship = {
+        name= "Milo Cocuzza"
+        type = frigate
+    }
+    ship = {
+        name= "Velio Lisa"
+        type = frigate
+    }
+
+}
