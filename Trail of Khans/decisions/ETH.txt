@@ -41,6 +41,7 @@ political_decisions = {
 				limit = {has_pop_type = aristocrats}
 					militancy = 5
 				}
+				civilized = yes
 				annex_to = THIS
 			}
 			change_tag = ETH
