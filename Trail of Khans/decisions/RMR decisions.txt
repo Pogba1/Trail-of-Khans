@@ -1,6 +1,7 @@
 political_decisions = {
  
     assimilate_venice = {
+	
 					    potential = {
 						             tag = RMR
 									 NOT = { has_country_flag = assimilated_venetians }
@@ -22,14 +23,17 @@ political_decisions = {
 								effect = {
 								          set_country_flag = assimilated_venetians
 								          AUS_729 = {
+										             remove_core = VEN
 										             assimilate = yes
 													 add_core = RMR
 													}
 										  AUS_733 = {
+										             remove_core = VEN
 										             assimilate = yes
 													 add_core = RMR
 													}
 										  AUS_736 = {
+										             remove_core = VEN
 										             assimilate = yes
 													 add_core = RMR
 													}
@@ -39,6 +43,7 @@ political_decisions = {
 	
 	
 	assimilate_savoie = {
+	
 	                     potential = {
 						              tag = RMR
 									  NOT = { has_country_flag = assimilated_savoie }
@@ -57,10 +62,14 @@ political_decisions = {
 								effect = { 
 								          set_country_flag = assimilated_savoie
 										  465 = {
+										         remove_core = FRA
+												 remove_core = LBR
 										         assimilate = yes
 												 add_core = RMR
 												}
 										  466 = {
+										         remove_core = FRA
+												 remove_core = LBR
 										         assimilate = yes
 												 add_core = RMR
 												}
@@ -69,6 +78,7 @@ political_decisions = {
 	
 	
 	assimilate_dalmatia = {
+	
 	                       potential = {
 						                tag = RMR
 										NOT = { has_country_flag = assimilated_dalmatia }
@@ -88,12 +98,17 @@ political_decisions = {
 						            effect = {
 									          set_country_flag = assimilated_dalmatia
 									          AUS_780 = {
+											             remove_core = DLM
 											             add_core = RMR
 														 assimilate = yes
 														}
+											  
 											 }
 							}
+							
+							
 	the_greeks = {
+	
 	                potential = {
 					             tag = RMR
 								 NOT = {
@@ -116,8 +131,10 @@ political_decisions = {
 								    }
 						
 						    }
+							
 
     integrate_the_greeks = {
+	
                             potential = {
                                          tag = RMR
                                          has_country_flag = the_greek_claims
@@ -158,10 +175,12 @@ political_decisions = {
 									          add_accepted_culture = greek
 											  prestige = 15
 											  set_country_flag = integrated_greeks
-											 }
+							            }
 						}
+						
 	
 	administrate_the_greeks = {
+	 
                             potential = {
                                          tag = RMR
                                          has_country_flag = greek_cultural_unity
@@ -206,6 +225,7 @@ political_decisions = {
 	
 						
 	roman_architecture = { 
+	
 	                       potential = {
 						                tag = RMR
 									    NOT = {
@@ -229,7 +249,8 @@ political_decisions = {
 											 720 = { life_rating = 5 }
 											 729 = { life_rating = 5 }
 											 add_country_modifier = {
-											                         name = roman_architecture duration = -1
+											                         name = roman_architecture 
+																	 duration = -1
 																   }
 																	 
 											 set_country_flag = roman_architecture
@@ -239,6 +260,51 @@ political_decisions = {
 										   }
 										   
 								   }
-								   
+	
+	
+	the_second_phase_language = {
+	                             
+								 potential = {
+								              tag = RMR
+											  has_country_modifier = a_new_language_1
+								        }
+								 
+								    allow = {
+									         biologism = 1
+								             phenomenalism = 1
+								        }
+										effect = {
+										          remove_country_modifier = a_new_language_1
+												  add_country_modifier = {
+												                          name = a_new_language_2 
+																		  duration = -1
+																	}
+												}
+					}
+	
+	
+	the_last_phase_language = { 
+								
+							   potential = {
+							                tag = RMR
+											has_country_modifier = a_new_language_2
+											NOT = { 
+											       has_country_modifier = a_new_language_3 
+										    }
+									}
+								   allow = {
+								            social_science = 1
+									}
+                                       effect = {
+									             prestige = 20
+                                                 remove_country_modifier = second_phase_of_language
+                                                 add_country_modifier = {
+                                                                         name = a_new_language_3 
+																		 duration = -1
+                                                                    }
+                                    }												 
 						    }
+				}
+
+							
 									
