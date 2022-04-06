@@ -466,12 +466,6 @@ political_decisions = {
 				limit = {is_core = THIS}
 				add_core = BYZ
 			}
-			any_owned = {
-				limit = {OR = {is_core = NCE is_core = EPI is_core = ATH is_core = MEA is_core = GAL is_core = THR}}
-				remove_core = THIS
-			}
-			change_tag = BYZ
-			change_tag_no_core_switch = BYZ
 			any_country = {
                 limit = {
                     primary_culture = greek
@@ -485,6 +479,13 @@ political_decisions = {
                 }
                 country_event = 11106
             }
+			
+			any_owned = {
+				limit = {OR = {is_core = NCE is_core = EPI is_core = ATH is_core = MEA is_core = GAL is_core = THR}}
+				remove_core = THIS
+			}
+			change_tag = BYZ
+			change_tag_no_core_switch = BYZ
 			capital = 860
 			prestige = 15
 		}

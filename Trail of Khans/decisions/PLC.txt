@@ -1,10 +1,11 @@
 political_decisions = {
 	unite_plc ={
 		potential ={
-			OR={tag = POL
-				tag = BOH
-				tag = HUN
-				}
+		tag = POL
+			#OR={tag = POL
+			#	tag = BOH
+			#	tag = HUN
+			#	}
 			NOT = {has_global_flag = unite_plc}
 			NOT = {exists = PLC}
 		}
@@ -16,9 +17,10 @@ political_decisions = {
 			state_n_government = 1
 		}
 		effect = {
-			add_accepted_culture = polish
-			add_accepted_culture = czech
-			add_accepted_culture = hungarian
+			#add_accepted_culture = polish
+			#add_accepted_culture = czech
+			#add_accepted_culture = hungarian
+			add_accepted_culture = lithuanian
 			capital = 703
 			country_event = {
 				id = 400001
@@ -29,12 +31,32 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	minority_rights_plc = {
+		picture = "preacher"
+		potential = {
+			tag = PLC
+			NOT = {has_country_flag = minority_rights_plc}
+		}
+		allow = {
+			625 = {owned_by = THIS}
+			641 = {owned_by = THIS}
+			703 = {owned_by = THIS}
+		}
+		effect = {
+			add_accepted_culture = polish
+			add_accepted_culture = czech
+			add_accepted_culture = hungarian
+			set_country_flag = minority_rights_plc
+		}
+	}
+	
 	integrate_ruthenians_plc = {
 		potential = {
 			tag = PLC
 			NOT = {has_country_flag = integrate_ruthenians_plc}
 		}
 		allow = {
+			nationalism_n_imperialism = 1
 			952 = {owned_by = THIS}
 			955 = {owned_by = THIS}
 		}
