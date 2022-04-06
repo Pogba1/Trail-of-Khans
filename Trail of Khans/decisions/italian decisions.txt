@@ -302,6 +302,7 @@ political_decisions = {
 		                      is_culture_group = italian
 		                   }
 		             allow = { 
+					          war = no
 	 	                      all_core= {
 		                                 owned_by = THIS
 			                          }
@@ -475,6 +476,7 @@ political_decisions = {
 		                                                   name = a_new_language_1 
 								                           duration=-1
 							       }
+								   set_global_flag = an_eagle_rises
                                	  
 				}	  
 					
