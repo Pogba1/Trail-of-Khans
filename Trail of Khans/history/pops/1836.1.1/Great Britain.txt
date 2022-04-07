@@ -1055,69 +1055,69 @@
     aristocrats = {
         culture = british_danish
         religion = catholic
-        size = 2050
+        size = 205
     }
 
     officers = {
         culture = british_danish
         religion = catholic
-        size = 1250
+        size = 125
     }
 
     bureaucrats = {
         culture = scottish
         religion = catholic
-        size = 2150
+        size = 215
     }
     labourers = {
         culture = british_danish
         religion = catholic
-        size = 25000
+        size = 2500
     }
 	craftsmen = {
         culture = british_danish
         religion = catholic
-        size = 5000
+        size = 500
     }
     officers = {
         culture = scottish
         religion = catholic
-        size = 1100
+        size = 110
     }
 
     clergymen = {
         culture = scottish
         religion = catholic
-        size = 875
+        size = 87
     }
 
     artisans = {
         culture = scottish
         religion = catholic
-        size = 10000
+        size = 1000
     }
 
     artisans = {
         culture = british_danish
         religion = catholic
-        size = 750
+        size = 75
     }
 
     soldiers = {
         culture = scottish
         religion = catholic
-        size = 1500
+        size = 150
     }
 
     labourers = {
         culture = scottish
         religion = catholic
-        size = 402825
+        size = 40282
     }
 	labourers = {
         culture = british
         religion = catholic
-        size = 602825
+        size = 60282
     }
 
     farmers = {
