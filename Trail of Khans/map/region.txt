@@ -440,11 +440,13 @@ TUR_869 = { 869 870 871 872 } #Aydin
 
 TUR_873 = { 873 874 875 866 } #Konya
 
-TUR_876 = { 876 877 878 868 } #Ankara
+TUR_876 = { 876 868 } #Ankara
+
+SVF_878 = { 878 877 879}	#Kaisáreia
 
 TUR_880 = { 880 881 883 } #Kastamonu
 
-TUR_882 = { 882 884 879 888 } #Trabizond
+TUR_882 = { 882 884 888 } #Trabizond
 
 TUR_885 = { 885 886 1096 } #Kars
 

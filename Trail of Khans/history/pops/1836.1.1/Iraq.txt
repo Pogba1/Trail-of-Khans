@@ -1,5 +1,5 @@
 #Mosul Region (492000) #mashriqi-catholic = assyrian
-#under the rule of Ottoman Empire in 1836
+#under the rule of Iranzamin in 1836
 #Mosul (228000/57000 POPS)
 923 = {
     aristocrats = {
@@ -391,7 +391,7 @@
     }
 }
 #Iraq Region (644000)
-#under the rule of Ottoman Empire in 1836
+#under the rule of Iranzamin in 1836
 #Baghdad (268000/67000 POPS)
 926 = {
     aristocrats = {
@@ -399,17 +399,36 @@
         religion = sunni
         size = 1100
     }
-
+	
+	aristocrats = {
+        culture = persian
+        religion = shiite
+        size = 1100
+    }
+	bureaucrats = {
+		culture = persian
+		religion = shiite
+		size = 100
+	}
     bureaucrats = {
         culture = mashriqi
         religion = sunni
         size = 350
     }
-
+	clergymen = {
+		culture = persian
+		religion = shiite
+		size = 100
+	}
     clergymen = {
         culture = mashriqi
         religion = sunni
         size = 400
+    }
+	clergymen = {
+        culture = mashriqi
+        religion = shiite
+        size = 100
     }
 
     artisans = {
@@ -427,13 +446,28 @@
     soldiers = {
         culture = mashriqi
         religion = sunni
-        size = 1225
+        size = 12000
     }
-
+	soldiers = {
+		culture = persian
+		religion = shiite
+		size = 3000
+	}
     farmers = {
         culture = mashriqi
         religion = sunni
-        size = 30525
+        size = 80525
+    }
+	farmers = {
+        culture = mashriqi
+        religion = shiite
+        size = 60525
+    }
+	
+	farmers = {
+        culture = persian
+        religion = shiite
+        size = 20525
     }
 
     farmers = {
@@ -475,31 +509,31 @@
     officers = {
         culture = assyrian
         religion = catholic
-        size = 100
+        size = 300
     }
 
     soldiers = {
         culture = assyrian
         religion = catholic
-        size = 100
+        size = 300
     }
 
     clergymen = {
         culture = assyrian
         religion = catholic
-        size = 100
+        size = 300
     }
 
     artisans = {
         culture = assyrian
         religion = catholic
-        size = 2000
+        size = 6000
     }
 
     farmers = {
         culture = assyrian
         religion = catholic
-        size = 3650
+        size = 18050
     }
 
     clergymen = {
@@ -517,7 +551,7 @@
     farmers = {
         culture = mashriqi
         religion = orthodox
-        size = 2425
+        size = 7325
     }
 
     clergymen = {
@@ -953,7 +987,7 @@
     }
 }
 #Basra Region (388000) #see Gulf States.txt for balance of region
-#under the rule of Ottoman Empire in 1836
+#under the rule of Iranzamin in 1836
 #Basra (140000/35000 POPS)
 932 = {
     bureaucrats = {

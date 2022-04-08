@@ -57,7 +57,9 @@ political_decisions = {
 			896 = {add_core = BYZ}
 			898 = {add_core = BYZ}
 			900 = {add_core = BYZ}
-			TUR_876 = {add_core = BYZ}
+			877 = {add_core = BYZ}
+			877 = {add_core = BYZ}
+			878 = {add_core = BYZ}
 			883 = {add_core = THIS}
             set_country_flag = patriarchate_of_antioch
             any_pop = {
@@ -461,7 +463,8 @@ political_decisions = {
 			869 ={OR = {owned_by = THIS owner = {in_sphere = THIS}}}
 		}
 		effect = {
-			
+			change_tag = BYZ
+			change_tag_no_core_switch = BYZ
 			any_owned = {
 				limit = {is_core = THIS}
 				add_core = BYZ
@@ -484,8 +487,7 @@ political_decisions = {
 				limit = {OR = {is_core = NCE is_core = EPI is_core = ATH is_core = MEA is_core = GAL is_core = THR}}
 				remove_core = THIS
 			}
-			change_tag = BYZ
-			change_tag_no_core_switch = BYZ
+			
 			capital = 860
 			prestige = 15
 		}

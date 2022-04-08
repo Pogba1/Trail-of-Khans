@@ -20,7 +20,6 @@ political_decisions = {
 				primary_culture = mongol
 				primary_culture = tatar
 				primary_culture = manchu
-				tag = SVF
 			}
 			NOT = {exists = MGL}
 		}
