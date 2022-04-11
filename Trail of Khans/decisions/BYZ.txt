@@ -445,6 +445,92 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
+
+	the_pheonix_rose_and_an_eagle_fell = {
+	
+	                                       picture = "reforge_byz"
+										   
+										   potential = { 
+										                has_country_flag = patriarchate_of_antioch
+										                has_global_flag = an_eagle_rises
+														NOT = {
+														       has_country_flag = the_pheonix_rose_and_an_eagle_fell
+													    }
+														tag=BYZ
+													}
+													
+											   allow = {
+											            nationalism_n_imperialism = 1
+														war = no
+														is_greater_power = yes
+										                RMR = {
+														       NOT = {
+															          exists =yes
+																}
+														}
+														PAP_752 = { 
+														           owned_by = THIS
+														}
+													}
+												    
+												   effect = {
+												             prestige = 50
+												             add_accepted_culture = roman
+															 PAP_752 = {
+															            add_core = THIS
+															 }
+															 SIC_753 = {
+															            add_core = THIS
+															 }
+															 SIC_754 = {
+															            add_core = THIS
+															 }
+															 SIC_763 = {
+															            add_core = THIS
+															 }
+															 
+															 set_country_flag = the_pheonix_rose_and_an_eagle_fell
+													}
+	}
+	
+	the_pheonix_rose_and_an_eagle_fell_2 = {
+	                                        
+											picture = "reforge_byz"
+											
+											potential = {
+	                                                     has_country_flag = the_pheonix_rose_and_an_eagle_fell
+														 tag = BYZ
+														 NOT = { 
+														        has_country_flag = the_pheonix_rose_and_an_eagle_fell_2
+														 }
+													}
+												allow = {
+												         nationalism_n_imperialism = 1
+														 war = no
+														 is_greater_power = yes
+														 SAR_720 = {
+														            owned_by = this
+														 }
+														 MOD_739 = {
+														            owned_by = this
+														 }
+														 TUS_744 = {
+														            owned_by = this
+														 }
+														 PAP_741 = {
+														            owned_by = this
+														 }
+													}
+													effect = {
+													          RMR = {
+															         all_core = {
+																	             add_core = THIS
+																			}
+															  }
+													          prestige = 50
+															  set_country_flag = the_pheonix_rose_and_an_eagle_fell_2
+													}
+	}	
 	
 	###############
 	reforge_byzantium = {
