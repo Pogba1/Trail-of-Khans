@@ -463,8 +463,6 @@ political_decisions = {
 			869 ={OR = {owned_by = THIS owner = {in_sphere = THIS}}}
 		}
 		effect = {
-			change_tag = BYZ
-			change_tag_no_core_switch = BYZ
 			any_owned = {
 				limit = {is_core = THIS}
 				add_core = BYZ
@@ -473,6 +471,8 @@ political_decisions = {
 				limit = {OR = {is_core = NCE is_core = EPI is_core = ATH is_core = MEA is_core = GAL is_core = THR}}
 				remove_core = THIS
 			}
+			change_tag = BYZ
+			change_tag_no_core_switch = BYZ
 			any_country = {
                 limit = {
                     primary_culture = greek
