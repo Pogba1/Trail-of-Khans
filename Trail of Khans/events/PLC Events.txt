@@ -23,7 +23,78 @@ country_event = {
 		}
 		change_tag = PLC
 		change_tag_no_core_switch = PLC
-		
+		add_accepted_culture=ashkenazi
     }
-	}
 }
+
+country_event = {
+                 id=400002
+				 title="The Cultures of the Jagiellon Empire"
+				 desc="EVTDESC400002"
+				 
+				 fire_only_once = yes
+				 
+				 mean_time_to_happen={days=10}
+				 
+				 trigger={
+				          tag=PLC
+				 }
+				 
+				 option = {
+				           name="We shall lean towards our Slavic brothers"
+						   
+						   add_accepted_culture=czech
+						   add_accepted_culture=slovak
+						   prestige=15
+						   
+						   any_pop={
+						            limit = {
+									         culture=hungarian
+									         culture=romanian
+									}
+									militancy=2
+									consciousness=3
+						   }
+				 }
+				 
+				 option = {
+				           name="The Hungarians are too important to our crown"
+						   
+						   add_accepted_culture=hungarian
+						   prestige=15
+						   
+						   any_pop={
+						            limit = {
+									         culture=czech
+									         culture=slovak
+									}
+									militancy=2
+									consciousness=3
+						   }
+				 }
+				 
+				 option= {
+				          name="We shall seek to fully integrate all of the subjects of the Jagiellon Empire"
+						  
+						  set_country_flag=full_integration
+						  
+						  any_pop={
+						           limit = {
+								            culture=czech
+								            culture=slovak
+								            culture=hungarian
+								   }
+						           militancy=-1
+								   consciousness=4
+						  }
+						  any_pop={
+						           limit = {
+								            culture=ukrainian
+								            culture=romanian
+								            culture=serb
+								   }
+								   militancy=4
+								   consciousness=3
+						  }
+				 }				   
+	}
