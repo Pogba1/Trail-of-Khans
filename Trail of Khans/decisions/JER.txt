@@ -10,6 +10,10 @@ political_decisions = {
 		effect = {
 			set_country_flag = conquest_egy_jer
 			EGY = {all_core = {add_core = THIS}}
+			add_accepted_culture = misri
+			add_accepted_culture = mashriqi
+			any_pop = { limit = {has_pop_culture = misri NOT = {has_pop_religion = catholic}} militancy = 6 consciousness = 1}
+			any_pop = { limit = {has_pop_culture = mashriqi NOT = {has_pop_religion = catholic}} militancy = 6 consciousness = 1}
 		}
 	}
 	develop_jer = {
@@ -21,7 +25,7 @@ political_decisions = {
 			market_structure = 1
 		}
 		effect = {
-			917 = {trade_goods = precious_goods}
+			#917 = {trade_goods = precious_goods}
 			917 = {life_rating = 3}
 			prestige = 5
 			set_global_flag = develop_jer

@@ -2,6 +2,7 @@
 #under the rule of Afghanistan in 1836
 #Kabul (996000/249000 POPS)
 1209 = {
+
     aristocrats = {
         culture = pashtun
         religion = sunni
@@ -899,5 +900,31 @@
         religion = sunni
         size = 6306
     }
+	
+	######Greeks
+    soldiers = {
+        culture = greek
+        religion = sunni
+        size = 50
+    }
+
+    clergymen = {
+        culture = greek
+        religion = sunni
+        size = 50
+    }
+
+    artisans = {
+        culture = greek
+        religion = sunni
+        size = 150
+    }
+
+    farmers = {
+        culture = greek
+        religion = sunni
+        size = 50
+    }
+    ########
 
 }

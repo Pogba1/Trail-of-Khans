@@ -170,6 +170,16 @@
         religion = shiite
         size = 1075
     }
+	farmers = {
+        culture = mashriqi
+        religion = catholic
+        size = 20075
+    }
+	farmers = {
+		culture = latin
+		religion = catholic
+		size = 80000
+	}
 
     clergymen = {
         culture = mashriqi
@@ -332,6 +342,11 @@
         culture = latin
         religion = catholic
         size = 4575
+    }
+	farmers = {
+        culture = latin
+        religion = catholic
+        size = 80000
     }
     aristocrats = {
         culture = mashriqi

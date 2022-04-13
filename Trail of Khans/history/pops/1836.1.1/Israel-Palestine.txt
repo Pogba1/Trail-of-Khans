@@ -33,7 +33,7 @@
 	farmers = {
         culture = latin
         religion = catholic
-        size = 4575
+        size = 54575
     }
     farmers = {
         culture = mashriqi
@@ -252,7 +252,11 @@
         religion = catholic
         size = 10100
     }
-
+	farmers = {
+		culture = latin
+		religion = catholic
+		size = 40000
+	}
     clergymen = {
         culture = latin
         religion = catholic
@@ -268,7 +272,7 @@
     farmers = {
         culture = latin
         religion = catholic
-        size = 39100
+        size = 79100
     }
 
     farmers = {
@@ -279,6 +283,12 @@
 }
 #Nablus (44000/11000 POPS)
 918 = {
+	farmers = {
+		culture = latin
+		religion = catholic
+		size = 40000
+	}
+	
 	soldiers = {
         culture = latin
         religion = catholic

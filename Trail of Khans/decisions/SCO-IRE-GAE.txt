@@ -191,7 +191,7 @@ political_decisions = {
 			420 = {owned_by = THIS}
 			435 = {owned_by = THIS}
 			418 = {owned_by = THIS}
-			399 = {owned_by = THIS}
+			#399 = {owned_by = THIS}
 			442 = {owned_by = THIS}
 		}
 		effect = {
@@ -203,6 +203,7 @@ political_decisions = {
 			FRA_445 = {add_core = IRE}
 			FRA_458 = {add_core = IRE}
 			FRA_455 = {add_core = IRE}
+			FRA_438 = {add_core = IRE}
 		}
 	}
 	attempt_reform_gaulIII = {

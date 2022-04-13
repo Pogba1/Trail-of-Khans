@@ -563,6 +563,32 @@
         religion = catholic
         size = 125
     }
+	
+	######Greeks
+    soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 200
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 600
+    }
+
+    farmers = {
+        culture = greek
+        religion = orthodox
+        size = 200
+    }
+    ########
 
 }
 #Varadzin (68000/17000 POPS)
@@ -1367,6 +1393,32 @@
         religion = orthodox
         size = 1825
     }
+	
+	######Greeks
+    soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 200
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 600
+    }
+
+    farmers = {
+        culture = greek
+        religion = orthodox
+        size = 200
+    }
+    ########
 
 }
 #Banat-Bacska Region (104000) #See Serbia.txt and Romania.txt for balance of region

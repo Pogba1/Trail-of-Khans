@@ -285,6 +285,32 @@
         religion = coptic
         size = 2825
     }
+	
+	######Greeks
+    soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 200
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 600
+    }
+
+    farmers = {
+        culture = greek
+        religion = orthodox
+        size = 200
+    }
+    ########
 }
 #Tanta (341600/85400 POPS)
 1747 = {
@@ -681,13 +707,63 @@
         religion = orthodox
         size = 50
     }
-
+	
     artisans = {
         culture = greek
         religion = orthodox
         size = 1950
     }
+	
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 600
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 3000
+	
+	}
+	
+	######Greeks
+    soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 100
+    }
 
+    clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 300
+    }
+
+    farmers = {
+        culture = greek
+        religion = orthodox
+        size = 100
+    }
+	
+	clergymen = {
+		culture = greek
+		religion = sunni
+		size = 200
+	}
+	
+	artisans = {
+		culture = greek
+		religion = sunni
+		size = 4000
+	}
+	
     slaves = {
         culture = nilotic
         religion = animist
