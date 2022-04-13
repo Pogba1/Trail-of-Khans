@@ -34,6 +34,8 @@ country_event = {
 				 
 				 fire_only_once = yes
 				 
+				 major = yes
+				 
 				 mean_time_to_happen={days=10}
 				 
 				 trigger={
@@ -41,7 +43,7 @@ country_event = {
 				 }
 				 
 				 option = {
-				           name="We shall lean towards our Slavic brothers"
+				           name="We shall lean towards our Slavic brothers."
 						   
 						   add_accepted_culture=czech
 						   add_accepted_culture=slovak
@@ -58,7 +60,7 @@ country_event = {
 				 }
 				 
 				 option = {
-				           name="The Hungarians are too important to our crown"
+				           name="The Hungarians are too important to our crown."
 						   
 						   add_accepted_culture=hungarian
 						   prestige=15
@@ -74,7 +76,7 @@ country_event = {
 				 }
 				 
 				 option= {
-				          name="We shall seek to fully integrate all of the subjects of the Jagiellon Empire"
+				          name="We shall seek to fully integrate all of the subjects of the Jagiellon Empire."
 						  
 						  set_country_flag=full_integration
 						  
