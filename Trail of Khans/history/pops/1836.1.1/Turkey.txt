@@ -4726,8 +4726,30 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 200
+        size = 6200
     }
     ########
+	soldiers = {
+        culture = latin
+        religion = catholic
+        size = 200
+    }
 
+    clergymen = {
+        culture = latin
+        religion = catholic
+        size = 200
+    }
+
+    artisans = {
+        culture = latin
+        religion = catholic
+        size = 600
+    }
+
+    farmers = {
+        culture = latin
+        religion = catholic
+        size = 2200
+    }
 }

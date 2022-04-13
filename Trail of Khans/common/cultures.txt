@@ -4,6 +4,7 @@
 germanic = {
     leader = european
     unit = EuropeanGC
+	
     north_german = {
         color = { 90 60 60 }
         first_names = { Adelbert Adolf Albrecht Alexander Alfred August Bernhard Burkhard Dieter
@@ -34,13 +35,12 @@ germanic = {
         "von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach"
         "von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
     }
-	carpato_german = {
+	anglo_saxon = {
         color = { 162 169 117 }
-        first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
-        Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
-        Günther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
-        Julius Karl Konrad Kurt Leonhard Leopold Lorenz Lothar Ludwig Maximilian
-        Michael Otto Reinhold Rudolf Stefan Theodor Viktor Walter Werner Wilhelm }
+        first_names = { Aelfred Aethelweald Bardic Cerdic Cola Cynenweard Eadburg Eadgyo Ealdhelm
+		Godric Godwine Hrothgar Leofdaeg Osgar Osmund Oswald Paega Saewine Sigeberht Stithulf
+		Uhtric  Wilburh Wulfsige
+		}
 
         last_names = { Beck-Rzikowsky Blos Dankl Eisner Geiss Goering Hainisch Haus Held Hellpach
         Hoffmann Hummel Köhler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb
@@ -420,17 +420,17 @@ british_latin = {
     unit = ItalianGC
 	british = {
         color = { 112 88 59 }
-        first_names = { Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
-        Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
-        Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
-        Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
-        Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio }
+        first_names = { Nicobul Aspasi Ambrogio Amedeo Andre Angelo Antonio August Camil Carl
+        Caesar Clement Davide Enric Etore Fabrits Faustin Federic Felix
+        Fiorents Francesco Gaetan Gennaro Giosep Innocento Leopald
+        Marc Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+        Raffael Roberto Ruggiero Silva Simon Tancredi Ugo Umbert Vincents Vittor }
 
-        last_names = { Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
-        Caviglia Ceccherini Cialdini Cusani d'Absburgo-Toscana d'Austria-Este Dezza "di Borbone di Parma" "di Robilant" "di Savoia"
-        "di Savoia-Aosta" Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti
-        Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux Perruchetti Pianelli Porro
-        Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari "Thaon di Revel" Vaccari Zupelli }
+        last_names = { Atton Albric Badogli Balditser Barataer Beccaris Cadorn Canevaro Capelae
+        Cavigli Ceccherin Cialdin Cusan Detsi "de Londinium-Edinburg"
+        Emo Fant Fara Filomarin Garibaldi Giardi Govon Mambreta
+        Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux
+		Solari Vaccor Tsupeli }
     }
 
 }

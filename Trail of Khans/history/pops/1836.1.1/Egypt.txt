@@ -527,6 +527,16 @@
         religion = coptic
         size = 1850
     }
+	farmers = {
+		culture = latin
+		religion = catholic
+		size = 1000
+	}
+	bureaucrats = {
+		culture = latin
+		religion = catholic
+		size = 5
+	}
 }
 #Giza (386400/96600 POPS)
 1750 = {

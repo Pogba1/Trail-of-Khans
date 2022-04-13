@@ -879,7 +879,7 @@
         size = 3000
     }
     artisans = {
-        culture = scottish
+        culture = british_danish
         religion = catholic
         size = 10000
     }
@@ -897,9 +897,15 @@
     }
 
     labourers = {
+        culture = british_danish
+        religion = catholic
+        size = 50000
+    }
+	
+	labourers = {
         culture = scottish
         religion = catholic
-        size = 118850
+        size = 68850
     }
 	
 	aristocrats = {
@@ -1041,13 +1047,13 @@
 	labourers = {
         culture = british
         religion = catholic
-        size = 46625
+        size = 36625
     }
 
     farmers = {
         culture = british_danish
         religion = catholic
-        size = 53000
+        size = 63000
     }
 }
 #Sheffield (658000/164500 POPS)
@@ -1287,7 +1293,12 @@
     labourers = {
         culture = british
         religion = catholic
-        size = 66875
+        size = 26875
+    }
+	labourers = {
+        culture = welsh
+        religion = catholic
+        size = 36875
     }
 	labourers = {
         culture = scottish
@@ -1339,7 +1350,7 @@
         size = 25000
     }
 	labourers = {
-        culture = british
+        culture = welsh
         religion = catholic
         size = 27000
     }
@@ -1468,12 +1479,12 @@
 	labourers = {
         culture = british
         religion = catholic
-        size = 88375
+        size = 68375
     }
 	labourers = {
         culture = british_danish
         religion = catholic
-        size = 18375
+        size = 38375
     }
 }
 #Lincoln (336000/84000 POPS)
@@ -1602,7 +1613,13 @@
     labourers = {
         culture = british_danish
         religion = catholic
-        size = 174500
+        size = 98500
+    }
+	
+	labourers = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 78500
     }
 }
 #Chelmsford (276000/69000 POPS)
@@ -1674,38 +1691,84 @@
     bureaucrats = {
         culture = british
         religion = catholic
-        size = 1075
+        size = 1000
     }
 
     clergymen = {
         culture = british
         religion = catholic
-        size = 1500
+        size = 750
     }
 
     artisans = {
         culture = british
         religion = catholic
-        size = 6000
+        size = 3000
     }
 
     soldiers = {
         culture = british
         religion = catholic
-        size = 1500
+        size = 750
     }
 	labourers = {
         culture = british
         religion = catholic
-        size = 44625
+        size = 22312
     }
+	
 	
 	
     labourers = {
         culture = british_danish
         religion = catholic
-        size = 44625
+        size = 22625
     }
+	
+	#####
+	
+	aristocrats = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 100
+    }
+
+    officers = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 125
+    }
+
+    bureaucrats = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 75
+    }
+
+    clergymen = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 750
+    }
+
+    artisans = {
+        culture = british
+        religion = catholic
+        size = 3000
+    }
+
+    soldiers = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 750
+    }
+	labourers = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 44322
+    }
+	
+	#####
 }
 #St. Albans (312000/78000 POPS)
 295 = {
@@ -1788,7 +1851,7 @@
     craftsmen = {
         culture = british
         religion = catholic
-        size = 12000
+        size = 2000
     }
 
     artisans = {
@@ -1806,9 +1869,46 @@
     labourers = {
         culture = british
         religion = catholic
-        size = 71275
+        size = 31275
+    }
+	
+	#####
+	 craftsmen = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 10000
     }
 
+    artisans = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 9000
+    }
+
+    soldiers = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 1100
+    }
+
+    labourers = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 31275
+    }
+	
+	labourers = {
+        culture = welsh
+        religion = catholic
+        size = 11275
+    }
+	clergymen = {
+		culture = welsh
+		religion = catholic
+		size = 300
+	}
+
+	#####
     farmers = {
         culture = scottish
         religion = catholic
@@ -1846,11 +1946,17 @@
         religion = catholic
         size = 1100
     }
-
-    labourers = {
+	
+	labourers = {
         culture = british
         religion = catholic
-        size = 50375
+        size = 25375
+    }
+	
+    labourers = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 25375
     }
 }
 #Bath (408000/102000 POPS)
@@ -1868,18 +1974,18 @@
     }
 
     artisans = {
-        culture = irish
+        culture = anglo_saxon
         religion = catholic
         size = 5000
     }
 
     soldiers = {
-        culture = irish
+        culture = anglo_saxon
         religion = catholic
         size = 1100
     }
     craftsmen = {
-        culture = irish
+        culture = anglo_saxon
         religion = catholic
         size = 12000
     }
@@ -1889,6 +1995,13 @@
         religion = catholic
         size = 32625
     }
+	
+	labourers = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 22625
+    }
+	
 	labourers = {
         culture = irish
         religion = catholic
@@ -1929,7 +2042,12 @@
     labourers = {
         culture = british
         religion = catholic
-        size = 194250
+        size = 154250
+    }
+	 labourers = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 44250
     }
 	labourers = {
         culture = irish
@@ -2173,10 +2291,17 @@
     labourers = {
         culture = british
         religion = catholic
-        size = 88625
+        size = 70625
     }
+	
 	labourers = {
         culture = british_danish
+        religion = catholic
+        size = 18625
+    }
+	
+	labourers = {
+        culture = anglo_saxon
         religion = catholic
         size = 28625
     }
@@ -2222,9 +2347,16 @@
     labourers = {
         culture = british
         religion = catholic
-        size = 75500
+        size = 55500
     }
-	 labourers = {
+	
+	labourers = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 30500
+    }
+	
+	labourers = {
         culture = british_danish
         religion = catholic
         size = 35500
@@ -2273,10 +2405,15 @@
         religion = catholic
         size = 21000
     }
-	 labourers = {
+	labourers = {
         culture = british
         religion = catholic
-        size = 71000
+        size = 61000
+    }
+	labourers = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 10000
     }
 
 }

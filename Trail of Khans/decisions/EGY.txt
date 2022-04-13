@@ -24,6 +24,17 @@ political_decisions = {
 	allow = {
 	high_pressure_steam_engine = 1
 	medicine = 1
+	OR = {
+		1766 = {is_colonial = no}
+		1768 = {is_colonial = no}
+        1767 = {is_colonial = no}
+        1769 = {is_colonial = no}
+        2559 = {is_colonial = no}
+        1762 = {is_colonial = no}
+        1764 = {is_colonial = no}
+        1765 = {is_colonial = no}
+        1763 = {is_colonial = no}
+	 }
 	}
 	effect = {
 	1766 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
