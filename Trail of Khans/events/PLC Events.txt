@@ -51,8 +51,8 @@ country_event = {
 						   
 						   any_pop={
 						            limit = {
-									         culture=hungarian
-									         culture=romanian
+									         has_pop_culture=hungarian
+									         has_pop_culture=romanian
 									}
 									militancy=2
 									consciousness=3
@@ -67,8 +67,8 @@ country_event = {
 						   
 						   any_pop={
 						            limit = {
-									         culture=czech
-									         culture=slovak
+									         has_pop_culture=czech
+									         has_pop_culture=slovak
 									}
 									militancy=2
 									consciousness=3
@@ -82,18 +82,18 @@ country_event = {
 						  
 						  any_pop={
 						           limit = {
-								            culture=czech
-								            culture=slovak
-								            culture=hungarian
+								            has_pop_culture=czech
+								            has_pop_culture=slovak
+								            has_pop_culture=hungarian
 								   }
 						           militancy=-1
 								   consciousness=4
 						  }
 						  any_pop={
 						           limit = {
-								            culture=ukrainian
-								            culture=romanian
-								            culture=serb
+								            has_pop_culture=ukrainian
+								            has_pop_culture=romanian
+								            has_pop_culture=serb
 								   }
 								   militancy=4
 								   consciousness=3
