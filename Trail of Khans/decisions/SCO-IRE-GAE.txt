@@ -217,7 +217,7 @@ political_decisions = {
 			420 = {owned_by = THIS}
 			435 = {owned_by = THIS}
 			418 = {owned_by = THIS}
-			399 = {owned_by = THIS}
+			#399 = {owned_by = THIS}
 			442 = {owned_by = THIS}
 			FRA_399 = {owned_by = THIS}
 			FRA_425 = {owned_by = THIS}

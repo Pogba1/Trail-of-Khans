@@ -1619,13 +1619,14 @@ boer_exodus = {
 }
 
 gold_rush_country = {
-    global_immigrant_attract = 1
+    global_immigrant_attract = 5.5
     icon = 9
 }
 
 gold_rush = {
-    immigrant_attract = 3        #300%
+    immigrant_attract = 5       #500%
     life_rating = 0.5
+	assimilation_rate = -0.8
     icon = 11
 }
 

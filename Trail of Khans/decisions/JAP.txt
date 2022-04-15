@@ -34,7 +34,19 @@ political_decisions = {
 	
         allow = {
             war = no  
+			OR = {
+			KOR = {
+				all_core = {
+					OR = {
+					owner = {
+						in_sphere = THIS
+					}
+					owned_by = THIS
+					}
+				}
+			}
 			KOR = {vassal_of = THIS}
+			}
 			state_n_government = 1
         }
 	

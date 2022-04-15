@@ -421,31 +421,31 @@
     clergymen = {
         culture = inuit
         religion = animist
-        size = 3
+        size = 30
     }
 
     artisans = {
         culture = inuit
         religion = animist
-        size = 3
+        size = 30
     }
 
     soldiers = {
         culture = inuit
         religion = animist
-        size = 3
+        size = 30
     }
 
     farmers = {
         culture = inuit
         religion = animist
-        size = 10
+        size = 100
     }
 
     farmers = {
         culture = native_american_minor
         religion = animist
-        size = 3110
+        size = 31100
     }
 }
 #Spokane (4000/1000 POPS)
@@ -454,31 +454,31 @@
     clergymen = {
         culture = inuit
         religion = animist
-        size = 3
+        size = 30
     }
 
     artisans = {
         culture = inuit
         religion = animist
-        size = 3
+        size = 30
     }
 
     soldiers = {
         culture = inuit
         religion = animist
-        size = 3
+        size = 30
     }
 
     farmers = {
         culture = inuit
         religion = animist
-        size = 10
+        size = 100
     }
 
     farmers = {
         culture = native_american_minor
         religion = animist
-        size = 1000
+        size = 80000
     }
 }
 #Walla Walla (4000/1000 POPS)
