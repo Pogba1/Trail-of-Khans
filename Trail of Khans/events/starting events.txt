@@ -27,6 +27,7 @@ country_event = {
 				who = LUB
 				value = 200
 			}
+			political_reform = debtors_prisons
 			any_pop = { limit = {has_pop_type = serfs} pop_type = farmers}
 			any_pop = { limit = {has_pop_type = serfs} pop_type = labourers}
 			any_pop = { limit = {has_pop_culture = russian} literacy = 0.40}
