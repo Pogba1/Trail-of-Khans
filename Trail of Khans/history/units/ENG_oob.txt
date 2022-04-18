@@ -30,7 +30,7 @@ leader = {
 
 
 leader = {
-    name = "Sir George Brown"
+    name = "George Brown"
     date = 1836.1.1
     type = land
     personality = harsh
@@ -50,7 +50,7 @@ leader = {
 
 army = {
     name = "1st Corps"
-    location = 300
+    location = 291
     regiment = {
         name= "Light Brigade"
         type = hussar
@@ -86,12 +86,29 @@ army = {
         type = artillery
         home = 295
     }
+	
+	regiment = {
+        name= "1st Artillery Division"
+        type = artillery
+        home = 292
+    }
 
+    regiment = {
+        name= "2nd Artillery Division"
+        type = artillery
+        home = 292
+    }
+	
+	regiment = {
+        name= "3rd Artillery Division"
+        type = artillery
+        home = 292
+    }
 }
 
 army = {
     name = "4th Division"
-    location = 303
+    location = 291
 
     regiment = {
         name= "1st Cavalry Division"

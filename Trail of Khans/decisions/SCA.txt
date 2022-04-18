@@ -70,6 +70,7 @@ political_decisions = {
 		tag = NOR
 		tag = SWE
 		tag = DEN
+		tag = ENG
 	}
 		NOT = {exists = SCA}
 		NOT = {has_country_flag = scandinavian_federalism}
@@ -202,6 +203,7 @@ political_decisions = {
 		potential = {
 			tag = SCA
 			NOT = {has_global_flag = reclaim_the_danelaw}
+			NOT = {primary_culture  = british_danish}
 		}
 		allow = {
 			all_core = {OR = {owned_by = THIS owner = {vassal_of = THIS}}}

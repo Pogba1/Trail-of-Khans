@@ -1607,7 +1607,13 @@
     soldiers = {
         culture = british_danish
         religion = catholic
-        size = 1500
+        size = 4500
+    }
+	
+	soldiers = {
+        culture = anglo_saxon
+        religion = catholic
+        size = 5500
     }
 
     labourers = {
