@@ -670,9 +670,9 @@ pops = {
     REDUCTION_AFTER_DEFEAT = 7.0, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
                                                                 -- (if value < 1.0, the MIL will be increased) (Beware! value must be > 0)
 
-    POP_TO_LEADERSHIP = 0.0001, -- how much leadership every 1000 officers gives each day.
+    POP_TO_LEADERSHIP = 0.00015, -- how much leadership every 1000 officers gives each day.
     ARTISAN_MIN_PRODUCTIVITY = 5, -- Minimum efficiency of an artisan
-    SLAVE_GROWTH_DIVISOR = 10, -- Slaves have N times lower growth
+    SLAVE_GROWTH_DIVISOR = 0.5, -- Slaves have N times lower growth
 
     MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
     LUXURY_CON_CHANGE = 0.001, -- con boost from over-buying luxury goods
@@ -699,7 +699,7 @@ ai =
     INDUSTRYWORKER_WEIGHT = 15.0, -- ai weight for new industry workers
     EDUCATOR_WEIGHT = 25.0, -- ai weigth for new clergy
     SOLDIER_WEIGHT = 35.0, -- ai weight for soldiers
-    SOLDIER_FRACTION = 0.045, -- max amount of population AI wants to be soldiers
+    SOLDIER_FRACTION = 0.15, -- max amount of population AI wants to be soldiers
     CAPITALIST_FRACTION = 0.007, -- max amount of population AI wants to be capis
     PRODUCTION_WEIGHT = 0.05, -- ai weight for new production
     SPAM_PENALTY = 20, -- makes certain diplomatic action less common
@@ -727,12 +727,12 @@ ai =
     PEACE_ALLY_WAR_EXHAUSTION_MULT = 1.0, -- Multiplies PEACE_WAR_EXHAUSTION_FACTOR for allies in a war
     PEACE_ALLY_WAR_DIRECTION_MULT = 0, -- Multiplies PEACE_WAR_DIRECTION_FACTOR for allies in a war
     PEACE_ALLY_FORCE_BALANCE_MULT = 0, -- Multiplies PEACE_FORCE_BALANCE_FACTOR for allies in a war
-    AGGRESSION_BASE = 5, -- general AI aggression
-    AGGRESSION_UNCIV_BONUS = 10, -- additional AI civ aggression against uncivs
-    FLEET_SIZE = 30, -- AI will attempt to keep fleets of roughly this size (fewer fleets generally results in more competent naval AI)
+    AGGRESSION_BASE = 100, -- general AI aggression
+    AGGRESSION_UNCIV_BONUS = 200, -- additional AI civ aggression against uncivs
+    FLEET_SIZE = 50, -- AI will attempt to keep fleets of roughly this size (fewer fleets generally results in more competent naval AI)
     MIN_FLEETS = 1, -- Minimum amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
     MAX_FLEETS = 20, -- Maximal amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
-    MONTHS_BEFORE_DISBAND = 8, -- Months from start date before AI will disband armies/navies (to avoid disbands because of early economic turmoil)
+    MONTHS_BEFORE_DISBAND = 1200, -- Months from start date before AI will disband armies/navies (to avoid disbands because of early economic turmoil)
 },
 
 graphics =
