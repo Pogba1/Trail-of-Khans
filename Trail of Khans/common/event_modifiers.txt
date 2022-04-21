@@ -2837,6 +2837,12 @@ settle_alaska = {
 	immigrant_attract = 1
 	icon = 19
 }
+
+mongol_larp = {
+	mobilisation_size = 0.1
+	icon = 19
+}
+
 new_slavic_metropolis = {
 	poor_life_needs = -0.1
 	middle_life_needs = -0.1

@@ -45,6 +45,7 @@ political_decisions = {
 			add_accepted_culture = tatar
 			add_accepted_culture = mongol
 			add_accepted_culture = manchu
+			add_country_modifier = {name = mongol_larp duration = -1 }
 			change_tag = MGL
 			prestige = 20
 		}
