@@ -102,7 +102,12 @@ mongol_unification = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		THIS = {tag = MGL}
+		THIS = {OR = {
+			tag = OIR
+			tag = MCK
+			tag = GOL
+			tag = MGL
+		}}
 		NOT = { is_our_vassal = THIS }
 		OR = {
 			tag = OIR

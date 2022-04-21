@@ -1435,7 +1435,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 105175
+        size = 175175
     }
 
     ######Jews #1250 pops
@@ -1475,25 +1475,25 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 450
+        size = 900
     }
 
     artisans = {
         culture = greek
         religion = orthodox
-        size = 1500
+        size = 3000
     }
 
     soldiers = {
         culture = greek
         religion = orthodox
-        size = 1200
+        size = 2400
     }
 
     farmers = {
         culture = greek
         religion = orthodox
-        size = 30150
+        size = 60300
     }
 }
 #Lamia (44000/11000 POPS)
@@ -1501,25 +1501,25 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 300
+        size = 600
     }
 
     artisans = {
         culture = greek
         religion = orthodox
-        size = 1500
+        size = 3000
     }
 
     soldiers = {
         culture = greek
         religion = orthodox
-        size = 1200
+        size = 2400
     }
 
     farmers = {
         culture = greek
         religion = orthodox
-        size = 27600
+        size = 55200
     }
 }
 #Missolonghi (140000/35000 POPS)
