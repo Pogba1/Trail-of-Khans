@@ -1,3 +1,17 @@
+MOL = {
+    value = 100
+    level = 5
+    influence_value = 25
+}
+CIR = {
+    value = 100
+    level = 5
+    influence_value = 0
+}
+
+
+
+
 army = {
     name = "Zaryevka Ord"
     location = 1040

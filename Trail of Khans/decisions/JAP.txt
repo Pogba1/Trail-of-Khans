@@ -54,6 +54,7 @@ political_decisions = {
 			inherit = KOR
 			KOR = {all_core = {add_core = JAP}}
 			set_country_flag = japan_korea_annexation_treaty
+			KOR = {all_core ={remove_core = KOR}}
         }
          ai_will_do = { factor = 1 }
     }

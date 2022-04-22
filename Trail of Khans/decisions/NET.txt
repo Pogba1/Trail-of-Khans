@@ -137,4 +137,46 @@ political_decisions = {
             modifier = { factor = 0 badboy = 0.95 }
         }
     }
+
+	release_tasmania = {
+		picture = "bahrain_trade"
+		potential = {
+		tag = NET
+		any_owned_province = {is_core = AST}
+		ai = no
+		}
+		allow = {
+		OR = {NOT = {exists = AST}
+			  AST = {vassal_of = THIS}
+			}
+		}
+		effect = {
+		release = AST
+		diplomatic_influence = {
+				who = AST
+				value = 100
+			}
+		}
+	}
+	
+	release_saf = {
+		picture = "bahrain_trade"
+		potential = {
+		tag = NET
+		any_owned_province = {is_core = SAF}
+		ai = no
+		}
+		allow = {
+		OR = {NOT = {exists = SAF}
+			  SAF = {vassal_of = THIS}
+			}
+		}
+		effect = {	
+		release = SAF
+		diplomatic_influence = {
+				who = SAF
+				value = 100
+			}
+		}
+	}
 }

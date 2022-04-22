@@ -10,6 +10,11 @@ HUN = {
     level = 5
     influence_value = 100
 }
+LIT = {
+    value = 100
+    level = 5
+    influence_value = 0
+}
 
 
 

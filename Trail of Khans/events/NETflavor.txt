@@ -104,7 +104,7 @@ country_event = {
     trigger = {
         NOT = { has_global_flag = zuid_concept }
         owns = 2087 #Kaapstad
-        year = 1840
+        year = 1836
     }
 
     fire_only_once = yes
@@ -112,12 +112,12 @@ country_event = {
     mean_time_to_happen =  {
         months = 5
         modifier = {
-            factor = 0.75 #increase likelihood to happen
-            year = 1842
+            factor = 0.99 #increase likelihood to happen
+            year = 1836
         }
         modifier = {
-            factor = 0.95 #increase likelihood to happen
-            year = 1845
+            factor = 0.75 #increase likelihood to happen
+            year = 1837
         }
     }
 

@@ -76,7 +76,7 @@ political_decisions = {
 		NOT = {has_country_flag = scandinavian_federalism}
 	}
 	allow = {
-		ideological_thought = 1
+		state_n_government = 1
 		SWE = {all_core = {
                     OR = {
                         owned_by = THIS
