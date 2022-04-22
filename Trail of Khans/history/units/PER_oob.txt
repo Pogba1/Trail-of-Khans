@@ -46,6 +46,12 @@ army = {
     }
 
     regiment = {
+        name= "8. Zamburak"
+        type = artillery
+        home = 1108
+    }
+
+    regiment = {
         name= "1. Nezam-Atlin"
         type = cavalry
         home = 1125
@@ -73,6 +79,23 @@ army = {
         home = 1122
     }
 
+    regiment = {
+        name= "5. Zamburak"
+        type = artillery
+        home = 1117
+    }
+
+    regiment = {
+        name= "6. Zamburak"
+        type = artillery
+        home = 925
+    }
+
+    regiment = {
+        name= "7. Zamburak"
+        type = artillery
+        home = 926
+    }
 }
 
 army = {
@@ -102,5 +125,28 @@ army = {
         home = 1141
     }
 
+    regiment = {
+        name= "2. Zamburak"
+        type = artillery
+        home = 923
+    }
+
+    regiment = {
+        name= "3. Zamburak"
+        type = artillery
+        home = 899
+    }
+
+    regiment = {
+        name= "4. Zamburak"
+        type = artillery
+        home = 878
+    }
+	
+	    regiment = {
+        name= "9. Zamburak"
+        type = artillery
+        home = 898
+    }
 
 }

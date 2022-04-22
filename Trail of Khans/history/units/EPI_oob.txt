@@ -73,64 +73,54 @@ army = {
 	}
 
     
+}   
+
+navy = {
+    name = "Hyperborean Fleet"
+    location = 821 # Edessa
+
+    ship = {
+        name= "Larp 1"
+        type = manowar
+    }
+
+    ship = {
+        name= "Larp 2"
+        type = manowar
+    }
+
+    ship = {
+        name= "Larp 3"
+        type = manowar
+    }
+
+    ship = {
+        name= "Larp 4" #-
+        type = manowar
+    }
+
+    ship = {
+        name= "Larp 5"
+        type = manowar
+    }
+
+    ship = {
+        name= "Larp 6"
+        type = frigate
+    }
+
+    ship = {
+        name= "Larp 7"
+        type = frigate
+    }
+
+    ship = {
+        name= "Larp 8"
+        type = frigate
+    }
+
+    ship = {
+        name= "Larp 9"
+        type = frigate
+    }
 }
-
-army = {
-    name = "Stratós ton Tiránon"
-    location = 849
-    regiment = {
-        name= "I. Sýntagma Pezikoú"
-        type = infantry
-        home = 1780
-    }
-
-    regiment = {
-        name= "II. Sýntagma Pezikoú"
-        type = infantry
-        home = 853
-    }
-
-    regiment = {
-        name= "III. Sýntagma Pezikoú"
-        type = infantry
-        home = 853
-    }
-	regiment = {
-        name= "IV. Sýntagma Pezikoú"
-        type = infantry
-        home = 851
-    }
-	regiment = {
-        name= "I. Sýntagma Pyrovolikoú"
-        type = artillery
-        home = 851
-    }
-	regiment = {
-        name= "II. Sýntagma Pyrovolikoú"
-        type = artillery
-        home = 852
-    }
-	regiment = {
-        name= "III. Sýntagma Pyrovolikoú"
-        type = artillery
-        home = 852
-    }
-	regiment = {
-        name= "IV. Sýntagma Pyrovolikoú"
-        type = artillery
-        home = 816
-    }
-	regiment = {
-        name= "V. Sýntagma Pyrovolikoú"
-        type = artillery
-        home = 815
-    }
-	regiment = {
-		name= "I. Sýntagma Ippikoú"
-		type = cavalry
-        home = 824
-	}
-
-    
-}
-
