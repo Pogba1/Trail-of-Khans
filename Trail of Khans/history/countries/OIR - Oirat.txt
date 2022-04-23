@@ -11,7 +11,7 @@ prestige = 1
 is_releasable_vassal = no
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = wealth_voting
 public_meetings = no_meeting
@@ -54,9 +54,12 @@ upper_house = {
 oob = "OIR_oob.txt"
 
 foreign_weapons = yes_foreign_weapons
+foreign_artillery = yes_foreign_artillery
+land_reform = yes_land_reform
 
 # Technologies
 flintlock_rifles = 1
+
 
 # Inventions
 modern_winemaking = yes

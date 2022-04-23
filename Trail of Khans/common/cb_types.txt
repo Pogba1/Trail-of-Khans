@@ -86,22 +86,23 @@ mongol_unification = {
 	months = 12
 	crisis = no
 
-	badboy_factor = 0.5
+	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.7
+	peace_cost_factor = 1
 	penalty_factor = 1
 	always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 6
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		year = 1837
 		THIS = {OR = {
 			tag = OIR
 			tag = MCK
@@ -122,12 +123,13 @@ mongol_unification = {
 			is_core = GOL
 			is_core = OIR
 			is_core = MCK
+			}
 		}
 	}
 
 	po_demand_state = yes
 	
-	war_name = WAR_TAKE_CORE_NAME
+	war_name = WAR_TAKE_NAME
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -250,14 +252,14 @@ chinese_unification = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.7
+	peace_cost_factor = 1.75
 	penalty_factor = 1
 	always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 5
+	truce_months = 7
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -302,7 +304,7 @@ chinese_unification_annex = {
 
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.7
+	peace_cost_factor = 1.2
 	penalty_factor = 1
 	always = yes
 
@@ -317,6 +319,7 @@ chinese_unification_annex = {
 
 	can_use = {
 	year = 1840
+		NOT = { number_of_states = 4 }
 		THIS = {OR = {primary_culture = min primary_culture = beifaren primary_culture = nanfaren}}
 		NOT = {exists = CHI}
 		NOT = { is_our_vassal = THIS }

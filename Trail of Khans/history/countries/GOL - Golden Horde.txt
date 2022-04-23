@@ -25,7 +25,7 @@ oob = "GOL_oob.txt"
 
 set_country_flag = sunni_country
 
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting

@@ -25,7 +25,7 @@ political_decisions = {
 			market_structure = 1
 		}
 		effect = {
-			#917 = {trade_goods = precious_goods}
+			917 = {trade_goods = precious_goods}
 			917 = {life_rating = 3}
 			prestige = 5
 			set_global_flag = develop_jer

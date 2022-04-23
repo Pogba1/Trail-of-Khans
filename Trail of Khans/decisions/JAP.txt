@@ -104,6 +104,7 @@ political_decisions = {
 				}
 			}
 			set_country_flag = the_eastern_capital
+			set_country_flag = line_of_advantage
         }
          ai_will_do = { factor = 1 }
     }

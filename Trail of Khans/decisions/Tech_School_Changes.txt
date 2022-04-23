@@ -337,7 +337,7 @@ political_decisions = {
                 tag = TKG
                 tag = EZO
             }
-            has_country_modifier = line_of_advantage
+            has_country_flag = line_of_advantage
             civilized = yes
         }
 
