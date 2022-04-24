@@ -13,7 +13,7 @@ political_decisions = {
 		}
 		}
 		allow = {
-			OR = {ideological_thought = 1
+			OR = {state_n_government = 1
 				  tag = RUS
 			}
 		}
@@ -34,6 +34,7 @@ political_decisions = {
 		allow = {
 			is_vassal = no
 			all_core = {owned_by = THIS}
+			nationalism_n_imperialism = 1
 			958 = {OR = {
                         owned_by = THIS
                         owner = {
@@ -154,7 +155,7 @@ political_decisions = {
 			NOT = {has_global_flag = white_russia}
 		}
 		allow = {
-			state_n_government = 1
+			revolution_n_counterrevolution = 1
 			718 = {owned_by = THIS}
 			944 = {owned_by = THIS}
 		}
@@ -173,7 +174,7 @@ political_decisions = {
 		tag = RUS
 	}
 	allow = {
-		state_n_government = 1
+		breech_loaded_rifles = 1
 	any_owned_province = {
 		 
 		OR = {

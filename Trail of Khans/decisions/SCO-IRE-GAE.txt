@@ -5,6 +5,7 @@ political_decisions = {
 			NOT = {has_country_flag = britannic_integration}
 		}
 		allow = {
+			state_n_government = 1
 			war=no
 			OR = {
 			all_core = {owned_by = THIS}
@@ -23,7 +24,7 @@ political_decisions = {
 			primary_culture = scottish
 			has_country_flag = britannic_integration
 			NOT = {has_country_flag = british_danish_integration}
-			year = 1840
+			revolution_n_counterrevolution = 1
 		}
 		allow = {
 			war=no
@@ -57,6 +58,7 @@ political_decisions = {
 		effect = {
 			297 = {add_core = THIS}
 			299 = {add_core = THIS}
+			304 = {add_core = THIS}
 			set_country_flag = hegemony_over_the_island
 		}
 	}
@@ -84,6 +86,7 @@ political_decisions = {
 			277 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
 			267 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
 		}
+		nationalism_n_imperialism = 1
 		
 		effect = {
 		change_tag = GAE
@@ -147,7 +150,7 @@ political_decisions = {
 			tag = GAU
 		}
 			NOT = {has_country_flag = welsh_integration}
-			year = 1840
+			state_n_government = 1
 		}
 		allow = {
 			war=no
@@ -193,6 +196,7 @@ political_decisions = {
 			418 = {owned_by = THIS}
 			#399 = {owned_by = THIS}
 			442 = {owned_by = THIS}
+			state_n_government = 1
 		}
 		effect = {
 			set_country_flag = attempt_reform_gaulII
@@ -226,6 +230,7 @@ political_decisions = {
 			FRA_445 = {owned_by = THIS}
 			FRA_458 = {owned_by = THIS}
 			FRA_455 = {owned_by = THIS}
+			nationalism_n_imperialism = 1
 		}
 		effect = {
 			set_country_flag = attempt_reform_gaulIII
@@ -249,6 +254,7 @@ political_decisions = {
 			420 = {owned_by = THIS}
 			434 = {owned_by = THIS}
 			418 = {owned_by = THIS}
+			empiricism = 1
 		}
 		effect = {
 			change_tag = GAU

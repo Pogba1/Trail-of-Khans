@@ -1,12 +1,13 @@
 political_decisions = {
 	conquer_caucasus_svf = {
+		picture = "unite_caucasus"
 		potential={
 			tag = SVF
 			NOT = {has_country_flag = conquer_caucasus_svf}
 		}
 		allow = {
 			is_secondary_power = yes
-			890 = {owned_by = THIS}
+			1106 = {owned_by = THIS}
 		}
 		effect = {
 			set_country_flag = conquer_caucasus_svf
@@ -18,6 +19,7 @@ political_decisions = {
 		}
 	}
 	destroy_turkmenistan = {
+		picture = "destroy_turkmenistan"
 		potential = {
 			tag = SVF
 			NOT = {has_country_flag = destroy_turkmenistan}
@@ -32,6 +34,7 @@ political_decisions = {
 		}
 	}
 	liberate_jerusalem = {
+		picture = "jerusalem"
 		potential = {
 			tag = SVF
 			NOT = {has_country_flag = liberate_jerusalem}
@@ -47,6 +50,7 @@ political_decisions = {
 		}
 	}
 	integrate_turkmen = {
+		picture = "unite_turkestan"
 		potential = {
 			tag = SVF
 			has_country_flag = destroy_turkmenistan
@@ -62,6 +66,7 @@ political_decisions = {
 	
 	}
 	push_east_svf = {
+		picture = "push_east"
 		potential = {
 			tag = SVF
 			has_country_flag = destroy_turkmenistan
