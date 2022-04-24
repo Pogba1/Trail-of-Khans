@@ -6,6 +6,13 @@ vassal = {
     start_date = 1836.1.1
     end_date = 1936.1.1
 }
+#Shewa-Gonder
+vassal = {
+    first = SHW
+    second = GON
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
 #Polish PUs
 substate = {
     first = POL
