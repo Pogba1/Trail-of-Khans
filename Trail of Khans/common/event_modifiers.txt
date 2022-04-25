@@ -2788,7 +2788,7 @@ land_grants_arg = {
 el_tofo = {
 	local_RGO_throughput = 1
 	local_RGO_output = 0.35
-	global_immigrant_attract = 1
+	global_immigrant_attract = 0.5
 	immigrant_attract = 2
 	icon = 13
 }
