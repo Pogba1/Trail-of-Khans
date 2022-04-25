@@ -10,8 +10,10 @@ political_decisions = {
 		war = no
 		state_n_government = 1
 		slavery = no_slavery
-		all_core = {owned_by =THIS}
-		
+		#all_core = {owned_by =THIS}
+		2348 = {owned_by = THIS}
+		2396 = {owned_by = THIS}
+		2389 = {owned_by = THIS}
 		}
 		effect = {
 			set_country_flag = farmland_for_immigrants
