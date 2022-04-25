@@ -2,6 +2,11 @@
 #Under rule of Argentina 1836
 #Buenos Aires (132000/33000 POPS)
 2348 = {
+	capitalists = {
+		culture = platinean
+		religion = catholic
+		size = 100
+	}
 	soldiers = {
         culture = platinean
         religion = catholic
@@ -28,7 +33,7 @@
     clergymen = {
         culture = platinean
         religion = catholic
-        size = 375
+        size = 3750
     }
 
     artisans = {
