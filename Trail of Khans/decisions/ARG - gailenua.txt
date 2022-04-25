@@ -48,11 +48,14 @@ political_decisions = {
 			not={has_country_flag = manifest_arg}
 		}
 		allow = {
-		all_core = {owned_by = THIS}
+		2375 = {owned_by = THIS}
+		2322 = {owned_by = THIS}
+		2373 = {owned_by = THIS}
 		nationalism_n_imperialism = 1
 		}
 		effect = {
 			ARG_2368 = {add_core = THIS}
+			BOL_2305 = {add_core = THIS}
 		}
 	}
 }
