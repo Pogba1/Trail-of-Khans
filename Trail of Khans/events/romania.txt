@@ -88,7 +88,6 @@ country_event = { #free romanian research points
 	}
 	
     trigger = {
-	primary_culture = romanian
 	664 = {owned_by = THIS}
 	year = 1850
 	NOT = {has_global_flag = bucharest_circle}
