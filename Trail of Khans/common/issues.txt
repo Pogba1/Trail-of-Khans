@@ -1337,6 +1337,7 @@ economic_reforms = {
         yes_firearms_production = {
             technology_cost = 12000
             civilization_progress_modifier = 0.15
+			research_points_on_conquer = 0.25
             allow = { NOT = { has_country_flag = lacking_writing_system } money = 10000 }
 
             on_execute = {
@@ -1492,6 +1493,7 @@ military_reforms = {
             land_defense_modifier = 0.1
             technology_cost = 11000
             civilization_progress_modifier = 0.1
+			research_points_on_conquer = 0.25
 
             on_execute = {
                 effect = {
@@ -1523,6 +1525,7 @@ military_reforms = {
         yes_military_constructions = {
             technology_cost = 11000
             civilization_progress_modifier = 0.1
+			research_points_on_conquer = 0.25
             allow = {
                 NOT = { has_country_flag = lacking_writing_system }
                 money = 2000
@@ -1575,7 +1578,7 @@ military_reforms = {
             leadership_modifier = 0.1
             technology_cost = 11000
             civilization_progress_modifier = 0.1
-            research_points_on_conquer = 0.55
+            research_points_on_conquer = 0.50
             allow = {
                 OR = {
                     ai = no
@@ -1617,6 +1620,7 @@ military_reforms = {
             land_unit_start_experience = 10
             technology_cost = 11000
             civilization_progress_modifier = 0.1
+			research_points_on_conquer = 0.25
             allow = {
                 NOT = { has_country_flag = lacking_writing_system }
                 OR = {
@@ -1746,6 +1750,7 @@ military_reforms = {
             naval_defense_modifier = 0.2
             technology_cost = 16000
             civilization_progress_modifier = 0.1
+			research_points_on_conquer = 0.25
 
             allow = {
                 any_owned_province = { has_building = naval_base }
@@ -1790,6 +1795,7 @@ military_reforms = {
         yes_western_shipyards = {
             technology_cost = 12000
             civilization_progress_modifier = 0.1
+			research_points_on_conquer = 0.25
 
             allow = {
                 any_owned_province = { port = yes }
@@ -1832,6 +1838,7 @@ military_reforms = {
         yes_foreign_artillery = {
             technology_cost = 11000
             civilization_progress_modifier = 0.1
+			research_points_on_conquer = 0.25
 
             on_execute = {
                 effect = {
