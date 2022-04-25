@@ -119,7 +119,7 @@ no_adjacent_controlled = {
 
 
 core = {
-
+	assimilation_rate = 0.10
 }
 
 

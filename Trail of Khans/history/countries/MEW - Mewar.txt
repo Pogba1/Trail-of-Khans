@@ -74,6 +74,8 @@ admin_reform = yes_admin_reform
 foreign_weapons = yes_foreign_weapons
 foreign_training = yes_foreign_training
 education_reform = yes_education_reform
+foreign_artillery = yes_foreign_artillery
+finance_reform = yes_finance_reform
 
 # Starting Consciousness
 consciousness = 0
