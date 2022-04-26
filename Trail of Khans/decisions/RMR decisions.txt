@@ -22,6 +22,7 @@ political_decisions = {
 							    
 								effect = {
 								          set_country_flag = assimilated_venetians
+										  prestige = 15
 								          AUS_729 = {
 										             remove_core = VEN
 										             assimilate = yes
@@ -61,13 +62,8 @@ political_decisions = {
 								
 								effect = { 
 								          set_country_flag = assimilated_savoie
-										  465 = {
-										         remove_core = FRA
-												 remove_core = LBR
-										         assimilate = yes
-												 add_core = RMR
-												}
-										  466 = {
+										  prestige = 10
+										  SAR_466 = {
 										         remove_core = FRA
 												 remove_core = LBR
 										         assimilate = yes
@@ -97,6 +93,7 @@ political_decisions = {
 										
 						            effect = {
 									          set_country_flag = assimilated_dalmatia
+											  prestige = 20
 									          AUS_780 = {
 											             remove_core = DLM
 											             add_core = RMR
