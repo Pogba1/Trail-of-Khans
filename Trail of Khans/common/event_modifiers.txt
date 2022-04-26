@@ -2923,3 +2923,8 @@ a_new_language_3 = {
 					tax_efficiency = 0.05
 					administrative_efficiency_modifier = 0.05
 				}
+
+recently_demoted = {
+icon = 8
+
+}
