@@ -1658,7 +1658,7 @@
         size = 87650
     }
 
-    serfs = {
+    labourers = {
         culture = russian
         religion = orthodox
         size = 80000
@@ -1770,7 +1770,7 @@
         size = 50875
     }
 
-    serfs = {
+    labourers = {
         culture = russian
         religion = orthodox
         size = 50000
@@ -1808,7 +1808,7 @@
         size = 47450
     }
 
-    serfs = {
+    farmers = {
         culture = russian
         religion = orthodox
         size = 40000
@@ -1952,7 +1952,7 @@
         size = 8000
     }
 
-    serfs = {
+    farmers = {
         culture = russian
         religion = orthodox
         size = 8700
@@ -2183,7 +2183,7 @@
         size = 47325
     }
 
-    serfs = {
+    farmers = {
         culture = russian
         religion = orthodox
         size = 10000
@@ -2245,7 +2245,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = ugrian
         religion = orthodox
         size = 7700
@@ -2295,7 +2295,7 @@
         size = 150
     }
 
-    serfs = {
+    farmers = {
         culture = ugrian
         religion = orthodox
         size = 3000
@@ -2370,7 +2370,7 @@
         size = 68075
     }
 
-    serfs = {
+    labourers = {
         culture = russian
         religion = orthodox
         size = 90000
@@ -2408,7 +2408,7 @@
         size = 38850
     }
 
-    serfs = {
+    labourers = {
         culture = russian
         religion = orthodox
         size = 50000
@@ -2488,7 +2488,7 @@
         size = 100
     }
 
-    serfs = {
+    labourers = {
         culture = ugrian
         religion = orthodox
         size = 9325
@@ -2555,7 +2555,7 @@
         size = 50300
     }
 
-    serfs = {
+    labourers = {
         culture = russian
         religion = orthodox
         size = 50000
@@ -2773,7 +2773,7 @@
         size = 8000
     }
 
-    serfs = {
+    farmers = {
         culture = russian
         religion = orthodox
         size = 8700
@@ -2827,7 +2827,7 @@
         size = 60925
     }
 
-    serfs = {
+    farmers = {
         culture = russian
         religion = orthodox
         size = 20000
@@ -2976,7 +2976,7 @@
         size = 58475
     }
 
-    serfs = {
+    farmers = {
         culture = russian
         religion = orthodox
         size = 20000
@@ -3014,7 +3014,7 @@
         size = 54500
     }
 
-    serfs = {
+    farmers = {
         culture = russian
         religion = orthodox
         size = 50000
@@ -3127,7 +3127,7 @@
         size = 42875
     }
 
-    serfs = {
+    farmers = {
         culture = russian
         religion = orthodox
         size = 30000
@@ -3623,7 +3623,7 @@
         size = 101975
     }
 
-    serfs = {
+    labourers = {
         culture = russian
         religion = orthodox
         size = 135000
@@ -3753,7 +3753,7 @@
         size = 39775
     }
 
-    serfs = {
+    labourers = {
         culture = russian
         religion = orthodox
         size = 80000
@@ -3823,7 +3823,7 @@
         size = 39800
     }
 
-    serfs = {
+    labourers = {
         culture = russian
         religion = orthodox
         size = 30000
@@ -4080,7 +4080,7 @@
         size = 45750
     }
 
-    serfs = {
+    labourers = {
         culture = russian
         religion = orthodox
         size = 25000
@@ -4127,7 +4127,7 @@
         size = 47990
     }
 
-    serfs = {
+    labourers = {
         culture = russian
         religion = orthodox
         size = 40610
@@ -4191,7 +4191,7 @@
 }
 #Vyatkha (504000/126000 POPS)
 1028 = {
-	serfs = {
+	farmers = {
         culture = russian
         religion = orthodox
         size = 10000
@@ -4417,7 +4417,7 @@
         size = 35400
     }
 
-    serfs = {
+    farmers = {
         culture = russian
         religion = orthodox
         size = 30000
@@ -4550,7 +4550,7 @@
         size = 61850
     }
 
-    serfs = {
+    labourers = {
         culture = russian
         religion = orthodox
         size = 60000
