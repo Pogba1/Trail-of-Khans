@@ -62,18 +62,6 @@
 		religion = catholic
 		size = 10
 	}
-	
-	capitalists = {
-		culture = ashkenazi
-        religion = jewish
-		size = 100
-	}
-	
-	capitalists = {
-		culture = french
-		religion = catholic
-		size = 100
-	}
 	farmers = {
 		culture = french
 		religion = catholic
@@ -84,53 +72,12 @@
         religion = catholic
         size = 105825
     }
-	
-	craftsmen = {
-        culture = scottish
-        religion = catholic
-        size = 100
-    }
-	craftsmen = {
-        culture = greek
-        religion = orthodox
-        size = 100
-    }
-	craftsmen = {
-		culture = irish
-		religion = catholic
-		size = 100
-	}
-	craftsmen = {
-		culture = north_german
-		religion = protestant
-		size = 100
-	}
-	craftsmen = {
-		culture = north_german
-		religion = catholic
-		size = 10
-	}
-	craftsmen = {
-		culture = south_german
-		religion = catholic
-		size = 100
-	}
-	craftsmen = {
-        culture = platinean
-        religion = catholic
-        size = 500
-    }
+
     slaves = {
         culture = afro_irish
         religion = catholic
         size = 3000
     }
-	
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 5000
-	}
 }
 #Junin (56000/14000 POPS)
 2349 = {
