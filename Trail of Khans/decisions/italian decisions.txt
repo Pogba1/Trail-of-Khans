@@ -301,9 +301,9 @@ political_decisions = {
 	             potential = {
 		                      is_culture_group = italian
 		                   }
-		             allow = { 
-					          state_n_government = 1
-							  is_greater_power = yes
+		             allow = {
+					          is_greater_power = yes
+							  state_n_government = 1
 					          war = no
 	 	                      all_core= {
 		                                 OR = {
@@ -410,7 +410,7 @@ political_decisions = {
 													   }
 												 }
 									}
-		                        }
+		                        }								
                     }
 		                 effect = {
 		                           capital = 749
@@ -436,8 +436,8 @@ political_decisions = {
 								   }	
 								   VEN = {
 								          all_core = {
-										              add_core = THIS
-													  remove_core = THIS
+										              add_core = RMR
+													  remove_core = VEN
 										  }
 								   }
 								   LOM = {
@@ -501,9 +501,25 @@ political_decisions = {
 						                              remove_core = ITA
 												}
 			                       }
+								   any_country = {
+								                  limit = {
+												           OR = {
+														         in_sphere = THIS
+														         tag = DLM
+														   }
+													}	   
+								                  any_owned = { limit= { 
+													                    is_core = RMR
+										                            }
+													    secede_province = THIS
+								                    }
+								   }				 
+															            
+											  
 								   any_owned = {
 								                limit = { 
 												         is_core = THIS
+														 NOT = { region = AUS_2538 }
 														 NOT = { region = TUR_788 }
 														 NOT = { region = AUS_771 }
 														 NOT = { region = AUS_777 }

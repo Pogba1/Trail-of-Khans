@@ -35,6 +35,11 @@ political_decisions = {
 	                       potential = {
 						                tag = RMR
 										NOT = { has_country_flag = assimilated_dalmatia }
+										NOT = { 
+										       RMR = {
+                                                       has_core = AUS_780 													   
+												}
+										}
 									}
 								allow = {
 								         nationalism_n_imperialism = 1
@@ -51,12 +56,8 @@ political_decisions = {
 						            effect = {
 									          set_country_flag = assimilated_dalmatia
 											  prestige = 20
-											  AUS_733 = {
-											             assimilate = yes
-											  }
 									          AUS_736 = {
 											             remove_core = DLM
-														 assimilate = yes
 											  }
 									          AUS_780 = {
 											             remove_core = DLM
@@ -65,8 +66,24 @@ political_decisions = {
 											  }
 											  
 									    }
-							}
-							
+					}
+	
+    assimilate_trent = {
+                        
+                        potential = {
+                                     tag = RMR
+                                     NOT = { has_country_flag = assimilated_trent }
+                                }
+                            allow = {
+                                     nationalism_n_imperialism = 1
+                                     734 = { owned_by = THIS }
+                                }
+                           effect = { 
+                                     set_country_flag = assimilated_trent
+                                     prestige = 10
+                                     734 = { assimilate = yes }
+                                }
+                    }								
 							
 	the_greeks = {
 	
