@@ -129,13 +129,12 @@ party_issues = {
     }
     citizenship_policy = {
         residency = {
-			global_assimilation_rate = 0.05
         }
         limited_citizenship = {
-            global_assimilation_rate = 0.10
+            global_assimilation_rate = 0.05
         }
         full_citizenship = {
-            global_assimilation_rate = 0.15
+            global_assimilation_rate = 0.1
         }
     }
 
