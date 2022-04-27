@@ -370,6 +370,16 @@
         religion = catholic
         size = 89775
     }
+	craftsmen = {
+		culture = south_german
+		religion = catholic
+		size = 100
+	}
+	craftsmen = {
+        culture = platinean
+        religion = catholic
+        size = 500
+    }
 }
 #Valparaiso (128000/32000 POPS)
 2325 = {
