@@ -1308,3 +1308,7 @@ release_tasmania_title;Release Tasmania;x
 release_tasmania_desc;Dominion Gaming;x
 release_saf_title;Release South Africa;
 release_saf_desc;Dominion Gaming;x
+conquest_low;Minor Conquest;;;;;;;;;;;;;
+conquest_low_desc;Conquer an 即enemy country劬;;;;;;;;;;;;;
+conquest_low_setup;Annex $RECIPIENT$;;;;;;;;;;;;;
+conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;
