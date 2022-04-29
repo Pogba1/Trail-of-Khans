@@ -141,7 +141,6 @@ political_decisions = {
 		set_country_flag = integrate_circassia
 		prestige = 1
 		add_accepted_culture = circassian
-		CIR = {all_core = {add_core = THIS}}
 		}
 		ai_will_do = { factor = 1 }
 	}
