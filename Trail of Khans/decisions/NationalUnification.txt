@@ -386,10 +386,6 @@ political_decisions = {
                             is_mobilised = no
                             is_greater_power = no
                         }
-						owner = {
-                            tag = NET
-							is_greater_power = yes
-                        }
                     }
                 }
             }
