@@ -377,7 +377,10 @@ political_decisions = {
                         owner = {
                             OR = {
 							    in_sphere = THIS
-                                vassal_of = THIS
+								AND = {
+								       in_sphere = THIS
+                                       vassal_of = THIS
+								}
                             }
                             war = no
                             is_mobilised = no
