@@ -140,6 +140,7 @@ political_decisions = {
                 tag = ARU
                 tag = ISR
 				tag = EGY
+				tag = CLP
             }
             NOT = { exists = ARA }
             OR = {

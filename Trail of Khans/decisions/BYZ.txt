@@ -321,31 +321,31 @@ political_decisions = {
         }
 
         effect = {
-			860 = {add_province_modifier ={name=settle_the_aegean_coast duration = 2190}}
-			858 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			859 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			828 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			830 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			829 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			823 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			822 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			805 = {add_province_modifier ={name=settle_the_aegean_coast duration = 3650}}
-			821 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			832 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			836 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			835 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			834 = {add_province_modifier ={name=settle_the_aegean_coast duration = 3650}}
-			838 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			845 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			843 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			844 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			861 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			862 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			863 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			864 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			865 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
-			869 = {add_province_modifier ={name=settle_the_aegean_coast duration = 3650}}
-			872 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
+			860 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			858 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			859 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			828 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			830 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			829 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			823 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			822 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			805 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			821 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			832 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			836 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			835 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			834 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			838 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			845 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			843 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			844 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			861 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			862 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			863 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			864 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			865 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			869 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			872 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
             set_country_flag = settle_the_aegean_coast
         }
         ai_will_do = { factor = 1 }
@@ -632,7 +632,7 @@ political_decisions = {
         effect = {
             prestige = 15
 			749 = {add_core = BYZ}
-			749 = {add_province_modifier={name = rome_renovated duration = 3650}}
+			749 = {add_province_modifier={name = rome_renovated duration = 365}}
 			capital = 749
             set_country_flag = patriarchate_of_rome
             any_pop = {
@@ -648,53 +648,4 @@ political_decisions = {
         }
         ai_will_do = { factor = 0 }
     }
-	#integrate_the_armenians = {
-    #    picture = "build_teresina"
-    #    potential = {
-    #       tag = BYZ
-	#	   NOT={has_country_flag=integrate_the_armenians}
-    #    }
-	#
-    #    allow = {
-    #        war = no
-    #        nationalism_n_imperialism = 1
-    #    }
-	#
-    #    effect = {
-    #        prestige = 5
-    #        set_country_flag = integrate_the_armenians
-	#		1105 = {add_core = THIS}
-	#		885 = {add_core = THIS}
-	#		890 = {add_core = THIS}
-	#		891 = {add_core = THIS}
-	#		2414 = {add_core = THIS}
-	#		893 = {add_core = THIS}
-	#		889 = {add_core = THIS}
-	#		899 = {add_core = THIS}
-	#		1093 = {add_core = THIS}
-	#		1099 = {add_core = THIS}
-	#		1098 = {add_core = THIS}
-	#		1100 = {add_core = THIS}
-	#		1101 = {add_core = THIS}
-	#		1109 = {add_core = THIS}
-	#		1106 = {add_core = THIS}
-	#		1102 = {add_core = THIS}
-	#		1108 = {add_core = THIS}
-	#		1112 = {add_core = THIS}
-	#		1107 = {add_core = THIS}
-	#		1090 = {add_core = THIS}
-	#		892 = {add_core = THIS}
-    #        add_accepted_culture = armenian
-    #    }
-	#	ai_will_do = {					
-	#	factor = 1
-	#	}
-    #    
-    #}
-
-
-
-
-
-	
 }

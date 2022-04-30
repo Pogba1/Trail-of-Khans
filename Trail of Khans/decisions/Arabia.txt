@@ -333,7 +333,7 @@ political_decisions = {
             NOT = { exists = ARA }
             NOT = {
                 1151 = { is_core = NEJ }
-            }
+            }				
         }
 
         allow = {
@@ -371,7 +371,7 @@ political_decisions = {
             NOT = { exists = ARA }
             NOT = {
                 1151 = { is_core = HAL }
-            }
+            }				
         }
 
         allow = {
@@ -405,12 +405,13 @@ political_decisions = {
     claim_arabia_HDJ = {
         picture = map_arabia
         potential = {
+
             tag = HDJ
             exists = yes
             NOT = { exists = ARA }
             NOT = {
                 1157 = { is_core = HDJ }
-            }
+            }				
         }
 
         allow = {

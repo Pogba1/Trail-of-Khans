@@ -249,7 +249,7 @@ political_decisions = {
 			has_country_flag = attempt_reform_gaulIII
 		}
 		allow = {
-			NOT = {exists = FRA}
+			all_core = {owned_by = THIS}
 			425 = {owned_by = THIS}
 			420 = {owned_by = THIS}
 			434 = {owned_by = THIS}

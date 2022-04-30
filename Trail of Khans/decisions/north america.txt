@@ -54,8 +54,16 @@ political_decisions = {
 			}
 		}
 		allow = {
-			 LOU = {all_core = {OR = {owned_by = THIS owner = {in_sphere = THIS} owner = {vassal_of = THIS}}}}
-			 QUE = {all_core = {OR = {empty = yes owned_by = THIS owner = {in_sphere = THIS} owner = {vassal_of = THIS}}}}
+			 LOU = {all_core = {OR = {owned_by = THIS owner = {vassal_of = THIS}}}}
+			 QUE = {
+				all_core = {
+					OR = {
+						empty = yes
+						owned_by = THIS
+						owner = {vassal_of = THIS}			
+					}
+				}
+			}
 			 nationalism_n_imperialism = 1
 		}
 		effect = {

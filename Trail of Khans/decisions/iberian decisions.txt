@@ -19,18 +19,13 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = unite_the_peninsula
-			SPA_513 = {add_core = THIS}
-			SPA_474 = {add_core = THIS}
-			SPA_477 = {add_core = THIS}
 			SPA_484 = {add_core = THIS}
 			SPA_487 = {add_core = THIS}
-			SPA_492 = {add_core = THIS}
 			SPA_503 = {add_core = THIS}
-			SPA_512 = {add_core = THIS}
 			POR_518 = {add_core = THIS}
 			POR_521	= {add_core = THIS}
-			POR_525 = {add_core = THIS}
 			POR_2134 = {add_core = THIS}
+			POR_525 = {add_core = THIS}
 			502 = {add_core = THIS}
 			}
 	}
