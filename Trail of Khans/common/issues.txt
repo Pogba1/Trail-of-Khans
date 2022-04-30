@@ -497,7 +497,7 @@ political_reforms = {
             }
         }
         four_year_draft = {
-            mobilisation_size = 0.05
+            mobilisation_size = 0.04
             mobilisation_economy_impact = 0.1
             land_unit_start_experience = 5
             global_immigrant_attract = -0.05
@@ -506,14 +506,14 @@ political_reforms = {
             }
         }
         two_year_draft = {
-            mobilisation_size = 0.03
+            mobilisation_size = 0.02
             mobilisation_economy_impact = 0.05
             allow = {
                 NOT = { has_country_flag = government_busy_with_something }
             }
         }
         one_year_draft = {
-            mobilisation_size = 0.02
+            mobilisation_size = 0.01
             global_immigrant_attract = 0.01
             land_unit_start_experience = -2
             allow = {
@@ -525,7 +525,6 @@ political_reforms = {
             }
         }
         no_draft = {
-			mobilisation_size = 0.01
             global_immigrant_attract = 0.03
             land_unit_start_experience = -5
             allow = {
