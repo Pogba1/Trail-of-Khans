@@ -31,6 +31,7 @@ political_decisions = {
 						NOT = {province_id = 251}
 						NOT = {province_id = 2636}
 						NOT = {province_id = 252}
+						NOT = {province_id = 2223}
 					}
 				}
 				secede_province = NEW
