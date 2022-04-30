@@ -2,6 +2,6 @@ owner = FRA
 controller = FRA
 add_core = FRA
 add_core = BSQ
-add_core = ATR
+#add_core = ATR
 trade_goods = grain
 life_rating = 35
