@@ -331,6 +331,7 @@ political_decisions = {
         potential = {
             tag = NEJ
             NOT = { exists = ARA }
+			NOT = { exists = CLP }
             NOT = {
                 1151 = { is_core = NEJ }
             }
@@ -369,6 +370,7 @@ political_decisions = {
         potential = {
             tag = HAL
             NOT = { exists = ARA }
+			NOT = { exists = CLP }
             NOT = {
                 1151 = { is_core = HAL }
             }
@@ -408,6 +410,7 @@ political_decisions = {
             tag = HDJ
             exists = yes
             NOT = { exists = ARA }
+			NOT = { exists = CLP }
             NOT = {
                 1157 = { is_core = HDJ }
             }

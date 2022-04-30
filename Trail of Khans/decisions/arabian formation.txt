@@ -8,6 +8,7 @@ political_decisions = {
                 tag = HAL
             }
             NOT = { exists = ARA }
+			NOT = { exists = CLP }
         }
 
         allow = {
@@ -142,6 +143,7 @@ political_decisions = {
 				tag = EGY
             }
             NOT = { exists = ARA }
+			NOT = { exists = CLP }
             OR = {
                 is_sphere_leader_of = NEJ
                 is_sphere_leader_of = HDJ
