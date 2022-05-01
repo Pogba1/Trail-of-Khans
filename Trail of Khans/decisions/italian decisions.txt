@@ -413,7 +413,27 @@ political_decisions = {
 													   }
 												 }
 									}
-		                        }								
+		                        }
+		                      VEN = {
+		                             all_core = {
+									             OR = {
+												       owned_by = THIS
+													   owner = {
+													            OR = {
+																      AND = {
+																	         tag = VEN
+																			 in_sphere = this
+																	  }
+																	  AND = {
+																	         is_culture_group = italian
+																			 in_sphere = this
+																	  }
+																	  is_culture_group = germanic
+															    }
+													   }
+												 }
+									}
+		                        }                                    							  
                     }
 		                 effect = {
 		                           capital = 749
@@ -512,6 +532,7 @@ political_decisions = {
 														   }
 													}	   
 								                  any_owned = { limit= { 
+												                        NOT = { province_id = 734  }
 													                    is_core = RMR
 										                            }
 													    secede_province = THIS
