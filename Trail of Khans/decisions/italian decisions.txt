@@ -153,7 +153,10 @@ political_decisions = {
 	
 	                      potential = {
 						               tag = SIC
-									   has_country_flag = oversee_the_papacy
+									   OR = {
+									         has_country_flag = oversee_the_papacy
+											 PAP = { all_core = { owned_by = THIS } }
+									   }
 									   NOT = {
 									          has_country_flag = the_march_north
 											}
