@@ -43,7 +43,7 @@ personality = {
         defence = 2
     }
 	highlander = {
-		attack = 3
+		attack = 2
 		speed = 0.2
 		morale = 0.2
 	}
@@ -189,8 +189,8 @@ personality = {
 		speed = 0.01
 	}
 	spartan = {
-		attack = 3
-		defence = 3
+		attack = 2
+		defence = 2
 		speed = 0.01
 	}
     unflinching = {
