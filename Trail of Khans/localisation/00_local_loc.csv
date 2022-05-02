@@ -1316,5 +1316,5 @@ NORMAL_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$
 AGRESSION_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
 mongol_unification_desc;Aquire an enemy §Ystate§W;;;;;;;;;;;;;
 mongol_unification_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;
-mongol_unification_short;Acquire $STATE;;;;;;;;;;;;;
+mongol_unification_short;Acquire $STATE$;;;;;;;;;;;;;
 mongol_unification;Mongol Unification;;;;;;;;;;;;;
