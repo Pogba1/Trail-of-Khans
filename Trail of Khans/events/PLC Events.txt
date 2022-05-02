@@ -105,31 +105,72 @@ country_event = {
 	}
 	
 country_event = {
-                 id = 400003
-				 title = "EVTNAME400002"
-				 desc = "EVTDESC400003"
+                 id=400003
+				 title="EVTNAME400003"
+				 desc="EVTDESC400003"
 				 
-				 fire_only_once = yes
-				 
-				 mean_time_to_happen = { months = 12 }
+				 fire_only_once=yes
+				 mean_time_to_happen={months = 9}
 				 
 				 trigger = {
 				            tag=PLC
 							has_country_flag=full_integration
 							has_country_flag=slavic_integration
-							NOT = { accepted_culture = hungarian }
-                            NOT = { accepted_culture = czech }
-                            NOT = {	accepted_culture = slovak }
                  }
-                 immediate = {
-						      release = HUN									
-						      add_truce = { year = 1 }
-						   } 
+                 immediate = { release = HUN } 
                  option = {
                            name="They will answer for their defiance of the Jagiellon crown!"
                            
-                           set_country_flag = hungarian_revolt		                 
-						   prestige = -30
-						   relation = { who = HUN value = -200 }
+                           set_country_flag=hungarian_revolt		                 
+						   prestige=-30
+						   relation={ who = HUN value = -200 }
 				 }
 }
+
+country_event = {
+                 id=400004
+				 title="EVTNAME400004"
+				 desc="EVTDESC400004"
+				 
+				 fire_only_once=yes
+				 mean_time_to_happen={months=4}
+				 
+				 trigger = { tag = PLC HUN = { exists = yes } has_country_flag = hungarian_revolt }
+				 
+				 option = {
+				           name="It is time to restore our rule over Hungary"
+						   
+						   set_country_flag=war_in_hungary
+				           war = {
+						          target=HUN 
+								  attacker_goal = { annex_core_country }
+								  defender_goal = { cut_down_to_size }
+						   }
+				 }
+}
+
+country_event = {
+                 id=400005
+				 title="EVTNAME400005"
+				 desc="EVTDESC400005"
+				 
+				 fire_only_once=yes
+				 mean_time_to_happen={days=5}
+				 
+				 trigger={ tag=PLC NOT = { HUN = {exists = yes} } has_country_flag=war_in_hungary }
+				 
+				 option={ 
+				         name="Let our reign be long and prosperous"
+						 
+						 clr_country_flag=war_in_hungary
+						 
+						 any_pop={
+						          limit={has_pop_culture = hungarian}
+								  militancy=-2
+								  consciousness=5
+						 }
+								  
+						HUN = { any_core = { add_core = THIS } }
+                 }
+}				 
+				 

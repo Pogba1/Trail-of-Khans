@@ -56,6 +56,7 @@ political_decisions = {
 	potential = {
 		tag=PLC
 		has_country_flag=full_integration
+		has_country_flag=war_in_hungary
 		NOT={
 			accepted_culture=czech 
 			accepted_culture=hungarian

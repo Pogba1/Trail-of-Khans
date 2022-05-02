@@ -301,9 +301,7 @@ political_decisions = {
 	
     form_rome = { 
 	
-	             potential = {
-		                      is_culture_group = italian
-		                   }
+	             potential = { is_culture_group = italian NOT = { ITA = { exists = yes } } }
 		             allow = {
 					          is_greater_power = yes
 							  state_n_government = 1
