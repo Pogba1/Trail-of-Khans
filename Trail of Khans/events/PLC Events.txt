@@ -103,10 +103,7 @@ country_event = {
 						  }
 				 }				   
 	}
-
-##################
-#Hungarian Revolt#
-##################
+	
 country_event = {
                  id = 400003
 				 title = "EVTNAME400002"
