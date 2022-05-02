@@ -5,8 +5,8 @@
 country_event = {
 
     id = 99403 
-	title = "Storm the Southern Italians"
-    desc = "Italia has been split between small city states, the southern sicilians and the papacy for 1000 years now. This status quo cannot last, we shall take this matter into our own hands NOW!"
+	title = "EVTNAME99403"
+    desc = "EVTDESC99403"
     picture = garibaldi_mentana
 	
 	is_triggered_only = yes
@@ -31,8 +31,8 @@ country_event = {
 country_event = {
                  
 				 id = 99532
-				 title = "The March North"
-				 desc = "Italia has been split between the small city states and merchant republics of the norths, the papacy and finally us the Two Sicilies. This status quo cannot last much longer, we shall take this matter into our own hands NOW!"
+				 title = "EVTNAME99532"
+				 desc = "EVTDESC99532"
 				 
 				 is_triggered_only = yes
 				 
@@ -48,3 +48,4 @@ country_event = {
 						  }
 			   }
 }
+

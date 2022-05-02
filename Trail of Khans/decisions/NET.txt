@@ -34,11 +34,10 @@ political_decisions = {
 	integrate_picards = {
 		potential = {
 		tag = NET
-
 		NOT = {has_country_flag = integrate_picards}
-		has_country_flag = integrate_wallonians
 		}
 		allow = {
+		    state_n_government = 1
 			FRA_404 = {owned_by = THIS}
 		}
 		effect = {
