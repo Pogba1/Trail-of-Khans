@@ -101,8 +101,7 @@ political_decisions = {
 		NOT={
 			accepted_culture=czech 
 			accepted_culture=hungarian
-			accepted_culture=slovak
-		}
+			}
 	}
 	allow = {
 		year=1855
