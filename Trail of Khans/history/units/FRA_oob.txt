@@ -235,6 +235,71 @@ TRZ = { value = -100 }
 #    }
 #}
 army = {
+    name = "L'armée de L'Occident"
+	location = 425
+	
+	regiment = {
+	    name = "Compagnie de Rouen"
+		type = "infantry"
+		home = 415
+    }
+	
+	regiment = {
+	    name = "Compagnie de d'Évreux"
+		type = "infantry"
+		home = 416
+    }
+	
+	regiment = {
+	    name = "Cuirassiers d'Alençon"
+		type = "cuirassier"
+		home = 417
+    }
+	
+	regiment = {
+	    name = "Guardes du Roi Louis"
+		type = "guard"
+		home = 426
+    }
+
+	regiment = {
+	    name = "Guardes de Paris"
+		type = "guard"
+		home = 425
+    }
+	
+		regiment = {
+	    name = "1ière division des Explosifs"
+		type = "artillery"
+		home = 427
+    }
+	
+		regiment = {
+	    name = "2ième division des Explosifs"
+		type = "artillery"
+		home = 406
+    }
+
+		regiment = {
+	    name = "3ième division des Explosifs"
+		type = "artillery"
+		home = 438
+    }
+	
+		regiment = {
+	    name = "4ième division des Explosifs"
+		type = "artillery"
+		home = 440
+    }
+
+		regiment = {
+	    name = "5ième division des Explosifs"
+		type = "artillery"
+		home = 430
+    }
+	
+}
+army = {
     name = "1ère Armée"
     location = 407
 
