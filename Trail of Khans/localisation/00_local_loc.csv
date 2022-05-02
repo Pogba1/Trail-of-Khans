@@ -109,10 +109,6 @@ GBY_prussian_constitutionalism;Wittelsbach Empire;x
 GBY_ADJ;Bavarian;x
 GC_NAME;Schizo Campaign;x
 GC_DESC;You forgot your pills again! You just woke up in a strange world where Hyperborean Byzantium is real and the Mongol empire did a large amount of trolling, Poland is very epic and the Italians colonized the Americas.;x
-mongol_unification_cb;Mongol Unification;x
-mongol_unification_setup;Mongol Unification;x
-mongol_unification_short;Mongol Unification;x
-mongol_unification;Mongol Unification;x
 beifaren_integration_title;Beifaren Integration;x
 beifaren_integration_desc; ;x
 restore_the_empire_title;Restore the Empire;x
@@ -1318,3 +1314,7 @@ negotiated_transfer_short;$RECIPIENT$ receives $STATE$ from us;;;;;;;;;;;;;x
 negotiated_transfer_setup;Transfer $STATE$ from our country to $RECIPIENT$;;;;;;;;;;;;x
 NORMAL_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
 AGRESSION_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
+mongol_unification_desc;Aquire an enemy §Ystate§W;;;;;;;;;;;;;
+mongol_unification_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;
+mongol_unification_short;Acquire $STATE;;;;;;;;;;;;;
+mongol_unification;Mongol Unification;;;;;;;;;;;;;
