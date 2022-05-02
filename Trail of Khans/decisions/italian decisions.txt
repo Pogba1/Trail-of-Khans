@@ -312,9 +312,13 @@ political_decisions = {
 		                                 OR = {
 										       owned_by = THIS
 											   owner = {
-											            in_sphere = THIS
+											            OR = {
+															  vassal_of = THIS
+															  }
+													    in_sphere = THIS
+														}
 											   }
-								        }
+									    }
 			                    }
 		                      GEN = {
 		                             all_core = {
@@ -324,6 +328,7 @@ political_decisions = {
 													            OR = {
 																      tag = GEN
 																	  is_culture_group = italian
+																	  vassal_of = THIS
 															    }
 																in_sphere = THIS
 													   }
@@ -338,6 +343,7 @@ political_decisions = {
 													            OR = {
 																      tag = PAP
 																	  is_culture_group = italian
+																	  vassal_of = THIS
 															    }
 																in_sphere = THIS
 													   }
@@ -352,6 +358,7 @@ political_decisions = {
 													            OR = {
 																      tag = LOM
 																	  is_culture_group = italian
+																	  vassal_of = THIS
 															    }
 																in_sphere = THIS
 													   }
@@ -366,6 +373,7 @@ political_decisions = {
 													            OR = {
 																      tag = PAR
 																	  is_culture_group = italian
+																	  vassal_of = THIS
 															    }
 																in_sphere = THIS
 													   }
@@ -380,6 +388,7 @@ political_decisions = {
 													            OR = {
 																      tag = MOD
 																	  is_culture_group = italian
+																	  vassal_of = THIS
 															    }
 																in_sphere = THIS
 													   }
@@ -394,6 +403,7 @@ political_decisions = {
 													            OR = {
 																      tag = RMG
 																	  is_culture_group = italian
+																	  vassal_of = THIS
 															    }
 																in_sphere = THIS
 													   }
@@ -408,6 +418,7 @@ political_decisions = {
 													            OR = {
 																      tag = SIC
 																	  is_culture_group = italian
+																	  vassal_of = THIS
 															    }
 																in_sphere = THIS
 													   }
@@ -420,6 +431,7 @@ political_decisions = {
 												       owned_by = THIS
 													   owner = {
 													            OR = {
+																      vassal_of = THIS
 																      AND = {
 																	         tag = VEN
 																			 in_sphere = this

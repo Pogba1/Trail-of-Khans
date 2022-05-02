@@ -1312,3 +1312,9 @@ conquest_low;Minor Conquest;;;;;;;;;;;;;
 conquest_low_desc;Conquer an 即enemy country劬;;;;;;;;;;;;;
 conquest_low_setup;Annex $RECIPIENT$;;;;;;;;;;;;;
 conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;
+negotiated_transfer;Negotiated Transfer;;;;;;;;;;;;;x
+negotiated_transfer_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism;;;;;;;;;;;;x
+negotiated_transfer_short;$RECIPIENT$ receives $STATE$ from us;;;;;;;;;;;;;x
+negotiated_transfer_setup;Transfer $STATE$ from our country to $RECIPIENT$;;;;;;;;;;;;x
+NORMAL_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
+AGRESSION_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x

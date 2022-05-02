@@ -376,13 +376,13 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 30650
+        size = 130650
     }
 
     clergymen = {
         culture = north_german
         religion = catholic
-        size = 200
+        size = 2000
     }
 
     artisans = {
