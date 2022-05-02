@@ -36,10 +36,12 @@ political_decisions = {
 			tag=PLC
 			accepted_culture=hungarian
 			NOT={accepted_culture=romanian}
+			NOT={has_country_flag=full_integration}
 		}
 		allow = {				            
 			empiricism = 1
 			war=no
+			ROM = { all_core = { owned_by = THIS } }
 		}
         effect = {
 			add_accepted_culture=romanian
@@ -48,15 +50,54 @@ political_decisions = {
 			limit={culture=romanian}
 			militancy=-1
 			}
+			ROM = { all_core = { add_core = THIS } }
 		}	
 	}
 	
+	plc_slavic_brother = {
+	                       picture="form_czechoslovakia"
+	                       potential = {
+						                tag=PLC
+						                has_country_flag=slavic_integration
+										NOT = { accepted_culture = ukrainian }
+									}
+							   allow = {
+							            revolution_n_counterrevolution = 1
+										is_greater_power = yes
+										war = no
+										UKR = { all_core = { owned_by = THIS } }										
+								    }
+							  effect = {
+							            add_accepted_culture = ukrainian
+										UKR = { all_core = { add_core = THIS } }
+							            presige = 30
+								    }
+				}
+	
+    plc_balkan_strategy = {
+                           picture="romanians_marching"
+                           potential = {
+						                tag=PLC
+						                has_country_flag = hungarian_integration
+									    NOT={accepted_culture=serbian}
+								}
+							   allow = {
+							            revolution_n_counterrevolution = 1
+										is_greater_power = yes
+										war = no
+										SER = { all_core = { owned_by = THIS } }
+								}
+							  effect = {
+										add_accepted_culture = serbians
+										prestige = 30
+										SER = { all_core = { add_core = THIS } }
+								}
+				}
 	plc_full_integration = {
 	picture = "form_czechoslovakia"
 	potential = {
 		tag=PLC
 		has_country_flag=full_integration
-		has_country_flag=war_in_hungary
 		NOT={
 			accepted_culture=czech 
 			accepted_culture=hungarian
@@ -66,11 +107,12 @@ political_decisions = {
 	allow = {
 		year=1855
 		nationalism_n_imperialism = 1
+		war=no
     }
 	effect = {
 		add_accepted_culture=czech
 		add_accepted_culture=hungarian
-		add_accepted_culture=slovak
+		add_accepted_culture=lithuanian
 		prestige=75
 		}
     }														 

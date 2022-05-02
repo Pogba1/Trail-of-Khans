@@ -1,7 +1,7 @@
 country_event = {
     id = 400001
-    title = "The Unification of Jagiellon Holdings"
-    desc = "DESC400001"
+    title = "EVTNAME400001"
+    desc = "EVTDESC400001"
     picture = "regency"
 
     trigger = {
@@ -65,12 +65,12 @@ country_event = {
 				           name="The Hungarians are too important to our crown."
 						   
 						   add_accepted_culture=hungarian
+						   add_accepted_culture=slovak
 						   prestige=15
 						   
 						   any_pop={
 						            limit = {
 									         has_pop_culture=czech
-									         has_pop_culture=slovak
 									}
 									militancy=2
 									consciousness=3
@@ -88,6 +88,7 @@ country_event = {
 								            has_pop_culture=czech
 								            has_pop_culture=slovak
 								            has_pop_culture=hungarian
+											has_pop_culture=lithuanian
 								   }
 						           militancy=-1
 								   consciousness=4
@@ -101,6 +102,7 @@ country_event = {
 								   militancy=4
 								   consciousness=3
 						  }
+						  add_accepted_culture=slovak
 				 }				   
 	}
 	
@@ -110,12 +112,13 @@ country_event = {
 				 desc="EVTDESC400003"
 				 
 				 fire_only_once=yes
-				 mean_time_to_happen={months = 9}
+				 mean_time_to_happen={months = 4}
 				 
 				 trigger = {
 				            tag=PLC
-							has_country_flag=full_integration
 							has_country_flag=slavic_integration
+						    }
+							NOT = { has_country_flag = hungarian_integration }
                  }
                  immediate = { release = HUN } 
                  option = {
@@ -133,18 +136,18 @@ country_event = {
 				 desc="EVTDESC400004"
 				 
 				 fire_only_once=yes
-				 mean_time_to_happen={months=4}
+				 mean_time_to_happen={months=2}
 				 
 				 trigger = { tag = PLC HUN = { exists = yes } has_country_flag = hungarian_revolt }
 				 
 				 option = {
 				           name="It is time to restore our rule over Hungary"
 						   
-						   set_country_flag=war_in_hungary
+						   set_country_flag=war_in_hungary	  
 				           war = {
 						          target=HUN 
-								  attacker_goal = { annex_core_country }
-								  defender_goal = { cut_down_to_size }
+								  attacker_goal = { casus_belli = annex_core_country }
+								  defender_goal = { casus_belli = cut_down_to_size }
 						   }
 				 }
 }
@@ -167,10 +170,54 @@ country_event = {
 						 any_pop={
 						          limit={has_pop_culture = hungarian}
 								  militancy=-2
-								  consciousness=5
+								  consciousness=-3
 						 }
 								  
-						HUN = { any_core = { add_core = THIS } }
+						HUN = { all_core = { add_core = THIS } }
                  }
 }				 
+
+country_event = {
+                 id=400006
+				 title="EVTNAME400006"
+				 desc="EVTDESC400006"
 				 
+				 fire_only_once=yes
+				 mean_time_to_happen={months = 4}
+				 
+				 trigger = {
+				            tag=PLC
+							has_country_flag=hungarian_integration
+						    }
+							NOT = { has_country_flag = hungarian_integration }
+                 }
+                 immediate = { release = BOH } 
+                 option = {
+                           name="They will answer for their defiance of the Jagiellon crown!"
+                           
+                           set_country_flag=bohemian_revolt		                 
+						   prestige=-30
+						   relation={ who = BOH value = -200 }
+				 }
+}
+
+country_event = {
+                 id=400007
+				 title="EVTNAME400007"
+				 desc="EVTDESC400007"
+				 
+				 fire_only_once=yes
+				 mean_time_to_happen={days=5}
+				 
+				 trigger={ tag=PLC NOT = { HUN = {exists = yes} } has_country_flag=bohemian_revolt }
+				 
+				 option={ 
+				         name="Let our reign be long and prosperous"
+						 
+						 any_pop={
+						          limit={has_pop_culture = hungarian}
+								  militancy=-2
+								  consciousness=-3
+						 }
+                }
+}				 
