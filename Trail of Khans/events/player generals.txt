@@ -3,9 +3,10 @@ country_event = {
 	allow_multiple_instances = yes
 	picture = "joe_biden"
 	trigger = {
-	ai = no
-	NOT = {
+		ai = no
+		NOT = {
 			has_leader = "Joe Biden"
+		}
 	}
 	mean_time_to_happen = {
 		days = 1

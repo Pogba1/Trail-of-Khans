@@ -1,7 +1,7 @@
 texture tex0 < string name = "River.tga"; >;
 texture tex1 < string name = "RiverMovement.tga"; >;
 texture tex2 < string name = "TerraIncog.dds"; >;		// Borders texture
-texture tex3 < string name = "colormap_rivers.dds"; >;
+texture tex3 < string name = "colormap_water.dds"; >;
 
 
 #define X_OFFSET 0.5
