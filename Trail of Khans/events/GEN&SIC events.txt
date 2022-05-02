@@ -16,9 +16,8 @@ country_event = {
               GEN = { 
 			         war = {
 	                        target = SIC
-	                        attacker_goal = {
-	                                         casus_belli = conquest
-										}
+	                        attacker_goal = { casus_belli = conquest }
+							defender_goal = { casus_belli = cut_down_to_size }
 	                    }       
              }
       }
@@ -41,9 +40,8 @@ country_event = {
 						   SIC = {
 						          war = {
 								         target = GEN
-										 attacker_goal =
-										                 {casus_belli = conquest
-												    }
+										 attacker_goal = { casus_belli = conquest }
+										 defender_goal = { casus_belli = cut_down_to_size }
 									}
 						  }
 			   }
