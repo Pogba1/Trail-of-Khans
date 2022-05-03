@@ -513,7 +513,7 @@ diplomacy = {
 
     LIBERATE_STATE_RELATION_INCREASE = 50,
     DISHONORED_CALLALLY_PRESTIGE_PENALTY = -3,
-    BASE_TRUCE_MONTHS = 12,
+    BASE_TRUCE_MONTHS = 0,
     MAX_INFLUENCE = 100,
     WARSUBSIDIES_PERCENT = 0.20, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
     NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.50, -- Bonus to neighbouring countries when influencing
