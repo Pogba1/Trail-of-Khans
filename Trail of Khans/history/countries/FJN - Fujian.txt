@@ -36,12 +36,12 @@ border_policy = closed_borders
 
 set_country_flag = mahayana_country
 
-ruling_party = FJN_conservative
+ruling_party = CHI_conservative
 upper_house = {
     fascist = 0
-    liberal = 5
-    conservative = 90
-    reactionary = 5
+    liberal = 0
+    conservative = 75
+    reactionary = 25
     anarcho_liberal = 0
     socialist = 0
     communist = 0

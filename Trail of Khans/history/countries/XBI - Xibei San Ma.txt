@@ -33,16 +33,17 @@ child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = closed_borders
 
-ruling_party = XBI_reactionary_2
+ruling_party = CHI_conservative
 upper_house = {
     fascist = 0
-    liberal = 10
-    conservative = 0
-    reactionary = 100
+    liberal = 0
+    conservative = 75
+    reactionary = 25
     anarcho_liberal = 0
     socialist = 0
     communist = 0
 }
+
 
 govt_flag = {
     government = presidential_dictatorship
