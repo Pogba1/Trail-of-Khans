@@ -1,3 +1,4 @@
+
 capital = 1555
 primary_culture = manchu
 culture = mongol
@@ -38,17 +39,17 @@ border_policy = closed_borders
 
 set_country_flag = mahayana_country
 
-ruling_party = MCK_conservative
-last_election = 1834.1.1
+ruling_party = CHI_conservative
 upper_house = {
     fascist = 0
     liberal = 0
-    conservative = 100
-    reactionary = 0
+    conservative = 75
+    reactionary = 25
     anarcho_liberal = 0
     socialist = 0
     communist = 0
 }
+
 
 land_reform = yes_land_reform
 foreign_weapons = yes_foreign_weapons

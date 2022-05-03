@@ -1,3 +1,4 @@
+
 capital = 1482
 primary_culture = min
 culture = nanfaren
@@ -37,16 +38,17 @@ border_policy = closed_borders
 
 set_country_flag = mahayana_country
 
-ruling_party = GNG_conservative
+ruling_party = CHI_conservative
 upper_house = {
     fascist = 0
-    liberal = 20
-    conservative = 70
-    reactionary = 10
+    liberal = 0
+    conservative = 75
+    reactionary = 25
     anarcho_liberal = 0
     socialist = 0
     communist = 0
 }
+
 
 foreign_weapons = yes_foreign_weapons
 

@@ -37,7 +37,7 @@ border_policy = closed_borders
 
 set_country_flag = mahayana_country
 
-ruling_party = MAO_conservative
+ruling_party = CHI_conservative
 upper_house = {
     fascist = 0
     liberal = 0
@@ -47,6 +47,7 @@ upper_house = {
     socialist = 0
     communist = 0
 }
+
 
 
 foreign_weapons = yes_foreign_weapons

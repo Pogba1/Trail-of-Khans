@@ -11,10 +11,8 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = conquer_caucasus_svf
-			TUR_890 = {add_core = THIS}
-			RUS_1098 = {add_core = THIS}
-			RUS_1102 = {add_core = THIS}
-			RUS_1090 = {add_core = THIS}
+			PNT = { all_core = { add_core = THIS } }
+			1103 = {add_core = THIS}
 			add_accepted_culture = azerbaijani
 		}
 	}
