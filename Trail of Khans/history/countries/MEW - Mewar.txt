@@ -65,6 +65,8 @@ foreign_weapons = yes_foreign_weapons
 foreign_training = yes_foreign_training
 education_reform = yes_education_reform
 
+oob = "MEW_oob.txt"
+
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
