@@ -64,9 +64,9 @@ USA_129 = { 131 129 130 } #Oklahoma
 
 TEX_132 = { 133 43 132 134 135 136 137 138 } #Texas
 
-USA_139 = { 139 140 141 142 } #Louisiana
+USA_139 = { 144 141 142 } #West Missisipi
 
-USA_144 = { 143 144 145 } #Arkansas
+USA_144 = { 143 145 } #Arkansas
 
 USA_148 = { 146 148 147 149 150 } #Missouri
 
@@ -88,7 +88,7 @@ USA_185 = { 184 185 186 187 } #Kentucky
 
 USA_188 = { 188 189 191 190 } #Tennessee
 
-USA_194 = { 194 192 193 } #Mississippi
+USA_194 = { 194 192 193 140 139 } #Nouvelle Orleans
 
 USA_196 = { 195 196 197 } #Alabama
 
@@ -102,9 +102,9 @@ USA_2556 = { 209 207 208 210 2556 } #North Carolina
 
 USA_211 = { 60 211 212 213 214 215 216 } #Virginia
 
-USA_218 = { 218 217 } #West Virginia
+USA_218 = { 218 217 221 } #West Virginia
 
-USA_219 = { 2146 220 219 222 221 } #Maryland
+USA_219 = { 2146 220 219 222 } #Maryland
 
 USA_223 = { 223 224 225 226 227 228 2627 } #Pennsylvania
 
