@@ -212,7 +212,7 @@ great_power = {
 second_power = {
     prestige = 0.025
     research_points = 1.25
-    diplomatic_points_modifier = 0.25
+    diplomatic_points_modifier = 1
     leadership = 1.0
     global_immigrant_attract = 0.01
     loan_interest = -0.1
@@ -221,12 +221,13 @@ second_power = {
 civ_nation = {
     prestige = 0.01
     research_points = 1
+	diplomatic_points_modifier = 1
     leadership = 0.5
 }
 
 unciv_nation = {
     mobilisation_size = 0.0
-    diplomatic_points_modifier = -0.25
+    diplomatic_points_modifier = 1
     cb_generation_speed_modifier = 0.8
 }
 

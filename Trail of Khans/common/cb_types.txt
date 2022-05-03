@@ -427,7 +427,7 @@ status_quo = {
 negotiated_transfer_cb = {
 	sprite_index = 5
 	is_triggered_only = yes
-	days = 1
+	months = 0
 	crisis = no
 
 	badboy_factor = 0
@@ -438,13 +438,13 @@ negotiated_transfer_cb = {
 	break_truce_prestige_factor = 0
 	break_truce_infamy_factor = 0
 	break_truce_militancy_factor = 0
-	days = 1
+	months = 0
 	
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
-	construction_speed = 2.0
+	construction_speed = 400
 
 	can_use = {
 		number_of_states = 2 # annex if you want their last state
