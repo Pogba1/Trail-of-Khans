@@ -2125,7 +2125,7 @@
 #
 #    option = {
 #        name = "EVT36960OPTA"
-#        treasury = 200000
+#        money = 200000
 #        relation = { who = FROM value = 100 }
 #        any_owned = {
 #            limit = { is_core = ASH }
@@ -2212,7 +2212,7 @@
 #        }
 #        random_owned = {
 #            limit = { owner = { money = 200000 } }
-#            owner = { treasury = -200000 }
+#            owner = { money = -200000 }
 #        }
 #        random_country = {
 #            limit = {
@@ -2300,7 +2300,7 @@
 #    option = {
 #        name = "EVT36962OPTA"
 #        prestige = -10
-#        treasury = 50000
+#        money = 50000
 #    }
 #
 #    option = {
@@ -2308,7 +2308,7 @@
 #        set_country_flag = claimed_sekondi
 #        add_country_modifier = { name = foreign_claims duration = 1825 }
 #        badboy = 2
-#        treasury = 50000
+#        money = 50000
 #        diplomatic_influence = { who = FROM value = -100 }
 #        relation = { who = FROM value = -50 }
 #        leave_alliance = FROM
@@ -2592,7 +2592,7 @@
 #        }
 #        random_owned = {
 #            limit = { owner = { money = 40000 } }
-#            owner = { treasury = -40000 }
+#            owner = { money = -40000 }
 #        }
 #        random_list = {
 #            50 = { add_country_modifier = { name =  bigben_construction duration = 2920 } }
@@ -2627,7 +2627,7 @@
 #        }
 #        random_owned = {
 #            limit = { owner = { money = 30000 } }
-#            owner = { treasury = -30000 }
+#            owner = { money = -30000 }
 #        }
 #        random_list = {
 #            30 = { add_country_modifier = { name = bigben_construction duration = 2920 } }
@@ -2662,7 +2662,7 @@
 #        }
 #        random_owned = {
 #            limit = { owner = { money = 20000 } }
-#            owner = { treasury = -20000 }
+#            owner = { money = -20000 }
 #        }
 #        random_list = {
 #            30 = { add_country_modifier = { name = bigben_construction duration = 2920 } }
@@ -2904,7 +2904,7 @@
 #        name = "EVT3697009OPTA"
 #            prestige = 5
 #            badboy = -2
-#            treasury = 50000
+#            money = 50000
 #            PAN_1224 = { secede_province = KAS }
 #            create_vassal = KAS
 #            diplomatic_influence = { who = KAS value = 400 }
@@ -2945,7 +2945,7 @@
 #        name = "EVT3697010OPTA"
 #            badboy = -2
 #            relation = { who = ENG value = 400 }
-#            treasury = 50000
+#            money = 50000
 #            HND = { all_core = { remove_core = AFG } }
 #            any_owned = { limit = { is_core = HND } secede_province = ENG }
 #            FROM = { diplomatic_influence = { who = THIS value = 50 } }
@@ -3455,8 +3455,8 @@
 ##    option = {
 ##        name = "EVT110081OPTB" #Demand compensation.
 ##        badboy = 1
-##        treasury = 2500
-##        HAW = { treasury = -2500 }
+##        money = 2500
+##        HAW = { money = -2500 }
 ##        relation = { who = USA value = -100 }
 ##        relation = { who = HAW value = -200 }
 ##        diplomatic_influence = { who = HAW value = 400 }

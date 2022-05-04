@@ -229,8 +229,8 @@ political_decisions = {
         }
 
         effect = {
-            research_points = -2000
-            random_owned = { limit = { owner = { ai = yes } } owner = { research_points = -6000 } }
+            research_points = 2000
+            random_owned = { limit = { owner = { ai = yes } } owner = { research_points = 6000 } }
             clr_country_flag = lacking_writing_system
             remove_country_modifier = lacks_writing_system
         }

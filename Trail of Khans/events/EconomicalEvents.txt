@@ -213,7 +213,7 @@ country_event = {
 
     option = {
         name = "EVTOPTA22530"
-        treasury = -10000
+        money = -10000
         random_state = {
             limit = { is_colonial = no }
             any_owned = {
@@ -580,7 +580,7 @@ country_event = {
             modifier = {
                 factor = 1.2
                 OR = {
-                    nationalvalue = nv_autocracy
+                    nationalvalue = nv_order
                     nationalvalue = nv_tradition
                 }
             }
@@ -688,7 +688,7 @@ country_event = {
             modifier = {
                 factor = 1.2
                 OR = {
-                    nationalvalue = nv_autocracy
+                    nationalvalue = nv_order
                     nationalvalue = nv_tradition
                 }
             }
@@ -1078,7 +1078,7 @@ country_event = {
             modifier = {
                 factor = 1.2
                 OR = {
-                    nationalvalue = nv_autocracy
+                    nationalvalue = nv_order
                     nationalvalue = nv_tradition
                 }
             }
@@ -1299,7 +1299,7 @@ country_event = {
             modifier = {
                 factor = 1.2
                 OR = {
-                    nationalvalue = nv_autocracy
+                    nationalvalue = nv_order
                     nationalvalue = nv_tradition
                 }
             }

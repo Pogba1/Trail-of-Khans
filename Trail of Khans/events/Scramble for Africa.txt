@@ -461,13 +461,13 @@ country_event = {
             owner = {
                 casus_belli = {
                     target = FROM
-                    type = establish_protectorate_BC_casus_belli
+                    type = establish_protectorate_casus_belli
                     months = 60
                 }
                 war = {
                     target = FROM
                     attacker_goal = {
-                        casus_belli = establish_protectorate_BC_casus_belli
+                        casus_belli = establish_protectorate_casus_belli
                     }
                 }
             }
@@ -810,7 +810,7 @@ country_event = {
             }
             add_casus_belli = {
                 target = THIS
-                type = establish_protectorate_BC_casus_belli
+                type = establish_protectorate_casus_belli
                 months = 60
             }
             country_event = 95514
@@ -854,7 +854,7 @@ country_event = {
             war = {
                 target = THIS
                 attacker_goal = {
-                    casus_belli = establish_protectorate_BC_casus_belli
+                    casus_belli = establish_protectorate_casus_belli
                 }
             }
         }
@@ -982,7 +982,7 @@ country_event = {
         }
         random_owned = {
             limit = { owner = { money = 50000 } }
-            owner = { treasury = -50000 }
+            owner = { money = -50000 }
         }
 
         FROM = {
@@ -1056,64 +1056,6 @@ country_event = {
     }
 }
 
-#The Gabu Exchange
-country_event = {
-    id = 955181
-    title = "EVTNAME955181"
-    desc = "EVTDESC955181"
-    picture = "scramble_for_africa"
-
-    is_triggered_only = yes
-
-    option = {
-        name = "EVT955181OPTA"
-        relation = { who = FROM value = 50 }
-        random_owned = {
-            limit = { province_id = 1792 }
-            secede_province = FROM
-        }
-        random_country = {
-            limit = {
-                tag = FROM
-                owns = 1878
-            }
-            random_owned = {
-                limit = { province_id = 1878 }
-                secede_province = THIS
-            }
-        }
-        ai_chance = {
-            factor = 95
-            modifier = {
-                factor = 0.5
-                is_greater_power = yes
-            }
-        }
-    }
-
-    option = {
-        name = "EVT955181OPTB"
-        relation = { who = FROM value = -150 }
-        casus_belli = {
-            target = FROM
-            type = place_in_the_sun
-            months = 30
-        }
-        add_casus_belli = {
-            target = THIS
-            type = place_in_the_sun
-            months = 30
-        }
-        ai_chance = {
-            factor = 5
-            modifier = {
-                factor = 4
-                NOT = { relation = { who = FROM value = 0 } }
-            }
-        }
-    }
-}
-
 #The Conquest of Luhonono
 country_event = {
     id = 955200
@@ -1150,7 +1092,7 @@ country_event = {
 
     option = {
         name = "EVT955201OPTA"
-        treasury = 100000
+        money = 100000
         random_country = {
             limit = { tag = FROM }
 
@@ -1176,7 +1118,7 @@ country_event = {
 
             random_owned = {
                 limit = { owner = { money = 100000 } }
-                owner = { treasury = -100000 }
+                owner = { money = -100000 }
             }
         }
         relation = { who = FROM value = 25 }
@@ -1200,90 +1142,6 @@ country_event = {
             modifier = { factor = 1.2 NOT = { relation = { who = FROM value = -50 } } }
             modifier = { factor = 1.2 NOT = { relation = { who = FROM value = -100 } } }
             modifier = { factor = 1.2 NOT = { relation = { who = FROM value = -199 } } }
-        }
-    }
-}
-
-#The Ziguinchor Purchase
-country_event = {
-    id = 955202
-    title = "EVTNAME955181"
-    desc = "EVTDESC955202"
-    picture = "scramble_for_africa"
-
-    is_triggered_only = yes
-
-    option = {
-        name = "EVT955181OPTA"
-        relation = { who = FROM value = 50 }
-        treasury = 200000
-        random_owned = {
-            limit = { province_id = 1792 }
-            secede_province = FROM
-        }
-
-        random_country = {
-            limit = {
-                tag = FROM
-                has_country_flag = paying_for_senegal
-            }
-
-            random_owned = {
-                limit = {
-                    owner = {
-                        NOT = { money = 200000 }
-                        check_variable = { which = owed_cash_money value = 9 }
-                    }
-                }
-                owner = { change_variable = { which = owed_cash_money value = 200 } }
-            }
-
-            random_owned = {
-                limit = {
-                    owner = {
-                        NOT = { money = 200000 }
-                        NOT = { check_variable = { which = owed_cash_money value = 1 } }
-                    }
-                }
-                owner = { set_variable = { which = owed_cash_money value = 200 } }
-            }
-
-            random_owned = {
-                limit = { owner = { money = 200000 } }
-                owner = { treasury = -200000 }
-            }
-            clr_country_flag = paying_for_senegal
-        }
-
-        ai_chance = {
-            factor = 95
-            modifier = {
-                factor = 0.5
-                is_greater_power = yes
-            }
-        }
-    }
-
-    option = {
-        name = "EVT955181OPTB"
-        relation = { who = FROM value = -150 }
-        badboy = 1
-        casus_belli = {
-            target = FROM
-            type = place_in_the_sun
-            months = 30
-        }
-        add_casus_belli = {
-            target = FROM
-            type = place_in_the_sun
-            months = 30
-        }
-        ai_chance = {
-            factor = 5
-            modifier = {
-                factor = 4
-                NOT = { relation = { who = FROM value = 0 } }
-            }
         }
     }
 }
@@ -1390,86 +1248,6 @@ country_event = {
                     life_rating = 25
                     any_pop = { limit = { NOT = { has_pop_culture = afro_american } } literacy = -0.99 }
                 }
-            }
-        }
-    }
-}
-
-#Buying Gabu
-country_event = {
-    id = 955204
-    title = "EVTNAME955204"
-    desc = "EVTDESC955204"
-    picture = "scramble_for_africa"
-
-    is_triggered_only = yes
-
-    option = {
-        name = "EVT955181OPTA"
-        relation = { who = FROM value = 50 }
-        treasury = 200000
-        random_owned = {
-            limit = { province_id = 1878 }
-            secede_province = FROM
-        }
-
-        random_country = {
-            limit = {
-                tag = FROM
-                has_country_flag = paying_for_senegal
-            }
-
-            random_owned = {
-                limit = {
-                    owner = {
-                        NOT = { money = 200000 }
-                        check_variable = { which = owed_cash_money value = 9 }
-                    }
-                }
-                owner = { change_variable = { which = owed_cash_money value = 200 } }
-            }
-
-            random_owned = {
-                limit = {
-                    owner = {
-                        NOT = { money = 200000 }
-                        NOT = { check_variable = { which = owed_cash_money value = 1 } }
-                    }
-                }
-                owner = { set_variable = { which = owed_cash_money value = 200 } }
-            }
-
-            random_owned = {
-                limit = { owner = { money = 200000 } }
-                owner = { treasury = -200000 }
-            }
-            clr_country_flag = paying_for_senegal
-        }
-
-        ai_chance = {
-            factor = 95
-        }
-    }
-
-    option = {
-        name = "EVT955181OPTB"
-        relation = { who = FROM value = -150 }
-        badboy = 1
-        casus_belli = {
-            target = FROM
-            type = place_in_the_sun
-            months = 30
-        }
-        add_casus_belli = {
-            target = FROM
-            type = place_in_the_sun
-            months = 30
-        }
-        ai_chance = {
-            factor = 5
-            modifier = {
-                factor = 4
-                NOT = { relation = { who = FROM value = 0 } }
             }
         }
     }

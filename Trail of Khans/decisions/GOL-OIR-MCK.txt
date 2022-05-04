@@ -121,13 +121,11 @@ political_decisions = {
 	}
 	integrate_circassia= {
 		picture = "circassia_flag"
-	picture = "embrace_minority"
 	potential={
 	OR = {
-	tag = GOL
-		AND = {
-			primary_culture = mongol
-		}
+	      tag = GOL
+		  primary_culture = mongol
+	}
 	}
 	NOT = {has_country_flag =integrate_circassia}
 			1051 = {owned_by=THIS}
@@ -150,9 +148,8 @@ political_decisions = {
 	picture = "embrace_minority"
 	potential={
 	OR = {
-	tag = GOL
-		AND = {
-			primary_culture = mongol
+	      tag = GOL
+		  primary_culture = mongol
 		}
 	}
 	has_country_flag =integrate_circassia

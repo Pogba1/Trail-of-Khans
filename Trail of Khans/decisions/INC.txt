@@ -16,7 +16,7 @@ political_decisions = {
 		effect = {
 			any_pop = {
 				limit ={	
-					has_pop_type = slaves
+					   type = slaves
 				}
 				militancy = -5
 			}
@@ -25,13 +25,13 @@ political_decisions = {
 			prestige = 1
 			any_pop = {
 				limit ={	
-					has_pop_type = aristocrats
+					   type = aristocrats
 				}
 				militancy = 20
 			}
 			any_pop = {
 				limit ={	
-					has_pop_type = farmers
+					    type = farmers
 				}
 				militancy = 2
 			}

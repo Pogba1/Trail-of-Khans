@@ -6,10 +6,7 @@ country_event = {
 
     trigger = {
         civilized = yes
-        OR = {
-            nationalvalue = nv_order
-            nationalvalue = nv_autocracy
-        }
+        nationalvalue = nv_order
         average_militancy = 7
     }
 
@@ -43,10 +40,7 @@ country_event = {
         civilized = yes
         is_vassal = no
         year = 1850
-        OR = {
-            nationalvalue = nv_order
-            nationalvalue = nv_autocracy
-        }
+        nationalvalue = nv_order
         NOT = { prestige = 10 }
     }
 
@@ -75,10 +69,7 @@ country_event = {
     picture = "Parade"
 
     trigger = {
-        OR = {
-            nationalvalue = nv_order
-            nationalvalue = nv_autocracy
-        }
+        nationalvalue = nv_order
         war = yes
         NOT = { war_exhaustion = 8 }
     }
@@ -395,7 +386,7 @@ country_event = {
         civilized = yes
         OR = {
             nationalvalue = nv_tradition
-            nationalvalue = nv_autocracy
+            nationalvalue = nv_order
         }
         NOT = { government = democracy }
         militancy = 3

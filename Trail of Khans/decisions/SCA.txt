@@ -15,7 +15,7 @@ political_decisions = {
 			}
 			74 = {owned_by = THIS}
 			73 = {owned_by = THIS}
-		is_vassal = NO 
+		is_vassal = no
 		nationalism_n_imperialism = 1
 		}
 		effect = {

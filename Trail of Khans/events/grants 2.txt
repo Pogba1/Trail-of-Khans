@@ -63,48 +63,48 @@ country_event = {
 	option = {
 	name = "1000 pounds"
 	ai_chance = {factor = 100}
-	treasury = -1000
-	FROM = {treasury = 1000}
+	money = -1000
+	FROM = {money = 1000}
 	}
 	option = {
 	name = "2000 pounds"
-	treasury = -2000
-	FROM = {treasury = 2000}
+	money = -2000
+	FROM = {money = 2000}
 	}
 	option = {
 	name = "3000 pounds"
-	treasury = -3000
-	FROM = {treasury = 3000}
+	money = -3000
+	FROM = {money = 3000}
 	}  
 	option = {
 	name = "4000 pounds"
-	treasury = -4000
-	FROM = {treasury = 4000}
+	money = -4000
+	FROM = {money = 4000}
 	}  
 	option = {
 	name = "5000 pounds"
-	treasury = -5000
-	FROM = {treasury = 5000}
+	money = -5000
+	FROM = {money = 5000}
 	}  
 	option = {
 	name = "6000 pounds"
-	treasury = -6000
-	FROM = {treasury = 6000}
+	money = -6000
+	FROM = {money = 6000}
 	}  
 	option = {
 	name = "7000 pounds"
-	treasury = -7000
-	FROM = {treasury = 7000}
+	money = -7000
+	FROM = {money = 7000}
 	}  
 	option = {
 	name = "8000 pounds"
-	treasury = -8000
-	FROM = {treasury = 8000}
+	money = -8000
+	FROM = {money = 8000}
 	}  
 	option = {
 	name = "9000 pounds"
-	treasury = -9000
-	FROM = {treasury = 9000}
+	money = -9000
+	FROM = {money = 9000}
 	}  
 }
 
@@ -120,48 +120,48 @@ country_event = {
 	option = {
 	name = "10000 pounds"
 	ai_chance = {factor = 100}
-	treasury = -10000
-	FROM = {treasury = 10000}
+	money = -10000
+	FROM = {money = 10000}
 	}
 	option = {
 	name = "20000 pounds"
-	treasury = -20000
-	FROM = {treasury = 20000}
+	money = -20000
+	FROM = {money = 20000}
 	}
 	option = {
 	name = "30000 pounds"
-	treasury = -30000
-	FROM = {treasury = 30000}
+	money = -30000
+	FROM = {money = 30000}
 	}  
 	option = {
 	name = "40000 pounds"
-	treasury = -40000
-	FROM = {treasury = 40000}
+	money = -40000
+	FROM = {money = 40000}
 	}  
 	option = {
 	name = "50000 pounds"
-	treasury = -50000
-	FROM = {treasury = 50000}
+	money = -50000
+	FROM = {money = 50000}
 	}  
 	option = {
 	name = "60000 pounds"
-	treasury = -60000
-	FROM = {treasury = 60000}
+	money = -60000
+	FROM = {money = 60000}
 	}  
 	option = {
 	name = "70000 pounds"
-	treasury = -70000
-	FROM = {treasury = 70000}
+	money = -70000
+	FROM = {money = 70000}
 	}  
 	option = {
 	name = "80000 pounds"
-	treasury = -80000
-	FROM = {treasury = 80000}
+	money = -80000
+	FROM = {money = 80000}
 	}  
 	option = {
 	name = "90000 pounds"
-	treasury = -90000
-	FROM = {treasury = 90000}
+	money = -90000
+	FROM = {money = 90000}
 	}  
 }
 
@@ -177,48 +177,48 @@ country_event = {
 	option = {
 	name = "100000 pounds"
 	ai_chance = {factor = 100}
-	treasury = -100000
-	FROM = {treasury = 100000}
+	money = -100000
+	FROM = {money = 100000}
 	}
 	option = {
 	name = "200000 pounds"
-	treasury = -200000
-	FROM = {treasury = 200000}
+	money = -200000
+	FROM = {money = 200000}
 	}
 	option = {
 	name = "300000 pounds"
-	treasury = -300000
-	FROM = {treasury = 300000}
+	money = -300000
+	FROM = {money = 300000}
 	}  
 	option = {
 	name = "400000 pounds"
-	treasury = -400000
-	FROM = {treasury = 400000}
+	money = -400000
+	FROM = {money = 400000}
 	}  
 	option = {
 	name = "500000 pounds"
-	treasury = -500000
-	FROM = {treasury = 500000}
+	money = -500000
+	FROM = {money = 500000}
 	}  
 	option = {
 	name = "600000 pounds"
-	treasury = -600000
-	FROM = {treasury = 600000}
+	money = -600000
+	FROM = {money = 600000}
 	}  
 	option = {
 	name = "700000 pounds"
-	treasury = -700000
-	FROM = {treasury = 700000}
+	money = -700000
+	FROM = {money = 700000}
 	}  
 	option = {
 	name = "800000 pounds"
-	treasury = -800000
-	FROM = {treasury = 800000}
+	money = -800000
+	FROM = {money = 800000}
 	}  
 	option = {
 	name = "900000 pounds"
-	treasury = -900000
-	FROM = {treasury = 900000}
+	money = -900000
+	FROM = {money = 900000}
 	}  
 }
 
@@ -335,48 +335,48 @@ country_event = {
 	option = {
 	name = "100 pounds"
 	ai_chance = {factor = 100}
-	treasury = -100
-	FROM = {treasury = 100}
+	money = -100
+	FROM = {money = 100}
 	}
 	option = {
 	name = "200 pounds"
-	treasury = -200
-	FROM = {treasury = 200}
+	money = -200
+	FROM = {money = 200}
 	}
 	option = {
 	name = "300 pounds"
-	treasury = -300
-	FROM = {treasury = 300}
+	money = -300
+	FROM = {money = 300}
 	}  
 	option = {
 	name = "400 pounds"
-	treasury = -400
-	FROM = {treasury = 400}
+	money = -400
+	FROM = {money = 400}
 	}  
 	option = {
 	name = "500 pounds"
-	treasury = -500
-	FROM = {treasury = 500}
+	money = -500
+	FROM = {money = 500}
 	}  
 	option = {
 	name = "600 pounds"
-	treasury = -600
-	FROM = {treasury = 600}
+	money = -600
+	FROM = {money = 600}
 	}  
 	option = {
 	name = "700 pounds"
-	treasury = -700
-	FROM = {treasury = 700}
+	money = -700
+	FROM = {money = 700}
 	}  
 	option = {
 	name = "800 pounds"
-	treasury = -800
-	FROM = {treasury = 800}
+	money = -800
+	FROM = {money = 800}
 	}  
 	option = {
 	name = "900 pounds"
-	treasury = -900
-	FROM = {treasury = 900}
+	money = -900
+	FROM = {money = 900}
 	}  
 
 }  

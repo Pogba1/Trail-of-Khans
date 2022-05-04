@@ -45,7 +45,7 @@ country_event = {
         name = "EVT952501OPTA"
         casus_belli = {
             target = JAV
-            type = establish_protectorate_BC_casus_belli
+            type = establish_protectorate_casus_belli
             months = 48
             }
         ai_chance = { factor = 100 }

@@ -38,7 +38,7 @@ political_decisions = {
 					militancy = 5
 				}
 				any_pop = {
-				limit = {has_pop_type = aristocrats}
+				limit = {type = aristocrats}
 					militancy = 5
 				}
 				civilized = yes
