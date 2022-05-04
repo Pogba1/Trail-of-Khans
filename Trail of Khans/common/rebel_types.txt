@@ -1277,12 +1277,6 @@ nationalist_rebels = {
                 has_country_flag = panthay_rebellion
             }
         }
-        modifier = {
-            factor = 0.25
-            is_culture_group = east_asian
-            has_global_flag = taiping_has_happened
-            TPG = { exists = yes }
-        }
     }
 
     # The rebel type with the highest modifier for this pop gets picked
@@ -1581,7 +1575,7 @@ pan_nationalist_rebels = {
             has_country_modifier = global_liberal_agitation
         }
 		modifier = {
-			factor = -10
+			factor = 0
 			OR = {
                     culture = south_german
                     culture = north_german	
