@@ -117,7 +117,6 @@ country_event = {
 				 trigger = {
 				            tag=PLC
 							has_country_flag=slavic_integration
-						    }
 							NOT = { has_country_flag = hungarian_integration }
                  }
                  immediate = { release = HUN } 
