@@ -3,6 +3,45 @@
 #
 # Effects are fully scriptable here.
 
+political_reformed_nation = {
+		trigger = {
+			exists = yes
+			slavery = no_slavery
+			vote_franschise = universal_voting
+			OR = { voting_system = first_past_the_post voting_system = jefferson_method voting_system = proportional_representation }
+			OR = { upper_house_composition = state_equal_weight upper_house_composition = population_equal_weight }
+			trade_unions = all_trade_unions
+			debt_law = bankruptcy
+			public_meetings = yes_meeting
+			press_rights = free_press
+			political_parties = secret_ballots
+		}
+		
+	political_reform_desire = -1.0
+	social_reform_desire = 0.5
+	icon = 13
+}
+
+social_reformed_nation = {
+		trigger = {
+			exists = yes
+			wage_reform = good_minimum_wage
+			work_hours = eight_hours
+			safety_regulations = good_safety
+			unemployment_subsidies = good_subsidies
+			pensions = good_pensions
+			health_care = good_health_care
+			school_reforms = good_schools
+			OR = { penal_system = incarceration penal_system = rehabilitation }
+            citizens_rights = all_voting_pops
+			child_labor = child_labor_illegal
+			
+		}
+		
+	social_reform_desire = -1.0
+	icon = 13
+}
+
 trinket_health_care_fully_funded = {
     trigger = {
         exists = yes
