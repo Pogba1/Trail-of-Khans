@@ -4,8 +4,4 @@ add_core = FJN
 add_core = CHI
 trade_goods = grain
 life_rating = 32
-1861.1.1 = {
-    owner = TPG
-    controller = TPG
-    add_core = TPG
-}
+ 

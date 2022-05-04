@@ -1622,7 +1622,6 @@ province_event = {
                 civilized = yes
                 tag = KOR
                 tag = QNG
-                tag = TPG
                 tag = CHI
             }
         }
@@ -1844,7 +1843,6 @@ province_event = {
                     OR = {
                         tag = QNG
                         tag = CHI
-                        tag = TPG
                         tag = KOR
                     }
                 }
