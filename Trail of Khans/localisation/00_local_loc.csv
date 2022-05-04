@@ -653,14 +653,6 @@ reintegrate_the_lowlands_title;Reintegrate the Lowlands;x
 reintegrate_the_lowlands_desc; ;x
 duchy_of_bohemia_title;Duchy of Bohemia;x
 duchy_of_bohemia_desc; ;x
-imperial_restoration;Imperial Restoration;x
-imperial_restoration_setup;This casus-belli is usable on anyone that holds Byzantine cores.;x
-imperial_restoration_cb;Imperial Restoration;x
-imperial_restoration_short;Imperial Restoration;x
-imperial_restoration_annex;Imperial Reintegration;x
-imperial_restoration_annex_setup;This casus-belli is usable on anyone that holds only Byzantine cores.;x
-imperial_restoration_annex_cb;Imperial Reintegration;x
-imperial_restoration_annex_short;Imperial Reintegration;x
 the_question_of_texas_title;The Question of Texas;x
 the_question_of_texas_desc; ;x
 the_question_of_texas_tex_title;Petition For UCNE Annexation;x
@@ -1183,8 +1175,6 @@ will_give_title;Enable Giving Grants;x
 will_give_desc;Let the world know that $COUNRTY_ADJ$ are a generous people.;x
 will_not_give_title;Disable Giving Grants;x
 will_not_give_desc;Our generosity has run its course.;x
-negotiated_transfer;Negotiated Transfer;x
-negotiated_transfer_short;Negotiated Transfer;x
 take_capital;Take Capital;x
 take_capital_short;Take Capital;x
 louisianian;Beaucouplais;x
@@ -1305,16 +1295,24 @@ release_tasmania_desc;Dominion Gaming;x
 release_saf_title;Release South Africa;
 release_saf_desc;Dominion Gaming;x
 conquest_low;Minor Conquest;;;;;;;;;;;;;
-conquest_low_desc;Conquer an 即enemy country劬;;;;;;;;;;;;;
+conquest_low_desc;Conquer this country;;;;;;;;;;;;;
 conquest_low_setup;Annex $RECIPIENT$;;;;;;;;;;;;;
 conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;
-negotiated_transfer;Negotiated Transfer;;;;;;;;;;;;;
-negotiated_transfer_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism;;;;;;;;;;;;;
-negotiated_transfer_short;$RECIPIENT$ transfer $STATE$ to us;;;;;;;;;;;;;
-negotiated_transfer_setup;Transfer $STATE$ from $RECIPIENT$ to our country;;;;;;;;;;;;;
+negotiated_transfer_cb;Negotiated Transfer;;;;;;;;;;;;;
+negotiated_transfer_cb_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism;;;;;;;;;;;;;
+negotiated_transfer_cb_short;$RECIPIENT$ transfer $STATE$ to us;;;;;;;;;;;;;
+negotiated_transfer_cb_setup;Transfer $STATE$ from $RECIPIENT$ to our country;;;;;;;;;;;;;
 NORMAL_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;;
 AGRESSION_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;;
-mongol_unification_desc;Aquire an enemy §Ystate§W;;;;;;;;;;;;;
-mongol_unification_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;
-mongol_unification_short;Acquire $STATE$;;;;;;;;;;;;;
-mongol_unification;Mongol Unification;;;;;;;;;;;;;
+mongol_unification_cb_desc;Aquire an enemy state;;;;;;;;;;;;;
+mongol_unification_cb_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;
+mongol_unification_cb_short;Acquire $STATE$;;;;;;;;;;;;;
+mongol_unification_cb;Mongol Unification;;;;;;;;;;;;;
+imperial_restoration_cb;Imperial Reconquest;x
+imperial_restoration_cb_short;Imperial Reconquest;x
+imperial_restoration_cb_desc;This casus-belli will conquer a state, usable on people with Byzantine cores.;x
+imperial_restoration_cb_setup;$RECIPIENT$ will secede $STATE$ to us.;x
+imperial_restoration_annex_cb;Imperial Reintegration;x
+imperial_restoration_annex_setup;$RECIPIENT$ will be annexed to us.;x
+imperial_restoration_annex_short;Imperial Reintegration;x
+imperial_restoration_annex_desc;This casus-belli annexes a country with nothing but byzantine cores.;x

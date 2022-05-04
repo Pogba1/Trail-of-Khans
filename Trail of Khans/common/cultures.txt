@@ -289,9 +289,9 @@ scandinavian = {
         Erik Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar
         Jacob Johan Julius Knud Ludvig Magnus Michael Niels Olav Otto
         Peter Poul Sigurd Sven Tage Thomas Thorvald Ukrik Valdemar Vilhelm 
-		Alfred Adrian Arne Bernt Bjorn Carl Caspar Christian Christopher Cort
-        Einar Elias Fredrik Georg Gerhard Gustav Haakon Hans Harald Herman
-        Johan Jorgen Ludvig Nils Ogmund Olav Osvald Otto Peter Sigurd		}
+		Alfred Adrian Arne Bernt Bjorn  Caspar  Christopher Cort
+        Einar Elias Fredrik Georg Gerhard Gustav Haakon  Harald Herman
+        Jorgen  Nils Ogmund Olav Osvald  Peter 		}
 
         last_names = { Ahlefeldt Asp-Persson Berger Bonde Carlsen Dannemand Danneskjold-Samso "de Meza" Eberlin Falsen
         Folsach Güntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe
@@ -866,7 +866,7 @@ east_slavic = {
            first_names = { Alexandru Aleksandr Alexei Andrei Anton Boris Dmitri Theodor Fyodor 
                          Giorgi Grigoriy Igor Ivan Kirill Konstantin Lavr Leonid Lev Maxim
                          Mihail Nichita Nicolae Oleg Pavel Petre Roman Simion Serghei
-                         Valery Vasily Victor Vladimir Vladislav Igor Yevgeny Yuri Gennady}
+                         Valery Vasily Victor Vladimir Vladislav  Yevgeny Yuri Gennady}
 
            last_names = { Alexseyev Anton Azar Badanov Brusilov Budyonny Chibisov Denikin
                           Dragomir Frolov Golivin Grishin Gurko Ivan Konev Constantin Kornilov
@@ -2519,12 +2519,12 @@ central_african = {
     forest_bantu = {
         color = {237 134 16}
         first_names = { Ngalifourou Muteba Mushidi Mbala Mutand Mudib Kangapu Cimbindu Mbumb Cakasekene Mulay Nawej Cikombe Waranankong Mutesa Mwanga Kalema Kiweewa Ssemakookiro Jjunju Kyabaggo Namugala Kikulwe Kabulu
-		Kaumba Muteba Mushidi Mbala Mutand Mudib Kangapu Cimbindu Mbumb Cakasekene Mulay Nawej Cikombe Waranankong
+		Kaumba   
 		Kinjikitile Fambaltate Songea Ebabruma Mputa Mbemchapa Atepa Matola Magobi Rjoroza Wasesse Rinyizea Chapwanya Chakoma Kapola Kapungu Kindunda Kinjalla Kiwanga Mahengu Mburu Mhavanginonya Namkina Ngosingosi Schabruma Sentambandu Uawula Ulanga
         }
 
         last_names = { Bongo Ganao Kalong Mukaz Ditend Yaava Namwan Naweej Kamong Isot Kat Muteba Njovu Ndiga Ngo Nseenene Mmamba Ngonge Ngabi
-		Kasang Nambing Kalong Mukaz Ditend Yaava Namwan Naweej Kamong Isot Kat Muteba
+		Kasang Nambing Kalong Mukaz  Yaava Namwan Naweej Kamong Isot 
         }
 	}
 }
@@ -2710,7 +2710,6 @@ latin = {
 		Pomponius Pomponia Pomponii Pomponian
 		Popillius Popillia Popillii Popillian
 		Porcius Porcia Porcii Porcian
-		Postumius Postumia Postumii Postumian
 		Publilius Publilia Publilii Publilian
 		Pupius Pupia Pupii Pupian
 		Quintilius Quintilia Quintilii Quintilian

@@ -81,7 +81,7 @@ great_war_penalty_cb
 negotiated_transfer_cb
 }
 
-mongol_unification = {
+mongol_unification_cb = {
 	sprite_index = 2
 	is_triggered_only = yes
 	months = 12
@@ -141,7 +141,7 @@ mongol_unification = {
 	}
 }
 
-imperial_restoration = {
+imperial_restoration_cb = {
 	sprite_index = 5
 	is_triggered_only = yes
 	months = 12
@@ -194,7 +194,7 @@ imperial_restoration = {
 	}
 }
 
-imperial_restoration_annex = {
+imperial_restoration_annex_cb = {
 	sprite_index = 5
 	is_triggered_only = yes
 	months = 12
@@ -244,7 +244,7 @@ imperial_restoration_annex = {
 	}
 }
 
-chinese_unification = {
+chinese_unification_cb = {
 	sprite_index = 2
 	is_triggered_only = yes
 	months = 12
@@ -297,7 +297,7 @@ chinese_unification = {
 	}
 }
 
-chinese_unification_annex = {
+chinese_unification_annex_cb = {
 	sprite_index = 2
 	is_triggered_only = yes
 	months = 12
@@ -424,7 +424,7 @@ status_quo = {
 	war_name = WAR_NAME
 }
 #Negotiated Transfer
-negotiated_transfer = {
+negotiated_transfer_cb = {
 	sprite_index = 5
 	is_triggered_only = yes
 	months = 12
@@ -455,16 +455,6 @@ negotiated_transfer = {
 	}
 	
 	allowed_states = {
-		OR = {
-			is_colonial = yes
-			is_colonial = no
-		}
-		any_owned_province = {
-                     OR = {
-			is_colonial = yes
-			is_colonial = no
-                     }
-		}
 		not = { any_owned_province = { is_capital = yes } }
 	}
 
@@ -1819,10 +1809,8 @@ establish_protectorate_casus_belli = {
 			}
 			AND = {
 				THIS = {
-					AND = {
 						is_greater_power = yes
 						nationalism_n_imperialism = 1
-					}
 				}
 				NOT = { number_of_states = 5 }
 			}
