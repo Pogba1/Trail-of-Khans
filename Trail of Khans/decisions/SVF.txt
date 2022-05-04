@@ -46,22 +46,6 @@ political_decisions = {
 			add_accepted_culture = mashriqi
 		}
 	}
-	
-	integrate_kurds = {
-	                   picture="unite_turkestan"
-					   potential = {
-					                NOT={accepted_culture=kurdish}
-									tag=SVF
-							    }
-						   allow = {
-						            nationalism_n_imperialism = 1
-									KUR={all_core={owned_by=THIS}}
-								}
-					      effect = {
-						            add_accepted_culture=kurdish
-									prestige=10
-								}
-				}
 	integrate_turkmen = {
 		picture = "unite_turkestan"
 		potential = {
@@ -94,5 +78,18 @@ political_decisions = {
 			BLC = {all_core = {add_core = THIS}}
 			AFG = {all_core = {add_core = THIS}}
 		}
+	}
+	integrate_kurds = {
+	                   potential = {
+					                tag = SVF
+									NOT = { accepted_culture = kurdish }
+								}
+						   allow = {
+									nationalism_n_imperialism = 1
+							    }
+						  effect = {
+						            add_accepted_culture = kurdish
+									prestige = 10
+							    }
 	}
 }
