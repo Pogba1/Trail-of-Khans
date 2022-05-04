@@ -656,10 +656,7 @@ political_decisions = {
         picture = "conquest_adriatic"
         potential = {
            tag = BYZ
-		 
-			has_country_flag = bulgarian_reintegration
-			
-		 
+		   has_country_flag = bulgarian_reintegration
 		   NOT = {has_country_flag = dominance_in_the_balkans}
         }
 
@@ -667,50 +664,37 @@ political_decisions = {
             war = no
             is_greater_power = yes
 			all_core = {owned_by = THIS}
+			SER = { all_core = { owned_by = THIS } }
         }
 
         effect = {
-		add_accepted_culture = serb
-			785 = {add_core = BYZ}
-			852 = {add_core = BYZ}
-			849 = {add_core = BYZ}
-			851 = {add_core = BYZ}
-			850 = {add_core = BYZ}
-			803 = {add_core = BYZ}
-			802 = {add_core = BYZ}
-			799 = {add_core = BYZ}
-			798 = {add_core = BYZ}
-			804 = {add_core = BYZ}
-			2577 = {add_core = BYZ}
-			800 = {add_core = BYZ}
-			2583 = {add_core = BYZ}
-			2569 = {add_core = BYZ}
-			2582 = {add_core = BYZ}
-			795 = {add_core = BYZ}
-			796 = {add_core = BYZ}
-			794 = {add_core = BYZ}
-			797 = {add_core = BYZ}
-			788 = {add_core = BYZ}
-			787 = {add_core = BYZ}
-			786 = {add_core = BYZ}
-			783 = {add_core = BYZ}
-			789 = {add_core = BYZ}
-			784 = {add_core = BYZ}
-			791 = {add_core = BYZ}
-			793 = {add_core = BYZ}
-			777 = {add_core = BYZ}
-			779 = {add_core = BYZ}
-			772 = {add_core = BYZ}
-			776 = {add_core = BYZ}
-			775 = {add_core = BYZ}
-			771 = {add_core = BYZ}
-			773 = {add_core = BYZ}
-			774 = {add_core = BYZ}
-			781 = {add_core = BYZ}
-			780 = {add_core = BYZ}
-			782 = {add_core = BYZ}
-            set_country_flag = dominance_in_the_balkans
+			      SER = { all_core = { add_core = THIS } }
+				  TUR_788 = { add_core = THIS }
+				  MON_2582 = { add_core = THIS }
+				  AUS_780 = { add_core = THIS }
+                  set_country_flag = dominance_in_the_balkans
         }
         ai_will_do = { factor = 1 }
     }
+	
+	dominance_in_the_balkans_2 = {
+	                              picture = "conquest_adriatic"
+		                          potential = {
+								               tag = BYZ
+											   has_country_flag = dominance_in_the_balkans
+											   NOT = { has_country_flag = dominance_in_the_balkans_2 }
+											}
+									  allow = {
+									           TUR_788 = { owned_by = THIS }
+											   MON_2582 = { owned_by = THIS }
+											   AUS_780 = { owned_by = THIS }
+											   state_n_government = 1
+									        }
+									 effect = {
+									           add_accepted_culture = serb
+									           AUS_777 = { add_core = THIS }
+											   AUS_768 = { add_core = THIS }
+											   AUS_771 = { add_core = THIS }
+											}
+	}
 }
