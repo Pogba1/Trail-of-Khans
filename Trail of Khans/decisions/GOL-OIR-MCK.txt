@@ -120,18 +120,18 @@ political_decisions = {
 		}
 	}
 	integrate_circassia= {
-		picture = "circassia_flag"
+	picture = "circassia_flag"
 	potential={
 	OR = {
 	      tag = GOL
 		  primary_culture = mongol
 	}
-	}
 	NOT = {has_country_flag =integrate_circassia}
-			1051 = {owned_by=THIS}
-			NOT={exists = CIR}
+    1051 = {owned_by=THIS}
+	NOT= {exists = CIR}
 	}
 	allow = {
+        NOT= {exists = CIR}
 		enlightenment_thought = 1
 	}
 	
@@ -142,8 +142,7 @@ political_decisions = {
 		CIR = {all_core = {add_core = THIS}}
 		}
 		ai_will_do = { factor = 1 }
-	}
-	
+    }
 	mend_relations_with_ruthenians= {
 	picture = "embrace_minority"
 	potential={
@@ -151,7 +150,6 @@ political_decisions = {
 	      tag = GOL
 		  primary_culture = mongol
 		}
-	}
 	has_country_flag =integrate_circassia
 	NOT = {has_country_flag =mend_relations_with_ruthenians}
 			958 = {owned_by=THIS}
