@@ -43,7 +43,7 @@ country_event = {
         name = "Rest in peace."
        THIS = { overlord = { country_event = {
 							id = 19840002
-							days = n
+							days = 0
 							} 	
 						}
     }

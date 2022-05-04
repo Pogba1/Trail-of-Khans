@@ -70,7 +70,7 @@ political_decisions = {
 							  effect = {
 							            add_accepted_culture = ukrainian
 										UKR = { all_core = { add_core = THIS } }
-							            presige = 30
+							            prestige = 30
 								    }
 				}
 	

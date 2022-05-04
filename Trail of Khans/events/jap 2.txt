@@ -22,13 +22,9 @@ country_event = {
     trigger = {
 	tag = JAP
 	NOT = {has_country_flag = jap_railroad}
-	any_owned_province = {
-			limit = {
+	any_owned = {
 				is_core = JAP
 				has_building = railroad
 			}
-		}
     }
-
-    
 }

@@ -18,7 +18,15 @@ country_event = {
 			}
 		}
 		any_country = {
-			limit = {AND = {OR = {primary_culture = hungarian primary_culture = czech primary_culture = polish} OR = {vassal_of = THIS in_sphere = THIS}}}
+			limit = {
+					 OR = {
+						   primary_culture = hungarian 
+						   primary_culture = czech 
+						   primary_culture = polish
+				    } 
+					OR = {vassal_of = THIS in_sphere = THIS}
+					
+			}
 			annex_to = THIS
 		}
 		change_tag = PLC
@@ -51,8 +59,10 @@ country_event = {
 						   
 						   any_pop={
 						            limit = {
-									         has_pop_culture=hungarian
-									         has_pop_culture=romanian
+									         OR ={
+											      has_pop_culture=hungarian
+									              has_pop_culture=romanian
+									        }
 									}
 									militancy=2
 									consciousness=3
@@ -85,19 +95,21 @@ country_event = {
 						  
 						  any_pop={
 						           limit = {
-								            has_pop_culture=czech
-								            has_pop_culture=slovak
-								            has_pop_culture=hungarian
-											has_pop_culture=lithuanian
+								            OR = { has_pop_culture=czech
+								                   has_pop_culture=slovak
+								                   has_pop_culture=hungarian
+											       has_pop_culture=lithuanian
+								            }
 								   }
 						           militancy=-1
 								   consciousness=4
 						  }
 						  any_pop={
 						           limit = {
-								            has_pop_culture=ukrainian
-								            has_pop_culture=romanian
-								            has_pop_culture=serb
+								            OR= { has_pop_culture=ukrainian
+								                  has_pop_culture=romanian
+								                  has_pop_culture=serb
+								            }
 								   }
 								   militancy=4
 								   consciousness=3

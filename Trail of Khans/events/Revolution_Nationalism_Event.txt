@@ -104,7 +104,7 @@ country_event = {
 
     option = {
         name = "EVT800100OPTA"
-        treasury = -50000
+        money = -50000
         random_country = {
             limit = {
                 neighbour = THIS
@@ -712,7 +712,7 @@ country_event = {
             owner = {
                 add_casus_belli = {
                     target = FROM
-                    type = establish_protectorate_BC_casus_belli
+                    type = establish_protectorate_casus_belli
                     months = 60
                 }
             }
@@ -731,7 +731,7 @@ country_event = {
             owner = {
                 add_casus_belli = {
                     target = FROM
-                    type = demand_concession_BC_casus_belli
+                    type = demand_concession_casus_belli
                     months = 60
                 }
             }
@@ -751,7 +751,7 @@ country_event = {
             owner = {
                 add_casus_belli = {
                     target = FROM
-                    type = establish_protectorate_NI_casus_belli
+                    type = establish_protectorate_casus_belli
                     months = 60
                 }
             }
@@ -771,7 +771,7 @@ country_event = {
             owner = {
                 add_casus_belli = {
                     target = FROM
-                    type = demand_concession_NI_casus_belli
+                    type = demand_concession_casus_belli
                     months = 60
                 }
             }

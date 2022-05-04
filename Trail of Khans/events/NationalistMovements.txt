@@ -103,7 +103,7 @@ province_event = {
             }
         }
         owner = {
-            treasury = -50
+            money = -50
         }
     }
 }
@@ -742,7 +742,7 @@ province_event = {
             }
         }
         owner = {
-            treasury = 300
+            money = 300
         }
     }
 

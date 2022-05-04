@@ -13,7 +13,6 @@ political_decisions = {
             war = no
             CHI = {
                 all_core = {
-                    OR = {
                         OR = {
                             owned_by = THIS
                             owner = {
@@ -27,7 +26,6 @@ political_decisions = {
                                 is_greater_power = no
                             }
                         }
-                    }
                 }
             }
         }

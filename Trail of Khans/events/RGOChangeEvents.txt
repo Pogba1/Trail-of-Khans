@@ -1997,12 +1997,9 @@ province_event = {
         owned_by = THIS
         controlled_by = THIS    
             owner = { civilized = yes }
-        
-        
-            AND = {
-                OR = {
-                    province_id = 1668        #Sendai
-                    province_id = 1672        #Aomori
+            OR = {
+                  province_id = 1668        #Sendai
+                  province_id = 1672        #Aomori
                 }
                 year = 1840
             }
@@ -2267,7 +2264,7 @@ country_event = {
         }
         random_owned = {
             limit = { owner = { money = 200000 } }
-            owner = { treasury = -200000 }
+            owner = { money = -200000 }
         }
 
         ai_chance = {
@@ -2743,7 +2740,7 @@ country_event = {
         }
         random_owned = {
             limit = { owner = { money = 100000 } }
-            owner = { treasury = -100000 }
+            owner = { money = -100000 }
         }
 
         ai_chance = {
@@ -3584,7 +3581,7 @@ country_event = {
         }
         random_owned = {
             limit = { owner = { money = 100000 } }
-            owner = { treasury = -100000 }
+            owner = { money = -100000 }
         }
 
         ai_chance = {
@@ -4824,7 +4821,7 @@ country_event = {
         }
         random_owned = {
             limit = { owner = { money = 100000 } }
-            owner = { treasury = -100000 }
+            owner = { money = -100000 }
         }
 
 
@@ -4882,7 +4879,7 @@ country_event = {
         }
         random_owned = {
             limit = { owner = { money = 100000 } }
-            owner = { treasury = -100000 }
+            owner = { money = -100000 }
         }
 
 
@@ -4940,7 +4937,7 @@ country_event = {
         }
         random_owned = {
             limit = { owner = { money = 100000 } }
-            owner = { treasury = -100000 }
+            owner = { money = -100000 }
         }
 
 
@@ -5369,7 +5366,7 @@ country_event = {
         }
         random_owned = {
             limit = { owner = { money = 200000 } }
-            owner = { treasury = -200000 }
+            owner = { money = -200000 }
         }
 
         ai_chance = {
@@ -5959,589 +5956,6 @@ country_event = {
                     is_core = RWA
                 }
             }
-            any_pop = {
-                militancy = -3
-                consciousness = 1
-            }
-        }
-        ai_chance = { factor = 0 }
-    }
-}
-
-#Malay/Malaysia Production
-country_event = {
-    id = 199069
-    title = "EVTNAME199069"
-    desc = "EVTDESC199069"
-    picture = "colonial_east_asia"
-
-    is_triggered_only = yes
-
-    option = {
-        name = "EVTOPTA199039" #Historical Option
-
-        1394 = { trade_goods = coffee }
-        1395 = { trade_goods = timber }
-
-        ai_chance = { factor = 80 }
-    }
-
-    option = {
-        name = "EVTOPTB199068" #Tea Option
-
-        1394 = { trade_goods = tea }
-        1395 = { trade_goods = tea }
-        1388 = { trade_goods = tobacco }
-
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 0
-                OR = {
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = tobacco
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = tobacco
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = tea
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = tea
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTC199068" #Forestry Option
-
-        1394 = { trade_goods = tropical_wood }
-        1395 = { trade_goods = timber }
-
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 0
-                OR = {
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = tropical_wood
-                            unemployment_by_type = { value = 0.05 type = labourers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = tropical_wood
-                            unemployment_by_type = { value = 0.05 type = labourers }
-                        }
-                    }
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = rubber
-                            unemployment_by_type = { value = 0.05 type = labourers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = rubber
-                            unemployment_by_type = { value = 0.05 type = labourers }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTD199038" #Coffee
-        1394 = { trade_goods = coffee }
-        1395 = { trade_goods = coffee }
-        1388 = { trade_goods = coffee }
-
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 0
-                OR = {
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = coffee
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = coffee
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTE199038" #Leave it as is
-        any_owned = {
-            limit = { is_core = MLY }
-            any_pop = {
-                militancy = -3
-                consciousness = 1
-            }
-        }
-        ai_chance = { factor = 0 }
-    }
-}
-
-#Laos Production
-country_event = {
-    id = 199070
-    title = "EVTNAME199070"
-    desc = "EVTDESC199070"
-    picture = "colonial_east_asia"
-
-    is_triggered_only = yes
-
-    immediate = { set_global_flag = rgo_change_in_laos }
-
-    option = {
-        name = "EVTOPTA199039" #Historical Option
-
-        1356 = { trade_goods = tropical_wood }
-        1357 = { trade_goods = coffee }
-        1363 = { trade_goods = tea }
-
-        ai_chance = { factor = 80 }
-    }
-
-    option = {
-        name = "EVTOPTB199068" #Tea Option
-
-        1356 = { trade_goods = tea }
-        1357 = { trade_goods = tea }
-        1363 = { trade_goods = tobacco }
-
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 0
-                OR = {
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = tea
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = tea
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTC199068" #Forestry Option
-
-        1356 = { trade_goods = tropical_wood }
-        1357 = { trade_goods = tropical_wood }
-        1363 = { trade_goods = rubber }
-
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 0
-                OR = {
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = tropical_wood
-                            unemployment_by_type = { value = 0.05 type = labourers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = tropical_wood
-                            unemployment_by_type = { value = 0.05 type = labourers }
-                        }
-                    }
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = rubber
-                            unemployment_by_type = { value = 0.05 type = labourers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = rubber
-                            unemployment_by_type = { value = 0.05 type = labourers }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTD199038" #Coffee
-        1356 = { trade_goods = coffee }
-        1357 = { trade_goods = coffee }
-        1363 = { trade_goods = cotton }
-
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 0
-                OR = {
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = coffee
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = coffee
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTE199038" #Leave it as is
-        any_owned = {
-            limit = { is_core = LXA }
-            any_pop = {
-                militancy = -3
-                consciousness = 1
-            }
-        }
-        ai_chance = { factor = 0 }
-    }
-}
-
-#Cambodia Production
-country_event = {
-    id = 199071
-    title = "EVTNAME199071"
-    desc = "EVTDESC199071"
-    picture = "colonial_east_asia"
-
-    is_triggered_only = yes
-
-    option = {
-        name = "EVTOPTA199039" #Historical Option
-
-        1366 = { trade_goods = tropical_wood }
-        random_owned = {
-            limit = {
-                province_id = 1367
-                NOT = { trade_goods = rubber }
-            }
-            trade_goods = tropical_wood
-        }
-        random_owned = {
-            limit = {
-                province_id = 1364
-                NOT = { trade_goods = rubber }
-            }
-            trade_goods = tropical_wood
-        }
-
-        ai_chance = { factor = 80 }
-    }
-
-    option = {
-        name = "EVTOPTB199068" #Tea Option
-
-        1366 = { trade_goods = tea }
-        random_owned = {
-            limit = {
-                province_id = 1367
-                NOT = { trade_goods = rubber }
-            }
-            trade_goods = tea
-        }
-        random_owned = {
-            limit = {
-                province_id = 1364
-                NOT = { trade_goods = rubber }
-            }
-            trade_goods = tropical_wood
-        }
-
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 0
-                OR = {
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = tea
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = tea
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTD199050" #tobacco Option
-
-        1366 = { trade_goods = tobacco }
-
-        random_owned = {
-            limit = {
-                province_id = 1367
-                NOT = { trade_goods = rubber }
-            }
-            trade_goods = tobacco
-        }
-        random_owned = {
-            limit = {
-                province_id = 1364
-                NOT = { trade_goods = rubber }
-            }
-            trade_goods = tropical_wood
-        }
-
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 0
-                OR = {
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = tobacco
-                            unemployment_by_type = { value = 0.05 type = labourers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = tobacco
-                            unemployment_by_type = { value = 0.05 type = labourers }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTD199038" #Coffee
-        1366 = { trade_goods = coffee }
-
-        random_owned = {
-            limit = {
-                province_id = 1367
-                NOT = { trade_goods = rubber }
-            }
-            trade_goods = coffee
-        }
-        random_owned = {
-            limit = {
-                province_id = 1364
-                NOT = { trade_goods = rubber }
-            }
-            trade_goods = tropical_wood
-        }
-
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 0
-                OR = {
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = coffee
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = coffee
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTE199038" #Leave it as is
-        any_owned = {
-            limit = { is_core = CAM }
-            any_pop = {
-                militancy = -3
-                consciousness = 1
-            }
-        }
-        ai_chance = { factor = 0 }
-    }
-}
-
-#Vietnam/Dai Nam Production
-country_event = {
-    id = 199072
-    title = "EVTNAME199072"
-    desc = "EVTDESC199072"
-    picture = "colonial_east_asia"
-
-    is_triggered_only = yes
-
-    option = {
-        name = "EVTOPTA199039" #Historical Option
-
-        1380 = { trade_goods = coffee }
-        1381 = { trade_goods = coffee }
-        1375 = { trade_goods = coffee }
-        1378 = { trade_goods = tea }
-        1377 = { trade_goods = tea }
-        1379 = { trade_goods = tea }
-        1372 = { trade_goods = coal }
-        1371 = { trade_goods = iron }
-        1374 = { trade_goods = tropical_wood }
-
-
-        ai_chance = { factor = 80 }
-    }
-
-    option = {
-        name = "EVTOPTB199068" #Tea Option
-
-        1380 = { trade_goods = coffee }
-        1381 = { trade_goods = tea }
-        1375 = { trade_goods = tea }
-        1378 = { trade_goods = tea }
-        1377 = { trade_goods = tea }
-        1379 = { trade_goods = tea }
-        1372 = { trade_goods = coal }
-        1371 = { trade_goods = iron }
-        1374 = { trade_goods = tropical_wood }
-
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 0
-                OR = {
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = tea
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = tea
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTC199050" #Cotton Option
-
-        1380 = { trade_goods = coffee }
-        1381 = { trade_goods = cotton }
-        1375 = { trade_goods = cotton }
-        1378 = { trade_goods = cotton }
-        1377 = { trade_goods = cotton }
-        1379 = { trade_goods = tea }
-        1372 = { trade_goods = coal }
-        1371 = { trade_goods = iron }
-        1374 = { trade_goods = tropical_wood }
-
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 0
-                OR = {
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = cotton
-                            unemployment_by_type = { value = 0.05 type = labourers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = cotton
-                            unemployment_by_type = { value = 0.05 type = labourers }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTD199038" #Coffee
-        1380 = { trade_goods = coffee }
-        1381 = { trade_goods = coffee }
-        1375 = { trade_goods = coffee }
-        1378 = { trade_goods = coffee }
-        1377 = { trade_goods = coffee }
-        1379 = { trade_goods = tea }
-        1372 = { trade_goods = coal }
-        1371 = { trade_goods = iron }
-        1374 = { trade_goods = tropical_wood }
-
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 0
-                OR = {
-                    any_neighbor_country = {
-                        any_owned_province = {
-                            trade_goods = coffee
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                    any_greater_power = {
-                        any_owned_province = {
-                            trade_goods = coffee
-                            unemployment_by_type = { value = 0.05 type = farmers }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTE199038" #Leave it as is
-        any_owned = {
-            limit = { is_core = DAI }
             any_pop = {
                 militancy = -3
                 consciousness = 1

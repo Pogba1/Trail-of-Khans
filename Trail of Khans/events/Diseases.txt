@@ -85,7 +85,7 @@ country_event = {
             25 = { random_state = { limit = { total_pops = 20000 } poor_strata = { reduce_pop = 0.99 } } }
         }
         add_tax_relative_income    = -5
-        #treasury = -1500
+        #money = -1500
         ai_chance = {
             factor = 50
             modifier = {
@@ -333,7 +333,7 @@ country_event = {
 country_event = {
     title = "EVTNAME10230"
     desc = "EVTDESC10230"
-    id = 10230
+    id = 10231
     picture = "Cholera"
 
     trigger = {

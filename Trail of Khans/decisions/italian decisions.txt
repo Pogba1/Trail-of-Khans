@@ -133,7 +133,7 @@ political_decisions = {
 									}
 							  allow = {
 							           state_n_government = 1
-									   date = 1845.1.1
+									   year = 1845
 									   prestige = 50
 									   PAP = { 
 									          vassal_of = THIS
@@ -457,7 +457,7 @@ political_decisions = {
 		                           remove_accepted_culture = south_italian
 		                           change_tag = RMR
 		                           prestige = 30
-								   random_owned = { limit = { owner = { accepted_culture = serbian } } owner = { remove_accepted_culture = serbian } }
+								   random_owned = { limit = { owner = { accepted_culture = serb } } owner = { remove_accepted_culture = serb } }
 								   any_country = {
 								                  limit = { 
 												           OR = {

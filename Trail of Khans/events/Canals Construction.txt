@@ -12,7 +12,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 3000000 }
+                    NOT = { money = 3000000 }
                     check_variable = { which = owed_cash_money value = 9 }
                 }
             }
@@ -22,7 +22,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 3000000 }
+                    NOT = { money = 3000000 }
                     NOT = { check_variable = { which = owed_cash_money value = 1 } }
                 }
             }
@@ -30,8 +30,8 @@ country_event = {
         }
 
         # random_owned = {
-            # owner = { country = { treasury = 3000000 } }
-            # limit = { owner = { treasury = -3000000 } }
+            # owner = { country = { money = 3000000 } }
+            # limit = { owner = { money = -3000000 } }
         # }
 
         set_global_flag = suez_canal_construction
@@ -52,7 +52,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 2500000 }
+                    NOT = { money = 2500000 }
                     check_variable = { which = owed_cash_money value = 9 }
                 }
             }
@@ -61,7 +61,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 2500000 }
+                    NOT = { money = 2500000 }
                     NOT = { check_variable = { which = owed_cash_money value = 1 } }
                 }
             }
@@ -69,8 +69,8 @@ country_event = {
         }
 
         # random_owned = {
-            # limit = { owner = { treasury = 2500000 } }
-            # owner = { treasury = -2500000 }
+            # limit = { owner = { money = 2500000 } }
+            # owner = { money = -2500000 }
         # }
 
         set_global_flag = suez_canal_construction
@@ -91,7 +91,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 2000000 }
+                    NOT = { money = 2000000 }
                     check_variable = { which = owed_cash_money value = 9 }
                 }
             }
@@ -100,15 +100,15 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 2000000 }
+                    NOT = { money = 2000000 }
                     NOT = { check_variable = { which = owed_cash_money value = 1 } }
                 }
             }
             owner = { set_variable = { which = owed_cash_money value = 2000 } }
         }
         random_owned = {
-            limit = { owner = { treasury = 2000000 } }
-            owner = { treasury = -2000000 }
+            limit = { owner = { money = 2000000 } }
+            owner = { money = -2000000 }
         }
         set_global_flag = suez_canal_construction
         random_list = {
@@ -128,7 +128,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 1500000 }
+                    NOT = { money = 1500000 }
                     check_variable = { which = owed_cash_money value = 9 }
                 }
             }
@@ -137,15 +137,15 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 1500000 }
+                    NOT = { money = 1500000 }
                     NOT = { check_variable = { which = owed_cash_money value = 1 } }
                 }
             }
             owner = { set_variable = { which = owed_cash_money value = 1500 } }
         }
         random_owned = {
-            limit = { owner = { treasury = 1500000 } }
-            owner = { treasury = -1500000 }
+            limit = { owner = { money = 1500000 } }
+            owner = { money = -1500000 }
         }
         set_global_flag = suez_canal_construction
         random_list = {
@@ -165,7 +165,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 1000000 }
+                    NOT = { money = 1000000 }
                     check_variable = { which = owed_cash_money value = 9 }
                 }
             }
@@ -174,15 +174,15 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 1000000 }
+                    NOT = { money = 1000000 }
                     NOT = { check_variable = { which = owed_cash_money value = 1 } }
                 }
             }
             owner = { set_variable = { which = owed_cash_money value = 1000 } }
         }
         random_owned = {
-            limit = { owner = { treasury = 1000000 } }
-            owner = { treasury = -1000000 }
+            limit = { owner = { money = 1000000 } }
+            owner = { money = -1000000 }
         }
         set_global_flag = suez_canal_construction
         random_list = {
@@ -481,7 +481,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 1500000 }
+                    NOT = { money = 1500000 }
                     check_variable = { which = owed_cash_money value = 9 }
                 }
             }
@@ -490,15 +490,15 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 1500000 }
+                    NOT = { money = 1500000 }
                     NOT = { check_variable = { which = owed_cash_money value = 1 } }
                 }
             }
             owner = { set_variable = { which = owed_cash_money value = 1500 } }
         }
         random_owned = {
-            limit = { owner = { treasury = 1500000 } }
-            owner = { treasury = -1500000 }
+            limit = { owner = { money = 1500000 } }
+            owner = { money = -1500000 }
         }
         set_global_flag = kiel_canal_construction
         random_list = {
@@ -516,7 +516,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 1000000 }
+                    NOT = { money = 1000000 }
                     check_variable = { which = owed_cash_money value = 9 }
                 }
             }
@@ -525,15 +525,15 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 1000000 }
+                    NOT = { money = 1000000 }
                     NOT = { check_variable = { which = owed_cash_money value = 1 } }
                 }
             }
             owner = { set_variable = { which = owed_cash_money value = 1000 } }
         }
         random_owned = {
-            limit = { owner = { treasury = 1000000 } }
-            owner = { treasury = -1000000 }
+            limit = { owner = { money = 1000000 } }
+            owner = { money = -1000000 }
         }
         set_global_flag = kiel_canal_construction
         random_list = {
@@ -551,7 +551,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 500000 }
+                    NOT = { money = 500000 }
                     check_variable = { which = owed_cash_money value = 9 }
                 }
             }
@@ -560,15 +560,15 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 500000 }
+                    NOT = { money = 500000 }
                     NOT = { check_variable = { which = owed_cash_money value = 1 } }
                 }
             }
             owner = { set_variable = { which = owed_cash_money value = 500 } }
         }
         random_owned = {
-            limit = { owner = { treasury = 500000 } }
-            owner = { treasury = -500000 }
+            limit = { owner = { money = 500000 } }
+            owner = { money = -500000 }
         }
         set_global_flag = kiel_canal_construction
         random_list = {
@@ -625,7 +625,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 6000000 }
+                    NOT = { money = 6000000 }
                     check_variable = { which = owed_cash_money value = 9 }
                 }
             }
@@ -634,15 +634,15 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 6000000 }
+                    NOT = { money = 6000000 }
                     NOT = { check_variable = { which = owed_cash_money value = 1 } }
                 }
             }
             owner = { set_variable = { which = owed_cash_money value = 6000 } }
         }
         # random_owned = {
-            # limit = { owner = { treasury = 6000000 } }
-            # owner = { treasury = -6000000 }
+            # limit = { owner = { money = 6000000 } }
+            # owner = { money = -6000000 }
         # }
         set_global_flag = panama_canal_construction
         random_list = {
@@ -662,7 +662,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 5000000 }
+                    NOT = { money = 5000000 }
                     check_variable = { which = owed_cash_money value = 9 }
                 }
             }
@@ -671,15 +671,15 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 5000000 }
+                    NOT = { money = 5000000 }
                     NOT = { check_variable = { which = owed_cash_money value = 1 } }
                 }
             }
             owner = { set_variable = { which = owed_cash_money value = 5000 } }
         }
         # random_owned = {
-            # limit = { owner = { treasury = 5000000 } }
-            # owner = { treasury = -5000000 }
+            # limit = { owner = { money = 5000000 } }
+            # owner = { money = -5000000 }
         # }
         set_global_flag = panama_canal_construction
         random_list = {
@@ -699,7 +699,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 4000000 }
+                    NOT = { money = 4000000 }
                     check_variable = { which = owed_cash_money value = 9 }
                 }
             }
@@ -708,15 +708,15 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 4000000 }
+                    NOT = { money = 4000000 }
                     NOT = { check_variable = { which = owed_cash_money value = 1 } }
                 }
             }
             owner = { set_variable = { which = owed_cash_money value = 4000 } }
         }
         # random_owned = {
-            # limit = { owner = { treasury = 4000000 } }
-            # owner = { treasury = -4000000 }
+            # limit = { owner = { money = 4000000 } }
+            # owner = { money = -4000000 }
         # }
         set_global_flag = panama_canal_construction
         random_list = {
@@ -736,7 +736,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 3000000 }
+                    NOT = { money = 3000000 }
                     check_variable = { which = owed_cash_money value = 9 }
                 }
             }
@@ -745,15 +745,15 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 3000000 }
+                    NOT = { money = 3000000 }
                     NOT = { check_variable = { which = owed_cash_money value = 1 } }
                 }
             }
             owner = { set_variable = { which = owed_cash_money value = 3000 } }
         }
         # random_owned = {
-            # limit = { owner = { treasury = 3000000 } }
-            # owner = { treasury = -3000000 }
+            # limit = { owner = { money = 3000000 } }
+            # owner = { money = -3000000 }
         # }
         set_global_flag = panama_canal_construction
         random_list = {
@@ -773,7 +773,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 2000000 }
+                    NOT = { money = 2000000 }
                     check_variable = { which = owed_cash_money value = 9 }
                 }
             }
@@ -782,15 +782,15 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { treasury = 2000000 }
+                    NOT = { money = 2000000 }
                     NOT = { check_variable = { which = owed_cash_money value = 1 } }
                 }
             }
             owner = { set_variable = { which = owed_cash_money value = 2000 } }
         }
         random_owned = {
-            limit = { owner = { treasury = 2000000 } }
-            owner = { treasury = -2000000 }
+            limit = { owner = { money = 2000000 } }
+            owner = { money = -2000000 }
         }
         set_global_flag = panama_canal_construction
         random_list = {
@@ -884,7 +884,7 @@ country_event = {
                 tag = FROM
                 NOT = { is_sphere_leader_of = THIS }
             }
-            THIS = { treasury = 100000 }
+            THIS = { money = 100000 }
         }
     }
 }
@@ -900,7 +900,7 @@ country_event = {
 
     option = {
         name = "EVT36981OPTA"
-        treasury = 100000
+        money = 100000
         relation = { who = FROM value = 100 }
         FROM = { diplomatic_influence = { who = THIS value = 400 } }
         any_country = {

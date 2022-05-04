@@ -8,13 +8,16 @@ political_decisions = {
 			tag = GRE
 			}
 		NOT = {has_country_flag = crimea_rightful}
-		967 = {owned_by = THIS}
-		966 = {owned_by = THIS}
+		}
+		allow = {
+		         967 = {owned_by = THIS}
+		         966 = {owned_by = THIS}
 		}
 		effect = {
 		set_country_flag = crimea_rightful
 		967 = {add_core = THIS}
 		966 = {add_core = THIS}
+		prestige = 10
 		}
 	}
 	
@@ -511,7 +514,7 @@ political_decisions = {
 														 SAR_720 = {
 														            owned_by = this
 														 }
-														 MOD_739 = {
+														 PAP_741 = {
 														            owned_by = this
 														 }
 														 TUS_744 = {

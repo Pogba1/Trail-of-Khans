@@ -520,23 +520,6 @@ political_decisions = {
                 }
                 country_event = 11101
             }
-            any_country = {
-                limit = {
-                    NOT = { is_culture_group = italian }
-                    exists = yes
-                    OR = {
-                        has_country_flag = objects_to_italy
-                        tag = FRA
-                        tag = AUS
-                        tag = KUK
-                        AND = {
-                            neighbour = ITA
-                            is_greater_power = yes
-                        }
-                    }
-                }
-                country_event = { id = 96165 days = 20 }
-            }
         }
         ai_will_do = {
             factor = 1

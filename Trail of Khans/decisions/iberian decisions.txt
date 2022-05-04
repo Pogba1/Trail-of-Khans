@@ -13,7 +13,7 @@ political_decisions = {
 		state_n_government = 1
 		war = no
 		all_core = {
-				continet = europe 
+				continent = europe 
 				owned_by = THIS
 			}
 		}
@@ -95,7 +95,7 @@ political_decisions = {
 		state_n_government = 1
 		510 = {owned_by = THIS}
 			all_core = {
-				continet = africa 
+				continent = africa 
 				owned_by = THIS
 			}
 		1680 = {owned_by = THIS}
