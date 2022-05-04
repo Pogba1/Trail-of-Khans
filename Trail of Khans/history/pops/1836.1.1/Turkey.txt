@@ -2569,7 +2569,7 @@
     bureaucrats = {
         culture = greek
         religion = orthodox
-        size = 175
+        size = 300
     }
 
     officers = {
@@ -3178,7 +3178,13 @@
     farmers = {
         culture = armenian
         religion = coptic
-        size = 8775
+        size = 16775
+    }
+	
+	farmers = {
+        culture = greek
+        religion = coptic
+        size = 4775
     }
 
     aristocrats = {

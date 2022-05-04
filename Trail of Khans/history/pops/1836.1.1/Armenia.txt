@@ -3,19 +3,19 @@
 #Erivan (128000/32000 POPS)
 1098 = {
     bureaucrats = {
-        culture = russian
+        culture = greek
         religion = orthodox
-        size = 50
+        size = 250
     }
 
     clergymen = {
-        culture = russian
+        culture = greek
         religion = orthodox
         size = 10
     }
 
     soldiers = {
-        culture = russian
+        culture = greek
         religion = orthodox
         size = 75
     }
@@ -53,7 +53,12 @@
     farmers = {
         culture = armenian
         religion = coptic
-        size = 11850
+        size = 54850
+    }
+	 farmers = {
+        culture = greek
+        religion = orthodox
+        size = 10050
     }
 
     farmers = {
@@ -119,6 +124,11 @@
     farmers = {
         culture = assyrian
         religion = catholic
+        size = 300
+    }
+	farmers = {
+        culture = assyrian
+        religion = orthodox
         size = 300
     }
 }
