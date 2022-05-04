@@ -12,7 +12,7 @@ political_decisions = {
 									
 	                        allow = {
 	                                 OR = {
-                                           vassal_of = THIS
+                                           PAP = {vassal_of = THIS}
 			                               AND = {
 										          is_vassal = no
 			                                      PAP = {in_sphere = THIS}
