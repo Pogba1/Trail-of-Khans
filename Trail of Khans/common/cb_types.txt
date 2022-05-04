@@ -450,7 +450,7 @@ negotiated_transfer = {
 		number_of_states = 2 # annex if you want their last state
 		is_independant = yes
 		ai = no
-		THIS = { civilized = yes)
+		THIS = { civilized = yes }
 		THIS = { ai = no } 
 	}
 	
