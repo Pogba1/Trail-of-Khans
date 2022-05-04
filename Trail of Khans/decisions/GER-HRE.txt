@@ -81,6 +81,9 @@ political_decisions = {
 			all_core = {owned_by = THIS}
 		}
 		effect = {
+		
+			all_core = { add_core = GBY }
+			change_tag = GBY
 			WUR = {all_core = {add_core = GBY}}
 			BAD = {all_core = {add_core = GBY}}
 			LOR = {all_core = {add_core = GBY add_core = GER}}
@@ -102,7 +105,7 @@ political_decisions = {
                 }
                 country_event = 11106
             }
-			all_core = { add_core = GBY }
+			
             any_owned = {
                 limit = {
                     NOT = { is_core = THIS }
@@ -115,7 +118,7 @@ political_decisions = {
                 }
                 add_core = GBY
             }
-			change_tag = GBY
+			
 			prestige = 5
 			set_country_flag = south_german_unity
 		}

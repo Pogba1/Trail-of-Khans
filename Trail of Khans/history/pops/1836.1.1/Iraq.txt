@@ -521,9 +521,13 @@
     clergymen = {
         culture = assyrian
         religion = catholic
-        size = 300
+        size = 2500
     }
-
+	clergymen = {
+		culture = mashriqi
+		religion = sunni
+		size = 22260
+	}
     artisans = {
         culture = assyrian
         religion = catholic

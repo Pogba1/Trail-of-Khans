@@ -88,7 +88,7 @@ political_decisions = {
 										SER = { all_core = { owned_by = THIS } }
 								}
 							  effect = {
-										add_accepted_culture = serbians
+										add_accepted_culture = serb
 										prestige = 30
 										SER = { all_core = { add_core = THIS } }
 								}
