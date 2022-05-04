@@ -2026,7 +2026,7 @@ country_event = {
             }
             add_casus_belli = {
                 target = THIS
-                type = install_democracy
+                type = uninstall_communist_gov_cb
                 months = 12
             }
         }
@@ -2040,7 +2040,7 @@ country_event = {
             }
             add_casus_belli = {
                 target = THIS
-                type = install_communism
+                type = install_communist_gov_cb
                 months = 12
             }
         }
@@ -2212,7 +2212,7 @@ country_event = {
             }
             add_casus_belli = {
                 target = THIS
-                type = install_democracy
+                type = uninstall_communist_gov_cb
                 months = 12
             }
         }
@@ -2226,7 +2226,7 @@ country_event = {
             }
             add_casus_belli = {
                 target = THIS
-                type = install_communism
+                type = install_communist_gov_cb
                 months = 12
             }
         }
@@ -2837,7 +2837,7 @@ country_event = {
             }
             add_casus_belli = {
                 target = THIS
-                type = install_democracy
+                type = uninstall_communist_gov_cb
                 months = 12
             }
         }
@@ -2852,7 +2852,7 @@ country_event = {
             }
             add_casus_belli = {
                 target = THIS
-                type = install_communism
+                type = install_communist_gov_cb
                 months = 12
             }
         }
