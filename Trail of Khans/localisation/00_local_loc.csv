@@ -1313,6 +1313,6 @@ imperial_restoration_cb_short;Imperial Reconquest;x
 imperial_restoration_cb_desc;This casus-belli will conquer a state, usable on people with Byzantine cores.;x
 imperial_restoration_cb_setup;$RECIPIENT$ will secede $STATE$ to us.;x
 imperial_restoration_annex_cb;Imperial Reintegration;x
-imperial_restoration_annex_setup;$RECIPIENT$ will be annexed to us.;x
-imperial_restoration_annex_short;Imperial Reintegration;x
-imperial_restoration_annex_desc;This casus-belli annexes a country with nothing but byzantine cores.;x
+imperial_restoration_annex_cb_setup;$RECIPIENT$ will be annexed to us.;x
+imperial_restoration_annex_cb_short;Imperial Reintegration;x
+imperial_restoration_annex_cb_desc;This casus-belli annexes a country with nothing but byzantine cores.;x
