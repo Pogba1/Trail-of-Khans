@@ -79,7 +79,7 @@ political_decisions = {
                            potential = {
 						                tag=PLC
 						                has_country_flag = hungarian_integration
-									    NOT={accepted_culture=serbian}
+									    NOT={accepted_culture=serb}
 								}
 							   allow = {
 							            revolution_n_counterrevolution = 1
