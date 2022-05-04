@@ -30,13 +30,38 @@ political_decisions = {
 			}
 	}
 	
-	united_in_solidarity = {
+	united_in_solidarity_and = {
 		picture = ""
 		potential = {
-			OR = {
-			tag = ATR
 			tag = AND
+			has_country_flag = unite_the_peninsula
+			NOT = {has_country_flag = united_in_solidarity}
+		}
+		allow = {
+			510 = {owned_by = THIS}
+			486 = {owned_by = THIS}
+			525 = {owned_by = THIS}
+			521 = {owned_by = THIS}
+			518 = {owned_by = THIS}
+			513 = {owned_by = THIS}
+			503 = {owned_by = THIS}
+			495 = {owned_by = THIS}
+			487 = {owned_by = THIS}
+			475 = {owned_by = THIS}
+			474 = {owned_by = THIS}
+			nationalism_n_imperialism = 1
+		war = no
+		}
+		effect = {
+			set_country_flag = united_in_solidarity
+			add_accepted_culture = spanish
 			}
+	}
+	
+	united_in_solidarity_atr = {
+		picture = ""
+		potential = {
+			tag = ATR
 			has_country_flag = unite_the_peninsula
 			NOT = {has_country_flag = united_in_solidarity}
 		}
@@ -58,7 +83,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = united_in_solidarity
 			add_accepted_culture = portuguese
-			add_accepted_culture = spanish
+			change_tag = IBR
 			}
 	}
 	embrace_catalan = {
@@ -78,6 +103,7 @@ political_decisions = {
 			}
 	
 	}
+
 	#######################
 	#AL ANDALOOS CALIPHATE#
 	#######################
