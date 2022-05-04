@@ -1495,9 +1495,9 @@ nationalist_rebels = {
     }
     demands_enforced_effect = {
         release_vassal = REB
-        modify_relation = {
-            tag = REB
-            relation = -150
+        relation = {
+            who = REB
+            value = -150
         }
         prestige_factor = -0.3
     }
@@ -1577,8 +1577,8 @@ pan_nationalist_rebels = {
 		modifier = {
 			factor = 0
 			OR = {
-                    culture = south_german
-                    culture = north_german	
+                  has_pop_culture = south_german
+                  has_pop_culture = north_german	
                 }
 			exists = HRE
 		}
