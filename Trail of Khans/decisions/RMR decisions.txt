@@ -215,11 +215,13 @@ political_decisions = {
 									 }
 								   
 								   effect = { 
-								             754 = { life_rating = 5 }
-									         724 = { life_rating = 5 }
-											 744 = { life_rating = 5 }
-											 720 = { life_rating = 5 }
-											 729 = { life_rating = 5 }
+								             730 = { life_rating = 5 }
+									         728 = { life_rating = 5 }
+											 722 = { life_rating = 5 }
+											 723 = { life_rating = 5 }
+											 738 = { life_rating = 5 }
+											 739 = { life_rating = 5 }
+											 742 = { life_rating = 5 }
 											 add_country_modifier = {
 											                         name = roman_architecture 
 																	 duration = -1

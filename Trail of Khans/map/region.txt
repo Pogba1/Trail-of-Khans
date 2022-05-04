@@ -436,21 +436,17 @@ TUR_860 = { 860 828 858 859 } #Thrace
 
 TUR_863 = { 863 861 862 864 865 867 } #Hudavendigar
 
-TUR_869 = { 869 870 871 872 } #Aydin
+TUR_869 = { 869 870 871 872 875 } #Aydin
 
-TUR_873 = { 873 874 875 866 } #Konya
-
-TUR_876 = { 876 868 } #Ankara
-
-SVF_878 = { 878 877 879}	#Kaisáreia
+SVF_878 = { 878 877 879 876 868 873 874 866 }	#Kaisáreia
 
 TUR_880 = { 880 881 883 } #Kastamonu
 
-TUR_882 = { 882 884 888 } #Trabizond
+TUR_882 = { 882 884 } #Trabizond
 
 TUR_885 = { 885 886 1096 } #Kars
 
-TUR_890 = { 890 891 887 } #Van
+TUR_890 = { 890 891 887 888 } #Van
 
 TUR_893 = { 893 889 899 892 2414 } #Diyarbakir
 
