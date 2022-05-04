@@ -48,7 +48,7 @@ political_decisions = {
 	}
 	
 	integrate_kurds = {
-	                   picture="unite_turkestan
+	                   picture="unite_turkestan"
 					   potential = {
 					                NOT={accepted_culture=kurdish}
 									tag=SVF

@@ -2010,8 +2010,6 @@ province_event = {
         owner = {
             war = no
         }
-    }
-
     allow_multiple_instances = no
 
     mean_time_to_happen = {
