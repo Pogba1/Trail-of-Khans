@@ -8,23 +8,11 @@ country_event = {
 				 
 			     option = {
 				          name = "Graecia romanus erit"
-						  GRE = {
+						  BYZ = {
 						         all_core = {
 								             add_core = RMR
 											}
 							    }
-						  TUR_863 = {
-						             add_core = RMR
-							       }
-						  TUR_869 = {
-						             add_core = RMR
-								   }
-						  TUR_873 = {
-						             add_core = RMR
-								   }
-						  TUR_880 = {
-						             add_core = RMR
-								   }
 						  add_accepted_culture = greek
 						  badboy = 15
 						  prestige = 25
