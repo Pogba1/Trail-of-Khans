@@ -103,7 +103,6 @@ govt_flag = {
     government = prussian_constitutionalism
     flag = theocracy
 }
-schools = culture_tech_school
 decision = france_1836_setup
 
 oob = "FRA_oob.txt"

@@ -2148,8 +2148,6 @@ install_communist_gov_cb = {
 			# If actor ruling party is communist
 			ruling_party_ideology = communist
 		}
-		
-		AND = {
 			# If reciever ruling party is not a communist
 			#NOT = {
 			#	ruling_party_ideology = communist
@@ -2165,7 +2163,6 @@ install_communist_gov_cb = {
 			
 			# If reciever is not a great power
 			is_greater_power = no
-		}
 	}
 	
 	po_install_communist_gov_type = yes
