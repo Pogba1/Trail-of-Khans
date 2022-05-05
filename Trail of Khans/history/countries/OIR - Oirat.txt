@@ -6,7 +6,7 @@ government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.05
-non_state_culture_literacy = 0.01 #Chinese
+non_state_culture_literacy = 0.05 #Chinese
 prestige = 1
 is_releasable_vassal = no
 
