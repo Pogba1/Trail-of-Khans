@@ -94,10 +94,8 @@ upper_house = {
     socialist = 0
     communist = 0
 }
-govt_flag = {
-    government = prussian_constitutionalism
-    flag = theocracy
-}
+decision = france_1836_setup
+
 oob = "FRA_oob.txt"
 
 foreign_investment = {

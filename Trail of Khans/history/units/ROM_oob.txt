@@ -1,3 +1,4 @@
+
 army = {
     name = "Prima Armata a Daciei"
     location = 669
@@ -18,7 +19,10 @@ army = {
         type = infantry
         home = 669
     }
-	army = {
+
+}
+
+army = {
     name = "A II-a Armata a Daciei"
     location = 673
     regiment = {
@@ -41,4 +45,3 @@ army = {
 
 }
 
-}
