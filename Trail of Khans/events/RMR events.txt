@@ -17,8 +17,8 @@ country_event = {
 						  badboy = 15
 						  prestige = 25
 						  set_country_flag = the_greek_claims
-						 }
-		        }
+				 }
+}
 				
 country_event = {
 
@@ -31,11 +31,7 @@ country_event = {
 				 mean_time_to_happen = { months = 1 }
 				
 				 trigger = {
-				            GRE = {
-							       all_core = {
-								               owned_by = THIS
-											  }
-								  }
+				            BYZ = { all_core = { owned_by = THIS } }
 						    accepted_culture = greek
 							tag = RMR
 							OR = { 
@@ -43,14 +39,15 @@ country_event = {
 								  has_country_flag = the_greek_claims
 								 }
 						    NOT = { has_country_modifier = roman_military_prowess }
-						   }
+				 }
 				 
                  option = {
 				           name = "Roma Invicta"
 						   add_country_modifier = {
                                                     name = roman_military_prowess duration = -1
 												  }
-						  }
-			    }
+					       BYZ = { all_core = { remove_core = BYZ } }
+				 }
+}
 				
 			
