@@ -182,6 +182,7 @@ party = {
 }
 
 unit_names = {
+    unit_names = {
     dreadnought = {
         "Dante Alighieri" "Conti di Cavour" "Giulio Cesare" "Leonarda da Vince" "Andrea Doria" Duilio "Francesco Caracciolo" Littorio Roma Terribile Formidabile "Principe di Carignano" Messina "Conte Verde" "Re d'Italia" "Re di Portogallo" "Regina Maria Pia" "San Martino" Castelfidardo Ancona Affondatore "Principe Amedeo" Italia Lepanto "Ruggiero di Lauria" "Francesco Morosini" "Emanuele Filiberto"
     }
@@ -214,4 +215,5 @@ unit_names = {
     commerce_raider = {
         "Rosolino Pilo" "Giuseppe Cesare Abba" "Pilade Bronzetti" "Giuseppe Missori" "Antonio Mosto" "Ippolito Nievo" "Francesco Nullo" "Simone Schiaffino" "Giuseppe Sirtori" "Giovanni Acerbi" "Vincenzo Giordano Orsini" "Francesco Stucco"
     }
+}
 }

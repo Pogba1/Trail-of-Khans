@@ -128,6 +128,14 @@ the_malay_reconquest_title;Malay Reconquest;x
 the_malay_reconquest_desc; ;x
 form_china_title;Form China;x
 form_china_desc; ;x
+chinese_unification_annex;Chinese Unification;x
+chinese_unification_annex_setup;This casus-belli is usable on anyone that holds Chinese cores.;x
+chinese_unification_annex_cb;Chinese Unification;x
+chinese_unification_annex_short;Chinese Unification;x
+chinese_unification;Annex Chinese State;x
+chinese_unification_setup;This casus-belli is usable on anyone that ONLY holds Chinese cores.;x
+chinese_unification_cb;Annex Chinese State;x
+chinese_unification_short;Annex Chinese State;x
 integrate_ruthenians_plc_title;Integrate Ruthenians;x
 integrate_ruthenians_plc_desc; ;x
 EVTDSC400601;"Legiuirea pentru emanciparea tuturor țiganilor din Principatul Țării Românești", or the act of emancipation of all gypsies of Wallachia was an act issued by the Wallachian government that made all gypsies free from slavery/serfdom.;x
@@ -1310,11 +1318,3 @@ imperial_restoration_annex_cb;Imperial Reintegration;x
 imperial_restoration_annex_cb_setup;$RECIPIENT$ will be annexed to us.;x
 imperial_restoration_annex_cb_short;Imperial Reintegration;x
 imperial_restoration_annex_cb_desc;This casus-belli annexes a country with nothing but byzantine cores.;x
-chinese_unification_annex_cb_desc;This casus-belli will annex small Chinese countries with only Chinese cores;x
-chinese_unification_annex_cb_setup;$RECIPIENT$ will be annexed to us;x
-chinese_unification_annex_cb;Chinese Unification;x
-chinese_unification_annex_cb_short;Chinese Unification;x
-chinese_unification_cb_setup;$RECIPIENT$ will secede $STATE$ to us;x
-chinese_unification_cb_desc;This casus-belli is usable on anyone that holds Chinese cores;x
-chinese_unification_cb;Annex Chinese State;x
-chinese_unification_cb_short;Annex Chinese State;x
