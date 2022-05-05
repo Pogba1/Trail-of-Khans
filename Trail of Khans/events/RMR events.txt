@@ -47,6 +47,7 @@ country_event = {
                                                     name = roman_military_prowess duration = -1
 												  }
 					       BYZ = { all_core = { remove_core = BYZ } }
+						   GRE = { all_core = { remove_core = BYZ } }
 				 }
 }
 				
