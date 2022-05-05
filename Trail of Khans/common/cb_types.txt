@@ -2149,7 +2149,7 @@ install_communist_gov_cb = {
 			ruling_party_ideology = communist
 		}
 		
-		AND = {
+		
 			# If reciever ruling party is not a communist
 			#NOT = {
 			#	ruling_party_ideology = communist
@@ -2159,13 +2159,11 @@ install_communist_gov_cb = {
 			communist = 0.1
 				
 			# If reciever current gov is not proletarian_dictatorship
-			NOT = {
-				government = proletarian_dictatorship
-			}
+			NOT = { government = proletarian_dictatorship }
 			
 			# If reciever is not a great power
 			is_greater_power = no
-		}
+		
 	}
 	
 	po_install_communist_gov_type = yes
