@@ -89,11 +89,6 @@ upper_house = {
 }
 
 govt_flag = {
-    government = absolute_monarchy
-	limit = {is_substate = yes}
-    flag = theocracy
-}
-govt_flag = {
     government = presidential_dictatorship
     flag = democracy
 }

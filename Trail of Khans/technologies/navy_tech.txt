@@ -89,7 +89,7 @@ battleship_column_doctrine = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -196,7 +196,7 @@ raider_group_doctrine = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -303,7 +303,7 @@ blue_and_brown_water_schools = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -399,7 +399,7 @@ high_sea_battle_fleet = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -477,7 +477,7 @@ modern_naval_doctrine = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -562,7 +562,7 @@ clipper_design = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -663,7 +663,7 @@ steamers = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 8
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -773,7 +773,7 @@ iron_steamers = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 10
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -867,7 +867,7 @@ steel_steamers = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 10
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -962,7 +962,7 @@ steam_turbine_ships = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 10
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -1050,7 +1050,7 @@ oil_driven_ships = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 6
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -1132,7 +1132,7 @@ naval_design_bureaus = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 4
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # GPs with 9 or more coastal provinces (Prussia+)
         modifier = {
@@ -1220,7 +1220,7 @@ fire_control_systems = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # More popular when at war
         modifier = {
@@ -1317,7 +1317,7 @@ weapon_platforms = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # More popular when at war
         modifier = {
@@ -1413,7 +1413,7 @@ main_armament = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # More popular when at war
         modifier = {
@@ -1512,7 +1512,7 @@ advanced_naval_design = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # More popular when at war
         modifier = {
@@ -1606,7 +1606,7 @@ modern_naval_design = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # More popular when at war
         modifier = {
@@ -1711,7 +1711,7 @@ alphabetic_flag_signaling = {
         }
         modifier = {
             factor = 1.02
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         modifier = {
             factor = 1.05
@@ -1759,7 +1759,7 @@ naval_plans = {
         }
         modifier = {
             factor = 1.02
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         modifier = {
             factor = 1.05
@@ -1806,7 +1806,7 @@ naval_statistics = {
         }
         modifier = {
             factor = 1.02
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         modifier = {
             factor = 1.05
@@ -1868,7 +1868,7 @@ naval_logistics = {
         }
         modifier = {
             factor = 1.02
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         modifier = {
             factor = 1.05
@@ -1918,7 +1918,7 @@ naval_directionism = {
         }
         modifier = {
             factor = 1.02
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         modifier = {
             factor = 1.05
@@ -1964,7 +1964,7 @@ naval_integration = {
         }
         modifier = {
             factor = 1.02
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         modifier = {
             factor = 0
@@ -2018,7 +2018,7 @@ the_command_principle = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # More popular when at war
         modifier = {
@@ -2105,7 +2105,7 @@ naval_professionalism = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 2
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # More popular when at war
         modifier = {
@@ -2196,7 +2196,7 @@ naval_decision_making = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 2
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # More popular when at war
         modifier = {
@@ -2287,7 +2287,7 @@ naval_risk_management = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 2
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # More popular when at war
         modifier = {
@@ -2378,7 +2378,7 @@ naval_nco_training = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # More popular when at war
         modifier = {
@@ -2469,7 +2469,7 @@ modern_naval_training = {
         # Valuable to naval tech school countries (UK)
         modifier = {
             factor = 1.15
-            OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
+            OR = { tech_school = naval_tech_school   }
         }
         # More popular when at war
         modifier = {
