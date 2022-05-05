@@ -2891,10 +2891,10 @@ settle_tuaregs = {
 roman_military_prowess = {
     land_organisation = 0.1
     land_unit_start_experience = 5
-    mobilisation_size = 0.02
-	org_regain = 0.15
+    mobilisation_size = 0.01
+	org_regain = 0.1
 	leadership_modifier = 0.2
-	supply_consumption = -0.15
+	supply_consumption = -0.1
 }
 
 roman_architecture = {
