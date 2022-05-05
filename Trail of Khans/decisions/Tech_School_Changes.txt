@@ -326,33 +326,4 @@ political_decisions = {
             prestige = 5
         }
     }
-
-    switch_to_japanese_tech_school = {
-        picture = yamagata_aritomo
-        potential = {
-            NOT = { tech_school = japanese_tech_school }
-            NOT = { has_country_modifier = interment_camps }
-            OR = {
-                tag = JAP
-                tag = TKG
-                tag = EZO
-            }
-            has_country_flag = line_of_advantage
-            civilized = yes
-        }
-
-        allow = {
-            military_score = 50
-            invention = manifest_destiny
-            OR = {
-                AND = { tag = JAP NOT = { exists = TKG } }
-                AND = { tag = TKG NOT = { exists = JAP } }
-            }
-        }
-
-        effect = {
-            tech_school = japanese_tech_school
-            prestige = 5
-        }
-    }
 }

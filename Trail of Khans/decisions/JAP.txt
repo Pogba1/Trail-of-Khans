@@ -160,12 +160,6 @@ political_decisions = {
 					name = settle_outer_manchuria
 					duration = 2825
 				}}
-			1082 = {remove_core = MCK}
-			1082 = {remove_core = CHI}
-			1082 = {remove_core = QNG}
-			1083 = {remove_core = MCK}
-			1083 = {remove_core = CHI}
-			1083 = {remove_core = QNG}
 			set_country_flag = settle_outer_manchuria
         }
          ai_will_do = { factor = 1 }

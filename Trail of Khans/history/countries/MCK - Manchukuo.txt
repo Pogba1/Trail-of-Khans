@@ -1,4 +1,3 @@
-
 capital = 1555
 primary_culture = manchu
 culture = mongol
@@ -7,7 +6,7 @@ government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.05
-non_state_culture_literacy = 0.01
+non_state_culture_literacy = 0.05
 prestige = 1
 
 # Political reforms
