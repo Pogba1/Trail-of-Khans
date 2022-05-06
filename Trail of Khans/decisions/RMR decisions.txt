@@ -41,11 +41,6 @@ political_decisions = {
 								         AUS_780 = {
 										            owned_by = THIS 
 												   }
-										 DLM = {
-										        NOT = {
-												       exists = yes
-													  }
-											    }
 										}
 										
 						            effect = {
