@@ -321,31 +321,31 @@
     }
 
     aristocrats = {
-        culture = kachin
+        culture = burmese
         religion = animist
         size = 750
     }
 
     clergymen = {
-        culture = kachin
+        culture = burmese
         religion = animist
         size = 400
     }
 
     artisans = {
-        culture = kachin
+        culture = burmese
         religion = animist
         size = 1950
     }
 
     soldiers = {
-        culture = kachin
+        culture = burmese
         religion = animist
         size = 350
     }
 
     farmers = {
-        culture = kachin
+        culture = burmese
         religion = animist
         size = 3555
     }

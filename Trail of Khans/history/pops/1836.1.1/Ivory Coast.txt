@@ -138,10 +138,10 @@
         size = 225
     }
 
-    farmers = {
+    labourers = {
         culture = hausa
         religion = animist
-        size = 16025
+        size = 56025
     }
 
     slaves = {

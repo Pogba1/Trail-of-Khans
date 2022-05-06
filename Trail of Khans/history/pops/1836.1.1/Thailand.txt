@@ -614,7 +614,7 @@
         size = 10975
     }
 }
-#Shan Region (600000)
+#thai Region (600000)
 #under the rule of Siam in 1836
 #Chiang Mai (332000/83000 POPS)
 1355 = {
@@ -661,37 +661,37 @@
     }
 
     aristocrats = {
-        culture = shan
+        culture = thai
         religion = theravada
         size = 1425
     }
 
     officers = {
-        culture = shan
+        culture = thai
         religion = theravada
         size = 75
     }
 
     clergymen = {
-        culture = shan
+        culture = thai
         religion = theravada
         size = 500
     }
 
     artisans = {
-        culture = shan
+        culture = thai
         religion = theravada
         size = 2550
     }
 
     soldiers = {
-        culture = shan
+        culture = thai
         religion = theravada
         size = 525
     }
 
     farmers = {
-        culture = shan
+        culture = thai
         religion = theravada
         size = 46250
     }
@@ -735,66 +735,66 @@
     }
 
     aristocrats = {
-        culture = shan
+        culture = thai
         religion = theravada
         size = 425
     }
 
     clergymen = {
-        culture = shan
+        culture = thai
         religion = theravada
         size = 200
     }
 
     artisans = {
-        culture = shan
+        culture = thai
         religion = theravada
         size = 1150
     }
 
     soldiers = {
-        culture = shan
+        culture = thai
         religion = theravada
         size = 250
     }
 
     farmers = {
-        culture = shan
+        culture = thai
         religion = theravada
         size = 21075
     }
 
     aristocrats = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 375
     }
 
     clergymen = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 200
     }
 
     artisans = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 1100
     }
 
     soldiers = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 225
     }
 
     farmers = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 20200
     }
 }
-#Laos Region (776000)
+#thais Region (776000)
 #under the rule of Siam in 1836
 #Udon Thani (596000/149000 POPS) #now part of Thailand
 1358 = {
@@ -841,37 +841,37 @@
     }
 
     aristocrats = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 2500
     }
 
     clergymen = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 1300
     }
 
     artisans = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 6400
     }
 
     soldiers = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 1200
     }
 
     farmers = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 57600
     }
 
     slaves = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 15000
     }
@@ -909,31 +909,31 @@
     }
 
     aristocrats = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 325
     }
 
     clergymen = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 175
     }
 
     artisans = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 875
     }
 
     soldiers = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 175
     }
 
     farmers = {
-        culture = lao
+        culture = thai
         religion = theravada
         size = 17450
     }

@@ -3568,31 +3568,31 @@
     }
 
     aristocrats = {
-        culture = assamese
+        culture = asian_minor
         religion = hindu
         size = 11500
     }
 
     bureaucrats = {
-        culture = assamese
+        culture = asian_minor
         religion = hindu
         size = 500
     }
 
     clergymen = {
-        culture = assamese
+        culture = asian_minor
         religion = hindu
         size = 1500
     }
 
     artisans = {
-        culture = assamese
+        culture = asian_minor
         religion = hindu
         size = 8000
     }
 
     soldiers = {
-        culture = assamese
+        culture = asian_minor
         religion = hindu
         size = 1500
     }
@@ -3602,37 +3602,37 @@
         size = 13550
     }
     farmers = {
-        culture = assamese
+        culture = asian_minor
         religion = hindu
         size = 135500
     }
 
     bureaucrats = {
-        culture = assamese
+        culture = asian_minor
         religion = sunni
         size = 250
     }
 
     clergymen = {
-        culture = assamese
+        culture = asian_minor
         religion = sunni
         size = 500
     }
 
     artisans = {
-        culture = assamese
+        culture = asian_minor
         religion = sunni
         size = 2500
     }
 
     soldiers = {
-        culture = assamese
+        culture = asian_minor
         religion = sunni
         size = 500
     }
 
     farmers = {
-        culture = assamese
+        culture = asian_minor
         religion = sunni
         size = 45750
     }
@@ -3670,7 +3670,7 @@
     }
 
     clergymen = {
-        culture = manipuri
+        culture = asian_minor
         religion = hindu
         size = 1100
     }
@@ -3680,43 +3680,43 @@
 		size = 20
 	}
     artisans = {
-        culture = manipuri
+        culture = asian_minor
         religion = hindu
         size = 4750
     }
 
     soldiers = {
-        culture = manipuri
+        culture = asian_minor
         religion = hindu
         size = 1100
     }
 
     farmers = {
-        culture = manipuri
+        culture = asian_minor
         religion = hindu
         size = 88250
     }
 
     clergymen = {
-        culture = assamese
+        culture = asian_minor
         religion = sunni
         size = 375
     }
 
     artisans = {
-        culture = assamese
+        culture = asian_minor
         religion = sunni
         size = 2000
     }
 
     soldiers = {
-        culture = assamese
+        culture = asian_minor
         religion = sunni
         size = 500
     }
 
     farmers = {
-        culture = assamese
+        culture = asian_minor
         religion = sunni
         size = 28125
     }
@@ -3754,31 +3754,31 @@
 #Dibrugarh (392000/98000 POPS)
 1260 = {
     aristocrats = {
-        culture = assamese
+        culture = asian_minor
         religion = hindu
         size = 1100
     }
 
     clergymen = {
-        culture = assamese
+        culture = asian_minor
         religion = hindu
         size = 750
     }
 
     artisans = {
-        culture = assamese
+        culture = asian_minor
         religion = hindu
         size = 4500
     }
 
     soldiers = {
-        culture = assamese
+        culture = asian_minor
         religion = hindu
         size = 1100
     }
 
     farmers = {
-        culture = assamese
+        culture = asian_minor
         religion = hindu
         size = 79750
     }
@@ -5113,7 +5113,7 @@
         size = 25
     }
 }
-#Hoshangabad (596000/149000 POPS)
+#Hothaigabad (596000/149000 POPS)
 1276 = {
     aristocrats = {
         culture = marathi

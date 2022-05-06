@@ -1000,7 +1000,7 @@ levantine = {
         Cholokashvili Chubinashvili Dodashvili Eliava Gabashvili Gokhieli Gordeli Javakhisvili Jugashvili Jugheli
         Kakabadze Kandelaki Kartvelishvili Kavtaradze Kereselidze Khelaia Khvitia Kvinitadze Leselidze Maglakelidze
         Makharadze Mazniashvili Mikeladze Muskhelishvili Nioradze Nutsubideze Otskheli Ramishvili
-        Razikashvili Sabinin Shanidze Sukhisvili Tabidze Takaishvili Tsereteli Tsintsadze Uznadze Zhordania
+        Razikashvili Sabinin thaiidze Sukhisvili Tabidze Takaishvili Tsereteli Tsintsadze Uznadze Zhordania
         }
     }
     armenian = {
@@ -1120,7 +1120,7 @@ caucasian = {
                 }
 
             last_names = {
-                Awaral Gamzatov Mussayassul Aliev Murad "Ma'arulal" "X'indalal" Andis Didoi Anchikh Bagulal Bezhta Archin Chamalal Hinukhs Ratsitl Godoberi Khvarshi Rachabalda Karata Tokita Tindi Akhvakh Botlikh Hunzib al-Shishani Dargwa Kumyk Lezgiyar Tabasaran Lak Nogai Aghul Rutul al-Tsakhur Muhammad Hotso Bamat Gadzhiyev Fazu Gamzatovna
+                Awaral Gamzatov Mussayassul Aliev Murad "Ma'arulal" "X'indalal" Andis Didoi Anchikh Bagulal Bezhta Archin Chamalal Hinukhs Ratsitl Godoberi Khvarshi Rachabalda Karata Tokita Tindi Akhvakh Botlikh Hunzib al-Shithaii Dargwa Kumyk Lezgiyar Tabasaran Lak Nogai Aghul Rutul al-Tsakhur Muhammad Hotso Bamat Gadzhiyev Fazu Gamzatovna
             }
             radicalism = 25
         }
@@ -1132,7 +1132,7 @@ caucasian = {
                 }
 
             last_names = {
-                Ajndi Shishani Akhmadov Dudayev Yamadayev Abramov Alkhanov Bargishev Basayev Dudaev Kadyrov Maskhadov Saidullayev Umarov Zakayev Akkiy Myalkiy Nokhchmakhkakhoy Alaroy Beltagoy Benoy Biltoy Dishni Chartoy Elistanzhkhoy Centoroy Enganoy Ersenoy Gendargenoy Gunoi Kharachoi Zandakhoi Terloy Beshni Chinkhoi Chanti Cheberloy Mutawakil Rigakhoy Buni Sharoy Shotoy Varandoy Batsbi al-Ingush al-Kist Tchermoeff
+                Ajndi Shithaii Akhmadov Dudayev Yamadayev Abramov Alkhanov Bargishev Basayev Dudaev Kadyrov Maskhadov Saidullayev Umarov Zakayev Akkiy Myalkiy Nokhchmakhkakhoy Alaroy Beltagoy Benoy Biltoy Dishni Chartoy Elistanzhkhoy Centoroy Enganoy Ersenoy Gendargenoy Gunoi Kharachoi Zandakhoi Terloy Beshni Chinkhoi Chanti Cheberloy Mutawakil Rigakhoy Buni Sharoy Shotoy Varandoy Batsbi al-Ingush al-Kist Tchermoeff
             }
             radicalism = 30
         }
@@ -1144,7 +1144,7 @@ caucasian = {
                 }
 
             last_names = {
-                Neghwey al-Shishani Shapsug Zhaney Temirgoy Natukhai Syupako Abadzehs Kerzedzh Kuytsuk Khatirame Birdzh Cherch Ubykhs Mamkhegh Kabarday Cherkess Hatuqwai Bzhedug Kabardi Adyghe
+                Neghwey al-Shithaii Shapsug Zhaney Temirgoy Natukhai Syupako Abadzehs Kerzedzh Kuytsuk Khatirame Birdzh Cherch Ubykhs Mamkhegh Kabarday Cherkess Hatuqwai Bzhedug Kabardi Adyghe
             }
             radicalism = 20
         }
@@ -1270,7 +1270,7 @@ iranian_turanian = {
             }
         last_names = {
             Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani
-            Jahanbani Kashani Khan Khuzai
+            Jahanbani Kathaii Khan Khuzai
             Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti
             Shirazi Tabrizi Tahmasebi Zahedi
             }
@@ -1285,7 +1285,7 @@ iranian_turanian = {
             }
         last_names = {
             Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani
-            Jahanbani Kashani Khan Khuzai
+            Jahanbani Kathaii Khan Khuzai
             Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti
             Shirazi Tabrizi Tahmasebi Zahedi
             }
@@ -1308,7 +1308,7 @@ iranian_turanian = {
             Dulat Ibirai Isatai Ishim Jangir Kenisary
             Mashur Murat "Nur Ali" Qayip
             Sadyk Sirim Sarzhan
-            Tenek Tolshan Vali
+            Tenek Tolthai Vali
             }
         last_names = {
             Beg  Khan "Konanbai uli" "Kutebar uli" "Muhammad uli" "Qasim uli"
@@ -1367,15 +1367,6 @@ iranian_turanian = {
         }
         last_names = {
             Khan
-        }
-    }
-    hazara = {
-        color = {108 203 223}
-        first_names = {
-            Ali Azim Jafar Mohammad Riza
-        }
-        last_names = {
-            Beg Khan
         }
     }
     turkmen = {
@@ -1469,16 +1460,6 @@ central_asian = {
 south_asian = {
     leader = indian
     unit = IndianGC
-    assamese = {
-        color = {112 134 156}
-        first_names = { Chandraka Purandar Ruchinath Kaganath Dhekial Jogeshwar Sudingphaa Kamaleswar Daman Hao Jama Patalang
-
-        }
-
-        last_names = { Singha Aideo Dogoi Bora Khan Purnananda Phukan
-        }
-    }
-
     bihari = {
         color = {180 75 130}
         first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya
@@ -1486,16 +1467,6 @@ south_asian = {
         }
 
         last_names = { Singh Valmiki Janak Jarasandh Mishra
-
-        }
-    }
-    manipuri = {
-        color = {190 150 240}
-        first_names = { Churachandra Kulachanrda Surachandra Chandrakirti Devendra Nara Genavira Pitambara Marjit Moduchanrda Charajit Harshachandra Chingthang
-
-        }
-
-        last_names = { Singh Khomba Sai
 
         }
     }
@@ -1604,7 +1575,7 @@ south_asian = {
     }
     tamil = {
         color = {180 23 75}
-        first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+        first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari thaimukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
 
         }
 
@@ -1734,26 +1705,6 @@ southeast_asian = {
 
         }
     }
-    lao = {
-        color = {90 45 154}
-        first_names = { Manthaturath Anurutha Unkeo Sukha Chantha Unkham Sakkarin Sisavang Setthathirath Nanthasen Ong Phraya
-
-        }
-
-        last_names = { Vong Kuman Söm Bun Supho Long Intharavong Anuvong
-
-        }
-    }
-    shan = {
-        color = {76 122 90}
-        first_names = { Hswe Hsö Naw Hkam Hkun Hseng Hpa Pyi Nga Hmu Natsu Pe Than Shwe Hpo Lun Sun
-
-        }
-
-        last_names = { Cheng Kaw Möng Hkawt Pak Nan Lek Leng Hmu Letya Hung Thi Hpu Ya Min
-
-        }
-    }
     burmese = {
         color = {99 87 27}
         first_names = { Thibaw Mindon Pagan Tharawadi Gabyidaw Bodawphaya Maung Singu Hsinbyushin Naungdawkyi Alaungphaya Maha Minkyaw Zeya
@@ -1774,26 +1725,6 @@ southeast_asian = {
 
         }
     }
-    kachin = {
-        color = {255 98 76}
-        first_names = { Sama Sinwa U Zan Hta Duwa Ding Ga Hkyeng
-
-        }
-
-        last_names = { Ratang Nawng Sin Lahpai Lahtaw Maran Marip Nhkum
-
-        }
-    }
-    karen = {
-        color = {99 88 122}
-        first_names = { Po La Paban Hkun Maung Papw Sao Saw
-
-        }
-
-        last_names = { Che Baw U Lawi Lasa Pyatin "Law Paw" Kyi Pun Nge Bye Kye
-
-        }
-    }
 }
 
 east_asian = {
@@ -1803,7 +1734,7 @@ east_asian = {
         color = {245 255 160}
         first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
         }
-        last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
+        last_names = { Zhanthai Tiemei thaigzhi Linge Xiangying Xingde Kang'an
         }
     }
     beifaren = {
@@ -1824,7 +1755,7 @@ east_asian = {
         color = {89 63 24}
         first_names = { Hong Feng Shi Li Chen Liu Qiu Sun Soong Liao Xue Zhang Xie Wu Shu Tsai Deng Zhen Huang Ye Yang
         }
-        last_names = { Xiuquan Yunshan Xiuqing Dakai Yucheng Rengan Zicai Yongfu Fengjia Yatsen
+        last_names = { Xiuquan Yunthai Xiuqing Dakai Yucheng Rengan Zicai Yongfu Fengjia Yatsen
         }
     }
     miao = {
@@ -2156,7 +2087,7 @@ neo_european_cultures = {
 
     australian = {
         color = {64 132 105}
-        first_names = { John Alf Adrian Louis Hallam Henry Shane Stafford William Frederick Thomas Ronald Lawrence Bruce Ray Stuart Brian Bob Scott Guy
+        first_names = { John Alf Adrian Louis Hallam Henry thaie Stafford William Frederick Thomas Ronald Lawrence Bruce Ray Stuart Brian Bob Scott Guy
         }
         last_names = { Hope Tennyson Northcote War Thesinger Denman Forster Baird Issac Stewart Fisher Cook Davis Armstrong Anderson Mitchell MacKenzie
         }
