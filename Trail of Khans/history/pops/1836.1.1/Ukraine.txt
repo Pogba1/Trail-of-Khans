@@ -1918,6 +1918,11 @@
 }
 #Poltava (1552000/388000 POPS)
 963 = {
+	bureaucrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 600
+	}
     aristocrats = {
         culture = ukrainian
         religion = orthodox
