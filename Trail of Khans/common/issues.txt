@@ -1049,6 +1049,7 @@ economic_reforms = {
 
             on_execute = {
                 effect = {
+					set_country_flag = landr_flag
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
@@ -1079,6 +1080,7 @@ economic_reforms = {
 
             on_execute = {
                 effect = {
+				set_country_flag = adm_flag
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
@@ -1115,6 +1117,7 @@ economic_reforms = {
 
             on_execute = {
                 effect = {
+				set_country_flag = fin_flag_1
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
@@ -1141,6 +1144,7 @@ economic_reforms = {
 
             on_execute = {
                 effect = {
+				set_country_flag = fin_flag_2
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
@@ -1172,6 +1176,7 @@ economic_reforms = {
 
             on_execute = {
                 effect = {
+				set_country_flag = mon_flag_1
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
@@ -1196,6 +1201,7 @@ economic_reforms = {
 
             on_execute = {
                 effect = {
+					set_country_flag = mon_flag_2
                     activate_technology = no_standard
                     any_pop = {
                         scaled_militancy = {
@@ -1230,6 +1236,7 @@ economic_reforms = {
 
             on_execute = {
                 effect = {
+				set_country_flag = edu_flag
                     plurality = 5
                     any_pop = {
                         scaled_militancy = {
@@ -1263,6 +1270,7 @@ economic_reforms = {
 
             on_execute = {
                 effect = {
+					set_country_flag = res_flag
                     plurality = 5
                     activate_technology = late_enlightenment_philosophy
                     any_pop = {
@@ -1297,6 +1305,7 @@ economic_reforms = {
             allow = { NOT = { has_country_flag = lacking_writing_system } money = 2000 }
 
             on_execute = {
+			set_country_flag = trans_flag
                 trigger = {
                     can_build_railway_in_capital = {
                         in_whole_capital_state = yes # no = just in main capital province.
@@ -1344,6 +1353,7 @@ economic_reforms = {
 
             on_execute = {
                 effect = {
+				set_country_flag = arms_flag
                     treasury = -10000
                     activate_technology = guild_based_production
                     build_factory_in_capital_state = small_arms_factory
@@ -1380,7 +1390,7 @@ economic_reforms = {
 
             on_execute = {
                 trigger = { can_build_factory_in_capital_state = cement_factory # example, no trigger needed here
-
+				
                 }
 
                 effect = {
@@ -1417,6 +1427,7 @@ economic_reforms = {
 
             on_execute = {
                 effect = {
+				set_country_flag = industrial_construction
                     treasury = -7000
                     activate_technology = piston_steam_engine
                     build_factory_in_capital_state = fabric_factory
@@ -1469,6 +1480,7 @@ military_reforms = {
 
             on_execute = {
                 effect = {
+					set_country_flag = training_flag
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
@@ -1499,6 +1511,7 @@ military_reforms = {
 
             on_execute = {
                 effect = {
+					set_country_flag = weapons_flag
                     activate_technology = flintlock_rifles
                     set_country_flag = using_foreign_weapons
                     any_pop = {
@@ -1549,6 +1562,7 @@ military_reforms = {
                 }
                 effect = {
                     treasury = -2000
+					set_country_flag = mil_cons_flag
                     activate_technology = post_napoleonic_thought
                     build_fort_in_capital = {
                         in_whole_capital_state = no # no = just in main capital province.
@@ -1595,6 +1609,7 @@ military_reforms = {
 
             on_execute = {
                 effect = {
+				set_country_flag = officerr_flag
                     activate_technology = military_staff_system
                     any_pop = {
                         scaled_militancy = {
@@ -1638,6 +1653,7 @@ military_reforms = {
 
             on_execute = {
                 effect = {
+				set_country_flag = army_schools_flag
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
@@ -1681,6 +1697,7 @@ military_reforms = {
 
             on_execute = {
                 effect = {
+					set_country_flag = naval_officer_flag
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
@@ -1725,6 +1742,7 @@ military_reforms = {
 
             on_execute = {
                 effect = {
+				set_country_flag = naval_schools_flag
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
@@ -1767,6 +1785,7 @@ military_reforms = {
 
             on_execute = {
                 effect = {
+				set_country_flag = navies_flag
                     activate_technology = clipper_design
                     activate_technology = steamers
                     set_country_flag = using_foreign_ships
@@ -1812,6 +1831,7 @@ military_reforms = {
 
             on_execute = {
                 effect = {
+				set_country_flag = shipyardsr_flag
                     activate_technology = post_nelsonian_thought
                     set_country_flag = using_foreign_shipyards
 
@@ -1844,6 +1864,7 @@ military_reforms = {
 
             on_execute = {
                 effect = {
+				set_country_flag = foreign_artillery_flag
                     activate_technology = bronze_muzzle_loaded_artillery
                     set_country_flag = using_foreign_artillery
                     any_pop = {

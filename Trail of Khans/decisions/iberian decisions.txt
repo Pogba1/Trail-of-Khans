@@ -13,9 +13,14 @@ political_decisions = {
 		state_n_government = 1
 		war = no
 		all_core = {
-				continent = europe 
-				owned_by = THIS
-			}
+				all_core = {
+                OR = { 
+                    NOT = { continent = europe }
+                    owned_by = THIS
+						}
+					}		
+				}
+			
 		}
 		effect = {
 			set_country_flag = unite_the_peninsula
@@ -120,10 +125,7 @@ political_decisions = {
 		allow = {
 		state_n_government = 1
 		510 = {owned_by = THIS}
-			all_core = {
-				continent = africa 
-				owned_by = THIS
-			}
+		1687 = {owned_by = THIS}
 		1680 = {owned_by = THIS}
 		war = no
 		}

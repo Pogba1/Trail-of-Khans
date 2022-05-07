@@ -648,7 +648,7 @@
     clergymen = {
         culture = quechua
         religion = inti
-        size = 400
+        size = 700
     }
 
     artisans = {
@@ -666,8 +666,14 @@
     farmers = {
         culture = quechua
         religion = inti
-        size = 48125
+        size = 58125
     }
+	
+	slaves = {
+		culture = aimara
+		religion = inti
+		size = 40000
+	}
 }
 #Ayacucho (108000/27000 POPS)
 2299 = {

@@ -328,31 +328,31 @@ political_decisions = {
         }
 
         effect = {
-			860 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			858 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			859 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			828 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			830 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			829 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			823 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			822 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			805 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			821 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			832 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			836 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			835 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			834 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			838 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			845 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			843 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			844 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			861 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			862 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			863 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			864 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			865 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			869 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
-			872 = {add_province_modifier ={name=settle_the_aegean_coast duration = 720}}
+			860 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			858 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			859 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			828 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			830 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			829 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			823 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			822 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			805 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			821 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			832 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			836 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			835 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			834 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			838 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			845 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			843 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			844 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			861 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			862 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			863 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			864 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			865 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			869 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
+			872 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
             set_country_flag = settle_the_aegean_coast
         }
         ai_will_do = { factor = 1 }

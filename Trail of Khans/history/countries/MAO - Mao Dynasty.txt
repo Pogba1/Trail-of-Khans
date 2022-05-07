@@ -4,8 +4,8 @@ religion = mahayana
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.05
-non_state_culture_literacy = 0.04
+literacy = 0.06
+non_state_culture_literacy = 0.05
 prestige = 1
 
 # Political reforms
@@ -52,9 +52,14 @@ upper_house = {
 
 foreign_weapons = yes_foreign_weapons
 admin_reform = yes_admin_reform
+education_reform = yes_education_reform
 
 # Technologies
 flintlock_rifles = 1
+no_standard = 1
+malthusian_thought = 1
+basic_chemistry = 1
+enlightenment_thought = 1
 
 # Technologies
 

@@ -86,76 +86,253 @@ country_event = {
             remove_province_modifier = boxer_presence
             remove_province_modifier = boxer_agitation
         }
-        any_country = {
-            limit = {
-                exists = yes
-                is_vassal = no
-                OR = {
-                    tag = MCK
-                    tag = XBI
-                    tag = XIN
-                    tag = SZC
-                    tag = YNN
-                    tag = GXI
-                    tag = GNG
-                    tag = FJN
-                    tag = KML
-                }
-            }
-            leave_alliance = THIS
-            relation = { who = THIS value = -200 }
-        }
-        any_country = {
-            limit = {
-                exists = yes
-                OR = {
-                    substate_of = THIS
-                    vassal_of = THIS
-                }
-                OR = {
-                    tag = MCK
-                    tag = XBI
-                    tag = XIN
-                    tag = SZC
-                    tag = YNN
-                    tag = GXI
-                    tag = GNG
-                    tag = FJN
-                    tag = KML
-                }
-            }
-            country_event = { id=90901 days=0 }
-        }
+        #any_country = {
+        #    limit = {
+        #        exists = yes
+        #        is_vassal = no
+        #        OR = {
+        #            tag = MCK
+        #            tag = XBI
+        #            tag = XIN
+        #            tag = SZC
+        #            tag = YNN
+        #            tag = GXI
+        #            tag = GNG
+        #            tag = FJN
+        #            tag = KML
+        #        }
+        #    }
+        #    leave_alliance = THIS
+        #    relation = { who = THIS value = -200 }
+        #}
+        #any_country = {
+        #    limit = {
+        #        exists = yes
+        #        OR = {
+        #            substate_of = THIS
+        #            vassal_of = THIS
+        #        }
+        #        OR = {
+        #            tag = MCK
+        #            tag = XBI
+        #            tag = XIN
+        #            tag = SZC
+        #            tag = YNN
+        #            tag = GXI
+        #            tag = GNG
+        #            tag = FJN
+        #            tag = KML
+        #        }
+        #    }
+        #    country_event = { id=90901 days=0 }
+        #}
 
         #Non-cores should flip to colonies
-        random_owned = {
-            limit = {
-                NOT = { is_core = THIS }
-                owner = { NOT = { exists = UTI } }
-            }
-            owner = {
-                any_owned = {
-                    limit = {
-                        NOT = {
-                            is_core = THIS
-                            is_colonial = yes
-                            is_accepted_culture = yes
-                            is_primary_culture = yes
-                            any_core = { is_cultural_union = THIS }
-                            #any_neighbor_province = { is_core = THIS } #Rule excluding neighbouring states from the non-core rule
-                        }
-                        any_core = {
-                            OR = {
-                                civilized = no
-                                tech_school = developing_tech_school
-                            }
-                        }
-                    }
-                    secede_province = UTI
-                    UTI = { country_event =  90911 }
-                }
-            }
-        }
+        #random_owned = {
+        #    limit = {
+        #        NOT = { is_core = THIS }
+        #        owner = { NOT = { exists = UTI } }
+        #    }
+        #    owner = {
+        #        any_owned = {
+        #            limit = {
+        #                NOT = {
+        #                    is_core = THIS
+        #                    is_colonial = yes
+        #                    is_accepted_culture = yes
+        #                    is_primary_culture = yes
+        #                    any_core = { is_cultural_union = THIS }
+        #                    #any_neighbor_province = { is_core = THIS } #Rule excluding neighbouring states from the non-core rule
+        #                }
+        #                any_core = {
+        #                    OR = {
+        #                        civilized = no
+        #                        tech_school = developing_tech_school
+        #                    }
+        #                }
+        #            }
+        #            secede_province = UTI
+        #            UTI = { country_event =  90911 }
+        #        }
+        #    }
+        #}
+		UTI = {
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = landr_flag
+				}
+					clr_country_flag = landr_flag
+					activate_technology = hot_blast
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = adm_flag
+				}
+					clr_country_flag = adm_flag
+					activate_technology = no_standard
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = fin_flag_1
+				}
+					clr_country_flag = fin_flag_1
+					activate_technology = freedom_of_trade
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = fin_flag_2
+				}
+					clr_country_flag = fin_flag_2
+					
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = mon_flag_1
+				}
+					clr_country_flag = mon_flag_1
+					activate_technology = private_banks
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = mon_flag_2
+				}
+					clr_country_flag = mon_flag_2
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = edu_flag
+				}
+					clr_country_flag = edu_flag
+					activate_technology = malthusian_thought
+					activate_technology = basic_chemistry
+					activate_technology = enlightenment_thought
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = res_flag
+				}
+					clr_country_flag = res_flag
+					activate_technology = early_classical_theory_and_critique
+					activate_technology = late_enlightenment_philosophy
+					activate_technology = introspectionism
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = activate_experimental_railroad
+				}
+					clr_country_flag = activate_experimental_railroad
+					activate_technology = experimental_railroad
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = arms_flag
+				}
+					clr_country_flag = arms_flag
+					activate_technology = guild_based_production
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = training_flag
+				}
+					clr_country_flag = training_flag
+					#activate_technology = army_command_principle
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = weapons_flag
+				}
+					clr_country_flag = weapons_flag
+					activate_technology = flintlock_rifles
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = army_schools_flag
+				}
+					clr_country_flag = army_schools_flag
+					activate_technology = army_command_principle
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = mil_cons_flag
+				}
+					clr_country_flag = mil_cons_flag
+					activate_technology = post_napoleonic_thought
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = officerr_flag
+				}
+					clr_country_flag = officerr_flag
+					activate_technology = military_staff_system
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = naval_officer_flag
+				}
+					clr_country_flag = naval_officer_flag
+					activate_technology = alphabetic_flag_signaling
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = naval_schools_flag
+				}
+					clr_country_flag = naval_schools_flag
+					activate_technology = the_command_principle
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = navies_flag
+				}
+					clr_country_flag = navies_flag
+					activate_technology = clipper_design
+                    activate_technology = steamers
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = shipyardsr_flag
+				}
+					clr_country_flag = shipyardsr_flag
+					activate_technology = post_nelsonian_thought
+					activate_technology = naval_design_bureaus
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = foreign_artillery_flag
+				}
+					clr_country_flag = foreign_artillery_flag
+					activate_technology = bronze_muzzle_loaded_artillery
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = industrial_construction_flag
+				}
+					clr_country_flag = industrial_construction_flag
+					activate_technology = piston_steam_engine
+					activate_technology = mechanical_production
+				}
+				
+		}
     }
 }
 
