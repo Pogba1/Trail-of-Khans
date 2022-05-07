@@ -2002,10 +2002,9 @@ province_event = {
                   province_id = 1672        #Aomori
                 }
                 year = 1840
+				NOT = { trade_goods = iron }
+				NOT = { has_province_modifier = switched_production }
             }
-            
-        NOT = { trade_goods = iron }
-        NOT = { has_province_modifier = switched_production }
 
         owner = {
             war = no
