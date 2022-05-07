@@ -660,10 +660,10 @@ social_reforms = {
 			poor_life_needs = -0.3
 		}
 		good_minimum_wage = {
-			minimum_wage = 5.0
+			minimum_wage = 1 #100% was 500%
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.15 #15% was 0.04
-			poor_life_needs = -0.4
+			poor_life_needs = -0.45
 		}
 	}
     work_hours = {
