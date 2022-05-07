@@ -1345,6 +1345,17 @@ iranian_turanian = {
             Beg Khan
             }
     }
+	
+	hazara = {
+        color = {108 203 223}
+        first_names = {
+            Ali Azim Jafar Mohammad Riza
+        }
+        last_names = {
+            Beg Khan
+        }
+    }
+	
     pashtun = {
         color = {199 151 230}
 
