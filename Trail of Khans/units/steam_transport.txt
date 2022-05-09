@@ -23,9 +23,6 @@ steam_transport = {
     build_time = 90
     build_cost = {
         steamer_convoy = 5     #325
-        artillery = 2         #120
-        regular_clothes = 1 #5.8£
-        canned_food = 1     #16£
     }
     #Total: 466.8
     min_port_level = 1
@@ -35,10 +32,6 @@ steam_transport = {
     supply_consumption = 1.0
     supply_cost = {
         steamer_convoy = 0.10
-        small_arms = 0.1
-        ammunition = 0.05
-        canned_food = 0.05
-        regular_clothes = 0.05
         coal = 0.1
     }
 
