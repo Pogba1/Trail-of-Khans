@@ -423,8 +423,22 @@ political_decisions = {
             random_owned = { limit = { owner = { accepted_culture = hungarian } } owner = { remove_accepted_culture = hungarian } }
             set_global_flag = 3hurrahs
 			any_country = {
-				limit = { OR = {primary_culture = north_german primary_culture = south_german} }
-				all_core = { limit = {OR ={culture = north_german culture = south_german}} add_core = GER }
+				limit = { 
+					OR = {
+						primary_culture = north_german 
+						primary_culture = south_german
+					} 
+				}
+				all_core = { 
+					limit = {
+						OR ={
+							culture = north_german 
+							culture = south_german
+						}
+						NOT = { is_core = PRU }
+					} 
+				add_core = GER 
+				}
 			}
             any_country = {
                 limit = {
