@@ -856,7 +856,7 @@
         religion = protestant
         size = 375
     }
-
+		
     officers = {
         culture = north_german
         religion = protestant
@@ -872,19 +872,19 @@
     artisans = {
         culture = north_german
         religion = protestant
-        size = 9500
+        size = 20000
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 125
+        size = 3000
     }
 
     farmers = {
         culture = north_german
         religion = protestant
-        size = 1100
+        size = 35000
     }
 
     farmers = {
