@@ -425,29 +425,3 @@ country_event = {
 		political_reform = appointed
 	}
 }
-
-country_event = {
-	id = 60150
-	title = "EVTNAME60150"
-	desc = "EVTDESC60150"
-	picture = "Unite"
-	
-	trigger = {
-		has_country_modifier = female_suffrage
-		NOT = {
-			OR = {
-				vote_franschise = universal_weighted_voting
-				vote_franschise = universal_voting
-			}	
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	option = {
-		name = "EVTOPTA60150"
-		remove_country_modifier = female_suffrage
-	}
-}
