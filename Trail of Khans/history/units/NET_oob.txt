@@ -456,6 +456,36 @@ navy = {
         name= "1e Transport Eskader"
         type = clipper_transport
     }
+	
+    ship = {
+        name= "2e Transport Eskader"
+        type = clipper_transport
+    }	
+	
+    ship = {
+        name= "3e Transport Eskader"
+        type = clipper_transport
+    }	
+	
+    ship = {
+        name= "4e Transport Eskader"
+        type = clipper_transport
+    }	
+	
+    ship = {
+        name= "5e Transport Eskader"
+        type = clipper_transport
+    }	
+	
+    ship = {
+        name= "6e Transport Eskader"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "7e Transport Eskader"
+        type = clipper_transport
+    }
 }
 navy = {
     name = "Zuid-Atlantische Station"

@@ -170,6 +170,46 @@ navy = {
         type = manowar
     }
 	
+    ship = {
+        name= "Adler von Lübeck"
+        type = manowar
+    }	
+	
+    ship = {
+        name= "Tidemann Steen"
+        type = manowar
+    }	
+	
+    ship = {
+        name= "Hinrich Westhof"
+        type = manowar
+    }	
+	
+    ship = {
+        name= "Wittenborg"
+        type = manowar
+    }	
+	
+    ship = {
+        name= "Bornhöved"
+        type = manowar
+    }	
+	
+    ship = {
+        name= "Eschenburg"
+        type = manowar
+    }	
+	
+    ship = {
+        name= "Hermann Korner"
+        type = manowar
+    }	
+	
+    ship = {
+        name= "Egmont von Chasôt"
+        type = manowar
+    }	
+	
 	ship = {
         name= "Viola"
         type = frigate
