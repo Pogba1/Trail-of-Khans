@@ -559,7 +559,7 @@
 #Palanga (84000/21000 POPS)
 365 = {
     aristocrats = {
-        culture = lithuanian
+        culture = north_german
         religion = catholic
         size = 350
     }
@@ -571,7 +571,7 @@
     }
 
     artisans = {
-        culture = lithuanian
+        culture = north_german
         religion = catholic
         size = 500
     }
@@ -583,9 +583,14 @@
     }
 
     farmers = {
+	    culture = north_german
+		religion = catholic
+		size = 5000
+    }
+    farmers = {
         culture = lithuanian
         religion = catholic
-        size = 15825
+        size = 10825
     }
 
     clergymen = {

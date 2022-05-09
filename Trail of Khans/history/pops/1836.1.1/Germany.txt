@@ -378,7 +378,13 @@
         religion = protestant
         size = 130650
     }
-
+    
+	craftsmen = {
+	    culture = north_german
+		religion = protestant
+		size = 3584
+	}
+	
     clergymen = {
         culture = north_german
         religion = catholic
@@ -507,6 +513,12 @@
         culture = north_german
         religion = protestant
         size = 150
+    }
+	
+	craftsmen = {
+	    culture = north_german
+		religion = protestant
+		size = 4975
     }
 
     clergymen = {
@@ -5716,6 +5728,12 @@
         culture = north_german
         religion = protestant
         size = 100
+    }
+	
+	craftsmen = {
+	    culture = north_german
+		religion = protestant
+		size = 6954
     }
 
     artisans = {
