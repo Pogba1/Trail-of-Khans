@@ -1,7 +1,8 @@
-leave_soi = {
+	leave_soi = {
 		alert = no
 		potential = {
 			part_of_sphere = yes
+			
 		}
 		allow = {
 			sphere_owner = {
@@ -23,7 +24,8 @@ leave_soi = {
 			country_event = { id=13201 days=0 }
 			}
 		}
+		
 		ai_will_do = {
 			factor = 0
 		}
-}
+	}

@@ -1312,7 +1312,7 @@
         religion = catholic
         size = 2500
     }
-
+	
     soldiers = {
         culture = hungarian
         religion = catholic
@@ -1371,6 +1371,12 @@
         culture = slovak
         religion = catholic
         size = 915
+    }
+	
+	serfs = {
+        culture = romanian
+        religion = catholic
+        size = 3375
     }
 }
 #Szeged (628000/157000 POPS)
@@ -1531,6 +1537,18 @@
         culture = hungarian
         religion = catholic
         size = 27375
+    }
+	
+	serfs = {
+        culture = romanian
+        religion = catholic
+        size = 7375
+    }
+	
+	serfs = {
+        culture = romanian
+        religion = orthodox
+        size = 375
     }
 
     aristocrats = {
