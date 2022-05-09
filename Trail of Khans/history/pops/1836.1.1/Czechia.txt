@@ -3,7 +3,7 @@
 #Prague (1726800/425200 POPS)
 625 = {
     aristocrats = {
-        culture = czech
+        culture = polish
         religion = catholic
         size = 3600
     }
@@ -15,7 +15,7 @@
     }
 
     bureaucrats = {
-        culture = czech
+        culture = polish
         religion = catholic
         size = 400
     }
@@ -73,11 +73,17 @@
         religion = catholic
         size = 11000
     }
-
+    
+	farmers = {
+		culture = czech
+		religion = catholic
+		size = 30000
+	}
+	
     farmers = {
         culture = czech
         religion = catholic
-        size = 129000
+        size = 99000
     }
 
     aristocrats = {
