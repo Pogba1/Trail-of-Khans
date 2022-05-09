@@ -23,8 +23,6 @@ clipper_transport = {
     build_time = 90
     build_cost = {
         clipper_convoy = 5 #210 | was 4 - 168£
-        regular_clothes = 1 #5.8£
-        canned_food = 1 #16£
     }
     #Total: 351.8£
     min_port_level = 1
