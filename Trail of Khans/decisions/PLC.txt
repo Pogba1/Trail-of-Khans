@@ -39,7 +39,7 @@ political_decisions = {
 			NOT={has_country_flag=full_integration}
 		}
 		allow = {				            
-			empiricism = 1
+			year=1865
 			war=no
 			ROM = { all_core = { owned_by = THIS } }
 		}
@@ -60,19 +60,25 @@ political_decisions = {
 						                tag=PLC
 						                has_country_flag=slavic_integration
 										NOT = { accepted_culture = ukrainian }
-									}
+						   }
 							   allow = {
-							            revolution_n_counterrevolution = 1
+							            year=1860
 										is_greater_power = yes
 										war = no
-										UKR = { all_core = { owned_by = THIS } }										
-								    }
+										RUS_955={owned_by=THIS}
+										RUS_958={owned_by=THIS}
+										RUS_959={owned_by=THIS}
+                                        RUS_968={owned_by=THIS}										
+							   }
 							  effect = {
+										RUS_955={add_core=THIS}
+										RUS_958={add_core=THIS}
+										RUS_959={add_core=THIS}
+                                        RUS_968={add_core=THIS}
 							            add_accepted_culture = ukrainian
-										UKR = { all_core = { add_core = THIS } }
 							            prestige = 30
-								    }
-				}
+							  }
+}
 	
     plc_balkan_strategy = {
                            picture="romanians_marching"
@@ -82,7 +88,7 @@ political_decisions = {
 									    NOT={accepted_culture=serb}
 								}
 							   allow = {
-							            revolution_n_counterrevolution = 1
+							            year=1860
 										is_greater_power = yes
 										war = no
 										SER = { all_core = { owned_by = THIS } }
@@ -104,7 +110,7 @@ political_decisions = {
 			}
 	}
 	allow = {
-		year=1855
+		year=1860
 		nationalism_n_imperialism = 1
 		war=no
     }

@@ -55,6 +55,8 @@ political_decisions = {
 		allow = {
 			670 = {owned_by = THIS}
 			664 = {owned_by = THIS}
+			AUS_654={owned_by=THIS}
+			AUS_657={owned_by=THIS}
 		}
 		effect = {
 			prestige = 10

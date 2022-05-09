@@ -149,7 +149,11 @@ country_event = {
 				 fire_only_once=yes
 				 mean_time_to_happen={months=12}
 				 
-				 trigger = { tag = PLC HUN = { exists = yes } has_country_flag = hungarian_revolt }
+				 trigger = { 
+				            tag = PLC 
+							HUN = { exists = yes } 
+							has_country_flag = hungarian_revolt 
+				 }
 				 
 				 option = {
 				           name="It is time to restore our rule over Hungary"
@@ -171,7 +175,11 @@ country_event = {
 				 fire_only_once=yes
 				 mean_time_to_happen={days=5}
 				 
-				 trigger={ tag=PLC NOT = { HUN = {exists = yes} } has_country_flag=war_in_hungary }
+				 trigger={ 
+				          tag=PLC 
+				          NOT = { HUN = {exists = yes} } 
+						  has_country_flag=war_in_hungary 
+				 }
 				 
 				 option={ 
 				         name="Let our reign be long and prosperous"
@@ -201,13 +209,18 @@ country_event = {
 							has_country_flag=hungarian_integration
 							NOT = { has_country_flag = hungarian_integration }
                  }
-                 immediate = { release = BOH } 
+                 immediate = { 
+				              release = BOH 
+				 } 
                  option = {
                            name="They will answer for their defiance of the Jagiellon crown!"
                            
                            set_country_flag=bohemian_revolt		                 
 						   prestige=-30
-						   relation={ who = BOH value = -200 }
+						   relation={ 
+						             who = BOH 
+						             value = -200 
+						   }
 				 }
 }
 
@@ -231,3 +244,84 @@ country_event = {
 						 }
                 }
 }				 
+
+country_event = { 
+                 id=400008
+				 title="EVTNAME400008"
+				 desc="EVTDESC400008"
+				 
+				 mean_time_to_happen={days=0}
+				 
+				 trigger = {
+				            tag=BOH
+							primary_culture=polish
+							is_independant=yes
+				 }
+				 
+				 option = {
+				           name="We are now free to be Bohemians!"
+						   primary_culture=czech
+						   PLC = {
+						          all_core = {
+								              limit = {
+											           is_core = BOH
+											  }
+											  remove_core=PLC
+								  }
+						   }
+				 }
+}
+
+country_event = {
+                 id=400009
+				 title="EVTNAME400009"
+				 desc="EVTDESC400009"
+				 
+				 mean_time_to_happen={days=0}
+				 
+				 trigger = {
+				            tag=HUN
+							primary_culture=polish
+							is_independant=yes
+				 }
+				 
+				 option = {
+				           name="We are free to be Hungarians!"
+						   primary_culture=hungarian
+						   add_accepted_culture=slovak
+						   PLC = {
+						          all_core = {
+								              limit = {
+											           is_core = HUN
+													   NOT = { is_core=SLV }
+											  }
+											  remove_core=PLC
+								  }
+						   }						   
+				 }
+}
+
+country_event = {
+                 id=400010
+				 title="EVTNAME400004"
+				 desc="EVTDESC400004"
+				 
+				 fire_only_once=yes
+				 mean_time_to_happen={months=12}
+				 
+				 trigger = { tag = PLC 
+				             HUN = { exists = yes } 
+							 has_country_flag = bohemian_revolt 
+				 }
+				 
+				 option = {
+				           name="It is time to restore our rule over Hungary"
+						   
+						   set_country_flag=war_in_bohemia	  
+				           war = {
+						          target=BOH 
+								  attacker_goal = { casus_belli = annex_core_country }
+								  defender_goal = { casus_belli = cut_down_to_size }
+						   }
+				 }
+}

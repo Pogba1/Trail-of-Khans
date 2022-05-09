@@ -1,0 +1,38 @@
+
+leader = {
+          name = "Daniel Harjeu"
+		  type = land
+		  date = "1834.1.1"
+		  personality = highlander
+		  background = school_of_the_bayonet
+		  prestige = 0.2
+}
+
+army = {
+        name = "1st Army"
+		location = 657
+		
+		regiment = {
+		            name = "1st Light Cavalry Division"
+					type = dragoon
+					home = 657
+		}
+		
+		regiment = {
+		            name = "1st Artillery Division"
+					type = artillery
+					home = 657
+		}
+		
+		regiment = {
+		            name = "2nd Artillery Division"
+					type = artillery
+					home = 655
+		}
+		
+		regiment = {
+		            name = "1st Infantry Division"
+					type = infantry
+					home = 2533
+		}
+}

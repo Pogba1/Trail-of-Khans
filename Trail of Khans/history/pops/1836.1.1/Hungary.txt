@@ -458,7 +458,7 @@
     }
 
     aristocrats = {
-        culture = hungarian
+        culture = polish
         religion = catholic
         size = 2750
     }
@@ -470,7 +470,7 @@
     }
 
     bureaucrats = {
-        culture = hungarian
+        culture = polish
         religion = catholic
         size = 600
     }
@@ -564,7 +564,7 @@
         religion = jewish
         size = 5000
     }
-
+   
     craftsmen = {
         culture = ashkenazi
         religion = jewish
@@ -626,7 +626,7 @@
     }
 
     farmers = {
-        culture = hungarian
+        culture = polish
         religion = catholic
         size = 15400
     }
