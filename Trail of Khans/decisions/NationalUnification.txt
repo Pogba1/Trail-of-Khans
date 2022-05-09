@@ -4,16 +4,24 @@ political_decisions = {
 			OR = {
 				tag = WAL
 				tag = MOL
+				tag = SIE
 			}
 			exists = WAL
 			exists = MOL
+			exists = SIE
 			NOT = { exists = ROM }
 		}
 
 		allow = {
 			
-			OR = {	state_n_government = 1
-			AND = {664 = {owned_by = THIS} 670 = {owned_by = THIS}}	
+			OR = {
+			state_n_government = 1
+			AND = {
+				664 = {OR = {owned_by = THIS owner = {vassal_of = THIS}}} 
+				670 = {OR = {owned_by = THIS owner = {vassal_of = THIS}}} 
+				2533 = {OR = {owned_by = THIS owner = {vassal_of = THIS}}} 
+				656 = {OR = {owned_by = THIS owner = {vassal_of = THIS}}}
+			 }	
 			}
 			
 		}
@@ -32,6 +40,13 @@ political_decisions = {
 			random_country = {
 				limit = {
 					tag = MOL
+					exists = yes
+				}
+				country_event = 11101
+			}
+			random_country = {
+				limit = {
+					tag = SIE
 					exists = yes
 				}
 				country_event = 11101

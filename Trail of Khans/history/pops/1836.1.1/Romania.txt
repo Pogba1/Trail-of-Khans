@@ -527,8 +527,8 @@
     }
 
     bureaucrats = {
-        culture = hungarian
-        religion = catholic
+        culture = romanian
+        religion = orthodox
         size = 450
     }
 
@@ -563,7 +563,7 @@
     }
 
     bureaucrats = {
-        culture = hungarian
+        culture = romanian
         religion = catholic
         size = 375
     }
@@ -929,7 +929,7 @@
     }
 
     bureaucrats = {
-        culture = hungarian
+        culture = romanian
         religion = catholic
         size = 750
     }
@@ -957,11 +957,16 @@
         religion = orthodox
         size = 2000
     }
-
+	aristocrats = {
+        culture = romanian
+        religion = orthodox
+        size = 700
+    }
+	
     aristocrats = {
         culture = hungarian
         religion = catholic
-        size = 200
+        size = 100
     }
 
     clergymen = {
@@ -991,7 +996,7 @@
     aristocrats = {
         culture = hungarian
         religion = protestant
-        size = 350
+        size = 250
     }
 
     clergymen = {
@@ -1021,7 +1026,7 @@
     aristocrats = {
         culture = hungarian
         religion = catholic
-        size = 950
+        size = 450
     }
 
     clergymen = {
@@ -1158,8 +1163,8 @@
     }
 
     clergymen = {
-        culture = hungarian
-        religion = protestant
+        culture = romanian
+        religion = orthodox
         size = 100
     }
 
@@ -1410,7 +1415,13 @@
     aristocrats = {
         culture = hungarian
         religion = catholic
-        size = 350
+        size = 250
+    }
+	
+	aristocrats = {
+        culture = romanian
+        religion = orthodox
+        size = 100
     }
 
     clergymen = {
@@ -1584,9 +1595,14 @@
     }
 
     aristocrats = {
+        culture = romanian
+        religion = orthodox
+        size = 500
+    }
+	aristocrats = {
         culture = hungarian
         religion = protestant
-        size = 900
+        size = 400
     }
 
     clergymen = {
@@ -1773,7 +1789,7 @@
     clergymen = {
         culture = romanian
         religion = orthodox
-        size = 600
+        size = 13740
     }
 
     artisans = {

@@ -13,6 +13,7 @@ country_event = {
         NOT = {
             cultural_union = { exists = yes }
             is_culture_group = germanic
+			is_culture_group = polish_culture_group
         }
     }
 
