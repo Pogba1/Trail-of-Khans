@@ -300,154 +300,71 @@ political_decisions = {
 ######
 	
     form_rome = { 
-	
-	             potential = { is_culture_group = italian NOT = { ITA = { exists = yes } } }
-		             allow = {
-					          is_greater_power = yes
-							  state_n_government = 1
-					          war = no
-	 	                      all_core= {
-		                                 OR = {
-										       owned_by = THIS
-											   owner = {
-											            OR = {
-														      AND = {
-															         vassal_of = THIS
-																	 in_sphere = THIS
-															  }
-															  in_sphere = THIS
-														}
-											   }
+		potential = { 
+			is_culture_group = italian 
+			NOT = { 
+				ITA = { exists = yes } 
+			} 
+		}
+ 	    
+		allow = {
+			is_greater_power = yes
+			state_n_government = 1
+			war = no
+	 	    all_core= {
+		        OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							AND = {
+								vassal_of = THIS
+								in_sphere = THIS
+							}
+						in_sphere = THIS
+					    }
+				    }
 											   
-									    }
-			                    }
-		                      GEN = {
-		                             all_core = {
-									             OR = {
-												       owned_by = THIS
-													   owner = {
-													            OR = {
-																      tag = GEN
-																	  is_culture_group = italian
-																	  vassal_of = THIS
-															    }
-																in_sphere = THIS
-													   }
-												 }
-									}
-							    }
-		                      PAP = {
-		                             all_core = {
-									             OR = {
-												       owned_by = THIS
-													   owner = {
-													            OR = {
-																      tag = PAP
-																	  is_culture_group = italian
-																	  vassal_of = THIS
-															    }
-																in_sphere = THIS
-													   }
-												 }
-									}
-	                            }
-		                      LOM = {
-		                             all_core = {
-									             OR = {
-												       owned_by = THIS
-													   owner = {
-													            OR = {
-																      tag = LOM
-																	  is_culture_group = italian
-																	  vassal_of = THIS
-															    }
-																in_sphere = THIS
-													   }
-												 }
-									}
-		                        }
-                              PAR = {
-		                             all_core = {
-									             OR = {
-												       owned_by = THIS
-													   owner = {
-													            OR = {
-																      tag = PAR
-																	  is_culture_group = italian
-																	  vassal_of = THIS
-															    }
-																in_sphere = THIS
-													   }
-												 }
-									}
-		                        }
-                              MOD = {
-		                             all_core = {
-									             OR = {
-												       owned_by = THIS
-													   owner = {
-													            OR = {
-																      tag = MOD
-																	  is_culture_group = italian
-																	  vassal_of = THIS
-															    }
-																in_sphere = THIS
-													   }
-												 }
-									}
-		                        }
-                              RMG = {
-		                             all_core = {
-									             OR = {
-												       owned_by = THIS
-													   owner = {
-													            OR = {
-																      tag = RMG
-																	  is_culture_group = italian
-																	  vassal_of = THIS
-															    }
-																in_sphere = THIS
-													   }
-												 }
-									}
-		                        }					
-		                      SIC = {
-		                             all_core = {
-									             OR = {
-												       owned_by = THIS
-													   owner = {
-													            OR = {
-																      tag = SIC
-																	  is_culture_group = italian
-																	  vassal_of = THIS
-															    }
-																in_sphere = THIS
-													   }
-												 }
-									}
-		                        }
-		                      VEN = {
-		                             all_core = {
-									             OR = {
-												       owned_by = THIS
-													   owner = {
-													            OR = {
-																      vassal_of = THIS
-																      AND = {
-																	         tag = VEN
-																			 in_sphere = this
-																	  }
-																	  AND = {
-																	         is_culture_group = italian
-																			 in_sphere = this
-																	  }
-																	  is_culture_group = germanic
-															    }
-													   }
-												 }
-									}
-		                        }                                    							  
+				}
+	        }
+            ITA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
                     }
+                }
+            }
+		    VEN = {
+		        all_core = {
+					 OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								vassal_of = THIS
+								AND = {
+									tag = VEN
+									in_sphere = this
+								}
+								AND = {
+									is_culture_group = italian
+									in_sphere = this
+								}
+								NOT = { is_culture_group = italian }
+							}
+						}
+					}
+				}
+		    }                                    							  
+        }
 		                 effect = {
 		                           capital = 749
 		                           primary_culture = roman

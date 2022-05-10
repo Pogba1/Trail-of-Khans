@@ -1,8 +1,9 @@
-	leave_soi = {
+political_decisions = {
+
+    leave_soi = {
 		alert = no
 		potential = {
 			part_of_sphere = yes
-			
 		}
 		allow = {
 			sphere_owner = {
@@ -28,4 +29,6 @@
 		ai_will_do = {
 			factor = 0
 		}
-	}
+    }
+
+}
