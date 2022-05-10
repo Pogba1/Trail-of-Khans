@@ -191,8 +191,6 @@ country_event = {
 								  militancy=-2
 								  consciousness=-3
 						 }
-								  
-						HUN = { all_core = { add_core = THIS } }
                  }
 }				 
 
