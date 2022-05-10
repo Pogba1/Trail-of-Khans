@@ -24,12 +24,12 @@ political_decisions = {
 			primary_culture = scottish
 			has_country_flag = britannic_integration
 			NOT = {has_country_flag = british_danish_integration}
-			revolution_n_counterrevolution = 1
+			
 		}
 		allow = {
 			war=no
 			all_core = {owned_by = THIS}
-			state_n_government = 1
+			revolution_n_counterrevolution = 1
 		}
 		effect = {
 			add_accepted_culture = british_danish
