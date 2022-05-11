@@ -70,23 +70,68 @@ political_decisions = {
 			NOT = {has_country_flag = attempt_reform_gaul}
 		}
 		allow = {
-		OR = {
-			263 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			269 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
+			OR = {
+				263 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
+				269 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
+			}
+			OR = {	
+				254 = {
+					OR = {
+						owned_by = THIS 
+						owner = {in_sphere = THIS}
+					}
+				}
+				270 = {
+					OR = {
+						owned_by = THIS 
+						owner = {in_sphere = THIS}
+					}
+				}
+			}
+			258 = {
+				OR = {
+					owned_by = THIS o
+					wner = {in_sphere = THIS}
+				}
+			}
+			260 = {
+				OR = {
+					owned_by = THIS 
+					owner = {in_sphere = THIS}
+				}
+			}
+			299 = {
+				OR = {
+					owned_by = THIS 
+					owner = {in_sphere = THIS}
+				}
+			}
+			300 = {
+				OR = {
+					owned_by = THIS 
+					owner = {in_sphere = THIS}
+				}
+			}
+			296 = {
+				OR = {
+					owned_by = THIS 
+					owner = {in_sphere = THIS}
+				}
+			}
+			277 = {
+				OR = {
+					owned_by = THIS 
+					owner = {in_sphere = THIS}
+				}
+			}
+			267 = {
+				OR = {
+					owned_by = THIS 
+					owner = {in_sphere = THIS}
+				}
+			}
+		nationalism_n_imperialism = 1	
 		}
-		OR = {	
-			254 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			270 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-		}
-			258 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			260 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			299 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			300 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			296 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			277 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			267 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-		}
-		nationalism_n_imperialism = 1
 		
 		effect = {
 		change_tag = GAE

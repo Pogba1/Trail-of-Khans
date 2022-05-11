@@ -108,6 +108,21 @@ SPA = { value = 55 }
 
 TRZ = { value = -100 }
 
+LBR = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+UBR = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+
+
+
 #army = {
 #    name = "Armée Louisianais"
 #    location = 139
