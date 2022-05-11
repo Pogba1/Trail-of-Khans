@@ -2928,3 +2928,26 @@ recently_demoted = {
 icon = 8
 
 }
+
+grigma_male = {
+	education_efficiency_modifier = 0.1
+	research_points_modifier = 0.1
+	poor_everyday_needs = -0.1
+	middle_everyday_needs = -0.1
+	rich_everyday_needs = -0.1
+	poor_luxury_needs = -0.1
+	middle_luxury_needs = -0.1
+	rich_luxury_needs = -0.1
+	loan_interest = -0.2
+	tax_efficiency = 0.02
+	war_exhaustion = -0.1
+	supply_consumption = -0.05
+	RGO_throughput = 0.05
+	research_points = 0.05
+	mobilisation_size = 0.05
+	mobilization_impact = -0.05
+	mobilization_economy_impact = -0.05
+	land_organisation = 0.01
+	factory_cost = -0.1
+	icon = 12
+}

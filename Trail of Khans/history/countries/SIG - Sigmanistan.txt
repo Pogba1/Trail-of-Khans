@@ -1,6 +1,8 @@
 capital = 1209
 primary_culture = pashtun
 culture = tajik
+culture = baluchi
+culture = turkmen
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
@@ -47,21 +49,7 @@ upper_house = {
 }
 
 set_country_flag = sunni_country
-foreign_weapons = yes_foreign_weapons
-foreign_training = yes_foreign_training
-
-# Technologies
-flintlock_rifles = 1
-
-# Inventions
-small_arms_production = yes
-ammunition_production = yes
-#big_sail_ships = yes
-#sail_ships_transport = yes
-#big_sail_support = yes
 
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
-
-oob = "AFG_oob.txt"

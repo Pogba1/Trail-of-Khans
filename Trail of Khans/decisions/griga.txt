@@ -1,0 +1,26 @@
+political_decisions = {
+	form_sigmanistan = {
+		potential = {
+			NOT = {exists = SIG}
+			tag = AFG
+		}
+		allow = {
+			1209 = {owned_by = THIS}
+			1204 = {owned_by = THIS}
+			1222 = {owned_by = THIS}
+		}
+		effect = {
+			add_accepted_culture = baluchi
+			add_accepted_culture = turkmen
+			prestige = 20
+			AFG = {all_core = {add_core = SIG}}
+			TKM = {all_core = {add_core = SIG}}
+			BLC = {all_core = {add_core = SIG}}
+			change_tag = SIG
+			add_country_modifier = {
+				name = grigma_male
+				duration = -1
+			}
+		}
+	}
+}
