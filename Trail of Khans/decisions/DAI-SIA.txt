@@ -40,13 +40,49 @@ political_decisions = {
 		}
 		allow = {
 			1364 = {owned_by = THIS}
-			state_n_government = 1
+			civilized = yes
 		}
 		effect = {
 			prestige = 5
 			set_country_flag = cambodian_integration
 			CAM = {all_core = {add_core = THIS}}
 			add_accepted_culture = khmer
+		}
+	}
+	
+	burmese_integration = {
+		potential = {
+			tag = SIA
+			NOT = {has_country_flag = burmese_integration}
+			
+		}
+		allow = {
+			1334 = {owned_by = THIS}
+			civilized = yes
+		}
+		effect = {
+			prestige = 5
+			set_country_flag = burmese_integration
+			BUR = {all_core = {add_core = THIS}}
+			add_accepted_culture = burmese
+		}
+	}
+	
+	vietnamese_integration = {
+		potential = {
+			tag = SIA
+			NOT = {has_country_flag = vietnamese_integration}
+			
+		}
+		allow = {
+			1369 = {owned_by = THIS}
+			civilized = yes
+		}
+		effect = {
+			prestige = 5
+			set_country_flag = vietnamese_integration
+			DAI = {all_core = {limit = {NOT = {is_core = CHI}}add_core = THIS}}
+			add_accepted_culture = vietnamese
 		}
 	}
 	

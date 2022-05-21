@@ -88,7 +88,9 @@ political_decisions = {
 		effect = {
 			set_country_flag = united_in_solidarity
 			add_accepted_culture = portuguese
-			change_tag = IBR
+			change_tag = IBE
+			SPA_512 = {add_core = THIS}
+			SPA_513 = {add_core = THIS}
 			}
 	}
 	embrace_catalan = {

@@ -115,6 +115,17 @@
         religion = mahayana
         size = 21875
     }
+	
+	farmers = {
+		culture = thai
+		religion = theravada
+		size = 43560
+	}
+	clergymen = {
+		culture = thai
+		religion = theravada
+		size = 471
+	}
 }
 #Lopburi (324000/81000 POPS)
 1347 = {
@@ -153,6 +164,17 @@
         religion = theravada
         size = 8000
     }
+	
+	farmers = {
+		culture = thai
+		religion = theravada
+		size = 43560
+	}
+	clergymen = {
+		culture = thai
+		religion = theravada
+		size = 471
+	}
 }
 #Nakhon Sawan (188000/47000 POPS)
 1348 = {
@@ -221,6 +243,17 @@
         religion = mahayana
         size = 1650
     }
+	
+	farmers = {
+		culture = thai
+		religion = theravada
+		size = 43560
+	}
+	clergymen = {
+		culture = thai
+		religion = theravada
+		size = 471
+	}
 }
 #Sukothai (136000/34000 POPS)
 1349 = {
@@ -253,6 +286,16 @@
         religion = theravada
         size = 29900
     }
+	farmers = {
+		culture = thai
+		religion = theravada
+		size = 43560
+	}
+	clergymen = {
+		culture = thai
+		religion = theravada
+		size = 471
+	}
 }
 #Nakhon Ratchasima (160000/40000 POPS)
 1350 = {
@@ -459,6 +502,17 @@
         religion = sunni
         size = 2750
     }
+	
+	farmers = {
+		culture = thai
+		religion = theravada
+		size = 43560
+	}
+	clergymen = {
+		culture = thai
+		religion = theravada
+		size = 471
+	}
 }
 #Ratchaburi (172000/43000 POPS)
 1353 = {
@@ -521,6 +575,17 @@
         religion = mahayana
         size = 5225
     }
+	
+	farmers = {
+		culture = thai
+		religion = theravada
+		size = 43560
+	}
+	clergymen = {
+		culture = thai
+		religion = theravada
+		size = 471
+	}
 }
 #Nakhon Si Thammanet (196000/49000 POPS)
 1354 = {
@@ -613,6 +678,17 @@
         religion = sunni
         size = 10975
     }
+	
+	farmers = {
+		culture = thai
+		religion = theravada
+		size = 43560
+	}
+	clergymen = {
+		culture = thai
+		religion = theravada
+		size = 471
+	}
 }
 #thai Region (600000)
 #under the rule of Siam in 1836
@@ -695,7 +771,16 @@
         religion = theravada
         size = 46250
     }
-
+	farmers = {
+		culture = thai
+		religion = theravada
+		size = 43560
+	}
+	clergymen = {
+		culture = thai
+		religion = theravada
+		size = 471
+	}
     slaves = {
         culture = burmese
         religion = theravada
@@ -793,6 +878,17 @@
         religion = theravada
         size = 20200
     }
+	
+	farmers = {
+		culture = thai
+		religion = theravada
+		size = 43560
+	}
+	clergymen = {
+		culture = thai
+		religion = theravada
+		size = 471
+	}
 }
 #thais Region (776000)
 #under the rule of Siam in 1836
@@ -1119,5 +1215,14 @@
         religion = mahayana
         size = 1275
     }
-
+	farmers = {
+		culture = thai
+		religion = theravada
+		size = 43560
+	}
+	clergymen = {
+		culture = thai
+		religion = theravada
+		size = 471
+	}
 }

@@ -1,4 +1,5 @@
 #Tonkin Region (2784000)
+#Tonkin Region (2784000)
 #under the rule of Annam in 1836
 #Hanoi (808000/202000 POPS)
 1369 = {
@@ -145,7 +146,7 @@
     farmers = {
         culture = vietnamese
         religion = mahayana
-        size = 179050
+        size = 279050
     }
 
     clergymen = {
@@ -403,7 +404,7 @@
     farmers = {
         culture = vietnamese
         religion = mahayana
-        size = 62405
+        size = 162405
     }
 
     slaves = {
@@ -869,44 +870,44 @@
 #Saigon (848000/212000 POPS)
 1380 = {
     aristocrats = {
-        culture = vietnamese
-        religion = mahayana
+        culture = khmer
+        religion = theravada
         size = 3600
     }
 
     bureaucrats = {
-        culture = vietnamese
-        religion = mahayana
+        culture = khmer
+        religion = theravada
         size = 325
     }
 
     officers = {
-        culture = vietnamese
-        religion = mahayana
+        culture = khmer
+        religion = theravada
         size = 300
     }
 
     clergymen = {
-        culture = vietnamese
-        religion = mahayana
+        culture = khmer
+        religion = theravada
         size = 1775
     }
 
     artisans = {
-        culture = vietnamese
-        religion = mahayana
+        culture = khmer
+        religion = theravada
         size = 7500
     }
 
     soldiers = {
-        culture = vietnamese
-        religion = mahayana
+        culture = khmer
+        religion = theravada
         size = 1775
     }
 
     farmers = {
-        culture = vietnamese
-        religion = mahayana
+        culture = khmer
+        religion = theravada
         size = 161725
     }
 
@@ -954,19 +955,19 @@
 
     clergymen = {
         culture = vietnamese
-        religion = catholic
+        religion = theravada
         size = 125
     }
 
     artisans = {
         culture = vietnamese
-        religion = catholic
+        religion = theravada
         size = 1100
     }
 
     farmers = {
         culture = vietnamese
-        religion = catholic
+        religion = theravada
         size = 18875
     }
 }
@@ -1055,55 +1056,55 @@
     aristocrats = {
         culture = vietnamese
         religion = mahayana
-        size = 600
+        size = 2400
     }
 
     clergymen = {
         culture = vietnamese
         religion = mahayana
-        size = 250
+        size = 1000
     }
 
     artisans = {
         culture = vietnamese
         religion = mahayana
-        size = 1400
+        size = 5600
     }
 
     soldiers = {
         culture = vietnamese
         religion = mahayana
-        size = 300
+        size = 1200
     }
 
     farmers = {
         culture = vietnamese
         religion = mahayana
-        size = 24750
+        size = 100750
     }
 
     clergymen = {
         culture = khmer
         religion = theravada
-        size = 600
+        size = 2400
     }
 
     artisans = {
         culture = khmer
         religion = theravada
-        size = 1450
+        size = 6000
     }
 
     soldiers = {
         culture = khmer
         religion = theravada
-        size = 250
+        size = 1000
     }
 
     farmers = {
         culture = khmer
         religion = theravada
-        size = 27000
+        size = 108000
     }
 
     farmers = {
