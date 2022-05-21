@@ -274,15 +274,7 @@ gas_attack_capability = {
         has_country_flag = existing_country
     }
     chance = {
-        base = 0
-        modifier = {
-            factor = 2
-            invention = cracking
-        }
-        modifier = {
-            factor = 2
-            invention = carbon_soil_enrichment
-        }
+        base = !00
     }
     effect = {
         gas_attack = yes
@@ -294,16 +286,7 @@ gas_defense_capability = {
         has_country_flag = existing_country
     }
     chance = {
-        base = 0
-        modifier = {
-            factor = 5
-            war = yes
-            war_countries = { invention = gas_attack_capability }
-        }
-        modifier = {
-            factor = 1
-            any_neighbor_country = { invention = gas_attack_capability }
-        }
+        base = 100
     }
     effect = {
         gas_defence = yes
@@ -788,12 +771,7 @@ breech_loaded_rifle_armament = {
 machine_gun_armament = {
     limit = { machine_guns = 1 invention = breech_loaded_rifle_armament }
     chance = {
-        base = 5
-        modifier = {
-            factor = 2
-            war = yes
-            war_countries = { invention = machine_gun_armament }
-        }
+        base = 100
     }
     effect = {
         infantry = {

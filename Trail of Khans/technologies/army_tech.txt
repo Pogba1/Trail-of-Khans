@@ -1218,7 +1218,7 @@ machine_guns = {
     cost = 14400
     unciv_military = yes
 
-    combat_width = -5
+    combat_width = -6
     #colonial_life_rating = -10
     ai_chance = {
         factor = 6
@@ -1352,8 +1352,8 @@ bolt_action_rifles = {
     cost = 18000
     unciv_military = yes
     unit = 1
-
-    combat_width = -5
+	
+	combat_width = -4
 
     ai_chance = {
         factor = 3
@@ -1488,7 +1488,6 @@ modern_divisional_structure = {
     unciv_military = yes
 
     unit = 2
-    combat_width = -5
 
     ai_chance = {
         factor = 1.5
@@ -2078,7 +2077,7 @@ indirect_artillery_fire = {
         attack = 0.5
         defence = 2
         support = 1
-        supply_consumption = 0.3
+        supply_consumption = 0.1
     }
 
     ai_chance = {
@@ -2216,7 +2215,7 @@ heavy_armament_dunno = {
         attack = 0.5
         defence = 2
         support = 1
-        supply_consumption = 0.3
+        supply_consumption = 0.1
     }
 
     ai_chance = {
@@ -2767,7 +2766,7 @@ military_logistics = {
 
     army_base = {
         default_organisation = 5
-        supply_consumption = 0.10
+        supply_consumption = -0.10
     }
     mobilisation_size = 0.05
 
@@ -2905,7 +2904,7 @@ military_directionism = {
 
     army_base = {
         default_organisation = 10
-        supply_consumption = 0.20
+        supply_consumption = 0.10
     }
     ai_chance = {
         factor = 8
@@ -3039,7 +3038,7 @@ aeronautics = {
     cost = 21600
     army_base = {
         default_organisation = 10
-        supply_consumption = 0.20
+        supply_consumption = -0.10
     }
 
     unciv_military = yes
@@ -3499,7 +3498,7 @@ army_risk_management = {
     military_tactics = 0.25
 
     army_base = {
-        supply_consumption = 0.20
+        supply_consumption = 0.10
     }
 
     ai_chance = {
@@ -3587,7 +3586,7 @@ army_nco_training = {
     military_tactics = 0.25
 
     army_base = {
-        supply_consumption = 0.20
+        supply_consumption = 0.10
     }
 
     ai_chance = {
@@ -3674,7 +3673,7 @@ great_war_experience = {
     military_tactics = 0.25
 
     army_base = {
-        supply_consumption = 0.20
+        supply_consumption = 0.10
     }
 
     ai_chance = {
