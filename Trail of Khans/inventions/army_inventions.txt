@@ -274,7 +274,7 @@ gas_attack_capability = {
         has_country_flag = existing_country
     }
     chance = {
-        base = !00
+        base = 100
     }
     effect = {
         gas_attack = yes
