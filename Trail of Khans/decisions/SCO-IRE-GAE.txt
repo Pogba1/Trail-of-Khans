@@ -119,15 +119,7 @@ political_decisions = {
 			all_core = {owned_by = THIS}
 			state_n_government = 1
 			is_greater_power = yes
-			OR = {
-				NOT = {
-					relation = { 
-						who = IRE 
-						value = 0 
-					}
-				}
-				NOT = {exists = IRE}
-			}
+			ENG_296 = {owned_by = THIS}
 		}
 		effect = {
 			ENG_273 = {add_core=THIS}
