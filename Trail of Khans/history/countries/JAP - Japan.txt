@@ -56,10 +56,10 @@ bronze_muzzle_loaded_artillery = 1
 malthusian_thought = 1
 
 #Unciv Reforms
-land_reform = yes_admin_reform
+land_reform = yes_land_reform
 foreign_weapons = yes_foreign_weapons
 military_constructions = yes_military_constructions
-foreing_artillery = yes_foreign_artillery
+foreign_artillery = yes_foreign_artillery
 education_reform = yes_education_reform
 
 # Starting Consciousness
