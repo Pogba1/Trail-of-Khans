@@ -147,8 +147,18 @@ political_decisions = {
 		}
 		allow = {
 			OR = {
-				263 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-				269 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
+				263 = {
+					OR = {
+						owned_by = THIS 
+						owner = {in_sphere = THIS}
+					}
+				}
+				269 = {
+					OR = {
+						owned_by = THIS 
+						owner = {in_sphere = THIS}
+					}
+				}
 			}
 			OR = {	
 				254 = {
@@ -166,7 +176,7 @@ political_decisions = {
 			}
 			258 = {
 				OR = {
-					owned_by = THIS o
+					owned_by = THIS
 					wner = {in_sphere = THIS}
 				}
 			}
@@ -210,40 +220,40 @@ political_decisions = {
 		}
 		
 		effect = {
-		change_tag = GAE
-		any_country = {
-			limit = {
-                NOT = { is_greater_power = yes }
-                NOT = { has_country_flag = post_colonial_country }
-                is_culture_group = THIS
-                in_sphere = THIS
-                OR = {
-                      is_vassal = no
-                      vassal_of = THIS
-                }
-            }
-                country_event = 11101
-        }
-		IRE = {
-			all_core = {
+			change_tag = GAE
+			any_country = {
 				limit = {
-					NOT = {
-						is_core = FRA
-						is_core = LBR
-						is_core = UBR
-						is_core = NET
+					NOT = { is_greater_power = yes }
+					NOT = { has_country_flag = post_colonial_country }
+					is_culture_group = THIS
+					in_sphere = THIS
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
 					}
 				}
-				add_core = GAE
+				country_event = 11101
 			}
-		}
-		SCO = {
-			all_core = {
-				add_core = GAE
+			IRE = {
+				all_core = {
+					limit = {
+						NOT = {
+							is_core = FRA
+							is_core = LBR
+							is_core = UBR
+							is_core = NET
+						}
+					}
+					add_core = GAE
+				}
 			}
-		}
-		add_accepted_culture = irish
-		add_accepted_culture = scottish
+			SCO = {
+				all_core = {
+					add_core = GAE
+				}
+			}
+			add_accepted_culture = irish
+			add_accepted_culture = scottish
 		}
 	}
 	
