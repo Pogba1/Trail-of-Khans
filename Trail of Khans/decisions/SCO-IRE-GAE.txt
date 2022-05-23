@@ -177,7 +177,7 @@ political_decisions = {
 			258 = {
 				OR = {
 					owned_by = THIS
-					wner = {in_sphere = THIS}
+					owner = {in_sphere = THIS}
 				}
 			}
 			260 = {

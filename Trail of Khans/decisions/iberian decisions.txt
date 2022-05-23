@@ -3,24 +3,21 @@ political_decisions = {
 		picture = ""
 		potential = {
 			OR = {
-			tag = ATR
-			tag = AND
+				tag = ATR
+				tag = AND
 			}
 			NOT = {has_country_flag = unite_the_peninsula}
 			NOT = {has_country_flag = rebuild_the_caliphate}
 		}
 		allow = {
-		state_n_government = 1
-		war = no
-		all_core = {
-				all_core = {
-                OR = { 
-                    NOT = { continent = europe }
-                    owned_by = THIS
-						}
-					}		
+			state_n_government = 1
+			war = no
+			all_core = {
+				OR = { 
+					NOT = { continent = europe }
+					owned_by = THIS
 				}
-			
+			}	
 		}
 		effect = {
 			set_country_flag = unite_the_peninsula
@@ -32,7 +29,7 @@ political_decisions = {
 			POR_2134 = {add_core = THIS}
 			POR_525 = {add_core = THIS}
 			502 = {add_core = THIS}
-			}
+		}
 	}
 	
 	united_in_solidarity_and = {
