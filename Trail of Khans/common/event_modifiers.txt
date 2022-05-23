@@ -170,16 +170,6 @@ colony_to_be_annexed = {
     icon = 5
 }
 
-regency_government = {
-    global_pop_consciousness_modifier = 0.1
-    global_pop_militancy_modifier = 0.05
-    political_reform_desire  = 0.25
-    cb_generation_speed_modifier = -0.25
-    influence_modifier = -0.25
-    org_regain = -0.25
-    icon = 8
-}
-
 reactionary_demands = {
     core_pop_militancy_modifier = -0.3
     research_points_modifier = -0.45
