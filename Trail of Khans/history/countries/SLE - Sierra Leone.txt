@@ -1,12 +1,11 @@
 capital = 1884
-primary_culture = afro_caribbean
-culture = mande
+primary_culture = hausa
 religion = catholic
 government = democracy
 plurality = 0.0
 nationalvalue = nv_liberty
 literacy = 0.01
-civilized = yes
+civilized = no
 
 # Political reforms
 slavery = no_slavery
