@@ -659,7 +659,7 @@ naval_base = {
         steel = 100
         machine_parts = 1
     }
-    time = 365
+    time = 730
     naval_capacity = 1
     capital = yes
     onmap = yes
