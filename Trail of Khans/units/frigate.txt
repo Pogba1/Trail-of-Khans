@@ -27,7 +27,7 @@ frigate = {
         canned_food = 10 #160£
     }
     #Total: 1868£ | was 720£
-    min_port_level = 1
+    min_port_level = 0
     limit_per_port = -1
     supply_consumption_score = 1
 

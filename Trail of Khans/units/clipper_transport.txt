@@ -25,7 +25,7 @@ clipper_transport = {
         clipper_convoy = 5 #210 | was 4 - 168£
     }
     #Total: 351.8£
-    min_port_level = 1
+    min_port_level = 0
     limit_per_port = -1
     supply_consumption_score = 1
 

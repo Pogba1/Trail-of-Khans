@@ -6,7 +6,7 @@ plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.40
 prestige = 3
-civilized = yes
+civilized = no
 
 # Political reforms
 slavery = no_slavery
@@ -48,37 +48,19 @@ upper_house = {
     socialist = 0
     communist = 0
 }
-
-
-
-
+ 
 # Technologies
 flintlock_rifles = 1
 post_napoleonic_thought = 1
 bronze_muzzle_loaded_artillery = 1
-military_staff_system = 1
-post_nelsonian_thought = 1
-clipper_design = 1
-alphabetic_flag_signaling = 1
-early_classical_theory_and_critique = 1
-freedom_of_trade = 1
-guild_based_production = 1
-late_enlightenment_philosophy = 1
-classicism_n_early_romanticism = 1
-basic_chemistry = 1
-hot_blast = 1
-piston_steam_engine = 1
+malthusian_thought = 1
 
-# Inventions
-small_arms_production = yes
-ammunition_production = yes
-
-# Inventions
-#bottling_process = yes
-modern_winemaking = yes
-#big_sail_ships = yes
-#sail_ships_transport = yes
-#big_sail_support = yes
+#Unciv Reforms
+land_reform = yes_admin_reform
+foreign_weapons = yes_foreign_weapons
+military_constructions = yes_military_constructions
+foreing_artillery = yes_foreign_artillery
+education_reform = yes_education_reform
 
 # Starting Consciousness
 consciousness = 0

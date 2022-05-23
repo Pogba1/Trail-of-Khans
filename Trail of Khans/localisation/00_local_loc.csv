@@ -206,8 +206,8 @@ form_gae_title;Form Gaellia;x
 form_gae_desc; ;x
 GAE;Gaellia;x
 GAE_ADJ;Gaellic;x
-hegemony_over_the_island_title;Hegemony Over the Island;x
-hegemony_over_the_island_desc; ;x
+hegemony_over_the_island_title_SCO;Hegemony Over Britannia & Wales;x
+hegemony_over_the_island_SCO_desc; ;x
 britannic_integration_title;Britannic Integration;x
 britannic_integration_desc; ;x
 british_danish_integration_title;Mend Relations with The Danish;x
@@ -1349,3 +1349,9 @@ LUB_hms_government;The United Hanseatic States;;;;;;;;;;;;;
 LUB_bourgeois_dictatorship;The Hanseatic League;;;;;;;;;;;;;
 LUB_presidential_dictatorship;The Hanseatic Directorate;;;;;;;;;;;;;
 LUB_proletarian_dictatorship;The Hanseatic People's Guild;;;;;;;;;;;;;
+cores_scotland_ireland_title;Our Rule over Albion;;;;;;;;;;;;;
+cores_scotland_ireland_desc;We have for long vyed to have dominion over Albion at the expense of the Irish. After finally pushing them out of Britannia proper, it is time to invade Ierne and finally unify the celts under one flag.;;;;;;;;;;;;;
+cores_ireland_scotland_title;Our Rule over Albion;;;;;;;;;;;;;
+cores_ireland_scotland_desc;The Scots have long been a rebellious people who have caused us much trouble over the history of the Emerald Island. Ierne has long endured these hardships, but we cannot tolerate this any longer. It is time to push into the heartland of the Scots.;;;;;;;;;;;;;
+hegemony_over_the_island_IRE_title;The Conquest of Britannia;;;;;;;;;;;;;
+hegemony_over_the_island_IRE_desc;The Scots have been increasing their threats of war for the rest of Britannia and Wales, we must no longer sit by idly stand by and watch as they encroach upon our territory. Britannia cannot remain as the Status Quo is, it must be under our direct rule.;;;;;;;;;;;;;

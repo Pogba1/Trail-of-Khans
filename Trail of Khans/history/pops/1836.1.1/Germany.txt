@@ -1645,7 +1645,7 @@
     }
 
     clergymen = {
-        culture = western_slavic
+        culture = north_german
         religion = protestant
         size = 300
     }
@@ -1675,13 +1675,13 @@
     }
 
     farmers = {
-        culture = western_slavic
+        culture = north_german
         religion = protestant
         size = 30000
     }
 
     clergymen = {
-        culture = western_slavic
+        culture = north_german
         religion = catholic
         size = 100
     }
@@ -1693,7 +1693,7 @@
     }
 
     farmers = {
-        culture = western_slavic
+        culture = north_german
         religion = catholic
         size = 7100
     }
