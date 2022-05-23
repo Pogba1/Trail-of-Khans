@@ -136,6 +136,7 @@ political_decisions = {
 			299 = {add_core = THIS}
 			304 = {add_core = THIS}
 			set_country_flag = hegemony_over_the_island
+			prestige = 15
 		}
 	}
 	
@@ -254,6 +255,7 @@ political_decisions = {
 			}
 			add_accepted_culture = irish
 			add_accepted_culture = scottish
+			prestige = 30
 		}
 	}
 	
