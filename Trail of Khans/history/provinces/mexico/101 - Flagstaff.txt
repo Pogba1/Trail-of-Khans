@@ -3,7 +3,8 @@ controller = MEX
 add_core = MEX
 trade_goods = iron
 life_rating = 35
-#colonial = 2
+colonial = 2
+
 1861.1.1 = {
     controller = USA
     owner = USA

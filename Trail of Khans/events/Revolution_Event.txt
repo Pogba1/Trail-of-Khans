@@ -110,20 +110,6 @@ country_event = {
             }
             owner = { set_country_flag = anarcho_liberal_party_in_power }
         }
-
-        random_owned = {
-            limit = {
-                owner = {
-                    has_country_modifier = regency_government
-                    NOT = {
-                        government = absolute_monarchy
-                        government = prussian_constitutionalism
-                        government = hms_government
-                    }
-                }
-            }
-            owner = { remove_country_modifier = regency_government }
-        }
         random_owned = {
             limit = { owner = { has_country_modifier = santa_ana_rule } }
             owner = { remove_country_modifier = santa_ana_rule }
@@ -456,20 +442,7 @@ country_event = {
             }
             owner = { set_country_flag = anarcho_liberal_party_in_power }
         }
-
-        random_owned = {
-            limit = {
-                owner = {
-                    has_country_modifier = regency_government
-                    NOT = {
-                        government = absolute_monarchy
-                        government = prussian_constitutionalism
-                        government = hms_government
-                    }
-                }
-            }
-            owner = { remove_country_modifier = regency_government }
-        }
+		
         random_owned = {
             limit = { owner = { has_country_modifier = santa_ana_rule } }
             owner = { remove_country_modifier = santa_ana_rule }
@@ -959,20 +932,6 @@ country_event = {
             }
             owner = { set_country_flag = anarcho_liberal_party_in_power }
         }
-
-        random_owned = {
-            limit = {
-                owner = {
-                    has_country_modifier = regency_government
-                    NOT = {
-                        government = absolute_monarchy
-                        government = prussian_constitutionalism
-                        government = hms_government
-                    }
-                }
-            }
-            owner = { remove_country_modifier = regency_government }
-        }
         random_owned = {
             limit = { owner = { has_country_modifier = santa_ana_rule } }
             owner = { remove_country_modifier = santa_ana_rule }
@@ -1376,20 +1335,6 @@ country_event = {
                 }
             }
             owner = { set_country_flag = anarcho_liberal_party_in_power }
-        }
-
-        random_owned = {
-            limit = {
-                owner = {
-                    has_country_modifier = regency_government
-                    NOT = {
-                        government = absolute_monarchy
-                        government = prussian_constitutionalism
-                        government = hms_government
-                    }
-                }
-            }
-            owner = { remove_country_modifier = regency_government }
         }
         random_owned = {
             limit = { owner = { has_country_modifier = santa_ana_rule } }
@@ -1805,20 +1750,6 @@ country_event = {
                 }
             }
             owner = { set_country_flag = anarcho_liberal_party_in_power }
-        }
-
-        random_owned = {
-            limit = {
-                owner = {
-                    has_country_modifier = regency_government
-                    NOT = {
-                        government = absolute_monarchy
-                        government = prussian_constitutionalism
-                        government = hms_government
-                    }
-                }
-            }
-            owner = { remove_country_modifier = regency_government }
         }
         random_owned = {
             limit = { owner = { has_country_modifier = santa_ana_rule } }
@@ -2461,20 +2392,6 @@ country_event = {
             }
             owner = { set_country_flag = anarcho_liberal_party_in_power }
         }
-
-        random_owned = {
-            limit = {
-                owner = {
-                    has_country_modifier = regency_government
-                    NOT = {
-                        government = absolute_monarchy
-                        government = prussian_constitutionalism
-                        government = hms_government
-                    }
-                }
-            }
-            owner = { remove_country_modifier = regency_government }
-        }
         random_owned = {
             limit = { owner = { NOT = { border_policy = open_borders } } }
             owner = { political_reform = open_borders }
@@ -2908,20 +2825,6 @@ country_event = {
                 }
             }
             owner = { set_country_flag = anarcho_liberal_party_in_power }
-        }
-
-        random_owned = {
-            limit = {
-                owner = {
-                    has_country_modifier = regency_government
-                    NOT = {
-                        government = absolute_monarchy
-                        government = prussian_constitutionalism
-                        government = hms_government
-                    }
-                }
-            }
-            owner = { remove_country_modifier = regency_government }
         }
         clr_country_flag = wants_to_unify
         clr_country_flag = does_not_want_to_unify
