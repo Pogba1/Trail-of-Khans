@@ -3257,23 +3257,29 @@
 }
 #Moorhead (8000/2000 POPS)
 157 = {
-
+    
+	bureaucrats = {
+	    culture = cree
+		religion = catholic
+		size = 50
+	}
+	
     clergymen = {
         culture = french_canadian
 		religion = catholic
-        size = 5
+        size = 500
     }
 
     artisans = {
         culture = french_canadian
 		religion = catholic
-        size = 5
+        size = 52
     }
 
     soldiers = {
         culture = french_canadian
 		religion = catholic
-        size = 20
+        size = 300
     }
 
     farmers = {
@@ -3285,25 +3291,25 @@
     soldiers = {
         culture = dakota
         religion = animist
-        size = 150
+        size = 864
     }
 
     farmers = {
         culture = dakota
         religion = animist
-        size = 900
+        size = 7502
     }
 
     soldiers = {
         culture = native_american_minor
         religion = animist
-        size = 150
+        size = 657
     }
 
     farmers = {
         culture = native_american_minor
         religion = animist
-        size = 900
+        size = 10493
     }
 }
 #Duluth (8000/2000 POPS)

@@ -53,6 +53,7 @@ political_decisions = {
 				}
 			NOT = {tag = ARG}
 			NOT = {tag = INC}
+			NOT = {tag = CEE}
 		NOT = {has_country_flag = new_life_nw}
 		}
 		allow = {

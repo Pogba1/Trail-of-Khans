@@ -1,0 +1,18 @@
+political_decisions = {
+	
+	embrace_natives = {
+		potential = {
+			tag = CEE
+			NOT = { has_country_flag = embrace_natives }
+		}
+		allow = {
+			civilized = yes
+		}
+		effect = {
+			add_accepted_culture = dakota
+			add_accepted_culture = native_american_minor
+			add_accepted_culture = inuit
+		    prestige = 15
+		}
+	}
+}

@@ -5,6 +5,8 @@ add_core = QUE
 trade_goods = coal
 life_rating = 35
 terrain = mining_district
+colonial = 2
+
 party_loyalty = {
     ideology = conservative
     loyalty_value = 12

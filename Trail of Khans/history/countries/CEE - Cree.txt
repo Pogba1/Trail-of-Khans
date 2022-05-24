@@ -1,9 +1,9 @@
-capital = 180
+capital = 41
 primary_culture = cree
 religion = catholic
 government = hms_government
 plurality = 5.0
-nationalvalue = nv_liberty
+nationalvalue = nv_order
 literacy = 0.25995434
 non_state_culture_literacy = 0.1265547
 civilized = no
@@ -38,10 +38,12 @@ school_reforms = low_schools
 
 flintlock_rifles = 1
 military_staff_system = 1
-bronze_muzzled_loaded_artillery = 1
+bronze_muzzle_loaded_artillery = 1
 late_enlightenment_philosophy = 1
+army_command_principle = 1
 
 land_reform=yes_land_reform
+education_reform=yes_education_reform
 research_reform=yes_research_reform
 foreign_training=yes_foreign_training
 foreign_weapons=yes_foreign_weapons
