@@ -51,9 +51,11 @@ country_event = {
 		has_country_flag = embrace_natives
 		war = no
 		any_owned_province = {
-				OR = {
-					is_primary_culture = no
-					is_accepted_culture = no
+				NOT = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
 				}
 				NOT = { has_province_modifier = assimilation_of_the_euros }
 				is_colonial = no
@@ -67,9 +69,11 @@ country_event = {
 		name = "We shall prosper"
 		any_owned = {
 			limit = {
-				OR = {
-					is_primary_culture = no
-					is_accepted_culture = no			
+				NOT = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
 				}
 				controlled_by = THIS
 				is_colonial = no

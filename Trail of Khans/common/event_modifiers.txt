@@ -2943,7 +2943,7 @@ grigma_male = {
 }
 
 growth_of_natives = {
-	population_growth = 0.0015
+	population_growth = 0.002
 	assimilation_rate = 0.25
 }
 
