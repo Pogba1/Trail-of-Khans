@@ -1,190 +1,184 @@
 political_decisions = {
 
 	assimilate_savoie = {
-	
-	                     potential = {
-						              tag = RMR
-									  NOT = { has_country_flag = assimilated_savoie }
-									 }
-									 
-							allow = {
-								     nationalism_n_imperialism = 1
-									 465 = {
-									        owned_by = THIS
-											}
-									 466 = {
-									        owned_by = THIS
-										    }
-									}
-								
-								effect = { 
-								          set_country_flag = assimilated_savoie
-										  prestige = 10
-										  SAR_466 = {
-										         remove_core = FRA
-												 remove_core = LBR
-										         assimilate = yes
-												 add_core = RMR
-												}
-										 }
-						}
+		potential = {
+			tag = RMR
+			NOT = { has_country_flag = assimilated_savoie }
+		}
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			465 = {
+				owned_by = THIS
+			}
+			466 = {
+				owned_by = THIS
+			}
+		}
+		effect = { 
+			set_country_flag = assimilated_savoie
+			prestige = 10
+			AR_466 = {
+				remove_core = FRA
+				remove_core = LBR
+				assimilate = yes
+				dd_core = RMR
+			}
+		}
+	}
 	
 	
 	assimilate_dalmatia = {
 	
-	                       potential = {
-						                tag = RMR
-										NOT = { has_country_flag = assimilated_dalmatia }
-									}
-								allow = {
-								         nationalism_n_imperialism = 1
-								         AUS_780 = {
-										            owned_by = THIS 
-												   }
-										}
-										
-						            effect = {
-									          set_country_flag = assimilated_dalmatia
-											  prestige = 20
-									          AUS_736 = {
-											             remove_core = DLM
-											  }
-									          AUS_780 = {
-											             remove_core = DLM
-											             add_core = RMR
-														 assimilate = yes
-											  }
-											  
-									    }
-					}
+	    potential = {
+			tag = RMR
+			NOT = { has_country_flag = assimilated_dalmatia }
+		}
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			AUS_780 = {owned_by = THIS}
+		}
+		effect = {
+			set_country_flag = assimilated_dalmatia
+			prestige = 20
+			AUS_736 = {remove_core = DLM }
+			AUS_780 = {
+				remove_core = DLM
+				add_core = RMR
+				assimilate = yes
+			}							  
+		}
+	}
 	
     assimilate_trent = {
-                        
-                        potential = {
-                                     tag = RMR
-                                     NOT = { has_country_flag = assimilated_trent }
-                                }
-                            allow = {
-                                     nationalism_n_imperialism = 1
-                                     734 = { owned_by = THIS }
-                                }
-                           effect = { 
-                                     set_country_flag = assimilated_trent
-                                     prestige = 10
-                                     734 = { assimilate = yes }
-                                }
-                    }								
+        potential = {
+            tag = RMR
+            NOT = { has_country_flag = assimilated_trent }
+		}
+        allow = {
+			war = no
+            nationalism_n_imperialism = 1
+            734 = { owned_by = THIS }
+        }
+        effect = { 
+            set_country_flag = assimilated_trent
+            prestige = 10
+            734 = {
+				add_core = THIS
+				assimilate = yes 
+			}
+        }
+    }								
 							
 	the_greeks = {
-	
-	                potential = {
-					             tag = RMR
-								 NOT = {
-									   has_country_flag = the_greek_claims
-									   has_country_flag = greek_cultural_unity
-							       }
-							   }
-								
-			            allow = { 
-						         war = no
-								 is_greater_power = yes
-							     BYZ = {
-										NOT = {
-											   exists = yes
-										    }
-								    }						         
-						         nationalism_n_imperialism = 1
-								 TUR_860 = {
-								            owned_by = THIS
-								    }
-						       }
+		potential = {
+			tag = RMR
+			NOT = {
+				has_country_flag = the_greek_claims
+				as_country_flag = greek_cultural_unity
+			}					
+		}
+		allow = { 
+			war = no
+			is_greater_power = yes
+			BYZ = {
+				NOT = {
+					exists = yes
+				}
+			}						         
+			nationalism_n_imperialism = 1
+			TUR_860 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			country_event = { 
+				id=99666  
+				days=0
+			}
+		}
 						
-						    effect = {
-							          country_event = { 
-									                   id=99666  days=0
-													}
-								    }
-						
-						    }
+	}
 	
 						
 	roman_architecture = { 
-	
-	                       potential = {
-						                tag = RMR
-									    NOT = {
-										       has_country_flag = roman_architecture
-											  }
-									   }
-							  
-							  allow = {
-							            romanticism = 1
-										early_railroad = 1
-										money = 1000000
-									 }
-								   
-								   effect = { 
-								             730 = { life_rating = 5 }
-									         728 = { life_rating = 5 }
-											 722 = { life_rating = 5 }
-											 723 = { life_rating = 5 }
-											 738 = { life_rating = 5 }
-											 739 = { life_rating = 5 }
-											 742 = { life_rating = 5 }
-											 add_country_modifier = {
-											                         name = roman_architecture 
-																	 duration = -1
-																   }
-											 set_country_flag = roman_architecture
-										     money = -1000000
-										   }
-										   
-								   }
+		potential = {
+			tag = RMR
+			NOT = {	has_country_flag = roman_architecture }
+		}
+		allow = {
+			romanticism = 1
+			early_railroad = 1
+			money = 1000000
+			war = no
+			730 = { owned_by = THIS }
+			728 = { owned_by = THIS }
+			722 = { owned_by = THIS }
+			723 = { owned_by = THIS }
+			738 = { owned_by = THIS }
+			739 = { owned_by = THIS }
+			742 = { owned_by = THIS }
+		}
+		effect = { 
+			730 = { life_rating = 5 }
+			728 = { life_rating = 5 }
+			722 = { life_rating = 5 }
+			723 = { life_rating = 5 }
+			738 = { life_rating = 5 }
+			739 = { life_rating = 5 }
+			742 = { life_rating = 5 }
+			add_country_modifier = {
+				name = roman_architecture 
+				duration = -1
+			}
+			set_country_flag = roman_architecture
+			money = -1000000
+		}
+	}
 	
 	
 	the_second_phase_language = {
-	                             
-								 potential = {
-								              tag = RMR
-											  has_country_modifier = a_new_language_1
-								        }
-								 
-								    allow = {
-									         biologism = 1
-								             phenomenalism = 1
-								        }
-										effect = {
-										          remove_country_modifier = a_new_language_1
-												  add_country_modifier = {
-												                          name = a_new_language_2 
-																		  duration = -1
-																	}
-												}
-					}
+	    potential = {
+			tag = RMR
+			has_country_modifier = a_new_language_1
+		}
+		allow = {
+			war = no
+			biologism = 1
+			phenomenalism = 1
+		}
+		effect = {
+			remove_country_modifier = a_new_language_1
+			add_country_modifier = {
+				name = a_new_language_2 
+				duration = -1
+			}
+		}
+	}
 	
 	
 	the_last_phase_language = { 
-								
-							   potential = {
-							                tag = RMR
-											has_country_modifier = a_new_language_2
-											NOT = { 
-											       has_country_modifier = a_new_language_3 
-										    }
-									}
-								   allow = {
-								            social_science = 1
-									}
-                                       effect = {
-									             prestige = 20
-                                                 remove_country_modifier = a_new_language_2
-                                                 add_country_modifier = {
-                                                                         name = a_new_language_3 
-																		 duration = -1
-                                                                    }
-                                    }												 
-						    }
-				}
+		potential = {
+			tag = RMR
+			has_country_modifier = a_new_language_2
+			NOT = { 
+				has_country_modifier = a_new_language_3 
+			}
+		}
+		allow = {
+			social_science = 1
+		}
+        effect = {
+			prestige = 20
+			remove_country_modifier = a_new_language_2
+            add_country_modifier = {
+                name = a_new_language_3 
+				duration = -1
+            }
+        }												 
+	}
+}
 
 							
 									

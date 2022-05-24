@@ -1,5 +1,37 @@
 political_decisions = {
 	
+	le_pas_de_calais = {
+		potential = {
+			TAG = FRA
+			NOT = { has_country_flag = le_pas_de_calais }
+			has_country_flag = retake_north
+		}
+		allow = {
+			war = no
+			FRA_404 = {
+				owned_by = THIS
+			}
+			state_n_government
+		}
+		effect = {
+			FRA_404 = {
+				add_core = THIS
+			}
+			any_owned = {
+				limit = {
+					province_id = 399
+					province_id = 400
+					province_id = 401
+					province_id = 404
+				}
+				add_province_modifier = {
+					name = francization_of_the_picards
+					duration = -1
+				}
+			}
+		}
+	}
+				
 	retake_the_north = {
 		picture = "romanians_marching"
 		potential = {
@@ -7,14 +39,15 @@ political_decisions = {
 			NOT = {has_country_flag = retake_north}
 		}
 		allow = {
-		418 = {owned_by = THIS}
-		}
+			war = no
+			418 = {owned_by = THIS}
+			}
 		effect = {
-		set_country_flag = retake_north
-		424 = {add_core = THIS}
-		421 = {add_core = THIS}
-		420 = {add_core = THIS}
-		405 = {add_core = THIS}
+			set_country_flag = retake_north
+			424 = {add_core = THIS}
+			421 = {add_core = THIS}
+			420 = {add_core = THIS}
+			405 = {add_core = THIS}
 		}
 	}
 	reintegrate_lorraine = {
@@ -24,13 +57,14 @@ political_decisions = {
 			NOT = {has_country_flag = reintegrate_lorraine}
 		}
 		allow = {
-		411 = {owned_by = THIS}
-		409 = {owned_by = THIS}
+			war = no
+			411 = {owned_by = THIS}
+			409 = {owned_by = THIS}
 		}
 		effect = {
-		set_country_flag = reintegrate_lorraine
-		FRA_411 = {add_core = THIS}
-		FRA_412 = {add_core = THIS}
+			set_country_flag = reintegrate_lorraine
+			FRA_411 = {add_core = THIS}
+			FRA_412 = {add_core = THIS}
 		}
 	
 	}
@@ -42,16 +76,17 @@ political_decisions = {
 			NOT = {has_country_flag = reintegrate_lower_burgundy}
 		}
 		allow = {
-		451 = {owned_by = THIS}
-		468 = {owned_by = THIS}
+			451 = {owned_by = THIS}
+			468 = {owned_by = THIS}
+			war = no
 		}
 		effect = {
 		set_country_flag = reintegrate_lower_burgundy
-		FRA_451 = {add_core = THIS}
-		FRA_467 = {add_core = THIS}
-		SWI_607 = {add_core = THIS}
-		432 = {add_core = THIS}
-		433 = {add_core = THIS}
+			FRA_451 = {add_core = THIS}
+			FRA_467 = {add_core = THIS}
+			SWI_607 = {add_core = THIS}
+			432 = {add_core = THIS}
+			433 = {add_core = THIS}
 		}
 	
 	}
@@ -63,6 +98,7 @@ political_decisions = {
 			NOT = {has_country_flag = annex_ubr}
 		}
 		allow = {
+			war = no
 			nationalism_n_imperialism = 1
 		}
 		effect = {
@@ -77,6 +113,7 @@ political_decisions = {
 			NOT = {has_country_flag = annex_LBR}
 		}
 		allow = {
+			war = no
 			nationalism_n_imperialism = 1
 		}
 		effect = {

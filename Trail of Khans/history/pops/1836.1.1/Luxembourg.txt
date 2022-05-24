@@ -57,37 +57,37 @@
     }
 
     officers = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 50
     }
 
     bureaucrats = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 50
     }
 
     clergymen = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 275
     }
 
     artisans = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 1750
     }
 
     soldiers = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 250
     }
 
     farmers = {
-        culture = french
+        culture = dutch
         religion = catholic
         size = 23375
     }

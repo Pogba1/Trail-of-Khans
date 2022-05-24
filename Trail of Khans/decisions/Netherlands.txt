@@ -37,6 +37,7 @@ political_decisions = {
 		NOT = {has_country_flag = integrate_picards}
 		}
 		allow = {
+			war = no
 		    state_n_government = 1
 			FRA_404 = {owned_by = THIS}
 		}
@@ -46,6 +47,46 @@ political_decisions = {
 		FRA_404 = {add_core = THIS}
 		}
 	}
+	
+	integrate_french = {
+		potential = {
+			tag = NET
+			NOT = { accepted_culture = french }
+			has_country_flag = integrate_picards
+		}
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			FRA = {
+				NOT = {
+					exists = yes
+				}
+			}
+			GAU = {
+				NOT = {
+					exists = yes
+				}
+			}
+			FRA_400 = { owned_by = THIS }
+			FRA_399 = { owned_by = THIS }
+			FRA_425 = { owned_by = THIS }
+			FRA_428 = { owned_by = THIS }
+			FRA_438 = { owned_by = THIS }
+		}
+		effect = {
+			add_accepted_culture = french
+			prestige = 20
+			FRA_400 = { add_core = THIS }
+			FRA_399 = { add_core = THIS }
+			FRA_425 = { add_core = THIS }
+			FRA_428 = { add_core = THIS }
+			FRA_438 = { add_core = THIS }			
+			FRA_418 = { add_core = THIS }
+			FRA_435 = { add_core = THIS }
+			FRA_442 = { add_core = THIS }
+		}
+	}
+	
 	
 	reform_tasmania = {
 		picture = "bahrain_trade"

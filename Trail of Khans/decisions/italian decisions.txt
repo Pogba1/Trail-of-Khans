@@ -316,12 +316,10 @@ political_decisions = {
 					owned_by = THIS
 					owner = {
 						OR = {
-							AND = {
-								vassal_of = THIS
-								in_sphere = THIS
-							}
+							is_vassal = no
+							vassal_of = THIS
+						}	
 						in_sphere = THIS
-					    }
 				    }
 											   
 				}
@@ -343,28 +341,25 @@ political_decisions = {
                     }
                 }
             }
-		    VEN = {
-		        all_core = {
-					 OR = {
-						owned_by = THIS
-						owner = {
-							OR = {
-								vassal_of = THIS
-								AND = {
-									tag = VEN
-									in_sphere = this
-								}
-								AND = {
-									is_culture_group = italian
-									in_sphere = this
-								}
-								NOT = { is_culture_group = italian }
-							}
-						}
-					}
-				}
-		    }                                    							  
-        }
+            VEN = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                            }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+            }
+		}
+						
 		                 effect = {
 		                           capital = 749
 		                           primary_culture = roman
