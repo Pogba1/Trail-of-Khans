@@ -1,12 +1,12 @@
 capital = 119
 primary_culture = dakota
 culture = native_american_minor
-religion = protestant
-government = democracy
-plurality = 0.1
-nationalvalue = nv_liberty
-literacy = 0.50
-civilized = yes
+religion = animist
+government = absolute_monarchy
+plurality = 0
+nationalvalue = nv_tradition
+literacy = 0.03
+civilized = no
 
 
 # Political reforms
@@ -36,7 +36,7 @@ child_labor = child_labor_legal
 citizens_rights = culture_voting_only
 border_policy = open_borders
 
-set_country_flag = protestant_country
+set_country_flag = animist_country
 
 ruling_party = DAK_conservative
 upper_house = {
@@ -48,5 +48,3 @@ upper_house = {
     socialist = 0
     communist = 0
 }
-
-set_country_flag = new_world_nation
