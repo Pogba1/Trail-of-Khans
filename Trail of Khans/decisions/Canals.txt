@@ -15,7 +15,7 @@ political_decisions = {
                 is_secondary_power = yes
             }
             interchangeable_parts = 1
-			culture_group = germanic
+			NOT = { culture_group = scandinavian }
         }
 
         allow = {
