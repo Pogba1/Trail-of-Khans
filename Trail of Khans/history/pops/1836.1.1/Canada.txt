@@ -787,22 +787,34 @@
 }
 #Saskatoon (8000/2000 POPS)
 34 = {
+    bureaucrats = {
+		culture = cree
+		religion = catholic
+		size = 225
+	}
+	
+	soldiers = {
+		culture = cree
+		religion = catholic
+		size = 2300
+	}
+	
     artisans = {
 		culture = cree
 		religion = catholic
-		size = 90 
+		size = 2035
 	}
 	
 	clergymen = {
 		culture = cree
 		religion = catholic
-		size = 100
+		size = 569
 	}
 	
     farmers = {
         culture = cree
         religion = catholic
-        size = 3000
+        size = 29593
     }
 }
 #Maple Creek (4000/1000 POPS)
@@ -829,25 +841,25 @@
     clergymen = {
         culture = french_canadian
         religion = protestant
-        size = 130
+        size = 200
     }
 
     artisans = {
         culture = french_canadian
         religion = protestant
-        size = 50
+        size = 500
     }
 
     soldiers = {
-        culture = french_canadian
-        religion = protestant
-        size = 5
+        culture = cree
+        religion = catholic
+        size = 500
     }
 
     farmers = {
         culture = french_canadian
         religion = protestant
-        size = 150
+        size = 1500
     }
 
     farmers = {
@@ -859,7 +871,7 @@
     farmers = {
         culture = cree
         religion = catholic
-        size = 6200
+        size = 13856
     }
 }
 #Churchill (4000/1000 POPS)
@@ -972,29 +984,40 @@
 }
 #Dauphin (8000/2000 POPS)
 40 = {
+    aristocrats = {
+		culture = cree
+		religion = catholic
+		size = 673
+	}
 
+    bureaucrats = {
+		culture = cree
+		religion = catholic
+		size = 277
+	}
+	
     clergymen = {
         culture = cree
         religion = catholic
-        size = 300
+        size = 500
     }
 
     artisans = {
         culture = cree
         religion = catholic
-        size = 50
+        size = 1076
     }
 
     soldiers = {
         culture = cree
         religion = catholic
-        size = 300
+        size = 1200
     }
 	
     farmers = {
         culture = cree
         religion = catholic
-        size = 10000
+        size = 24596
     }
 }
 #Brandon (8000/2000 POPS)
@@ -1170,50 +1193,44 @@
 
     aristocrats = {
         culture = french_canadian
-        religion = protestant
-        size = 2
-    }
-
-    aristocrats = {
-        culture = french_canadian
         religion = catholic
-        size = 5
+        size = 130
     }
 
     aristocrats = {
         culture = cree
         religion = catholic
-        size = 20
+        size = 70
     }
 
     clergymen = {
         culture = french_canadian
         religion = protestant
-        size = 2
+        size = 200
     }
 
     artisans = {
         culture = french_canadian
-        religion = protestant
-        size = 5
+        religion = catholic
+        size = 67
     }
 
     soldiers = {
         culture = french_canadian
-        religion = protestant
-        size = 5
+        religion = catholic
+        size = 400
     }
-
-    farmers = {
-        culture = french_canadian
-        religion = protestant
-        size = 150
-    }
-
+    
+	soldiers = {
+		culture = cree
+		religion = catholic
+		size = 506
+	}
+	
     farmers = {
         culture = cree
-        religion = animist
-        size = 1950
+        religion = catholic
+        size = 16043
     }
 
     farmers = {
