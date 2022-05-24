@@ -2941,3 +2941,14 @@ grigma_male = {
 	factory_cost = -0.1
 	icon = 12
 }
+
+growth_of_natives = {
+	population_growth = 0.0015
+	assimilation_rate = 0.25
+}
+
+assimilation_of_the_euros = {
+	assimilation_rate = 1
+	pop_consciousness_modifier = -0.05
+	pop_militancy_modifier = -0.05
+}

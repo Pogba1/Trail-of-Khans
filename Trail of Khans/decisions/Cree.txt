@@ -7,12 +7,16 @@ political_decisions = {
 		}
 		allow = {
 			civilized = yes
+			ideological_thought = 1
 		}
 		effect = {
 			add_accepted_culture = dakota
 			add_accepted_culture = native_american_minor
 			add_accepted_culture = inuit
+			add_accepted_culture = iroquois
+			add_accepted_culture = cherokee
 		    prestige = 15
+			set_country_flag = embrace_natives
 		}
 	}
 }

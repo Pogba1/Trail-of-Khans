@@ -1,0 +1,128 @@
+country_event = {
+	id = 165901
+	title = "EVTNAME165901"
+	desc = "EVTDESC165901"
+	
+	trigger = {
+		tag = CEE
+		civilized = yes
+		has_country_flag = embrace_natives
+		war = no
+		any_owned_province = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+				NOT = { has_province_modifier = growth_of_natives }
+				is_colonial = no
+		}		
+	}
+	
+	mean_time_to_happen = { days = 2 }
+	
+	option = {
+		name = "We shall prosper"
+		any_owned = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes			
+				}
+				controlled_by = THIS
+				is_colonial = no
+				NOT = { has_province_modifier = growth_of_natives }
+			}
+			add_province_modifier = {
+				name = growth_of_natives
+			    duration = -1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 165902
+	title = "EVTNAME165902"
+	desc = "EVTDESC165902"
+	
+	trigger = {
+		tag = CEE
+		civilized = yes
+		has_country_flag = embrace_natives
+		war = no
+		any_owned_province = {
+				OR = {
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+				NOT = { has_province_modifier = assimilation_of_the_euros }
+				is_colonial = no
+				continent = north_america
+		}
+	}		
+	
+	mean_time_to_happen = { days = 2 }
+	
+	option = {
+		name = "We shall prosper"
+		any_owned = {
+			limit = {
+				OR = {
+					is_primary_culture = no
+					is_accepted_culture = no			
+				}
+				controlled_by = THIS
+				is_colonial = no
+				continent = north_america
+				NOT = { has_province_modifier = assimilation_of_the_euros }
+			}
+			add_province_modifier = {
+				name = assimilation_of_the_euros
+			    duration = -1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 165903
+	title = "EVTNAME165903"
+	desc = "EVTDESC165903"
+	
+	trigger = {
+		tag = CEE
+		civilized = yes
+		has_country_flag = embrace_natives
+		war = no
+		any_owned_province = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+				has_province_modifier = assimilation_of_the_euros
+				is_colonial = no
+		}
+	}	
+
+	mean_time_to_happen = { months = 2 }
+	
+	option = {
+		name = "We shall prosper"
+		any_owned = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes			
+				}
+				controlled_by = THIS
+				is_colonial = no
+				has_province_modifier = assimilation_of_the_euros
+			}
+			remove_province_modifier = { assimilation_of_the_euros }
+			add_province_modifier = {
+				name = assimilation_of_the_euros
+				duration = -1
+			}
+		}
+	}	
+}

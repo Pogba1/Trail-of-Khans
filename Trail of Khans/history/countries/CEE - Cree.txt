@@ -1,14 +1,15 @@
 capital = 41
 primary_culture = cree
 religion = catholic
-government = hms_government
+government = absolute_monarchy
 plurality = 5.0
 nationalvalue = nv_order
 literacy = 0.25995434
 non_state_culture_literacy = 0.1265547
 civilized = no
+prestige = 5
 
-ruling_party = CHE_conservative
+ruling_party = CHE_reactionary
 upper_house = {
     fascist = 0
     liberal = 26
@@ -20,13 +21,13 @@ upper_house = {
 }
 
 slavery = yes_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = universal_weighted_voting
-public_meetings = yes_meeting
+upper_house_composition = appointed
+vote_franschise = no_voting
+public_meetings = no_meeting
 press_rights = free_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = gerrymandering
+political_parties = only_underground
 
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
@@ -57,3 +58,5 @@ citizens_rights = primary_culture_only
 border_policy = closed_borders
 
 set_country_flag = catholic_country
+
+oob = "CEE_oob.txt"
