@@ -1,5 +1,6 @@
 political_decisions = {
 	demote_crats = {
+		alert = no
 		potential = {
 			NOT = { has_country_modifier = recently_demoted }
 		}
@@ -19,6 +20,35 @@ political_decisions = {
 					is_primary_culture = no
 					is_accepted_culture = no
 					type = bureaucrats
+				}
+				pop_type = artisans	
+			}
+			}
+			ai_will_do = {
+			factor = 0
+			}
+		}
+	demote_crafts = {
+		alert = no
+		potential = {
+			NOT = { has_country_modifier = recently_demoted_crafts }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = recently_demoted_crafts
+				duration = 3650
+			}
+				
+				
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
+					type = craftsmen
 					location = {
 						OR = {
 							trade_goods = fish
@@ -34,6 +64,7 @@ political_decisions = {
 							trade_goods = dye
 							trade_goods = grain
 						}
+						is_core = THIS
 					}
 				}
 				pop_type = farmers		
@@ -43,7 +74,7 @@ political_decisions = {
 				limit = {
 					is_primary_culture = no
 					is_accepted_culture = no
-					type = bureaucrats
+					type = craftsmen
 					location = {
 						OR = {
 							trade_goods = coal
@@ -51,18 +82,29 @@ political_decisions = {
 							trade_goods = tropical_wood
 							trade_goods = sulphur
 							trade_goods = precious_metal
-							trade_goods = precious_goods
 							trade_goods = oil
 							trade_goods = timber
 							trade_goods = rubber
 						}
+						is_core = THIS
 					}
 				}
 				pop_type = labourers		
 			}
-			}
-			ai_will_do = {
-			factor = 0
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
+					type = clerks
+					location = {
+						is_core = THIS
+					}
+				}
+				pop_type = artisans		
 			}
 		}
+		ai_will_do = {
+			factor = 0
+		}
 	}
+}
