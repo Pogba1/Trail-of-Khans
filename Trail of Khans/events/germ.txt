@@ -127,7 +127,7 @@ country_event = {
 		pop_majority_culture = north_german
 		}
 		}
-		add_province_modifier = { name = german_boom duration = 2920}
+		add_province_modifier = { name = german_boom duration = 1460 }
 		
 		}
 		set_country_flag=german_boom

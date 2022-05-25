@@ -3,6 +3,8 @@ country_event = {
 	title = "EVTNAME165901"
 	desc = "EVTDESC165901"
 	
+	allow_multiple_instances = no
+	
 	trigger = {
 		tag = CEE
 		civilized = yes
@@ -44,6 +46,8 @@ country_event = {
 	id = 165902
 	title = "EVTNAME165902"
 	desc = "EVTDESC165902"
+	
+	allow_multiple_instances = no
 	
 	trigger = {
 		tag = CEE
@@ -92,6 +96,8 @@ country_event = {
 	id = 165903
 	title = "EVTNAME165903"
 	desc = "EVTDESC165903"
+	
+	allow_multiple_instances = no
 	
 	trigger = {
 		tag = CEE

@@ -52,12 +52,12 @@ political_decisions = {
 			475 = {owned_by = THIS}
 			474 = {owned_by = THIS}
 			nationalism_n_imperialism = 1
-		war = no
+			war = no
 		}
 		effect = {
 			set_country_flag = united_in_solidarity
 			add_accepted_culture = spanish
-			}
+		}
 	}
 	
 	united_in_solidarity_atr = {
@@ -80,7 +80,7 @@ political_decisions = {
 			475 = {owned_by = THIS}
 			474 = {owned_by = THIS}
 			nationalism_n_imperialism = 1
-		war = no
+			war = no
 		}
 		effect = {
 			set_country_flag = united_in_solidarity
@@ -88,7 +88,7 @@ political_decisions = {
 			change_tag = IBE
 			SPA_512 = {add_core = THIS}
 			SPA_513 = {add_core = THIS}
-			}
+		}
 	}
 	embrace_catalan = {
 		picture = "embrace_minority"
