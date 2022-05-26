@@ -5293,12 +5293,24 @@
         culture = south_german
         religion = catholic
         size = 3000
-    }
-
+    } 
+	
+	clerks = {
+		culture = south_german
+		religion = catholic
+		size = 500
+	}
+	
+	craftsmen = {
+		culture = south_german
+		religion = catholic
+		size = 15397
+	}
+	
     farmers = {
         culture = south_german
         religion = catholic
-        size = 187650
+        size = 172650
     }
 
     clergymen = {

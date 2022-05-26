@@ -66,7 +66,13 @@
         religion = catholic
         size = 3000
     }
-
+	
+	craftsmen = {
+		culture = picard
+		religion = catholic
+		size = 10276
+	}
+	
     labourers = {
         culture = picard
         religion = catholic
@@ -172,6 +178,12 @@
         religion = catholic
         size = 1150
     }
+	
+	craftsmen = {
+		culture = picard
+		religion = catholic
+		size = 6244
+	}
 
     farmers = {
         culture = french
@@ -344,7 +356,13 @@
         religion = catholic
         size = 1000
     }
-
+	
+	craftsmen = {
+		culture = picard
+		religion = catholic
+		size = 5478
+	}
+	
     farmers = {
         culture = picard
         religion = catholic
@@ -1697,7 +1715,7 @@
     soldiers = {
         culture = french
         religion = catholic
-        size = 4000
+        size = 	8000
     }
 
     farmers = {
@@ -1785,7 +1803,7 @@
     soldiers = {
         culture = french
         religion = catholic
-        size = 1000
+        size = 4000
     }
 
     farmers = {
@@ -1817,7 +1835,7 @@
     soldiers = {
         culture = french
         religion = catholic
-        size = 1000
+        size = 5000
     }
 
     farmers = {
@@ -1863,7 +1881,7 @@
     soldiers = {
         culture = french
         religion = catholic
-        size = 1000
+        size = 3000
     }
 
     farmers = {
@@ -1895,7 +1913,7 @@
     soldiers = {
         culture = french
         religion = catholic
-        size = 1000
+        size = 3000
     }
 
     farmers = {
@@ -1937,7 +1955,7 @@
     soldiers = {
         culture = french
         religion = catholic
-        size = 1500
+        size = 4000
     }
 
     farmers = {
@@ -1969,7 +1987,7 @@
     soldiers = {
         culture = french
         religion = catholic
-        size = 1100
+        size = 3000
     }
 
     farmers = {

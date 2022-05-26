@@ -153,6 +153,57 @@ army = {
 navy = {
     name = "Armata di Mare"
     location = 724
+	
+	ship = {
+		name = "Man'o'war"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Man'o'war"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Man'o'war"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Man'o'war"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Man'o'war"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Man'o'war"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Man'o'war"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Man'o'war"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Man'o'war"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Man'o'war"
+		type = manowar
+	}
+										
     ship = {
         name= "Beraldo"
         type = frigate

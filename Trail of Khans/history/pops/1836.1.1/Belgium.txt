@@ -208,7 +208,12 @@
         religion = catholic
         size = 1700
     }
-
+	
+	craftsmen = {
+		culture = dutch
+		religion = catholic
+		size = 17366
+	}
     farmers = {
         culture = dutch
         religion = catholic
@@ -270,7 +275,13 @@
         religion = catholic
         size = 100
     }
-
+	
+	craftsmen = {
+		culture = dutch
+		religion = catholic
+		size = 18352
+	}
+	
     farmers = {
         culture = dutch
         religion = catholic
@@ -316,6 +327,12 @@
         size = 1400
     }
 
+	craftsmen = {
+		culture = dutch
+		religion = catholic
+		size = 15688
+	}
+	
     farmers = {
         culture = dutch
         religion = catholic

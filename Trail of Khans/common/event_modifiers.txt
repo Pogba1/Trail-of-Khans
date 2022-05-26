@@ -997,7 +997,6 @@ western_influences = {
 
 uncivilized_isolationism = {
     #goods_demand = -0.1
-    research_points_on_conquer = -1
     core_pop_consciousness_modifier = -0.1
     core_pop_militancy_modifier = -0.1
     research_points_modifier = -0.3
