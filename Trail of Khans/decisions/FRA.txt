@@ -24,7 +24,7 @@ political_decisions = {
 				}
 				add_province_modifier = {
 					name = francization_of_the_picards
-					duration = -1
+					duration = 7300
 				}
 			}
 			set_country_flag = le_pas_de_calais
