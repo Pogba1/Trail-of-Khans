@@ -352,42 +352,6 @@ country_event = {
     }
 }
 
-country_event = {
-    id = 19017
-    title = "EVTNAME19017"
-    desc = "EVTDESC19017"
-    picture = ""
-
-    trigger = {
-        war = no
-        great_wars_enabled = no
-        part_of_sphere = yes
-        any_greater_power = {
-            alliance_with = THIS
-            NOT = { is_sphere_leader_of = THIS }
-            NOT = { is_our_vassal = THIS }
-        }
-    }
-
-    mean_time_to_happen = {
-        months = 12
-    }
-
-    option = {
-        name = "EVT19017OPTA"
-        random_country = {
-            limit = {
-                is_greater_power = yes
-                NOT = { is_sphere_leader_of = THIS }
-                NOT = { is_our_vassal = THIS }
-                alliance_with = THIS
-            }
-            relation = { who = THIS value = -50 }
-            leave_alliance = THIS
-        }
-    }
-}
-
 # Alliance Breaker
 country_event = {
     id = 19018
