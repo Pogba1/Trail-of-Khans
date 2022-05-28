@@ -463,9 +463,7 @@ political_decisions = {
         }
 
         allow = {
-            prestige = 45
             state_n_government = 1
-            is_greater_power = yes
             war = no
             ITA = {
                 all_core = {
@@ -489,6 +487,12 @@ political_decisions = {
                                 is_vassal = no
                                 vassal_of = THIS
                             }
+							war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+						owner = {
+                            vassal_of = THIS	
                             war = no
                             is_mobilised = no
                             is_greater_power = no
@@ -502,6 +506,9 @@ political_decisions = {
             prestige = 20
 			DLM = {all_core = {add_core = ITA}}
 			VEN = {all_core = {add_core = ITA}}
+			SIC = {all_core = {add_core = ITA}}
+			GEN = {all_core = {add_core = ITA}}
+			SAR_466 = {add_core = ITA}
             all_core = { remove_core = THIS }
             change_tag = ITA
             capital = 749
@@ -516,11 +523,18 @@ political_decisions = {
             any_country = {
                 limit = {
                     is_culture_group = italian
-                    in_sphere = THIS
+                    in_sphere = THIS	
                     NOT = { has_country_flag = post_colonial_country }
                 }
                 country_event = 11101
             }
+			any_country = {
+				limit = {
+					is_culture_group = italian
+					vassal_of = THIS
+				}
+				annex_to = THIS
+			}
         }
         ai_will_do = {
             factor = 1
