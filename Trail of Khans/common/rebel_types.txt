@@ -251,17 +251,12 @@ reactionary_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
         any_pop = {
             ideology = {
                 value = reactionary
                 factor = 0.05
             }
         }
-        owner = { war_exhaustion = 2.5 }
     }
 
     # Country scope
@@ -542,17 +537,14 @@ fascist_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
         any_pop = {
             ideology = {
                 value = fascist
                 factor = 0.05
             }
         }
-        owner = { war_exhaustion = 2.5 }
+        
     }
 
 
@@ -820,17 +812,14 @@ communist_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
         any_pop = {
             ideology = {
                 value = communist
                 factor = 0.05
             }
         }
-        owner = { war_exhaustion = 2.5 }
+        
     }
 
 
@@ -1135,17 +1124,14 @@ anarcho_liberal_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
         any_pop = {
             ideology = {
                 value = anarcho_liberal
                 factor = 0.05
             }
         }
-        owner = { war_exhaustion = 2.5 }
+        
     }
 
 
@@ -1475,10 +1461,7 @@ nationalist_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
     }
 
     # Country scope
@@ -1810,10 +1793,7 @@ pan_nationalist_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
     }
 
 
@@ -2108,17 +2088,14 @@ carlist_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
         any_pop = {
             ideology = {
                 value = reactionary
                 factor = 0.05
             }
         }
-        owner = { war_exhaustion = 2.5 }
+        
     }
 
     # Country scope
@@ -2356,17 +2333,14 @@ christino_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
         any_pop = {
             ideology = {
                 value = liberal
                 factor = 0.05
             }
         }
-        owner = { war_exhaustion = 2.5 }
+        
     }
 
     # Country scope
@@ -2880,11 +2854,7 @@ red_shirts = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 90
-        }
-        owner = { war_exhaustion = 2.5 }
+ 
     }
 
 
@@ -3117,10 +3087,7 @@ indian_sepoys = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
         add_province_modifier = {
             name = nationalist_agitation
             duration = 180
@@ -3375,10 +3342,7 @@ indian_nationalists = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
     }
 
 
@@ -3751,17 +3715,14 @@ liberal_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
         any_pop = {
             ideology = {
                 value = liberal
                 factor = 0.05
             }
         }
-        owner = { war_exhaustion = 2.5 }
+        
     }
 
 
@@ -4091,10 +4052,6 @@ unciv_reactionary_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 30
-        }
         remove_province_modifier = western_presence
         remove_province_modifier = foreign_smugglers
         remove_province_modifier = foreign_trading_post
@@ -4344,10 +4301,7 @@ separatist_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
         add_province_modifier = {
             name = patriot_uprising
             duration = 1095
@@ -4700,17 +4654,14 @@ socialist_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
         any_pop = {
             ideology = {
                 value = socialist
                 factor = 0.05
             }
         }
-        owner = { war_exhaustion = 2.5 }
+        
     }
 
 
@@ -5000,10 +4951,7 @@ independence_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
     }
 
 
@@ -5229,17 +5177,14 @@ turkish_nationalist_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
         any_pop = {
             ideology = {
                 value = liberal
                 factor = 0.05
             }
         }
-        owner = { war_exhaustion = 2.5 }
+        
     }
 
 
@@ -5431,10 +5376,7 @@ native_rebels = {
      }
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
     }
 
 
@@ -5850,10 +5792,7 @@ slave_revolt = {
      #}
 
     siege_won_effect = {
-        add_province_modifier = {
-            name = war_torn
-            duration = 365
-        }
+
         any_pop = {
             limit = {
                 not = {

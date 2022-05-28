@@ -566,24 +566,6 @@ infamy_sanctions = {
 	exists = yes
 	badboy = 1.3
 	}
-	research_points_modifier = -0.25
-	poor_everyday_needs = 0.3
-	middle_everyday_needs = 0.3
-	rich_everyday_needs = 0.3
-	poor_luxury_needs = 0.3
-	middle_luxury_needs = 0.3
-	rich_luxury_needs = 0.3
-	loan_interest = 0.2
-	global_pop_militancy_modifier = 0.01
-	global_pop_consciousness_modifier = 0.02
-	icon = 12
-}
-
-giga_sanctions = {
-	trigger = {
-	exists = yes
-	badboy = 1.8
-	}
 	research_points_modifier = -0.5
 	poor_everyday_needs = 0.3
 	middle_everyday_needs = 0.3
@@ -595,4 +577,24 @@ giga_sanctions = {
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.02
 	icon = 12
+	war_exhaustion = 1.0
+}
+
+giga_sanctions = {
+	trigger = {
+	exists = yes
+	badboy = 1.8
+	}
+	research_points_modifier = -1.0
+	poor_everyday_needs = 0.5
+	middle_everyday_needs = 0.4
+	rich_everyday_needs = 0.4
+	poor_luxury_needs = 0.3
+	middle_luxury_needs = 0.3
+	rich_luxury_needs = 0.3
+	loan_interest = 0.4
+	global_pop_militancy_modifier = 0.025
+	global_pop_consciousness_modifier = 0.02
+	icon = 12
+	war_exhaustion = 2.0
 }

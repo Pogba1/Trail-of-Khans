@@ -108,7 +108,7 @@ land_province = {
 
 
 blockaded = {
-    war_exhaustion = 0.05
+    war_exhaustion = 0.02
     farm_rgo_eff = -0.25
     mine_rgo_eff = -0.25
 }
