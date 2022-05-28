@@ -3,19 +3,21 @@ political_decisions = {
 		picture = ""
 		potential = {
 			OR = {
-			tag = ATR
-			tag = AND
+				tag = ATR
+				tag = AND
 			}
 			NOT = {has_country_flag = unite_the_peninsula}
 			NOT = {has_country_flag = rebuild_the_caliphate}
 		}
 		allow = {
-		state_n_government = 1
-		war = no
-		all_core = {
-				continent = europe 
-				owned_by = THIS
-			}
+			state_n_government = 1
+			war = no
+			all_core = {
+				OR = { 
+					NOT = { continent = europe }
+					owned_by = THIS
+				}
+			}	
 		}
 		effect = {
 			set_country_flag = unite_the_peninsula
@@ -27,7 +29,7 @@ political_decisions = {
 			POR_2134 = {add_core = THIS}
 			POR_525 = {add_core = THIS}
 			502 = {add_core = THIS}
-			}
+		}
 	}
 	
 	united_in_solidarity_and = {
@@ -50,12 +52,12 @@ political_decisions = {
 			475 = {owned_by = THIS}
 			474 = {owned_by = THIS}
 			nationalism_n_imperialism = 1
-		war = no
+			war = no
 		}
 		effect = {
 			set_country_flag = united_in_solidarity
 			add_accepted_culture = spanish
-			}
+		}
 	}
 	
 	united_in_solidarity_atr = {
@@ -78,13 +80,15 @@ political_decisions = {
 			475 = {owned_by = THIS}
 			474 = {owned_by = THIS}
 			nationalism_n_imperialism = 1
-		war = no
+			war = no
 		}
 		effect = {
 			set_country_flag = united_in_solidarity
 			add_accepted_culture = portuguese
-			change_tag = IBR
-			}
+			change_tag = IBE
+			SPA_512 = {add_core = THIS}
+			SPA_513 = {add_core = THIS}
+		}
 	}
 	embrace_catalan = {
 		picture = "embrace_minority"
@@ -120,10 +124,7 @@ political_decisions = {
 		allow = {
 		state_n_government = 1
 		510 = {owned_by = THIS}
-			all_core = {
-				continent = africa 
-				owned_by = THIS
-			}
+		1687 = {owned_by = THIS}
 		1680 = {owned_by = THIS}
 		war = no
 		}
@@ -209,7 +210,6 @@ political_decisions = {
 			TUN = {all_core = {add_core = THIS}}
 			AND = {all_core = {add_core = THIS}}
 			EGY_921 = {add_core = THIS}
-			EGY_910 = {add_core = THIS}
 			HDJ_1151 = {add_core = THIS}
 			NEJ_1157 = {add_core = THIS}
 			YEM_1412 = {add_core = THIS}
