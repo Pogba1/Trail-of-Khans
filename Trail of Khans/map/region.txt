@@ -317,7 +317,7 @@ PRU_701 = { 701 699 700 } #Posen
 
 ### Austria
 
-AUS_612 = { 612 613 614 615 } #Tirol
+AUS_612 = { 612 613 614 615 735 } #Tirol
 
 AUS_613 = { 616 617 618 } #Kärnten-Steiermark
 
@@ -351,9 +351,7 @@ AUS_726 = { 726 727 728 2669 } #Lombardia
 
 AUS_733 = { 736 737 } #Friuli
 
-AUS_729 = { 729 730 731 732 733 8 } #Venetia
-
-AUS_734 = { 734 735 } #South Tirol
+AUS_729 = { 729 730 731 732 733 734 8 } #Venetia
 
 AUS_736 = { 769 770 778 } #Istria
 
