@@ -92,30 +92,47 @@ political_decisions = {
 		effect = {
 			577 = {
 				add_core = NET
+				remove_core = GER
+				remove_core = RHI
 			}
 			576 = {
 				add_core = NET
+				remove_core = GER
+				remove_core = RHI
 			}
 			396 = {
 				add_core = NET
+				remove_core = GER
+				remove_core = RHI
 			}
 			572 = {
 				add_core = NET
+				remove_core = GER
+				remove_core = BAV
 			}
 			575 = {
 				add_core = NET
+				remove_core = GER
+				remove_core = RHI
 			}
 			574 = {
 				add_core = NET
+				remove_core = GER
 			}
 			578 = {
 				add_core = NET
+				remove_core = GER
+				remove_core = RHI
 			}
 			579 = {
 				add_core = NET
+				remove_core = GER
+				remove_core = NAS
 			}
 			2561 = {
 				add_core = NET
+				remove_core = GER
+				remove_core = RHI
 			}
 			any_owned = {
 				limit = {

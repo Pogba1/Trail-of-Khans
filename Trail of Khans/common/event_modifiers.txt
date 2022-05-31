@@ -2951,11 +2951,11 @@ assimilation_of_the_euros = {
 }
 
 francization_of_the_picards = {
-	assimilation_rate = 1.5
+	assimilation_rate = 1.75
 	pop_consciousness_modifier = 0.05
 	pop_militancy_modifier = -0.05
 }
 
 dutch_german_assimilation = {
-	assimilation_rate = 0.75
+	assimilation_rate = 1.25
 }
