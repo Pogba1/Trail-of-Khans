@@ -1,32 +1,4 @@
-political_decisions = {
-
-	assimilate_savoie = {
-		potential = {
-			tag = RMR
-			NOT = { has_country_flag = assimilated_savoie }
-		}
-		allow = {
-			war = no
-			nationalism_n_imperialism = 1
-			465 = {
-				owned_by = THIS
-			}
-			466 = {
-				owned_by = THIS
-			}
-		}
-		effect = { 
-			set_country_flag = assimilated_savoie
-			prestige = 10
-			AR_466 = {
-				remove_core = FRA
-				remove_core = LBR
-				assimilate = yes
-				dd_core = RMR
-			}
-		}
-	}
-	
+political_decisions = { 
 	
 	assimilate_dalmatia = {
 	

@@ -80,10 +80,9 @@ political_decisions = {
 			war = no
 		}
 		effect = {
-		set_country_flag = reintegrate_lower_burgundy
+			set_country_flag = reintegrate_lower_burgundy
 			FRA_451 = {add_core = THIS}
 			FRA_467 = {add_core = THIS}
-			SWI_607 = {add_core = THIS}
 			432 = {add_core = THIS}
 			433 = {add_core = THIS}
 		}

@@ -1,6 +1,7 @@
 owner = LBR
 controller = LBR
 add_core = LBR
+add_core = SWI
 trade_goods = wool
 life_rating = 35
 1861.1.1 = { railroad = 3 }

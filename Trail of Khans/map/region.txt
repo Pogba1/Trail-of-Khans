@@ -218,11 +218,11 @@ FRA_438 = { 438 436 439 440 441 } #Region Centre
 
 FRA_442 = { 442 444 443 } #Poitou
 
-FRA_445 = { 445 446 447 } #Limousin
+FRA_445 = { 445 446 447 450 } #Limousin
 
-FRA_448 = { 448 449 450 } #Auvergne
+#FRA_448 = { 448 449 450 } #Auvergne
 
-FRA_451 = { 451 452 453 454 } #Rhone
+FRA_451 = { 451 452 453 448 449 } #Rhone
 
 FRA_455 = { 455 457 456 } #Le Midi
 
@@ -230,9 +230,9 @@ FRA_458 = { 458 459 460 } #Aquitaine
 
 FRA_461 = { 461 462 463 464 } #Languedoc
 
-SAR_466 = { 465 466 } #Savoie
+SAR_466 = { 454 465 466 469} #Savoie
 
-FRA_467 = { 467 468 469 470 471 } #Provence
+FRA_467 = { 467 468  470 471 } #Provence
 
 
 ### Spain & Portugal
@@ -302,7 +302,7 @@ BAV_595 = { 595 596 597 598 } #Franconia
 
 BAV_599 = { 599 592 600 601 602 } #Upper Bavaria
 
-SWI_603 = { 603 606 611 2568 } #Switzerland (east)
+SWI_603 = { 603 606 611 } #Switzerland (east)
 
 SWI_607 = { 605 604 607 608 609 } #Western Switzerland
 
@@ -347,7 +347,7 @@ AUS_662 = { 702 951 952 953} #East Galicia
 
 RUS_715 = { 715 711 713 716 } #West Galicia
 
-AUS_726 = { 726 727 728 2669 } #Lombardia
+AUS_726 = { 726 727 728 2669 2568 } #Lombardia
 
 AUS_733 = { 736 737 } #Friuli
 
@@ -771,13 +771,17 @@ CHI_1485 = { 2681 1485 2562 2406 } #Formosa
 
 CHI_1490 = { 1490 1489 1491 1492 } #Gansu
 
-CHI_1493 = { 1493 1498 1494 1497 1500 } #East Canton
+CHI_1493 = { 1493 1494 1497 1500 } #East Canton
 
-CHI_1496 = { 1496 } #hong kong
+CHI_1495 = { 1495 1501 2632 } #West Canton
 
-CHI_1499 = { 1495 1501 2632 } #West Canton
+CHI_1496 = { 1496 } #Hong Kong
 
-CHI_1504 = { 1502 1503 1504 1499 } #Guangxi
+CHI_1498 = { 1498 } #Macau
+
+CHI_1499 = { 1499 } #Hainan
+
+CHI_1504 = { 1502 1503 1504  } #Guangxi
 
 CHI_1505 = { 1505 1506 1507 } #Guizhou
 
