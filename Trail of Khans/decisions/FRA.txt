@@ -2,7 +2,7 @@ political_decisions = {
 	
 	le_pas_de_calais = {
 		potential = {
-			TAG = FRA
+			tag = FRA
 			NOT = { has_country_flag = le_pas_de_calais }
 			has_country_flag = retake_north
 		}
