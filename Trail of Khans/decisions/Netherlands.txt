@@ -56,7 +56,6 @@ political_decisions = {
 			tag = NET
 			NOT = {
 				accepted_culture = dutch_german
-				accepted_culture = westphalian
 			}
 		}
 		allow = {
@@ -65,7 +64,6 @@ political_decisions = {
 	    }
 		effect = {
 			add_accepted_culture = dutch_german
-			add_accepted_culture = westphalian
 			prestige = 20
 		}
 	}
@@ -75,7 +73,6 @@ political_decisions = {
 			tag = NET
 			NOT = { has_country_flag = assimilating_germans }
 			accepted_culture = dutch_german
-			accepted_culture = westphalian
 		}
 		allow = {
 			war = no
