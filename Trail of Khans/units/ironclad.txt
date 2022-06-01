@@ -31,7 +31,7 @@ ironclad = {
         regular_clothes = 20    # 116  | was 69.6
     }
     # Total: 6086 | was 3894.6
-    min_port_level = 2
+    min_port_level = 3
     limit_per_port = 10
     supply_consumption_score = 3
 
