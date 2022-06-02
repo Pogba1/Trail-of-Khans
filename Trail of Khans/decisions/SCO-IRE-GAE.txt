@@ -281,6 +281,25 @@ political_decisions = {
 		}
 	
 	}
+	cuban_integration = {
+		potential = {
+		OR = {
+			primary_culture = irish
+			tag = GAU
+		}
+			NOT = {has_country_flag = cuban_integration}
+		}
+		allow = {
+			war=no
+			2209 = {owned_by = THIS}
+			state_n_government = 1
+		}
+		effect = {
+			add_accepted_culture = cuban
+			set_country_flag = cuban_integration
+		}
+	
+	}
 	attempt_reform_gaul = {
 		potential = {
 			NOT = {exists = GAU}
