@@ -1,0 +1,33 @@
+political_decisions = {
+	conquest_of_salish = {
+		potential = {
+			NOT = {has_country_flag = conquest_of_salish}
+			tag = ELI
+		}
+		allow = {
+			78 = {owned_by = THIS}
+		}
+		effect = {
+			set_country_flag = conquest_of_salish
+			COL = {
+				all_core = {add_core = THIS}
+			}
+			78 = {change_province_name = "Nova Vigo"}
+			79 = {change_province_name = "Tres Rios"}
+		}
+	}
+	sieze_the_pacific_coast = {
+		potential = {
+			NOT = {has_country_flag = sieze_the_pacific_coast}
+			tag = ELI
+		}
+		allow = {
+			all_core = {OR = {owned_by = THIS empty = yes} }
+			78 = {owned_by = THIS}
+		}
+		effect = {
+			set_country_flag = sieze_the_pacific_coast
+			MEX_89 = {add_core = THIS}
+		}
+	}
+}

@@ -4,6 +4,7 @@ country_event = {
 	picture = "joe_biden"
 	trigger = {
 		ai = no
+		NOT = {tag = ELI}
 		NOT = {
 			has_leader = "Joe Biden"
 		}
@@ -19,6 +20,35 @@ country_event = {
 			personality = politician
 			#3/3 General
 			background = weakest_albanian
+		}
+	}
+	option = {
+		name = "It's about time..."		
+	}
+}
+
+country_event = {
+	id = 800001
+	allow_multiple_instances = yes
+	picture = "alberto_barbosa"
+	trigger = {
+		ai = no
+		NOT = {
+			has_leader = "Alberto Barbosa"
+		}
+		tag = ELI
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "Alberto Barbosa"
+	desc = "EVTDESC800001"
+	immediate = {
+		define_general = {
+			name = "Alberto Barbosa"
+			personality = heroic
+			#3/3 General
+			background = implacable
 		}
 	}
 	option = {

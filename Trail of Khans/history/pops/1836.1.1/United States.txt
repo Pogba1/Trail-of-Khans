@@ -506,27 +506,39 @@
 #Portland (12000/3000 POPS)
 81 = {
     aristocrats = {
-        culture = native_american_minor
-        religion = animist
-        size = 50
+        culture = elysian
+        religion = catholic
+        size = 100
     }
-
-    clergymen = {
-        culture = native_american_minor
-        religion = animist
-        size = 175
+	
+	bureaucrats = {
+        culture = elysian
+        religion = catholic
+        size = 300
     }
-
-    soldiers = {
-        culture = native_american_minor
-        religion = animist
-        size = 25
+	
+	clergymen = {
+        culture = elysian
+        religion = catholic
+        size = 1000
     }
-
-    farmers = {
-        culture = native_american_minor
-        religion = animist
-        size = 2700
+	
+	artisans = {
+        culture = elysian
+        religion = catholic
+        size = 1450
+    }
+	
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 3000
+    }
+	
+	farmers = {
+        culture = elysian
+        religion = catholic
+        size = 90050
     }
 }
 #Baker City (4000/1000 POPS)
@@ -559,27 +571,39 @@
 #Klamath Falls (4000/1000 POPS)
 83 = {
     aristocrats = {
-        culture = native_american_minor
-        religion = animist
-        size = 10
+        culture = elysian
+        religion = catholic
+        size = 100
     }
-
-    clergymen = {
-        culture = native_american_minor
-        religion = animist
-        size = 35
+	
+	bureaucrats = {
+        culture = elysian
+        religion = catholic
+        size = 300
     }
-
-    soldiers = {
-        culture = native_american_minor
-        religion = animist
-        size = 15
+	
+	clergymen = {
+        culture = elysian
+        religion = catholic
+        size = 1000
     }
-
-    farmers = {
-        culture = native_american_minor
-        religion = animist
-        size = 900
+	
+	artisans = {
+        culture = elysian
+        religion = catholic
+        size = 1450
+    }
+	
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 3000
+    }
+	
+	farmers = {
+        culture = elysian
+        religion = catholic
+        size = 90050
     }
 
 }
@@ -587,66 +611,120 @@
 #ruled by Mexico 1836
 #Sacramento (9600/2400 POPS)
 84 = {
-
-    aristocrats = {
-        culture = native_american_minor
-        religion = animist
-        size = 25
-    }
-
-    clergymen = {
-        culture = native_american_minor
-        religion = animist
-        size = 50
-    }
-
-    artisans = {
-        culture = native_american_minor
-        religion = animist
+aristocrats = {
+        culture = elysian
+        religion = catholic
         size = 100
     }
-
-    soldiers = {
-        culture = native_american_minor
-        religion = animist
-        size = 25
+	
+	bureaucrats = {
+        culture = elysian
+        religion = catholic
+        size = 300
     }
-
-    farmers = {
-        culture = native_american_minor
-        religion = animist
-        size = 1800
+	
+	clergymen = {
+        culture = elysian
+        religion = catholic
+        size = 1000
+    }
+	
+	artisans = {
+        culture = elysian
+        religion = catholic
+        size = 1450
+    }
+	
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 3000
+    }
+	
+	farmers = {
+        culture = elysian
+        religion = catholic
+        size = 90050
     }
 }
 #Eureka (4000/1000 POPS)
 85 = {
     aristocrats = {
-        culture = native_american_minor
-        religion = animist
-        size = 10
+        culture = elysian
+        religion = catholic
+        size = 100
     }
-
-    clergymen = {
-        culture = native_american_minor
-        religion = animist
-        size = 25
+	
+	bureaucrats = {
+        culture = elysian
+        religion = catholic
+        size = 300
     }
-
-    soldiers = {
-        culture = native_american_minor
-        religion = animist
-        size = 15
+	
+	clergymen = {
+        culture = elysian
+        religion = catholic
+        size = 1000
     }
-
-    farmers = {
-        culture = native_american_minor
-        religion = animist
-        size = 900
+	
+	artisans = {
+        culture = elysian
+        religion = catholic
+        size = 1450
+    }
+	
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 3000
+    }
+	
+	farmers = {
+        culture = elysian
+        religion = catholic
+        size = 90050
     }
 }
-#Sacramento (12000/3000 POPS)
+#Cidadenzo
 86 = {
-    aristocrats = {
+	
+	aristocrats = {
+        culture = elysian
+        religion = catholic
+        size = 30
+    }
+	
+	bureaucrats = {
+        culture = elysian
+        religion = catholic
+        size = 100
+    }
+	
+	clergymen = {
+        culture = elysian
+        religion = catholic
+        size = 300
+    }
+	
+	artisans = {
+        culture = elysian
+        religion = catholic
+        size = 550
+    }
+	
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1000
+    }
+	
+	farmers = {
+        culture = elysian
+        religion = catholic
+        size = 80050
+    }
+	
+	aristocrats = {
         culture = native_american_minor
         religion = animist
         size = 50
@@ -672,6 +750,31 @@
 }
 #Monterey (6400/1600 POPS)
 87 = {
+
+	clergymen = {
+        culture = elysian
+        religion = catholic
+        size = 10
+    }
+	
+	artisans = {
+        culture = elysian
+        religion = catholic
+        size = 10
+    }
+	
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 35
+    }
+	
+	farmers = {
+        culture = elysian
+        religion = catholic
+        size = 200
+    }
+	
     aristocrats = {
         culture = mexican
         religion = catholic
@@ -1284,21 +1387,47 @@
     }
 }
 
-#Albuquerque (20000/5000 POPS)
+#Nova Lisboa (20000/5000 POPS)
 104 = {
 	aristocrats = {
-        culture = mexican
+        culture = elysian
         religion = catholic
-        size = 10
+        size = 2000
     }
-
+	
+	bureaucrats = {
+        culture = elysian
+        religion = catholic
+        size = 600
+    }
+	
+	clergymen = {
+        culture = elysian
+        religion = catholic
+        size = 4000
+    }
+	
+	artisans = {
+        culture = elysian
+        religion = catholic
+        size = 2900
+    }
+	
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 3500
+    }
+	
+	farmers = {
+        culture = elysian
+        religion = catholic
+        size = 180100
+    }
+	
+	#mexicans
+	
     clergymen = {
-        culture = mexican
-        religion = catholic
-        size = 10
-    }
-
-    soldiers = {
         culture = mexican
         religion = catholic
         size = 10

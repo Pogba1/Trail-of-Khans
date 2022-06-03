@@ -607,6 +607,25 @@ iberian = {
             "ibn Umar" "ibn Uthman" "ibn Yusuf"
             }
     }
+	
+	elysian = {
+        color = {204 222 206}
+        first_names = { Abel Adriano Afonso Alberto Alexandre Alfredo Álvaro André António Aquilino
+        Artur Augusto Bartolomeu Bernardo Bruno Caetano Cândido Carlos Christovão Cláudio
+        Damião Daniel David Dinis Diogo Duarte Ernesto Estêvão Eugénio Fernando
+        Filipe Francisco "Francisco Xavier" Gastão Hermenegildo Ignácio Jerônimo João Joaquim Jorge
+        José Julio Leopoldo Luís Manuel Mário Miguel Nicolau Nuno Orlando
+        Oscar Pascoal Paulo Pedro Rafael Raul Roberto Rodrigo Rui Santiago
+        Sebastião Teodoro Teófilo Tiago Tomé Urbano Vasco Vicente Vitorino Vitório }
+
+        last_names = { Amaral Barbosa Barreto Bleck Braga Cabral Capelo Carmona Coelho Correia Coutinho
+        "da Costa" "da Cunha" "da Silva" "de Albuquerque" "de Almeida" "de Arriaga" "de Bragança" "de Bragança-Coburgo" "de Carvalho"
+        "de Castro" "de Gusmão" "de Lacerda" "de Mesquita" "de Moura" "de Noronha" "de Oliveira" "de Paiva" "de Sousa" "de Vasconcelos"
+        Dias "dos Reis" "dos Santos" Fernandes Ferreira Figueira "Freire de Andrade" Gago Gil Gomes
+        Herculano Ivens Keil Lopes Machado Magalhães Mendes Moniz Mouzinho Nogueira
+        Nunes Ortigão Pereira Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha
+        Ribeiro Rodrigues Salazar Sampaio Sérgio Silveira Tavares Teixeira Vidigal Vieira }
+    }
 }
 
 french = {
@@ -2444,13 +2463,17 @@ african_diaspora_cultures = {
     }
     afro_brazilian = {
         color = {87 164 95}
-        first_names = { Afonso Aleixo Alexandre Anderson André Artur Cândido Carlos Denílson Djalma
-        Félix Francisco Guilherme Itamar João Joaquim Jorge José Kléber Leandro
-        Luís Manuel Marco Marcos Maurício Mauro Nilo Procópio Ricardo Ronaldo }
+        first_names = { Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
+        Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
+        Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
+        Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+        Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio }
 
-        last_names = { Aragão Assunçao Bahia Barbosa Borges "de Cruz e Sousa" "da Lima" "de Lima Barreto" "de Ouro" "de Sousa"
-        "de Souza" "dos Reis" "dos Santos" Fidalgo Filho Gil Gomes "Machado de Assis" Nunes Oliveira
-        Otelo Paim Pandeiro Peçanha Pereira Pitanga Rodrigues Santos Silva Teixeira }
+        last_names = { Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
+        Caviglia Ceccherini Cialdini Cusani Dezza
+        Emo Fanti Fara Filomarino Garibaldi Giardino Govone  Mambretti
+        Menabrea Orengo Pallavicino Pecori-Giraldi Pelloux Perruchetti Pianelli Porro
+        Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli }
     }
     afro_antillean = {
         color = {24 44 49}

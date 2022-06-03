@@ -1,15 +1,7 @@
-owner = MEX
-controller = MEX
-add_core = MEX
-#add_core = CAL
+owner = ELI
+controller = ELI
+add_core = ELI
 trade_goods = fruit
 life_rating = 37
-colonial = 2
+naval_base = 1
 
-1861.1.1 = {
-    controller = USA
-    owner = USA
-    add_core = USA
-    remove_core = MEX
-    colonial = 0
-}
