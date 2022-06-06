@@ -2,6 +2,6 @@ owner = FRA
 controller = FRA
 add_core = CAT
 add_core = ATR
-trade_goods = fruit
+trade_goods = iron
 life_rating = 35
 1861.1.1 = { railroad = 3 }
