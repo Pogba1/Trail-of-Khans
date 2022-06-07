@@ -159,31 +159,31 @@
     }
 
     aristocrats = {
-        culture = occitan
+        culture = celtic
         religion = catholic
         size = 275
     }
 
     clergymen = {
-        culture = occitan
+        culture = celtic
         religion = catholic
         size = 225
     }
 
     artisans = {
-        culture = occitan
+        culture = celtic
         religion = catholic
         size = 1175
     }
 
     soldiers = {
-        culture = occitan
+        culture = celtic
         religion = catholic
         size = 225
     }
 
     farmers = {
-        culture = occitan
+        culture = celtic
         religion = catholic
         size = 21600
     }
@@ -886,31 +886,31 @@
 #Bozen (92000/23000 POPS) #now part of Italy
 735 = {
     aristocrats = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size =  150
     }
 
     artisans = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 1500
     }
 
     soldiers = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 150
     }
 
     farmers = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 14950
     }
@@ -936,8 +936,14 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 8400
+        size = 5400
     }
+	
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 3000
+	}
 }
 #Friuli-Istria Region (292000) #see serbia.txt for balance of region
 #under the rule of Austria in 1836
