@@ -9,6 +9,7 @@ political_decisions = {
 	tag = AND
 	tag = JER
 	tag = BYZ
+	tag = SVF
 	}
 	EGY_1745={owned_by = THIS}
 	NOT = {has_global_flag = modernize_nile_irrigation}
