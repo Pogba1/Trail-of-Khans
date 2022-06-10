@@ -2774,6 +2774,7 @@ el_tofo = {
 	local_RGO_output = 0.35
 	global_immigrant_attract = 0.5
 	immigrant_attract = 2
+	population_growth = 0.001
 	icon = 13
 }
 texan_oil_boom = {

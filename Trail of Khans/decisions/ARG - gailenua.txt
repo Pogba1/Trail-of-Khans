@@ -23,7 +23,7 @@ political_decisions = {
 	el_tofo = {
 		picture = essen_ruhr
 		potential = {
-		NOT = {has_global_flag = el_tofo_mines}
+		NOT = {2322 = has_province_modifier = el_tofo}
 			OR = {	
 				capital_scope = {continent = south_america}
 				tag = ARG
@@ -37,7 +37,6 @@ political_decisions = {
 		effect = {
 			set_global_flag = el_tofo_mines
 			2322 = {add_province_modifier = {name = el_tofo duration = -1}}
-			2322 = {add_province_modifier = {name = recently_built_city duration = 3650}}
 		}
 	}
 	
