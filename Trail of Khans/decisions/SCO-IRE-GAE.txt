@@ -400,6 +400,7 @@ political_decisions = {
 			capital = 425
 			primary_culture = gallic
 			add_accepted_culture = irish
+			add_accepted_culture = celtic
 			FRA_420 = {
 				assimilate = yes
 			}

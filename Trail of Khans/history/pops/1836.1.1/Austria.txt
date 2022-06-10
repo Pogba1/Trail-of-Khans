@@ -3,52 +3,58 @@
 #Innsbruck (236000/59000 POPS)
 612 = {
     aristocrats = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 750
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 1375
     }
 
     officers = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 1250
     }
 
     clergymen = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 550
     }
 
     artisans = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 2750
     }
 
     soldiers = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 3000
     }
 
     soldiers = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = south_german
+        culture = romansh
         religion = catholic
-        size = 50325
+        size = 38025
     }
+	
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 12300
+	}
 }
 #Salzburg (136000/34000 POPS)
 613 = {
@@ -79,63 +85,75 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 24975
+        size = 18675
     }
+	
+	farmers = {
+		culture = romansh 
+		religion = catholic
+		size = 6300
+	}
 }
 #Bregenz (132000/33000 POPS)
 614 = {
     aristocrats = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 400
     }
 
     clergymen = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 300
     }
 
     artisans = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 1500
     }
 
     soldiers = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 1100
     }
 
     farmers = {
-        culture = south_german
+        culture = romansh
         religion = catholic
-        size = 24700
+        size = 19050
     }
+	
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 5650
+	}
 }
 #Lienz (52000/13000 POPS)
 615 = {
     aristocrats = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 175
     }
 
     clergymen = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 125
     }
 
     artisans = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 600
     }
 
     soldiers = {
-        culture = south_german
+        culture = romansh
         religion = catholic
         size = 1125
     }
@@ -143,8 +161,14 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 11975
+        size = 6475
     }
+	
+	farmers = {
+		culture = romansh
+		religion = catholic
+		size = 5500
+	}
 }
 #Carinthia-Styria Region (736000) #see Slovenia.txt for balance of Region
 #under the rule of Austria in 1836

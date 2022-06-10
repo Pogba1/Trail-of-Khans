@@ -1,7 +1,7 @@
 owner = LBR
 controller = LBR
 add_core = LBR
-add_core = SAR
+add_core = SWI
 trade_goods = grain
 life_rating = 35
 1861.1.1 = {
