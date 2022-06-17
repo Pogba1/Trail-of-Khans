@@ -23,7 +23,11 @@ political_decisions = {
 	el_tofo = {
 		picture = essen_ruhr
 		potential = {
-		NOT = {2322 = has_province_modifier = el_tofo}
+			NOT = {
+				2322 = {
+					has_province_modifier = el_tofo
+				}
+			}
 			OR = {	
 				capital_scope = {continent = south_america}
 				tag = ARG

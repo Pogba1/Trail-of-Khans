@@ -1805,10 +1805,6 @@ demand_concession_NI_casus_belli = {
 		THIS = {
 			civilized = yes
 			nationalism_n_imperialism = 1
-			NOT = {
-				has_country_modifier = neutrality
-				has_global_flag = berlin_conference
-			}
 		}
 		NOT = {
 			civilization_progress = 0.7
@@ -1816,7 +1812,6 @@ demand_concession_NI_casus_belli = {
 			primary_culture = japanese
 			primary_culture = korean
 			primary_culture = persian
-			has_country_modifier = neutrality
 			capital_scope = { continent = africa }
 		}
 		civilized = no
@@ -1961,13 +1956,8 @@ establish_protectorate_NI_casus_belli = {
 		THIS = {
 			civilized = yes
 			nationalism_n_imperialism = 1
-			NOT = {
-				has_country_modifier = neutrality
-				has_global_flag = berlin_conference
-			}
 		}
 		NOT = {
-			has_country_modifier = neutrality
 			capital_scope = { continent = africa }
 			number_of_states = 7
 		}
@@ -1989,7 +1979,6 @@ establish_protectorate_NI_casus_belli = {
 			value = 0.1
 		}
 	}
-	on_po_accepted = { tech_school = unciv_tech_school }
 }
 
 # Unification Humiliate
