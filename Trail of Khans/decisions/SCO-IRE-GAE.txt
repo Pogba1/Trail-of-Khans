@@ -42,6 +42,7 @@ political_decisions = {
 			tag = IRE
 			accepted_culture = welsh
 			NOT = {has_country_flag=hegemony_over_the_island_IRE}
+			NOT = {has_country_flag=attempt_reform_gaul}
 		}
 		allow = {
 			war = no
