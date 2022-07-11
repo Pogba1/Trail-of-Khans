@@ -451,8 +451,8 @@
 #Liegnitz (484000/121000 POPS)
 683 = {
     aristocrats = {
-        culture = north_german
-        religion = protestant
+        culture = polish
+        religion = catholic
         size = 2000
     }
 
@@ -525,7 +525,12 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 4615
+        size = 24615
+    }
+	farmers = {
+        culture = czech
+        religion = catholic
+        size = 44615
     }
 
     clergymen = {
@@ -2364,6 +2369,12 @@
         religion = jewish
         size = 8325
     }
+	
+	soldiers = {
+        culture = polish
+        religion = catholic
+        size = 6200
+    }
 }
 #Lublin (476000/119000 POPS)
 715 = {
@@ -2480,9 +2491,20 @@
         religion = jewish
         size = 8325
     }
+	soldiers = {
+        culture = polish
+        religion = catholic
+        size = 6200
+    }
 }
 #Kielce (448000/112000 POPS)
 716 = {
+	soldiers = {
+        culture = polish
+        religion = catholic
+        size = 3000
+    }
+	
     aristocrats = {
         culture = polish
         religion = catholic
@@ -2676,7 +2698,7 @@
     soldiers = {
         culture = polish
         religion = catholic
-        size = 100
+        size = 6200
     }
 
     farmers = {

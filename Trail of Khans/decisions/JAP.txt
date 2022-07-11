@@ -29,7 +29,7 @@ political_decisions = {
         potential = {
            tag = JAP
 		   NOT = {has_country_flag = japan_korea_annexation_treaty}
-		   exists = KOR
+		   #exists = KOR
         }
 	
         allow = {
