@@ -14,7 +14,7 @@ country_event = {
 	option = {
 	ai_chance={factor=100}
 	name = "Our money is better spent at home."
-		FROM = { country_event = {id = 100010 days = 0} }
+		#FROM = { country_event = {id = 100010 days = 0} }
 	
 	}
 	option = {
@@ -63,49 +63,67 @@ country_event = {
 	option = {
 	name = "1000 pounds"
 	ai_chance = {factor = 100}
-	money = -1000
-	FROM = {money = 1000}
+	FROM = { any_country = { limit = { tag = THIS money = 1000 } treasury = -1000 #FROM is used as any_country does not look at the tag in scope
+	FROM = {treasury = 1000}
+	}
+	}
 	}
 	option = {
 	name = "2000 pounds"
-	money = -2000
-	FROM = {money = 2000}
+	FROM = { any_country = { limit = { tag = THIS money = 2000 } treasury = -2000
+	FROM = {treasury = 2000}
+	}
+	}
 	}
 	option = {
 	name = "3000 pounds"
-	money = -3000
-	FROM = {money = 3000}
+	FROM = { any_country = { limit = { tag = THIS money = 3000 } treasury = -3000
+	FROM = {treasury = 3000}
 	}  
+	}
+	}
 	option = {
 	name = "4000 pounds"
-	money = -4000
-	FROM = {money = 4000}
+	FROM = { any_country = { limit = { tag = THIS money = 4000 } treasury = -4000
+	FROM = {treasury = 4000}
 	}  
+	}
+	}
 	option = {
 	name = "5000 pounds"
-	money = -5000
-	FROM = {money = 5000}
+	FROM = { any_country = { limit = { tag = THIS money = 5000 } treasury = -5000
+	FROM = {treasury = 5000}
 	}  
+	}
+	}
 	option = {
 	name = "6000 pounds"
-	money = -6000
-	FROM = {money = 6000}
-	}  
+	FROM = { any_country = { limit = { tag = THIS money = 6000 } treasury = -6000
+	FROM = {treasury = 6000}
+	}  	
+	}
+	}
 	option = {
 	name = "7000 pounds"
-	money = -7000
-	FROM = {money = 7000}
-	}  
+	FROM = { any_country = { limit = { tag = THIS money = 7000 } treasury = -7000
+	FROM = {treasury = 7000}
+	}  	
+	}
+	}
 	option = {
 	name = "8000 pounds"
-	money = -8000
-	FROM = {money = 8000}
+	FROM = { any_country = { limit = { tag = THIS money = 8000 } treasury = -8000
+	FROM = {treasury = 8000}
 	}  
+	}
+	}
 	option = {
 	name = "9000 pounds"
-	money = -9000
+	FROM = { any_country = { limit = { tag = THIS money = 9000 } treasury = -9000
 	FROM = {money = 9000}
 	}  
+	}
+	}
 }
 
 country_event = {
@@ -120,49 +138,67 @@ country_event = {
 	option = {
 	name = "10000 pounds"
 	ai_chance = {factor = 100}
-	money = -10000
-	FROM = {money = 10000}
+	FROM = { any_country = { limit = { tag = THIS money = 10000 } treasury = -10000
+	FROM = {treasury = 10000}
+	}
+	}
 	}
 	option = {
 	name = "20000 pounds"
-	money = -20000
-	FROM = {money = 20000}
+	FROM = { any_country = { limit = { tag = THIS money = 20000 } treasury = -20000
+	FROM = {treasury = 20000}
+	}
+	}
 	}
 	option = {
 	name = "30000 pounds"
-	money = -30000
-	FROM = {money = 30000}
+	FROM = { any_country = { limit = { tag = THIS money = 30000 } treasury = -30000
+	FROM = {treasury = 30000}
 	}  
+	}
+	}
 	option = {
 	name = "40000 pounds"
-	money = -40000
-	FROM = {money = 40000}
+	FROM = { any_country = { limit = { tag = THIS money = 40000 } treasury = -40000
+	FROM = {treasury = 40000}
 	}  
+	}
+	}
 	option = {
 	name = "50000 pounds"
-	money = -50000
-	FROM = {money = 50000}
+	FROM = { any_country = { limit = { tag = THIS money = 50000 } treasury = -50000
+	FROM = {treasury = 50000}
 	}  
+	}
+	}
 	option = {
 	name = "60000 pounds"
-	money = -60000
-	FROM = {money = 60000}
+	FROM = { any_country = { limit = { tag = THIS money = 60000 } treasury = -60000
+	FROM = {treasury = 60000}
+	}
+	}
 	}  
 	option = {
 	name = "70000 pounds"
-	money = -70000
-	FROM = {money = 70000}
+	FROM = { any_country = { limit = { tag = THIS money = 70000 } treasury = -70000
+	FROM = {treasury = 70000}
+	}
+	}
 	}  
 	option = {
 	name = "80000 pounds"
-	money = -80000
-	FROM = {money = 80000}
+	FROM = { any_country = { limit = { tag = THIS money = 80000 } treasury = -80000
+	FROM = {treasury = 80000}
+	}
 	}  
+	}
 	option = {
 	name = "90000 pounds"
-	money = -90000
+	FROM = { any_country = { limit = { tag = THIS money = 90000 } treasury = -90000
 	FROM = {money = 90000}
-	}  
+	}
+	}
+	}
 }
 
 country_event = {
@@ -177,48 +213,66 @@ country_event = {
 	option = {
 	name = "100000 pounds"
 	ai_chance = {factor = 100}
-	money = -100000
-	FROM = {money = 100000}
+	FROM = { any_country = { limit = { tag = THIS money = 100000 } treasury = -100000
+	FROM = {treasury = 100000}
+	}
+	}
 	}
 	option = {
 	name = "200000 pounds"
-	money = -200000
-	FROM = {money = 200000}
+	FROM = { any_country = { limit = { tag = THIS money = 200000 } treasury = -200000
+	FROM = {treasury = 200000}
+	}
+	}
 	}
 	option = {
 	name = "300000 pounds"
-	money = -300000
-	FROM = {money = 300000}
+	FROM = { any_country = { limit = { tag = THIS money = 300000 } treasury = -300000
+	FROM = {treasury = 300000}
+	}
+	}
 	}  
 	option = {
 	name = "400000 pounds"
-	money = -400000
-	FROM = {money = 400000}
+	FROM = { any_country = { limit = { tag = THIS money = 400000 } treasury = -400000
+	FROM = {treasury = 400000}
+	}
+	}
 	}  
 	option = {
 	name = "500000 pounds"
-	money = -500000
-	FROM = {money = 500000}
+	FROM = { any_country = { limit = { tag = THIS money = 500000 } treasury = -500000
+	FROM = {treasury = 500000}
+	}
+	}
 	}  
 	option = {
 	name = "600000 pounds"
-	money = -600000
-	FROM = {money = 600000}
+	FROM = { any_country = { limit = { tag = THIS money = 600000 } treasury = -600000
+	FROM = {treasury = 600000}
+	}
+	}
 	}  
 	option = {
 	name = "700000 pounds"
-	money = -700000
-	FROM = {money = 700000}
+	FROM = { any_country = { limit = { tag = THIS money = 700000 } treasury = -700000
+	FROM = {treasury = 700000}
+	}
+	}
 	}  
 	option = {
 	name = "800000 pounds"
-	money = -800000
-	FROM = {money = 800000}
+	FROM = { any_country = { limit = { tag = THIS money = 800000 } treasury = -800000
+	FROM = {treasury = 800000}
+	}
+	}
 	}  
 	option = {
 	name = "900000 pounds"
-	money = -900000
+	FROM = { any_country = { limit = { tag = THIS money = 900000 } treasury = -900000
 	FROM = {money = 900000}
+	}
+	}
 	}  
 }
 
@@ -234,49 +288,60 @@ country_event = {
 	option = {
 	name = "1000000 pounds"
 	ai_chance = {factor = 100}
-	money = -1000000
-	FROM = {money = 1000000}
+	FROM = { any_country = { limit = { tag = THIS money = 1000000 } money = -1000000 FROM = {money = 1000000}
+	}
+	}
 	}
 	option = {
 	name = "2000000 pounds"
-	money = -2000000
+	FROM = { any_country = { limit = { tag = THIS money = 2000000 } money = -2000000
 	FROM = {money = 2000000}
+	}
+	}
 	}
 	option = {
 	name = "3000000 pounds"
-	money = -2000000
+	FROM = { any_country = { limit = { tag = THIS money = 3000000 } money = -2000000
 	FROM = {money = 2000000}
 	money = -1000000
 	FROM = {money = 1000000}
+	}
 	}  
+	}
 	option = {
 	name = "4000000 pounds"
-	money = -2000000
+	FROM = { any_country = { limit = { tag = THIS money = 4000000 } money = -2000000
 	FROM = {money = 2000000}
 	money = -2000000
 	FROM = {money = 2000000}
-	}  
+	}
+	}
+	} 
 	option = {
 	name = "5000000 pounds"
-	money = -2000000
+	FROM = { any_country = { limit = { tag = THIS money = 5000000 } money = -2000000
 	FROM = {money = 2000000}
 	money = -2000000
 	FROM = {money = 2000000}
 	money = -1000000
 	FROM = {money = 1000000}
-	}  
+	}
+	}
+	}
 	option = {
 	name = "6000000 pounds"
-	money = -2000000
+	FROM = { any_country = { limit = { tag = THIS money = 6000000 } money = -2000000
 	FROM = {money = 2000000}
 	money = -2000000
 	FROM = {money = 2000000}
 	money = -2000000
 	FROM = {money = 2000000}
+	}
+	}
 	}  
 	option = {
 	name = "7000000 pounds"
-	money = -2000000
+	FROM = { any_country = { limit = { tag = THIS money = 7000000 } money = -2000000
 	FROM = {money = 2000000}
 	money = -2000000
 	FROM = {money = 2000000}
@@ -284,10 +349,12 @@ country_event = {
 	FROM = {money = 2000000}
 	money = -1000000
 	FROM = {money = 1000000}
+	}
+	}
 	}  
 	option = {
 	name = "8000000 pounds"
-	money = -2000000
+	FROM = { any_country = { limit = { tag = THIS money = 8000000 } money = -2000000
 	FROM = {money = 2000000}
 	money = -2000000
 	FROM = {money = 2000000}
@@ -295,10 +362,12 @@ country_event = {
 	FROM = {money = 2000000}
 	money = -2000000
 	FROM = {money = 2000000}
+	}
+	}
 	}  
 	option = {
 	name = "9000000 pounds"
-	money = -2000000
+	FROM = { any_country = { limit = { tag = THIS money = 9000000 } money = -2000000
 	FROM = {money = 2000000}
 	money = -2000000
 	FROM = {money = 2000000}
@@ -308,19 +377,9 @@ country_event = {
 	FROM = {money = 2000000}
 	money = -1000000
 	FROM = {money = 1000000}
-	}  
-}
-
-country_event = {
-	id = 100010
-	title = "$FROMCOUNTRY$ Declines Aid Request"
-	desc = "$FROMCOUNTRY$ decided against giving us a grant"
-	allow_multiple_instances = yes	
-	is_triggered_only = yes
-	option = {
-	ai_chance = {factor = 100}
-	name = "I guess we just have to print more money..."
 	}
+	}
+	}  
 }
 
 country_event = {
@@ -335,48 +394,66 @@ country_event = {
 	option = {
 	name = "100 pounds"
 	ai_chance = {factor = 100}
-	money = -100
-	FROM = {money = 100}
+	FROM = { any_country = { limit = { tag = THIS money = 100 } treasury = -100
+	FROM = {treasury = 100}
+	}
+	}
 	}
 	option = {
 	name = "200 pounds"
-	money = -200
-	FROM = {money = 200}
+	FROM = { any_country = { limit = { tag = THIS money = 200 } treasury = -200
+	FROM = {treasury = 200}
+	}
+	}
 	}
 	option = {
 	name = "300 pounds"
-	money = -300
-	FROM = {money = 300}
-	}  
+	FROM = { any_country = { limit = { tag = THIS money = 300 } treasury = -300
+	FROM = {treasury = 300}
+	}
+	} 
+	}
 	option = {
 	name = "400 pounds"
-	money = -400
-	FROM = {money = 400}
-	}  
+	FROM = { any_country = { limit = { tag = THIS money = 400 } treasury = -400
+	FROM = {treasury = 400}
+	}
+	}
+	}
 	option = {
 	name = "500 pounds"
-	money = -500
-	FROM = {money = 500}
+	FROM = { any_country = { limit = { tag = THIS money = 500 } treasury = -500
+	FROM = {treasury = 500}
+	}
 	}  
+	}
 	option = {
 	name = "600 pounds"
-	money = -600
-	FROM = {money = 600}
-	}  
+	FROM = { any_country = { limit = { tag = THIS money = 600 } treasury = -600
+	FROM = {treasury = 600}
+	}
+	}
+	}
 	option = {
 	name = "700 pounds"
-	money = -700
-	FROM = {money = 700}
-	}  
+	FROM = { any_country = { limit = { tag = THIS money = 700 } treasury = -700
+	FROM = {treasury = 700}
+	}  	
+	}
+	}
 	option = {
 	name = "800 pounds"
-	money = -800
-	FROM = {money = 800}
+	FROM = { any_country = { limit = { tag = THIS money = 800 } treasury = -800
+	FROM = {treasury = 800}
 	}  
+	}
+	}
 	option = {
 	name = "900 pounds"
-	money = -900
-	FROM = {money = 900}
-	}  
+	FROM = { any_country = { limit = { tag = THIS money = 900 } treasury = -900
+	FROM = {treasury = 900}
+	}
+	}
+	}
 
-}  
+}    
