@@ -455,6 +455,8 @@ british = {
 
 }
 gallic = {
+	leader = european
+    unit = BritishGC
 	gallic = {
 		color = { 50 66 54 }
         radicalism = 1
