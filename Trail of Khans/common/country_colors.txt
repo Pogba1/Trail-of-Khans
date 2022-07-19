@@ -237,6 +237,14 @@ IRE = {
     color3= { 117 127 174  }
 }
 
+# Gaul
+
+GAU = {
+    color1= { 0 80 31  }
+    color2= { 0 80 31  }
+    color3= { 0 80 31  }
+}
+
 # Ionian Islands FIXED
 ION = {
     color1= { 69 80 169  }
