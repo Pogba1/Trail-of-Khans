@@ -165,11 +165,14 @@ political_decisions = {
 		}
 		allow = {
 			nationalism_n_imperialism = 1
-			all_core = {
-				NOT = {
-					is_core = QUE
+			NOT = {
+				QUE = {
+					any_core = {
+						owner {
+							tag = THIS
+						}
+					}
 				}
-				owned_by = THIS
 			}
 			OR = {
 				ENG_300 = {
