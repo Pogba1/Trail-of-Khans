@@ -75,7 +75,7 @@
         size = 1200
     }
 
-    serfs = {
+    farmers = {
         culture = hungarian
         religion = catholic
         size = 2740
@@ -185,7 +185,7 @@
         size = 100000
     }
 
-    serfs = {
+    farmers = {
         culture = gypsy
         religion = catholic
         size = 5750
@@ -215,7 +215,7 @@
         size = 300
     }
 
-    serfs = {
+    farmers = {
         culture = hungarian
         religion = catholic
         size = 29075
@@ -275,7 +275,7 @@
         size = 150
     }
 
-    serfs = {
+    farmers = {
         culture = slovene
         religion = catholic
         size = 13950
@@ -299,7 +299,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = croat
         religion = catholic
         size = 6525
@@ -369,7 +369,7 @@
         size = 1050
     }
 
-    serfs = {
+    farmers = {
         culture = hungarian
         religion = catholic
         size = 4625
@@ -535,13 +535,13 @@
         size = 2500
     }
 
-    serfs = {
+    farmers = {
         culture = hungarian
         religion = catholic
         size =  35050
     }
 
-    serfs = {
+    farmers = {
         culture = gypsy
         religion = catholic
         size =  3000
@@ -693,7 +693,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = hungarian
         religion = catholic
         size = 4525
@@ -777,7 +777,7 @@
         size = 300
     }
 
-    serfs = {
+    farmers = {
         culture = slovak
         religion = catholic
         size = 29925
@@ -845,7 +845,7 @@
         size = 175
     }
 
-    serfs = {
+    farmers = {
         culture = hungarian
         religion = catholic
         size = 16275
@@ -943,7 +943,7 @@
         size = 150
     }
 
-    serfs = {
+    farmers = {
         culture = hungarian
         religion = catholic
         size = 13525
@@ -1053,7 +1053,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = hungarian
         religion = catholic
         size = 5550
@@ -1243,7 +1243,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = slovak
         religion = catholic
         size = 6500
@@ -1319,7 +1319,7 @@
         size = 125
     }
 
-    serfs = {
+    farmers = {
         culture = hungarian
         religion = catholic
         size = 8975
@@ -1373,7 +1373,7 @@
         size = 915
     }
 	
-	serfs = {
+	farmers = {
         culture = romanian
         religion = catholic
         size = 3375
@@ -1411,7 +1411,7 @@
         size = 1100
     }
 
-    serfs = {
+    farmers = {
         culture = hungarian
         religion = catholic
         size = 54375
@@ -1533,19 +1533,19 @@
         size = 325
     }
 
-    serfs = {
+    farmers = {
         culture = hungarian
         religion = catholic
         size = 27375
     }
 	
-	serfs = {
+	farmers = {
         culture = romanian
         religion = catholic
         size = 7375
     }
 	
-	serfs = {
+	farmers = {
         culture = romanian
         religion = orthodox
         size = 375

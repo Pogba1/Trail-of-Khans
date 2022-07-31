@@ -44,7 +44,7 @@
         size = 200
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 7600
@@ -198,7 +198,7 @@
         size = 63800
     }
 
-    serfs = {
+    farmers = {
         culture = romanian
         religion = orthodox
         size = 10000
@@ -332,7 +332,7 @@
         size = 900
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 45650
@@ -994,7 +994,7 @@
         size = 46100
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 50000
@@ -1116,7 +1116,7 @@
         size = 35200
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 50000
@@ -1434,7 +1434,7 @@
         size = 34900
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 50000
@@ -1568,7 +1568,7 @@
         size = 29925
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 50000
@@ -1660,7 +1660,7 @@
         size = 40375
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 50000
@@ -1746,7 +1746,7 @@
         size = 35550
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 50000
@@ -1856,7 +1856,7 @@
         size = 57500
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 70000
@@ -1959,7 +1959,7 @@
         size = 128000
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 200000
@@ -2071,7 +2071,7 @@
         size = 8185
     }
 
-    serfs = {
+    farmers = {
         culture = tatar
         religion = sunni
         size = 10000
@@ -2223,7 +2223,7 @@
         size = 2000
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 10000
@@ -2651,7 +2651,7 @@
         size = 6000
     }
 
-    serfs = {
+    farmers = {
         culture = tatar
         religion = orthodox
         size = 2000
@@ -2702,7 +2702,7 @@
         size = 54950
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 5000
@@ -2920,7 +2920,7 @@
         size = 58800
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 40000
@@ -2994,7 +2994,7 @@
 }
 #Nikolaev (248000/62000 POPS)
 970 = {
-	serfs = {
+	farmers = {
         culture = tatar
         religion = orthodox
         size = 1100
@@ -3029,7 +3029,7 @@
         size = 22875
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 5000
@@ -3193,7 +3193,7 @@
         size = 55100
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 5000
@@ -3548,7 +3548,7 @@
         size = 55875
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 5000
@@ -3696,7 +3696,7 @@
         size = 50150
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 5000
@@ -3826,7 +3826,7 @@
         size = 43625
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 80000
@@ -3938,7 +3938,7 @@
         size = 53350
     }
 
-    serfs = {
+    farmers = {
         culture = ukrainian
         religion = orthodox
         size = 70000
