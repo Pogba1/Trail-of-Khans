@@ -22,7 +22,10 @@ political_decisions = {
 		potential = {
 		tag = NET
 
-		NOT = {has_country_flag = integrate_amerikaans}
+		NOT = {
+			has_country_flag = integrate_amerikaans
+			has_country_flag = the_iles
+		}
 		}
 		allow = {
 			232 = {owned_by = THIS}
@@ -161,12 +164,19 @@ political_decisions = {
 			tag = NET
 			NOT = {
 				has_country_flag = the_iles
+				has_country_flag = integrate_amerikaans
 			}
 		}
 		allow = {
 			nationalism_n_imperialism = 1
-			all_core = {
-				owned_by = THIS
+			NOT = {
+				QUE = {
+					any_core = {
+						owner {
+							tag = THIS
+						}
+					}
+				}
 			}
 			OR = {
 				ENG_300 = {
