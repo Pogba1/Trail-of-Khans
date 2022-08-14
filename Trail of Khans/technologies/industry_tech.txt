@@ -222,7 +222,7 @@ combustion_engine = {
     rgo_goods_output = { oil = 0.15 }
     rgo_goods_output = { precious_metal = 0.15 }
     rgo_goods_output = { sulphur = 0.15 }
-    farm_rgo_eff = 0.65
+    farm_rgo_eff = 0.15
     ai_chance = {
         factor = 3
         modifier = {
@@ -977,9 +977,6 @@ advanced_metallurgy = {
     rgo_goods_output = {
         sulphur = 0.2
     }
-	
-	mine_RGO_eff = 0.5
-    mine_RGO_size = 0.5
 
     ai_chance = {
         factor = 2
