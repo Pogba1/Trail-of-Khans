@@ -2356,7 +2356,7 @@ military_staff_system = {
 
     army_base = {
         default_organisation = 5
-       #supply_consumption = 0.10
+       supply_consumption = -0.10
     }
 
     ai_chance = {
@@ -2493,7 +2493,7 @@ military_plans = {
 
     army_base = {
         default_organisation = 5
-        #supply_consumption = 0.10
+        supply_consumption = -0.10
     }
 
     ai_chance = {
@@ -2630,7 +2630,7 @@ military_statistics = {
 
     army_base = {
         default_organisation = 5
-        #supply_consumption = 0.20
+        supply_consumption = -0.20
     }
 
     ai_chance = {
@@ -2767,7 +2767,7 @@ military_logistics = {
 
     army_base = {
         default_organisation = 5
-        supply_consumption = 0.10
+        supply_consumption = -0.20
     }
     mobilisation_size = 0.05
 
@@ -2905,7 +2905,7 @@ military_directionism = {
 
     army_base = {
         default_organisation = 10
-        supply_consumption = 0.20
+        supply_consumption = -0.20
     }
     ai_chance = {
         factor = 8
@@ -3039,7 +3039,7 @@ aeronautics = {
     cost = 21600
     army_base = {
         default_organisation = 10
-        supply_consumption = 0.20
+        supply_consumption = -0.30
     }
 
     unciv_military = yes
