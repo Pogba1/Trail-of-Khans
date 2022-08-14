@@ -1457,6 +1457,8 @@ nitroglycerin = {
         factory_goods_output = {
             explosives = 0.02
         }
+	mine_RGO_eff = 0.5
+    mine_RGO_size = 0.5
     }
 }
 chemical_wood_pulp_process = {
