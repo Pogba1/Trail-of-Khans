@@ -26,8 +26,8 @@ monitor = {
         steamer_convoy = 40         # 2600 | was 25 - 1625
         artillery = 60              # 3600 | was 12 - 720
         canned_food = 20          # 320  | was 12 - 192
-        regular_clothes = 20      # 116  | was 12 - 69.6
-        fuel = 10                 # 250    | was 0
+        #regular_clothes = 20      # 116  | was 12 - 69.6
+        #fuel = 10                 # 250    | was 0
     }
     # Total: 6886 | was 2606.6
     min_port_level = 3
@@ -40,10 +40,10 @@ monitor = {
         artillery = 0.3
         canned_food = 0.4
         ammunition = 0.3
-        regular_clothes = 0.1
-        fuel = 0.5
+        #regular_clothes = 0.1
+        #fuel = 0.5
         coal = 0.5
-        tobacco = 0.6
+        #tobacco = 0.6
     }
 
     #Naval Abilties
