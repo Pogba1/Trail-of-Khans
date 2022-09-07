@@ -788,12 +788,7 @@ breech_loaded_rifle_armament = {
 machine_gun_armament = {
     limit = { machine_guns = 1 invention = breech_loaded_rifle_armament }
     chance = {
-        base = 5
-        modifier = {
-            factor = 2
-            war = yes
-            war_countries = { invention = machine_gun_armament }
-        }
+        base = 100
     }
     effect = {
         infantry = {
@@ -876,7 +871,7 @@ colonial_negotiations = {
 bolt_action_rifle_armament = {
     limit = { bolt_action_rifles = 1 invention = machine_gun_armament }
     chance = {
-        base = 5
+        base = 100
         modifier = {
             factor = 2
             war = yes

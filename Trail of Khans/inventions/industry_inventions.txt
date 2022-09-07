@@ -92,6 +92,7 @@ tractors = {
         rgo_goods_output = { opium = 0.03 }
         rgo_goods_output = { fruit = 0.03 }
         rgo_goods_output = { cattle = 0.03 }
+		farm_rgo_eff = 0.50
     }
 }
 #electrical_power_generation
@@ -1198,6 +1199,8 @@ electric_rolling_techniques = {
         factory_goods_output = {
             steel = 0.02
         }
+	mine_RGO_eff = 0.5
+    mine_RGO_size = 0.5
     }
 }
 steel_alloys = {
@@ -1457,6 +1460,8 @@ nitroglycerin = {
         factory_goods_output = {
             explosives = 0.02
         }
+	mine_RGO_eff = 0.5
+    mine_RGO_size = 0.5
     }
 }
 chemical_wood_pulp_process = {
