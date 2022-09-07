@@ -1621,26 +1621,26 @@ witwatersrand_gold_rush = {
 
 ##### RGO Spread Events #####
 local_tractors = {
-    #farm_RGO_eff = 0.5
+    farm_RGO_eff = 0.5
     icon = 13
 }
 
 local_nitroglycerin_and_machine_tools = {
-    #mine_RGO_eff = 0.5
-    #mine_RGO_size = 0.5
+    mine_RGO_eff = 0.5
+    mine_RGO_size = 0.5
     icon = 13
 }
 
 local_conveyors_and_excavators = {
-   #mine_RGO_eff = 0.5
-   #mine_RGO_size = 0.5
+    mine_RGO_eff = 0.5
+    mine_RGO_size = 0.5
     icon = 13
 }
 
 local_distribution_channels_und_electricity = {
-    #farm_RGO_eff = 0.5 #0.5
-    #mine_RGO_eff = 0.5 #0.5
-    #local_factory_throughput = 0.1 #0.05
+    farm_RGO_eff = 0.5 #0.5
+    mine_RGO_eff = 0.5 #0.5
+    local_factory_throughput = 0.1 #0.05
     icon = 11
 }
 

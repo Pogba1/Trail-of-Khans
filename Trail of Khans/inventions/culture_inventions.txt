@@ -1740,15 +1740,15 @@ paramilitary_groups = {
     }
 }
 the_police_state = {
-    limit = { ideological_thought = 1 }
+    limit = { mass_politics = 1 }
     news = no
     chance = {
-        base = 8
+        base = 2
         modifier = {
             factor = 3
             OR = {
-                ruling_party_ideology = reactionary
-                ruling_party_ideology = conservative
+                ruling_party_ideology = fascist
+                ruling_party_ideology = communist
             }
         }
         modifier = {

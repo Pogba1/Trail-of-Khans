@@ -26,7 +26,7 @@ commerce_raider = {
         steamer_convoy = 35  #2275 | was 650
         artillery = 25          #1500 | was 300
         canned_food = 15      # 240 | was 32
-        #regular_clothes = 15 # 72  | was 29
+        regular_clothes = 15 # 72  | was 29
     }
     #Total: 4087 | was 1011
     min_port_level = 1
@@ -39,7 +39,7 @@ commerce_raider = {
         artillery = 0.1
         canned_food = 0.1
         ammunition = 0.1
-        #regular_clothes = 0.5
+        regular_clothes = 0.5
         coal = 0.25
     }
 

@@ -28,7 +28,7 @@ ironclad = {
         steamer_convoy = 50     # 3250 | was 1625
         artillery = 50             # 2400 | was 600
         canned_food = 20         # 320  | was 160
-        #regular_clothes = 20    # 116  | was 69.6
+        regular_clothes = 20    # 116  | was 69.6
     }
     # Total: 6086 | was 3894.6
     min_port_level = 3
@@ -41,9 +41,9 @@ ironclad = {
         artillery = 0.3
         canned_food = 0.3
         ammunition = 0.3
-        #regular_clothes = 0.1
+        regular_clothes = 0.1
         coal = 0.5
-        #tobacco = 0.4
+        tobacco = 0.4
     }
 
     #Naval Abilities

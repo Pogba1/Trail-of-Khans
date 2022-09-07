@@ -19,15 +19,15 @@ declaration_of_the_rights_of_man = {
     effect = {
         rebel_org_gain = {
             faction = liberal_rebels
-            value = 0.15
+            value = 0.25
         }
         rebel_org_gain = {
             faction = nationalist_rebels
-            value = 0.35
+            value = 0.50
         }
         rebel_org_gain = {
             faction = separatist_rebels
-            value = 0.25
+            value = 0.50
         }
     }
 }
@@ -136,7 +136,7 @@ spirit_of_freedom = {
     effect = {
         rebel_org_gain = {
             faction = liberal_rebels
-            value = 0.15
+            value = 0.25
         }
     }
 }
@@ -164,11 +164,11 @@ carlism = {
     effect = {
         rebel_org_gain = {
             faction = carlist_rebels
-            value = 0.50
+            value = 0.75
         }
         rebel_org_gain = {
             faction = christino_rebels
-            value = 0.50
+            value = 0.75
         }
     }
 }
