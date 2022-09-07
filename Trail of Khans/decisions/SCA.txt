@@ -43,6 +43,34 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
+	
+	conquer_sami = {
+		potential = {
+		NOT = {has_country_flag = conquer_sami}
+		OR = {
+		tag = SCA
+		tag = SWE
+		}
+		}
+		allow = {
+		OR = {
+		SMI = {all_core = {owned_by = THIS}}
+		SMI = {all_core = {NOT={is_core = KRL} owned_by = THIS}}
+		}
+		}
+		effect = {
+		 SMI = {all_core = {add_core = THIS}}
+		 add_accepted_culture = sami
+		 set_country_flag = conquer_sami
+		 RUS_345 = {add_core = SWE}
+		 RUS_345 = {add_core = SCA}
+		 RUS_343 = {add_core = SWE}
+		 RUS_343 = {add_core = SCA}
+		}
+		ai_will_do = { factor = 1 }
+	
+	}
+	
 	integrate_the_finns = {
 		picture = "greater_finland"
 		potential = {

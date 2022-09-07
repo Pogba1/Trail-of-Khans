@@ -1,0 +1,30 @@
+leader = {
+    name = "Horseman"
+    picture = european_general_24
+    date = 1810.1.1
+    type = land
+    personality = implacable
+    background = incompetent
+}
+
+army = {
+    name = "Vuosttas Soahteveahka"
+    location = 338
+    regiment = {
+        name= "I. Soahteveahka"
+        type = infantry
+        home = 338
+    }
+
+    regiment = {
+        name= "II. Soahteveahka"
+        type = infantry
+        home = 338
+    }
+
+    regiment = {
+        name= "III. Soahteveahka"
+        type = infantry
+        home = 338
+    }
+}

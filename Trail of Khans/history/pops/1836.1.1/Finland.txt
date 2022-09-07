@@ -67,19 +67,19 @@
 #Tornio (40000/10000 POPS)
 338 = {
     clergymen = {
-        culture = finnish
+        culture = sami
         religion = protestant
         size = 100
     }
 
     artisans = {
-        culture = finnish
+        culture = sami
         religion = protestant
         size = 475
     }
 
     soldiers = {
-        culture = finnish
+        culture = sami
         religion = protestant
         size = 100
     }
@@ -87,13 +87,17 @@
     farmers = {
         culture = finnish
         religion = protestant
-        size = 8425
+        size = 1425
     }
-
+	soldiers = {
+		culture = sami
+		religion = protestant
+		size = 9000
+	}
     farmers = {
         culture = sami
         religion = protestant
-        size = 1075
+        size = 18425
     }
 }
 #Karelia Region (524000)

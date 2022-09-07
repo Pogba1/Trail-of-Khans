@@ -1,7 +1,8 @@
-owner = SWE
-controller = SWE
+owner = SMI
+controller = SMI
+add_core = SMI
 add_core = FIN
-add_core = SWE
+#add_core = SWE
 trade_goods = iron
 terrain = boreal
 life_rating = 10

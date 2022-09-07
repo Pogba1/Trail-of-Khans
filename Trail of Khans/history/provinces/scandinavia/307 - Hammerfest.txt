@@ -1,6 +1,6 @@
-owner = NOR
-controller = NOR
+owner = SMI
+controller = SMI
+add_core = SMI
 add_core = NOR
-add_core = SCA
 trade_goods = timber
 life_rating = 10

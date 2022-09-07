@@ -110,20 +110,15 @@
     farmers = {
         culture = norwegian
         religion = protestant
-        size = 5000
+        size = 3000
     }
 
     farmers = {
         culture = sami
         religion = protestant
-        size = 2400
+        size = 8400
     }
 
-    farmers = {
-        culture = finnish
-        religion = protestant
-        size = 2000
-    }
 }
 #Alesund (72000/18000 POPS)
 308 = {
