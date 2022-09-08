@@ -56,6 +56,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = united_in_solidarity
+			ATR = {all_core = {limit = {NOT = {is_core = CAT}}add_core = AND}}
 			add_accepted_culture = spanish
 		}
 	}

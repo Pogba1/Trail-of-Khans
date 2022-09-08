@@ -520,7 +520,7 @@
 	clergymen = {
         culture = elysian
         religion = catholic
-        size = 1000
+        size = 1600
     }
 	
 	artisans = {
@@ -532,13 +532,13 @@
 	soldiers = {
         culture = elysian
         religion = catholic
-        size = 3000
+        size = 6000
     }
 	
 	farmers = {
         culture = elysian
         religion = catholic
-        size = 90050
+        size = 140050
     }
 }
 #Baker City (4000/1000 POPS)
@@ -585,7 +585,7 @@
 	clergymen = {
         culture = elysian
         religion = catholic
-        size = 1000
+        size = 1500
     }
 	
 	artisans = {
@@ -603,7 +603,7 @@
 	farmers = {
         culture = elysian
         religion = catholic
-        size = 90050
+        size = 140050
     }
 
 }
@@ -614,37 +614,37 @@
 aristocrats = {
         culture = elysian
         religion = catholic
-        size = 100
+        size = 130
     }
 	
 	bureaucrats = {
         culture = elysian
         religion = catholic
-        size = 300
+        size = 400
     }
 	
 	clergymen = {
         culture = elysian
         religion = catholic
-        size = 1000
+        size = 1300
     }
 	
 	artisans = {
         culture = elysian
         religion = catholic
-        size = 1450
+        size = 2000
     }
 	
 	soldiers = {
         culture = elysian
         religion = catholic
-        size = 3000
+        size = 4000
     }
 	
 	farmers = {
         culture = elysian
         religion = catholic
-        size = 90050
+        size = 170050
     }
 }
 #Eureka (4000/1000 POPS)
@@ -652,31 +652,31 @@ aristocrats = {
     aristocrats = {
         culture = elysian
         religion = catholic
-        size = 100
+        size = 130
     }
 	
 	bureaucrats = {
         culture = elysian
         religion = catholic
-        size = 300
+        size = 400
     }
 	
 	clergymen = {
         culture = elysian
         religion = catholic
-        size = 1000
+        size = 1300
     }
 	
 	artisans = {
         culture = elysian
         religion = catholic
-        size = 1450
+        size = 2000
     }
 	
 	soldiers = {
         culture = elysian
         religion = catholic
-        size = 3000
+        size = 4000
     }
 	
 	farmers = {
@@ -691,37 +691,37 @@ aristocrats = {
 	aristocrats = {
         culture = elysian
         religion = catholic
-        size = 30
+        size = 60
     }
 	
 	bureaucrats = {
         culture = elysian
         religion = catholic
-        size = 100
+        size = 200
     }
 	
 	clergymen = {
         culture = elysian
         religion = catholic
-        size = 300
+        size = 600
     }
 	
 	artisans = {
         culture = elysian
         religion = catholic
-        size = 550
+        size = 1100
     }
 	
 	soldiers = {
         culture = elysian
         religion = catholic
-        size = 1000
+        size = 2000
     }
 	
 	farmers = {
         culture = elysian
         religion = catholic
-        size = 80050
+        size = 112500
     }
 	
 	aristocrats = {
@@ -1392,37 +1392,37 @@ aristocrats = {
 	aristocrats = {
         culture = elysian
         religion = catholic
-        size = 2000
+        size = 3000
     }
 	
 	bureaucrats = {
         culture = elysian
         religion = catholic
-        size = 600
+        size = 800
     }
 	
 	clergymen = {
         culture = elysian
         religion = catholic
-        size = 4000
+        size = 6000
     }
 	
 	artisans = {
         culture = elysian
         religion = catholic
-        size = 2900
+        size = 3800
     }
 	
 	soldiers = {
         culture = elysian
         religion = catholic
-        size = 3500
+        size = 5000
     }
 	
 	farmers = {
         culture = elysian
         religion = catholic
-        size = 180100
+        size = 240100
     }
 	
 	#mexicans

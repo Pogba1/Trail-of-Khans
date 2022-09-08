@@ -1,0 +1,62 @@
+country_event = {
+    id = 155004
+	picture = "cyprus_convention_result"
+    title = "The Fall of Iberia"
+    desc = "EVTDESC155004"
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "May God be merciful."
+		add_country_modifier = {
+			name = asturian_refugees
+			duration = 1825
+		}
+		set_global_flag = fall_blauberia
+    }
+	
+    trigger = {
+	tag = ELI
+	NOT = {has_global_flag = fall_blauberia}
+	has_global_flag = {fall_blauberia_and}
+    }   
+}
+
+country_event = {
+    id = 155005
+	picture = "cyprus_convention_result"
+    title = "Victory over Asturias!"
+    desc = "EVTDESC155005"
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Allah is mighty!"
+		prestige = 10
+		any_owned = {
+			limit = {is_core = ATR}
+			add_province_modifier = {
+				name = asturian_exodus
+				duration = 1825
+			}	
+		}
+		ELI = {
+			country_event = {
+				id = 155004
+			}
+		}
+		set_global_flag = fall_blauberia_and
+    }
+	
+    trigger = {
+	tag = AND
+	NOT = {has_global_flag = fall_blauberia_and}
+	NOT = {exists = ATR}
+	exists = ELI
+	AND = {any_owned_province = {is_core = ATR}}
+    }   
+}
