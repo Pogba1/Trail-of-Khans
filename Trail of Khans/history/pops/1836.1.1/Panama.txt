@@ -168,7 +168,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 5375
+        size = 15375
     }
 
     clergymen = {
@@ -197,17 +197,17 @@
 	farmers = {
         culture = forest_bantu
         religion = protestant
-        size = 670
+        size = 1000
     }
 	farmers = {
 		culture = hausa
 		religion = protestant
-		size = 1000
+		size = 1300
 	}
 	farmers = {
         culture = afro_german
         religion = protestant
-        size = 20070
+        size = 30070
     }
 	soldiers = {
 		culture = north_german

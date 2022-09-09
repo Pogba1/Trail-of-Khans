@@ -2764,13 +2764,16 @@ reassert_greek_superiority = {
 	icon = 3
 }
 asturian_refugees = {
-	global_immigrant_attract = 1.5
+	global_immigrant_attract = 0.75
 	global_assimilation_rate = 0.2
 	icon = 19
 }
 asturian_exodus = {
 	immigrant_attract = -0.1
 	immigrant_push = 0.25
+	icon = 20
+}
+asturian_exodus_aftermath = {
 	icon = 20
 }
 land_grants_arg = {

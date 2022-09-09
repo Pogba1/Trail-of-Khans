@@ -12,14 +12,14 @@ country_event = {
         name = "May God be merciful."
 		add_country_modifier = {
 			name = asturian_refugees
-			duration = 1825
+			duration = 3650
 		}
-		set_global_flag = fall_blauberia
+		clr_global_flag = fall_blauberia_and
     }
 	
     trigger = {
 	tag = ELI
-	NOT = {has_global_flag = fall_blauberia}
+	#NOT = {has_global_flag = fall_blauberia}
 	has_global_flag = {fall_blauberia_and}
     }   
 }
@@ -37,26 +37,118 @@ country_event = {
     option = {
         name = "Allah is mighty!"
 		prestige = 10
-		any_owned = {
-			limit = {is_core = ATR}
-			add_province_modifier = {
-				name = asturian_exodus
-				duration = 1825
-			}	
-		}
-		ELI = {
-			country_event = {
-				id = 155004
-			}
-		}
 		set_global_flag = fall_blauberia_and
+		set_country_flag = victory_over_asturias
     }
 	
     trigger = {
 	tag = AND
-	NOT = {has_global_flag = fall_blauberia_and}
+	NOT = {set_country_flag = victory_over_asturias}
 	NOT = {exists = ATR}
-	exists = ELI
+	#exists = ELI
 	AND = {any_owned_province = {is_core = ATR}}
+    }   
+}
+
+country_event = {
+    id = 155006
+	picture = "cyprus_convention_result"
+    title = "Region Conquered from Asturias"
+    desc = "Mashallah"
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 2
+    }
+
+    option = {
+        name = "Allah is mighty!"
+		any_owned = {
+			limit = {is_core = ATR NOT = {is_core = CAT} pop_majority_culture = spanish NOT={has_province_modifier = asturian_exodus_aftermath} NOT={has_province_modifier = asturian_exodus}}
+			add_province_modifier = {
+				name = asturian_exodus
+				duration = 1095
+			}	
+		}
+		
+		#ELI = {
+		#	country_event = {
+		#		id = 155007
+		#	}
+		#}
+		set_global_flag = fall_blauberia
+    }
+	
+    trigger = {
+	tag = AND
+	NOT = {has_global_flag = fall_blauberia}
+	OR = {
+		487 = {owned_by = THIS}
+		508 = {owned_by = THIS}
+		475 = {owned_by = THIS}
+		474 = {owned_by = THIS}
+		518 = {owned_by = THIS}
+		495 = {owned_by = THIS}
+	}
+		any_owned_province = {
+			is_core = ATR NOT = {is_core = CAT} pop_majority_culture = spanish NOT={has_province_modifier = asturian_exodus_aftermath} NOT={has_province_modifier = asturian_exodus}
+		}
+    }   
+}
+
+country_event = {
+    id = 155007
+	picture = "cyprus_convention_result"
+    title = "Asturias Loses a Region"
+    desc = "Rust in peace"
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "May God be merciful."
+		add_country_modifier = {
+			name = asturian_refugees
+			duration = 1095
+		}
+		clr_global_flag = fall_blauberia
+		
+    }
+	
+    trigger = {
+	tag = ELI
+	has_global_flag = fall_blauberia
+    }   
+}
+
+province_event = {
+    id = 155008
+
+    title = "Asturian Exodus Ends"
+    desc = "The large scale emmigration of Asturians from a certain province has ceased."
+	
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Allah is mighty!"
+			add_province_modifier = {
+				name = asturian_exodus_aftermath
+				duration = -1
+			}	
+			remove_province_modifier = asturian_exodus
+    }
+	
+    trigger = {
+	NOT = { has_province_modifier = asturian_exodus }
+	NOT = { has_province_modifier = asturian_exodus_aftermath }
+	pop_majority_culture = spanish
+	is_core = ATR
+	NOT = {is_core = CAT}
+	owner = {
+	tag = AND
+	}
     }   
 }
