@@ -131,25 +131,25 @@
     aristocrats = {
         culture = north_german
         religion = protestant
-        size = 10
+        size = 100
     }
 
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 15
+        size = 150
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 15
+        size = 150
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 10
+        size = 100
     }
 
     farmers = {
@@ -167,7 +167,7 @@
     farmers = {
         culture = afro_german
         religion = protestant
-        size = 270
+        size = 6700
     }
 
     farmers = {

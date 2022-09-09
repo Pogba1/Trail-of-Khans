@@ -150,6 +150,46 @@ political_decisions = {
             }
         }												 
 	}
+	
+	the_resettlement_of_africa = {
+		potential = {
+			tag = RMR
+			NOT = {
+				has_country_flag = the_resettlement_of_africa
+			}
+		}
+		allow = {
+			1725 = {
+				owned_by = THIS
+			}
+			1726 = {
+				owned_by = THIS
+			}
+			1728 = {
+				owned_by = THIS
+			}
+			FRA_1700 = {
+				owned_by = THIS
+			}
+			money = 250000
+			inorganic_chemistry = 1
+		}
+		effect = {
+			FRA_1700 = {
+				add_province_modifier = {
+					name = resettle_africa
+					duration = 5475
+				}
+			}
+			TUN_1726 = {
+				add_province_modifier = {
+					name = resettle_africa
+					duration = 5475
+				}
+			}
+		set_country_flag = the_resettlement_of_africa
+		}
+	}
 }
 
 							
