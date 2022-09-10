@@ -172,7 +172,7 @@ political_decisions = {
 			NOT = {
 				QUE = {
 					any_core = {
-						owner {
+						owner = {
 							tag = THIS
 						}
 					}

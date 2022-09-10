@@ -103,3 +103,18 @@ theocracy = {
     election = no
     appoint_ruling_party = yes
 }
+
+hetmanate_cossacks = {
+    liberal = yes
+    socialist = yes
+    conservative = yes
+    reactionary = yes
+    communist = yes
+    anarcho_liberal = yes
+    fascist = yes
+
+	election = yes
+	duration = 120
+	appoint_ruling_party = no
+	flagType = republic
+}

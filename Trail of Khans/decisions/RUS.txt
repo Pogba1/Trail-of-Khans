@@ -26,28 +26,12 @@ political_decisions = {
 		picture = "national_value"
 		potential = {
 			NOT = {exists = RUS}
-			OR = {
-				primary_culture = russian
-				primary_culture = ukrainian
-			}
+			primary_culture = russian
 		}
 		allow = {
 			is_vassal = no
 			all_core = {owned_by = THIS}
 			nationalism_n_imperialism = 1
-			958 = {OR = {
-                        owned_by = THIS
-                        owner = {
-                            in_sphere = THIS
-                            OR = {
-                                is_vassal = no
-                                vassal_of = THIS
-                            }
-                            war = no
-                            is_mobilised = no
-                            is_greater_power = no
-                        }
-                    }}
 			1003 = {OR = {
                         owned_by = THIS
                         owner = {
@@ -89,35 +73,74 @@ political_decisions = {
                     }}
 		}
 		effect = {
-		add_accepted_culture = ukrainian
-		add_accepted_culture = russian
-		any_owned = {
-			limit = {NOT = {is_core = RUS} is_core = THIS}
-			add_core = RUS
-		}
-		change_tag = RUS
-		2587 = {add_core = RUS}
-		983 = {add_core = RUS}
-		UKR = {all_core = {add_core = RUS}}
+			any_owned = {
+				limit = {NOT = {is_core = RUS} is_core = THIS}
+				add_core = RUS
+			}
+			change_tag = RUS
+			2587 = {add_core = RUS}
+			983 = {add_core = RUS}
 			any_country = {
-                limit = {
-                    NOT = { is_greater_power = yes }
-                    NOT = { has_country_flag = post_colonial_country }
-                    is_culture_group = THIS
-                    in_sphere = THIS
-                    OR = {
-                        is_vassal = no
-                        vassal_of = THIS
-                    }
-                }
-                country_event = 11101
-            }
+           		limit = {
+               		NOT = { is_greater_power = yes }
+                	NOT = { has_country_flag = post_colonial_country }
+					primary_culture = russian
+					primary_culture = byelorussian
+               		in_sphere = THIS
+                	OR = {
+                    	is_vassal = no
+                    	vassal_of = THIS
+                	}
+            	}
+            	country_event = 11101
+         	}
 		}
 	}
 	
 	##################################
 	#Post-russian formation decisions#
 	##################################
+
+	ukrainian_integration = {
+		potential = {
+			tag = RUS
+			NOT = {
+				accepted_culture = ukrainian
+			}
+			NOT = {
+				exists = RUT
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			UKR = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = THIS
+								vassal_of = THIS
+							}
+							war = no
+							is_mobilised = no
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_accepted_culture = ukrainian
+			UKR = {
+				any_core = {
+					add_core = THIS
+				}
+			}
+			prestige = 20
+		}
+	}
+
 	volgan_conquest = {
 		picture = "romanians_marching"
 		potential = {

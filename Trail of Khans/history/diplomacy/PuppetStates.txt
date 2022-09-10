@@ -26,6 +26,13 @@ substate = {
     start_date = 1836.1.1
     end_date = 1870.1.1
 }
+#Mongol Ukrainian
+vassal = {
+    first = GOL
+    second = KIE
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
 #HRE - Hungary
 #vassal = {
 #    first = HRE

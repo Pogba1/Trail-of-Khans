@@ -3,6 +3,15 @@ MOL = {
     level = 5
     influence_value = 25
 }
+HET = {
+    value = -75
+    level = 2
+}
+KIE = {
+    value = 50
+    level = 5
+    influence_value = 0
+}
 CIR = {
     value = 100
     level = 5

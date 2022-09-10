@@ -150,7 +150,6 @@ AND		   = "countries/Al Andalus.txt"
 CLP		   = "countries/Caliphate.txt"
 
 
-
 #Germany
 HRE		   = "countries/HolyRomanEmpire.txt"
 DNB        = "countries/Danubian Federation.txt"
@@ -177,6 +176,8 @@ TAR     = "countries/Tatarstan.txt"
 TNT        = "countries/Tannu Tuva.txt"
 URA     = "countries/Ural Republic.txt"
 YAK     = "countries/Yakutia.txt"
+KIE        = "countries/Kiev.txt"
+HET        = "countries/Hetmanate.txt"
 
 #Middle East
 SVF 	   = "countries/Safavid Empire.txt"
