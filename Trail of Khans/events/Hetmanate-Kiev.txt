@@ -60,7 +60,7 @@ country_event = {
 				}
 				relation = {
 					who = KIE
-					relation = 100
+					value = 100
 				}
 			}
 		}

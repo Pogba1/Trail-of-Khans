@@ -36,7 +36,7 @@ country_event = {
         1003 = {
             add_province_modifier = {
                 name = minor_resurgent_capital
-                duration = 5475
+                duration = 3650
             }
         }
         any_pop = {

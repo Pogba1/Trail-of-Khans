@@ -373,8 +373,10 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = attempt_reform_gaulIII
-			FRA_448 = {add_core = IRE}
 			FRA_461 = {add_core = IRE}
+			FRA_455 = {
+				add_core = IRE
+			}
 			FRA_451 = {add_core = IRE}
 			FRA_467 = {add_core = IRE}
 			FRA = {all_core = {add_core = IRE}}

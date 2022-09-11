@@ -180,11 +180,19 @@ political_decisions = {
 					name = resettle_africa
 					duration = 5475
 				}
+				add_province_modifier = {
+					name = resettle_africa_2
+					duration = 3650
+				}
 			}
 			TUN_1726 = {
 				add_province_modifier = {
 					name = resettle_africa
 					duration = 5475
+				}
+				add_province_modifier = {
+					name = resettle_africa_2
+					duration = 3650
 				}
 			}
 		set_country_flag = the_resettlement_of_africa

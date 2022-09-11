@@ -129,7 +129,7 @@ political_decisions = {
 			end_war = HET
 			create_vassal = HET
 			prestige = 15
-			infamy = 5
+			badboy = 5
 			set_global_flag = cossacks_subjugated
 		}
 	}
@@ -169,6 +169,7 @@ political_decisions = {
 			}
 		}
 		allow = {
+			is_vassal = no
 			RUS_958 = {
 				owned_by = THIS
 			}

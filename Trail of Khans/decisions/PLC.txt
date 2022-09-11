@@ -65,13 +65,13 @@ political_decisions = {
 							            year=1860
 										is_greater_power = yes
 										war = no
-										RUS_955={owned_by=THIS}
+										RUS_971={owned_by=THIS}
 										RUS_958={owned_by=THIS}
 										RUS_959={owned_by=THIS}
                                         RUS_968={owned_by=THIS}										
 							   }
 							  effect = {
-										RUS_955={add_core=THIS}
+										RUS_971={add_core=THIS}
 										RUS_958={add_core=THIS}
 										RUS_959={add_core=THIS}
                                         RUS_968={add_core=THIS}

@@ -2976,8 +2976,11 @@ dutch_german_assimilation = {
 
 resettle_africa = {
 	assimilation_rate = 0.3
-	population_growth = 0.0005
 	immigrant_attract = 1
+}
+
+resettle_africa_2 = {
+    population_growth = 0.001
 }
 
 african_grain = {
@@ -2994,24 +2997,16 @@ raiding_target = {
 	icon = 8
 }
 
- resurgent_capital = {
+resurgent_capital = {
     population_growth = 0.001
-    immigration_attraction = 0.75
+    immigrant_attract = 0.75
     rich_luxury_needs = -0.05
     middle_luxury_needs = -0.05
-    poor_luxury_needs = -0.05
-    rich_everyday_needs = -0.05
-    middle_everyday_needs = -0.05
-    poor_everyday_needs = -0.05
- }
+    poor_luxury_needs = -0.05}
 
- minor_resurgent_capital = {
-    population_growth = 0.0005
-    immigration_attraction = 0.5
-    rich_luxury_needs = -0.05
+minor_resurgent_capital = {
+    population_growth = 0.001
+    immigrant_attract = 0.5
     middle_luxury_needs = -0.05
     poor_luxury_needs = -0.05
-    rich_everyday_needs = -0.05
-    middle_everyday_needs = -0.05
-    poor_everyday_needs = -0.05
- }
+}
