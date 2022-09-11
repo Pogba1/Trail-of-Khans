@@ -157,6 +157,7 @@ political_decisions = {
 				country_event = 770000
 				days = 0
 			}
+			set_country_flag = our_request_cossack
 		}
 	}
 	
@@ -186,6 +187,7 @@ political_decisions = {
 			state_n_government = 1
 		}
 		effect = {
+			capital = 958
 			change_tag = RUT
 			UKR = {
 				all_core = {
@@ -209,7 +211,13 @@ political_decisions = {
 
 	the_caucasians = {
 		potential = {
-			tag = RUT
+			OR = {
+				tag = RUT
+				AND ={
+					tag = KIR
+					primary_culture = ukrainian
+				}
+			}
 			NOT = {
 				has_country_flag = the_caucasians
 			}
@@ -225,6 +233,7 @@ political_decisions = {
 			add_accepted_culture = georgian
 			add_accepted_culture = dagestani
 			add_accepted_culture = chechen
+			set_country_flag = the_caucasians
 		}
 	}
 }

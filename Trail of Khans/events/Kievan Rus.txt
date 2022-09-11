@@ -1,0 +1,57 @@
+country_event = {
+    id = 810000
+    title = "The Capital of the Kievan-Rus"
+    desc = "EVTDESC810000"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "We shall move our capital to the heart of our identity!"
+        capital = 958 
+        958 = {
+            add_province_modifier = {
+                name = resurgent_capital
+                duration = 5475
+            }
+        }
+        any_pop = {
+            limit = {
+                has_pop_culture = russian
+            }
+            militancy = 2
+            consciousness = 4
+        }
+        any_pop = {
+            limit = {
+                has_pop_culture = ukrainian
+            }
+            militancy = -2
+            consciousness = -3
+        }
+    }
+
+    option = {
+        name = "We favor the trading hub of Novgorod over old symbolism"
+        capital = 1003
+        1003 = {
+            add_province_modifier = {
+                name = minor_resurgent_capital
+                duration = 5475
+            }
+        }
+        any_pop = {
+            limit = {
+                has_pop_culture = ukrainian
+            }
+            militancy = 3
+            consciousness = 5
+        }
+        any_pop = {
+            limit = {
+                has_pop_culture = russian
+            }
+            militancy = -1
+            consciousness = -2
+        }
+    }
+}
