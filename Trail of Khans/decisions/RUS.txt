@@ -296,6 +296,7 @@ political_decisions = {
 				tag = RUS
 				tag = KIR
 			NOT = {has_country_flag = the_conquest_of_tataria}
+			}
 		}
 		allow = {
 			all_core = {owned_by = THIS}
@@ -304,8 +305,8 @@ political_decisions = {
 			RUS_1037 = {add_core = THIS}
 			set_country_flag = the_conquest_of_tataria
 		}
-	
 	}
+	
 	
 	new_frontiers= {
 		picture = "kwangchowan_china"
@@ -364,7 +365,7 @@ political_decisions = {
 				}
 			}
 		}
-	
+	}
 		effect = {
 			set_country_flag = new_frontiers
 			any_owned = {
