@@ -27,6 +27,9 @@ political_decisions = {
 		potential = {
 			NOT = {exists = RUS}
 			primary_culture = russian
+			NOT = {
+				exists = KIR
+			}
 		}
 		allow = {
 			is_vassal = no
@@ -151,16 +154,6 @@ political_decisions = {
 			970 = {
 				add_core = THIS
 			}
-			any_country = {
-				limit = {
-					has_primary_culture = ukrainian
-					NOT = { tag = RUT}
-				}
-				country_event = {
-					id = 11106
-					days = 0
-				}
-			}
 			set_country_flag = heartland_of_ruthenia
 		}
 	}
@@ -197,15 +190,35 @@ political_decisions = {
                         }
                 }
 			}
-			BYE = {
-				all_core = {
-					limit = {
-						NOT = {
-							is_core = POL
-						}
+			RUS_718 = {
+				OR = {
+                	owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        OR = {
+                            is_vassal = no
+                            vassal_of = THIS
+                        }
+                        war = no
+                        is_mobilised = no
+                        is_greater_power = no
 					}
-					owned_by = THIS
-				}
+                }
+			}
+			RUS_947 = {
+				OR = {
+                	owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        OR = {
+                            is_vassal = no
+                            vassal_of = THIS
+                        }
+                        war = no
+                        is_mobilised = no
+                        is_greater_power = no
+					}
+                }
 			}
 			1003 = {
 				OR = {
@@ -254,6 +267,24 @@ political_decisions = {
 					add_core = THIS
 				}
 			}
+            any_country = {
+                limit = {
+                    NOT = { tag = RUT }
+					NOT = { tag = RUS }
+                    OR = {
+                        primary_culture = russian
+                        primary_culture = ukrainian
+                    }
+                    in_sphere = THIS
+                    NOT = { tag = THIS }
+                    NOT = { has_country_flag = post_colonial_country }
+                    OR = {
+                        is_vassal = no
+                        vassal_of = THIS
+                    }
+                }
+                country_event = 11106
+            }
 			country_event = {
 				id = 810000
 				days = 0
@@ -268,6 +299,7 @@ political_decisions = {
 				tag = RUS
 				tag = KIR
 			has_country_flag = the_conquest_of_tataria
+			}
 			NOT = {has_country_flag = volgan_conquest}
 		}
 		allow = {
@@ -287,8 +319,9 @@ political_decisions = {
 			OR = {
 				tag = RUS
 				tag = KIR
-			NOT = {has_country_flag = the_conquest_of_tataria}
 			}
+			NOT = {has_country_flag = the_conquest_of_tataria}
+			
 		}
 		allow = {
 			all_core = {owned_by = THIS}
@@ -304,7 +337,7 @@ political_decisions = {
 		picture = "kwangchowan_china"
 		potential={
 			NOT = {
-				has_country_flag =new_frontiers
+				has_country_flag = new_frontiers
 			}
 			OR = {
 				tag = RUS
@@ -315,49 +348,48 @@ political_decisions = {
 			breech_loaded_rifles = 1
 			any_owned_province = {
 				OR = {
-				province_id = 1059
-				province_id = 2658
-				province_id = 2685
-				province_id = 2614
-				province_id = 1058
-				province_id = 1066
-				province_id = 1061
-				province_id = 1064
-				province_id = 2683
-				province_id = 2686
-				province_id = 1063
-				province_id = 2698
-				province_id = 1067
-				province_id = 1068
-				province_id = 1469
-				province_id = 2674
-				province_id = 1077
-				province_id = 2701
-				province_id = 2691
-				province_id = 1075
-				province_id = 1076
-				province_id = 2677
-				province_id = 2676
-				province_id = 2695
-				province_id = 2645
-				province_id = 2656
-				province_id = 2694
-				province_id = 2675
-				province_id = 2670
-				province_id = 2671
-				province_id = 1079
-				province_id = 1078
-				province_id = 2644
-				province_id = 2696
-				province_id = 2648
-				province_id = 1081
-				province_id = 2697
-				province_id = 1080
-				province_id = 2641
+					province_id = 1059
+					province_id = 2658
+					province_id = 2685
+					province_id = 2614
+					province_id = 1058
+					province_id = 1066
+					province_id = 1061
+					province_id = 1064
+					province_id = 2683
+					province_id = 2686
+					province_id = 1063
+					province_id = 2698
+					province_id = 1067
+					province_id = 1068
+					province_id = 1469
+					province_id = 2674
+					province_id = 1077
+					province_id = 2701
+					province_id = 2691
+					province_id = 1075
+					province_id = 1076
+					province_id = 2677
+					province_id = 2676
+					province_id = 2695
+					province_id = 2645
+					province_id = 2656
+					province_id = 2694
+					province_id = 2675
+					province_id = 2670
+					province_id = 2671
+					province_id = 1079
+					province_id = 1078
+					province_id = 2644
+					province_id = 2696
+					province_id = 2648
+					province_id = 1081
+					province_id = 2697
+					province_id = 1080
+					province_id = 2641
 				}
 			}
 		}
-	}
 		effect = {
 			set_country_flag = new_frontiers
 			any_owned = {

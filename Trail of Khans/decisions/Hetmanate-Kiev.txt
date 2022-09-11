@@ -55,7 +55,7 @@ political_decisions = {
 			GOL = {
 				country_event = {
 					id = 760001
-					days = 0
+					days = 1
 				}
 			}
 			add_country_modifier = {
@@ -93,7 +93,6 @@ political_decisions = {
 				}
 			}
 			money = 12000
-			ai_will_do = { factor = 1 }
 		}
 	}
 
@@ -119,7 +118,7 @@ political_decisions = {
 				HET = {
 					in_sphere = THIS
 					relation = {
-						who = GLD
+						who = GOL
 						value = 150
 					}
 				}
@@ -166,6 +165,9 @@ political_decisions = {
 			primary_culture = ukrainian
 			NOT = {
 				exists = RUT
+			}
+			NOT = {
+				exists = KIR
 			}
 		}
 		allow = {
