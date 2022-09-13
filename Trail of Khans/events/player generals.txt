@@ -46,9 +46,9 @@ country_event = {
 	immediate = {
 		define_general = {
 			name = "Alberto Barbosa"
-			personality = heroic
-			#3/3 General
-			background = implacable
+			personality = weakest_albanian
+			#4/4 General
+			background = stalwart
 		}
 	}
 	option = {
