@@ -306,7 +306,7 @@ BAV_599 = { 599 592 600 601 602 } #Upper Bavaria
 
 SWI_603 = { 603 606 611 } #Switzerland (east)
 
-SWI_607 = { 605 604 607 608 609 } #Western Switzerland
+SWI_607 = { 605 604 607 609 } #Western Switzerland
 
 PRU_682 = { 682 683 684 685 } #Silesia
 
@@ -1308,4 +1308,4 @@ TON_2540 = { 2540 2545 2546 2548 3249 } #Tonga
 
 USA_2543 = { 2543 2544 2547 } #Samoa Islands
 
-FRA_801 = { 801 2551 2552 2553 3319 3320 3321 3322 } #Tahiti
+FRA_801 = { 801 2551 2552 2553 3319 3320 3321 608 } #Tahiti

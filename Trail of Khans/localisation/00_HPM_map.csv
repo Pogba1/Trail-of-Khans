@@ -1,6 +1,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 PROV410;Kolmar;;;;;;;;;;;;;x
-PROV409;Straï¿½burg;;;;;;;;;;;;;x
+PROV409;Straßburg;;;;;;;;;;;;;x
 FRA_404;Artesie;;;;;;;;;;;;;x
 PROV399;Rijsel;;;;;;;;;;;;;x
 PROV400;Duinkerke;;;;;;;;;;;;;x
@@ -27,7 +27,7 @@ PROV15;Dmitrov;;;;;;;;;;;;;x
 PROV867;Kotyaion;;;;;;;;;;;;;x
 PROV866;Nicopolis;;;;;;;;;;;;;x
 TUR_931;Ctesiphon;;;;;;;;;;;;;x
-TUR_873;Ikï¿½nion;;;;;;;;;;;;;x
+TUR_873;Ikónion;;;;;;;;;;;;;x
 TUR_869;Pergamon;;;;;;;;;;;;;x
 TUR_882;Trapezounta;;;;;;;;;;;;;x
 TUR_880;Pontus;;;;;;;;;;;;;x
@@ -35,7 +35,7 @@ TUR_863;Bythinia;;;;;;;;;;;;;x
 TUR_809;Northern Bulgaria;;;;;;;;;;;;;x
 TUR_815;Southern Bulgaria;;;;;;;;;;;;;x
 PROV828;Adrianople;;;;;;;;;;;;;x
-PROV858;Sarï¿½nta Ekklisiï¿½s;;;;;;;;;;;;;x
+PROV858;Sarànta Ekklisiès;;;;;;;;;;;;;x
 PROV861;Chrysopolis;;;;;;;;;;;;;x
 PROV862;Nicomedia;;;;;;;;;;;;;x
 PROV863;Prusa;;;;;;;;;;;;;x
@@ -51,9 +51,9 @@ PROV883;Sinope;;;;;;;;;;;;;x
 PROV868;Dorylaeum;;;;;;;;;;;;;x
 PROV876;Angora;;;;;;;;;;;;;;x
 PROV877;Amaseia;;;;;;;;;;;;;x
-PROV878;Kaisï¿½reia;;;;;;;;;;;;;x
+PROV878;Kaisáreia;;;;;;;;;;;;;x
 PROV874;Polydorion;;;;;;;;;;;;;x
-PROV873;Ikï¿½nion;;;;;;;;;;;;;x
+PROV873;Ikónion;;;;;;;;;;;;;x
 PROV875;Attaleia;;;;;;;;;;;;;x
 PROV879;Sebastea;;;;;;;;;;;;;x
 PROV884;Kerasous;;;;;;;;;;;;;x
@@ -125,12 +125,12 @@ PROV8;Belluno;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2351;Magdalena;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV10;Pescara;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3318;Lake Saimaa;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV3317;Lake Pï¿½ijï¿½nne;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV3316;Lake Oulujï¿½rvi;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3317;Lake Päijänne;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3316;Lake Oulujärvi;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3315;Lake Segozero;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV3314;Lake Storsjï¿½n;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3314;Lake Storsjön;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3313;Lake Siljan;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV3312;Lake Hjï¿½lmaren;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3312;Lake Hjälmaren;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3311;Lough Neagh;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3310;Hulun Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3309;Namak Lake;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
@@ -265,7 +265,6 @@ mountain;Montane Grassland;;;;;;;;;;;;;;;;;x
 montane_tundra;Alpine Tundra;;;;;;;;;;;;;;;;;x
 montane_forest;Montane Forest;;;;;;;;;;;;;;;;;x
 savanna;Savanna;;;;;;;;;;;;;;;;;;;;;;;;x
-ryangosling;Nova Lisboa;;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1377;Da Nang;;;;;;;;;;;;;;;;;;x;;;;
 PROV1720;Bechar;;;;;;;;;;;;;;;;;;x;;;;
 PROV1714;Santa Rosa;;;;;;;;;;;;;;;;;;x;;;;
@@ -285,7 +284,7 @@ PROV2839;Gulf of Patience;;;;;;;;;;;;;;;;;x;;;;
 PROV2831;Soya Strait;;;;;;;;;;;;;;;;;x;;;;
 PROV2830;East Sea;;;;;;;;;;;;;;;;;x;;;;
 PROV1557;Xining;;;;;;;;;;;;;;;;;x;;;;
-PROV2329;Araucanï¿½a;;;;;;;;;;;;;;;;;x;;;;
+PROV2329;Araucanía;;;;;;;;;;;;;;;;;x;;;;
 PROV2326;Aconcagua;;;;;;;;;;;;;;;;;x;;;;
 PROV2244;Christimas & Cocos;;;;;;;;;;;;;;;;;x;;;;
 PROV2406;Penghu;;;;;;;;;;;;;;;;;x;;;;
@@ -295,7 +294,7 @@ PROV2058;Moyo;;;;;;;;;;;;;;;;;x;;;;
 PROV2050;Manjakazi;;;;;;;;;;;;;;;;;x;;;;
 POR_2049;Gaza;;;;;;;;;;;;;;;;;x;;;;
 PROV2049;Inkomati;;;;;;;;;;;;;;;;;x;;;;
-POR_2060;Moï¿½ambique;;;;;;;;;;;;;;;;;x;;;;
+POR_2060;Moçambique;;;;;;;;;;;;;;;;;x;;;;
 PROV2088;O'okiep;;;;;;;;;;;;;;;;;x;;;;
 PROV2558;Emthanjeni;;;;;;;;;;;;;;;;;x;;;;
 PROV2093;Hantam;;;;;;;;;;;;;;;;;x;;;;
@@ -343,7 +342,7 @@ PROV995;Petrozavodsk;;;;;;;;;;;;x
 PROV965;Kherson;;;;;;;;;;;;x
 PROV1048;Yekaterinodar;;;;;;;;;;;;x
 PROV1045;Migulinskaya;;;;;;;;;;;;x
-PROV950;Ungvï¿½r;;;;;;;;;;;;x
+PROV950;Ungvár;;;;;;;;;;;;x
 RUS_1185;Zhetysu;;;;;;;;;;;;x
 PROV1201;Khujand;;;;;;;;;;;;x
 PROV1206;Amul;;;;;;;;;;;;x
@@ -416,7 +415,7 @@ PROV2606;Balkhash;;;;;;;;;;;;;;;;;;;;;;;x
 ARG_2384;Chorcai Gallach;x
 ARG_2393;Naomh Rafael;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1391;Kota Kubang Labu;;;;;;;;;;;;;;;;;;;;;;;x
-PROV1382;Hï¿½ Tiï¿½n;;;;;;;;;;;;;;;;;;;;;;;x
+PROV1382;Hà Tiên;;;;;;;;;;;;;;;;;;;;;;;x
 RUS_1048;Circassia;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1049;Ubykhia;;;;;;;;;;;;;;;;;;;;;;;x
 PROV900;Antakya;;;;;;;;;;;;;;;;;;;;;;;x
@@ -427,7 +426,7 @@ PROV972;Yekaterinoslav;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV974;Bachmut;;;;;;;;;;;;;;;;;;;x;
 PROV1041;Elista;;;;;;;;;;;;;;;;;;;x;
 PROV2436;Salvador da Bahia;;;;;;;;;;;;;;;;;;;x;
-BRZ_2408;Grï¿½o - Parï¿½;;;;;;;;;;;;;;;;;;;x;
+BRZ_2408;Grão - Pará;;;;;;;;;;;;;;;;;;;x;
 BRZ_2428;Nordeste;;;;;;;;;;;;;;;;;;;x;
 PROV2423;Vila da Palma;;;;;;;;;;;;;;;;;;;x;
 PROV2426;Vila do Poti;;;;;;;;;;;;;;;;;;;x;
@@ -451,7 +450,7 @@ PROV1624;Hanseong;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 PROV2086;Aixa-aibes;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 PROV2079;Otjozondjii;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 PROV2078;Otjomuise;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-PROV1481;Lï¿½shun;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PROV1481;Lüshun;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 PROV2083;Ezorongondo;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 PROV1028;Vyatka;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 PROV1019;Voronezh;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -487,8 +486,8 @@ MEX_97;Utah;;;;;;;;;;;;x
 ENG_258;Connacht;;;;;;;;;;;;x
 ENG_263;Leinster;;;;;;;;;;;;x
 SWE_322;Stockholm;;;;;;;;;;;;x
-SWE_329;Gï¿½teborg;;;;;;;;;;;;x
-SWE_334;Malmï¿½;;;;;;;;;;;;x
+SWE_329;Göteborg;;;;;;;;;;;;x
+SWE_334;Malmö;;;;;;;;;;;;x
 RUS_343;Helsinki;;;;;;;;;;;;x
 RUS_345;Turku;;;;;;;;;;;;x
 RUS_360;Lithuania;;;;;;;;;;;;x
@@ -636,7 +635,7 @@ MOR_1693;Marrakesh;;;;;;;;;;;;x
 MOR_1694;Agadir;;;;;;;;;;;;x
 ALD_1704;Oran;;;;;;;;;;;;x
 ALD_1708;Constantine;;;;;;;;;;;;x
-PROV1709;Bï¿½ne;;;;;;;;;;;;x
+PROV1709;Bône;;;;;;;;;;;;x
 ALD_1713;North Central Sahara;;;;;;;;;;;;x
 TRI_1731;Tripolitania;;;;;;;;;;;;x
 TRI_1735;Cyrenaica;;;;;;;;;;;;x
@@ -706,7 +705,7 @@ BOL_2309;Antofagasta;;;;;;;;;;;;x
 ARG_2360;Entre Rios;;;;;;;;;;;;x
 PROV2367;Xolotas;;;;;;;;;;;;x
 ARG_2374;Catamarca;;;;;;;;;;;;x
-BRZ_2421;Goiï¿½s;;;;;;;;;;;;x
+BRZ_2421;Goiás;;;;;;;;;;;;x
 AST_2454;Fiji;;;;;;;;;;;;x
 BRZ_2461;Santa Catarina;;;;;;;;;;;;x
 SPA_2517;Mariana Islands;;;;;;;;;;;;x
@@ -861,7 +860,7 @@ MOR_1693;Marrakesh;;;;;;;;;;;;x
 MOR_1694;Agadir;;;;;;;;;;;;x
 ALD_1704;Oran;;;;;;;;;;;;x
 ALD_1708;Constantine;;;;;;;;;;;;x
-PROV1709;Bï¿½ne;;;;;;;;;;;;x
+PROV1709;Bône;;;;;;;;;;;;x
 ALD_1713;North Central Sahara;;;;;;;;;;;;x
 TRI_1731;Tripolitania;;;;;;;;;;;;x
 TRI_1735;Cyrenaica;;;;;;;;;;;;x
@@ -913,7 +912,7 @@ BOL_2309;Antofagasta;;;;;;;;;;;;x
 ARG_2360;Entre Rios;;;;;;;;;;;;x
 PROV2367;Xolotas;;;;;;;;;;;;x
 ARG_2374;Catamarca;;;;;;;;;;;;x
-BRZ_2421;Goiï¿½s;;;;;;;;;;;;x
+BRZ_2421;Goiás;;;;;;;;;;;;x
 AST_2454;Fiji;;;;;;;;;;;;x
 BRZ_2461;Santa Catarina;;;;;;;;;;;;x
 SPA_2517;Mariana Islands;;;;;;;;;;;;x
@@ -938,7 +937,7 @@ PROV18;New Caledonia;;;;;;;;;;;;x
 PROV129;Guymon;;;;;;;;;;;;x
 PROV128;Hugoton;;;;;;;;;;;;x
 PROV158;Duluth;;;;;;;;;;;;x
-PROV638;Preï¿½ov;;;;;;;;;;;;x
+PROV638;Prešov;;;;;;;;;;;;x
 AUS_626;Sudetes;;;;;;;;;;;;x
 PROV2630;Tok;;;;;;;;;;;;x
 PROV98;Cedar City;;;;;;;;;;;;x
@@ -954,7 +953,7 @@ PROV59;Mistissini;;;;;;;;;;;;x
 PROV2140;Hermosillo;;;;;;;;;;;;x
 PROV2137;Nogales;;;;;;;;;;;;x
 PROV2143;Ciudad Juarez;;;;;;;;;;;;x
-PROV2147;Ciudad Acuï¿½a;;;;;;;;;;;;x
+PROV2147;Ciudad Acuña;;;;;;;;;;;;x
 PROV2171;Cololo;;;;;;;;;;;;x
 PROV103;Pueblo;;;;;;;;;;;;x
 PROV109;Aspen;;;;;;;;;;;;x
@@ -974,7 +973,7 @@ PROV3251;Lake of the Woods;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV3252;Lake Nipissing;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV3253;Lake Simcoe;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV3254;Lake Winnebago;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV3255;Iberï¿½ Lake;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV3255;Iberá Lake;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV3256;Lake Saint-Jean;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV3257;Lake Manicouagan;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV3258;Lake Mistassini;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -1001,7 +1000,7 @@ PROV3278;Lake Okeechobee;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV3279;Lake Tuz;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV3280;Sevan Lake;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV3281;Lake Iso-Kalla;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV3282;Lake Pyhï¿½jï¿½rvi;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3282;Lake Pyhäjärvi;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3283;Lake Geneva;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV3284;Lake Constance;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV906;As-Suwayda;;;;;;;;;;;x

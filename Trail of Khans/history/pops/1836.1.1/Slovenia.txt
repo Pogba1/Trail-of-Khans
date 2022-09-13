@@ -3,37 +3,37 @@
 #Maribor (204000/51000 POPS) #Part of Slovenia Today
 767 = {
     aristocrats = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 750
     }
 
     bureaucrats = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 1100
     }
 
     soldiers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 3150
     }
@@ -94,37 +94,37 @@
 #Ljubljana (280000/70000 POPS)
 768 = {
 	aristocrats = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 750
     }
 
     bureaucrats = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 1100
     }
 
     soldiers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 9450
     }
@@ -180,19 +180,19 @@
 #Postojna (180000/45000 POPS)
 769 = {
     aristocrats = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 500
     }
 
     clergymen = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 425
     }
 
     artisans = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 2100
     }
@@ -209,7 +209,7 @@
         size = 21075
     }
 	farmers = {
-		culture = north_italian
+		culture = dalmatian
 		religion = catholic
 		size = 18075
 	}
@@ -220,13 +220,13 @@
     }
 
     clergymen = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 1975
     }

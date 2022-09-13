@@ -17,7 +17,7 @@ leader = {
 
 army = {
     name = "Armée de Beaucouplais"
-    location = 139
+    location = 195
 
     regiment = {
         name= "1.Brigade d'infanterie"
@@ -28,13 +28,13 @@ army = {
     regiment = {
         name= "2.Brigade d'infanterie"
         type = infantry
-        home = 139
+        home = 211
     }
 
     regiment = {
         name= "3.Brigade d'infanterie"
         type = infantry
-        home = 140
+        home = 210
     }
 	regiment = {
         name= "4.Brigade d'infanterie"

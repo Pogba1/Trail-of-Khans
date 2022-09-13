@@ -55,3 +55,159 @@ country_event = {
         }
     }
 }
+
+country_event = {
+    id = 820000
+    title = "Cernauti's Ownership"
+    desc = "EVTDESC820000"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "We cannot hope to hold on to this territory"
+
+        662 = {
+            secede_province = FROM
+        }
+        FROM = {
+            country_event = 820001
+            days = 0
+        }
+
+        any_pop = {
+            limit = {
+                has_pop_culture = romanian
+            }
+            militancy = 2
+            consciousness = 5
+        }
+    }
+
+    option = {
+        name = "They can come and take it!"
+        FROM = {
+            country_event = {
+                id = 820002
+                days = 0
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 820001
+    title = "Chernivsti is now ours!"
+    desc = " "
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Let us put our fingerprint over this land"
+
+        prestige = 15
+        662 = {
+            change_province_name = "Chernivsti"
+        }
+    }
+}
+
+country_event = {
+    id = 820002
+    title = "The Romanians defy us!"
+    desc = " "
+
+    is_triggered_only = yes 
+
+    option = {
+        name = "We will trample over these defiant insects!"
+    }
+}
+
+country_event = {
+    id = 830000
+    title = "Pogroms occur in our lands!"
+    desc = "EVTDESC830000"
+
+    allow_multiple_instances = no
+
+    trigger = {
+        OR = {
+            primary_culture = russian
+            primary_culture = ukrainian
+        }
+        NOT = {
+            has_country_flag = prohibited_pogroms
+        }
+        any_pop = {
+            has_pop_religion = jewish
+        }   
+        NOT = {
+            literacy = 0.6
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 12
+    }
+
+    option = {
+        name = "How Barbaric!"
+
+        random_owned = {
+            limit = {
+                any_pop = {
+                    has_pop_religion = jewish
+                }
+            }
+            any_pop = {
+                limit = {
+                    has_pop_religion = jewish
+                }
+                reduce_pop = 0.95
+                militancy = 2
+                consciousness = 6
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 830001
+    title = "The reinstatement of Pogroms"
+    desc = "EVTDESC830001"
+
+    allow_multiple_instances = no
+
+    mean_time_to_happen = {
+        days = 14
+    }
+
+    trigger = {
+        ruling_party_ideology = fascist
+        has_country_flag = prohibited_pogroms
+    }
+
+    option = {
+        name = "Our path to greatness starts here"
+
+        any_pop = {
+            limit = {
+                has_pop_religion = jewish
+            }
+            militancy = 5
+            consciousness = 8
+        }
+        any_pop = {
+            limit = {
+                OR = {
+                    pop_majority_ideology = libereal
+                    pop_majority_ideology = socialist
+                    pop_majority_ideology = communist
+                }
+                militancy = 3
+                consciousness = 7
+            }
+        }
+        clr_country_flag = prohibited_pogroms
+    }
+}

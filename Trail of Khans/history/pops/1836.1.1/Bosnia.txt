@@ -3,17 +3,17 @@
 #Sarajevo (148000/37000 POPS)
 783 = {
 	aristocrats = {
-		culture = north_italian
+		culture = dalmatian
 		religion = catholic
 		size = 200
 	}
 	bureaucrats = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 500
     }
 	farmers = {
-		culture = north_italian
+		culture = dalmatian
 		religion = catholic
 		size = 10000
 	}
@@ -172,17 +172,17 @@
 #Bihac (100000/25000 POPS)
 784 = {
 	aristocrats = {
-		culture = north_italian
+		culture = dalmatian
 		religion = catholic
 		size = 200
 	}
 	bureaucrats = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 500
     }
 	farmers = {
-		culture = north_italian
+		culture = dalmatian
 		religion = catholic
 		size = 10000
 	}
@@ -347,12 +347,12 @@
 #Tuzla (168000/42000 POPS)
 786 = {
 	farmers = {
-		culture = north_italian
+		culture = dalmatian
 		religion = catholic
 		size = 10000
 	}
 	soldiers = {
-		culture = north_italian
+		culture = dalmatian
 		religion = catholic
 		size = 300
 	}
@@ -492,55 +492,55 @@
 	
 	
 	aristocrats = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 400
     }
 
     soldiers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 600
     }
 
     farmers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 5925
     }
 
     soldiers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 500
     }
 
     farmers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 14300
     }
@@ -627,13 +627,13 @@
 	
 	
 	aristocrats = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 450
     }
 
     soldiers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
@@ -657,49 +657,49 @@
     }
 
     soldiers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 500
     }
 
     farmers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 14375
     }
 
     soldiers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 200
     }
 
     farmers = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 5750
     }
@@ -707,17 +707,17 @@
 #Livno (136000/34000 POPS)
 789 = {
 	aristocrats = {
-		culture = north_italian
+		culture = dalmatian
 		religion = catholic
 		size = 200
 	}
 	bureaucrats = {
-        culture = north_italian
+        culture = dalmatian
         religion = catholic
         size = 500
     }
 	farmers = {
-		culture = north_italian
+		culture = dalmatian
 		religion = catholic
 		size = 10000
 	}

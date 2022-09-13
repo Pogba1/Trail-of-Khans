@@ -34,7 +34,7 @@ political_decisions = {
 		allow = {
 			is_vassal = no
 			all_core = {owned_by = THIS}
-			nationalism_n_imperialism = 1
+			state_n_government = 1
 			1003 = {OR = {
                         owned_by = THIS
                         owner = {
@@ -292,6 +292,37 @@ political_decisions = {
 		}
 	}
 
+	request_cernauti = {
+		potential = {
+			tag = KIR
+			NOT = {
+				has_country_flag = request_cernauti
+			}
+		}
+		allow = {
+			662 = {
+                owner = {
+                    in_sphere = THIS
+                    OR = {
+                        is_vassal = no
+                        vassal_of = THIS
+                    }
+                    is_greater_power = no
+                }				
+			}
+		}
+		effect =  {
+			set_country_flag = request_cernauti
+			662 = {
+				owner = {
+					country_event = {
+						id = 820000
+						days = 0
+					}
+				}
+			}
+		}
+	}
 	volgan_conquest = {
 		picture = "romanians_marching"
 		potential = {

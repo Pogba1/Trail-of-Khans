@@ -538,7 +538,7 @@
 	farmers = {
         culture = elysian
         religion = catholic
-        size = 140050
+        size = 110050
     }
 }
 #Baker City (4000/1000 POPS)
@@ -603,7 +603,7 @@
 	farmers = {
         culture = elysian
         religion = catholic
-        size = 140050
+        size = 110050
     }
 
 }
@@ -644,7 +644,7 @@ aristocrats = {
 	farmers = {
         culture = elysian
         religion = catholic
-        size = 170050
+        size = 140050
     }
 }
 #Eureka (4000/1000 POPS)
@@ -682,7 +682,7 @@ aristocrats = {
 	farmers = {
         culture = elysian
         religion = catholic
-        size = 90050
+        size = 60050
     }
 }
 #Cidadenzo
@@ -715,13 +715,13 @@ aristocrats = {
 	soldiers = {
         culture = elysian
         religion = catholic
-        size = 2000
+        size = 6000
     }
 	
 	farmers = {
         culture = elysian
         religion = catholic
-        size = 112500
+        size = 82500
     }
 	
 	aristocrats = {
@@ -1416,7 +1416,67 @@ aristocrats = {
 	soldiers = {
         culture = elysian
         religion = catholic
-        size = 5000
+        size = 4750
+    }
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1000
+    }
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1000
+    }
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1000
+    }
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1000
+    }
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1000
+    }
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1000
+    }
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1000
+    }
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1000
+    }
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1000
+    }
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1000
+    }
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1000
+    }
+	soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1000
     }
 	
 	farmers = {
@@ -2727,24 +2787,21 @@ aristocrats = {
         culture = louisianian
 		religion = catholic
         size = 25
+		militancy = 8
     }
 
     clergymen = {
         culture = louisianian
 		religion = catholic
-        size = 50
+        size = 550
+		militancy = 2
     }
 
     artisans = {
         culture = louisianian
 		religion = catholic
         size = 275
-    }
-
-    soldiers = {
-        culture = louisianian
-		religion = catholic
-        size = 650
+		militancy = 3
     }
 
     farmers = {
@@ -2754,13 +2811,13 @@ aristocrats = {
     }
 
     clergymen = {
-        culture = afro_american
+        culture = creole
         religion = catholic
         size = 50
     }
 
     artisans = {
-        culture = afro_american
+        culture = creole
         religion = catholic
         size = 135
     }
@@ -2786,16 +2843,16 @@ aristocrats = {
         size = 850
     }
 
-    soldiers = {
-       culture = louisianian
-        religion = catholic
-        size = 1250
-    }
-
     farmers = {
         culture = louisianian
         religion = catholic
         size = 34250
+    }
+	
+	farmers = {
+        culture = louisianian
+        religion = catholic
+        size = 20000
     }
 
     farmers = {
@@ -2823,15 +2880,41 @@ aristocrats = {
     }
 
     farmers = {
-        culture = creole
-        religion = catholic
-        size = 23325
-    }
-
-    farmers = {
         culture = afro_american
         religion = catholic
         size = 3000
+    }
+	
+	#Rebels
+	
+	farmers = {
+		culture = louisianian
+		religion = catholic
+		size = 40150
+		militancy = 8
+		rebel_type = liberal_rebels
+	}
+	
+	farmers = {
+        culture = creole
+        religion = catholic
+        size = 38325
+		militancy = 8
+		rebel_type = liberal_rebels
+    }
+	soldiers = {
+       culture = louisianian
+        religion = catholic
+        size = 3200
+		militancy = 8
+		rebel_type = liberal_rebels
+    }
+	soldiers = {
+       culture = creole
+        religion = catholic
+        size = 3000
+		militancy = 8
+		rebel_type = liberal_rebels
     }
 }
 #Baton Rouge (72000/18000 POPS)
@@ -2941,11 +3024,19 @@ aristocrats = {
         religion = catholic
         size = 100
     }
-
+	
+	farmers = {
+        culture = louisianian
+        religion = catholic
+        size = 20000
+    }
+	
     farmers = {
         culture = creole
         religion = catholic
         size = 9875
+		militancy = 8
+		rebel_type = liberal_rebels
     }
 }
 #Lake Charles (36000/9000 POPS)
@@ -5329,6 +5420,11 @@ aristocrats = {
         religion = catholic
         size = 3650
     }
+	farmers = {
+        culture = louisianian
+        religion = catholic
+        size = 20000
+    }
 }
 #Vicksburg (100000/25000 POPS)
 193 = {
@@ -5387,7 +5483,12 @@ aristocrats = {
 	farmers = {
         culture = cherokee
         religion = animist
-        size = 16995
+        size = 26995
+    }
+	farmers = {
+        culture = louisianian
+        religion = catholic
+        size = 10000
     }
 
     clergymen = {
@@ -5460,6 +5561,12 @@ aristocrats = {
         culture = afro_american
         religion = catholic
         size = 3800
+    }
+	
+	farmers = {
+        culture = louisianian
+        religion = catholic
+        size = 20000
     }
 }
 #Alabama Region (576000)
@@ -6209,7 +6316,7 @@ aristocrats = {
         size = 10475
     }
 }
-#Augusta (140000/35000 POPS)
+#Anne Elisabeth (140000/35000 POPS)
 2555 = {
     aristocrats = {
         culture = louisianian
