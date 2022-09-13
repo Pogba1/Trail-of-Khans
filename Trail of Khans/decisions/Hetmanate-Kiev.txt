@@ -43,6 +43,9 @@ political_decisions = {
 					has_province_modifier = raiding_target
 				}
 			}
+			NOT = {
+				has_country_modifier = recent_raid 
+			}
 				
 		}
 		allow = {

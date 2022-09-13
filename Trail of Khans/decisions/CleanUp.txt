@@ -3385,7 +3385,7 @@ political_decisions = {
             3319 = { secede_province = THIS }
             3320 = { secede_province = THIS }
             3321 = { secede_province = THIS }
-            3322 = { secede_province = THIS }
+            608 = { secede_province = THIS }
             TMT = { country_event = 6016821 }
         }
     }
@@ -3435,7 +3435,7 @@ political_decisions = {
                         has_country_flag = ghost_country
                     }
                 }
-                3322 = {
+                608 = {
                     owner = {
                         ai = no
                         has_country_flag = ghost_country
@@ -3470,7 +3470,7 @@ political_decisions = {
             owns = 3319
             owns = 3320
             owns = 3321
-            owns = 3322
+            owns = 608
             has_country_modifier = neutrality_modifier
         }
 
@@ -3504,7 +3504,7 @@ political_decisions = {
                         NOT = {
                             any_owned_province = {
                                 OR = {
-                                    province_id = 3322
+                                    province_id = 608
                                     province_id = 3321
                                     province_id = 3320
                                     province_id = 3319
