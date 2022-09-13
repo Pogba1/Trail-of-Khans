@@ -452,57 +452,6 @@
 		size = 5000
 	}
 }
-
-608 = {
-	
-    aristocrats = {
-        culture = celtic
-        religion = protestant
-        size = 100
-	}
-	
-	clergymen = {
-		culture = celtic		
-		religion = catholic
-		size = 270
-	}
-
-    clergymen = {
-        culture = celtic
-        religion = protestant
-        size = 125
-    }
-
-    artisans = {
-        culture = celtic
-        religion = protestant
-        size = 3000
-	}
-
-	artisans = {
-		culture = celtic
-		religion = catholic
-		size = 1000
-	}
-
-    soldiers = {
-        culture = celtic
-        religion = catholic
-        size = 150
-    }
-
-    farmers = {
-        culture = celtic
-        religion = catholic
-        size = 15625
-	}
-	
-	farmers = {
-		culture = celtic
-		religion = catholic
-		size = 2230
-	}
-}
 #Sitten (72000/18000) POPS
 609 = {
     aristocrats = {
