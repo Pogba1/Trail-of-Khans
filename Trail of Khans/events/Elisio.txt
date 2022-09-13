@@ -62,14 +62,22 @@ country_event = {
 
     option = {
         name = "Allah is mighty!"
+		
 		any_owned = {
-			limit = {is_core = ATR NOT = {is_core = CAT} pop_majority_culture = spanish NOT={has_province_modifier = asturian_exodus_aftermath} NOT={has_province_modifier = asturian_exodus}}
+			limit = {is_core = ATR NOT = {is_core = CAT} pop_majority_culture = spanish NOT = {has_province_modifier = asturian_exodus_happened} NOT={has_province_modifier = asturian_exodus_aftermath} NOT={has_province_modifier = asturian_exodus}}
 			add_province_modifier = {
 				name = asturian_exodus
 				duration = 1095
 			}	
+			add_province_modifier = {
+				name = asturian_exodus_happened
+				duration = -1
+			}
 		}
-		
+		any_pop = {
+			limit = {has_pop_culture = spanish}
+			militancy = 4
+		}
 		#ELI = {
 		#	country_event = {
 		#		id = 155007
@@ -79,6 +87,7 @@ country_event = {
     }
 	
     trigger = {
+	exists = ATR
 	tag = AND
 	NOT = {has_global_flag = fall_blauberia}
 	OR = {
@@ -90,7 +99,7 @@ country_event = {
 		495 = {owned_by = THIS}
 	}
 		any_owned_province = {
-			is_core = ATR NOT = {is_core = CAT} pop_majority_culture = spanish NOT={has_province_modifier = asturian_exodus_aftermath} NOT={has_province_modifier = asturian_exodus}
+			is_core = ATR NOT = {is_core = CAT} pop_majority_culture = spanish NOT = {has_province_modifier = asturian_exodus_happened} NOT = {has_province_modifier = asturian_exodus_aftermath} NOT={has_province_modifier = asturian_exodus}
 		}
     }   
 }
@@ -138,12 +147,13 @@ province_event = {
 				name = asturian_exodus_aftermath
 				duration = -1
 			}	
-			remove_province_modifier = asturian_exodus
+			remove_province_modifier = asturian_exodus_happened
     }
 	
     trigger = {
 	NOT = { has_province_modifier = asturian_exodus }
 	NOT = { has_province_modifier = asturian_exodus_aftermath }
+	has_province_modifier = asturian_exodus_happened
 	pop_majority_culture = spanish
 	is_core = ATR
 	NOT = {is_core = CAT}
