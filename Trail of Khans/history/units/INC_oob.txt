@@ -15,19 +15,19 @@ army = {
 	name = "Army of the Great Inca"
 	location = 2308
 	regiment = {
-		name= "1. infantry"
+		name= "1. Infantry"
 		type = infantry
 		home = 2310
 	}
 
 	regiment = {
-		name= "2. infantry"
+		name= "2. Infantry"
 		type = infantry
 		home = 2310
 	}
 
 	regiment = {
-		name= "3. infantry"
+		name= "3. Infantry"
 		type = infantry
 		home = 2310
 	}
@@ -37,19 +37,19 @@ army = {
 	name = "Army of Cuzco"
 	location = 2310
 	regiment = {
-		name= "1. infantry"
+		name= "1. Infantry"
 		type = infantry
 		home = 2312
 	}
 
 	regiment = {
-		name= "2. infantry"
+		name= "2. Infantry"
 		type = infantry
 		home = 2324
 	}
 
 	regiment = {
-		name= "3. infantry"
+		name= "3. Infantry"
 		type = infantry
 		home = 2324
 	}
@@ -59,13 +59,13 @@ army = {
 	name = "Army of the South"
 	location = 2368
 	regiment = {
-		name= "1. infantry"
+		name= "1. Infantry"
 		type = infantry
 		home = 2383
 	}
 
 	regiment = {
-		name= "2. infantry"
+		name= "2. Infantry"
 		type = infantry
 		home = 2313
 	}

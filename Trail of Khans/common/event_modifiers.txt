@@ -2641,7 +2641,7 @@ kiruna_mine = {
 }
 seminole_war = {
 	local_RGO_output = -0.5
-	population_growth = -0.001
+	#population_growth = -0.001
 	assimilation_rate = -0.3
 	pop_militancy_modifier = 0.02 
 	immigrant_attract = -0.1
@@ -2766,16 +2766,27 @@ reassert_greek_superiority = {
 asturian_refugees = {
 	global_immigrant_attract = 0.75
 	global_assimilation_rate = 0.2
-	icon = 19
+	icon = 17
+}
+sans_culottes = {
+	global_immigrant_attract = -1.3
+	global_pop_militancy_modifier = 0.01
+	icon = 18
 }
 asturian_exodus = {
 	immigrant_attract = -0.1
 	immigrant_push = 0.25
 	icon = 20
 }
+
 asturian_exodus_aftermath = {
 	icon = 20
 }
+
+asturian_exodus_happened = {
+	icon = 20
+}
+
 land_grants_arg = {
 	global_immigrant_attract = 2.5
 	tax_efficiency = -0.05

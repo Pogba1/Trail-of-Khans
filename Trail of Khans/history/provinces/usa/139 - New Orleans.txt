@@ -1,17 +1,17 @@
 owner = LOU
-controller = LOU
+controller = REB
 add_core = LOU
 trade_goods = grain
-life_rating = 35
+life_rating = 39
 naval_base = 1
 
 party_loyalty = {
     ideology = conservative
-    loyalty_value = 20
+    loyalty_value = 5
 }
 party_loyalty = {
     ideology = liberal
-    loyalty_value = 10
+    loyalty_value = 50
 }
 
 

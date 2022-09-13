@@ -1,0 +1,70 @@
+country_event = { #el seminole
+    id = 300101
+	picture = "pioneer_column"
+    title = "The Seminole Wars"
+    desc = "The native Seminoles have risen up! Perhaps if we had better rifles we could pacify them..."
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA200101"
+	 any_owned = {
+		limit = {
+		OR = {
+			province_id = 198
+			province_id = 199 
+			province_id = 200
+		}
+		}
+		add_province_modifier = {name = seminole_war duration = -1}
+	 }
+	}
+	
+    trigger = {
+	AND = {
+	NOT = {primary_culture = seminoles}
+	NOT = {accepted_culture = seminoles}
+	}
+	NOT = {muzzle_loaded_rifles = 1}
+	
+		any_owned_province = {
+		AND = {
+			OR = {
+				province_id = 198
+				province_id = 199 
+				province_id = 200
+			}
+			NOT = {has_province_modifier = seminole_war}
+		 }
+		}
+		
+	
+    }
+}
+
+country_event = { #el seminole rip
+    id = 300102
+	picture = "pioneer_wagons"
+    title = "The End of the Seminole Wars"
+    desc = "The profiliation of the muzzle-loaded rifle has allowed us to effectively stop Seminole aggression in our lands."
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 40
+    }
+
+    option = {
+        name = "Hurray!"
+	 any_owned = {
+		remove_province_modifier = seminole_war
+	 }
+	}
+	
+    trigger = {
+	muzzle_loaded_rifles = 1
+		any_owned_province = {
+			has_province_modifier = seminole_war
+		}
+    }
+}
