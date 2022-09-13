@@ -115,6 +115,9 @@ distribution_channels = {
     }
     effect = {
         factory_cost = -0.01
+		farm_RGO_eff = 0.5
+		mine_RGO_eff = 0.5 
+		local_factory_throughput = 0.1 
     }
 }
 #investment_banks

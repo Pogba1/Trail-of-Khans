@@ -611,35 +611,14 @@ protected_cruisers = {
         has_country_flag = existing_country
     }
     chance = {
-        base = 3
+        base = 10
         modifier = {
-            factor = 2
-            invention = ironclads
+            factor = 100
+            main_armament = 1
         }
         modifier = {
-            factor = 2
-            invention = bessemer_steel
-        }
-        modifier = {
-            factor = 1
-            any_neighbor_country = { invention = protected_cruisers }
-        }
-        modifier = {
-            factor = 2
-            war = yes
-            war_countries = { invention = protected_cruisers }
-        }
-        modifier = {
-            factor = 10
-            year = 1890
-        }
-        modifier = {
-            factor = 10
-            year = 1905
-        }
-        modifier = {
-            factor = 10
-            steam_turbine_ships = 1
+            factor = 15
+            weapon_platforms = 1
         }
     }
     effect = {
@@ -675,40 +654,15 @@ pre_dreadnought = {
         steel_steamers = 1
         has_country_flag = existing_country
     }
-    chance = {
-        base = 5
+        chance = {
+        base = 10
         modifier = {
-            factor = 2
-            invention = ironclads
-        }
-        modifier = {
-            factor = 1
-            invention = bessemer_steel
-        }
-        modifier = {
-            factor = 1
+            factor = 100
             main_armament = 1
         }
         modifier = {
-            factor = 1
-            any_neighbor_country = { invention = pre_dreadnought }
-        }
-        modifier = {
-            factor = 2
-            war = yes
-            war_countries = { invention = pre_dreadnought }
-        }
-        modifier = {
-            factor = 10
-            year = 1890
-        }
-        modifier = {
-            factor = 10
-            year = 1905
-        }
-        modifier = {
-            factor = 10
-            steam_turbine_ships = 1
+            factor = 15
+            weapon_platforms = 1
         }
     }
     effect = {
