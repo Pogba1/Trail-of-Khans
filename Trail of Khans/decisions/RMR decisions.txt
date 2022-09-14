@@ -4,19 +4,13 @@ political_decisions = {
 	
 	    potential = {
 			tag = RMR
-			NOT = { has_country_flag = control_dalmatis}
+			NOT = { has_country_flag = control_dalmatia}
 		}
 		allow = {
-			OR = { 
-				DLM = {
-					any_owned_province = {
-						limit = {
-							is_core = DLM
-						}
-						controlled_by = THIS
-					}
+			DLM = {
+				any_owned_province = {
+					owned_by = THIS
 				}
-			}
 		}
 		effect = {
 			AUS_736 = {
@@ -52,7 +46,7 @@ political_decisions = {
 			TUR_788 = {
 				add_core = ILY
 			}
-			set_country_flag = control_dalmatis
+			set_country_flag = control_dalmatia
 		}
 	}
 	
