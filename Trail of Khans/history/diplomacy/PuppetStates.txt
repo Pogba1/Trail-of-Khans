@@ -48,13 +48,6 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1936.1.1
 }
-#Switzerland - Neuchatel
-vassal = {
-    first = SWI
-    second = NEH
-    start_date = 1836.1.1
-    end_date = 1870.1.1
-}
 #Novgorod-Vladimir
 vassal = {
 	first=NOV

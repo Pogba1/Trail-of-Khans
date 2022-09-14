@@ -65,35 +65,8 @@ political_decisions = {
 				name = recent_raid
 				duration = 545
 			}
-			random_list = {
-				25 = {
-					961 = {
-						any_pop = {
-								reduce_pop = 1.01
-						}
-					}
-				}
-				25 = {
-					969 = {
-						any_pop = {
-								reduce_pop = 1.01
-						}
-					}
-				}
-				25 = {
-					971 = {
-						any_pop = {
-								reduce_pop = 1.01
-						}
-					}
-				}
-				25 = {
-					972 = {
-						any_pop = {
-								reduce_pop = 1.01
-						}
-					}
-				}
+			random_owned = {
+				reduce_pop = 1.01
 			}
 			money = 12000
 		}
