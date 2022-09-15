@@ -54,7 +54,7 @@ province_event = {
                         OR = {
                             capital_scope = { continent = north_america }
                             capital_scope = { continent = south_america }
-                            primary_culture = australian
+                            primary_culture = tasmanian
                         }
                     }
                 }
@@ -128,7 +128,7 @@ province_event = {
                         OR = {
                             capital_scope = { continent = north_america }
                             capital_scope = { continent = south_america }
-                            primary_culture = australian
+                            primary_culture = tasmanian
                         }
                     }
                 }
@@ -240,7 +240,7 @@ province_event = {
                         OR = {
                             capital_scope = { continent = north_america }
                             capital_scope = { continent = south_america }
-                            primary_culture = australian
+                            primary_culture = tasmanian
                         }
                     }
                 }
@@ -317,7 +317,7 @@ country_event = {
                     OR = {
                         capital_scope = { continent = north_america }
                         capital_scope = { continent = south_america }
-                        primary_culture = australian
+                        primary_culture = tasmanian
                     }
                 }
             }

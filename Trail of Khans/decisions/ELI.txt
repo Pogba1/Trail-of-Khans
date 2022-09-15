@@ -12,6 +12,18 @@ political_decisions = {
 			COL = {
 				all_core = {add_core = THIS}
 			}
+			78 = {
+			add_province_modifier = {
+					name = new_frontier_eli
+					duration = 3650
+				}
+			}
+			79 = {
+				add_province_modifier = {
+					name = new_frontier_eli
+					duration = 3650
+				}
+			}
 			78 = {change_province_name = "Nova Vigo"}
 			79 = {change_province_name = "Tres Rios"}
 		}
@@ -29,5 +41,24 @@ political_decisions = {
 			set_country_flag = sieze_the_pacific_coast
 			MEX_89 = {add_core = THIS}
 		}
+	}
+	develop_santa_maria = {
+		potential = {
+			NOT = {has_country_flag = develop_santa_maria}
+			tag = ELI
+		}
+		allow = {
+			90 = {owned_by = THIS}
+		}
+		effect = {
+			set_country_flag = develop_santa_maria
+			90 = {
+				add_province_modifier = {
+					name = new_frontier_eli
+					duration = 5475
+				}
+			}
+		}
+	
 	}
 }

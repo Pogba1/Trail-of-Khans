@@ -2773,6 +2773,16 @@ sans_culottes = {
 	global_pop_militancy_modifier = 0.01
 	icon = 18
 }
+new_frontier_eli = {
+	immigrant_attract = 1.25
+	assimilation_rate = 1.5
+	poor_life_needs = -0.2
+	middle_life_needs = -0.1
+	pop_militancy_modifier = -0.01
+	global_immigrant_attract = 0.1
+	population_growth = 0.001
+	icon = 20
+}
 asturian_exodus = {
 	immigrant_attract = -0.1
 	immigrant_push = 0.25
