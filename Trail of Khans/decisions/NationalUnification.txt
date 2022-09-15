@@ -65,6 +65,7 @@ political_decisions = {
 			OR = {
 				NOT = {	exists = WAL }
 				NOT = { exists = MOL }
+				NOT = { exists = SIE }
 			}
 		}
 		allow = {
