@@ -9,8 +9,9 @@ political_decisions = {
 		allow = {
 			DLM = {
 				any_owned_province = {
-					owned_by = THIS
+					controlled_by = THIS
 				}
+			}
 		}
 		effect = {
 			AUS_736 = {
@@ -226,6 +227,3 @@ political_decisions = {
 		}
 	}
 }
-
-							
-									
