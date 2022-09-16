@@ -160,11 +160,36 @@ political_decisions = {
 		is_greater_power = yes
 	}
 	
-	effect = {
-		set_country_flag = mend_relations_with_ruthenians
-		prestige = 5
-		add_accepted_culture = ukrainian
+		effect = {
+			set_country_flag = mend_relations_with_ruthenians
+			prestige = 5
+			add_accepted_culture = ukrainian
+			ai_will_do = { factor = 1 }
+            any_country = {
+                limit = {
+					primary_culture = ukrainian
+                    NOT = { tag = RUT }
+					NOT = { tag = RUS }
+                    NOT = { tag = THIS }
+                    NOT = { has_country_flag = post_colonial_country }
+                    OR = {
+                        is_vassal = no
+                        vassal_of = THIS
+                    }
+					in_sphere = THIS
+                }
+                country_event = 11106
+            }
+			HET = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			KIE = {
+				all_core = {
+					add_core = THIS
+				}
+			}
 		}
-		ai_will_do = { factor = 1 }
 	}
 }
