@@ -2614,6 +2614,13 @@ wallachian_agriculture = {
 	farm_rgo_eff = 0.1
 	icon = 19
 }
+growth_of_constanta = {
+	population_growth = 0.002
+	immigrant_attract = 1
+	assimilation_rate = -0.05
+	pop_militancy_modifier = -0.02 
+	icon = 19
+}
 papal_wealth_confiscated = {
 	tax_efficiency = 0.1
 	icon =1
