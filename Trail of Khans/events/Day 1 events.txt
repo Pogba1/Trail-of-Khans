@@ -49,7 +49,7 @@ country_event = {
             has_country_modifier = decentralized_government
         }
         NOT = {
-            has_country_flag = government_reform
+            has_country_flag = government_policy_solidifies
         }
     }
 
