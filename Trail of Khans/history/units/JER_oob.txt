@@ -1,0 +1,103 @@
+leader = {
+    name = "Flavius Atius Lactantius"
+    type = land
+    date="1833.1.1"
+    personality = romantic
+    background = poet
+    prestige = 0.1
+}
+
+leader = {
+    name = "Sextus Curtius Calatinus"
+    type = land
+    date="1833.1.1"
+    personality = aweless
+    background = powerful_friends
+    prestige = 0.1
+}
+
+leader = {
+    name = "Quintus Aebutius Regillus"
+    type = sea
+    date="1836.1.1"
+    personality = audacious
+    background = expert_raider
+}
+
+army = {
+    name = "Exercitus Hierosolymitanus"
+    location = 916
+    regiment = {
+        name= "I. Pedites"
+        type = infantry
+        home = 917
+    }
+
+    regiment = {
+        name= "II. Pedites"
+        type = infantry
+        home = 917
+    }
+
+    regiment = {
+        name= "III. Pedites"
+        type = infantry
+        home = 917
+    }
+	regiment = {
+        name= "I. Tormenta"
+        type = artillery
+        home = 917
+    }
+	regiment = {
+        name= "II. Tormenta"
+        type = artillery
+        home = 917
+    }
+	regiment = {
+        name= "III. Tormenta"
+        type = artillery
+        home = 913
+    }
+	regiment = {
+		name= "I. Equites"
+		type = cavalry
+        home = 917
+	}
+}
+
+navy = {
+    name = "Navy of Jerusalem"
+    location = 916
+
+    ship = {
+        name= "1st Steam Transport"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "2nd Steam Transport"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "Flavinia"
+        type = frigate
+    }
+
+    ship = {
+        name= "Victricia"
+        type = frigate
+    }
+
+    ship = {
+        name= "Balventia"
+        type = frigate
+    }
+
+    ship = {
+        name= "Minicia"
+        type = frigate
+    }
+
+}

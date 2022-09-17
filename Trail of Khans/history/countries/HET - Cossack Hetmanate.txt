@@ -1,0 +1,67 @@
+capital = 961
+primary_culture = ukrainian
+religion = orthodox
+government = hetmanate_cossacks
+plurality = 0.14
+nationalvalue = nv_order
+literacy = 0.086555
+non_state_culture_literacy = 0.07504
+civilized = yes
+prestige = 5
+
+# Political Reforms
+
+slavery = yes
+upper_house_composition = population_equal_weight
+vote_franschise = wealth_voting
+public_meeting = yes_meeting
+press_rights = free_press
+trade_unions = no_trade_unions
+voting_system = proportional_representation
+political_parties = secret_ballots
+
+# Social Reforms
+
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = no_schools
+
+# New Reforms
+conscription = service_by_requirement
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+
+# Technologies
+post_napoleonic_thought = 1
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+military_staff_system = 1
+army_command_principle = 1
+late_enlightenment_philosophy = 1
+enlightenment_thought = 1
+introspectionism = 1
+private_banks = 1
+no_standard = 1
+guild_based_production = 1
+piston_steam_engine = 1
+mechanical_production = 1
+
+ruling_party = Cossacks
+upper_house = {
+    fascist = 0
+    liberal = 36
+    conservative = 29
+    reactionary = 35
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
+}
+
+oob = "HET_oob.txt"

@@ -1,0 +1,113 @@
+leader = {
+    name = "Serafeim Athanides"
+    type = land
+    date="1833.1.1"
+    personality = romantic
+    background = poet
+    prestige = 0.1
+}
+
+leader = {
+    name = "Alkiviadis Vlahoulis"
+    type = land
+    date="1833.1.1"
+    personality = aweless
+    background = spartan
+    prestige = 0.1
+}
+
+leader = {
+    name = "Periklis Pavlotis"
+    type = sea
+    date="1836.1.1"
+    personality = audacious
+    background = expert_raider
+}
+
+army = {
+    name = "Stratós Konstantinoupóleos"
+    location = 860
+    regiment = {
+        name= "I. Sýntagma Pezikoú"
+        type = infantry
+        home = 860
+    }
+
+    regiment = {
+        name= "II. Sýntagma Pezikoú"
+        type = infantry
+        home = 860
+    }
+
+    regiment = {
+        name= "III. Sýntagma Pezikoú"
+        type = infantry
+        home = 860
+    }
+	regiment = {
+        name= "IV. Sýntagma Pezikoú"
+        type = infantry
+        home = 861
+    }
+	regiment = {
+        name= "I. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 859
+    }
+	regiment = {
+        name= "II. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 863
+    }
+	regiment = {
+        name= "III. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 864
+    }
+	regiment = {
+        name= "IV. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 865
+    }
+	regiment = {
+		name= "I. Sýntagma Ippikoú"
+		type = cavalry
+        home = 859
+	}
+}
+
+navy = {
+    name = "Thracian Navy"
+    location = 860
+
+    ship = {
+        name= "1st Steam Transport"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "2nd Steam Transport"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "Konstantinoúpoli"
+        type = frigate
+    }
+
+    ship = {
+        name= "Gallipoli"
+        type = frigate
+    }
+
+    ship = {
+        name= "Prusa"
+        type = frigate
+    }
+
+    ship = {
+        name= "Nicomedia"
+        type = frigate
+    }
+
+}

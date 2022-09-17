@@ -1,0 +1,64 @@
+political_decisions = {
+
+	farmland_for_immigrants = {
+		picture = dreams_of_empire
+		potential = {
+		tag = ARG
+		NOT = {has_country_flag = farmland_for_immigrants}
+		}
+		allow = {
+		war = no
+		state_n_government = 1
+		slavery = no_slavery
+		#all_core = {owned_by =THIS}
+		2348 = {owned_by = THIS}
+		2396 = {owned_by = THIS}
+		2389 = {owned_by = THIS}
+		}
+		effect = {
+			set_country_flag = farmland_for_immigrants
+			add_country_modifier = {name = land_grants_arg duration = 3650}
+		}
+	}
+	el_tofo = {
+		picture = essen_ruhr
+		potential = {
+			NOT = {
+				2322 = {
+					has_province_modifier = el_tofo
+				}
+			}
+			OR = {	
+				capital_scope = {continent = south_america}
+				tag = ARG
+				tag = INC
+			}
+		2322 = {owned_by = THIS}
+		}
+		allow = {
+			mechanized_mining = 1
+		}
+		effect = {
+			set_global_flag = el_tofo_mines
+			2322 = {add_province_modifier = {name = el_tofo duration = -1}}
+		}
+	}
+	
+	manifest_arg = {
+		picture = ""
+		potential = {
+			tag = ARG
+			not={has_country_flag = manifest_arg}
+		}
+		allow = {
+		2375 = {owned_by = THIS}
+		2322 = {owned_by = THIS}
+		2373 = {owned_by = THIS}
+		nationalism_n_imperialism = 1
+		}
+		effect = {
+			ARG_2368 = {add_core = THIS}
+			BOL_2305 = {add_core = THIS}
+		}
+	}
+}

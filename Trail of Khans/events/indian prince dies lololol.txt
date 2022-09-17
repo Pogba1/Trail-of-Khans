@@ -1,0 +1,67 @@
+country_event = {
+    id = 19840001
+    title = "Indian Prince Dies Heirless"
+    desc = "...and decides to leave his princedom to the colonizers!"
+    picture = "regency"
+
+    trigger = {
+        OR = {
+            government = absolute_monarchy
+            government = prussian_constitutionalism
+            government = hms_government
+        }
+        OR = {
+		primary_culture = malay
+		primary_culture = javan
+		primary_culture = telegu
+		primary_culture = tamil
+		primary_culture = malayalam
+		primary_culture = kannada
+		primary_culture = rajput
+		primary_culture = marathi
+		primary_culture = gujarati
+		primary_culture = kashmiri
+		primary_culture = kanauji
+		primary_culture = avadhi
+		primary_culture = sinhala
+		primary_culture = oriya
+		primary_culture = manipuri
+		primary_culture = bihari
+		primary_culture = assamese
+		}
+		OR = {
+			is_vassal = yes
+			is_substate = yes
+		}
+    }
+
+    mean_time_to_happen = {
+        months = 1000
+    }
+
+    option = {
+        name = "Rest in peace."
+       THIS = { overlord = { country_event = {
+							id = 19840002
+							days = 0
+							} 	
+						}
+    }
+	}
+}
+
+country_event = {
+    id = 19840002
+    title = "Indian Prince Dies Heirless"
+    desc = "...and decides to leave his princedom to us!"
+    picture = "regency"
+
+    trigger = {
+	has_country_flag = impossible
+	}
+
+    option = {
+        name = "Rest in peace."
+        inherit = FROM
+    }
+}

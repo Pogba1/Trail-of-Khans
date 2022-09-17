@@ -1,0 +1,18 @@
+owner = GOL
+controller = GOL
+add_core = GOL
+add_core = UKR
+add_core = KIR
+trade_goods = coal
+life_rating = 35
+terrain = mining_district
+state_building = {
+    level = 1
+    building = glass_factory
+    upgrade = yes
+}
+state_building = {
+	level = 1
+	building = cement_factory
+	upgrade = yes
+}

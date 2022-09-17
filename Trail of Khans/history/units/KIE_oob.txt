@@ -1,0 +1,48 @@
+leader = {
+    name = "Dimitry Ivanovich"
+    date = 1836.1.1
+    type = land
+    personality = cautious
+    background = school_of_defense
+    prestige = 0.2
+}
+
+army = {
+    name = "Kievan Guard"
+    location = 958
+    regiment = {
+        name = "1st Hussar Regiment"
+        type = hussar
+        home = 958
+    }
+    regiment = {
+        name = "2nd Hussar Regiment"
+        type = hussar
+        home = 955
+    }
+    regiment = {
+        name = "1st Infantry Regiment"
+        type = infantry
+        home = 958
+    }
+    regiment = {
+        name = "2n Infantry Regiment"
+        type = infantry
+        home = 955
+    }
+    regiment = {
+        name = "3rd Infantry Regiment"
+        type = infantry
+        home = 959
+    }
+    regiment = {
+        name = "1st Artillery Regiment"
+        type = artillery
+        home = 959
+    }
+    regiment = {
+        name = "1st Artillery Regiment"
+        type = artillery
+        home = 960 
+    }
+}

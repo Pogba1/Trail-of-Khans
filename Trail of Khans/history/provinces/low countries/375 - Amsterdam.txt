@@ -1,0 +1,33 @@
+owner = NET
+controller = NET
+add_core = NET
+trade_goods = cattle
+life_rating = 40
+fort = 1
+naval_base = 2
+railroad = 1
+state_building = {
+    level = 1
+    building = artillery_factory
+    upgrade = yes
+}
+state_building = {
+    level = 1
+    building = ammunition_factory
+    upgrade = yes
+}
+state_building = {
+    level = 1
+    building = clipper_shipyard
+    upgrade = yes
+}
+state_building = {
+    level = 1
+    building = luxury_clothes_factory
+    upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}

@@ -1,0 +1,63 @@
+country_event = {
+    id = 355500
+    title = "Incan Expansion" 
+    desc = "Glory to the Great Inca!"
+    picture = "guarani_misiones"
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = {
+        name = "Great!"
+        2321 = {secede_province = THIS} 
+		2319 = {secede_province = THIS} 
+        ai_chance = { factor = 1 }
+    }
+	}
+
+country_event = {
+    id = 355501
+    title = "Incan Breadbasket" 
+    desc = "Glory to the Great Inca!"
+    picture = "guarani_misiones"
+
+    trigger = {
+		NOT = {has_country_modifier = incan_breadbasket}
+		OR = {
+			primary_culture = quechua
+			primary_culture = aimara
+		}
+		civilized = yes
+	}
+
+    option = {
+        name = "Great!"
+		add_country_modifier = {name = incan_breadbasket duration = -1}
+        ai_chance = { factor = 1 }
+    }
+	}
+province_event = {
+    id = 355502
+    title = "Incan Terraces" 
+    desc = " "
+
+    trigger = {
+		owner = {
+		OR = {
+			primary_culture = quechua
+			primary_culture = aimara
+		}
+		}
+		is_core = THIS
+		NOT = {has_province_modifier = incan_terraces}
+		terrain = mountain
+	}
+
+    option = {
+        name = "Great!"
+		add_province_modifier = {name = incan_terraces duration = -1}
+        ai_chance = { factor = 1 }
+    }
+	}
+    

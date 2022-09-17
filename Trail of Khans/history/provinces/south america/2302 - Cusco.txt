@@ -1,0 +1,11 @@
+owner = CUS
+controller = CUS
+add_core = CUS
+add_core = INC
+trade_goods = wool
+life_rating = 40
+1860.1.1 = {
+    owner = PEU
+    controller = PEU
+    remove_core = SPU
+}

@@ -1,0 +1,517 @@
+country_event = {
+    title = "EVTNAME90900"
+    desc = "EVTDESC90900"
+    picture = "Celebration"
+
+    id = 90900
+    news = yes
+    news_desc_long = "EVTDESC90900_NEWS_LONG"
+    news_desc_medium = "EVTDESC90900_NEWS_MEDIUM"
+    news_desc_short = "EVTDESC90900_NEWS_SHORT"
+
+    is_triggered_only = yes
+
+    trigger = {
+        OR = {
+            tag = CHI
+            tag = QNG
+        }
+    }
+
+    option = {
+        name = "EVTOPTA90900"
+        set_global_flag = the_dragon_wakes
+        random_owned = { limit = { owner = { ai = yes } } owner = { add_country_modifier = { name = law_changed_by_force duration = 3 } } }
+        random_owned = {
+            limit = { owner = { has_country_flag = activate_experimental_railroad } NOT = { experimental_railroad = 1 } }
+            owner = { activate_technology = experimental_railroad  clr_country_flag = activate_experimental_railroad }
+        }
+        MCK = { all_core = { add_core = CHI } }
+        XBI = { all_core = { add_core = CHI } }
+        XIN = { all_core = { add_core = CHI } }
+        SZC = { all_core = { add_core = CHI } }
+        YNN = { all_core = { add_core = CHI } }
+        GXI = { all_core = { add_core = CHI } }
+        GNG = { all_core = { add_core = CHI } }
+        FJN = { all_core = { add_core = CHI } }
+        KML = { all_core = { add_core = CHI } }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_modifier = uncivilized_isolationism
+                    NOT = { border_policy = closed_borders } }
+                }
+            owner = { political_reform = closed_borders }
+        }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_modifier = western_influences
+                    NOT = { border_policy = open_borders } }
+                }
+            owner = { political_reform = open_borders }
+        }
+        add_country_modifier = { name = global_baby_boom duration = 730 }
+        prestige = 10
+        remove_country_modifier = educational_reform
+        remove_country_modifier = military_reform
+        remove_country_modifier = western_influences
+        remove_country_modifier = uncivilized_isolationism
+        remove_country_modifier = trade_restrictions
+        remove_country_modifier = sayings_of_the_dutch
+        clr_country_flag = using_foreign_weapons
+        clr_country_flag = using_foreign_artillery
+        clr_country_flag = using_foreign_ships
+        clr_country_flag = using_foreign_shipyards
+        random_owned = {
+            limit = { owner = { has_country_modifier = western_presence_research } }
+            owner = { remove_country_modifier = western_presence_research }
+        }
+        random_owned = {
+            limit = { owner = { has_country_modifier = european_military_mission } }
+            owner = { remove_country_modifier = european_military_mission }
+        }
+        random_owned = {
+            limit = { owner = { has_country_modifier = legation_quarter } }
+            owner = { remove_country_modifier = legation_quarter }
+        }
+        any_owned = {
+            remove_province_modifier = western_presence
+            remove_province_modifier = foreign_smugglers
+            remove_province_modifier = foreign_trading_post
+            remove_province_modifier = local_opium_habit
+            remove_province_modifier = kettler_denkmal
+            remove_province_modifier = extraterritoriality_granted
+            remove_province_modifier = boxer_presence
+            remove_province_modifier = boxer_agitation
+        }
+        #any_country = {
+        #    limit = {
+        #        exists = yes
+        #        is_vassal = no
+        #        OR = {
+        #            tag = MCK
+        #            tag = XBI
+        #            tag = XIN
+        #            tag = SZC
+        #            tag = YNN
+        #            tag = GXI
+        #            tag = GNG
+        #            tag = FJN
+        #            tag = KML
+        #        }
+        #    }
+        #    leave_alliance = THIS
+        #    relation = { who = THIS value = -200 }
+        #}
+        #any_country = {
+        #    limit = {
+        #        exists = yes
+        #        OR = {
+        #            substate_of = THIS
+        #            vassal_of = THIS
+        #        }
+        #        OR = {
+        #            tag = MCK
+        #            tag = XBI
+        #            tag = XIN
+        #            tag = SZC
+        #            tag = YNN
+        #            tag = GXI
+        #            tag = GNG
+        #            tag = FJN
+        #            tag = KML
+        #        }
+        #    }
+        #    country_event = { id=90901 days=0 }
+        #}
+
+        #Non-cores should flip to colonies
+        #random_owned = {
+        #    limit = {
+        #        NOT = { is_core = THIS }
+        #        owner = { NOT = { exists = UTI } }
+        #    }
+        #    owner = {
+        #        any_owned = {
+        #            limit = {
+        #                NOT = {
+        #                    is_core = THIS
+        #                    is_colonial = yes
+        #                    is_accepted_culture = yes
+        #                    is_primary_culture = yes
+        #                    any_core = { is_cultural_union = THIS }
+        #                    #any_neighbor_province = { is_core = THIS } #Rule excluding neighbouring states from the non-core rule
+        #                }
+        #                any_core = {
+        #                    OR = {
+        #                        civilized = no
+        #                        tech_school = developing_tech_school
+        #                    }
+        #                }
+        #            }
+        #            secede_province = UTI
+        #            UTI = { country_event =  90911 }
+        #        }
+        #    }
+        #}
+		UTI = {
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = landr_flag
+				}
+					clr_country_flag = landr_flag
+					activate_technology = hot_blast
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = adm_flag
+				}
+					clr_country_flag = adm_flag
+					activate_technology = no_standard
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = fin_flag_1
+				}
+					clr_country_flag = fin_flag_1
+					activate_technology = freedom_of_trade
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = fin_flag_2
+				}
+					clr_country_flag = fin_flag_2
+					
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = mon_flag_1
+				}
+					clr_country_flag = mon_flag_1
+					activate_technology = private_banks
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = mon_flag_2
+				}
+					clr_country_flag = mon_flag_2
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = edu_flag
+				}
+					clr_country_flag = edu_flag
+					activate_technology = malthusian_thought
+					activate_technology = basic_chemistry
+					activate_technology = enlightenment_thought
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = res_flag
+				}
+					clr_country_flag = res_flag
+					activate_technology = early_classical_theory_and_critique
+					activate_technology = late_enlightenment_philosophy
+					activate_technology = introspectionism
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = activate_experimental_railroad
+				}
+					clr_country_flag = activate_experimental_railroad
+					activate_technology = experimental_railroad
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = arms_flag
+				}
+					clr_country_flag = arms_flag
+					activate_technology = guild_based_production
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = training_flag
+				}
+					clr_country_flag = training_flag
+					#activate_technology = army_command_principle
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = weapons_flag
+				}
+					clr_country_flag = weapons_flag
+					activate_technology = flintlock_rifles
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = army_schools_flag
+				}
+					clr_country_flag = army_schools_flag
+					activate_technology = army_command_principle
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = mil_cons_flag
+				}
+					clr_country_flag = mil_cons_flag
+					activate_technology = post_napoleonic_thought
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = officerr_flag
+				}
+					clr_country_flag = officerr_flag
+					activate_technology = military_staff_system
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = naval_officer_flag
+				}
+					clr_country_flag = naval_officer_flag
+					activate_technology = alphabetic_flag_signaling
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = naval_schools_flag
+				}
+					clr_country_flag = naval_schools_flag
+					activate_technology = the_command_principle
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = navies_flag
+				}
+					clr_country_flag = navies_flag
+					activate_technology = clipper_design
+                    activate_technology = steamers
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = shipyardsr_flag
+				}
+					clr_country_flag = shipyardsr_flag
+					activate_technology = post_nelsonian_thought
+					activate_technology = naval_design_bureaus
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = foreign_artillery_flag
+				}
+					clr_country_flag = foreign_artillery_flag
+					activate_technology = bronze_muzzle_loaded_artillery
+				}
+		any_country = { 
+				limit = { 
+					tag = THIS 
+					has_country_flag = industrial_construction_flag
+				}
+					clr_country_flag = industrial_construction_flag
+					activate_technology = piston_steam_engine
+					activate_technology = mechanical_production
+				}
+				
+		}
+    }
+}
+
+country_event = {
+    title = "westernize_nation_title"
+    desc = "westernize_nation_desc"
+    picture = "Celebration"
+
+    id = 90903
+
+    is_triggered_only = yes
+
+    trigger = {
+        NOT = { has_global_flag = the_dragon_wakes }
+        OR = {
+            tag = MCK
+            tag = XBI
+            tag = XIN
+            tag = SZC
+            tag = YNN
+            tag = GXI
+            tag = GNG
+            tag = FJN
+        }
+    }
+
+    option = {
+        name = "EVTOPTA90902"
+        set_global_flag = the_dragon_wakes
+        random_owned = { limit = { owner = { ai = yes } } owner = { add_country_modifier = { name = law_changed_by_force duration = 3 } } }
+        random_owned = {
+            limit = { owner = { has_country_flag = activate_experimental_railroad } NOT = { experimental_railroad = 1 } }
+            owner = { activate_technology = experimental_railroad  clr_country_flag = activate_experimental_railroad }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_modifier = uncivilized_isolationism
+                    NOT = { border_policy = closed_borders } }
+                }
+            owner = { political_reform = closed_borders }
+        }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_modifier = western_influences
+                    NOT = { border_policy = open_borders } }
+                }
+            owner = { political_reform = open_borders }
+        }
+        random_country = {
+            limit = {
+                is_culture_group = east_asian
+                is_our_vassal = THIS
+            }
+            release_vassal = THIS
+            leave_alliance = THIS
+            country_event = { id=90904 days=0 }
+        }
+        add_country_modifier = {
+            name = taiping_draft
+            duration = 90
+        }
+        add_country_modifier = { name = global_baby_boom duration = 730 }
+        prestige = 10
+        remove_country_modifier = educational_reform
+        remove_country_modifier = military_reform
+        remove_country_modifier = western_influences
+        remove_country_modifier = uncivilized_isolationism
+        remove_country_modifier = trade_restrictions
+        remove_country_modifier = sayings_of_the_dutch
+        clr_country_flag = using_foreign_weapons
+        clr_country_flag = using_foreign_artillery
+        clr_country_flag = using_foreign_ships
+        clr_country_flag = using_foreign_shipyards
+        random_owned = {
+            limit = { owner = { has_country_modifier = western_presence_research } }
+            owner = { remove_country_modifier = western_presence_research }
+        }
+        random_owned = {
+            limit = { owner = { has_country_modifier = european_military_mission } }
+            owner = { remove_country_modifier = european_military_mission }
+        }
+        random_owned = {
+            limit = { owner = { has_country_modifier = legation_quarter } }
+            owner = { remove_country_modifier = legation_quarter }
+        }
+        any_owned = {
+            remove_province_modifier = western_presence
+            remove_province_modifier = foreign_smugglers
+            remove_province_modifier = foreign_trading_post
+            remove_province_modifier = local_opium_habit
+            remove_province_modifier = kettler_denkmal
+            remove_province_modifier = extraterritoriality_granted
+            remove_province_modifier = boxer_presence
+            remove_province_modifier = boxer_agitation
+        }
+        any_country = {
+            limit = { is_greater_power = yes }
+            diplomatic_influence = { who = THIS value = -100 }
+        }
+        #Non-cores should flip to colonies
+        random_owned = {
+            limit = {
+                NOT = { is_core = THIS }
+                owner = { NOT = { exists = UTI } }
+            }
+            owner = {
+                any_owned = {
+                    limit = {
+                        NOT = {
+                            is_core = THIS
+                            is_colonial = yes
+                            is_accepted_culture = yes
+                            is_primary_culture = yes
+                            any_core = { is_cultural_union = THIS }
+                            #any_neighbor_province = { is_core = THIS } #Rule excluding neighbouring states from the non-core rule
+                        }
+                        any_core = {
+                            OR = {
+                                civilized = no
+                                tech_school = developing_tech_school
+                            }
+                        }
+                    }
+                    secede_province = UTI
+                    UTI = { country_event =  90911 }
+                }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 90904
+    title = "EVTNAME90904"
+    desc = "EVTDESC90904"
+    news = yes
+    news_desc_long = "EVTDESC90904_NEWS_LONG"
+    news_desc_medium = "EVTDESC90904_NEWS_MEDIUM"
+    news_desc_short = "EVTDESC90904_NEWS_SHORT"
+    picture = "panthay_rebellion"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT90904OPTA"
+        FROM = { all_core = { add_core = THIS } }
+        relation = { who = FROM value = -200 }
+        add_country_modifier = {
+            name = self_strengthening_movement
+            duration = 730
+        }
+        ai_chance = {
+            factor = 100
+        }
+    }
+
+    option = {
+        name = "EVT90904OPTB"
+        prestige = -20
+        any_pop = {
+            limit = {
+                is_primary_culture = no
+                is_accepted_culture = no
+            }
+            militancy = 6
+        }
+        any_substate = {
+            limit = { is_culture_group = east_asian }
+            any_pop = { militancy = 6 }
+        }
+        add_country_modifier = {
+            name = self_strengthening_movement
+            duration = 730
+        }
+        ai_chance = {
+            factor = 0
+        }
+    }
+}

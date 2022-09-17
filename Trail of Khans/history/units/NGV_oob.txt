@@ -1,0 +1,216 @@
+BRZ = {
+    value = -50
+}
+
+army = {
+    name = "Esercito Repubblicano"
+    location = 2447
+    regiment = {
+        name= "1. Brigata di fanteria"
+        type = infantry
+        home = 2447
+    }
+
+    regiment = {
+        name= "2. Brigata di fanteria"
+        type = infantry
+        home = 2447
+    }
+
+    regiment = {
+        name= "3. Brigada de Infantaria"
+        type = infantry
+        home = 2447
+    }
+
+    regiment = {
+        name= "4. Brigada de Infantaria"
+        type = infantry
+        home = 2447
+    }
+
+    regiment = {
+        name= "5. Brigada de Infantaria"
+        type = infantry
+        home = 2450
+    }
+
+    regiment = {
+        name= "6. Brigada de Infantaria"
+        type = infantry
+        home = 2457
+    }
+
+    regiment = {
+        name= "7. Brigada de Infantaria"
+        type = infantry
+        home = 2463
+    }
+
+    regiment = {
+        name= "1. Brigada de Cavalaria"
+        type = cuirassier
+        home = 2463
+    }
+
+    regiment = {
+        name= "2. Brigata di cavalleria"
+        type = cuirassier
+        home = 2464
+    }
+
+    regiment = {
+        name= "3. Brigada de Cavalaria"
+        type = cuirassier
+        home = 2466
+    }
+
+}
+leader = {
+    name = "Christopher Metallo"
+    date = 1840.1.1
+    type = land
+    personality = relentless
+    background = cavalry_school
+    prestige = 0.2
+}
+
+leader = {
+    name = "Fabiano Bisso"
+    date = 1841.1.1
+    type = land
+    personality = brilliant
+    background = innovative_tactician
+    prestige = 0.2
+}
+
+leader = {
+    name = "Mario Cappadona"
+    date = 1843.1.1
+    type = land
+    personality = coolminded
+    background = generals_aide
+    prestige = 0.2
+}
+
+
+leader = {
+    name = "Simone Piccinini"
+    date = 1845.1.1
+    type = land
+    personality = imperious
+    background = spartan
+    prestige = 0.2
+}
+
+leader = {
+    name = "G. Biondo"
+    date = 1847.1.1
+    type = sea
+    personality = audacious
+    background = natural_born_leader
+    prestige = 0.2
+}
+
+leader = {
+    name = "A. Tarsi"
+    date = 1850.1.1
+    type = land
+    personality = efficient
+    background = aristocrat
+    prestige = 0.2
+}
+
+leader = {
+    name = "Alberto Verona"
+    date = 1851.1.1
+    type = land
+    personality = active_p
+    background = armchair_general
+    prestige = 0.2
+}
+
+leader = {
+    name = "Alberico Ratio"
+    date = 1861.1.1 #1851
+    type = land
+    personality = efficient
+    background = old_school
+    prestige = 0.2
+}
+
+leader = {
+    name = "P. Oberto"
+    date = 1852.1.1
+    type = sea
+    personality = heroic
+    background = school_of_defense
+    prestige = 0.2
+}
+
+navy = {
+    name = "New Genoan Navy"
+    location = 2447
+    ship = {
+        name = "Tarquinia Tesoro"
+        type = manowar
+    }
+
+    ship = {
+        name = "Florina"
+        type = manowar
+    }
+
+    ship = {
+        name = "Tatiana"
+        type = frigate
+    }
+
+    ship = {
+        name = "Alda"
+        type = frigate
+    }
+
+    ship = {
+        name = "Flaviana"
+        type = frigate
+    }
+
+    ship = {
+        name = "Deanna"
+        type = frigate
+    }
+
+    ship = {
+        name = "Gioacchina"
+        type = frigate
+    }
+
+    ship = {
+        name = "Sefora"
+        type = frigate
+    }
+
+    ship = {
+        name = "Battello a Vapore Petronilla"
+        type = commerce_raider
+    }
+
+
+    ship = {
+        name = "Battello a Vapore Genesia"
+        type = commerce_raider
+    }
+
+    ship = {
+        name = "Brigue Transporte Prudenzia"
+        type = clipper_transport
+    }
+
+
+    ship = {
+        name = "Brigue Transporte Patrizia"
+        type = clipper_transport
+    }
+
+}

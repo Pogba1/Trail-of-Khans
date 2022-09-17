@@ -1,0 +1,220 @@
+political_decisions = {
+
+	raiding_target = {
+		potential = {
+			tag = HET
+			NOT = {
+				GOL = {
+					any_owned_province = {
+						has_province_modifier = raiding_target
+					}
+				}
+			}
+			NOT = {
+				has_country_modifier = recent_raid
+			}
+			NOT = {
+				has_global_flag = cossacks_subjugated
+			}
+		}
+		allow = {
+			HET = {
+				NOT = {
+					in_sphere = GOL
+				}
+				slavery = yes_slavery
+			}
+			war = no
+		}
+		effect = {
+			country_event = {
+				id = 760000
+				days = 0
+			}
+		}	
+		ai_will_do = { factor = 1 }
+	}
+	
+	cossack_raids = {
+		potential = {
+			tag = HET
+			GOL = {
+				any_owned_province = {
+					has_province_modifier = raiding_target
+				}
+			}
+			NOT = {
+				has_country_modifier = recent_raid 
+			}
+				
+		}
+		allow = {
+			war = no
+			NOT = {
+				in_sphere = GOL
+			}
+		}
+		effect = {
+			GOL = {
+				country_event = {
+					id = 760001
+					days = 1
+				}
+			}
+			add_country_modifier = {
+				name = recent_raid
+				duration = 545
+			}
+			random_owned = {
+				random_pop ={
+					reduce_pop = 1.01
+				}
+			}
+			money = 12000
+		}
+	}
+
+	#Mongol Retaliation
+
+	subjugate_the_cossacks = {
+		potential = {
+			tag = GOL
+			HET = {
+				exists = yes
+			}
+			NOT = {
+				has_global_flag = cossacks_subjugated
+			}
+		}
+		allow = {
+			OR = {
+				HET = {
+					capital_scope = {
+						controlled_by = THIS
+					}
+				}
+				HET = {
+					in_sphere = THIS
+					relation = {
+						who = GOL
+						value = 150
+					}
+				}
+			}
+		}
+		effect = {
+			end_war = HET
+			create_vassal = HET
+			prestige = 15
+			badboy = 5
+			set_global_flag = cossacks_subjugated
+		}
+	}
+
+	#Kievan request
+
+	request_control_cossacks = {
+		potential = {
+			tag = KIE
+			GOL = {
+				is_our_vassal = KIE
+			}
+			NOT = {
+				has_country_flag = our_request_cossack
+			}
+		}
+		allow = {
+			state_n_government = 1
+			GOL = {
+				is_our_vassal = HET
+			}
+		}
+		effect = {
+			GOL = {
+				country_event = 770000
+				days = 0
+			}
+			set_country_flag = our_request_cossack
+		}
+	}
+	
+	form_ruthenia = {
+		potential = {
+			primary_culture = ukrainian
+			NOT = {
+				exists = RUT
+			}
+			NOT = {
+				exists = KIR
+			}
+		}
+		allow = {
+			is_vassal = no
+			RUS_958 = {
+				owned_by = THIS
+			}
+			RUS_968 = {
+				owned_by = THIS
+			}
+			RUS_971 = {
+				owned_by = THIS
+			}
+			RUS_978 = {
+				owned_by = THIS
+			}
+			RUS_973 = {
+				owned_by = THIS
+			}
+			state_n_government = 1
+		}
+		effect = {
+			capital = 958
+			change_tag = RUT
+			UKR = {
+				all_core = {
+					add_core = RUT
+				}
+			}
+			RUS_1048 = {
+				add_core = THIS
+			}
+			prestige = 20
+			GOL = {
+				all_core = {
+					limit = {
+						is_core = RUT
+					}
+				remove_core = GOL
+				}
+			}
+		}
+	}
+
+	the_caucasians = {
+		potential = {
+			OR = {
+				tag = RUT
+				AND ={
+					tag = KIR
+					primary_culture = ukrainian
+				}
+			}
+			NOT = {
+				has_country_flag = the_caucasians
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			RUS_1048 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			add_accepted_culture = circassian
+			add_accepted_culture = georgian
+			add_accepted_culture = dagestani
+			add_accepted_culture = chechen
+			set_country_flag = the_caucasians
+		}
+	}
+}

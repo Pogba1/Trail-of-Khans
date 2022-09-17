@@ -1,0 +1,90 @@
+political_decisions = {
+	unite_eth = {
+        potential = {
+            primary_culture = amhara
+			is_vassal = no
+            NOT = { exists = ETH }
+            NOT = { has_global_flag = formed_ethiopia }
+            #year = 1852
+        }
+
+        allow = {
+            civilized = yes
+			ETH = {
+				all_core = {
+					OR = {
+						empty = yes
+						owned_by = THIS
+						owner = {vassal_of = THIS}
+					}
+				}
+			}
+        }
+
+        effect = {
+            set_country_flag = formed_ethiopia
+            GON = { all_core = { add_core = THIS remove_core = GON} }
+            TIG = { all_core = { add_core = THIS remove_core = TIG} }
+            SHW = { all_core = { add_core = THIS remove_core = SHW} }
+			any_country = {
+				limit = {
+				OR = {
+					vassal_of = THIS
+					substate_of = THIS
+				}
+					OR = {primary_culture = amhara tag = ALO}
+				}
+				any_pop = {
+					militancy = 5
+				}
+				any_pop = {
+				limit = {type = aristocrats}
+					militancy = 5
+				}
+				civilized = yes
+				annex_to = THIS
+			}
+			change_tag = ETH
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	
+	build_addis_ababa = {
+        picture = addis_ababa_building
+        potential = {
+            tag = ETH
+            owns = 1859
+            NOT = { has_country_flag = addis_ababa_built }
+        }
+
+        allow = {
+            war = no
+            medicine = 1
+            owns = 1859
+        }
+
+        effect = {
+            set_country_flag = addis_ababa_built
+            prestige = 5
+            1859 = {
+                change_province_name = "Addis Ababa"
+                life_rating = 5
+            }
+            capital = 1859
+            #GON = { all_core = { remove_core = GON } }
+            #SHW = { all_core = { remove_core = SHW } }
+            #TIG = { all_core = { remove_core = TIG } }
+            #ENG_1848 = { add_core = TIG }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    
+
+}

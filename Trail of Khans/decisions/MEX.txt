@@ -1,0 +1,23 @@
+political_decisions = {
+	the_true_masters_of_the_coast = {
+		potential = {
+			NOT = {has_country_flag = the_true_masters_of_the_coast}
+			tag = MEX
+		}
+		allow = {
+			104 = {owned_by = THIS}
+			89 = {owned_by = THIS}
+		}
+		effect = {
+			set_country_flag = the_true_masters_of_the_coast
+			COL = {
+				all_core = {add_core = THIS}
+			}
+			ELI = {
+				all_core = {add_core = THIS}
+			}
+			add_accepted_culture = elysian
+			any_pop = { limit = {has_pop_culture = elysian} militancy = 6 consciousness = 1}
+		}
+	}
+}

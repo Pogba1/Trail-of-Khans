@@ -1,0 +1,38 @@
+leader = {
+    name = "Yermak the Great"
+    date = 1836.1.1
+    type = land
+    personality = relentless
+    background = cavalry_school
+    prestige = 0.5
+}
+
+army = {
+    name = "Cossack Host"
+    location = 961
+    regiment = {
+        name = "Cossacks"
+        type = cavalry
+        home = 969
+    }
+    regiment = {
+        name = "Cossacks"
+        type = cavalry
+        home = 969
+    }
+    regiment = {
+        name = "Cossacks"
+        type = cavalry
+        home = 969
+    }
+    regiment = {
+        name = "Stresly"
+        type = infantry
+        home = 691
+    }
+    regiment = {
+        name = "Cannons of Smolensk"
+        type = artillery
+        home = 691
+    }
+}

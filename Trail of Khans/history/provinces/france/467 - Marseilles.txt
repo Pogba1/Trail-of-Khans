@@ -1,0 +1,13 @@
+owner = LBR
+controller = LBR
+add_core = LBR
+trade_goods = fruit
+life_rating = 35
+1861.1.1 = {
+    state_building = {
+        level = 2
+        building = clipper_shipyard
+        upgrade = yes
+    }
+}
+1861.1.1 = { railroad = 3 }

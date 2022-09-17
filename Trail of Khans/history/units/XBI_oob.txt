@@ -1,0 +1,73 @@
+army = {
+    name = "Great Revolt"
+    location = 1556
+
+    regiment = {
+        name= "1st Formation"
+        type = irregular
+        home = 1558
+    }
+
+    regiment = {
+        name= "2nd Formation"
+        type = irregular
+        home = 1558
+    }
+
+    regiment = {
+        name= "3rd Formation"
+        type = irregular
+        home = 1558
+    }
+
+    regiment = {
+        name= "4th Formation"
+        type = irregular
+        home = 1490
+    }
+
+    regiment = {
+        name= "5th Formation"
+        type = irregular
+        home = 1490
+    }
+
+    regiment = {
+        name= "6th Formation"
+        type = irregular
+        home = 1490
+    }
+
+    regiment = {
+        name= "7th Formation"
+        type = irregular
+        home = 1488
+    }
+
+    regiment = {
+        name= "8th Formation"
+        type = irregular
+        home = 1488
+    }
+
+    regiment = {
+        name= "9th Formation"
+        type = irregular
+        home = 1488
+    }
+	regiment = {
+        name= "10th Formation"
+        type = irregular
+        home = 1488
+    }
+	regiment = {
+        name= "11th Formation"
+        type = irregular
+        home = 1489
+    }
+	regiment = {
+        name= "12th Formation"
+        type = irregular
+        home = 1492
+    }
+}

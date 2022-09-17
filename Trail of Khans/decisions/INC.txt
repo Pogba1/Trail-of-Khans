@@ -1,0 +1,107 @@
+political_decisions = {
+#Form Inca
+
+	#Tawantinsuyu
+	form_inca = {
+		picture = request_missionaries
+		potential = {
+		OR = {
+			primary_culture = quechua
+			primary_culture = aimara
+			}
+		NOT = {exists = INC}
+		}
+		allow = {
+			war = no
+			2310 = {OR = {owned_by = THIS owner = {OR = {vassal_of = THIS in_sphere = THIS}}}}
+			2302 = {OR = {owned_by = THIS owner = {OR = {vassal_of = THIS in_sphere = THIS}}}}
+			2279 = {OR = {owned_by = THIS owner = {OR = {vassal_of = THIS in_sphere = THIS}}}}
+		}
+		effect = {
+			add_accepted_culture = quechua
+			add_accepted_culture = aimara
+			change_tag = INC
+			research_points = 2000
+			prestige = 10
+			any_country = {
+                limit = {
+                    NOT = { tag = INC }
+                    OR = {
+                        primary_culture = quechua
+						primary_culture = aimara
+                    }
+                    NOT = { tag = THIS }
+                    OR = {
+                        is_vassal = no
+                        vassal_of = THIS
+                    }
+                }
+                country_event = 11106
+            }
+		}
+	
+	}
+#
+	outlaw_slavery = {
+		picture = "embrace_minority"
+		potential = {
+			tag = INC
+			NOT = {has_country_flag = outlaw_slavery}
+		}
+		allow = {
+			slavery = yes_slavery
+			OR = {
+			ruling_party_ideology = liberal
+			ruling_party_ideology = socialist
+			ruling_party_ideology = communist
+			}
+		}
+		effect = {
+			any_pop = {
+				limit ={	
+					   type = slaves
+				}
+				militancy = -5
+			}
+			research_points = 2000
+			political_reform = no_slavery
+			prestige = 1
+			any_pop = {
+				limit ={	
+					   type = aristocrats
+				}
+				militancy = 20
+			}
+			any_pop = {
+				limit ={	
+					    type = farmers
+				}
+				militancy = 2
+			}
+			set_country_flag = outlaw_slavery
+		}
+	}
+	amazon_expansion = {
+		picture = "native_protection_act"
+		potential = {
+			tag = INC
+			NOT = {has_country_flag = amazon_expansion}
+			2321 = {empty = yes}
+			2319 = {empty = yes}
+		}
+		allow = {
+			civilized = yes
+			
+		}
+		effect = {
+		2321 = {add_core = THIS}
+		2319 = {add_core = THIS}
+			country_event = {
+				id = 355500
+				days = 1
+			}
+			set_country_flag = amazon_expansion
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+#South German Alliances
+alliance = {
+    first = BAV
+    second = BAD
+    start_date = 1836.1.1 #1386.9.5
+    end_date = 1936.1.1
+}
+
+alliance = {
+    first = BAV
+    second = WUR
+    start_date = 1836.1.1 #1386.9.5
+    end_date = 1936.1.1
+}
+
+alliance = {
+    first = BAD
+    second = WUR
+    start_date = 1836.1.1 #1386.9.5
+    end_date = 1936.1.1
+}
+alliance = {
+    first = BAV
+    second = LOR
+    start_date = 1836.1.1 #1386.9.5
+    end_date = 1936.1.1
+}
+

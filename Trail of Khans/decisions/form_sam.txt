@@ -1,0 +1,72 @@
+political_decisions = {
+	united_sam = {
+		potential = {
+			primary_culture = brazilian
+			NOT = {exists = SAM}
+		}
+		allow = {
+			2410 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
+			2447 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
+			
+			
+		}
+		effect = {
+			BRZ = {all_core = {add_core = THIS}}
+			NGV = {all_core = {add_core = THIS}}
+			change_tag = SAM
+			any_country = {
+                limit = {
+                    primary_culture = brazilian
+                    in_sphere = THIS
+                    NOT = { tag = THIS }
+                    OR = {
+                        is_vassal = no
+                        vassal_of = THIS
+                    }
+                }
+                country_event = 11106
+            }
+			
+			prestige = 10
+		}
+	}
+	afro_vespuccian_int = {
+		potential = {
+			tag = SAM
+			NOT = {accepted_culture = afro_brazilian}
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			add_accepted_culture = afro_brazilian
+		}
+	}
+	new_life_nw = {
+		picture = dreams_of_empire
+		potential = {
+			OR = {
+				capital_scope = {continent = south_america} 
+				capital_scope = {continent = north_america}
+				tag = SAF
+				tag = AST
+				}
+			NOT = {tag = ARG}
+			NOT = {tag = INC}
+			NOT = {tag = CEE}
+		NOT = {has_country_flag = new_life_nw}
+		}
+		allow = {
+		war = no
+		state_n_government = 1
+		slavery = no_slavery
+		number_of_states = 2
+		is_vassal = no
+		civilized = yes
+		}
+		effect = {
+			set_country_flag = new_life_nw
+			add_country_modifier = {name = small_immigration_boom duration = 3650}
+		}
+	}
+}

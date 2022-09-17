@@ -1,0 +1,29 @@
+country_event = {
+    id = 210003
+	picture = "cyprus_convention_result"
+    title = "A Puppet is Us"
+    desc = "ok?"
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "On god?"
+		prestige = 1
+		add_accepted_culture = north_german
+		set_global_flag = real_latvia
+    }
+	
+    trigger = {
+	LAT = {is_vassal = yes}
+	overlord = {OR = {primary_culture = north_german primary_culture = russian}}
+	tag = LAT
+	NOT = {has_global_flag = real_latvia}
+	354 = {
+			culture = north_german
+		}
+    }
+
+    
+}

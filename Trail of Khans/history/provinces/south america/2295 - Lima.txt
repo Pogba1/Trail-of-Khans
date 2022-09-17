@@ -1,0 +1,11 @@
+owner = CUS
+controller = CUS
+add_core = CUS
+add_core = INC
+trade_goods = sulphur
+life_rating = 39
+naval_base = 1
+1861.1.1 = {
+    railroad = 1
+    naval_base = 1
+}

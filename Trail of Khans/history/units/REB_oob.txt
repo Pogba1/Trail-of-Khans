@@ -1,0 +1,15 @@
+army = {
+    name = "1ère. Manifestation <<Pacifique>>"
+    location = 139
+    regiment = {
+        name = "1. Regiment"
+        type = infantry
+        home = 139
+    }
+	
+	regiment = {
+        name = "2. Regiment"
+        type = artillery
+        home = 139
+    }
+}

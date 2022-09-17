@@ -1,0 +1,221 @@
+country_event = {
+    id = 135550
+    title = "Uprising in Munich" 
+    desc = "EVTDESC135550"
+    picture = "nationalists"
+	trigger = {
+	capital_scope = {province_id = 599}
+	tag = BAV
+	year = 1840
+	NOT = {has_global_flag = uprising_in_munich}
+	OR = {government = absolute_monarchy government = prussian_constitutionalism}
+		OR = {
+			any_owned_province = {any_pop = {has_pop_culture  = south_german}}
+			any_owned_province = {any_pop = {has_pop_culture  = north_german}}
+		}
+	}
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 5
+	}
+    option = {
+        name = "Do not bow to carpenters."
+		ai_chance = {
+		factor = 10
+		#modifier = {
+        #        factor = 0.1
+        #        pop_majority_religion = protestant
+        #    }
+		}
+        any_pop = { limit = {has_pop_culture = north_german} militancy = 4 consciousness = 5}
+		any_pop = { limit = {has_pop_culture = south_german} militancy = 8 consciousness = 5}
+		set_global_flag = uprising_in_munich
+		set_country_flag = surpress_carpenters
+        }
+	option = {
+        name = "Issue a Constitution"
+		prestige = -1
+		ai_chance = {
+		factor = 10
+		}
+        
+		government = hms_government
+			any_pop = { limit = {has_pop_culture = north_german} militancy = 1 consciousness = 1}
+			any_pop = { limit = {has_pop_culture = south_german} militancy = 1 consciousness = 1}
+			set_global_flag = uprising_in_munich
+			set_country_flag = issue_constitution
+			upper_house_composition = appointed
+			vote_franschise = wealth_voting
+			public_meetings = yes_meeting
+			press_rights = censored_press
+			trade_unions = non_socialist
+			voting_system = first_past_the_post
+			political_parties = non_secret_ballots
+        }
+		
+		option = {
+        name = "Reisst die Konkubine aus dem Pfaffenbett!"
+		prestige = -5
+		ai_chance = {
+		factor = 1
+		}
+        
+		government = democracy
+			any_pop = { limit = {has_pop_culture = north_german} militancy = -2 consciousness = -4}
+			any_pop = { limit = {has_pop_culture = south_german} militancy = -2 consciousness = -4}
+			political_reform = universal_voting
+			political_reform = gerrymandering
+			political_reform = population_equal_weight
+			political_reform = free_press
+			set_global_flag = uprising_in_munich
+			set_country_flag = democratic_bav
+        }
+	}
+	
+#country_event = {
+    #id = 135551
+    #title = "Separate American Identity" 
+    #desc = "EVTDESC135551"
+    #picture = "nationalists"
+	#trigger = {
+	#2205 = {owned_by = THIS}
+	#year = 1837
+	#NOT = {has_global_flag = separate_american_identity}
+	#}
+	#allow_multiple_instances = no
+	
+	#mean_time_to_happen = {
+	#days = 30
+	#}
+    #option = {
+        #name = "Rip to a real one."
+		#UCA_2197 = {add_core = UCA}
+		#UCA_2201 = {add_core = UCA}
+		#CLM_1723 = {add_core = UCA}
+		#LUB_2254 = {add_core = UCA}
+		#2217 = {add_core = UCA}
+		#any_pop = { limit = {has_pop_culture = afro_german} militancy = 8 consciousness = 5}
+		#set_global_flag = separate_american_identity
+        #}
+	#}
+
+country_event = {
+    id = 135552
+    title = "German Boom" 
+    desc = "EVTDESC135552"
+    picture = "nationalists"
+	trigger = {
+	year = 1838
+	OR={
+	primary_culture = south_german
+	primary_culture = north_german
+	}
+	NOT = {has_country_flag = german_boom}
+	}
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 30
+	}
+    option = {
+        name = "Big if true"
+		any_owned = {
+		limit = {
+		OR={
+		pop_majority_culture = south_german
+		pop_majority_culture = north_german
+		}
+		}
+		add_province_modifier = { name = german_boom duration = 1460 }
+		
+		}
+		set_country_flag=german_boom
+        }
+	}
+	
+country_event = {
+	id = 135553
+	title = "Mittel-Amerika demands self-governance"
+	desc = "EVTDESC135553"
+	picture = "nationalists"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We will grant them their wish"
+		release_vassal = UCA
+		create_alliance = UCA
+		relation = {
+			who = UCA
+			value = 150
+		}
+		prestige = -15
+	}
+	
+	option = {
+		name = "These demands mean war!"
+		release_vassal = UCA
+		
+		war = {
+			target = UCA
+			
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 135554
+	title = "Our path to independence"
+	desc = "EVTDESC135554"
+	picture = "nationalists"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = UCA
+		UCA = {
+			total_pops = 350000
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "We will pursue independence"
+		LUB = {
+			country_event = {
+				id = 135553
+				days = 7
+			}
+		}
+		prestige = 10
+		money = 40000
+		ai_will_do = {
+			factor = 0.75
+		}
+	}
+	
+	option = {
+		name = "This is not worth the effort"
+		prestige = -15
+		any_pop = {
+			limit = {
+				has_pop_culture = afro_german
+			}
+			militancy = 3
+			consciousness = 5
+		}
+		ai_will_do = {
+			factor = 0.25
+		}
+	}
+}

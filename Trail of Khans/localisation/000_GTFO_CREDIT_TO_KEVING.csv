@@ -1,0 +1,14 @@
+﻿key;big chungus;;;;;;;x
+release_vassals_title;Manage Vassals;;;;;;;x
+release_vassals_desc;Trigger an event for each vassal which then triggers an event from them to us in which we can decide to free them or not.;;;;;;;x
+EVTNAME91306;Manage Vassals;;;;;;;x
+EVTDESC91306;Trigger an event for each vassal which then triggers an event from them to us in which we can decide to free them or not.;;;;;;;x
+EVTOPTA91306;Make each vassal send an event to us that lets use choose to free them or not.;;;;;;;x
+EVTOPTB91306;Do nothing.;;;;;;;x
+EVTNAME91307;Freedom?;;;;;;;x
+EVTDESC91307;Our overlord is considering granting us our freedom.;;;;;;;x
+EVTOPTA91307;One can only hope.;;;;;;;x
+EVTNAME91308;$FROMCOUNTRY$ Requests Independence;;;;;;;x
+EVTDESC91308;We can grant independence to $FROMCOUNTRY$.;;;;;;;x
+EVTOPTA91308;Let them be free.;;;;;;;x
+EVTOPTB91308;Don't let them be free.;;;;;;;x
