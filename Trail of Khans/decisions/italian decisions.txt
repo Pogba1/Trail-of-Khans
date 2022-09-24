@@ -301,10 +301,18 @@ political_decisions = {
 	
     form_rome = { 
 		potential = { 
-			is_culture_group = italian 
+			OR = {
+				primary_culture = dalmatian
+				is_culture_group = italian 
+			}
 			NOT = { 
 				ITA = { exists = yes } 
 			} 
+			NOT = {
+				RMR = { 
+					exists = yes
+				}
+			}
 		}
  	    
 		allow = {

@@ -1683,7 +1683,10 @@ military_reforms = {
             research_points_on_conquer = 0.25
 
             allow = {
-                any_owned_province = { port = yes }
+                OR = {
+                    ai = yes
+                    any_owned_province = { port = yes }
+                }
                 OR = {
                     ai = no
                     AND = {
@@ -1728,7 +1731,10 @@ military_reforms = {
 
             allow = {
                 NOT = { has_country_flag = lacking_writing_system }
-                any_owned_province = { port = yes }
+                OR = {
+                    ai = yes
+                    any_owned_province = { port = yes }
+                }
                 OR = {
                     ai = no
                     AND = {
@@ -1773,7 +1779,11 @@ military_reforms = {
 			research_points_on_conquer = 0.25
 
             allow = {
-                any_owned_province = { has_building = naval_base }
+                OR = {
+                    ai = yes
+                    any_owned_province = { has_building = naval_base }
+                }
+            
                 OR = {
                     ai = no
                     AND = {
@@ -1819,7 +1829,10 @@ military_reforms = {
 			research_points_on_conquer = 0.25
 
             allow = {
-                any_owned_province = { port = yes }
+                OR = {
+                    ai = yes
+                    any_owned_province = { port = yes }
+                }
                 OR = {
                     ai = no
                     AND = {
