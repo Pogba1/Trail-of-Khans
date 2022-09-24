@@ -437,6 +437,9 @@ political_decisions = {
 							culture = south_german
 						}
 						NOT = { is_core = PRU }
+                        NOT = { is_core = EST }
+                        NOT = { is_core = LAT }
+                        NOT = { is_core = LIT }
 					} 
 				add_core = GER 
 				}
@@ -700,9 +703,9 @@ political_decisions = {
     #            change_province_name = "Kolmar"
     #        }
     #        409 = {
-    #            change_province_name = "Straßburg"
+    #            change_province_name = "Straï¿½burg"
     #            state_scope = {
-    #                change_region_name = "Elsaß-Lothringen"
+    #                change_region_name = "Elsaï¿½-Lothringen"
     #            }
     #        }
     #        prestige = 5

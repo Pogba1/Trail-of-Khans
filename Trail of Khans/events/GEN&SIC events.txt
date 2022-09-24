@@ -11,16 +11,28 @@ country_event = {
 	is_triggered_only = yes
 	
     option = {	
-	          name = "To war!"
-              GEN = { 
-			         war = {
-	                        target = SIC
-	                        attacker_goal = { casus_belli = conquest }
-							defender_goal = { casus_belli = cut_down_to_size }
-	                    }       
-             }
-      }
-}	
+	    name = "To war!"
+        GEN = { 
+			add_casus_belli = {
+				target = SIC
+				type = conquest
+				months = 1
+			}
+		}
+		SIC = {
+			add_casus_belli = {
+				target = GEN
+				type = conquest
+				months = 1
+			}
+		}
+		war = {
+	        target = SIC
+	        attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = conquest }
+	    }       
+	}	
+}
 
 #######
 #Sicly#
@@ -28,21 +40,35 @@ country_event = {
 
 country_event = {
                  
-				 id = 99532
-				 title = "EVTNAME99532"
-				 desc = "EVTDESC99532"
+	id = 99532
+	title = "EVTNAME99532"
+	desc = "EVTDESC99532"
 				 
-				 is_triggered_only = yes
+	is_triggered_only = yes
 				 
-				 option = {
-				           name = "To war!"
-						   SIC = {
-						          war = {
-								         target = GEN
-										 attacker_goal = { casus_belli = conquest }
-										 defender_goal = { casus_belli = cut_down_to_size }
-									}
-						  }
-			   }
+	option = {
+		name = "To war!"
+        GEN = { 
+			add_casus_belli = {
+				target = SIC
+				type = conquest
+				months = 1
+			}
+		}
+		SIC = {
+			add_casus_belli = {
+				target = GEN
+				type = conquest
+				months = 1
+			}
+		}
+		SIC = {
+			war = {
+				target = GEN
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = conquest }
+			}
+		}
+	}
 }
 
