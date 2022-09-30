@@ -47,6 +47,7 @@ political_decisions = {
 			TUR_788 = {
 				add_core = ILY
 			}
+			create_vassal = ILY
 			set_country_flag = control_dalmatia
 		}
 	}
