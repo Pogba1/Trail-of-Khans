@@ -5,11 +5,22 @@ political_decisions = {
 	    potential = {
 			tag = RMR
 			NOT = { has_country_flag = control_dalmatia}
+			DLM = {
+				exists = yes
+			}
 		}
 		allow = {
-			DLM = {
-				any_owned_province = {
-					controlled_by = THIS
+			OR = {
+				DLM = {
+					any_owned_province = {
+						controlled_by = THIS
+					}
+					all_core = {
+						owned_by = DLM
+					}
+				}
+				DLM = {
+					exists = no
 				}
 			}
 		}
