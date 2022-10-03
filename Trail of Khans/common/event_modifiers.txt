@@ -3051,7 +3051,7 @@ minor_resurgent_capital = {
 }
 
 decentralized_government = {
-    tax_efficiency = 0.15
+    tax_efficiency = -0.05
     administrative_efficiency_modifier = -0.05
     research_points_modifier = 0.10
     RGO_throughput = 0.05
@@ -3068,7 +3068,7 @@ decentralized_government = {
     assimilation_rate = -0.15
     mobilisation_economy_impact = -0.1
     factory_cost = -0.15
-    reinforce_speed = -0.05
+    reinforce_speed = -0.10
     education_efficiency_modifier = 0.05
     max_military_spending = -0.15
 }
