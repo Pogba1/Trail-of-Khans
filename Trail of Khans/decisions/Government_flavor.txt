@@ -184,31 +184,4 @@ political_decisions = {
             }
         }
     }
-
-    change_government_policy = {
-        potential = {
-            OR = {
-                has_country_modifier = centralized_government
-                has_country_modifier = decentralized_government
-            }
-            NOT = {
-                has_country_modifier = government_policy_solidifies
-            }
-            NOT = {
-                has_country_modifier = government_policy_change
-            }
-        }
-        allow = {
-            war = no
-        }
-        effect = {
-            remove_country_modifier = centralized_government
-            remove_country_modifier = decentralized_government
-            add_country_modifier = {
-                name = government_policy_change
-                duration = 3650
-            }
-            prestige = -20
-        }
-    }
 }
