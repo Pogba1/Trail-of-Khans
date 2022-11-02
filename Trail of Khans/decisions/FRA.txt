@@ -43,7 +43,7 @@ political_decisions = {
 			}
 		effect = {
 			set_country_flag = retake_north
-			add_accpeted_culture = breton 
+			add_accepted_culture = breton 
 			424 = {add_core = THIS}
 			421 = {add_core = THIS}
 			420 = {add_core = THIS}
