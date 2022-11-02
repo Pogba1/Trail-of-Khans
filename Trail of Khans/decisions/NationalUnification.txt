@@ -440,6 +440,7 @@ political_decisions = {
                         NOT = { is_core = EST }
                         NOT = { is_core = LAT }
                         NOT = { is_core = LIT }
+                        NOT = { state_id = FRA_411 }
 					} 
 				add_core = GER 
 				}
