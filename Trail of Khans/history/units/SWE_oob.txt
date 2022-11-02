@@ -4,6 +4,10 @@ NOR = {
     influence_value = 100
 }
 
+LUB = {
+    value = -100
+    truce_until = 1839.9.25
+}
 
 leader = {
     name = "Carl Nordenskjöld"

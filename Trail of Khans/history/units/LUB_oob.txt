@@ -16,6 +16,10 @@ leader = {
     background = expert_raider
 }
 
+SWE = {
+    value = -100
+    truce_until = 1839.9.25
+}
 army = {
     name = "Erste Armee"
     location = 530
