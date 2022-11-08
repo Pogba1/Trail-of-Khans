@@ -239,15 +239,17 @@ FRA_467 = { 467 468  470 471 } #Provence
 
 ### Spain & Portugal
 
-SPA_474 = { 474 476 } #Galicia
+SPA_474 = { 474 476 518 519 } #Galicia
 
-SPA_477 = { 477 479 480 481 482 483 475 478 } #Le�n-Castilla
+SPA_475 = { 475 477 480 482 483 } #Léon
+
+SPA_478 = { 478 479 481 492 493 494 } #Castillia-Navarra
 
 SPA_484 = { 484 485 486 } #Extremadura
 
 SPA_487 = { 487 488 489 490 491 } #Castilla la Nueva
 
-SPA_492 = { 492 493 494 495 496 497 } #Vasconia-Arag�n
+SPA_492 = { 495 496 497 } #Vasconia-Arag�n
 
 SPA_498 = { 498 499 500 501 502 } #Catalonia
 
@@ -257,11 +259,9 @@ SPA_512 = { 512 509 510 511 517 } #Andalucia
 
 SPA_513 = { 513 514 515 516 } #Granada
 
-POR_518 = { 518 519 520 } #Douro
+POR_521 = { 520 521 522 523 } #Estremadura
 
-POR_521 = { 521 522 523 524 } #Estremadura
-
-POR_525 = { 525 526 527 } #Alentejo
+POR_525 = { 524 525 526 527 } #Alentejo
 
 POR_2134 = { 2134 2135 2136 } #Macaronesia
 
