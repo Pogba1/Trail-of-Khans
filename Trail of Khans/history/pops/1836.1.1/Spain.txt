@@ -16,7 +16,7 @@
     bureaucrats = {
         culture = spanish
         religion = catholic
-        size = 650
+        size = 1625
     }
 
     clergymen = {
@@ -157,7 +157,7 @@
     bureaucrats = {
         culture = spanish
         religion = catholic
-        size = 400
+        size = 1000
     }
 
     clergymen = {
@@ -202,6 +202,12 @@
         culture = spanish
         religion = catholic
         size = 3500
+    }
+    
+    craftsmen = {
+        culture = spanish
+        religion = catholic
+        size = 8490
     }
 
     soldiers = {
@@ -334,7 +340,7 @@
     bureaucrats = {
         culture = spanish
         religion = catholic
-        size = 350
+        size = 875
     }
 
     clergymen = {
@@ -444,7 +450,7 @@
     bureaucrats = {
         culture = portuguese
         religion = sunni
-        size = 250
+        size = 625
     }
 
     clergymen = {
@@ -569,7 +575,7 @@
     bureaucrats = {
         culture = spanish
         religion = catholic
-        size = 1100
+        size = 2750
     }
 
     clergymen = {
@@ -859,7 +865,7 @@
     bureaucrats = {
         culture = basque
         religion = catholic
-        size = 150
+        size = 375
         
     }
 
@@ -906,7 +912,7 @@
     bureaucrats = {
         culture = spanish
         religion = catholic
-        size = 200
+        size = 500
     }
 
     clergymen = {
@@ -984,7 +990,7 @@
     bureaucrats = {
         culture = spanish
         religion = catholic
-        size = 300
+        size = 750
     }
 
     clergymen = {
@@ -1140,7 +1146,7 @@
 	bureaucrats = {
         culture = french
         religion = catholic
-        size = 400
+        size = 1000
     }
 
     officers = {
@@ -1152,7 +1158,7 @@
     bureaucrats = {
         culture = catalan
         religion = catholic
-        size = 550
+        size = 1375
     }
 
     clergymen = {
@@ -1212,7 +1218,7 @@
     bureaucrats = {
         culture = catalan
         religion = catholic
-        size = 200
+        size = 500
     }
 
     clergymen = {
@@ -1528,7 +1534,7 @@
     bureaucrats = {
         culture = spanish
         religion = catholic
-        size = 275
+        size = 687
     }
 
     clergymen = {
@@ -1576,7 +1582,7 @@
     bureaucrats = {
         culture = catalan
         religion = catholic
-        size = 225
+        size = 562
     }
 
     clergymen = {
@@ -1752,7 +1758,7 @@
     bureaucrats = {
         culture = portuguese
         religion = sunni
-        size = 900
+        size = 2250
     }
 
     clergymen = {
@@ -1877,7 +1883,7 @@
     bureaucrats = {
         culture = portuguese
         religion = sunni
-        size = 450
+        size = 1125
     }
 
     clergymen = {
@@ -1904,6 +1910,11 @@
         size = 5000
     }
 
+    craftsmen = {
+        culture = portuguese
+        religion = sunni
+        size = 7680
+    }
     soldiers = {
         culture = portuguese
         religion = sunni
@@ -1935,6 +1946,11 @@
         size = 4000
     }
 
+    craftsmen = {
+        culture = portuguese
+        religion = sunni
+        size = 8930
+    }
     artisans = {
         culture = portuguese
         religion = sunni
@@ -2042,7 +2058,7 @@
     bureaucrats = {
         culture = portuguese
         religion = sunni
-        size = 500
+        size = 1250
     }
 
     clergymen = {
@@ -2051,6 +2067,11 @@
         size = 950
     }
 
+    craftsmen = {
+        culture = portuguese
+        religion = sunni
+        size = 4360
+    }
     artisans = {
         culture = portuguese
         religion = sunni
@@ -2095,6 +2116,11 @@
         size = 10000
     }
 
+    craftsmen = {
+        culture = portuguese
+        religion = sunni
+        size = 3890
+    }
     artisans = {
         culture = portuguese
         religion = sunni
@@ -2197,7 +2223,7 @@
     bureaucrats = {
         culture = portuguese
         religion = sunni
-        size = 75
+        size = 187
     }
 
     clergymen = {

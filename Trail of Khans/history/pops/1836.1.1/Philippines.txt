@@ -11,7 +11,7 @@
     bureaucrats = {
         culture = south_italian
         religion = catholic
-        size = 400
+        size = 1000
     }
 
     clergymen = {
@@ -41,7 +41,7 @@
     bureaucrats = {
         culture = filipino
         religion = catholic
-        size = 450
+        size = 1125
     }
 
     clergymen = {
@@ -491,7 +491,7 @@
     bureaucrats = {
         culture = south_italian
         religion = catholic
-        size = 125
+        size = 312
     }
 
     clergymen = {
@@ -515,7 +515,7 @@
     bureaucrats = {
         culture = filipino
         religion = catholic
-        size = 375
+        size = 937
     }
 
     clergymen = {
@@ -568,7 +568,7 @@
     bureaucrats = {
         culture = north_italian
         religion = catholic
-        size = 75
+        size = 187
     }
 
     clergymen = {
@@ -777,7 +777,7 @@
     bureaucrats = {
         culture = malay
         religion = sunni
-        size = 75
+        size = 187
     }
 
     officers = {

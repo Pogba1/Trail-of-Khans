@@ -5,7 +5,7 @@
     bureaucrats = {
         culture = slovak
         religion = catholic
-        size = 100
+        size = 250
     }
 
     capitalists = {
@@ -71,7 +71,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 200
+        size = 500
     }
 
     officers = {
@@ -185,7 +185,7 @@
     bureaucrats = {
         culture = polish
         religion = catholic
-        size = 275
+        size = 687
     }
 
     officers = {
@@ -331,7 +331,7 @@
     bureaucrats = {
         culture = polish
         religion = catholic
-        size = 50
+        size = 125
     }
 
     officers = {
@@ -393,7 +393,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 300
+        size = 750
     }
 
     officers = {
@@ -587,7 +587,7 @@
     bureaucrats = {
         culture = polish
         religion = catholic
-        size = 50
+        size = 125
     }
 
     clergymen = {
@@ -663,7 +663,7 @@
     bureaucrats = {
         culture = slovak
         religion = catholic
-        size = 75
+        size = 187
     }
 
     officers = {
@@ -717,7 +717,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 400
+        size = 1000
     }
 
     officers = {
@@ -813,7 +813,7 @@
     bureaucrats = {
         culture = polish
         religion = catholic
-        size = 200
+        size = 500
     }
 
     clergymen = {

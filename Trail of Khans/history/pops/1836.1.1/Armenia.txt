@@ -5,7 +5,7 @@
     bureaucrats = {
         culture = greek
         religion = orthodox
-        size = 250
+        size = 625
     }
 
     clergymen = {
@@ -29,7 +29,7 @@
     bureaucrats = {
         culture = armenian
         religion = coptic
-        size = 25
+        size = 62
     }
 
     officers = {

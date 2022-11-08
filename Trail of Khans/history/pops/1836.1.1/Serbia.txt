@@ -405,7 +405,7 @@
     bureaucrats = {
         culture = south_german
         religion = catholic
-        size = 500
+        size = 1250
     }
 
     aristocrats = {
@@ -417,7 +417,7 @@
     bureaucrats = {
         culture = serb
         religion = orthodox
-        size = 100
+        size = 250
     }
 
     officers = {
@@ -675,7 +675,7 @@
     bureaucrats = {
         culture = bulgarian
         religion = orthodox
-        size = 150
+        size = 375
     }
 
     officers = {
@@ -881,7 +881,7 @@
     bureaucrats = {
         culture = albanian
         religion = orthodox
-        size = 150
+        size = 375
     }
 
     officers = {

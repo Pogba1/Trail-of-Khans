@@ -4,5 +4,15 @@ add_core = QUE
 add_core = IRO
 trade_goods = grain
 life_rating = 38
-colonial = 0
-1861.1.1 = { railroad = 3 }
+
+state_building = {
+    level = 1
+    building = liquor_distillery
+    upgrade = yes
+}
+
+state_building = {
+    level = 1
+    building = canned_food_factory
+    upgrade = yes
+}

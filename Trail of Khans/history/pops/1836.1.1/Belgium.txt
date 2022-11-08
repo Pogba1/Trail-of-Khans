@@ -72,7 +72,7 @@
     bureaucrats = {
         culture = dutch
         religion = catholic
-        size = 400
+        size = 1000
     }
 
     clergymen = {
@@ -132,7 +132,7 @@
     bureaucrats = {
         culture = dutch
         religion = catholic
-        size = 800
+        size = 2000
     }
 
     clergymen = {
@@ -434,7 +434,7 @@
 	bureaucrats = {
         culture = dutch
         religion = catholic
-        size = 200
+        size = 500
     }
     aristocrats = {
         culture = dutch
@@ -451,7 +451,7 @@
     bureaucrats = {
         culture = dutch
         religion = catholic
-        size = 500
+        size = 1250
     }
 
     clergymen = {
@@ -541,7 +541,7 @@
 	bureaucrats = {
         culture = dutch
         religion = catholic
-        size = 200
+        size = 500
     }
     clergymen = {
         culture = dutch
@@ -627,7 +627,7 @@
 	bureaucrats = {
         culture = dutch
         religion = catholic
-        size = 200
+        size = 500
     }
     clergymen = {
         culture = dutch
@@ -726,7 +726,7 @@
 	bureaucrats = {
         culture = dutch
         religion = catholic
-        size = 500
+        size = 1250
     }
     aristocrats = {
         culture = dutch
@@ -827,7 +827,7 @@
 	bureaucrats = {
         culture = dutch
         religion = catholic
-        size = 200
+        size = 500
     }
     aristocrats = {
         culture = dutch

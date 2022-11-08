@@ -60,7 +60,7 @@
     bureaucrats = {
         culture = panjabi
         religion = sikh
-        size = 50
+        size = 125
     }
 
     soldiers = {
@@ -78,7 +78,7 @@
     bureaucrats = {
         culture = pashtun
         religion = sunni
-        size = 150
+        size = 375
     }
 
     clergymen = {
@@ -244,7 +244,7 @@
     bureaucrats = {
         culture = baluchi
         religion = sunni
-        size = 250
+        size = 625
     }
 
     officers = {
@@ -294,12 +294,12 @@
 	bureaucrats = {
 		culture = parsis
 		religion = zoroastrian
-		size = 50
+        size = 125
 	}
     bureaucrats = {
         culture = baluchi
         religion = sunni
-        size = 50
+        size = 125
     }
 
     officers = {
@@ -345,7 +345,7 @@
     bureaucrats = {
         culture = panjabi
         religion = sikh
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -381,7 +381,7 @@
     bureaucrats = {
         culture = kashmiri
         religion = hindu
-        size = 75
+        size = 187
     }
 
     clergymen = {
@@ -417,7 +417,7 @@
     bureaucrats = {
         culture = kashmiri
         religion = sunni
-        size = 75
+        size = 187
     }
 
     clergymen = {
@@ -606,7 +606,7 @@
     bureaucrats = {
         culture = panjabi
         religion = sikh
-        size = 1400
+        size = 3500
     }
 
     officers = {
@@ -648,7 +648,7 @@
     bureaucrats = {
         culture = panjabi
         religion = hindu
-        size = 550
+        size = 1375
     }
 
     clergymen = {
@@ -690,7 +690,7 @@
     bureaucrats = {
         culture = panjabi
         religion = sunni
-        size = 900
+        size = 2250
     }
 
     clergymen = {
@@ -1473,7 +1473,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 100
+        size = 250
     }
 
     officers = {
@@ -1501,7 +1501,7 @@
 	bureaucrats = {
 		culture = parsis
 		religion = zoroastrian
-		size = 1150
+        size = 2875
 	
 	}
 	clergymen = {
@@ -1517,7 +1517,7 @@
     bureaucrats = {
         culture = avadhi
         religion = hindu
-        size = 1750
+        size = 4375
     }
 
     clergymen = {
@@ -1553,7 +1553,7 @@
     bureaucrats = {
         culture = panjabi
         religion = sunni
-        size = 3500
+        size = 8750
     }
 
     clergymen = {
@@ -1625,7 +1625,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 75
+        size = 187
     }
 }
 #Panipat (1280000/320000 POPS)
@@ -2317,7 +2317,7 @@
     bureaucrats = {
         culture = avadhi
         religion = sunni
-        size = 500
+        size = 1250
     }
 
     officers = {
@@ -2365,7 +2365,7 @@
     bureaucrats = {
         culture = avadhi
         religion = shiite
-        size = 700
+        size = 1750
     }
 
     officers = {
@@ -2413,7 +2413,7 @@
     bureaucrats = {
         culture = avadhi
         religion = hindu
-        size = 500
+        size = 1250
     }
 
     clergymen = {
@@ -2564,7 +2564,7 @@
     bureaucrats = {
         culture = bihari
         religion = hindu
-        size = 2250
+        size = 5625
     }
 
     artisans = {
@@ -2618,7 +2618,7 @@
     bureaucrats = {
         culture = bihari
         religion = sunni
-        size = 250
+        size = 625
     }
 
     artisans = {
@@ -2642,7 +2642,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 50
+        size = 125
     }
 }
 #Gaya (3056000/764000 POPS)
@@ -2869,7 +2869,7 @@
 	bureaucrats = {
 		culture = parsis
 		religion = zoroastrian
-		size = 3450
+        size = 8625
 	
 	}
 	clergymen = {
@@ -2891,7 +2891,7 @@
     bureaucrats = {
         culture = bengali
         religion = hindu
-        size = 6500
+        size = 16250
     }
 
     clergymen = {
@@ -2939,7 +2939,7 @@
     bureaucrats = {
         culture = bengali
         religion = sunni
-        size = 500
+        size = 1250
     }
 
     clergymen = {
@@ -2993,7 +2993,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 500
+        size = 1250
     }
 
     soldiers = {
@@ -3564,7 +3564,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 25
+        size = 62
     }
 
     aristocrats = {
@@ -3576,7 +3576,7 @@
     bureaucrats = {
         culture = asian_minor
         religion = hindu
-        size = 500
+        size = 1250
     }
 
     clergymen = {
@@ -3610,7 +3610,7 @@
     bureaucrats = {
         culture = asian_minor
         religion = sunni
-        size = 250
+        size = 625
     }
 
     clergymen = {
@@ -3677,7 +3677,7 @@
 	bureaucrats = {
 		culture = bengali
 		religion = sunni
-		size = 20
+        size = 50
 	}
     artisans = {
         culture = asian_minor
@@ -3877,7 +3877,7 @@
     bureaucrats = {
         culture = oriya
         religion = hindu
-        size = 250
+        size = 625
     }
 
     artisans = {
@@ -3913,7 +3913,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 25
+        size = 62
     }
 }
 #Ruled by Native Rulers 1836 (644000)
@@ -3928,7 +3928,7 @@
     bureaucrats = {
         culture = oriya
         religion = hindu
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -4014,7 +4014,7 @@
     bureaucrats = {
         culture = oriya
         religion = hindu
-        size = 50
+        size = 125
     }
 
     clergymen = {
@@ -4096,7 +4096,7 @@
     bureaucrats = {
         culture = rajput
         religion = hindu
-        size = 50
+        size = 125
     }
 
     artisans = {
@@ -4150,7 +4150,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 10
+        size = 25
     }
 }
 #Under rule of Jaisalmer 1836
@@ -4165,7 +4165,7 @@
     bureaucrats = {
         culture = rajput
         religion = hindu
-        size = 125
+        size = 312
     }
 
     officers = {
@@ -4240,7 +4240,7 @@
     bureaucrats = {
         culture = rajput
         religion = hindu
-        size = 350
+        size = 875
     }
 
     officers = {
@@ -4339,7 +4339,7 @@
     bureaucrats = {
         culture = rajput
         religion = hindu
-        size = 275
+        size = 687
     }
 
     officers = {
@@ -4427,7 +4427,7 @@
     bureaucrats = {
         culture = rajput
         religion = hindu
-        size = 450
+        size = 1125
     }
 
     officers = {
@@ -4532,7 +4532,7 @@
     bureaucrats = {
         culture = rajput
         religion = hindu
-        size = 350
+        size = 875
     }
 
     officers = {
@@ -4621,7 +4621,7 @@
     bureaucrats = {
         culture = marathi
         religion = hindu
-        size = 250
+        size = 625
     }
 
     officers = {
@@ -4702,7 +4702,7 @@
     bureaucrats = {
         culture = marathi
         religion = hindu
-        size = 250
+        size = 625
     }
 
     officers = {
@@ -4777,7 +4777,7 @@
     bureaucrats = {
         culture = marathi
         religion = hindu
-        size = 200
+        size = 500
     }
 
     officers = {
@@ -4858,7 +4858,7 @@
     bureaucrats = {
         culture = kanauji
         religion = hindu
-        size = 150
+        size = 375
     }
 
     clergymen = {
@@ -4944,7 +4944,7 @@
     bureaucrats = {
         culture = kanauji
         religion = hindu
-        size = 200
+        size = 500
     }
 
     clergymen = {
@@ -5044,7 +5044,7 @@
     bureaucrats = {
         culture = marathi
         religion = hindu
-        size = 850
+        size = 2125
     }
 
     artisans = {
@@ -5086,7 +5086,7 @@
     bureaucrats = {
         culture = avadhi
         religion = sunni
-        size = 50
+        size = 125
     }
 
     artisans = {
@@ -5110,7 +5110,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 25
+        size = 62
     }
 }
 #Hothaigabad (596000/149000 POPS)
@@ -5182,7 +5182,7 @@
     bureaucrats = {
         culture = marathi
         religion = hindu
-        size = 1150
+        size = 2875
     }
 
     officers = {
@@ -5492,7 +5492,7 @@
     bureaucrats = {
         culture = telegu
         religion = hindu
-        size = 350
+        size = 875
     }
 
     officers = {
@@ -5504,7 +5504,7 @@
     bureaucrats = {
         culture = telegu
         religion = hindu
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -5597,7 +5597,7 @@
     bureaucrats = {
         culture = kanauji
         religion = hindu
-        size = 125
+        size = 312
     }
 
     clergymen = {
@@ -5667,7 +5667,7 @@
 	bureaucrats = {
 		culture = parsis
 		religion = zoroastrian
-		size = 2300
+        size = 5750
 	
 	}
 	clergymen = {
@@ -5732,7 +5732,7 @@
     bureaucrats = {
         culture = avadhi
         religion = sunni
-        size = 2250
+        size = 5625
     }
 
     officers = {
@@ -6105,7 +6105,7 @@
 	bureaucrats = {
 		culture = parsis
 		religion = zoroastrian
-		size = 1150
+        size = 2875
 	
 	}
 	clergymen = {
@@ -6127,7 +6127,7 @@
     bureaucrats = {
         culture = sindi
         religion = sunni
-        size = 800
+        size = 2000
     }
 
     officers = {
@@ -6380,7 +6380,7 @@
     bureaucrats = {
         culture = gujarati
         religion = hindu
-        size = 350
+        size = 875
     }
 
     artisans = {
@@ -6434,7 +6434,7 @@
     bureaucrats = {
         culture = sindi
         religion = sunni
-        size = 50
+        size = 125
     }
 
     artisans = {
@@ -6464,7 +6464,7 @@
     bureaucrats = {
         culture = swedish
         religion = protestant
-        size = 10
+        size = 25
     }
 }
 #Surat (1072000/268000 POPS)
@@ -6472,7 +6472,7 @@
 	bureaucrats = {
 		culture = parsis
 		religion = zoroastrian
-		size = 1450
+        size = 3625
 	
 	}
 	clergymen = {
@@ -6643,7 +6643,7 @@
     bureaucrats = {
         culture = gujarati
         religion = hindu
-        size = 900
+        size = 2250
     }
 
     officers = {
@@ -6748,7 +6748,7 @@
     bureaucrats = {
         culture = gujarati
         religion = hindu
-        size = 500
+        size = 1250
     }
 
     clergymen = {
@@ -6840,7 +6840,7 @@
     bureaucrats = {
         culture = gujarati
         religion = hindu
-        size = 75
+        size = 187
     }
 
     clergymen = {
@@ -6922,7 +6922,7 @@
 	bureaucrats = {
 		culture = parsis
 		religion = zoroastrian
-		size = 20000
+        size = 50000
 	
 	}
 	clergymen = {
@@ -6945,7 +6945,7 @@
     bureaucrats = {
         culture = marathi
         religion = hindu
-        size = 1500
+        size = 3750
     }
 
     artisans = {
@@ -7041,7 +7041,7 @@
     bureaucrats = {
         culture = sindi
         religion = sunni
-        size = 500
+        size = 1250
     }
 
     artisans = {
@@ -7095,7 +7095,7 @@
     bureaucrats = {
         culture = swedish
         religion = protestant
-        size = 250
+        size = 625
     }
 
     officers = {
@@ -7481,7 +7481,7 @@
     bureaucrats = {
         culture = portuguese
         religion = catholic
-        size = 25
+        size = 62
     }
 
     clergymen = {
@@ -7511,7 +7511,7 @@
     bureaucrats = {
         culture = marathi
         religion = catholic
-        size = 75
+        size = 187
     }
 
     clergymen = {
@@ -7582,7 +7582,7 @@
     bureaucrats = {
         culture = telegu
         religion = hindu
-        size = 5000
+        size = 12500
     }
 
     clergymen = {
@@ -7636,7 +7636,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 75
+        size = 187
     }
 }
 #Masulipatnam (1736000/434000 POPS)
@@ -7863,7 +7863,7 @@
     bureaucrats = {
         culture = tamil
         religion = hindu
-        size = 2000
+        size = 5000
     }
 
     artisans = {
@@ -7947,7 +7947,7 @@
     bureaucrats = {
         culture = kannada
         religion = sunni
-        size = 500
+        size = 1250
     }
 
     artisans = {
@@ -7989,7 +7989,7 @@
     bureaucrats = {
         culture = dutch
         religion = catholic
-        size = 250
+        size = 625
     }
 
     soldiers = {
@@ -8227,7 +8227,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 10
+        size = 25
     }
 
     clergymen = {
@@ -8396,7 +8396,7 @@
     bureaucrats = {
         culture = kannada
         religion = hindu
-        size = 850
+        size = 2125
     }
 
     officers = {
@@ -8438,7 +8438,7 @@
     bureaucrats = {
         culture = kannada
         religion = sunni
-        size = 150
+        size = 375
     }
 
     clergymen = {
@@ -8902,7 +8902,7 @@
     bureaucrats = {
         culture = malayalam
         religion = hindu
-        size = 600
+        size = 1500
     }
 
     officers = {
@@ -9076,7 +9076,7 @@
     bureaucrats = {
         culture = tibetan
         religion = gelugpa
-        size = 20
+        size = 50
     }
 
     officers = {

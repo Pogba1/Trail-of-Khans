@@ -18,7 +18,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 125
+        size = 312
     }
 
     officers = {
@@ -104,7 +104,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 400
+        size = 1000
     }
 
     artisans = {
@@ -318,7 +318,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 100
+        size = 250
     }
 
     officers = {
@@ -384,7 +384,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 75
+        size = 187
     }
 
     officers = {
@@ -466,13 +466,13 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 600
+        size = 1500
     }
 
     bureaucrats = {
         culture = polish
         religion = catholic
-        size = 600
+        size = 1500
     }
 
     officers = {
@@ -592,7 +592,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 500
+        size = 1250
     }
 
     officers = {
@@ -1132,7 +1132,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 700
+        size = 1750
     }
 
     artisans = {
@@ -1268,7 +1268,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 500
+        size = 1250
     }
 
     artisans = {
@@ -1390,7 +1390,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 600
+        size = 1500
     }
 
     clergymen = {
@@ -1512,7 +1512,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 600
+        size = 1500
     }
 
     clergymen = {

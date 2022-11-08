@@ -16,7 +16,7 @@
     bureaucrats = {
         culture = spanish
         religion = catholic
-        size = 800
+        size = 2000
     }
 
     clergymen = {
@@ -141,7 +141,7 @@
     bureaucrats = {
         culture = portuguese
         religion = sunni
-        size = 650
+        size = 1625
     }
 
     clergymen = {
@@ -294,7 +294,7 @@
     bureaucrats = {
         culture = portuguese
         religion = sunni
-        size = 150
+        size = 375
     }
 
     clergymen = {
@@ -404,7 +404,7 @@
     bureaucrats = {
         culture = portuguese
         religion = sunni
-        size = 100
+        size = 250
     }
 
     clergymen = {

@@ -84,7 +84,9 @@ political_decisions = {
 			change_tag = GBY
 			WUR = {all_core = {add_core = GBY}}
 			BAD = {all_core = {add_core = GBY}}
-			LOR = {all_core = {add_core = GBY add_core = GER}}
+			FRA_412 = {
+				add_core = GBY
+			}
 			#inherit = LOR
 			inherit = WUR
 			inherit = BAD

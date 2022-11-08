@@ -4,23 +4,21 @@ add_core = IRE
 trade_goods = grain
 naval_base = 1
 life_rating = 40
-party_loyalty = {
-    ideology = liberal
-    loyalty_value = 20
+
+state_building = {
+    level = 1
+    building = clipper_shipyard
+    upgrade = yes
 }
-1861.1.1 = {
-    state_building = {
-        level = 1
-        building = fabric_factory
-        upgrade = yes
-    }
-    state_building = {
-        level = 1
-        building = furniture_factory
-        upgrade = yes
-    }
+
+state_building = {
+    level = 2
+    building = regular_clothes_factory
+    upgrade = yes
 }
-1861.1.1 = {
-    railroad = 3
-    naval_base = 2
+
+state_building = {
+    level = 1
+    building = machine_parts_factory
+    upgrade = yes 
 }

@@ -12,7 +12,7 @@
     bureaucrats = {
         culture = tuareg
         religion = sunni
-        size = 100
+        size = 250
     }
 
     officers = {
@@ -54,7 +54,7 @@
     bureaucrats = {
         culture = bedouin
         religion = sunni
-        size = 100
+        size = 250
     }
 
     officers = {
@@ -194,7 +194,7 @@
     bureaucrats = {
         culture = tuareg
         religion = animist
-        size = 300
+        size = 750
     }
 
     clergymen = {
@@ -244,7 +244,7 @@
     bureaucrats = {
         culture = tuareg
         religion = animist
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -338,7 +338,7 @@
     bureaucrats = {
         culture = tuareg
         religion = sunni
-        size = 50
+        size = 125
     }
 
     officers = {
@@ -416,7 +416,7 @@
     bureaucrats = {
         culture = tuareg
         religion = sunni
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -452,7 +452,7 @@
     bureaucrats = {
         culture = bedouin
         religion = sunni
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -510,7 +510,7 @@
     bureaucrats = {
         culture = bedouin
         religion = sunni
-        size = 100
+        size = 250
     }
 
     artisans = {
@@ -609,7 +609,7 @@
     bureaucrats = {
         culture = tuareg
         religion = sunni
-        size = 100
+        size = 250
     }
 
     artisans = {
@@ -679,7 +679,7 @@
     bureaucrats = {
         culture = tuareg
         religion = sunni
-        size = 100
+        size = 250
     }
 
     officers = {

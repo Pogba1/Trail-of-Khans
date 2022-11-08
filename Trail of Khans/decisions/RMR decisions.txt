@@ -5,22 +5,15 @@ political_decisions = {
 	    potential = {
 			tag = RMR
 			NOT = { has_country_flag = control_dalmatia}
-			DLM = {
-				exists = yes
-			}
 		}
 		allow = {
-			OR = {
-				DLM = {
-					any_owned_province = {
-						controlled_by = THIS
-					}
-					all_core = {
-						owned_by = DLM
-					}
+			DLM = {
+				exists = yes
+				any_owned_province = {
+					controlled_by = THIS
 				}
-				DLM = {
-					exists = no
+				all_core = {
+					owned_by = DLM
 				}
 			}
 		}
@@ -60,6 +53,38 @@ political_decisions = {
 			}
 			create_vassal = ILY
 			set_country_flag = control_dalmatia
+		}
+	}
+
+	integrate_the_illyrians = {
+		potential = {
+			tag = RMR
+			NOT = {
+				OR = {
+					has_country_flag = control_dalmatia
+					has_country_flag = integrate_illyrians
+				}
+			}
+		}
+		allow = {
+			war = no
+			DLM = {
+				exists = no
+			}
+			AUS_736 = {
+				owned_by = THIS
+			}
+			AUS_780 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			add_accepted_culture = dalmatian
+			DLM = {
+				all_core = {
+					add_core = THIS
+				}
+			}
 		}
 	}
 	

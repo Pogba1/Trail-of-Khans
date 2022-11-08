@@ -752,7 +752,7 @@
 	bureaucrats = {
 	    culture = cree
 		religion = catholic
-		size = 392
+        size = 980
 	}
 	
 	clergymen = {
@@ -790,7 +790,7 @@
     bureaucrats = {
 		culture = cree
 		religion = catholic
-		size = 225
+        size = 562
 	}
 	
 	soldiers = {
@@ -993,7 +993,7 @@
     bureaucrats = {
 		culture = cree
 		religion = catholic
-		size = 277
+        size = 692
 	}
 	
     clergymen = {
@@ -1037,7 +1037,7 @@
 	bureaucrats = {
 	    culture = cree
 		religion = catholic
-		size = 985
+        size = 2462
 	}
     clergymen = {
         culture = cree
@@ -1087,7 +1087,7 @@
 	bureaucrats = {
 	    culture = cree
 		religion = catholic
-		size = 649
+        size = 1622
 	}
 	
     artisans = {
@@ -1435,13 +1435,19 @@
     bureaucrats = {
         culture = iroquois 
         religion = catholic
-        size = 250
+        size = 625
     }
 
     clergymen = {
         culture = french_canadian
         religion = catholic
         size = 230
+    }
+
+    craftsmen = {
+        culture = french_canadian
+        religion = catholic
+        size = 17403
     }
 
     artisans = {
@@ -1805,7 +1811,7 @@
     bureaucrats = {
         culture = french_canadian
         religion = protestant
-        size = 200
+        size = 500
     }
 
     clergymen = {
@@ -1841,7 +1847,7 @@
     bureaucrats = {
         culture = french_canadian
         religion = catholic
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -2055,6 +2061,12 @@
         size = 175
     }
 
+    craftsmen = {
+        culture = french_canadian
+        religion = catholic
+        size = 6840
+    }
+
     artisans = {
         culture = french_canadian
         religion = catholic
@@ -2213,7 +2225,7 @@
     bureaucrats = {
         culture = french_canadian
         religion = catholic
-        size = 75
+        size = 187
     }
 
     clergymen = {
@@ -2360,7 +2372,7 @@
     bureaucrats = {
         culture = french_canadian
         religion = protestant
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -2471,7 +2483,7 @@
     bureaucrats = {
         culture = norwegian
         religion = protestant
-        size = 50
+        size = 125
     }
 
     clergymen = {

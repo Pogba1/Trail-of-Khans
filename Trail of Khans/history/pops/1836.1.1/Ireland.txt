@@ -47,7 +47,7 @@
     bureaucrats = {
         culture = irish
         religion = catholic
-        size = 1125
+        size = 2812
     }
 
     clergymen = {
@@ -306,13 +306,13 @@
     bureaucrats = {
         culture = irish
         religion = catholic
-        size = 500
+        size = 1250
     }
 
     bureaucrats = {
         culture = irish
         religion = catholic
-        size = 250
+        size = 625
     }
 
     aristocrats = {
@@ -359,7 +359,7 @@
     bureaucrats = {
         culture = irish
         religion = catholic
-        size = 2000
+        size = 5000
     }
 
     officers = {
@@ -401,9 +401,14 @@
     farmers = {
         culture = irish
         religion = catholic
-        size = 188350
+        size = 168350
     }
 
+    craftsmen = {
+        culture = irish
+        religion = catholic
+        size = 25120
+    }
     aristocrats = {
         culture = irish
         religion = catholic
@@ -413,7 +418,7 @@
     bureaucrats = {
         culture = irish
         religion = catholic
-        size = 750
+        size = 1875
     }
 
     officers = {
@@ -466,10 +471,16 @@
         size = 6000
     }
 
+    craftsmen = {
+        culture = irish
+        religion = catholic
+        size = 15839
+    }
+    
     farmers = {
         culture = irish
         religion = catholic
-        size = 219500
+        size = 199500
     }
 }
 #Waterford (536000/134000 POPs)
@@ -518,7 +529,7 @@
     bureaucrats = {
         culture = irish
         religion = catholic
-        size = 625
+        size = 1562
     }
 
     aristocrats = {
@@ -530,7 +541,7 @@
     bureaucrats = {
         culture = irish
         religion = catholic
-        size = 2000
+        size = 5000
     }
 
     officers = {
@@ -587,10 +598,16 @@
         size = 2000
     }
 
+    craftsmen = {
+        culture = irish
+        religion = catholic
+        size = 32400
+    }
+
     farmers = {
         culture = irish
         religion = catholic
-        size = 187375
+        size = 157375
     }
 }
 #Kildare (532000/133000 POPs)

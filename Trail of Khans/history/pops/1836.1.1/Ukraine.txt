@@ -59,7 +59,7 @@
     bureaucrats = {
         culture = polish
         religion = catholic
-        size = 30
+        size = 75
     }
 
     officers = {
@@ -95,7 +95,7 @@
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 35
+        size = 87
     }
 
     officers = {
@@ -531,7 +531,7 @@
     bureaucrats = {
         culture = polish
         religion = catholic
-        size = 1300
+        size = 3250
     }
 
     officers = {
@@ -1009,7 +1009,7 @@
     bureaucrats = {
         culture = polish
         religion = catholic
-        size = 125
+        size = 312
     }
 
     officers = {
@@ -1075,7 +1075,7 @@
     bureaucrats = {
         culture = ukrainian
         religion = orthodox
-        size = 175
+        size = 437
     }
 
     officers = {
@@ -1395,7 +1395,7 @@
     bureaucrats = {
         culture = ukrainian
         religion = orthodox
-        size = 250
+        size = 625
     }
 
     officers = {
@@ -1921,7 +1921,7 @@
 	bureaucrats = {
 		culture = mongol
 		religion = gelugpa
-		size = 600
+        size = 1500
 	}
     aristocrats = {
         culture = ukrainian
@@ -2007,6 +2007,12 @@
         size = 100
     }
 
+    craftsmen = {
+        culture = ukrainian
+        religion = orthodox
+        size = 6794
+    }
+
     soldiers = {
         culture = ukrainian
         religion = orthodox
@@ -2038,7 +2044,7 @@
     bureaucrats = {
         culture = tatar
         religion = sunni
-        size = 75
+        size = 187
     }
 
     officers = {
@@ -2110,7 +2116,7 @@
     bureaucrats = {
         culture = ukrainian
         religion = orthodox
-        size = 175
+        size = 437
     }
 
     officers = {
@@ -2665,7 +2671,7 @@
     bureaucrats = {
         culture = ukrainian
         religion = orthodox
-        size = 75
+        size = 187
     }
 
     officers = {
@@ -2777,7 +2783,7 @@
     bureaucrats = {
         culture = ukrainian
         religion = orthodox
-        size = 150
+        size = 375
     }
 
     officers = {
@@ -3269,7 +3275,7 @@
     bureaucrats = {
         culture = ukrainian
         religion = orthodox
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -3417,7 +3423,7 @@
     bureaucrats = {
         culture = ukrainian
         religion = orthodox
-        size = 50
+        size = 125
     }
 
     officers = {
@@ -3483,7 +3489,7 @@
     bureaucrats = {
         culture = ukrainian
         religion = orthodox
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -3536,6 +3542,11 @@
         size = 2250
     }
 
+    craftsmen = {
+        culture = ukrainian
+        religion = orthodox
+        size = 2013
+    }
     soldiers = {
         culture = ukrainian
         religion = orthodox
@@ -3690,6 +3701,12 @@
         size = 550
     }
 
+    craftsmen = {
+        culture = ukrainian
+        religion = orthodox
+        size = 6304
+    }
+    
     farmers = {
         culture = ukrainian
         religion = orthodox
@@ -3799,7 +3816,7 @@
     bureaucrats = {
         culture = ukrainian
         religion = orthodox
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -3814,6 +3831,11 @@
         size = 6200
     }
 
+    craftsmen = {
+        culture = ukrainian
+        religion = orthodox
+        size = 4230
+    }
     soldiers = {
         culture = ukrainian
         religion = orthodox

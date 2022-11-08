@@ -44,7 +44,7 @@
     bureaucrats = {
         culture = north_german
         religion = protestant
-        size = 200
+        size = 500
     }
 
     officers = {
@@ -80,7 +80,7 @@
     bureaucrats = {
         culture = north_german
         religion = protestant
-        size = 100
+        size = 250
     }
 
     officers = {
@@ -101,6 +101,11 @@
         size = 1500
     }
 
+    craftsmen = {
+        culture = north_german
+        religion = protestant
+        size = 27500
+    }
     soldiers = {
         culture = north_german
         religion = protestant
@@ -124,7 +129,7 @@
         religion = jewish
         size = 2075
     }
-
+    
     soldiers = {
         culture = ashkenazi
         religion = jewish

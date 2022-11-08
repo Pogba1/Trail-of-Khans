@@ -127,7 +127,7 @@
     bureaucrats = {
         culture = mashriqi
         religion = sunni
-        size = 50
+        size = 125
     }
 
     officers = {
@@ -220,7 +220,7 @@
     bureaucrats = {
         culture = latin
         religion = catholic
-        size = 150
+        size = 375
     }
 
     officers = {

@@ -5,7 +5,7 @@
     bureaucrats = {
 		culture = tasmanian
 		religion = protestant
-		size = 100
+        size = 250
 	
 	}
 	farmers = {
@@ -49,7 +49,7 @@
     bureaucrats = {
 		culture = tasmanian
 		religion = protestant
-		size = 100
+        size = 250
 	
 	}
 	farmers = {
@@ -140,7 +140,7 @@
 	bureaucrats = {
 		culture = tasmanian
 		religion = protestant
-		size = 10
+        size = 25
 	
 	}
 	soldiers = {
@@ -274,7 +274,7 @@
     bureaucrats = {
         culture = tasmanian
         religion = protestant
-        size = 5
+        size = 12
     }
 
     clergymen = {
@@ -464,7 +464,7 @@
     bureaucrats = {
         culture = tasmanian
         religion = protestant
-        size = 25
+        size = 62
     }
 
     clergymen = {

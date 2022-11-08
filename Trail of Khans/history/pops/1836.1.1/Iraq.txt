@@ -11,7 +11,7 @@
     bureaucrats = {
         culture = mashriqi
         religion = sunni
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -408,12 +408,12 @@
 	bureaucrats = {
 		culture = persian
 		religion = shiite
-		size = 100
+        size = 250
 	}
     bureaucrats = {
         culture = mashriqi
         religion = sunni
-        size = 350
+        size = 875
     }
 	clergymen = {
 		culture = persian
@@ -997,7 +997,7 @@
     bureaucrats = {
         culture = mashriqi
         religion = sunni
-        size = 75
+        size = 187
     }
 
     clergymen = {
