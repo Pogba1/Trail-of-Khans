@@ -1,40 +1,4 @@
 country_event = {
-    id = 9999012
-    title = "The Situation in Novgorod" 
-    desc = " "
-    picture = "norwegian_storting"
-	trigger = {
-	tag = NOV
-	NOT = {has_global_flag = nov_start}
-	}
-	mean_time_to_happen = {
-	days = 1
-	}
-	allow_multiple_instances = no
-	
-	option = {
-        name = "Okay."
-		set_global_flag = nov_start
-			relation = {
-				who = GOL
-				value = -200
-			}
-			relation = {
-				who = POL
-				value = 50
-			}
-			relation = {
-				who = LUB
-				value = 200
-			}
-			political_reform = debtors_prisons
-			any_pop = { limit = {type = serfs} pop_type = farmers}
-			any_pop = { limit = {type = serfs} pop_type = labourers}
-			any_pop = { limit = {has_pop_culture = russian} literacy = 0.40}
-        }
-	
-    }
-country_event = {
     id = 9999013
     title = "The Situation in Rajputana" 
     desc = "EVTDSC9999013"

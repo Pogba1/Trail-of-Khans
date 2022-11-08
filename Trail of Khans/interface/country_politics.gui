@@ -641,34 +641,6 @@ guiTypes = {
 				maxHeight = 20	
 			}
 		}
-		
-		windowType = {
-			name = "debt_law"
-			backGround =""
-			position = { x = 843 y = 248 }
-			size = { x=151 y= 100}
-			moveable = 0
-			dontRender = ""
-			horizontalBorder = "0"
-			verticalBorder = ""
-			fullScreen = no
-			
-				iconType = {
-				name = "politics_penal"
-				spriteType = "GFX_politics_penal"
-				position = { x= 6 y = 8 } #WAS { x= 7 y = 8 }
-				Orientation = "UPPER_LEFT"
-					}
-				instantTextBoxType = { 
-				name = "reform_name"
-				position = { x = 39 y = 15 } #WAS { x = 40 y = 15 }
-				font = "vic_18"
-				text = "REFORM_NAME"	
-				maxWidth = 100
-				maxHeight = 20	
-					}
-
-			}
 			
 			windowType = {
 				name = "slavery"

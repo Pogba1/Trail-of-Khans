@@ -112,7 +112,7 @@
         size = 23325
     }
 
-    serfs = {
+    farmers = {
         culture = serb
         religion = catholic
         size = 1000
@@ -228,7 +228,7 @@
         size = 300
     }
 
-    serfs = {
+    farmers = {
         culture = serb
         religion = orthodox
         size = 10175
@@ -270,7 +270,7 @@
         size = 25000
     }
 
-    serfs = {
+    farmers = {
         culture = gypsy
         religion = catholic
         size = 1500
@@ -294,7 +294,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = serb
         religion = catholic
         size = 4625
@@ -318,7 +318,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = slovak
         religion = catholic
         size = 9375

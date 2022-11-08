@@ -59,7 +59,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = albanian
         religion = orthodox
         size = 725
@@ -104,7 +104,7 @@
         size = 4000
     }
 
-    serfs = {
+    farmers = {
         culture = serb
         religion = orthodox
         size = 7100
@@ -240,7 +240,7 @@
         size = 3170
     }
 
-    serfs = {
+    farmers = {
         culture = serb
         religion = orthodox
         size = 5175

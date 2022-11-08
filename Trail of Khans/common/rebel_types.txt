@@ -866,7 +866,6 @@ communist_rebels = {
         political_reform = no_meeting
         political_reform = state_press
         political_reform = underground_parties
-        political_reform = debtors_prisons
         political_reform = no_slavery
         political_reform = mandatory_service
         random_owned = { limit = { owner = { NOT = { trade_unions = no_trade_unions } } } owner = { political_reform = state_controlled } }
@@ -1042,7 +1041,6 @@ anarcho_liberal_rebels = {
                     upper_house_composition = state_equal_weight
                     upper_house_composition = population_equal_weight
                 }
-                NOT = { debt_law = serfdom }
                 NOT = { border_policy = closed_borders }
                 public_meetings = yes_meeting
                 press_rights = free_press
@@ -1181,7 +1179,6 @@ anarcho_liberal_rebels = {
         political_reform = state_press
         political_reform = no_trade_unions
         political_reform = underground_parties
-        political_reform = debtors_prisons
         social_reform = no_minimum_wage
         social_reform = no_work_hour_limit
         social_reform = no_safety
@@ -3578,7 +3575,6 @@ liberal_rebels = {
                     vote_franschise = universal_weighted_voting
                     vote_franschise = universal_voting
                 }
-                NOT = { debt_law = serfdom }
                 NOT = { border_policy = closed_borders }
                 public_meetings = yes_meeting
                 press_rights = free_press
@@ -3606,7 +3602,6 @@ liberal_rebels = {
                     vote_franschise = universal_weighted_voting
                     vote_franschise = universal_voting
                 }
-                NOT = { debt_law = serfdom }
                 NOT = { border_policy = closed_borders }
                 public_meetings = yes_meeting
                 press_rights = free_press
@@ -3800,14 +3795,6 @@ liberal_rebels = {
         random_owned = {
             limit = { owner = { NOT = { vote_franschise = universal_voting } } }
             owner = { political_reform = universal_weighted_voting }
-        }
-        random_owned = {
-            limit = { owner = { debt_law = peonage } }
-            owner = { political_reform = debtors_prisons }
-        }
-        random_owned = {
-            limit = { owner = { debt_law = serfdom } }
-            owner = { political_reform = peonage }
         }
         random_owned = {
             limit = { owner = { NOT = { slavery = no_slavery } } }
@@ -4542,7 +4529,6 @@ socialist_rebels = {
                 }
                 trade_unions = all_trade_unions
                 child_labor = child_labor_illegal
-                NOT = { debt_law = serfdom }
                 NOT = { border_policy = closed_borders }
                 public_meetings = yes_meeting
                 press_rights = free_press
@@ -4592,7 +4578,6 @@ socialist_rebels = {
                 }
                 trade_unions = all_trade_unions
                 child_labor = child_labor_illegal
-                NOT = { debt_law = serfdom }
                 NOT = { border_policy = closed_borders }
                 public_meetings = yes_meeting
                 press_rights = free_press
@@ -4750,8 +4735,6 @@ socialist_rebels = {
         political_reform = proportional_representation
         political_reform = open_borders
         social_reform = all_voting_pops
-
-        random_owned = { limit = { owner = { NOT = { debt_law = bankruptcy } } } owner = { political_reform = debtors_prisons } }
 
         random_owned = { limit = { owner = { political_parties = non_secret_ballots } } owner = { political_reform = secret_ballots } }
 

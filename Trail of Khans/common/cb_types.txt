@@ -1895,6 +1895,7 @@ establish_protectorate_casus_belli = {
 		THIS = {
 			civilized = yes
 		}
+		THIS = { NOT = { nationalism_n_imperialism = 1 } }
 		OR = {
 			NOT = {
 				number_of_states = 2 

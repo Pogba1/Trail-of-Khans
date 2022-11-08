@@ -62,13 +62,13 @@
         size = 45000
     }
 
-    serfs = {
+    farmers = {
         culture = gypsy
         religion = catholic
         size = 500
     }
 
-    serfs = {
+    farmers = {
         culture = serb
         religion = catholic
         size = 1000
@@ -170,7 +170,7 @@
         size = 43150
     }
 
-    serfs = {
+    farmers = {
         culture = serb
         religion = catholic
         size = 20000

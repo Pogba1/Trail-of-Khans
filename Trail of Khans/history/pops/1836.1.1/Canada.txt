@@ -2546,7 +2546,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = norwegian
         religion = catholic
         size = 1320
@@ -2590,7 +2590,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = norwegian
         religion = catholic
         size = 800

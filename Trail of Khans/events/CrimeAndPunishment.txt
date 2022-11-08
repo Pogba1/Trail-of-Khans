@@ -459,64 +459,6 @@ country_event = {
     }
 }
 
-#Debtor's Prison
-country_event = {
-    id = 22070
-    title = "EVTNAME22070"
-    desc = "EVTDESC22070"
-    picture = "prisoners"
-
-    trigger = {
-        debt_law = debtors_prisons
-        NOT = {
-            poor_strata_life_needs = 0.95
-            middle_strata_everyday_needs = 0.8
-        }
-    }
-
-    mean_time_to_happen = {
-        months = 800
-        modifier = {
-            factor = 0.9
-            NOT = {
-                average_consciousness = 4
-            }
-        }
-        modifier = {
-            factor = 0.9
-            average_militancy = 4
-        }
-        modifier = {
-            factor = 1.5
-            NOT = {
-                plurality = 5
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTA22070"
-        random_state = {
-            any_pop = {
-                dominant_issue = {
-                    value = bankruptcy
-                    factor = 0.4
-                }
-                militancy = 1
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTB22070"
-        aristocrats = {
-            militancy = 0.5
-        }
-        capitalists = {
-            militancy = 0.5
-        }
-    }
-}
 
 #Capital Punishment
 country_event = {

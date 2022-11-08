@@ -62,7 +62,7 @@
         size = 1100
     }
 
-    serfs = {
+    farmers = {
         culture = georgian
         religion = orthodox
         size = 40625
@@ -208,7 +208,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = georgian
         religion = orthodox
         size = 9100
@@ -306,7 +306,7 @@
         size = 300
     }
 
-    serfs = {
+    farmers = {
         culture = georgian
         religion = orthodox
         size = 27300
@@ -350,7 +350,7 @@
         size = 50
     }
 
-    serfs = {
+    farmers = {
         culture = georgian
         religion = orthodox
         size = 3625
@@ -448,7 +448,7 @@
         size = 3500
     }
 
-    serfs = {
+    farmers = {
         culture = georgian
         religion = orthodox
         size = 20675

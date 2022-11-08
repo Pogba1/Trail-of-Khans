@@ -89,8 +89,7 @@ political_decisions = {
 	672 = {NOT = {trade_goods = oil}}
 	}
 	allow = {
-	NOT = {debt_law = serfdom}
-	
+		year = 1870
 	}
 	effect = {
 	667 = {trade_goods = oil}
@@ -121,7 +120,6 @@ political_decisions = {
 	NOT = {has_country_flag = wallachian_agriculture}
 	}
 	allow = {
-	NOT = {debt_law = serfdom}
 	literacy = 0.40
 	WAL_665 = {owned_by = THIS}
 	}
@@ -141,7 +139,6 @@ political_decisions = {
 	NOT = {has_country_flag = the_port_of_constanta}
 	}
 	allow = {
-	NOT = {debt_law = serfdom}
 	literacy = 0.40
 	674 = {owned_by = THIS}
 	}
