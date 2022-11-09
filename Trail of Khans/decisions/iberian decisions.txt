@@ -180,6 +180,10 @@ political_decisions = {
                 }
                 country_event = 11101
             }
+			country_event = {
+				id = 190002
+				days = 0
+			}
 			add_accepted_culture = spanish
 		}
 	}

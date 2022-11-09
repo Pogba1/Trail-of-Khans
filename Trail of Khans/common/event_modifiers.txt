@@ -3049,3 +3049,12 @@ minor_resurgent_capital = {
     middle_luxury_needs = -0.05
     poor_luxury_needs = -0.05
 }
+
+andalusian_caliphate = {
+	pop_militancy_modifier = -0.02
+	pop_consciousness_modifier = -0.05
+	research_points_modifier = 0.1
+	tax_efficiency = 0.05
+	administrative_efficiency_modifier = 0.05
+	assimilation_rate = 0.15
+}

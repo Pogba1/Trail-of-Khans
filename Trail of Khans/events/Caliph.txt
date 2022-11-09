@@ -77,3 +77,19 @@ country_event = {
 		1751 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
     }
 }
+
+country_event = {
+    id = 190002
+    title = "EVENTNAME190002"
+    desc = "EVENTDESC190002"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Mashallah!"
+        add_country_modifier = {
+            name = andalusian_caliphate
+            duration = -1
+        }
+    }
+}
