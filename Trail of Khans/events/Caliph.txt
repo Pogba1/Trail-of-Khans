@@ -80,8 +80,8 @@ country_event = {
 
 country_event = {
     id = 190002
-    title = "EVENTNAME190002"
-    desc = "EVENTDESC190002"
+    title = "EVTNAME190002"
+    desc = "EVTDESC190002"
 
     is_triggered_only = yes
 
