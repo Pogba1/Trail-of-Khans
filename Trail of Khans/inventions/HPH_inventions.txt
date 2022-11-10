@@ -247,52 +247,6 @@ pattinson_process = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
     }
 
     effect = {
@@ -309,52 +263,6 @@ parkes_process = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
     }
     effect = {
         rgo_goods_output = { iron = 0.1 }
@@ -371,52 +279,6 @@ square_set_timbering = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
     }
     effect = {
         rgo_goods_output = { coal = 0.2 }
@@ -431,52 +293,6 @@ electrolytic_refining = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
     }
     effect = {
         rgo_goods_output = { iron = 0.3 }
@@ -491,52 +307,6 @@ dynamite = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
     }
     effect = {
         rgo_goods_output = { coal = 0.25 }
@@ -553,52 +323,6 @@ deep_mining = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
     }
     effect = {
         rgo_goods_output = { coal = 0.25 }
@@ -612,52 +336,6 @@ percussion_drill = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
         modifier = {
             factor = -10
             NOT = { pneumatic_and_hydraulics = 1 }
@@ -676,52 +354,7 @@ friction_hoist = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
+
     }
     effect = {
         rgo_goods_output = { coal = 0.1 }
@@ -736,52 +369,7 @@ lixiviation_mills = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
+
     }
     effect = {
         rgo_goods_output = { iron = 0.3 }
@@ -796,52 +384,6 @@ cyanide_milling = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
     }
     effect = {
         rgo_goods_output = { iron = 0.1 }
@@ -857,53 +399,6 @@ trinitrotoluene = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-    }
     effect = {
         rgo_goods_output = { coal = 0.25 }
         rgo_size = { coal = 0.25 }
@@ -919,52 +414,6 @@ shrinkage_stoping = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = coal
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = coal
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
     }
     effect = {
         rgo_goods_output = { coal = 0.4 }
@@ -978,52 +427,6 @@ froth_flotation = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
     }
     effect = {
         rgo_goods_output = { iron = 0.3 }
@@ -1039,52 +442,6 @@ hydraulic_excavator = {
     #news = no
     chance = {
         base = 6
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = iron
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = iron
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
     }
     effect = {
         rgo_goods_output = { iron = 0.5 }
@@ -1099,61 +456,6 @@ fish_trawlers = {
     #news = no
     chance = {
         base = 6
-
-        modifier = {
-            factor = 1
-            interchangeable_parts = 1
-        }
-        modifier = {
-            factor = 1
-            invention = work_specialization
-        }
-        modifier = {
-            factor = -10
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = fish
-                unemployment_by_type = { value = 0.05 type = labourers }
-                province_control_days = 1825
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = fish
-                unemployment_by_type = { value = 0.01 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -2
-            any_owned_province = {
-                controlled_by = THIS
-                trade_goods = fish
-                unemployment_by_type = { value = 0.03 type = labourers }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_neighbor_country = {
-                is_greater_power = no
-                any_owned_province = {
-                    trade_goods = fish
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
-        modifier = {
-            factor = -1
-            any_greater_power = {
-                any_owned_province = {
-                    trade_goods = fish
-                    unemployment_by_type = { value = 0.01 type = labourers }
-                    province_control_days = 365
-                }
-            }
-        }
     }
     effect = {
         rgo_goods_output = { fish = 0.3 }
