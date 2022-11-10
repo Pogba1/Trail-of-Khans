@@ -178,7 +178,7 @@ political_decisions = {
                         vassal_of = THIS
                     }
                 }
-                country_event = 11101
+                annex_to = THIS
             }
 			country_event = {
 				id = 190002
@@ -293,7 +293,7 @@ political_decisions = {
                         vassal_of = THIS
                     }
                 }
-                country_event = 11101
+                annex_to = THIS
             }
 		}
 	}
