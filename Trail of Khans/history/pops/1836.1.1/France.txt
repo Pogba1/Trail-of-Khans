@@ -16,7 +16,7 @@
     bureaucrats = {
         culture = picard
         religion = catholic
-        size = 1750
+        size = 4375
     }
 
     clergymen = {
@@ -304,7 +304,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 750
+        size = 1875
     }
 
     clergymen = {
@@ -433,7 +433,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 750
+        size = 1875
     }
 
     clergymen = {
@@ -543,7 +543,7 @@
     bureaucrats = {
         culture = south_german
         religion = catholic
-        size = 250
+        size = 625
     }
 
     clergymen = {
@@ -585,7 +585,7 @@
     bureaucrats = {
         culture = south_german
         religion = protestant
-        size = 200
+        size = 500
     }
 
     clergymen = {
@@ -665,7 +665,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 150
+        size = 375
     }
 
     clergymen = {
@@ -841,7 +841,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 300
+        size = 750
     }
 
     clergymen = {
@@ -869,36 +869,36 @@
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = french
         religion = catholic
-        size = 375
+        size = 937
     }
 
     clergymen = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 400
     }
 
     artisans = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 4250
     }
 
     farmers = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 45000
     }
 	soldiers = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 6000
     }
 
     farmers = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 500
     }
@@ -974,31 +974,31 @@
     }
 
     aristocrats = {
-        culture = south_german
+        culture = french
         religion = protestant
         size = 50
     }
 
     clergymen = {
-        culture = south_german
+        culture = french
         religion = protestant
         size = 75
     }
 
     artisans = {
-        culture = south_german
+        culture = french
         religion = protestant
         size = 3500
     }
 
     soldiers = {
-        culture = south_german
+        culture = french
         religion = protestant
         size = 100
     }
 
     farmers = {
-        culture = south_german
+        culture = french
         religion = protestant
         size = 6275
     }
@@ -1094,31 +1094,31 @@
     }
 	
 	    aristocrats = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 300
     }
 
     artisans = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 1525
     }
 
     soldiers = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 500
     }
 
     labourers = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 50000
     }
@@ -1126,7 +1126,7 @@
 #Epinal (412000/103000 POPS)
 414 = {
 	craftsmen = {
-		culture = south_german
+		culture = french
 		religion = catholic
 		size = 4000
 	}
@@ -1167,25 +1167,25 @@
     }
 
     clergymen = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 500
     }
 
     artisans = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 3225
     }
 
     soldiers = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 100
     }
 
     labourers = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 64500
     }
@@ -1209,7 +1209,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 1650
+        size = 4125
     }
 
     clergymen = {
@@ -1402,7 +1402,7 @@
     bureaucrats = {
         culture = irish
         religion = catholic
-        size = 1550
+        size = 3875
     }
 
     clergymen = {
@@ -1679,7 +1679,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 1500
+        size = 3750
     }
 
     clergymen = {
@@ -1863,7 +1863,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 1100
+        size = 2750
     }
 
     clergymen = {
@@ -2015,7 +2015,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 550
+        size = 1375
     }
 
     clergymen = {
@@ -2105,7 +2105,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 1200
+        size = 3000
     }
 
     clergymen = {
@@ -2259,7 +2259,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 700
+        size = 1750
     }
 
     clergymen = {
@@ -2412,7 +2412,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 700
+        size = 1750
     }
 
     clergymen = {
@@ -2522,12 +2522,12 @@
     bureaucrats = {
         culture = occitan
         religion = catholic
-        size = 950
+        size = 2375
     }
 	bureaucrats = {
         culture = french
         religion = catholic
-        size = 250
+        size = 625
     }
 
     clergymen = {
@@ -2667,12 +2667,12 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 700
+        size = 1750
     }
 	 bureaucrats = {
         culture = occitan
         religion = catholic
-        size = 450
+        size = 1125
     }
 
     clergymen = {
@@ -2819,12 +2819,12 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 650
+        size = 1625
     }
 	bureaucrats = {
         culture = occitan
         religion = catholic
-        size = 1000
+        size = 2500
     }
 
     capitalists = {
@@ -2982,7 +2982,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
     farmers = {
         culture = occitan
@@ -3043,7 +3043,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 	
     farmers = {
@@ -3098,7 +3098,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 
     farmers = {
@@ -3149,7 +3149,7 @@
     bureaucrats = {
         culture = occitan
         religion = catholic
-        size = 800
+        size = 2000
     }
 
     clergymen = {
@@ -3196,7 +3196,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 }
 #Montauban (584000/146000 POPS)
@@ -3239,7 +3239,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 850
+        size = 2125
 	}
 }
 #Foix (348000/87000 POPS)
@@ -3281,7 +3281,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 
 }
@@ -3303,7 +3303,7 @@
     bureaucrats = {
         culture = occitan
         religion = catholic
-        size = 1100
+        size = 2750
     }
 
     clergymen = {
@@ -3356,7 +3356,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 }
 #Mont de Marsan (556000/139000 POPS)
@@ -3399,7 +3399,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 }
 #Pau (676000/169000 POPS)
@@ -3478,7 +3478,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 
 }
@@ -3500,7 +3500,7 @@
     bureaucrats = {
         culture = occitan
         religion = catholic
-        size = 1100
+        size = 2750
     }
 
     clergymen = {
@@ -3534,7 +3534,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 }
 #Rodez (504000/126000 POPS)
@@ -3571,7 +3571,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 }
 #Carcassone (276000/69000 POPS)
@@ -3614,7 +3614,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 }
 #Perpignan (164000/41000 POPS)
@@ -3681,7 +3681,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 }
 #Savoy Region (486800)
@@ -3703,7 +3703,7 @@
     bureaucrats = {
         culture = celtic
         religion = catholic
-        size = 200
+        size = 500
     }
 
     clergymen = {
@@ -3805,7 +3805,7 @@
     bureaucrats = {
         culture = occitan
         religion = catholic
-        size = 700
+        size = 1750
     }
 
     clergymen = {
@@ -3858,7 +3858,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 }
 #Avignon (243600/60900 POPS)
@@ -3920,7 +3920,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 }
 #Digne (113200/31000 POPS)
@@ -3976,7 +3976,7 @@
 	bureaucrats = {
 		culture = celtic
         religion = catholic
-        size = 150
+        size = 375
 	}
 }
 #Toulon (224000/56000 POPS)
@@ -4044,7 +4044,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 }
 #Frejus (132000/33000 POPS)
@@ -4106,7 +4106,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 }
 #Nice (Sardinian until 1860) (170800/42700 POPS)
@@ -4168,7 +4168,7 @@
 	bureaucrats = {
 		culture = french
         religion = catholic
-        size = 150
+        size = 375
 	}
 
 }

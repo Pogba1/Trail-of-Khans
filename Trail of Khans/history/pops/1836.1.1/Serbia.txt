@@ -112,7 +112,7 @@
         size = 23325
     }
 
-    serfs = {
+    farmers = {
         culture = serb
         religion = catholic
         size = 1000
@@ -228,7 +228,7 @@
         size = 300
     }
 
-    serfs = {
+    farmers = {
         culture = serb
         religion = orthodox
         size = 10175
@@ -270,7 +270,7 @@
         size = 25000
     }
 
-    serfs = {
+    farmers = {
         culture = gypsy
         religion = catholic
         size = 1500
@@ -294,7 +294,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = serb
         religion = catholic
         size = 4625
@@ -318,7 +318,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = slovak
         religion = catholic
         size = 9375
@@ -405,7 +405,7 @@
     bureaucrats = {
         culture = south_german
         religion = catholic
-        size = 500
+        size = 1250
     }
 
     aristocrats = {
@@ -417,7 +417,7 @@
     bureaucrats = {
         culture = serb
         religion = orthodox
-        size = 100
+        size = 250
     }
 
     officers = {
@@ -675,7 +675,7 @@
     bureaucrats = {
         culture = bulgarian
         religion = orthodox
-        size = 150
+        size = 375
     }
 
     officers = {
@@ -881,7 +881,7 @@
     bureaucrats = {
         culture = albanian
         religion = orthodox
-        size = 150
+        size = 375
     }
 
     officers = {

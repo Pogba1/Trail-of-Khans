@@ -9,14 +9,13 @@ political_decisions = {
             NOT = {
                 has_country_flag = prohibited_pogroms
             }
+        }
+        allow = {
             NOT = {
                 ruling_party_ideology = fascist
             }
-        }
-        allow = {
             literacy = 0.4
             citizens_rights = all_voting_pops
-            debt_law = debtors_prisons
         }
         effect = {
             prestige = 15

@@ -1,5 +1,5 @@
-name = "Trail of Khans 3.0" 
+name = "Trail of Khans 3.0.2" 
 path = "mod/Trail of Khans" 
-user_dir = "Trail of Khans 3.0" 
+user_dir = "Trail of Khans 3.0.2" 
 replace_path = "decisions"
 replace_path = "history/wars"

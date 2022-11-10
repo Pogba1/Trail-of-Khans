@@ -13,7 +13,7 @@
     bureaucrats = {
         culture = platinean
         religion = catholic
-        size = 100
+        size = 250
         militancy = 9
         rebel_type = liberal_rebels
     }
@@ -105,7 +105,7 @@
     bureaucrats = {
         culture = platinean
         religion = catholic
-        size = 10
+        size = 25
     }
 
     clergymen = {
@@ -163,7 +163,7 @@
     bureaucrats = {
         culture = platinean
         religion = catholic
-        size = 20
+        size = 50
     }
 
     clergymen = {
@@ -210,7 +210,7 @@
     bureaucrats = {
         culture = platinean
         religion = catholic
-        size = 10
+        size = 25
     }
 
     clergymen = {

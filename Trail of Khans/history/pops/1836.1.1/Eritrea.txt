@@ -35,7 +35,7 @@
     bureaucrats = {
         culture = misri
         religion = sunni
-        size = 5
+        size = 12
     }
 
     soldiers = {
@@ -119,7 +119,7 @@
     bureaucrats = {
         culture = amhara
         religion = coptic
-        size = 15
+        size = 37
     }
 
     officers = {

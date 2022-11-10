@@ -1,0 +1,34 @@
+army = {
+    name = "Krasnaya Armiya"
+    location = 718
+
+    regiment = {
+        name = "Brigade"
+        type = infantry
+        home = 718
+    }
+
+    regiment = {
+        name = "Brigade"
+        type = infantry
+        home = 718
+    }
+
+    regiment = {
+        name = "Brigade"
+        type = cavalry
+        home = 718
+    }
+
+    regiment = {
+        name = "Brigade"
+        type = artillery
+        home = 941
+    }
+
+    regiment = {
+        name = "Brigade"
+        type = cavalry
+        home = 939
+    }
+}

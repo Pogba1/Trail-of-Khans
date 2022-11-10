@@ -1,0 +1,11 @@
+LUB = {
+    SWE = {
+        truce_until="1841.1.1"
+    }
+}
+
+SWE = {
+    LUB = {
+        truce_until="1841.1.1"
+    }
+}

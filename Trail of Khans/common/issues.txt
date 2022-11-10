@@ -582,53 +582,6 @@ political_reforms = {
         }
     }
 
-        debt_law = {
-        next_step_only = yes
-        serfdom = {
-            education_efficiency_modifier = -0.15
-            poor_savings_modifier = -0.5
-            global_immigrant_attract = -0.1
-            tax_efficiency = 0.05
-            allow = {
-                NOT = { has_country_flag = government_busy_with_something }
-                OR = {
-                    has_country_flag = absolute_monarchy_gov
-                    has_country_flag = semi_constitutional_monarchy_gov
-                }
-            }
-        }
-        peonage = {
-            education_efficiency_modifier = -0.03
-            RGO_throughput  = 0.05
-            global_immigrant_attract = -0.05
-            suppression_points_modifier = 0.1
-            poor_everyday_needs = 0.1
-            poor_savings_modifier = -0.25
-            allow = {
-                NOT = { has_country_flag = government_busy_with_something }
-                OR = {
-                    NOT = { has_country_flag = serfdom_not_abolished }
-                    year = 1870
-                }
-            }
-        }
-
-        debtors_prisons = {
-            allow = {
-                NOT = { has_country_flag = government_busy_with_something }
-            }
-        }
-
-        bankruptcy = {
-            administrative_efficiency_modifier = 0.05
-            tariff_efficiency_modifier = 0.05
-            administrative_multiplier = 2
-            allow = {
-                has_country_flag = central_bank_instituted
-                NOT = { has_country_flag = government_busy_with_something }
-            }
-        }
-    }
 }
 
 ##########################################

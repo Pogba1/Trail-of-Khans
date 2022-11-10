@@ -280,7 +280,7 @@
     bureaucrats = {
         culture = celtic
         religion = catholic
-        size = 800
+        size = 2000
     }
 
     clergymen = {
@@ -395,7 +395,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 200
+        size = 500
     }
 
     officers = {
@@ -515,7 +515,7 @@
     bureaucrats = {
         culture = north_italian
         religion = catholic
-        size = 100
+        size = 250
     }
 
     officers = {

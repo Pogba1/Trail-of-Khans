@@ -152,7 +152,9 @@ ENG_300 = { 300 294 301 302 303 } #South East England
 
 DEN_251 = { 251 252 253 2636 } #Iceland & Greenland
 
-SWE_308 = { 308 305 306 307 } #Nordnoge
+SAP_307 = { 307 338 982 983 2587 } #Sapmi
+
+SWE_308 = { 308 305 306 } #Nordnoge
 
 SWE_309 = { 309 311 310 312 } #Vestlandet
 
@@ -166,7 +168,7 @@ SWE_329 = { 329 328 327 323 330 } #Goteburg
 
 SWE_334 = { 334 332 331 333 335 } #Malmo
 
-RUS_336 = { 336 337 338 342 } #Northern Finland
+RUS_336 = { 336 337 342 } #Northern Finland
 
 RUS_343 = { 343 344 341 340 } #Helsinki
 
@@ -202,9 +204,9 @@ FRA_400 = { 408 405 406 407 432 } #Champagne
 
 FRA_404 = { 399 400 401 404 } #Nord-Pas-De-Calais/Artois
 
-FRA_411 = { 411 413 414 } #Ardennes
+FRA_411 = { 411 412 413 414 } #Ardennes
 
-FRA_412 = { 412 409 410 } #Alsace-Lorraine
+FRA_412 = { 409 410 } #Alsace
 
 FRA_418 = { 418 415 416 417 } #Normandie
 
@@ -239,15 +241,17 @@ FRA_467 = { 467 468  470 471 } #Provence
 
 ### Spain & Portugal
 
-SPA_474 = { 474 476 } #Galicia
+SPA_474 = { 474 476 518 519 } #Galicia
 
-SPA_477 = { 477 479 480 481 482 483 475 478 } #Le�n-Castilla
+SPA_475 = { 475 477 480 482 483 } #Léon
+
+SPA_478 = { 478 479 481 492 493 494 } #Castillia-Navarra
 
 SPA_484 = { 484 485 486 } #Extremadura
 
 SPA_487 = { 487 488 489 490 491 } #Castilla la Nueva
 
-SPA_492 = { 492 493 494 495 496 497 } #Vasconia-Arag�n
+SPA_492 = { 495 496 497 } #Vasconia-Arag�n
 
 SPA_498 = { 498 499 500 501 502 } #Catalonia
 
@@ -257,11 +261,9 @@ SPA_512 = { 512 509 510 511 517 } #Andalucia
 
 SPA_513 = { 513 514 515 516 } #Granada
 
-POR_518 = { 518 519 520 } #Douro
+POR_521 = { 520 521 522 523 } #Estremadura
 
-POR_521 = { 521 522 523 524 } #Estremadura
-
-POR_525 = { 525 526 527 } #Alentejo
+POR_525 = { 524 525 526 527 } #Alentejo
 
 POR_2134 = { 2134 2135 2136 } #Macaronesia
 
@@ -519,7 +521,7 @@ RUS_354 = { 354 355 356 357 358 359 } #Latvia
 
 RUS_360 = { 360 361 362 363 364 365 } #Lithuania
 
-RUS_339 = { 339 984 995 988 2587 983 982 } #Karelia
+RUS_339 = { 339 984 995 988 } #Karelia
 
 RUS_706 = { 706 708 709 710 717 712 } #Masovia
 

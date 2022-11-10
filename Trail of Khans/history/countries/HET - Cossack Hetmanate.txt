@@ -31,8 +31,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
-conscription = service_by_requirement
-debt_law = serfdom
+conscription = mandatory_service
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only

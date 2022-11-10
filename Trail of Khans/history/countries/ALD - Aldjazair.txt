@@ -6,8 +6,8 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.01
-non_state_culture_literacy = 0.01
+literacy = 0.09
+non_state_culture_literacy = 0.03
 
 slavery = yes_slavery
 upper_house_composition = appointed
@@ -28,7 +28,7 @@ school_reforms = no_schools
 
 # New Reforms
 conscription = one_year_draft
-debt_law = peonage
+ 
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only

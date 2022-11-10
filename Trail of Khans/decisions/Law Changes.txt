@@ -198,22 +198,6 @@ political_decisions = {
 			}
 			
 			random_owned = {
-				limit = { owner = { debt_law = peonage } }
-				any_country = {
-					limit = { exists = no capital_scope = { owned_by = THIS } }
-					political_reform = peonage
-				}
-			}
-			
-			random_owned = {
-				limit = { owner = { OR = { debt_law = debtors_prisons debt_law = bankruptcy } } }
-				any_country = {
-					limit = { exists = no capital_scope = { owned_by = THIS } }
-					political_reform = debtors_prisons
-				}
-			}
-			
-			random_owned = {
 				limit = { owner = { press_rights = state_press } }
 				any_country = {
 					limit = { exists = no capital_scope = { owned_by = THIS } }

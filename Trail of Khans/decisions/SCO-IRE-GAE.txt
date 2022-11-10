@@ -143,7 +143,19 @@ political_decisions = {
 		}
 		allow = {
 			all_core = {
-				owned_by = THIS
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+						OR = {
+							is_vassal = no
+							vassal_of = THIS
+						}
+						war = no
+						is_mobilised = no 
+						is_greater_power = no
+					}
+				}
 			}
 		}
 		
@@ -194,7 +206,19 @@ political_decisions = {
 		}
 		allow = {
 			all_core = {
-				owned_by = THIS
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+						OR = {
+							is_vassal = no
+							vassal_of = THIS
+						}
+						war = no
+						is_mobilised = no 
+						is_greater_power = no
+					}
+				}
 			}
 		}
 		

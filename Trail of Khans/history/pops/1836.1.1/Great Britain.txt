@@ -116,7 +116,7 @@
     bureaucrats = {
         culture = scottish
         religion = catholic
-        size = 1100
+        size = 2750
     }
 
     artisans = {
@@ -168,7 +168,7 @@
     bureaucrats = {
         culture = scottish
         religion = catholic
-        size = 2100
+        size = 5250
     }
 
     clerks = {
@@ -398,7 +398,7 @@
     bureaucrats = {
         culture = welsh
         religion = catholic
-        size = 1025
+        size = 2562
     }
 
     officers = {
@@ -480,7 +480,7 @@
 	bureaucrats = {
 		culture = irish
 		religion = catholic
-		size = 3000
+        size = 7500
 	}
     labourers = {
         culture = welsh
@@ -604,7 +604,7 @@
     bureaucrats = {
         culture = scottish
         religion = catholic
-        size = 1550
+        size = 3875
     }
 
     clergymen = {
@@ -1074,7 +1074,7 @@
     bureaucrats = {
         culture = scottish
         religion = catholic
-        size = 215
+        size = 537
     }
     labourers = {
         culture = british_danish
@@ -1157,7 +1157,7 @@
     bureaucrats = {
         culture = scottish
         religion = catholic
-        size = 2525
+        size = 6312
     }
 
     capitalists = {
@@ -1439,7 +1439,7 @@
     bureaucrats = {
         culture = scottish
         religion = catholic
-        size = 750
+        size = 1875
     }
 
     clergymen = {
@@ -1653,7 +1653,7 @@
     bureaucrats = {
         culture = british_danish
         religion = catholic
-        size = 1750
+        size = 4375
     }
 
     clergymen = {
@@ -1844,7 +1844,7 @@
     bureaucrats = {
         culture = british
         religion = catholic
-        size = 1000
+        size = 2500
     }
 
     clergymen = {
@@ -1895,7 +1895,7 @@
     bureaucrats = {
         culture = anglo_saxon
         religion = catholic
-        size = 75
+        size = 187
     }
 
     clergymen = {
@@ -1998,7 +1998,7 @@
     bureaucrats = {
         culture = british
         religion = catholic
-        size = 1550
+        size = 3875
     }
 
     clergymen = {
@@ -2267,7 +2267,7 @@
     bureaucrats = {
         culture = british
         religion = catholic
-        size = 1800
+        size = 4500
     }
 
     clergymen = {
@@ -2574,7 +2574,7 @@
     bureaucrats = {
         culture = british
         religion = catholic
-        size = 750
+        size = 1875
     }
 
     clergymen = {
@@ -2624,7 +2624,7 @@
     bureaucrats = {
         culture = irish
         religion = catholic
-        size = 25
+        size = 62
     }
 
     clergymen = {
@@ -2670,7 +2670,7 @@
     bureaucrats = {
         culture = irish
         religion = catholic
-        size = 50
+        size = 125
     }
 
     clergymen = {

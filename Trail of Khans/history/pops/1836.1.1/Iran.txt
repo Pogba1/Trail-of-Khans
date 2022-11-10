@@ -12,7 +12,7 @@
     bureaucrats = {
         culture = azerbaijani
         religion = shiite
-        size = 500
+        size = 1250
     }
 
     officers = {
@@ -588,7 +588,7 @@
     bureaucrats = {
         culture = persian
         religion = shiite
-        size = 100
+        size = 250
     }
 
     officers = {
@@ -766,7 +766,7 @@
     bureaucrats = {
         culture = persian
         religion = shiite
-        size = 75
+        size = 187
     }
 
     officers = {
@@ -1016,7 +1016,7 @@
     bureaucrats = {
         culture = persian
         religion = shiite
-        size = 325
+        size = 812
     }
 
     officers = {
@@ -1293,7 +1293,7 @@
     bureaucrats = {
         culture = persian
         religion = shiite
-        size = 175
+        size = 437
     }
 
     officers = {
@@ -1555,7 +1555,7 @@
     bureaucrats = {
         culture = persian
         religion = shiite
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -1739,7 +1739,7 @@
     bureaucrats = {
         culture = persian
         religion = shiite
-        size = 75
+        size = 187
     }
 
     officers = {
@@ -1943,7 +1943,7 @@
     bureaucrats = {
         culture = persian
         religion = shiite
-        size = 50
+        size = 125
     }
 
     officers = {
@@ -2187,7 +2187,7 @@
     bureaucrats = {
         culture = persian
         religion = shiite
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -2399,7 +2399,7 @@
     bureaucrats = {
         culture = persian
         religion = shiite
-        size = 150
+        size = 375
     }
 
     officers = {
@@ -2503,7 +2503,7 @@
 	bureaucrats = {
 		culture = turkmen
 		religion = sunni
-		size = 100
+        size = 250
 	}
 	farmers = {
         culture = turkmen

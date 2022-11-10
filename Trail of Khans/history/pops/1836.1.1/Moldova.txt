@@ -17,7 +17,7 @@
     bureaucrats = {
         culture = romanian
         religion = orthodox
-        size = 225
+        size = 562
     }
 
     officers = {
@@ -56,7 +56,7 @@
         size = 66750
     }
 
-    serfs = {
+    farmers = {
         culture = romanian
         religion = orthodox
         size = 10000
@@ -148,7 +148,7 @@
         size = 65675
     }
 
-    serfs = {
+    farmers = {
         culture = romanian
         religion = orthodox
         size = 20000

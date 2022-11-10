@@ -103,7 +103,7 @@
     bureaucrats = {
         culture = maghrebi
         religion = sunni
-        size = 200
+        size = 500
     }
 
     clergymen = {
@@ -323,7 +323,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 150
+        size = 375
     }
 
     clergymen = {
@@ -358,7 +358,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 50
+        size = 125
     }
 
     clergymen = {
@@ -387,7 +387,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 50
+        size = 125
     }
 
     clergymen = {
@@ -512,7 +512,7 @@
     bureaucrats = {
         culture = maghrebi
         religion = sunni
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -801,7 +801,7 @@
     bureaucrats = {
         culture = maghrebi
         religion = sunni
-        size = 75
+        size = 187
     }
 
     clergymen = {

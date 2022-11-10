@@ -1,5 +1,6 @@
 capital = 425
 primary_culture = french
+culture = occitan
 religion = catholic
 government = absolute_monarchy
 plurality = 25
@@ -31,7 +32,7 @@ school_reforms = no_schools
 
 #New Reforms
 conscription = one_year_draft
-debt_law = debtors_prisons
+ 
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = culture_voting_only

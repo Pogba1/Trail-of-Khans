@@ -122,7 +122,7 @@
     bureaucrats = {
         culture = dutch
         religion = protestant
-        size = 20
+        size = 50
     }
 
     aristocrats = {
@@ -134,7 +134,7 @@
     bureaucrats = {
         culture = hausa
         religion = animist
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -180,7 +180,7 @@
     bureaucrats = {
         culture = hausa
         religion = animist
-        size = 265
+        size = 662
     }
 
     officers = {

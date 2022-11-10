@@ -2,36 +2,84 @@ political_decisions = {
 	unite_the_peninsula = {
 		picture = ""
 		potential = {
-			OR = {
-				tag = ATR
-				tag = AND
-			}
+			tag = AND
 			NOT = {has_country_flag = unite_the_peninsula}
 			NOT = {has_country_flag = rebuild_the_caliphate}
 		}
 		allow = {
-			state_n_government = 1
 			war = no
 			all_core = {
-				OR = { 
-					NOT = { continent = europe }
-					owned_by = THIS
-				}
-			}	
+				owned_by = THIS
+			}
+			503 = {
+				owned_by = THIS 
+			}
+			504 = {
+				owned_by = THIS 
+			}
+			508 = {
+				owned_by = THIS 
+			}
+			SPA_487 = {
+				owned_by = THIS 
+			}
 		}
 		effect = {
 			set_country_flag = unite_the_peninsula
-			SPA_484 = {add_core = THIS}
-			SPA_487 = {add_core = THIS}
-			SPA_503 = {add_core = THIS}
-			POR_518 = {add_core = THIS}
-			POR_521	= {add_core = THIS}
-			POR_2134 = {add_core = THIS}
-			POR_525 = {add_core = THIS}
-			502 = {add_core = THIS}
+			prestige = 20
+			SPA_474 = {
+				add_core = THIS
+			}
+			SPA_487 = {
+				add_core = THIS
+			}
+			SPA_503 = {
+				add_core = THIS
+			}
 		}
 	}
-	
+	unite_the_peninsula_2 = {
+		picture = ""
+		potential = {
+			tag = ATR
+			NOT = {has_country_flag = unite_the_peninsula_2}
+			NOT = {has_country_flag = rebuild_the_caliphate}
+		}
+		allow = {
+			war = no
+			all_core = {
+				owned_by = THIS
+			}
+			POR_521 = {
+				owned_by = THIS
+			}
+			505 = {
+				owned_by = THIS
+			}
+			506	= {
+				owned_by = THIS
+			}
+			507 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			set_country_flag = unite_the_peninsula_2
+			prestige = 20
+			POR_521 = {
+				add_core = THIS
+			}
+			SPA_503 = {
+				add_core = THIS
+			}
+			SPA_484 = {
+				add_core = THIS
+			}
+			POR_525 = {
+				add_core = THIS
+			}
+		}
+	}
 	united_in_solidarity_and = {
 		picture = ""
 		potential = {
@@ -40,23 +88,102 @@ political_decisions = {
 			NOT = {has_country_flag = united_in_solidarity}
 		}
 		allow = {
-			510 = {owned_by = THIS}
-			486 = {owned_by = THIS}
-			525 = {owned_by = THIS}
-			521 = {owned_by = THIS}
-			518 = {owned_by = THIS}
-			513 = {owned_by = THIS}
-			503 = {owned_by = THIS}
-			495 = {owned_by = THIS}
-			487 = {owned_by = THIS}
-			475 = {owned_by = THIS}
-			474 = {owned_by = THIS}
-			nationalism_n_imperialism = 1
+            all_core = {
+                 OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        OR = {
+                            is_vassal = no
+                            vassal_of = THIS
+                        }
+                        war = no
+                        is_mobilised = no
+                        is_greater_power = no
+                    }
+                }
+            }
+			SPA_475 = {
+                 OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        OR = {
+                            is_vassal = no
+                            vassal_of = THIS
+                        }
+                        war = no
+                        is_mobilised = no
+                        is_greater_power = no
+                    }
+                }
+            }
+			SPA_478 = {
+                 OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        OR = {
+                            is_vassal = no
+                            vassal_of = THIS
+                        }
+                        war = no
+                        is_mobilised = no
+                        is_greater_power = no
+                    }
+                }
+            }
+			SPA_492 = {
+                 OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        OR = {
+                            is_vassal = no
+                            vassal_of = THIS
+                        }
+                        war = no
+                        is_mobilised = no
+                        is_greater_power = no
+                    }
+                }
+            }
+			state_n_government = 1
 			war = no
 		}
 		effect = {
 			set_country_flag = united_in_solidarity
-			ATR = {all_core = {limit = {NOT = {is_core = CAT}}add_core = AND}}
+			prestige = 40
+			ATR = {
+				all_core = {
+					limit = {
+						NOT = {is_core = CAT}
+					}
+				add_core = AND
+				}
+			}
+			ATR = {
+				all_core = {
+					remove_core = ATR
+				}
+			}
+            any_country = {
+                limit = {
+                    NOT = { is_greater_power = yes }
+                    NOT = { has_country_flag = post_colonial_country }
+                    primary_culture = spanish
+                    in_sphere = THIS
+                    OR = {
+                        is_vassal = no
+                        vassal_of = THIS
+                    }
+                }
+                annex_to = THIS
+            }
+			country_event = {
+				id = 190002
+				days = 0
+			}
 			add_accepted_culture = spanish
 		}
 	}
@@ -69,26 +196,105 @@ political_decisions = {
 			NOT = {has_country_flag = united_in_solidarity}
 		}
 		allow = {
-			510 = {owned_by = THIS}
-			486 = {owned_by = THIS}
-			525 = {owned_by = THIS}
-			521 = {owned_by = THIS}
-			518 = {owned_by = THIS}
-			513 = {owned_by = THIS}
-			503 = {owned_by = THIS}
-			495 = {owned_by = THIS}
-			487 = {owned_by = THIS}
-			475 = {owned_by = THIS}
-			474 = {owned_by = THIS}
-			nationalism_n_imperialism = 1
+            all_core = {
+                 OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        OR = {
+                            is_vassal = no
+                            vassal_of = THIS
+                        }
+                        war = no
+                        is_mobilised = no
+                        is_greater_power = no
+                    }
+                }
+            }
+			SPA_512 = {
+                 OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        OR = {
+                            is_vassal = no
+                            vassal_of = THIS
+                        }
+                        war = no
+                        is_mobilised = no
+                        is_greater_power = no
+                    }
+                }
+            }
+			SPA_513 = {
+                 OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        OR = {
+                            is_vassal = no
+                            vassal_of = THIS
+                        }
+                        war = no
+                        is_mobilised = no
+                        is_greater_power = no
+                    }
+                }
+            }
+			502 = {
+                 OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        OR = {
+                            is_vassal = no
+                            vassal_of = THIS
+                        }
+                        war = no
+                        is_mobilised = no
+                        is_greater_power = no
+                    }
+                }
+            }
+			state_n_government = 1
 			war = no
 		}
 		effect = {
 			set_country_flag = united_in_solidarity
 			add_accepted_culture = portuguese
 			change_tag = IBE
-			SPA_512 = {add_core = THIS}
-			SPA_513 = {add_core = THIS}
+			prestige = 40
+			AND = {
+				all_core = {
+					limit = {
+						NOT = {is_core = MOR}
+					}
+				add_core = ATR
+				}
+			}
+			AND = {
+				all_core = {
+					remove_core = AND
+				}
+			}
+			ATR = {
+				all_core = {
+					remove_core = ATR
+				}
+			}
+            any_country = {
+                limit = {
+                    NOT = { is_greater_power = yes }
+                    NOT = { has_country_flag = post_colonial_country }
+                    primary_culture = portuguese
+                    in_sphere = THIS
+                    OR = {
+                        is_vassal = no
+                        vassal_of = THIS
+                    }
+                }
+                annex_to = THIS
+            }
 		}
 	}
 	embrace_catalan = {
@@ -100,7 +306,7 @@ political_decisions = {
 		allow = {
 			war = no
 			all_core = {owned_by = THIS}
-			498 = {owned_by = THIS}
+			SPA_498 = {owned_by = THIS}
 		}
 		effect = {
 			set_country_flag = embrace_catalan

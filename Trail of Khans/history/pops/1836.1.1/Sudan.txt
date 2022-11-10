@@ -20,7 +20,7 @@
     bureaucrats = {
         culture = nilotic
         religion = coptic
-        size = 40
+        size = 100
     }
 
     officers = {
@@ -62,7 +62,7 @@
     bureaucrats = {
         culture = misri
         religion = coptic
-        size = 50
+        size = 125
     }
 
     officers = {
@@ -420,7 +420,7 @@
     bureaucrats = {
         culture = nilotic
         religion = coptic
-        size = 25
+        size = 62
     }
 
     aristocrats = {
@@ -480,7 +480,7 @@
     bureaucrats = {
         culture = nilotic
         religion = animist
-        size = 50
+        size = 125
     }
 
     officers = {
@@ -526,7 +526,7 @@
     bureaucrats = {
         culture = nilotic
         religion = coptic
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -730,7 +730,7 @@
     bureaucrats = {
         culture = nilotic
         religion = coptic
-        size = 10
+        size = 25
     }
 
     officers = {
@@ -1146,7 +1146,7 @@
     bureaucrats = {
         culture = nilotic
         religion = coptic
-        size = 25
+        size = 62
     }
 
     aristocrats = {
@@ -1278,7 +1278,7 @@
     bureaucrats = {
         culture = nilotic
         religion = coptic
-        size = 100
+        size = 250
     }
 
     officers = {

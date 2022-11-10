@@ -6,8 +6,8 @@ religion = gelugpa
 government = absolute_monarchy
 plurality = 0.02
 nationalvalue = nv_order
-literacy = 0.20
-non_state_culture_literacy = 0.20
+literacy = 0.24
+non_state_culture_literacy = 0.15
 civilized = yes
 prestige = 50
 
@@ -45,7 +45,7 @@ school_reforms = no_schools
 
 #New Reforms
 conscription = mandatory_service
-debt_law = serfdom
+ 
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
@@ -63,7 +63,6 @@ alphabetic_flag_signaling = 1
 classicism_n_early_romanticism = 1
 late_enlightenment_philosophy = 1
 malthusian_thought = 1
-#enlightenment_thought = 1
 introspectionism = 1
 private_banks = 1
 no_standard = 1

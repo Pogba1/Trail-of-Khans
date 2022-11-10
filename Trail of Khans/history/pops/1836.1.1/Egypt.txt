@@ -11,7 +11,7 @@
     bureaucrats = {
         culture = circassian
         religion = sunni
-        size = 1450
+        size = 3625
     }
 
     officers = {
@@ -47,7 +47,7 @@
     bureaucrats = {
         culture = misri
         religion = sunni
-        size = 125
+        size = 312
     }
 
     officers = {
@@ -125,7 +125,7 @@
     bureaucrats = {
         culture = misri
         religion = coptic
-        size = 25
+        size = 62
     }
 
     clergymen = {
@@ -535,7 +535,7 @@
 	bureaucrats = {
 		culture = latin
 		religion = catholic
-		size = 5
+        size = 12
 	}
 }
 #Giza (386400/96600 POPS)
@@ -619,7 +619,7 @@
     bureaucrats = {
         culture = misri
         religion = sunni
-        size = 1150
+        size = 2875
     }
 
     officers = {
@@ -679,7 +679,7 @@
     bureaucrats = {
         culture = misri
         religion = coptic
-        size = 25
+        size = 62
     }
 
     clergymen = {
@@ -919,7 +919,7 @@
     bureaucrats = {
         culture = misri
         religion = sunni
-        size = 10
+        size = 25
     }
 
     officers = {
@@ -1219,7 +1219,7 @@
     bureaucrats = {
         culture = misri
         religion = sunni
-        size = 110
+        size = 275
     }
 
     officers = {
@@ -1255,7 +1255,7 @@
     bureaucrats = {
         culture = misri
         religion = coptic
-        size = 15
+        size = 37
     }
 
     clergymen = {
@@ -1489,7 +1489,7 @@
     bureaucrats = {
         culture = misri
         religion = sunni
-        size = 45
+        size = 112
     }
 
     officers = {
@@ -1525,7 +1525,7 @@
     bureaucrats = {
         culture = misri
         religion = coptic
-        size = 5
+        size = 12
     }
 
     clergymen = {

@@ -11,7 +11,7 @@
     bureaucrats = {
         culture = north_german
         religion = catholic
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -65,7 +65,7 @@
     bureaucrats = {
         culture = dutch
         religion = catholic
-        size = 50
+        size = 125
     }
 
     clergymen = {

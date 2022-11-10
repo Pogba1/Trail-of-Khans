@@ -11,7 +11,7 @@
     bureaucrats = {
         culture = uighur
         religion = sunni
-        size = 250
+        size = 625
     }
 
     officers = {
@@ -121,7 +121,7 @@
     bureaucrats = {
         culture = uighur
         religion = sunni
-        size = 150
+        size = 375
     }
 
     clergymen = {
@@ -187,7 +187,7 @@
     bureaucrats = {
         culture = beifaren
         religion = sunni
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -441,7 +441,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 50
+        size = 125
     }
 
     clergymen = {
@@ -593,7 +593,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 50
+        size = 125
     }
 
     clergymen = {

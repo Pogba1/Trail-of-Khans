@@ -11,7 +11,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 10750
+        size = 26875
     }
 
     officers = {
@@ -44,7 +44,7 @@
         size = 445725
     }
 
-    serfs = {
+    farmers = {
         culture = beifaren
         religion = mahayana
         size = 100000
@@ -113,7 +113,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 250
+        size = 625
     }
 
     officers = {
@@ -601,7 +601,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 7000
+        size = 17500
     }
 
     clergymen = {
@@ -634,7 +634,7 @@
         size = 200000
     }
 
-    serfs = {
+    farmers = {
         culture = beifaren
         religion = mahayana
         size = 50000
@@ -703,7 +703,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 1000
+        size = 2500
     }
 
     officers = {
@@ -950,7 +950,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 4350
+        size = 10875
     }
 
     officers = {
@@ -1079,7 +1079,7 @@
         size = 100000
     }
 
-    serfs = {
+    farmers = {
         culture = min
         religion = mahayana
         size = 80000
@@ -1118,7 +1118,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 150
+        size = 375
     }
 
     officers = {
@@ -1532,7 +1532,7 @@
     bureaucrats = {
         culture = beifaren
         religion = sunni
-        size = 2250
+        size = 5625
     }
 
     officers = {
@@ -1619,7 +1619,7 @@
         size = 75
     }
 
-    serfs = {
+    farmers = {
         culture = kazak
         religion = sunni
         size = 7325
@@ -1703,7 +1703,7 @@
         size = 134900
     }
 
-    serfs = {
+    farmers = {
         culture = mongol
         religion = gelugpa
         size = 50000
@@ -1712,7 +1712,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 350
+        size = 875
     }
 
     officers = {
@@ -2156,7 +2156,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 4050
+        size = 10125
     }
 
     officers = {
@@ -2243,7 +2243,7 @@
         size = 20000
     }
 
-    serfs = {
+    farmers = {
         culture = zhuang
         religion = animist
         size = 49400
@@ -2444,7 +2444,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 500
+        size = 1250
     }
 
     officers = {
@@ -2935,7 +2935,7 @@
         size = 525
     }
 
-    serfs = {
+    farmers = {
         culture = asian_minor
         religion = animist
         size = 46425
@@ -3233,7 +3233,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 1350
+        size = 3375
     }
 
     officers = {
@@ -3371,7 +3371,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 150
+        size = 375
     }
 
     officers = {
@@ -3472,7 +3472,7 @@
         size = 10000
     }
 
-    serfs = {
+    farmers = {
         culture = zhuang
         religion = animist
         size = 70000
@@ -3697,7 +3697,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 575
+        size = 1437
     }
 
     officers = {
@@ -3829,7 +3829,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 50
+        size = 125
     }
 
     officers = {
@@ -3936,7 +3936,7 @@
         size = 400
     }
 
-    serfs = {
+    farmers = {
         culture = yi
         religion = animist
         size = 35500
@@ -3983,7 +3983,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 2000
+        size = 5000
     }
 
     clergymen = {
@@ -4101,7 +4101,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 5000
+        size = 12500
     }
 
     officers = {
@@ -4141,7 +4141,7 @@
         size = 100000
     }
 
-    serfs = {
+    farmers = {
         culture = beifaren
         religion = mahayana
         size = 60000
@@ -4192,7 +4192,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 250
+        size = 625
     }
 
     officers = {
@@ -4698,7 +4698,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 6000
+        size = 15000
     }
 
     clergymen = {
@@ -4761,7 +4761,7 @@
         size = 407900
     }
 
-    serfs = {
+    farmers = {
         culture = beifaren
         religion = mahayana
         size = 60000
@@ -4780,7 +4780,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 6600
+        size = 16500
     }
 
     officers = {
@@ -4900,7 +4900,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 350
+        size = 875
     }
 
     officers = {
@@ -4983,7 +4983,7 @@
         size = 449275
     }
 
-    serfs = {
+    farmers = {
         culture = nanfaren
         religion = mahayana
         size = 90000
@@ -5116,7 +5116,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 4800
+        size = 12000
     }
 
     clergymen = {
@@ -5589,7 +5589,7 @@
         size = 200000
     }
 
-    serfs = {
+    farmers = {
         culture = nanfaren
         religion = mahayana
         size = 60000
@@ -5668,7 +5668,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 4300
+        size = 10750
     }
 
     officers = {
@@ -5743,7 +5743,7 @@
         size = 280000
     }
 
-    serfs = {
+    farmers = {
         culture = nanfaren
         religion = mahayana
         size = 80000
@@ -5782,7 +5782,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 200
+        size = 500
     }
 
     officers = {
@@ -5882,7 +5882,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 4300
+        size = 10750
     }
 
     clergymen = {
@@ -5945,7 +5945,7 @@
         size = 150000
     }
 
-    serfs = {
+    farmers = {
         culture = nanfaren
         religion = mahayana
         size = 60000
@@ -6296,7 +6296,7 @@
     bureaucrats = {
         culture = mongol
         religion = gelugpa
-        size = 225
+        size = 562
     }
 
     officers = {
@@ -6329,7 +6329,7 @@
         size = 85250
     }
 
-    serfs = {
+    farmers = {
         culture = mongol
         religion = gelugpa
         size = 10000
@@ -6356,7 +6356,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -6548,7 +6548,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 6850
+        size = 17125
     }
 
     officers = {
@@ -6626,7 +6626,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 2375
+        size = 5937
     }
 
     officers = {
@@ -6686,7 +6686,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 275
+        size = 687
     }
 
     officers = {
@@ -7062,7 +7062,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 7400
+        size = 18500
     }
 
     clergymen = {
@@ -7091,7 +7091,7 @@
         size = 894300
     }
 
-    serfs = {
+    farmers = {
         culture = nanfaren
         religion = mahayana
         size = 70000
@@ -7421,7 +7421,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 3400
+        size = 8500
     }
 
     clergymen = {
@@ -7472,7 +7472,7 @@
         size = 1000
     }
 
-    serfs = {
+    farmers = {
         culture = nanfaren
         religion = mahayana
         size = 30000
@@ -7533,7 +7533,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 4325
+        size = 10812
     }
 
     officers = {
@@ -7593,7 +7593,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 1625
+        size = 4062
     }
 
     officers = {
@@ -7689,7 +7689,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 200
+        size = 500
     }
 
     officers = {
@@ -7825,7 +7825,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 5600
+        size = 14000
     }
 
     clergymen = {
@@ -7942,7 +7942,7 @@
         size = 896400
     }
 
-    serfs = {
+    farmers = {
         culture = hakka
         religion = mahayana
         size = 100000
@@ -8054,7 +8054,7 @@
         size = 200000
     }
 
-    serfs = {
+    farmers = {
         culture = nanfaren
         religion = mahayana
         size = 80000
@@ -8335,7 +8335,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 300
+        size = 750
     }
 
     officers = {
@@ -8395,7 +8395,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 100
+        size = 250
     }
 
     officers = {
@@ -8694,7 +8694,7 @@
     bureaucrats = {
         culture = beifaren
         religion = sunni
-        size = 400
+        size = 1000
     }
 
 
@@ -8755,7 +8755,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -8770,13 +8770,13 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = tibetan
         religion = gelugpa
         size = 10000
     }
 
-    serfs = {
+    farmers = {
         culture = mongol
         religion = gelugpa
         size = 5000
@@ -8881,7 +8881,7 @@
         size = 900
     }
 
-    serfs = {
+    farmers = {
         culture = tibetan
         religion = gelugpa
         size = 7000
@@ -9021,7 +9021,7 @@
         size = 35775
     }
 
-    serfs = {
+    farmers = {
         culture = mongol
         religion = gelugpa
         size = 8000
@@ -9041,7 +9041,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 1850
+        size = 4625
     }
 
     officers = {
@@ -9131,7 +9131,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 75
+        size = 187
     }
 
     officers = {
@@ -9330,7 +9330,7 @@
         size = 352225
     }
 
-    serfs = {
+    farmers = {
         culture = nanfaren
         religion = mahayana
         size = 50000
@@ -9423,7 +9423,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 6700
+        size = 16750
     }
 
     officers = {
@@ -9510,7 +9510,7 @@
         size = 865600
     }
 
-    serfs = {
+    farmers = {
         culture = beifaren
         religion = mahayana
         size = 100000
@@ -9549,7 +9549,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 300
+        size = 750
     }
 
     officers = {
@@ -9637,7 +9637,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 4800
+        size = 12000
     }
 
     clergymen = {
@@ -9670,7 +9670,7 @@
         size = 300000
     }
 
-    serfs = {
+    farmers = {
         culture = beifaren
         religion = mahayana
         size = 30000
@@ -10025,7 +10025,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 3250
+        size = 8125
     }
 
     officers = {
@@ -10065,7 +10065,7 @@
         size = 200000
     }
 
-    serfs = {
+    farmers = {
         culture = beifaren
         religion = mahayana
         size = 80000
@@ -10104,7 +10104,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 100
+        size = 250
     }
 
     officers = {
@@ -10538,7 +10538,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 6125
+        size = 15312
     }
 
     officers = {
@@ -10616,7 +10616,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 125
+        size = 312
     }
 
     officers = {
@@ -10642,7 +10642,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 6700
+        size = 16750
     }
 
     clergymen = {
@@ -10803,7 +10803,7 @@
         size = 100000
     }
 
-    serfs = {
+    farmers = {
         culture = yi
         religion = animist
         size = 60000
@@ -11151,7 +11151,7 @@
         size = 404190
     }
 
-    serfs = {
+    farmers = {
         culture = nanfaren
         religion = mahayana
         size = 100000
@@ -11397,7 +11397,7 @@
         size = 75
     }
 
-    serfs = {
+    farmers = {
         culture = yi
         religion = animist
         size = 7325
@@ -11427,7 +11427,7 @@
         size = 100
     }
 
-    serfs = {
+    farmers = {
         culture = asian_minor
         religion = animist
         size = 8200
@@ -11476,7 +11476,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 2675
+        size = 6687
     }
 
     officers = {
@@ -11587,7 +11587,7 @@
         size = 75
     }
 
-    serfs = {
+    farmers = {
         culture = asian_minor
         religion = animist
         size = 5475
@@ -11653,7 +11653,7 @@
         size = 37325
     }
 
-    serfs = {
+    farmers = {
         culture = yi
         religion = animist
         size = 10000
@@ -11662,7 +11662,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -11775,7 +11775,7 @@
         size = 24575
     }
 
-    serfs = {
+    farmers = {
         culture = yi
         religion = animist
         size = 24575
@@ -11927,7 +11927,7 @@
         size = 29175
     }
 
-    serfs = {
+    farmers = {
         culture = yi
         religion = animist
         size = 25000
@@ -11976,7 +11976,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 1550
+        size = 3875
     }
 
     officers = {
@@ -12039,7 +12039,7 @@
         size = 1000
     }
 
-    serfs = {
+    farmers = {
         culture = beifaren
         religion = mahayana
         size = 10000
@@ -12150,7 +12150,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 50
+        size = 125
     }
 
     officers = {
@@ -12318,7 +12318,7 @@
     bureaucrats = {
         culture = nanfaren
         religion = mahayana
-        size = 2700
+        size = 6750
     }
 
     clergymen = {
@@ -12363,7 +12363,7 @@
         size = 50000
     }
 
-    serfs = {
+    farmers = {
         culture = nanfaren
         religion = mahayana
         size = 30000
@@ -12710,7 +12710,7 @@
     bureaucrats = {
         culture = beifaren
         religion = mahayana
-        size = 9100
+        size = 22750
     }
 
     officers = {
@@ -12744,7 +12744,7 @@
         size = 908650
     }
 
-    serfs = {
+    farmers = {
         culture = beifaren
         religion = mahayana
         size = 90000
@@ -12881,7 +12881,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 550
+        size = 1375
     }
 
     clergymen = {
@@ -13175,7 +13175,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 10250
+        size = 25625
     }
 
     officers = {
@@ -13258,7 +13258,7 @@
         size = 821325
     }
 
-    serfs = {
+    farmers = {
         culture = beifaren
         religion = mahayana
         size = 100000

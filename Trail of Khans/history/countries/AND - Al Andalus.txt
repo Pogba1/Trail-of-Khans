@@ -31,8 +31,8 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
-conscription = no_draft
-debt_law = debtors_prisons
+conscription = two_year_draft
+ 
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = culture_voting_only

@@ -514,7 +514,7 @@
 	bureaucrats = {
         culture = elysian
         religion = catholic
-        size = 300
+        size = 750
     }
 	
 	clergymen = {
@@ -579,7 +579,7 @@
 	bureaucrats = {
         culture = elysian
         religion = catholic
-        size = 300
+        size = 750
     }
 	
 	clergymen = {
@@ -620,7 +620,7 @@ aristocrats = {
 	bureaucrats = {
         culture = elysian
         religion = catholic
-        size = 400
+        size = 1000
     }
 	
 	clergymen = {
@@ -658,7 +658,7 @@ aristocrats = {
 	bureaucrats = {
         culture = elysian
         religion = catholic
-        size = 400
+        size = 1000
     }
 	
 	clergymen = {
@@ -697,7 +697,7 @@ aristocrats = {
 	bureaucrats = {
         culture = elysian
         religion = catholic
-        size = 200
+        size = 500
     }
 	
 	clergymen = {
@@ -784,7 +784,7 @@ aristocrats = {
     bureaucrats = {
         culture = mexican
         religion = catholic
-        size = 3
+        size = 7
     }
 
     clergymen = {
@@ -1099,7 +1099,7 @@ aristocrats = {
 	bureaucrats = {
         culture = mexican
         religion = catholic
-        size = 1
+        size = 2
     }
 	farmers = {
         culture = mexican
@@ -1331,7 +1331,7 @@ aristocrats = {
     bureaucrats = {
         culture = mexican
         religion = catholic
-        size = 1
+        size = 2
     }
 
     clergymen = {
@@ -1398,7 +1398,7 @@ aristocrats = {
 	bureaucrats = {
         culture = elysian
         religion = catholic
-        size = 800
+        size = 2000
     }
 	
 	clergymen = {
@@ -2290,7 +2290,7 @@ aristocrats = {
     bureaucrats = {
         culture = mexican
         religion = catholic
-        size = 5
+        size = 12
     }
 
     aristocrats = {
@@ -2423,7 +2423,7 @@ aristocrats = {
     bureaucrats = {
         culture = mexican
         religion = catholic
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -2485,7 +2485,7 @@ aristocrats = {
     bureaucrats = {
         culture = mexican
         religion = catholic
-        size = 50
+        size = 125
     }
 
     clergymen = {
@@ -2780,7 +2780,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
 		religion = catholic
-        size = 175
+        size = 437
     }
 
     officers = {
@@ -2928,7 +2928,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
 		religion = catholic
-        size = 50
+        size = 125
     }
 	farmers = {
 		culture = seminoles
@@ -2974,7 +2974,7 @@ aristocrats = {
     bureaucrats = {
         culture = creole
         religion = catholic
-        size = 50
+        size = 125
     }
 
     officers = {
@@ -3481,7 +3481,7 @@ aristocrats = {
 	bureaucrats = {
 	    culture = cree
 		religion = catholic
-		size = 50
+        size = 125
 	}
 	
     clergymen = {
@@ -3565,7 +3565,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -3660,7 +3660,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -3723,7 +3723,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -3743,7 +3743,7 @@ aristocrats = {
     bureaucrats = {
         culture = iroquois
         religion = catholic
-        size = 15
+        size = 37
     }
 
     clergymen = {
@@ -3782,7 +3782,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -3833,7 +3833,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -3868,7 +3868,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -3983,7 +3983,7 @@ aristocrats = {
     bureaucrats = {
         culture = iroquois
         religion = catholic
-        size = 275
+        size = 687
     }
 
     officers = {
@@ -4107,7 +4107,7 @@ aristocrats = {
     bureaucrats = {
         culture = iroquois
         religion = catholic
-        size = 226
+        size = 565
     }
 
     officers = {
@@ -4176,7 +4176,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -4222,7 +4222,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -4268,7 +4268,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -4327,7 +4327,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -4399,7 +4399,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -4476,7 +4476,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -4496,7 +4496,7 @@ aristocrats = {
     bureaucrats = {
         culture = iroquois
         religion = catholic
-        size = 575
+        size = 1437
     }
 
     officers = {
@@ -4551,7 +4551,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -4700,7 +4700,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+        size = 250
 	}
 	farmers = {
 		culture = french_canadian
@@ -4928,7 +4928,7 @@ aristocrats = {
     bureaucrats = {
         culture = cherokee
         religion = catholic
-        size = 125
+        size = 312
     }
 
     officers = {
@@ -4980,7 +4980,7 @@ aristocrats = {
     bureaucrats = {
         culture = cherokee
         religion = catholic
-        size = 125
+        size = 312
     }
 
     officers = {
@@ -5013,7 +5013,7 @@ aristocrats = {
 	bureaucrats = {
         culture = louisianian
         religion = catholic
-        size = 200
+        size = 500
     }
 
     officers = {
@@ -5093,7 +5093,7 @@ aristocrats = {
     bureaucrats = {
         culture = cherokee
         religion = catholic
-        size = 400
+        size = 1000
     }
 
     officers = {
@@ -5358,7 +5358,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
 		religion = catholic
-        size = 125
+        size = 312
     }
 
     officers = {
@@ -5431,7 +5431,7 @@ aristocrats = {
 	bureaucrats = {
         culture = louisianian
 		religion = catholic
-        size = 75
+        size = 187
     }
 
     officers = {
@@ -5582,7 +5582,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
 		religion = catholic
-        size = 250
+        size = 625
     }
 
     officers = {
@@ -5892,7 +5892,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
         religion = catholic
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -5972,7 +5972,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
         religion = catholic
-        size = 60
+        size = 150
     }
 
     officers = {
@@ -6058,7 +6058,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
         religion = catholic
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -6137,7 +6137,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
         religion = catholic
-        size = 225
+        size = 562
     }
 
     officers = {
@@ -6447,7 +6447,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
         religion = catholic
-        size = 200
+        size = 500
     }
 
     officers = {
@@ -6578,7 +6578,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
         religion = catholic
-        size = 275
+        size = 687
     }
 
     officers = {
@@ -6717,6 +6717,11 @@ aristocrats = {
         size = 2475
     }
 
+    craftsmen = {
+        culture = louisianian
+        religion = catholic
+        size = 9201
+    }
     farmers = {
         culture = louisianian
         religion = catholic
@@ -6828,7 +6833,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
         religion = catholic
-        size = 100
+        size = 250
     }
 
     officers = {
@@ -6896,7 +6901,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
         religion = catholic
-        size = 300
+        size = 750
     }
 
     officers = {
@@ -7428,7 +7433,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
         religion = catholic
-        size = 175
+        size = 437
     }
 
     officers = {
@@ -7605,7 +7610,7 @@ aristocrats = {
 	bureaucrats = {
 		culture = louisianian
 		religion = catholic
-		size = 100
+        size = 250
 	
 	}
 
@@ -7708,7 +7713,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
         religion = catholic
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -7806,7 +7811,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
         religion = catholic
-        size = 2700
+        size = 6750
     }
 
     officers = {
@@ -7866,7 +7871,7 @@ aristocrats = {
     bureaucrats = {
         culture = louisianian
         religion = catholic
-        size = 115
+        size = 287
     }
 
     officers = {
@@ -8344,7 +8349,7 @@ aristocrats = {
     bureaucrats = {
         culture = french_canadian
         religion = catholic
-        size = 125
+        size = 312
     }
 
     officers = {
@@ -8380,7 +8385,7 @@ aristocrats = {
     bureaucrats = {
         culture = french_canadian
         religion = catholic
-        size = 25
+        size = 62
     }
 
     officers = {
@@ -8594,7 +8599,7 @@ aristocrats = {
     bureaucrats = {
         culture = french_canadian
         religion = catholic
-        size = 975
+        size = 2437
     }
 
     officers = {
@@ -8630,7 +8635,7 @@ aristocrats = {
     bureaucrats = {
         culture = french_canadian
         religion = catholic
-        size = 100
+        size = 250
     }
 
     officers = {
@@ -8809,6 +8814,12 @@ aristocrats = {
         size = 3000
     }
 	
+    craftsmen = {
+        culture = french_canadian
+        religion = catholic
+        size = 8302
+    }
+    
     farmers = {
         culture = french_canadian
         religion = catholic
@@ -8940,7 +8951,7 @@ aristocrats = {
     bureaucrats = {
         culture = french_canadian
         religion = catholic
-        size = 150
+        size = 375
     }
 
     officers = {
@@ -9016,7 +9027,7 @@ aristocrats = {
     bureaucrats = {
         culture = french_canadian
         religion = catholic
-        size = 50
+        size = 125
     }
 
     officers = {
@@ -9092,7 +9103,7 @@ aristocrats = {
     bureaucrats = {
         culture = french_canadian
         religion = catholic
-        size = 300
+        size = 750
     }
 
     officers = {
@@ -9310,7 +9321,7 @@ aristocrats = {
     bureaucrats = {
         culture = french_canadian
         religion = catholic
-        size = 125
+        size = 312
     }
 
     officers = {
@@ -9374,7 +9385,7 @@ aristocrats = {
     bureaucrats = {
         culture = french_canadian
         religion = catholic
-        size = 150
+        size = 375
     }
 
     capitalists = {
@@ -9432,7 +9443,7 @@ aristocrats = {
     bureaucrats = {
         culture = french_canadian
         religion = catholic
-        size = 175
+        size = 437
     }
 
     officers = {

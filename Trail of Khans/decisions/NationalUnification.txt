@@ -200,25 +200,25 @@ political_decisions = {
         }
         allow = {
             war = no
-            nationalism_n_imperialism = 1
+            state_n_government = 1
             GER = {
                 all_core = {
+                    NOT = {
+                        culture = south_german
+                    }
+					NOT = { is_core = PRU }
                     OR = {
-                        OR = {
-                            owned_by = THIS
-                            owner = {
-                                in_sphere = THIS
-                                OR = {
-                                    is_vassal = no
-                                    vassal_of = THIS
-                                }
-                                war = no
-                                is_mobilised = no
-                                is_greater_power = no
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
                             }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
                         }
-                        NOT = { culture = north_german }
-						NOT = { is_core = PRU }
                     }
                 }
             }
@@ -440,6 +440,7 @@ political_decisions = {
                         NOT = { is_core = EST }
                         NOT = { is_core = LAT }
                         NOT = { is_core = LIT }
+                        NOT = { state_id = FRA_411 }
 					} 
 				add_core = GER 
 				}

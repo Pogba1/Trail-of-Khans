@@ -20,7 +20,7 @@
     bureaucrats = {
         culture = sinhala
         religion = theravada
-        size = 150
+        size = 375
     }
 
     clergymen = {
@@ -56,7 +56,7 @@
     bureaucrats = {
         culture = tamil
         religion = hindu
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -200,7 +200,7 @@
     bureaucrats = {
         culture = dutch
         religion = protestant
-        size = 50
+        size = 125
     }
 
     clergymen = {

@@ -11,7 +11,7 @@
     bureaucrats = {
         culture = greek
         religion = orthodox
-        size = 550
+        size = 1375
     }
 
     clergymen = {
@@ -390,7 +390,7 @@
     bureaucrats = {
         culture = greek
         religion = orthodox
-        size = 700
+        size = 1750
     }
 
     officers = {
@@ -821,7 +821,7 @@
     bureaucrats = {
         culture = greek
         religion = orthodox
-        size = 325
+        size = 812
     }
 
     officers = {
@@ -1340,7 +1340,7 @@
     bureaucrats = {
         culture = turkmen
         religion = sunni
-        size = 425
+        size = 1062
     }
 
     officers = {
@@ -1685,7 +1685,7 @@
     bureaucrats = {
         culture = turkmen
         religion = sunni
-        size = 300
+        size = 750
     }
 
     officers = {
@@ -2391,12 +2391,12 @@
     bureaucrats = {
         culture = greek
         religion = orthodox
-        size = 125
+        size = 312
     }
 	 bureaucrats = {
         culture = greek
         religion = orthodox
-        size = 400
+        size = 1000
     }
 
     officers = {
@@ -2505,7 +2505,7 @@
 	bureaucrats = {
 		culture = greek
 		religion = orthodox
-		size = 1000
+        size = 2500
 	}
     clergymen = {
         culture = greek
@@ -2569,7 +2569,7 @@
     bureaucrats = {
         culture = greek
         religion = orthodox
-        size = 300
+        size = 750
     }
 
     officers = {
@@ -2822,7 +2822,7 @@
     bureaucrats = {
         culture = greek
         religion = orthodox
-        size = 200
+        size = 500
     }
 
     officers = {
@@ -3124,7 +3124,7 @@
     bureaucrats = {
         culture = turkmen
         religion = sunni
-        size = 150
+        size = 375
     }
 
     officers = {
@@ -3196,7 +3196,7 @@
     bureaucrats = {
         culture = kurdish
         religion = sunni
-        size = 50
+        size = 125
     }
 
     officers = {
@@ -3234,7 +3234,7 @@
 	bureaucrats = {
 		culture = greek
 		religion = orthodox
-		size = 450
+        size = 1125
 	}
     aristocrats = {
         culture = greek
@@ -3458,7 +3458,7 @@
     bureaucrats = {
         culture = turkmen
         religion = sunni
-        size = 125
+        size = 312
     }
 
     officers = {
@@ -3572,7 +3572,7 @@
     bureaucrats = {
         culture = kurdish
         religion = sunni
-        size = 75
+        size = 187
     }
 
     officers = {
@@ -4137,7 +4137,7 @@
     bureaucrats = {
         culture = armenian
         religion = coptic
-        size = 150
+        size = 375
     }
 
     officers = {

@@ -206,7 +206,7 @@
 	bureaucrats = {
 		culture = thracian
         religion = orthodox
-        size = 100
+        size = 250
 	}
 	farmers = {
         culture = thracian
@@ -256,7 +256,7 @@
 	bureaucrats = {
 		culture = thracian
         religion = orthodox
-        size = 100
+        size = 250
 	}
     aristocrats = {
         culture = greek
@@ -373,7 +373,7 @@
 	bureaucrats = {
 		culture = thracian
         religion = orthodox
-        size = 100
+        size = 250
 	}
     aristocrats = {
         culture = thracian
@@ -474,7 +474,7 @@
 	bureaucrats = {
 		culture = thracian
         religion = orthodox
-        size = 100
+        size = 250
 	}
     clergymen = {
         culture = bulgarian
@@ -647,7 +647,7 @@
     bureaucrats = {
         culture = thracian
         religion = orthodox
-        size = 150
+        size = 375
     }
 	
     officers = {

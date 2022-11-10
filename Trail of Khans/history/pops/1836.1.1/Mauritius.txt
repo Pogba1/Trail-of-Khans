@@ -5,7 +5,7 @@
     bureaucrats = {
         culture = french
         religion = protestant
-        size = 20
+        size = 50
     }
 
     clergymen = {
@@ -35,7 +35,7 @@
     bureaucrats = {
         culture = french
         religion = catholic
-        size = 30
+        size = 75
     }
 
     artisans = {

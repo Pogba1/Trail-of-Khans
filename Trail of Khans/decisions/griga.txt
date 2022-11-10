@@ -2,7 +2,10 @@ political_decisions = {
 	form_sigmanistan = {
 		potential = {
 			NOT = {exists = SIG}
-			tag = AFG
+			OR = {
+				tag = AFG
+				tag = TKM
+			}
 		}
 		allow = {
 			1209 = {owned_by = THIS}

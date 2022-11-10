@@ -17,7 +17,7 @@
     bureaucrats = {
         culture = polish
         religion = catholic
-        size = 400
+        size = 1000
     }
 
     officers = {
@@ -95,7 +95,7 @@
     bureaucrats = {
         culture = czech
         religion = catholic
-        size = 1550
+        size = 3875
     }
 
     officers = {
@@ -654,7 +654,7 @@
     bureaucrats = {
         culture = czech
         religion = catholic
-        size = 100
+        size = 250
     }
 
     farmers = {
@@ -678,7 +678,7 @@
     bureaucrats = {
         culture = czech
         religion = catholic
-        size = 100
+        size = 250
     }
 
     clergymen = {
@@ -748,7 +748,7 @@
     bureaucrats = {
         culture = czech
         religion = catholic
-        size = 250
+        size = 625
     }
 
     officers = {
@@ -808,7 +808,7 @@
     bureaucrats = {
         culture = czech
         religion = catholic
-        size = 350
+        size = 875
     }
 
     officers = {
@@ -970,7 +970,7 @@
     bureaucrats = {
         culture = czech
         religion = catholic
-        size = 40
+        size = 100
     }
 
     officers = {
@@ -1018,7 +1018,7 @@
     bureaucrats = {
         culture = czech
         religion = catholic
-        size = 140
+        size = 350
     }
 
     clergymen = {
