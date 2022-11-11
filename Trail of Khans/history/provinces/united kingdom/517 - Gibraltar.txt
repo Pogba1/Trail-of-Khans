@@ -1,6 +1,6 @@
-owner = AND
-controller = AND
-add_core = AND
+owner = ADL
+controller = ADL
+add_core = ADL
 terrain = urban
 trade_goods = precious_goods
 life_rating = 35

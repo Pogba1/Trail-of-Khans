@@ -2,7 +2,7 @@ political_decisions = {
 	unite_the_peninsula = {
 		picture = ""
 		potential = {
-			tag = AND
+			tag = ADL
 			NOT = {has_country_flag = unite_the_peninsula}
 			NOT = {has_country_flag = rebuild_the_caliphate}
 		}
@@ -83,7 +83,7 @@ political_decisions = {
 	united_in_solidarity_and = {
 		picture = ""
 		potential = {
-			tag = AND
+			tag = ADL
 			has_country_flag = unite_the_peninsula
 			NOT = {has_country_flag = united_in_solidarity}
 		}
@@ -159,7 +159,7 @@ political_decisions = {
 					limit = {
 						NOT = {is_core = CAT}
 					}
-				add_core = AND
+				add_core = ADL
 				}
 			}
 			ATR = {
@@ -264,7 +264,7 @@ political_decisions = {
 			add_accepted_culture = portuguese
 			change_tag = IBE
 			prestige = 40
-			AND = {
+			ADL = {
 				all_core = {
 					limit = {
 						NOT = {is_core = MOR}
@@ -272,9 +272,9 @@ political_decisions = {
 				add_core = ATR
 				}
 			}
-			AND = {
+			ADL = {
 				all_core = {
-					remove_core = AND
+					remove_core = ADL
 				}
 			}
 			ATR = {
@@ -323,7 +323,7 @@ political_decisions = {
 		picture = ""
 		potential = {
 			
-			tag = AND
+			tag = ADL
 			
 			NOT = {has_country_flag = unite_the_peninsula }
 			NOT = {has_country_flag = rebuild_the_caliphate}
@@ -346,7 +346,7 @@ political_decisions = {
 		picture = ""
 		potential = {
 			
-			tag = AND
+			tag = ADL
 			
 			has_country_flag = rebuild_the_caliphate 
 			NOT = {has_country_flag = conquer_tripoli}
@@ -367,7 +367,7 @@ political_decisions = {
 		picture = ""
 		potential = {
 			
-			tag = AND
+			tag = ADL
 			
 			has_country_flag = conquer_tripoli 
 			NOT = {has_country_flag = egyptian_conquest}
@@ -391,7 +391,7 @@ political_decisions = {
 		#picture = ""
 		potential = {
 			
-			tag = AND
+			tag = ADL
 			NOT = {exists = CLP}
 			has_country_flag = egyptian_conquest 
 			NOT = {has_country_flag = the_caliphate}
@@ -415,7 +415,7 @@ political_decisions = {
 			MOR = {all_core = {add_core = THIS}}
 			ALD = {all_core = {add_core = THIS}}
 			TUN = {all_core = {add_core = THIS}}
-			AND = {all_core = {add_core = THIS}}
+			ADL = {all_core = {add_core = THIS}}
 			EGY_921 = {add_core = THIS}
 			HDJ_1151 = {add_core = THIS}
 			NEJ_1157 = {add_core = THIS}

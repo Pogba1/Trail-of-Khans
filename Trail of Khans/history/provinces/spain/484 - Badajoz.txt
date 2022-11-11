@@ -1,6 +1,6 @@
-owner = AND
-controller = AND
-add_core = AND
+owner = ADL
+controller = ADL
+add_core = ADL
 trade_goods = wool
 life_rating = 35
 1861.1.1 = { railroad = 3 }
