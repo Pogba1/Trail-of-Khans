@@ -6,7 +6,10 @@ country_event = {
 	allow_multiple_instances = no
 	
 	trigger = {
-		tag = CEE
+		OR = {
+			tag = CEE
+			tag = GPN
+		}
 		civilized = yes
 		medicine = 1
 		war = no
@@ -50,7 +53,10 @@ country_event = {
 	allow_multiple_instances = no
 	
 	trigger = {
-		tag = CEE
+		OR = {
+			tag = CEE
+			tag = GPN
+		}
 		civilized = yes
 		has_country_flag = embrace_natives
 		war = no
@@ -100,7 +106,10 @@ country_event = {
 	allow_multiple_instances = no
 	
 	trigger = {
-		tag = CEE
+		OR = {
+			tag = CEE
+			tag = GPN
+		}
 		civilized = yes
 		has_country_flag = embrace_natives
 		war = no

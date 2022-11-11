@@ -1,4 +1,5 @@
+owner = GPN
+controller = GPN
+add_core = GPN
 trade_goods = grain
 life_rating = 35
-colonial = 0
-1861.1.1 = { colonial = 0 }
