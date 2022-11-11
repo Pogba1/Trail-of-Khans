@@ -1955,6 +1955,9 @@ establish_protectorate_NI_casus_belli = {
 			nationalism_n_imperialism = 1
 		}
 		civilized = no
+		NOT = {
+			number_of_states = 7
+		}
 		OR = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = punitive_effects } }
