@@ -54,23 +54,6 @@ political_decisions = {
 		}
 	}
 	
-	the_germans = {
-		potential = {
-			tag = NET
-			NOT = {
-				accepted_culture = dutch_german
-			}
-		}
-		allow = {
-			war = no
-			nationalism_n_imperialism = 1
-	    }
-		effect = {
-			add_accepted_culture = dutch_german
-			prestige = 20
-		}
-	}
-	
 	assimilating_germans = {
 		potential = {
 			tag = NET
