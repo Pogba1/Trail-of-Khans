@@ -358,57 +358,6 @@ country_event = {
 #                                                                                        #
 #########################################################################################
 
-province_event = {
-    id = 97175
-    title = "EVTNAME97175" #Chaos in $STATENAME$
-    desc = "EVTDESC97175"
-    news = yes
-    news_desc_long = "EVTDESC97175_NEWS_LONG"
-    news_desc_medium = "EVTDESC97175_NEWS_MEDIUM"
-    news_desc_short = "EVTDESC97175_NEWS_SHORT"
-
-    trigger = {
-        OR = {
-            is_colonial = yes
-            is_overseas = yes
-        }
-        state_scope = {
-            NOT = {
-                any_owned_province = {
-                    OR = {
-                        NOT = { controlled_by = REB }
-                        country_units_in_province = THIS
-                    }
-                }
-            }
-        }
-        NOT = { has_province_modifier = colonial_chaos }
-        NOT = { has_province_modifier = partisan_occupation }
-    }
-
-    mean_time_to_happen = {
-        months = 18
-    }
-
-    option = {
-        name = "EVT97175OPTA"
-        owner = { prestige = -10 }
-        state_scope = {
-            any_owned = {
-                limit = {
-                    is_colonial = yes
-                    controlled_by = REB
-                    NOT = { country_units_in_province = THIS }
-                }
-                add_province_modifier = {
-                    name = colonial_chaos
-                    duration = -1
-                }
-            }
-        }
-    }
-}
-
 country_event = {
     id = 97180 #Annexation Event
     title = "EVTNAME97180" #Return of Our Lands
