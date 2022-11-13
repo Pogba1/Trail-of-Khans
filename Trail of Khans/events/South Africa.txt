@@ -1,0 +1,20 @@
+country_event = {
+    id = 9449940
+    title = "In the beninging"
+    desc = "EVTDESC9449940"
+    picture = "beninging"
+
+    mean_time_to_happen = {
+        days = 0
+    }
+
+    only_fire_once = yes 
+
+    trigger = {
+        tag = SAF
+    }
+
+    option = {
+        name = "Listen properly"
+    }
+}
