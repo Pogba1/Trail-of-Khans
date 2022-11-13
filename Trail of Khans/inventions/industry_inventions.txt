@@ -1580,10 +1580,28 @@ cotton_gin = {
     }
 }
 
-
-#early_electrical_telegraph = {
-#    limit = { high_pressure_steam_engine = 1 }
-#        chance = { base = 1 }
-#
-#    effect = {  }
-#}
+frasch_process = {
+    limit = { drilling_and_blasting = 1 }
+    chance = {
+        base = 2
+        modifier = {
+            factor = 2
+            steel_railroad = 1
+        }
+        modifier = {
+            factor = 2
+            year = 1891
+        }
+        modifier = {
+            factor = -2
+            NOT = {
+                year= 1891
+            }
+        }
+    }
+    effect = {
+        rgo_goods_output = {
+            sulphur = 0.5
+        }
+    }
+}

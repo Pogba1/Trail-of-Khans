@@ -3058,3 +3058,8 @@ andalusian_caliphate = {
 	administrative_efficiency_modifier = 0.05
 	assimilation_rate = 0.15
 }
+
+sicilian_sulphur = {
+    rgo_output = 0.60
+    icon = 13
+}

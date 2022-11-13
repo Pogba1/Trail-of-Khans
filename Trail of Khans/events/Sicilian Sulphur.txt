@@ -1,0 +1,79 @@
+country_event = {
+    id = 7637640
+    title = "Sicilan Sulphur"
+    desc = "EVTDESC7637640"
+
+    trigger = {
+        OR = {
+            763 = { 
+                owned_by = THIS
+            }
+            764 = {
+                owned_by = THIS 
+            }
+        }
+        NOT = {
+            has_global_flag = frasch_process
+        }
+        NOT = {
+            any_owned_province = {
+                has_province_modifier = sicilian_sulphur
+            }
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 0 
+    }
+
+    option = {
+        name = "Fantastic!"
+        763 = {
+            add_province_modifier = {
+                name = sicilian_sulphur
+                duration = -1
+            }
+        }
+        764 = {
+            add_province_modifier = {
+                name = sicilian_sulphur
+                duration = -1
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 7637641
+    title = "The Frasch Process"
+    desc = "EVTDESC7637641"
+
+    trigger = {
+        763 = {
+            owned_by = THIS
+            has_province_modifier = sicilian_sulphur
+        }
+        764 = {
+            owned_by = THIS
+            has_province_modifier = sicilian_sulphur
+        }
+        random_country = {
+            invention = frasch_process
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 12
+    }
+
+    option = {
+        name = "Tragic"
+        763 = {
+            remove_province_modifier = sicilian_sulphur
+        }
+        764 = {
+            remove_province_modifier = sicilian_sulphur
+        }
+        set_global_flag = frasch_process
+    }
+}
