@@ -12,31 +12,63 @@ political_decisions = {
 				any_owned_province = {
 					controlled_by = THIS
 				}
-				all_core = {
-					owned_by = DLM
-				}
 			}
+
 		}
 		effect = {
 			AUS_736 = {
+				limit = {
+					owned_by = DLM
+				} 
 				secede_province = THIS
-				add_core = THIS
-			}
-			AUS_780 = {
-				secede_province = THIS
-				add_core = THIS
 			}
 			AUS_768 = {
+				limit = {
+					owned_by = DLM
+				} 
+				secede_province = THIS
+			}
+			AUS_780 = {
+				limit = {
+					owned_by = DLM
+				} 
 				secede_province = THIS
 			}
 			771 = {
+				limit = {
+					owned_by = DLM
+				} 
 				secede_province = THIS
 			}
 			773 = {
+				limit = {
+					owned_by = DLM
+				} 
 				secede_province = THIS
 			}
 			775 = {
+				limit = {
+					owned_by = DLM
+				} 
 				secede_province = THIS
+			}
+			AUS_736 = {
+				add_core = THIS
+			}
+			AUS_768 = {
+				add_core = THIS
+			}
+			AUS_780 = {
+				add_core = THIS
+			}
+			771 = {
+				add_core = THIS
+			}
+			773 = {
+				add_core = THIS
+			}
+			775 = {
+				add_core = THIS
 			}
 			add_accepted_culture = dalmatian
 			DLM = {
@@ -52,6 +84,12 @@ political_decisions = {
 				add_core = ILY
 			}
 			create_vassal = ILY
+			DLM = {
+				all_core = {
+					remove_core = DLM
+				}
+			}
+			badboy = 12.5
 			set_country_flag = control_dalmatia
 		}
 	}
@@ -83,6 +121,11 @@ political_decisions = {
 			DLM = {
 				all_core = {
 					add_core = THIS
+				}
+			}
+			DLM = {
+				all_core = {
+					remove_core = DLM
 				}
 			}
 		}
