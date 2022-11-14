@@ -83,6 +83,11 @@ political_decisions = {
 			TUR_788 = {
 				add_core = ILY
 			}
+			SER = {
+				all_core = {
+					add_core = ILY
+				}
+			}
 			create_vassal = ILY
 			DLM = {
 				all_core = {
