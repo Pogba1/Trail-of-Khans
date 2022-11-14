@@ -112,6 +112,7 @@ direct_current = {
     effect = {
         rgo_output = 0.05
         factory_throughput = 0.05
+        mine_RGO_eff = 0.5
     }
 }
 alternating_current = {
@@ -822,7 +823,7 @@ coke = {
     }
     effect = {
         rgo_goods_output = {
-            coal = 1
+            coal = 0.5
         }
     }
 }
@@ -903,7 +904,7 @@ bessemer_steel = {
     }
     effect = {
         factory_goods_throughput = {
-            steel = 0.3
+            steel = 0.05
         }
     }
 }
@@ -970,8 +971,6 @@ electric_rolling_techniques = {
         factory_goods_output = {
             steel = 0.02
         }
-	mine_RGO_eff = 0.5
-    mine_RGO_size = 0.5
     }
 }
 steel_alloys = {
