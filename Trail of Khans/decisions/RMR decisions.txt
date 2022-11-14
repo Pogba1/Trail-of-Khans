@@ -10,6 +10,7 @@ political_decisions = {
 			DLM = {
 				exists = yes
 				any_owned_province = {
+					is_core = DLM 
 					controlled_by = THIS
 				}
 			}
