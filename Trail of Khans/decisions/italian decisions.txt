@@ -159,6 +159,11 @@ political_decisions = {
 			NOT = {
 				has_global_flag = great_italian_wars
 			}
+			NOT = {
+				GEN = {
+					is_vassal = yes 
+				}
+			}
 		}
 		allow = {
 			nationalism_n_imperialism = 1 
@@ -278,6 +283,11 @@ political_decisions = {
 	        }
 		    NOT = {
 				has_global_flag = great_italian_wars 
+			}
+			NOT = {
+				SIC = {
+					is_vassal = yes
+				}
 			}
 		    tag = GEN
 		}
