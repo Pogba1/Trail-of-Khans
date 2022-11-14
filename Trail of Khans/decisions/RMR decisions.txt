@@ -134,27 +134,7 @@ political_decisions = {
 				}
 			}
 		}
-	}
-	
-    assimilate_trent = {
-        potential = {
-            tag = RMR
-            NOT = { has_country_flag = assimilated_trent }
-		}
-        allow = {
-			war = no
-            nationalism_n_imperialism = 1
-            734 = { owned_by = THIS }
-        }
-        effect = { 
-            set_country_flag = assimilated_trent
-            prestige = 10
-            734 = {
-				add_core = THIS
-				assimilate = yes 
-			}
-        }
-    }								
+	}						
 							
 	the_greeks = {
 		potential = {
