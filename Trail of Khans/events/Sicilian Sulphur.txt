@@ -57,12 +57,7 @@ country_event = {
             owned_by = THIS
             has_province_modifier = sicilian_sulphur
         }
-        any_country = {
-            limit = {
-                exists = yes
-            }
-            invention = frasch_process
-        }
+        has_global_flag = frasch_process
     }
 
     mean_time_to_happen = {
@@ -77,6 +72,24 @@ country_event = {
         764 = {
             remove_province_modifier = sicilian_sulphur
         }
+    }
+}
+
+country_event = {
+    id = 7637642
+    title = "Invention of the Frasch Process"
+    desc = " "
+
+    trigger = {
+        invention = frasch_process
+    }
+
+    mean_time_to_happen = {
+        months = 12
+    }
+    
+    option = {
+        name = "Great!"
         set_global_flag = frasch_process
     }
 }
