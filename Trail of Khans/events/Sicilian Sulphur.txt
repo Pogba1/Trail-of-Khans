@@ -57,7 +57,10 @@ country_event = {
             owned_by = THIS
             has_province_modifier = sicilian_sulphur
         }
-        random_country = {
+        any_country = {
+            limit = {
+                exists = yes
+            }
             invention = frasch_process
         }
     }

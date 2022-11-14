@@ -1583,10 +1583,10 @@ cotton_gin = {
 frasch_process = {
     limit = { drilling_and_blasting = 1 }
     chance = {
-        base = 2
+        base = 0
         modifier = {
-            factor = 2
-            steel_railroad = 1
+            factor = 4
+            integral_rail_system = 1
         }
         modifier = {
             factor = 2
