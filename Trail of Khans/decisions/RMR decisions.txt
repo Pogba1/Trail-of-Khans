@@ -9,12 +9,40 @@ political_decisions = {
 		allow = {
 			DLM = {
 				exists = yes
-				any_owned_province = {
-					is_core = DLM 
-					controlled_by = THIS
+			}
+			TUR_788 = {
+				OR = {
+					owned_by = THIS
+					owned_by = DLM
 				}
 			}
-
+			AUS_780 = {
+				OR = {
+					owned_by = THIS
+					owned_by = DLM
+				}
+			}
+			AUS_771 = {
+				OR = {
+					owned_by = THIS
+					owned_by = DLM
+				}
+			}
+			AUS_768 = {
+				OR = {
+					owned_by = THIS
+					owned_by = DLM
+				}
+			}
+			771 = {
+				controlled_by = THIS
+			}
+			782 = {
+				controlled_by = THIS
+			}
+			783 = {
+				controlled_by = THIS
+			}
 		}
 		effect = {
 			AUS_736 = {
