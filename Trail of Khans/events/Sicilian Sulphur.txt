@@ -82,6 +82,9 @@ country_event = {
 
     trigger = {
         invention = frasch_process
+        NOT = {
+            has_global_flag = frasch_process
+        }
     }
 
     mean_time_to_happen = {

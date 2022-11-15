@@ -81,36 +81,11 @@ political_decisions = {
 				} 
 				secede_province = THIS
 			}
-			AUS_736 = {
-				add_core = THIS
-			}
-			AUS_768 = {
-				add_core = THIS
-			}
-			AUS_780 = {
-				add_core = THIS
-			}
-			771 = {
-				add_core = THIS
-			}
-			773 = {
-				add_core = THIS
-			}
-			775 = {
-				add_core = THIS
-			}
 			add_accepted_culture = dalmatian
 			DLM = {
 				change_tag = ILY
-			} 
-			AUS_777 = {
-				add_core = ILY
-			}
-			AUS_771 = {
-				add_core = ILY
-			}
-			TUR_788 = {
-				add_core = ILY
+				primary_culture = serb
+				remove_accepted_culture = dalmatian
 			}
 			SER = {
 				all_core = {
@@ -122,6 +97,30 @@ political_decisions = {
 				all_core = {
 					remove_core = DLM
 				}
+			}
+			AUS_736 = {
+				add_core = THIS
+				remove_core = ILY
+			}
+			AUS_768 = {
+				add_core = THIS
+				remove_core = ILY
+			}
+			AUS_780 = {
+				add_core = THIS
+				remove_core = ILY
+			}
+			771 = {
+				add_core = THIS
+				remove_core = ILY
+			}
+			773 = {
+				add_core = THIS
+				remove_core = ILY
+			}
+			775 = {
+				add_core = THIS
+				remove_core = ILY
 			}
 			badboy = 12.5
 			set_country_flag = control_dalmatia
