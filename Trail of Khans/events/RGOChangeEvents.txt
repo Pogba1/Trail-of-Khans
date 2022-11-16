@@ -2714,7 +2714,6 @@ country_event = {
     option = {
         name = "EVTOPTD199041" #Mineral
         1884 = { trade_goods = coffee } #Freetown
-        1885 = { trade_goods = precious_goods } #Falaba
         1886 = { trade_goods = iron } #Bo
 
         random_owned = {
@@ -3131,7 +3130,6 @@ country_event = {
         1963 = { trade_goods = cotton }
         1960 = { trade_goods = coffee }
         1961 = { trade_goods = coffee }
-        1957 = { trade_goods = coffee }
         1956 = { trade_goods = coffee }
         1962 = { trade_goods = rubber }
 
@@ -3145,7 +3143,6 @@ country_event = {
         1963 = { trade_goods = coffee }
         1960 = { trade_goods = coffee }
         1961 = { trade_goods = coffee }
-        1957 = { trade_goods = coffee }
         1956 = { trade_goods = coffee }
         1962 = { trade_goods = rubber }
 
@@ -3243,7 +3240,6 @@ country_event = {
         name = "EVTOPTA199039" #Historical Option
         1975 = { trade_goods = rubber }
         1976 = { trade_goods = rubber }
-        1972 = { trade_goods = precious_goods }  #Ivory
 
         ai_chance = { factor = 80 }
     }
@@ -3252,7 +3248,6 @@ country_event = {
         name = "EVTOPTC199047" #Fruit Option
         1975 = { trade_goods = fruit }
         1976 = { trade_goods = fruit }
-        1972 = { trade_goods = precious_goods }  #Ivory
 
         ai_chance = {
             factor = 10
@@ -3402,7 +3397,6 @@ country_event = {
         1986 = { trade_goods = rubber }
         1996 = { trade_goods = rubber }
         1992 = { trade_goods = rubber }
-        1982 = { trade_goods = precious_goods } #Ivory in Leopoldville
         1991 = { trade_goods = precious_metal }
         1984 = { trade_goods = precious_metal }
         #End of default goods
@@ -3423,9 +3417,6 @@ country_event = {
         1986 = { trade_goods = rubber }
         1996 = { trade_goods = rubber }
         1992 = { trade_goods = rubber }
-        1982 = { trade_goods = precious_goods } #Ivory in Leopoldville
-        1991 = { trade_goods = precious_metal }
-        1984 = { trade_goods = precious_metal }
         #End of default goods
         1997 = { trade_goods = coffee }
         1990 = { trade_goods = coffee }
@@ -3463,9 +3454,6 @@ country_event = {
         1986 = { trade_goods = rubber }
         1996 = { trade_goods = rubber }
         1992 = { trade_goods = rubber }
-        1982 = { trade_goods = precious_goods } #Ivory in Leopoldville
-        1991 = { trade_goods = precious_metal }
-        1984 = { trade_goods = precious_metal }
         #End of default goods
         1997 = { trade_goods = tea }
         1990 = { trade_goods = tea }
@@ -4060,8 +4048,6 @@ country_event = {
         1965 = { trade_goods = rubber }
         1970 = { trade_goods = rubber }
 
-        1969 = { trade_goods = precious_goods } #Ivory
-
         1968 = { trade_goods = coffee }
         1971 = { trade_goods = coffee }
 
@@ -4075,8 +4061,6 @@ country_event = {
         name = "EVTOPTE199053" #Coffee Option
         1965 = { trade_goods = rubber }
         1970 = { trade_goods = rubber }
-
-        1969 = { trade_goods = precious_goods } #Ivory
 
         1968 = { trade_goods = coffee }
         1971 = { trade_goods = coffee }
