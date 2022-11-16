@@ -5,6 +5,9 @@ political_decisions = {
 	    potential = {
 			tag = RMR
 			NOT = { has_country_flag = control_dalmatia}
+			NOT = {
+				accepted_culture = dalmatian
+			}
 		}
 		allow = {
 			DLM = {
@@ -131,10 +134,10 @@ political_decisions = {
 		potential = {
 			tag = RMR
 			NOT = {
-				OR = {
-					has_country_flag = control_dalmatia
-					has_country_flag = integrate_illyrians
-				}
+				has_country_flag = integrate_the_illyrians
+			}
+			NOT = {
+				accepted_culture = dalmatian
 			}
 		}
 		allow = {
@@ -161,6 +164,7 @@ political_decisions = {
 					remove_core = DLM
 				}
 			}
+			set_country_flag = integrate_the_illyrians
 		}
 	}						
 							
