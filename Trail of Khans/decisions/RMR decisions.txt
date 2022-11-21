@@ -173,7 +173,7 @@ political_decisions = {
 			tag = RMR
 			NOT = {
 				has_country_flag = the_greek_claims
-				as_country_flag = greek_cultural_unity
+				has_country_flag = greek_cultural_unity
 			}					
 		}
 		allow = { 

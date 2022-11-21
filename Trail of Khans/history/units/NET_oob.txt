@@ -117,29 +117,96 @@ POR = {
 }
 
 army = {
-    name = "Borneo Garnizoen"
-    location = 1408
-    regiment = {
-        name= "1e Infanterie Brigade"
-        type = infantry
-        home = 375
-        }
+	name = "Gurkhas"
+	location = 377 
+	regiment = {
+		name = "1e Infantrie Brigade"
+		type = infantry 
+		home = 1304
+	}
+	regiment = {
+		name = "1e Infantrie Brigade"
+		type = infantry
+		home = 1304
+	}
+	regiment = {
+		name = "1e Artillerie Brigade"
+		type = artillery 
+		home = 1310
+	}
+	regiment = {
+		name = "1e Artillerie Brigade"
+		type = artillery
+		home = 1319
+	}
+	regiment = {
+		name = "1e Cuirassier Brigade"
+		type = cuirassier
+		home = 1318
+	}
+	regiment = {
+		name = "1e Hussar Brigade"
+		type = hussar
+		home = 1318
+	}
+	regiment = {
+		name = "1e Cuirassier Brigade"
+		type = cuirassier
+		home = 1321
+	}
 }
 
 army = {
     name = "Palembang Garnizoen"
-    location = 1399
+    location = 1413
     regiment = {
         name= "1e Infanterie Brigade"
         type = infantry
         home = 375
-        }
+    }
 	regiment = {
         name= "1e Infanterie Brigade"
         type = infantry
         home = 375
-        }
     }
+    regiment = {
+        name= "1e Infanterie Brigade"
+        type = infantry
+        home = 375
+    }
+    regiment = {
+        name = "1e Indische Brigade"
+        type = infantry
+        home = 1413
+    }
+
+    regiment = {
+        name = "Banisaren Korps"
+        type = infantry
+        home = 1421
+    }
+	regiment = {
+		name = "1e Artillerie Brigade"
+		type = artillery
+		home = 1399
+	}
+	regiment = {
+		name = "1e Artillerie Brigade"
+		type = artillery
+		home = 1413
+	}
+	regiment = {
+		name = "1e Hussar Brigade"
+		type = hussar
+		home = 1414
+	}
+	regiment = {
+		name = "1e Cuirassier brigade"
+		type = cuirassier
+		home = 1415
+	}
+}
+	
 	
 army = {
     name = "Nieuw Amsterdam Garnizoen"
@@ -381,22 +448,6 @@ army = {
         home = 384
     }
 
-}
-
-army = {
-    name = "K.N.I.L."
-    location = 1413
-    regiment = {
-        name = "1e Indische Brigade"
-        type = infantry
-        home = 1413
-    }
-
-    regiment = {
-        name = "Banisaren Korps"
-        type = irregular
-        home = 1421
-    }
 }
 
 navy = {
@@ -690,6 +741,46 @@ navy = {
         type = clipper_transport
     }
 
+    ship = {
+        name= "2e Transport Eskader"
+        type = clipper_transport
+    }
+    ship = {
+        name= "2e Transport Eskader"
+        type = clipper_transport
+    }
+    ship = {
+        name= "2e Transport Eskader"
+        type = clipper_transport
+    }
+    ship = {
+        name= "2e Transport Eskader"
+        type = clipper_transport
+    }
+    ship = {
+        name= "2e Transport Eskader"
+        type = clipper_transport
+    }
+    ship = {
+        name= "2e Transport Eskader"
+        type = clipper_transport
+    }
+    ship = {
+        name= "2e Transport Eskader"
+        type = clipper_transport
+    }
+    ship = {
+        name= "2e Transport Eskader"
+        type = clipper_transport
+    }
+    ship = {
+        name= "2e Transport Eskader"
+        type = clipper_transport
+    }
+    ship = {
+        name= "2e Transport Eskader"
+        type = clipper_transport
+    }
     ship = {
         name= "2e Transport Eskader"
         type = clipper_transport

@@ -209,7 +209,7 @@ migration_target =
 	}
 	modifier = {
 		factor = 4
-		this = { religion = jewish }
+		THIS = { religion = jewish }
 		is_core = ISR 
 	}
 	modifier = {

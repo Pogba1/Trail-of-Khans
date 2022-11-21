@@ -35,11 +35,12 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = secure_nouvelle_orleans
-			144 = {add_core = THIS}
-			142 = {add_core = THIS}
-			141 = {add_core = THIS}
-			143 = {add_core = THIS}
-			148 = {add_core = THIS}
+			USA_139 = {
+				add_core = THIS
+			}
+			USA_144 = {
+				add_core = THIS
+			}
 		}
 	}
 	
@@ -76,6 +77,75 @@ political_decisions = {
 			}
 			LOU = {all_core = {add_core = NAM}}
 			QUE = {all_core = {add_core = NAM}}
+			CEE = {
+				all_core = {
+					add_core = NAM
+					remove_core = CEE
+				}
+			}
+		}
+	}
+
+	pelsovs_plain = {
+		potential = {
+			OR = {
+				tag = NAM
+				tag = MEX
+				tag = ELI
+			}
+			NOT = {
+				has_country_flag = pelsovs_plain
+			}
+		}
+		allow = {
+			romanticism = 1
+			OR = {
+				is_greater_power = yes	
+				AND = {
+					is_secondary_power = yes
+					prestige = 100
+				}		
+			}
+		}
+		effect = {
+			set_country_flag = pelsovs_plain
+			DAK = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			GPN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			USA_129 = {
+				add_core = THIS
+			}
+			USA_126 = {
+				add_core = THIS
+			}
+			USA_106 = {
+				add_core = THIS
+			}
+			USA_111 = {
+				add_core = THIS
+			}
+			USA_116 = {
+				add_core = THIS
+			}
+			USA_91 = {
+				add_core = THIS
+			}
+			MEX_97 = {
+				add_core = THIS
+			}
+			USA_124 = {
+				add_core = THIS
+			}
+			157 = {
+				add_core = THIS
+			}
 		}
 	}
 }
