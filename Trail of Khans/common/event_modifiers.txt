@@ -1603,12 +1603,12 @@ boer_exodus = {
 }
 
 gold_rush_country = {
-    global_immigrant_attract = 5.5
+    global_immigrant_attract = 0.25
     icon = 9
 }
 
 gold_rush = {
-    immigrant_attract = 5       #500%
+    immigrant_attract = 1     
     life_rating = 0.5
 	assimilation_rate = -0.8
     icon = 11
@@ -2771,7 +2771,7 @@ reassert_greek_superiority = {
 	icon = 3
 }
 asturian_refugees = {
-	global_immigrant_attract = 0.75
+	global_immigrant_attract = 0.3
 	global_assimilation_rate = 0.2
 	icon = 17
 }
@@ -2805,7 +2805,7 @@ asturian_exodus_happened = {
 }
 
 land_grants_arg = {
-	global_immigrant_attract = 2.5
+	global_immigrant_attract = 0.5
 	tax_efficiency = -0.05
 	global_assimilation_rate = -0.2
 	icon = 19
@@ -2813,13 +2813,13 @@ land_grants_arg = {
 el_tofo = {
 	local_RGO_throughput = 1
 	local_RGO_output = 0.35
-	global_immigrant_attract = 0.5
+	global_immigrant_attract = 0.25
 	immigrant_attract = 2
 	population_growth = 0.001
 	icon = 13
 }
 texan_oil_boom = {
-	global_immigrant_attract = 2.5
+	global_immigrant_attract = 0.25
 	RGO_output = 0.1
 	icon = 19
 }
@@ -2894,7 +2894,7 @@ alaskan_gold_rush = {
     icon = 11
 }
 alaskan_gold_rush_country = {
-    global_immigrant_attract = 5
+    global_immigrant_attract = 0.2
     icon = 9
 }
 
