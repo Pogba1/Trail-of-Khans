@@ -188,7 +188,6 @@ political_decisions = {
 
     form_north_german_confederation = {
         potential = {
-            #is_greater_power = yes
             primary_culture = north_german
             capital_scope = { continent = europe }
             NOT = {
@@ -200,25 +199,23 @@ political_decisions = {
         }
         allow = {
             war = no
-            state_n_government = 1
             GER = {
                 all_core = {
-                    NOT = {
-                        culture = south_german
-                    }
-					NOT = { is_core = PRU }
                     OR = {
-                        owned_by = THIS
-                        owner = {
-                            in_sphere = THIS
-                            OR = {
-                                is_vassal = no
-                                vassal_of = THIS
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_mobilised = no
+                                is_greater_power = no
                             }
-                            war = no
-                            is_mobilised = no
-                            is_greater_power = no
                         }
+                        NOT = { culture = north_german }
                     }
                 }
             }
@@ -233,30 +230,32 @@ political_decisions = {
             random_owned = { limit = { owner = { accepted_culture = danish } } owner = { remove_accepted_culture = danish } }
             random_owned = { limit = { owner = { accepted_culture = hungarian } } owner = { remove_accepted_culture = hungarian } }
             all_core = { add_core = NGF remove_core = THIS }
-            any_owned = {
-                limit = {
-                    NOT = { is_core = THIS }
-                    any_core = {
-                        exists = no
-                        primary_culture = north_german
-                        has_country_flag = wants_to_unify
-                        NOT = { has_country_flag = post_colonial_country }
+			any_owned = {
+				limit = {
+					is_core = GER
+                    NOT = {
+                        culture = south_german
                     }
-                }
-                add_core = NGF
-            }
+                    NOT = {
+                        is_core = DEN
+                    }
+                    NOT = {
+                        is_core = PRU
+                    }
+                    NOT = {
+                        is_core = LAT
+                    }
+                    NOT = {
+                        is_core = LIT
+                    }
+                    NOT = {
+                        is_core = EST
+                    }
+				}
+				add_core = NGF
+			}
             change_tag = NGF
-            any_pop = {
-                limit = { is_primary_culture = yes }
-                militancy = -1
-            }
             FRA_412 = { add_core = GER }
-			FRA_411 = { add_core = GER }
-			397 = { add_core = GER }
-            random_owned = {
-                limit = { owner = { ai = yes } }
-                owner = { add_country_modifier = { name = law_changed_by_force duration = 365 } }
-            }
             any_country = {
                 limit = {
                     NOT = { tag = UBD }
@@ -273,28 +272,6 @@ political_decisions = {
                     }
                 }
                 country_event = 11106
-            }
-            random_country = {
-                limit = {
-                    exists = yes
-                    THIS = {
-                        OR = {
-                            government = absolute_monarchy
-                            government = prussian_constitutionalism
-                            government = hms_government
-                        }
-                    }
-                    OR = {
-                        government = absolute_monarchy
-                        government = prussian_constitutionalism
-                        government = hms_government
-                    }
-                    OR = {
-                        tag = AUS
-                        tag = KUK
-                    }
-                }
-                country_event = 33044
             }
         }
         ai_will_do = {

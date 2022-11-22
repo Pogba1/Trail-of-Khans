@@ -32,7 +32,13 @@
         religion = shiite
         size = 1250
     }
-	
+    
+    craftsmen = {
+        culture = azerbaijani
+        religion = shiite
+        size = 6500
+    }
+    
     artisans = {
         culture = azerbaijani
         religion = shiite

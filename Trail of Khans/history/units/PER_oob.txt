@@ -10,8 +10,8 @@ leader = {
     name = "Muhammad Shah"
     date = 1834.1.1
     type = land
-    personality = charismatic
-    background = pawn
+    personality = daring
+    background = cursed_luck
 }
 
 leader = {
@@ -30,6 +30,60 @@ leader = {
     background = politician
 }
 
+army = {
+    name = "Western Garrison"
+    location = 894
+    regiment = {
+        name = "Adana Loyalists"
+        type = guard
+        home = 894
+    }
+    regiment = {
+        name = "Enforcers of Shanhankhan"
+        type = guard
+        home = 896
+    }
+    regiment = {
+        name = "Organised Turkmens"
+        type = guard
+        home = 898
+    }
+    regiment = {
+        name = "Organised Turkmens"
+        type = infantry
+        home = 879
+    } 
+    regiment = {
+        name = "Greek Immortals"
+        type = artillery
+        home = 884
+    }
+    regiment = {
+        name = "Kurdish Preservers"
+        type = artillery
+        home = 888
+    }
+    regiment = {
+        name = "Turkmen horse-riders"
+        type = hussar
+        home = 887
+    }
+    regiment = {
+        name = "Great Kurdish expiditionaries"
+        type = artillery
+        home = 887
+    }
+    regiment = {
+        name = "Kurdish Fire"
+        type = artillery
+        home = 890
+    }
+    regiment = {
+        name = "Shanhankhan's liaison"
+        type = cuirassier
+        home = 1126
+    }
+}
 army = {
     name = "The Shah's Army"
     location = 1121 #Tehran

@@ -76,7 +76,21 @@ political_decisions = {
 				#	LOR = {vassal_of = THIS}
 				#	LOR = {all_core = {owned_by = THIS}}
 				#}
-			all_core = {owned_by = THIS}
+			all_core = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+						OR = {
+							is_vassal = no
+							vassal_of = THIS
+						}
+						war = no
+						is_mobilised = no
+						is_greater_power = no
+					}
+				}
+			}
 		}
 		effect = {
 		
