@@ -6,9 +6,9 @@ religion = shiite
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.0822880666666667
+literacy = 0.125
 civilized = yes
-non_state_culture_literacy = 0.01
+non_state_culture_literacy = 0.0530
 
 prestige = 20
 
@@ -65,7 +65,7 @@ army_command_principle = 1
 post_nelsonian_thought = 1
 clipper_design = 1
 classicism_n_early_romanticism = 1
-#late_enlightenment_philosophy = 1
+late_enlightenment_philosophy = 1
 malthusian_thought = 1
 #enlightenment_thought = 1
 introspectionism = 1
