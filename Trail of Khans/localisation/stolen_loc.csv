@@ -14,6 +14,8 @@ switch_to_production_desc;The foreigners progress through an industrious society
 switch_to_autocracy_title;Embrace the Ideal of Autocracy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 switch_to_autocracy_desc;The foreigners progress through a society based on strong leadership, obedience and loyalty. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GRuling Party Support: +30%\nMobilization Size: +2.0%\nLeadership Modifier: 100%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n\n§YThe modifiers for this NV are:§W\n§GBonus Assimilation Rate: +50%\nNon-Accepted Pop Militancy: -0.02\nCulture Tech Research Bonus: 5%\nMobilization Size: +1.25%§W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n\n§YThe modifiers for this NV are:§W\n§GAssimilation Rate: +20%\nNon-Accepted Pop Militancy: -0.02\nCulture Tech Research Bonus: 5%\nMobilization Size: +1.25%§W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
 switch_to_liberty_title;Embrace the Ideal of Liberty;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 switch_to_liberty_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of liberty and personal freedom above all else.\n\n§YThe modifiers for this NV are:§W\n§GPolitical Reform Desire: +25%\nCommerce Tech Research Bonus: 5%\nImmigrant Attraction Bonus: 20%\nMobilization Size: +1.0%§W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+nv_diplomacy;Diplomacy;x
+nv_education;Education;x
