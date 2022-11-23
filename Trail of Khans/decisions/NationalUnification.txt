@@ -652,10 +652,12 @@ political_decisions = {
             add_accepted_culture = panjabi
             add_accepted_culture = kashmiri
             add_accepted_culture = manipuri
-            add_accepted_culture = assamese
+            add_accepted_culture = kannada
             add_accepted_culture = oriya
             add_accepted_culture = gujarati
-
+            add_accepted_culture = mayalayam
+            add_accepted_culture = tamil
+            add_accepted_culture = telegu            
         }
         ai_will_do = {
             factor = 1
