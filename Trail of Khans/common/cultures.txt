@@ -8,13 +8,13 @@ germanic = {
     north_german = {
         color = { 90 60 60 }
         first_names = { Adelbert Adolf Albrecht Alexander Alfred August Bernhard Burkhard Dieter
-        Eduard Edwin Erwin Erich Ernst Florian Franz Friedrich Fritz Georg Gï¿½nther
-        Gustav Hasso Heinrich Helmuth Hermann Hugo Joachim Johann Jï¿½rgen Karl
+        Eduard Edwin Erwin Erich Ernst Florian Franz Friedrich Fritz Georg Günther
+        Gustav Hasso Heinrich Helmuth Hermann Hugo Joachim Johann Jürgen Karl
         Konrad Leonhard Leopold Ludwig Lukas Manfred Maximilian Michael Nikolaus Otto
         Pascal Paul Peter Reinhard Rudolf Ruprecht Stefan Theodor Wilhelm Wolfgang }
 
         last_names = { Behncke Brommy Cordemann Dreyer Droste Groener "Herwarth von Bittenfeld" Heppendorf Hoffmann Krohn Ludendorff Schree
-        "Vogel von Falkenstein" "von Alten" "von Anhalt" "von Arentschildt" "von Bismarck-Bohlen" "von Blumenthal" "von Blomberg"         "von Boyen" "von Braunschweig" "von Bï¿½low" "von dem Knesebeck" "von Gebser" "von Fritsch" "von Halkett" "von Hannover"
+        "Vogel von Falkenstein" "von Alten" "von Anhalt" "von Arentschildt" "von Bismarck-Bohlen" "von Blumenthal" "von Blomberg"         "von Boyen" "von Braunschweig" "von Bülow" "von dem Knesebeck" "von Gebser" "von Fritsch" "von Halkett" "von Hannover"
         "von Hessen-Darmstadt" "von Hessen-Kassel" "von Hindenburg" "von Hohenzollern" "von Holstein-Gottorp" "von Knorr" "von Kleefeld"
         "von Manteuffel" "von Mecklenburg-Schwerin" "von Mecklenburg-Strelitz" "von Moltke" "von Oldenburg" "von Rauch" "von Ravensberg"
         "von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen"
@@ -25,29 +25,29 @@ germanic = {
         color = { 140 110 110 } #{ 110 80 80 }
         first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
         Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
-        Gï¿½nther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
+        Günther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
         Julius Karl Konrad Kurt Leonhard Leopold Lorenz Lothar Ludwig Maximilian
         Michael Otto Reinhold Rudolf Stefan Theodor Viktor Walter Werner Wilhelm }
 
         last_names = { Beck-Rzikowsky Blos Dankl Eisner Geiss Goering Hainisch Haus Held Hellpach
-        Hoffmann Hummel Kï¿½hler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb
-        Stolzer Trunk "von Baden" "von Benedek" "von Bï¿½hm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz"
-        "von Grï¿½nne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hï¿½tzendorf" "von Kirbach"
-        "von Kobratin" "von Schï¿½nburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Wï¿½rttemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
+        Hoffmann Hummel Köhler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb
+        Stolzer Trunk "von Baden" "von Benedek" "von Böhm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz"
+        "von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach"
+        "von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
     }
 	westphalian = {
 	    color = { 172 89 54 }
         first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
         Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
-        Gï¿½nther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
+        Günther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
         Julius Karl Konrad Kurt Leonhard Leopold Lorenz Lothar Ludwig Maximilian
         Michael Otto Reinhold Rudolf Stefan Theodor Viktor Walter Werner Wilhelm }
 
         last_names = { Beck-Rzikowsky Blos Dankl Eisner Geiss Goering Hainisch Haus Held Hellpach
-        Hoffmann Hummel Kï¿½hler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb
-        Stolzer Trunk "von Baden" "von Benedek" "von Bï¿½hm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz"
-        "von Grï¿½nne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hï¿½tzendorf" "von Kirbach"
-        "von Kobratin" "von Schï¿½nburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Wï¿½rttemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
+        Hoffmann Hummel Köhler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb
+        Stolzer Trunk "von Baden" "von Benedek" "von Böhm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz"
+        "von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach"
+        "von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
 	}
 	anglo_saxon = {
         color = { 162 169 117 }
@@ -57,10 +57,10 @@ germanic = {
 		}
 
         last_names = { Beck-Rzikowsky Blos Dankl Eisner Geiss Goering Hainisch Haus Held Hellpach
-        Hoffmann Hummel Kï¿½hler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb
-        Stolzer Trunk "von Baden" "von Benedek" "von Bï¿½hm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz"
-        "von Grï¿½nne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hï¿½tzendorf" "von Kirbach"
-        "von Kobratin" "von Schï¿½nburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Wï¿½rttemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
+        Hoffmann Hummel Köhler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb
+        Stolzer Trunk "von Baden" "von Benedek" "von Böhm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz"
+        "von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach"
+        "von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
     }
 	 
     union = GER
@@ -98,7 +98,7 @@ beneluxian = {
             Adolf Adriaan Alexander Andreas Antoon Andries Antonius Abraham
             Barthout
             Casimir Constantijn Cornelis Christiaan Christoffel
-            Daniï¿½l David Dominicus Daniel Dirk
+            Daniël David Dominicus Daniel Dirk
             Elias Ernst Erwin Eise
             Frans Frederik
             Gijsbert Godfried Gustaaf Gaspar Gabriel Gerard Gerben
@@ -111,7 +111,7 @@ beneluxian = {
             Nikolaas
             Pauwel Paul Pieter
             Quinten
-            Rafaï¿½l Ruben Rudolf Roeland Rogier Rutger
+            Rafaël Ruben Rudolf Roeland Rogier Rutger
             Stefan Simon
             Thomas
             Victor Willem Vincent
@@ -121,7 +121,7 @@ beneluxian = {
         last_names = {
             "van der Aa" "van Assendelft"
             Boetge Boumeester "van Bronkhorst" Batenburg Bentinck Boreel Brandt "van Brederode" Brouwer Buyskes "van Braam Houckgeest"
-            "van der Capellen" Chassï¿½ Cochius Coops "de Casembroot" Cleerens Coehoorn Coen "de Constant Rebecque" Crijnssen
+            "van der Capellen" Chassé Cochius Coops "de Casembroot" Cleerens Coehoorn Coen "de Constant Rebecque" Crijnssen
 
             "van Culemborg"
             Duycker    "de Eerens" "de Kock" Deijkerhoff "den Beer Poortugael" Daendels "van Diemen" "van der Does" "van Duivenvoorde"
@@ -131,13 +131,13 @@ beneluxian = {
             "van Ham" "van Haren" "van Heemskerck" "van Heutsz" "Cort-Heyligers" "de Houtman" "van Huchtenbroek"
             "van Ilpendam"
             Janssens
-            Kï¿½hler Kool Kruys Kater "van Keppel" Kortenaer
+            Köhler Kool Kruys Kater "van Keppel" Kortenaer
             List Lucas
             Michiels "van Marnix" Martena "de Moor" "Melvill van Carnbee"
             Nepveu Nachtegaal "van Nieuwenaar" "van Noort"
             Ongerboer
             "van Pallandt"
-            Rijk Rï¿½ell "van Raephorst" "van Rechteren" Reijersen "van Renesse" "van Riebeeck" "de Rijk" "van Rossum"
+            Rijk Röell "van Raephorst" "van Rechteren" Reijersen "van Renesse" "van Riebeeck" "de Rijk" "van Rossum"
             Sabron "Schimmelpenninck van der Oye" "van Saksen-Weimar" "van Spilbergen" Staal Stokhuyzen Schouten Schenk Spiegel
 
             Steltman Stuyvesant
@@ -149,51 +149,13 @@ beneluxian = {
         }
     }
 	
-	dutch_german = {
-		color = { 255 125 60 }
-        first_names = { Adelbert Adolf Albrecht Alexander Alfred August Bernhard Burkhard Dieter
-        Eduard Edwin Erwin Erich Ernst Florian Franz Friedrich Fritz Georg Gï¿½nther
-        Gustav Hasso Heinrich Helmuth Hermann Hugo Joachim Johann Jï¿½rgen Karl
-        Konrad Leonhard Leopold Ludwig Lukas Manfred Maximilian Michael Nikolaus Otto
-        Pascal Paul Peter Reinhard Rudolf Ruprecht Stefan Theodor Wilhelm Wolfgang }
-
-        last_names = {
-            "van der Aa" "van Assendelft"
-            Boetge Boumeester "van Bronkhorst" Batenburg Bentinck Boreel Brandt "van Brederode" Brouwer Buyskes "van Braam Houckgeest"
-            "van der Capellen" Chassï¿½ Cochius Coops "de Casembroot" Cleerens Coehoorn Coen "de Constant Rebecque" Crijnssen
-
-            "van Culemborg"
-            Duycker    "de Eerens" "de Kock" Deijkerhoff "den Beer Poortugael" Daendels "van Diemen" "van der Does" "van Duivenvoorde"
-            Ellis Engels Engelvaart "van Egmont" Evertzen
-            Fabius
-            Gregory "van Galen" "de Grouwe" "van Geen"
-            "van Ham" "van Haren" "van Heemskerck" "van Heutsz" "Cort-Heyligers" "de Houtman" "van Huchtenbroek"
-            "van Ilpendam"
-            Janssens
-            Kï¿½hler Kool Kruys Kater "van Keppel" Kortenaer
-            List Lucas
-            Michiels "van Marnix" Martena "de Moor" "Melvill van Carnbee"
-            Nepveu Nachtegaal "van Nieuwenaar" "van Noort"
-            Ongerboer
-            "van Pallandt"
-            Rijk Rï¿½ell "van Raephorst" "van Rechteren" Reijersen "van Renesse" "van Riebeeck" "de Rijk" "van Rossum"
-            Sabron "Schimmelpenninck van der Oye" "van Saksen-Weimar" "van Spilbergen" Staal Stokhuyzen Schouten Schenk Spiegel
-
-            Steltman Stuyvesant
-            Tasman "van Troyen" Trip
-            "van Dambenoy" "van den Bosch" "van der Heijden" "van Hoensbroeck" "van Oranje-Nassau" "van Swieten"
-            "van Vredenburch" Verspijck Vetter Weitzel "Van Utenhove"
-            "van Walbeeck" "van Wassenaer" "van der Werff" "van Wesembeke" "van Wingle" "van der Wijck" "van Wijngaarden" "de Winter"
-            Wolterbeek
-        }
-	}
 	tasmanian = {
         color = { 191 138 84}
         first_names = {
             Adolf Adriaan Alexander Andreas Antoon Andries Antonius Abraham
             Barthout
             Casimir Constantijn Cornelis Christiaan Christoffel
-            Daniï¿½l David Dominicus Daniel Dirk
+            Daniël David Dominicus Daniel Dirk
             Elias Ernst Erwin Eise
             Frans Frederik
             Gijsbert Godfried Gustaaf Gaspar Gabriel Gerard Gerben
@@ -206,7 +168,7 @@ beneluxian = {
             Nikolaas
             Pauwel Paul Pieter
             Quinten
-            Rafaï¿½l Ruben Rudolf Roeland Rogier Rutger
+            Rafaël Ruben Rudolf Roeland Rogier Rutger
             Stefan Simon
             Thomas
             Victor Willem Vincent
@@ -216,7 +178,7 @@ beneluxian = {
         last_names = {
             "van der Aa" "van Assendelft"
             Boetge Boumeester "van Bronkhorst" Batenburg Bentinck Boreel Brandt "van Brederode" Brouwer Buyskes "van Braam Houckgeest"
-            "van der Capellen" Chassï¿½ Cochius Coops "de Casembroot" Cleerens Coehoorn Coen "de Constant Rebecque" Crijnssen
+            "van der Capellen" Chassé Cochius Coops "de Casembroot" Cleerens Coehoorn Coen "de Constant Rebecque" Crijnssen
 
             "van Culemborg"
             Duycker    "de Eerens" "de Kock" Deijkerhoff "den Beer Poortugael" Daendels "van Diemen" "van der Does" "van Duivenvoorde"
@@ -226,13 +188,13 @@ beneluxian = {
             "van Ham" "van Haren" "van Heemskerck" "van Heutsz" "Cort-Heyligers" "de Houtman" "van Huchtenbroek"
             "van Ilpendam"
             Janssens
-            Kï¿½hler Kool Kruys Kater "van Keppel" Kortenaer
+            Köhler Kool Kruys Kater "van Keppel" Kortenaer
             List Lucas
             Michiels "van Marnix" Martena "de Moor" "Melvill van Carnbee"
             Nepveu Nachtegaal "van Nieuwenaar" "van Noort"
             Ongerboer
             "van Pallandt"
-            Rijk Rï¿½ell "van Raephorst" "van Rechteren" Reijersen "van Renesse" "van Riebeeck" "de Rijk" "van Rossum"
+            Rijk Röell "van Raephorst" "van Rechteren" Reijersen "van Renesse" "van Riebeeck" "de Rijk" "van Rossum"
             Sabron "Schimmelpenninck van der Oye" "van Saksen-Weimar" "van Spilbergen" Staal Stokhuyzen Schouten Schenk Spiegel
 
             Steltman Stuyvesant
@@ -253,16 +215,16 @@ beneluxian = {
     flemish = {
         color = { 250 180 80 }
         first_names = { Adolf Adolphe Alexander Alexandre Alfons Alphonse Adriaan Albert Andries Antoine Auguste Boudewijn Bonifaas
-        Camille Charles Constant David Dï¿½sirï¿½ Diederik Edmond Emmanuel Etienne Eugï¿½ne Fï¿½lix Filip Frans Ferdinand Franï¿½ois Frederik
-        Guillaume Gustave Hendrik Henri Herman Ignaas Ignace Jan Jean Jean-Baptiste Jean-Franï¿½ois Jean-Louis Jean-Jacques
-        Jochem Joseph Josse Jozef Jules Karel Laurens Lï¿½on Lï¿½onard Leopold Louis Lucien Manfred Mathias Nicolas Nikolaas Olivier
+        Camille Charles Constant David Désiré Diederik Edmond Emmanuel Etienne Eugène Félix Filip Frans Ferdinand François Frederik
+        Guillaume Gustave Hendrik Henri Herman Ignaas Ignace Jan Jean Jean-Baptiste Jean-François Jean-Louis Jean-Jacques
+        Jochem Joseph Josse Jozef Jules Karel Laurens Léon Léonard Leopold Louis Lucien Manfred Mathias Nicolas Nikolaas Olivier
         Paul Philippe Philippe-Joseph Pierre Pieter Robert Sylvain Theodoor Victor Vincent Werner Willem }
 
-        last_names = { Andries "Annez de Zillebroeck" Barbanson Barthï¿½lï¿½my Beaucarne Beernaert Berthels Bethune Beyts Bischoff Blomme Bosmans
+        last_names = { Andries "Annez de Zillebroeck" Barbanson Barthélémy Beaucarne Beernaert Berthels Bethune Beyts Bischoff Blomme Bosmans
         "Boucqueau de Villeraye" Buylaert Buyse Claes Claus Cogels Cols Coppens Coppieters Corten Cruts "d'Arschot Schoonhoven"
-        d'Ansembourg d'Hanens "de Brouckï¿½re" "de Celles" "de Coninck" "de Decker" "de Foere" "de Gaesebeke" "de Ghellink" "de Grez"
+        d'Ansembourg d'Hanens "de Brouckère" "de Celles" "de Coninck" "de Decker" "de Foere" "de Gaesebeke" "de Ghellink" "de Grez"
         "de Haerne" "de Jonghe" "de Jonghe d'Ardoye" "de Langhe" "de Leeuw" "de Leuze" "de Man" "de Meer de Moorsel"
-        "de Meester" "de Mï¿½rode" "de Muelenaere" "de Pelichy" "de Renesse" "de Robiano" "de Rodes" "de Roo" "de Ryckere"
+        "de Meester" "de Mérode" "de Muelenaere" "de Pelichy" "de Renesse" "de Robiano" "de Rodes" "de Roo" "de Ryckere"
         "de Smet" "de Theux de Meylandt" "de Tiecken" "de Viron" "de Woelmont" Dayeneux Delberke Delehaye Delwarde "Desmanet de Biesme"
         Destouvelles Deswert Devaux Dhanis Domis "du Bois" Fransman Gelders Geudens Goethals Hennequin "Huysman d'Annecroix"
         Jacobs Janssens Joos Jottrand Kockaert Ledeganck Lefebvre Liedts Marcq Meeus Morel Moyersoen Mulle Nypels
@@ -275,22 +237,22 @@ beneluxian = {
     }
     wallonian = {
         color = { 190 90 20 }
-        first_names = { Albert Alexandre Alexis Alphonse Andrï¿½ Antoine Auguste Barthï¿½lï¿½my Baudouin Blaise Camille Clï¿½ment Charles Constant
-        Damien David Dï¿½sirï¿½ Didier Edmond ï¿½douard Emmanuel ï¿½mile Etienne Eugï¿½ne Fï¿½lix Fernand Feullien Florent Franï¿½ois Frï¿½dï¿½ric Georges
-        Gï¿½rard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-Franï¿½ois Jean-Louis
-        Jean-Jacques Joseph Jules Lambert Laurent Lï¿½on Lï¿½onard Lï¿½opold Louis Lucien Mathieu Maxime Maximilien Nicolas Olivier
-        Pascal Patrice Paul Philippe Philippe-Joseph Pierre Pierre-Guillaume Sï¿½bastien Sylvain Thï¿½ophile Victor Vincent Werner }
+        first_names = { Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant
+        Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne Eugène Félix Fernand Feullien Florent François Frédéric Georges
+        Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis
+        Jean-Jacques Joseph Jules Lambert Laurent Léon Léonard Léopold Louis Lucien Mathieu Maxime Maximilien Nicolas Olivier
+        Pascal Patrice Paul Philippe Philippe-Joseph Pierre Pierre-Guillaume Sébastien Sylvain Théophile Victor Vincent Werner }
 
-        last_names = { Allard Barbanson Barthï¿½lï¿½my Baugniet Beaucarne Berger Berthels Beyts Biver Blargnies Brialmont Bredart Cauvin Collet
+        last_names = { Allard Barbanson Barthélémy Baugniet Beaucarne Berger Berthels Beyts Biver Blargnies Brialmont Bredart Cauvin Collet
         Cols Claus Clerix Coquilhat d'Arenberg d'Huart d'Omalius d'Oreye d'Oultremont David Davignon "de Baillet" "de Beaufort"
-        "de Behr" "de Bocarmï¿½" "de Bousies" "de Brouckï¿½re" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen"
-        "de Croï¿½" "de Decker" "de Dixmude" "de Gerlache" "de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin"
-        "de Mï¿½rode" "de Pelichy" "de Quarre" "de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sï¿½cus" "de Selys Longchamps"
+        "de Behr" "de Bocarmé" "de Bousies" "de Brouckère" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen"
+        "de Croÿ" "de Decker" "de Dixmude" "de Gerlache" "de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin"
+        "de Mérode" "de Pelichy" "de Quarre" "de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps"
         "de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies" "de Trooz" "de Viron" "de Waha" Defacqz Deguise Delacroix
         "Desmanet de Biesme" Destriveaux Dethier Devaux Deville Dewandre Dhanis Dreze "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" Dumont
         Fallon Fendius Figeys Fleury-Dubay Fleussu Forgeur Frison Fuchs Gendebien Goffint Henry "Huysman d'Annecroix" Jacques Joos Jottrand
         Lahure Lardinois "le Cocq" "le Hon" Lebeau Leclercq Lefebvre Leman Malou Marcq Marlet Masbourg Nagelmackers Nalinne Nothomb
-        Orban Pï¿½tillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "van Snick" Wahis Wangermï¿½e Wyvekens Zoude }
+        Orban Pétillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "van Snick" Wahis Wangermée Wyvekens Zoude }
     }
 }
 
@@ -319,10 +281,10 @@ scandinavian = {
         Jakob Jesper Johan Julius Knut Lars Ludvig Magnus Michael Nikolaus
         Nils Olof Oscar Per Rudolf Sten Theodor Verner Viktor Vilhelm }
 
-        last_names = { Abelin Bernardotte Bildt Bjï¿½rnstjerna Brahe Brakenhielm Breitholtz Chrsiterson Crusebjï¿½rn Dyrssen
-        Ehnemark Ehrenstam Gyllengranat Gyndestolpe Ingelman Leijonhufvud Lindman Mï¿½rner Nordenskiï¿½ld "Palanger af Vega"
-        Palmstierna Peyron Rappe Reuterskiï¿½ld Rosensvï¿½rd Ryding Sprengtportem Strï¿½m Taube Tawast
-        Thï¿½rnell Thulstrup Tingsten Ulner Virgin "von Essen" "von Hohenhausen" "von Otter" "von Platen" Weidenhielm }
+        last_names = { Abelin Bernardotte Bildt Björnstjerna Brahe Brakenhielm Breitholtz Chrsiterson Crusebjörn Dyrssen
+        Ehnemark Ehrenstam Gyllengranat Gyndestolpe Ingelman Leijonhufvud Lindman Mörner Nordenskiöld "Palanger af Vega"
+        Palmstierna Peyron Rappe Reuterskiöld Rosensvärd Ryding Sprengtportem Ström Taube Tawast
+        Thörnell Thulstrup Tingsten Ulner Virgin "von Essen" "von Hohenhausen" "von Otter" "von Platen" Weidenhielm }
     }
     danish = {
         color = { 220 40 40}
@@ -332,7 +294,7 @@ scandinavian = {
         Peter Poul Sigurd Sven Tage Thomas Thorvald Ukrik Valdemar Vilhelm }
 
         last_names = { Ahlefeldt Asp-Persson Berger Bonde Carlsen Dannemand Danneskjold-Samso "de Meza" Eberlin Falsen
-        Folsach Gï¿½ntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe
+        Folsach Güntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe
         Leuenbach Lovenbalk Michaelsen Mylius Neergaard Obelitz Oxholm Reventlow Rosenkrantz Schack-Schackenborg
         Stemman Suenson Thygeson Trampe Urne "von Holstein" "von Oldenburg" Wadenstierna Wedel-Heinen Zytphen-Adeler }
     }
@@ -347,11 +309,11 @@ scandinavian = {
         Jorgen  Nils Ogmund Olav Osvald  Peter 		}
 
         last_names = { Ahlefeldt Asp-Persson Berger Bonde Carlsen Dannemand Danneskjold-Samso "de Meza" Eberlin Falsen
-        Folsach Gï¿½ntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe
+        Folsach Güntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe
         Leuenbach Lovenbalk Michaelsen Mylius Neergaard Obelitz Oxholm Reventlow Rosenkrantz Schack-Schackenborg
         Stemman Suenson Thygeson Trampe Urne "von Holstein" "von Oldenburg" Wadenstierna Wedel-Heinen Zytphen-Adeler
 		Adeler Balchen Berg Bloch Borresen Bratzland Brentzon Dhal Egge Fleicher
-        Frisvold Hï¿½konarson Hansen Hund Kaldager Konow Lambrechts Morgenstierne Munthe Petersen
+        Frisvold Hákonarson Hansen Hund Kaldager Konow Lambrechts Morgenstierne Munthe Petersen
         Rye Sissener Skjalgsson Tambarskjelve Wedel-Jarlsberg Wiborg With Zeiner-Gundersen	}
     }
     norwegian = {
@@ -361,16 +323,16 @@ scandinavian = {
         Johan Jorgen Ludvig Nils Ogmund Olav Osvald Otto Peter Sigurd }
 
         last_names = { Adeler Balchen Berg Bloch Borresen Bratzland Brentzon Dhal Egge Fleicher
-        Frisvold Hï¿½konarson Hansen Hund Kaldager Konow Lambrechts Morgenstierne Munthe Petersen
-        Rye Sissener Skjalgsson Tambarskjelve "von Holstein-Glï¿½cksburg" "von Klenow" Wedel-Jarlsberg Wiborg With Zeiner-Gundersen }
+        Frisvold Hákonarson Hansen Hund Kaldager Konow Lambrechts Morgenstierne Munthe Petersen
+        Rye Sissener Skjalgsson Tambarskjelve "von Holstein-Glücksburg" "von Klenow" Wedel-Jarlsberg Wiborg With Zeiner-Gundersen }
     }
     icelandic = {
         color = { 80 20 150}
-        first_names = { Agnar ï¿½sgeir Bjï¿½rn Eidur Einar Emil Geir Gudmund Gunnar Hannes
-        Hermann Jï¿½n Kristjï¿½n Magnï¿½s ï¿½lafur Pï¿½tur Sigurdur Stefï¿½n Sveinn Tryggvi }
+        first_names = { Agnar Ásgeir Björn Eidur Einar Emil Geir Gudmund Gunnar Hannes
+        Hermann Jón Kristján Magnús Ólafur Pétur Sigurdur Stefán Sveinn Tryggvi }
 
-        last_names = { Arnï¿½rsson ï¿½sgeirsson Benediktsson Bjarnasen Bjï¿½rnsson Eggers Eldjï¿½rn Hafstein Hansen
-        Hermannsson Johï¿½nesson Jï¿½nsson Magnï¿½sson Stefï¿½nsson Steinthosson Thï¿½rdarson Thï¿½rhallson Thorlï¿½ksson Thurs }
+        last_names = { Arnórsson Ásgeirsson Benediktsson Bjarnasen Björnsson Eggers Eldjárn Hafstein Hansen
+        Hermannsson Johánesson Jónsson Magnússon Stefánsson Steinthosson Thórdarson Thórhallson Thorláksson Thurs }
     }
     union = SCA
 }
@@ -381,11 +343,11 @@ finnougric = {
     finnish = {
         color = { 220 220 220}
         first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
-        Fredrik Fridolf Georg Gï¿½sta Harald Hjalmar Hugo Johannes Juho Kaarlo
-        Kurt Lars Martti Mikko Paavo Petteri Rudolf Vï¿½inï¿½ Viktor Vilho }
+        Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
+        Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
 
-        last_names = { Airo Alopaeus Aspara Cajander Ehrnrooth Heinrichs Heiskanen Holsti Ignatius Jï¿½rnefï¿½lt
-        Linder Mannerheim Multamï¿½ki Nenonen Oesch ï¿½quist ï¿½sterman Paasikivi Raappana Ramsay
+        last_names = { Airo Alopaeus Aspara Cajander Ehrnrooth Heinrichs Heiskanen Holsti Ignatius Järnefält
+        Linder Mannerheim Multamäki Nenonen Oesch Öquist Österman Paasikivi Raappana Ramsay
         Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
         radicalism = 5
     }
@@ -395,7 +357,7 @@ finnougric = {
             Asllak Biejas Dure Erke Hanno Iskko Joha Laras Markkos Mikko Niillas Osku Uhkku
         }
         last_names = {
-            Hï¿½tta Somby Turi Magga Dunfjeld Kvitfjell Kappfjell
+            Hætta Somby Turi Magga Dunfjeld Kvitfjell Kappfjell
         }
     }
     ugrian = {
@@ -412,9 +374,9 @@ british = {
         color = { 35 140 50}
         radicalism = 1
         primary = IRE
-        first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond ï¿½amon
-        Edward Ernes Fionï¿½n Frank George Harry Jack James John Joseph
-        Kevin Liam Michael Patrick Peter Richard Robert Sï¿½an Thomas William }
+        first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
+        Edward Ernes Fionán Frank George Harry Jack James John Joseph
+        Kevin Liam Michael Patrick Peter Richard Robert Séan Thomas William }
 
         last_names = { Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig "de Valera" Donnelly
         FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry McGuinness
@@ -424,9 +386,9 @@ british = {
         color = { 79 115 75}
         radicalism = 1
         primary = CUB
-        first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond ï¿½amon
-        Edward Ernes Fionï¿½n Frank George Harry Jack James John Joseph
-        Kevin Liam Michael Patrick Peter Richard Robert Sï¿½an Thomas William }
+        first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
+        Edward Ernes Fionán Frank George Harry Jack James John Joseph
+        Kevin Liam Michael Patrick Peter Richard Robert Séan Thomas William }
 
         last_names = { Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig "de Valera" Donnelly
         FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry McGuinness
@@ -436,9 +398,9 @@ british = {
         color = { 70 94 49}
         radicalism = 15
         primary = IRE
-        first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond ï¿½amon
-        Edward Ernes Fionï¿½n Frank George Harry Jack James John Joseph
-        Kevin Liam Michael Patrick Peter Richard Robert Sï¿½an Thomas William }
+        first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
+        Edward Ernes Fionán Frank George Harry Jack James John Joseph
+        Kevin Liam Michael Patrick Peter Richard Robert Séan Thomas William }
 
         last_names = { Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig "de Valera" Donnelly
         FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry McGuinness
