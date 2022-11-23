@@ -3397,8 +3397,6 @@ country_event = {
         1986 = { trade_goods = rubber }
         1996 = { trade_goods = rubber }
         1992 = { trade_goods = rubber }
-        1991 = { trade_goods = precious_metal }
-        1984 = { trade_goods = precious_metal }
         #End of default goods
         1997 = { trade_goods = coffee }
         1990 = { trade_goods = coffee }
@@ -4970,7 +4968,6 @@ country_event = {
         name = "EVTOPTA199039" #Historical Option
 
         1909 = { trade_goods = precious_metal } #Sekondi (Tarkwa Mine)
-        1910 = { trade_goods = precious_metal } #Kumai (Obuasi Mine)
         1907 = { trade_goods = coffee } #Accra
         1911 = { trade_goods = coffee } #Kintampo
         1912 = { trade_goods = coffee } #Wa
@@ -4987,7 +4984,6 @@ country_event = {
         name = "EVTOPTC199050" #cotton Option
 
         1909 = { trade_goods = precious_metal } #Sekondi (Tarkwa Mine)
-        1910 = { trade_goods = precious_metal } #Kumai (Obuasi Mine)
         1907 = { trade_goods = coffee } #Accra
         1911 = { trade_goods = cotton } #Kintampo
         1912 = { trade_goods = cotton } #Wa
@@ -5023,7 +5019,6 @@ country_event = {
         name = "EVTOPTD199050" #tobacco Option
 
         1909 = { trade_goods = precious_metal } #Sekondi (Tarkwa Mine)
-        1910 = { trade_goods = precious_metal } #Kumai (Obuasi Mine)
         1907 = { trade_goods = coffee } #Accra
         1911 = { trade_goods = tobacco } #Kintampo
         1912 = { trade_goods = tobacco } #Wa
