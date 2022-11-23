@@ -3063,3 +3063,19 @@ sicilian_sulphur = {
     rgo_output = 0.60
     icon = 13
 }
+
+government_interventionism_import = {
+    import_cost = -0.25
+}
+
+business_regulations_import = {
+    import_cost = -0.20
+}
+
+market_structure_import = {
+    import_cost = -0.15
+}
+
+freedom_of_trade_import = {
+    import_cost = -0.1
+}

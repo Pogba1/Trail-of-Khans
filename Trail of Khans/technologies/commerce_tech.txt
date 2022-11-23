@@ -577,7 +577,7 @@ freedom_of_trade = {
     cost = 3600
 
     influence = 0.1
-    import_cost = -0.1
+    
 
     ai_chance = {
         factor = 11
@@ -619,7 +619,6 @@ market_structure = {
     cost = 7200
 
     influence = 0.1
-    import_cost = -0.1
 
     ai_chance = {
         factor = 2
@@ -676,7 +675,6 @@ business_regulations = {
     cost = 10800
 
     influence = 0.2
-    import_cost = -0.1
 
     ai_chance = {
         factor = 2
@@ -805,8 +803,7 @@ government_interventionism = {
     year = 1900
     cost = 21600
 
-    influence = 0.1
-    import_cost = -0.25
+    influence = 0.1s
     ai_chance = {
         factor = 1.01
         modifier = {
