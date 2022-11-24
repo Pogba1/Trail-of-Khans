@@ -25,7 +25,7 @@ FRA = { value = 0 }
 NOV = { value = 0 }
 GOL = { value = 0 } #lowered to -200 via even
 IRE = { value = 25 }
-AND = { value = -50 }
+ADL = { value = -50 }
 AST = { value = 10 }
 #Army
 
@@ -157,7 +157,7 @@ leader = {
     date = 1831.1.1
     type = land
     personality = skilled
-    background = implacable
+    background = school_of_the_bayonet
     prestige = 0.3
 }
 

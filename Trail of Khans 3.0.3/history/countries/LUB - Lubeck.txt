@@ -3,7 +3,7 @@ primary_culture = north_german
 culture = latvian
 culture = estonian
 religion = protestant
-government = democracy
+government = merchant_republic
 plurality = 25.0
 nationalvalue = nv_liberty
 literacy = 0.84
@@ -41,7 +41,7 @@ border_policy = open_borders
 
 set_country_flag = protestant_country
 
-ruling_party = LUB_conservative
+ruling_party = LUB_conservative_2
 upper_house = {
     fascist = 0
     liberal = 25
@@ -72,7 +72,9 @@ malthusian_thought = 1
 enlightenment_thought = 1
 introspectionism = 1
 private_banks = 1
+stock_exchange = 1
 no_standard = 1
+ad_hoc_money_bill_printing = 1 
 early_classical_theory_and_critique = 1
 freedom_of_trade = 1
 guild_based_production = 1
