@@ -50,22 +50,32 @@ political_decisions = {
 
         allow = {
             war = no
-            900 = {owned_by = BYZ}
+            TUR_984 = {
+				owned_by = THIS
+			}
+			877 = {
+				owned_by = THIS
+			}
+			877 = {
+				owned_by = THIS
+			}
+			878 = {
+				owned_by = THIS
+			}
         }
 
         effect = {
             prestige = 5
 			900={change_province_name = "Antioch"}
-			897 = {add_core = BYZ}
-			895 = {add_core = BYZ}
-			894 = {add_core = BYZ}
-			896 = {add_core = BYZ}
-			898 = {add_core = BYZ}
-			900 = {add_core = BYZ}
-			877 = {add_core = BYZ}
-			877 = {add_core = BYZ}
-			878 = {add_core = BYZ}
-			883 = {add_core = THIS}
+			TUR_894 = {
+				add_core = THIS
+			}
+			EGY_897 = {
+				add_core = THIS
+			}
+			883 = {
+				add_core = THIS
+			}
             set_country_flag = patriarchate_of_antioch
             any_pop = {
                 limit = {
@@ -88,24 +98,30 @@ political_decisions = {
 			NOT = {has_country_flag = inherit_pontus}
 		}
 		allow = {
-			OR = {	PNT = { OR = {
-                            in_sphere = THIS
-                            vassal_of = THIS
-                            }
-                            war = no
-                            is_mobilised = no
-                            is_greater_power = no
-			}
+			OR = {	
+				PNT = { 
+					OR = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+                    war = no
+                    is_mobilised = no
+                    is_greater_power = no
+				}
 				AND = {
-				nationalism_n_imperialism = 1
-				NOT = {exists = PNT}
+					nationalism_n_imperialism = 1
+					NOT = {exists = PNT}
 				}
 			}
 		}
 		
 		effect = {
 			inherit = PNT
-			PNT = {all_core = {add_core = THIS}}
+			PNT = {
+				all_core = {
+					add_core = THIS
+				}
+			}
 			set_country_flag = inherit_pontus
 			add_accepted_culture = armenian
 			add_accepted_culture = georgian
@@ -127,13 +143,9 @@ political_decisions = {
 
         effect = {
             prestige = 5
-			1751 = {add_core = BYZ}
-			1747 = {add_core = BYZ}
-			1746 = {add_core = BYZ}
-			1748 = {add_core = BYZ}
-			1749 = {add_core = BYZ}
-			1745 = {add_core = BYZ}
-			1750 = {add_core = BYZ}
+			EGY_1745 = {
+				add_core = THIS
+			}
             set_country_flag = patriarchate_of_alexandria
             any_pop = {
                 limit = {
@@ -721,11 +733,8 @@ political_decisions = {
         }
 
         effect = {
-            prestige = 5
+            prestige = 25
             set_country_flag = integrate_the_armenians
-			add_accepted_culture = assyrian
-			add_accepted_culture = mashriqi
-			add_accepted_culture = misri
 			TUR_931 = { add_core = THIS }
 			TUR_935 = { add_core = THIS }
 			PER_1132 = { add_core = THIS }
@@ -739,7 +748,7 @@ political_decisions = {
 			EGY_1771 = { add_core = THIS }
 			TUR_893 = { add_core = THIS }
 			879 = {add_core = BYZ}
-			
+			badboy = 20
         }
         ai_will_do = {	factor = 0.45	}
 
