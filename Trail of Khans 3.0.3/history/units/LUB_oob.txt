@@ -20,6 +20,61 @@ SWE = {
     value = -100
     truce_until = 1841.1.1
 }
+
+NOR = {
+	value = 100
+	influence_value = 50
+	level = 4
+}
+
+BRN = {
+	value = 150
+	influence_value = 100
+	level = 5
+}
+
+ANH = {
+	value = 75
+	influence_value = 100
+	level = 5
+}
+
+BRA = {
+	value = 75
+	influence_value = 100
+	level = 5
+}
+
+SAX = {
+	value = 125
+	influence_value = 100
+	level = 5 
+}
+
+COB = {
+	value = 75
+	influence_value = 100
+	level = 5
+}
+
+BRE = {
+	value = 50
+	influence_value = 50
+	level = 3
+}
+
+OLD = {
+	value = 50
+	influence_value = 50
+	level = 3
+}
+
+UCA = {
+	value = 200
+	influence_value = 100
+	level = 5
+}
+
 army = {
     name = "Erste Armee"
     location = 530
@@ -129,9 +184,52 @@ army = {
         home = 548
     }
 }
-
+army = {
+	name = "Preussen Armee"
+	location = 695
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 693
+	}
+	regiment = {
+		name = "Cuirassier"
+		type = cuirassier
+		home = 690
+	}
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 690
+	}
+	regiment = {
+		name = "Hussar"
+		type = hussar
+		home = 698
+	}
+	regiment = {
+		name = "Artillery"
+		type = artillery
+		home = 698
+	}
+	regiment = {
+		name = "Artillery"
+		type = artillery
+		home = 354
+	}
+	regiment = {
+		name = "Artillery"
+		type = artillery
+		home = 697
+	}
+	regiment = {
+		name = "Cuirassier"
+		type = cuirassier
+		home = 697
+	}
+}
 navy = {
-    name = "Lübecker Marine"
+    name = "L�becker Marine"
     location = 530
 
     ship = {

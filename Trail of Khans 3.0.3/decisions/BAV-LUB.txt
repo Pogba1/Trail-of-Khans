@@ -207,8 +207,21 @@ political_decisions = {
 			add_accepted_culture = afro_german
 			any_pop = { limit = {has_pop_culture = afro_german} militancy = -1 consciousness = -2}
 			UCA = {all_core = {add_core = THIS}}
+            any_country = {
+                limit = {
+                    primary_culture = afro_german
+                    in_sphere = THIS
+                    OR = {
+                        is_vassal = no
+                        vassal_of = THIS
+                    }
+					is_mobilised = no
+					war = no
+					is_greater_power = no
+                }
+                country_event = 11106
+            }
 		}
-	
 	}
 	north_sea_coast = {
 	picture = "claim_voralberg"

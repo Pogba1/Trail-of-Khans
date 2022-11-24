@@ -10,7 +10,9 @@ country_event = {
         freedom_of_Trade = 1
         civilized = yes
         NOT = {
-            has_country_modifier = freedom_of_trade_import
+            THIS ={
+                has_country_modifier = freedom_of_trade_import
+            }
         }
     }
 
@@ -22,7 +24,7 @@ country_event = {
         name = "Great!"
         add_country_modifier = {
             name = freedom_of_trade_import
-            days = -1
+            duration = -1
         }
     }
 }
@@ -46,7 +48,7 @@ country_event = {
         name = "Great!"
         add_country_modifier = {
             name = market_structure_import
-            days = -1
+            duration = -1
         }
         remove_country_modifier = freedom_of_trade_import
     }  
@@ -71,7 +73,7 @@ country_event = {
         name = "Great!"
         add_country_modifier = {
             name = business_regulations_import
-            days = -1
+            duration = -1
         }
         remove_country_modifier = market_structure_import
     }  
@@ -93,7 +95,7 @@ country_event = {
         name = "Great!"
         add_country_modifier = {
             name = government_interventionism_import
-            days = -1
+            duration = -1
         }
         remove_country_modifier = business_regulations_import
     }  
