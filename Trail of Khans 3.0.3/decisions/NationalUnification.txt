@@ -230,30 +230,31 @@ political_decisions = {
             random_owned = { limit = { owner = { accepted_culture = danish } } owner = { remove_accepted_culture = danish } }
             random_owned = { limit = { owner = { accepted_culture = hungarian } } owner = { remove_accepted_culture = hungarian } }
             all_core = { add_core = NGF remove_core = THIS }
-			any_owned = {
-				limit = {
-					is_core = GER
-                    NOT = {
-                        culture = south_german
-                    }
-                    NOT = {
-                        is_core = DEN
-                    }
-                    NOT = {
-                        is_core = PRU
-                    }
-                    NOT = {
-                        is_core = LAT
-                    }
-                    NOT = {
-                        is_core = LIT
-                    }
-                    NOT = {
-                        is_core = EST
-                    }
-				}
+			GER = {
+                any_core = {
+                    limit = {
+                        NOT = {
+                            culture = south_german
+                        }
+                        NOT = {
+                            is_core = DEN
+                        }
+                        NOT = {
+                            is_core = PRU
+                        }
+                        NOT = {
+                            is_core = LAT
+                        }
+                        NOT = {
+                            is_core = LIT
+                        }
+                        NOT = {
+                            is_core = EST
+                        }
+				    }   
 				add_core = NGF
-			}
+			    }
+            }
             change_tag = NGF
             FRA_412 = { add_core = GER }
             any_country = {
@@ -379,6 +380,8 @@ political_decisions = {
 								}
                             }
 							war = no
+                            is_mobilised = no
+                            is_greater_power = no
 						}
                     }
                 }
