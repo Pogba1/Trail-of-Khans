@@ -424,13 +424,12 @@ political_decisions = {
         picture = "belgrade_view"
         potential = {
            tag = BYZ
-		 
-			has_country_flag = patriarchate_of_antioch
 			NOT = {has_country_flag = dreams_of_rome}
 			NOT = {has_country_flag = integrate_the_armenians}
         }
 
         allow = {
+			has_country_flag = patriarchate_of_antioch
             war = no
             is_greater_power = yes
 			764 = {owned_by = BYZ}
