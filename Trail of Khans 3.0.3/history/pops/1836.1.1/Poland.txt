@@ -1978,6 +1978,12 @@
         size = 1100
     }
 
+    craftsmen = {
+        culture = polish
+        relgion = catholic
+        size = 12500
+    }
+    
     farmers = {
         culture = polish
         religion = catholic
