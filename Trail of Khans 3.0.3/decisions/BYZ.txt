@@ -512,6 +512,9 @@ political_decisions = {
 	    picture = "reforge_byz"
 		potential = {
 			tag = BYZ
+			RMR = {
+				exists = yes 
+			}
 			NOT = { 
 				has_country_flag = the_pheonix_rose_and_an_eagle_fell_2
 			}

@@ -229,28 +229,14 @@ political_decisions = {
             random_owned = { limit = { owner = { accepted_culture = polish } } owner = { remove_accepted_culture = polish } }
             random_owned = { limit = { owner = { accepted_culture = danish } } owner = { remove_accepted_culture = danish } }
             random_owned = { limit = { owner = { accepted_culture = hungarian } } owner = { remove_accepted_culture = hungarian } }
-            all_core = { add_core = NGF remove_core = THIS }
+            all_core = { 
+                add_core = NGF 
+                remove_core = THIS 
+            }
 			GER = {
                 any_core = {
                     limit = {
-                        NOT = {
-                            culture = south_german
-                        }
-                        NOT = {
-                            is_core = DEN
-                        }
-                        NOT = {
-                            is_core = PRU
-                        }
-                        NOT = {
-                            is_core = LAT
-                        }
-                        NOT = {
-                            is_core = LIT
-                        }
-                        NOT = {
-                            is_core = EST
-                        }
+                        culture = north_german
 				    }   
 				add_core = NGF
 			    }

@@ -7,7 +7,7 @@ country_event = {
         NOT = {
             market_structure = 1
         }
-        freedom_of_Trade = 1
+        freedom_of_trade = 1
         civilized = yes
         NOT = {
             THIS ={

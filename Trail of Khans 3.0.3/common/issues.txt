@@ -991,30 +991,30 @@ economic_reforms = {
         no_land_reform = {
             farm_rgo_size = 0.25
             mine_rgo_size = 0.25
-            core_pop_militancy_modifier = -0.005
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
         yes_land_reform = {
             technology_cost = 10000
             farm_rgo_eff = 0.25
             mine_rgo_eff = 0.25
             civilization_progress_modifier = 0.15
-            allow = { NOT = { has_country_flag = lacking_writing_system } }
+            allow = { OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes } }
 
             on_execute = {
                 effect = {
-					set_country_flag = landr_flag
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 0.5
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1023,29 +1023,29 @@ economic_reforms = {
     }
     admin_reform = {
         no_admin_reform = {
-                core_pop_militancy_modifier = -0.005
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
         yes_admin_reform = {
-            technology_cost = 12000
+            technology_cost = 12500
             administrative_efficiency_modifier = 0.1
             civilization_progress_modifier = 0.15
-            allow = { NOT = { has_country_flag = lacking_writing_system } }
+            allow = { OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes } }
 
             on_execute = {
                 effect = {
-				set_country_flag = adm_flag
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 0.5
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1056,40 +1056,40 @@ economic_reforms = {
         next_step_only = yes
         no_finance_reform = {
             max_loan_modifier = -1.0 # no loan 4 u
-            core_pop_militancy_modifier = -0.005
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
         yes_finance_reform = {
-            technology_cost = 12000
+            technology_cost = 12500
             tax_efficiency = 0.1
             civilization_progress_modifier = 0.15
             max_loan_modifier = -1.0 # no loan 4 u
             allow = {
-                NOT = { has_country_flag = lacking_writing_system }
+                OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes }
                 is_substate = no
             }
 
             on_execute = {
                 effect = {
-				set_country_flag = fin_flag_1
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 0.5
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
             }
         }
         finance_reform_two = {
-            technology_cost = 18000
+            technology_cost = 20000
             tax_efficiency = 0.1
             civilization_progress_modifier = 0.35
 
@@ -1097,7 +1097,6 @@ economic_reforms = {
 
             on_execute = {
                 effect = {
-				set_country_flag = fin_flag_2
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
@@ -1122,26 +1121,25 @@ economic_reforms = {
         no_monetary_reform = {
         }
         yes_monetary_reform = {
-            technology_cost = 12000
+            technology_cost = 12500
             tax_efficiency = 0.05
             civilization_progress_modifier = 0.15
-            allow = { NOT = { has_country_flag = lacking_writing_system } }
+            allow = { OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes } }
 
             on_execute = {
                 effect = {
-				set_country_flag = mon_flag_1
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 0.5
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1154,7 +1152,6 @@ economic_reforms = {
 
             on_execute = {
                 effect = {
-					set_country_flag = mon_flag_2
                     activate_technology = no_standard
                     any_pop = {
                         scaled_militancy = {
@@ -1178,31 +1175,30 @@ economic_reforms = {
 
     education_reform = {
         no_education_reform = {
-            core_pop_militancy_modifier = -0.005
-
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
         yes_education_reform = {
             education_efficiency_modifier = 0.1
             technology_cost = 12500
             civilization_progress_modifier = 0.15
-            allow = { NOT = { has_country_flag = lacking_writing_system } }
+            allow = { OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes } }
 
             on_execute = {
                 effect = {
-				set_country_flag = edu_flag
                     plurality = 5
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 0.5
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1212,19 +1208,20 @@ economic_reforms = {
 
     research_reform = {
         no_research_reform = {
-
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
 
         yes_research_reform = {
             technology_cost = 22000
             education_efficiency_modifier = 0.1
             civilization_progress_modifier = 0.25
-            allow = { NOT = { has_country_flag = lacking_writing_system } }
+            allow = { OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes } }
 
             on_execute = {
                 effect = {
-					set_country_flag = res_flag
                     plurality = 5
+                    activate_technology = malthusian_thought
                     activate_technology = late_enlightenment_philosophy
                     any_pop = {
                         scaled_militancy = {
@@ -1247,18 +1244,17 @@ economic_reforms = {
 
     transport_improv = {
         no_transport_improv = {
-            core_pop_militancy_modifier = -0.005
-
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
         yes_transport_improv = {
-            technology_cost = 12000
+            technology_cost = 12500
             farm_rgo_eff = 0.25
             mine_rgo_eff = 0.25
             civilization_progress_modifier = 0.15
-            allow = { NOT = { has_country_flag = lacking_writing_system } money = 2000 }
+            allow = { OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes } OR = { ai = yes money = 2000 } }
 
             on_execute = {
-			set_country_flag = trans_flag
                 trigger = {
                     can_build_railway_in_capital = {
                         in_whole_capital_state = yes # no = just in main capital province.
@@ -1278,15 +1274,15 @@ economic_reforms = {
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 1
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 2
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1299,31 +1295,29 @@ economic_reforms = {
 
         }
         yes_firearms_production = {
-            technology_cost = 12000
+            technology_cost = 16000
             civilization_progress_modifier = 0.15
-			research_points_on_conquer = 0.25
-            allow = { NOT = { has_country_flag = lacking_writing_system } money = 10000 }
+            research_points_on_conquer = 0.25
+            allow = { OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes } OR = { ai = yes money = 10000 } }
 
             on_execute = {
                 effect = {
-				set_country_flag = arms_flag
                     treasury = -10000
                     activate_technology = guild_based_production
                     build_factory_in_capital_state = small_arms_factory
 
-
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 1
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 2
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1333,17 +1327,17 @@ economic_reforms = {
 
     pre_indust = {
         no_pre_indust = {
-            core_pop_militancy_modifier = -0.005
-
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
         yes_pre_indust = {
             technology_cost = 18000
             civilization_progress_modifier = 0.2
-            allow = { NOT = { has_country_flag = lacking_writing_system } money = 2000 }
+            allow = { OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes } OR = { ai = yes money = 2000 } }
 
             on_execute = {
                 trigger = { can_build_factory_in_capital_state = cement_factory # example, no trigger needed here
-				
+
                 }
 
                 effect = {
@@ -1370,17 +1364,16 @@ economic_reforms = {
     }
     industrial_construction = {
         no_industrial_construction = {
-            core_pop_militancy_modifier = -0.005
-
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
         yes_industrial_construction = {
             technology_cost = 20000
             civilization_progress_modifier = 0.25
-            allow = { NOT = { has_country_flag = lacking_writing_system } money = 7000 }
+            allow = { OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes } OR = { ai = yes money = 7000 } }
 
             on_execute = {
                 effect = {
-				set_country_flag = industrial_construction
                     treasury = -7000
                     activate_technology = piston_steam_engine
                     build_factory_in_capital_state = fabric_factory
@@ -1410,42 +1403,36 @@ military_reforms = {
     foreign_training = {
 
         no_foreign_training = {
-            core_pop_militancy_modifier = -0.005
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
+            supply_consumption = -0.05
         }
         yes_foreign_training = {
             #unit stats improve
             land_organisation = 0.1
-            technology_cost = 9000
+            min_military_spending = 0.05
+            technology_cost = 8500
             civilization_progress_modifier = 0.1
             research_points_on_conquer = 0.25
 
             allow = {
-                OR = {
-                    ai = no
-                    AND = {
-                        has_country_flag = using_foreign_ships
-                        has_country_flag = using_foreign_shipyards
-                        has_country_flag = using_foreign_weapons
-                        has_country_flag = using_foreign_artillery
-                    }
-                }
             }
 
             on_execute = {
                 effect = {
-					set_country_flag = training_flag
+                    country_event = 90959
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 2
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1454,31 +1441,33 @@ military_reforms = {
     }
     foreign_weapons = {
         no_foreign_weapons = {
-            core_pop_militancy_modifier = -0.005
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
+            supply_consumption = -0.05
         }
         yes_foreign_weapons = {
             land_defense_modifier = 0.1
-            technology_cost = 11000
+            technology_cost = 8500
             civilization_progress_modifier = 0.1
-			research_points_on_conquer = 0.25
+            research_points_on_conquer = 0.25
 
             on_execute = {
                 effect = {
-					set_country_flag = weapons_flag
                     activate_technology = flintlock_rifles
                     set_country_flag = using_foreign_weapons
+
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 2
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1488,22 +1477,16 @@ military_reforms = {
 
     military_constructions = {
         no_military_constructions = {
-                core_pop_militancy_modifier = -0.005
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
         yes_military_constructions = {
-            technology_cost = 11000
+            technology_cost = 8500
             civilization_progress_modifier = 0.1
-			research_points_on_conquer = 0.25
+            research_points_on_conquer = 0.25
             allow = {
-                NOT = { has_country_flag = lacking_writing_system }
-                money = 2000
-                OR = {
-                    ai = no
-                    AND = {
-                        has_country_flag = using_foreign_weapons
-                        has_country_flag = using_foreign_artillery
-                    }
-                }
+                OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes }
+                OR = { ai = yes money = 2000 }
             }
 
             on_execute = {
@@ -1515,7 +1498,6 @@ military_reforms = {
                 }
                 effect = {
                     treasury = -2000
-					set_country_flag = mil_cons_flag
                     activate_technology = post_napoleonic_thought
                     build_fort_in_capital = {
                         in_whole_capital_state = no # no = just in main capital province.
@@ -1524,15 +1506,15 @@ military_reforms = {
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 2
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1541,41 +1523,33 @@ military_reforms = {
     }
     foreign_officers = {
         no_foreign_officers = {
-                core_pop_militancy_modifier = -0.005
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
         yes_foreign_officers = {
             leadership_modifier = 0.1
-            technology_cost = 11000
+            technology_cost = 8500
             civilization_progress_modifier = 0.1
-            research_points_on_conquer = 0.50
+            research_points_on_conquer = 0.25
             allow = {
-                OR = {
-                    ai = no
-                    AND = {
-                        has_country_flag = using_foreign_ships
-                        has_country_flag = using_foreign_shipyards
-                        has_country_flag = using_foreign_weapons
-                        has_country_flag = using_foreign_artillery
-                    }
-                }
             }
 
             on_execute = {
                 effect = {
-				set_country_flag = officerr_flag
                     activate_technology = military_staff_system
+                    country_event = 90959
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 2
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1584,41 +1558,38 @@ military_reforms = {
     }
     army_schools = {
         no_army_schools = {
-                core_pop_militancy_modifier = -0.005
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
         yes_army_schools = {
             land_unit_start_experience = 10
-            technology_cost = 11000
+            min_military_spending = 0.05
+            technology_cost = 8500
             civilization_progress_modifier = 0.1
-			research_points_on_conquer = 0.25
+            research_points_on_conquer = 0.25
             allow = {
-                NOT = { has_country_flag = lacking_writing_system }
-                OR = {
-                    ai = no
-                    AND = {
-                        has_country_flag = using_foreign_ships
-                        has_country_flag = using_foreign_shipyards
-                        has_country_flag = using_foreign_weapons
-                        has_country_flag = using_foreign_artillery
-                    }
-                }
+                OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes }
             }
 
             on_execute = {
                 effect = {
-				set_country_flag = army_schools_flag
+                    activate_technology = army_command_principle
+                    random_owned = {
+                        limit = { owner = { has_country_modifier = corrupt_army } }
+                        owner = { remove_country_modifier = corrupt_army }
+                    }
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 2
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1627,45 +1598,37 @@ military_reforms = {
     }
     foreign_naval_officers = {
         no_foreign_naval_officers = {
-                core_pop_militancy_modifier = -0.005
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
         yes_foreign_naval_officers = {
             tariff_efficiency_modifier = 0.2
-            technology_cost = 12000
+            technology_cost = 10000
             civilization_progress_modifier = 0.1
             research_points_on_conquer = 0.25
 
             allow = {
-                OR = {
-                    ai = yes
-                    any_owned_province = { port = yes }
-                }
-                OR = {
-                    ai = no
-                    AND = {
-                        has_country_flag = using_foreign_ships
-                        has_country_flag = using_foreign_shipyards
-                        has_country_flag = using_foreign_weapons
-                        has_country_flag = using_foreign_artillery
-                    }
-                }
+				OR = {
+					any_owned_province = { port = yes }
+					ai = yes
+				}
             }
 
             on_execute = {
                 effect = {
-					set_country_flag = naval_officer_flag
+                    country_event = 90959
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 2
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1674,46 +1637,38 @@ military_reforms = {
     }
     naval_schools = {
         no_naval_schools = {
-                core_pop_militancy_modifier = -0.005
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
         yes_naval_schools = {
             naval_unit_start_experience = 10
-            technology_cost = 12000
+            technology_cost = 10000
             civilization_progress_modifier = 0.1
             research_points_on_conquer = 0.25
 
             allow = {
-                NOT = { has_country_flag = lacking_writing_system }
-                OR = {
-                    ai = yes
-                    any_owned_province = { port = yes }
-                }
-                OR = {
-                    ai = no
-                    AND = {
-                        has_country_flag = using_foreign_ships
-                        has_country_flag = using_foreign_shipyards
-                        has_country_flag = using_foreign_weapons
-                        has_country_flag = using_foreign_artillery
-                    }
-                }
+                OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes }
+				OR = {
+					any_owned_province = { port = yes }
+					ai = yes
+				}
             }
 
             on_execute = {
                 effect = {
-				set_country_flag = naval_schools_flag
+                    country_event = 90959
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 2
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1722,33 +1677,22 @@ military_reforms = {
     }
     foreign_navies = {
         no_foreign_navies = {
-                core_pop_militancy_modifier = -0.005
+            core_pop_militancy_modifier = -0.01
+            core_pop_consciousness_modifier = -0.01
         }
         yes_foreign_navies = {
             naval_attack_modifier = 0.2
             naval_defense_modifier = 0.2
-            technology_cost = 16000
+            technology_cost = 12000
             civilization_progress_modifier = 0.1
-			research_points_on_conquer = 0.25
+            research_points_on_conquer = 0.25
 
             allow = {
-                OR = {
-                    ai = yes
-                    any_owned_province = { has_building = naval_base }
-                }
-            
-                OR = {
-                    ai = no
-                    AND = {
-                        has_country_flag = using_foreign_weapons
-                        has_country_flag = using_foreign_artillery
-                    }
-                }
+                OR = { any_owned_province = { has_building = naval_base } ai = yes }
             }
 
             on_execute = {
                 effect = {
-				set_country_flag = navies_flag
                     activate_technology = clipper_design
                     activate_technology = steamers
                     set_country_flag = using_foreign_ships
@@ -1756,15 +1700,15 @@ military_reforms = {
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 2
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1779,40 +1723,32 @@ military_reforms = {
         yes_western_shipyards = {
             technology_cost = 12000
             civilization_progress_modifier = 0.1
-			research_points_on_conquer = 0.25
+            research_points_on_conquer = 0.25
 
             allow = {
-                OR = {
-                    ai = yes
-                    any_owned_province = { port = yes }
-                }
-                OR = {
-                    ai = no
-                    AND = {
-                        has_country_flag = using_foreign_weapons
-                        has_country_flag = using_foreign_artillery
-                    }
-                }
+				OR = {
+					any_owned_province = { port = yes }
+					ai = yes
+				}
             }
 
             on_execute = {
                 effect = {
-				set_country_flag = shipyardsr_flag
                     activate_technology = post_nelsonian_thought
                     set_country_flag = using_foreign_shipyards
 
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 2
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
@@ -1822,29 +1758,30 @@ military_reforms = {
 
     foreign_artillery = {
         no_foreign_artillery = {
+            supply_consumption = -0.1
         }
         yes_foreign_artillery = {
-            technology_cost = 11000
+            technology_cost = 8500
             civilization_progress_modifier = 0.1
-			research_points_on_conquer = 0.25
+            research_points_on_conquer = 0.25
 
             on_execute = {
                 effect = {
-				set_country_flag = foreign_artillery_flag
                     activate_technology = bronze_muzzle_loaded_artillery
                     set_country_flag = using_foreign_artillery
+
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal
-                            factor = 2
+                            factor = 0.25
                         }
                         scaled_militancy = {
                             ideology = conservative
-                            factor = 1
+                            factor = 0.5
                         }
                         scaled_militancy = {
                             ideology = reactionary
-                            factor = 3
+                            factor = 1.5
                         }
                     }
                 }
