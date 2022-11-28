@@ -172,6 +172,7 @@ political_decisions = {
                     NOT = { is_greater_power = yes }
                     NOT = { has_country_flag = post_colonial_country }
                     primary_culture = spanish
+					primary_culture = portuguese
                     in_sphere = THIS
                     OR = {
                         is_vassal = no
@@ -192,8 +193,6 @@ political_decisions = {
 		picture = ""
 		potential = {
 			tag = ATR
-			has_country_flag = unite_the_peninsula
-			NOT = {has_country_flag = united_in_solidarity}
 		}
 		allow = {
             all_core = {
@@ -260,7 +259,6 @@ political_decisions = {
 			war = no
 		}
 		effect = {
-			set_country_flag = united_in_solidarity
 			add_accepted_culture = portuguese
 			change_tag = IBE
 			prestige = 40
@@ -269,7 +267,7 @@ political_decisions = {
 					limit = {
 						NOT = {is_core = MOR}
 					}
-				add_core = ATR
+				add_core = IBE
 				}
 			}
 			ADL = {
@@ -287,6 +285,7 @@ political_decisions = {
                     NOT = { is_greater_power = yes }
                     NOT = { has_country_flag = post_colonial_country }
                     primary_culture = portuguese
+					primary_culture = spanish
                     in_sphere = THIS
                     OR = {
                         is_vassal = no
