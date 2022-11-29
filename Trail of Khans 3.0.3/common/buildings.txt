@@ -651,13 +651,12 @@ fort = {
 
 naval_base = {
     type = naval_base
-    cost = 15000
     goods_cost =
     {
         lumber = 100
         cement = 100
         steel = 100
-        machine_parts = 1
+        machine_parts = 15
     }
     time = 730
     naval_capacity = 1

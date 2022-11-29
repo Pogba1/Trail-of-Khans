@@ -956,15 +956,9 @@
     }
 
     bureaucrats = {
-        culture = north_italian
-        religion = catholic
-        size = 512
-    }
-
-    bureaucrats = {
         culture = south_german
         religion = catholic
-        size = 1125
+        size = 493
     }
 
     officers = {

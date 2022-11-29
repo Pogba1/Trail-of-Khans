@@ -31,43 +31,37 @@ AST = { value = 10 }
 
 army = {
     name = "1. Armia"
-    location = 703
+    location = 957
     regiment = {
         name= "1.Brygada Kawalerii"
         type = cuirassier
         home = 951
     }
-
     regiment = {
         name= "2.Brygada Kawalerii"
         type = cuirassier
         home = 951
     }
-
     regiment = {
         name= "1. Oddział piechoty"
         type = infantry
         home = 952
     }
-
     regiment = {
         name= "2. Oddział piechoty"
         type = infantry
         home = 952
     }
-
     regiment = {
         name= "3. Oddział piechoty"
         type = infantry
         home = 952
     }
-
     regiment = {
         name= "4. Oddział piechoty"
         type = infantry
         home = 952
     }
-
     regiment = {
         name= "1. Artyleria"
         type = artillery
@@ -103,31 +97,26 @@ army = {
         type = cuirassier
         home = 699
     }
-
     regiment = {
         name= "1. Oddział piechoty"
         type = infantry
         home = 700
     }
-
     regiment = {
         name= "2. Oddział piechoty"
         type = infantry
         home = 701
     }
-
     regiment = {
         name= "3. Oddział piechoty"
         type = infantry
         home = 702
     }
-
     regiment = {
         name= "4. Oddział piechoty"
         type = infantry
         home = 703
     }
-
     regiment = {
         name= "1. Artyleria"
         type = artillery
@@ -157,16 +146,73 @@ army = {
 		name = "1. Hussar"
 		type = hussar
 		home = 713
+	}
 }
 
-
-
+army = {
+	name = "3. Armia"
+	location = 703
+	regiment = {
+		name = "1.Brygada Kawalerii"
+		type = cavalry
+		home = 716
+	}
+	regiment = {
+		name = "2.Brygada Kawalerii"
+		type = cuirassier
+		home = 716
+	}
+    regiment = {
+        name= "1. Oddział piechoty"
+        type = infantry
+        home = 705
+    }
+    regiment = {
+        name= "2. Oddział piechoty"
+        type = infantry
+        home = 705
+    }
+    regiment = {
+        name= "3. Oddział piechoty"
+        type = infantry
+        home = 713
+    }
+	regiment = {
+		name = "3.Brygada Kawalerii"
+		type = hussar
+		home = 713
+	}
+    regiment = {
+        name= "1. Artyleria"
+        type = artillery
+        home = 715
+    }
+    regiment = {
+        name= "2. Artyleria"
+        type = artillery
+        home = 715
+    }
+    regiment = {
+        name= "3. Artyleria"
+        type = artillery
+        home = 715
+    }
+}
+	
 leader = {
     name = "Wincenty Golas"
     date = 1831.1.1
     type = land
-    personality = skilled
+    personality = relentless
     background = school_of_the_bayonet
     prestige = 0.3
 }
 
+leader = {
+	name = "Sobieski"
+	date = 1836.1.1
+	type = land
+	personality = stalwart
+	background = school_of_firepower
+	prestige = 0.13
+}

@@ -2322,12 +2322,6 @@
         size = 2062
     }
 
-    soldiers = {
-        culture = polish
-        religion = catholic
-        size = 100
-    }
-
     clergymen = {
         culture = polish
         religion = catholic
@@ -2379,7 +2373,7 @@
 	soldiers = {
         culture = polish
         religion = catholic
-        size = 6200
+        size = 6300
     }
 }
 #Lublin (476000/119000 POPS)
@@ -2391,12 +2385,6 @@
     }
 
     officers = {
-        culture = polish
-        religion = catholic
-        size = 100
-    }
-
-    soldiers = {
         culture = polish
         religion = catholic
         size = 100
@@ -2500,7 +2488,7 @@
 	soldiers = {
         culture = polish
         religion = catholic
-        size = 6200
+        size = 6300
     }
 }
 #Kielce (448000/112000 POPS)
@@ -2508,7 +2496,7 @@
 	soldiers = {
         culture = polish
         religion = catholic
-        size = 3000
+        size = 3250
     }
 	
     aristocrats = {
@@ -2521,12 +2509,6 @@
         culture = polish
         religion = catholic
         size = 950
-    }
-
-    soldiers = {
-        culture = polish
-        religion = catholic
-        size = 125
     }
 
     artisans = {
@@ -2545,12 +2527,6 @@
         culture = polish
         religion = catholic
         size = 40000
-    }
-
-    soldiers = {
-        culture = polish
-        religion = catholic
-        size = 125
     }
 
     clergymen = {
@@ -2611,12 +2587,6 @@
         size = 950
     }
 
-    soldiers = {
-        culture = ukrainian
-        religion = orthodox
-        size = 175
-    }
-
     farmers = {
         culture = ukrainian
         religion = orthodox
@@ -2639,12 +2609,6 @@
         culture = polish
         religion = catholic
         size = 5750
-    }
-
-    soldiers = {
-        culture = polish
-        religion = catholic
-        size = 1150
     }
 
     farmers = {
@@ -2704,7 +2668,7 @@
     soldiers = {
         culture = polish
         religion = catholic
-        size = 6200
+        size = 7525
     }
 
     farmers = {

@@ -67,6 +67,8 @@ basic_chemistry = 1
 
 oob = "AUS_oob.txt"
 
+decision = BHA_1836_setup
+
 ruling_party = BOH_conservative
 upper_house = {
     fascist = 0

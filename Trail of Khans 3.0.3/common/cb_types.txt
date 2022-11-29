@@ -425,6 +425,71 @@ status_quo = {
 	
 	war_name = WAR_NAME
 }
+
+safeguard_bohemia = {
+	sprite_index = 1
+	is_triggered_only = yes
+	months = 12
+	constructing_cb = no
+	
+	can_use = {
+	}
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	badboy_factor = 1
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_status_quo = yes
+	
+	war_name = WAR_NAME
+}
+
+install_jagiellon = {
+	sprite_index = 1
+	is_triggered_only = yes
+	months = 12
+	constructing_cb = no
+	
+	can_use = {
+	}
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	badboy_factor = 1
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_status_quo = yes
+	
+	war_name = WAR_NAME
+}
+
 #Negotiated Transfer
 negotiated_transfer_cb = {
 	sprite_index = 5
@@ -457,7 +522,7 @@ negotiated_transfer_cb = {
 	}
 	
 	allowed_states = {
-		not = { any_owned_province = { is_capital = yes } }
+		NOT = { any_owned_province = { is_capital = yes } }
 	}
 
 	po_demand_state = yes

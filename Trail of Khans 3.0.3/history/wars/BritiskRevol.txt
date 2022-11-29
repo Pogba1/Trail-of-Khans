@@ -5,9 +5,14 @@ name = "Britisk Revolt"
     add_defender = ENG
 
      war_goal = {
-        casus_belli = annex_core_country
-        actor = SCO
-        receiver = ENG
+        casus_belli = status_quo
+        actor = POL
+        receiver = BHA
+    }
+     war_goal = {
+        casus_belli = status_quo
+        actor = BHA
+        receiver = POL
     }
 
 }

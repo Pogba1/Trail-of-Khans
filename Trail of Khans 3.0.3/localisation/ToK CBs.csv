@@ -1,0 +1,39 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+safeguard_bohemia;Bohemian Unity;x
+safeguard_bohemia_desc;We and the Poles have been in the constant state of conflict over the lands of Bohemia and Moravia, using an old claim of the Jagiellon's dynasty to justify this invasion. We must drive them back and establish a firm hold on our territories!;x
+safeguard_bohemia_setup;Force Poland to relinquish their claims over Bohemia;x
+safeguard_bohemia_short;Force Poland to relinquish their claims over Bohemia;x
+install_jagiellon;Bring Bohemia into the fold;x
+install_jagiellon;Our country has a history of rulership over Bohemia, we have had many claimants of our dynasty take control of the territories of Bohemia and Moravia. We must push once last time to drive out the Premyslid dynasty from Bohemia!;x
+install_jagiellon_setup;Enforce our rule over Bohemia;x
+install_jagiellon_short;Enforce our rule over Bohemia;x
+conquest_low;Minor Conquest;;;;;;;;;;;;;
+conquest_low_desc;Conquer this country;;;;;;;;;;;;;
+conquest_low_setup;Annex $RECIPIENT$;;;;;;;;;;;;;
+conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;
+negotiated_transfer_cb;Negotiated Transfer;;;;;;;;;;;;;
+negotiated_transfer_cb_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism;;;;;;;;;;;;;
+negotiated_transfer_cb_short;$RECIPIENT$ transfer $STATE$ to us;;;;;;;;;;;;;
+negotiated_transfer_cb_setup;Transfer $STATE$ from $RECIPIENT$ to our country;;;;;;;;;;;;;
+NORMAL_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;;
+AGRESSION_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;;
+mongol_unification_cb_desc;Aquire an enemy state;;;;;;;;;;;;;
+mongol_unification_cb_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;
+mongol_unification_cb_short;Acquire $STATE$;;;;;;;;;;;;;
+mongol_unification_cb;Mongol Unification;;;;;;;;;;;;;
+imperial_restoration_cb;Imperial Reconquest;x
+imperial_restoration_cb_short;Imperial Reconquest;x
+imperial_restoration_cb_desc;This casus-belli will conquer a state, usable on people with Byzantine cores.;x
+imperial_restoration_cb_setup;$RECIPIENT$ will secede $STATE$ to us.;x
+imperial_restoration_annex_cb;Imperial Reintegration;x
+imperial_restoration_annex_cb_setup;$RECIPIENT$ will be annexed to us.;x
+imperial_restoration_annex_cb_short;Imperial Reintegration;x
+imperial_restoration_annex_cb_desc;This casus-belli annexes a country with nothing but byzantine cores.;x
+chinese_unification_annex_cb_desc;This casus-belli will annex small Chinese countries with only Chinese cores;x
+chinese_unification_annex_cb_setup;$RECIPIENT$ will be annexed to us;x
+chinese_unification_annex_cb;Chinese Unification;x
+chinese_unification_annex_cb_short;Chinese Unification;x
+chinese_unification_cb_setup;$RECIPIENT$ will secede $STATE$ to us;x
+chinese_unification_cb_desc;This casus-belli is usable on anyone that holds Chinese cores;x
+chinese_unification_cb;Annex Chinese State;x
+chinese_unification_cb_short;Annex Chinese State;x

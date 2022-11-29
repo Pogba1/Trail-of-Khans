@@ -294,12 +294,6 @@
         size = 350
     }
 
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 250
-    }
-
     craftsmen = {
         culture = czech
         religion = catholic
@@ -339,7 +333,7 @@
     soldiers = {
         culture = czech
         religion = catholic
-        size = 1250
+        size = 1500
     }
 
     craftsmen = {
@@ -410,12 +404,6 @@
         size = 500
     }
 
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 100
-    }
-
     craftsmen = {
         culture = czech
         religion = catholic
@@ -461,7 +449,7 @@
     soldiers = {
         culture = czech
         religion = catholic
-        size = 1200
+        size = 1300
     }
 
     farmers = {
@@ -644,13 +632,7 @@
         religion = catholic
         size = 300
     }
-
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 550
-    }
-
+    
     bureaucrats = {
         culture = czech
         religion = catholic
@@ -702,7 +684,7 @@
     soldiers = {
         culture = czech
         religion = catholic
-        size = 1100
+        size = 1650
     }
 
     farmers = {

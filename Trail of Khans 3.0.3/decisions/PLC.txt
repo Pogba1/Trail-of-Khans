@@ -11,10 +11,26 @@ political_decisions = {
 			NOT = {exists = PLC}
 		}
 		allow = {
-			POL={all_core = {OR={owned_by = THIS owner = {vassal_of = THIS}}}}
-			BOH={all_core = {OR={owned_by = THIS owner = {vassal_of = THIS}}}}
-			641={OR={owned_by = THIS owner = {vassal_of = THIS}}}
-			633={OR={owned_by = THIS owner = {vassal_of = THIS}}}
+			PLC = {
+				all_core = {
+					NOT = {
+						is_core = PRU
+					}
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+							is_mobilised = no
+							is_greater_power = no 
+						}
+					}
+				}
+			}
 			state_n_government = 1
 			war=no
 		}

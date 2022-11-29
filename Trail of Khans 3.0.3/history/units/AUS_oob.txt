@@ -1,7 +1,7 @@
 
 leader = {
     name = "Josef Radetzky"
-    date = 1805.1.1
+    date = 1830.1.1
     type = land
     personality = au_fait
     background = elderly
@@ -60,5 +60,79 @@ army = {
 		name = "1st Artillery Brigade"		
 		type = artillery
 		home = 619
+	}
+}
+
+army = {
+	name = "II. Korps"
+	location = 625
+	regiment = {
+		name = "1st Infantry Brigade"		
+		type = infantry
+		home = 625
+	}
+	regiment = {
+		name = "2nd Infantry Brigade"		
+		type = infantry
+		home = 625
+	}
+	regiment = {
+		name = "1st Hussar Brigade"		
+		type = hussar
+		home = 631
+	}
+	regiment = {
+		name = "1st Artillery Brigade"		
+		type = artillery
+		home = 630
+	}
+	regiment = {
+		name = "2nd artillery Brigade"		
+		type = artillery
+		home = 629
+	}
+	regiment = {
+		name = "3rd Infantry Brigade"		
+		type = infantry
+		home = 627
+	}
+	regiment = {
+		name = "4th Infantry Brigade"		
+		type = infantry
+		home = 628
+	}
+	regiment = {
+		name = "1st Cuirassier Brigade"		
+		type = cuirassier
+		home = 626
+	}
+}
+
+navy = {
+	name = "Küstenwache"
+	location = 736
+	ship = {
+		name = "1. Frigate"
+		type = frigate
+	}
+	ship = {
+		name = "2. Frigate"
+		type = frigate
+	}
+	ship = {
+		name = "3. Frigate"
+		type = frigate
+	}
+	ship = {
+		name = "4. Frigate"
+		type = frigate
+	}
+	ship = {
+		name = "5. Frigate"
+		type = frigate
+	}
+	ship = {
+		name = "1. Man'o'War"
+		type = manowar
 	}
 }

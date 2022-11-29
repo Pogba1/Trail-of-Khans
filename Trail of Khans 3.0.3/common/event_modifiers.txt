@@ -3079,3 +3079,17 @@ market_structure_import = {
 freedom_of_trade_import = {
     import_cost = -0.1
 }
+
+bohemian_golden_age = {
+    badboy = -0.10
+    cb_generation_speed_modifier = 0.40
+    land_organisation = 0.15
+    org_regain = 0.2
+    leadership_modifier = 0.3
+    icon = 15
+}
+
+curtailed_conscription = {
+    mobilisation_size = -1
+    icon = 18
+}

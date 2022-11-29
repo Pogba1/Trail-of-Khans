@@ -64,6 +64,8 @@ basic_chemistry = 1
 
 oob = "POL_oob.txt"
 
+decision = POL_1836_setup
+
 set_country_flag = catholic_country
 
 ruling_party = POL_conservative
