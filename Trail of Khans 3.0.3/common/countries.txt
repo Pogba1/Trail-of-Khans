@@ -3,9 +3,6 @@
 #Chinese tags
 MAO		   ="countries/Mao Dynasty.txt"
 
-# Special countries...
-REB     =     "countries/rebels.txt"
-
 # Schizophrenic Irish Formable
 GAU        ="countries/Gaul.txt"
 
@@ -16,6 +13,10 @@ PRS		   ="countries/Pars.txt"
 # Based roman larp
 
 RMR        ="countries/Rome.txt"
+
+#Bohemia-Austria
+
+BHA        ="countries/Bohemia-Austria.txt"
 
 ##HPM
 PNK        ="countries/Pontianak.txt"
@@ -606,7 +607,6 @@ AUS        = "countries/Austria.txt"
 USA        = "countries/USA.txt"
 JAP        = "countries/Japan.txt"
 ITA        = "countries/Italy.txt"
-KUK        = "countries/Austria-Hungary.txt"
 
 
 #new for 1.2

@@ -1,60 +1,4 @@
 
-#Army
-
-army = {
-    name = "I. Armee"
-    location = 619
-    regiment = {
-        name= "1.1. Kavalleriedivision"
-        type = cuirassier
-        home = 618
-    }
-
-    regiment = {
-        name= "2.1. Kavalleriedivision"
-        type = cuirassier
-        home = 618
-    }
-
-    regiment = {
-        name= "3.1. Kavalleriedivision"
-        type = cuirassier
-        home = 619
-    }
-
-    regiment = {
-        name= "2.2. Infanteriedivision"
-        type = infantry
-        home = 619
-    }
-
-    regiment = {
-        name= "3.2. Infanteriedivision"
-        type = infantry
-        home = 619
-    }
-
-    regiment = {
-        name= "1.3. Infanteriedivision"
-        type = infantry
-        home = 619
-    }
-
-    regiment = {
-        name= "2.3. Infanteriedivision"
-        type = infantry
-        home = 622
-    }
-
-    regiment = {
-        name= "3.3. Infanteriedivision"
-        type = artillery
-        home = 622
-    }
-}
-
-
-
 leader = {
     name = "Josef Radetzky"
     date = 1805.1.1
@@ -64,3 +8,57 @@ leader = {
     prestige = 0.3
 }
 
+army = {
+	name = "I. Korps"
+	location = 621
+	regiment = {
+		name = "1st Infantry Brigade"		
+		type = infantry
+		home = 619
+	}
+	regiment = {
+		name = "2nd Artillery Brigade"		
+		type = artillery
+		home = 621
+	}
+	regiment = {
+		name = "3rd Artillery Brigade"		
+		type = artillery
+		home = 622
+	}
+	regiment = {
+		name = "4th Artillery Brigade"		
+		type = artillery
+		home = 622
+	}
+	regiment = {
+		name = "1st Cuirassier Brigade"		
+		type = cuirassier
+		home = 622
+	}
+	regiment = {
+		name = "2nd Cuirassier Brigade"		
+		type = cuirassier
+		home = 622
+	}
+	regiment = {
+		name = "1st Hussar Brigade"		
+		type = hussar
+		home = 616
+	}
+	regiment = {
+		name = "2nd Infantry Brigade"		
+		type = infantry
+		home = 619
+	}
+	regiment = {
+		name = "3rd Infantry Brigade"		
+		type = infantry
+		home = 619
+	}
+	regiment = {
+		name = "1st Artillery Brigade"		
+		type = artillery
+		home = 619
+	}
+}

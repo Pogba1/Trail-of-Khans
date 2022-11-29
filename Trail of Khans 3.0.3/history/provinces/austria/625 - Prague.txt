@@ -1,7 +1,7 @@
-owner = BOH
-controller = BOH
+owner = BHA
+controller = BHA
 add_core = BOH
-add_core = CZH
+add_core = BHA 
 add_core = PLC
 trade_goods = coal
 life_rating = 35
@@ -10,11 +10,18 @@ state_building = {
     building = glass_factory
     upgrade = yes
 }
-1861.1.1 = { railroad = 3 }
-1861.1.1 = {
-    state_building = {
-        level = 1
-        building = fabric_factory
-        upgrade = yes
-    }
+state_building = {
+    level = 1
+    building = steel_factory
+    upgrade = yes
+}
+state_building = {
+    level = 1
+    building = cement_factory
+    upgrade = yes
+}
+state_building = {
+    level = 1
+    building = artillery_factory
+    upgrade = yes
 }

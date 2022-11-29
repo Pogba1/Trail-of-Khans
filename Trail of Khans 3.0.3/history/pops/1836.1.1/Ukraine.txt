@@ -621,6 +621,12 @@
         religion = catholic
         size = 1825
     }
+
+    craftsmen = {
+        culture = polish
+        religion = catholic
+        size = 9400
+    }
 }
 #Stryi (404000/101000 POPS) #now part of Ukraine
 951 = {

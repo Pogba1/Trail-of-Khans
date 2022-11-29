@@ -1,6 +1,7 @@
-owner = DLM
-controller = DLM
+owner = BHA
+controller = BHA
 add_core = DLM
+add_core = BHA
 add_core = SLO
 trade_goods = coal
 life_rating = 35

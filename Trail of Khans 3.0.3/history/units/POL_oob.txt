@@ -1,6 +1,6 @@
 #Sphere of Influence
 
-BOH = {
+SLS = {
     value = 125
     level = 5
     influence_value = 100
@@ -31,7 +31,7 @@ AST = { value = 10 }
 
 army = {
     name = "1. Armia"
-    location = 957
+    location = 703
     regiment = {
         name= "1.Brygada Kawalerii"
         type = cuirassier
@@ -88,6 +88,11 @@ army = {
         type = artillery
         home = 957
     }
+	regiment = {
+		name = "1. Hussar"
+		type = hussar
+		home = 957
+	}
 }
 
 army = {
@@ -148,6 +153,10 @@ army = {
         type = artillery
         home = 705
     }
+	regiment = {
+		name = "1. Hussar"
+		type = hussar
+		home = 713
 }
 
 

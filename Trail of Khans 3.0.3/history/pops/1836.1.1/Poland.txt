@@ -2872,6 +2872,12 @@
         religion = protestant
         size = 3400
     }
+
+    craftsmen = {
+        culture = polish
+        religion = catholic
+        size = 17640
+    }
 }
 #Suwalki (196000/49000 POPS)
 707 = {

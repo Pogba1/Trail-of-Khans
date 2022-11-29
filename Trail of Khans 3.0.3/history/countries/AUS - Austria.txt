@@ -77,19 +77,4 @@ piston_steam_engine = 1
 mechanical_production = 1
 hot_blast = 1
 basic_chemistry = 1
-
-#Inventions
-
-# Starting Consciousness
-consciousness = 1
-nonstate_consciousness = 3
-
-schools = army_tech_school
-
-foreign_investment = {
-        BAV = 7500
-        WUR = 5000
-        BAD = 5000
-}
-
 oob = "AUS_oob.txt"

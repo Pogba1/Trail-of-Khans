@@ -1,8 +1,7 @@
-owner = BOH
-controller = BOH
-add_core = BOH
-add_core = CZH
+owner = BHA
+controller = BHA
+add_core = BOH 
+add_core = BHA
 add_core = PLC
 trade_goods = coal
 life_rating = 35
-1861.1.1 = { railroad = 3 }

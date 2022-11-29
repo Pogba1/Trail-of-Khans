@@ -213,7 +213,7 @@
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 1100
+        size = 3350
     }
 	clergymen = {
         culture = south_german
@@ -222,12 +222,6 @@
     }
 
     artisans = {
-        culture = south_german
-        religion = protestant
-        size = 100
-    }
-
-    soldiers = {
         culture = south_german
         religion = protestant
         size = 100
@@ -254,12 +248,6 @@
         culture = south_german
         religion = protestant
         size = 350
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = protestant
-        size = 100
     }
 
     farmers = {
@@ -296,13 +284,6 @@
         religion = protestant
         size = 850
     }
-
-    soldiers = {
-        culture = south_german
-        religion = protestant
-        size = 100
-    }
-
     farmers = {
         culture = south_german
         religion = protestant
@@ -337,13 +318,6 @@
         religion = catholic
         size = 10000
     }
-
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size = 2050
-    }
-
     farmers = {
         culture = south_german
         religion = catholic
@@ -385,7 +359,7 @@
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 1100
+        size = 5150
     }
 
     farmers = {
@@ -409,18 +383,6 @@
         culture = south_german
         religion = catholic
         size = 2250
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size = 3000
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size = 1050
     }
 
     farmers = {
@@ -532,9 +494,6 @@
         size = 16675
     }
 }
-#Austria Region (2000000)
-#under the rule of Austria in 1836
-#Vienna (1084000/271000 POPS)
 619 = {
     aristocrats = {
         culture = south_german
@@ -611,25 +570,7 @@
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 2750
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size = 3000
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size = 3000
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size = 3000
+        size = 9000
     }
 
     farmers = {
@@ -834,12 +775,6 @@
         size = 1550
     }
 
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size = 200
-    }
-
     farmers = {
         culture = south_german
         religion = catholic
@@ -866,7 +801,7 @@
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 2650
+        size = 2850
     }
 
     farmers = {
@@ -913,12 +848,6 @@
         size = 300
     }
 
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size = 300
-    }
-
     farmers = {
         culture = south_german
         religion = catholic
@@ -945,27 +874,9 @@
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 1550
+        size = 10850
     }
-
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size = 3000
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size = 3000
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size = 3000
-    }
-
+    
     farmers = {
         culture = south_german
         religion = catholic
