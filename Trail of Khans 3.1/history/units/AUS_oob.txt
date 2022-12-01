@@ -8,6 +8,15 @@ leader = {
     prestige = 0.3
 }
 
+leader = {
+	name = "Ottokar the VIIIth"
+	date = 1828.1.1
+	type = land
+	personality = vicious
+	background = nationalist
+	prestige = 0.25
+}
+
 army = {
 	name = "I. Korps"
 	location = 621

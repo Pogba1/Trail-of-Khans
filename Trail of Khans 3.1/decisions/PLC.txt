@@ -35,7 +35,7 @@ political_decisions = {
 			war=no
 		}
 		effect = {
-			add_accepted_culture = polish
+			add_accepted_culture = ashkenazi
 			capital = 703
 			country_event = {
 				id = 400001

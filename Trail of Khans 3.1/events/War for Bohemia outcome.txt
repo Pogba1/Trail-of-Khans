@@ -1,0 +1,245 @@
+#Austro-Bohemian Win
+country_event = {
+    id = 183552301
+    title = "EVTNAME183552301"
+    desc = "EVTDESC183552301"
+
+    trigger = {
+        has_global_flag = war_for_bohemia
+        tag = BHA
+        POL = {
+            has_recently_lost_war = yes
+        }
+        has_recently_lost_war = no 
+        NOT = {
+            war_with = POL
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 7
+    }
+    
+    option = {
+        name = "Let us see what lies ahead of us"
+        clr_global_flag = war_for_bohemia
+        set_global_flag = bohemian_victory
+        prestige = 40
+        country_event = {
+            id = 183552302
+            days = 7
+        }
+    }
+}
+
+#Bohemia-Austria winning buff
+country_event = {
+    id = 183552302
+    title = "EVTNAME183552302"
+    desc = "EVTDESC183552302"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Our greatness has been shown to the world, let Bohemia shine like a Sun on Earth!"
+        PLC = {
+            all_core = {
+                limit = {
+                    is_core = BHA
+                }
+                remove_core = PLC
+            }
+        }
+        add_country_modifier = {
+            name = bohemian_golden_age
+            duration = 9125
+        }
+        clr_global_flag = bohemian_victory
+        set_global_flag = bohemian_golden_age        
+    }
+}
+
+#King Wladislaus the IVth abdication
+country_event = {
+    id = 183552303
+    title = "EVTNAME183552303"
+    desc = "EVTDESC183552303"
+
+    trigger = {
+        tag = POL
+        has_global_flag = bohemian_golden_age
+        NOT = {
+            has_country_flag = wladislaus_abdicates
+        }
+        NOT = {
+            has_country_flag = wladislaus_refuses
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 10
+    }
+
+    option = {
+        name = "The people were right after all..."
+        prestige = -20
+        set_country_flag = wladislaus_abdicates
+        country_event = {
+            id = 188801
+            days = 14
+        }
+    }
+
+    option = {
+        name = "I refuse, I was chosen by God to lead this Kingdom!"
+        prestige = -10
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+            }
+            militancy = 3
+            consciousness = 4
+        }
+        set_country_flag = wladislaus_refuses
+    }
+}
+
+#The Candidates
+country_event = {
+    id = 188801
+    title = "EVTNAME188801"
+    desc = "EVTDESC188801"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Friedrich Kmiecik, the Duke of Silesia"
+        prestige = -5
+        inherit = SLS
+        SLS = {
+            all_core = {
+                add_core = THIS
+            }
+        }
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+            }
+            militancy = 2
+            consciousness = 2
+        }
+        set_country_flag = king_friedrich_kmiecik
+    }
+
+    option = {
+        name = "Sobieski, influencial Noble and General"
+        prestige = 10
+        set_country_flag = king_sobieski
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+                strata = rich
+            }
+            militancy = -2
+        }
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+                strata = poor
+                strata = middle
+            }
+            militancy = 1
+            consciousness = -2
+        }
+    }
+
+    option = {
+        name = "Kazimierz Pocisk, former Hetman of the Cossacks"
+        prestige = -15
+        set_country_flag = king_kazimierz
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+            }
+            militancy = 2
+            consciousness = 1.5
+        }
+        any_pop = {
+            limit = {
+                has_pop_culture = ukrainian
+            }
+            militancy = -3
+        }
+    }
+}
+
+#Polish Win (ALL EVENTS HAVING TO DO WITH BOHEMIA WINNING GO ABOVE THIS LINE)
+country_event = {
+    id = 192801
+    title = "EVTNAME192801"
+    desc = "EVTDESC192801"
+
+    trigger = {
+        has_global_flag = war_for_bohemia
+        tag = POL
+        BHA = {
+            has_recently_lost_war = yes
+        }
+        has_recently_lost_war = no 
+        NOT = {
+            war_with = BHA
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 4
+    }
+    
+    option = {
+        name = "Let the Premyslid dynasty go down in history as a failure"
+        clr_global_flag = war_for_bohemia
+        set_global_flag = polish_victory
+        prestige = 20
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+            }
+            militancy = -2
+            consciousness = -4
+        }
+        country_event = {
+            id = 192802
+            days = 1
+        }
+    }
+}
+
+country_event = {
+    id = 192802
+    title = "EVTNAME192802"
+    desc = "EVTDESC192802"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "The Crown of Bohemia is ours!"
+        prestige = 20
+        BHA = {
+            release = BOH
+            release = AUS
+            all_core = {
+                remove_core = BHA
+            }
+        }
+        BHA = {
+            annex_to = DLM
+        }
+        736 = {
+            secede_province = VEN
+        }
+        737 = {
+            secede_province = VEN
+        }
+        create_vassal = BOH
+    }
+}

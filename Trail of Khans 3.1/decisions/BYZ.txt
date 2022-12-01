@@ -50,7 +50,19 @@ political_decisions = {
 
         allow = {
             war = no
-            TUR_984 = {
+            894 = {
+				owned_by = THIS
+			} 
+			896 = {
+				owned_by = THIS
+			} 
+			898 = {
+				owned_by = THIS
+			} 
+			900 = {
+				owned_by = THIS
+			} 
+			895 = {
 				owned_by = THIS
 			}
 			877 = {
