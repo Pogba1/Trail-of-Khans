@@ -230,16 +230,25 @@ country_event = {
             all_core = {
                 remove_core = BHA
             }
+            annex_to = THIS
         }
-        BHA = {
-            annex_to = DLM
+        any_owned = {
+            limit = {
+                is_core = DLM
+            }
+            secede_province = DLM
         }
-        736 = {
-            secede_province = VEN
-        }
-        737 = {
+        any_owned = {
+            limit = {
+                is_core = VEN
+            }
             secede_province = VEN
         }
         create_vassal = BOH
+        create_alliance = BOH
+        diplomatic_influence = {
+            who = BOH
+            value = 300
+        }
     }
 }
