@@ -312,9 +312,11 @@ SWI_607 = { 605 604 607 609 } #Western Switzerland
 
 PRU_682 = { 682 683 684 685 } #Silesia
 
-PRU_690 = { 690 691 692 694 693 } #Westpreu�en
+PRU_691 = { 691 692 694 693 } #Pomeralia
 
-PRU_695 = { 695 696 697 698 } #Ostpreu�en
+PRU_696 = { 696 697 698 3322 } #Prusy
+
+PRU_690 = { 690 695 } #Konigsberg & Danzig
 
 PRU_701 = { 701 699 700 } #Posen
 

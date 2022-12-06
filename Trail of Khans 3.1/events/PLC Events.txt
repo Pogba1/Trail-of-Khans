@@ -30,7 +30,6 @@ country_event = {
 			annex_to = THIS
 		}
 		change_tag = PLC
-		change_tag_no_core_switch = PLC
     }
 }
 

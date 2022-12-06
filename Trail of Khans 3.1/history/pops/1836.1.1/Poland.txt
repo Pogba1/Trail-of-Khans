@@ -1346,6 +1346,54 @@
         size = 4625
     }
 }
+
+3322 = {
+    aristocrats = {
+        culture = polish
+        religion = catholic
+        size = 1500
+    }
+    bureaucrats = {
+        culture = polish
+        religion = catholic
+        size = 392
+    }
+    clergymen = {
+        culture = polish
+        religion = catholic
+        size = 230
+    }
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 130
+    }
+    artisans = {
+        culture = polish
+        religion = catholic
+        size = 4930
+    }
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 1402
+    }
+    soldiers = {
+        culture = polish
+        religion = catholic
+        size = 1893
+    }
+    farmers = {
+        culture = polish
+        religion = catholic
+        size = 40329
+    }
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 13293
+    }
+}
 #Posen-Wielkopolska Region (1704000)
 #under the rule of Prussia in 1836
 #Posen (540000/135000 POPS)
@@ -1980,7 +2028,7 @@
 
     craftsmen = {
         culture = polish
-        relgion = catholic
+        religion = catholic
         size = 12500
     }
     
