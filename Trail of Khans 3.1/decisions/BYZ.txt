@@ -79,7 +79,7 @@ political_decisions = {
         effect = {
             prestige = 5
 			900={change_province_name = "Antioch"}
-			TUR_894 = {
+			SVF_894 = {
 				add_core = THIS
 			}
 			EGY_897 = {
@@ -719,7 +719,7 @@ political_decisions = {
 			set_country_flag = dominance_in_the_balkans_2						
 			add_accepted_culture = serb
 			AUS_777 = { add_core = THIS }
-			US_768 = { add_core = THIS }
+			AUS_768 = { add_core = THIS }
 			AUS_771 = { add_core = THIS }
 		}
 	}

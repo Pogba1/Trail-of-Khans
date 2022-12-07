@@ -110,31 +110,31 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
     scandinavian_federalism = {
-	picture = "SCA_political_union"
-	potential = {
-	OR = {
-		tag = NOR
-		tag = SWE
-		tag = DEN
-		tag = ENG
-	}
-		NOT = {exists = SCA}
-		NOT = {has_country_flag = scandinavian_federalism}
-	}
-	allow = {
-		state_n_government = 1
-		SWE = {all_core = {
-                    OR = {
-                        owned_by = THIS
-                        
-                       owner = {         
-                        vassal_of = THIS
-                            }
+		picture = "SCA_political_union"
+		potential = {
+			OR = {
+				tag = NOR
+				tag = SWE
+				tag = DEN
+				tag = ENG
+			}
+			NOT = {exists = SCA}
+			NOT = {has_country_flag = scandinavian_federalism}
+		}
+		allow = {
+			state_n_government = 1
+			SWE = {
+				all_core = {
+                   	OR = {
+                    	owned_by = THIS
+                        owner = {         
+                        	vassal_of = THIS
                         }
                     }
-                } 
-				
-		NOR = {all_core = {
+                }
+			} 
+			NOR = {
+				all_core = {
                     OR = {
                         owned_by = THIS
                         owner = {
@@ -145,101 +145,156 @@ political_decisions = {
                         }
                     }
                 } 
+			}
+			372 = {
+				OR = {
+                    owned_by = THIS
+                    owner = {
+                        OR = {
+                            in_sphere = THIS
+                            vassal_of = THIS
+                        }
+                    }
+                }
+			}
+	 	}
+		effect = {
+			set_country_flag = scandinavian_federalism
+			any_owned = {
+				limit = {
+					is_core = THIS
 				}
-		372 = {OR = {
-                        owned_by = THIS
-                        owner = {
-                            OR = {
-                                in_sphere = THIS
-                                vassal_of = THIS
-                            }
-                        }
-                    }}
-		
-		
-	 }
-	effect = {
-		set_country_flag = scandinavian_federalism
-		any_owned = {
-		limit = {is_core = THIS}
-		add_core = SCA
-		}
-		any_country = { limit = {in_sphere = THIS OR = {primary_culture = danish primary_culture = swedish primary_culture = norwegian primary_culture = finnish}} annex_to = THIS}
-		any_country = { limit = {vassal_of = THIS OR = {primary_culture = danish primary_culture = swedish primary_culture = norwegian primary_culture = finnish}}		
-		annex_to = THIS
-		}
-		any_owned = {
-			limit = {is_core = THIS}
-			add_core = SCA
-		}
-		change_tag = SCA
-		change_tag_no_core_switch = SCA
-		add_accepted_culture = swedish
-		add_accepted_culture = danish
-		add_accepted_culture = norwegian
-		add_accepted_culture = icelandic
-		DEN = {
-			all_core = {add_core = THIS}
-		}
-		NOR = {
-			all_core = {add_core = THIS}
-		}
-		SWE = {
-			all_core = {add_core = THIS}
-		}
-		#inherit = SWE
-	 }
-	 ai_will_do = { factor = 1 }
+				add_core = SCA
+			}
+			any_country = { 
+				limit = {
+					in_sphere = THIS 
+					OR = {
+						primary_culture = danish 
+						primary_culture = swedish 
+						primary_culture = norwegian 
+						primary_culture = finnish
+					}
+				} 
+				annex_to = THIS
+			}
+			any_country = { 
+				limit = {
+					vassal_of = THIS 
+					OR = {
+						primary_culture = danish 
+						primary_culture = swedish 
+						primary_culture = norwegian 
+						primary_culture = finnish
+					}
+				}		
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = THIS
+				}
+				add_core = SCA
+			}
+			change_tag = SCA
+			change_tag_no_core_switch = SCA
+			add_accepted_culture = swedish
+			add_accepted_culture = danish
+			add_accepted_culture = norwegian
+			add_accepted_culture = icelandic
+			DEN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			NOR = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			SWE = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+	 	}
+	 	ai_will_do = { factor = 1 }
 	}
 	
 	
 	
 	kiruna_mine = {
 		picture = "essen_ruhr"
-	potential = {
-	OR = {
-		tag = SCA
-		tag = NOR
-	}
-		NOT = {has_global_flag = kiruna_mine}
-		321 = {owned_by = THIS}
-		
-	}
-	allow = {
-		306 = {owned_by = THIS}
-		iron_railroad = 1
-		drilling_and_blasting = 1
-		money = 10000
-	 }
-	effect = {
-		treasury = -10000
-		set_global_flag = kiruna_mine
-		321 = {add_province_modifier = {name = kiruna_mine duration = -1}}
-		321 = {trade_goods = iron}
-		321 = {infrastructure = 3}
-		321 = {life_rating = 20}
-		306 = {infrastructure = 3}
-		any_owned = {limit = {OR = {trade_goods = iron trade_goods = coal} is_core = THIS continent = europe} add_province_modifier = {name = scandinavian_mines duration = -1}}
-	 }
-	 ai_will_do = { factor = 1 }
+		potential = {
+			OR = {
+				tag = SCA
+				tag = NOR
+			}
+			NOT = {
+				has_global_flag = kiruna_mine
+			}
+			321 = {
+				owned_by = THIS
+			}
+		}
+		allow = {
+			306 = {owned_by = THIS}
+			iron_railroad = 1
+			drilling_and_blasting = 1
+			money = 10000
+		}
+		effect = {
+			treasury = -10000
+			set_global_flag = kiruna_mine
+			321 = {add_province_modifier = {name = kiruna_mine duration = -1}}
+			321 = {trade_goods = iron}
+			321 = {infrastructure = 3}
+			321 = {life_rating = 20}
+			306 = {infrastructure = 3}
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods = iron 
+						trade_goods = coal
+					} 
+					is_core = THIS 
+					continent = europe
+				} 
+				add_province_modifier = {
+					name = scandinavian_mines 
+					duration = -1
+				}
+			}
+		}
+	 	ai_will_do = { factor = 1 }
 	}
 	
 	lion_of_the_north = {
-	picture = "lion"
-	
+		picture = "lion"
 		potential = {
 			tag = SCA
 			NOT = {has_global_flag = lion_of_the_north}
 		}
-		allow = {all_core = {owned_by = THIS} is_greater_power = yes 322 = {owned_by = THIS} 372 = {owned_by = THIS}}
+		allow = {
+			all_core = {
+				owned_by = THIS
+			} 
+			is_greater_power = yes 
+			322 = {
+				owned_by = THIS
+			} 
+			372 = {
+				owned_by = THIS
+			}
+		}
 		effect = {
-		set_global_flag = lion_of_the_north
-		322 = {life_rating = 5}
-		313 = {life_rating = 5}
-		372 = {life_rating = 10}
-		313 = {add_province_modifier = {name = recently_renovated_city duration = 1825}}
-		322 = {add_province_modifier = {name = recently_renovated_city duration = 1825}}
-		372 = {add_province_modifier = {name = recently_renovated_city duration = 1825}}
+			set_global_flag = lion_of_the_north
+			322 = {life_rating = 5}
+			313 = {life_rating = 5}
+			372 = {life_rating = 10}
+			313 = {add_province_modifier = {name = recently_renovated_city duration = 1825}}
+			322 = {add_province_modifier = {name = recently_renovated_city duration = 1825}}
+			372 = {add_province_modifier = {name = recently_renovated_city duration = 1825}}
 		}
 	}
 	

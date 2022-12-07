@@ -12,10 +12,10 @@ prestige = 5
 
 # Political Reforms
 
-slavery = no
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = no_voting
-public_meeting = no_meeting
+public_meetings = no_meeting
 press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
@@ -32,7 +32,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
-conscription = service_by_requirement
+conscription = three_year_draft
  
 penal_system = capital_punishment
 child_labor = child_labor_legal

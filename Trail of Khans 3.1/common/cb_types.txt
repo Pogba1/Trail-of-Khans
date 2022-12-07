@@ -1244,46 +1244,6 @@ cut_down_to_size = {
 	}
 }
 
-	
-cut_down_to_size_boxer = {
-	sprite_index = 8
-	is_triggered_only = yes
-	months = 12
-	constructing_cb = no
-	crisis = no
-	
-	can_use = {
-		NOT = { is_our_vassal = THIS }
-		is_disarmed = no
-	}
-	
-	badboy_factor = 1.1
-	prestige_factor = 1
-	peace_cost_factor = 25
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	po_disarmament = yes
-	po_reparations = yes
-
-	war_name = WAR_BOXER_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
 
 # Free Peoples
 free_peoples = {

@@ -83,8 +83,6 @@ country_event = {
             remove_province_modifier = local_opium_habit
             remove_province_modifier = kettler_denkmal
             remove_province_modifier = extraterritoriality_granted
-            remove_province_modifier = boxer_presence
-            remove_province_modifier = boxer_agitation
         }
         #any_country = {
         #    limit = {
@@ -428,8 +426,6 @@ country_event = {
             remove_province_modifier = local_opium_habit
             remove_province_modifier = kettler_denkmal
             remove_province_modifier = extraterritoriality_granted
-            remove_province_modifier = boxer_presence
-            remove_province_modifier = boxer_agitation
         }
         any_country = {
             limit = { is_greater_power = yes }

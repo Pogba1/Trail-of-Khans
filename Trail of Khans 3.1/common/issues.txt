@@ -1574,10 +1574,6 @@ military_reforms = {
             on_execute = {
                 effect = {
                     activate_technology = army_command_principle
-                    random_owned = {
-                        limit = { owner = { has_country_modifier = corrupt_army } }
-                        owner = { remove_country_modifier = corrupt_army }
-                    }
                     any_pop = {
                         scaled_militancy = {
                             ideology = liberal

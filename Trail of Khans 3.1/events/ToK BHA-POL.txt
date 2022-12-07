@@ -144,8 +144,10 @@ country_event = {
         any_pop = {
             limit = {
                 has_pop_culture = polish
-                strata = poor
-                strata = middle
+                OR = {
+                    strata = poor
+                    strata = middle
+                }
             }
             militancy = 1
             consciousness = -2

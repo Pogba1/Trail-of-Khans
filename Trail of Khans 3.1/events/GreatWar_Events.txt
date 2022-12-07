@@ -443,7 +443,6 @@ country_event = {
             tag = ENG
             tag = FRA
             tag = AUS
-            tag = KUK
             tag = DNB
             tag = TUR
             tag = JAP
@@ -1889,7 +1888,6 @@ country_event = {
             tag = ENG
             tag = FRA
             tag = AUS
-            tag = KUK
             tag = TUR
             tag = JAP
         }
@@ -2812,21 +2810,6 @@ country_event = {
                 }
             }
         }
-        random_country = {
-            limit = {
-                tag = KUK
-                truce_with = THIS
-                THIS = { owns = 599 }
-            }
-            THIS = {
-                any_owned = {
-                    limit = { region = BAV_599 }
-                    add_core = BAV
-                    secede_province = KUK
-                }
-            }
-            release_vassal = BAV
-        }
 
         #if Denmark has a truce, it gets Schleswig back
         random_country = {
@@ -2998,7 +2981,6 @@ country_event = {
             limit = {
                 province_id = 619
                 AUS = { exists = no }
-                KUK = { exists = no }
             }
             AUS_619 = {
                 add_core = AUS
@@ -7077,15 +7059,6 @@ country_event = {
         }
         random_country = {
             limit = {
-                tag = KUK
-                truce_with = THIS
-                THIS = { owns = 412 }
-                NOT = { exists = GER }
-            }
-            FRA_412 = { secede_province = KUK }
-        }
-        random_country = {
-            limit = {
                 tag = BAV
                 truce_with = THIS
                 THIS = { owns = 412 }
@@ -7761,7 +7734,6 @@ country_event = {
         }
         OR = {
             tag = AUS
-            tag = KUK
             tag = DNB
         }
         OR = {
@@ -7855,7 +7827,6 @@ country_event = {
             }
             614 = {
                 remove_core = AUS
-                remove_core = KUK
                 remove_core = DNB
             }
         }
@@ -8104,7 +8075,6 @@ country_event = {
                 any_core = { owned_by = THIS }
                 exists = no
                 NOT = { tag = AUS }
-                NOT = { tag = KUK }
                 is_cultural_union = no
                 is_culture_group = germanic
             }

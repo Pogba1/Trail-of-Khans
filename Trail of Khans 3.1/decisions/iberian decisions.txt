@@ -171,8 +171,10 @@ political_decisions = {
                 limit = {
                     NOT = { is_greater_power = yes }
                     NOT = { has_country_flag = post_colonial_country }
-                    primary_culture = spanish
-					primary_culture = portuguese
+                    OR = {
+						primary_culture = spanish
+						primary_culture = portuguese
+					}
                     in_sphere = THIS
                     OR = {
                         is_vassal = no
@@ -284,8 +286,10 @@ political_decisions = {
                 limit = {
                     NOT = { is_greater_power = yes }
                     NOT = { has_country_flag = post_colonial_country }
-                    primary_culture = portuguese
-					primary_culture = spanish
+                    OR = {
+						primary_culture = portuguese
+						primary_culture = spanish
+					}
                     in_sphere = THIS
                     OR = {
                         is_vassal = no

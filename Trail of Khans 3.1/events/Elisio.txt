@@ -42,11 +42,11 @@ country_event = {
     }
 	
     trigger = {
-	tag = AND
-	NOT = {set_country_flag = victory_over_asturias}
-	NOT = {exists = ATR}
-	#exists = ELI
-	AND = {any_owned_province = {is_core = ATR}}
+		tag = ADL
+		NOT = {set_country_flag = victory_over_asturias}
+		NOT = {exists = ATR}
+		#exists = ELI
+		any_owned_province = {is_core = ATR}
     }   
 }
 
@@ -88,7 +88,7 @@ country_event = {
 	
     trigger = {
 	exists = ATR
-	tag = AND
+	tag = ADL
 	NOT = {has_global_flag = fall_blauberia}
 	OR = {
 		487 = {owned_by = THIS}
@@ -158,7 +158,7 @@ province_event = {
 	is_core = ATR
 	NOT = {is_core = CAT}
 	owner = {
-	tag = AND
+	tag = ADL
 	}
     }   
 }

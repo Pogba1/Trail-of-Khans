@@ -1,7 +1,5 @@
-owner = BRN
-controller = BRN
-add_core = BRN
-add_core = GER
+owner = SLS
+controller = SLS
+add_core = SLS
 trade_goods = grain
 life_rating = 35
-1861.1.1 = { railroad = 3 }

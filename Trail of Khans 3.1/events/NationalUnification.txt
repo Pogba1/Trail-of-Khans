@@ -196,7 +196,6 @@ country_event = {
             limit = {
                 owner = {
                     NOT = { tag = AUS }
-                    NOT = { tag = KUK }
                     NOT = { tag = MOL }
                     NOT = { tag = SIE }
                     NOT = { tag = LUX }
@@ -740,10 +739,7 @@ country_event = {
         }
         random_country = {
             limit = {
-                OR = {
-                    tag = AUS
-                    tag = KUK
-                }
+                tag = AUS
                 exists = yes
                 is_greater_power = no
                 in_sphere = THIS
@@ -769,7 +765,6 @@ country_event = {
                 is_culture_group = germanic
                 exists = no
                 NOT = { tag = AUS }
-                NOT = { tag = KUK }
                 NOT = { tag = DNB }
                 NOT = { tag = PRU }
                 NOT = { tag = UBD }
@@ -788,7 +783,6 @@ country_event = {
             limit = {
                 OR = {
                     tag = AUS
-                    tag = KUK
                     tag = DNB
                 }
                 exists = no
@@ -822,7 +816,6 @@ country_event = {
                     }
                 }
                 NOT = {
-                    tag = KUK
                     tag = AUS
                     tag = DNB
                     tag = UBD

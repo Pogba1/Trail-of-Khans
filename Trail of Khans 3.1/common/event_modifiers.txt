@@ -2028,41 +2028,6 @@ holy_city = {
     icon = 19
 }
 
-### China ###
-boxer_rebellion = {
-    pop_militancy_modifier = 0.1
-    local_rgo_output = -0.25
-    immigrant_attract = -0.25
-    immigrant_push = 0.75
-    population_growth = -0.002
-    icon = 4
-}
-
-boxer_presence = {
-    pop_militancy_modifier = -0.2
-    local_RGO_throughput = -0.25
-    immigrant_attract = -0.25
-    immigrant_push = 0.5
-    icon = 4
-}
-
-boxer_agitation = {
-    pop_militancy_modifier = 0.2
-    local_RGO_throughput = -0.25
-    immigrant_attract = -0.25
-    immigrant_push = 0.5
-    population_growth = -0.002
-    icon = 4
-}
-
-self_strengthening_movement = {
-    prestige = 0.02
-    #research_points = 1
-    global_pop_consciousness_modifier = 0.2
-    #global_pop_militancy_modifier = 0.02
-    icon = 18
-}
-
 drive_to_reunify = {
     prestige = -0.02
     mobilisation_size = 0.02
@@ -2102,14 +2067,6 @@ chinese_floods = {
     immigrant_push = 0.75
     life_rating = -5
     icon = 14
-}
-
-taiping_draft = {
-    land_organisation = -0.1
-    org_regain = -0.1
-    mobilisation_size = 0.15
-    prestige = -0.02
-    icon = 18
 }
 
 ### Panjab ###
@@ -2979,7 +2936,7 @@ grigma_male = {
 	middle_luxury_needs = -0.1
 	rich_luxury_needs = -0.1
 	loan_interest = -0.2
-	tax_efficiency = 0.02.
+	tax_efficiency = 0.1
 	war_exhaustion = -0.1
 	supply_consumption = -0.05
 	RGO_throughput = 0.05

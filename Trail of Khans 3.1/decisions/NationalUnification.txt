@@ -129,14 +129,7 @@ political_decisions = {
             random_owned = { limit = { owner = { accepted_culture = hungarian } } owner = { remove_accepted_culture = hungarian } }
             prestige = 10
             FRA_412 = { add_core = GER }
-			FRA_411 = { add_core = GER }
 			397 = { add_core = GER }
-            random_owned = {
-                limit = { owner = { tag = KUK } }
-                HUN = { all_core = { remove_core = KUK } }
-                CRO = { all_core = { remove_core = KUK } }
-                owner = { remove_accepted_culture = hungarian }
-            }
             all_core = { add_core = SGF }
             any_owned = {
                 limit = {
@@ -150,15 +143,6 @@ political_decisions = {
                 }
                 add_core = SGF
             }
-            random_owned = {
-                limit = { owner = { tag = KUK } }
-                owner = {
-                    all_core = {
-                        remove_core = KUK
-                        add_core = AUS
-                    }
-                }
-            }
             change_tag = SGF
             any_country = {
                 limit = {
@@ -167,7 +151,6 @@ political_decisions = {
                     NOT = {
                         has_country_flag = post_colonial_country
                         tag = THIS
-                        tag = KUK
                         tag = AUS
                         tag = DNB
 						tag = HPS
@@ -234,7 +217,7 @@ political_decisions = {
                 remove_core = THIS 
             }
 			GER = {
-                any_core = {
+                all_core = {
                     limit = {
                         culture = north_german
 				    }   
@@ -380,7 +363,6 @@ political_decisions = {
                 add_core = GER
 				remove_core = THIS
             }
-			
             change_tag = GER
             add_accepted_culture = north_german
             add_accepted_culture = south_german
@@ -406,7 +388,6 @@ political_decisions = {
                         NOT = { is_core = EST }
                         NOT = { is_core = LAT }
                         NOT = { is_core = LIT }
-                        NOT = { state_id = FRA_411 }
 					} 
 				add_core = GER 
 				}
@@ -415,7 +396,6 @@ political_decisions = {
                 limit = {
                     is_culture_group = germanic
                     exists = no
-                    NOT = { tag = KUK }
 					NOT = { tag = HPS }
                     NOT = { tag = PRU }
                     NOT = { tag = BAN }
@@ -640,7 +620,6 @@ political_decisions = {
             add_accepted_culture = kanauji
             add_accepted_culture = panjabi
             add_accepted_culture = kashmiri
-            add_accepted_culture = manipuri
             add_accepted_culture = kannada
             add_accepted_culture = oriya
             add_accepted_culture = gujarati
@@ -874,7 +853,6 @@ political_decisions = {
                     primary_culture = south_german
                     in_sphere = THIS
                     NOT = { tag = THIS }
-                    NOT = { tag = KUK }
                     NOT = { tag = DNB }
 					NOT = { tag = HPS }
                     NOT = { tag = BAN }

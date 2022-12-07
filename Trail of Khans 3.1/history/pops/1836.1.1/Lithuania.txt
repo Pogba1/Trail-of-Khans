@@ -1,3 +1,4 @@
+
 #Lithuania Region (1272000)
 #under the rule of Russia in 1836
 #Vilnius (168000/42000 POPS)
@@ -647,35 +648,59 @@
 #Memel (172000/43000 POPS) #now part of Lithuania
 698 = {
     aristocrats = {
-        culture = north_german
-        religion = protestant
+        culture = polish
+        religion = catholic
         size = 750
     }
 
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 200
+        size = 130
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 2400
+        size = 400
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 1100
+        size = 100
     }
 
     farmers = {
         culture = north_german
         religion = protestant
-        size = 19500
+        size = 6500
     }
 
+    clergymen = {
+        culture = polish
+        religion = catholic
+        size = 254
+    }
+
+    artisans = {
+        culture = polish
+        religion = catholic
+        size = 1375
+    }
+
+    soldiers = {
+        culture = polish
+        religion = catholic
+        size = 1560
+    }
+
+    farmers = {
+        culture = polish
+        religion = catholic
+        size = 13590
+    }
+    
     ######Jews
 
     soldiers = {

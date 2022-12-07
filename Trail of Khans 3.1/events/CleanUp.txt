@@ -352,7 +352,6 @@ country_event = {
 			AND = {
 				OR = {
 					tag = AUS
-					tag = KUK
 				}
 				sphere_owner = {
 					tag = GER

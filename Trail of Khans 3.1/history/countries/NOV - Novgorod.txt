@@ -6,8 +6,8 @@ religion = orthodox
 government = democracy
 plurality = 5.0
 nationalvalue = nv_liberty
-literacy = 0.055
-non_state_culture_literacy = 0.01
+literacy = 0.4302
+non_state_culture_literacy = 0.15
 civilized = yes
 
 #set_country_flag = serfdom_not_abolished

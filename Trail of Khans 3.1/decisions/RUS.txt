@@ -683,7 +683,7 @@ political_decisions = {
 			2677 = {
 				add_province_modifier = {
 					name = siberian_frontier 
-					uration = 3650
+					duration = 3650
 				}
 			}
 			1075 = {

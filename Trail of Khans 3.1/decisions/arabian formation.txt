@@ -527,7 +527,7 @@ political_decisions = {
                 remove_core = THIS
                 add_core = ARU
             }
-            TUR_894 = { remove_core = ARU }
+            SVF_894 = { remove_core = ARU }
             EGY_843 = { remove_core = ARU }
             change_tag = ARU
             country_event = 98725

@@ -5800,11 +5800,6 @@
         size = 6850
     }
 
-    soldiers = {
-        culture = north_german
-        religion = protestant
-        size = 100
-    }
     aristocrats = {
         culture = north_german
         religion = protestant
@@ -5844,7 +5839,7 @@
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 6500
+        size = 8300
     }
 
     farmers = {
@@ -5865,12 +5860,6 @@
         size = 1100
     }
 
-    soldiers = {
-        culture = north_german
-        religion = catholic
-        size = 1000
-    }
-
     farmers = {
         culture = north_german
         religion = catholic
@@ -5887,12 +5876,6 @@
         culture = polish
         religion = protestant
         size = 250
-    }
-
-    soldiers = {
-        culture = polish
-        religion = protestant
-        size = 500
     }
 
     farmers = {
@@ -5913,12 +5896,6 @@
         size = 250
     }
 
-    soldiers = {
-        culture = lithuanian
-        religion = protestant
-        size = 100
-    }
-
     farmers = {
         culture = lithuanian
         religion = protestant
@@ -5933,12 +5910,6 @@
     }
 
     officers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    soldiers = {
         culture = ashkenazi
         religion = jewish
         size = 100
@@ -5966,75 +5937,57 @@
 #Gumbinnen (228000/57000 POPS) #now part of Russia
 697 = {
     aristocrats = {
-        culture = north_german
-        religion = protestant
+        culture = polish
+        religion = catholic
         size = 1100
     }
 
     clergymen = {
-        culture = north_german
-        religion = protestant
-        size = 475
+        culture = polish
+        religion = catholic
+        size = 525
     }
 
     artisans = {
-        culture = north_german
-        religion = protestant
-        size = 2600
+        culture = polish
+        religion = catholic
+        size = 2700
     }
 
     soldiers = {
-        culture = north_german
-        religion = protestant
+        culture = polish
+        religion = catholic
         size = 3000
     }
 
-    farmers = {
-        culture = north_german
-        religion = protestant
-        size = 59275
-    }
-
     clergymen = {
-        culture = polish
-        religion = protestant
-        size = 25
-    }
-
-    artisans = {
-        culture = polish
+        culture = north_german
         religion = protestant
         size = 100
     }
-
-    soldiers = {
-        culture = polish
+    
+    farmers = {
+        culture = north_german
         religion = protestant
-        size = 25
+        size = 10275
     }
 
     farmers = {
         culture = polish
-        religion = protestant
-        size = 1850
+        religion = catholic
+        size = 50950
     }
 
     clergymen = {
         culture = lithuanian
         religion = protestant
-        size = 25
+        size = 50
     }
 
     artisans = {
         culture = lithuanian
         religion = protestant
         size = 150
-    }
-
-    soldiers = {
-        culture = lithuanian
-        religion = protestant
-        size = 25
     }
 
     farmers = {

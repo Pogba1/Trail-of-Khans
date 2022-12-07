@@ -132,7 +132,6 @@ political_decisions = {
 		effect = {
 			GOL = {
 				country_event = 770000
-				days = 0
 			}
 			set_country_flag = our_request_cossack
 		}
