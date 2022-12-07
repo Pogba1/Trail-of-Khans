@@ -4,16 +4,11 @@ country_event = {
     title = "EVTNAME183552301"
     desc = "EVTDESC183552301"
 
+    fire_only_once = yes
+
     trigger = {
-        has_global_flag = war_for_bohemia
+        has_global_flag = bohemian_victory
         tag = BHA
-        POL = {
-            has_recently_lost_war = yes
-        }
-        has_recently_lost_war = no 
-        NOT = {
-            war_with = POL
-        }
     }
 
     mean_time_to_happen = {
@@ -21,27 +16,8 @@ country_event = {
     }
     
     option = {
-        name = "Let us see what lies ahead of us"
-        clr_global_flag = war_for_bohemia
-        set_global_flag = bohemian_victory
+        name = "Bohemia will shine like Heaven on Earth!"
         prestige = 40
-        country_event = {
-            id = 183552302
-            days = 7
-        }
-    }
-}
-
-#Bohemia-Austria winning buff
-country_event = {
-    id = 183552302
-    title = "EVTNAME183552302"
-    desc = "EVTDESC183552302"
-
-    is_triggered_only = yes
-
-    option = {
-        name = "Our greatness has been shown to the world, let Bohemia shine like a Sun on Earth!"
         PLC = {
             all_core = {
                 limit = {
@@ -54,7 +30,7 @@ country_event = {
             name = bohemian_golden_age
             duration = 9125
         }
-        set_country_flag = bohemian_golden_age        
+        set_country_flag = bohemian_golden_age
     }
 }
 
@@ -181,15 +157,8 @@ country_event = {
     desc = "EVTDESC192801"
 
     trigger = {
-        has_global_flag = war_for_bohemia
+        has_global_flag = polish_victory
         tag = POL
-        BHA = {
-            has_recently_lost_war = yes
-        }
-        has_recently_lost_war = no 
-        NOT = {
-            war_with = BHA
-        }
     }
 
     mean_time_to_happen = {
@@ -198,8 +167,6 @@ country_event = {
     
     option = {
         name = "Let the Premyslid dynasty go down in history as a failure"
-        clr_global_flag = war_for_bohemia
-        set_global_flag = polish_victory
         prestige = 30
         any_pop = {
             limit = {
@@ -208,23 +175,6 @@ country_event = {
             militancy = -2
             consciousness = -4
         }
-        country_event = {
-            id = 192802
-            days = 1
-        }
-    }
-}
-
-#Breakup of Bohemia-Austria
-country_event = {
-    id = 192802
-    title = "EVTNAME192802"
-    desc = "EVTDESC192802"
-
-    is_triggered_only = yes
-
-    option = {
-        name = "The Crown of Bohemia is ours!"
         BHA = {
             release = BOH
             release = AUS
@@ -346,5 +296,96 @@ country_event = {
         add_accepted_culture = slovak
         add_accepted_culture = ashkenazi
         add_accepted_culture = czech        
+    }
+}
+
+#Bohemian-Polish War, White Peace 
+
+country_event ={
+    id = 232001
+    title = "EVTNAME232001"
+    desc = "EVTDESC232001"
+
+    fire_only_once = yes
+
+    trigger = {
+        OR = {
+            tag = POL
+            tag = BHA
+        }
+        NOT = {
+            war_with = BHA
+        }
+        NOT = {
+            war_with = POL
+        }
+        has_global_flag = war_for_bohemia
+    }
+
+    mean_time_to_happen = {
+        days = 7
+    }
+
+    option = {
+        name = "The Situation is still tense"
+        prestige = -15
+        clr_global_flag = war_for_bohemia
+        set_global_flag = stalemate_for_bohemia
+    }
+}
+
+country_event = {
+    id = 232002
+    title = "EVTNAME232002"
+    desc = "EVTDESC232002"
+
+    trigger = {
+        tag = POL
+        has_global_flag = stalemate_for_bohemia
+        NOT = {
+            has_country_flag = the_people_complain
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 10
+    }
+
+    option = {
+        name = "Let the people complain"
+
+        prestige = -10
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+            }
+            militancy = 2
+            consciousness = 5
+        }
+        set_country_flag = the_people_complain
+    }
+}
+
+country_event = {
+    id = 232003
+    title = "EVTNAME232003"
+    desc = "EVTDESC232003"
+
+    trigger = {
+        tag = BHA
+        has_global_flag = stalemate_for_bohemia
+        NOT = {
+            has_country_flag = uneasy_peace
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 10
+    }
+
+    option = {
+        name = "An uneasy peace that is for sure..."
+        prestige = -5
+        set_country_flag = uneasy_peace
     }
 }

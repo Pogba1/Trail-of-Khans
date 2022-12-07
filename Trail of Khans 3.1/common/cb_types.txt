@@ -454,7 +454,12 @@ safeguard_bohemia = {
 	}
 	
 	po_status_quo = yes
-	
+
+	on_po_accepted = {
+		set_global_flag = bohemian_victory
+		clr_global_flag = war_for_bohemia
+	}
+
 	war_name = WAR_NAME
 }
 
@@ -484,7 +489,12 @@ install_jagiellon = {
 			value = 0.25
 		}
 	}
-	
+
+	on_po_accepted = {
+		set_global_flag = polish_victory
+		clr_global_flag = war_for_bohemia
+	}
+
 	po_status_quo = yes
 	
 	war_name = WAR_NAME
