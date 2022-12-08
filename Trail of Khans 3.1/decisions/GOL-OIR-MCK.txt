@@ -120,26 +120,28 @@ political_decisions = {
 		}
 	}
 	integrate_circassia= {
-	picture = "circassia_flag"
-	potential={
-	OR = {
-	      tag = GOL
-		  primary_culture = mongol
-	}
-	NOT = {has_country_flag =integrate_circassia}
-    1051 = {owned_by=THIS}
-	NOT= {exists = CIR}
-	}
-	allow = {
-        NOT= {exists = CIR}
-		enlightenment_thought = 1
-	}
+		picture = "circassia_flag"
+		potential={
+			OR = {
+	     		tag = GOL
+		    	primary_culture = mongol
+			}
+			NOT = {accepted_culture =integrate_circassia}
+		}
+		allow = {
+        	NOT= {exists = CIR}
+			CIR = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			enlightenment_thought = 1
+		}
 	
-	effect = {
-		set_country_flag = integrate_circassia
-		prestige = 1
-		add_accepted_culture = circassian
-		CIR = {all_core = {add_core = THIS}}
+		effect = {
+			prestige = 10
+			add_accepted_culture = circassian
+			CIR = {all_core = {add_core = THIS}}
 		}
 		ai_will_do = { factor = 1 }
     }
@@ -150,18 +152,29 @@ political_decisions = {
 	     		tag = GOL
 		   		primary_culture = mongol
 			}
-			has_country_flag =integrate_circassia
 			NOT = {
 				has_country_flag = mend_relations_with_ruthenians
-			}
-			958 = {
-				owned_by=THIS
 			}
 			NOT={
 				exists = UKR
 			}
 		}
 		allow = {
+			958 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							vassal_of = THIS
+							is_vassal = no
+						}
+						in_sphere = THIS
+						war = no
+						is_mobilised = no
+						is_greater_power = no
+					}
+				}
+			}
 			nationalism_n_imperialism = 1
 			is_greater_power = yes
 		}

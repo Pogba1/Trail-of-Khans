@@ -43,8 +43,6 @@ set_country_flag = protestant_country
 #set_country_flag = claiming_neuchatel
 #set_country_flag = prussian_germany
 
-decision = literacy_PRU
-
 ruling_party = PRU_conservative_2
 upper_house = {
     fascist = 0

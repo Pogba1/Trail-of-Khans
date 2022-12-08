@@ -5765,27 +5765,17 @@
 #under the rule of Prussia in 1836
 #Konigsberg (484000/121000 POPS)
 695 = {
-	aristocrats = {
+
+    aristocrats = {
         culture = north_german
         religion = protestant
-        size = 150
-    }
+        size = 2400
+    }  
+
 	bureaucrats = {
         culture = north_german
-        religion = protestant
-        size = 1750
-    }
-
-    officers = {
-        culture = north_german
-        religion = protestant
-        size = 100
-    }
-
-    clergymen = {
-        culture = north_german
-        religion = protestant
-        size = 100
+        religion = catholic
+        size = 1302
     }
 	
 	craftsmen = {
@@ -5794,46 +5784,22 @@
 		size = 6954
     }
 
-    artisans = {
-        culture = north_german
-        religion = protestant
-        size = 6850
-    }
-
-    aristocrats = {
-        culture = north_german
-        religion = protestant
-        size = 2250
-    }
-
-    bureaucrats = {
-        culture = north_german
-        religion = protestant
-        size = 3250
-    }
-
     officers = {
         culture = north_german
         religion = protestant
-        size = 250
+        size = 350
     }
 
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 825
+        size = 1100
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 10000
-    }
-
-    artisans = {
-        culture = north_german
-        religion = protestant
-        size = 5000
+        size = 22950
     }
 
     soldiers = {
@@ -5845,42 +5811,24 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 48875
-    }
-
-    clergymen = {
-        culture = north_german
-        religion = catholic
-        size = 175
-    }
-
-    artisans = {
-        culture = north_german
-        religion = catholic
-        size = 1100
-    }
-
-    farmers = {
-        culture = north_german
-        religion = catholic
-        size = 18025
+        size = 66900
     }
 
     clergymen = {
         culture = polish
-        religion = protestant
+        religion = catholic
         size = 100
     }
 
     artisans = {
         culture = polish
-        religion = protestant
+        religion = catholic
         size = 250
     }
 
     farmers = {
         culture = polish
-        religion = protestant
+        religion = catholic
         size = 24625
     }
 
@@ -5902,7 +5850,6 @@
         size = 5650
     }
 
-    ######Jews
     aristocrats = {
         culture = ashkenazi
         religion = jewish
@@ -5932,8 +5879,8 @@
         religion = jewish
         size = 200
     }
-    ########
 }
+
 #Gumbinnen (228000/57000 POPS) #now part of Russia
 697 = {
     aristocrats = {

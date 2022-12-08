@@ -476,7 +476,7 @@ migration_chance =
 		modifier = {
 			factor = 10
 			unemployment = 0.99
-			NOT = { war = yes }
+			war = no
 		}
 	}
 	
@@ -608,7 +608,7 @@ colonialmigration_chance =
 		modifier = {
 			factor = 10
 			unemployment = 0.99
-			NOT = { war = yes }
+			war = no 
 		}
 	}
 	

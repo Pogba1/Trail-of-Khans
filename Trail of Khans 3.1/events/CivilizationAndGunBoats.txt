@@ -3699,48 +3699,6 @@ country_event = {
 	}
 }
 
-### UNCIV FLAVOR ###
-# SIA -- An Elephant for America?
-country_event = {
-	id = 13350
-	title = "EVTNAME13350"
-	desc = "EVTDESC13350"
-	picture = "elephant"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA13350"
-		relation = {
-			who = FROM
-			value = 30
-		}
-	}
-}
-
-#Torching of The Summer Palace
-country_event = {
-	id = 13355
-	title = "EVTNAME13355"
-	desc = "EVTDESC13355"
-	news = yes
-	news_desc_long = "EVTDESC13355_NEWS_LONG"
-	news_desc_medium = "EVTDESC13355_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC13355_NEWS_SHORT"
-	major = yes
-	picture = "cityfire"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA13355"
-		prestige = -25
-		war_exhaustion = 5
-		1612 = { clr_province_flag = summer_palace }
-	}
-}
-
-
 country_event = {
 	title = "westernize_nation_title"
 	desc = "westernize_nation_desc"
@@ -3799,10 +3757,6 @@ country_event = {
 		remove_country_modifier = rangaku
 		remove_country_modifier = sakoku
 		remove_country_modifier = western_presence
-		remove_country_modifier = isolationist_foreign_naval_officers
-		remove_country_modifier = isolationist_foreign_naval_schools
-		remove_country_modifier = isolationist_foreign_officers
-		remove_country_modifier = isolationist_foreign_training
 		any_owned = {
 			remove_province_modifier = western_presence
 			remove_province_modifier = foreign_smugglers

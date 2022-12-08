@@ -24,7 +24,7 @@ political_decisions = {
         effect = {
             add_country_modifier = {
                 name = curtailed_conscription
-                duration = 180
+                duration = 182
             }
         }
     }
