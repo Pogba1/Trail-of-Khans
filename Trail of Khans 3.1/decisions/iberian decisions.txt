@@ -42,7 +42,7 @@ political_decisions = {
 		picture = ""
 		potential = {
 			tag = ATR
-			NOT = {has_country_flag = unite_the_peninsula_2}
+			NOT = {has_country_flag = unite_the_peninsula}
 			NOT = {has_country_flag = rebuild_the_caliphate}
 		}
 		allow = {
@@ -64,7 +64,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = unite_the_peninsula_2
+			set_country_flag = unite_the_peninsula
 			prestige = 20
 			POR_521 = {
 				add_core = THIS
@@ -84,7 +84,6 @@ political_decisions = {
 		picture = ""
 		potential = {
 			tag = ADL
-			has_country_flag = unite_the_peninsula
 			NOT = {has_country_flag = united_in_solidarity}
 		}
 		allow = {
