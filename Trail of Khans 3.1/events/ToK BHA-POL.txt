@@ -159,6 +159,9 @@ country_event = {
     trigger = {
         has_global_flag = polish_victory
         tag = POL
+        NOT = {
+            has_country_flag = wladislaus_triumph
+        }
     }
 
     mean_time_to_happen = {
@@ -334,6 +337,7 @@ country_event ={
     }
 }
 
+#White peace between Bohemia and Poland
 country_event = {
     id = 232002
     title = "EVTNAME232002"
@@ -387,5 +391,192 @@ country_event = {
         name = "An uneasy peace that is for sure..."
         prestige = -5
         set_country_flag = uneasy_peace
+    }
+}
+
+#Hansa invades Lithuania
+country_event = {
+    id = 232004
+    title = "EVTNAME232004"
+    desc = "EVTDESC232004"
+
+    trigger = {
+        tag = LUB
+        NOT = {
+            war_with = POL
+        }
+        NOT = {
+            war_with = BHA
+        }
+        OR = {
+            AND = {
+                BHA = {
+                    war_with = POL
+                }
+                POL = {
+                    war_with = BHA
+                }
+                has_global_flag = war_for_bohemia
+            }
+            has_global_flag = bohemian_victory
+        }
+        NOT = {
+            has_country_flag = seized_lithuania
+        }
+        NOT = {
+            has_country_flag = appeased_the_poles
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 14
+    }
+
+    option = {
+        name = "The Treaty of Riga is null!"
+
+        add_casus_belli = {
+            target = LIT
+            type = conquest
+            months = 1
+        }
+        war = {
+            target = LIT
+            attacker_goal = {
+                casus_belli = conquest
+            }
+        }
+        relation = {
+            who = POL
+            value = -200
+        }
+        POL = {
+            diplomatic_influence = {
+                who = LIT
+                value = -200
+            }
+            leave_alliance = LIT
+        }
+        badboy = 7.5
+        set_country_flag = seized_lithuania
+    }
+
+    option = {
+        name = "Let us convene with the Poles over Lithuania"
+        
+        set_country_flag = appeased_the_poles
+
+        POL = {
+            country_event = {
+                id = 232005
+            }
+        } 
+    }
+}
+
+#Hanseatic-Polish discussion over Lithuania
+country_event = {
+    id = 232005
+    title = "EVTNAME232005"
+    desc = "EVTDESC232005"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "How dare they push for Lithuania?"
+
+        LUB = {
+            country_event = 232006
+        }
+    }
+    option = {
+        name = "Offer a redrawing of spheres of influence in the Baltic"
+
+        LUB = {
+            country_event = 232007
+        }
+    }
+    option = {
+        name = "We cannot hope to hold Lithuania, give them Carte Blanche"
+
+        LUB = {
+            country_event = 232008
+        }
+    }
+}
+
+#Polish refusal to continue talks
+country_event = {
+    id = 232006
+    title = "EVTNAME232006"
+    desc = "EVTDESC232006"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "They do not offer us any choice"
+
+        relation = {
+            who = POL
+            value = -100
+        }
+    }
+}
+
+#Poland offers the sphere
+country_event = {
+    id = 232007
+    title = "EVTNAME232007"
+    desc = "EVTDESC232007"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Not what we hoped for, but a good result nonetheless"
+
+        POL = {
+            diplomatic_influence = {
+                who = LIT
+                value = -200
+            }
+            relation = {
+                who = LIT
+                value = -100
+            }
+        }
+        diplomatic_influence = {
+            who = LIT
+            value = 500
+        }
+        relation = {
+            who = POL
+            value = 50
+        }
+    }
+}
+
+#Poland gives Carte Blanche
+country_event = {
+    id = 232008
+    title = "EVTNAME232008"
+    desc = "EVTDESC232008"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "We couldn't have hoped for more!"
+
+        badboy = 2.5
+        add_casus_belli = {
+            target = LIT
+            type = conquest
+            months = 1
+        }
+        war = {
+            target = LIT
+            attacker_goal = {
+                casus_belli = conquest
+            }
+        }
     }
 }

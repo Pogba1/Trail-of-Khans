@@ -237,7 +237,7 @@ army = {
 	}
 }
 navy = {
-    name = "Lï¿½becker Marine"
+    name = "Lübecker Marine"
     location = 530
 
     ship = {
@@ -246,10 +246,75 @@ navy = {
     }
 
     ship = {
-        name= "2nd Clipper Transport"
+        name= "Clipper Transport"
         type = clipper_transport
     }
 
+    ship = {
+        name= "Clipper Transport"
+        type = clipper_transport
+    }
+	
+    ship = {
+        name= "Clipper Transport"
+        type = clipper_transport
+    }
+	
+    ship = {
+        name= "Clipper Transport"
+        type = clipper_transport
+    }
+	
+    ship = {
+        name= "Clipper Transport"
+        type = clipper_transport
+    }
+	
+    ship = {
+        name= "Clipper Transport"
+        type = clipper_transport
+    }
+	
+    ship = {
+        name= "Clipper Transport"
+        type = clipper_transport
+    }
+	
+    ship = {
+        name= "Clipper Transport"
+        type = clipper_transport
+    }
+	
+    ship = {
+        name= "Clipper Transport"
+        type = clipper_transport
+    }
+	
+    ship = {
+        name= "Clipper Transport"
+        type = clipper_transport
+    }
+	
+    ship = {
+        name= "Clipper Transport"
+        type = clipper_transport
+    }
+	
+    ship = {
+        name= "Clipper Transport"
+        type = clipper_transport
+    }
+	
+    ship = {
+        name= "Clipper Transport"
+        type = clipper_transport
+    }
+	
+    ship = {
+        name= "Clipper Transport"
+        type = clipper_transport
+    }
+		
     ship = {
         name= "1st Steam Transport"
         type = steam_transport
@@ -346,3 +411,49 @@ navy = {
     }
 
 }
+
+navy = {
+	name = "Flotilla of Königsberg"
+	home = 695
+	
+	ship = {
+		name = "Frigate"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Frigate"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Frigate"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Frigate"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Frigate"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Frigate"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Man'o'war"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Man'o'war"
+		type = manowar
+	}
+}	
+		
