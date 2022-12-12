@@ -4,7 +4,6 @@ add_core = ARG
 trade_goods = iron
 terrain = dryhills
 life_rating = 35
-1861.1.1 = { railroad = 1 }
 state_building = {
     level = 1
     building = steel_factory

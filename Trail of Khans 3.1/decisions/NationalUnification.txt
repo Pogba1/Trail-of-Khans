@@ -384,7 +384,6 @@ political_decisions = {
 							culture = north_german 
 							culture = south_german
 						}
-						NOT = { is_core = PRU }
                         NOT = { is_core = EST }
                         NOT = { is_core = LAT }
                         NOT = { is_core = LIT }
@@ -397,7 +396,6 @@ political_decisions = {
                     is_culture_group = germanic
                     exists = no
 					NOT = { tag = HPS }
-                    NOT = { tag = PRU }
                     NOT = { tag = BAN }
                     NOT = { tag = UBD }
                     NOT = { has_country_flag = post_colonial_country }

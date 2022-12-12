@@ -82,6 +82,9 @@ very_hard_ai = {
 overseas = {
     assimilation_rate = -0.3
     pop_militancy_modifier = -0.01
+    farm_rgo_size = 0.25
+    mine_rgo_size = 0.25
+    population_growth = -0.0001
 }
 
 coastal = {
@@ -108,9 +111,7 @@ land_province = {
 
 
 blockaded = {
-    war_exhaustion = 0.05
-    farm_rgo_eff = -0.25
-    mine_rgo_eff = -0.25
+    war_exhaustion = 0.02
 }
 
 no_adjacent_controlled = {
@@ -158,9 +159,7 @@ base_values = {
 war = {
     max_war_exhaustion = 100            #base max at war.
     supply_consumption = -0.5
-    #war_exhaustion = 0.1
-    badboy = -0.033
-    import_cost = 0.01
+    badboy = -0.083
 }
 
 peace = {
@@ -229,6 +228,7 @@ unciv_nation = {
     mobilisation_size = 0.0
     diplomatic_points_modifier = 1
     cb_generation_speed_modifier = 0.8
+    badboy = -0.1
 }
 
 

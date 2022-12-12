@@ -4,11 +4,17 @@ country_event = {
     title = "EVTNAME183552301"
     desc = "EVTDESC183552301"
 
-    fire_only_once = yes
+    major = yes
 
     trigger = {
         has_global_flag = bohemian_victory
         tag = BHA
+        NOT = {
+            has_global_flag = polish_victory
+        }
+        NOT = {
+            has_country_flag = bohemian_golden_age
+        }
     }
 
     mean_time_to_happen = {
@@ -156,11 +162,16 @@ country_event = {
     title = "EVTNAME192801"
     desc = "EVTDESC192801"
 
+    major = yes
+
     trigger = {
         has_global_flag = polish_victory
         tag = POL
         NOT = {
             has_country_flag = wladislaus_triumph
+        }
+        NOT = {
+            has_global_flag = bohemian_victory
         }
     }
 
@@ -370,6 +381,7 @@ country_event = {
     }
 }
 
+#Bohemian event for stalemate
 country_event = {
     id = 232003
     title = "EVTNAME232003"
@@ -401,6 +413,9 @@ country_event = {
     desc = "EVTDESC232004"
 
     trigger = {
+        LIT = {
+            exists = yes
+        }
         tag = LUB
         NOT = {
             war_with = POL
@@ -433,7 +448,7 @@ country_event = {
     }
 
     option = {
-        name = "The Treaty of Riga is null!"
+        name = "EVTOPTA232004"
 
         add_casus_belli = {
             target = LIT
@@ -462,19 +477,20 @@ country_event = {
     }
 
     option = {
-        name = "Let us convene with the Poles over Lithuania"
+        name = "EVTOPTB232004"
         
         set_country_flag = appeased_the_poles
 
         POL = {
             country_event = {
                 id = 232005
+                days = 7
             }
         } 
     }
 }
 
-#Hanseatic-Polish discussion over Lithuania
+#Discussion over Lithuania
 country_event = {
     id = 232005
     title = "EVTNAME232005"
@@ -483,25 +499,31 @@ country_event = {
     is_triggered_only = yes
 
     option = {
-        name = "How dare they push for Lithuania?"
+        name = "EVTOPTA232005"
 
         LUB = {
             country_event = 232006
+            days = 7
         }
+        set_country_flag = defended_lithuania
     }
     option = {
-        name = "Offer a redrawing of spheres of influence in the Baltic"
+        name = "EVTOPTB232005"
 
         LUB = {
             country_event = 232007
+            days = 7
         }
+        set_country_flag = gave_up_lithuania
     }
     option = {
-        name = "We cannot hope to hold Lithuania, give them Carte Blanche"
+        name = "EVTOPTC232005"
 
         LUB = {
             country_event = 232008
+            days = 7
         }
+        set_country_flag = abandoned_lithuania
     }
 }
 
@@ -514,7 +536,7 @@ country_event = {
     is_triggered_only = yes
 
     option = {
-        name = "They do not offer us any choice"
+        name = "EVTOPTA232006"
 
         relation = {
             who = POL
@@ -532,7 +554,7 @@ country_event = {
     is_triggered_only = yes
 
     option = {
-        name = "Not what we hoped for, but a good result nonetheless"
+        name = "EVTOPTA232007"
 
         POL = {
             diplomatic_influence = {
@@ -543,6 +565,7 @@ country_event = {
                 who = LIT
                 value = -100
             }
+            leave_alliance = LIT
         }
         diplomatic_influence = {
             who = LIT
@@ -552,6 +575,7 @@ country_event = {
             who = POL
             value = 50
         }
+        set_country_flag = lithuania_sphered
     }
 }
 
@@ -564,7 +588,7 @@ country_event = {
     is_triggered_only = yes
 
     option = {
-        name = "We couldn't have hoped for more!"
+        name = "EVTOPTA232008"
 
         badboy = 2.5
         add_casus_belli = {
@@ -578,5 +602,7 @@ country_event = {
                 casus_belli = conquest
             }
         }
+        clr_country_flag = appeased_the_poles
+        set_country_flag = seized_lithuania
     }
 }

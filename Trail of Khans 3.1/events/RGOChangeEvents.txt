@@ -101,6 +101,12 @@ province_event = {
 
     option = {
         name = "EVT199022OPTA"
+        any_pop = {
+            limit = {
+                has_pop_type = farmers
+            }
+            pop_type = labourers
+        }
         trade_goods = coal
         add_province_modifier = {
             name = switched_production
@@ -212,6 +218,12 @@ province_event = {
 
     option = {
         name = "EVT199022OPTA"
+        any_pop = {
+            limit = {
+                has_pop_type = farmers
+            }
+            pop_type = labourers
+        }
         trade_goods = iron
         add_province_modifier = {
             name = switched_production
@@ -323,6 +335,12 @@ province_event = {
 
     option = {
         name = "EVT199022OPTA"
+        any_pop = {
+            limit = {
+                has_pop_type = farmers
+            }
+            pop_type = labourers
+        }
         trade_goods = sulphur
         add_province_modifier = {
             name = switched_production
@@ -1388,6 +1406,12 @@ province_event = {
             name = switched_production
             duration = 1825
         }
+        any_pop = {
+            limit = {
+                has_pop_type = farmers
+            }
+            pop_type = labourers
+        }
         ai_chance = { factor = 100 }
     }
 
@@ -1665,8 +1689,8 @@ province_event = {
                     province_id = 2147  #Ciudad Acuna
                     province_id = 2152  #Monclova
                     province_id = 2155  #Torreon
-                    province_id = 2255  #Barranquilla (El Cerrejón mines)
-                    province_id = 2399  #Rio Gallegos (Río Turbio mines)
+                    province_id = 2255  #Barranquilla (El Cerrejï¿½n mines)
+                    province_id = 2399  #Rio Gallegos (Rï¿½o Turbio mines)
                     province_id = 2561  #Siegburg
                     province_id = 595   #Nuremberg (Waldenburg)
                     province_id = 598   #Bayreuth (Waldenburg)
@@ -1788,8 +1812,17 @@ province_event = {
 
     option = {
         name = "EVTOPTA199035"
+        any_pop = {
+            limit = {
+                has_pop_type = farmers
+            }
+            pop_type = labourers
+        }
         trade_goods = coal
-        add_province_modifier = { name = switched_production duration = 365 }
+        add_province_modifier = { 
+            name = switched_production 
+            duration = 365 
+        }
     }
 }
 province_event = {
@@ -1822,8 +1855,18 @@ province_event = {
 
     option = {
         name = "EVTOPTA199035"
+        any_pop = {
+            limit = {
+                has_pop_type = farmers
+            }
+            pop_type = labourers
+        }
         trade_goods = coal
-        add_province_modifier = { name = switched_production duration = 365 }
+        add_province_modifier = { 
+            name = switched_production 
+            duration = 365 
+        }
+        
     }
 }
 #Iron found
@@ -1966,8 +2009,17 @@ province_event = {
 
     option = {
         name = "EVTOPTA199035"
+        any_pop = {
+            limit = {
+                has_pop_type = farmers
+            }
+            pop_type = labourers
+        }
         trade_goods = iron
-        add_province_modifier = { name = switched_production duration = 365 }
+        add_province_modifier = { 
+            name = switched_production 
+            duration = 365 
+        }
         owner = {
             random_owned = {
                 limit = { province_id = 1631 NOT = { trade_goods = silk } } #Wonju
@@ -2030,62 +2082,18 @@ province_event = {
     option = {
         name = "EVTOPTA199035"
         trade_goods = iron
-        add_province_modifier = { name = switched_production duration = 365 }
+        add_province_modifier = { 
+            name = switched_production 
+            duration = 365 
+        }
+        any_pop = {
+            limit = {
+                has_pop_type = farmers
+            }
+            pop_type = labourers
+        }
     }
 }
-
-#province_event = {
-#    id = 1990362 #oil in texas
-#    title = "EVTNAME199035"
-#    desc = "EVTDESC199035"
-#
-#    trigger = {
-#        owned_by = THIS
-#        controlled_by = THIS    
-#            owner = { civilized = yes }
-#        
-#        
-#            AND = {
-#                
-#                    province_id = 43       
-#					province_id = 134 
-#                year = 1855
-#            }
-#            
-#        NOT = { trade_goods = oil }
-#        NOT = { has_province_modifier = switched_production }
-#
-#        owner = {
-#            war = no
-#        }
-#    }
-#
-#    allow_multiple_instances = no
-#
-#    mean_time_to_happen = {
-#        months = 40
-#        modifier = {
-#            factor = 0.75
-#            year = 1841
-#        }
-#        modifier = {
-#            factor = 0.5
-#            year = 1842
-#        }
-#        modifier = {
-#            factor = 0.5
-#            year = 1843
-#        }
-#    }
-#
-#    option = {
-#        name = "EVTOPTA199035"
-#        trade_goods = oil
-#        add_province_modifier = { name = switched_production duration = 365 }
-#    }
-#}
-
-
 
 #Sulphur/Phosphate found
 province_event = {
@@ -2174,8 +2182,17 @@ province_event = {
 
     option = {
         name = "EVTOPTA199037"
+        any_pop = {
+            limit = {
+                has_pop_type = farmers
+            }
+            pop_type = labourers
+        }
         trade_goods = sulphur
-        add_province_modifier = { name = switched_production duration = 365 }
+        add_province_modifier = { 
+            name = switched_production 
+            duration = 365 
+        }
     }
 }
 

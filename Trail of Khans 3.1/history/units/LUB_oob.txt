@@ -237,7 +237,7 @@ army = {
 	}
 }
 navy = {
-    name = "Lübecker Marine"
+    name = "Lubecker Marine"
     location = 530
 
     ship = {
@@ -413,8 +413,8 @@ navy = {
 }
 
 navy = {
-	name = "Flotilla of Königsberg"
-	home = 695
+	name = "Flotilla of Konigsberg"
+	location = 695
 	
 	ship = {
 		name = "Frigate"
