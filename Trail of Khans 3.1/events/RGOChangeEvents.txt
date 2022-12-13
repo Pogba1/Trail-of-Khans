@@ -101,12 +101,6 @@ province_event = {
 
     option = {
         name = "EVT199022OPTA"
-        any_pop = {
-            limit = {
-                has_pop_type = farmers
-            }
-            pop_type = labourers
-        }
         trade_goods = coal
         add_province_modifier = {
             name = switched_production
@@ -218,12 +212,6 @@ province_event = {
 
     option = {
         name = "EVT199022OPTA"
-        any_pop = {
-            limit = {
-                has_pop_type = farmers
-            }
-            pop_type = labourers
-        }
         trade_goods = iron
         add_province_modifier = {
             name = switched_production
@@ -335,12 +323,6 @@ province_event = {
 
     option = {
         name = "EVT199022OPTA"
-        any_pop = {
-            limit = {
-                has_pop_type = farmers
-            }
-            pop_type = labourers
-        }
         trade_goods = sulphur
         add_province_modifier = {
             name = switched_production
@@ -1406,12 +1388,6 @@ province_event = {
             name = switched_production
             duration = 1825
         }
-        any_pop = {
-            limit = {
-                has_pop_type = farmers
-            }
-            pop_type = labourers
-        }
         ai_chance = { factor = 100 }
     }
 
@@ -1812,12 +1788,6 @@ province_event = {
 
     option = {
         name = "EVTOPTA199035"
-        any_pop = {
-            limit = {
-                has_pop_type = farmers
-            }
-            pop_type = labourers
-        }
         trade_goods = coal
         add_province_modifier = { 
             name = switched_production 
@@ -1855,12 +1825,6 @@ province_event = {
 
     option = {
         name = "EVTOPTA199035"
-        any_pop = {
-            limit = {
-                has_pop_type = farmers
-            }
-            pop_type = labourers
-        }
         trade_goods = coal
         add_province_modifier = { 
             name = switched_production 
@@ -2009,12 +1973,6 @@ province_event = {
 
     option = {
         name = "EVTOPTA199035"
-        any_pop = {
-            limit = {
-                has_pop_type = farmers
-            }
-            pop_type = labourers
-        }
         trade_goods = iron
         add_province_modifier = { 
             name = switched_production 
@@ -2085,12 +2043,6 @@ province_event = {
         add_province_modifier = { 
             name = switched_production 
             duration = 365 
-        }
-        any_pop = {
-            limit = {
-                has_pop_type = farmers
-            }
-            pop_type = labourers
         }
     }
 }
@@ -2182,12 +2134,6 @@ province_event = {
 
     option = {
         name = "EVTOPTA199037"
-        any_pop = {
-            limit = {
-                has_pop_type = farmers
-            }
-            pop_type = labourers
-        }
         trade_goods = sulphur
         add_province_modifier = { 
             name = switched_production 

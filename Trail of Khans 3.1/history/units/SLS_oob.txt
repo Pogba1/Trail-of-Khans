@@ -1,0 +1,55 @@
+
+leader = {
+    name = "Friedrich Kmiecik"
+    date = 1834.1.1
+    type = land
+    personality = coolminded
+    background = uncommonly_young
+    prestige = 0.25    
+}
+
+army = {
+    name = "Silesien Armee"
+    location = 682
+
+    regiment = {
+        name = "1st Infantry Brigade"
+        type = infantry
+        home = 682
+    }
+    regiment = {
+        name = "2nd Infantry Brigade"
+        type = infantry
+        home = 682
+    }
+    regiment = {
+        name = "3rd Infantry Brigade"
+        type = infantry 
+        home = 682
+    }
+    regiment = {
+        name = "1st Dragoon Brigade"
+        type = dragoon
+        home = 684
+    }
+    regiment = {
+        name = "1st Hussar Brigade"
+        type = hussar
+        home = 684
+    }
+    regiment = {
+        name = "1st Artillery Brigade"
+        type = artillery
+        home = 681
+    }
+    regiment = {
+        name = "2nd Artillery Brigade"
+        type = artillery
+        home = 683
+    }
+    regiment = {
+        name = "3rd Artillery Brigade"
+        type = artillery
+        home = 685
+    }
+}

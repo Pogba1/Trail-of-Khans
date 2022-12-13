@@ -32,7 +32,7 @@ factory_template = {
 
 cheap_factory_template = {
     efficiency = {
-        cement = 0.25 #if no cement, work at 75% efficiency #cost = £4/level
+        cement = 0.25 #if no cement, work at 75% efficiency #cost = ï¿½4/level
     }
 
     owner = {
@@ -705,12 +705,6 @@ RGO_template_farmers = {
         }
 
         {
-            poptype = serfs
-            effect = throughput
-            amount = 1
-        }
-
-        {
             poptype = slaves
             effect = throughput
             amount = 1
@@ -736,12 +730,6 @@ RGO_template_labourers = {
         }
 
         {
-            poptype = serfs
-            effect = throughput
-            amount = 1
-        }
-
-        {
             poptype = slaves
             effect = throughput
             amount = 1
@@ -761,12 +749,6 @@ RGO_template_mines = {
     employees = {
         {
             poptype = labourers
-            effect = throughput
-            amount = 1
-        }
-
-        {
-            poptype = serfs
             effect = throughput
             amount = 1
         }

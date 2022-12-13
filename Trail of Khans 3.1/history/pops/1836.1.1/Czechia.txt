@@ -843,30 +843,7 @@
 }
 #Olomouc (372800/93200 POPS)
 632 = {
-    clergymen = {
-        culture = czech
-        religion = catholic
-        size = 350
-    }
-
-    artisans = {
-        culture = czech
-        religion = catholic
-        size = 700
-    }
-
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 550
-    }
-
-    farmers = {
-        culture = czech
-        religion = catholic
-        size = 20700
-    }
-
+    
     aristocrats = {
         culture = czech
         religion = catholic
@@ -876,31 +853,25 @@
     clergymen = {
         culture = czech
         religion = catholic
-        size = 500
+        size = 850
     }
 
     artisans = {
         culture = czech
         religion = catholic
-        size = 4300
+        size = 5000
     }
 
     soldiers = {
         culture = czech
         religion = catholic
-        size = 300
+        size = 1000
     }
 
     farmers = {
         culture = czech
         religion = catholic
-        size =  26850
-    }
-
-    farmers = {
-        culture = czech
-        religion = catholic
-        size = 31000
+        size = 78550
     }
 
     clergymen = {
@@ -931,41 +902,6 @@
 #under the rule of Austria in 1836
 #Troppau (104000/26000 POPS)
 688 = {
-    bureaucrats = {
-        culture = czech
-        religion = catholic
-        size = 100
-    }
-
-    officers = {
-        culture = czech
-        religion = catholic
-        size = 100
-    }
-
-    clergymen = {
-        culture = czech
-        religion = catholic
-        size = 100
-    }
-
-    artisans = {
-        culture = czech
-        religion = catholic
-        size = 450
-    }
-
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 100
-    }
-
-    farmers = {
-        culture = czech
-        religion = catholic
-        size = 5385
-    }
 
     aristocrats = {
         culture = czech
@@ -976,37 +912,37 @@
     officers = {
         culture = czech
         religion = catholic
-        size = 100
+        size = 200
     }
 
     bureaucrats = {
         culture = czech
         religion = catholic
-        size = 350
+        size = 450
     }
 
     clergymen = {
         culture = czech
         religion = catholic
-        size = 200
+        size = 300
     }
 
     artisans = {
         culture = czech
         religion = catholic
-        size = 1550
+        size = 2000
     }
 
     soldiers = {
         culture = czech
         religion = catholic
-        size = 200
+        size = 1000
     }
 
     farmers = {
         culture = czech
         religion = catholic
-        size = 17610
+        size = 42995
     }
 }
 #Teschen (116000/29000 POPS)

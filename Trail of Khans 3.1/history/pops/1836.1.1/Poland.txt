@@ -402,6 +402,12 @@
         size = 2000
     }
 
+    craftsmen = {
+        culture = polish
+        religion = catholic
+        size = 8390
+    }
+
     farmers = {
         culture = polish
         religion = catholic

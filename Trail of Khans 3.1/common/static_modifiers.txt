@@ -82,9 +82,6 @@ very_hard_ai = {
 overseas = {
     assimilation_rate = -0.3
     pop_militancy_modifier = -0.01
-    farm_rgo_size = 0.25
-    mine_rgo_size = 0.25
-    population_growth = -0.0001
 }
 
 coastal = {
@@ -111,7 +108,8 @@ land_province = {
 
 
 blockaded = {
-    war_exhaustion = 0.02
+    farm_rgo_eff = -0.25
+    mine_rgo_eff = -0.25
 }
 
 no_adjacent_controlled = {
