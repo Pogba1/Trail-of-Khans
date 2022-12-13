@@ -3077,3 +3077,7 @@ hanseatic_city = {
     middle_income_modifier = 0.05
     icon = 11
 }
+
+billions_must_fight = {
+    mobilisation_size = 1
+}
