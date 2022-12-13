@@ -445,25 +445,6 @@ gallic = {
 		Ó Gallchobhair Mac Lochlainn Ó Dálaigh Ó Baoill Ó Séaghdha Ó Ferghail O’ Baire Caimbeul } 
     }
 }
-british_latin = {
-	leader = european
-    unit = ItalianGC
-	british = {
-        color = { 112 88 59 }
-        first_names = { Nicobul Aspasi Ambrogio Amedeo Andre Angelo Antonio August Camil Carl
-        Caesar Clement Davide Enric Etore Fabrits Faustin Federic Felix
-        Fiorents Francesco Gaetan Gennaro Giosep Innocento Leopald
-        Marc Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
-        Raffael Roberto Ruggiero Silva Simon Tancredi Ugo Umbert Vincents Vittor }
-
-        last_names = { Atton Albric Badogli Balditser Barataer Beccaris Cadorn Canevaro Capelae
-        Cavigli Ceccherin Cialdin Cusan Detsi "de Londinium-Edinburg"
-        Emo Fant Fara Filomarin Garibaldi Giardi Govon Mambreta
-        Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux
-		Solari Vaccor Tsupeli }
-    }
-
-}
 
 italian = {
     leader = european
@@ -2647,6 +2628,20 @@ latin = {
 		Ulpius Ulpia Ulpii Ulpian	Valerius Valeria Valerii Valerian	Verginius Verginia Verginii Verginian Vesuvius Vesuvia Vesuvii Vesuvian	Villius Villia Villii Villian	Viridius Viridia Viridii Viridian	Volumnius Volumnia Volumnii Volumnian
 	    }
     }
+	
+	british = {
+        color = { 112 88 59 }
+        first_names = { Nicobul Aspasi Ambrogio Amedeo Andre Angelo Antonio August Camil Carl
+        Caesar Clement Davide Enric Etore Fabrits Faustin Federic Felix
+        Fiorents Francesco Gaetan Gennaro Giosep Innocento Leopald
+        Marc Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+        Raffael Roberto Ruggiero Silva Simon Tancredi Ugo Umbert Vincents Vittor }
 
-       union = RMR  
-	}
+        last_names = { Atton Albric Badogli Balditser Barataer Beccaris Cadorn Canevaro Capelae
+        Cavigli Ceccherin Cialdin Cusan Detsi "de Londinium-Edinburg"
+        Emo Fant Fara Filomarin Garibaldi Giardi Govon Mambreta
+        Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux
+		Solari Vaccor Tsupeli }
+    }
+    union = RMR  
+}

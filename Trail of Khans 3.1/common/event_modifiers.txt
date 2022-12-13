@@ -2890,31 +2890,31 @@ roman_military_prowess = {
 }
 
 roman_architecture = {
-                      tax_efficiency = 0.05
-					  rgo_output = 0.05
-					  import_cost = -0.1
-                } 
+    tax_efficiency = 0.05
+    rgo_output = 0.05
+    import_cost = -0.1
+} 
 
 a_new_language_1 = {
-                  education_efficiency_modifier = -0.10
-				  tax_efficiency = -0.05
-				  administrative_efficiency_modifier = -0.05
-				  rgo_output = -0.05
-				  factory_throughput = -0.1
-				  global_pop_militancy_modifier = 0.01
-				}
+    education_efficiency_modifier = -0.10
+    tax_efficiency = -0.05
+    administrative_efficiency_modifier = -0.05
+    rgo_output = -0.05
+    factory_throughput = -0.1
+    global_pop_militancy_modifier = 0.01
+}
 				
 a_new_language_2 = {
-                    education_efficiency_modifier = -0.05
-					factory_throughput = -0.05
-					global_pop_militancy_modifier = 0.005
-				}
+    education_efficiency_modifier = -0.05
+    factory_throughput = -0.05
+    global_pop_militancy_modifier = 0.005
+}
 
 a_new_language_3 = {
-                    education_efficiency_modifier = 0.10
-					tax_efficiency = 0.05
-					administrative_efficiency_modifier = 0.05
-				}
+    education_efficiency_modifier = 0.10
+    tax_efficiency = 0.05
+    administrative_efficiency_modifier = 0.05
+}
 
 recently_demoted = {
 	icon = 8
@@ -2950,37 +2950,39 @@ grigma_male = {
 growth_of_natives = {
 	population_growth = 0.002
 	assimilation_rate = 0.25
+    icon = 19
 }
 
 assimilation_of_the_euros = {
 	assimilation_rate = 1
 	pop_consciousness_modifier = -0.05
 	pop_militancy_modifier = -0.05
+    icon = 20
 }
 
 francization_of_the_picards = {
 	assimilation_rate = 1.75
 	pop_consciousness_modifier = 0.05
 	pop_militancy_modifier = -0.05
-}
-
-dutch_german_assimilation = {
-	assimilation_rate = 1.25
+    icon = 7
 }
 
 resettle_africa = {
 	assimilation_rate = 0.3
 	immigrant_attract = 1
+    icon = 19
 }
 
 resettle_africa_2 = {
     population_growth = 0.001
+    icon = 19
 }
 
 african_grain = {
 	poor_life_needs = -0.1
 	middle_life_needs = -0.1
 	pop_militancy_modifier = -0.05
+    icon = 13
 }
 
 recent_raid = {
@@ -2996,13 +2998,16 @@ resurgent_capital = {
     immigrant_attract = 0.75
     rich_luxury_needs = -0.05
     middle_luxury_needs = -0.05
-    poor_luxury_needs = -0.05}
+    poor_luxury_needs = -0.05
+    icon = 17
+}
 
 minor_resurgent_capital = {
     population_growth = 0.001
     immigrant_attract = 0.5
     middle_luxury_needs = -0.05
     poor_luxury_needs = -0.05
+    icon = 17
 }
 
 andalusian_caliphate = {
@@ -3012,6 +3017,7 @@ andalusian_caliphate = {
 	tax_efficiency = 0.05
 	administrative_efficiency_modifier = 0.05
 	assimilation_rate = 0.15
+    icon = 7
 }
 
 sicilian_sulphur = {
@@ -3021,18 +3027,22 @@ sicilian_sulphur = {
 
 government_interventionism_import = {
     import_cost = -0.25
+    icon = 9
 }
 
 business_regulations_import = {
     import_cost = -0.20
+    icon = 9
 }
 
 market_structure_import = {
     import_cost = -0.15
+    icon = 9
 }
 
 freedom_of_trade_import = {
     import_cost = -0.1
+    icon = 9
 }
 
 bohemian_golden_age = {
@@ -3041,10 +3051,29 @@ bohemian_golden_age = {
     land_organisation = 0.15
     org_regain = 0.2
     leadership_modifier = 0.3
-    icon = 15
+    icon = 5
 }
 
 curtailed_conscription = {
     mobilisation_size = -1
-    icon = 18
+    icon = 16
+}
+
+center_of_baltic_trade = {
+    local_artisan_throughput = 0.25
+    local_factory_throughput = 0.15
+    local_RGO_output = 0.30
+    immigrant_attract = 0.25
+    rich_income_modifier = 0.20
+    middle_income_modifier = 0.10
+    icon = 11
+}
+
+hanseatic_city = {
+    local_artisan_throughput = 0.15
+    local_factory_throughput = 0.05
+    local_RGO_output = 0.20
+    rich_income_modifier = 0.10
+    middle_income_modifier = 0.05
+    icon = 11
 }

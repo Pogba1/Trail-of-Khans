@@ -28,4 +28,40 @@ political_decisions = {
             }
         }
     }
+
+    LUB_1836_setup = {
+        potential = {
+            tag = LUB
+            always = no
+        }
+        allow = {
+            tag = LUB
+        }
+        effect = {
+            530 = {
+                add_province_modifier = {
+                    name = center_of_baltic_trade
+                    duration = -1
+                }
+            }
+            354 = {
+                add_province_modifier = {
+                    name = hanseatic_city
+                    duration = -1
+                }
+            }
+            690 = {
+                add_province_modifier = {
+                    name = hanseatic_city
+                    duration = -1
+                }
+            }
+            695 = {
+                add_province_modifier = {
+                    name = hanseatic_city
+                    duration = -1
+                }
+            }
+        }
+    }
 }
