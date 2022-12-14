@@ -783,73 +783,31 @@
     aristocrats = {
         culture = scottish
         religion = catholic
-        size = 250
+        size = 1593
     }
 
     clergymen = {
         culture = scottish
         religion = catholic
-        size = 250
+        size = 950
     }
 
     artisans = {
         culture = scottish
         religion = catholic
-        size = 4000
+        size = 8540
     }
 
     soldiers = {
         culture = scottish
         religion = catholic
-        size = 500
+        size = 1000
     }
 
     farmers = {
         culture = scottish
         religion = catholic
-        size = 46000
-    }
-
-    farmers = {
-        culture = scottish
-        religion = catholic
-        size = 2000
-    }
-	
-	aristocrats = {
-        culture = scottish
-        religion = catholic
-        size = 25
-    }
-
-    clergymen = {
-        culture = scottish
-        religion = catholic
-        size = 25
-    }
-
-    artisans = {
-        culture = scottish
-        religion = catholic
-        size = 400
-    }
-
-    soldiers = {
-        culture = scottish
-        religion = catholic
-        size = 50
-    }
-
-    farmers = {
-        culture = scottish
-        religion = catholic
-        size = 4600
-    }
-
-    farmers = {
-        culture = scottish
-        religion = catholic
-        size = 200
+        size = 82903
     }
 
     farmers = {
@@ -1137,11 +1095,13 @@
 #West Midlands Region : 1760000
 #Birmingham (644000/161000 POPS)
 284 = {
+
     aristocrats = {
         culture = scottish
         religion = catholic
         size = 1000
     }
+
 	aristocrats = {
         culture = british
         religion = catholic
@@ -1199,25 +1159,19 @@
     soldiers = {
         culture = british
         religion = catholic
-        size = 3000
+        size = 5000
     }
 
     labourers = {
         culture = british
         religion = catholic
-        size = 136900
+        size = 139900
     }
 
     farmers = {
         culture = british_danish
         religion = catholic
         size = 1100
-    }
-
-    farmers = {
-        culture = british
-        religion = catholic
-        size = 3000
     }
 	
 	clergymen = {
@@ -1306,7 +1260,7 @@
     soldiers = {
         culture = scottish
         religion = catholic
-        size = 3100
+        size = 5000
     }
 
     labourers = {
@@ -1381,7 +1335,7 @@
     soldiers = {
         culture = british
         religion = catholic
-        size = 1100
+        size = 2500
     }
 
     labourers = {
@@ -2034,7 +1988,7 @@
     soldiers = {
         culture = british
         religion = catholic
-        size = 1100
+        size = 2500
     }
 
     labourers = {
@@ -2536,7 +2490,7 @@
     soldiers = {
         culture = british
         religion = catholic
-        size = 1100
+        size = 2500
     }
 
     labourers = {
@@ -2592,7 +2546,7 @@
     soldiers = {
         culture = british
         religion = catholic
-        size = 1100
+        size = 2500
     }
 
     labourers = {

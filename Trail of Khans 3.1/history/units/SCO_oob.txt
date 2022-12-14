@@ -210,7 +210,7 @@ army = {
 
 army = {
     name = "2nd Army"
-    location = 289
+    location = 280
     regiment = {
         name= "Light Brigade"
         type = hussar
@@ -266,29 +266,59 @@ army = {
 
 }
 
+army = {
+    name = "3rd Corps"
+    location = 296
 
-#army = {
-#    name = "5th Indian Division"
-#    location = 1239
-#    regiment = {
-#        name= "1.5th Indian Division"
-#        type = infantry
-#        home = 1239
-#    }
-#
-#    regiment = {
-#        name= "2.5th Indian Division"
-#        type = infantry
-#        home = 1239
-#    }
-#
-#    regiment = {
-#        name= "3.5th Indian Division"
-#        type = infantry
-#        home = 1251
-#    }
-#
-#}
+    regiment = {
+        name = "1st Infantry Brigade"
+        type = infantry
+        home = 296
+    }
+
+    regiment = {
+        name = "2nd Infantry Brigade"
+        type = infantry
+        home = 287
+    }
+
+    regiment = {
+        name = "3rd Infantry Brigade"
+        type = infantry
+        home = 286
+    }
+
+    regiment = {
+        name = "1st Cuirassier Brigade"
+        type = cuirassier
+        home = 286
+    }
+
+    regiment = {
+        name = "2nd Cuirassier Brigade"
+        type = cuirassier
+        home = 284
+    }
+
+    regiment = {
+        name = "1st Dragoon Brigade"
+        type = dragoon
+        home = 284
+    }
+
+    regiment = {
+        name = "1st Artillery Brigade"
+        type = artillery
+        home = 303
+    }
+    
+    regiment = {
+        name = "2nd Artillery Brigade"
+        type = artillery
+        home = 302
+    }
+    
+}
 
 #Channel Fleet
 navy = {

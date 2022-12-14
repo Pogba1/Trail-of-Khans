@@ -322,13 +322,9 @@ political_decisions = {
         news_desc_short = "form_germany_NEWS_SHORT"
         potential = {
             capital_scope = { continent = europe }
-            NOT = { has_country_flag = post_colonial_country }
-            OR = {
-                tag = NGF
-                tag = SGF
-				tag = GBY
-            }
+            NOT = { has_country_flag = post_colonial_country } 
             NOT = { exists = GER }
+            is_culture_group = germanic
         }
 
         allow = {
@@ -371,26 +367,6 @@ political_decisions = {
             random_owned = { limit = { owner = { accepted_culture = danish } } owner = { remove_accepted_culture = danish } }
             random_owned = { limit = { owner = { accepted_culture = hungarian } } owner = { remove_accepted_culture = hungarian } }
             set_global_flag = 3hurrahs
-			any_country = {
-				limit = { 
-					OR = {
-						primary_culture = north_german 
-						primary_culture = south_german
-					} 
-				}
-				all_core = { 
-					limit = {
-						OR ={
-							culture = north_german 
-							culture = south_german
-						}
-                        NOT = { is_core = EST }
-                        NOT = { is_core = LAT }
-                        NOT = { is_core = LIT }
-					} 
-				add_core = GER 
-				}
-			}
             any_country = {
                 limit = {
                     is_culture_group = germanic
@@ -457,12 +433,6 @@ political_decisions = {
                                 NOT = { is_culture_group = italian }
                             }
                         }
-                        # AND = {
-                            # is_core = LOM
-                            # owner = {
-                                # NOT = { is_culture_group = italian }
-                            # }
-                        # }
                         owner = {
                             in_sphere = THIS
                             OR = {
