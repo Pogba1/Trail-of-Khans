@@ -141,13 +141,13 @@
     clergymen = {
         culture = western_slavic
         religion = protestant
-        size = 100
+        size = 247
     }
 
     artisans = {
         culture = western_slavic
         religion = protestant
-        size = 100
+        size = 646
     }
 
     soldiers = {
@@ -159,7 +159,7 @@
     farmers = {
         culture = western_slavic
         religion = protestant
-        size = 1825
+        size = 7825
     }
 }
 #Koslin (160000/40000 POPS) #Part of Poland since 1945
@@ -212,22 +212,16 @@
         size = 100
     }
 
-    farmers = {
-        culture = north_german
-        religion = protestant
-        size = 10250
-    }
-
     clergymen = {
         culture = western_slavic
         religion = protestant
-        size = 100
+        size = 430
     }
 
     artisans = {
         culture = western_slavic
         religion = protestant
-        size = 100
+        size = 972
     }
 
     soldiers = {
@@ -239,7 +233,7 @@
     farmers = {
         culture = western_slavic
         religion = protestant
-        size = 1825
+        size = 12097
     }
 }
 #Brandenburg Region (208000) #see Poland.txt for balance of region

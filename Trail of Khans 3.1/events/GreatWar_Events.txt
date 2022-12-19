@@ -5134,46 +5134,6 @@ country_event = {
             country_event = 96012
         }
 
-        #If Texas does not exist, release it (with Arizona & New Mexico)
-        any_country = {
-            limit = {
-                tag = TEX
-                exists = no
-                any_core = { owned_by = THIS }
-            }
-            TEX_132 = { remove_core = USA }
-            THIS = {
-                any_owned = {
-                    limit = {
-                        OR = {
-                            region = MEX_103
-                            region = MEX_100
-                        }
-                    }
-                    add_core = TEX
-                }
-            }
-            set_country_flag = usstatehood_we_have_applied
-            country_event = 96018
-        }
-
-        #If California does not exist, release it as an ally (with Oregon}
-        any_country = {
-            limit = {
-                tag = CAL
-                exists = no
-                any_core = { owned_by = THIS }
-            }
-            THIS = {
-                any_owned = {
-                    limit = { region = USA_81 }
-                    add_core = CAL
-                }
-            }
-            set_country_flag = usstatehood_we_have_applied
-            country_event = 96060
-        }
-
         #If New England does not exist, release it as an ally
         any_country = {
             limit = {

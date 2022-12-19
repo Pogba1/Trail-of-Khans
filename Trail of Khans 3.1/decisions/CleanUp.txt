@@ -2118,58 +2118,6 @@ political_decisions = {
         ai_will_do = { factor = 1 }
     }
 
-    ######
-    # flip_colonial_cores = {
-    # picture = conquest_adriatic
-        # potential = {
-            # any_owned_province = {
-                # is_colonial = yes
-                # is_core = THIS
-            # }
-            # UTI = { exists = no }
-            # NOT = { is_secondary_power = yes }
-            # OR = {
-                # tag = SAF
-                # tag = CAN
-                # tag = AST
-                # tag = MUG
-                # is_culture_group = east_asian
-                # is_culture_group = south_asian
-            # }
-        # }
-
-        # allow = {
-            # war = no
-        # }
-
-        # effect = {
-            # UTI = { civilized = yes }
-            # random_owned = {
-                # limit = { owner = { civilized = no } }
-                # owner = { add_country_modifier = { name = colony_to_state_conversion duration = 3 } }
-            # }
-            # random_country = {
-                # limit = {
-                    # tag = UTI
-                    # NOT = { is_primary_culture = THIS }
-                # }
-                # primary_culture = THIS
-            # }
-            # random_state = {
-                # limit = {
-                    # any_owned_province = {
-                        # is_colonial = yes
-                        # is_core = THIS
-                    # }
-                # }
-                # secede_province = UTI
-            # }
-            # UTI = { country_event = 6016815 }
-        # }
-        # ai_will_do = { factor = 1 }
-    # }
-
-
 
     release_colonies_that_werent_annexed = {
         potential = {
