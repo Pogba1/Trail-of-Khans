@@ -8,10 +8,10 @@ country_event = {
 				 
 	trigger = {
 		tag = PLC
-		has_country_flag = king_friedrich_kmiecik
-		has_country_flag = king_kazimierz
+		has_country_flag = regenet_friedrich_kmiecik
+		has_country_flag = regent_kazimierz
 		NOT = {
-			has_country_flag = king_sobieski
+			has_country_flag = regent_sobieski
 		}
 		NOT = {
 			has_country_flag = wladislaus_triumph

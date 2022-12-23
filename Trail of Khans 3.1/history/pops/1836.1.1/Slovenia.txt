@@ -1,3 +1,4 @@
+
 #Carinthia-Styria Region (204000) #see Austria.txt for balance of Region
 #under the rule of Austria in 1836
 #Maribor (204000/51000 POPS) #Part of Slovenia Today
@@ -39,25 +40,25 @@
     }
 
     clergymen = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 450
     }
 
     artisans = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 1600
     }
 
     soldiers = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 450
     }
 
     farmers = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 45000
     }
@@ -69,7 +70,7 @@
     }
 
     farmers = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 1000
     }
@@ -129,49 +130,49 @@
         size = 9450
     }
     aristocrats = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 825
     }
 
     bureaucrats = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 562
     }
 
     officers = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 700
     }
 
     artisans = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 4000
     }
 
     soldiers = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 1100
     }
 
     farmers = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 43150
     }
 
     farmers = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 20000
     }
@@ -198,13 +199,13 @@
     }
 
     soldiers = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 425
     }
 
     farmers = {
-        culture = serb
+        culture = western_slavic
         religion = catholic
         size = 21075
     }

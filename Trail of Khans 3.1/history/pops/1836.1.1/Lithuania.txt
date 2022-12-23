@@ -686,7 +686,7 @@
     artisans = {
         culture = polish
         religion = catholic
-        size = 1375
+        size = 675
     }
 
     soldiers = {
@@ -698,9 +698,26 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 13590
+        size = 6590
     }
     
+    artisans = {
+        culture = pruthenian
+        religion = catholic
+        size = 789
+    }
+
+    clergymen = {
+        culture = pruthenian
+        religion = catholic
+        size = 230
+    }
+
+    farmers = {
+        culture = pruthenian
+        religion = catholic
+        size = 8390
+    }
     ######Jews
 
     soldiers = {

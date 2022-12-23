@@ -96,12 +96,6 @@ country_event = {
     option = {
         name = "Friedrich Kmiecik, the Duke of Silesia"
         prestige = -5
-        inherit = SLS
-        SLS = {
-            all_core = {
-                add_core = THIS
-            }
-        }
         any_pop = {
             limit = {
                 has_pop_culture = polish
@@ -109,13 +103,13 @@ country_event = {
             militancy = 2
             consciousness = 2
         }
-        set_country_flag = king_friedrich_kmiecik
+        set_country_flag = regent_friedrich_kmiecik
     }
 
     option = {
         name = "Sobieski, influencial Noble and General"
         prestige = 10
-        set_country_flag = king_sobieski
+        set_country_flag = regent_sobieski
         any_pop = {
             limit = {
                 has_pop_culture = polish
@@ -139,7 +133,7 @@ country_event = {
     option = {
         name = "Kazimierz Pocisk, former Hetman of the Cossacks"
         prestige = -15
-        set_country_flag = king_kazimierz
+        set_country_flag = regent_kazimierz
         any_pop = {
             limit = {
                 has_pop_culture = polish
@@ -603,5 +597,154 @@ country_event = {
         }
         clr_country_flag = appeased_the_poles
         set_country_flag = seized_lithuania
+    }
+}
+
+#Stanislaus Jagiellon comes of age
+
+country_event = {
+    id = 18808
+    title = "EVTNAME18808"
+    desc = "EVTDESC18808"
+
+    trigger = {
+        tag = POL
+        has_global_flag = bohemian_victory
+        has_country_flag = wladislaus_abdicates
+        NOT = {
+            has_global_flag = polish_victory
+        }
+        NOT = {
+            has_country_flag = wladislaus_refuses
+        }
+        NOT = {
+            has_country_flag = stanislaus_enthroned
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 120
+    }
+
+    option = {
+        name = "All that's thine shall be mine"
+        set_country_flag = stanislaus_enthroned
+        clr_country_flag = wladislaus_abdicates
+    }
+}
+
+#Stanilaus suspends liberties
+
+country_event = {
+    id = 18809
+    title = "EVTNAME18809"
+    desc = "EVTDESC18809"
+
+    trigger = {
+        tag = POL
+        has_country_flag = stanislaus_enthroned
+        NOT = {
+            has_country_flag = stanislaus_power
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Liberalism begone, we must return to tradition"
+
+        prestige = 15
+        set_country_flag = stanislaus_power
+        political_reform = none_voting
+        political_reform = underground_parties
+        political_reform = no_meeting
+        political_reform = appointed
+        political_reform = state_press
+        political_reform = mandatory_service
+        political_reform = closed_borders
+        any_pop = {
+            militancy = 1
+            consciousness = -2
+        }
+    }
+}
+
+#Friedrich's Influence
+
+country_event = {
+    id = 18810
+    title = "EVTNAME18810"
+    desc = "EVTDESC18810"
+
+    trigger = {
+        tag = POL
+        has_country_flag = stanislaus_power
+        has_country_flag = regent_friedrich_kmiecik
+        NOT = {
+            has_country_flag = regent_sobieski
+        }
+        NOT = {
+            has_country_flag = regent_kazimierz
+        }
+        NOT = {
+            has_country_flag = friedrich_influence
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 4
+    }
+
+    option = {
+        name = "I will have my revenge"
+        set_country_flag = friedrich_influence
+    }
+}
+
+#Sobieski's Influence
+
+country_event = {
+    id = 18811
+    title = "EVTNAME18811"
+    desc = "EVTDESC18811"
+
+    trigger = {
+        tag = POL
+        has_country_flag = stanislaus_power
+        has_country_flag = regent_sobieski
+        NOT = {
+            has_country_flag = regent_friedrich_kmiecik
+        }
+        NOT = {
+            has_country_flag = regent_kazimierz
+        }
+        NOT = {
+            has_country_flag = sobieski_influence
+        }
+    }
+}
+
+#Kazimierz's Influence
+
+country_event = {
+    id = 18812
+    title = "EVTNAME18812"
+    desc = "EVTDESC18812"
+
+    trigger = {
+        tag = POL
+        has_country_flag = stanislaus_power
+        has_country_flag = regent_kazimierz
+        NOT = {
+            has_country_flag = regent_friedrich_kmiecik
+        }
+        NOT = {
+            has_country_flag = regent_sobieski
+        }
+        NOT = {
+            has_country_flag = kazimierz_influence
+        }
     }
 }
