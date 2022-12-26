@@ -961,7 +961,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 10425
+        size = 6425
     }
 
     clergymen = {
@@ -973,13 +973,13 @@
     artisans = {
         culture = pruthenian
         religion = catholic
-        size = 639
+        size = 829
     }
 
     farmers = {
         culture = pruthenian
         religion = catholic
-        size = 9203
+        size = 13203
     }
 }
 #Deutsche Krone (128000/32000 POPS)
@@ -1433,9 +1433,26 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 104800
+        size = 84800
     }
 
+    clergymen = {
+        culture = western_slavic
+        religion = catholic
+        size = 134
+    }
+
+    artisans = {
+        culture = western_slavic
+        religion = catholic
+        size = 1630
+    }
+
+    farmers = {
+        culture = western_slavic
+        religion = catholic
+        size = 18290
+    }
     ######Jews
     aristocrats = {
         culture = ashkenazi
@@ -1527,9 +1544,26 @@
     farmers = {
         culture = pruthenian
         religion = catholic
-        size = 28900
+        size = 14900
     }
 
+    clergymen = {
+        culture = western_slavic
+        religion = catholic
+        size = 163
+    }
+
+    artisans = {
+        culture = western_slavic
+        religion = catholic
+        size = 1228
+    }
+
+    farmers = {
+        culture = western_slavic
+        religion = catholic
+        size = 13289
+    }
     ######Jews
 
     soldiers = {
@@ -1590,25 +1624,25 @@
     }
 
     clergymen = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 500
     }
 
     soldiers = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 9300
     }

@@ -258,54 +258,54 @@
     }
 
     clergymen = {
-        culture = slovene
+        culture = serb
         religion = catholic
         size = 150
     }
 
     artisans = {
-        culture = slovene
+        culture = serb
         religion = catholic
         size = 750
     }
 
     soldiers = {
-        culture = slovene
+        culture = serb
         religion = catholic
         size = 150
     }
 
     farmers = {
-        culture = slovene
+        culture = serb
         religion = catholic
         size = 13950
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 350
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 6525
     }
 }
-#Baranya Region (232000) #see Croatia.txt for balance of Region
+#Baranya Region (232000) #see serbia.txt for balance of Region
 #under the rule of Austria in 1836
 #Pecs (232000/58000 POPS)
 640 = {
@@ -418,31 +418,31 @@
     }
 
     officers = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 400
     }
 
     soldiers = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = croat
+        culture = serb
         religion = catholic
         size = 7435
     }

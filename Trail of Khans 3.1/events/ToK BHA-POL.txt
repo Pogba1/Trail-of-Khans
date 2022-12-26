@@ -443,17 +443,6 @@ country_event = {
     option = {
         name = "EVTOPTA232004"
 
-        add_casus_belli = {
-            target = LIT
-            type = conquest
-            months = 1
-        }
-        war = {
-            target = LIT
-            attacker_goal = {
-                casus_belli = conquest
-            }
-        }
         relation = {
             who = POL
             value = -200
@@ -465,7 +454,22 @@ country_event = {
             }
             leave_alliance = LIT
         }
-        badboy = 7.5
+        war = {
+            target = LIT
+            attacker_goal = {
+                casus_belli = conquest_low
+            }
+            defender_goal = {
+                casus_belli = status_quo
+            }
+        }
+        LUB = {
+			add_casus_belli = {
+				target = LIT
+				type = conquest_low
+				months = 1
+			}
+        }
         set_country_flag = seized_lithuania
     }
 
@@ -698,8 +702,9 @@ country_event = {
     }
 
     option = {
-        name = "I will have my revenge"
+        name = "Let me guide you as your savior, niemcy"
         set_country_flag = friedrich_influence
+        clr_country_flag = regent_friedrich_kmiecik
     }
 }
 
@@ -724,6 +729,13 @@ country_event = {
             has_country_flag = sobieski_influence
         }
     }
+
+    option = {
+        name = "The Jagiellon holdings will be unified"
+        set_country_flag = sobieski_influence
+        clr_country_flag = regent_sobieski
+
+    }
 }
 
 #Kazimierz's Influence
@@ -746,5 +758,11 @@ country_event = {
         NOT = {
             has_country_flag = kazimierz_influence
         }
+    }
+
+    option = {
+        name = "Perhaps this Jagiellon thing isn't worth it..."
+        set_country_flag = kazimierz_influence
+        clr_country_flag = regent_kazimierz
     }
 }

@@ -3021,7 +3021,7 @@ andalusian_caliphate = {
 }
 
 sicilian_sulphur = {
-    rgo_output = 0.60
+    local_RGO_output = 0.60
     icon = 13
 }
 
@@ -3085,7 +3085,13 @@ billions_must_fight = {
 
 wendish_oppression = {
     assimilation_rate = -0.40
-    non_accepted_pop_consciousness_modifier = -0.02
+    non_accepted_pop_consciousness_modifier = 0.02
+    non_accepted_pop_militancy_modifier = 0.05
+    icon = 4
+}
+
+uneasy_plc_modifier = {
+    non_accepted_pop_consciousness_modifier = 0.10
     non_accepted_pop_militancy_modifier = 0.05
     icon = 4
 }

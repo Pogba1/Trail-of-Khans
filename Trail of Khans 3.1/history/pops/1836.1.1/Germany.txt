@@ -1668,7 +1668,7 @@
     }
 
     artisans = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 1300
     }
@@ -1686,27 +1686,21 @@
     }
 
     farmers = {
-        culture = north_german
-        religion = protestant
-        size = 30000
+        culture = western_slavic
+        religion = catholic
+        size = 37100
     }
 
     clergymen = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 100
     }
 
     soldiers = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
-        size = 50
-    }
-
-    farmers = {
-        culture = north_german
-        religion = catholic
-        size = 7100
+        size = 100
     }
 }
 #Anhalt Region (1527000)
@@ -2119,18 +2113,13 @@
     craftsmen = {
         culture = north_german
         religion = protestant
-        size = 18347
+        size = 19737
     }
+
     clerks = {
         culture = north_german
         religion = protestant
-        size = 135
-    }
-
-    craftsmen = {
-        culture = north_german
-        religion = protestant
-        size = 1290
+        size = 235
     }
 
     artisans = {
@@ -2148,61 +2137,49 @@
     labourers = {
         culture = north_german
         religion = protestant
-        size = 322630
+        size = 242630
     }
 
     aristocrats = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 100
     }
 
     officers = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 100
     }
 
     capitalists = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = north_german
-        religion = catholic
-        size = 100
-    }
-
-    craftsmen = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 1000
     }
 
     soldiers = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 100
     }
 
     labourers = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
-        size = 5470
-    }
-
-    clerks = {
-        culture = north_german
-        religion = catholic
-        size = 100
+        size = 85470
     }
 
     ######Jews
@@ -5739,23 +5716,23 @@
     clergymen = {
         culture = south_german
         religion = catholic
-        size = 70
+        size = 153
     }
 
     artisans = {
-        culture = south_german
+        culture = western_slavic
         religion = catholic
-        size = 200
+        size = 839
     }
 
     soldiers = {
-        culture = south_german
+        culture = western_slavic
         religion = catholic
         size = 50
     }
 
     farmers = {
-        culture = south_german
+        culture = western_slavic
         religion = catholic
         size = 27680
     }
