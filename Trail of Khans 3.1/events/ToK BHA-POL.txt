@@ -302,6 +302,16 @@ country_event = {
 				secede_province = THIS
 			}
 		}
+        HUN = {
+            all_core = {
+                add_core = PLC
+            }
+        }
+        LIT = {
+            all_core = {
+                add_core = LIT
+            }
+        }
 		change_tag = PLC
         add_accepted_culture = slovak
         add_accepted_culture = ashkenazi
@@ -445,7 +455,7 @@ country_event = {
     option = {
         name = "EVTOPTA232004"
 
-        badboy = 7.5
+        badboy = -2.5
         relation = {
             who = POL
             value = -200
@@ -457,16 +467,9 @@ country_event = {
             }
             leave_alliance = LIT
         }
-        LUB = {
-			add_casus_belli = {
-				target = LIT
-				type = conquest
-				months = 12
-			}
-        }
         war = {
 	        target = LIT
-	        attacker_goal = { casus_belli = conquest }
+	        attacker_goal = { casus_belli = conquest_low }
 			defender_goal = { casus_belli = status_quo }
         }
         set_country_flag = seized_lithuania
@@ -600,15 +603,10 @@ country_event = {
     option = {
         name = "EVTOPTA232008"
 
-        badboy = 2.5
-        add_casus_belli = {
-            target = LIT
-            type = conquest
-            months = 12
-        }
+        badboy = -7.5
         war = {
 	        target = LIT
-	        attacker_goal = { casus_belli = conquest }
+	        attacker_goal = { casus_belli = conquest_low }
 			defender_goal = { casus_belli = status_quo }
         }
         clr_country_flag = appeased_the_poles

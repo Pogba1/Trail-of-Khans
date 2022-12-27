@@ -1,8 +1,6 @@
 owner = SLS
 controller = SLS
-add_core = BOH
 add_core = SLS
 add_core = PLC
 trade_goods = iron
 life_rating = 35
-1861.1.1 = { railroad = 3 }
