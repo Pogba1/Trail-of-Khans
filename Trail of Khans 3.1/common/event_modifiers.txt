@@ -3084,7 +3084,8 @@ billions_must_fight = {
 }
 
 wendish_oppression = {
-    assimilation_rate = -0.40
+    assimilation_rate = -0.6
+    local_RGO_throughput = -0.25
     non_accepted_pop_consciousness_modifier = 0.02
     non_accepted_pop_militancy_modifier = 0.05
     icon = 4

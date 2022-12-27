@@ -56,6 +56,8 @@ political_decisions = {
 			PRU_691 = {
 				owned_by = THIS
 			}
+			is_greater_power = yes
+			war = no
 		}
 		effect = {
 			add_accepted_culture = western_slavic
@@ -68,6 +70,9 @@ political_decisions = {
 		potential = {
 			tag = POL
 			has_country_flag = friedrich_influence
+			NOT = {
+				has_country_flag = annexed_silesia
+			}
 			SLS = {
 				exists = yes
 			}
@@ -76,6 +81,11 @@ political_decisions = {
 			state_n_government = 1
 			year = 1846
 			is_greater_power = yes
+			war = no
+			SLS = {
+				in_sphere = THIS
+				vassal_of = THIS
+			}
 		}	
 		effect = {
 			SLS = {
@@ -86,6 +96,7 @@ political_decisions = {
 			}
 			badboy = 5
 			prestige = 10
+			set_country_flag = annexed_silesia
 		}
 	}
 
@@ -97,6 +108,7 @@ political_decisions = {
 		allow = {
 			revolution_n_counterrevolution = 1
 			is_greater_power = yes
+			war = no
 			HUN = {
 				all_core = {
 					OR = {
@@ -165,6 +177,8 @@ political_decisions = {
 			political_reform = all_voting_pops
 			add_accepted_culture = ukrainian
 			set_country_flag = ruthenian_plan
+			war = no
+			is_greater_power = yes
 			RUS_958 = {
 				add_core = THIS
 			}
@@ -187,6 +201,8 @@ political_decisions = {
 			}
 		}
 		allow = {
+			war = no
+			is_greater_power = yes
 			RUS_958 = {
 				owned_by = THIS
 			}
@@ -207,6 +223,314 @@ political_decisions = {
 				add_core = THIS
 			}
 			set_country_flag = fulfilled_ambition
+		}
+	}
+
+	construct_north_germany = {
+		potential = {
+			tag = POL
+			has_country_flag = kazimierz_influence
+			has_country_flag = annexed_silesia
+			NOT = {
+				has_country_flag = construct_north_germany
+			}
+		}
+		allow = {
+			war = no
+			is_greater_power = yes
+			PRU_544 = {
+				owner = {
+					in_sphere = THIS
+					OR = {
+						vassal_of = THIS
+						is_vassal = no
+					}
+					war = no
+					is_mobilised = no
+					is_greater_power = no
+				}
+			}
+			PRU_546 = {
+				owner = {
+					in_sphere = THIS
+					OR = {
+						vassal_of = THIS
+						is_vassal = no
+					}
+					war = no
+					is_mobilised = no
+					is_greater_power = no
+				}
+			}
+			PRU_690 = {
+				owned_by = THIS
+			}
+			BRN = {
+				all_core = {
+					owner = {
+						in_sphere = THIS
+						OR = {
+							vassal_of = THIS
+							is_vassal = no
+						}
+						is_mobilised = no
+						war = no
+						is_greater_power = no
+					}
+				}
+			}
+			ANH = {
+				all_core = {
+					owner = {
+						in_sphere = THIS
+						OR = {
+							vassal_of = THIS
+							is_vassal = no
+						}
+						is_mobilised = no
+						war = no
+						is_greater_power = no
+					}
+				}
+			}
+			SAX = {
+				all_core = {
+					owner = {
+						in_sphere = THIS
+						OR = {
+							vassal_of = THIS
+							is_vassal = no
+						}
+						is_mobilised = no
+						war = no
+						is_greater_power = no
+					}
+				}
+			}
+		}
+		effect = {
+			badboy = 20
+			prestige = 25 
+			544 = {
+				secede_province = POM
+				add_core = POM
+			} 
+			545 = {
+				secede_province = POM
+				add_core = POM
+			} 
+			547 = {
+				secede_province = POM
+				add_core = POM
+			} 
+			548 = {
+				secede_province = POM
+				add_core = POM
+			}
+			546 = {
+				secede_province = POM
+				add_core = POM
+			}
+			create_vassal = POM
+			679 = {
+				limit = {
+					NOT = {
+						owned_by = THIS
+					}
+					secede_province = THIS
+				}
+				add_core = THIS
+			}
+			68 = {
+				limit = {
+					NOT = {
+						owned_by = THIS
+					}
+					secede_province = THIS
+				}
+				add_core = THIS
+			}
+			3325 = {
+				limit = {
+					NOT = {
+						owned_by = THIS
+					}
+					secede_province = THIS
+				}
+				add_core = THIS
+			}
+			690 = {
+				add_core = THIS
+			}
+			691 = {
+				add_core = THIS
+			}
+			create_vassal = BRN
+			ANH = {
+				all_core = {
+					add_core = BRN
+				}
+				annex_to = BRN
+			}
+			create_vassal = SAX
+			set_country_flag = construct_north_germany
+		}
+	}
+	integrate_holstein_pomerania = {
+		potential = {
+			tag = POL
+			has_country_flag = construct_north_germany
+			NOT = {
+				has_country_flag = integrate_holstein_pomerania
+			}
+		}
+		allow = {
+			POM = {
+				vassal_of = THIS
+			}
+			HOL_369 = {
+				owned_by = THIS
+			}
+			war = no
+			is_greater_power = yes
+		}
+		effect = {
+			badboy = -5
+			369 = {
+				secede_province = POM
+				add_core = POM
+			}
+			530 = {
+				secede_province = POM
+				add_core = POM
+			}
+			528 = {
+				secede_province = POM
+				add_core = POM
+			}
+			529 = {
+				secede_province = POM
+				add_core = POM
+			}
+			533 = {
+				secede_province = POM
+				add_core = POM
+			}
+			set_country_flag = integrate_holstein_pomerania
+		}
+	}
+	add_hanover = {
+		potential = {
+			tag = POL
+			has_country_flag = construct_north_germany
+			HAN = {
+				exists = yes
+			}
+		}
+		allow = {
+			SAX = {
+				vassal_of = THIS
+			}
+			BRN = {
+				vassal_of = THIS
+			}
+			HAN = {
+				in_sphere = THIS
+				war = no
+				is_mobilised = no
+			}
+			war = no
+			is_greater_power = yes
+		}
+		effect = {
+			badboy = 5
+			HAN = {
+				annex_to = BRN
+			}
+			534 = {
+				secede_province = SAX
+			}
+		}
+	}
+	add_brunswick = {
+		potential = {
+			tag = POL
+			has_country_flag = construct_north_germany
+			BRA = {
+				exists = yes
+			}
+		}
+		allow = {
+			SAX = {
+				vassal_of = THIS
+			}
+			BRA = {
+				in_sphere = THIS
+				war = no
+				is_mobilised = no
+			}
+			war = no
+			is_greater_power = yes
+		}
+		effect = {
+			badboy = 5
+			BRA = {
+				annex_to = SAX
+			}
+		}
+	}
+	add_detmold = {
+		potential = {
+			tag = POL
+			has_country_flag = construct_north_germany
+			LIP = {
+				exists = yes
+			}
+		}
+		allow = {
+			SAX = {
+				vassal_of = THIS
+			}
+			LIP = {
+				in_sphere = THIS
+				war = no
+				is_mobilised = no
+			}
+			war = no
+			is_greater_power = yes
+		}
+		effect = {
+			badboy = 5
+			LIP = {
+				annex_to = SAX
+			}
+		}
+	}
+	add_coburg = {
+		potential = {
+			tag = POL
+			has_country_flag = construct_north_germany
+			COB = {
+				exists = yes
+			}
+		}
+		allow = {
+			SAX = {
+				vassal_of = THIS
+			}
+			COB = {
+				in_sphere = THIS
+				war = no
+				is_mobilised = no
+			}
+			war = no
+			is_greater_power = yes
+		}
+		effect = {
+			badboy = 5
+			COB = {
+				annex_to = SAX
+			}
 		}
 	}
 }

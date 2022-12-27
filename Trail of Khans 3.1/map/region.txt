@@ -176,7 +176,7 @@ RUS_345 = { 345 346 347 348 } #Turku
 
 DEN_367 = { 367 366 368 2557 } #Jylland
 
-HOL_369 = { 369 530 529 533 } #Holstein
+HOL_369 = { 369 530 528 529 533 } #Holstein
 
 SCH_370 = { 370 371 } #Schleswig
 
@@ -278,9 +278,9 @@ HAN_540 = { 540 543 542 541 1743 } #East Friesland
 
 PRU_544 = { 544 545 547 548 } #Mecklenburg
 
-PRU_546 = { 546 679 680 } #Pomerania
+PRU_546 = { 546 679 680 3325 } #Pomerania
 
-PRU_549 = { 549 550 551 552 3325 } #Brandenburg
+PRU_549 = { 549 550 551 552 } #Brandenburg
 
 PRU_553 = { 553 555 556 557 } #Magdeburg
 

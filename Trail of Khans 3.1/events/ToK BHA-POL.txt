@@ -537,7 +537,12 @@ country_event = {
 
         relation = {
             who = POL
-            value = -100
+            value = -150
+        }
+
+        add_country_modifier = {
+            name = CB_gen_plus
+            duration = 365
         }
     }
 }
@@ -653,7 +658,7 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        days = 1
+        months = 1
     }
 
     option = {
@@ -764,5 +769,50 @@ country_event = {
         name = "Perhaps this Jagiellon thing isn't worth it..."
         set_country_flag = kazimierz_influence
         clr_country_flag = regent_kazimierz
+    }
+}
+
+#Hungary breaks away
+
+country_event = {
+    id = 18813
+    title = "EVTNAME18813"
+    desc = "EVTDESC18813"
+
+    trigger = {
+        tag = POL
+        has_country_flag = kazimierz_influence
+        NOT = {
+            has_country_flag = hungary_gone
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 120
+    }
+
+    option = {
+        name = "Who cares?"
+
+        release_vassal = HUN
+        relation = {
+            who = HUN
+            value = -150
+        }
+        prestige = -30
+        any_pop = {
+            limit = {
+                strata = rich
+                has_pop_culture = polish
+            }
+            militancy = 4
+            consciousness = 6
+        }
+        HUN = {
+            country_event = {
+                id = 400004
+                days = 0
+            }
+        }
     }
 }

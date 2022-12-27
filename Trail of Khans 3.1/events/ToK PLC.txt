@@ -120,7 +120,7 @@ country_event = {
 	title="EVTNAME400009"
 	desc="EVTDESC400009"
 	
-	mean_time_to_happen={days=0}
+	is_triggered_only = yes
 	
 	trigger = {
 		tag = HUN
