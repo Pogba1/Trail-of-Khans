@@ -219,6 +219,8 @@ country_event = {
     title = "EVTNAME192803"
     desc = "EVTDESC192803"
 
+    major = yes
+
     trigger = {
         has_country_flag = wladislaus_triumph
         tag = POL
@@ -303,7 +305,7 @@ country_event = {
 		change_tag = PLC
         add_accepted_culture = slovak
         add_accepted_culture = ashkenazi
-        add_accepted_culture = czech        
+        add_accepted_culture = hungarian        
     }
 }
 
@@ -393,8 +395,8 @@ country_event = {
     }
 
     option = {
-        name = "An uneasy peace that is for sure..."
-        prestige = -5
+        name = "Not what we had hoped for, but we shall live to fight another day!"
+        prestige = 5
         set_country_flag = uneasy_peace
     }
 }
@@ -443,6 +445,7 @@ country_event = {
     option = {
         name = "EVTOPTA232004"
 
+        badboy = 7.5
         relation = {
             who = POL
             value = -200
@@ -454,21 +457,17 @@ country_event = {
             }
             leave_alliance = LIT
         }
-        war = {
-            target = LIT
-            attacker_goal = {
-                casus_belli = conquest_low
-            }
-            defender_goal = {
-                casus_belli = status_quo
-            }
-        }
         LUB = {
 			add_casus_belli = {
 				target = LIT
-				type = conquest_low
-				months = 1
+				type = conquest
+				months = 12
 			}
+        }
+        war = {
+	        target = LIT
+	        attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
         }
         set_country_flag = seized_lithuania
     }
@@ -503,6 +502,9 @@ country_event = {
             days = 7
         }
         set_country_flag = defended_lithuania
+        ai_chance = {
+            factor = 35
+        }
     }
     option = {
         name = "EVTOPTB232005"
@@ -512,6 +514,9 @@ country_event = {
             days = 7
         }
         set_country_flag = gave_up_lithuania
+        ai_chance = {
+            factor = 45
+        }
     }
     option = {
         name = "EVTOPTC232005"
@@ -521,6 +526,9 @@ country_event = {
             days = 7
         }
         set_country_flag = abandoned_lithuania
+        ai_chance = {
+            factor = 25
+        }
     }
 }
 
@@ -596,13 +604,12 @@ country_event = {
         add_casus_belli = {
             target = LIT
             type = conquest
-            months = 1
+            months = 12
         }
         war = {
-            target = LIT
-            attacker_goal = {
-                casus_belli = conquest
-            }
+	        target = LIT
+	        attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
         }
         clr_country_flag = appeased_the_poles
         set_country_flag = seized_lithuania
@@ -674,8 +681,25 @@ country_event = {
         political_reform = mandatory_service
         political_reform = closed_borders
         any_pop = {
-            militancy = 1
-            consciousness = -2
+            limit = {
+                pop_majority_ideoligy = liberal
+            }
+            militancy = 5
+            consciousness = 4
+        }
+        any_pop = {
+            limit = {
+                pop_majority_ideoligy = conservative
+            }
+            militancy = 2
+            consciousness = 3
+        }
+        any_pop = {
+            limit = {
+                pop_majority_ideoligy = reactionary
+            }
+            militancy = -2
+            consciousness = -5
         }
     }
 }

@@ -16,14 +16,14 @@ country_event = {
 			add_casus_belli = {
 				target = SIC
 				type = conquest
-				months = 1
+				months = 12
 			}
 		}
 		SIC = {
 			add_casus_belli = {
 				target = GEN
 				type = conquest
-				months = 1
+				months = 12
 			}
 		}
 		war = {
@@ -52,14 +52,14 @@ country_event = {
 			add_casus_belli = {
 				target = SIC
 				type = conquest
-				months = 1
+				months = 12
 			}
 		}
 		SIC = {
 			add_casus_belli = {
 				target = GEN
 				type = conquest
-				months = 1
+				months = 12
 			}
 		}
 		SIC = {
