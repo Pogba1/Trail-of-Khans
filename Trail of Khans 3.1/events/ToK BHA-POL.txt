@@ -728,7 +728,7 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        months = 4
+        months = 1
     }
 
     option = {
@@ -760,6 +760,9 @@ country_event = {
         }
     }
 
+    mean_time_to_happen = {
+        months = 1
+    }
     option = {
         name = "The Jagiellon holdings will be unified"
         set_country_flag = sobieski_influence
@@ -790,6 +793,10 @@ country_event = {
         }
     }
 
+    mean_time_to_happen = {
+        months = 1
+    }
+
     option = {
         name = "Perhaps this Jagiellon thing isn't worth it..."
         set_country_flag = kazimierz_influence
@@ -813,7 +820,7 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        months = 120
+        months = 180
     }
 
     option = {
