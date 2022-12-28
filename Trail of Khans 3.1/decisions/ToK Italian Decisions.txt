@@ -6,19 +6,20 @@ political_decisions = {
 		potential = {
 			exists = PAP
 			tag = SIC
-			NOT = {has_global_flag = reform_papacy}
+			NOT = {set_country_flag = reform_papacy}
 		}
 				
 		allow = {
-			OR = {
-				PAP = {vassal_of = THIS}
-				AND = {
-					is_vassal = no
-					PAP = {in_sphere = THIS}
-				}
-				AND = {
+			PAP = {
+				OR = {
 					vassal_of = THIS
-					PAP = {in_sphere = THIS}
+					AND = {
+						in_sphere = THIS
+						OR = {
+							is_vassal = no
+							vassal_of = THIS
+						}
+					}
 				}
 			}
 		}
@@ -38,7 +39,7 @@ political_decisions = {
 			}
 			749 = {add_core = THIS}
 			PAP = {government = theocracy}
-			set_global_flag = reform_papacy
+			set_country_flag = reform_papacy
 		}
 	
 	}
@@ -104,18 +105,18 @@ political_decisions = {
 			}
 			NOT = {has_global_flag = confiscate_papal_wealth}
 			NOT = {has_global_flag = papal_compromise}
-			has_global_flag = reform_papacy
+			has_country_flag = reform_papacy
 		}
 		allow = {
 			is_vassal = no
 			PAP = {in_sphere = THIS}
 		}
 		effect = {
-		add_country_modifier = {
-			name = papal_compromise 
-			duration = -1
-		}
-		set_global_flag = papal_compromise
+			add_country_modifier = {
+				name = papal_compromise 
+				duration = -1
+			}
+			set_country_flag = papal_compromise
 		}
 	}
 					
@@ -149,10 +150,27 @@ political_decisions = {
 	the_march_north = {
 		potential = {
 			tag = SIC
+			NOT = {
+				has_global_flag = great_italian_wars
+			}
+			has_country_flag = reform_papacy
 		}
-		allow = {
-			all_core = {
+	 	allow = {
+	        all_core = {
 				owned_by = THIS
+			}
+			war = no
+			PAP = {
+				all_core = { 
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+							war = no
+							is_mobilised = no
+						}
+					}
+				}
 			}
 		}
 		effect = {
@@ -257,19 +275,13 @@ political_decisions = {
 					 
 	storm_the_southern_italians = {
 		potential = {
-	        OR = { 
-		        has_country_flag = delt_with_the_papacy
-			    PAP = {
-			        all_core = { 
-						owned_by = THIS
-					}
-		        }
-	        }
+			has_country_flag = delt_with_the_papacy
 		    NOT = {
 				has_global_flag = great_italian_wars 
 			}
-			NOT = {
-				SIC = {
+			SIC = {
+				exists = yes
+				NOT = {
 					is_vassal = yes
 				}
 			}
@@ -279,8 +291,21 @@ political_decisions = {
 	        all_core = {
 				owned_by = THIS
 			}
+			war = no
+			PAP = {
+				all_core = { 
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+							war = no
+							is_mobilised = no
+						}
+					}
+				}
+			}
 		    nationalism_n_imperialism = 1
-        }
+       	}
 		effect = { 
 			country_event = { 
 				id=99403  
