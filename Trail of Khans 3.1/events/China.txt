@@ -142,7 +142,6 @@ country_event = {
             }
             release_vassal = THIS
             leave_alliance = THIS
-            country_event = { id=90904 days=0 }
         }
         add_country_modifier = { name = global_baby_boom duration = 730 }
         prestige = 10

@@ -603,6 +603,17 @@ country_event = {
     option = {
         name = "EVTOPTA232008"
 
+        relation = {
+            who = POL
+            value = 150
+        }
+        POL = {
+            diplomatic_influence = {
+                who = LIT
+                value = -200
+            }
+            leave_alliance = LIT
+        }
         badboy = -7.5
         war = {
 	        target = LIT
@@ -644,6 +655,7 @@ country_event = {
 
     option = {
         name = "All that's thine shall be mine"
+        prestige = 15
         set_country_flag = stanislaus_enthroned
         clr_country_flag = wladislaus_abdicates
     }
@@ -682,25 +694,32 @@ country_event = {
         political_reform = closed_borders
         government = absolute_monarchy
         any_pop = {
-            limit = {
-                pop_majority_ideoligy = liberal
+            scaled_militancy = {
+                ideology = liberal
+                factor = 4
             }
-            militancy = 5
-            consciousness = 4
+            scaled_militancy = {
+                ideology = conservative
+                factor = 1.5
+            }
+            scaled_militancy = {
+                ideology = reactionary
+                factor = 0
+            }
         }
         any_pop = {
-            limit = {
-                pop_majority_ideoligy = conservative
+            scaled_consciousness = {
+                ideology = liberal
+                factor = 5
             }
-            militancy = 2
-            consciousness = 3
-        }
-        any_pop = {
-            limit = {
-                pop_majority_ideoligy = reactionary
+            scaled_consciousness = {
+                ideology = conservative
+                factor = 3
             }
-            militancy = -2
-            consciousness = -5
+            scaled_consciousness = {
+                ideology = reactionary
+                factor = 0
+            }
         }
     }
 }

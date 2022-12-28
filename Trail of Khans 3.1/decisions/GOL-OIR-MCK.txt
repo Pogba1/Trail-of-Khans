@@ -119,14 +119,16 @@ political_decisions = {
 			}
 		}
 	}
-	integrate_circassia= {
+	integrate_circassia = {
 		picture = "circassia_flag"
 		potential={
 			OR = {
 	     		tag = GOL
 		    	primary_culture = mongol
 			}
-			NOT = {accepted_culture =integrate_circassia}
+			NOT = {
+				accepted_culture = circassian
+			}
 		}
 		allow = {
         	NOT= {exists = CIR}
@@ -141,7 +143,11 @@ political_decisions = {
 		effect = {
 			prestige = 10
 			add_accepted_culture = circassian
-			CIR = {all_core = {add_core = THIS}}
+			CIR = {
+				all_core = {
+					add_core = THIS
+				}
+			}
 		}
 		ai_will_do = { factor = 1 }
     }
