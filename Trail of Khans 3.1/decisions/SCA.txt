@@ -1,0 +1,334 @@
+political_decisions = {
+	self_governance_vinland = {
+		picture = "bahrain_trade"
+		potential = {
+		NOT = {has_global_flag = self_governance_vinland}
+		OR = {
+		tag = SCA
+		tag = NOR
+		}
+		any_owned_province = {is_core = NEW}
+		}
+		allow = {
+		OR = {NOT = {exists = NEW}
+			  NEW = {vassal_of = THIS}
+			}
+			74 = {owned_by = THIS}
+			73 = {owned_by = THIS}
+		is_vassal = no
+		nationalism_n_imperialism = 1
+		}
+		effect = {
+		release = NEW
+		create_vassal = NEW
+		NEW = {add_country_modifier = { name = small_immigration_boom duration = 1825 }}
+		NEW = {add_country_modifier = { name = language_reform duration = 1650}}
+		set_global_flag = self_governance_vinland
+			any_owned = {
+				limit = {
+					continent = north_america
+					OR = {
+						NOT = {province_id = 251}
+						NOT = {province_id = 2636}
+						NOT = {province_id = 252}
+						NOT = {province_id = 2223}
+					}
+				}
+				secede_province = NEW
+			}
+			diplomatic_influence = {
+				who = NEW
+				value = 100
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	conquer_sami = {
+		potential = {
+			NOT = {has_country_flag = conquer_sami}
+			OR = {
+				tag = SCA
+				tag = SWE
+			}
+		}
+		allow = {
+			SMI = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+		 	SMI = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+		 	add_accepted_culture = sami
+		 	set_country_flag = conquer_sami
+		 	RUS_345 = {
+				add_core = SWE
+				add_core = SCA
+			}
+			RUS_343 = {
+				add_core = SCA
+				add_core = SWE
+			}
+			RUS_336 = {
+				add_core = SCA
+				add_core = SWE
+			}
+			RUS_339 = {
+				add_core = SCA
+				add_core = SWE
+			}
+		}
+		ai_will_do = { factor = 1 }
+	
+	}
+	
+	integrate_the_finns = {
+		picture = "greater_finland"
+		potential = {
+		OR = {
+		tag = SCA
+		tag = SWE
+		tag = NOR
+		}
+		any_owned_province = {
+			is_core = FIN
+		}
+		NOT = {accepted_culture = finnish}
+		}
+		allow = {
+		state_n_government = 1
+		RUS_343 = {owned_by = THIS}
+		RUS_345 = {owned_by = THIS}
+		}
+		effect = {add_accepted_culture = finnish}
+		ai_will_do = { factor = 1 }
+	}
+    scandinavian_federalism = {
+		picture = "SCA_political_union"
+		potential = {
+			OR = {
+				tag = NOR
+				tag = SWE
+				tag = DEN
+				tag = ENG
+			}
+			NOT = {exists = SCA}
+			NOT = {has_country_flag = scandinavian_federalism}
+		}
+		allow = {
+			state_n_government = 1
+			SWE = {
+				all_core = {
+                   	OR = {
+                    	owned_by = THIS
+                        owner = {         
+                        	vassal_of = THIS
+                        }
+                    }
+                }
+			} 
+			NOR = {
+				all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            OR = {
+                                in_sphere = THIS
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                } 
+			}
+			372 = {
+				OR = {
+                    owned_by = THIS
+                    owner = {
+                        OR = {
+                            in_sphere = THIS
+                            vassal_of = THIS
+                        }
+                    }
+                }
+			}
+	 	}
+		effect = {
+			set_country_flag = scandinavian_federalism
+			any_owned = {
+				limit = {
+					is_core = THIS
+				}
+				add_core = SCA
+			}
+			any_country = { 
+				limit = {
+					in_sphere = THIS 
+					OR = {
+						primary_culture = danish 
+						primary_culture = swedish 
+						primary_culture = norwegian 
+						primary_culture = finnish
+					}
+				} 
+				annex_to = THIS
+			}
+			any_country = { 
+				limit = {
+					vassal_of = THIS 
+					OR = {
+						primary_culture = danish 
+						primary_culture = swedish 
+						primary_culture = norwegian 
+						primary_culture = finnish
+					}
+				}		
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = THIS
+				}
+				add_core = SCA
+			}
+			change_tag = SCA
+			change_tag_no_core_switch = SCA
+			add_accepted_culture = swedish
+			add_accepted_culture = danish
+			add_accepted_culture = norwegian
+			add_accepted_culture = icelandic
+			DEN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			NOR = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			SWE = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+	 	}
+	 	ai_will_do = { factor = 1 }
+	}
+	
+	
+	
+	kiruna_mine = {
+		picture = "essen_ruhr"
+		potential = {
+			OR = {
+				tag = SCA
+				tag = NOR
+			}
+			NOT = {
+				has_global_flag = kiruna_mine
+			}
+			321 = {
+				owned_by = THIS
+			}
+		}
+		allow = {
+			306 = {owned_by = THIS}
+			iron_railroad = 1
+			drilling_and_blasting = 1
+			money = 10000
+		}
+		effect = {
+			treasury = -10000
+			set_global_flag = kiruna_mine
+			321 = {add_province_modifier = {name = kiruna_mine duration = -1}}
+			321 = {trade_goods = iron}
+			321 = {infrastructure = 3}
+			321 = {life_rating = 20}
+			306 = {infrastructure = 3}
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods = iron 
+						trade_goods = coal
+					} 
+					is_core = THIS 
+					continent = europe
+				} 
+				add_province_modifier = {
+					name = scandinavian_mines 
+					duration = -1
+				}
+			}
+		}
+	 	ai_will_do = { factor = 1 }
+	}
+	
+	lion_of_the_north = {
+		picture = "lion"
+		potential = {
+			tag = SCA
+			NOT = {has_global_flag = lion_of_the_north}
+		}
+		allow = {
+			all_core = {
+				owned_by = THIS
+			} 
+			is_greater_power = yes 
+			322 = {
+				owned_by = THIS
+			} 
+			372 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			set_global_flag = lion_of_the_north
+			322 = {life_rating = 5}
+			313 = {life_rating = 5}
+			372 = {life_rating = 10}
+			313 = {add_province_modifier = {name = recently_renovated_city duration = 1825}}
+			322 = {add_province_modifier = {name = recently_renovated_city duration = 1825}}
+			372 = {add_province_modifier = {name = recently_renovated_city duration = 1825}}
+		}
+	}
+	
+	reclaim_the_danelaw = {
+		potential = {
+			tag = SCA
+			NOT = {has_global_flag = reclaim_the_danelaw}
+			NOT = {primary_culture  = british_danish}
+		}
+		allow = {
+			all_core = {OR = {owned_by = THIS owner = {vassal_of = THIS}}}
+			OR = {any_owned_province = {
+				is_core = ENG
+			}
+			ENG = {vassal_of = THIS}
+			}
+			
+		}
+		effect = {
+			set_global_flag = reclaim_the_danelaw
+			add_accepted_culture = british_danish
+			ENG = {
+				all_core = {add_core = THIS}
+			}
+			any_country = {
+				limit = {
+					tag = ENG
+					vassal_of = THIS
+				}
+				annex_to = THIS
+			}
+		}
+		
+	}
+}
+
+

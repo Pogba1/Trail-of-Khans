@@ -1,0 +1,7 @@
+owner = BHA
+controller = BHA
+add_core = BHA
+add_core = AUS
+trade_goods = sulphur
+life_rating = 40
+1861.1.1 = { railroad = 3 }

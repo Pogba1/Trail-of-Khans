@@ -1,0 +1,19 @@
+name = "War for Bohemia"
+
+1835.5.23 = {
+    add_attacker = POL
+    add_attacker = SLS
+    add_attacker = HUN
+    add_defender = BHA
+
+    war_goal = {
+        casus_belli = safeguard_bohemia
+        actor = BHA
+        receiver = POL
+    }
+    war_goal = {
+        casus_belli = install_jagiellon
+        actor = POL
+        receiver = BHA
+    }
+}

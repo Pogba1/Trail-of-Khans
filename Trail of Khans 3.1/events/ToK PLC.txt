@@ -1,0 +1,41 @@
+country_event = { 
+	id=400003
+	title="EVTNAME400008"
+	desc="EVTDESC400008"
+	
+	mean_time_to_happen={
+		days=0
+	}
+	
+	trigger = {
+		tag = BOH
+		primary_culture = polish
+		is_independant = yes
+	}
+	
+	option = {
+		name="We are now free to be Bohemians!"
+		primary_culture = czech
+	}
+}
+
+country_event = {
+	id=400004
+	title="EVTNAME400009"
+	desc="EVTDESC400009"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = HUN
+		primary_culture = polish
+		is_independant = yes
+	}
+	
+	option = {
+		name="We are free to be Hungarians!"
+
+		primary_culture=hungarian
+		add_accepted_culture=slovak	   
+	}
+}

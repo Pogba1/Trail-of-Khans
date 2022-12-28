@@ -1,0 +1,17 @@
+name = "Britisk Revolt"
+
+1835.4.19 = {
+    add_attacker = SCO
+    add_defender = ENG
+
+     war_goal = {
+        casus_belli = annex_core_country
+        actor = SCO
+        receiver = ENG
+    }
+     war_goal = {
+        casus_belli = status_quo
+        actor = ENG
+        receiver = SCO
+    }
+}

@@ -1,0 +1,152 @@
+political_decisions = {
+	#####################
+	#louisiana reskinned#
+	#####################
+	
+	magna_lacus={
+		picture = "USA_annex_california"
+		potential = {
+			tag = LOU
+			NOT = {has_country_flag = magna_lacus}
+		}
+		allow = {
+			OR = {
+				169 = {owned_by = THIS}
+				183 = {owned_by = THIS}
+			}
+		}
+		effect = {
+			set_country_flag = magna_lacus
+			USA_170 = {add_core = THIS}
+			USA_178 = {add_core = THIS}
+			USA_176 = {add_core = THIS}
+			USA_168 = {add_core = THIS}
+		}
+	}
+	
+	secure_nouvelle_orleans ={
+		#picture = "USA_annex_california"
+		potential = {
+			tag = LOU
+			NOT = {has_country_flag = secure_nouvelle_orleans}
+		}
+		allow = {
+			army_professionalism = 1
+		}
+		effect = {
+			set_country_flag = secure_nouvelle_orleans
+			USA_139 = {
+				add_core = THIS
+			}
+			USA_144 = {
+				add_core = THIS
+			}
+		}
+	}
+	
+	#form joe union
+	
+	federation_of_america = {
+		potential = {
+			NOT = {exists = NAM}
+			OR = {
+				tag = LOU
+				tag = QUE
+			}
+		}
+		allow = {
+			 LOU = {all_core = {OR = {owned_by = THIS owner = {vassal_of = THIS}}}}
+			 QUE = {
+				all_core = {
+					OR = {
+						empty = yes
+						owned_by = THIS
+						owner = {vassal_of = THIS}			
+					}
+				}
+			}
+			 nationalism_n_imperialism = 1
+		}
+		effect = {
+			change_tag = NAM
+			add_accepted_culture = louisianian
+			add_accepted_culture = french_canadian
+			any_country = {
+				limit = {OR = {in_sphere = THIS vassal_of = THIS}capital_scope = {continent = north_america} NOT = {primary_culture = mexican}}
+				annex_to = THIS
+			}
+			LOU = {all_core = {add_core = NAM}}
+			QUE = {all_core = {add_core = NAM}}
+			CEE = {
+				all_core = {
+					add_core = NAM
+					remove_core = CEE
+				}
+			}
+		}
+	}
+
+	pelsovs_plain = {
+		potential = {
+			OR = {
+				tag = NAM
+				tag = MEX
+				tag = ELI
+				tag = CEE 
+			}
+			NOT = {
+				has_country_flag = pelsovs_plain
+			}
+		}
+		allow = {
+			romanticism = 1
+			OR = {
+				is_greater_power = yes	
+				AND = {
+					is_secondary_power = yes
+					prestige = 100
+				}		
+			}
+		}
+		effect = {
+			set_country_flag = pelsovs_plain
+			DAK = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			GPN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			USA_129 = {
+				add_core = THIS
+			}
+			USA_126 = {
+				add_core = THIS
+			}
+			USA_106 = {
+				add_core = THIS
+			}
+			USA_111 = {
+				add_core = THIS
+			}
+			USA_116 = {
+				add_core = THIS
+			}
+			USA_91 = {
+				add_core = THIS
+			}
+			MEX_97 = {
+				add_core = THIS
+			}
+			USA_124 = {
+				add_core = THIS
+			}
+			157 = {
+				add_core = THIS
+			}
+		}
+	}
+}

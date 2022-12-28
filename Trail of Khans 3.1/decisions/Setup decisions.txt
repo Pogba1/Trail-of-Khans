@@ -1,0 +1,79 @@
+political_decisions = {
+
+    BHA_1836_setup = {
+        potential = {
+            tag = BHA
+            always = no
+        }
+        allow = {
+            tag = BHA
+        }
+        effect = {
+            set_global_flag = war_for_bohemia
+        }
+    }
+
+    POL_1836_setup = {
+        potential = {
+            tag = POL
+            always = no
+        }
+        allow = {
+            tag = POL
+        }
+        effect = {
+            add_country_modifier = {
+                name = curtailed_conscription
+                duration = 182
+            }
+        }
+    }
+
+    LUB_1836_setup = {
+        potential = {
+            tag = LUB
+            always = no
+        }
+        allow = {
+            tag = LUB
+        }
+        effect = {
+            530 = {
+                add_province_modifier = {
+                    name = center_of_baltic_trade
+                    duration = -1
+                }
+            }
+            354 = {
+                add_province_modifier = {
+                    name = hanseatic_city
+                    duration = -1
+                }
+            }
+            690 = {
+                add_province_modifier = {
+                    name = hanseatic_city
+                    duration = -1
+                }
+            }
+            695 = {
+                add_province_modifier = {
+                    name = hanseatic_city
+                    duration = -1
+                }
+            }
+            679 = {
+                add_province_modifier = {
+                    name = wendish_oppression
+                    duration = -1
+                }
+            }
+            680 = {
+                add_province_modifier = {
+                    name = wendish_oppression
+                    duration = -1
+                }
+            }
+        }
+    }
+}

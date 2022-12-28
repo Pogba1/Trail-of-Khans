@@ -1,0 +1,11 @@
+owner = ARG
+controller = ARG
+add_core = ARG
+trade_goods = iron
+terrain = dryhills
+life_rating = 35
+state_building = {
+    level = 1
+    building = steel_factory
+    upgrade = yes
+}

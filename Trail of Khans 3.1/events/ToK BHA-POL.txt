@@ -1,0 +1,869 @@
+#Austro-Bohemian Win
+country_event = {
+    id = 183552301
+    title = "EVTNAME183552301"
+    desc = "EVTDESC183552301"
+
+    major = yes
+
+    trigger = {
+        has_global_flag = bohemian_victory
+        tag = BHA
+        NOT = {
+            has_global_flag = polish_victory
+        }
+        NOT = {
+            has_country_flag = bohemian_golden_age
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 7
+    }
+    
+    option = {
+        name = "Bohemia will shine like Heaven on Earth!"
+        prestige = 40
+        PLC = {
+            all_core = {
+                limit = {
+                    is_core = BHA
+                }
+                remove_core = PLC
+            }
+        }
+        add_country_modifier = {
+            name = bohemian_golden_age
+            duration = 9125
+        }
+        set_country_flag = bohemian_golden_age
+    }
+}
+
+#King Wladislaus the IVth abdication
+country_event = {
+    id = 183552303
+    title = "EVTNAME183552303"
+    desc = "EVTDESC183552303"
+
+    trigger = {
+        tag = POL
+        has_global_flag = bohemian_victory
+        NOT = {
+            has_country_flag = wladislaus_abdicates
+        }
+        NOT = {
+            has_country_flag = wladislaus_refuses
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 10
+    }
+
+    option = {
+        name = "The people were right after all..."
+        prestige = -20
+        set_country_flag = wladislaus_abdicates
+        country_event = {
+            id = 188801
+            days = 14
+        }
+    }
+
+    option = {
+        name = "I refuse, I was chosen by God to lead this Kingdom!"
+        prestige = -10
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+            }
+            militancy = 3
+            consciousness = 4
+        }
+        set_country_flag = wladislaus_refuses
+    }
+}
+
+#The Candidates
+country_event = {
+    id = 188801
+    title = "EVTNAME188801"
+    desc = "EVTDESC188801"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Friedrich Kmiecik, the Duke of Silesia"
+        prestige = -5
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+            }
+            militancy = 2
+            consciousness = 2
+        }
+        set_country_flag = regent_friedrich_kmiecik
+    }
+
+    option = {
+        name = "Sobieski, influencial Noble and General"
+        prestige = 10
+        set_country_flag = regent_sobieski
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+                strata = rich
+            }
+            militancy = -2
+        }
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+                OR = {
+                    strata = poor
+                    strata = middle
+                }
+            }
+            militancy = 1
+            consciousness = -2
+        }
+    }
+
+    option = {
+        name = "Kazimierz Pocisk, former Hetman of the Cossacks"
+        prestige = -15
+        set_country_flag = regent_kazimierz
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+            }
+            militancy = 2
+            consciousness = 1.5
+        }
+        any_pop = {
+            limit = {
+                has_pop_culture = ukrainian
+            }
+            militancy = -3
+        }
+    }
+}
+
+#Polish Win (ALL EVENTS HAVING TO DO WITH BOHEMIA WINNING GO ABOVE THIS LINE)
+country_event = {
+    id = 192801
+    title = "EVTNAME192801"
+    desc = "EVTDESC192801"
+
+    major = yes
+
+    trigger = {
+        has_global_flag = polish_victory
+        tag = POL
+        NOT = {
+            has_country_flag = wladislaus_triumph
+        }
+        NOT = {
+            has_global_flag = bohemian_victory
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 4
+    }
+    
+    option = {
+        name = "Let the Premyslid dynasty go down in history as a failure"
+        prestige = 30
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+            }
+            militancy = -2
+            consciousness = -4
+        }
+        BHA = {
+            release = BOH
+            release = AUS
+            all_core = {
+                remove_core = BHA
+            }
+            annex_to = THIS
+        }
+        any_owned = {
+            limit = {
+                is_core = DLM
+            }
+            secede_province = DLM
+        }
+        any_owned = {
+            limit = {
+                is_core = VEN
+            }
+            secede_province = VEN
+        }
+        create_vassal = BOH
+        create_alliance = BOH
+        diplomatic_influence = {
+            who = BOH
+            value = 300
+        }
+        set_country_flag = wladislaus_triumph
+    }
+}
+
+#Unification under Wladislaus
+country_event = {
+    id = 192803
+    title = "EVTNAME192803"
+    desc = "EVTDESC192803"
+
+    major = yes
+
+    trigger = {
+        has_country_flag = wladislaus_triumph
+        tag = POL
+        HUN = {
+            all_core = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+                }
+            }
+        }
+        BOH = {
+            all_core = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+                }
+            }
+        }
+        SLS = {
+            all_core = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+                }
+            }
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 120
+    }
+
+    option = {
+        name = "Long live the King!"
+        prestige = 50
+		any_country = {
+			limit = {
+				OR = {
+					primary_culture = hungarian 
+					primary_culture = czech 
+					primary_culture = polish
+                    tag = SLS
+				}
+                NOT = {
+                    tag = BHA
+                } 
+				in_sphere = THIS
+                OR = {
+                    is_vassal = no
+                    vassal_of = THIS
+                }
+                is_mobilised = no
+                is_greater_power = no
+                war = no					
+			}
+			annex_to = THIS
+		}
+		any_country = {
+			limit = {
+                OR = {
+                    vassal_of = THIS 
+                    in_sphere = THIS
+                }
+            }
+			any_owned= {
+			    limit = {  
+                    is_core = PLC
+                }
+				secede_province = THIS
+			}
+		}
+        HUN = {
+            all_core = {
+                add_core = PLC
+            }
+        }
+        LIT = {
+            all_core = {
+                add_core = LIT
+            }
+        }
+		change_tag = PLC
+        add_accepted_culture = slovak
+        add_accepted_culture = ashkenazi
+        add_accepted_culture = hungarian        
+    }
+}
+
+#Bohemian-Polish War, White Peace 
+
+country_event ={
+    id = 232001
+    title = "EVTNAME232001"
+    desc = "EVTDESC232001"
+
+    fire_only_once = yes
+
+    trigger = {
+        OR = {
+            tag = POL
+            tag = BHA
+        }
+        NOT = {
+            war_with = BHA
+        }
+        NOT = {
+            war_with = POL
+        }
+        has_global_flag = war_for_bohemia
+    }
+
+    mean_time_to_happen = {
+        days = 7
+    }
+
+    option = {
+        name = "The Situation is still tense"
+        clr_global_flag = war_for_bohemia
+        set_global_flag = stalemate_for_bohemia
+    }
+}
+
+#White peace between Bohemia and Poland
+country_event = {
+    id = 232002
+    title = "EVTNAME232002"
+    desc = "EVTDESC232002"
+
+    trigger = {
+        tag = POL
+        has_global_flag = stalemate_for_bohemia
+        NOT = {
+            has_country_flag = the_people_complain
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 10
+    }
+
+    option = {
+        name = "Let the people complain"
+
+        prestige = -10
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+            }
+            militancy = 1
+            consciousness = 3
+        }
+        set_country_flag = the_people_complain
+    }
+}
+
+#Bohemian event for stalemate
+country_event = {
+    id = 232003
+    title = "EVTNAME232003"
+    desc = "EVTDESC232003"
+
+    trigger = {
+        tag = BHA
+        has_global_flag = stalemate_for_bohemia
+        NOT = {
+            has_country_flag = uneasy_peace
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 10
+    }
+
+    option = {
+        name = "Not what we had hoped for, but we shall live to fight another day!"
+        prestige = 5
+        set_country_flag = uneasy_peace
+    }
+}
+
+#Hansa invades Lithuania
+country_event = {
+    id = 232004
+    title = "EVTNAME232004"
+    desc = "EVTDESC232004"
+
+    trigger = {
+        LIT = {
+            exists = yes
+        }
+        tag = LUB
+        NOT = {
+            war_with = POL
+        }
+        NOT = {
+            war_with = BHA
+        }
+        OR = {
+            AND = {
+                BHA = {
+                    war_with = POL
+                }
+                POL = {
+                    war_with = BHA
+                }
+                has_global_flag = war_for_bohemia
+            }
+            has_global_flag = bohemian_victory
+        }
+        NOT = {
+            war_with = LIT
+        }
+        NOT = {
+            has_country_flag = appeased_the_poles
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 14
+    }
+
+    option = {
+        name = "EVTOPTA232004"
+
+        badboy = -2.5
+        relation = {
+            who = POL
+            value = -200
+        }
+        POL = {
+            diplomatic_influence = {
+                who = LIT
+                value = -200
+            }
+            leave_alliance = LIT
+        }
+        war = {
+	        target = LIT
+	        attacker_goal = { casus_belli = conquest_low }
+			defender_goal = { casus_belli = status_quo }
+        }
+        set_country_flag = seized_lithuania
+    }
+
+    option = {
+        name = "EVTOPTB232004"
+        
+        set_country_flag = appeased_the_poles
+
+        POL = {
+            country_event = {
+                id = 232005
+                days = 7
+            }
+        } 
+    }
+}
+
+#Discussion over Lithuania
+country_event = {
+    id = 232005
+    title = "EVTNAME232005"
+    desc = "EVTDESC232005"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVTOPTA232005"
+
+        LUB = {
+            country_event = 232006
+            days = 7
+        }
+        set_country_flag = defended_lithuania
+        ai_chance = {
+            factor = 35
+        }
+    }
+    option = {
+        name = "EVTOPTB232005"
+
+        LUB = {
+            country_event = 232007
+            days = 7
+        }
+        set_country_flag = gave_up_lithuania
+        ai_chance = {
+            factor = 45
+        }
+    }
+    option = {
+        name = "EVTOPTC232005"
+
+        LUB = {
+            country_event = 232008
+            days = 7
+        }
+        set_country_flag = abandoned_lithuania
+        ai_chance = {
+            factor = 25
+        }
+    }
+}
+
+#Polish refusal to continue talks
+country_event = {
+    id = 232006
+    title = "EVTNAME232006"
+    desc = "EVTDESC232006"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVTOPTA232006"
+
+        relation = {
+            who = POL
+            value = -150
+        }
+
+        add_country_modifier = {
+            name = CB_gen_plus
+            duration = 365
+        }
+    }
+}
+
+#Poland offers the sphere
+country_event = {
+    id = 232007
+    title = "EVTNAME232007"
+    desc = "EVTDESC232007"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVTOPTA232007"
+
+        POL = {
+            diplomatic_influence = {
+                who = LIT
+                value = -200
+            }
+            relation = {
+                who = LIT
+                value = -100
+            }
+            leave_alliance = LIT
+        }
+        diplomatic_influence = {
+            who = LIT
+            value = 500
+        }
+        relation = {
+            who = POL
+            value = 50
+        }
+        set_country_flag = lithuania_sphered
+    }
+}
+
+#Poland gives Carte Blanche
+country_event = {
+    id = 232008
+    title = "EVTNAME232008"
+    desc = "EVTDESC232008"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVTOPTA232008"
+
+        relation = {
+            who = POL
+            value = 150
+        }
+        POL = {
+            diplomatic_influence = {
+                who = LIT
+                value = -200
+            }
+            leave_alliance = LIT
+        }
+        badboy = -7.5
+        war = {
+	        target = LIT
+	        attacker_goal = { casus_belli = conquest_low }
+			defender_goal = { casus_belli = status_quo }
+        }
+        clr_country_flag = appeased_the_poles
+        set_country_flag = seized_lithuania
+    }
+}
+
+#Stanislaus Jagiellon comes of age
+
+country_event = {
+    id = 18808
+    title = "EVTNAME18808"
+    desc = "EVTDESC18808"
+
+    major = yes
+    
+    trigger = {
+        tag = POL
+        has_global_flag = bohemian_victory
+        has_country_flag = wladislaus_abdicates
+        NOT = {
+            has_global_flag = polish_victory
+        }
+        NOT = {
+            has_country_flag = wladislaus_refuses
+        }
+        NOT = {
+            has_country_flag = stanislaus_enthroned
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 120
+    }
+
+    option = {
+        name = "All that's thine shall be mine"
+        prestige = 15
+        set_country_flag = stanislaus_enthroned
+        clr_country_flag = wladislaus_abdicates
+    }
+}
+
+#Stanilaus suspends liberties
+
+country_event = {
+    id = 18809
+    title = "EVTNAME18809"
+    desc = "EVTDESC18809"
+
+    trigger = {
+        tag = POL
+        has_country_flag = stanislaus_enthroned
+        NOT = {
+            has_country_flag = stanislaus_power
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+    option = {
+        name = "Liberalism begone, we must return to tradition"
+
+        prestige = 15
+        set_country_flag = stanislaus_power
+        political_reform = none_voting
+        political_reform = underground_parties
+        political_reform = no_meeting
+        political_reform = appointed
+        political_reform = state_press
+        political_reform = mandatory_service
+        political_reform = closed_borders
+        government = absolute_monarchy
+        any_pop = {
+            scaled_militancy = {
+                ideology = liberal
+                factor = 4
+            }
+            scaled_militancy = {
+                ideology = conservative
+                factor = 1.5
+            }
+            scaled_militancy = {
+                ideology = reactionary
+                factor = 0
+            }
+        }
+        any_pop = {
+            scaled_consciousness = {
+                ideology = liberal
+                factor = 5
+            }
+            scaled_consciousness = {
+                ideology = conservative
+                factor = 3
+            }
+            scaled_consciousness = {
+                ideology = reactionary
+                factor = 0
+            }
+        }
+    }
+}
+
+#Friedrich's Influence
+
+country_event = {
+    id = 18810
+    title = "EVTNAME18810"
+    desc = "EVTDESC18810"
+
+    trigger = {
+        tag = POL
+        has_country_flag = stanislaus_power
+        has_country_flag = regent_friedrich_kmiecik
+        NOT = {
+            has_country_flag = regent_sobieski
+        }
+        NOT = {
+            has_country_flag = regent_kazimierz
+        }
+        NOT = {
+            has_country_flag = friedrich_influence
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+    option = {
+        name = "Let me guide you as your savior, niemcy"
+        set_country_flag = friedrich_influence
+        clr_country_flag = regent_friedrich_kmiecik
+    }
+}
+
+#Sobieski's Influence
+
+country_event = {
+    id = 18811
+    title = "EVTNAME18811"
+    desc = "EVTDESC18811"
+
+    trigger = {
+        tag = POL
+        has_country_flag = stanislaus_power
+        has_country_flag = regent_sobieski
+        NOT = {
+            has_country_flag = regent_friedrich_kmiecik
+        }
+        NOT = {
+            has_country_flag = regent_kazimierz
+        }
+        NOT = {
+            has_country_flag = sobieski_influence
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+    option = {
+        name = "The Jagiellon holdings will be unified"
+        set_country_flag = sobieski_influence
+        clr_country_flag = regent_sobieski
+
+    }
+}
+
+#Kazimierz's Influence
+
+country_event = {
+    id = 18812
+    title = "EVTNAME18812"
+    desc = "EVTDESC18812"
+
+    trigger = {
+        tag = POL
+        has_country_flag = stanislaus_power
+        has_country_flag = regent_kazimierz
+        NOT = {
+            has_country_flag = regent_friedrich_kmiecik
+        }
+        NOT = {
+            has_country_flag = regent_sobieski
+        }
+        NOT = {
+            has_country_flag = kazimierz_influence
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+    option = {
+        name = "Perhaps this Jagiellon thing isn't worth it..."
+        set_country_flag = kazimierz_influence
+        clr_country_flag = regent_kazimierz
+    }
+}
+
+#Hungary breaks away
+
+country_event = {
+    id = 18813
+    title = "EVTNAME18813"
+    desc = "EVTDESC18813"
+
+    trigger = {
+        tag = POL
+        has_country_flag = kazimierz_influence
+        NOT = {
+            has_country_flag = hungary_gone
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 180
+    }
+
+    option = {
+        name = "Who cares?"
+
+        release_vassal = HUN
+        relation = {
+            who = HUN
+            value = -150
+        }
+        prestige = -30
+        any_pop = {
+            limit = {
+                strata = rich
+                has_pop_culture = polish
+            }
+            militancy = 4
+            consciousness = 6
+        }
+        HUN = {
+            country_event = {
+                id = 400004
+                days = 0
+            }
+        }
+    }
+}

@@ -1,0 +1,218 @@
+#Sphere of Influence
+
+SLS = {
+    value = 125
+    level = 5
+    influence_value = 100
+}
+HUN = {
+    value = 125
+    level = 5
+    influence_value = 100
+}
+LIT = {
+    value = 100
+    level = 5
+    influence_value = 0
+}
+
+
+
+
+#Other GP's
+SCO = { value = -10 }
+FRA = { value = 0 }
+NOV = { value = 0 }
+GOL = { value = 0 } #lowered to -200 via even
+IRE = { value = 25 }
+ADL = { value = -50 }
+AST = { value = 10 }
+#Army
+
+army = {
+    name = "1. Armia"
+    location = 957
+    regiment = {
+        name= "1.Brygada Kawalerii"
+        type = cuirassier
+        home = 951
+    }
+    regiment = {
+        name= "2.Brygada Kawalerii"
+        type = cuirassier
+        home = 951
+    }
+    regiment = {
+        name= "1. Oddział piechoty"
+        type = infantry
+        home = 952
+    }
+    regiment = {
+        name= "2. Oddział piechoty"
+        type = infantry
+        home = 952
+    }
+    regiment = {
+        name= "3. Oddział piechoty"
+        type = infantry
+        home = 952
+    }
+    regiment = {
+        name= "4. Oddział piechoty"
+        type = infantry
+        home = 952
+    }
+    regiment = {
+        name= "1. Artyleria"
+        type = artillery
+        home = 953
+    }
+	regiment = {
+        name= "2. Artyleria"
+        type = artillery
+        home = 953
+    }
+	regiment = {
+        name= "3. Artyleria"
+        type = artillery
+        home = 957
+    }
+	regiment = {
+        name= "4. Artyleria"
+        type = artillery
+        home = 957
+    }
+	regiment = {
+		name = "1. Hussar"
+		type = hussar
+		home = 957
+	}
+}
+
+army = {
+    name = "2. Armia"
+    location = 706
+    regiment = {
+        name= "1.Brygada Kawalerii"
+        type = cuirassier
+        home = 699
+    }
+    regiment = {
+        name= "1. Oddział piechoty"
+        type = infantry
+        home = 700
+    }
+    regiment = {
+        name= "2. Oddział piechoty"
+        type = infantry
+        home = 701
+    }
+    regiment = {
+        name= "3. Oddział piechoty"
+        type = infantry
+        home = 702
+    }
+    regiment = {
+        name= "4. Oddział piechoty"
+        type = infantry
+        home = 703
+    }
+    regiment = {
+        name= "1. Artyleria"
+        type = artillery
+        home = 704
+    }
+	regiment = {
+        name= "2. Artyleria"
+        type = artillery
+        home = 702
+    }
+	regiment = {
+        name= "3. Artyleria"
+        type = artillery
+        home = 706
+    }
+	regiment = {
+        name= "4. Artyleria"
+        type = artillery
+        home = 714
+    }
+	regiment = {
+        name= "5. Artyleria"
+        type = artillery
+        home = 705
+    }
+	regiment = {
+		name = "1. Hussar"
+		type = hussar
+		home = 713
+	}
+}
+
+army = {
+	name = "3. Armia"
+	location = 703
+	regiment = {
+		name = "1.Brygada Kawalerii"
+		type = cavalry
+		home = 716
+	}
+	regiment = {
+		name = "2.Brygada Kawalerii"
+		type = cuirassier
+		home = 716
+	}
+    regiment = {
+        name= "1. Oddział piechoty"
+        type = infantry
+        home = 705
+    }
+    regiment = {
+        name= "2. Oddział piechoty"
+        type = infantry
+        home = 705
+    }
+    regiment = {
+        name= "3. Oddział piechoty"
+        type = infantry
+        home = 713
+    }
+	regiment = {
+		name = "3.Brygada Kawalerii"
+		type = hussar
+		home = 713
+	}
+    regiment = {
+        name= "1. Artyleria"
+        type = artillery
+        home = 715
+    }
+    regiment = {
+        name= "2. Artyleria"
+        type = artillery
+        home = 715
+    }
+    regiment = {
+        name= "3. Artyleria"
+        type = artillery
+        home = 715
+    }
+}
+	
+leader = {
+    name = "Wincenty Golas"
+    date = 1831.1.1
+    type = land
+    personality = relentless
+    background = school_of_the_bayonet
+    prestige = 0.3
+}
+
+leader = {
+	name = "Sobieski"
+	date = 1836.1.1
+	type = land
+	personality = stalwart
+	background = school_of_firepower
+	prestige = 0.13
+}
