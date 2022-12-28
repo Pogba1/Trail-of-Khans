@@ -621,6 +621,8 @@ country_event = {
     title = "EVTNAME18808"
     desc = "EVTDESC18808"
 
+    major = yes
+    
     trigger = {
         tag = POL
         has_global_flag = bohemian_victory
@@ -678,6 +680,7 @@ country_event = {
         political_reform = state_press
         political_reform = mandatory_service
         political_reform = closed_borders
+        government = absolute_monarchy
         any_pop = {
             limit = {
                 pop_majority_ideoligy = liberal
