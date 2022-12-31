@@ -1,0 +1,28 @@
+army = {
+    name = "1st Army"
+    location = 360
+
+    regiment = {
+        name = "1st Infantry Brigade"
+        type = infantry
+        home = 360
+    }
+
+    regiment = {
+        name = "1st Cuirassier Brigade"
+        type = cuirassier
+        home = 361
+    }
+    
+    regiment = {
+        name = "1st Artillery Brigade"
+        type = artillery
+        home = 362
+    }
+
+    regiment = {
+        name = "1st Hussar Brigade"
+        type = hussar
+        home = 364
+    }
+}

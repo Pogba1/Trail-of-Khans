@@ -338,13 +338,6 @@ guiTypes = {
 			format = centre
 		}
 		
-		checkboxType = {
-			name = "buy_from_stockpile"
-			position = { x = 715 y = 388 }
-			quadTextureSprite = "GFX_trade_stockpile_checkbox"
-			Orientation = "UPPER_LEFT"
-		}
-		
 		guiButtonType = {
 			name = "stockpile_sort_by_goods"
 			position = { x= 583 y = 402}
@@ -690,7 +683,7 @@ guiTypes = {
 			position = { x = 37 y = 1 }
 			name = "price"
 			font = "vic_18_black"
-			text = "99¤"	
+			text = "99ï¿½"	
 			maxWidth = 50
 			maxHeight = 24
 			format = right

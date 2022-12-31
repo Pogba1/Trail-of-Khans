@@ -37,18 +37,35 @@ political_decisions = {
 			1555 = {owned_by = THIS}
 		}
 		effect = {
-			OIR = {all_core = {add_core = MGL}}
-			GOL = {all_core = {add_core = MGL}}
-			MCK = {all_core = {add_core = MGL}}
+			OIR = {
+				all_core = {
+					add_core = MGL
+				}
+				remove_core = OIR
+			}
+			GOL = {
+				all_core = {
+					add_core = MGL
+				}
+				remove_core = GOL
+			}
+			MCK = {
+				all_core = {
+					add_core = MGL
+				}
+				remove_core = MCK
+			}
 			TKM = {all_core = {add_core = MGL}}
 			AFG = {all_core = {add_core = MGL}}
-			THIS = {all_core = {add_core = MGL remove_core = THIS}}
 			set_global_flag = mongolia_formed
 			add_accepted_culture = tatar
 			add_accepted_culture = mongol
 			add_accepted_culture = manchu
-			add_country_modifier = {name = mongol_larp duration = -1 }
 			change_tag = MGL
+			add_country_modifier = {
+				name = mongol_larp 
+				duration = -1 
+			}
 			prestige = 20
 		}
 	}

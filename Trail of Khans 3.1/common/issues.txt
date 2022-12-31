@@ -1412,8 +1412,8 @@ military_reforms = {
             land_organisation = 0.1
             min_military_spending = 0.05
             technology_cost = 8500
-            civilization_progress_modifier = 0.1
-            research_points_on_conquer = 0.25
+            civilization_progress_modifier = 0.05
+            research_points_on_conquer = 0.15
 
             allow = {
             }
@@ -1448,8 +1448,8 @@ military_reforms = {
         yes_foreign_weapons = {
             land_defense_modifier = 0.1
             technology_cost = 8500
-            civilization_progress_modifier = 0.1
-            research_points_on_conquer = 0.25
+            civilization_progress_modifier = 0.05
+            research_points_on_conquer = 0.15
 
             on_execute = {
                 effect = {
@@ -1482,8 +1482,7 @@ military_reforms = {
         }
         yes_military_constructions = {
             technology_cost = 8500
-            civilization_progress_modifier = 0.1
-            research_points_on_conquer = 0.25
+            civilization_progress_modifier = 0.05
             allow = {
                 OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes }
                 OR = { ai = yes money = 2000 }
@@ -1529,8 +1528,8 @@ military_reforms = {
         yes_foreign_officers = {
             leadership_modifier = 0.1
             technology_cost = 8500
-            civilization_progress_modifier = 0.1
-            research_points_on_conquer = 0.25
+            civilization_progress_modifier = 0.05
+            research_points_on_conquer = 0.15
             allow = {
             }
 
@@ -1565,8 +1564,8 @@ military_reforms = {
             land_unit_start_experience = 10
             min_military_spending = 0.05
             technology_cost = 8500
-            civilization_progress_modifier = 0.1
-            research_points_on_conquer = 0.25
+            civilization_progress_modifier = 0.05
+            research_points_on_conquer = 0.15
             allow = {
                 OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes }
             }
@@ -1600,8 +1599,8 @@ military_reforms = {
         yes_foreign_naval_officers = {
             tariff_efficiency_modifier = 0.2
             technology_cost = 10000
-            civilization_progress_modifier = 0.1
-            research_points_on_conquer = 0.25
+            civilization_progress_modifier = 0.05
+            research_points_on_conquer = 0.15
 
             allow = {
 				OR = {
@@ -1639,8 +1638,8 @@ military_reforms = {
         yes_naval_schools = {
             naval_unit_start_experience = 10
             technology_cost = 10000
-            civilization_progress_modifier = 0.1
-            research_points_on_conquer = 0.25
+            civilization_progress_modifier = 0.05
+            research_points_on_conquer = 0.15
 
             allow = {
                 OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes }
@@ -1680,8 +1679,8 @@ military_reforms = {
             naval_attack_modifier = 0.2
             naval_defense_modifier = 0.2
             technology_cost = 12000
-            civilization_progress_modifier = 0.1
-            research_points_on_conquer = 0.25
+            civilization_progress_modifier = 0.05
+            research_points_on_conquer = 0.15
 
             allow = {
                 OR = { any_owned_province = { has_building = naval_base } ai = yes }
@@ -1718,8 +1717,7 @@ military_reforms = {
 
         yes_western_shipyards = {
             technology_cost = 12000
-            civilization_progress_modifier = 0.1
-            research_points_on_conquer = 0.25
+            civilization_progress_modifier = 0.05
 
             allow = {
 				OR = {
@@ -1758,8 +1756,8 @@ military_reforms = {
         }
         yes_foreign_artillery = {
             technology_cost = 8500
-            civilization_progress_modifier = 0.1
-            research_points_on_conquer = 0.25
+            civilization_progress_modifier = 0.05
+            research_points_on_conquer = 0.15
 
             on_execute = {
                 effect = {

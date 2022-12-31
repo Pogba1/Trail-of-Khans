@@ -303,7 +303,8 @@ steel_factory = {
     completion_size = 0.2
     max_level = 99
     goods_cost =
-    {
+    {   
+        machine_parts = 100
         iron = 200
         cement = 200
     }
@@ -503,6 +504,7 @@ liquor_distillery = {
     max_level = 99
     goods_cost =
     {
+        machine_parts = 60
         steel = 200
         cement = 200
     }
@@ -522,6 +524,7 @@ winery = {
     max_level = 99
     goods_cost =
     {
+        machine_parts = 40
         steel = 200
         cement = 200
     }
@@ -542,6 +545,7 @@ lumber_mill = {
     max_level = 99
     goods_cost =
     {
+        machine_parts = 10
         iron = 200
         cement = 200
     }
@@ -560,8 +564,10 @@ fabric_factory = {
     max_level = 99
     goods_cost =
     {
-        iron = 200
-        cement = 200
+        machine_parts = 10
+		iron = 200
+		cement = 200
+		lumber = 200
     }
     time = 100
     visibility = yes
@@ -571,6 +577,26 @@ fabric_factory = {
     pop_build_factory = yes
 }
 
+wool_fabric_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+        machine_parts = 10
+		iron = 200
+		cement = 200
+		lumber = 200
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+		
+	production_type = wool_fabric_factory
+	pop_build_factory = yes
+}
+
 cement_factory = {
     type = factory
     on_completion = factory
@@ -578,6 +604,7 @@ cement_factory = {
     max_level = 99
     goods_cost =
     {
+        machine_parts = 10
         iron = 200
         lumber = 200
     }
@@ -596,6 +623,7 @@ glass_factory = {
     max_level = 99
     goods_cost =
     {
+        machine_parts = 40
         iron = 200
         cement = 200
     }
@@ -633,13 +661,14 @@ fort = {
     type = fort
     goods_cost =
     {
-        steel = 100
+        steel = 150
         lumber = 100
-        cement = 100
+        cement = 150
         explosives = 50
         small_arms = 50
         artillery = 40
         ammunition = 10
+        machine_parts = 100
     }
     time = 1080
     visibility = yes
@@ -654,9 +683,9 @@ naval_base = {
     goods_cost =
     {
         lumber = 100
-        cement = 100
-        steel = 100
-        machine_parts = 15
+        cement = 200
+        steel = 200
+        machine_parts = 150
     }
     time = 730
     naval_capacity = 1

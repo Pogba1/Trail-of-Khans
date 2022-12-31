@@ -493,7 +493,7 @@ migration_chance =
 #If pop group is not an accepted culture or a primary culture, then -10% chance to migrate to another state. DO NOT DELETE.
 	modifier = {
 		factor = -10.0
-		AND = {
+		OR = {
 			is_primary_culture = no
 			is_accepted_culture = no
 		}
@@ -508,7 +508,7 @@ migration_chance =
 #If pop group is in a location not controlled by the owner, then -100% chance to migrate to a state. DO NOT DELETE.
 	modifier = {
 		factor = -100
-		not = { 
+		NOT = { 
 			location = { controlled_by = owner }
 		}
 	}
@@ -1039,6 +1039,11 @@ emigration_chance =
 		is_accepted_culture = no
 		NOT = { culture = irish }
 	}
+#If they are part of the Chinese culture group
+	modifier = {
+	     factor = -0.3
+		 is_culture_group = east_asian
+	}
 }
 
 #general assimilation mtth, same for all pops
@@ -1053,7 +1058,9 @@ assimilation_chance = {
 			AND = {
 				has_pop_culture = afro_american
 				country = {
-					is_culture_group = american_cultures
+					primary_culture = {
+						is_culture_group = american_cultures
+					}
 				}
 			}
 			OR = {
@@ -1119,11 +1126,12 @@ assimilation_chance = {
 				}
 				NOT = {
 					OR = {
-						has_pop_culture = nilo_saharan
-						has_pop_culture = bantu
-						has_pop_culture = niger_congo_a
+						has_pop_culture = nilotic
+						has_pop_culture = forest_bantu
+						has_pop_culture = hausa
 						has_pop_culture = khoisan
-						has_pop_culture = afro_asiatic
+						has_pop_culture = xhosa
+						has_pop_culture = zulu
 						has_pop_culture = malagasy
 						is_culture_group = arab
 					}

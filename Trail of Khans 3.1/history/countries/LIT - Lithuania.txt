@@ -4,7 +4,8 @@ religion = catholic
 government = absolute_monarchy
 plurality = 0.2
 nationalvalue = nv_order
-literacy = 0.6
+literacy = 0.45
+non_state_culture_literacy = 0.23
 civilized = yes
 
 
@@ -63,6 +64,8 @@ mechanical_production = 1
 hot_blast = 1
 basic_chemistry = 1
 high_pressure_steam_engine = 1
+
+oob = "LIT_oob.txt"
 
 ruling_party = LIT_conservative
 upper_house = {

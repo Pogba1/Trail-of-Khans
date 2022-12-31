@@ -485,6 +485,9 @@ political_decisions = {
 			RMR = {
 				exists = yes
 			}
+			NOT = {
+				has_country_flag = integrate_the_armenians
+			}
 			tag = BYZ
 		}
 		allow = {
@@ -529,6 +532,9 @@ political_decisions = {
 			}
 			NOT = { 
 				has_country_flag = the_pheonix_rose_and_an_eagle_fell_2
+			}
+			NOT = {
+				has_country_flag = integrate_the_armenians
 			}
 		}
 		allow = {
@@ -728,9 +734,12 @@ political_decisions = {
 	integrate_the_armenians = {
         picture = "build_teresina"
         potential = {
-           tag = BYZ
-           NOT = {has_country_flag = integrate_the_armenians}
-		   NOT = {has_country_flag = dreams_of_rome}
+			tag = BYZ
+			NOT = {has_country_flag = integrate_the_armenians}
+			NOT = {has_country_flag = dreams_of_rome}
+			NOT = {
+				has_country_flag = the_pheonix_rose_and_an_eagle_fell
+			}
         }
 
         allow = {

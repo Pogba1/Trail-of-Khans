@@ -2821,7 +2821,10 @@ settle_alaska = {
 
 mongol_larp = {
 	mobilisation_size = 0.03
-	icon = 19
+    land_organisation = 0.15
+    land_unit_start_experience = 5
+    mobilization_economy_impact = -0.15
+	icon = 17
 }
 
 new_slavic_metropolis = {
@@ -3021,7 +3024,8 @@ andalusian_caliphate = {
 }
 
 sicilian_sulphur = {
-    local_RGO_output = 0.60
+    mine_rgo_eff = 0.6
+    mine_rgo_size = 0.6
     icon = 13
 }
 

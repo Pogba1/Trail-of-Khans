@@ -1524,6 +1524,7 @@ tulls_seed_drill = {
         rgo_goods_output = {
             coffee = 0.1
         }
+        activate_building = wool_fabric_factory
     }
 }
 
