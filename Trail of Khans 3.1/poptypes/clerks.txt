@@ -89,27 +89,17 @@ country_migration_target =
 		unemployment = 0.5
 	}
 	modifier = {
-		factor = -10000.0
-		NOT = { has_country_flag = new_world_nation }
-	}
-	modifier = {
 		factor = 4.0
 		THIS = { religion = jewish }
 		any_owned_province = { is_core = ISR }
 	}
 	modifier = {
-		factor = 10.0
-		has_country_flag = new_world_nation
-		nationalvalue = nv_liberty
-	}
-	modifier = {
-        factor = -1000.0
+        factor = -10.0
 		has_global_flag = fuck_ai_immigration
 		ai = yes
     }
 	modifier = {
 		factor = 0.1
-		has_country_flag = new_world_nation
 		nationalvalue = nv_liberty
 		NOT = {
 			any_owned_province = {

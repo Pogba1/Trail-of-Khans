@@ -97,9 +97,7 @@ promotion_chance = {
 	modifier = {
 		factor = -0.1
 		country = { 
-			OR = {
-				slavery = yes_slavery 
-			}
+			slavery = yes_slavery 
 		}
 	}
 	modifier = {
@@ -118,11 +116,7 @@ demotion_chance = {
 	modifier = {
 		factor = -0.1
 		country = { 
-			OR = {
-				slavery = yes_slavery
-				 
-				 
-			}
+			slavery = yes_slavery
 		}
 	}
 	
@@ -476,7 +470,6 @@ migration_chance =
 		modifier = {
 			factor = 10
 			unemployment = 0.99
-			war = no
 		}
 	}
 	
@@ -492,7 +485,7 @@ migration_chance =
 
 #If pop group is not an accepted culture or a primary culture, then -10% chance to migrate to another state. DO NOT DELETE.
 	modifier = {
-		factor = -10.0
+		factor = -0.1
 		OR = {
 			is_primary_culture = no
 			is_accepted_culture = no
@@ -501,13 +494,13 @@ migration_chance =
 
 #If pop group is in a colony, then -2.5% chance to migrate to a state.	DO NOT DELETE.
 	modifier = {
-		factor = -2.5
+		factor = -0.025
 		state_scope = { is_colonial = yes }
 	}
 	
 #If pop group is in a location not controlled by the owner, then -100% chance to migrate to a state. DO NOT DELETE.
 	modifier = {
-		factor = -100
+		factor = -1
 		NOT = { 
 			location = { controlled_by = owner }
 		}
@@ -522,43 +515,43 @@ colonialmigration_chance =
 #If pop group doesn't obtain 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% of their life needs, then 0.05% chance to migrate to a colony for each threshold. (0.5% total)
 	group = {
 		modifier = {
-			factor = 0.05
+			factor = 0.0005
 			not = { life_needs = 0.1 }
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.0005
 			not = { life_needs = 0.2 }
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.0005
 			not = { life_needs = 0.3 }
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.0005
 			not = { life_needs = 0.4 }
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.0005
 			not = { life_needs = 0.5 }
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.0005
 			not = { life_needs = 0.6 }
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.0005
 			not = { life_needs = 0.7 }
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.0005
 			not = { life_needs = 0.8 }
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.0005
 			not = { life_needs = 0.9 }
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.0005
 			not = { life_needs = 0.99 }
 		}
 	}
@@ -608,7 +601,6 @@ colonialmigration_chance =
 		modifier = {
 			factor = 10
 			unemployment = 0.99
-			war = no 
 		}
 	}
 	
@@ -682,7 +674,7 @@ colonialmigration_chance =
 	modifier = {
 		factor = -10.0
 		state_scope = { is_colonial = no }
-		AND = {
+		OR = {
 			is_primary_culture = no
 			is_accepted_culture = no
 		}
@@ -709,7 +701,7 @@ emigration_chance =
 		modifier = {
 			factor = 0.1
 			militancy = 1
-			AND = {
+			OR = {
 				is_primary_culture = no
 				is_accepted_culture = no
 			}
@@ -717,7 +709,7 @@ emigration_chance =
 		modifier = {
 			factor = 0.1
 			militancy = 2
-			AND = {
+			OR = {
 				is_primary_culture = no
 				is_accepted_culture = no
 			}
@@ -725,7 +717,7 @@ emigration_chance =
 		modifier = {
 			factor = 0.1
 			militancy = 3
-			AND = {
+			OR = {
 				is_primary_culture = no
 				is_accepted_culture = no
 			}
@@ -733,7 +725,7 @@ emigration_chance =
 		modifier = {
 			factor = 0.1
 			militancy = 4
-			AND = {
+			OR = {
 				is_primary_culture = no
 				is_accepted_culture = no
 			}
@@ -741,7 +733,7 @@ emigration_chance =
 		modifier = {
 			factor = 0.1
 			militancy = 5
-			AND = {
+			OR = {
 				is_primary_culture = no
 				is_accepted_culture = no
 			}
@@ -749,7 +741,7 @@ emigration_chance =
 		modifier = {
 			factor = 0.1
 			militancy = 6
-			AND = {
+			OR = {
 				is_primary_culture = no
 				is_accepted_culture = no
 			}
@@ -757,7 +749,7 @@ emigration_chance =
 		modifier = {
 			factor = 0.1
 			militancy = 7
-			AND = {
+			OR = {
 				is_primary_culture = no
 				is_accepted_culture = no
 			}
@@ -765,7 +757,7 @@ emigration_chance =
 		modifier = {
 			factor = 0.1
 			militancy = 8
-			AND = {
+			OR = {
 				is_primary_culture = no
 				is_accepted_culture = no
 			}
@@ -773,7 +765,7 @@ emigration_chance =
 		modifier = {
 			factor = 0.1
 			militancy = 9
-			AND = {
+			OR = {
 				is_primary_culture = no
 				is_accepted_culture = no
 			}
@@ -781,7 +773,7 @@ emigration_chance =
 		modifier = {
 			factor = 0.1
 			militancy = 9.9
-			AND = {
+			OR = {
 				is_primary_culture = no
 				is_accepted_culture = no
 			}
@@ -1014,20 +1006,6 @@ emigration_chance =
 	
 ###Colony and Immigrant Nations Emigration Security###
 
-#If at peace, an immigrant country will not lose immigrants.
-	modifier = {
-		factor = -10000
-		country = {
-			has_country_flag = new_world_nation
-			war = no
-		}
-	}
-
-#If pop group is in a country with the country tag, then -4% chance to emigrate.
-	modifier = {
-		factor = -4.0
-		has_country_flag = new_world_nation
-	}
 #If pop group is in a colony, then -2% chance to emigrate.	
 	modifier = {
 		factor = -10000
@@ -1047,7 +1025,8 @@ emigration_chance =
 }
 
 #general assimilation mtth, same for all pops
-assimilation_chance = {
+assimilation_chance = 
+{
 	factor = 1
 
 
@@ -1055,19 +1034,9 @@ assimilation_chance = {
 	modifier = {
 		factor = -1000
 		OR = {
-			AND = {
-				has_pop_culture = afro_american
-				country = {
-					primary_culture = {
-						is_culture_group = american_cultures
-					}
-				}
-			}
-			OR = {
-				state_scope = { is_colonial = yes }
-				country = {	
-					civilized = no
-				}
+			state_scope = { is_colonial = yes }
+			country = {	
+				civilized = no
 			}
 		}
 	}
@@ -1075,17 +1044,12 @@ assimilation_chance = {
 #NEW WORLD NATION BONUS - 50% more base assimilation rate for new world nations on provinces in north america, south america, and australia_new_zealand (australia_new_zealand). (0.000198 + base)(new rate = 0.000594)
 	modifier = {
 		factor = 5
-		country = {
-			has_country_flag = new_world_nation
-		}
 		OR = {
-			AND = {
-				location = {
-					OR = {
-						continent = north_america
-						continent = south_america
-						continent = australia_new_zealand
-					}
+			location = {
+				OR = {
+					continent = north_america
+					continent = south_america
+					continent = australia_new_zealand
 				}
 			}
 			AND = {			
@@ -1107,17 +1071,12 @@ assimilation_chance = {
 	modifier = {
 		factor = 10
 		has_culture_core = no
-		country = {
-			has_country_flag = new_world_nation
-		}
 		OR = {
-			AND = {
-				location = {
-					OR = {
-						continent = north_america
-						continent = south_america
-						continent = australia_new_zealand
-					}
+			location = {
+				OR = {
+					continent = north_america
+					continent = south_america
+					continent = australia_new_zealand
 				}
 			}
 			AND = {			
@@ -1833,9 +1792,7 @@ assimilation_chance = {
 			}
 		}	
 	}
-	
 }
-
 #general conversion mtth, same for all pops
 conversion_chance = {
 	factor = 0.1

@@ -665,34 +665,6 @@ assegai = {
 #    icon = 18
 #}
 
-polish_spirit = {
-    local_ruling_party_support = -0.5
-    local_RGO_output = -0.5
-    local_factory_output = -0.5
-    assimilation_rate = -0.25
-    non_accepted_pop_consciousness_modifier = 0.1
-    non_accepted_pop_militancy_modifier = 0.05
-    icon = 20
-}
-
-francia_utopia = {
-    max_loan_modifier = -1
-    research_points_modifier = -0.6
-    supply_consumption = -0.2
-    land_organisation = -0.2
-    diplomatic_points_modifier = -2.0
-    political_reform_desire = -1.0
-    global_immigrant_attract = -4.0
-    global_pop_militancy_modifier = -0.5
-    global_pop_consciousness_modifier = -0.5
-    min_military_spending = 0.25
-    mobilisation_size = 0.1
-    mobilisation_economy_impact = -0.4
-    tax_efficiency = 0.25
-    min_tariff = 0.1
-    icon = 7
-}
-
 solano_lopez_industrialization = {
     mobilisation_economy_impact = -0.4
     mobilisation_size = 0.1
@@ -812,13 +784,8 @@ bigben_construction = {
 }
 
 small_immigration_boom = {
-    global_immigrant_attract = 1
+    global_immigrant_attract = 0.25
     icon = 17
-}
-
-land_of_opportunity = {
-    global_immigrant_attract = 4.5
-    icon = 13
 }
 
 swiss_banking = {
@@ -2625,7 +2592,7 @@ reassert_greek_superiority = {
 	icon = 3
 }
 asturian_refugees = {
-	global_immigrant_attract = 0.3
+	global_immigrant_attract = 0.1
 	global_assimilation_rate = 0.2
 	icon = 17
 }
@@ -2640,7 +2607,7 @@ new_frontier_eli = {
 	poor_life_needs = -0.2
 	middle_life_needs = -0.1
 	pop_militancy_modifier = -0.01
-	global_immigrant_attract = 0.1
+	immigrant_attract = 0.1
 	population_growth = 0.001
 	icon = 20
 }
@@ -2659,62 +2626,24 @@ asturian_exodus_happened = {
 }
 
 land_grants_arg = {
-	global_immigrant_attract = 0.5
+	global_immigrant_attract = 0.1
 	tax_efficiency = -0.05
 	global_assimilation_rate = -0.2
 	icon = 19
 }
+
 el_tofo = {
-	local_RGO_throughput = 1
-	local_RGO_output = 0.35
-	global_immigrant_attract = 0.25
-	immigrant_attract = 2
-	population_growth = 0.001
+	mine_RGO_size = 1
+	mine_RGO_eff = 0.35
+	global_immigrant_attract = 0.05
+	immigrant_attract = 0.5
 	icon = 13
-}
-texan_oil_boom = {
-	global_immigrant_attract = 0.25
-	RGO_output = 0.1
-	icon = 19
 }
 dummy_ibe = {
 	icon = 5
 }
-increased_colonial_centralization = {
-	global_pop_militancy_modifier = 0.01
-	global_pop_consciousness_modifier = 0.01
-	icon = 1
-}
-finishing_colonial_centralization = {
-	leadership_modifier = 0.1
-	icon = 1
-}
-spanish_colonies_integration = {
-	global_immigrant_attract = 6.5
-    icon = 15
-}
-spanish_colonies_integration_province = {
-	immigrant_attract = 6
-	assimilation_rate = 5
-	population_growth = 0.001
-    icon = 19
-}
-spanish_colonial_exploitation_colony = {
-	RGO_throughput = 0.1
-	icon = 13
-}
-spanish_colonial_exploitation_ibe = {
-	factory_output = 0.05
-	icon = 13
-}
 german_boom = {
 	population_growth = 0.001
-	icon = 19
-}
-settle_alaska = {
-	population_growth = 0.006 #0.6%
-	global_immigrant_attract = 0.25 #25%*4 = 100% global immigrant attract
-	immigrant_attract = 1
 	icon = 19
 }
 
@@ -2745,7 +2674,7 @@ alaskan_gold_rush = {
     icon = 11
 }
 alaskan_gold_rush_country = {
-    global_immigrant_attract = 0.2
+    global_immigrant_attract = 0.1
     icon = 9
 }
 
@@ -2891,7 +2820,7 @@ raiding_target = {
 
 resurgent_capital = {
     population_growth = 0.001
-    immigrant_attract = 0.75
+    immigrant_attract = 0.40
     rich_luxury_needs = -0.05
     middle_luxury_needs = -0.05
     poor_luxury_needs = -0.05
@@ -2900,7 +2829,7 @@ resurgent_capital = {
 
 minor_resurgent_capital = {
     population_growth = 0.001
-    immigrant_attract = 0.5
+    immigrant_attract = 0.15
     middle_luxury_needs = -0.05
     poor_luxury_needs = -0.05
     icon = 17
