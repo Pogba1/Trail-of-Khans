@@ -85,7 +85,7 @@ social_conscience = yes
 consciousness = 3
 nonstate_consciousness = 1
 
-set_country_flag = new_world_nation
+ 
 
 ruling_party = FRA_conservative
 last_election = 1834.6.21
@@ -103,13 +103,5 @@ govt_flag = {
     government = hms_government
     flag = democracy
 }
-#govt_flag = {
-#    government = prussian_constitutionalism
-#    flag = democracy
-#}
 
-schools = culture_tech_school
-#decision = france_1836_setup
-
-#oob = "FRA_oob.txt"
-
+schools = army_tech_school

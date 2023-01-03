@@ -211,7 +211,7 @@ second_power = {
     research_points = 1.25
     diplomatic_points_modifier = 1
     leadership = 1.0
-    global_immigrant_attract = 0.01
+    global_immigrant_attract = 0.10
     loan_interest = -0.1
 }
 

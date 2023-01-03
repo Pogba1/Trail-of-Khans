@@ -1335,93 +1335,6 @@ fire_eaters = {
     icon = 15
 }
 
-yankee_doodle = {
-    pop_consciousness_modifier = 0.01
-    icon = 15
-}
-
-wish_I_was_dixie = {
-    pop_consciousness_modifier = 0.01
-    icon = 15
-}
-
-southern_manorialism = {
-    pop_consciousness_modifier = -0.01
-    icon = 15
-}
-
-southern_pride = {
-    pop_consciousness_modifier = -0.01
-    icon = 15
-}
-
-free_staters = {
-    life_rating = -0.02
-    pop_militancy_modifier = 0.05
-    icon = 1
-}
-
-border_ruffians = {
-    life_rating = -0.02
-    pop_militancy_modifier = 0.05
-    icon = 18
-}
-
-underground_railroad = {
-    pop_militancy_modifier = 0.05
-    pop_consciousness_modifier = 0.025
-    icon = 4
-}
-
-#abolitionist_society = {
-#    pop_militancy_modifier = 0.01
-#    pop_consciousness_modifier = 0.025
-#    icon = 8
-#}
-
-knights_of_the_golden_circle = {
-    pop_consciousness_modifier = 0.1
-    pop_militancy_modifier = 0.1
-    icon = 18
-}
-
-american_anti_slavery_society = {
-    pop_consciousness_modifier = 0.1
-    icon = 8
-}
-
-copperhead_democrats = {
-    pop_consciousness_modifier = 0.1
-    icon = 20
-}
-
-anaconda_plan = {
-    war_exhaustion = 0.05
-    icon = 18
-}
-
-the_homestead_act = {
-    global_immigrant_attract = 0.5    #50%
-    global_assimilation_rate = 0.5
-    core_pop_militancy_modifier = -0.05
-    icon = 9
-}
-
-the_slavery_debate = {
-    global_pop_consciousness_modifier = 0.03
-    icon = 4
-}
-
-the_bonnie_blue_flag = {
-    leadership = 1
-    land_organisation = 0.2
-    land_unit_start_experience = 5
-    mobilisation_economy_impact = -0.3
-    mobilisation_size = 0.1
-    mobilization_impact = 2
-    icon = 15
-}
-
 ##### WORKPLACE EVENTS #####
 silk_famine = {
     farm_rgo_eff = -0.5
@@ -1519,13 +1432,6 @@ egyptian_excavations = {
 international_negotiations = {
     badboy = 0.01
     icon = 17
-}
-
-the_statue_of_liberty = {
-    prestige = 0.01
-    global_immigrant_attract = 0.5    #100%
-    global_assimilation_rate = 0.5
-    icon = 15
 }
 
 ### Congo ###
@@ -2553,13 +2459,6 @@ italian_dream = {
 	core_pop_militancy_modifier = -0.01
 	icon = 17
 }
-texan_war = {
-	mobilisation_size = 0.73
-	global_immigrant_attract = -1
-	land_organisation = 1.5
-	RGO_throughput = 0.4
-	icon = 17
-}
 students_in_foreign = {
 	research_points = 1.4
 	icon = 7
@@ -2839,12 +2738,6 @@ new_slavic_metropolis = {
 	population_growth = 0.004
 	icon = 19
 }
-new_slavia_country = {
-	global_immigrant_attract = 1
-	global_assimilation_rate = 0.75
-	global_population_growth = 0.001
-	icon = 9
-}
 alaskan_gold_rush = {
 	immigrant_attract = 5        #500%
     life_rating = 0.5
@@ -2982,8 +2875,8 @@ resettle_africa_2 = {
 }
 
 african_grain = {
-	poor_life_needs = -0.1
-	middle_life_needs = -0.1
+	pension_level = 0.30
+    min_social_spending = 0.4
 	pop_militancy_modifier = -0.05
     icon = 13
 }

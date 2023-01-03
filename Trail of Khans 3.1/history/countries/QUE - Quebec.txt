@@ -76,6 +76,7 @@ oob = "QUE_oob.txt"
 
 set_country_flag = catholic_country
 
+schools = industrial_tech_school
 
 ruling_party = QUE_conservative
 upper_house = {
@@ -87,5 +88,3 @@ upper_house = {
     socialist = 0
     communist = 0
 }
-
-set_country_flag = new_world_nation
