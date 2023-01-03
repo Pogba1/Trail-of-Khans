@@ -31,4 +31,18 @@ political_decisions = {
 		}
     }
 
+	remove_ai_immigration = {
+		potential = {
+			ai = no
+			NOT = {
+				has_global_flag = fuck_ai_immigration
+			}
+		}
+		allow = {
+		}
+		effect = {
+			set_global_flag = fuck_ai_immigration
+		}
+	}
+
 }

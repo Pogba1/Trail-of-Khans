@@ -326,7 +326,74 @@ political_decisions = {
 				name = billions_must_fight
 				duration = -1
 			}
+			political_reform = none_voting
+			political_reform = underground_parties
+			political_reform = no_meeting
+			political_reform = appointed
+			political_reform = state_press
+			political_reform = closed_borders
+			government = fascist_dictatorship
 			set_country_flag = west_has_fallen
+		}
+	}
+
+	end_baltic_monopoly = {
+		potential = {
+			capital_scope = {
+				continent = europe
+			}
+			NOT = {
+				has_global_flag = abolished_baltic_monopoly
+			}
+			NOT = {
+				tag = LUB
+			}
+			LUB = {
+				exists = yes
+			}
+		}
+		allow = {
+			NOT = {
+				PRU_690 = {
+					owned_by = LUB
+				}
+			}
+			NOT = {
+				relation = {
+					who = LUB
+					value = -50
+				}
+			}
+			NOT = {
+				LUB = {
+					in_sphere = THIS
+				}
+			}
+			LUB = {
+				is_greater_power = no
+			}
+			business_banks = 1
+			business_regulations = 1		
+			is_greater_power = yes
+			war = no
+		}
+		effect = {
+			set_global_flag = abolished_baltic_monopoly
+			clr_global_flag = baltic_monopoly
+			infamy = 4
+			prestige = 15
+
+			530 = {
+				trade_goods = fish
+			}
+			relation = {
+				who = LUB
+				value = -200
+			}
+			diplomatic_influence = {
+				who = LUB
+				value = -200
+			}
 		}
 	}
 }

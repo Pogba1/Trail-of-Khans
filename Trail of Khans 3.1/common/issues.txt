@@ -669,7 +669,6 @@ social_reforms = {
         administrative = yes
         next_step_only = yes
         no_safety = {
-            global_population_growth = -0.0001
             allow = {
                 NOT = { has_country_flag = government_busy_with_something }
             }

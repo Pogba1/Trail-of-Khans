@@ -198,7 +198,7 @@ army = {
 	regiment = {
 		name = "Infantry"
 		type = infantry
-		home = 693
+		home = 695
 	}
 	regiment = {
 		name = "Cuirassier"
@@ -213,27 +213,22 @@ army = {
 	regiment = {
 		name = "Hussar"
 		type = hussar
-		home = 698
+		home = 695
 	}
 	regiment = {
 		name = "Artillery"
 		type = artillery
-		home = 698
+		home = 695
 	}
 	regiment = {
 		name = "Artillery"
 		type = artillery
-		home = 354
+		home = 530
 	}
 	regiment = {
-		name = "Artillery"
-		type = artillery
-		home = 697
-	}
-	regiment = {
-		name = "Cuirassier"
-		type = cuirassier
-		home = 697
+		name = "Infantry"
+		type = infantry
+		home = 369
 	}
 }
 navy = {

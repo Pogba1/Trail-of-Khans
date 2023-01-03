@@ -1456,25 +1456,6 @@ prussian_general_staff = {
     icon = 15
 }
 
-##### Boer War #####
-trek_boers = {
-    global_immigrant_attract = 4.1        #410%
-    global_assimilation_rate = 0.1
-    icon = 17
-}
-
-boer_republic = {
-    core_pop_militancy_modifier = -0.1
-    assimilation_rate = 2
-    supply_consumption = -0.2
-    goods_demand = -0.1
-    icon = 17
-}
-
-boer_exodus = {
-    icon = 20
-}
-
 gold_rush_country = {
     global_immigrant_attract = 0.25
     icon = 9

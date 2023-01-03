@@ -1,6 +1,18 @@
 #Sphere of Influence
 #GPs
-IRE = { value = 100 }
+IRE = { value = -100 }
+
+NOR = {
+    value = 100
+    level = 5
+    influence_value = 100
+}
+
+SWE = {
+    value = 150
+    level = 5
+    influence_value = 50
+}
 
 leader = {
     name = "Drew Moore"

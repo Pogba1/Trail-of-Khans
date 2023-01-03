@@ -446,6 +446,9 @@ country_event = {
         NOT = {
             has_country_flag = appeased_the_poles
         }
+        NOT = {
+            has_country_flag = respected_riga
+        }
     }
 
     mean_time_to_happen = {
@@ -455,7 +458,7 @@ country_event = {
     option = {
         name = "EVTOPTA232004"
 
-        badboy = -2.5
+        badboy = 7.5
         relation = {
             who = POL
             value = -200
@@ -467,12 +470,21 @@ country_event = {
             }
             leave_alliance = LIT
         }
+        casus_belli = {
+            target = LIT
+            type = conquest_low
+            months = 12
+        }
         war = {
 	        target = LIT
 	        attacker_goal = { casus_belli = conquest_low }
 			defender_goal = { casus_belli = status_quo }
         }
         set_country_flag = seized_lithuania
+
+        ai_will_do = {
+            factor = 0.6
+        }
     }
 
     option = {
@@ -485,7 +497,16 @@ country_event = {
                 id = 232005
                 days = 7
             }
+        }
+
+        ai_will_do = {
+            factor = 0.4
         } 
+    }
+
+    option = {
+        name = "We will abide by the treaty"
+        set_country_flag = respected_riga
     }
 }
 
@@ -614,7 +635,12 @@ country_event = {
             }
             leave_alliance = LIT
         }
-        badboy = -7.5
+        badboy = 2.5
+        casus_belli = {
+            target = LIT
+            type = conquest_low
+            months = 12
+        }
         war = {
 	        target = LIT
 	        attacker_goal = { casus_belli = conquest_low }

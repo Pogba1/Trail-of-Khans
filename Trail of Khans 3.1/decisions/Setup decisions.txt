@@ -74,6 +74,7 @@ political_decisions = {
                     duration = -1
                 }
             }
+            set_country_flag = the_hansa
         }
     }
 }

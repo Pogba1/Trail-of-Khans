@@ -219,3 +219,74 @@ country_event = {
 		}
 	}
 }
+
+country_event =  {
+	id = 135555
+	title = "EVTNAME13555"
+	desc = "EVTDESC13555"
+
+	trigger = {
+		tag = LUB
+		has_global_flag = abolished_baltic_monopoly
+		government = merchant_republic
+		NOT = {
+			has_global_flag = baltic_monopoly
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Impossible..."
+		prestige = -30
+		clr_country_flag = the_hansa
+
+		government = democracy
+		political_reform = universal_voting
+		political_reform = all_trade_unions
+		political_reform = free_press
+		political_reform = secret_ballots
+		political_reform = population_equal_weight
+		release = POM
+		POM = {
+			all_core = {
+				limit = {
+					is_core = LUB
+				}
+				remove_core = LUB
+			}
+		}
+		release = EST 
+		EST = {
+			all_core = {
+				limit = {
+					is_core = LUB
+				}
+				remove_core = LUB
+			}
+		}
+		release = LAT
+		LAT = {
+			all_core = {
+				limit = {
+					is_core = LUB
+				}
+				remove_core = LUB
+			}
+		}
+		release = DEN
+		DEN = {
+			all_core = {
+				limit = {
+					is_core = LUB
+				}
+				remove_core = LUB
+			}
+		}
+		365 = {
+			secede_province = LIT
+		}
+	}
+}

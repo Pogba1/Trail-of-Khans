@@ -19,7 +19,7 @@ leader = {
 
 army = {
 	name = "I. Korps"
-	location = 621
+	location = 619
 	regiment = {
 		name = "1st Infantry Brigade"		
 		type = infantry
@@ -117,6 +117,62 @@ army = {
 	}
 }
 
+army = {
+	name = "III. Korps"
+	location = 631
+	regiment = {
+		name = "1st Infantry Brigade"
+		type = infantry
+		home = 625
+	}
+	regiment = {
+		name = "2nd Infantry Brigade"
+		type = infantry
+		home = 625
+	}
+	regiment = {
+		name = "3rd Infantry Brigade"
+		type = infantry
+		home = 625
+	}
+	regiment = {
+		name = "4th Infantry Brigade"
+		type = infantry
+		home = 627
+	}
+	regiment = {
+		name = "1st Hussar Brigade"
+		type = hussar
+		home = 627
+	}
+	regiment = {
+		name = "1st Artillery Brigade"
+		type = artillery
+		home = 631
+	}
+	regiment = {
+		name = "2nd Artillery Brigade"
+		type = artillery
+		home = 631
+	}
+	regiment = {
+		name = "3rd Artillery Brigade"
+		type = artillery
+		home = 631
+	}
+	regiment = {
+		name = "4th Artillery Brigade"
+		type = artillery
+		home = 632
+	}
+	regiment = {
+		name = "5th Artillery Brigade"
+		type = artillery
+		home = 688
+	}
+}
+
+	
 navy = {
 	name = "Küstenwache"
 	location = 736

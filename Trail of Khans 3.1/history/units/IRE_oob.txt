@@ -1,6 +1,14 @@
 #Sphere of Influence
 #GPs
-SCO = {value = 100}
+SCO = {value = -100}
+
+ENG = {
+    value = 100
+    level = 5
+    influence_value = 50
+}
+
+
 leader = {
     name = "Iarla Rogers"
     picture = eng_adm_cochrane
