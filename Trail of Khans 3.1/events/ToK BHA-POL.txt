@@ -704,7 +704,7 @@ country_event = {
             }
             scaled_militancy = {
                 ideology = reactionary
-                factor = 0
+                factor = -3
             }
         }
         any_pop = {
@@ -718,7 +718,7 @@ country_event = {
             }
             scaled_consciousness = {
                 ideology = reactionary
-                factor = 0
+                factor = -4
             }
         }
     }
@@ -865,5 +865,130 @@ country_event = {
                 days = 0
             }
         }
+    }
+}
+
+#National Anthem of Poland
+
+country_event = {
+    id = 18814
+    title = "EVTNAME18814"
+    desc = "EVTDESC18814"
+
+    trigger = {
+        OR = {
+            tag = POL
+            tag = PLC
+        }
+        NOT = {
+            has_country_flag = national_anthem_poland
+        }
+        date = 1843
+    }
+
+    mean_time_to_happen = {
+        months = 36
+    }
+
+    option = {
+        name = "Bogurodzica, coronation anthem of the Jagiellonian crown"
+        set_country_flag = national_anthem_poland
+        any_pop = {
+            scaled_militancy = {
+                ideology = liberal
+                factor = 1
+            }
+            scaled_militancy = {
+                ideology = conservative
+                factor = -2
+            }
+            scaled_militancy = {
+                ideology = reactionary
+                factor = -3
+            }
+        }
+        any_pop = {
+            scaled_consciousness = {
+                ideology = liberal
+                factor = 3
+            }
+            scaled_consciousness = {
+                ideology = conservative
+                factor = -4
+            }
+            scaled_consciousness = {
+                ideology = reactionary
+                factor = -2
+            }
+        }
+        prestige = 10
+    }
+
+    option = {
+        name = "Boze, cos Polske, popular parade song"
+        set_country_flag = national_anthem_poland
+        any_pop = {
+            scaled_militancy = {
+                ideology = liberal
+                factor = -3
+            }
+            scaled_militancy = {
+                ideology = conservative
+                factor = 1
+            }
+            scaled_militancy = {
+                ideology = reactionary
+                factor = 2
+            }
+        }
+        any_pop = {
+            scaled_consciousness = {
+                ideology = liberal
+                factor = -4
+            }
+            scaled_consciousness = {
+                ideology = conservative
+                factor = 2
+            }
+            scaled_consciousness = {
+                ideology = reactionary
+                factor = 3
+            }
+        }
+        prestige = 5
+    }
+
+    option = {
+        name = "Gaude Mater Polonia, Saint Stanislaus' hymn"
+        set_country_flag = national_anthem_poland
+        any_pop = {
+            scaled_militancy = {
+                ideology = liberal
+                factor = 1
+            }
+            scaled_militancy = {
+                ideology = conservative
+                factor = -3
+            }
+            scaled_militancy = {
+                ideology = reactionary
+                factor = -2
+            }
+        }
+        any_pop = {
+            scaled_consciousness = {
+                ideology = liberal
+                factor = 3
+            }
+            scaled_consciousness = {
+                ideology = conservative
+                factor = -4
+            }
+            scaled_consciousness = {
+                ideology = reactionary
+                factor = -2
+            }
+        }
+        prestige = 10
     }
 }
