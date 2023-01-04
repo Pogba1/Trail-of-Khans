@@ -123,3 +123,5 @@ end_baltic_monopoly_title;End the Hanseatic monopoly;x
 end_baltic_monopoly_desc; ;x
 unite_plc_title;Unite the Polish Empire;x
 unite_plc_desc; ;x
+remove_ai_immigration_title;§R Lower AI immigration;x
+remove_ai_immigration_desc;§R Taking this option will lower immigration for all AI controlled countries in the world, this decision is irreversable.;x
