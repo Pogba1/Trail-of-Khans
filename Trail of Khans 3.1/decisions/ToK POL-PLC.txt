@@ -1,4 +1,46 @@
 political_decisions = {
+
+	unite_plc = {
+		potential = {
+			tag = POL
+			has_global_flag = polish_victory
+			NOT = {
+				PLC = {
+					exists = yes
+				}
+			}
+		}
+		allow = {
+			NOT = {
+				has_country_modifier = czech_administrative_efforts
+			}
+			is_greater_power = yes
+			war = no
+			PLC = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+							is_greater_power = no
+							is_mobilised = no
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			country_event = {
+				id = 192803
+			}
+		}
+	}
+
 	czech_integration = {
 		potential = {
 			tag = PLC

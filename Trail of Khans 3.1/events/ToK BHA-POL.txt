@@ -18,7 +18,7 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        days = 7
+        days = 1
     }
     
     option = {
@@ -36,6 +36,7 @@ country_event = {
             name = bohemian_golden_age
             duration = 9125
         }
+        political_reform = four_year_draft
         set_country_flag = bohemian_golden_age
     }
 }
@@ -170,12 +171,15 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        days = 4
+        days = 1
     }
     
     option = {
         name = "Let the Premyslid dynasty go down in history as a failure"
         prestige = 30
+        set_country_flag = wladislaus_triumph
+
+
         any_pop = {
             limit = {
                 has_pop_culture = polish
@@ -209,7 +213,11 @@ country_event = {
             who = BOH
             value = 300
         }
-        set_country_flag = wladislaus_triumph
+        add_country_modifier = {
+            name = czech_administrative_efforts
+            duration = 2920
+        }
+
     }
 }
 
@@ -218,6 +226,8 @@ country_event = {
     id = 192803
     title = "EVTNAME192803"
     desc = "EVTDESC192803"
+
+    is_triggered_only = yes
 
     major = yes
 
@@ -483,7 +493,7 @@ country_event = {
         set_country_flag = seized_lithuania
 
         ai_will_do = {
-            factor = 0.6
+            factor = 60
         }
     }
 
@@ -500,13 +510,17 @@ country_event = {
         }
 
         ai_will_do = {
-            factor = 0.4
+            factor = 40
         } 
     }
 
     option = {
         name = "We will abide by the treaty"
         set_country_flag = respected_riga
+
+        ai_will_do = {
+            factor = 0
+        }
     }
 }
 
@@ -527,7 +541,7 @@ country_event = {
         }
         set_country_flag = defended_lithuania
         ai_chance = {
-            factor = 35
+            factor = 60
         }
     }
     option = {
@@ -539,7 +553,7 @@ country_event = {
         }
         set_country_flag = gave_up_lithuania
         ai_chance = {
-            factor = 45
+            factor = 35
         }
     }
     option = {
@@ -551,7 +565,7 @@ country_event = {
         }
         set_country_flag = abandoned_lithuania
         ai_chance = {
-            factor = 25
+            factor = 15
         }
     }
 }

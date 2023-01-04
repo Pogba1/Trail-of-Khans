@@ -117,9 +117,9 @@ country_migration_target =
 		soldiers = 0.06
 	}
 	modifier = {
-		factor = 4.0
-		THIS = { religion = jewish }
-		any_owned_province = { is_core = ISR }
+		factor = 1.5
+		THIS = { religion = catholic }
+		any_owned_province = { is_core = JER }
 	}
 	modifier = {
         factor = -10.0

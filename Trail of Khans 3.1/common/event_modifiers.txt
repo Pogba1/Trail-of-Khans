@@ -2903,3 +2903,10 @@ uneasy_plc_modifier = {
     non_accepted_pop_militancy_modifier = 0.05
     icon = 4
 }
+
+czech_administrative_efforts = {
+    administrative_efficiency_modifier = -0.05
+    influence_modifier = -0.1
+    prestige = 0.05
+    icon = 14
+}
