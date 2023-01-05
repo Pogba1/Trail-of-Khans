@@ -192,7 +192,6 @@ political_decisions = {
 			}
 		}
 		effect = {
-			prestige = 15
 			change_tag = PLC
 			any_country = {
 				limit = {

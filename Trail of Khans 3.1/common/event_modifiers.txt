@@ -2899,7 +2899,7 @@ wendish_oppression = {
 }
 
 uneasy_plc_modifier = {
-    non_accepted_pop_consciousness_modifier = 0.10
+    non_accepted_pop_consciousness_modifier = 0.05
     non_accepted_pop_militancy_modifier = 0.05
     icon = 4
 }
@@ -2907,6 +2907,6 @@ uneasy_plc_modifier = {
 czech_administrative_efforts = {
     administrative_efficiency_modifier = -0.05
     influence_modifier = -0.1
-    prestige = 0.05
+    prestige = 0.01
     icon = 14
 }
