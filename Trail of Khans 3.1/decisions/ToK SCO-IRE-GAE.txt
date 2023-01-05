@@ -49,6 +49,9 @@ political_decisions = {
 			state_n_government = 1
 			is_greater_power = yes
 			all_core = {
+				NOT = {
+					is_core = FRA
+				}
 				owned_by = THIS
 			}
 		}
@@ -122,6 +125,9 @@ political_decisions = {
 			has_country_flag = hegemony_over_island
 			war = no
 			all_core = {
+				NOT = {
+					is_core = FRA
+				}
 				owned_by = THIS
 			}
 			is_greater_power = yes
@@ -143,7 +149,6 @@ political_decisions = {
 			NOT = {exists = GAE}
 		}
 		allow = {
-			has_country_flag = cores_scotland_ireland
 			all_core = {
 				OR = {
 					owned_by = THIS
@@ -156,6 +161,26 @@ political_decisions = {
 						war = no
 						is_mobilised = no 
 						is_greater_power = no
+					}
+				}
+			}
+			IRE = {
+				all_core = {
+					NOT = {
+						is_core = FRA
+					}
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+							is_mobilised = no 
+							is_greater_power = no
+						}
 					}
 				}
 			}
@@ -208,6 +233,9 @@ political_decisions = {
 		allow = {
 			has_country_flag = cores_ireland_scotland
 			all_core = {
+				NOT = {
+					is_core = FRA
+				}
 				OR = {
 					owned_by = THIS
 					owner = {
@@ -310,11 +338,11 @@ political_decisions = {
 	}
 	cuban_integration = {
 		potential = {
-		OR = {
-			primary_culture = irish
-			tag = GAU
-		}
-			NOT = {has_country_flag = cuban_integration}
+			OR = {
+				primary_culture = irish
+				tag = GAU
+			}
+			NOT = {accepted_culture = cuban}
 		}
 		allow = {
 			war=no
@@ -323,7 +351,7 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = cuban
-			set_country_flag = cuban_integration
+			prestige = -15
 		}
 	
 	}
