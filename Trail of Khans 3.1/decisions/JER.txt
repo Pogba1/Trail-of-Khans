@@ -16,6 +16,26 @@ political_decisions = {
 			any_pop = { limit = {has_pop_culture = mashriqi NOT = {has_pop_religion = catholic}} militancy = 6 consciousness = 1}
 		}
 	}
+	reclaim_antioch = {
+		potential = {
+			tag = JER
+			NOT = {
+				has_country_flag = reclaim_antioch
+			}
+		}
+		allow = {
+			900 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			SVF_894 = {
+				add_core = THIS
+			}
+			prestige = 15
+			set_country_flag = reclaim_antioch
+		}
+	}
 	develop_jer = {
 		potential = {
 		917 = {owned_by = THIS}

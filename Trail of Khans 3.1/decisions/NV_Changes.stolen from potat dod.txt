@@ -16,15 +16,7 @@ political_decisions = {
 		effect = { set_country_flag = nv_change }
 		
 		ai_will_do = { 
-			factor = 1
-			
-			modifier = {
-				factor = 0
-				OR = {
-					is_culture_group = east_asian
-					substate_of = CHI
-				}
-			}
+			factor = 0
 		}
 	}
 
@@ -62,7 +54,7 @@ political_decisions = {
 			nationalvalue = nv_diplomacy
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 7300
 			}
 			any_pop = {
 				scaled_militancy = {
@@ -103,7 +95,7 @@ political_decisions = {
 			nationalvalue = nv_education
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 7300
 			}
 			any_pop = {
 				scaled_militancy = {
@@ -144,7 +136,7 @@ political_decisions = {
 			nationalvalue = nv_order
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 7300
 			}
 			any_pop = {
 				scaled_militancy = {
@@ -185,7 +177,7 @@ political_decisions = {
 			nationalvalue = nv_productivity
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 7300
 			}
 			any_pop = {
 				scaled_militancy = {
@@ -226,7 +218,7 @@ political_decisions = {
 			nationalvalue = nv_equality
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 7300
 			}
 			any_pop = {
 				scaled_militancy = {
@@ -267,7 +259,7 @@ political_decisions = {
 			nationalvalue = nv_liberty
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 7300
 			}
 			any_pop = {
 				scaled_militancy = {

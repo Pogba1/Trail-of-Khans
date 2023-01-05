@@ -273,7 +273,7 @@ new_world_war = {
         war = yes
         exists = yes
     }
-    global_immigrant_attract = -10
+    global_immigrant_attract = -1
     icon = 16
 }
 

@@ -3,12 +3,6 @@ controller = SVF
 add_core = SVF
 add_core = HTY
 add_core = SYR
-add_core = JER
 trade_goods = fruit
 life_rating = 35
 terrain = hills
-
-1861.1.1 = {
-    controller = TUR
-    owner = TUR
-}

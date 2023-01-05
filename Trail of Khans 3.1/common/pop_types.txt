@@ -692,7 +692,7 @@ colonialmigration_chance =
 #general emigration chance - Base chance +1%
 emigration_chance = 
 {
-	factor = 0.5
+	factor = 0.75
 
 ###Positive Factors for Emigration (bad)###
 

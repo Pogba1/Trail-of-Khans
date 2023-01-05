@@ -113,11 +113,6 @@ country_migration_target =
 		unemployment = 0.5
 	}
 	modifier = {
-		factor = 1.5
-		THIS = { religion = catholic }
-		any_owned_province = { is_core = JER }
-	}
-	modifier = {
         factor = -10.0
 		has_global_flag = fuck_ai_immigration
 		ai = yes
