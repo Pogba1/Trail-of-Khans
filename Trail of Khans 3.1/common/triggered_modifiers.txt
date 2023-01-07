@@ -362,7 +362,7 @@ trinket_health_care_funding = {
         civilized = yes
         health_care = trinket_health_care
         NOT = {
-            social_spending = 20
+            social_spending = 0.20
         }
     }
     poor_luxury_needs = 0.025
@@ -375,7 +375,7 @@ low_health_care_funding = {
         civilized = yes
         health_care = low_health_care
         NOT = {
-            social_spending = 40
+            social_spending = 0.40
         }
     }
     poor_luxury_needs = 0.05
@@ -388,7 +388,7 @@ acceptable_health_care_funding = {
         civilized = yes
         health_care = acceptable_health_care
         NOT = {
-            social_spending = 60
+            social_spending = 0.60
         }
     }
     poor_luxury_needs = 0.075
@@ -401,7 +401,7 @@ good_health_care_funding = {
         civilized = yes
         health_care = good_health_care
         NOT = {
-            social_spending = 100
+            social_spending = 1
         }
     }
     poor_luxury_needs = 0.1
