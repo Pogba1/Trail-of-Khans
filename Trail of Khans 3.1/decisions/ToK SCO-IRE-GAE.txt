@@ -149,6 +149,7 @@ political_decisions = {
 			NOT = {exists = GAE}
 		}
 		allow = {
+			has_country_flag = cores_scotland_ireland
 			all_core = {
 				OR = {
 					owned_by = THIS
@@ -161,23 +162,6 @@ political_decisions = {
 						war = no
 						is_mobilised = no 
 						is_greater_power = no
-					}
-				}
-			}
-			IRE = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-							OR = {
-								is_vassal = no
-								vassal_of = THIS
-							}
-							war = no
-							is_mobilised = no 
-							is_greater_power = no
-						}
 					}
 				}
 			}
@@ -219,6 +203,9 @@ political_decisions = {
 			}
 			IRE = {
 				all_core = {
+					limit = {
+						is_core = GAE
+					}
 					remove_core = IRE
 				}
 			}
