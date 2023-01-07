@@ -3278,66 +3278,6 @@ political_decisions = {
         }
     }
 
-    ghost_units_cleanup = {
-        alert = no
-        potential = {
-            #civilized = yes
-            ai = yes
-            NOT = { has_country_modifier = law_changed_by_force }
-            NOT = {
-                has_global_flag = cleaning_up_ghosts
-                has_global_flag = disabled_mobilization_fix
-            }
-            capital_scope = { province_control_days = 150 }
-            OR = {
-                any_owned_province = {
-                    province_control_days = 120
-                    any_core = {
-                        OR = {
-                            is_mobilised = yes
-                            total_amount_of_ships = 1
-                        }
-                        capital_scope = { NOT = { province_control_days = 120 } }
-                        has_country_flag = existing_country
-                        exists = no
-                        is_greater_power = no
-                    }
-                }
-                any_neighbor_country = {
-                    ai = no
-                    any_owned_province = {
-                        province_control_days = 120
-                        any_core = {
-                            OR = {
-                                is_mobilised = yes
-                                total_amount_of_ships = 1
-                            }
-                            capital_scope = { NOT = { province_control_days = 120 } }
-                            has_country_flag = existing_country
-                            exists = no
-                            is_greater_power = no
-                        }
-                    }
-                }
-            }
-        }
-
-        allow = {
-            war = no
-        }
-
-        effect = {
-            set_global_flag = cleaning_up_ghosts
-            set_country_flag = cleaning_up_ghosts_country
-            add_country_modifier = { name = law_changed_by_force duration = 30 }
-            3319 = { secede_province = THIS }
-            3320 = { secede_province = THIS }
-            3321 = { secede_province = THIS }
-            608 = { secede_province = THIS }
-            TMT = { country_event = 6016821 }
-        }
-    }
-
     ghost_country_absorb = {
         alert = no
         potential = {
