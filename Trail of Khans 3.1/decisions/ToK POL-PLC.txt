@@ -698,4 +698,52 @@ political_decisions = {
 			add_accepted_culture = hungarian
 		}
 	}
+
+	the_bohemian_dream = {
+		potential = {
+			tag = PLC
+			has_country_flag = wladislaus_refuses
+			NOT = {
+				has_country_flag = bohemian_dream
+			}
+		}
+		allow = {
+			is_greater_power = yes
+			war = no
+			BOH = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			badboy = 15
+			prestige = 10
+			set_country_flag = bohemian_dream
+
+			BOH = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = polish
+					OR = {
+						strata = rich
+						strata = middle
+					}
+				}
+				militancy = -1
+				consciousness = -3
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = czech
+				}
+				militancy = 3
+				consciousness = 5
+			}
+		}
+	}
 }
