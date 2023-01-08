@@ -264,19 +264,6 @@ hormuz_strait = {
     icon = 16
 }
 
-new_world_war = {
-    trigger = {
-        OR = {
-            ai = no
-            ai = yes
-        }
-        war = yes
-        exists = yes
-    }
-    global_immigrant_attract = -1
-    icon = 16
-}
-
 #infamy_sanctions = {
 #	trigger = {
 #	exists = yes
@@ -360,7 +347,12 @@ trinket_health_care_funding = {
     trigger = {
         exists = yes
         civilized = yes
-        health_care = trinket_health_care
+        OR = {
+            health_care = trinket_health_care
+            health_care = low_health_care
+            health_care = acceptable_health_care
+            health_care = good_health_care
+        }
         NOT = {
             social_spending = 0.20
         }
@@ -373,7 +365,11 @@ low_health_care_funding = {
     trigger = {
         exists = yes
         civilized = yes
-        health_care = low_health_care
+        OR = {
+            health_care = low_health_care
+            health_care = acceptable_health_care
+            health_care = good_health_care
+        }
         NOT = {
             social_spending = 0.40
         }
@@ -386,7 +382,10 @@ acceptable_health_care_funding = {
     trigger = {
         exists = yes
         civilized = yes
-        health_care = acceptable_health_care
+        OR = {
+            health_care = acceptable_health_care
+            health_care = good_health_care
+        }
         NOT = {
             social_spending = 0.60
         }
