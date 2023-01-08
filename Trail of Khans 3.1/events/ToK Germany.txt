@@ -157,9 +157,15 @@ country_event = {
 		name = "These demands mean war!"
 		release_vassal = UCA
 		
+		badboy = 7.5
+
+		add_casus_belli = {
+			target = UCA
+			type = make_puppet
+			months = 12
+		}
 		war = {
 			target = UCA
-			
 			attacker_goal = {
 				casus_belli = make_puppet
 			}
