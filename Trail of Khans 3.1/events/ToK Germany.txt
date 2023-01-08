@@ -206,7 +206,7 @@ country_event = {
 		prestige = 10
 		money = 40000
 		ai_will_do = {
-			factor = 0.75
+			factor = 60
 		}
 	}
 	
@@ -221,7 +221,7 @@ country_event = {
 			consciousness = 5
 		}
 		ai_will_do = {
-			factor = 0.25
+			factor = 40
 		}
 	}
 }
