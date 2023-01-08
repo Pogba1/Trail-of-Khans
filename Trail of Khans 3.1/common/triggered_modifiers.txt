@@ -347,12 +347,7 @@ trinket_health_care_funding = {
     trigger = {
         exists = yes
         civilized = yes
-        OR = {
-            health_care = trinket_health_care
-            health_care = low_health_care
-            health_care = acceptable_health_care
-            health_care = good_health_care
-        }
+        health_care = trinket_health_care
         NOT = {
             social_spending = 0.20
         }
@@ -365,11 +360,7 @@ low_health_care_funding = {
     trigger = {
         exists = yes
         civilized = yes
-        OR = {
-            health_care = low_health_care
-            health_care = acceptable_health_care
-            health_care = good_health_care
-        }
+        health_care = low_health_care
         NOT = {
             social_spending = 0.40
         }
@@ -382,10 +373,7 @@ acceptable_health_care_funding = {
     trigger = {
         exists = yes
         civilized = yes
-        OR = {
-            health_care = acceptable_health_care
-            health_care = good_health_care
-        }
+        health_care = acceptable_health_care
         NOT = {
             social_spending = 0.60
         }
