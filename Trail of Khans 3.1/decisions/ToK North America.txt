@@ -73,12 +73,28 @@ political_decisions = {
 				limit = {OR = {in_sphere = THIS vassal_of = THIS}capital_scope = {continent = north_america} NOT = {primary_culture = mexican}}
 				annex_to = THIS
 			}
-			LOU = {all_core = {add_core = NAM}}
-			QUE = {all_core = {add_core = NAM}}
+			LOU = {
+				all_core = {
+					add_core = NAM
+					remove_core = LOU
+				}
+			}
+			QUE = {
+				all_core = {
+					add_core = NAM
+					remove_core = QUE
+				}
+			}
 			CEE = {
 				all_core = {
 					add_core = NAM
 					remove_core = CEE
+				}
+			}
+			IRO = {
+				all_core = {
+					add_core = NAM
+					remove_core = IRO
 				}
 			}
 		}
