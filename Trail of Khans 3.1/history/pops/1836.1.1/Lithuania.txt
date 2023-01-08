@@ -1,6 +1,6 @@
 
 #Lithuania Region (1272000)
-#under the rule of Russia in 1836
+#under the rule of Lithuania in 1836
 #Vilnius (168000/42000 POPS)
 360 = {
     aristocrats = {
@@ -18,7 +18,7 @@
     bureaucrats = {
         culture = lithuanian
         religion = catholic
-        size = 375
+        size = 937
     }
 
     clergymen = {
@@ -36,13 +36,13 @@
     soldiers = {
         culture = lithuanian
         religion = catholic
-        size = 1100
+        size = 3300
     }
 
     farmers = {
         culture = lithuanian
         religion = catholic
-        size = 12400
+        size = 37200
     }
 
     aristocrats = {
@@ -50,12 +50,7 @@
         religion = catholic
         size = 450
     }
-
-    bureaucrats = {
-        culture = polish
-        religion = catholic
-        size = 562
-    }
+  
 
     officers = {
         culture = polish
@@ -454,26 +449,26 @@
     }
 
     clergymen = {
-        culture = russian
-        religion = orthodox
+        culture = lithuanian
+        religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = russian
-        religion = orthodox
+        culture = lithuanian
+        religion = catholic
         size = 100
     }
 
     soldiers = {
-        culture = russian
-        religion = orthodox
+        culture = lithuanian
+        religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = russian
-        religion = orthodox
+        culture = lithuanian
+        religion = catholic
         size = 1825
     }
 }
