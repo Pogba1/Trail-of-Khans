@@ -589,7 +589,7 @@ wool_fabric_factory = {
 		cement = 200
 		lumber = 200
 	}
-	time = 365
+	time = 100
 	visibility = yes
 	onmap = no
 		

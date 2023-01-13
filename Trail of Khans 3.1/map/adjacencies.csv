@@ -149,8 +149,11 @@ From;To;Type;Through;Data;Comment
 #
 # Impassables
 #
+1252;1328;impassable;0;0;scare mountain
 1326;1589;impassable;0;0;scary mountain
 1326;1592;impassable;0;0;scary mountain
+1326;1328;impassable;0;0;scary mountain
+1328;1329;impassable;0;0;scary mountain
 1328;1589;impassable;0;0;scary mountain
 1329;1589;impassable;0;0;scary mountain
 1329;1590;impassable;0;0;scary mountain

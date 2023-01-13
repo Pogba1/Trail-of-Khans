@@ -1,0 +1,25 @@
+;;;;;;;;;;;;;;x,,,
+become_host_nation_title;Become the Host Nation;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+become_host_nation_desc;Only click this decision if you are the host/GM!;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+show_host_decisions_title;Show Host Decisions;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+show_host_decisions_desc;Click to show all host decisions;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+hide_host_decisions_title;Hide Host Decisions;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+hide_host_decisions_desc;Click to hide all host decisions;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+ally_all_countries_title;Ally All Countries;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+ally_all_countries_desc;Click to ally all countries in the game;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+unally_all_countries_title;Unally All Countries;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+unally_all_countries_desc;Click to unally all countries in the game;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+get_militaryaccess_with_all_countries_title;Grant Military Access to All Countries;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+get_militaryaccess_with_all_countries_desc;Click to grant military access to all countries in the game. Manually remove the mil access given to the country or countries you want to set as targets for the decisions.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+remove_militaryaccess_with_all_countries_title;Remove Mil Access Given to All Countries;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+remove_militaryaccess_with_all_countries_desc;Click to remove military access given to all countries in the game;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+transfer_host_nation_title;Transfer Host Nation;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+transfer_host_nation_desc;Click to transfer the host nation flag to the target nation.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+kick_players_no_milaccess_title;Kick All Target Players;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+kick_players_no_milaccess_desc;Click to kick all target player-countries from the game.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+unsige_country_no_milaccess_title;Unsiege All Target Countries;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+unsige_country_no_milaccess_desc;Click to unoccupy all non-rebel occupations in target countries.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+choose_country_to_siege_title;Choose a Target Country to be the Occupier;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+choose_country_to_siege_desc;Click to pick a target country to be the occupier, after clicking this a new decision will unlock allowing you to choose which countries will be sieged by this target country.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+siege_country_title;Siege All Target Countries to the Occupier;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+siege_country_desc;Click this to siege all target countries to the occupier you picked earlier;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;

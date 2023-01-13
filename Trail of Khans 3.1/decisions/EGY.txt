@@ -2,26 +2,26 @@ political_decisions = {
 	modernize_nile_irrigation = {
 	picture = vietnam_coffee
 	potential = {
-	OR={
-	tag = EGY
-	tag = ARA
-	tag = CLP
-	tag = ADL
-	tag = JER
-	tag = BYZ
-	tag = SVF
-	}
-	EGY_1745={owned_by = THIS}
-	NOT = {has_global_flag = modernize_nile_irrigation}
+		OR={
+			tag = EGY
+			tag = ARA
+			tag = CLP
+			tag = ADL
+			tag = JER
+			tag = BYZ
+			tag = SVF
+		}
+		EGY_1745={owned_by = THIS}		
+		NOT = {has_global_flag = modernize_nile_irrigation}
 		1766={owned_by = THIS}
-        1768={owned_by = THIS}
-        1767={owned_by = THIS}
-        1769={owned_by = THIS}
-        2559={owned_by = THIS}
-        1762={owned_by = THIS}
-        1764={owned_by = THIS}
-        1765={owned_by = THIS}
-        1763={owned_by = THIS}
+		1768={owned_by = THIS}
+		1767={owned_by = THIS}
+		1769={owned_by = THIS}
+		2559={owned_by = THIS}
+		1762={owned_by = THIS}
+		1764={owned_by = THIS}
+		1765={owned_by = THIS}
+		1763={owned_by = THIS}
 	}
 	allow = {
 	high_pressure_steam_engine = 1

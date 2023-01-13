@@ -1,0 +1,58 @@
+country_event = {
+    id = 10000000
+    title = "Money Setup"
+    desc = " "
+
+    trigger = {
+        tag = SIK
+        NOT = {
+            has_global_flag = money_setup
+        }
+    } 
+    
+    mean_time_to_happen = {
+        days = 0
+    }
+
+    option = {
+        name = "Cool"
+        set_global_flag = money_setup
+
+        NET = {
+            treasury = 200000
+        }
+        FRA = {
+            treasury = 200000
+        }
+        IRE = {
+            treasury = 150000
+        }
+        SCO = {
+            treasury = 150000
+        }
+        POL = {
+            treasury = 100000
+        }
+        LUB = {
+            treasury = 100000
+        }
+        NOV = {
+            treasury = 100000
+        }
+        any_country = {
+            limit = {
+                exists = yes
+                is_secondary_power = yes
+            }
+            treasury = 40000
+        }
+        any_country = {
+            limit = {
+                exists = yes
+                is_secondary_power = no
+                is_greater_power = no
+            }
+            treasury = 20000
+        }
+    }
+}
