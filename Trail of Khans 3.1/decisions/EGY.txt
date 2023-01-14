@@ -12,7 +12,7 @@ political_decisions = {
 			tag = SVF
 		}
 		EGY_1745={owned_by = THIS}		
-		NOT = {has_global_flag = modernize_nile_irrigation}
+		NOT = {has_country_flag = modernize_nile_irrigation}
 		1766={owned_by = THIS}
 		1768={owned_by = THIS}
 		1767={owned_by = THIS}
@@ -24,8 +24,8 @@ political_decisions = {
 		1763={owned_by = THIS}
 	}
 	allow = {
-	high_pressure_steam_engine = 1
-	medicine = 1
+	compound_steam_engines = 1
+	artificial_fertilizers = 1
 	OR = {
 		1766 = {is_colonial = no}
 		1768 = {is_colonial = no}
@@ -39,23 +39,23 @@ political_decisions = {
 	 }
 	}
 	effect = {
-	1766 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1768 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1767 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1769 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	2559 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1762 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1764 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1765 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1763 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1745 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1749 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1748 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1746 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1750 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1747 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	1751 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
-	set_global_flag = modernize_nile_irrigation
+	1766 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1768 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1767 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1769 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	2559 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1762 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1764 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1765 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1763 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1745 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1749 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1748 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1746 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1750 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1747 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	1751 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+	set_country_flag = modernize_nile_irrigation
 	}
 	ai_will_do = {					
 		factor = 1
