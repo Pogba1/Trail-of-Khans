@@ -1320,6 +1320,85 @@ iranian_turanian = {
             Shirazi Tabrizi Tahmasebi Zahedi
             }
     }
+	
+	hazara = {
+        color = {108 203 223}
+        first_names = {
+            Ali Azim Jafar Mohammad Riza
+        }
+        last_names = {
+            Beg Khan
+        }
+    }
+	
+    pashtun = {
+        color = {199 151 230}
+
+        first_names = {
+            Abdallah "Abd al-Rahman" "Abd al-Quddus" Afzal Ahmad Akbar Akram Ayyub Fath "Firuz al-Din" "Habib Alllah" Haydar Humayun "Inayat Allah" Ishaq Jamal Kamran Kohandil Mahmud Mahsud Mihrdil Muhammad Murad Nadir "Nasr Allah" Omar Qaysar Shahpur "Sher Ali" Shuja Suleyman Timur Yaqub Zaman
+        }
+        last_names = {
+            Khan Ghilzai Adamkhel Afridi Sarbanri Abdali Yusufzai Omarkhel Pashtun Dilazak Atcha Babar Burki Bangash Bannuchi Chamkanni "Daulat Khel" "isa Khel" Davi Durrani Edo-Khel Gandapur Gujjar "Hafiz Khel" Jadoon Jahangiri Kakakhel Khakwani Kakar Kakazai Khalil Kharoti Khattak Khudiadadzai Khulozai Kuchelai Kuchis Kundi Lodhi Mian "Maghdud Khel" "Mahmud Khel" Tanoli Malik Mughal "Mahsud Khel" Mamund Manduri Marwat Mashwanis Mohamedzai Mohmand Mullagori Niazi Noorzai Orakzai Popalzai Qazi Shinwari Sadozai Salarzai Sarbans Shilmani Sulemani Shirani Sumbal Suri Swati Tareen Tarkani Tahirkheli Tokhi Turkhel "Umar Khel" Umarzai "Uthman khel" Wur "Yousafzai" "Yusaf Khel"
+        }
+        radicalism = 35
+
+    }
+    baluchi = {
+        color = {132 70 171}
+        first_names = {
+            Abdullah Ahmad Azam Khudadad
+            Mehrab Mohammad Muhabbat
+            Nasir Nawaz
+            Samandar Sherdil
+        }
+        last_names = {
+            Khan
+        }
+    }
+    turkmen = {
+        color = {192 150 190}
+        first_names = {
+            Ahmed Haydar Mehmed Murad Nurberdi Qilich
+        }
+        last_names = {
+            Beg Khan
+        }
+    }
+
+    gypsy = {
+    color = {16 102 163}
+        first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
+
+        last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
+        radicalism = 1
+    }
+}
+
+mongol_turkic = {
+	leader = asian
+	is_overseas = no
+	unit = ChineseGC
+
+    mongol = {
+        color = {230 230 44}
+        first_names = {
+               Peljidiin Balingiin Sodnomyn Kubilai Baterdene Dogsomyn Damdin Khorloogiin Dambyan
+               Gonchigjalzangiin Badamdorj Chingis Otgonbayar Batbayar }
+
+        last_names = {
+               Genden Amar Tserendorj Tomorbaatar Damdinbazar Bodoo Sukhbaatar Jamyan Choibalsan Chagdarjav
+        }
+    }
+	
+    tatar = {
+        color = {45 87 99}
+        first_names = {
+            Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+        }
+        last_names = {
+            Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+        }
+    }
     uzbek = {
         color = {152 67 56}
         first_names = {
@@ -1375,84 +1454,22 @@ iranian_turanian = {
             Beg Khan
             }
     }
+    manchu = {
+        color = {245 255 160}
+        first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
+        }
+        last_names = { Zhanthai Tiemei thaigzhi Linge Xiangying Xingde Kang'an
+        }
+    }
+	union = MGL
+}	
+
 	
-	hazara = {
-        color = {108 203 223}
-        first_names = {
-            Ali Azim Jafar Mohammad Riza
-        }
-        last_names = {
-            Beg Khan
-        }
-    }
-	
-    pashtun = {
-        color = {199 151 230}
-
-        first_names = {
-            Abdallah "Abd al-Rahman" "Abd al-Quddus" Afzal Ahmad Akbar Akram Ayyub Fath "Firuz al-Din" "Habib Alllah" Haydar Humayun "Inayat Allah" Ishaq Jamal Kamran Kohandil Mahmud Mahsud Mihrdil Muhammad Murad Nadir "Nasr Allah" Omar Qaysar Shahpur "Sher Ali" Shuja Suleyman Timur Yaqub Zaman
-        }
-        last_names = {
-            Khan Ghilzai Adamkhel Afridi Sarbanri Abdali Yusufzai Omarkhel Pashtun Dilazak Atcha Babar Burki Bangash Bannuchi Chamkanni "Daulat Khel" "isa Khel" Davi Durrani Edo-Khel Gandapur Gujjar "Hafiz Khel" Jadoon Jahangiri Kakakhel Khakwani Kakar Kakazai Khalil Kharoti Khattak Khudiadadzai Khulozai Kuchelai Kuchis Kundi Lodhi Mian "Maghdud Khel" "Mahmud Khel" Tanoli Malik Mughal "Mahsud Khel" Mamund Manduri Marwat Mashwanis Mohamedzai Mohmand Mullagori Niazi Noorzai Orakzai Popalzai Qazi Shinwari Sadozai Salarzai Sarbans Shilmani Sulemani Shirani Sumbal Suri Swati Tareen Tarkani Tahirkheli Tokhi Turkhel "Umar Khel" Umarzai "Uthman khel" Wur "Yousafzai" "Yusaf Khel"
-        }
-        radicalism = 35
-
-    }
-    baluchi = {
-        color = {132 70 171}
-        first_names = {
-            Abdullah Ahmad Azam Khudadad
-            Mehrab Mohammad Muhabbat
-            Nasir Nawaz
-            Samandar Sherdil
-        }
-        last_names = {
-            Khan
-        }
-    }
-    turkmen = {
-        color = {192 150 190}
-        first_names = {
-            Ahmed Haydar Mehmed Murad Nurberdi Qilich
-        }
-        last_names = {
-            Beg Khan
-        }
-    }
-    tatar = {
-        color = {45 87 99}
-        first_names = {
-            Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
-        }
-        last_names = {
-            Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
-        }
-        radicalism = 10
-    }
-
-    gypsy = {
-    color = {16 102 163}
-        first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
-
-        last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
-        radicalism = 1
-    }
-}
 
 central_asian = {
     leader = asian
     is_overseas = no
     unit = AsianGC
-    mongol = {
-        color = {230 230 44}
-        first_names = {
-               Peljidiin Balingiin Sodnomyn Kubilai Baterdene Dogsomyn Damdin Khorloogiin Dambyan
-               Gonchigjalzangiin Badamdorj Chingis Otgonbayar Batbayar }
-
-        last_names = {
-               Genden Amar Tserendorj Tomorbaatar Damdinbazar Bodoo Sukhbaatar Jamyan Choibalsan Chagdarjav
-        }
-    }
 
     siberian = {
         color = {40 240 240}
@@ -1771,13 +1788,6 @@ southeast_asian = {
 east_asian = {
     leader = asian
     unit = ChineseGC
-    manchu = {
-        color = {245 255 160}
-        first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
-        }
-        last_names = { Zhanthai Tiemei thaigzhi Linge Xiangying Xingde Kang'an
-        }
-    }
     beifaren = {
         color = {145 30 30}
         first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu

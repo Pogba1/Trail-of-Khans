@@ -176,7 +176,7 @@ RUS_345 = { 345 346 347 348 } #Turku
 
 DEN_367 = { 367 366 368 2557 } #Jylland
 
-HOL_369 = { 369 530 529 533 } #Holstein
+HOL_369 = { 369 530 528 529 533 } #Holstein
 
 SCH_370 = { 370 371 } #Schleswig
 
@@ -270,7 +270,7 @@ POR_2134 = { 2134 2135 2136 } #Macaronesia
 
 ### Germany & Switzerland
 
-HAN_528 = { 528 531 532 535 539 } #Lower Elbe
+HAN_528 = { 531 532 535 539 } #Lower Elbe
 
 HAN_534 = { 534 536 537 585 } #Hannover
 
@@ -504,11 +504,11 @@ YEM_1412 = { 1412 1173 1175 1176 1177 } #Aden
 
 YEM_1178 = { 1178 1179 1180 } #Sanaa
 
-KOK_1190 = { 1189 1190 1201 1203 1207 1208 } #Kirghizia
+KOK_1190 = { 1189 1190 1201 1203 1207 1208 1210 } #Kirghizia
 
 KHI_1191 = { 1191 1192 1195 1198 1199 1200 1202 29 } #Uzbekia
 
-AFG_1209 = { 1209 1212 1213 1211 1216 1210 } #North Afghanistan - Former Pashtunistan
+AFG_1209 = { 1209 1212 1213 1211 1216 } #North Afghanistan - Former Pashtunistan
 
 AFG_1214 = { 1214 1215 1217 2133 } #South Afghanistan - Former Kandahar
 
@@ -571,7 +571,9 @@ RUS_1020 = { 1020 1027 1028 1030 } #Kazan
 
 RUS_1026 = { 1026 2689 1029 1031 2700 } #Perm
 
-RUS_1037 = { 1037 1038 1025 1021 1033 1035 } #Tartaria
+RUS_1037 = { 1037 1025 1021 } #Tartaria
+
+RUS_1038 = { 1038 1043 1044 1060 } #Novo Uzensk
 
 RUS_1041 = { 1041 1036 1040 1039 } #Astrakhan
 
@@ -579,7 +581,7 @@ RUS_1048 = { 1048 1049 1050 1051 1056 } #Circassia
 
 RUS_1052 = { 1052 1053 1054 1055 1057 } #North Caucasia
 
-RUS_1060 = { 1060 1044 1042 1032 1034 1043 } #Samara
+RUS_1060 = { 1032 1033 1034 1035 1042 } #Samara
 
 RUS_1064 = { 1064 1066 1061 } #Tobolsk
 

@@ -23,50 +23,78 @@ political_decisions = {
 				primary_culture = tatar
 				primary_culture = manchu
 			}
-			NOT = {exists = MGL}
+			NOT = {
+				exists = MGL
+			}
 		}
 		allow = {
-			1040 = {owned_by = THIS}
-			2702 = {owned_by = THIS}
-			2610 = {owned_by = THIS}
-			1188 = {owned_by = THIS}
-			1596 = {owned_by = THIS}
-			2608 = {owned_by = THIS}
-			1465 = {owned_by = THIS}
-			1534 = {owned_by = THIS}
-			1555 = {owned_by = THIS}
+			MGL = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}
+			}
 		}
 		effect = {
 			OIR = {
 				all_core = {
-					add_core = MGL
+					limit = {
+						is_core = MGL
+					}
+					remove_core = OIR
 				}
-				remove_core = OIR
 			}
 			GOL = {
 				all_core = {
-					add_core = MGL
+					limit = {
+						is_core = MGL
+					}
+					remove_core = GOL
 				}
-				remove_core = GOL
 			}
 			MCK = {
 				all_core = {
+					limit = {
+						is_core = MGL
+					}
+					remove_core = MCK
+				}
+			}
+			TKM = {
+				all_core = {
 					add_core = MGL
 				}
-				remove_core = MCK
 			}
-			TKM = {all_core = {add_core = MGL}}
-			AFG = {all_core = {add_core = MGL}}
+			AFG = {
+				all_core = {
+					add_core = MGL
+				}
+			}
 			set_global_flag = mongolia_formed
 			add_accepted_culture = tatar
 			add_accepted_culture = mongol
 			add_accepted_culture = manchu
+			add_accepted_culture = uzbek
+			add_accepted_culture = kirgiz
+			add_accepted_culture = tajik
+			add_accepted_culture = kazak
 			change_tag = MGL
 			add_country_modifier = {
 				name = mongol_larp 
 				duration = -1 
 			}
-			prestige = 20
+			prestige = 40
 		}
 	}
 	all_welcome_in_the_horde = {
