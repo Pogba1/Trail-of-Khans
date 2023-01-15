@@ -89,17 +89,17 @@ political_decisions = {
 		allow = {
 			667 = {owned_by = THIS}
 			672 = {owned_by = THIS}
-			667 = {
-				NOT = {
+			NOT = {
+				667 = {
 					trade_goods = oil
 				}
 			}
-			672 = {
-				NOT = {
+			NOT = {
+				672 = {
 					trade_goods = oil
 				}
 			}
-			cracking = 1
+			invention = cracking
 		}
 		effect = {
 			667 = {trade_goods = oil}

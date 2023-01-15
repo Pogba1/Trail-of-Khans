@@ -7,6 +7,20 @@ country_event = { #romanian nationalism
     title = "Romanian Nationalism"
     desc = "Horror!"
 	allow_multiple_instances = no	
+	
+    trigger = {
+		year = 1860
+		any_owned_province = {
+			is_core = ROM
+		}
+		NOT = {
+			has_global_flag = romanian_nationalism
+		}
+		NOT = {
+			primary_culture = romanian 
+		}
+    }
+
 	mean_time_to_happen = {
         days = 1
     }
@@ -17,17 +31,12 @@ country_event = { #romanian nationalism
 			limit = {
 				has_pop_culture = romanian
 			}
-			militancy = 8
+			militancy = 5
+			consciousness = 7
 		}
 		set_global_flag = romanian_nationalism
 	}
 	
-    trigger = {
-	year = 1860
-	any_owned_province = {is_core = ROM}
-		NOT = {has_global_flag = romanian_nationalism}
-		NOT = {primary_culture = romanian }
-    }
 }
 
 country_event = { #free romanian research points
@@ -35,31 +44,44 @@ country_event = { #free romanian research points
 	picture = "treaty_of_petropolis"
     title = "Bucharest Circle"
     desc = "EVTDSC400603"
-	allow_multiple_instances = no	
+
+	allow_multiple_instances = no
+
+    trigger = {
+		OR = {
+			primary_culture = romanian
+			is_greater_power = yes
+		}
+		664 = {
+			owned_by = THIS
+		}
+		invention = biologism
+		NOT = {
+			has_global_flag = bucharest_circle
+		}
+	}
+
 	mean_time_to_happen = {
-        days = 10
+        months = 12
     }
 
     option = {
         name = "Interesting."
-		
+		set_global_flag = bucharest_circle
+		prestige = 15
+
+		years_of_research = 1
+		add_country_modifier = {
+			name = students_in_foreign 
+			duration = 3650
+		}
 		any_pop = {
 			limit = {
 				has_pop_type = clergymen
 			}
 			militancy = 1
-			consciousness = 10
+			consciousness = 5
 		}
-		
-		prestige = 1
-		research_points = 7000
-		add_country_modifier = {name =students_in_foreign duration = 3650}
-		set_global_flag = bucharest_circle
 	}
-	
-    trigger = {
-	664 = {owned_by = THIS}
-	year = 1850
-	NOT = {has_global_flag = bucharest_circle}
-	}
+
 }

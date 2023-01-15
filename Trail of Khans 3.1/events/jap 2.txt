@@ -3,28 +3,35 @@ country_event = {
 	picture = "cyprus_convention_result"
     title = "EVTNAME199001"
     desc = "EVTDESC199001"
-	allow_multiple_instances = no	
+
+	allow_multiple_instances = no
+		
+    trigger = {
+		tag = JAP
+		NOT = {
+			has_country_flag = jap_railroad
+		}
+		any_owned = {
+			is_core = JAP
+			has_building = railroad
+		}
+    }
+
 	mean_time_to_happen = {
         days = 1
     }
 
     option = {
         name = "EVTOPTA199001"
-		research_points = 200
-		prestige = 1
+		years_of_research = 0.3
+		prestige = 10
 		any_pop = { 
-		limit = {has_pop_culture = japanese}
-		militancy = -1
+			limit = {
+				has_pop_culture = japanese
+			}
+			militancy = -1
 		}
 		set_country_flag = jap_railroad
     }
-	
-    trigger = {
-	tag = JAP
-	NOT = {has_country_flag = jap_railroad}
-	any_owned = {
-				is_core = JAP
-				has_building = railroad
-			}
-    }
+
 }
