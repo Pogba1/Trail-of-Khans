@@ -80,21 +80,31 @@ political_decisions = {
 	
 	dacian_oil = {
 	picture = tea_production
-	potential = {
-	OR = {tag = ROM tag = DNB}
-	year = 1872
-	667 = {owned_by = THIS}
-	672 = {owned_by = THIS}
-	667 = {NOT = {trade_goods = oil}}
-	672 = {NOT = {trade_goods = oil}}
-	}
-	allow = {
-		year = 1870
-	}
-	effect = {
-	667 = {trade_goods = oil}
-	672 = {trade_goods = oil}
-	}
+		potential = {
+			OR = {
+				tag = ROM 
+				tag = DNB
+			}
+		}
+		allow = {
+			667 = {owned_by = THIS}
+			672 = {owned_by = THIS}
+			667 = {
+				NOT = {
+					trade_goods = oil
+				}
+			}
+			672 = {
+				NOT = {
+					trade_goods = oil
+				}
+			}
+			cracking = 1
+		}
+		effect = {
+			667 = {trade_goods = oil}
+			672 = {trade_goods = oil}
+		}
 	}
 	reform_education = {
 		potential = {

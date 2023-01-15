@@ -23,12 +23,12 @@ political_decisions = {
 					has_global_flag = bohemian_victory
 				}
 			}
-			OR = {
-				is_secondary_power = yes 
-				is_greater_power = yes
-			}
 		}
 		allow = {
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
 			OR = {
 				NOT = {
 					relation = { 
