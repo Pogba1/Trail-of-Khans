@@ -8,9 +8,17 @@ install_jagiellon;Our country has a history of rulership over Bohemia, we have h
 install_jagiellon_setup;Enforce our rule over Bohemia;x
 install_jagiellon_short;Enforce our rule over Bohemia;x
 conquest_low;Minor Conquest;;;;;;;;;;;;;
-conquest_low_desc;Conquer this country;;;;;;;;;;;;;
+conquest_low_desc;Conquer $RECIPIENT$;;;;;;;;;;;;;
 conquest_low_setup;Annex $RECIPIENT$;;;;;;;;;;;;;
 conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;
+conquest_tiny;Tiny Conquest;;;;;;;;;;;;;
+conquest_tiny_desc;Conquer $RECIPIENT$;;;;;;;;;;;;;
+conquest_tiny_setup;Annex $RECIPIENT$;;;;;;;;;;;;;
+conquest_tiny_short;Annex $RECIPIENT$;;;;;;;;;;;;;
+conquest_miniscule;Miniscule Conquest;;;;;;;;;;;;;
+conquest_miniscule_desc;Conquer $RECIPIENT$;;;;;;;;;;;;;
+conquest_miniscule_setup;Annex $RECIPIENT$;;;;;;;;;;;;;
+conquest_miniscule_short;Annex $RECIPIENT$;;;;;;;;;;;;;
 negotiated_transfer_cb;Negotiated Transfer;;;;;;;;;;;;;
 negotiated_transfer_cb_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism;;;;;;;;;;;;;
 negotiated_transfer_cb_short;$RECIPIENT$ transfer $STATE$ to us;;;;;;;;;;;;;
