@@ -657,7 +657,6 @@ mechanized_mining = {
             OR = {
                 tag = NGF
                 tag = GER
-                tag = PRU
                 tag = FRA
                 tag = AUS
                 tag = RUS
@@ -761,7 +760,6 @@ regenerative_furnaces = {
             OR = {
                 tag = NGF
                 tag = GER
-                tag = PRU
                 tag = FRA
                 tag = RUS
             }
@@ -863,7 +861,6 @@ drilling_and_blasting = {
                 tag = USA
                 tag = NGF
                 tag = GER
-                tag = PRU
                 tag = RUS
             }
         }
@@ -961,7 +958,6 @@ advanced_metallurgy = {
                 tag = FRA
                 tag = NGF
                 tag = GER
-                tag = PRU
                 tag = RUS
             }
         }
@@ -1131,7 +1127,6 @@ experimental_railroad = {
             OR = {
                 tag = NGF
                 tag = GER
-                tag = PRU
                 tag = AUS
             }
         }
@@ -1180,7 +1175,6 @@ early_railroad = {
             OR = {
                 tag = NGF
                 tag = GER
-                tag = PRU
                 tag = AUS
             }
         }

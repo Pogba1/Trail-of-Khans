@@ -437,7 +437,6 @@ country_event = {
             tag = GER
             tag = NGF
             tag = SGF
-            tag = PRU
             tag = RUS
             tag = USA
             tag = ENG
@@ -1882,7 +1881,6 @@ country_event = {
             tag = GER
             tag = NGF
             tag = SGF
-            tag = PRU
             tag = RUS
             tag = USA
             tag = ENG
@@ -2454,7 +2452,6 @@ country_event = {
             tag = GER
             tag = NGF
             tag = SGF
-            tag = PRU
         }
         OR = {
             has_country_flag = ultimatum_accepted
@@ -3617,7 +3614,6 @@ country_event = {
                 NOT = { is_core = GER }
                 owner = {
                     OR = {
-                        truce_with = PRU
                         truce_with = NGF
                         truce_with = GER
                     }
@@ -3885,7 +3881,6 @@ country_event = {
                     tag = BRY
                     tag = CHY
                     tag = KRL
-                    tag = ABK
                 }
                 any_core = { owned_by = THIS }
                 exists = no
@@ -5009,7 +5004,6 @@ country_event = {
                 NOT = { is_core = GER }
                 owner = {
                     OR = {
-                        truce_with = PRU
                         truce_with = NGF
                         truce_with = GER
                     }
@@ -5697,7 +5691,6 @@ country_event = {
                 NOT = { is_core = GER }
                 owner = {
                     OR = {
-                        truce_with = PRU
                         truce_with = NGF
                         truce_with = GER
                     }
@@ -6397,7 +6390,6 @@ country_event = {
                 NOT = { is_core = GER }
                 owner = {
                     OR = {
-                        truce_with = PRU
                         truce_with = NGF
                         truce_with = GER
                     }
@@ -7001,15 +6993,6 @@ country_event = {
         }
         random_country = {
             limit = {
-                tag = PRU
-                truce_with = THIS
-                THIS = { owns = 412 }
-                NOT = { exists = GER }
-            }
-            FRA_412 = { secede_province = PRU }
-        }
-        random_country = {
-            limit = {
                 tag = AUS
                 truce_with = THIS
                 THIS = { owns = 412 }
@@ -7148,7 +7131,6 @@ country_event = {
                 NOT = { is_core = GER }
                 owner = {
                     OR = {
-                        truce_with = PRU
                         truce_with = NGF
                         truce_with = GER
                     }
@@ -7865,7 +7847,6 @@ country_event = {
                 NOT = { is_core = GER }
                 owner = {
                     OR = {
-                        truce_with = PRU
                         truce_with = NGF
                         truce_with = GER
                     }
@@ -7919,7 +7900,6 @@ country_event = {
             BAD_586 = { add_core = BAD }
             WUR_589 = { add_core = WUR }
             594 = {
-                add_core = PRU
                 remove_core = WUR
             }
             any_country = {
@@ -8586,7 +8566,6 @@ country_event = {
                 NOT = { is_core = GER }
                 owner = {
                     OR = {
-                        truce_with = PRU
                         truce_with = NGF
                         truce_with = GER
                     }
@@ -10486,7 +10465,6 @@ country_event = {
         396 = {
             add_core = THIS
             secede_province = THIS
-            remove_core = PRU
             remove_core = NGF
             remove_core = GER
             }

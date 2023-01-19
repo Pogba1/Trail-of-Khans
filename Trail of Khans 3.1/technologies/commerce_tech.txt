@@ -628,7 +628,6 @@ market_structure = {
             OR = {
                 tag = NGF
                 tag = GER
-                tag = PRU
             }
         }
         modifier = {
@@ -889,7 +888,6 @@ organized_factories = {
             OR = {
                 tag = NGF
                 tag = GER
-                tag = PRU
             }
         }
         modifier = {

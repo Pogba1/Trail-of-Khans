@@ -212,7 +212,6 @@ country_event = {
         random_owned = {
             limit = { owner = { is_culture_group = italian } }
             owner = {
-                any_owned = { limit = { is_core = SYC } remove_core = SYC }
                 any_owned = { limit = { is_core = SRD } remove_core = SRD }
                 any_owned = { limit = { is_core = RMG } remove_core = RMG }
             }
@@ -766,7 +765,6 @@ country_event = {
                 exists = no
                 NOT = { tag = AUS }
                 NOT = { tag = DNB }
-                NOT = { tag = PRU }
                 NOT = { tag = UBD }
                 NOT = { tag = BAN }
 				NOT = { tag = HRE }
@@ -787,14 +785,6 @@ country_event = {
                 }
                 exists = no
                 THIS = { capital = 619 }
-            }
-            country_event = 11105
-        }
-        any_country = {
-            limit = {
-                tag = PRU
-                exists = no
-                THIS = { capital = 549 }
             }
             country_event = 11105
         }

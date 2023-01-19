@@ -211,11 +211,6 @@ migration_target =
 		}
 	}
 	modifier = {
-		factor = 4
-		this = { religion = jewish }
-		is_core = ISR 
-	}
-	modifier = {
 		factor = 2
 		is_state_capital = yes
 	}		

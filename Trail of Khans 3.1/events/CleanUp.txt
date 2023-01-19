@@ -364,9 +364,6 @@ country_event = {
 	    NOT = {
 		    is_culture_group = polish_culture_group
 		}
-		NOT = {	
-			tag = ISR 
-			}
 	}
 	
 	mean_time_to_happen = {

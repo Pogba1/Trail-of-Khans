@@ -215,12 +215,7 @@ migration_target =
 			trade_goods = iron
 		}
 		NOT = { unemployment_by_type = { type = labourers value = 0.01 } }
-	}	
-	modifier = {
-		factor = 4
-		this = { religion = jewish }
-		is_core = ISR 
-	}	
+	}
 	modifier = {
 		factor = 2
 		is_state_capital = yes

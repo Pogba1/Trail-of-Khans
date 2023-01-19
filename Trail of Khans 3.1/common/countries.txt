@@ -1,14 +1,14 @@
 #"Please keep tags sorted alphabetically when you add/remove country tags" :SOY: :SOY: :SOY:
 
+#Rebels
+
+REB        ="countries/Rebels.txt"
+
 #Chinese tags
 MAO		   ="countries/Mao Dynasty.txt"
 
 # Schizophrenic Irish Formable
 GAU        ="countries/Gaul.txt"
-
-#Parsis tag
-
-PRS		   ="countries/Pars.txt"
 
 # Based roman larp
 
@@ -19,12 +19,7 @@ RMR        ="countries/Rome.txt"
 BHA        ="countries/Bohemia-Austria.txt"
 OTO        ="countries/Ottokaria.txt"
 
-#Rebels
-
-REB        ="countries/Rebels.txt"
-
 ##HPM
-PNK        ="countries/Pontianak.txt"
 GHN        ="countries/Ghana.txt"
 PPG        ="countries/Papua New Guinea.txt"
 VTU        ="countries/Vanuatu.txt"
@@ -33,7 +28,6 @@ ATC        ="countries/Antillean Conf.txt"
 MNP        ="countries/Manipur.txt"
 BDK        ="countries/Badakhshan.txt"
 PGG        ="countries/Pingnan Guo.txt"
-SGM        ="countries/Sigmaringen-Hohe.txt"
 NMB        ="countries/Namibia.txt"
 TMR        ="countries/Timor.txt"
 SLG        ="countries/Selangor.txt"
@@ -54,12 +48,8 @@ BNB        ="countries/Baban.txt"
 MKN        ="countries/Mukriyan.txt"
 BHT        ="countries/Bohtan.txt"
 SRN        ="countries/Soran.txt"
-LBG        ="countries/Limburg.txt"
 PNB        ="countries/Pernambuco.txt"
 FIU        ="countries/Fiume.txt"
-SYC        ="countries/Sicily.txt"
-MDV        ="countries/Moldova.txt"
-ABK        ="countries/Abkhazia.txt"
 CRT        ="countries/Corrientes.txt"
 SBA        ="countries/Buenos Aires.txt"
 ARC        ="countries/Argentine Conf.txt"
@@ -606,7 +596,6 @@ SEX		   = "countries/Wessex.txt"
 ENG        = "countries/United Kingdom.txt"
 RUS        = "countries/Russia.txt"
 FRA        = "countries/France.txt"
-PRU        = "countries/Prussia.txt"
 GER        = "countries/Germany.txt"
 AUS        = "countries/Austria.txt"
 USA        = "countries/USA.txt"
@@ -615,16 +604,11 @@ ITA        = "countries/Italy.txt"
 
 
 #new for 1.2
-ISR        ="countries/Israel.txt"
 ICL        ="countries/Iceland.txt"
 
 ##NNM and Vanilla Scrapped tags
 BYZ        ="countries/Byzantium.txt"
 BAB        ="countries/Babylonia.txt"
-
-##EIC
-EIC        ="countries/East India Company.txt"
-##
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
