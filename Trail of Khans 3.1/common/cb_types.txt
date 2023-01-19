@@ -479,6 +479,7 @@ conquest = {
 	crisis = no
 	
 	can_use = {
+		total_pops = 400000
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
@@ -540,6 +541,7 @@ conquest_low = {
 	crisis = no
 	
 	can_use = {
+		total_pops = 100000
 		NOT = {	total_pops = 400000 }
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv

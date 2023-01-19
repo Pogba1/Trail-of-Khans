@@ -2,38 +2,83 @@ political_decisions = {
 
 	develop_singapore = {
 		potential = {
-		tag = NET
-		1384 = {owned_by = THIS}
-		NOT = {has_country_flag = develop_singapore}
+			tag = NET
+			1384 = {owned_by = THIS}
+			NOT = {has_country_flag = develop_singapore}
 		}
 		allow = {
+			war = no
+			is_greater_power = yes
 			1384 = {owned_by = THIS}
-			market_structure = 1
-			central_bank_money_bill_printing = 1
+			money = 350000
 		}
 		effect = {
-		set_country_flag = develop_singapore
-		1384 = {trade_goods = precious_goods}
-		1384 = {add_province_modifier = {name = develop_singapore duration = 3650}}
+			money = -350000
+			set_country_flag = develop_singapore
+			1384 = {
+				trade_goods = precious_goods
+			}
+			1384 = {
+				add_province_modifier = {
+					name = develop_singapore 
+					duration = 3650
+				}
+			}
 		}
 	}
 	
 	integrate_amerikaans = {
 		potential = {
-		tag = NET
+			tag = NET
+			NOT = {
+				has_country_flag = integrate_amerikaans
+				has_country_flag = the_iles
+			}
+		}
 
-		NOT = {
-			has_country_flag = integrate_amerikaans
-			has_country_flag = the_iles
-		}
-		}
 		allow = {
-			232 = {owned_by = THIS}
+			all_core = {
+				continent = north_america
+				owned_by = THIS
+			}
 			revolution_n_counterrevolution = 1
 		}
+
 		effect = {
-		set_country_flag = integrate_amerikaans
-		add_accepted_culture = french_canadian
+			set_country_flag = integrate_amerikaans
+			add_accepted_culture = french_canadian
+		}
+	}
+
+	integrate_frisian_duchy_NET = {
+		potential = {
+			tag = NET
+			NOT = {
+				has_country_flag = integrate_frisian_duchy
+			}
+		}
+		allow = {
+			is_greater_power = yes
+			war = no
+			state_n_government = 1
+			EAS = {
+				exists = yes
+				in_sphere = THIS
+				vassal_of = THIS
+			}
+		}
+		effect = {
+			prestige = 10
+			set_country_flag = integrate_frisian_duchy
+
+			EAS = {
+				annex_to = THIS
+				all_core = {
+					add_core = THIS
+				}
+				primary_culture = dutch
+				remove_accepted_culture = north_german
+			}
 		}
 	}
 	

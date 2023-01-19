@@ -1,14 +1,11 @@
-owner = OLD
-controller = OLD
-add_core = OLD
+owner = EAS
+controller = EAS
+add_core = EAS
 add_core = GER
 trade_goods = fish
 life_rating = 35
-#state_building = {
-#    level = 1
-#    building = glass_factory
-#    upgrade = yes
-#}
-1861.1.1 = {
-    naval_base = 1 #Wilhelmshaven
+state_building = {
+    level = 1
+    building = glass_factory
+    upgrade = yes
 }

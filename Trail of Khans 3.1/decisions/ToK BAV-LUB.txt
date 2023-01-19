@@ -244,6 +244,7 @@ political_decisions = {
             }
 		}
 	}
+
 	north_sea_coast = {
 	picture = "claim_voralberg"
 		potential = {
@@ -251,19 +252,70 @@ political_decisions = {
 			NOT = {has_country_flag = north_sea_coast}
 		}
 		allow = {
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
 			all_core = {owned_by = THIS}
-			military_score = 30
-			532 = {owned_by = THIS}
+			HAN = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
 		}
 		effect = {
-			HAN_528 = {add_core = THIS}
-			539 = {add_core = THIS}
-			540 = {add_core = THIS}
-			543 = {add_core = THIS}
-			542 = {add_core = THIS}
-			541 = {add_core = THIS}
-			539 = {add_core = THIS}
+			badboy = 2
+			prestige = 10
+			HAN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			casus_belli = {
+				target = NET
+				type = release_puppet
+				months = 36
+			}
 			set_country_flag = north_sea_coast
+		}
+	}
+
+	integrate_frisian_duchy_LUB = {
+		potential = {
+			tag = LUB
+			NOT = {
+				has_country_flag = integrate_frisian_duchy
+			}
+			has_country_flag = north_sea_coast
+		}
+		allow = {
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+			EAS = {
+				exists = yes
+				OR = {
+					AND = {
+						is_vassal = no
+						in_sphere = THIS
+					}
+					vassal_of = THIS
+				}
+			}
+		}
+		effect = {
+			prestige = 10
+			set_country_flag = integrate_frisian_duchy
+			
+			EAS = {
+				annex_to = THIS
+				all_core = {
+					add_core = THIS
+				}
+				primary_culture = north_german
+				remove_accepted_culture = dutch
+			}
 		}
 	}
 	

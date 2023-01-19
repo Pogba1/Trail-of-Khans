@@ -6265,36 +6265,9 @@
 #Ekaterinburg (396000/99000 POPS)
 1058 = {
 
-    ######Jews
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
     clergymen = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    artisans = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    farmers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-    ########
-
-    clergymen = {
-        culture = russian
-        religion = orthodox
+        culture = tatar
+        religion = sunni
         size = 50
     }
 
@@ -6305,18 +6278,18 @@
     }
 
     soldiers = {
-        culture = russian
-        religion = orthodox
+        culture = tatar
+        religion = sunni
         size = 25
     }
 	soldiers = {
-        culture = russian
-        religion = orthodox
+        culture = tatar
+        religion = sunni
         size = 25
     }
 	farmers = {
-        culture = russian
-        religion = orthodox
+        culture = tatar
+        religion = sunni
         size = 2750
     }
     farmers = {
@@ -6357,12 +6330,12 @@
         size = 20400
     }
 	farmers = {
-        culture = russian
-        religion = orthodox
+        culture = tatar
+        religion = sunni
         size = 20000
     }
 	farmers = {
-		culture = russian
+		culture = tatar
 		religion = sunni
 		size = 5400
 	}	
@@ -6683,8 +6656,8 @@
 #Muzhi (6000/1500 POPS) => Verkhoturye
 2685 = {
 	farmers = {
-		culture = russian
-		religion = orthodox
+        culture = ugrian
+        religion = animist
 		size = 100
 	}
     farmers = {
@@ -7404,26 +7377,26 @@
 #Nyurba (12000/3000 POPS)
 2650 = {
     clergymen = {
-        culture = russian
-        religion = orthodox
+        culture = yakut
+        religion = animist
         size = 25
     }
 
     artisans = {
-        culture = russian
-        religion = orthodox
+        culture = yakut
+        religion = animist
         size = 50
     }
 
     soldiers = {
-        culture = russian
-        religion = orthodox
+        culture = yakut
+        religion = animist
         size = 25
     }
 
     farmers = {
-        culture = russian
-        religion = orthodox
+        culture = yakut
+        religion = animist
         size = 900
     }
 
@@ -9968,31 +9941,31 @@
 #Pogobi (4100/1025 POPS)
 1086 = {
     aristocrats = {
-        culture = siberian
+        culture = ainu
         religion = animist
         size = 15
     }
 
     clergymen = {
-        culture = siberian
+        culture = ainu
         religion = animist
         size = 5
     }
 
     artisans = {
-        culture = siberian
+        culture = ainu
         religion = animist
         size = 10
     }
 
     soldiers = {
-        culture = siberian
+        culture = ainu
         religion = animist
         size = 10
     }
 
     farmers = {
-        culture = siberian
+        culture = ainu
         religion = animist
         size = 440
     }

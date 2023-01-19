@@ -1,10 +1,5 @@
 owner = JAP
 controller = JAP
+add_core = JAP
 trade_goods = fish
 life_rating = 15
-colonial = 2
-1861.1.1 = {
-    owner = RUS
-    controller = RUS
-    add_core = RUS
-}

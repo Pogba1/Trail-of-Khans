@@ -1250,67 +1250,37 @@
     aristocrats = {
         culture = catalan
         religion = catholic
-        size = 750
+        size = 2500
     }
 
     clergymen = {
         culture = catalan
         religion = catholic
-        size = 350
+        size = 4710
     }
 
     artisans = {
         culture = catalan
         religion = catholic
-        size = 1750
+        size = 28650
     }
-
+    
     soldiers = {
         culture = catalan
         religion = catholic
-        size = 350
+        size = 4500
     }
 
     farmers = {
         culture = catalan
         religion = catholic
-        size = 43300
-        
+        size = 178600
     }
 
-    aristocrats = {
-        culture = catalan
-        religion = catholic
-        size = 450
-    }
-
-    clergymen = {
-        culture = catalan
-        religion = catholic
-        size = 200
-    }
-
-    artisans = {
-        culture = catalan
-        religion = catholic
-        size = 1100
-    }
-
-    soldiers = {
-        culture = catalan
-        religion = catholic
-        size = 250
-    }
-
-    farmers = {
-        culture = catalan
-        religion = catholic
-        size = 218600
-    }
 	farmers = {
         culture = french
         religion = catholic
-        size = 21860
+        size = 15860
     }
 }
 #Lerida (164000/41000 POPS)
