@@ -352,17 +352,9 @@ mechanized_slaughtering_block = {
 }
 
 precision_work = {
-    limit = { interchangeable_parts = 1 }
+    limit = { mechanical_production = 1 }
     chance = {
-        base = 2
-        modifier = {
-            factor = 2
-            invention = mechanical_precision_saw
-        }
-        modifier = {
-            factor = 2
-            early_railroad = 1
-        }
+        base = 100
     }
     effect = {
         factory_goods_output = {
@@ -723,15 +715,7 @@ refrigerator_technology = {
 ammunition_production = {
     limit = { hot_blast = 1 }
     chance = {
-        base = 2
-        modifier = {
-            factor = 2
-            invention = whitney_n_colts_standardized_small_arms
-        }
-        modifier = {
-            factor = 2
-            army_professionalism = 1
-        }
+        base = 100
     }
     effect = {
         activate_building = ammunition_factory
@@ -740,15 +724,7 @@ ammunition_production = {
 small_arms_production = {
     limit = { hot_blast = 1 }
     chance = {
-        base = 2
-        modifier = {
-            factor = 2
-            strategic_mobility = 1
-        }
-        modifier = {
-            factor = 2
-            early_railroad = 1
-        }
+        base = 100
     }
     effect = {
         activate_building = small_arms_factory
@@ -757,15 +733,7 @@ small_arms_production = {
 explosives_production = {
     limit = { hot_blast = 1 }
     chance = {
-        base = 2
-        modifier = {
-            factor = 2
-            medicine = 1
-        }
-        modifier = {
-            factor = 2
-            invention = nitroglycerin
-        }
+        base = 100
     }
     effect = {
         activate_building = explosives_factory
@@ -774,15 +742,7 @@ explosives_production = {
 artillery_production = {
     limit = { hot_blast = 1 }
     chance = {
-        base = 2
-        modifier = {
-            factor = 2
-            invention = explosives_production
-        }
-        modifier = {
-            factor = 2
-            iron_muzzle_loaded_artillery = 1
-        }
+        base = 100
     }
     effect = {
         activate_building = artillery_factory
@@ -1581,22 +1541,19 @@ cotton_gin = {
 }
 
 frasch_process = {
-    limit = { drilling_and_blasting = 1 }
+    limit = { 
+        drilling_and_blasting = 1 
+        year = 1890
+    }
     chance = {
-        base = 0
+        base = 2
         modifier = {
-            factor = 4
+            factor = 2
             integral_rail_system = 1
         }
         modifier = {
             factor = 2
-            year = 1891
-        }
-        modifier = {
-            factor = -2
-            NOT = {
-                year= 1891
-            }
+            invention = trinitrinitrotoluene
         }
     }
     effect = {

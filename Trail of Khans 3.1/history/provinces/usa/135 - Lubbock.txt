@@ -3,12 +3,3 @@ controller = MEX
 add_core = MEX
 trade_goods = sulphur
 life_rating = 30
-
-1861.1.1 = {
-    controller = CSA
-    owner = CSA
-    add_core = CSA
-    add_core = USA
-    remove_core = MEX
-    colonial = 0
-}

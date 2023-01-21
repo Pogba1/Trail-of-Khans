@@ -3,8 +3,3 @@ controller = MEX
 add_core = MEX
 trade_goods = wool
 life_rating = 35
-1861.1.1 = {
-    owner = GUA
-    controller = GUA
-    remove_core = UCA
-}

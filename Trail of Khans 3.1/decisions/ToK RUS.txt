@@ -81,8 +81,6 @@ political_decisions = {
 				add_core = RUS
 			}
 			change_tag = RUS
-			2587 = {add_core = RUS}
-			983 = {add_core = RUS}
 			any_country = {
            		limit = {
                		NOT = { is_greater_power = yes }

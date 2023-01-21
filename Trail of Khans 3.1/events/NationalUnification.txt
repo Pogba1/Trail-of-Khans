@@ -78,7 +78,6 @@ country_event = {
             limit = {
                 war = no
                 NOT = { tag = THIS }
-                NOT = { tag = UBD }
                 NOT = { has_country_flag = post_colonial_country }
                 is_culture_group = THIS
                 is_greater_power = no
@@ -523,7 +522,6 @@ country_event = {
         random_country = {
             limit = {
                 primary_culture = south_german
-				NOT = { tag = HRE }
                 OR = {
                 tag = FROM
                 tag = SGF
@@ -649,8 +647,6 @@ country_event = {
 
     trigger = {
         war = no
-        NOT = { tag = UBD }
-		NOT = { tag = HRE }
         has_country_flag = crown_from_the_gutter
         is_culture_group = germanic
         is_greater_power = yes
@@ -764,10 +760,6 @@ country_event = {
                 is_culture_group = germanic
                 exists = no
                 NOT = { tag = AUS }
-                NOT = { tag = DNB }
-                NOT = { tag = UBD }
-                NOT = { tag = BAN }
-				NOT = { tag = HRE }
                 NOT = { has_country_flag = post_colonial_country }
                 OR = {
                     all_core = { owned_by = THIS }
@@ -779,10 +771,7 @@ country_event = {
         }
         any_country = {
             limit = {
-                OR = {
-                    tag = AUS
-                    tag = DNB
-                }
+                tag = AUS
                 exists = no
                 THIS = { capital = 619 }
             }
@@ -807,8 +796,6 @@ country_event = {
                 }
                 NOT = {
                     tag = AUS
-                    tag = DNB
-                    tag = UBD
                 }
                 NOT = { has_country_flag = post_colonial_country }
             }
@@ -995,8 +982,6 @@ country_event = {
                 primary_culture = north_german
                 exists = yes
                 NOT = { tag = THIS }
-                NOT = { tag = UBD }
-                NOT = { tag = BAN }
             }
             country_event = 11106
         }

@@ -104,11 +104,6 @@ WOL = {
 SUL = {
     value = 100
 }
-
-POR = {
-    value = 120
-}
-
 army = {
 	name = "Gurkhas"
 	location = 377 

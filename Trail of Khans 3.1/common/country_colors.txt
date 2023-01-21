@@ -4,11 +4,6 @@ SAM = {
     color2= { 162 145 29  }
     color3= { 183 176 194  }
 }
-RCH = {
-	color1= { 103 115 65  }
-    color2= { 144 52 53  }
-    color3= { 107 170 77  }
-}
 MEA = {
 	color1 = {252 36 3}
 	color2 = {120 30 20}
@@ -20,20 +15,10 @@ EPI = {
     color3= { 131 101 85  }
 }
 
-EGE = {
-	color1 = {130 140 14}
-	color2 = {130 140 14}
-	color3 = {130 140 14}
-}
 GPN = {
 	color1 = {196 53 18}
 	color2 = {196 53 18}
 	color3 = {196 53 18}
-}
-HPS = {
-	color1 = {197 199 201}
-	color2 = {197 199 201}
-	color3 = {197 199 201}
 }
 SVF = {
 	color1 = {168 133 50}
@@ -46,11 +31,6 @@ BRN = {
     color2= { 70 70 70  }
     color3= { 255 255 255  }
 }
-BIT = {
-	color1 = {87 217 160}
-    color2 = {87 217 160}
-    color3 = {87 217 160}
-}	
 ROM =  {
 	color1= {30 92 227}
 	color2= {88 125 140}
@@ -60,19 +40,6 @@ IBE = {
 	color1= {179 145 61}
 	color2= {179 145 61}
 	color3= {179 145 61}
-
-
-}
-DNN = {
-	color1= { 122 57 43 }
-	color2= { 122 57 43 }
-	color3= { 122 57 43 }
-}
-
-HRE = {
-	color1= { 252 173 3 }
-	color2= { 255 255 255 }
-	color3= { 193 26 14 }
 }
 IRO = {
 	color1= { 53 91 156 }
@@ -128,14 +95,6 @@ AWA = {
     color2= { 255 216 85  }
     color3= { 117 127 174  }
 }
-
-# Belgium FIXED
-BEL     = {
-    color1= { 244 56 49  }
-    color2= { 248 199 67  }
-    color3= { 107 170 77  }
-}
-
 
 # Bosnia
 BOS = {
@@ -266,35 +225,6 @@ BRZ = {
     color3= { 183 176 194  }
 }
 
-# Bolivia
-BOL = {
-    color1= { 66 133 63  }
-    color2= { 151 41 43  }
-    color3= { 183 176 194  }
-}
-
-# Canada
-CAN = {
-    color1= { 94 117 55  }
-    color2= { 255 87 127  }
-    color3= { 99 137 153  }
-}
-
-# Chile
-CHL = {
-    color1= { 143 42 39  }
-    color2= { 66 66 121  }
-    color3= { 80 79 88  }
-}
-
-# Paraguay
-PRG = {
-    color1= { 146 58 35  }
-    color2= { 66 66 121  }
-    color3= { 80 79 88  }
-}
-
-
 # Argentina
 ARG = {
     color1= { 112 145 181  }
@@ -302,33 +232,6 @@ ARG = {
     color3= { 80 79 88  }
 }
 
-# Uruguay
-URU = {
-    color1= { 68 79 141  }
-    color2= { 167 157 94  }
-    color3= { 80 79 88  }
-}
-
-# Venezuela
-VNZ = {
-    color1= { 162 145 29  }
-    color2= { 66 66 121  }
-    color3= { 197 92 106  }
-}
-
-# Ecuador
-ECU = {
-    color1= { 97 144 157  }
-    color2= { 255 255 255  }
-    color3= { 197 92 106  }
-}
-
-# Colombia
-CLM = {
-    color1= { 143 42 39  }
-    color2= { 162 145 29  }
-    color3= { 197 92 106  }
-}
 
 # Mexico
 MEX = {
@@ -344,13 +247,6 @@ MEW = {
     color3= { 69 157 208  }
 }
 
-# Peru
-PEU = {
-    color1= { 124 140 162  }
-    color2= { 144 52 53  }
-    color3= { 184 193 89  }
-}
-
 # Quebec
 QUE = {
     color1= { 176 84 70  }
@@ -358,23 +254,9 @@ QUE = {
     color3= { 17 16 203  }
 }
 
-# USA
-USA = {
-    color1= { 0 89 0  }
-    color2= { 124 140 162  }
-    color3= { 137 183 124  }
-}
-
 # Lithuania
 LIT = {
     color1= { 154 69 116  }
-    color2= { 255 255 255  }
-    color3= { 210 106 47  }
-}
-
-# Liberia
-LIB = {
-    color1= { 36 84 245  }
     color2= { 255 255 255  }
     color3= { 210 106 47  }
 }
@@ -555,13 +437,6 @@ POR = {
     color3= { 69 157 208  }
 }
 
-# Spain FIXED
-SPA = {
-    color1= { 231 181 12  }
-    color2= { 244 56 49  }
-    color3= { 154 69 116  }
-}
-
 # Italy
 ITA = {
     color1= { 255 255 255  }
@@ -636,13 +511,6 @@ VEN = {
     color1= { 54 167 156  }
     color2= { 69 157 208  }
     color3= { 166 189 199  }
-}
-
-# Flanders
-FLA = {
-    color1= { 43 141 172  }
-    color2= { 195 149 155  }
-    color3= { 134 166 117  }
 }
 
 # Haiti
@@ -794,13 +662,6 @@ EGY = {
     color3= { 48 164 51  }
 }
 
-# Transvaal FIXED
-TRN = {
-    color1= { 49 244 76  }
-    color2= { 94 117 55  }
-    color3= { 112 150 105  }
-}
-
 # Tripoli FIXED
 TRI = {
     color1= { 87 146 87  }
@@ -818,13 +679,6 @@ TUN = {
 # Sokoto FIXED
 SOK = {
     color1= { 49 244 76  }
-    color2= { 94 117 55  }
-    color3= { 112 150 105  }
-}
-
-# Oranje
-ORA = {
-    color1= { 255 154 82  }
     color2= { 94 117 55  }
     color3= { 112 150 105  }
 }
@@ -962,7 +816,7 @@ TIB = {
     color3= { 122 179 97  }
 }
 
-# Bastar FIXED (not confirmed)
+# Bastar FIXED (NOT confirmed)
 BAS = {
     color1= { 103 123 204  }
     color2= { 255 255 255  }
@@ -976,7 +830,7 @@ BER = {
     color3= { 80 79 88  }
 }
 
-# Bhopal FIXED (not confirmed)
+# Bhopal FIXED (NOT confirmed)
 BHO = {
     color1= { 78 150 91  }
     color2= { 255 255 255  }
@@ -1025,12 +879,6 @@ KAS = {
     color3= { 83 149 105  }
 }
 
-# Mughalistan
-MUG = {
-    color1= { 154 133 153  }
-    color2= { 197 92 106  }
-    color3= { 137 183 124  }
-}
 
 # Mysore FIXED
 MYS = {

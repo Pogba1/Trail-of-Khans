@@ -2814,17 +2814,6 @@ political_decisions = {
                                     is_core = TOU
                                 }
                             }
-                            #Zaire/Congo
-                            AND = {
-                                is_core = CNG
-                                OR = {
-                                    is_core = LUA
-                                    is_core = LOA
-                                    is_core = AZA
-                                    is_core = KZB
-                                    is_core = KON
-                                }
-                            }
                             #Niger
                             AND = {
                                 is_core = NIG
@@ -3050,30 +3039,6 @@ political_decisions = {
                     remove_core = MAS
                     remove_core = DAM
                     remove_core = KBO
-                }
-            }
-
-            any_neighbor_country = {
-                limit = {
-                    civilized = yes
-                    capital_scope = { NOT = { continent = africa } }
-                }
-                any_owned = {
-                    limit = {
-                        is_core = CNG
-                        OR = {
-                            is_core = LUA
-                            is_core = LOA
-                            is_core = AZA
-                            is_core = KZB
-                            is_core = KON
-                        }
-                    }
-                    remove_core = LUA
-                    remove_core = LOA
-                    remove_core = AZA
-                    remove_core = KZB
-                    remove_core = KON
                 }
             }
 
@@ -3431,10 +3396,6 @@ political_decisions = {
             is_vassal = yes
             OR = {
                 AND = {
-                    tag = CRT
-                    overlord = { tag = ARC }
-                }
-                AND = {
                     tag = HUN
                     overlord = { tag = AUS }
                 }
@@ -3451,21 +3412,8 @@ political_decisions = {
                     overlord = { primary_culture = japanese }
                 }
                 AND = {
-                    tag = CPL
-                    overlord = { tag = RUS }
-                }
-                AND = {
                     tag = POR
                     overlord = { primary_culture = spanish }
-                }
-                AND = {
-                    tag = SBA
-                    overlord = {
-                        OR = {
-                            tag = ARG
-                            tag = ARC
-                        }
-                    }
                 }
             }
         }

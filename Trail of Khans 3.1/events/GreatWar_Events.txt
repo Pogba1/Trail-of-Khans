@@ -442,10 +442,8 @@ country_event = {
             tag = ENG
             tag = FRA
             tag = AUS
-            tag = DNB
             tag = TUR
             tag = JAP
-            tag = TKG
         }
         OR = {
             has_country_flag = ultimatum_accepted
@@ -593,35 +591,6 @@ country_event = {
             country_event = 96015
         }
 
-        #release Czechoslovakia, if possible
-        any_country = {
-            limit = {
-                tag = CZH
-                exists = no
-                THIS = {
-                    owns = 625
-                    owns = 633
-                }
-                NOT = { exists = BOH }
-                NOT = { exists = SLV }
-            }
-            set_global_flag = czechoslovakia_formed
-            BOH = { all_core = { add_core = CZH } }
-            SLV = { all_core = { add_core = CZH } }
-            2584 = { add_core = CZH }
-            689 = { add_core = CZH }
-            all_core = {
-                limit = {
-                    is_core = THIS
-                    state_scope = {
-                        NOT = { any_owned_province = { is_capital = yes } }
-                    }
-                }
-                remove_core = THIS
-            }
-            country_event = 96012
-        }
-
         #release non-existing countries
         any_country = {
             limit = {
@@ -760,15 +729,6 @@ country_event = {
                 NOT = { tag = THIS }
                 THIS = { any_owned_province = { is_core = CGO } }
                 has_country_flag = congo_master
-            }
-            country_event = 961000
-        }
-
-        random_country = {
-            limit = {
-                NOT = { tag = THIS }
-                THIS = { any_owned_province = { is_core = CNG } }
-                has_country_flag = zaire_master
             }
             country_event = 961000
         }
@@ -2537,7 +2497,6 @@ country_event = {
             PRU_690 = { remove_core = THIS }
             PRU_701 = {
                 remove_core = THIS
-                add_core = PZN
             }
             684 = { remove_core = THIS }
             685 = { remove_core = THIS }
@@ -2609,7 +2568,6 @@ country_event = {
             }
             FRA_412 = {
                 remove_core = GER
-                remove_core = ELS
                 remove_core = LOR
                 add_core = FRA
             }
@@ -2878,35 +2836,6 @@ country_event = {
             country_event = 96015
         }
 
-        #release Czechoslovakia, if possible
-        any_country = {
-            limit = {
-                tag = CZH
-                exists = no
-                THIS = {
-                    owns = 625
-                    owns = 633
-                }
-                NOT = { exists = BOH }
-                NOT = { exists = SLV }
-            }
-            set_global_flag = czechoslovakia_formed
-            BOH = { all_core = { add_core = CZH } }
-            SLV = { all_core = { add_core = CZH } }
-            2584 = { add_core = CZH }
-            689 = { add_core = CZH }
-            all_core = {
-                limit = {
-                    is_core = THIS
-                    state_scope = {
-                        NOT = { any_owned_province = { is_capital = yes } }
-                    }
-                }
-                remove_core = THIS
-            }
-            country_event = 96012
-        }
-
         #release non-existing countries    that aren't German
         any_country = {
             limit = {
@@ -3074,15 +3003,6 @@ country_event = {
                 NOT = { tag = THIS }
                 THIS = { any_owned_province = { is_core = CGO } }
                 has_country_flag = congo_master
-            }
-            country_event = 961000
-        }
-
-        random_country = {
-            limit = {
-                NOT = { tag = THIS }
-                THIS = { any_owned_province = { is_core = CNG } }
-                has_country_flag = zaire_master
             }
             country_event = 961000
         }
@@ -3499,29 +3419,6 @@ country_event = {
                 }
             }
         }
-        random_country = {
-            limit = {
-                tag = TKG
-                exists = yes
-                truce_with = THIS
-            }
-            RUS = {
-                all_core = {
-                    limit = { is_core = TKG }
-                    remove_core = THIS
-                }
-                any_owned = {
-                    limit = { region = JAP_1086 }
-                    remove_core = THIS
-                    add_core = TKG
-                }
-                any_owned = {
-                    limit = { region = CHI_1082 }
-                    remove_core = THIS
-                    add_core = TKG
-                }
-            }
-        }
 
         #If Japan doesn't have a truce, add cores only to Sakhalin but don't remove Russian cores
         random_country = {
@@ -3537,48 +3434,7 @@ country_event = {
                 }
             }
         }
-
-        random_country = {
-            limit = {
-                tag = TKG
-                exists = yes
-                NOT = { truce_with = THIS }
-            }
-            RUS = {
-                any_owned = {
-                    limit = { region = JAP_1086 }
-                    add_core = TKG
-                }
-            }
-        }
-
-        #remove cores from Congress Poland provinces if any owned and Poland doesn't exist
-        random_owned = {
-            limit = {
-                OR = {
-                    is_core = POL
-                    is_core = PLC
-                }
-                POL = { exists = no }
-            }
-            RUS_706 = {
-                remove_core = RUS
-                add_core = CPL
-            }
-            RUS_715 = {
-                remove_core = RUS
-                add_core = CPL
-            }
-            707 = {
-                remove_core = RUS
-                add_core = CPL
-            }
-            719 = {
-                remove_core = RUS
-                add_core = CPL
-            }
-        }
-
+		
         #remove cores from Poland provinces if any owned and Poland exists
         random_owned = {
             limit = {
@@ -3629,7 +3485,6 @@ country_event = {
                     is_core = LAT
                     is_core = LIT
                     is_core = EST
-                    is_core = UBD
                 }
             }
             remove_core = RUS
@@ -3869,12 +3724,8 @@ country_event = {
                     tag = AKH
                     tag = ALT
                     tag = TNT
-                    tag = DON
-                    tag = TAR
                     tag = KMK
                     tag = KAM
-                    tag = SIB
-                    tag = URA
                     tag = YAK
                     tag = DAG
                     tag = CIR
@@ -3931,19 +3782,6 @@ country_event = {
             clr_country_flag = anarcho_liberal_party_in_power
 
             country_event = 96060
-        }
-
-        #If Ural Republic does not exist, 25% chance to release it as an ally
-        any_country = {
-            limit = {
-                tag = URA
-                exists = no
-                any_core = { owned_by = THIS }
-            }
-            random = {
-                chance = 25
-                country_event = 96060
-            }
         }
 
         #give cores to neighboring, non-allied country
@@ -4340,136 +4178,7 @@ country_event = {
                 country_event = 96060
             }
         }
-
-        #If Cossack Union does not exist, 25% chance to release if Ukraine is free
-        any_country = {
-            limit = {
-                tag = DON
-                exists = no
-                any_core = { owned_by = THIS }
-                UKR = {
-                    exists = yes
-                    is_vassal = no
-                }
-            }
-            random = {
-                chance = 25
-                government = democracy
-                political_reform = population_equal_weight
-                political_reform = wealth_weighted_voting
-                political_reform = yes_meeting
-                political_reform = state_press
-                political_reform = no_trade_unions
-                political_reform = gerrymandering
-                political_reform = first_past_the_post
-                social_reform = culture_voting_only
-                ruling_party_ideology = conservative
-
-                clr_country_flag = election_started
-                clr_country_flag = conservative_party_in_power
-                clr_country_flag = liberal_party_in_power
-                clr_country_flag = reactionary_party_in_power
-                clr_country_flag = socialist_party_in_power
-                clr_country_flag = communist_party_in_power
-                clr_country_flag = fascist_party_in_power
-                clr_country_flag = anarcho_liberal_party_in_power
-
-                country_event = 96060
-            }
-        }
-
-        #If Siberia does not exist, 10% to release it and Yakutia and Kamchatka
-        random_owned = {
-            limit = { province_id = 1064 }
-            random = {
-                chance = 10
-                any_country = {
-                    limit = {
-                        tag = SIB
-                        exists = no
-                        any_core = { owned_by = THIS }
-                    }
-                    country_event = 96060
-                }
-                any_country = {
-                    limit = {
-                        tag = YAK
-                        exists = no
-                        any_core = { owned_by = THIS }
-                    }
-                    government = democracy
-                    political_reform = population_equal_weight
-                    political_reform = wealth_weighted_voting
-                    political_reform = yes_meeting
-                    political_reform = state_press
-                    political_reform = no_trade_unions
-                    political_reform = gerrymandering
-                    political_reform = first_past_the_post
-                    social_reform = culture_voting_only
-                    ruling_party_ideology = conservative
-
-                    clr_country_flag = election_started
-                    clr_country_flag = conservative_party_in_power
-                    clr_country_flag = liberal_party_in_power
-                    clr_country_flag = reactionary_party_in_power
-                    clr_country_flag = socialist_party_in_power
-                    clr_country_flag = communist_party_in_power
-                    clr_country_flag = fascist_party_in_power
-                    clr_country_flag = anarcho_liberal_party_in_power
-
-                    country_event = 96060
-                }
-                any_country = {
-                    limit = {
-                        tag = KAM
-                        exists = no
-                        any_core = { owned_by = THIS }
-                    }
-                    government = democracy
-                    political_reform = population_equal_weight
-                    political_reform = wealth_weighted_voting
-                    political_reform = yes_meeting
-                    political_reform = state_press
-                    political_reform = no_trade_unions
-                    political_reform = gerrymandering
-                    political_reform = first_past_the_post
-                    social_reform = culture_voting_only
-                    ruling_party_ideology = conservative
-
-                    clr_country_flag = election_started
-                    clr_country_flag = conservative_party_in_power
-                    clr_country_flag = liberal_party_in_power
-                    clr_country_flag = reactionary_party_in_power
-                    clr_country_flag = socialist_party_in_power
-                    clr_country_flag = communist_party_in_power
-                    clr_country_flag = fascist_party_in_power
-                    clr_country_flag = anarcho_liberal_party_in_power
-
-                    country_event = 96012
-                }
-            }
-        }
-
-        #If Ural Republic does not exist, 25% to release it
-        random_owned = {
-            limit = {
-                province_id = 1058
-                THIS = {
-                    NOT = { owns = 1064 }
-                }
-            }
-            random = {
-                chance = 25
-                any_country = {
-                    limit = {
-                        tag = URA
-                        exists = no
-                        any_core = { owned_by = THIS }
-                    }
-                    country_event = 96060
-                }
-            }
-        }
+		
         #################Colonial Dismantlement#################
         #Give up partial colonies to proper colonial masters
 
@@ -4553,16 +4262,7 @@ country_event = {
             }
             country_event = 961000
         }
-
-        random_country = {
-            limit = {
-                NOT = { tag = THIS }
-                THIS = { any_owned_province = { is_core = CNG } }
-                has_country_flag = zaire_master
-            }
-            country_event = 961000
-        }
-
+		
         random_country = {
             limit = {
                 NOT = { tag = THIS }
@@ -5128,16 +4828,6 @@ country_event = {
             country_event = 96012
         }
 
-        #If New England does not exist, release it as an ally
-        any_country = {
-            limit = {
-                tag = NEN
-                exists = no
-                any_core = { owned_by = THIS }
-            }
-            country_event = 96060
-        }
-
         #give cores back to any non-allied country (who isn't Mexico)
         any_country = {
             limit = {
@@ -5230,15 +4920,6 @@ country_event = {
                 NOT = { tag = THIS }
                 THIS = { any_owned_province = { is_core = CGO } }
                 has_country_flag = congo_master
-            }
-            country_event = 961000
-        }
-
-        random_country = {
-            limit = {
-                NOT = { tag = THIS }
-                THIS = { any_owned_province = { is_core = CNG } }
-                has_country_flag = zaire_master
             }
             country_event = 961000
         }
@@ -5632,28 +5313,6 @@ country_event = {
         #prestige hit
         prestige_factor = -0.5
 
-        #Add Spanish cores to Gibraltar
-        random_country = {
-            limit = {
-                tag = SPA
-                exists = yes
-            }
-            517 = {
-                remove_core = ENG
-                add_core = SPA
-            }
-        }
-        random_country = {
-            limit = {
-                tag = SPC
-                exists = yes
-            }
-            517 = {
-                remove_core = ENG
-                add_core = SPC
-            }
-        }
-
         #Add French cores, if France is in a truce
         random_country = {
             limit = {
@@ -5748,37 +5407,10 @@ country_event = {
             country_event = 96014
         }
 
-        #release 50% of non-existing Indian minors as allies
-        #any_country = {
-        #    limit = {
-        #        OR = {
-        #            tag = MAH
-        #            tag = MUG
-        #            tag = BNG
-        #        }
-        #        any_core = { owned_by = THIS }
-        #        exists = no
-        #        civilized = no
-        #    }
-        #}
-        #any_country = {
-        #    limit = {
-        #        any_core = { owned_by = THIS }
-        #        exists = no
-        #        is_cultural_union = no
-        #        is_culture_group = south_asian
-        #    }
-        #    random = {
-        #        chance = 50
-        #        country_event = 96060
-        #    }
-        #}
-
         #free Ireland, Canada, South Africa, Australia and New Zealand
         any_country = {
             limit = {
                 OR = {
-                    tag = CAN
                     tag = IRE
                     tag = AST
                     tag = NZL
@@ -5792,19 +5424,6 @@ country_event = {
                 remove_core = THIS
             }
             country_event = 96060
-        }
-        #Free Rhodesia
-        any_owned = {
-            limit = {
-                is_core = RHO
-                OR = {
-                    region = ENG_2014
-                    region = ENG_2016
-                    region = ENG_2068
-                    region = ENG_2071
-                }
-            }
-            secede_province = RHO
         }
 
         #release non-existing countries
@@ -5941,16 +5560,7 @@ country_event = {
             }
             country_event = 961000
         }
-
-        random_country = {
-            limit = {
-                NOT = { tag = THIS }
-                THIS = { any_owned_province = { is_core = CNG } }
-                has_country_flag = zaire_master
-            }
-            country_event = 961000
-        }
-
+		
         random_country = {
             limit = {
                 NOT = { tag = THIS }
@@ -6286,10 +5896,7 @@ country_event = {
             has_country_flag = ultimatum_accepted
             has_country_flag = dismantling_treaty
         }
-        OR = {
-            tag = JAP
-            tag = TKG
-        }
+        tag = JAP
         OR = {
             has_country_flag = ultimatum_accepted
             has_country_flag = dismantling_treaty
@@ -6576,15 +6183,6 @@ country_event = {
                 NOT = { tag = THIS }
                 THIS = { any_owned_province = { is_core = CGO } }
                 has_country_flag = congo_master
-            }
-            country_event = 961000
-        }
-
-        random_country = {
-            limit = {
-                NOT = { tag = THIS }
-                THIS = { any_owned_province = { is_core = CNG } }
-                has_country_flag = zaire_master
             }
             country_event = 961000
         }
@@ -7065,60 +6663,6 @@ country_event = {
             471 = { secede_province = SAR }
         }
 
-
-        #Add Belgian cores, if Belgium/Flanders is in a truce
-        random_country = {
-            limit = {
-                owns = 387
-                owns = 392
-                NOT = { owns = 400 }
-                NOT = { owns = 405 }
-                OR = {
-                    tag = BEL
-                    tag = NET
-                    tag = FLA
-                }
-                truce_with = THIS
-            }
-            country_event = 96093
-        }
-
-        #Add Spanish cores, if Spain is in a truce
-        random_country = {
-            limit = {
-                tag = SPA
-                truce_with = THIS
-            }
-            457 = { add_core = SPA secede_province = SPA }
-            460 = { add_core = SPA secede_province = SPA }
-            464 = { add_core = SPA secede_province = SPA }
-        }
-        random_country = {
-            limit = {
-                tag = SPC
-                truce_with = THIS
-            }
-            457 = { add_core = SPC secede_province = SPC }
-            460 = { add_core = SPC secede_province = SPC }
-            464 = { add_core = SPC secede_province = SPC }
-        }
-
-        #if any Congress Poland cores owned, re-add cores to Russia
-        any_owned = {
-            limit = {
-                OR = {
-                    region = RUS_706
-                    region = RUS_715
-                    province_id = 707
-                    province_id = 719
-                }
-                NOT = { province_id = 703 }
-                NOT = { is_core = RUS }
-                owner = { truce_with = RUS }
-            }
-            add_core = RUS
-        }
-
         #if any Polish cores owned, re-add cores to Germany
         any_owned = {
             limit = {
@@ -7330,16 +6874,7 @@ country_event = {
             }
             country_event = 961000
         }
-
-        random_country = {
-            limit = {
-                NOT = { tag = THIS }
-                THIS = { any_owned_province = { is_core = CNG } }
-                has_country_flag = zaire_master
-            }
-            country_event = 961000
-        }
-
+		
         random_country = {
             limit = {
                 NOT = { tag = THIS }
@@ -7674,10 +7209,7 @@ country_event = {
             has_country_flag = ultimatum_accepted
             has_country_flag = dismantling_treaty
         }
-        OR = {
-            tag = AUS
-            tag = DNB
-        }
+        tag = AUS
         OR = {
             has_country_flag = ultimatum_accepted
             has_country_flag = dismantling_treaty
@@ -7769,7 +7301,6 @@ country_event = {
             }
             614 = {
                 remove_core = AUS
-                remove_core = DNB
             }
         }
 
@@ -7949,35 +7480,6 @@ country_event = {
             }
         }
 
-        #release Czechoslovakia, if possible
-        any_country = {
-            limit = {
-                tag = CZH
-                exists = no
-                THIS = {
-                    owns = 625
-                    owns = 633
-                }
-                NOT = { exists = BOH }
-                NOT = { exists = SLV }
-            }
-            set_global_flag = czechoslovakia_formed
-            BOH = { all_core = { add_core = CZH } }
-            SLV = { all_core = { add_core = CZH } }
-            2584 = { add_core = CZH }
-            689 = { add_core = CZH }
-            all_core = {
-                limit = {
-                    is_core = THIS
-                    state_scope = {
-                        NOT = { any_owned_province = { is_capital = yes } }
-                    }
-                }
-                remove_core = THIS
-            }
-            country_event = 96012
-        }
-
         #release non-existing countries
         any_country = {
             limit = {
@@ -8112,15 +7614,6 @@ country_event = {
                 NOT = { tag = THIS }
                 THIS = { any_owned_province = { is_core = CGO } }
                 has_country_flag = congo_master
-            }
-            country_event = 961000
-        }
-
-        random_country = {
-            limit = {
-                NOT = { tag = THIS }
-                THIS = { any_owned_province = { is_core = CNG } }
-                has_country_flag = zaire_master
             }
             country_event = 961000
         }
@@ -9061,15 +8554,6 @@ country_event = {
                 NOT = { tag = THIS }
                 THIS = { any_owned_province = { is_core = CGO } }
                 has_country_flag = congo_master
-            }
-            country_event = 961000
-        }
-
-        random_country = {
-            limit = {
-                NOT = { tag = THIS }
-                THIS = { any_owned_province = { is_core = CNG } }
-                has_country_flag = zaire_master
             }
             country_event = 961000
         }
@@ -10471,57 +9955,7 @@ country_event = {
 
     }
 }
-#Miquelon goes to the owner of newfoundland
-country_event = {
-    id = 96092
-    title = "EVTNAME96092"
-    desc = "EVTDESC96092"
-    picture = "greatpowers"
 
-    is_triggered_only = yes
-
-    option = {
-        name = "EVT96092OPTA"
-        77 = { secede_province = THIS add_core = CAN }
-    }
-}
-
-#Dutch/Belgium gets a piece of France
-country_event = {
-    id = 96093
-    title = "EVTNAME96093"
-    desc = "EVTDESC96093"
-    picture = "greatpowers"
-
-    is_triggered_only = yes
-
-    option = {
-        name = "EVT96093OPTA"
-            399 = {
-                add_core = THIS
-                add_core = FLA
-                secede_province = THIS
-            }
-            400 = {
-                add_core = THIS
-                add_core = FLA
-                secede_province = THIS
-            }
-            401 = {
-                add_core = THIS
-                add_core = FLA
-                secede_province = THIS
-            }
-            404 = {
-                add_core = THIS
-                secede_province = THIS
-            }
-            405 = {
-                add_core = THIS
-                secede_province = THIS
-            }
-    }
-}
 
 #The Fate of $COUNTRY$ Colony
 country_event = {
@@ -11198,24 +10632,6 @@ country_event = {
             }
             any_owned = {
                 limit = { is_core = CGO }
-                secede_province = THIS
-            }
-        }
-
-        random_country = {
-            limit = {
-                THIS = { has_country_flag = zaire_master }
-                tag = FROM
-                any_owned_province = { is_core = CNG }
-            }
-            any_owned = {
-                limit = { is_core = CNG }
-                remove_core = CGO
-                remove_core = LUA
-                remove_core = LOA
-                remove_core = AZA
-                remove_core = KZB
-                remove_core = KON
                 secede_province = THIS
             }
         }

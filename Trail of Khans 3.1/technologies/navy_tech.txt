@@ -151,15 +151,6 @@ battleship_column_doctrine = {
             #money = 20000
         }
 
-        modifier = {
-            factor = 100
-            OR = {
-                tag = BEL
-                tag = SPA
-                tag = SPC
-                tag = CHL
-            }
-        }
     }
 }
 raider_group_doctrine = {
@@ -259,14 +250,6 @@ raider_group_doctrine = {
             #money = 20000
         }
 
-        modifier = {
-            factor = 100
-            OR = {
-                tag = BEL
-                tag = SPA
-                tag = SPC
-            }
-        }
     }
 }
 blue_and_brown_water_schools = {
@@ -357,15 +340,6 @@ blue_and_brown_water_schools = {
         modifier = {
             factor = 2
             any_owned_province = { is_overseas = yes }
-        }
-
-        modifier = {
-            factor = 200
-            OR = {
-                tag = BEL
-                tag = SPA
-                tag = SPC
-            }
         }
     }
 }

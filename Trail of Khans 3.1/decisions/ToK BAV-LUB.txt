@@ -293,14 +293,26 @@ political_decisions = {
 				is_greater_power = yes
 				is_secondary_power = yes
 			}
-			EAS = {
-				exists = yes
-				OR = {
-					AND = {
-						is_vassal = no
-						in_sphere = THIS
+			OR = {
+				EAS = {
+					exists = yes
+					OR = {
+						AND = {
+							is_vassal = no
+							in_sphere = THIS
+						}
+						AND = {
+							vassal_of = THIS
+							in_sphere = THIS
+						}
+						vassal_of = THIS
 					}
-					vassal_of = THIS
+				}
+				EAS = {
+					exists = no
+					all_core = {
+						owned_by = THIS
+					}
 				}
 			}
 		}

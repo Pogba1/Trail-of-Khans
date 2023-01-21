@@ -345,7 +345,7 @@ promote_to =
 
         modifier = {
             factor = 2
-            not = { literacy = 0.50 }
+            NOT = { literacy = 0.50 }
         }
     }
     officers =
@@ -645,7 +645,7 @@ promote_to =
 
             modifier = {
                 factor =  -50
-                not = { literacy = 0.50 }
+                NOT = { literacy = 0.50 }
             }
         group = {
             modifier = {
@@ -767,7 +767,7 @@ promote_to =
         }
         modifier = {
             factor = 5
-            not = { luxury_needs = 0.1 }
+            NOT = { luxury_needs = 0.1 }
         }
         modifier = {
             factor = 1.2
@@ -865,7 +865,7 @@ promote_to =
         }
         modifier = {
             factor = 5.0
-            not = { luxury_needs = 0.1 }
+            NOT = { luxury_needs = 0.1 }
         }
         modifier = {
             factor = 5.0
@@ -877,7 +877,7 @@ promote_to =
 #        factor = 0.01
 #        modifier = {
 #            factor = 1.4
-#            not = { military_spending = 0.35 }
+#            NOT = { military_spending = 0.35 }
 #        }
 #    }
 }
@@ -2432,19 +2432,19 @@ issues =
         }
         modifier = {
             factor = 0.5
-            not = { consciousness = 6 }
+            NOT = { consciousness = 6 }
         }
         modifier = {
             factor = 0.5
-            not = { consciousness = 7 }
+            NOT = { consciousness = 7 }
         }
         modifier = {
             factor = 0.5
-            not = { consciousness = 8 }
+            NOT = { consciousness = 8 }
         }
         modifier = {
             factor = 0.5
-            not = { consciousness = 9 }
+            NOT = { consciousness = 9 }
         }
     }
     secularized = {
@@ -2514,7 +2514,7 @@ issues =
         }
         modifier = {
             factor = 1.1
-            not = { consciousness = 4 }
+            NOT = { consciousness = 4 }
         }
         modifier = {
             factor = 0
@@ -2522,15 +2522,15 @@ issues =
             }
         modifier = {
             factor = 1.1
-            not = { consciousness = 3 }
+            NOT = { consciousness = 3 }
         }
         modifier = {
             factor = 1.1
-            not = { consciousness = 2 }
+            NOT = { consciousness = 2 }
         }
         modifier = {
             factor = 1.1
-            not = { consciousness = 1 }
+            NOT = { consciousness = 1 }
         }
         modifier = {
             factor = 0.9
@@ -3870,31 +3870,31 @@ issues =
 
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.25 }
+            NOT = { life_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.50 }
+            NOT = { life_needs = 0.50 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.75 }
+            NOT = { life_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 0.25 }
+            NOT = { everyday_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 0.50 }
+            NOT = { everyday_needs = 0.50 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 0.75 }
+            NOT = { everyday_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 1 }
+            NOT = { everyday_needs = 1 }
         }
         modifier = {
             factor = 0.25
@@ -3923,25 +3923,25 @@ issues =
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 1 }
+                NOT = { poor_strata_everyday_needs = 1 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 0.75 }
+                NOT = { poor_strata_everyday_needs = 0.75 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 0.5 }
+                NOT = { poor_strata_everyday_needs = 0.5 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 0.25 }
+                NOT = { poor_strata_everyday_needs = 0.25 }
             }
         }
     }
@@ -3960,31 +3960,31 @@ issues =
 
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.25 }
+            NOT = { life_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.50 }
+            NOT = { life_needs = 0.50 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.75 }
+            NOT = { life_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 0.25 }
+            NOT = { everyday_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 0.50 }
+            NOT = { everyday_needs = 0.50 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 0.75 }
+            NOT = { everyday_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 1 }
+            NOT = { everyday_needs = 1 }
         }
         modifier = {
             factor = 0.25
@@ -4013,25 +4013,25 @@ issues =
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 1 }
+                NOT = { poor_strata_everyday_needs = 1 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 0.75 }
+                NOT = { poor_strata_everyday_needs = 0.75 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 0.5 }
+                NOT = { poor_strata_everyday_needs = 0.5 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 0.25 }
+                NOT = { poor_strata_everyday_needs = 0.25 }
             }
         }
     }
@@ -4050,31 +4050,31 @@ issues =
 
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.25 }
+            NOT = { life_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.50 }
+            NOT = { life_needs = 0.50 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.75 }
+            NOT = { life_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 0.25 }
+            NOT = { everyday_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 0.50 }
+            NOT = { everyday_needs = 0.50 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 0.75 }
+            NOT = { everyday_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 1 }
+            NOT = { everyday_needs = 1 }
         }
         modifier = {
             factor = 0.25
@@ -4103,25 +4103,25 @@ issues =
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 1 }
+                NOT = { poor_strata_everyday_needs = 1 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 0.75 }
+                NOT = { poor_strata_everyday_needs = 0.75 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 0.5 }
+                NOT = { poor_strata_everyday_needs = 0.5 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 0.25 }
+                NOT = { poor_strata_everyday_needs = 0.25 }
             }
         }
     }
@@ -4140,31 +4140,31 @@ issues =
 
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.25 }
+            NOT = { life_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.50 }
+            NOT = { life_needs = 0.50 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.75 }
+            NOT = { life_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 0.25 }
+            NOT = { everyday_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 0.50 }
+            NOT = { everyday_needs = 0.50 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 0.75 }
+            NOT = { everyday_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { everyday_needs = 1 }
+            NOT = { everyday_needs = 1 }
         }
         modifier = {
             factor = 0.25
@@ -4193,25 +4193,25 @@ issues =
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 1 }
+                NOT = { poor_strata_everyday_needs = 1 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 0.75 }
+                NOT = { poor_strata_everyday_needs = 0.75 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 0.5 }
+                NOT = { poor_strata_everyday_needs = 0.5 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_everyday_needs = 0.25 }
+                NOT = { poor_strata_everyday_needs = 0.25 }
             }
         }
     }
@@ -4482,25 +4482,25 @@ issues =
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 1 }
+                NOT = { poor_strata_life_needs = 1 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.75 }
+                NOT = { poor_strata_life_needs = 0.75 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.5 }
+                NOT = { poor_strata_life_needs = 0.5 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.25 }
+                NOT = { poor_strata_life_needs = 0.25 }
             }
         }
 
@@ -4563,25 +4563,25 @@ issues =
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 1 }
+                NOT = { poor_strata_life_needs = 1 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.75 }
+                NOT = { poor_strata_life_needs = 0.75 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.5 }
+                NOT = { poor_strata_life_needs = 0.5 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.25 }
+                NOT = { poor_strata_life_needs = 0.25 }
             }
         }
 
@@ -4644,25 +4644,25 @@ issues =
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 1 }
+                NOT = { poor_strata_life_needs = 1 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.75 }
+                NOT = { poor_strata_life_needs = 0.75 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.5 }
+                NOT = { poor_strata_life_needs = 0.5 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.25 }
+                NOT = { poor_strata_life_needs = 0.25 }
             }
         }
 
@@ -4725,25 +4725,25 @@ issues =
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 1 }
+                NOT = { poor_strata_life_needs = 1 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.75 }
+                NOT = { poor_strata_life_needs = 0.75 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.5 }
+                NOT = { poor_strata_life_needs = 0.5 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.25 }
+                NOT = { poor_strata_life_needs = 0.25 }
             }
         }
 
@@ -4815,19 +4815,19 @@ issues =
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.25 }
+            NOT = { life_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.50 }
+            NOT = { life_needs = 0.50 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.75 }
+            NOT = { life_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 1 }
+            NOT = { life_needs = 1 }
         }
         modifier = {
             factor = 1.25
@@ -4888,19 +4888,19 @@ issues =
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.25 }
+            NOT = { life_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.50 }
+            NOT = { life_needs = 0.50 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.75 }
+            NOT = { life_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 1 }
+            NOT = { life_needs = 1 }
         }
         modifier = {
             factor = 1.25
@@ -4961,19 +4961,19 @@ issues =
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.25 }
+            NOT = { life_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.50 }
+            NOT = { life_needs = 0.50 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.75 }
+            NOT = { life_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 1 }
+            NOT = { life_needs = 1 }
         }
         modifier = {
             factor = 1.25
@@ -5034,19 +5034,19 @@ issues =
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.25 }
+            NOT = { life_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.50 }
+            NOT = { life_needs = 0.50 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.75 }
+            NOT = { life_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 1 }
+            NOT = { life_needs = 1 }
         }
         modifier = {
             factor = 1.25
@@ -5108,42 +5108,42 @@ issues =
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.25 }
+            NOT = { life_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.5 }
+            NOT = { life_needs = 0.5 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.75 }
+            NOT = { life_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 1 }
+            NOT = { life_needs = 1 }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 1 }
+                NOT = { poor_strata_life_needs = 1 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.75 }
+                NOT = { poor_strata_life_needs = 0.75 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.5 }
+                NOT = { poor_strata_life_needs = 0.5 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.25 }
+                NOT = { poor_strata_life_needs = 0.25 }
             }
         }
     }
@@ -5174,42 +5174,42 @@ issues =
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.25 }
+            NOT = { life_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.5 }
+            NOT = { life_needs = 0.5 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.75 }
+            NOT = { life_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 1 }
+            NOT = { life_needs = 1 }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 1 }
+                NOT = { poor_strata_life_needs = 1 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.75 }
+                NOT = { poor_strata_life_needs = 0.75 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.5 }
+                NOT = { poor_strata_life_needs = 0.5 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.25 }
+                NOT = { poor_strata_life_needs = 0.25 }
             }
         }
     }
@@ -5241,42 +5241,42 @@ issues =
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.25 }
+            NOT = { life_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.5 }
+            NOT = { life_needs = 0.5 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.75 }
+            NOT = { life_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 1 }
+            NOT = { life_needs = 1 }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 1 }
+                NOT = { poor_strata_life_needs = 1 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.75 }
+                NOT = { poor_strata_life_needs = 0.75 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.5 }
+                NOT = { poor_strata_life_needs = 0.5 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.25 }
+                NOT = { poor_strata_life_needs = 0.25 }
             }
         }
     }
@@ -5308,42 +5308,42 @@ issues =
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.25 }
+            NOT = { life_needs = 0.25 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.5 }
+            NOT = { life_needs = 0.5 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 0.75 }
+            NOT = { life_needs = 0.75 }
         }
         modifier = {
             factor = 1.25
-            not = { life_needs = 1 }
+            NOT = { life_needs = 1 }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 1 }
+                NOT = { poor_strata_life_needs = 1 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.75 }
+                NOT = { poor_strata_life_needs = 0.75 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.5 }
+                NOT = { poor_strata_life_needs = 0.5 }
             }
         }
         modifier = {
             factor = 1.25
             state_scope = {
-                not = { poor_strata_life_needs = 0.25 }
+                NOT = { poor_strata_life_needs = 0.25 }
             }
         }
     }

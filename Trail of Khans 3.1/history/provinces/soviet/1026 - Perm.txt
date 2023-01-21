@@ -2,7 +2,6 @@ owner = NOV
 controller = NOV
 add_core = NOV
 add_core = RUS
-add_core = URA
 trade_goods = coal
 life_rating = 35
 state_building = {
@@ -19,12 +18,4 @@ state_building = {
     level = 1
     building = small_arms_factory
     upgrade = yes
-}
-
-1861.1.1 = {
-    state_building = {
-        level = 1
-        building = artillery_factory
-        upgrade = yes
-    }
 }

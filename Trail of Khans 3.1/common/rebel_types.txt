@@ -35,7 +35,7 @@ reactionary_rebels = {
 
 
     defection = none                    # Will defect to the "best" alternative.
-    independence = none                # Does not strive for independence
+    independence = none                # Does NOT strive for independence
     defect_delay = 18
 
     ideology = reactionary
@@ -45,10 +45,10 @@ reactionary_rebels = {
     allow_all_ideologies = yes
 
     resilient = yes                    # Disbands on retreat
-    reinforcing = yes                # Does not receive reinforcements
+    reinforcing = yes                # Does NOT receive reinforcements
     general = yes                    # Does use generals
-    smart = yes                        # Does not assault forts, tactically withdraw from battle, etc.
-    unit_transfer = no                # Units do not remain after enforcing demands.
+    smart = yes                        # Does NOT assault forts, tactically withdraw from battle, etc.
+    unit_transfer = no                # Units do NOT remain after enforcing demands.
 
     occupation_mult = 1.0            # The amount of strength this rebel gains from taking provinces
 
@@ -320,7 +320,7 @@ fascist_rebels = {
 
 
     defection = none                    # Will defect to the "best" alternative.
-    independence = none                # Does not strive for independence
+    independence = none                # Does NOT strive for independence
     defect_delay = 18
 
     ideology = fascist
@@ -329,7 +329,7 @@ fascist_rebels = {
     allow_all_religions = yes
     allow_all_ideologies = yes
 
-    resilient = yes                    # Does not disband on retreat
+    resilient = yes                    # Does NOT disband on retreat
     reinforcing = yes                # Receives reinforcements
     general = yes                    # Uses generals
     smart = yes                    # Assaults forts, tactically withdraws from battle, etc.
@@ -613,7 +613,7 @@ communist_rebels = {
 
 
     defection = none
-    independence = none                # Does not strive for independence
+    independence = none                # Does NOT strive for independence
     defect_delay = 18
 
     ideology = communist
@@ -623,10 +623,10 @@ communist_rebels = {
     allow_all_ideologies = yes
 
     resilient = yes                    # Disbands on retreat
-    reinforcing = yes                # Does not receive reinforcements
+    reinforcing = yes                # Does NOT receive reinforcements
     general = yes                    # Does use generals
-    smart = yes                        # Does not assault forts, tactically withdraw from battle, etc.
-    unit_transfer = no                # Units do not remain after enforcing demands.
+    smart = yes                        # Does NOT assault forts, tactically withdraw from battle, etc.
+    unit_transfer = no                # Units do NOT remain after enforcing demands.
 
     occupation_mult = 1.0            # The amount of strength this rebel gains from taking provinces
 
@@ -901,7 +901,7 @@ anarcho_liberal_rebels = {
 
 
     defection = none                    # Will defect to the "best" alternative.
-    independence = none                # Does not strive for independence
+    independence = none                # Does NOT strive for independence
     defect_delay = 18
 
     ideology = anarcho_liberal
@@ -911,10 +911,10 @@ anarcho_liberal_rebels = {
     allow_all_ideologies = yes
 
     resilient = yes                    # Disbands on retreat
-    reinforcing = yes                # Does not receive reinforcements
+    reinforcing = yes                # Does NOT receive reinforcements
     general = yes                    # Does use generals
-    smart = yes                        # Does not assault forts, tactically withdraw from battle, etc.
-    unit_transfer = no                # Units do not remain after enforcing demands.
+    smart = yes                        # Does NOT assault forts, tactically withdraw from battle, etc.
+    unit_transfer = no                # Units do NOT remain after enforcing demands.
 
     occupation_mult = 1.0            # The amount of strength this rebel gains from taking provinces
 
@@ -1214,17 +1214,17 @@ nationalist_rebels = {
 
 
     defection = none            # (Was 'culture') If the country seeks independence, defection specifies what type of provinces it wants.
-    independence = culture         # (Was 'culture')Seeks independence for spawn province culture. Will not spawn at all if there is no suitable tag.
+    independence = culture         # (Was 'culture')Seeks independence for spawn province culture. Will NOT spawn at all if there is no suitable tag.
     defect_delay = 12            # Can spontaneously declare independence after X months (earliest)
 
     allow_all_cultures = yes
     allow_all_religions = yes
     allow_all_ideologies = yes
 
-    resilient = yes                    # Does not disband on retreat
-    reinforcing = yes                # Does not receive reinforcements
+    resilient = yes                    # Does NOT disband on retreat
+    reinforcing = yes                # Does NOT receive reinforcements
     general = yes                    # Does use generals
-    smart = yes                    # Does not assault forts, tactically withdraw from battle, etc.
+    smart = yes                    # Does NOT assault forts, tactically withdraw from battle, etc.
     unit_transfer = yes                # Units do remain after enforcing demands.
 
     occupation_mult = 5.0            # The amount of strength this rebel gains from taking provinces
@@ -1356,17 +1356,6 @@ nationalist_rebels = {
         modifier = {
             factor = 2
             location = { has_province_modifier = nationalist_agitation }
-        }
-        modifier = {
-            factor = 0
-            culture = south_andean
-            location = { is_core = BOL }
-            country = { tag = PBC }
-        }
-        modifier = {
-            factor = 0
-            culture = british
-            country = { primary_culture = boer }
         }
         modifier = {
             factor = 0
@@ -1528,9 +1517,9 @@ pan_nationalist_rebels = {
     allow_all_ideologies = yes
 
     resilient = yes                    # Disbands on retreat
-    reinforcing = yes                # Does not receive reinforcements
-    general = yes                    # Does not use generals
-    smart = yes                    # Does not assault forts, tactically withdraw from battle, etc.
+    reinforcing = yes                # Does NOT receive reinforcements
+    general = yes                    # Does NOT use generals
+    smart = yes                    # Does NOT assault forts, tactically withdraw from battle, etc.
     unit_transfer = no                # Units remain after enforcing demands.
 
     occupation_mult = 3.0            # The amount of strength this rebel gains from taking provinces
@@ -1566,14 +1555,6 @@ pan_nationalist_rebels = {
             factor = 0.5
             has_country_modifier = global_liberal_agitation
         }
-		modifier = {
-			factor = 0
-			OR = {
-                  has_pop_culture = south_german
-                  has_pop_culture = north_german	
-                }
-			exists = HRE
-		}
     }
 
     # The rebel type with the highest modifier for this pop gets picked
@@ -1619,14 +1600,6 @@ pan_nationalist_rebels = {
         modifier = {
             factor = 1.05
             cultural_union = { exists = yes }
-        }
-        modifier = {
-            factor = 0
-            country = { tag = DNB }
-        }
-        modifier = {
-            factor = 0
-            country = { tag = FSA }
         }
         modifier = {
             factor = 0
@@ -1900,9 +1873,9 @@ red_shirts = {
     allow_all_ideologies = yes
 
     resilient = yes                    # Disbands on retreat
-    reinforcing = yes                # Does not receive reinforcements
-    general = yes                    # Does not use generals
-    smart = yes                    # Does not assault forts, tactically withdraw from battle, etc.
+    reinforcing = yes                # Does NOT receive reinforcements
+    general = yes                    # Does NOT use generals
+    smart = yes                    # Does NOT assault forts, tactically withdraw from battle, etc.
     unit_transfer = yes                # Units remain after enforcing demands.
 
     occupation_mult = 10.0            # The amount of strength this rebel gains from taking provinces
@@ -2100,7 +2073,7 @@ red_shirts = {
                 }
                 NOT = {
                     is_cultural_union = yes
-                    has_country_flag = does_not_want_to_be_unified
+                    has_country_flag = does_NOT_want_to_be_unified
                 }
             }
             country_event = 11103
@@ -2144,9 +2117,9 @@ indian_nationalists = {
     allow_all_ideologies = yes
 
     resilient = yes                    # Disbands on retreat
-    reinforcing = yes                # Does not receive reinforcements
-    general = yes                    # Does not use generals
-    smart = yes                    # Does not assault forts, tactically withdraw from battle, etc.
+    reinforcing = yes                # Does NOT receive reinforcements
+    general = yes                    # Does NOT use generals
+    smart = yes                    # Does NOT assault forts, tactically withdraw from battle, etc.
     unit_transfer = no                # Units remain after enforcing demands.
 
     occupation_mult = 3.0            # The amount of strength this rebel gains from taking provinces
@@ -2356,7 +2329,7 @@ liberal_rebels = {
 
 
     defection = none                    # Will defect to the "best" alternative.
-    independence = none                # Does not strive for independence
+    independence = none                # Does NOT strive for independence
     defect_delay = 18
 
     ideology = liberal
@@ -2366,10 +2339,10 @@ liberal_rebels = {
     allow_all_ideologies = yes
 
     resilient = yes                    # Disbands on retreat
-    reinforcing = yes                # Does not receive reinforcements
-    general = yes                    # Does not use generals
-    smart = yes                        # Does not assault forts, tactically withdraw from battle, etc.
-    unit_transfer = no                # Units do not remain after enforcing demands.
+    reinforcing = yes                # Does NOT receive reinforcements
+    general = yes                    # Does NOT use generals
+    smart = yes                        # Does NOT assault forts, tactically withdraw from battle, etc.
+    unit_transfer = no                # Units do NOT remain after enforcing demands.
 
     occupation_mult = 1.0            # The amount of strength this rebel gains from taking provinces
 
@@ -2595,18 +2568,6 @@ liberal_rebels = {
             }
         }
         modifier = {
-            factor = 0.1
-            country = {
-                tag = SPC
-                OR = {
-                    government = hms_government
-                    government = prussian_constitutionalism
-                    government = absolute_monarchy
-                }
-            }
-            pop_majority_ideology = liberal
-        }
-        modifier = {
             factor = 0.25
             is_culture_group = germanic
             country = {
@@ -2779,20 +2740,6 @@ liberal_rebels = {
             duration = 365
         }
         prestige_factor = -0.25
-
-        random_owned = {
-            limit = { owner = { NOT = { tag = URU } } }
-            owner = { country_event = 800054 plurality = -10 }
-        }
-
-        random_owned = {
-            limit = { owner = { tag = URU NOT = { has_country_flag = colorado_victory } } }
-            owner = { country_event = 600057 }
-        }
-        random_owned = {
-            limit = { owner = { tag = URU } }
-            owner = { set_country_flag = colorado_rule clr_country_flag = blanco_rule }
-        }
     }
 }
 
@@ -2822,7 +2769,7 @@ unciv_reactionary_rebels = {
 	
 	
 	defection = none					# Will defect to the "best" alternative.
-	independence = none				# Does not strive for independence
+	independence = none				# Does NOT strive for independence
 	defect_delay = 18
 	
 	ideology = reactionary
@@ -2832,10 +2779,10 @@ unciv_reactionary_rebels = {
 	allow_all_ideologies = yes
 	
 	resilient = yes					# Disbands on retreat
-	reinforcing = yes				# Does not receive reinforcements
+	reinforcing = yes				# Does NOT receive reinforcements
 	general = yes					# Does use generals
-	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
-	unit_transfer = no				# Units do not remain after enforcing demands.
+	smart = yes					# Does NOT assault forts, tactically withdraw from battle, etc.
+	unit_transfer = no				# Units do NOT remain after enforcing demands.
 	
 	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces	
 
@@ -3006,10 +2953,10 @@ separatist_rebels = {
     allow_all_ideologies = yes
 
     ideology = liberal
-    resilient = yes                    # Does not disband on retreat
-    reinforcing = yes                # Does not receive reinforcements
+    resilient = yes                    # Does NOT disband on retreat
+    reinforcing = yes                # Does NOT receive reinforcements
     general = yes                    # Does use generals
-    smart = yes                    # Does not assault forts, tactically withdraw from battle, etc.
+    smart = yes                    # Does NOT assault forts, tactically withdraw from battle, etc.
     unit_transfer = no                # Units do remain after enforcing demands.
 
     occupation_mult = 5.0            # The amount of strength this rebel gains from taking provinces
@@ -3262,7 +3209,7 @@ socialist_rebels = {
 
 
     defection = none                    # Will defect to the "best" alternative.
-    independence = none                # Does not strive for independence
+    independence = none                # Does NOT strive for independence
     defect_delay = 18
 
     ideology = socialist
@@ -3272,10 +3219,10 @@ socialist_rebels = {
     allow_all_ideologies = yes
 
     resilient = yes                    # Disbands on retreat
-    reinforcing = yes                # Does not receive reinforcements
-    general = yes                    # Does not use generals
-    smart = yes                        # Does not assault forts, tactically withdraw from battle, etc.
-    unit_transfer = no                # Units do not remain after enforcing demands.
+    reinforcing = yes                # Does NOT receive reinforcements
+    general = yes                    # Does NOT use generals
+    smart = yes                        # Does NOT assault forts, tactically withdraw from battle, etc.
+    unit_transfer = no                # Units do NOT remain after enforcing demands.
 
     occupation_mult = 1.0            # The amount of strength this rebel gains from taking provinces
 
@@ -3741,7 +3688,7 @@ independence_rebels = {
 
 
     defection = none                    # Will defect to the "best" alternative.
-    independence = none                # Does not strive for independence
+    independence = none                # Does NOT strive for independence
     defect_delay = 18
 
     ideology = liberal
@@ -3750,11 +3697,11 @@ independence_rebels = {
     allow_all_religions = yes
     allow_all_ideologies = yes
 
-    resilient = yes                    # Does not disbands on retreat
+    resilient = yes                    # Does NOT disbands on retreat
     reinforcing = yes                # Receives reinforcements
     general = yes                    # Uses generals
     smart = yes                        # Assault forts, tactically withdraw from battle, etc.
-    unit_transfer = no                # Units do not remain after enforcing demands.
+    unit_transfer = no                # Units do NOT remain after enforcing demands.
 
     occupation_mult = 1.0            # The amount of strength this rebel gains from taking provinces
 
@@ -3908,7 +3855,7 @@ partisan_rebels = {
 
 
     defection = none                    # Will defect to the "best" alternative.
-    independence = none                # Does not strive for independence
+    independence = none                # Does NOT strive for independence
     defect_delay = 18
 
     ideology = liberal
@@ -3918,10 +3865,10 @@ partisan_rebels = {
     allow_all_ideologies = yes
 
     resilient = yes                    # Disbands on retreat
-    reinforcing = yes                # Does not receive reinforcements
-    general = yes                    # Does not use generals
-    smart = yes                        # Does not assault forts, tactically withdraw from battle, etc.
-    unit_transfer = yes            # Units do not remain after enforcing demands.
+    reinforcing = yes                # Does NOT receive reinforcements
+    general = yes                    # Does NOT use generals
+    smart = yes                        # Does NOT assault forts, tactically withdraw from battle, etc.
+    unit_transfer = yes            # Units do NOT remain after enforcing demands.
 
     occupation_mult = 1.25            # The amount of strength this rebel gains from taking provinces
 
@@ -3988,7 +3935,7 @@ partisan_rebels = {
             location = { units_in_province = 1 }
         }
 
-        #Will only spawn in provinces that do not neighbour other free provinces/have units
+        #Will only spawn in provinces that do NOT neighbour other free provinces/have units
         modifier = {
             factor = 0
             location = {

@@ -340,7 +340,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = rebuild_the_caliphate
 			MOR = {all_core = {add_core = THIS}}
-			ALD = {all_core = {add_core = THIS}}
+			ADL = {all_core = {add_core = THIS}}
 			TUN = {all_core = {add_core = THIS}}
 			}
 	}
@@ -415,7 +415,7 @@ political_decisions = {
 			EGY = {all_core = {add_core = THIS}}
 			TRI = {all_core = {add_core = THIS}}
 			MOR = {all_core = {add_core = THIS}}
-			ALD = {all_core = {add_core = THIS}}
+			ADL = {all_core = {add_core = THIS}}
 			TUN = {all_core = {add_core = THIS}}
 			ADL = {all_core = {add_core = THIS}}
 			EGY_921 = {add_core = THIS}

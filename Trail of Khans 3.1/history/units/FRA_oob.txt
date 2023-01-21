@@ -1,14 +1,4 @@
 #Sphere of Influence
-
-#GPs
-ENG = { value = 25 }
-RUS = { value = -100 }
-AUS = { value = -50 }
-USA = { value = 50 }
-TUR = { value = -75 }
-SPA = { value = 55 }
-TRZ = { value = -100 }
-
 LOR = {
 	value = 50
 	level = 4

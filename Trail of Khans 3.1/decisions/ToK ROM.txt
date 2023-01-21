@@ -53,38 +53,10 @@ political_decisions = {
 		}
 	}
 	
-	#natural_borders_II = {
-	#potential = {
-	#tag = ROM
-	#has_country_flag = natural_borders
-	#NOT = {has_country_flag = natural_borders_II}
-	#}
-	#allow = {
-	#all_core = {owned_by = THIS}
-	#OR = {is_secondary_power = yes
-	#is_greater_power = yes
-	#}
-	#}
-	#effect = {
-	#809 = {add_core = THIS}
-	#810 = {add_core = THIS}
-	#812 = {add_core = THIS}
-	#811 = {add_core = THIS}
-	#811 = {add_core = THIS}
-	#813 = {add_core = THIS}
-	#814 = {add_core = THIS}
-	#set_country_flag = natural_borders_II
-	#}
-	#
-	#}
-	
 	dacian_oil = {
 	picture = tea_production
 		potential = {
-			OR = {
-				tag = ROM 
-				tag = DNB
-			}
+			tag = ROM 
 		}
 		allow = {
 			667 = {owned_by = THIS}
@@ -123,9 +95,9 @@ political_decisions = {
 	wallachian_agriculture = {
 	picture = tea_production
 	potential = {
-	OR = {tag = ROM
-		  tag = DNB
-		  tag = WAL
+	OR = {
+		tag = ROM
+		tag = WAL
 	}
 	NOT = {has_country_flag = wallachian_agriculture}
 	}

@@ -318,7 +318,6 @@ political_decisions = {
             NOT = { is_culture_group = east_asian }
             NOT = { primary_culture = japanese }
             NOT = { tag = HYD }
-            NOT = { tag = MUG }
             NOT = { has_country_flag = sunni_country }
             NOT = { has_country_flag = shiite_country }
             NOT = { has_country_flag = ibadi_country }

@@ -243,17 +243,6 @@ political_decisions = {
                 owner = { add_accepted_culture = iroquois }
             }
         }
-        ai_will_do = {
-            factor = 1
-            modifier = {
-                factor = 0
-                NOT = { year = 1915 }
-                OR = {
-                    tag = USA
-                    tag = CAN
-                }
-            }
-        }
     }
 
     native_assimilation_act = {

@@ -1,14 +1,3 @@
-NET = {
-    value = 40
-}
-
-POR = {
-    value = 200
-}
-
-SEG = {
-    value = 50
-}
 
 TOO = { value = -200 }
 JAL = { value = -200 }

@@ -408,7 +408,7 @@ commerce_raiders = {
 steamer_shipyard_construction = {
     limit = { steamers = 1 }
     chance = {
-        base = 5
+        base = 15
         modifier = {
             factor = 1
             semi_automatization = 1
@@ -499,6 +499,18 @@ ironclads = {
             factor = 2
             war = yes
             war_countries = { invention = ironclads }
+        }
+        modifier = {
+            factor = 10
+            invention = armour_piercing_projectiles
+        }
+        modifier = {
+            factor = 10
+            invention = armour_piercing_exploding_projectiles
+        }
+        modifier = {
+            factor = 10
+            invention = armoured_turrets
         }
         modifier = {
             factor = 10

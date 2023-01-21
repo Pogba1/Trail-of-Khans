@@ -4087,7 +4087,6 @@ country_event = {
                     NOT = { has_global_flag = indian_call_to_union }
                     OR = {
                         tag = MAH
-                        tag = MUG
                         tag = BNG
                     }
                 }

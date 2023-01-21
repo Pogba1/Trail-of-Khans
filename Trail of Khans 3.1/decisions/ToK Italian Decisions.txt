@@ -78,10 +78,7 @@ political_decisions = {
 	
 	vatican_treaty = {
 		potential = {
-			OR = {
-				tag = BIT
-				tag = ITA
-			}
+			tag = ITA
 			NOT = {has_global_flag = vatican_treaty}
 			has_global_flag = confiscate_papal_wealth
 			has_country_modifier = hostile_pope
@@ -99,10 +96,7 @@ political_decisions = {
 	papal_compromise = {
 		potential = {
 			exists = PAP
-			OR = {
-				tag = BIT
-				tag = ITA
-			}
+			tag = ITA
 			NOT = {has_global_flag = confiscate_papal_wealth}
 			NOT = {has_global_flag = papal_compromise}
 			has_country_flag = reform_papacy
