@@ -1,0 +1,36 @@
+country_event = {
+    id = 198000
+    title = "EVTNAME198000"
+    desc = "EVTDESC198000"
+    picture = "regency"
+
+    trigger = {
+	    has_country_modifier = caliph_egy
+	    NOT = {1151 = {owned_by=THIS}}
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA198000"
+		remove_country_modifier = caliph_egy
+    }
+}
+
+country_event = {
+    id = 190002
+    title = "EVTNAME190002"
+    desc = "EVTDESC190002"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Mashallah!"
+        add_country_modifier = {
+            name = andalusian_caliphate
+            duration = -1
+        }
+    }
+}
