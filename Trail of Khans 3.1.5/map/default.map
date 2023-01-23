@@ -25,7 +25,7 @@ sea_starts = {
     3313 3314 3315 3316 3317 3318
 }
 
-definitions = "../mod/Trail of Khans 3.1/map/definition.csv"
+definitions = "../mod/Trail of Khans 3.1.5/map/definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
 terrain = "terrain.bmp"
