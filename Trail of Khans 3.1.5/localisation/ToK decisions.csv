@@ -3,7 +3,7 @@ storm_the_southern_italians_title;The Italic Wars;;;;;;;;;;;;;;x
 storm_the_southern_italians_desc;The time has come. The senate and more importantly, the people, have spoken their wishes to unite the peninsula. Italia shall be one, undivided and prosperous once again. But these rump states in south still cling on to their status quo and will not budge to unite any time soon. It is time to show them war. Sicilia delanda est!;x
 the_papal_states_title;The question of the holy see;;;;;;;;;;;;;
 the_papal_states_desc;The papacy has for long ruled over rome, ever since the year 759 AD. The heart of catholicism, this place holds tremendous value to the people of our nation and of many more. Thus, with the blessing of Pope Pius IX, the papal states shall now be subservient to Genoa. This will be our first step to restoring an old fantasy.;x
-form_rome_title;The Legend of Romulus and Remus;;;;;;;;;;;;;
+form_rome_title;The Legend of Romulus and Remus @RMR;;;;;;;;;;;;;
 form_rome_desc;Romulus and Remus were abandonned at birth, left as orphans in the wilderness of the forest on the river Tiber. Romolus and Remus grew up nurtured by a she-wolf until adopted by shepherd as his sons. Faustulus was his name and alonside his wife they raised them into adulthood. The brothers then sought to found a city, but they disputed over it's location. This tension boiled over when Remus and his followers attacked Romolus, but the gods had chosen Romolus that day and Remus was killed. In the aftermath of this fratricide, Rome was to be founded in the XVIIIth century BC by Romolus. This story is now true once again, as we have vanquished our brothers in italia, we now will found not the city of Rome, but the state of Rome. Roma Eterna!;;;;;;;;;;;;;
 assimilate_trent_title;Assimilate Trent;;;;;;;;;;;;;
 assimilate_trent_desc;;;;;;;;;;;;;;
@@ -47,7 +47,7 @@ subjugate_illyricum_title;Subjugate Illyricum;;;;;;;;;;;;;
 subjugate_illyricum_desc; ;;;;;;;;;;;;; 
 the_caucasians_title;The Caucasians;;;;;;;;;;;;;
 the_caucasians_desc; ;;;;;;;;;;;;;
-form_kievan_rus_title;Proclaim the Kievan-Rus;;;;;;;;;;;;;
+form_kievan_rus_title;Proclaim the Kievan-Rus @KIR;;;;;;;;;;;;;
 form_kievan_rus_desc; ;;;;;;;;;;;;;
 heartland_of_ruthenia_title;The Heartland of Ruthenia;;;;;;;;;;;;;
 heartland_of_ruthenia_desc; ;;;;;;;;;;;;;
@@ -61,13 +61,13 @@ request_control_cossacks_title;Request control over the Cossack lands;;;;;;;;;;;
 request_control_cossacks_desc; ;;;;;;;;;;;;;
 ukrainian_integration_title;The Treaty of Kiev;;;;;;;;;;;;;
 ukrainian_integration_desc;With our influence over the Ukrainian lands unconteste we can proclaim the Ukrainian people as a part of our cultural hegemony over most of Eastern Europe.;;;;;;;;;;;;;
-form_ruthenia_title;Form Ruthenia;;;;;;;;;;;;;
+form_ruthenia_title;Form Ruthenia @RUT;;;;;;;;;;;;;
 form_ruthenia_desc; ;;;;;;;;;;;;;
 the_resettlement_of_africa_title;The Resettlement of North Africa;x
 the_resettlement_of_africa_desc;The province of Africa, also refered to as Africa Proconsularis, was one of the central parts of the Roman Republic until the overtaking of the Ptolemaic Egypt in the year 30 B.C. This has led to us seeking out this province once again for a larger grain supply to feed our populus as we reimplement the grain dole not only in Rome but all across the country;x 
 pelsovs_plain_title;The Great Pelsov Plain;x
 pelsovs_plain_desc;The untamed plains of Pelsov remain open for territorial expansion, we must lay claim to it under the name of our God and country;x
-form_ottokaria_title;Realise Ottokar II's ambition;x
+form_ottokaria_title;Realise Ottokar II's ambition @OTO;x
 form_ottokaria_desc; ;x
 west_has_fallen_title;The West has fallen;x
 west_has_fallen_desc;Goodbye Mom!;x
@@ -75,7 +75,7 @@ integrate_small_poles_title;Integrate the Small Poles;x
 integrate_small_poles_desc;The Pruthenians and the Wends have a long kinship with the Polish people, tracing back our origins to the same tribes and all 3 being catholics. It is now time to fully integrate them into our bureaucracy and state.;x
 abolish_silesian_duchy_title;Abolish the Silesian Duchy;x
 abolish_silesian_duchy_desc;With the death of Duke Friedrich Kmiecik so goes the autonomy of the Silesian Duchy. As written in his will, the lands of the House of Kmiecik will be inherited to King Stanislaus of Jagiellon.;x
-uneasy_plc_title;Uneasy Unification of the Jagiellon holdings;x
+uneasy_plc_title;Uneasy Unification of the Jagiellon holdings @PLC;x
 uneasy_plc_desc;The Jagiellon holdings have for too long been disunited by old Personal Unions, this cannot last if we are to recover from the blow delt by the Bohemians.;x
 ruthenian_ambition_title;Ruthenian Ambition;x
 ruthenian_ambition_desc;Our King Stanislaus has been greatly influenced by the exploits of Kazimierz, the former Hetman Cossacks. This has sparked a fire within Stanislaus to cultivate a cultural bond between the Ruthenian people and the Poles. The move has garnered quite the attention from the Polish nobility which feel like he is neglecting his duties as the Polish king and instead focusing on some fantasy spurred on by a decrepit Kazimierz.;x
@@ -97,7 +97,7 @@ czech_integration_title;Czech Integration;x
 czech_integration_desc;It has taken a long time but with our similarities in language, the Czechs are now properly integrated into Jagiellonian society and culture;x
 the_second_bohemian_war_title;The Aftermath of the Second War for Bohemia;x
 the_second_bohemian_war_desc;Wladislaus has finally crushed the Bohemian Crown in war and the people's complaints have been quelled.;x
-late_plc_title;Unification finally?;x
+late_plc_title;Unification finally? @PLC;x
 late_plc_desc;After many decades of political struggle for Wladislaus and a second war over Bohemia, we have finally manage to proclaim a unified Jagiellonia!;x
 the_iles_title;The Iles;;;;;;;;;;;;;;
 the_iles_desc; ;;;;;;;;;;;;;;
@@ -121,7 +121,7 @@ assimilation_of_the_euros;Assimilation of the European Invaders;;;;;;;;;;;;;
 assimilation_of_the_euros_desc; ;;;;;;;;;;;;;
 end_baltic_monopoly_title;End the Hanseatic monopoly;x
 end_baltic_monopoly_desc; ;x
-unite_plc_title;Unite the Polish Empire;x
+unite_plc_title;Unite the Polish Empire @PLC;x
 unite_plc_desc; ;x
 remove_ai_immigration_title;§R Lower AI immigration;x
 remove_ai_immigration_desc;§R Taking this option will lower immigration for all AI controlled countries in the world, this decision is irreversable.;x
@@ -133,3 +133,21 @@ integrate_frisian_duchy_LUB_title;Integrate the Frisian Duchy;x
 integrate_frisian_duchy_LUB_desc; ;x
 integrate_frisian_duchy_NET_title;Integrate the Frisian Duchy;x
 integrate_frisian_duchy_NET_desc; ;x
+form_inca_title;Tawantinsuyu, Land of the Incans @INC;x
+form_inca_desc; ;x
+form_sigmanistan_title;Form Sigmanistan @SIG;x
+form_sigmanistan_desc;So true;x
+form_bns_title;Form Bengalistan @BNS;x
+form_bns_desc; ;x
+form_gau_title;Form Gaul @GAU;x
+form_gau_desc;schizo;x
+form_china_title;Form China @CHI;x
+form_china_desc; ;x
+form_rom_title;Form Romania @ROM;x
+form_rom_desc; ;x
+form_gae_SCO_title;Form Gaellia @GAE;x
+form_gae_SCO_desc; ;x
+form_gae_IRE_title;Form Gaellia @GAE;x
+form_gae_IRE_desc; ;x
+form_rus_title;Form Russia @RUS;x
+form_rus_desc; ;x
