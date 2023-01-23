@@ -173,21 +173,34 @@ political_decisions = {
 			tag = RMR
 			NOT = {
 				has_country_flag = the_greek_claims
-				has_country_flag = greek_cultural_unity
-			}					
+			}
 		}
 		allow = { 
 			war = no
 			is_greater_power = yes
-			BYZ = {
-				NOT = {
-					exists = yes
+			GRE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+							is_mobilised = no
+							NOT = {
+								tag = BYZ
+							}
+						}
+					}
 				}
-			}						         
-			nationalism_n_imperialism = 1
+			}
 			TUR_860 = {
 				owned_by = THIS
 			}
+			nationalism_n_imperialism = 1
 		}
 		effect = {
 			country_event = { 

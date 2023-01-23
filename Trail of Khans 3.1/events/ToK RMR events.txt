@@ -14,8 +14,7 @@ country_event = {
 			}
 		}
 		add_accepted_culture = greek
-		badboy = 15
-		prestige = 25
+		prestige = 40
 		set_country_flag = the_greek_claims
 	}
 }
