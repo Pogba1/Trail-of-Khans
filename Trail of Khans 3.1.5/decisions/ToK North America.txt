@@ -48,29 +48,71 @@ political_decisions = {
 	
 	federation_of_america = {
 		potential = {
-			NOT = {exists = NAM}
+			NAM = {
+				exists = no
+			}
 			OR = {
 				tag = LOU
 				tag = QUE
 			}
 		}
 		allow = {
-			 LOU = {all_core = {OR = {owned_by = THIS owner = {vassal_of = THIS}}}}
-			 QUE = {
+			LOU = {
 				all_core = {
 					OR = {
-						empty = yes
-						owned_by = THIS
-						owner = {vassal_of = THIS}			
+						owned_by = THIS 
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
 					}
 				}
 			}
-			 nationalism_n_imperialism = 1
+			QUE = {
+				all_core = {
+					OR = {
+						empty = yes
+						owned_by = THIS 
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}
+			}
+			is_greater_power = yes
+			war = no
+			nationalism_n_imperialism = 1
 		}
 		effect = {
 			change_tag = NAM
 			any_country = {
-				limit = {OR = {in_sphere = THIS vassal_of = THIS}capital_scope = {continent = north_america} NOT = {primary_culture = mexican}}
+				limit = {
+					in_sphere = THIS
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+					}
+					capital_scope = {
+						continent = north_america
+					} 
+					OR = {
+						primary_culture = french_canadian
+						primary_culture = louisianian
+					}
+				}
 				annex_to = THIS
 			}
 			LOU = {
@@ -165,22 +207,31 @@ political_decisions = {
 	}
 	the_true_masters_of_the_coast = {
 		potential = {
-			NOT = {has_country_flag = the_true_masters_of_the_coast}
+			NOT = {
+				has_country_flag = the_true_masters_of_the_coast
+			}
 			tag = MEX
 		}
 		allow = {
-			104 = {owned_by = THIS}
-			89 = {owned_by = THIS}
+			ideological_thought = 1
+			ELI = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
 		}
 		effect = {
 			set_country_flag = the_true_masters_of_the_coast
 			COL = {
-				all_core = {add_core = THIS}
+				all_core = {
+					add_core = THIS
+				}
 			}
 			ELI = {
-				all_core = {add_core = THIS}
+				all_core = {
+					add_core = THIS
+				}
 			}
-			any_pop = { limit = {has_pop_culture = elysian} militancy = 6 consciousness = 1}
 		}
 	}
 }

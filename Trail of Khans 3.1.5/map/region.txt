@@ -40,13 +40,9 @@ ELI_104 = { 84 85 104 } #Elisio
 
 USA_91 = { 91 92 93 } #Idaho
 
-MEX_94 = { 94 95 } #Nevada
+MEX_97 = { 97 98 99 94 95 } #Utah
 
-MEX_97 = { 97 98 99 } #Utah
-
-MEX_100 = { 100 101 102 } #Arizona
-
-MEX_103 = { 105 2148 2662 } #New Mexico
+MEX_100 = { 100 101 105 2148 } #Arizona
 
 USA_106 = { 103 106 108 109 } #Colorado
 
@@ -66,9 +62,7 @@ USA_129 = { 131 129 130 } #Oklahoma
 
 TEX_132 = { 133 43 132 134 135 136 137 138 } #Texas
 
-USA_139 = { 144 141 142 } #West Missisipi
-
-USA_144 = { 143 145 } #Arkansas
+USA_139 = { 144 141 142 143 145 } #West Missisipi
 
 USA_148 = { 146 148 147 149 150 } #Missouri
 
@@ -176,9 +170,7 @@ RUS_345 = { 345 346 347 348 } #Turku
 
 DEN_367 = { 367 366 368 2557 } #Jylland
 
-HOL_369 = { 369 530 528 529 533 } #Holstein
-
-SCH_370 = { 370 371 } #Schleswig
+HOL_369 = { 369 370 371 530 528 529 533 } #Holstein
 
 DEN_372 = { 372 373 374 } #Sjaelland
 
@@ -1102,7 +1094,7 @@ MAD_2121 = { 2121 2115 2120 2119 } #North Madagascar
 
 ### Mexico
 
-MEX_2138 = { 2137 2138 2139 2140 2141 } #Sonora
+MEX_2138 = { 2137 2138 2139 2140 2141 102 2662 } #Sonora
 
 MEX_2142 = { 2142 2143 2144 2145 } #Chihuahua
 
@@ -1120,18 +1112,14 @@ MEX_2170 = { 2170 2171 2177 2178 2179 2180 } #Guerrero
 
 MEX_2172 = { 2172 2173 2174 2175 2176 } #Mexico
 
-#MEX_2181 = {   } #Oasaca
-
-MEX_2181 = { 2181 2182 2165 } #Chiapas
+MEX_2181 = { 2165 2189 2190 } #Chiapas
 
 
 ### Central America
 
-UCA_2186 = { 2186 2187 2188 2189 2190 2628 } #Guatemala
+UCA_2186 = { 2181 2182 2186 2187 2188 2628 } #Guatemala
 
-UCA_2191 = { 2191 2192 } #El Salvador
-
-UCA_2193 = { 2193 2194 2195 2196 } #Honduras
+UCA_2193 = { 2193 2194 2195 2196 2191 2192 } #Honduras
 
 UCA_2197 = { 2197 2198 2199 2200 } #Nicaragua
 
