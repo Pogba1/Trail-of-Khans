@@ -45,7 +45,9 @@ imperial_restoration_annex_cb
 chinese_unification_cb
 chinese_unification_annex_cb
 add_to_sphere 
-take_from_sphere 
+take_from_sphere
+safeguard_bohemia
+install_jagiellon 
 status_quo 
 gunboat 
 conquest 
@@ -53,7 +55,8 @@ conquest_low
 civil_war 
 acquire_core_state 
 annex_core_country
-acquire_state 
+acquire_state
+acquire_state_america 
 acquire_substate_region
 take_capital
 place_in_the_sun
@@ -1076,6 +1079,113 @@ take_capital = {
 			is_colonial = no
 		}
 		any_owned_province = { is_capital = yes }
+		NOT = {
+			AND = {
+				THIS = {
+					capital_scope = {
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+					}
+				}
+				OR = {
+					continent = north_america
+					continent = south_america
+				}
+			}
+		}
+	}
+	
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			any_neighbor_province = {
+				owner = { tag = THIS }
+			}
+		}
+	}		
+
+	po_demand_state = yes
+	
+	war_name = WAR_TAKE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+take_capital_america = {
+	sprite_index = 6
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.25
+	
+	badboy_factor = 2.2
+	prestige_factor = 10
+	peace_cost_factor = 0.7
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			NOT = { is_core = THIS }
+			is_colonial = no
+		}
+		OR = {
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = yes
+				}
+			}
+			AND = {
+				civilized = no
+				THIS = {
+					civilized = no
+				}
+			}
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = no
+				}
+			}
+		}
+		THIS = {
+			capital_scope = {
+				OR = {
+					continent = north_america
+					continent = south_america
+				}
+			}
+		}
+	}
+	
+	allowed_states = {
+		is_colonial = no
+		any_owned_province = {
+			NOT = {	is_core = THIS }
+			is_colonial = no
+		}
+		any_owned_province = { is_capital = yes }
+		OR = {
+			continent = north_america
+			continent = south_america
+		}
 	}
 	
 	allowed_states_in_crisis = {
@@ -1157,6 +1267,22 @@ acquire_state = {
 			is_colonial = no
 		}
 		NOT = { any_owned_province = { is_capital = yes } }
+		NOT = {
+			AND = {
+				THIS = {
+					capital_scope = {
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+					}
+				}
+				OR = {
+					continent = north_america
+					continent = south_america
+				}
+			}
+		}
 	}
 	
 	allowed_states_in_crisis = {
@@ -1166,6 +1292,95 @@ acquire_state = {
 			}
 		}
 	}		
+
+	po_demand_state = yes
+	
+	war_name = WAR_TAKE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+#Acquire state for the Americans
+
+acquire_state_america = {
+	sprite_index = 6
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.5
+	
+	badboy_factor = 1.2
+	prestige_factor = 2
+	peace_cost_factor = 0.7
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			NOT = { is_core = THIS }
+			is_colonial = no
+		}
+		OR = {
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = yes
+				}
+			}
+			AND = {
+				civilized = no
+				THIS = {
+					civilized = no
+				}
+			}
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = no
+				}
+			}
+		}
+		THIS = {
+			capital_scope = {
+				OR = {
+					continent = north_america
+					continent = south_america
+				}
+			}
+		}
+	}
+	
+	allowed_states = {
+		is_colonial = no
+		any_owned_province = {
+			NOT = {	is_core = THIS }
+			is_colonial = no
+		}
+		NOT = { 
+			any_owned_province = { 
+				is_capital = yes 
+			} 
+		}
+		OR = {
+			continent = north_america
+			continent = south_america
+		}
+	}
 
 	po_demand_state = yes
 	

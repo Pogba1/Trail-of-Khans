@@ -30,9 +30,9 @@ mongol_unification_cb_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;
 mongol_unification_cb_short;Acquire $STATE$;;;;;;;;;;;;;
 mongol_unification_cb;Mongol Unification;;;;;;;;;;;;;
 imperial_restoration_cb;Imperial Reconquest;x
-imperial_restoration_cb_short;Imperial Reconquest;x
+imperial_restoration_cb_short;Acquire $STATE$ from $RECIPIENT;x
 imperial_restoration_cb_desc;This casus-belli will conquer a state, usable on people with Byzantine cores.;x
-imperial_restoration_cb_setup;$RECIPIENT$ will secede $STATE$ to us.;x
+imperial_restoration_cb_setup;Acquire $STATE$ from $RECIPIENT.;x
 imperial_restoration_annex_cb;Imperial Reintegration;x
 imperial_restoration_annex_cb_setup;$RECIPIENT$ will be annexed to us.;x
 imperial_restoration_annex_cb_short;Imperial Reintegration;x
@@ -41,7 +41,19 @@ chinese_unification_annex_cb_desc;This casus-belli will annex small Chinese coun
 chinese_unification_annex_cb_setup;$RECIPIENT$ will be annexed to us;x
 chinese_unification_annex_cb;Chinese Unification;x
 chinese_unification_annex_cb_short;Chinese Unification;x
-chinese_unification_cb_setup;$RECIPIENT$ will secede $STATE$ to us;x
-chinese_unification_cb_desc;This casus-belli is usable on anyone that holds Chinese cores;x
-chinese_unification_cb;Annex Chinese State;x
-chinese_unification_cb_short;Annex Chinese State;x
+chinese_unification_cb;Acquire Chinese State;x
+chinese_unification_cb_short;Acquire $STATE$;x
+chinese_unification_cb_setup;Acquire $STATE$ from $RECIPIENT$;x
+chinese_unification_cb_desc;Acquire $STATE$;x
+acquire_state_america;Acquire American State;;;;;;;;;;;;;
+acquire_state_america_short;Acquire $STATE$;;;;;;;;;;;;;
+acquire_state_america_desc;Acquire $STATE$;;;;;;;;;;;;;
+acquire_state_america_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;
+take_capital;Take Capital;x
+take_capital_short;Take Capital;x
+take_capital_desc;Take this country's capital;x
+take_capital_setup;Take $RECIPIENT$'s capital;x
+take_capital_america;Take American Capital;x
+take_capital_america_short;Take Capital;x
+take_capital_america_desc;Take this country's capital;x
+take_capital_america_setup;Take $RECIPIENT$'s capital;x
