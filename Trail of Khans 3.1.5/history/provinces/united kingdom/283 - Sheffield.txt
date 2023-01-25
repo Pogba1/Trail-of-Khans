@@ -11,8 +11,3 @@ state_building = {
     building = cement_factory
     upgrade = yes
 }
-party_loyalty = {
-    ideology = liberal
-    loyalty_value = 20
-}
-1861.1.1 = { railroad = 3 }

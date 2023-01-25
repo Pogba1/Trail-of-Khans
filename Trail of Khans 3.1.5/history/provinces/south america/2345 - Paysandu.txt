@@ -3,7 +3,3 @@ controller = ARG
 add_core = ARG
 trade_goods = grain
 life_rating = 35
-party_loyalty = {
-    ideology = conservative
-    loyalty_value = 25
-}

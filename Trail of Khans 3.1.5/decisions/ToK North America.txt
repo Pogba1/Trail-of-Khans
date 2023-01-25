@@ -25,7 +25,6 @@ political_decisions = {
 	}
 	
 	secure_nouvelle_orleans ={
-		#picture = "USA_annex_california"
 		potential = {
 			tag = LOU
 			NOT = {has_country_flag = secure_nouvelle_orleans}
@@ -36,9 +35,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = secure_nouvelle_orleans
 			USA_139 = {
-				add_core = THIS
-			}
-			USA_144 = {
 				add_core = THIS
 			}
 		}

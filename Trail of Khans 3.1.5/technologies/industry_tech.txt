@@ -1441,7 +1441,7 @@ inorganic_chemistry = {
 }
 organic_chemistry = {
     area = chemistry_and_electricity
-    year = 1850
+    year = 1870
     cost = 14400
 
     supply_limit = 0.25
@@ -1485,7 +1485,7 @@ organic_chemistry = {
 }
 electricity = {
     area = chemistry_and_electricity
-    year = 1870
+    year = 1880
     cost = 18000
 
     supply_limit = 0.50
