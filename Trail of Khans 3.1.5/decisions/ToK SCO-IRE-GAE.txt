@@ -282,27 +282,6 @@ political_decisions = {
 		}
 	}
 	
-	
-	dominance_in_the_channel = {
-		potential = {
-			tag = GAE
-			NOT = {has_country_flag = dominance_in_the_channel}
-		}
-		allow = {
-			all_core = {owned_by = THIS}
-			year = 1880
-		}
-		effect = {
-			400 = {add_core = THIS}
-			402 = {add_core = THIS}
-			415 = {add_core = THIS}
-			418 = {add_core = THIS}
-			424 = {add_core = THIS}
-			421 = {add_core = THIS}
-			420 = {add_core = THIS}
-			set_country_flag = dominance_in_the_channel
-		}	
-	}
 	#######################
 	#SCHIZOPHRENIC IRELAND#
 	#######################
