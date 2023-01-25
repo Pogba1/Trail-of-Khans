@@ -233,11 +233,11 @@ political_decisions = {
 			NOT = {
 				has_global_flag = kiruna_mine
 			}
+		}
+		allow = {
 			321 = {
 				owned_by = THIS
 			}
-		}
-		allow = {
 			306 = {owned_by = THIS}
 			iron_railroad = 1
 			drilling_and_blasting = 1
