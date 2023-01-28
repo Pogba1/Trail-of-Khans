@@ -1,55 +1,58 @@
 political_decisions = {
-	#our_homeland_returned = {
-	#	potential = {
-	#	NOT = {has_country_flag = our_homeland_returned}
-	#	tag = ROM
-	#	}
-	#	allow = {
-	#	656 = {owned_by = THIS}
-	#	}
-	#	effect = {
-	#	capital = 656
-	#	prestige = 9
-	#	set_country_flag = our_homeland_returned
-	#	656 = {add_province_modifier = {name = sarmisegetuza duration = 2700}}
-	#	656 = {change_province_name = "Sarmisegetuza"}
-	#	}
-	#}
 	natural_borders = {
-	potential = {
-	tag = ROM
-	NOT = {has_country_flag = natural_borders}
-	}
-	allow = {
-	all_core = {owned_by = THIS}
-	OR = {is_secondary_power = yes
-	is_greater_power = yes
-	}
-	}
-	effect = {
-	792 = {add_core = THIS}
-	649 = {add_core = THIS}
-	650 = {add_core = THIS}
-	648 = {add_core = THIS}
-	set_country_flag = natural_borders
-	}
+		potential = {
+			tag = ROM
+			NOT = {
+				has_country_flag = natural_borders
+			}
+		}
+		allow = {
+			all_core = {
+				owned_by = THIS
+			}
+			OR = {
+				is_secondary_power = yes
+				is_greater_power = yes
+			}
+		}
+		effect = {
+			792 = {
+				add_core = THIS
+			}
+			649 = {
+				add_core = THIS
+			}
+			650 = {
+				add_core = THIS
+			}
+			648 = {
+				add_core = THIS
+			}
+			set_country_flag = natural_borders
+		}
 	
 	}
 	
 	little_paris = {
 		potential = {
 			tag = ROM
-			NOT = {has_global_flag = little_paris}
+			NOT = {
+				has_country_flag = little_paris
+			}
 		}
 		allow = {
-			664 = {owned_by = THIS}
+			664 = {
+				owned_by = THIS
+			}
 			romanticism = 1
 			early_railroad = 1
 		}
 		effect = {
-		set_global_flag = little_paris
-		664 = {life_rating = 5}
-		prestige = 5
+			set_country_flag = little_paris
+			664 = {
+				life_rating = 5
+			}
+			prestige = 5
 		}
 	}
 	
@@ -93,40 +96,55 @@ political_decisions = {
 		}
 	}
 	wallachian_agriculture = {
-	picture = tea_production
-	potential = {
-	OR = {
-		tag = ROM
-		tag = WAL
-	}
-	NOT = {has_country_flag = wallachian_agriculture}
-	}
-	allow = {
-	literacy = 0.40
-	WAL_665 = {owned_by = THIS}
-	}
-	effect = {
-	WAL_665 = {add_province_modifier = {name = wallachian_agriculture duration = 7300}}
-	set_country_flag = wallachian_agriculture
-	}
+		picture = tea_production
+		potential = {
+			OR = {
+				tag = ROM
+				tag = WAL
+			}
+			NOT = {
+				has_country_flag = wallachian_agriculture
+			}
+		}
+		allow = {
+			literacy = 0.40
+			compound_steam_engine = 1
+			WAL_665 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			WAL_665 = {
+				add_province_modifier = {
+					name = wallachian_agriculture 
+					duration = 3650
+				}
+			}
+			set_country_flag = wallachian_agriculture
+		}
 	}
 	
 	the_port_of_constanta = {
-	picture = port_of_constanta
-	potential = {
-	OR = {tag = ROM
-		  tag = WAL
-		  674 = {owned_by = THIS}
-	}
-	NOT = {has_country_flag = the_port_of_constanta}
-	}
-	allow = {
-	literacy = 0.40
-	674 = {owned_by = THIS}
-	}
-	effect = {
-	674 = {add_province_modifier = {name = growth_of_constanta duration = 7300}}
-	set_country_flag = the_port_of_constanta
-	}
+		picture = port_of_constanta
+		potential = {
+			OR = {tag = ROM
+				tag = WAL
+				674 = {owned_by = THIS}
+			}
+			NOT = {has_country_flag = the_port_of_constanta}
+		}
+		allow = {
+			literacy = 0.40
+			674 = {owned_by = THIS}
+		}
+		effect = {
+			674 = {
+				add_province_modifier = {
+					name = growth_of_constanta 
+					duration = 1065
+				}
+			}
+			set_country_flag = the_port_of_constanta
+		}
 	}
 }

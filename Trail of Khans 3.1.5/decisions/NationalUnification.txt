@@ -204,10 +204,46 @@ political_decisions = {
             prestige = 15
             clr_country_flag = crown_from_the_gutter
             clr_country_flag = secondary_union_formation
-            random_owned = { limit = { owner = { accepted_culture = french } } owner = { remove_accepted_culture = french } }
-            random_owned = { limit = { owner = { accepted_culture = polish } } owner = { remove_accepted_culture = polish } }
-            random_owned = { limit = { owner = { accepted_culture = danish } } owner = { remove_accepted_culture = danish } }
-            random_owned = { limit = { owner = { accepted_culture = hungarian } } owner = { remove_accepted_culture = hungarian } }
+            random_owned = { 
+                limit = { 
+                    owner = { 
+                        accepted_culture = french 
+                    } 
+                } 
+                owner = { 
+                    remove_accepted_culture = french 
+                } 
+            }
+            random_owned = {
+                limit = { 
+                    owner = { 
+                        accepted_culture = polish 
+                    } 
+                } 
+                owner = { 
+                    remove_accepted_culture = polish
+                } 
+            }
+            random_owned = { 
+                limit = { 
+                    owner = { 
+                        accepted_culture = danish 
+                    } 
+                } 
+                owner = { 
+                    remove_accepted_culture = danish 
+                } 
+            }
+            random_owned = { 
+                limit = { 
+                    owner = { 
+                        accepted_culture = hungarian 
+                    } 
+                } 
+                owner = { 
+                    remove_accepted_culture = hungarian 
+                } 
+            }
             all_core = { 
                 add_core = NGF 
                 remove_core = THIS 
@@ -216,8 +252,14 @@ political_decisions = {
                 all_core = {
                     limit = {
                         culture = north_german
+                        NOT = {
+                            OR = {
+                                is_core = KIE
+                                is_core = HET
+                            }
+                        }
 				    }   
-				add_core = NGF
+				    add_core = NGF
 			    }
             }
             change_tag = NGF
@@ -238,9 +280,6 @@ political_decisions = {
                 }
                 country_event = 11106
             }
-        }
-        ai_will_do = {
-            factor = 1
         }
     }
 

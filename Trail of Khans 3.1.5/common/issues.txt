@@ -805,7 +805,7 @@ social_reforms = {
             poor_luxury_needs = -0.025
             middle_luxury_needs = -0.025
             pension_level = 0.1
-            administrative_multiplier = 1
+            administrative_multiplier = 2
             allow = {
                 has_country_flag = medicine_invented
                 NOT = { has_country_flag = government_busy_with_something }
@@ -815,7 +815,7 @@ social_reforms = {
             poor_luxury_needs = -0.05
             middle_luxury_needs = -0.05
             pension_level = 0.2
-            administrative_multiplier = 2
+            administrative_multiplier = 4
             allow = {
                 has_country_flag = germs_invented
                 NOT = { has_country_flag = government_busy_with_something }
@@ -825,7 +825,7 @@ social_reforms = {
             poor_luxury_needs = -0.075
             middle_luxury_needs = -0.075
             pension_level = 0.3
-            administrative_multiplier = 4
+            administrative_multiplier = 6
             allow = {
                 has_country_flag = gaslights_invented
                 NOT = { has_country_flag = government_busy_with_something }

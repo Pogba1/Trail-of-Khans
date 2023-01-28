@@ -1,0 +1,169 @@
+political_decisions = {
+	conquest_egy_jer={
+		potential = {
+			tag = JER
+			NOT = {has_country_flag = conquest_egy_jer}
+		}
+		allow = {
+			1745 = {
+				owned_by = THIS
+			}
+			war = no
+		}
+		effect = {
+			set_country_flag = conquest_egy_jer
+			EGY = {all_core = {add_core = THIS}}
+			add_accepted_culture = misri
+			add_accepted_culture = mashriqi
+			any_pop = { limit = {has_pop_culture = misri NOT = {has_pop_religion = catholic}} militancy = 6 consciousness = 1}
+			any_pop = { limit = {has_pop_culture = mashriqi NOT = {has_pop_religion = catholic}} militancy = 6 consciousness = 1}
+		}
+	}
+	reclaim_antioch = {
+		potential = {
+			tag = JER
+			NOT = {
+				has_country_flag = reclaim_antioch
+			}
+		}
+		allow = {
+			900 = {
+				owned_by = THIS
+			}
+			war = no
+		}
+		effect = {
+			SVF_894 = {
+				add_core = THIS
+			}
+			prestige = 15
+			set_country_flag = reclaim_antioch
+		}
+	}
+	develop_jer = {
+		potential = {
+			917 = {
+				owned_by = THIS
+			}
+			NOT = {
+				has_country_flag = develop_jer
+			}
+			NOT = {
+				917 = {
+					trade_goods = precious_goods
+				}
+			}
+			OR = {
+				primary_culture = greek
+				primary_culture = latin
+				primary_culture = roman
+				primary_culture = persian
+				primary_culture = misri
+				primary_culture = mashriqi
+			}
+		}
+		allow = {
+			market_structure = 1
+			is_greater_power = yes
+			war = no
+		}
+		effect = {
+			917 = {trade_goods = precious_goods}
+			917 = {life_rating = 3}
+			prestige = 5
+			set_country_flag = develop_jer
+		}
+	}
+	reform_order_clergy = {
+		potential = {
+			tag = JER
+			has_country_modifier = jerusalem_monks
+		}
+		allow = {
+			OR = {
+				empiricism = 1
+				year = 1870
+			}
+			NOT = {
+				government = absolute_monarchy
+			}
+			NOT = {
+				religious_policy = moralism
+			}
+			war = no
+		}
+		effect = {
+			remove_country_modifier = jerusalem_monks
+			country_event = {
+				id = 2000000
+			}
+		}
+	}
+	secularizing_jerusalem = {
+		potential = {
+			tag = JER
+			has_country_flag = secularize_jerusalem
+			NOT = {
+				has_country_flag = first_step_to_secularization
+			}
+		}
+		allow = {
+			OR = {
+				religious_policy = secularized
+				religious_policy = pro_atheism
+			}
+			social_science = 1
+			war = no
+		}
+		effect = {
+			prestige = 5
+			set_country_flag = first_step_to_secularization
+			any_pop = {
+				limit = {
+					strata = middle
+					religion = catholic
+				}
+				militancy = 1
+				consciousness = 4
+			}
+		}
+	}
+	secularizing_jerusalem_2 = {
+		potential = {
+			tag = JER
+			has_country_flag = first_step_to_secularization
+			NOT = {
+				has_country_flag = securalized_jerusalem
+			}
+		}
+		allow = {
+			experimental_psychology = 1
+			OR = {
+				religious_policy = secularized
+				religious_policy = pro_atheism
+			}
+			war = no
+		}
+		effect = {
+			prestige = 25
+			set_country_flag = securalized_jerusalem
+
+			political_reform = universal_voting
+			political_reform = free_press
+			political_reform = secret_ballots
+			political_reform = population_equal_weight
+			social_reform = all_voting_pops
+			social_reform = acceptable_school_system
+			social_reform = incarceration
+			government = hms_government
+			add_country_modifier = {
+				name = secularized_jerusalem
+				duration = -1
+			}
+			add_country_modifier = {
+				name = global_baby_boom
+				duration = 1460
+			}
+		}
+	}
+}

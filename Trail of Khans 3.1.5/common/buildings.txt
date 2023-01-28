@@ -710,13 +710,13 @@ railroad = {
         cement = 100
         steel = 100
     }
-    time = 365 #Original
+    time = 730 #Original
     visibility = yes
     onmap = yes
     max_level = 6
     province = yes
 
-    infrastructure = 0.16
+    infrastructure = 0.08
     movement_cost = -0.05
 
     pop_build_factory = yes

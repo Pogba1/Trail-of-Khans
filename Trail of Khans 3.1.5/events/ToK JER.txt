@@ -1,0 +1,83 @@
+country_event = {
+    id = 2000000
+    title = "EVTNAME2000000"
+    desc = "EVTDESC2000000"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "An administrative Clergy"
+        prestige = 5
+        
+        add_country_modifier = {
+            name = administrative_clergy
+            duration = -1
+        }
+        school_reforms = good_schools
+        prestige = 15
+        any_pop = {
+            limit = {
+                strata = middle
+                religion = catholic
+            }
+            militancy = 2
+            consciousness = 3
+        }
+        any_pop = {
+            limit = {
+                strata = poor
+                religion = catholic
+            }
+            militancy = -1
+            consciousness = 2
+        }
+    }
+    option = {
+        name = "The Clergy will focus their time advancing Western technology"
+        prestige = 10
+
+        add_country_modifier = {
+            name = research_clergy
+            duration = -1
+        }
+        any_pop = {
+            limit = {
+                strata = middle
+                religion = catholic
+            }
+            militancy = 3
+            consciousness = 4
+        }
+    }
+    option = {
+        name = "I think we should abolish the clergy entirely!"
+        set_country_flag = secularize_jerusalem
+        prestige = -10
+
+        any_pop = {
+            limit = {
+                strata = middle
+                religion = catholic
+            }
+            militancy = 4
+            consciousness = 7
+        }
+        any_pop = {
+            limit = {
+                strata = poor
+                religion = catholic
+            }
+            militancy = 2
+            consciousness = 4
+        }
+        any_pop = {
+            limit = {
+                NOT = {
+                    religion = catholic
+                }
+            }
+            militancy = -1
+            consciousness = 3
+        }
+    }
+}

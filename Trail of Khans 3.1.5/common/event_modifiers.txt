@@ -2292,21 +2292,6 @@ epirote_independence_war = {
 	mobilisation_size = 0.8
 	icon = 17
 }
-his_majestys_loyal_subjects = {
-	mobilisation_size = 0.2
-	land_organisation = 0.1
-	RGO_output = 0.1
-	non_accepted_pop_militancy_modifier = 0.008
-	core_pop_militancy_modifier = -0.01
-	icon = 17
-}
-italian_dream = {
-	mobilisation_size = 0.4
-	RGO_throughput = 0.05
-	non_accepted_pop_militancy_modifier = 0.008
-	core_pop_militancy_modifier = -0.01
-	icon = 17
-}
 students_in_foreign = {
 	research_points = 1.4
 	icon = 7
@@ -2317,10 +2302,7 @@ wallachian_agriculture = {
 	icon = 19
 }
 growth_of_constanta = {
-	population_growth = 0.002
-	immigrant_attract = 1
-	assimilation_rate = -0.05
-	pop_militancy_modifier = -0.02 
+	population_growth = 0.004
 	icon = 19
 }
 papal_wealth_confiscated = {
@@ -2791,4 +2773,34 @@ czech_administrative_efforts = {
     influence_modifier = -0.1
     prestige = 0.01
     icon = 14
+}
+
+jerusalem_monks = {
+    administrative_efficiency_modifier = 0.05
+    tax_efficiency = -0.10
+    global_assimilation_rate = 0.30
+    research_points_modifier = -0.15
+    global_pop_militancy_modifier = -0.03
+}
+
+administrative_clergy = {
+    administrative_efficiency_modifier = 0.15
+    tax_efficiency = 0.10
+    global_assimilation_rate = 0.1
+}
+
+research_clergy = {
+    research_points_modifier = 0.20
+    research_points = 0.5
+    tax_efficiency = -0.05
+    administrative_efficiency_modifier = -0.05
+}
+
+secularized_jerusalem = {
+    global_immigrant_attract = 0.30
+    education_efficiency_modifier = 0.25
+    administrative_efficiency_modifier = 0.15
+    tax_efficiency = 0.1
+    global_pop_militancy_modifier = -0.05
+    global_pop_consciousness_modifier = 0.05
 }

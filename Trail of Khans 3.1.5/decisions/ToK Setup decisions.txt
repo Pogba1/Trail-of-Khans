@@ -77,4 +77,20 @@ political_decisions = {
             set_country_flag = the_hansa
         }
     }
+
+    JER_1836_setup = {
+        potential = {
+            tag = JER_1836_setup
+            always = no
+        }
+        allow = {
+            tag = JER
+        }
+        effect = {
+            add_country_modifier = {
+                name = jerusalem_monks
+                duration = -1
+            }
+        }
+    }
 }

@@ -971,8 +971,6 @@ country_event = {
                 primary_culture = north_german
                 NOT = {
                     tag = THIS
-                    has_country_flag = post_colonial_country
-                    is_cultural_union = no
                 }
             }
             all_core = { add_core = NGF }

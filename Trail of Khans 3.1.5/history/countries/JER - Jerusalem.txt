@@ -2,7 +2,7 @@ capital = 917
 primary_culture = latin
 religion = catholic
 government = absolute_monarchy
-plurality = 00.0
+plurality = 10
 nationalvalue = nv_order
 literacy = 0.15
 civilized = yes
@@ -82,3 +82,5 @@ consciousness = 2
 nonstate_consciousness = 0
 
 oob = "JER_oob.txt"
+
+decision = JER_1836_setup

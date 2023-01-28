@@ -554,13 +554,13 @@ hot_blast = {
     activate_building = steel_factory
 
     rgo_goods_output = {
-        iron = 0.5
+        iron = 0.25
     }
     rgo_goods_output = {
-        coal = 0.5
+        coal = 0.25
     }
     rgo_goods_output = {
-        sulphur = 0.2
+        sulphur = 0.25
     }
 
     ai_chance = {
@@ -630,7 +630,7 @@ mechanized_mining = {
     year = 1840
     cost = 7200
     rgo_goods_output = {
-        iron = 0.5
+        iron = 0.25
     }
     rgo_goods_output = {
         coal = 0.5
@@ -744,13 +744,10 @@ regenerative_furnaces = {
     cost = 10800
 
     rgo_goods_output = {
-        iron = 0.3
+        iron = 0.25
     }
     rgo_goods_output = {
-        coal = 0.3
-    }
-    rgo_goods_output = {
-        sulphur = 0.2
+        coal = 0.1
     }
 
     ai_chance = {
@@ -838,10 +835,10 @@ drilling_and_blasting = {
     cost = 14400
 
     rgo_goods_output = {
-        iron = 0.5
+        iron = 0.25
     }
     rgo_goods_output = {
-        coal = 0.5
+        coal = 0.2
     }
     rgo_goods_output = {
         sulphur = 0.2
@@ -941,13 +938,13 @@ advanced_metallurgy = {
     cost = 18000
 
     rgo_goods_output = {
-        iron = 0.4
+        iron = 0.25
     }
     rgo_goods_output = {
-        coal = 0.4
+        coal = 0.25
     }
     rgo_goods_output = {
-        sulphur = 0.2
+        sulphur = 0.25
     }
 
     ai_chance = {
@@ -1040,10 +1037,10 @@ electric_furnace = {
     #    steel = 0.05
     #}
     rgo_goods_output = {
-        iron = 0.4
+        iron = 1
     }
     rgo_goods_output = {
-        coal = 0.4
+        coal = 1
     }
 
     ai_chance = {
