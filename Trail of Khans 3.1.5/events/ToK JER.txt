@@ -7,18 +7,17 @@ country_event = {
 
     option = {
         name = "An administrative Clergy"
-        prestige = 5
+        prestige = 15
         
         add_country_modifier = {
             name = administrative_clergy
             duration = -1
         }
         school_reforms = good_schools
-        prestige = 15
         any_pop = {
             limit = {
                 strata = middle
-                religion = catholic
+                has_pop_religion = catholic
             }
             militancy = 2
             consciousness = 3
@@ -26,7 +25,7 @@ country_event = {
         any_pop = {
             limit = {
                 strata = poor
-                religion = catholic
+                has_pop_religion = catholic
             }
             militancy = -1
             consciousness = 2
@@ -43,7 +42,7 @@ country_event = {
         any_pop = {
             limit = {
                 strata = middle
-                religion = catholic
+                has_pop_religion = catholic
             }
             militancy = 3
             consciousness = 4
@@ -57,7 +56,7 @@ country_event = {
         any_pop = {
             limit = {
                 strata = middle
-                religion = catholic
+                has_pop_religion = catholic
             }
             militancy = 4
             consciousness = 7
@@ -65,7 +64,7 @@ country_event = {
         any_pop = {
             limit = {
                 strata = poor
-                religion = catholic
+                has_pop_religion = catholic
             }
             militancy = 2
             consciousness = 4
@@ -73,7 +72,7 @@ country_event = {
         any_pop = {
             limit = {
                 NOT = {
-                    religion = catholic
+                    has_pop_religion = catholic
                 }
             }
             militancy = -1
