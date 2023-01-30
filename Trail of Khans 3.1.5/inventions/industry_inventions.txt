@@ -1311,14 +1311,14 @@ carbon_soil_enrichment = {
 cracking = {
     limit = { organic_chemistry = 1 }
     chance = {
-        base = 2
+        base = 10
         modifier = {
-            factor = 2
+            factor = 20
             invention = oil_pumping_machinery
         }
         modifier = {
-            factor = 2
-            management_strategy = 1
+            factor = 20
+            protected_cruisers = 1
         }
     }
     effect = {
