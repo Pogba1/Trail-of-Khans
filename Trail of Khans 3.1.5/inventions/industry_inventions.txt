@@ -1318,7 +1318,7 @@ cracking = {
         }
         modifier = {
             factor = 20
-            protected_cruisers = 1
+            invention = protected_cruisers
         }
     }
     effect = {
