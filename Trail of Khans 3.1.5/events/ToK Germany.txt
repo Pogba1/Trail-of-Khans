@@ -78,34 +78,40 @@ country_event = {
     title = "German Boom" 
     desc = "EVTDESC135552"
     picture = "nationalists"
+
 	trigger = {
-	year = 1838
-	OR={
-	primary_culture = south_german
-	primary_culture = north_german
-	}
-	NOT = {has_country_flag = german_boom}
+		year = 1838
+		OR = {
+			primary_culture = south_german
+			primary_culture = north_german
+		}
+		NOT = {
+			has_global_flag = german_boom
+		}
 	}
 	allow_multiple_instances = no
 	
 	mean_time_to_happen = {
-	days = 30
+		days = 30
 	}
+
     option = {
         name = "Big if true"
-		any_owned = {
-		limit = {
-		OR={
-		pop_majority_culture = south_german
-		pop_majority_culture = north_german
+		any_country = {
+			limit = {
+				OR = {
+					primary_culture = south_german
+					primary_culture = north_german
+				}
+			}
+			add_country_modifier = { 
+				name = german_boom 
+				duration = 2190 
+			}
 		}
-		}
-		add_province_modifier = { name = german_boom duration = 1460 }
-		
-		}
-		set_country_flag=german_boom
-        }
-	}
+		set_global_flag = german_boom
+    }
+}
 	
 country_event = {
 	id = 135553
@@ -162,6 +168,9 @@ country_event = {
 		UCA = {
 			total_pops = 350000
 		}
+		NOT = {
+			has_country_flag = our_path_independence
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -176,6 +185,7 @@ country_event = {
 				days = 7
 			}
 		}
+		has_country_flag = our_path_independence
 		prestige = 10
 		money = 40000
 		ai_will_do = {
@@ -193,6 +203,7 @@ country_event = {
 			militancy = 3
 			consciousness = 5
 		}
+		has_country_flag = our_path_independence
 		ai_will_do = {
 			factor = 40
 		}

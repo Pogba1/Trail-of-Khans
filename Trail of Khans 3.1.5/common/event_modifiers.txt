@@ -2488,7 +2488,7 @@ dummy_ibe = {
 	icon = 5
 }
 german_boom = {
-	population_growth = 0.001
+	global_population_growth = 0.001
 	icon = 19
 }
 
