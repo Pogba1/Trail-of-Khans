@@ -42,16 +42,6 @@ country_migration_target =
 {
 	factor = 1
 	modifier = {
-		factor = 0.62
-		capital_scope = {
-			OR = {
-				continent = north_america
-				continent = south_america
-				continent = australia_new_zealand
-			}
-		}
-	}
-	modifier = {
 		factor = 0.9
 		unemployment = 0.05
 	}

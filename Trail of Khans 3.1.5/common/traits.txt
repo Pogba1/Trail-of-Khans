@@ -224,12 +224,6 @@ personality = {
         reliability = 0.5
         attack = 2
     }
-	weakest_albanian = {
-        reliability = 0.5
-		attack = 3
-		defence = 3
-		speed = 0.01
-	}
 	spartan = {
         reliability = 0.5
 		attack = 2

@@ -17,9 +17,9 @@ country_event = {
 	immediate = {
 		define_general = {
 			name = "Joe Biden"
-			personality = politician
+			personality = unflinching
 			#3/3 General
-			background = weakest_albanian
+			background = school_of_defense
 		}
 	}
 	option = {

@@ -395,3 +395,24 @@ good_health_care_funding = {
     middle_luxury_needs = 0.1
     global_population_growth = -0.002
 }
+
+ai_buffs_peace = {
+    trigger = {
+        exists = yes
+        ai = yes
+        civilized = yes
+    }
+    education_efficiency_modifier = 0.30
+    administrative_efficiency_modifier = 0.30
+}
+
+ai_buffs_war = {
+    trigger = {
+        exists = yes
+        ai = yes
+        civilized = yes
+        war = yes
+    }
+    supply_consumption = -0.15
+    reinforce_speed = 0.15
+}

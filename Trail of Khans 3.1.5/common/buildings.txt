@@ -661,13 +661,13 @@ fort = {
     type = fort
     goods_cost =
     {
-        steel = 150
-        lumber = 100
-        cement = 150
+        steel = 500
+        lumber = 200
+        cement = 400
         explosives = 50
         small_arms = 50
-        artillery = 40
-        ammunition = 10
+        artillery = 150
+        ammunition = 100
         machine_parts = 100
     }
     time = 1080
@@ -682,9 +682,9 @@ naval_base = {
     type = naval_base
     goods_cost =
     {
-        lumber = 100
-        cement = 200
-        steel = 200
+        lumber = 500
+        cement = 350
+        steel = 450
         machine_parts = 150
     }
     time = 730
@@ -716,7 +716,7 @@ railroad = {
     max_level = 6
     province = yes
 
-    infrastructure = 0.08
+    infrastructure = 0.10
     movement_cost = -0.05
 
     pop_build_factory = yes
