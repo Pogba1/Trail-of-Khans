@@ -603,11 +603,11 @@ diplomacy = {
     RANK_7_TENSION_DECAY = -0.04,
     RANK_8_TENSION_DECAY = -0.02,
 
-    TWS_FULFILLED_SPEED = 0.1, -- Ticking War Score grows up with this speed daily once CB is fulfilled
-    TWS_NOT_FULFILLED_SPEED = 0.1, -- Ticking War Score falls down when CB is NOT fulfilled (or after grace period)
-    TWS_GRACE_PERIOD_DAYS = 730, -- Ticking War Score delay before it starts falling down for NOT fulfilling CB.
-    TWS_CB_LIMIT_DEFAULT = 100,
-    TWS_FULFILLED_IDLE_SPACE = 0.75, -- How much % the CB fulfillment must done, so TWS starts ticking.
+    TWS_FULFILLED_SPEED = 0.2, -- Ticking War Score grows up with this speed daily once CB is fulfilled
+    TWS_NOT_FULFILLED_SPEED = 0.2, -- Ticking War Score falls down when CB is NOT fulfilled (or after grace period)
+    TWS_GRACE_PERIOD_DAYS = 365, -- Ticking War Score delay before it starts falling down for NOT fulfilling CB.
+    TWS_CB_LIMIT_DEFAULT = 60,
+    TWS_FULFILLED_IDLE_SPACE = 1, -- How much % the CB fulfillment must done, so TWS starts ticking.
     TWS_BATTLE_MIN_COUNT = 5, -- At least X battles before the aspect of wins will count
     TWS_BATTLE_MAX_ASPECT = 8.0, -- Max allowed battle wins aspect for TWS
     LARGE_POPULATION_INFLUENCE_PENALTY = -0.4,
