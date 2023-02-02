@@ -181,7 +181,7 @@ NET_375 = { 375 376 377 382 } #Holland
 
 NET_379 = { 379 378 380 381 } #Zeeland
 
-NET_385 = { 385 383 384 386 } #Friesland
+NET_385 = { 385 383 384 386 1743 } #Friesland
 
 BEL_387 = { 387 388 389 390 391 } #Flanders
 
@@ -266,7 +266,7 @@ HAN_528 = { 531 532 535 539 } #Lower Elbe
 
 HAN_534 = { 534 536 537 585 } #Hannover
 
-HAN_540 = { 540 543 542 541 1743 } #East Friesland
+HAN_540 = { 540 543 542 541 } #East Friesland
 
 PRU_544 = { 544 545 547 548 } #Mecklenburg
 

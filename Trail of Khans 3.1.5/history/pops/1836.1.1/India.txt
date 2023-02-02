@@ -7881,13 +7881,7 @@
     soldiers = {
         culture = tamil
         religion = hindu
-        size = 3000
-    }
-
-    soldiers = {
-        culture = tamil
-        religion = hindu
-        size = 2000
+        size = 10500
     }
 
     farmers = {
@@ -7962,12 +7956,6 @@
         size = 6000
     }
 
-    soldiers = {
-        culture = kannada
-        religion = sunni
-        size = 1500
-    }
-
     farmers = {
         culture = kannada
         religion = sunni
@@ -7992,11 +7980,6 @@
         size = 625
     }
 
-    soldiers = {
-        culture = dutch
-        religion = catholic
-        size = 3000
-    }
 }
 #Tanjore (1448000/362000 POPS)
 1309 = {
@@ -8736,11 +8719,6 @@
 #Under Rule of Travancore 1836 (1284000)
 #Cochin (808000/202000 POPS)
 1318 = {
-	soldiers = {
-        culture = dutch
-        religion = protestant
-        size = 27000
-    }
     aristocrats = {
         culture = malayalam
         religion = hindu
@@ -8762,13 +8740,7 @@
     soldiers = {
         culture = malayalam
         religion = hindu
-        size = 3000
-    }
-
-    soldiers = {
-        culture = malayalam
-        religion = hindu
-        size = 1000
+        size = 31500
     }
 
     farmers = {
@@ -8793,12 +8765,6 @@
         culture = malayalam
         religion = sunni
         size = 1500
-    }
-
-    soldiers = {
-        culture = malayalam
-        religion = sunni
-        size = 300
     }
 
     farmers = {
@@ -8843,12 +8809,6 @@
         size = 750
     }
 
-    soldiers = {
-        culture = malayalam
-        religion = orthodox
-        size = 100
-    }
-
     farmers = {
         culture = malayalam
         religion = orthodox
@@ -8871,12 +8831,6 @@
         culture = malayalam
         religion = catholic
         size = 1100
-    }
-
-    soldiers = {
-        culture = malayalam
-        religion = catholic
-        size = 100
     }
 
     farmers = {

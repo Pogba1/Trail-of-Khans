@@ -115,7 +115,12 @@ army = {
 	regiment = {
 		name = "1e Infantrie Brigade"
 		type = infantry
-		home = 1304
+		home = 1406
+	}
+	regiment = {
+		name = "1e Infantrie Brigade"
+		type = infantry
+		home = 1405
 	}
 	regiment = {
 		name = "1e Artillerie Brigade"
@@ -126,6 +131,16 @@ army = {
 		name = "1e Artillerie Brigade"
 		type = artillery
 		home = 1319
+	}
+	regiment = {
+		name = "1e Artillerie Brigade"
+		type = artillery
+		home = 1407
+	}
+	regiment = {
+		name = "1e Artillerie Brigade"
+		type = artillery
+		home = 1318
 	}
 	regiment = {
 		name = "1e Cuirassier Brigade"
