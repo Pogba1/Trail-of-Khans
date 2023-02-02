@@ -9,7 +9,7 @@ monitor = {
     active = no
     move_sound = steam_move
     select_sound = steam_selected
-    can_build_overseas = no
+    can_build_overseas = yes
     colonial_points = 15
 
 
@@ -32,7 +32,7 @@ monitor = {
     # Total: 6886 | was 2606.6
     min_port_level = 3
     limit_per_port = -1
-    supply_consumption_score = 3
+    supply_consumption_score = 10
 
     supply_consumption = 1.0
     supply_cost = {
