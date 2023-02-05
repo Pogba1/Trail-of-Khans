@@ -256,7 +256,7 @@ chinese_unification_cb = {
 	
 	construction_speed = 0.8
 	
-	badboy_factor = 0
+	badboy_factor = 0.25
 	prestige_factor = 5
 	peace_cost_factor = 1.75
 	penalty_factor = 1
