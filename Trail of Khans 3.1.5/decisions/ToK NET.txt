@@ -197,11 +197,9 @@ political_decisions = {
 			ENG_277 = {
 				add_core = THIS
 			}
-			ENG_273 = {
-				add_core = THIS
-			}
 			prestige = 20
 			add_accepted_culture = anglo_saxon
+			set_country_flag = the_iles_2
 		}
 	}
 	
