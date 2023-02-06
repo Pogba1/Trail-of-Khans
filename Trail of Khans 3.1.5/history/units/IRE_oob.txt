@@ -1,4 +1,12 @@
 #Sphere of Influence
+
+ENG = {
+    value = 200
+    level = 5
+    influence_value = 50
+}
+
+
 #GPs
 SCO = {value = -100}
 
