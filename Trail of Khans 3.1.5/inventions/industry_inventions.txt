@@ -1562,3 +1562,20 @@ frasch_process = {
         }
     }
 }
+
+#widespread_tram_usage = {
+#	limit = {
+#		integral_rail_system = 1
+#		year = 1905
+#	}
+#	chance = {
+#		base = 5
+#		modifier = {
+#			factor = 5
+#			electricity = 1
+#		}
+#	effect = {
+#		max_railroad = 1
+#		}
+#	}
+#}
