@@ -4,7 +4,7 @@ add_core = ATH
 add_core = BYZ
 
 trade_goods = cotton
-life_rating = 35
+life_rating = 40
 state_building = {
     level = 1
     building = fabric_factory
