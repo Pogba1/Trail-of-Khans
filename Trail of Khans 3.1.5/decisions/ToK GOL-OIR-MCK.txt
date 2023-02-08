@@ -77,6 +77,7 @@ political_decisions = {
 			add_accepted_culture = kirgiz
 			add_accepted_culture = tajik
 			add_accepted_culture = kazak
+			add_accepted_culture = uighur
 			change_tag = MGL
 			add_country_modifier = {
 				name = mongol_larp 
