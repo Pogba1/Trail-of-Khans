@@ -992,25 +992,25 @@
     }
 
     clergymen = {
-        culture = western_slavic
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = western_slavic
+        culture = dalmatian
         religion = catholic
         size = 4500
     }
 
     soldiers = {
-        culture = western_slavic
+        culture = dalmatian
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = western_slavic
+        culture = dalmatian
         religion = catholic
         size = 6300
     }

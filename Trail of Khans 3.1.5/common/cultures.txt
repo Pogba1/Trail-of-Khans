@@ -1,4 +1,4 @@
-# Do NOT change tags in here without changing every other reference to them 
+# Do not change tags in here without changing every other reference to them 
 # If adding new groups or cultures, make sure they are unique 
 
 germanic = {
@@ -437,8 +437,71 @@ italian = {
         last_names = { Abela Adami Azzopardi Boffa Borg Buhagiar Cassar Farrugia Frendo Gonzi
         Howard Mifsud Mintoff Mizzi Muscat Olivier Puli Pullicino Strickland Vella }
     }
+    roman = {   
+        color = {255 0 0}
+        first_names = { Appius Agrippa Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Opiter 
+		Publius Postumus Proculus Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Volero Volumnius Octavius
+		Statius Tullus Volesus Vopiscus Caeso Paullus Hostus Numerius Sertor Potitus Vibius Cossus Arruns Camillus
+    	}
 
-    union = ITA
+ 
+        last_names = {
+		Aburius Aburia Aburii Aburia Accius Accia Accii Accian Acilius Acilia Acilii Acilian Acutius Acutia Acutii Acutian Aebutius Aebutia Aebutii Aebuti Aelius Aelia Aelii Aelian Aemilius Aemilia Aemilii Aemi Alienus Aliena Alienii Alien Anicius Anicia Anicii Anici Annius Annia Anni Annian Antius Antia Antii Antian Antistius Antistia Antistii Antistian
+		Antonius Antonia Antonii Antonian Appuleius Appuleia Appuleii Appuleian Apronius Apronia Apronii Apronian Aquillius Aquillia Aquillii Aquillian Atilius Atilia Atilii Atilian Atius Atia Atii Atian Aufidius Aufidia Aufidii Aufidian Aulius Aulia Aulii Aulian Blossius Blossia Blossii Blossian Aurelius Aurelia Aurelii Aurelian Caecinus Caecina Caecinii Caecinian
+		Caecilius Caecilia Caecilii Caecilian Calavius Calavia Calavii Calavia Calpurnius Calpurnia Calpurnii Calpurnian Cantius Cantia Cantii Cantian Carvilius Carvilia Carvilii Carvilian Cassius Cassia Cassii Cassian Catius Catia Catii Catian Centenius Centenia Centenii Centenian Cilnius Cilnia Cilnii Cilnian
+		Cispius Cispia Cispii Cispian Claudius Claudia Claudii Claudian Cloelius Cloelia Cloelii Cloelian Cominius Cominia Cominii Cominian Cornelius Cornelia Cornelii Cornelian Coruncanius Coruncania Coruncanii Coruncanian
+		Curiatius Curiatia Curiatii Curiatian	Curtius Curtia Curtii Curtian	Curius Curia Curii CurianDecius Decia Decii Decian	Domitius Domitia Domitii Domitian	Fabius Fabia Fabii Fabian Flavius Flavia Flavii Flavian	Foslius Foslia Foslii Foslian	Fulcinius Fulcinia Fulcinii Fulcinian	Fulvius Fulvia Fulvii Fulvian
+		Furius Furia Furii Furian	Funius Furnia Furnii Furnian	Gabinius Gabinia Gabinii Gabinian	Galerius Galeria Galerii Galerian	Gracchus Gracchia Gracchi Gracchian	Geganius Gegania Geganii Geganian	Gellius Gellia Gellii Gellian	Herminius Herminia Herminii Herminian Hortensius Hortensia Hortensii Hortensian
+		Hostilius Hostilia Hostilii Hostilian	Julius Julia Julii Julian	Junius Junia Junii Junian	Laetorius Laetoria Laetorii Laetorian	Lartius Lartia Lartii Lartian	Licinius Licinia Licinii Licinian	Livius Livia Livii Livian	Lucius Lucia Lucii Lucian	Lucretius Lucretia Lucretii Lucretian	Maelius Maelia Maelii Maelian
+		Maenius Maenia Maenii Maenian	Mamilius Mamilia Mamilii Mamilian	Manlius Manlia Manlii Manlian	Marius Maria Marii Marian	Memmius Memmia Memmii Memmian	Messius Messia Messii Messian	Metilius Metilia Metilii Metillian	Minucius Minucia Minucii Minucian Nigidius Nigidia Nigidii Nigidian	Ninnius Ninnia Ninnii Ninnian
+		Nonius Nonia Nonii Nonian	Numicius Numicia Numicii Numician	Numisius Numisia Numisii Numisian	Octavius Octavia Octavii Octavian	Ofilius Ofilia Ofilii Ofilian	Ogulnius Ogulnia Ogulnii Ogulnian	Opimius Opimia Opimii Opimian	Oppius Oppia Oppii Oppian	Octacilius Octacilia Octacilii Octacilian	Ovidius Ovidia Ovidii Ovidian
+		Papirius Papiria Papirii Papirian	Pinarius Pinaria Pinarii Pinarian	Plautius Plautia Plautii Plautian	Plinius Plinia Plinii Plinian	Postumius Postumia Postumii Postumian	Pompilius Pompilia Pompilii Pompillian Pomponius Pomponia Pomponii Pomponian	Popillius Popillia Popillii Popillian	Porcius Porcia Porcii Porcian
+		Publilius Publilia Publilii Publilian	Pupius Pupia Pupii Pupian Quinctius Quinctia Quinctii Quinctian	Rabirius Rabiria Rabirii Rabirian	Resius Resia Resii Resian Salonius Salonia Salonii Salonian	Salvius Salvia Salvii Salvian	Scribonius Scribonia Scribonii Scribonian	Sempronius Sempronia Sempronii Sempronian	Sergius Sergia Sergii Sergian
+		Sertorius Sertoria Sertorii Sertorian	Servilius Servilia Servilii Servilian	Sestius Sestia Sestii Sestian	Sextius Sextia Sextii Sextian Sicinius Sicinia Sicinii Sicinian	Silius Silia Silii Silian	Sulpicius Sulpicia Sulpicii Sulpician	Titius Titia Titii Titian	Tremulus Tremulia Tremulii Tremulan	Tullius Tullia Tullii Tullian
+		Ulpius Ulpia Ulpii Ulpian	Valerius Valeria Valerii Valerian	Verginius Verginia Verginii Verginian Vesuvius Vesuvia Vesuvii Vesuvian	Villius Villia Villii Villian	Viridius Viridia Viridii Viridian	Volumnius Volumnia Volumnii Volumnian
+	    }
+    }
+    dalmatian = {
+        color = {48 117 220}
+        first_names = { Appius Agrippa Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Opiter 
+		Publius Postumus Proculus Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Volero Volumnius Octavius
+		Statius Tullus Volesus Vopiscus Caeso Paullus Hostus Numerius Sertor Potitus Vibius Cossus Arruns Camillus
+	    }
+ 
+
+        last_names = {
+		Aburius Aburia Aburii Aburia Accius Accia Accii Accian Acilius Acilia Acilii Acilian Acutius Acutia Acutii Acutian Aebutius Aebutia Aebutii Aebuti Aelius Aelia Aelii Aelian Aemilius Aemilia Aemilii Aemi Alienus Aliena Alienii Alien Anicius Anicia Anicii Anici Annius Annia Anni Annian Antius Antia Antii Antian Antistius Antistia Antistii Antistian
+		Antonius Antonia Antonii Antonian Appuleius Appuleia Appuleii Appuleian Apronius Apronia Apronii Apronian Aquillius Aquillia Aquillii Aquillian Atilius Atilia Atilii Atilian Atius Atia Atii Atian Aufidius Aufidia Aufidii Aufidian Aulius Aulia Aulii Aulian Blossius Blossia Blossii Blossian Aurelius Aurelia Aurelii Aurelian Caecinus Caecina Caecinii Caecinian
+		Caecilius Caecilia Caecilii Caecilian Calavius Calavia Calavii Calavia Calpurnius Calpurnia Calpurnii Calpurnian Cantius Cantia Cantii Cantian Carvilius Carvilia Carvilii Carvilian Cassius Cassia Cassii Cassian Catius Catia Catii Catian Centenius Centenia Centenii Centenian Cilnius Cilnia Cilnii Cilnian
+		Cispius Cispia Cispii Cispian Claudius Claudia Claudii Claudian Cloelius Cloelia Cloelii Cloelian Cominius Cominia Cominii Cominian Cornelius Cornelia Cornelii Cornelian Coruncanius Coruncania Coruncanii Coruncanian
+		Curiatius Curiatia Curiatii Curiatian	Curtius Curtia Curtii Curtian	Curius Curia Curii CurianDecius Decia Decii Decian	Domitius Domitia Domitii Domitian	Fabius Fabia Fabii Fabian Flavius Flavia Flavii Flavian	Foslius Foslia Foslii Foslian	Fulcinius Fulcinia Fulcinii Fulcinian	Fulvius Fulvia Fulvii Fulvian
+		Furius Furia Furii Furian	Funius Furnia Furnii Furnian	Gabinius Gabinia Gabinii Gabinian	Galerius Galeria Galerii Galerian	Gracchus Gracchia Gracchi Gracchian	Geganius Gegania Geganii Geganian	Gellius Gellia Gellii Gellian	Herminius Herminia Herminii Herminian Hortensius Hortensia Hortensii Hortensian
+		Hostilius Hostilia Hostilii Hostilian	Julius Julia Julii Julian	Junius Junia Junii Junian	Laetorius Laetoria Laetorii Laetorian	Lartius Lartia Lartii Lartian	Licinius Licinia Licinii Licinian	Livius Livia Livii Livian	Lucius Lucia Lucii Lucian	Lucretius Lucretia Lucretii Lucretian	Maelius Maelia Maelii Maelian
+		Maenius Maenia Maenii Maenian	Mamilius Mamilia Mamilii Mamilian	Manlius Manlia Manlii Manlian	Marius Maria Marii Marian	Memmius Memmia Memmii Memmian	Messius Messia Messii Messian	Metilius Metilia Metilii Metillian	Minucius Minucia Minucii Minucian Nigidius Nigidia Nigidii Nigidian	Ninnius Ninnia Ninnii Ninnian
+		Nonius Nonia Nonii Nonian	Numicius Numicia Numicii Numician	Numisius Numisia Numisii Numisian	Octavius Octavia Octavii Octavian	Ofilius Ofilia Ofilii Ofilian	Ogulnius Ogulnia Ogulnii Ogulnian	Opimius Opimia Opimii Opimian	Oppius Oppia Oppii Oppian	Octacilius Octacilia Octacilii Octacilian	Ovidius Ovidia Ovidii Ovidian
+		Papirius Papiria Papirii Papirian	Pinarius Pinaria Pinarii Pinarian	Plautius Plautia Plautii Plautian	Plinius Plinia Plinii Plinian	Postumius Postumia Postumii Postumian	Pompilius Pompilia Pompilii Pompillian Pomponius Pomponia Pomponii Pomponian	Popillius Popillia Popillii Popillian	Porcius Porcia Porcii Porcian
+		Publilius Publilia Publilii Publilian	Pupius Pupia Pupii Pupian Quinctius Quinctia Quinctii Quinctian	Rabirius Rabiria Rabirii Rabirian	Resius Resia Resii Resian Salonius Salonia Salonii Salonian	Salvius Salvia Salvii Salvian	Scribonius Scribonia Scribonii Scribonian	Sempronius Sempronia Sempronii Sempronian	Sergius Sergia Sergii Sergian
+		Sertorius Sertoria Sertorii Sertorian	Servilius Servilia Servilii Servilian	Sestius Sestia Sestii Sestian	Sextius Sextia Sextii Sextian Sicinius Sicinia Sicinii Sicinian	Silius Silia Silii Silian	Sulpicius Sulpicia Sulpicii Sulpician	Titius Titia Titii Titian	Tremulus Tremulia Tremulii Tremulan	Tullius Tullia Tullii Tullian
+		Ulpius Ulpia Ulpii Ulpian	Valerius Valeria Valerii Valerian	Verginius Verginia Verginii Verginian Vesuvius Vesuvia Vesuvii Vesuvian	Villius Villia Villii Villian	Viridius Viridia Viridii Viridian	Volumnius Volumnia Volumnii Volumnian
+	    }
+    }
+	
+	british = {
+        color = { 112 88 59 }
+        first_names = { Nicobul Aspasi Ambrogio Amedeo Andre Angelo Antonio August Camil Carl
+        Caesar Clement Davide Enric Etore Fabrits Faustin Federic Felix
+        Fiorents Francesco Gaetan Gennaro Giosep Innocento Leopald
+        Marc Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+        Raffael Roberto Ruggiero Silva Simon Tancredi Ugo Umbert Vincents Vittor }
+
+        last_names = { Atton Albric Badogli Balditser Barataer Beccaris Cadorn Canevaro Capelae
+        Cavigli Ceccherin Cialdin Cusan Detsi "de Londinium-Edinburg"
+        Emo Fant Fara Filomarin Garibaldi Giardi Govon Mambreta
+        Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux
+		Solari Vaccor Tsupeli }
+    }
+    union = RMR  
+
 }
 
 iberian = {
@@ -970,7 +1033,7 @@ levantine = {
         last_names = { Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
         Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
         Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
-        Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos StaNOTas "tes Elladas"
+        Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
         Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
         }
         radicalism = 10
@@ -1983,7 +2046,7 @@ native_american = {
 		primary = CHE
         first_names = { Jean Tahlonteeskee Takatoka Charles Louis Dennis Joel Thomas Francois Edward
         }
-        last_names = { Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers BoudiNOT
+        last_names = { Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
         }
     }
 	iroquois = {
@@ -2064,7 +2127,7 @@ american_cultures = {
         first_names = { Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard
         Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre
         Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
-        "Fitz Hugh" CarNOT Ezra Wilton
+        "Fitz Hugh" Carnot Ezra Wilton
         }
 
         last_names = { Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg
@@ -2541,74 +2604,4 @@ southern_african = {
         last_names = { kaMpande kaMahole KaMdlela waMswati Buthelezei Khoza kaSihayo kaMvundlana kaZikhala kaMaphitha
         }
     }
-}
-
-latin = {
-    leader = european
-    unit = ItalianGC
-
-    roman = {   
-        color = {255 0 0}
-        first_names = { Appius Agrippa Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Opiter 
-		Publius Postumus Proculus Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Volero Volumnius Octavius
-		Statius Tullus Volesus Vopiscus Caeso Paullus Hostus Numerius Sertor Potitus Vibius Cossus Arruns Camillus
-    	}
-
- 
-        last_names = {
-		Aburius Aburia Aburii Aburia Accius Accia Accii Accian Acilius Acilia Acilii Acilian Acutius Acutia Acutii Acutian Aebutius Aebutia Aebutii Aebuti Aelius Aelia Aelii Aelian Aemilius Aemilia Aemilii Aemi Alienus Aliena Alienii Alien Anicius Anicia Anicii Anici Annius Annia Anni Annian Antius Antia Antii Antian Antistius Antistia Antistii Antistian
-		Antonius Antonia Antonii Antonian Appuleius Appuleia Appuleii Appuleian Apronius Apronia Apronii Apronian Aquillius Aquillia Aquillii Aquillian Atilius Atilia Atilii Atilian Atius Atia Atii Atian Aufidius Aufidia Aufidii Aufidian Aulius Aulia Aulii Aulian Blossius Blossia Blossii Blossian Aurelius Aurelia Aurelii Aurelian Caecinus Caecina Caecinii Caecinian
-		Caecilius Caecilia Caecilii Caecilian Calavius Calavia Calavii Calavia Calpurnius Calpurnia Calpurnii Calpurnian Cantius Cantia Cantii Cantian Carvilius Carvilia Carvilii Carvilian Cassius Cassia Cassii Cassian Catius Catia Catii Catian Centenius Centenia Centenii Centenian Cilnius Cilnia Cilnii Cilnian
-		Cispius Cispia Cispii Cispian Claudius Claudia Claudii Claudian Cloelius Cloelia Cloelii Cloelian Cominius Cominia Cominii Cominian Cornelius Cornelia Cornelii Cornelian Coruncanius Coruncania Coruncanii Coruncanian
-		Curiatius Curiatia Curiatii Curiatian	Curtius Curtia Curtii Curtian	Curius Curia Curii CurianDecius Decia Decii Decian	Domitius Domitia Domitii Domitian	Fabius Fabia Fabii Fabian Flavius Flavia Flavii Flavian	Foslius Foslia Foslii Foslian	Fulcinius Fulcinia Fulcinii Fulcinian	Fulvius Fulvia Fulvii Fulvian
-		Furius Furia Furii Furian	Funius Furnia Furnii Furnian	Gabinius Gabinia Gabinii Gabinian	Galerius Galeria Galerii Galerian	Gracchus Gracchia Gracchi Gracchian	Geganius Gegania Geganii Geganian	Gellius Gellia Gellii Gellian	Herminius Herminia Herminii Herminian Hortensius Hortensia Hortensii Hortensian
-		Hostilius Hostilia Hostilii Hostilian	Julius Julia Julii Julian	Junius Junia Junii Junian	Laetorius Laetoria Laetorii Laetorian	Lartius Lartia Lartii Lartian	Licinius Licinia Licinii Licinian	Livius Livia Livii Livian	Lucius Lucia Lucii Lucian	Lucretius Lucretia Lucretii Lucretian	Maelius Maelia Maelii Maelian
-		Maenius Maenia Maenii Maenian	Mamilius Mamilia Mamilii Mamilian	Manlius Manlia Manlii Manlian	Marius Maria Marii Marian	Memmius Memmia Memmii Memmian	Messius Messia Messii Messian	Metilius Metilia Metilii Metillian	Minucius Minucia Minucii Minucian Nigidius Nigidia Nigidii Nigidian	Ninnius Ninnia Ninnii Ninnian
-		Nonius Nonia Nonii Nonian	Numicius Numicia Numicii Numician	Numisius Numisia Numisii Numisian	Octavius Octavia Octavii Octavian	Ofilius Ofilia Ofilii Ofilian	Ogulnius Ogulnia Ogulnii Ogulnian	Opimius Opimia Opimii Opimian	Oppius Oppia Oppii Oppian	Octacilius Octacilia Octacilii Octacilian	Ovidius Ovidia Ovidii Ovidian
-		Papirius Papiria Papirii Papirian	Pinarius Pinaria Pinarii Pinarian	Plautius Plautia Plautii Plautian	Plinius Plinia Plinii Plinian	Postumius Postumia Postumii Postumian	Pompilius Pompilia Pompilii Pompillian Pomponius Pomponia Pomponii Pomponian	Popillius Popillia Popillii Popillian	Porcius Porcia Porcii Porcian
-		Publilius Publilia Publilii Publilian	Pupius Pupia Pupii Pupian Quinctius Quinctia Quinctii Quinctian	Rabirius Rabiria Rabirii Rabirian	Resius Resia Resii Resian Salonius Salonia Salonii Salonian	Salvius Salvia Salvii Salvian	Scribonius Scribonia Scribonii Scribonian	Sempronius Sempronia Sempronii Sempronian	Sergius Sergia Sergii Sergian
-		Sertorius Sertoria Sertorii Sertorian	Servilius Servilia Servilii Servilian	Sestius Sestia Sestii Sestian	Sextius Sextia Sextii Sextian Sicinius Sicinia Sicinii Sicinian	Silius Silia Silii Silian	Sulpicius Sulpicia Sulpicii Sulpician	Titius Titia Titii Titian	Tremulus Tremulia Tremulii Tremulan	Tullius Tullia Tullii Tullian
-		Ulpius Ulpia Ulpii Ulpian	Valerius Valeria Valerii Valerian	Verginius Verginia Verginii Verginian Vesuvius Vesuvia Vesuvii Vesuvian	Villius Villia Villii Villian	Viridius Viridia Viridii Viridian	Volumnius Volumnia Volumnii Volumnian
-	    }
-    }
-    dalmatian = {
-        color = {48 117 220}
-        first_names = { Appius Agrippa Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Opiter 
-		Publius Postumus Proculus Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Volero Volumnius Octavius
-		Statius Tullus Volesus Vopiscus Caeso Paullus Hostus Numerius Sertor Potitus Vibius Cossus Arruns Camillus
-	    }
- 
-
-        last_names = {
-		Aburius Aburia Aburii Aburia Accius Accia Accii Accian Acilius Acilia Acilii Acilian Acutius Acutia Acutii Acutian Aebutius Aebutia Aebutii Aebuti Aelius Aelia Aelii Aelian Aemilius Aemilia Aemilii Aemi Alienus Aliena Alienii Alien Anicius Anicia Anicii Anici Annius Annia Anni Annian Antius Antia Antii Antian Antistius Antistia Antistii Antistian
-		Antonius Antonia Antonii Antonian Appuleius Appuleia Appuleii Appuleian Apronius Apronia Apronii Apronian Aquillius Aquillia Aquillii Aquillian Atilius Atilia Atilii Atilian Atius Atia Atii Atian Aufidius Aufidia Aufidii Aufidian Aulius Aulia Aulii Aulian Blossius Blossia Blossii Blossian Aurelius Aurelia Aurelii Aurelian Caecinus Caecina Caecinii Caecinian
-		Caecilius Caecilia Caecilii Caecilian Calavius Calavia Calavii Calavia Calpurnius Calpurnia Calpurnii Calpurnian Cantius Cantia Cantii Cantian Carvilius Carvilia Carvilii Carvilian Cassius Cassia Cassii Cassian Catius Catia Catii Catian Centenius Centenia Centenii Centenian Cilnius Cilnia Cilnii Cilnian
-		Cispius Cispia Cispii Cispian Claudius Claudia Claudii Claudian Cloelius Cloelia Cloelii Cloelian Cominius Cominia Cominii Cominian Cornelius Cornelia Cornelii Cornelian Coruncanius Coruncania Coruncanii Coruncanian
-		Curiatius Curiatia Curiatii Curiatian	Curtius Curtia Curtii Curtian	Curius Curia Curii CurianDecius Decia Decii Decian	Domitius Domitia Domitii Domitian	Fabius Fabia Fabii Fabian Flavius Flavia Flavii Flavian	Foslius Foslia Foslii Foslian	Fulcinius Fulcinia Fulcinii Fulcinian	Fulvius Fulvia Fulvii Fulvian
-		Furius Furia Furii Furian	Funius Furnia Furnii Furnian	Gabinius Gabinia Gabinii Gabinian	Galerius Galeria Galerii Galerian	Gracchus Gracchia Gracchi Gracchian	Geganius Gegania Geganii Geganian	Gellius Gellia Gellii Gellian	Herminius Herminia Herminii Herminian Hortensius Hortensia Hortensii Hortensian
-		Hostilius Hostilia Hostilii Hostilian	Julius Julia Julii Julian	Junius Junia Junii Junian	Laetorius Laetoria Laetorii Laetorian	Lartius Lartia Lartii Lartian	Licinius Licinia Licinii Licinian	Livius Livia Livii Livian	Lucius Lucia Lucii Lucian	Lucretius Lucretia Lucretii Lucretian	Maelius Maelia Maelii Maelian
-		Maenius Maenia Maenii Maenian	Mamilius Mamilia Mamilii Mamilian	Manlius Manlia Manlii Manlian	Marius Maria Marii Marian	Memmius Memmia Memmii Memmian	Messius Messia Messii Messian	Metilius Metilia Metilii Metillian	Minucius Minucia Minucii Minucian Nigidius Nigidia Nigidii Nigidian	Ninnius Ninnia Ninnii Ninnian
-		Nonius Nonia Nonii Nonian	Numicius Numicia Numicii Numician	Numisius Numisia Numisii Numisian	Octavius Octavia Octavii Octavian	Ofilius Ofilia Ofilii Ofilian	Ogulnius Ogulnia Ogulnii Ogulnian	Opimius Opimia Opimii Opimian	Oppius Oppia Oppii Oppian	Octacilius Octacilia Octacilii Octacilian	Ovidius Ovidia Ovidii Ovidian
-		Papirius Papiria Papirii Papirian	Pinarius Pinaria Pinarii Pinarian	Plautius Plautia Plautii Plautian	Plinius Plinia Plinii Plinian	Postumius Postumia Postumii Postumian	Pompilius Pompilia Pompilii Pompillian Pomponius Pomponia Pomponii Pomponian	Popillius Popillia Popillii Popillian	Porcius Porcia Porcii Porcian
-		Publilius Publilia Publilii Publilian	Pupius Pupia Pupii Pupian Quinctius Quinctia Quinctii Quinctian	Rabirius Rabiria Rabirii Rabirian	Resius Resia Resii Resian Salonius Salonia Salonii Salonian	Salvius Salvia Salvii Salvian	Scribonius Scribonia Scribonii Scribonian	Sempronius Sempronia Sempronii Sempronian	Sergius Sergia Sergii Sergian
-		Sertorius Sertoria Sertorii Sertorian	Servilius Servilia Servilii Servilian	Sestius Sestia Sestii Sestian	Sextius Sextia Sextii Sextian Sicinius Sicinia Sicinii Sicinian	Silius Silia Silii Silian	Sulpicius Sulpicia Sulpicii Sulpician	Titius Titia Titii Titian	Tremulus Tremulia Tremulii Tremulan	Tullius Tullia Tullii Tullian
-		Ulpius Ulpia Ulpii Ulpian	Valerius Valeria Valerii Valerian	Verginius Verginia Verginii Verginian Vesuvius Vesuvia Vesuvii Vesuvian	Villius Villia Villii Villian	Viridius Viridia Viridii Viridian	Volumnius Volumnia Volumnii Volumnian
-	    }
-    }
-	
-	british = {
-        color = { 112 88 59 }
-        first_names = { Nicobul Aspasi Ambrogio Amedeo Andre Angelo Antonio August Camil Carl
-        Caesar Clement Davide Enric Etore Fabrits Faustin Federic Felix
-        Fiorents Francesco Gaetan Gennaro Giosep Innocento Leopald
-        Marc Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
-        Raffael Roberto Ruggiero Silva Simon Tancredi Ugo Umbert Vincents Vittor }
-
-        last_names = { Atton Albric Badogli Balditser Barataer Beccaris Cadorn Canevaro Capelae
-        Cavigli Ceccherin Cialdin Cusan Detsi "de Londinium-Edinburg"
-        Emo Fant Fara Filomarin Garibaldi Giardi Govon Mambreta
-        Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux
-		Solari Vaccor Tsupeli }
-    }
-    union = RMR  
 }
