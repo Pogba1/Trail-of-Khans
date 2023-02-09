@@ -379,7 +379,6 @@ political_decisions = {
 			
 			all_core = {
 				add_core = RMR
-				remove_core = THIS
 			}
 			any_country = {
 				limit = { 
