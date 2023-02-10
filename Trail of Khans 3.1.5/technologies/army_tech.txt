@@ -663,7 +663,7 @@ infiltration = {
 }
 modern_army_doctrine = {
     area = army_doctrine
-    year = 1919
+    year = 1915
     cost = 21600
     unciv_military = yes
 
@@ -1353,7 +1353,7 @@ bolt_action_rifles = {
     unciv_military = yes
     unit = 1
 
-    combat_width = 4
+    combat_width = -2
 
     ai_chance = {
         factor = 3
@@ -1483,12 +1483,12 @@ bolt_action_rifles = {
 }
 modern_divisional_structure = {
     area = light_armament
-    year = 1919
+    year = 1910
     cost = 21600
     unciv_military = yes
 
     unit = 2
-    combat_width = -2
+    combat_width = 5
 
     ai_chance = {
         factor = 1.5
@@ -2209,7 +2209,7 @@ indirect_artillery_fire = {
 }
 heavy_armament_dunno = {
     area = heavy_armament
-    year = 1919
+    year = 1915
     cost = 21600
     unciv_military = yes
     artillery = {
@@ -3035,7 +3035,7 @@ military_directionism = {
 }
 aeronautics = {
     area = military_science
-    year = 1914
+    year = 1910
     cost = 21600
     army_base = {
         default_organisation = 10
@@ -3666,7 +3666,7 @@ army_nco_training = {
 }
 great_war_experience = {
     area = army_leadership
-    year = 1919
+    year = 1915
     cost = 21600
     unciv_military = yes
     morale = 0.5

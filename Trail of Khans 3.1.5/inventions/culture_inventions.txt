@@ -699,18 +699,26 @@ darwinism = {
     limit = { biologism = 1 }
     news = no
     chance = {
-        base = 2
+        base = 15
         modifier = {
-            factor = 2
-            impressionism = 1
+            factor = 10
+            year = 1851
         }
         modifier = {
-            factor = 2
-            invention = genetics_heredity
+            factor = 15
+            year = 1852
         }
         modifier = {
-            factor = 1
-            invention = philosophy_of_language
+            factor = 20
+            year = 1853
+        }
+        modifier = {
+            factor = 20
+            year = 1854
+        }
+        modifier = {
+            factor = 20
+            year = 1855
         }
     }
     effect = {

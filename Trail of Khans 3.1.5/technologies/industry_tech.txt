@@ -1266,7 +1266,7 @@ steel_railroad = {
 }
 integral_rail_system = {
     area = tech_infrastructure
-    year = 1898
+    year = 1895
     cost = 18000
 
     max_railroad = 1

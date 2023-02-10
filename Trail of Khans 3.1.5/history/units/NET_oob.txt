@@ -38,6 +38,11 @@ WES = {
     influence_value = 0
 }
 
+LOR = {
+    value = 150
+    level = 5
+    influence_value = 50
+}
 
 
 SIA = {
@@ -46,15 +51,23 @@ SIA = {
     influence_value = 100
 }
 MAL = { value = 400 }
-JAV = { value = 400 }
+JAV = {
+	value = 400 
+	level = 5
+    influence_value = 0
+}
 DJA = {
     value = 125
     military_access = yes
+	level = 5
+    influence_value = 0
 
     }
 SAK = {
     military_access = yes
     value = 100
+	level = 5
+    influence_value = 0
     }
 
 ATJ = {

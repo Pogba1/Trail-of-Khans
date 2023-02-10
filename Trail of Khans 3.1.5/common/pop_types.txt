@@ -296,46 +296,6 @@ demotion_chance = {
 migration_chance = 
 {
 	factor = 0.25
-
-#If pop group is 70%/80%/90%/99% literacy, is NOT primary culture, and is in a colony then 2.5% chance to migrate to aNOTher state for each threshold. (Chance for colonial pops to migrate to home states once they reach some literacy thresholds)	(10% total)
-#	group = { ############### DOES NOT WORK
-#		modifier = {
-#			factor = 2.5
-#			literacy = 0.7
-#			state_scope = { is_colonial = yes }
-#			NOT = { is_primary_culture = yes }
-#		}
-#		modifier = {
-#			factor = 2.5
-#			literacy = 0.8
-#			state_scope = { is_colonial = yes }
-#			NOT = { is_primary_culture = yes }
-#		}
-#		modifier = {
-#			factor = 2.5
-#			literacy = 0.9
-#			state_scope = { is_colonial = yes }
-#			NOT = { is_primary_culture = yes }
-#		}
-#		modifier = {
-#			factor = 2.5
-#			literacy = 0.99
-#			state_scope = { is_colonial = yes }
-#			NOT = { is_primary_culture = yes }
-#		}
-#	}
-#
-#If pop group meets at least 99% of its life needs, then -1% chance to migrate to aNOTher state.
-#	modifier = {
-#		factor = -1.0
-#		life_needs = 0.99
-#	}
-#	
-#If pop group meets at least 99% of its everyday needs, then -1% chance to migrate to aNOTher state.
-#	modifier = {
-#		factor = -1.0
-#		everyday_needs = 0.99
-#	}
 	
 #If pop group meets at least 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% of its luxury needs, then -0.05% chance to migrate to aNOTher state per threshold.	(-0.5% total)
 	group = {
@@ -494,7 +454,7 @@ migration_chance =
 
 #If pop group is in a colony, then -2.5% chance to migrate to a state.	DO NOT DELETE.
 	modifier = {
-		factor = -0.025
+		factor = -0.25
 		state_scope = { is_colonial = yes }
 	}
 	
@@ -504,6 +464,12 @@ migration_chance =
 		NOT = { 
 			location = { controlled_by = owner }
 		}
+	}
+
+#If pop group is Chinese, mainly to avoid unemployed pops emigrating in random siberian provinces
+	modifier = {
+		factory = -100
+		is_culture_group = east_asian
 	}
 }
 

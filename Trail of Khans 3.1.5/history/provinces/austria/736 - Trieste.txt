@@ -3,6 +3,7 @@ controller = BHA
 add_core = VEN
 add_core = BHA
 add_core = SLO
+add_core = RMR
 trade_goods = grain
 life_rating = 40
 naval_base = 1

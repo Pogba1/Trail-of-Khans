@@ -3,49 +3,49 @@
 #Innsbruck (236000/59000 POPS)
 612 = {
     aristocrats = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 750
     }
 
     bureaucrats = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 3437
     }
 
     officers = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 1250
     }
 
     clergymen = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 550
     }
 
     artisans = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 2750
     }
 
     soldiers = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 3000
     }
 
     soldiers = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 38025
     }
@@ -89,7 +89,7 @@
     }
 	
 	farmers = {
-		culture = romansh 
+		culture = south_german 
 		religion = catholic
 		size = 6300
 	}
@@ -97,31 +97,31 @@
 #Bregenz (132000/33000 POPS)
 614 = {
     aristocrats = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 400
     }
 
     clergymen = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 300
     }
 
     artisans = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 1500
     }
 
     soldiers = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 1100
     }
 
     farmers = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 19050
     }
@@ -135,25 +135,25 @@
 #Lienz (52000/13000 POPS)
 615 = {
     aristocrats = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 175
     }
 
     clergymen = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 125
     }
 
     artisans = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 600
     }
 
     soldiers = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 1125
     }
@@ -165,7 +165,7 @@
     }
 	
 	farmers = {
-		culture = romansh
+		culture = south_german
 		religion = catholic
 		size = 5500
 	}

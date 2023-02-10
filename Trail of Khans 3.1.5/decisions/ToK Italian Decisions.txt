@@ -348,24 +348,7 @@ political_decisions = {
 											   
 				}
 	        }
-            ITA = {
-                all_core = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            in_sphere = THIS
-                            OR = {
-                                is_vassal = no
-                                vassal_of = THIS
-                            }
-                            war = no
-                            is_mobilised = no
-                            is_greater_power = no
-                        }
-                    }
-                }
-            }
-            VEN = {
+            RMR = {
                 all_core = {
                     OR = {
                         owned_by = THIS
@@ -394,6 +377,9 @@ political_decisions = {
 			change_tag = RMR
 			prestige = 30
 			
+			all_core = {
+				add_core = RMR
+			}
 			any_country = {
 				limit = { 
 					OR = {
@@ -408,7 +394,6 @@ political_decisions = {
 			}	
 			VEN = {
 				all_core = {
-					add_core = RMR
 					remove_core = VEN
 				}
 			}
@@ -469,7 +454,6 @@ political_decisions = {
 			}				
 			ITA = {
 				all_core = {
-					add_core = RMR
 					remove_core = ITA
 				}
 			}
@@ -487,18 +471,17 @@ political_decisions = {
 					}
 					secede_province = THIS
 				}
-			}				 
+			}
+
 			any_owned = {
-				limit = { 
-					is_core = THIS
-					NOT = { region = TUR_788 }
-					NOT = { region = AUS_771 }
-					NOT = { region = AUS_777 }
-					NOT = { region = AUS_768 }
-					NOT = { region = MON_2582 }
-					NOT = { region = TUR_803 }
-					NOT = { region = SER_794 }
-					NOT = { province_id = 1725 }
+				limit = {
+					NOT = {
+						is_colonial = yes
+					}
+					OR = {
+						culture = north_italian
+						culture = south_italian
+					}
 				}
 				assimilate = yes
 			}
