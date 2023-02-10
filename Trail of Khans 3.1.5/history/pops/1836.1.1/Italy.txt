@@ -886,55 +886,55 @@
 #Bozen (92000/23000 POPS) #now part of Italy
 735 = {
     aristocrats = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size =  150
     }
 
     artisans = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 1500
     }
 
     soldiers = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 150
     }
 
     farmers = {
-        culture = romansh
+        culture = south_german
         religion = catholic
         size = 14950
     }
 
     clergymen = {
-        culture = north_italian
+        culture = south_german
         religion = catholic
         size =  50
     }
 
     artisans = {
-        culture = north_italian
+        culture = south_german
         religion = catholic
         size = 500
     }
 
     soldiers = {
-        culture = north_italian
+        culture = south_german
         religion = catholic
         size = 50
     }
 
     farmers = {
-        culture = north_italian
+        culture = south_german
         religion = catholic
         size = 5400
     }

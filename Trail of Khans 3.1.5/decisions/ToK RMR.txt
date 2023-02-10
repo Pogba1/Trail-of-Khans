@@ -1,5 +1,46 @@
 political_decisions = { 
 	
+	italians_cleanup = {
+		potential = {
+			tag = RMR
+			any_owned_province = {
+				any_pop = {
+					OR = {
+						has_pop_culture = south_italian
+						has_pop_culture = north_italian
+					}
+				}
+			}
+		}
+		allow = {
+		}
+		effect = {
+			any_pop = {
+				limit = {
+					AND = {
+						OR = {
+							has_pop_culture = north_italian
+							has_pop_culture = south_italian
+						}
+						NOT = {
+							state_scope = {
+								OR = {
+									culture = north_italian
+									culture = south_italian
+								}
+							}
+						}
+					}
+				}
+				move_pop = 749
+			}
+			749 = {
+				assimilate = yes
+			}
+		}
+	}
+
+
 	subjugate_illyricum = {
 	
 	    potential = {
