@@ -2287,11 +2287,6 @@ aristocrats = {
 #ruled by Texas in 1836
 #Houston (16000/4000 POPS)
 132 = {
-    bureaucrats = {
-        culture = mexican
-        religion = catholic
-        size = 12
-    }
 
     aristocrats = {
         culture = mexican
@@ -2420,12 +2415,6 @@ aristocrats = {
         size = 255
     }
 
-    bureaucrats = {
-        culture = mexican
-        religion = catholic
-        size = 62
-    }
-
     officers = {
         culture = mexican
         religion = catholic
@@ -2485,7 +2474,7 @@ aristocrats = {
     bureaucrats = {
         culture = mexican
         religion = catholic
-        size = 125
+        size = 25
     }
 
     clergymen = {
