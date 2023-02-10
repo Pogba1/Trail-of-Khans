@@ -226,58 +226,6 @@ naval_firepower_doctrine = {
         }
     }
 }
-#fleet_auxiliary_cv_doctrine = {
-#    limit = { modern_naval_doctrine = 1 }
-#    chance = {
-#        base = 6
-#    }
-#    effect = {
-#    }
-#}
-#fleet_auxiliary_ss_doctrine = {
-#    limit = { modern_naval_doctrine = 1 }
-#    chance = {
-#        base = 6
-#    }
-#    effect = {
-#    }
-#}
-#convoy_sailing = {
-#    limit = { modern_naval_doctrine = 1 }
-#    chance = {
-#        base = 6
-#    }
-#    effect = {
-#    }
-#}
-#integrated_naval_doctrine = {
-#    limit = { modern_naval_doctrine = 1 }
-#    chance = {
-#        base = 5
-#        modifier = {
-#            factor = 2
-#            invention = convoy_sailing
-#        }
-#        modifier = {
-#            factor = 2
-#            invention = fleet_auxiliary_ss_doctrine
-#        }
-#        modifier = {
-#            factor = 2
-#            invention = fleet_auxiliary_cv_doctrine
-#        }
-#        modifier = {
-#            factor = 2
-#            invention = naval_firepower_doctrine
-#        }
-#        modifier = {
-#            factor = 2
-#            invention = modern_cruisers
-#        }
-#    }
-#    effect = {
-#    }
-#}
 #clipper_design
 building_station_shipyards = {
     limit = { clipper_design = 1 }
@@ -324,17 +272,6 @@ clipper_shipyard_construction = {
         activate_building = clipper_shipyard
     }
 }
-
-#corvettes = {
-#    limit = { clipper_design = 1 }
-#    chance = {
-#        base = 6
-#    }
-#    effect = {
-#    }
-#}
-#steamers
-
 
 steamer_transports = {
     limit = { steamers = 1 }
@@ -482,48 +419,7 @@ ironclads = {
         has_country_flag = existing_country
     }
     chance = {
-        base = 5
-        modifier = {
-            factor = 2
-            invention = monitors
-        }
-        modifier = {
-            factor = 2
-            invention = torpedo_boats
-        }
-        modifier = {
-            factor = 1
-            any_neighbor_country = { invention = ironclads }
-        }
-        modifier = {
-            factor = 2
-            war = yes
-            war_countries = { invention = ironclads }
-        }
-        modifier = {
-            factor = 10
-            invention = armour_piercing_projectiles
-        }
-        modifier = {
-            factor = 10
-            invention = armour_piercing_exploding_projectiles
-        }
-        modifier = {
-            factor = 10
-            invention = armoured_turrets
-        }
-        modifier = {
-            factor = 10
-            year = 1865
-        }
-        modifier = {
-            factor = 10
-            year = 1875
-        }
-        modifier = {
-            factor = 10
-            steel_steamers = 1
-        }
+        base = 100
     }
     effect = {
         activate_unit = ironclad
@@ -623,44 +519,12 @@ protected_cruisers = {
         has_country_flag = existing_country
     }
     chance = {
-        base = 10
-        modifier = {
-            factor = 100
-            main_armament = 1
-        }
-        modifier = {
-            factor = 15
-            weapon_platforms = 1
-        }
+        base = 100
     }
     effect = {
         activate_unit = cruiser
     }
 }
-#destroyers = {
-#    limit = { steel_steamers = 1 }
-#    chance = {
-#        base = 5
-#        modifier = {
-#            factor = 2
-#            invention = torpedo_boats
-#        }
-#    }
-#    effect = {
-#    }
-#}
-#submarines = {
-#    limit = { steel_steamers = 1 }
-#    chance = {
-#        base = 5
-#        modifier = {
-#            factor = 2
-#            invention = torpedo_boats
-#        }
-#    }
-#    effect = {
-#    }
-#}
 pre_dreadnought = {
     limit = {
         steel_steamers = 1
@@ -723,67 +587,6 @@ dreadnoughts = {
         }
     }
 }
-#light_cruisers = {
-#    limit = { steam_turbine_ships = 1 }
-#    chance = {
-#        base = 5
-#        modifier = {
-#            factor = 2
-#            invention = ironclads
-#        }
-#    }
-#    effect = {
-#    }
-#}
-#battlecruisers = {
-#    limit = { steam_turbine_ships = 1 }
-#    chance = {
-#        base = 5
-#        modifier = {
-#            factor = 2
-#            invention = pre_dreadnought
-#        }
-#    }
-#    effect = {
-#    }
-#}
-#ocean_going_submarines = {
-#    limit = { steam_turbine_ships = 1 }
-#    chance = {
-#        base = 5
-#        modifier = {
-#            factor = 2
-#            invention = submarines
-#        }
-#    }
-#    effect = {
-#    }
-#}
-#oil_driven_ships
-#advanced_destroyers = {
-#    limit = { oil_driven_ships = 1 }
-#    chance = {
-#        base = 5
-#        modifier = {
-#            factor = 2
-#            invention = destroyers
-#        }
-#    }
-#    effect = {
-#    }
-#}
-#modern_destroyers = {
-#    limit = { oil_driven_ships = 1 }
-#    chance = {
-#        base = 5
-#        modifier = {
-#            factor = 2
-#            invention = advanced_destroyers
-#        }
-#    }
-#    effect = {
-#    }
-#}
 advanced_cruisers = {
     limit = { oil_driven_ships = 1 }
     chance = {
@@ -827,18 +630,6 @@ modern_cruisers = {
         }
     }
 }
-#advanced_battlecruisers = {
-#    limit = { oil_driven_ships = 1 }
-#    chance = {
-#        base = 5
-#        modifier = {
-#            factor = 2
-#            invention = battlecruisers
-#        }
-#    }
-#    effect = {
-#    }
-#}
 advanced_battleships = {
     limit = { oil_driven_ships = 1 }
     chance = {
