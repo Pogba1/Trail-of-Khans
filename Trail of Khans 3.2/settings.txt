@@ -4,7 +4,7 @@ language=l_english
 }
 graphics=
 {
-refreshRate=60
+refreshRate=144
 fullScreen=no
 borderless=yes
 shadows=no
@@ -19,7 +19,7 @@ scroll_speed=50.000000
 camera_rotation_speed=50.000000
 zoom_speed=50.000000
 mouse_speed=50.000000
-master_volume=100.000000
+master_volume=10.000000
 ambient_volume=50.000000
 mapRenderingOptions=
 {
