@@ -644,7 +644,7 @@ aristocrats = {
 	farmers = {
         culture = elysian
         religion = catholic
-        size = 140050
+        size = 100050
     }
 }
 #Eureka (4000/1000 POPS)
@@ -682,7 +682,7 @@ aristocrats = {
 	farmers = {
         culture = elysian
         religion = catholic
-        size = 60050
+        size = 30000
     }
 }
 #Cidadenzo
@@ -9605,5 +9605,57 @@ aristocrats = {
         culture = native_american_minor
         religion = animist
         size = 400
+    }
+}
+
+3326 = {
+    artisans = {
+        culture = elysian
+        religion = catholic
+        size = 4000
+    }
+
+    clergymen = {
+        culture = elysian
+        religion = catholic
+        size = 250
+    }
+
+    soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 1500
+    }
+
+    farmers = {
+        culture = elysian
+        religion = catholic
+        size = 45000
+    }
+}
+
+3327 = {
+    artisans = {
+        culture = elysian
+        religion = catholic
+        size = 2500
+    }
+
+    clergymen = {
+        culture = elysian
+        religion = catholic
+        size = 75       
+    }
+
+    soldiers = {
+        culture = elysian
+        religion = catholic
+        size = 500
+    }
+
+    farmers = {
+        culture = elysian
+        religion = catholic
+        size = 26500
     }
 }

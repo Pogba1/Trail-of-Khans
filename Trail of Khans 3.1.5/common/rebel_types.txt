@@ -197,6 +197,12 @@ reactionary_rebels = {
             factor = 1.015
             country = { NOT = { plurality = 35 } }
         }
+        modifier = {
+            factor = 0
+            state_scope = {
+                is_colonial = yes
+            }
+        }
     }
 
      #This is checked for EACH province in the Area of Operations
@@ -490,6 +496,12 @@ fascist_rebels = {
                 }
             }
         }
+        modifier = {
+            factor = 0
+            state_scope = {
+                is_colonial = yes
+            }
+        }
     }
 
      #This is checked for EACH province in the Area of Operations
@@ -768,6 +780,12 @@ communist_rebels = {
                 any_neighbor_country = {
                     government = proletarian_dictatorship
                 }
+            }
+        }
+        modifier = {
+            factor = 0
+            state_scope = {
+                is_colonial = yes
             }
         }
     }
@@ -1084,6 +1102,12 @@ anarcho_liberal_rebels = {
             factor = 0.1
             is_primary_culture = no
             is_accepted_culture = no
+        }
+        modifier = {
+            factor = 0
+            state_scope = {
+                is_colonial = yes
+            }
         }
     }
 

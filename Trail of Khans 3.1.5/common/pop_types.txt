@@ -452,7 +452,7 @@ migration_chance =
 		}
 	}
 
-#If pop group is in a colony, then -2.5% chance to migrate to a state.	DO NOT DELETE.
+#If pop group is in a colony, then -25% chance to migrate to a state.	DO NOT DELETE.
 	modifier = {
 		factor = -0.25
 		state_scope = { is_colonial = yes }
@@ -466,10 +466,12 @@ migration_chance =
 		}
 	}
 
-#If pop group is Chinese, mainly to avoid unemployed pops emigrating in random siberian provinces
+#If country is uncivilized it will not internally migrate
 	modifier = {
-		factory = -100
-		is_culture_group = east_asian
+		factor = -1000
+		country = {
+			civilized = no
+		}
 	}
 }
 
