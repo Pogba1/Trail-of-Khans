@@ -1,7 +1,7 @@
 owner = ADL
 controller = ADL
 add_core = ADL
+add_core = IBE
 trade_goods = iron
 life_rating = 35
 naval_base = 1
-1861.1.1 = { naval_base = 2 }

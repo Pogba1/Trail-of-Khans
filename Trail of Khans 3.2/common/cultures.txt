@@ -530,7 +530,7 @@ iberian = {
         Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
         Pedro Rafael Raimundo Ramón Ricardo Sabino Santiago Tomás Sebastián Segismundo Valeriano Vicente }
 
-    last_names = { Acuña Aguirre Alcalá-Zamora Allendesalazar Alonso Álvarez "Álvarez de Toledo" Aranda Argüelles-Meres Asensio
+		last_names = { Acuña Aguirre Alcalá-Zamora Allendesalazar Alonso Álvarez "Álvarez de Toledo" Aranda Argüelles-Meres Asensio
         Aznar Barradas Bugallal Cabrera "Cagigal de la Vega" Cano Cervera "de Albornoz" "de Borbón"
         "de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández "Fernández de Córdoba" "Fitz-James Stuart" Franco
         García "García de la Noceda" González Heredia Hernández Herrera Hevia "Hidalgo de Cisneros" Linares López
@@ -572,25 +572,26 @@ iberian = {
             "ibn Umar" "ibn Uthman" "ibn Yusuf"
             }
     }
-	
 	elysian = {
         color = {204 222 206}
-        first_names = { Abel Adriano Afonso Alberto Alexandre Alfredo ï¿½lvaro Andrï¿½ Antï¿½nio Aquilino
-        Artur Augusto Bartolomeu Bernardo Bruno Caetano Cï¿½ndido Carlos Christovï¿½o Clï¿½udio
-        Damiï¿½o Daniel David Dinis Diogo Duarte Ernesto Estï¿½vï¿½o Eugï¿½nio Fernando
-        Filipe Francisco "Francisco Xavier" Gastï¿½o Hermenegildo Ignï¿½cio Jerï¿½nimo Joï¿½o Joaquim Jorge
-        Josï¿½ Julio Leopoldo Luï¿½s Manuel Mï¿½rio Miguel Nicolau Nuno Orlando
+        first_names = { Abel Adriano Afonso Alberto Alexandre Alfredo Àlvaro André Antònio Aquilino
+        Artur Augusto Bartolomeu Bernardo Bruno Caetano Càndido Carlos Christovao Clàudio
+        Damiào Daniel David Dinis Diogo Duarte Ernesto Est?v?o Eug?nio Fernando
+        Filipe Francisco "Francisco Xavier" Gast?o Hermenegildo Ignàcio Jerìnimo Joào Joaquim Jorge
+        José Julio Leopoldo Lu?s Manuel M?rio Miguel Nicolau Nuno Orlando
         Oscar Pascoal Paulo Pedro Rafael Raul Roberto Rodrigo Rui Santiago
-        Sebastiï¿½o Teodoro Teï¿½filo Tiago Tomï¿½ Urbano Vasco Vicente Vitorino Vitï¿½rio }
+        Sebasti?o Teodoro Te?filo Tiago Tom? Urbano Vasco Vicente Vitorino Vit?rio }
 
         last_names = { Amaral Barbosa Barreto Bleck Braga Cabral Capelo Carmona Coelho Correia Coutinho
-        "da Costa" "da Cunha" "da Silva" "de Albuquerque" "de Almeida" "de Arriaga" "de Braganï¿½a" "de Braganï¿½a-Coburgo" "de Carvalho"
-        "de Castro" "de Gusmï¿½o" "de Lacerda" "de Mesquita" "de Moura" "de Noronha" "de Oliveira" "de Paiva" "de Sousa" "de Vasconcelos"
+        "da Costa" "da Cunha" "da Silva" "de Albuquerque" "de Almeida" "de Arriaga" "de Bragan?a" "de Bragan?a-Coburgo" "de Carvalho"
+        "de Castro" "de Gusmùo" "de Lacerda" "de Mesquita" "de Moura" "de Noronha" "de Oliveira" "de Paiva" "de Sousa" "de Vasconcelos"
         Dias "dos Reis" "dos Santos" Fernandes Ferreira Figueira "Freire de Andrade" Gago Gil Gomes
-        Herculano Ivens Keil Lopes Machado Magalhï¿½es Mendes Moniz Mouzinho Nogueira
-        Nunes Ortigï¿½o Pereira Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha
-        Ribeiro Rodrigues Salazar Sampaio Sï¿½rgio Silveira Tavares Teixeira Vidigal Vieira }
-    }
+        Herculano Ivens Keil Lopes Machado Magalhes Mendes Moniz Mouzinho Nogueira
+        Nunes Ortigéo Pereira Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha
+        Ribeiro Rodrigues Salazar Sampaio Sérgio Silveira Tavares Teixeira Vidigal Vieira }
+	}
+	
+	union = IBE
 }
 
 french = {

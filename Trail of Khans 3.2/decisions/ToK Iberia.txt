@@ -42,7 +42,7 @@ political_decisions = {
 		picture = ""
 		potential = {
 			tag = ATR
-			NOT = {has_country_flag = unite_the_peninsula}
+			NOT = {has_country_flag = unite_the_peninsula_2}
 			NOT = {has_country_flag = rebuild_the_caliphate}
 		}
 		allow = {
@@ -64,7 +64,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = unite_the_peninsula
+			set_country_flag = unite_the_peninsula_2
 			prestige = 20
 			POR_521 = {
 				add_core = THIS
@@ -80,12 +80,12 @@ political_decisions = {
 			}
 		}
 	}
-	united_in_solidarity_and = {
+	form_iberia_adl = {
 		picture = ""
 		potential = {
 			tag = ADL
-			NOT = {
-				has_country_flag = united_in_solidarity
+			IBE = {
+				exists = no
 			}
 			NOT = {
 				has_country_flag = rebuild_the_caliphate
@@ -93,7 +93,7 @@ political_decisions = {
 		}
 		allow = {
             all_core = {
-                 OR = {
+                OR = {
                     owned_by = THIS
                     owner = {
                         in_sphere = THIS
@@ -107,79 +107,38 @@ political_decisions = {
                     }
                 }
             }
-			SPA_475 = {
-                 OR = {
-                    owned_by = THIS
-                    owner = {
-                        in_sphere = THIS
-                        OR = {
-                            is_vassal = no
-                            vassal_of = THIS
-                        }
-                        war = no
-                        is_mobilised = no
-                        is_greater_power = no
-                    }
-                }
-            }
-			SPA_478 = {
-                 OR = {
-                    owned_by = THIS
-                    owner = {
-                        in_sphere = THIS
-                        OR = {
-                            is_vassal = no
-                            vassal_of = THIS
-                        }
-                        war = no
-                        is_mobilised = no
-                        is_greater_power = no
-                    }
-                }
-            }
-			SPA_492 = {
-                 OR = {
-                    owned_by = THIS
-                    owner = {
-                        in_sphere = THIS
-                        OR = {
-                            is_vassal = no
-                            vassal_of = THIS
-                        }
-                        war = no
-                        is_mobilised = no
-                        is_greater_power = no
-                    }
-                }
+			IBE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}
             }
 			state_n_government = 1
 			war = no
 		}
 		effect = {
-			set_country_flag = united_in_solidarity
-			prestige = 40
-			ATR = {
-				all_core = {
-					limit = {
-						NOT = {is_core = CAT}
-					}
-				add_core = ADL
-				}
-			}
-			ATR = {
-				all_core = {
-					remove_core = ATR
-				}
+			all_core = {
+				add_core = IBE
 			}
             any_country = {
                 limit = {
-                    NOT = { is_greater_power = yes }
-                    NOT = { has_country_flag = post_colonial_country }
+                    in_sphere = THIS
+					war = no
                     OR = {
 						primary_culture = spanish
 						primary_culture = portuguese
 					}
-                    in_sphere = THIS
                     OR = {
                         is_vassal = no
                         vassal_of = THIS
@@ -187,95 +146,9 @@ political_decisions = {
                 }
                 annex_to = THIS
             }
-			country_event = {
-				id = 190002
-				days = 0
-			}
 			add_accepted_culture = spanish
-		}
-	}
-	
-	united_in_solidarity_atr = {
-		picture = ""
-		potential = {
-			tag = ATR
-		}
-		allow = {
-            all_core = {
-                 OR = {
-                    owned_by = THIS
-                    owner = {
-                        in_sphere = THIS
-                        OR = {
-                            is_vassal = no
-                            vassal_of = THIS
-                        }
-                        war = no
-                        is_mobilised = no
-                        is_greater_power = no
-                    }
-                }
-            }
-			SPA_512 = {
-                 OR = {
-                    owned_by = THIS
-                    owner = {
-                        in_sphere = THIS
-                        OR = {
-                            is_vassal = no
-                            vassal_of = THIS
-                        }
-                        war = no
-                        is_mobilised = no
-                        is_greater_power = no
-                    }
-                }
-            }
-			SPA_513 = {
-                 OR = {
-                    owned_by = THIS
-                    owner = {
-                        in_sphere = THIS
-                        OR = {
-                            is_vassal = no
-                            vassal_of = THIS
-                        }
-                        war = no
-                        is_mobilised = no
-                        is_greater_power = no
-                    }
-                }
-            }
-			502 = {
-                 OR = {
-                    owned_by = THIS
-                    owner = {
-                        in_sphere = THIS
-                        OR = {
-                            is_vassal = no
-                            vassal_of = THIS
-                        }
-                        war = no
-                        is_mobilised = no
-                        is_greater_power = no
-                    }
-                }
-            }
-			state_n_government = 1
-			war = no
-		}
-		effect = {
-			add_accepted_culture = portuguese
 			change_tag = IBE
 			prestige = 40
-			ADL = {
-				all_core = {
-					limit = {
-						NOT = {is_core = MOR}
-					}
-				add_core = IBE
-				}
-			}
 			ADL = {
 				all_core = {
 					remove_core = ADL
@@ -286,6 +159,61 @@ political_decisions = {
 					remove_core = ATR
 				}
 			}
+			country_event = {
+				id = 190002
+				days = 0
+			}
+		}
+	}
+	
+	form_iberia_atr = {
+		picture = ""
+		potential = {
+			tag = ATR
+			IBE = {
+				exists = no
+			}
+		}
+		allow = {
+            all_core = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                        OR = {
+                            is_vassal = no
+                            vassal_of = THIS
+                        }
+                        war = no
+                        is_mobilised = no
+                        is_greater_power = no
+                    }
+                }
+            }
+			IBE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}
+            }
+			state_n_government = 1
+			war = no
+		}
+		effect = {
+			all_core = {
+				add_core = IBE
+			}
             any_country = {
                 limit = {
                     NOT = { is_greater_power = yes }
@@ -302,6 +230,19 @@ political_decisions = {
                 }
                 annex_to = THIS
             }
+			add_accepted_culture = portuguese
+			change_tag = IBE
+			prestige = 40
+			ADL = {
+				all_core = {
+					remove_core = ADL
+				}
+			}
+			ATR = {
+				all_core = {
+					remove_core = ATR
+				}
+			}
 		}
 	}
 	embrace_catalan = {

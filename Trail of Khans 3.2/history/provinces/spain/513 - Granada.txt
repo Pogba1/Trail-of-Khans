@@ -1,9 +1,9 @@
 owner = ADL
 controller = ADL
 add_core = ADL
+add_core = IBE
 trade_goods = iron
 life_rating = 35
-
 state_building = {
     level = 1
     building = ammunition_factory

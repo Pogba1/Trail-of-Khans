@@ -1,6 +1,6 @@
 owner = ATR
 controller = ATR
 add_core = ATR
+add_core = IBE
 trade_goods = fruit
 life_rating = 35
-1861.1.1 = { railroad = 2 }
