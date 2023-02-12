@@ -358,7 +358,7 @@ british = {
 
         last_names = { Smith Brown Wilson Robertson Thomson Campbell Stewart Anderson Scott Murray MacDonald Reid Taylor Clark Ross Young Mitchell Watson Paterson Morrison Sanders    }
     }
-
+	union = GAE
 }
 gallic = {
 	leader = european
@@ -388,6 +388,7 @@ gallic = {
 		Ó Cathasaigh Ó Cionaoith Ó Foghladh Ó Cléirigh Ó Dufaigh Ó Dubhthaigh Ó Mordha Muir Moir Ó Braonáin Ó Branáin Ó Dubhghaile
 		Ó Gallchobhair Mac Lochlainn Ó Dálaigh Ó Baoill Ó Séaghdha Ó Ferghail O’ Baire Caimbeul } 
     }
+	union = GAU
 }
 
 italian = {

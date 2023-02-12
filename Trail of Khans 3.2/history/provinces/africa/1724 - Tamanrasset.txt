@@ -1,7 +1,8 @@
 owner = SCO
 controller = SCO
 #add_core = NOR
-add_core = SCO
+add_core = SCO 
+add_core = GAE
 trade_goods = wool
 terrain = small_island
 life_rating = 30

@@ -49,14 +49,17 @@ political_decisions = {
 			state_n_government = 1
 			is_greater_power = yes
 			all_core = {
-				NOT = {
-					is_core = FRA
-				}
+				owned_by = THIS
+			}
+			ENG_300 = {
+				owned_by = THIS
+			}
+			SCO_296 = {
 				owned_by = THIS
 			}
 		}
         effect = {
-			296 = {add_core=THIS}
+			SCO_296 = {add_core=THIS}
 			ENG_284 = {add_core=THIS}
 			ENG_291 = {add_core=THIS}
 			ENG_300 = {add_core=THIS}
@@ -76,14 +79,15 @@ political_decisions = {
 			all_core = {owned_by = THIS}
 			state_n_government = 1
 			is_greater_power = yes
-			299 = {owned_by = THIS}
+			SCO_299 = {owned_by = THIS}
 		}
 		effect = {
-			ENG_273 = {add_core=THIS}
-			297 = {add_core = THIS}
-			298 = {add_core = THIS}
-			299 = {add_core = THIS}
-			304 = {add_core = THIS}
+			ENG_273 = {
+				add_core=THIS
+			}
+			SCO_299 = {
+				add_core = THIS
+			}
 			set_country_flag = hegemony_over_island
 			prestige = 15
 		}
@@ -125,9 +129,7 @@ political_decisions = {
 			has_country_flag = hegemony_over_island
 			war = no
 			all_core = {
-				NOT = {
-					is_core = FRA
-				}
+				is_core = GAE
 				owned_by = THIS
 			}
 			is_greater_power = yes
@@ -149,19 +151,20 @@ political_decisions = {
 			NOT = {exists = GAE}
 		}
 		allow = {
-			has_country_flag = cores_scotland_ireland
-			all_core = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						in_sphere = THIS
-						OR = {
-							is_vassal = no
-							vassal_of = THIS
+			is_greater_power = yes
+			GAE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+							is_greater_power = no
 						}
-						war = no
-						is_mobilised = no 
-						is_greater_power = no
 					}
 				}
 			}
@@ -171,43 +174,34 @@ political_decisions = {
 			change_tag = GAE
 			any_country = {
 				limit = {
-					NOT = { is_greater_power = yes }
-					NOT = { has_country_flag = post_colonial_country }
-					is_culture_group = THIS
+					OR = {
+						primary_culture = irish
+						primary_culture = scottish
+					}
 					in_sphere = THIS
 					OR = {
 						is_vassal = no
 						vassal_of = THIS
 					}
+					is_greater_power = no
 				}
-				country_event = 11101
-			}
-			IRE = {
-				all_core = {
-					limit = {
-						NOT = {
-							is_core = FRA
-							is_core = LBR
-							is_core = UBR
-							is_core = NET
-						}
-					}
-					add_core = GAE
-				}
+				annex_to = THIS
 			}
 			SCO = {
 				all_core = {
-					add_core = GAE
 					remove_core = SCO
 				}
 			}
 			IRE = {
 				all_core = {
-					limit = {
-						is_core = GAE
-					}
 					remove_core = IRE
 				}
+			}
+			any_owned = {
+				limit = {
+					is_core = FRA
+				}
+				secede_province = FRA
 			}
 			add_accepted_culture = irish
 			add_accepted_culture = welsh
@@ -219,60 +213,54 @@ political_decisions = {
 		potential ={
 			tag = IRE
 			NOT = {exists = GAE}
+			NOT = {
+				has_country_flag = attempt_reform_gaul
+			}
 		}
 		allow = {
-			has_country_flag = cores_ireland_scotland
-			all_core = {
-				NOT = {
-					is_core = FRA
-				}
-				OR = {
-					owned_by = THIS
-					owner = {
-						in_sphere = THIS
-						OR = {
-							is_vassal = no
-							vassal_of = THIS
+			is_greater_power = yes
+			GAE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassal_of = THIS
+							}
+							war = no
+							is_greater_power = no
 						}
-						war = no
-						is_mobilised = no 
-						is_greater_power = no
 					}
 				}
 			}
 		}
-		
 		effect = {
 			change_tag = GAE
 			any_country = {
 				limit = {
-					NOT = { is_greater_power = yes }
-					NOT = { has_country_flag = post_colonial_country }
-					is_culture_group = THIS
+					OR = {
+						primary_culture = irish
+						primary_culture = scottish
+					}
 					in_sphere = THIS
 					OR = {
 						is_vassal = no
 						vassal_of = THIS
 					}
+					is_greater_power = no
 				}
-				country_event = 11101
-			}
-			IRE = {
-				all_core = {
-					limit = {
-						NOT = {
-							is_core = FRA
-							is_core = LBR
-							is_core = UBR
-							is_core = NET
-						}
-					}
-					add_core = GAE
-				}
+				annex_to = THIS
 			}
 			SCO = {
 				all_core = {
-					add_core = GAE
+					remove_core = SCO
+				}
+			}
+			IRE = {
+				all_core = {
+					remove_core = IRE
 				}
 			}
 			add_accepted_culture = scottish

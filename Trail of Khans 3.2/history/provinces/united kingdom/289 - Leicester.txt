@@ -1,6 +1,7 @@
 owner = SCO
 controller = SCO
-add_core = SCO
+add_core = SCO 
+add_core = GAE
 add_core = ENL
 add_core = ENG
 trade_goods = grain
