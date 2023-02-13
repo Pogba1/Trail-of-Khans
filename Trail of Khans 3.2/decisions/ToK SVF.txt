@@ -12,7 +12,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = conquer_caucasus_svf
 			PNT = { all_core = { add_core = THIS } }
-			1103 = {add_core = THIS}
 			add_accepted_culture = azerbaijani
 		}
 	}
@@ -38,10 +37,29 @@ political_decisions = {
 			NOT = {has_country_flag = liberate_jerusalem}
 		}
 		allow = {
-			905 = {owned_by = THIS}
+			JER = {
+				all_core = {
+					NOT = {
+						is_core = CYP
+					}
+				owned_by = THIS
+				}
+			}		
 		}
 		effect = {
-			JER = {all_core = {limit = {NOT = {is_core = CYP}}add_core = THIS}}
+			JER = {
+				all_core = {
+					limit = {
+						NOT = {
+							is_core = CYP
+						}
+					}
+				add_core = THIS
+				}
+			}
+			897 = {
+				add_core = THIS
+			}
 			set_country_flag = liberate_jerusalem
 			add_accepted_culture = mashriqi
 		}
@@ -96,16 +114,16 @@ political_decisions = {
 		}
 	}
 	integrate_kurds = {
-	                   potential = {
-					                tag = SVF
-									NOT = { accepted_culture = kurdish }
-								}
-						   allow = {
-									state_n_government = 1
-							    }
-						  effect = {
-						            add_accepted_culture = kurdish
-									prestige = 10
-							    }
+		potential = {
+			tag = SVF
+			NOT = { accepted_culture = kurdish }
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			add_accepted_culture = kurdish
+			prestige = 10
+		}
 	}
 }

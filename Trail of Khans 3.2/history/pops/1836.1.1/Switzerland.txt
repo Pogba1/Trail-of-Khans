@@ -389,7 +389,7 @@
     aristocrats = {
         culture = french
         religion = catholic
-        size = 500
+        size = 1000
     }
 
     bureaucrats = {
@@ -413,43 +413,31 @@
     artisans = {
         culture = celtic
         religion = catholic
-        size = 7000
-    }
-
-    soldiers = {
-        culture = celtic
-        religion = catholic
-        size = 2200
+        size = 2000
     }
 
     farmers = {
         culture = celtic
         religion = catholic
-        size = 68550
+        size = 28550
 	}
 
 	artisans = {
 		culture = french
 		religion = catholic
-		size = 700
-	}
-
-	artisans = {
-		culture = french
-		religion = protestant
-		size = 200
+		size = 900
 	}
 
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 500
+		size = 3500
 	}
 
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 5000
+		size = 45000
 	}
 }
 #Sitten (72000/18000) POPS

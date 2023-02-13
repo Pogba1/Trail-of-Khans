@@ -39,10 +39,19 @@ country_event = {
         NOV = {
             treasury = 100000
         }
+        GOL = {
+            treasury = 150000
+        }
+        SVF = {
+            treasury = 100000
+        }
         any_country = {
             limit = {
                 exists = yes
                 is_secondary_power = yes
+                NOT = {
+                    tag = SVF
+                }
             }
             treasury = 40000
         }

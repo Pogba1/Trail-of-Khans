@@ -8,95 +8,95 @@ political_decisions = {
 			tag = MEX
 		}
 		effect = {
-		set_country_flag = messico
-		MEX_89 = {
+            set_country_flag = messico
+            MEX_89 = {
                 add_province_modifier = {
                     name = mex_wild_north
                     duration = -1
                 }
             }
-		
-		MEX_100= {
+            
+            MEX_100= {
                 add_province_modifier = {
                     name = mex_wild_north
                     duration = -1
                 }
             }
-		
-		MEX_2138= {
+            
+            MEX_2138= {
                 add_province_modifier = {
                     name = mex_wild_north
                     duration = -1
                 }
             }
-		
-		MEX_2142= {
+            
+            MEX_2142= {
                 add_province_modifier = {
                     name = mex_wild_north
                     duration = -1
                 }
             }
-		
-		133= {
+            
+            133= {
                 add_province_modifier = {
                     name = mex_wild_north
                     duration = -1
                 }
             }
-		
-		43 = {
+            
+            43 = {
                 add_province_modifier = {
                     name = mex_wild_north
                     duration = -1
                 }
             }
-		
-		132 = {
+            
+            132 = {
                 add_province_modifier = {
                     name = mex_wild_north
                     duration = -1
                 }
             }
-		
-		134 = {
+            
+            134 = {
                 add_province_modifier = {
                     name = mex_wild_north
                     duration = -1
                 }
             }
-		
-		135 = {
+            
+            135 = {
                 add_province_modifier = {
                     name = mex_wild_north
                     duration = -1
                 }
             }
-		
-		136 = {
+            
+            136 = {
                 add_province_modifier = {
                     name = mex_wild_north
                     duration = -1
                 }
             }
-		
-		137 = {
+            
+            137 = {
                 add_province_modifier = {
                     name = mex_wild_north
                     duration = -1
                 }
             }
-		
-		138= {
+            
+            138= {
                 add_province_modifier = {
                     name = mex_wild_north
                     duration = -1
                 }
             }
-		
-		2137 = {remove_province_modifier = mex_wild_north}
-		2141 = {remove_province_modifier = mex_wild_north}
-		2142 = {remove_province_modifier = mex_wild_north}
-	}
+            
+            2137 = {remove_province_modifier = mex_wild_north}
+            2141 = {remove_province_modifier = mex_wild_north}
+            2142 = {remove_province_modifier = mex_wild_north}
+	    }
 	}
     BHA_1836_setup = {
         potential = {
@@ -178,7 +178,7 @@ political_decisions = {
 
     JER_1836_setup = {
         potential = {
-            tag = JER_1836_setup
+            tag = JER
             always = no
         }
         allow = {

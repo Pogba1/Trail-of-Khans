@@ -199,10 +199,13 @@ political_decisions = {
                 }
                 militancy = -4
             }
-			TUR_855 = { add_core = THIS }
 			prestige = 10
 			add_accepted_culture = latin
-			917 = {add_core = BYZ}
+			JER = {
+				all_core = {
+					add_core = THIS
+				}
+			}
 			917 = {add_province_modifier={name=holy_city_jerusalem duration = -1}}
 			set_country_flag = the_holy_city
         }

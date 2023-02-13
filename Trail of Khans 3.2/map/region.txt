@@ -298,7 +298,7 @@ BAV_599 = { 599 592 600 601 602 } #Upper Bavaria
 
 SWI_603 = { 603 606 611 } #Switzerland (east)
 
-SWI_607 = { 605 604 607 609 } #Western Switzerland
+SWI_607 = { 607 605 604 609 } #Western Switzerland
 
 PRU_682 = { 682 683 684 685 681 } #Silesia
 
@@ -358,13 +358,13 @@ AUS_780 = { 780 781 782 774 } #Dalmatia
 
 ### Italy
 
-SAR_720 = { 720 721 722 723 724 725 472} #Piemonte
+SAR_720 = { 720 721 722 3328 } #Piemonte
 
-#MOD_739 = { 739 738 740 } #Emilia
+GEN_724 = { 724 725 723 740 472 } #Liguria
 
 TUS_744 = { 744 745 746 747 748 1981 } #Tuscany
 
-PAP_741 = { 741 742 743 739 738 740 } #Emilia-Romagna
+PAP_741 = { 741 742 743 739 738 } #Emilia-Romagna
 
 PAP_752 = { 749 752 750 751 } #Lazio
 
@@ -438,23 +438,25 @@ TUR_893 = { 893 889 899 892 2414 } #Diyarbakir
 
 SVF_894 = { 894 896 898 900 895 } #Adana
 
-EGY_897 = { 897 904 905 903 902 901 1813 906 907 } #Western Syria
+EGY_897 = { 897 904 905 903 902 } #Western Syria
+
+D_906 = { 906 907 910 911 931 934 } #Syrian Desert
 
 EGY_915 = { 913 915 912 914 } #Lebanon
 
-EGY_921 = { 917 921 920 919 918 916 908 910 911 922 909 } #Palestine
+EGY_921 = { 917 921 920 919 918 916 908 922 909 } #Palestine
 
-#TUR_923 = { 923 924 925 928 } #Mosul
+TUR_923 = { 923 924 901 1813 } #Mosul
 
 TUR_931 = { 926 931 927 923 924 925 928 } #Baghdad
 
-TUR_935 = { 935 932 933 930 934 929 } #Basra
+TUR_935 = { 935 932 933 930 929 } #Basra
 
 RUS_1090 = { 1090 1093 1091 1092 1094 1095 } #Georgia
 
 RUS_1098 = { 1098 1099 1100 1101 } #Armenia
 
-RUS_1102 = { 1102 1105 1106 1104 1107 1103 } #Azerbaijan
+RUS_1102 = { 1102 1105 1106 1104 1107 } #Azerbaijan
 
 PER_1112 = { 1108 1109 1110 1111 1112 } #Tabriz
 
@@ -565,7 +567,7 @@ RUS_1041 = { 1041 1036 1040 1039 } #Astrakhan
 
 RUS_1048 = { 1048 1049 1050 1051 1056 } #Circassia
 
-RUS_1052 = { 1052 1053 1054 1055 1057 } #North Caucasia
+RUS_1052 = { 1052 1053 1054 1055 1057 1103 } #North Caucasia
 
 RUS_1060 = { 1032 1033 1034 1035 1042 } #Samara
 

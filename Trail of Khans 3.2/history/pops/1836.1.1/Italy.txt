@@ -59,7 +59,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 229900
+        size = 179900
     }
 
     ######Jews
@@ -2718,4 +2718,37 @@
         size = 3065
     }
 
+}
+
+3328 = {
+
+    aristocrats = {
+        culture = north_italian
+        religion = catholic
+        size = 500        
+    }
+
+    clergymen = {
+        culture = north_italian
+        religion = catholic
+        size = 425
+    }
+
+    artisans = {
+        culture = north_italian
+        religion = catholic
+        size = 5402
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = catholic
+        size = 1500
+    }
+
+    farmers = {
+        culture = north_italian
+        religion = catholic
+        size = 52065
+    }
 }

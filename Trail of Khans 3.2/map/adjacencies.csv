@@ -6,7 +6,21 @@ From;To;Type;Through;Data;Comment
 14;78;sea;3011;0;Vancouver Crossing
 62;75;sea;2946;0;Straits of Belle Isle
 68;70;sea;2944;0;Cabot Strait
-#2237;2269;sea;2975;0;Strait of Trinidad
+2237;2269;sea;2975;0;Strait of Trinidad
+2233;2409;sea;2975;0;
+2409;2231;sea;2975;0;
+2231;2228;sea;2976;0;
+2228;2232;sea;2976;0;
+2232;2230;sea;2976;0;
+2230;2225;sea;2976;0;
+2225;2227;sea;2976;0;
+2227;3246;sea;2976;0;
+3246;45;sea;2976;0;
+3246;2236;sea;2976;0;
+2224;2225;sea;2976;0;
+45;2226;sea;2976;0;
+2226;2223;sea;2976;0;
+2223;2222;sea;2976;0;
 2334;2335;sea;2992;0;Strait of Magellan
 2399;2400;sea;2992;0;Strait of Magellan
 77;74;sea;2944;0;Cabot Strait
@@ -200,9 +214,6 @@ From;To;Type;Through;Data;Comment
 #2568;722;impassable;0;0;Lugano-Novara
 609;722;impassable;0;0;Sitten-Novara
 606;722;impassable;0;0;Lucerne-Novara
-469;472;impassable;0;0;Digne-Nizza
-454;466;impassable;0;0;Chambéry-Grenoble
-472;720;impassable;0;0;Nizza-Torino
 
 #Pyrenees
 
