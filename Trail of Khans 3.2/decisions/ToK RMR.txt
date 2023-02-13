@@ -1,5 +1,80 @@
 political_decisions = { 
 	
+	annex_illyricum = {
+		potential = {
+			tag = RMR
+			NOT = {
+				has_country_flag = annex_illyricum
+			}
+			has_country_flag = control_dalmatia
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			ILY = {
+				OR = {
+					in_sphere = THIS
+					exists = no
+				}
+			}
+			war = no
+			is_greater_power = yes
+		}
+		effect = {
+			set_country_flag = annex_illyricum
+			prestige = 10
+			IlY = {
+				all_core = {
+					add_core = THIS
+					remove_core = ILY
+				}
+				annex_to = THIS
+			}
+		}
+	}
+
+	cisalpine_gaul = {
+		potential = {
+			tag = RMR
+			NOT = {
+				has_country_flag = cisalpine_gaul
+			}
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			SAR_466 = {
+				owned_by = THIS
+			}
+			SWI_603 = {
+				owned_by = THIS
+			}
+			SWI_607 = {
+				owned_by = THIS
+			}
+			AUS_612 = {
+				owned_by = THIS
+			}
+			war = no
+			is_greater_power = yes
+		}
+		effect = {
+			set_country_flag = cisalpine_gaul
+			prestige = 15
+			badboy = 15
+			SAR_466 = {
+				add_core = THIS
+			}
+			SWI_603 = {
+				add_core = THIS
+			}
+			SWI_607 = {
+				add_core = THIS
+			}
+			AUS_612 = {
+				add_core = THIS
+			}
+		}
+	}
+
 	italians_cleanup = {
 		potential = {
 			tag = RMR
@@ -89,6 +164,21 @@ political_decisions = {
 			}
 		}
 		effect = {
+			diplomatic_influence = {
+				who = ILY
+				value = 300
+			}
+			any_country = {
+				limit = {
+					is_greater_power = yes
+				}
+				diplomatic_influence = {
+					who = ILY
+					value = -300
+				}
+			}
+			badboy = 12.5
+			add_accepted_culture = dalmatian
 			AUS_736 = {
 				limit = {
 					owned_by = DLM
@@ -125,7 +215,6 @@ political_decisions = {
 				} 
 				secede_province = THIS
 			}
-			add_accepted_culture = dalmatian
 			DLM = {
 				change_tag = ILY
 				primary_culture = serb
@@ -166,7 +255,6 @@ political_decisions = {
 				add_core = THIS
 				remove_core = ILY
 			}
-			badboy = 12.5
 			set_country_flag = control_dalmatia
 		}
 	}
