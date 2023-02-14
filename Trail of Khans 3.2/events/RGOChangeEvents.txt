@@ -1188,42 +1188,7 @@ province_event = {
         controlled_by = THIS
         year = 1840
         owner = { civilized = yes }
-        OR = {
-            province_id = 1670 #Morioka, Japan
-            AND = {
-                OR = {
-                    province_id = 486 #Caceres
-                    province_id = 311 #Kragero
-                    province_id = 413 #Verdun
-                }
-                year = 1850
-            }
-            AND = {
-                OR = {
-                    province_id = 743 #Ravenna (Cesena)(Sulphur)
-                    province_id = 456 #Montauban (Quercy)
-                }
-                year = 1860
-            }
-            AND = {
-                OR = {
-                    province_id = 1690  #Marrakesh
-                    province_id = 1686  #Fez
-                    province_id = 1682  #Meknes
-                    province_id = 1692  #Huribka
-                }
-                year = 1872
-            }
-            AND = {
-                OR = {
-                    province_id = 200 #Tampa
-                    province_id = 1729 #Tozeur
-                    province_id = 2406 #Penghu
-                    province_id = 1426 #Pontianak
-                }
-                year = 1890
-            }
-        }
+        province_id = 1670 #Morioka, Japan
         NOT = { trade_goods = sulphur }
         NOT = { has_province_modifier = switched_production }
 
