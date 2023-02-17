@@ -263,12 +263,6 @@ promote_to =
 			factor = -10
 			NOT = { literacy = 0.30 }
 		}
-		modifier = {
-			factor = -2
-			country = {
-				has_country_flag = serfdom_NOT_abolished
-			}
-		}
 		group = {
 			modifier = {
 				factor = -1

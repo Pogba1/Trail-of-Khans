@@ -1,0 +1,34 @@
+country_event = {
+    id = 545454
+    title = "EVTNAME545454"
+    desc = "EVTDESC545454"
+
+    trigger = {
+        ai = no
+        capital_scope = {
+            NOT = {
+                has_province_modifier = capital_supply
+            }
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 0
+    }
+    
+    option = {
+        name = "Great!"
+        capital_scope = {
+            add_province_modifier = {
+                name = capital_supply
+                duration = -1
+            }
+        }
+		any_owned = {
+			limit = { 
+                is_capital = no 
+            }
+			remove_province_modifier = capital_supply
+		}
+    }
+}

@@ -2818,3 +2818,7 @@ mex_wild_north = {
 	pop_militancy_modifier = 0.01
 	icon = 2
 }
+
+capital_supply = {
+    supply_limit = 1000
+}

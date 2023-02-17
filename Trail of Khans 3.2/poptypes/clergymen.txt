@@ -2767,93 +2767,6 @@ issues =
         }
     }
 
-    freedom_of_womb = {
-        factor = 1.1
-        modifier = {
-            factor = 0
-            NOT = { is_next_reform = freedom_of_womb }
-        }
-
-        modifier = {
-            factor = 0
-            country = { civilized = no }
-        }
-        modifier = {
-            factor = 0.5
-            state_scope = { is_slave = yes }
-        }
-
-        modifier = {
-            factor = 0.9
-            OR = {
-                is_accepted_culture = yes
-                is_primary_culture = yes
-            }
-            OR = {
-                nationalvalue = nv_autocracy
-                nationalvalue = nv_order
-                nationalvalue = nv_tradition
-            }
-        }
-
-        modifier = {
-            factor = 1.2
-            OR = {
-                is_accepted_culture = yes
-                is_primary_culture = yes
-            }
-            OR = {
-                nationalvalue = nv_equality
-                nationalvalue = nv_liberty
-            }
-        }
-
-        modifier = {
-            factor = 1.5
-            state_scope = { is_slave = no }
-            pop_majority_ideology = liberal
-            consciousness = 6
-        }
-        modifier = {
-            factor = 1.5
-            state_scope = { is_slave = no }
-            pop_majority_ideology = liberal
-            consciousness = 7
-        }
-        modifier = {
-            factor = 1.5
-            state_scope = { is_slave = no }
-            pop_majority_ideology = liberal
-            consciousness = 8
-        }
-        modifier = {
-            factor = 3
-            state_scope = { is_slave = no }
-            pop_majority_ideology = liberal
-            consciousness = 9
-        }
-        modifier = {
-            factor = 1.1
-            literacy = 0.4
-        }
-        modifier = {
-            factor = 1.1
-            literacy = 0.5
-        }
-        modifier = {
-            factor = 1.1
-            literacy = 0.6
-        }
-        modifier = {
-            factor = 1.1
-            literacy = 0.7
-        }
-        modifier = {
-            factor = 2
-            country = { sphere_owner = { slavery = no_slavery } }
-        }
-    }
-
     no_slavery = {
         factor = 1.1
         modifier = {
@@ -3294,7 +3207,6 @@ issues =
                 country = { NOT = { press_rights = free_press } }
                 country = { NOT = { vote_franschise = universal_voting } }
                 country = { NOT = { slavery = no_slavery } }
-                country = { debt_law = serfdom }
             }
         }
         modifier = {
@@ -6398,7 +6310,6 @@ rehabilitation = {
                 country = { NOT = { press_rights = free_press } }
                 country = { NOT = { vote_franschise = universal_voting } }
                 country = { NOT = { slavery = no_slavery } }
-                country = { debt_law = serfdom }
             }
         }
 
@@ -6485,7 +6396,6 @@ rehabilitation = {
                 country = { NOT = { press_rights = free_press } }
                 country = { NOT = { vote_franschise = universal_voting } }
                 country = { NOT = { slavery = no_slavery } }
-                country = { debt_law = serfdom }
             }
         }
 

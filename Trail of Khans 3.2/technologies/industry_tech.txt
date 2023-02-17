@@ -944,7 +944,7 @@ advanced_metallurgy = {
         coal = 1
     }
     rgo_goods_output = {
-        sulphur = 1
+        sulphur = 0.25
     }
 
     ai_chance = {

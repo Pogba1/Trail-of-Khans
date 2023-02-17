@@ -335,19 +335,7 @@ industrial_paper_production = {
     limit = { freedom_of_trade = 1 }
     news = no
     chance = {
-        base = 2
-        modifier = {
-            factor = 2
-            economic_policy = laissez_faire
-        }
-        modifier = {
-            factor = 1
-            ruling_party_ideology = liberal
-        }
-        modifier = {
-            factor = -10
-            NOT = { invention = industrial_sawmills }
-        }
+        base = 100
     }
     effect = {
         activate_building = paper_mill
@@ -358,19 +346,7 @@ industrial_furniture_production = {
     limit = { early_classical_theory_and_critique = 1 }
     news = no
     chance = {
-        base = 2
-        modifier = {
-            factor = 1
-            prestige = 30
-        }
-        modifier = {
-            factor = 2
-            is_greater_power = yes
-        }
-        modifier = {
-            factor = -10
-            NOT = { invention = industrial_sawmills }
-        }
+        base = 100
     }
     effect = {
         activate_building = furniture_factory
@@ -378,25 +354,10 @@ industrial_furniture_production = {
 }
 
 industrial_luxury_furniture_production = {
-    limit = { late_classical_theory = 1 }
+    limit = { early_classical_theory_and_critique =  }
     news = no
     chance = {
-        base = 2
-        modifier = {
-            factor = 2
-            nationalvalue = nv_equality
-        }
-        modifier = {
-            factor = 1
-            ruling_party_ideology = liberal
-        }
-        modifier = {
-            factor = -10
-            NOT = {
-                mechanical_production = 1
-                invention = industrial_furniture_production
-            }
-        }
+        base = 100  
     }
     effect = {
         activate_building = luxury_furniture_factory
@@ -407,19 +368,7 @@ industrial_sawmills = {
     limit = { early_classical_theory_and_critique = 1 }
     news = no
     chance = {
-        base = 2
-        modifier = {
-            factor = 2
-            economic_policy = laissez_faire
-        }
-        modifier = {
-            factor = 1
-            ruling_party_ideology = liberal
-        }
-        modifier = {
-            factor = -10
-            NOT = { piston_steam_engine = 1 }
-        }
+        base = 100
     }
     effect = {
         activate_building = lumber_mill
@@ -430,19 +379,7 @@ canning_process = {
     limit = { guild_based_production = 1 }
     news = no
     chance = {
-        base = 2
-        modifier = {
-            factor = 2
-            economic_policy = laissez_faire
-        }
-        modifier = {
-            factor = 1
-            ruling_party_ideology = liberal
-        }
-        modifier = {
-            factor = -10
-            NOT = { piston_steam_engine = 1 }
-        }
+        base = 100
     }
     effect = {
         activate_building = canned_food_factory
@@ -453,19 +390,7 @@ portland_cement = {
     limit = { freedom_of_trade = 1 }
     news = no
     chance = {
-        base = 2
-        modifier = {
-            factor = 2
-            economic_policy = laissez_faire
-        }
-        modifier = {
-            factor = 1
-            ruling_party_ideology = liberal
-        }
-        modifier = {
-            factor = -10
-            NOT = { basic_chemistry = 1 }
-        }
+        base = 100
     }
     effect = {
         activate_building = cement_factory

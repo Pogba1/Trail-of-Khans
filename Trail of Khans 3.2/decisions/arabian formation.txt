@@ -391,11 +391,6 @@ political_decisions = {
             }
 
             random_owned = {
-                limit = { owner = { civilized = no slavery = freedom_of_womb } }
-                ARA = { political_reform = freedom_of_womb }
-            }
-
-            random_owned = {
                 limit = { owner = { civilized = no slavery = no_slavery } }
                 ARA = { political_reform = no_slavery }
             }

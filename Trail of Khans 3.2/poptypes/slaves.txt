@@ -48,20 +48,6 @@ issues = {
         }
     }
 
-    freedom_of_womb = {
-        factor = 1
-        modifier = {
-            factor = 0
-            NOT = { is_next_reform = freedom_of_womb }
-        }
-
-        modifier = {
-            factor = 0
-            country = { civilized = no }
-        }
-
-    }
-
     yes_slavery = {
         factor = 1
         modifier = {

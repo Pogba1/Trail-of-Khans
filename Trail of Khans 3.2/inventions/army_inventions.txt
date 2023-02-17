@@ -1189,9 +1189,9 @@ heavy_artillery = {
 cuirassier_activation = {
     limit = { military_staff_system = 1 }
     chance = {
-        base = 2
+        base = 100
         modifier = {
-            factor = -2
+            factor = -100
             not = { civilized = yes }
         }
     }
@@ -1202,9 +1202,9 @@ cuirassier_activation = {
 dragoon_activation = {
     limit = { military_staff_system = 1 }
     chance = {
-        base = 2
+        base = 100
         modifier = {
-            factor = -2
+            factor = -100
             not = { civilized = yes }
         }
     }
@@ -1215,9 +1215,9 @@ dragoon_activation = {
 hussar_activation = {
     limit = { military_staff_system = 1 }
     chance = {
-        base = 2
+        base = 100
         modifier = {
-            factor = -2
+            factor = -100
             not = { civilized = yes }
         }
     }

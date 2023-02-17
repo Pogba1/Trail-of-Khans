@@ -2044,10 +2044,7 @@ country_event = {
 			government = prussian_constitutionalism
 			government = absolute_monarchy
 		}
-		OR = {
-			slavery = yes_slavery
-			slavery = freedom_of_womb
-		}
+		slavery = yes_slavery
 		NOT = { has_country_flag = educated_princes_refused }
 	}
 
