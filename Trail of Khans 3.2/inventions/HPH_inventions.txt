@@ -354,7 +354,7 @@ industrial_furniture_production = {
 }
 
 industrial_luxury_furniture_production = {
-    limit = { early_classical_theory_and_critique =  }
+    limit = { early_classical_theory_and_critique = 1 }
     news = no
     chance = {
         base = 100  

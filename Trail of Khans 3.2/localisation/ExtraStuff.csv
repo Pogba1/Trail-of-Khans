@@ -383,8 +383,6 @@ acquire_all_cores_setup;Acquire all core states from $RECIPIENT$;Prendre territo
 acquire_all_cores_desc;Acquire all enemy §Ystates§W where we have §Ycore provinces§W;Prendre un §YÉtat§W ennemi où nous avons des §Yprovinces principales§W;Erobern Sie einen feindlichen §YStaat§W, in dem wir §YKernprovinzen§W haben.;;Adquirir un §Yestado§W enemigo donde tenemos §Yprovincias núcleo§W;;;;;;;;;x
 AGRESSION_WAR_ALL_CORES_NAME;$ORDER$War of $FIRST$ Liberation;;;;;;;;;;;;;
 NORMAL_WAR_ALL_CORES_NAME;$ORDER$War of $FIRST$ Liberation;;;;;;;;;;;;;
-AGRESSION_WAR_ALL_CORES_NAME_USA_MEX;The $ORDER$Mexican-American War;;;;;;;;;;;;;
-NORMAL_WAR_ALL_CORES_NAME_USA_MEX;The $ORDER$Mexican-American War;;;;;;;;;;;;;
 puppet_break_free_ai_war_title;Break Free From Subject Status;;;;;;;;;;;;;
 puppet_break_free_ai_war_desc;Our overlord is using an fake war to keep us in check, let's prove them wrong;;;;;;;;;;;;;
 PROV1569;Old Hangzhou;x

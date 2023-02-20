@@ -1,0 +1,28 @@
+country_event = {
+    id = 701
+    title = "EVTNAME701"
+    desc = "EVTDESC701"
+
+    trigger = {
+        government = mongolian_dependency
+        THIS = {
+            OR = {
+                is_vassal = no
+                NOT = {
+                    vassal_of = MGL
+                }
+            }
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "We have shaken off the Mongol yoke"
+
+        government = absolute_monarchy
+        prestige = 15
+    }
+}

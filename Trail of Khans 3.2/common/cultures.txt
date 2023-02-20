@@ -1412,7 +1412,6 @@ mongol_turkic = {
                Genden Amar Tserendorj Tomorbaatar Damdinbazar Bodoo Sukhbaatar Jamyan Choibalsan Chagdarjav
         }
     }
-	
     tatar = {
         color = {45 87 99}
         first_names = {
@@ -1479,6 +1478,13 @@ mongol_turkic = {
     }
     manchu = {
         color = {245 255 160}
+        first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
+        }
+        last_names = { Zhanthai Tiemei thaigzhi Linge Xiangying Xingde Kang'an
+        }
+    }
+    yuanese = {
+        color = {220 149 86}
         first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
         }
         last_names = { Zhanthai Tiemei thaigzhi Linge Xiangying Xingde Kang'an

@@ -39,8 +39,6 @@ border_policy = open_borders
 
 set_country_flag = catholic_country
 
-decision = AUS_setup_1836
-
 ruling_party = AUS_conservative
 upper_house = {
     fascist = 0

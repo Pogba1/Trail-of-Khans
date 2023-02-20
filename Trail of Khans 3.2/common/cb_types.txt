@@ -43,7 +43,6 @@ mongol_unification_cb
 imperial_restoration_cb 
 imperial_restoration_annex_cb
 chinese_unification_cb
-chinese_unification_annex_cb
 add_to_sphere 
 take_from_sphere
 safeguard_bohemia
@@ -61,7 +60,6 @@ acquire_substate_region
 take_capital
 place_in_the_sun
 colonial_competition
-cut_down_to_size_boxer
 cut_down_to_size 
 free_peoples
 liberate_country
@@ -510,8 +508,8 @@ conquest = {
 				civilized = no
 				number_of_states = 2
 				THIS = {
-					OR = {
-						NOT = { is_greater_power = yes }
+					NOT = { 
+						is_greater_power = yes 
 					}
 				}
 			}
@@ -916,6 +914,7 @@ acquire_core_state = {
 		}
 	}
 }
+
 
 # Annex Core Country
 annex_core_country = {

@@ -191,4 +191,150 @@ political_decisions = {
             }
         }
     }
+
+    MGL_1836_setup = {
+        potential = {
+            tag = MGL
+            always = no
+        }
+        allow = {
+            tag = MGL
+        }
+        effect = {
+            add_country_modifier = {
+                name = mongolian_army_debuff_1
+                duration = -1
+            }
+            any_pop = {
+                limit = {
+                    has_pop_culture = mongol
+                }
+                literacy = 0.55
+            }
+            any_pop = {
+                limit = {
+                    has_pop_culture = tatar
+                }
+                literacy = 0.35
+            }
+            any_pop = {
+                limit = {
+                    OR = {
+                        has_pop_culture = kazak
+                        has_pop_culture = manchu
+                        has_pop_culture = korean
+                    }
+                }
+                literacy = 0.25
+            }
+            any_pop = {
+                limit = {
+                    OR = {
+                        has_pop_culture = polish
+                        has_pop_culture = romanian
+                        has_pop_culture = ashkenazi
+                        has_pop_culture = greek
+                        has_pop_culture = south_italian
+                    }
+                }
+                literacy = 0.15
+            }
+            any_pop = {
+                limit = {
+                    OR = {
+                        has_pop_culture = tajik
+                        has_pop_culture = kirgiz
+                        has_pop_culture = uzbek
+                        has_pop_culture = russian
+                        has_pop_culture = uighur
+                        has_pop_culture = turkmen
+                        has_pop_culture = persian
+                        has_pop_culture = ukrainian
+                        has_pop_culture = hungarian
+                        has_pop_culture = sephardic
+                    }
+                }
+                literacy = 0.1
+            }
+            any_pop = {
+                limit = {
+                    OR = {
+                        has_pop_culture = beifaren
+                        has_pop_culture = yuanese
+                        has_pop_culture = armenian
+                        has_pop_culture = dagestani
+                        has_pop_culture = circassian
+                        has_pop_culture = chechen
+                        has_pop_culture = azerbaijani
+                        has_pop_culture = siberian_minor
+                        has_pop_culture = yakut
+                    }
+                }
+                literacy = 0.04
+            }
+            any_pop = {
+                limit = {
+                    strata = rich
+                }
+                literacy = 0.1
+            }
+            any_pop = {
+                limit = {
+                    strata = middle
+                }
+                literacy = 0.05
+            }
+            PNJ = {
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = panjabi
+                            has_pop_culture = pashtun
+                            has_pop_culture = nepali
+                            has_pop_culture = kashmiri
+                            has_pop_culture = tibetan
+                        }
+                    }
+                    literacy = 0.04
+                }
+                any_pop = {
+                    limit = {
+                        strata = rich
+                    }
+                    literacy = 0.05
+                }
+                any_pop = {
+                    limit = {
+                        strata = middle
+                    }
+                    literacy = 0.02
+                }
+                government = mongolian_dependency
+            }
+            MCK = {
+                any_pop = {
+                    limit = {
+                        OR = {
+                            has_pop_culture = beifaren
+                            has_pop_culture = yuanese
+                        }
+                    }
+                    literacy = 0.04
+                }
+                any_pop = {
+                    limit = {
+                        strata = rich
+                    }
+                    literacy = 0.05
+                }
+                any_pop = {
+                    limit = {
+                        strata = middle
+                    }
+                    literacy = 0.02
+                }
+                government = mongolian_dependency
+            }
+        }
+    }
 }

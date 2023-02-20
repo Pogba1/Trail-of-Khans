@@ -429,14 +429,6 @@ NAS = {
     color3= { 17 16 203  }
 }
 
-# Portugal FIXED
-POR = {
-
-    color1= { 103 123 204  }
-    color2= { 255 255 255  }
-    color3= { 69 157 208  }
-}
-
 # Italy
 ITA = {
     color1= { 255 255 255  }
@@ -492,7 +484,7 @@ NAP = {
     color3= { 131 101 85  }
 }
 
-# Siebenbürgen
+# Siebenbï¿½rgen
 SIE = {
     color1= { 75 111 205  }
     color2= { 124 140 162  }

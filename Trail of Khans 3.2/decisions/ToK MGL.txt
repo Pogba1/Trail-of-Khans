@@ -1,0 +1,172 @@
+political_decisions = {
+	beifaren_integration = {
+		picture = "north_han"
+		potential = {
+			tag = MCK
+			NOT = {
+				accepted_culture = beifaren
+			}
+		}
+		allow = {
+			civilized = yes
+			any_owned_province = {
+				culture = beifaren
+			}
+		}
+		effect = {
+			add_accepted_culture = beifaren
+			prestige = 15
+		}
+	}
+	crush_circassia = {
+		picture = "circassia_flag"
+		potential={
+			OR = {
+	     		tag = GOL
+		    	primary_culture = mongol
+			}
+			NOT = {
+				has_country_flag = circassians_crushed
+			}
+		}
+		allow = {
+        	NOT= {
+				exists = CIR
+			}
+			CIR = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			army_professionalism = 1
+		}
+	
+		effect = {
+			prestige = 10
+			set_country_flag = circassians_crushed
+			CIR = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+    }
+	abolish_yuan = {
+		potential = {
+			tag = MGL
+			NOT = {
+				has_country_flag = abolish_yuan
+			}
+		}
+		allow = {
+			war = no
+			MCK = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							vassal_of = THIS
+							war = no 
+							is_mobilised = no
+						}
+					}
+				}
+			}
+			invention = manifest_destiny
+			breech_loaded_rifles = 1
+		}
+		effect = {
+			badboy = 15
+			release_vassal = MCK
+			diplomatic_influence = {
+				who = MCK
+				value = -500
+			}
+			war = {
+				target = MCK
+				attacker_goal = {
+					casus_belli = annex_core_country
+				}
+			}
+		}
+	}
+	mongol_army_reform = {
+		potential = {
+			tag = MGL
+			has_country_modifier = mongolian_army_debuff_1
+		}
+		allow = {
+			strategic_mobility = 1
+			military_plans = 1
+			year = 1855
+			military_spending = 0.70
+			money = 275000
+			is_disarmed = no
+		}
+		effect = {
+			remove_country_modifier = mongolian_army_debuff_1
+			add_country_modifier = {
+				name = mongolian_army_debuff_2
+				duration = -1
+			}
+			money = -275000
+			prestige = 15
+			random_owned = {
+				limit = {
+					owner = {
+						muzzle_loaded_rifles = 1
+					}
+				}
+				owner = { activate_technology = breech_loaded_rifles }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						flintlock_rifles = 1
+					}
+				}
+				owner = { activate_technology = muzzle_loaded_rifles }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						iron_muzzle_loaded_artillery = 1
+					}
+				}
+				owner = { activate_technology = iron_breech_loaded_artillery }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						bronze_muzzle_loaded_artillery = 1
+					}
+				}
+				owner = { activate_technology = iron_muzzle_loaded_artillery }
+			}
+		}
+	}
+	final_army_reform = {
+		potential = {
+			tag = MGL
+			has_country_modifier = mongolian_army_debuff_2
+		}
+		allow = {
+			machine_guns = 1
+			year = 1872
+			money = 450000
+			military_spending = 0.85
+			is_disarmed = no 
+		}
+		effect = {
+			remove_country_modifier = mongolian_army_debuff_2
+			add_country_modifier = {
+				name = mongol_larp
+				duration = -1
+			}
+			tech_school = mongolian_tech_school
+			money = -450000
+		}
+	}
+}

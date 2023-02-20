@@ -31,6 +31,7 @@ reactionary_rebels = {
         theocracy = absolute_monarchy
 		hetmanate_cossacks = absolute_monarchy
 		merchant_republic = bourgeois_dictatorship
+        mongolian_dependency = absolute_monarchy
     }
 
 
@@ -322,6 +323,7 @@ fascist_rebels = {
         theocracy = fascist_dictatorship
 		hetmanate_cossacks = fascist_dictatorship
 		merchant_republic = fascist_dictatorship
+        mongolian_dependency = fascist_dictatorship
     }
 
 
@@ -565,6 +567,7 @@ communist_rebels = {
         theocracy = proletarian_dictatorship
 		hetmanate_cossacks = proletarian_dictatorship
 		merchant_republic = proletarian_dictatorship
+        mongolian_dependency = proletarian_dictatorship
     }
 
 
@@ -825,6 +828,7 @@ anarcho_liberal_rebels = {
         theocracy = bourgeois_dictatorship
 		hetmanate_cossacks = bourgeois_dictatorship
 		merchant_republic = bourgeois_dictatorship
+        mongolian_dependency = bourgeois_dictatorship
     }
 
 
@@ -1075,6 +1079,7 @@ nationalist_rebels = {
         theocracy = theocracy
 		hetmanate_cossacks = hetmanate_cossacks
 		merchant_republic = merchant_republic
+        mongolian_dependency = mongolian_dependency
     }
 
 
@@ -1300,6 +1305,7 @@ pan_nationalist_rebels = {
         theocracy = theocracy
 		hetmanate_cossacks = hetmanate_cossacks
 		merchant_republic = merchant_republic
+        mongolian_dependency = mongolian_dependency
     }
 
     defection = none            # (It was pan_nationalist) If the country seeks independence, defection specifies what type of provinces it wants.
@@ -1579,6 +1585,7 @@ red_shirts = {
         theocracy = democracy
 		hetmanate_cossacks = hetmanate_cossacks
 		merchant_republic = merchant_republic
+        mongolian_dependency = mongolian_dependency
     }
 
     defection = none            # (Was pan_nationalist) If the country seeks independence, defection specifies what type of provinces it wants.
@@ -1822,6 +1829,7 @@ indian_nationalists = {
         theocracy = theocracy
 		hetmanate_cossacks = hetmanate_cossacks
 		merchant_republic = merchant_republic
+        mongolian_dependency = mongolian_dependency
     }
 
     defection = none        # If the country seeks independence, defection specifies what type of provinces it wants.
@@ -2044,6 +2052,7 @@ liberal_rebels = {
         theocracy = democracy
 		hetmanate_cossacks = hetmanate_cossacks
 		merchant_republic = merchant_republic
+        mongolian_dependency = mongolian_dependency
     }
 
 
@@ -2347,6 +2356,7 @@ unciv_reactionary_rebels = {
 		theocracy = absolute_monarchy
 		hetmanate_cossacks = absolute_monarchy
 		merchant_republic = absolute_monarchy
+        mongolian_dependency = absolute_monarchy
 	}
 	
 	
@@ -2523,6 +2533,7 @@ separatist_rebels = {
         theocracy = theocracy
 		hetmanate_cossacks = hetmanate_cossacks
 		merchant_republic = merchant_republic
+        mongolian_dependency = mongolian_dependency
     }
 
 
@@ -2787,6 +2798,7 @@ socialist_rebels = {
         theocracy = democracy
 		hetmanate_cossacks = democracy
 		merchant_republic = democracy
+        mongolian_dependency = democracy
     }
 
 
@@ -3266,6 +3278,7 @@ independence_rebels = {
         theocracy = theocracy
 		hetmanate_cossacks = hetmanate_cossacks
 		merchant_republic = merchant_republic
+        mongolian_dependency = mongolian_dependency
     }
 
 
@@ -3433,6 +3446,7 @@ partisan_rebels = {
         theocracy = theocracy
 		hetmanate_cossacks = hetmanate_cossacks
 		merchant_republic = merchant_republic
+        mongolian_dependency = mongolian_dependency
     }
 
 

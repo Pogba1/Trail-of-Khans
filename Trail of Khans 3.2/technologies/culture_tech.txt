@@ -441,17 +441,17 @@ positivism = {
     colonial_migration = 0.05
     education_efficiency = 0.1
     ai_chance = {
-        factor = 1.8
+        factor = 40
         modifier = {
-            factor = 2 #2
+            factor = 10 #2
             not = { literacy = 0.75 }
         }
         modifier = {
-            factor = 2 #2
+            factor = 10 #2
             not = { literacy = 0.50 }
         }
         modifier = {
-            factor = 2 #2
+            factor = 10 #2
             not = { literacy = 0.25 }
         }
         modifier = {
@@ -491,17 +491,17 @@ functionalism = {
     colonial_migration = 0.05
     education_efficiency = 0.1
     ai_chance = {
-        factor = 1.5
+        factor = 40
         modifier = {
-            factor = 2 #2
+            factor = 10 #2
             not = { literacy = 0.75 }
         }
         modifier = {
-            factor = 2 #2
+            factor = 10 #2
             not = { literacy = 0.50 }
         }
         modifier = {
-            factor = 2 #2
+            factor = 10 #2
             not = { literacy = 0.25 }
         }
         modifier = {
@@ -541,7 +541,7 @@ biologism = {
     colonial_migration = 0.05
     education_efficiency = 0.1
     ai_chance = {
-        factor = 2
+        factor = 100
         modifier = {
             factor = 2 #2
             not = { literacy = 0.75 }
@@ -593,17 +593,17 @@ social_science = {
     education_efficiency = 0.2
 
     ai_chance = {
-        factor = 1.5
+        factor = 25
         modifier = {
-            factor = 2 #2
+            factor = 5 #2
             not = { literacy = 0.75 }
         }
         modifier = {
-            factor = 2 #2
+            factor = 5 #2
             not = { literacy = 0.50 }
         }
         modifier = {
-            factor = 2 #2
+            factor = 5 #2
             not = { literacy = 0.25 }
         }
         modifier = {
@@ -861,12 +861,9 @@ nationalism_n_imperialism = {
         }
         modifier = {
             factor = 100
-            OR = {
-                AND = {
-                    cultural_union = { exists = no }
-                    is_greater_power = yes
-                }
-                tag = POR
+            AND = {
+                cultural_union = { exists = no }
+                is_greater_power = yes
             }
         }
     }

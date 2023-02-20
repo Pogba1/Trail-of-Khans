@@ -10,12 +10,12 @@ civilized = no
 prestige = 5
 slavery = yes_slavery
 upper_house_composition = appointed
-vote_franschise = no_voting
+vote_franschise = none_voting
 public_meetings = no_meeting
 press_rights = free_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = only_underground
+political_parties = underground_parties
 
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit

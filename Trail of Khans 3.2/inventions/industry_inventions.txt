@@ -1553,7 +1553,7 @@ frasch_process = {
         }
         modifier = {
             factor = 2
-            invention = trinitrinitrotoluene
+            invention = trinitrotoluene
         }
     }
     effect = {

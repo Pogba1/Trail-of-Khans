@@ -25,7 +25,7 @@ political_decisions = {
 	}
 	allow = {
 	compound_steam_engines = 1
-	artificial_fertilizers = 1
+	invention = artificial_fertilizers
 	OR = {
 		1766 = {is_colonial = no}
 		1768 = {is_colonial = no}

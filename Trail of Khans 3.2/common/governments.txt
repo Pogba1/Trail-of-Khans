@@ -132,3 +132,14 @@ hetmanate_cossacks = {
 	appoint_ruling_party = no
 	flagType = republic
 }
+
+mongolian_dependency = {
+    liberal = yes
+    conservative = yes
+    reactionary = yes
+
+
+    election = no
+    appoint_ruling_party = yes
+    flagType = monarchy
+}

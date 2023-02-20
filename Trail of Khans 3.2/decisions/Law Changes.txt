@@ -31,6 +31,9 @@ political_decisions = {
 			
 		allow = {
 			NOT = { has_country_modifier = law_changed_by_force }
+			NOT = {
+				has_country_modifier = mongolian_army_debuff_1
+			}
 			OR = {
 				has_country_flag = in_great_war
 				AND = {

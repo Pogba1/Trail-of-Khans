@@ -1,26 +1,27 @@
-capital = 133
-primary_culture = texan
-religion = protestant
-government = democracy
-plurality = 25.0
-nationalvalue = nv_liberty
-literacy = 0.70
-non_state_culture_literacy = 0.15
+capital = 962
+primary_culture = ukrainian
+religion = orthodox
+government = absolute_monarchy
+plurality = 0.18
+nationalvalue = nv_order
+literacy = 0.18
+non_state_culture_literacy = 0.12
 civilized = yes
-prestige = 3
+prestige = 5
 
+# Political Reforms
 
-# Political reforms
-slavery = yes_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = wealth_weighted_voting
-public_meetings = yes_meeting
-press_rights = state_press
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = no_voting
+public_meetings = no_meeting
+press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = gerrymandering
+political_parties = only_underground
 
 # Social Reforms
+
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
@@ -30,29 +31,15 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
-conscription = four_year_draft
+conscription = two_year_draft
  
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
-border_policy = open_borders
+border_policy = closed_borders
 
-set_country_flag = protestant_country
+#Technologies
 
-ruling_party = TEX_conservative
-last_election = 1836.1.1
-upper_house = {
-    fascist = 0
-    liberal = 35
-    conservative = 57
-    reactionary = 8
-    anarcho_liberal = 0
-    socialist = 0
-    communist = 0
-}
-
-
-# Technologies
 post_napoleonic_thought = 1
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
@@ -78,10 +65,15 @@ mechanical_production = 1
 hot_blast = 1
 basic_chemistry = 1
 
-# Starting Consciousness
-consciousness = 3
-nonstate_consciousness = 1
+oob = "CHG_oob.txt"
 
-oob = "TEX_oob.txt"
-
- 
+ruling_party = RUT_conservative
+upper_house = {
+    fascist = 0
+    liberal = 20
+    conservative = 45
+    reactionary = 35
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
+}

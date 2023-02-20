@@ -1,21 +1,16 @@
-MOL = {
-    value = 100
-    level = 5
-    influence_value = 25
-}
 HET = {
     value = -75
     level = 2
 }
-KIE = {
-    value = 50
+PNJ = {
+    value = 150
     level = 5
-    influence_value = 0
+    influence_value = 50
 }
-CIR = {
-    value = 100
+MCK = {
+    value = 150
     level = 5
-    influence_value = 0
+    influence_value = 50
 }
 
 leader = {
@@ -63,8 +58,8 @@ leader = {
 
 
 army = {
-    name = "Zaryevka Ord"
-    location = 1040
+    name = "Uliastai Guard"
+    location = 1468
     regiment = {
         name= "Moriton"
         type = cuirassier 
@@ -109,7 +104,7 @@ army = {
     regiment = {
         name= "Moriton"
         type = cuirassier 
-        home = 1103
+        home = 1034
     }
 	regiment = {
         name= "Moriton"
@@ -142,81 +137,82 @@ army = {
 
 }
 army = {
-    name = "Poltava Ord"
-    location = 963
+    name = "Mariopul Garrison"
+    location = 976
     regiment = {
         name= "Moriton"
         type = cuirassier 
-        home = 962
+        home = 1019
     }
 
     regiment = {
         name= "Moriton"
         type = cuirassier 
-        home = 958
+        home = 979
     }
 
     regiment = {
         name= "Moriton"
         type = cuirassier 
-        home = 961
+        home = 1045
     }
 
     regiment = {
         name= "Moriton"
         type = cuirassier 
-        home = 963
+        home = 1019
     }
+
 	regiment = {
         name= "Moriton"
         type = cuirassier 
-        home = 963
+        home = 1019
     }
 
     regiment = {
         name= "Moriton"
         type = cuirassier 
-        home = 955
+        home = 1055
     }
 
     regiment = {
         name= "Moriton"
         type = cuirassier 
-        home = 959
+        home = 1040
     }
 
     regiment = {
         name= "Moriton"
-        type = cuirassier 
-        home = 969
+        type = hussar 
+        home = 1037
     }
 	regiment = {
         name= "Moriton"
-        type = cuirassier 
-        home = 963
+        type = cavalry 
+        home = 977
     }
 
     regiment = {
         name= "Moriton"
-        type = cuirassier 
-        home = 963
+        type = cavalry 
+        home = 1018
     }
 
     regiment = {
         name= "Moriton"
-        type = cuirassier 
-        home = 963
+        type = cavalry 
+        home = 1054
     }
 
     regiment = {
         name= "Moriton"
-        type = cuirassier 
-        home = 978
+        type = cavalry 
+        home = 1019
     }
 	regiment = {
         name= "Tuslakh Brigad"
         type = artillery
-        home = 978
+        home = 1040
     }
 
 }
@@ -239,7 +235,7 @@ army = {
     regiment = {
         name= "Moriton"
         type = cuirassier 
-        home = 964
+        home = 1050
     }
 
     regiment = {
@@ -247,6 +243,7 @@ army = {
         type = cuirassier 
         home = 1019
     }
+
 	regiment = {
         name= "Moriton"
         type = cuirassier 
@@ -256,41 +253,41 @@ army = {
     regiment = {
         name= "Moriton"
         type = cuirassier 
-        home = 1019
+        home = 1047
     }
 
     regiment = {
         name= "Moriton"
         type = cuirassier 
-        home = 1019
+        home = 1050
     }
 
     regiment = {
         name= "Moriton"
-        type = cuirassier 
-        home = 1019
+        type = dragoon 
+        home = 1050
     }
 	regiment = {
         name= "Moriton"
-        type = cuirassier 
+        type = cavalry 
         home = 1048
     }
 
     regiment = {
         name= "Moriton"
-        type = cuirassier 
-        home = 1048
+        type = cavalry 
+        home = 1034
     }
 
     regiment = {
         name= "Moriton"
-        type = cuirassier 
+        type = cavalry 
         home = 1044
     }
 
     regiment = {
         name= "Moriton"
-        type = cuirassier 
+        type = cavalry 
         home = 1021
     }
 	regiment = {
@@ -325,7 +322,7 @@ army = {
     regiment = {
         name= "Moriton"
         type = cuirassier 
-        home = 1039
+        home = 1060
     }
 	regiment = {
         name= "Moriton"
@@ -352,25 +349,25 @@ army = {
     }
 	regiment = {
         name= "Moriton"
-        type = cuirassier 
+        type = cavalry 
         home = 1056
     }
 
     regiment = {
         name= "Moriton"
-        type = cuirassier 
+        type = cavalry 
         home = 1025
     }
 
     regiment = {
         name= "Moriton"
-        type = cuirassier 
+        type = cavalry 
         home = 1025
     }
 
     regiment = {
         name= "Moriton"
-        type = cuirassier 
+        type = cavalry 
         home = 1025
     }
 	regiment = {

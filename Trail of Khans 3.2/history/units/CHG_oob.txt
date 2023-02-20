@@ -1,0 +1,53 @@
+leader = {
+    name = "Dmitry Ivanovich"
+    type = land
+    date = 1830.1.1
+    personality = relentless
+    background = old_school
+}
+
+army = {
+    name = "White Guard"
+    location = 962
+
+    regiment = {
+        name = "1. Infantry"
+        type = infantry
+        home = 962
+    }
+    regiment = {
+        name = "2. Infantry"
+        type = infantry
+        home = 962
+    }
+    regiment = {
+        name = "3. Infantry"
+        type = infantry
+        home = 962
+    }
+    regiment = {
+        name = "1. Hussar"
+        type = infantry
+        home = 963
+    }
+    regiment = {
+        name = "1. Engineer"
+        type = engineer
+        home = 963
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 963
+    }
+    regiment = {
+        name = "1. Cuirassier"
+        type = cuirassier
+        home = 963
+    }
+    regiment = {
+        name = "4. Infantry"
+        type = infantry
+        home = 963
+    }
+}

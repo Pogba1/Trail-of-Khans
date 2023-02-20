@@ -45,31 +45,31 @@
     }
 
     bureaucrats = {
-        culture = beifaren
+        culture = yuanese
         religion = mahayana
         size = 312
     }
 
     clergymen = {
-        culture = beifaren
+        culture = yuanese
         religion = mahayana
         size = 75
     }
 
     artisans = {
-        culture = beifaren
+        culture = yuanese
         religion = mahayana
         size = 400
     }
 
     soldiers = {
-        culture = beifaren
+        culture = yuanese
         religion = mahayana
         size = 100
     }
 
     farmers = {
-        culture = beifaren
+        culture = yuanese
         religion = gelugpa
         size = 3300
     }
@@ -259,7 +259,6 @@
         religion = gelugpa
         size = 750
     }
-
     clergymen = {
         culture = mongol
         religion = gelugpa
@@ -275,18 +274,11 @@
         religion = gelugpa
         size = 1500
     }
-
     soldiers = {
         culture = mongol
         religion = gelugpa
-        size = 18000
+        size = 7500
     }
-	soldiers = {
-        culture = tatar
-        religion = gelugpa
-        size = 15000
-    }
-
     farmers = {
         culture = mongol
         religion = gelugpa
