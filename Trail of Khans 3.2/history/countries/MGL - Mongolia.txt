@@ -66,7 +66,7 @@ piston_steam_engine = 1
 
 set_country_flag = gelugpa_country
 
-ruling_party = MGL_conservative
+ruling_party = MGL_reactionary
 last_election = 1834.1.1
 upper_house = {
     fascist = 0
@@ -80,4 +80,4 @@ upper_house = {
 
 decision = MGL_1836_setup
 
-oob = "GOL_oob.txt"
+oob = "MGL_oob.txt"

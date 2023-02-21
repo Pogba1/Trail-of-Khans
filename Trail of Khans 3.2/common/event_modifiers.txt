@@ -2849,5 +2849,6 @@ mongolian_army_debuff_2 = {
     mobilisation_size = -0.01
     land_organisation = -0.05
     max_military_spending = -0.10
+    army_tech_research_bonus = -0.05
     icon = 16
 }
