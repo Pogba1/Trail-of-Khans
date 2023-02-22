@@ -321,43 +321,40 @@ political_decisions = {
 			}
 		}
 	}
-	volgan_conquest = {
-		picture = "romanians_marching"
-		potential = {
-			OR = {
-				tag = RUS
-				tag = KIR
-			has_country_flag = the_conquest_of_tataria
-			}
-			NOT = {has_country_flag = volgan_conquest}
-		}
-		allow = {
-			all_core = {owned_by = THIS}
-			nationalism_n_imperialism = 1
-		}
-		
-		effect = {
-			RUS_1041 = {add_core = THIS}
-			set_country_flag = volgan_conquest
-		}
-	}
 
-	the_conquest_of_tataria = {
+	the_wild_regions = {
 		picture = "begin_line_advantage"
 		potential = {
 			OR = {
 				tag = RUS
 				tag = KIR
 			}
-			NOT = {has_country_flag = the_conquest_of_tataria}
+			NOT = {has_country_flag = the_wild_regions}
 			
 		}
 		allow = {
 			all_core = {owned_by = THIS}
+			RUS_979 = {
+				owned_by = THIS
+			}
+			RUS_1041 = {
+				owned_by = THIS
+			}
+			RUS_1038 = {
+				owned_by = THIS
+			}
 		}
 		effect = {
-			RUS_1037 = {add_core = THIS}
-			set_country_flag = the_conquest_of_tataria
+			RUS_979 = {
+				add_core = THIS
+			}
+			RUS_1041 = {
+				add_core = THIS
+			}
+			RUS_1038 = {
+				add_core = THIS
+			}
+			set_country_flag = the_wild_regions
 		}
 	}
 	
