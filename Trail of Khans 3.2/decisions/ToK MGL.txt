@@ -30,8 +30,8 @@ political_decisions = {
 			}
 		}
 		allow = {
-        	NOT= {
-				exists = CIR
+        	CIR = {
+				exists = no
 			}
 			CIR = {
 				all_core = {
@@ -191,6 +191,37 @@ political_decisions = {
 			}
 			tech_school = mongolian_tech_school
 			money = -450000
+		}
+	}
+	yuanese_rights = {
+		potential = {
+			tag = MGL
+			NOT = {
+				accepted_culture = yuanese
+			}
+		}
+		allow = {
+			MCK = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			MCK = {
+				exists = no
+			}
+			social_science = 1
+			revolution_n_counterrevolution = 1
+			impressionism = 1
+		}
+		effect = {
+			add_accepted_culture = yuanese
+			prestige = -15
+			any_owned = {
+				limit = {
+					culture = yuanese
+				}
+				add_core = THIS
+			}
 		}
 	}
 }
