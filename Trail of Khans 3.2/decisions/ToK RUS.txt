@@ -99,6 +99,59 @@ political_decisions = {
          	}
 		}
 	}
+
+	form_ruthenia = {
+		potential = {
+			primary_culture = ukrainian
+			NOT = {
+				exists = RUT
+			}
+			NOT = {
+				exists = KIR
+			}
+		}
+		allow = {
+			is_vassal = no
+			war = no
+			UKR = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							OR = {
+								is_vassal = no
+								vassl_of = THIS
+							}
+							war = no
+						}
+					}
+				}
+			}
+			state_n_government = 1
+		}
+		effect = {
+			capital = 958
+			change_tag = RUT
+			UKR = {
+				all_core = {
+					add_core = RUT
+				}
+			}
+			RUS_1048 = {
+				add_core = THIS
+			}
+			prestige = 20
+			GOL = {
+				all_core = {
+					limit = {
+						is_core = RUT
+					}
+				remove_core = GOL
+				}
+			}
+		}
+	}
 	
 	##################################
 	#Post-russian formation decisions#
