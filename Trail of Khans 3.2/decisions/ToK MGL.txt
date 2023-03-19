@@ -114,6 +114,7 @@ political_decisions = {
 					casus_belli = annex_core_country
 				}
 			}
+			set_country_flag = abolish_yuan
 		}
 	}
 	mongol_army_reform = {

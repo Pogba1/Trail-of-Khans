@@ -386,7 +386,7 @@ machine_tools = {
             machine_parts = 0.02
         }
         factory_throughput = 0.05
-        mine_RGO_eff = 0.35
+        mine_RGO_eff = 0.50
     }
 }
 whitney_n_colts_standardized_small_arms = {
@@ -1190,7 +1190,7 @@ nitroglycerin = {
         factory_goods_output = {
             explosives = 0.02
         }
-	mine_RGO_eff = 0.35
+	mine_RGO_eff = 0.50
     }
 }
 chemical_wood_pulp_process = {
