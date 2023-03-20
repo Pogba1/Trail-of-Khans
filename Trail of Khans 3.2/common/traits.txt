@@ -527,7 +527,7 @@ background = {
         reliability = 0.5
         attack = 2
     }
-    engineer = {
+    engineer_1 = {
         reliability = 0.5
         speed = 0.05
     }
@@ -575,7 +575,7 @@ background = {
     debutante = {
         reliability = 0.5
     }
-    colonial_b = {
+    colonial_1 = {
         reliability = 0.5
         defence = -2
         organisation = -0.05
