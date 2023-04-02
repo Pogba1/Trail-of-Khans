@@ -964,18 +964,21 @@ interwar_cavalry = {
             attack = 2
             defence = 2
             reconnaissance = 2
+            discipline = 0.05
             supply_consumption = 0.20
         }
         dragoon = {
             attack = 2
             defence = 2
             reconnaissance = 1
+            discipline = 0.05
             supply_consumption = 0.20
         }
         hussar = {
             attack = 2
             defence = 2
             reconnaissance = 1
+            discipline = 0.05
             supply_consumption = 0.20
         }
         cavalry = {
