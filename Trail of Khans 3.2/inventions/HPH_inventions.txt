@@ -29,25 +29,6 @@ modern_sail_ships = {
     }
 }
 
-#Naval Plans
-# punitive_expeditions = {
-    # limit = { naval_plans = 1 }
-    # chance = {
-        # base = 0
-        # modifier = {
-            # factor = 10
-            # total_pops = 250000
-            # military_score = 25
-            # total_amount_of_ships = 25
-            # rank = 16
-        # }
-    # }
-    # effect = {
-        # influence = 0.02
-    # }
-# }
-
-
 schrapnel_standard_design = {
     limit = { steel_breech_loaded_artillery = 1 } #1870
     chance = {
@@ -63,7 +44,7 @@ schrapnel_standard_design = {
     }
     effect = {
         artillery = {
-            attack = 1
+            attack = 0.75
         }
     }
 }
@@ -92,7 +73,7 @@ barbed_wire_defense = {
             defence = 0.5
         }
         artillery = {
-            defence = 1
+            defence = 0.75
         }
         irregular = {
             defence = 0.5

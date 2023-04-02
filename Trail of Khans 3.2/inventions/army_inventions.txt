@@ -56,7 +56,7 @@ field_fortifications = {
             defence = 1
         }
         artillery = {
-            defence = 1
+            defence = 0.5
         }
         dragoon = {
             defence = 1
@@ -72,26 +72,7 @@ field_fortifications = {
         }
     }
 }
-railroad_transport_groups = {
-    limit = {
-        strategic_mobility = 1
-        has_country_flag = existing_country
-    }
-    chance = {
-        base = 0
-        modifier = {
-            factor = 2
-            experimental_railroad = 1
-        }
-        modifier = {
-            factor = 3
-            early_railroad = 1
-        }
-    }
-    effect = {
-        mobilisation_size = 0.01
-    }
-}
+
 #point_defense_system
 signal_detachments = {
     limit = { point_defense_system = 1 }
@@ -142,7 +123,7 @@ flexible_firepower = {
             defence = 1
         }
         artillery = {
-            defence = 1
+            defence = 0.5
         }
         dragoon = {
             defence = 1
@@ -185,7 +166,7 @@ synchronized_heavy_support = {
             defence = 1
         }
         artillery = {
-            defence = 1
+            defence = 0.5
         }
         dragoon = {
             defence = 1
@@ -202,23 +183,6 @@ synchronized_heavy_support = {
         army_base = {
             supply_consumption = 0.05
         }
-    }
-}
-staff_command_support = {
-    limit = { point_defense_system = 1 }
-    chance = {
-        base = 3
-        modifier = {
-            factor = 2
-            military_staff_system = 1
-        }
-        modifier = {
-            factor = 2
-            army_professionalism = 1
-        }
-    }
-    effect = {
-        mobilisation_size = 0.01
     }
 }
 #deep_defense_system
@@ -246,7 +210,7 @@ trench_systems = {
             defence = 1
         }
         artillery = {
-            defence = 1
+            defence = 0.75
         }
         dragoon = {
             defence = 1
@@ -333,7 +297,7 @@ elastic_defense_system = {
             defence = 1
         }
         artillery = {
-            defence = 1
+            defence = 0.75
         }
         dragoon = {
             defence = 1
@@ -685,14 +649,17 @@ bayonet_charge = {
     effect = {
         infantry = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.10
         }
         dragoon = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.10
         }
         hussar = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.10
         }
         cavalry = {
@@ -720,14 +687,22 @@ muzzle_loaded_rifle_armament = {
     effect = {
         infantry = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.10
         }
         engineer = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.10
         }
+        hussar = {
+            attack = 1
+            discipline = 0.05
+            supply_consumption = 0.10
+        } 
         dragoon = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.10
         }
         cavalry = {
@@ -755,22 +730,27 @@ breech_loaded_rifle_armament = {
     effect = {
         infantry = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.20
         }
         guard = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.20
         }
         engineer = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.20
         }
         dragoon = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.20
         }
         hussar = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.20
         }
         cavalry = {
@@ -793,26 +773,32 @@ machine_gun_armament = {
     effect = {
         infantry = {
             defence = 4
+            discipline = 0.05
             supply_consumption = 0.20
         }
         guard = {
             defence = 4
+            discipline = 0.05
             supply_consumption = 0.20
         }
         engineer = {
             defence = 4
+            discipline = 0.05
             supply_consumption = 0.20
         }
         cuirassier = {
             defence = 1
+            discipline = 0.05
             supply_consumption = 0.20
         }
         dragoon = {
             defence = 2
+            discipline = 0.05
             supply_consumption = 0.20
         }
         hussar = {
             defence = 3
+            discipline = 0.05
             supply_consumption = 0.20
         }
         cavalry = {
@@ -881,26 +867,32 @@ bolt_action_rifle_armament = {
     effect = {
         infantry = {
             attack = 4
+            discipline = 0.05
             supply_consumption = 0.20
         }
         guard = {
             attack = 4
+            discipline = 0.05
             supply_consumption = 0.20
         }
         engineer = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.20
         }
         cuirassier = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.20
         }
         dragoon = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.20
         }
         hussar = {
             attack = 1
+            discipline = 0.05
             supply_consumption = 0.20
         }
         cavalry = {
@@ -931,21 +923,25 @@ interwar_infantry = {
         infantry = {
             attack = 4
             defence = 2
+            discipline = 0.05
             supply_consumption = 0.20
         }
         guard = {
             attack = 4
             defence = 2
+            discipline = 0.05
             supply_consumption = 0.20
         }
         engineer = {
             attack = 2
+            discipline = 0.05
             defence = 2
             supply_consumption = 0.20
         }
         irregular = {
             attack = 1
             defence = 2
+            discipline = 0.05
             supply_consumption = 0.20
         }
     }
@@ -1306,8 +1302,23 @@ ammunition_area_effect_calculations = {
     }
     effect = {
         army_base = {
-            default_organisation = 2.5
+            default_organisation = 5
             supply_consumption = 0.05
+        }
+        infantry = {
+            discipline = 0.05
+        }
+        guard = {
+            discipline = 0.05
+        }
+        engineer = {
+            discipline = 0.05
+        }
+        dragoon = {
+            discipline = 0.05
+        }
+        hussar = {
+            discipline = 0.05
         }
     }
 }
@@ -1327,8 +1338,23 @@ empirical_combat_efficiency_matrix = {
     }
     effect = {
         army_base = {
-            default_organisation = 2.5
+            default_organisation = 5
             supply_consumption = 0.05
+        }
+        infantry = {
+            discipline = 0.05
+        }
+        guard = {
+            discipline = 0.05
+        }
+        engineer = {
+            discipline = 0.05
+        }
+        dragoon = {
+            discipline = 0.05
+        }
+        hussar = {
+            discipline = 0.05
         }
     }
 }
@@ -1347,10 +1373,7 @@ combat_loss_evaluation_schemata = {
         }
     }
     effect = {
-        army_base = {
-            default_organisation = 2.5
-            supply_consumption = 0.05
-        }
+        mobilisation_size = 0.01
     }
 }
 
@@ -1370,8 +1393,26 @@ pre_planned_depot_systems = {
     }
     effect = {
         army_base = {
-            default_organisation = 2.5
+            default_organisation = 5
             supply_consumption = 0.05
+        }
+        infantry = {
+            discipline = 0.05
+        }
+        guard = {
+            discipline = 0.05
+        }
+        engineer = {
+            discipline = 0.05
+        }
+        cuirassier = {
+            discipline = 0.05
+        }
+        dragoon = {
+            discipline = 0.05
+        }
+        hussar = {
+            discipline = 0.05
         }
     }
 }
@@ -1391,8 +1432,26 @@ logistical_calculations = {
     }
     effect = {
         army_base = {
-            default_organisation = 2.5
+            default_organisation = 5
             supply_consumption = 0.05
+        }
+        infantry = {
+            discipline = 0.05
+        }
+        guard = {
+            discipline = 0.05
+        }
+        engineer = {
+            discipline = 0.05
+        }
+        cuirassier = {
+            discipline = 0.05
+        }
+        dragoon = {
+            discipline = 0.05
+        }
+        hussar = {
+            discipline = 0.05
         }
     }
 }
@@ -1412,8 +1471,26 @@ replenishment_transport_organisation = {
     }
     effect = {
         army_base = {
-            default_organisation = 2.5
+            default_organisation = 5
             supply_consumption = 0.05
+        }
+        infantry = {
+            discipline = 0.05
+        }
+        guard = {
+            discipline = 0.05
+        }
+        engineer = {
+            discipline = 0.05
+        }
+        cuirassier = {
+            discipline = 0.05
+        }
+        dragoon = {
+            discipline = 0.05
+        }
+        hussar = {
+            discipline = 0.05
         }
     }
 }
@@ -1452,7 +1529,7 @@ army_military_political_decision_making = {
     }
     effect = {
         army_base = {
-            default_organisation = 2.5
+            default_organisation = 5
             supply_consumption = 0.05
         }
     }
@@ -1473,7 +1550,7 @@ army_local_military_government = {
     }
     effect = {
         army_base = {
-            default_organisation = 2.5
+            default_organisation = 5
             supply_consumption = 0.05
         }
     }
