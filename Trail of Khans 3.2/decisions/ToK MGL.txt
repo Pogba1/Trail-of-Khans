@@ -198,7 +198,7 @@ political_decisions = {
 		potential = {
 			tag = MGL
 			NOT = {
-				has_country_flag = yuanese_rights
+				accepted_culture = yuanese
 			}
 		}
 		allow = {
@@ -210,17 +210,12 @@ political_decisions = {
 			MCK = {
 				exists = no
 			}
-			revolution_n_counterrevolution = 1
+			mass_politics = 1
+			social_science = 1
 		}
 		effect = {
-			prestige = 15
-			any_owned = {
-				limit = {
-					culture = yuanese
-				}
-				add_core = THIS
-			}
-			set_country_flag = yuanese_rights
+			prestige = -30
+			add_accepted_culture = yuanese
 		}
 	}
 }
