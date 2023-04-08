@@ -9,6 +9,7 @@ political_decisions = {
 		
 		allow = {
 			NOT = {	has_country_modifier = national_confusion }
+			NOT = { has_country_modifier = mongolian_army_debuff_1 }
 			war = no
 			OR = {
 				civilized = yes

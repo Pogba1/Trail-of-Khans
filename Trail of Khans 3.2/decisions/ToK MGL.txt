@@ -127,7 +127,7 @@ political_decisions = {
 			military_plans = 1
 			year = 1855
 			military_spending = 0.74
-			money = 275000
+			money = 350000
 			is_disarmed = no
 		}
 		effect = {
@@ -136,7 +136,7 @@ political_decisions = {
 				name = mongolian_army_debuff_2
 				duration = -1
 			}
-			money = -275000
+			money = -350000
 			prestige = 15
 			random_owned = {
 				limit = {
@@ -180,7 +180,7 @@ political_decisions = {
 		allow = {
 			machine_guns = 1
 			year = 1872
-			money = 450000
+			money = 600000
 			military_spending = 0.89
 			is_disarmed = no 
 		}
@@ -191,14 +191,14 @@ political_decisions = {
 				duration = -1
 			}
 			tech_school = mongolian_tech_school
-			money = -450000
+			money = -600000
 		}
 	}
 	yuanese_rights = {
 		potential = {
 			tag = MGL
 			NOT = {
-				accepted_culture = yuanese
+				has_country_flag = yuanese_rights
 			}
 		}
 		allow = {
@@ -210,19 +210,17 @@ political_decisions = {
 			MCK = {
 				exists = no
 			}
-			social_science = 1
 			revolution_n_counterrevolution = 1
-			impressionism = 1
 		}
 		effect = {
-			add_accepted_culture = yuanese
-			prestige = -15
+			prestige = 15
 			any_owned = {
 				limit = {
 					culture = yuanese
 				}
 				add_core = THIS
 			}
+			set_country_flag = yuanese_rights
 		}
 	}
 }
