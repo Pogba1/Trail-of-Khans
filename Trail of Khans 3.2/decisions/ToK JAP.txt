@@ -9,16 +9,34 @@ political_decisions = {
 
         allow = {
             war = no
-            OR = {
-			relation = { who = FRA value = 100 }
-			relation = { who = SCO value = 100 }
-			}
+            civilized = no
+            any_greater_power = {
+                relation = { 
+                    who = JAP 
+                    value = 100 
+                }
+            }
         }
 
         effect = {
-			add_country_modifier = {name =students_in_foreign duration = 3650}
+			add_country_modifier = {
+                name = students_in_foreign 
+                duration = 1825
+            }
+            random_country = {
+                limit = {
+                    is_greater_power = yes
+                    relation = {
+                        who = JAP
+                        value = 100
+                    }
+                }
+                diplomatic_influence = {
+                    who = JAP
+                    value = 300
+                }
+            }
             set_country_flag = send_students_to_foreign_countries
-			
         }
          ai_will_do = { factor = 1 }
     }
@@ -54,7 +72,6 @@ political_decisions = {
 			inherit = KOR
 			KOR = {all_core = {add_core = JAP}}
 			set_country_flag = japan_korea_annexation_treaty
-			KOR = {all_core ={remove_core = KOR}}
         }
          ai_will_do = { factor = 1 }
     }
