@@ -27,6 +27,15 @@ leader = {
 	prestige = 0.25
 }
 
+leader = {
+	name = "Guard Captain Marek"
+	date = 1831.1.1
+	type = land
+	personality = merciless
+	background = au_fait
+	prestige = 0.15
+}
+
 army = {
 	name = "I. Korps"
 	location = 619
@@ -182,6 +191,45 @@ army = {
 	}
 }
 
+army = {
+	name = "IV. Korps"
+	location = 621
+	regiment = {
+		name = "1st Cuirassier Brigade"		
+		type = cuirassier
+		home = 595
+	}
+	regiment = {
+		name = "1st Cuirassier Brigade"		
+		type = cuirassier
+		home = 600
+	}
+	regiment = {
+		name = "1st Cuirassier Brigade"		
+		type = cuirassier
+		home = 601
+	}
+	regiment = {
+		name = "1st Cuirassier Brigade"		
+		type = cuirassier
+		home = 602
+	}
+	regiment = {
+		name = "1st Infantry Brigade"
+		type = infantry
+		home = 563
+	}
+	regiment = {
+		name = "1st Infantry Brigade"
+		type = infantry
+		home = 597
+	}
+	regiment = {
+		name = "1st Infantry Brigade"
+		type = infantry
+		home = 768
+	}
+}
 	
 navy = {
 	name = "Küstenwache"

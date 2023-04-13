@@ -92,7 +92,7 @@ political_decisions = {
                     }
                 }
             }
-            state_n_governement = 1
+            state_n_government = 1
         }
         effect = {
             add_accepted_culture = western_slavic
