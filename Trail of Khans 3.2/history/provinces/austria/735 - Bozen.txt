@@ -1,6 +1,6 @@
-owner = BAV
-controller = BAV
+owner = TIR
+controller = TIR
 add_core = BAV
-add_core = SWI
+add_core = TIR
 trade_goods = grain
 life_rating = 35

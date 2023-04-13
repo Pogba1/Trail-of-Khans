@@ -1,7 +1,8 @@
-owner = BAV
-controller = BAV
-add_core = BAV
+owner = PLT
+controller = PLT
+add_core = PLT
 add_core = GER
+add_core = RHI
 trade_goods = fruit
 life_rating = 38
 1861.1.1 = { railroad = 3 }

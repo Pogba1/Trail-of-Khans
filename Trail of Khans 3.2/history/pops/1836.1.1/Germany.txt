@@ -2842,43 +2842,43 @@
 #Darmstadt (360000/90000 POPS)
 2560 = {
     aristocrats = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 500
     }
 
     bureaucrats = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 1000
     }
 
     officers = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 200
     }
 
     clergymen = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 500
     }
 
     artisans = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 3600
     }
 
     soldiers = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 1000
     }
 
     farmers = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 59300
     }
@@ -2995,13 +2995,13 @@
 #Mainz (242200/60550 POPS)
 570 = {
     aristocrats = {
-        culture = north_german
+        culture = south_german 
         religion = protestant
         size = 500
     }
 
     clergymen = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 500
     }
@@ -3013,13 +3013,13 @@
     }
 
     soldiers = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 500
     }
 
     farmers = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 42600
     }
@@ -3223,13 +3223,13 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 22275
+        size = 15275
     }
 
 	farmers = {
 		culture = dutch
 		religion = catholic
-		size = 23505
+		size = 46305
 	}
 
     aristocrats = {
@@ -3254,12 +3254,6 @@
         culture = dutch
         religion = protestant
         size = 275
-    }
-
-    farmers = {
-        culture = north_german
-        religion = catholic
-        size = 15800
     }
 }
 #Saarbrucken (308000/77000 POPS)
@@ -3345,31 +3339,31 @@
 #Kreuznach (228000/57000 POPS)
 574 = {
     aristocrats = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 300
     }
 
     clergymen = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 275
     }
 
     artisans = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 1500
     }
 
     soldiers = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 350
     }
 
     farmers = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 39575
     }
@@ -3429,13 +3423,7 @@
     capitalists = {
         culture = north_german
         religion = catholic
-        size = 100
-    }
-
-    capitalists = {
-        culture = north_german
-        religion = protestant
-        size = 100
+        size = 200
     }
 
     officers = {
@@ -3459,31 +3447,19 @@
     artisans = {
         culture = north_german
         religion = catholic
-        size = 6000
-    }
-
-    artisans = {
-        culture = north_german
-        religion = catholic
-        size = 3625
-    }
-
-    soldiers = {
-        culture = north_german
-        religion = catholic
-        size = 3000
+        size = 4625
     }
 
     farmers = {
         culture = north_german
         religion = catholic
-        size = 49210
+        size = 29210
     }
 
     artisans = {
         culture = dutch
         religion = protestant
-        size = 4630
+        size = 9630
     }
 
     clergymen = {
@@ -3495,13 +3471,13 @@
     soldiers = {
         culture = dutch
         religion = protestant
-        size = 100
+        size = 3100
     }
 
 	farmers = {
         culture = dutch
         religion = protestant
-		size = 56250
+		size = 76250
 	}
 	
     ######Jews

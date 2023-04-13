@@ -27,11 +27,11 @@ party = {
     ideology = conservative
 
     social_policy = no_position_set
-    economic_policy = laissez_faire
+    economic_policy = interventionism
     trade_policy = protectionism
     religious_policy = moralism
     citizenship_policy = limited_citizenship
-    war_policy = anti_military
+    war_policy = pro_military
 }
 
 party = {
@@ -42,26 +42,11 @@ party = {
     ideology = liberal
 
     social_policy = no_position_set
-    economic_policy = laissez_faire
+    economic_policy = state_capitalism
     trade_policy = free_trade
     religious_policy = pluralism
     citizenship_policy = limited_citizenship
     war_policy = jingoism
-}
-
-party = {
-    name = "GER_liberal_3"
-    start_date = 1861.1.1
-    end_date = 2000.1.1
-
-    ideology = liberal
-
-    social_policy = no_position_set
-    economic_policy = laissez_faire
-    trade_policy = free_trade
-    religious_policy = pluralism
-    citizenship_policy = limited_citizenship
-    war_policy = pro_military
 }
 
 party = {
@@ -201,35 +186,35 @@ party = {
 
 unit_names = {
     dreadnought = {
-        Baden Bayern Derfflinger "Friedrich der Grosse" Goeben "Grosser Kurfürst" Helgoland Hindenburg Kaiser Kaiserin König "König Albert" Kronprinz Lützow Mackensen Markgraf Moltke Nassau Oldenburg Ostfriesland Posen "Prinzregent Luitpold" Rheinland Sachsen Seydlitz Thüringen "Von der Tann" Westfalen Württemberg
+        Baden Bayern Derfflinger "Friedrich der Grosse" Goeben "Grosser Kurfï¿½rst" Helgoland Hindenburg Kaiser Kaiserin Kï¿½nig "Kï¿½nig Albert" Kronprinz Lï¿½tzow Mackensen Markgraf Moltke Nassau Oldenburg Ostfriesland Posen "Prinzregent Luitpold" Rheinland Sachsen Seydlitz Thï¿½ringen "Von der Tann" Westfalen Wï¿½rttemberg
     }
 
     battleship = {
-        Brandenburg "Kurfürst Friedrich Wilhelm" Weissenburg Wörth "Kaiser Friedrich III" "Kaiser Wilhelm II" "Kaiser Wilhelm Der Grosse" "Kaiser Karl Der Grosse" "Kaiser Barbarossa" Wittelsbach Wettin Zähringen Schwaben Mecklenburg Braunschweig Elsass Hessen Preussen Lothringen Deutschland Pommern Hannover Schlesien Schleswig-Holstein
+        Brandenburg "Kurfï¿½rst Friedrich Wilhelm" Weissenburg Wï¿½rth "Kaiser Friedrich III" "Kaiser Wilhelm II" "Kaiser Wilhelm Der Grosse" "Kaiser Karl Der Grosse" "Kaiser Barbarossa" Wittelsbach Wettin Zï¿½hringen Schwaben Mecklenburg Braunschweig Elsass Hessen Preussen Lothringen Deutschland Pommern Hannover Schlesien Schleswig-Holstein
     }
 
     ironclad = {
-        Arminius Bremen Carola Charlotte Frankfurt "Friedrich Carl" "Friedrich der Grosse" "Grosser Kurfürst" Hamburg Hansa Kaiser "König Wilhelm" Kronprinz Leipzig Lübeck Marie Medusa Möwe Moltke Nixe Oldenburg Olga Otter Pfeil Preussen "Preussischer Adler" "Prinz Adalbert" Sophie
+        Arminius Bremen Carola Charlotte Frankfurt "Friedrich Carl" "Friedrich der Grosse" "Grosser Kurfï¿½rst" Hamburg Hansa Kaiser "Kï¿½nig Wilhelm" Kronprinz Leipzig Lï¿½beck Marie Medusa Mï¿½we Moltke Nixe Oldenburg Olga Otter Pfeil Preussen "Preussischer Adler" "Prinz Adalbert" Sophie
     }
     manowar = {
-        Brandenburg Braunschweig Deutschland Elsass Hannover Hessen "Kaiser Barbarossa" "Kaiser Friedrich III" "Kaiser Karl der Grosse" "Kurfürst Friedrich Wilhelm" Lothringen Mecklenburg Pommern Preussen Schlesien Schleswig-Holstein Schwaben Weissenburg Wettin Wittelsbach Wörth Zähringen
+        Brandenburg Braunschweig Deutschland Elsass Hannover Hessen "Kaiser Barbarossa" "Kaiser Friedrich III" "Kaiser Karl der Grosse" "Kurfï¿½rst Friedrich Wilhelm" Lothringen Mecklenburg Pommern Preussen Schlesien Schleswig-Holstein Schwaben Weissenburg Wettin Wittelsbach Wï¿½rth Zï¿½hringen
     }
     cruiser = {
-        Amazone Arcona Ariadne Augsburg Berlin Blücher Blitz Bremen Bremse Breslau Brummer Bussard Cöln Comet Condor Cormoran Danzig Deutschland Dresden Elbing Emden Falke Frankfurt Frauenlob Freya "Friedrich Carl" "Fürst Bismarck" Gazelle Gefion Geier Gneisenau Graudenz Greif Hamburg Hansa Hela Hertha Irene Jagd "Kaiserin Augusta" Karlsruhe Königsberg Kolberg Leipzig Lübeck Magdeburg Mainz Medusa Meteor München Niobe Nürnberg Nymphe Pillau "Prinz Adalbert" "Prinz Heinrich" "Prinzess Wilhelm" Regensburg Roon Rostock Scharnhorst Schwalbe Seeadler Sperber Stettin Stralsund Strassburg Stuttgart Thetis Undine "Victoria Louise" Vineta Wacht Wiesbaden Yorck
+        Amazone Arcona Ariadne Augsburg Berlin Blï¿½cher Blitz Bremen Bremse Breslau Brummer Bussard Cï¿½ln Comet Condor Cormoran Danzig Deutschland Dresden Elbing Emden Falke Frankfurt Frauenlob Freya "Friedrich Carl" "Fï¿½rst Bismarck" Gazelle Gefion Geier Gneisenau Graudenz Greif Hamburg Hansa Hela Hertha Irene Jagd "Kaiserin Augusta" Karlsruhe Kï¿½nigsberg Kolberg Leipzig Lï¿½beck Magdeburg Mainz Medusa Meteor Mï¿½nchen Niobe Nï¿½rnberg Nymphe Pillau "Prinz Adalbert" "Prinz Heinrich" "Prinzess Wilhelm" Regensburg Roon Rostock Scharnhorst Schwalbe Seeadler Sperber Stettin Stralsund Strassburg Stuttgart Thetis Undine "Victoria Louise" Vineta Wacht Wiesbaden Yorck
     }
     frigate = {
-        Adler Albatross Alexandrine Amazone Arcona Ariadne Augusta Barbarossa Basilisk Bismarck Blitz Blücher Camaeleon Comet Cyclop Delphin "Der Königliche Ernst August" Deutschland Drache Eber Eckernförde Elbe Elisabeth "Erzherzog Johann" Franklin Frauenlob Freya Fuchs Gazelle Gefion Gneisenau Grille "Grossherzog von Oldenburg" Habicht Hay Hertha Hyäne Iltis Jäger Luise Meteor Natter Niobe Nymphe Pfeil Salamander Schwalbe Scorpion Sperber Stein Stosch Thetis Tiger Undine Victoria Vineta Wespe Wolf Ziethen
+        Adler Albatross Alexandrine Amazone Arcona Ariadne Augusta Barbarossa Basilisk Bismarck Blitz Blï¿½cher Camaeleon Comet Cyclop Delphin "Der Kï¿½nigliche Ernst August" Deutschland Drache Eber Eckernfï¿½rde Elbe Elisabeth "Erzherzog Johann" Franklin Frauenlob Freya Fuchs Gazelle Gefion Gneisenau Grille "Grossherzog von Oldenburg" Habicht Hay Hertha Hyï¿½ne Iltis Jï¿½ger Luise Meteor Natter Niobe Nymphe Pfeil Salamander Schwalbe Scorpion Sperber Stein Stosch Thetis Tiger Undine Victoria Vineta Wespe Wolf Ziethen
     }
     monitor = {
-        Ägir Baden Bayern Basilisk Beowulf Biene Bremse Brummer Camaeleon Crocodill Frithjof Hagen Heimdall Hildebrand Hummel Mosel Mücke Natter Odin Rhein Sachsen Salamander Scorpion Siegfried Viper Wespe Württemberg
+        ï¿½gir Baden Bayern Basilisk Beowulf Biene Bremse Brummer Camaeleon Crocodill Frithjof Hagen Heimdall Hildebrand Hummel Mosel Mï¿½cke Natter Odin Rhein Sachsen Salamander Scorpion Siegfried Viper Wespe Wï¿½rttemberg
     }
     clipper_transport = {
         America Deutschland Donau Elbe Europa Hansa Hela Hermann Hudson Neckar "New York" Nord-Amerika Pamir Pangani Passat Peking "Peter Rickmers" Petschili Pisagua Pitlochry Placilla Pola Pommern Potosi Preussen Priwall Rhein "Rickmer Rickmers" Weser
     }
     steam_transport = {
-        Aachen "Adeline Hugo Stinnes 3" Aller Answald Ausonia Berlin Bonn Braunschweig Bremen Breslau Bülow Cassel Chemnitz Choising Coblenz Coburg Cormoran Crefeld Danzig Darmstadt Delphin Donau Dresden Eider Eisenach Elbe Ems Erlangen Frankfurt Fulda "General Werder" Gera Giessen Gotha Halle Hannover Hansa Havel Hermann Hohenstaufen Hohenzollern Karlsruhe Kleist Köln Lahn Leipzig Libau Lübeck Main Mainz Mark "Minister Roon" Mosel München Neckar Nordsee Nürnberg Oder Oldenburg Oswald Pfalz Rhein Roon Saale Salier Schleswig Seydlitz Skutari Spree Stettin Strassburg Stuttgart Therapia Trave Trier Union Wartburg Weimar Werra Weser Willehad Wittekind Würzburg Zeppelin Zieten
+        Aachen "Adeline Hugo Stinnes 3" Aller Answald Ausonia Berlin Bonn Braunschweig Bremen Breslau Bï¿½low Cassel Chemnitz Choising Coblenz Coburg Cormoran Crefeld Danzig Darmstadt Delphin Donau Dresden Eider Eisenach Elbe Ems Erlangen Frankfurt Fulda "General Werder" Gera Giessen Gotha Halle Hannover Hansa Havel Hermann Hohenstaufen Hohenzollern Karlsruhe Kleist Kï¿½ln Lahn Leipzig Libau Lï¿½beck Main Mainz Mark "Minister Roon" Mosel Mï¿½nchen Neckar Nordsee Nï¿½rnberg Oder Oldenburg Oswald Pfalz Rhein Roon Saale Salier Schleswig Seydlitz Skutari Spree Stettin Strassburg Stuttgart Therapia Trave Trier Union Wartburg Weimar Werra Weser Willehad Wittekind Wï¿½rzburg Zeppelin Zieten
     }
     commerce_raider = {
-        Barbarossa "Cap Trafalgar" Cormoran Iltis "Kaiser Wilhelm der Grosse" "Kronprinz Wilhelm" Leopard Loreley Meteor Möwe "Preussischer Adler" "Prinz Eitel Friedrich" Seeadler Seelöwe Vineta Wolf
+        Barbarossa "Cap Trafalgar" Cormoran Iltis "Kaiser Wilhelm der Grosse" "Kronprinz Wilhelm" Leopard Loreley Meteor Mï¿½we "Preussischer Adler" "Prinz Eitel Friedrich" Seeadler Seelï¿½we Vineta Wolf
     }
 }

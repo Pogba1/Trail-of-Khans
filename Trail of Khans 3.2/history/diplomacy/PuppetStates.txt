@@ -114,3 +114,19 @@ vassal = {
     start_date = 1836.1.1
     end_date = 1936.1.1
 }
+
+#Bohemia-Bavaria
+vassal = {
+    first = BHA
+    second = BAV
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+
+#Bohemia-Tirol
+vassal = {
+    first = BHA
+    second = TIR
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
