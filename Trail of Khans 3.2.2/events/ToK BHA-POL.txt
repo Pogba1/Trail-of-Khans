@@ -207,6 +207,12 @@ country_event = {
             }
             secede_province = VEN
         }
+        any_owned = {
+            limit = {
+                is_core = BAV
+            }
+            secede_province = BAV
+        }
         create_vassal = BOH
         create_alliance = BOH
         diplomatic_influence = {
