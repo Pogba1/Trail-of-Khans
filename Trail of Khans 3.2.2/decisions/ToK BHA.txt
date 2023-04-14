@@ -164,7 +164,7 @@ political_decisions = {
                 owned_by = THIS
             }
             war = no
-            is_greater_power = no
+            is_greater_power = yes
         }
         effect = {
             SAX_558 = {
