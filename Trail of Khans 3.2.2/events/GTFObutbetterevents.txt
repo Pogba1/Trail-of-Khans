@@ -16,6 +16,7 @@ country_event = {				#stolen from Victoria Universalis (this entire thing)
 			limit = { 	
 				vassal_of = THIS 
 				NOT = { substate_of = THIS } 
+				NOT = { government = mongolian_dependency }
 			}
 		country_event = { id = 91307 days = 0 }
 		}

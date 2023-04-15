@@ -86,15 +86,22 @@ political_decisions = {
 		allow = {
 			war = no
 			MCK = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-							vassal_of = THIS
-							war = no 
-							is_mobilised = no
+				OR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+								vassal_of = THIS
+								war = no 
+								is_mobilised = no
+							}
 						}
+					}
+					AND = {
+						is_vassal = no
+						have_core_in = JAP
+						exists = yes
 					}
 				}
 			}
