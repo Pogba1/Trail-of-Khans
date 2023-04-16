@@ -240,7 +240,6 @@ army = {
         type = cuirassier
         home = 254
     }
-
     regiment = {
         name= "Infantry Brigade"
         type = infantry
@@ -261,7 +260,66 @@ army = {
         type = infantry
         home = 276
     }
+}
 
+army = {
+    name = "Royal Guard"
+    location = 263
+	regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 263
+    }
+	regiment = {
+        name= "Infantry Brigade"
+        type = infantry
+        home = 255
+    }
+	regiment = {
+        name= "Guard Brigade"
+        type = guard
+        home = 256
+    }
+	regiment = {
+        name= "Guard Brigade"
+        type = guard
+        home = 258
+    }
+    regiment = {
+        name= "Cavalry Brigade"
+        type = cuirassier
+        home = 259
+    }
+    regiment = {
+        name= "Cavalry Brigade"
+        type = cuirassier
+        home = 260
+    }
+    regiment = {
+        name= "Cavalry Brigade"
+        type = dragoon
+        home = 261
+    }
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 274
+    }
+    regiment = {
+        name= "Artillery Brigade"
+        type = artillery
+        home = 273
+    }
+    regiment = {
+        name= "Hussar Brigade"
+        type = hussar
+        home = 275
+    }
+    regiment = {
+        name= "Engineer Brigade"
+        type = engineer
+        home = 275
+    }
 }
 
 navy = {
@@ -282,6 +340,81 @@ navy = {
         type = manowar
     }
 
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+    
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+    
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+    
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+    
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+    
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+    
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+    
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+    
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+    
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+    
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+    
+    ship = {
+        name= "Hibernia"
+        type = manowar
+    }
+       
     ship = {
         name= "Illustrious" #-
         type = manowar
@@ -325,41 +458,41 @@ navy = {
     location = 263 #Canterbury
     ship = {
         name= "1st Transport Flotilla"
-        type = steam_transport
+        type = clipper_transport
     }
     ship = {
         name= "2nd Transport Flotilla"
-        type = steam_transport
+        type = clipper_transport
     }
 
     ship = {
         name= "3rd Transport Flotilla"
-        type = steam_transport
+        type = clipper_transport
     }
 
     ship = {
         name= "4th Transport Flotilla"
-        type = steam_transport
+        type = clipper_transport
     }
 
     ship = {
         name= "5th Transport Flotilla"
-        type = steam_transport
+        type = clipper_transport
     }
 
     ship = {
         name= "6th Transport Flotilla"
-        type = steam_transport
+        type = clipper_transport
     }
 
     ship = {
         name= "7th Transport Flotilla"
-        type = steam_transport
+        type = clipper_transport
     }
 
     ship = {
         name= "8th Transport Flotilla"
-        type = steam_transport
+        type = clipper_transport
     }
 
     ship = {

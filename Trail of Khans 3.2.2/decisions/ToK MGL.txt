@@ -100,7 +100,9 @@ political_decisions = {
 					}
 					AND = {
 						is_vassal = no
-						have_core_in = JAP
+						any_core = {
+							owned_by = JAP
+						}
 						exists = yes
 					}
 				}
