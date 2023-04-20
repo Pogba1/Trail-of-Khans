@@ -150,7 +150,7 @@ barrel_factory = {
         steel = 2                        #9.4            total input+maint = 90.325
     }
     output_goods = barrels
-    value = 1.2                        #117.6 - profit = 27.275
+    value = 1.4                        #117.6 - profit = 27.275
     bonus = {
         trigger = { has_building = automobile_factory }
         value = 0.1
@@ -966,7 +966,7 @@ artisan_barrel = {
         steel = 2                        #9.4            total input = 80.5
     }
     output_goods = barrels
-    value = 1.1                        #107.8     - profit = 27.3
+    value = 1.3                       #107.8     - profit = 27.3
 
     owner = {
         poptype = artisans

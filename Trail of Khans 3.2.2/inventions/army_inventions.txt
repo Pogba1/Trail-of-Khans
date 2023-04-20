@@ -489,8 +489,33 @@ tank_exploits = {
         tank = {
             attack = 2
             defence = 4
-            supply_consumption = 1
+            supply_consumption = 0.5
             siege = 1
+        }
+    }
+}
+early_armament_experiments = {
+    limit = { infiltration = 1 }
+    chance = {
+        base = 2
+    }
+    effect = {
+        tank = {
+            attack = 3
+            supply_consumption = 0.25
+        }
+    }
+}
+early_armor_experiments = {
+    limit = { infiltration = 1 }
+    chance = {
+        base = 2
+    }
+    effect = {
+        tank = {
+            attack = 1
+            defence = 4
+            supply_consumption = 0.25
         }
     }
 }
@@ -1028,7 +1053,7 @@ tankette = {
         tank = {
             attack = 2
             defence = 1
-            supply_consumption = 0.5
+            supply_consumption = 0.25
         }
     }
 }
@@ -1049,7 +1074,7 @@ light_tank = {
         tank = {
             attack = 2
             defence = 1
-            supply_consumption = 0.5
+            supply_consumption = 0.25
         }
     }
 }

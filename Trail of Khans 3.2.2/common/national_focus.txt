@@ -285,9 +285,9 @@ promotion_focus = {
 
 production_focus = {
     automation_focus = {
-        aeroplanes = 50
-        barrels = 50
-        automobiles = 50
+        aeroplanes = 200
+        barrels = 200
+        automobiles = 200
         icon = 22
         limit = {
             year = 1880
@@ -300,9 +300,9 @@ production_focus = {
     }
 
     electrical_focus = {
-        radio = 50
-        telephones = 50
-        electric_gear = 50
+        radio = 200
+        telephones = 200
+        electric_gear = 200
         icon = 23
         limit = {
             year = 1880
@@ -315,8 +315,8 @@ production_focus = {
     }
 
     chemical_focus = {
-        fuel = 50
-        oil = 50
+        fuel = 200
+        oil = 200
         icon = 24
         limit = {
             year = 1880
@@ -329,8 +329,8 @@ production_focus = {
     }
 
     shipping_focus = {
-        steamer_convoy = 50
-        clipper_convoy = 50
+        steamer_convoy = 200
+        clipper_convoy = 200
         icon = 25
         limit = {
             #civilized = yes
@@ -343,10 +343,10 @@ production_focus = {
     }
 
     textile_focus = {
-        luxury_clothes = 60
-        regular_clothes = 40
-        fabric = 15
-        dye = 15
+        luxury_clothes = 200
+        regular_clothes = 200
+        fabric = 200
+        dye = 200
         icon = 26
         limit = {
             #civilized = yes
@@ -358,10 +358,10 @@ production_focus = {
     }
 
     wood_focus = {
-        paper = 40
-        luxury_furniture = 60
-        furniture = 40
-        lumber = 40
+        paper = 200
+        luxury_furniture = 200
+        furniture = 200
+        lumber = 200
         icon = 27
         limit = {
         #    civilized = yes
@@ -373,9 +373,9 @@ production_focus = {
     }
 
     basic_industry_focus = {
-        steel = 50
-        machine_parts = 60
-        cement = 50
+        steel = 200
+        machine_parts = 200
+        cement = 200
         icon = 28
         limit = {
         #    civilized = yes
@@ -387,12 +387,12 @@ production_focus = {
     }
 
     armaments_focus = {
-        artillery = 40
-        small_arms = 40
-        ammunition = 40
-        canned_food = 40
-        explosives = 40
-        fertilizer = 40
+        artillery = 200
+        small_arms = 200
+        ammunition = 200
+        canned_food = 200
+        explosives = 200
+        fertilizer = 200
         icon = 29
         limit = {
         #    civilized = yes
@@ -404,10 +404,10 @@ production_focus = {
     }
 
     consumer_focus = {
-        liquor = 60
-        wine = 50
-        glass = 50
-        icon = 30
+        liquor = 200
+        wine = 200
+        glass = 200
+        icon = 200
         limit = {
         #    civilized = yes
             NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
