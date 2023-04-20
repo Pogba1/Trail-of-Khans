@@ -102,6 +102,7 @@ country_event = {
 				OR = {
 					primary_culture = south_german
 					primary_culture = north_german
+					tag = BHA
 				}
 			}
 			add_country_modifier = { 
