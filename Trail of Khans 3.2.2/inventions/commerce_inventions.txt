@@ -78,7 +78,9 @@ liquidation_of_assets = {
         }
     }
     effect = {
-        factory_cost = -0.01
+        factory_cost = -0.05
+		factory_input = -0.05
+        factory_output = 0.05
     }
 }
 capital_for_investors = {
@@ -96,7 +98,9 @@ capital_for_investors = {
         }
     }
     effect = {
-        factory_cost = -0.01
+        factory_cost = -0.05
+		factory_input = -0.05
+        factory_output = 0.05
     }
 }
 distribution_channels = {
@@ -114,8 +118,9 @@ distribution_channels = {
         }
     }
     effect = {
-        factory_cost = -0.01
-		farm_RGO_eff = 0.5
+        factory_cost = -0.05
+		factory_input = -0.05
+        factory_output = 0.05
     }
 }
 #investment_banks
@@ -513,7 +518,7 @@ robert_torrens = {
         }
     }
     effect = {
-        permanent_prestige = 1
+        factory_input = -0.01
     }
 }
 john_stuart_mill = {
@@ -534,7 +539,7 @@ john_stuart_mill = {
         }
     }
     effect = {
-        permanent_prestige = 1
+        factory_input = -0.01
     }
 }
 #collectivist_theory
@@ -787,7 +792,7 @@ karl_kautsky = {
         }
     }
     effect = {
-        permanent_prestige = 1
+        factory_input = -0.01
     }
 }
 jean_jaures = {
@@ -808,7 +813,7 @@ jean_jaures = {
         }
     }
     effect = {
-        permanent_prestige = 1
+        factory_input = -0.01
     }
 }
 #the_historical_theory
@@ -830,7 +835,7 @@ friedrich_list = {
         }
     }
     effect = {
-        permanent_prestige = 1
+        factory_input = -0.01
     }
 }
 wilhelm_roscher = {
@@ -851,7 +856,7 @@ wilhelm_roscher = {
         }
     }
     effect = {
-        permanent_prestige = 1
+        factory_input = -0.01
     }
 }
 bruno_hildebrand = {
@@ -978,7 +983,7 @@ johann_heinrich_von_thunen = {
         }
     }
     effect = {
-        permanent_prestige = 1
+        factory_input = -0.01
     }
 }
 leon_walras = {
@@ -999,7 +1004,7 @@ leon_walras = {
         }
     }
     effect = {
-        permanent_prestige = 1
+        factory_input = -0.01
     }
 }
 stanley_jevons = {
@@ -1254,7 +1259,7 @@ john_maynard_keynes = {
         }
     }
     effect = {
-        permanent_prestige = 1
+        factory_input = -0.01
     }
 }
 richard_kahn = {
@@ -1275,7 +1280,7 @@ richard_kahn = {
         }
     }
     effect = {
-        permanent_prestige = 1
+        factory_input = -0.01
     }
 }
 ludwig_von_mises = {
@@ -1868,7 +1873,7 @@ time_studies = {
         }
     }
     effect = {
-        factory_output = 0.01
+        factory_output = 0.025
     }
 }
 time_clock = {
