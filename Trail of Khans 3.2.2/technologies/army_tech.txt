@@ -1666,7 +1666,7 @@ iron_muzzle_loaded_artillery = {
     unciv_military = yes
     artillery = {
         attack = 0.5 #0.25
-        support = 0.5
+        support = 0.25
         supply_consumption = 0.15
     }
 
@@ -1803,7 +1803,7 @@ iron_breech_loaded_artillery = {
     unciv_military = yes
     artillery = {
         attack = 0.5 #0.25
-        support = 0.5
+        support = 0.25
         supply_consumption = 0.3
     }
     ai_chance = {
@@ -1939,7 +1939,7 @@ steel_breech_loaded_artillery = {
     unciv_military = yes
     artillery = {
         attack = 0.75 #0.5
-        support = 0.5
+        support = 0.25
         supply_consumption = 0.3
     }
 
@@ -2077,7 +2077,7 @@ indirect_artillery_fire = {
     artillery = {
         attack = 2.5 #0.5
         defence = 2
-        support = 1
+        support = 0.5
         supply_consumption = 0.3
     }
 

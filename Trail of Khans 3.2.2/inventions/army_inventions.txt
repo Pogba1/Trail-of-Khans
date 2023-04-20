@@ -1119,7 +1119,6 @@ anti_aircraft_artillery = {
         artillery = {
             attack = 0.1
             defence = 1
-            support = 0.1
             supply_consumption = 0.25
         }
     }
@@ -1141,7 +1140,6 @@ improved_anti_aircraft_artillery = {
         artillery = {
             attack = 0.1
             defence = 1
-            support = 0.1
             supply_consumption = 0.25
         }
     }
@@ -1162,7 +1160,6 @@ light_artillery = {
     effect = {
         artillery = {
             attack = 0.1
-            support = 0.1
             supply_consumption = 0.25
         }
     }
@@ -1183,7 +1180,6 @@ medium_artillery = {
     effect = {
         artillery = {
             attack = 0.1
-            support = 0.1
             supply_consumption = 0.25
         }
     }
@@ -1204,7 +1200,6 @@ heavy_artillery = {
     effect = {
         artillery = {
             attack = 0.1
-            support = 0.1
             supply_consumption = 0.25
         }
     }
