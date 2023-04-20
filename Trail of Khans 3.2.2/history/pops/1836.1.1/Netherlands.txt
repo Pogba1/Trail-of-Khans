@@ -478,77 +478,77 @@
     aristocrats = {
         culture = dutch
         religion = protestant
-        size = 799
+        size = 400
     }
     bureaucrats = {
         culture = dutch
         religion = protestant
-        size = 410
+        size = 205
     }
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 5640
+        size = 2820
     }
     artisans = {
         culture = dutch
         religion = catholic
-        size = 10481
+        size = 5240
     }
     soldiers = {
         culture = dutch
         religion = protestant
-        size = 1316
+        size = 658
     }
 	craftsmen = {
 		culture = dutch
 		religion = protestant
-		size = 13957
+		size = 6979
 	}
     farmers = {
         culture = dutch
         religion = protestant
-        size = 90569
+        size = 45284
     }
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 100
+        size = 50
     }
     artisans = {
         culture = north_german
         religion = protestant
-        size = 235
+        size = 118
     }
     farmers = {
         culture = north_german
         religion = protestant
-        size = 3008
+        size = 1504
     }
 
     ######Jews
     soldiers = {
         culture = ashkenazi
         religion = jewish
-        size = 100
+        size = 50
     }
 
     clergymen = {
         culture = ashkenazi
         religion = jewish
-        size = 100
+        size = 50
     }
 
     artisans = {
         culture = ashkenazi
         religion = jewish
-        size = 100
+        size = 50
     }
 
     farmers = {
         culture = ashkenazi
         religion = jewish
-        size = 105
+        size = 53
     }
     ########
 }
@@ -626,42 +626,42 @@
     aristocrats = {
         culture = dutch
         religion = protestant
-        size = 870
+        size = 435
     }
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 870
+        size = 435
     }
     artisans = {
         culture = dutch
         religion = catholic
-        size = 7666
+        size = 3833
     }
     soldiers = {
         culture = dutch
         religion = protestant
-        size = 5820
+        size = 2910
     }
     soldiers = {
         culture = dutch
         religion = protestant
-        size = 94
+        size = 47
     }
     farmers = {
         culture = dutch
         religion = protestant
-        size = 76352
+        size = 38176
     }
     artisans = {
         culture = north_german
         religion = protestant
-        size = 94
+        size = 47
     }
     farmers = {
         culture = north_german
         religion = protestant
-        size = 1846
+        size = 923
     }
 }
 #Leeuwarden (209200/52300 POPS)
@@ -755,4 +755,126 @@
         religion = protestant
         size = 2034
     }
+}
+#Kampen
+3329 = {
+    aristocrats = {
+        culture = dutch
+        religion = protestant
+        size = 435
+    }
+    clergymen = {
+        culture = dutch
+        religion = protestant
+        size = 435
+    }
+    artisans = {
+        culture = dutch
+        religion = catholic
+        size = 3833
+    }
+    soldiers = {
+        culture = dutch
+        religion = protestant
+        size = 2910
+    }
+    soldiers = {
+        culture = dutch
+        religion = protestant
+        size = 47
+    }
+    farmers = {
+        culture = dutch
+        religion = protestant
+        size = 38176
+    }
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 47
+    }
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 923
+    }
+}
+#Almere
+3330 = {
+    aristocrats = {
+        culture = dutch
+        religion = protestant
+        size = 400
+    }
+    bureaucrats = {
+        culture = dutch
+        religion = protestant
+        size = 205
+    }
+    clergymen = {
+        culture = dutch
+        religion = protestant
+        size = 2820
+    }
+    artisans = {
+        culture = dutch
+        religion = catholic
+        size = 5240
+    }
+    soldiers = {
+        culture = dutch
+        religion = protestant
+        size = 658
+    }
+	craftsmen = {
+		culture = dutch
+		religion = protestant
+		size = 6979
+	}
+    farmers = {
+        culture = dutch
+        religion = protestant
+        size = 45284
+    }
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 50
+    }
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 118
+    }
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 1504
+    }
+
+    ######Jews
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 50
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 50
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 50
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 53
+    }
+    ########
 }
