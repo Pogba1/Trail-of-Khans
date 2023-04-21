@@ -127,9 +127,9 @@ ENG_273 = { 273 274 275 276 } #Wales
 
 ENG_277 = { 277 278 279 285 304 } #North West England
 
-ENG_280 = { 280 281 282 283 } #North East England
+ENG_280 = { 280 281 290 } #North East England
 
-ENG_284 = { 288 289 290 } #West Midlands
+ENG_284 = { 288 289 282 283 } #West Midlands
 
 ENG_291 = { 291 292 293 295 } #Eastern Counties
 
