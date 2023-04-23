@@ -2697,23 +2697,28 @@ sicilian_sulphur = {
     icon = 13
 }
 
-government_interventionism_import = {
-    import_cost = -0.25
+government_interventionism_infamy = {
+    badboy = -0.1
     icon = 9
 }
 
-business_regulations_import = {
-    import_cost = -0.20
+economic_responsibility_infamy = {
+    badboy = -0.08
     icon = 9
 }
 
-market_structure_import = {
-    import_cost = -0.15
+market_regulations_infamy = {
+    badboy = -0.06
     icon = 9
 }
 
-freedom_of_trade_import = {
-    import_cost = -0.1
+business_regulations_infamy = {
+    badboy = -0.04
+    icon = 9
+}
+
+market_structure_infamy = {
+    badboy = -0.02
     icon = 9
 }
 
