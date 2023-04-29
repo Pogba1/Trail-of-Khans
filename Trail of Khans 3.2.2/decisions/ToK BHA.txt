@@ -152,7 +152,10 @@ political_decisions = {
         potential = {
             tag = OTO
             NOT = {
-                has_country_flag = further_conquests
+                has_country_flag = further_conquests_ger
+            }
+            NOT = {
+                has_country_flag = further_conquests_rmr
             }
         }
         allow = {
@@ -184,6 +187,49 @@ political_decisions = {
             }
             prestige = 30
             badboy = 17.5
+            set_country_flag = further_conquests_ger
+        }
+    }
+    claims_in_north_italy = {
+        potential = {
+            tag = OTO
+            NOT = {
+                has_country_flag = further_conquests_rmr
+            }
+            NOT = {
+                has_country_flag = further_conquests_ger
+            }
+        }
+        allow = {
+            revolution_n_counterrevolution = 1
+            AUS_726 = {
+                owned_by = THIS
+            }
+            AUS_729 = {
+                owned_by = THIS
+            }
+            war = no
+            is_greater_power = yes
+        }
+        effect = {
+            AUS_726 = {
+                add_core = THIS
+            }
+            AUS_729 = {
+                add_core = THIS
+            }
+            SAR_720 = {
+                add_core = THIS
+            }
+            GEN_724 = {
+                add_core = THIS
+            }
+            PAP_741 = {
+                add_core = THIS
+            }
+            prestige = 30
+            badboy = 17.5
+            set_country_flag = further_conquests_rmr
         }
     }
 }
