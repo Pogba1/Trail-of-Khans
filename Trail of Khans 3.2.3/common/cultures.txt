@@ -293,7 +293,6 @@ finnougric = {
         last_names = { Airo Alopaeus Aspara Cajander Ehrnrooth Heinrichs Heiskanen Holsti Ignatius Järnefält
         Linder Mannerheim Multamäki Nenonen Oesch Öquist Österman Paasikivi Raappana Ramsay
         Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
-        radicalism = 5
     }
     sami = {
         color = { 60 180 110}
@@ -316,7 +315,6 @@ british = {
     unit = BritishGC
     irish = {
         color = { 35 140 50}
-        radicalism = 1
         primary = IRE
         first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
         Edward Ernes Fionán Frank George Harry Jack James John Joseph
@@ -328,7 +326,6 @@ british = {
     }
 	cuban = {
         color = { 79 115 75}
-        radicalism = 1
         primary = CUB
         first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
         Edward Ernes Fionán Frank George Harry Jack James John Joseph
@@ -340,7 +337,6 @@ british = {
     }
 	welsh = {
         color = { 70 94 49}
-        radicalism = 15
         primary = IRE
         first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
         Edward Ernes Fionán Frank George Harry Jack James John Joseph
@@ -352,7 +348,6 @@ british = {
     }
     scottish = {
         color = { 0 71 182 }
-        radicalism = 5
         primary = SCO
         first_names = { Alan Alastair Alban Alpin Andrew Angus Aulay Blane Boyd Calum Clyde Coll Derek Donald Donnan Dougal Douglas Duff Duncan Ewan Farquar Fingal Finlay Gavin Gillian Gillis Gordon Greer Hamish Ian Ivar Kenneth Kentigern Kirk Kyle Lachlan Lorne Malcolm Mirren Mungo Neil Nevin Ranald Rory Ross Sholto Somerled Tavish Torquil Wallace}
 
@@ -365,7 +360,6 @@ gallic = {
     unit = BritishGC
 	gallic = {
 		color = { 50 66 54 }
-        radicalism = 1
         primary = GAU
         first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
         Edward Ernes Fionán Frank George Harry Jack James John Joseph
@@ -427,7 +421,6 @@ italian = {
         last_names = { Anfora Barberini-Colonna Bonaccorsi Caraga Cattaneo Chigi Clary Colonna "de Liguori" "de Riseis"
         "della Rovere" "di Borbone della Due Sicilia" Diaz Ferrari Filangieri Gironda Gravina Grifeo Lanza Lombardo
         Lunardi Molinelli Orsini Ottaviani Pironti Scammacca Torlonia Turrisi Vernazza Zunica }
-        radicalism = 10
     }
     maltese = {
         color = {100 150 120}
@@ -519,7 +512,6 @@ iberian = {
         Bilbao Campión Churruca "de Amésquita" "de Azpilicueta" "de Erauso" "de Rentería" "de Ubisztongo" Echagüe Echave
          Echegaray Echevarría Elorza Gaztañeta Ibarrola Ibárruri Irujo Lazcano Mendizabal Moneo
         Nárdiz Olano Olave Oyarzábal Rotaeche Uzcudun Zamárraga Zárate Zavala Zumalacárregui }
-        radicalism = 15
     }
     spanish = {
         color = {91 70 99}
@@ -675,7 +667,6 @@ south_slavic = {
         Obrenovic Ojdanic Panic Paskas Pavkovic Pesic Petrovic Popovic Putnik Radulovic
         Rasic Sijan Simovic Sokolovic Stepanovic Vasiljevic Veric Vojvodic Vukotic Zivkovic
         }
-        radicalism = 15
     }
     bulgarian = {
         color = {65 150 100}
@@ -692,7 +683,6 @@ south_slavic = {
         Pakov Petrov Radev Saksokoburggotski Savov Sirakov Solarov Stoyanov Tenev Todorov
         Tsaklev Valkov Valnarov Vasilev Vazov Velchev Zafirov Zhekov Zlatarev Zlatev
         }
-        radicalism = 10
     }
     slovene = {
         color = {0 90 128}
@@ -746,7 +736,6 @@ pan_albanian = {
         Koculi Konica Konushevci Kosturi Kota Logoreci Merlika-Kruja Mitrovica Mula Noli
         "Pashë Përmeti" "Pashë Tepelena" "Pashë Toptani" Poga "Qemal Bej" Shahini Skiroi Thaçi Troja Xoxe
         }
-        radicalism = 15
     }
 }
 
@@ -768,7 +757,6 @@ pan_romanian = {
         Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
         Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
         }
-        radicalism = 10
     }
 	thracian = {
         color = {181 153 67}
@@ -785,7 +773,6 @@ pan_romanian = {
         Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
         Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
         }
-        radicalism = 10
     }
     union = ROM
 }
@@ -807,7 +794,6 @@ hungarian_culture_group = {
         Joseffy Katona Kaufman Kéler Kiss Knezich Kogutowicz Lahner Lázár Leiningen-Westerburg
         Lichtenstein Liszt Mikszáth Molnár Nagy-Sándor Österreicher Ottinger Perczel Poeltenberg Reményi
         Rohr Schweidel Széchenyi Szemere Szlávic Tersztyansky Török Varga Vécsey "von Benedek" }
-        radicalism = 5
     }
 }
 
@@ -828,7 +814,6 @@ polish_culture_group = {
         Mikolajczyk Mokronowski Niepokólczycki Ostrowski Pac Pilsudski Poniatowski Potocki Preadzynski Radziwill
         Rokossowski Rola-Zymierski Rómmel Rózicky Rybinski Rydz-Smigly Sanguszko Skrzynecki Soltyk Sowinski
         Taczaneowski Traugutt Wawrzecki Wieniawa-Dlugoszowski Wybicki Wysocki Zajaczek Zaluski Zamoyski Zeligowski }
-        radicalism = 10
     }
     western_slavic = {
         color = {147 63 109}
@@ -878,7 +863,6 @@ czecho_slovak_culture_group = {
         Mik Morávec Nemecek Neruda Novácek Novotný Popper Radecký Rokytanský Safárik
         Safránek Schack Schubert Skoda Skuherský Smetana Snejdárek Suk Svoboda Syrový
         Tomásek Tyl Vitásek "von Mittrowitz-Nettolitzky" Vorisek Wankel Weber Zíbrt Zívr Zoubek }
-        radicalism = 5
     }
 
     slovak = {
@@ -947,7 +931,6 @@ east_slavic = {
             last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov
                             Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko"
                             Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
-            radicalism = 10
         }
 	union = KIR
 }
@@ -1021,7 +1004,6 @@ levantine = {
 		Christakis-Zografos Danglis	Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
         Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
         Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos }#
-		radicalism = 5
 	}
     greek = {
         color = { 122  180  210 }
@@ -1038,7 +1020,6 @@ levantine = {
         Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
         Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
         }
-        radicalism = 10
     }
     georgian = {
         color = {128 207 128}
@@ -1071,7 +1052,6 @@ levantine = {
         Mkhitarian Mussiniants Pahlevanian Peleshyan Safrazpekian Sahakiam Sarksyan Sekoyan Shadunts Shahsuvarian
         Tavakyalian Tchartichian Tcholakhian Ter-Sarkayan Terzian Tigraniants Tigranov Toshian Varapetian Vartanian
         }
-        radicalism = 5
     }
     assyrian = {
         color = {20 125 135}
@@ -1088,7 +1068,6 @@ levantine = {
         Mkhitarian Mussiniants Pahlevanian Peleshyan Safrazpekian Sahakiam Sarksyan Sekoyan Shadunts Shahsuvarian
         Tavakyalian Tchartichian Tcholakhian Ter-Sarkayan Terzian Tigraniants Tigranov Toshian Varapetian Vartanian
         }
-        radicalism = 5
     }
 }
 
@@ -1145,7 +1124,6 @@ turko_semitic = {
             Ahmadbek Ahmadzade Akbarzade Edigar Ganjavi Ibrahimbek Mehmandar Nakhchivani
             Qasimbek Qasimzade Rasulzade Tahirzade Talishkhan Topchubashi Zardabi
             }
-        radicalism = 5
     }
 
     kurdish = {
@@ -1157,7 +1135,6 @@ turko_semitic = {
         last_names = {
             Badirkhan Barzani Khan Shilak
         }
-        radicalism = 10
     }
 }
 
@@ -1175,7 +1152,6 @@ caucasian = {
             last_names = {
                 Awaral Gamzatov Mussayassul Aliev Murad "Ma'arulal" "X'indalal" Andis Didoi Anchikh Bagulal Bezhta Archin Chamalal Hinukhs Ratsitl Godoberi Khvarshi Rachabalda Karata Tokita Tindi Akhvakh Botlikh Hunzib al-Shithaii Dargwa Kumyk Lezgiyar Tabasaran Lak Nogai Aghul Rutul al-Tsakhur Muhammad Hotso Bamat Gadzhiyev Fazu Gamzatovna
             }
-            radicalism = 25
         }
 
         chechen = {
@@ -1187,7 +1163,6 @@ caucasian = {
             last_names = {
                 Ajndi Shithaii Akhmadov Dudayev Yamadayev Abramov Alkhanov Bargishev Basayev Dudaev Kadyrov Maskhadov Saidullayev Umarov Zakayev Akkiy Myalkiy Nokhchmakhkakhoy Alaroy Beltagoy Benoy Biltoy Dishni Chartoy Elistanzhkhoy Centoroy Enganoy Ersenoy Gendargenoy Gunoi Kharachoi Zandakhoi Terloy Beshni Chinkhoi Chanti Cheberloy Mutawakil Rigakhoy Buni Sharoy Shotoy Varandoy Batsbi al-Ingush al-Kist Tchermoeff
             }
-            radicalism = 30
         }
 
         circassian = {
@@ -1199,7 +1174,6 @@ caucasian = {
             last_names = {
                 Neghwey al-Shithaii Shapsug Zhaney Temirgoy Natukhai Syupako Abadzehs Kerzedzh Kuytsuk Khatirame Birdzh Cherch Ubykhs Mamkhegh Kabarday Cherkess Hatuqwai Bzhedug Kabardi Adyghe
             }
-            radicalism = 20
         }
     }
 
@@ -1259,7 +1233,6 @@ arab = {
             "ibn Muhammad" "ibn Mustafa" "ibn Salim"
             "ibn Umar" "ibn Uthman" "ibn Yusuf"
         }
-        radicalism = 10
     }
     bedouin = {
         color = {31 143 43}
@@ -1277,7 +1250,6 @@ arab = {
             "ibn Umar" "ibn Uthman" "ibn Yusuf"
             "al-Najdi" "al-Hijazi"
         }
-        radicalism = 10
     }
     berber = {
         color = {51 75 70}
@@ -1288,7 +1260,6 @@ arab = {
         last_names = {
             "al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
             }
-        radicalism = 10
     }
     maures = {
         color = {252 125 78}
@@ -1305,7 +1276,6 @@ arab = {
 
         last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi
         }
-        radicalism = 10
     }
 }
 
@@ -1363,7 +1333,6 @@ iranian_turanian = {
         last_names = {
             Khan Ghilzai Adamkhel Afridi Sarbanri Abdali Yusufzai Omarkhel Pashtun Dilazak Atcha Babar Burki Bangash Bannuchi Chamkanni "Daulat Khel" "isa Khel" Davi Durrani Edo-Khel Gandapur Gujjar "Hafiz Khel" Jadoon Jahangiri Kakakhel Khakwani Kakar Kakazai Khalil Kharoti Khattak Khudiadadzai Khulozai Kuchelai Kuchis Kundi Lodhi Mian "Maghdud Khel" "Mahmud Khel" Tanoli Malik Mughal "Mahsud Khel" Mamund Manduri Marwat Mashwanis Mohamedzai Mohmand Mullagori Niazi Noorzai Orakzai Popalzai Qazi Shinwari Sadozai Salarzai Sarbans Shilmani Sulemani Shirani Sumbal Suri Swati Tareen Tarkani Tahirkheli Tokhi Turkhel "Umar Khel" Umarzai "Uthman khel" Wur "Yousafzai" "Yusaf Khel"
         }
-        radicalism = 35
 
     }
     baluchi = {
@@ -1393,7 +1362,6 @@ iranian_turanian = {
         first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
 
         last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
-        radicalism = 1
     }
 }
 
@@ -1465,7 +1433,6 @@ mongol_turkic = {
         last_names = {
             Khan Tajik Emomali Shohmurod Rahbar Ghoib Fayzullo Sabouri Furmuli Badakhshi Baghlani Mazari Panjsheri Kabuli Herati Kohistani
             }
-        radicalism = 10
     }
     uighur = {
         color = {92 96 168}
@@ -1529,7 +1496,6 @@ central_asian = {
         last_names = {
                Dzasa Wangyal Shatra Lungshar Rinpoche Chï¿½phel Shakabpa Tashi
         }
-        radicalism = 10
     }
 
     nepali = {
@@ -1638,7 +1604,6 @@ south_asian = {
         last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
 
         }
-        radicalism = 10
     }
     kannada = {
         color = {82 32 170}
@@ -1730,7 +1695,6 @@ southeast_asian = {
         last_names = { "vinh Thuy" Han Tuan "Vinh San" Cuong Khai Nien Than Quang "Trong Hiep" "Mien Lam" "Mien Trinh" "Buu Lan"
 
         }
-        radicalism = 5
     }
     khmer = {
         color = {220 86 34}
@@ -2071,7 +2035,6 @@ native_american = {
         }
         last_names = { Hiawatha Kaintwakon Canassatego Tekakwitha
         }
-		radicalism=10
 	}
     pueblo = {
         color = {222 238 156}
@@ -2239,7 +2202,6 @@ neo_european_cultures = {
             "van Walbeeck" "van Wassenaer" "van der Werff" "van Wesembeke" "van Wingle" "van der Wijck" "van Wijngaarden" "de Winter"
             Wolterbeek
         }
-        radicalism = 10
     }
 	louisianian = {
         color = {158 218 230}
@@ -2307,7 +2269,6 @@ latin_american_cultures = {
         Medina Mejía Menéndez Montes Montiel Morazán Palacios Peralta Quiros Regalado
         Rosales Sevilla Sinibaldi Soto Terán Ubico Vasconcelos Vigil Zelaya Zeledón
         }
-        radicalism = 15
     }
     caribeno = {
         color = {122 11 74}
@@ -2324,7 +2285,6 @@ latin_american_cultures = {
         Luperón Maceo Machado Márquez Mella Méndez Mendieta Moncada Morales Mota
         Pelletier Pimentel Puello Santana Sosa Trujillo Valverde Vásquez Vázquez Zayas
         }
-        radicalism = 10
     }
     north_andean = {
         color = {146 156 116}
@@ -2422,7 +2382,6 @@ african_diaspora_cultures = {
     }
 	afro_irish = {
         color = { 52 61 48}
-        radicalism = 1
         primary = CUB
         first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
         Edward Ernes Fionán Frank George Harry Jack James John Joseph
