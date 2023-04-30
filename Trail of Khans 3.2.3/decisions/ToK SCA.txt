@@ -305,13 +305,22 @@ political_decisions = {
 			NOT = {primary_culture  = british_danish}
 		}
 		allow = {
-			all_core = {OR = {owned_by = THIS owner = {vassal_of = THIS}}}
-			OR = {any_owned_province = {
-				is_core = ENG
+			all_core = {
+				OR = {
+					owned_by = THIS 
+					owner = {
+						vassal_of = THIS
+					}
+				}
 			}
-			ENG = {vassal_of = THIS}
+			OR = {
+				any_owned_province = {
+					is_core = ENG
+				}
+				ENG = {
+					vassal_of = THIS
+				}
 			}
-			
 		}
 		effect = {
 			set_global_flag = reclaim_the_danelaw
