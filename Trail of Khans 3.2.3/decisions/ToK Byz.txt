@@ -436,51 +436,7 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
-	
-	dreams_of_rome = {
-        picture = "belgrade_view"
-        potential = {
-            tag = BYZ
-			NOT = {has_country_flag = dreams_of_rome}
-			NOT = {has_country_flag = integrate_the_armenians}
-			RMR = {
-				exists = no
-			}
-        }
-        allow = {
-			has_country_flag = patriarchate_of_antioch
-            war = no
-            is_greater_power = yes
-			764 = {owned_by = BYZ}
-			762 = {owned_by = BYZ}
-			763 = {owned_by = BYZ}
-        }
-        effect = {
-			764 = {add_core = BYZ}
-			762 = {add_core = BYZ}
-			763 = {add_core = BYZ}
-			759 = {add_core = BYZ}
-			760 = {add_core = BYZ}
-			761 = {add_core = BYZ}
-			755 = {add_core = BYZ}
-			754 = {add_core = BYZ}
-			2567 = {add_core = BYZ}
-			2577 = {add_core = BYZ}
-			753 = {add_core = BYZ}
-			10 = {add_core = BYZ}
-			757 = {add_core = BYZ}
-			756 = {add_core = BYZ}
-			758 = {add_core = BYZ}
-			749 = {add_core = BYZ}
-			750 = {add_core = BYZ}
-			751 = {add_core = BYZ}
-			752 = {add_core = BYZ}
-			add_accepted_culture = south_italian
-            set_country_flag = dreams_of_rome
-        }
-        ai_will_do = { factor = 0.55	}
-    }
-	
+
 	the_pheonix_rose_and_an_eagle_fell = {
 		picture = "reforge_byz"
 		potential = {
@@ -500,81 +456,23 @@ political_decisions = {
 			nationalism_n_imperialism = 1
 			war = no
 			is_greater_power = yes
-			SIC_753 = { 
-				owned_by = THIS
-			}
-			SIC_754 = {
-				owned_by = THIS
-			}
-			SIC_763 = {
-				owned_by = THIS
+			RMR = {
+				all_core = {
+					owned_by = THIS
+				}
 			}
 		}
 		effect = {
 			prestige = 50
 			add_accepted_culture = roman
-			PAP_752 = {
-				add_core = THIS
-			}
-			SIC_753 = {
-				add_core = THIS
-			}
-			SIC_754 = {
-				add_core = THIS
-			}
-			SIC_763 = {
-				add_core = THIS
-			}
-			set_country_flag = the_pheonix_rose_and_an_eagle_fell
-		}
-	}
-	
-	the_pheonix_rose_and_an_eagle_fell_2 = {
-	    picture = "reforge_byz"
-		potential = {
-			tag = BYZ
-			RMR = {
-				exists = yes 
-			}
-			NOT = { 
-				has_country_flag = the_pheonix_rose_and_an_eagle_fell_2
-			}
-			NOT = {
-				has_country_flag = integrate_the_armenians
-			}
-		}
-		allow = {
-			has_country_flag = the_pheonix_rose_and_an_eagle_fell
-			nationalism_n_imperialism = 1
-			war = no
-			is_greater_power = yes
-			SAR_720 = {
-				owned_by = this
-			}
-			SAR_765 = {
-				owned_by = this
-			}
-			PAP_741 = {
-				owned_by = this
-			}
-			TUS_744 = {
-				owned_by = this
-			}
-			PAP_752 = {
-				owned_by = this
-			}
-		}
-		effect = {
 			RMR = {
 				all_core = {
 					add_core = THIS
 				}
 			}
-			prestige = 50
-			set_country_flag = the_pheonix_rose_and_an_eagle_fell_2
+			set_country_flag = the_pheonix_rose_and_an_eagle_fell
 		}
-	}	
-	
+	}
 	###############
 	reforge_byzantium = {
 		picture = "reforge_byz"

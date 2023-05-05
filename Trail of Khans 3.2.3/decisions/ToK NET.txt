@@ -21,7 +21,7 @@ political_decisions = {
 			1384 = {
 				add_province_modifier = {
 					name = develop_singapore 
-					duration = 3650
+					duration = 7300
 				}
 			}
 		}
@@ -157,7 +157,7 @@ political_decisions = {
 			ENG_300 = { 
 				add_core = THIS 
 			}
-			ENG_296 = { 
+			SCO_296 = { 
 				add_core = THIS 
 			}
 			ENG_291 = { 
@@ -180,7 +180,7 @@ political_decisions = {
 			ENG_300 = { 
 				owned_by = THIS 
 			}
-			ENG_296 = { 
+			SCO_296 = { 
 				owned_by = THIS 
 			}
 			ENG_291 = { 
