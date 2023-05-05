@@ -134,7 +134,6 @@ country_event = {
             limit = {
                 OR = {
                     has_pop_culture = roman
-                    has_pop_culture = greek
                     has_pop_culture = tatar
                     has_pop_culture = polish
                     has_pop_culture = louisianian
