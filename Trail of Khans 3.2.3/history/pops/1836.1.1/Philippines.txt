@@ -3,31 +3,31 @@
 #Manila (780000/195000 POPS)
 1455 = {
     aristocrats = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 200
     }
 
     bureaucrats = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 1000
     }
 
     clergymen = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 250
     }
 
     artisans = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 1050
     }
 
     soldiers = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 100
     }
@@ -489,19 +489,19 @@
 #Cebu (304000/76000 POPS)
 2565 = {
     bureaucrats = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 312
     }
 
     clergymen = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 50
     }
 
     soldiers = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 25
     }
@@ -566,19 +566,19 @@
 #Davao (152000/38000 POPS)
 1463 = {
     bureaucrats = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 187
     }
 
     clergymen = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 50
     }
 
     soldiers = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 25
     }
@@ -683,19 +683,19 @@
 #Zamboanga (300000/75000 POPS)
 1462 = {
     aristocrats = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 600
     }
 
     clergymen = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 500
     }
 
     artisans = {
-        culture = roman
+        culture = french
         religion = catholic
         size = 2500
     }
