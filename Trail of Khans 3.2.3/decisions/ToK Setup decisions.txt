@@ -360,7 +360,7 @@ political_decisions = {
                             has_pop_culture = brazilian
                             AND = {
                                 has_pop_culture = circassian
-                                province_scope = {
+                                location = {
                                     is_core = EGY
                                 }
                             }
@@ -439,7 +439,7 @@ political_decisions = {
                             has_pop_culture = dagestani
                             AND = {
                                 has_pop_culture = circassian
-                                province_scope = {
+                                location = {
                                     NOT = {
                                         is_core = EGY
                                     }
