@@ -96,15 +96,4 @@ upper_house = {
     socialist = 0
     communist = 0
 }
-
-schools = naval_tech_school
-
-decision = literacy_ENG
-
-govt_flag = {
-    government = presidential_dictatorship
-    flag = theocracy
-}
-
-
 oob = "ENG_oob.txt"

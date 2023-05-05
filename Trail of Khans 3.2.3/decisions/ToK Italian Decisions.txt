@@ -125,73 +125,7 @@ political_decisions = {
 					}
 				}
 				annex_to = THIS
-			}	
-			VEN = {
-				all_core = {
-					remove_core = VEN
-				}
 			}
-			LOM = {
-				all_core = {
-					remove_core = LOM
-				}
-			}
-			PAR = {
-				all_core = {
-					remove_core = PAR
-				}
-			}
-			MOD = {
-				all_core = {
-					remove_core = MOD
-				}										  
-			}
-			RMG = {
-				all_core = {
-					remove_core = RMG
-				}										  
-			}  
-			PAP = {
-				all_core = {
-					remove_core = PAP
-				}										  
-			}
-			GEN = {
-				all_core = {
-					remove_core = GEN
-				}
-			}
-			SIC = {
-				all_core = {
-					remove_core = SIC
-				}
-			}
-			SAR = {
-				all_core = {
-					remove_core = SAR
-				}
-			}
-			SRD = {
-				all_core = {
-					remove_core = SRD
-				}				
-			}
-			TUS = {
-				all_core = {
-					remove_core = TUS
-				}
-			}		
-			CRS = {
-				all_core = {
-					remove_core = CRS
-				}
-			}				
-			ITA = {
-				all_core = {
-					remove_core = ITA
-				}
-			}
-
 			any_country = {
 				limit = {
 					OR = {

@@ -492,7 +492,7 @@ political_decisions = {
             clr_country_flag = ibadi_country
             clr_country_flag = catholic_country
             clr_country_flag = protestant_country
-            clr_country_flag = mormon_country
+            clr_country_flag = protestant_country
             clr_country_flag = orthodox_country
             clr_country_flag = coptic_country
             clr_country_flag = jewish_country
@@ -886,8 +886,6 @@ political_decisions = {
                 primary_culture = breton
                 primary_culture = occitan
                 primary_culture = picard
-                primary_culture = maltese
-                is_culture_group = american_cultures
             }
         }
 

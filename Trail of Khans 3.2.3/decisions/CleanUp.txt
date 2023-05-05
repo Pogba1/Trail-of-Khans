@@ -3412,7 +3412,7 @@ political_decisions = {
                     overlord = { primary_culture = japanese }
                 }
                 AND = {
-                    tag = POR
+                    
                     overlord = { primary_culture = spanish }
                 }
             }

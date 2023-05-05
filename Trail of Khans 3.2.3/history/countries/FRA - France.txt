@@ -73,10 +73,6 @@ interchangeable_parts = 1
 high_pressure_steam_engine = 1
 late_classical_theory = 1
 
-# Inventions
-secularization = yes
-social_conscience = yes
-
 # Starting Consciousness
 consciousness = 3
 nonstate_consciousness = 1
@@ -92,12 +88,5 @@ upper_house = {
     socialist = 0
     communist = 0
 }
-decision = france_1836_setup
 
 oob = "FRA_oob.txt"
-
-foreign_investment = {
-    PAP = 6000
-    SAR = 4000
-}
-
