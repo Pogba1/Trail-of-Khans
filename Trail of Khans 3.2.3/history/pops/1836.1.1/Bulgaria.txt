@@ -265,7 +265,7 @@
     }
 	
 	soldiers = {
-        culture = greek
+        culture = thracian
         religion = orthodox
         size = 600
     }
@@ -277,7 +277,7 @@
     }
 
     artisans = {
-        culture = greek
+        culture = thracian
         religion = orthodox
         size = 800
     }
@@ -313,7 +313,7 @@
     }
 
     farmers = {
-        culture = greek
+        culture = thracian
         religion = orthodox
         size = 36150
     }
@@ -430,12 +430,12 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 46050
+        size = 16050
     }
 	farmers = {
         culture = thracian
         religion = orthodox
-        size = 16050
+        size = 36050
     }
 	farmers = {
         culture = thracian
@@ -511,11 +511,17 @@
         religion = orthodox
         size = 1100
     }
-
+	
+	farmers = {
+        culture = thracian
+        religion = orthodox
+        size = 23650
+    }
+	
     farmers = {
         culture = greek
         religion = orthodox
-        size = 47650
+        size = 23650
     }
 }
 #Shumen (144000/36000 POPS)
@@ -539,9 +545,9 @@
     }
 
     farmers = {
-        culture = greek
+        culture = thracian
         religion = orthodox
-        size = 3000
+        size = 23700
     }
 
     soldiers = {
@@ -565,7 +571,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 42700
+        size = 23700
     }
 }
 #Varna (220000/55000 POPS)
@@ -605,9 +611,9 @@
     }
 
     farmers = {
-        culture = greek
+        culture = thracian
         religion = orthodox
-        size = 4000
+        size = 14000
     }
 
     clergymen = {
@@ -631,7 +637,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 35875
+        size = 25875
     }
 }
 #Rumelia Region (396000)
@@ -982,9 +988,9 @@
     }
 
     farmers = {
-        culture = greek
+        culture = thracian
         religion = orthodox
-        size = 24250
+        size = 14250
     }
 
     soldiers = {
@@ -1006,15 +1012,15 @@
     }
 	
 	farmers = {
-        culture = thracian
+        culture = greek
         religion = orthodox
-        size = 5625
+        size = 15625
     }
 	
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 15625
+        size = 18625
     }
 
     aristocrats = {
@@ -1074,6 +1080,6 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 4100
+        size = 1100
     }
 }
