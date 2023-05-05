@@ -33,37 +33,37 @@
     }
 
     aristocrats = {
-        culture = bulgarian
+        culture = greek
         religion = orthodox
         size = 125
     }
 
     officers = {
-        culture = bulgarian
+        culture = greek
         religion = orthodox
         size = 110
     }
 
     soldiers = {
-        culture = bulgarian
+        culture = greek
         religion = orthodox
         size = 200
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = greek
         religion = orthodox
         size = 125
     }
 
     artisans = {
-        culture = bulgarian
+        culture = greek
         religion = orthodox
         size = 2100
     }
 
     farmers = {
-        culture = bulgarian
+        culture = greek
         religion = orthodox
         size = 56350
     }
@@ -139,25 +139,25 @@
 #Bitola (268000/67000 POPS)
 807 = {
     soldiers = {
-        culture = bulgarian
+        culture = greek
         religion = orthodox
         size = 1200
     }
 
     clergymen = {
-        culture = bulgarian
+        culture = greek
         religion = orthodox
         size = 110
     }
 
     artisans = {
-        culture = bulgarian
+        culture = greek
         religion = orthodox
         size = 425
     }
 
     farmers = {
-        culture = bulgarian
+        culture = greek
         religion = orthodox
         size = 24075
     }
@@ -193,7 +193,7 @@
     }
 
     farmers = {
-        culture = bulgarian
+        culture = greek
         religion = sunni
         size = 6000
     }
@@ -303,25 +303,25 @@
 		size = 6000
 	}
     clergymen = {
-        culture = albanian
+        culture = greek
         religion = sunni
         size = 125
     }
 
     artisans = {
-        culture = albanian
+        culture = greek
         religion = sunni
         size = 400
     }
 
     soldiers = {
-        culture = albanian
+        culture = greek
         religion = sunni
         size = 2100
     }
 
     farmers = {
-        culture = albanian
+        culture = greek
         religion = sunni
         size = 22062
     }

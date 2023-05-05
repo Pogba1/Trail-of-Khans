@@ -57,3 +57,7 @@ take_capital_america;Take American Capital;x
 take_capital_america_short;Take Capital;x
 take_capital_america_desc;Take this country's capital;x
 take_capital_america_setup;Take $RECIPIENT$'s capital;x
+roman_civil_war_cb;Roman Civil War;x
+roman_civil_war_cb_short;Acquire $STATE$ from $RECIPIENT;x
+roman_civil_war_cb_desc;Acquire $STATE$.;x
+roman_civil_war_cb_setup;Acquire $STATE$ from $RECIPIENT.;x
