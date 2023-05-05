@@ -1,17 +1,5 @@
-owner = MOD
-controller = MOD
-add_core = MOD
+owner = RMR
+controller = RMR
 add_core = RMR
 trade_goods = iron
 life_rating = 35
-#state_building = {
-#    level = 1
-#    building = canned_food_factory
-#    upgrade = yes
-#}
-1861.1.1 = {
-    controller = ITA
-    owner = ITA
-    add_core = RMR
-}
-1861.1.1 = { railroad = 3 }

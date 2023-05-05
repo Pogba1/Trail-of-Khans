@@ -9,17 +9,17 @@ political_decisions = {
         potential = {
             NOT = { has_global_flag = kiel_under_construction }
             NOT = { is_canal_enabled = 1 }
-            owns = 369
             OR = {
                 is_greater_power = yes
                 is_secondary_power = yes
             }
-            interchangeable_parts = 1
 			NOT = { is_culture_group = scandinavian }
         }
 
         allow = {
+            owns = 369
             invention = machine_tools
+            interchangeable_parts = 1
             drilling_and_blasting = 1
             iron_steamers = 1
             OR = {
@@ -54,24 +54,18 @@ political_decisions = {
         potential = {
             NOT = { is_canal_enabled = 2 }
             NOT = { has_global_flag = suez_canal_built }
-            OR = {
-                is_greater_power = yes
-                AND = {
-                    is_secondary_power = yes
-                    owns = 1755
-                }
-            }
-            interchangeable_parts = 1
         }
 
         allow = {
             invention = machine_tools
             invention = nitroglycerin
             raider_group_doctrine = 1
+            interchangeable_parts = 1
             OR = {
                 is_greater_power = yes
                 AND = {
                     is_secondary_power = yes
+                    owns = 1755
                     money = 2000000
                 }
             }
@@ -128,6 +122,9 @@ political_decisions = {
             NOT = { is_canal_enabled = 2 }
             NOT = { has_global_flag = suez_canal_built }
             NOT = { has_global_flag = suez_canal_company_founded }
+        }
+
+        allow = {
             is_greater_power = yes
             interchangeable_parts = 1
             1755 = {
@@ -141,9 +138,6 @@ political_decisions = {
                     }
                 }
             }
-        }
-
-        allow = {
             invention = machine_tools
             invention = nitroglycerin
             iron_steamers = 1
@@ -175,14 +169,14 @@ political_decisions = {
 
         potential = {
             is_canal_enabled = 2
+        }
+
+        allow = {
             NOT = { owns = 1755 }
             is_greater_power = yes
             1755 = { owner = { in_default = THIS } }
             any_owned_province = { has_building = naval_base }
             NOT = { has_country_modifier = in_bankrupcy }
-        }
-
-        allow = {
             war = no
             1755 = {
                 owner = {
@@ -229,21 +223,13 @@ political_decisions = {
         potential = {
             NOT = { has_global_flag = panama_under_construction }
             NOT = { is_canal_enabled = 3 }
-            OR = {
-                is_greater_power = yes
-                AND = {
-                    is_secondary_power = yes
-                    owns = 1723
-                }
-            }
-            interchangeable_parts = 1
         }
         allow = {
             invention = machine_tools
             invention = prophylaxis_against_malaria
             drilling_and_blasting = 1
             iron_steamers = 1
-
+            interchangeable_parts = 1
             1723 = {
                 OR = {
                     owned_by = THIS
@@ -285,14 +271,14 @@ political_decisions = {
 
         potential = {
             is_canal_enabled = 3
+        }
+
+        allow = {
             NOT = { owns = 1723 }
             is_greater_power = yes
             1723 = { owner = { in_default = THIS } }
             any_owned_province = { has_building = naval_base }
             NOT = { has_country_modifier = in_bankrupcy }
-        }
-
-        allow = {
             war = no
             1723 = { owner = { NOT = { truce_with = THIS } war = no in_default = THIS } }
             raider_group_doctrine = 1

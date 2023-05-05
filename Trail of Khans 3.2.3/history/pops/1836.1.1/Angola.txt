@@ -3,25 +3,25 @@
 #Luanda (164000/41000 POPS)
 1999 = {
     aristocrats = {
-        culture = south_italian
+        culture = roman
         religion = catholic
         size = 150
     }
 
     clergymen = {
-        culture = south_italian
+        culture = roman
         religion = catholic
         size = 50
     }
 
     artisans = {
-        culture = south_italian
+        culture = roman
         religion = catholic
         size = 500
     }
 
     soldiers = {
-        culture = south_italian
+        culture = roman
         religion = catholic
         size = 100
     }

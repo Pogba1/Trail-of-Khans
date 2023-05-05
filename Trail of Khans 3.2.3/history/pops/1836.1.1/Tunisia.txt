@@ -32,18 +32,18 @@
         size = 10000
     }
 	artisans = {
-        culture = south_italian
+        culture = syracusean
         religion = catholic
         size = 2000
     }
 	
 	farmers = {
-        culture = south_italian
+        culture = syracusean
         religion = catholic
         size = 10525
     }
 	soldiers = {
-		culture = south_italian
+		culture = syracusean
         religion = catholic
         size = 3000
 	}
@@ -67,7 +67,7 @@
     }
 	
 	soldiers = {
-        culture = south_italian
+        culture = syracusean
         religion = catholic
         size = 3000
     }
@@ -84,7 +84,7 @@
         size = 96425
     }
 	 farmers = {
-        culture = south_italian
+        culture = syracusean
         religion = catholic
         size = 1425
     }
@@ -108,13 +108,13 @@
     }
 
     artisans = {
-        culture = maltese
+        culture = syracusean
         religion = catholic
         size = 500
     }
 
     artisans = {
-        culture = south_italian
+        culture = syracusean
         religion = catholic
         size = 500
     }

@@ -1521,6 +1521,18 @@ assimilation_chance =
 			NOT = { life_needs = 0.1 }
 		}
 	}
+
+#Assimilation for syracusean pops after Rome takes their decision
+	group = {
+		modifier = {
+			factor = 30
+			has_pop_culture = syracusean
+			country = {
+				has_country_flag = roman_syracuse
+			}
+		}
+	}
+
 #MILITANCY MODIFIFER - 
 #	group = {
 #		modifier = {

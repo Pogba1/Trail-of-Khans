@@ -9,11 +9,13 @@ political_decisions = {
 			early_railroad = 1
 		}
 		effect = {
-		any_owned = {
-			limit = {has_province_modifier = mex_wild_north}
-			remove_province_modifier = mex_wild_north
-		}
+			any_owned = {
+				limit = {
+					has_province_modifier = mex_wild_north
+				}
+				remove_province_modifier = mex_wild_north
+			}
 		set_country_flag = tame_the_north_mex
-	}
+		}
 	}
 }

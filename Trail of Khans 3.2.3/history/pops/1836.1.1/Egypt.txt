@@ -32,12 +32,6 @@
         size = 10000
     }
 
-    soldiers = {
-        culture = circassian
-        religion = sunni
-        size = 1250
-    }
-
     aristocrats = {
         culture = misri
         religion = sunni
@@ -101,19 +95,7 @@
     soldiers = {
         culture = misri
         religion = sunni
-        size = 3000
-    }
-
-    soldiers = {
-        culture = misri
-        religion = sunni
-        size = 3000
-    }
-
-    soldiers = {
-        culture = misri
-        religion = sunni
-        size = 4000
+        size = 11250
     }
 
     farmers = {
@@ -649,25 +631,7 @@
     soldiers = {
         culture = misri
         religion = sunni
-        size = 3000
-    }
-
-    soldiers = {
-        culture = misri
-        religion = sunni
-        size = 3000
-    }
-
-    soldiers = {
-        culture = misri
-        religion = sunni
-        size = 3000
-    }
-
-    soldiers = {
-        culture = misri
-        religion = sunni
-        size = 1000
+        size = 13100
     }
 
     farmers = {
@@ -692,6 +656,12 @@
         culture = misri
         religion = coptic
         size = 750
+    }
+
+    craftsmen = {
+        culture = misri
+        religion = sunni
+        size = 28977
     }
 
     farmers = {
@@ -730,19 +700,7 @@
 		size = 600
 	}
 	
-	soldiers = {
-		culture = greek
-		religion = orthodox
-		size = 3000
-	
-	}
-	
 	######Greeks
-    soldiers = {
-        culture = greek
-        religion = orthodox
-        size = 100
-    }
 
     clergymen = {
         culture = greek

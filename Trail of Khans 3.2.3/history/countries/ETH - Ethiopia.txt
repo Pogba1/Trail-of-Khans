@@ -4,7 +4,8 @@ religion = coptic
 government = absolute_monarchy
 plurality = 5.0
 nationalvalue = nv_tradition
-literacy = 0.19
+literacy = 0.01
+non_state_culture_literacy = 0.01
 is_releasable_vassal = no
 
 slavery = yes_slavery

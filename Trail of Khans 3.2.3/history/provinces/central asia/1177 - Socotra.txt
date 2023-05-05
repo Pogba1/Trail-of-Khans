@@ -1,6 +1,8 @@
-owner = YEM
-controller = YEM
+owner = EGY
+controller = EGY
 add_core = YEM
-trade_goods = fish
+trade_goods = precious_goods
 life_rating = 20
 terrain = semidesert
+naval_base = 1
+colonial = 2

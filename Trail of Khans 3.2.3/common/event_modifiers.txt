@@ -2857,3 +2857,10 @@ mongolian_army_debuff_2 = {
     army_tech_research_bonus = -0.05
     icon = 16
 }
+
+capital_of_indian_trade = {
+    tariff_efficiency_modifier = 0.1
+    tax_efficiency = 0.1
+    local_rgo_output = 0.25
+    immigrant_attract = 0.50
+}

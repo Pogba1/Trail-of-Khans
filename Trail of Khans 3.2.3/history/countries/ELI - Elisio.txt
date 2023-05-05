@@ -2,9 +2,10 @@ capital = 104 # Sonoma
 primary_culture = elysian
 religion = catholic
 government = hms_government
-plurality = 0.5
+plurality = 20
 nationalvalue = nv_liberty
-literacy = 0.19
+literacy = 0.01
+non_state_culture_literacy = 0.01 
 civilized = yes
 
 prestige = 12

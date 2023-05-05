@@ -1,7 +1,8 @@
-owner = AWS
-controller = AWS
+owner = EGY
+controller = EGY
 add_core = AWS
 add_core = WRL
 trade_goods = cattle
 terrain = semidesert
 life_rating = 35
+naval_base = 1

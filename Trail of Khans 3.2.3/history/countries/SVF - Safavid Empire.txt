@@ -1,14 +1,13 @@
 capital = 1121
 primary_culture = mongol
-#culture = turkmen
 culture = persian
 religion = shiite
 government = absolute_monarchy
-plurality = 0.0
+plurality = 15
 nationalvalue = nv_tradition
-literacy = 0.125
+literacy = 0.01
+non_state_culture_literacy = 0.01
 civilized = yes
-non_state_culture_literacy = 0.0530
 
 prestige = 20
 

@@ -15,7 +15,8 @@ religion = hindu
 government = democracy
 plurality = 0.0
 nationalvalue = nv_equality
-literacy = 0.02
+literacy = 0.01
+non_state_culture_literacy = 0.01
 
 ruling_party = HND_conservative
 upper_house = {

@@ -24,6 +24,9 @@ country_event = {
         FRA = {
             treasury = 200000
         }
+        RMR = {
+            treasury = 150000
+        }
         IRE = {
             treasury = 150000
         }
@@ -43,6 +46,9 @@ country_event = {
             treasury = 150000
         }
         SVF = {
+            treasury = 100000
+        }
+        SYC = {
             treasury = 100000
         }
         any_country = {

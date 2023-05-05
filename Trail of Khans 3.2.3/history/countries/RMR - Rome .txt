@@ -1,13 +1,15 @@
 capital = 749
 primary_culture = roman
-culture = north_italian
-culture = south_italian
+culture = latin
+culture = british
+culture = romano_nuragic
+culture = dalmatian
 religion = catholic
 government = absolute_monarchy
-plurality = 0.12
+plurality = 15
 nationalvalue = nv_order
-literacy = 0.28
-non_state_culture_literacy = 0.15
+literacy = 0.01
+non_state_culture_literacy = 0.01
 civilized = yes
 is_releasable_vassal = no
 
@@ -16,12 +18,12 @@ prestige = 30
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = wealth_voting
+vote_franschise = no_voting
 public_meetings = yes_meeting
-press_rights = censored_press
+press_rights = state_press
 trade_unions = non_socialist
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = underground_parties
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -37,7 +39,7 @@ conscription = two_year_draft
  
 penal_system = capital_punishment
 child_labor = child_labor_legal
-citizens_rights = culture_voting_only
+citizens_rights = primary_voting_only
 border_policy = open_borders
 
 # Technologies
@@ -47,9 +49,7 @@ bronze_muzzle_loaded_artillery = 1
 military_staff_system = 1
 army_command_principle = 1
 post_nelsonian_thought = 1
-battleship_column_doctrine = 1
 clipper_design = 1
-steamers = 1
 naval_design_bureaus = 1
 alphabetic_flag_signaling = 1
 the_command_principle = 1
@@ -77,15 +77,15 @@ late_classical_theory = 1
 
 set_country_flag = catholic_country
 
-oob = "SAR_oob.txt"
+oob = "RMR_oob.txt"
 
 ruling_party = "Populares"
 upper_house = {
     fascist = 0
-    liberal = 50
-    conservative = 20
-    reactionary = 5
-    anarcho_liberal = 10
-    socialist = 15
+    liberal = 23
+    conservative = 57
+    reactionary = 20
+    anarcho_liberal = 0
+    socialist = 0
     communist = 0
 }

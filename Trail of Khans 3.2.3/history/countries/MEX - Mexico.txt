@@ -5,10 +5,10 @@ culture = french_canadian
 culture = elysian
 religion = catholic
 government = presidential_dictatorship
-plurality = 25.0
+plurality = 30
 nationalvalue = nv_equality
-literacy = 0.12
-non_state_culture_literacy = 0.07
+literacy = 0.01
+non_state_culture_literacy = 0.01
 civilized = yes
 prestige = 30
 

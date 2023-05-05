@@ -14,11 +14,6 @@ christian = {
         color = { 0 0 0.7 }
     }
 
-    mormon = {
-        icon = 15
-        color = { 0 0 0.5 }
-    }
-
     orthodox = {
         icon = 3
         color = { 0.7 0.5 0 }
@@ -68,11 +63,6 @@ yazidi_group = {
         color = { 0.4 0.0 1.0 }
 
     }
-	zoroastrian = {
-        icon = 16
-        color = { 0.4 0.0 1.0 }
-
-    }
 }
 
 eastern = {
@@ -114,9 +104,5 @@ pagan = {
         color = { 0.5 0.0 0.0 }
         pagan = yes
     }
-	inti = {
-		icon = 22
-		color = { 0.6 0.7 0.6 }
-	}
 }
 

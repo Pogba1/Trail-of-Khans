@@ -5,10 +5,10 @@ culture = boer
 culture = tasmanian
 religion = protestant
 government = prussian_constitutionalism
-plurality = 30
+plurality = 25
 nationalvalue = nv_productivity
-literacy = 0.75
-non_state_culture_literacy = 0.47782
+literacy = 0.01
+non_state_culture_literacy = 0.01
 civilized = yes
 
 #GreaterPowers = prestige

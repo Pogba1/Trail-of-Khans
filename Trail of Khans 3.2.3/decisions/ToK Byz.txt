@@ -579,30 +579,55 @@ political_decisions = {
 	reforge_byzantium = {
 		picture = "reforge_byz"
 		potential = {
-			OR = {tag = NCE tag = EPI tag = ATH tag = MEA tag = GAL tag = THR tag = PNT}
-			NOT={exists = BYZ}
+			primary_culture = greek
+			NOT = {
+				exists = BYZ
+			}
 		}
 		allow = {
-			860 ={OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			822 ={OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			825 ={OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			834 ={OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			839 ={OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			880 ={OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			869 ={OR = {owned_by = THIS owner = {in_sphere = THIS}}}
+			EPI = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			NCE = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			GAL = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			THR = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			MEA = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			ATH = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
 		}
 		effect = {
+			capital = 860
+			prestige = 15
 			any_owned = {
-				limit = {is_core = THIS}
+				limit = {
+					is_core = THIS
+				}
 				add_core = BYZ
 			}
-			#any_owned = {
-			#	limit = {OR = {is_core = NCE is_core = EPI is_core = ATH is_core = MEA is_core = GAL is_core = THR}}
-			#	remove_core = THIS
-			#}
-			
 			change_tag = BYZ
-			change_tag_no_core_switch = BYZ
+			add_accepted_culture = italiote
+			add_accepted_culture = syracusean
 			any_country = {
                 limit = {
                     primary_culture = greek
@@ -616,45 +641,35 @@ political_decisions = {
                 }
                 country_event = 11106
             }
-			
-			capital = 860
-			prestige = 15
-			
 			NCE = {
-			all_core = {
-				remove_core = NCE
-				add_core = BYZ
-			}
+				all_core = {
+					remove_core = NCE
+				}
 			}
 			EPI = {
-			all_core = {
-				remove_core = EPI
-				add_core = BYZ
-			}
+				all_core = {
+					remove_core = EPI
+				}
 			}
 			ATH = {
-			all_core = {
-				remove_core = ATH
-				add_core = BYZ
-			}
+				all_core = {
+					remove_core = ATH
+				}
 			}
 			MEA = {
-			all_core = {
-				remove_core = MEA
-				add_core = BYZ
-			}
+				all_core = {
+					remove_core = MEA
+				}
 			}
 			GAL = {
-			all_core = {
-				remove_core = GAL
-				add_core = BYZ
-			}
+				all_core = {
+					remove_core = GAL
+				}
 			}
 			THR = {
-			all_core = {
-				remove_core = THR
-				add_core = BYZ
-			}
+				all_core = {
+					remove_core = THR
+				}
 			}
 		}
 	}

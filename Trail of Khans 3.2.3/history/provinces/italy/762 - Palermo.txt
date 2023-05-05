@@ -1,11 +1,5 @@
-owner = SIC
-controller = SIC
-add_core = SIC
-add_core = RMR
+owner = SYC
+controller = SYC
+add_core = SYC
 trade_goods = grain
-life_rating = 35
-1861.1.1 = {
-    controller = ITA
-    owner = ITA
-    naval_base = 1
-}
+life_rating = 40

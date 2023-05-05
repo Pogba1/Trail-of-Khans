@@ -26,6 +26,43 @@ MAJ = {
     value = 60
 }
 
+leader = {
+    name = "Grand Admiral Umen Barbarossa"
+    type = sea
+    date = "1828.1.1"
+    personality = merciless
+    background = resolute
+    prestige = 0.35
+}
+
+leader = {
+    name = "Sultan Mohammed Khorasan"
+    type = land
+    date = "1823.1.1"
+    personality = relentless
+    background = old_school
+    prestige = 0.8
+}
+
+leader = {
+    name = "Ibrahim Pasha"
+    type = land
+    date="1832.1.1"
+    personality = defiant
+    background = expert_raider
+    prestige = 0.3
+}
+
+leader = {
+    name = "Suleyman Pasha"
+    type = land
+    date="1832.1.1"
+    personality = balanced_p
+    background = drillmaster
+    prestige = 0.1
+}
+
+
 navy = {
     name = "Taba"
     location = 1751
@@ -41,6 +78,136 @@ navy = {
 
     ship = {
         name= "Damyat"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
         type = manowar
     }
 
@@ -111,6 +278,169 @@ navy = {
 
 }
 
+navy = {
+    name = "Red Sea Squadron"
+    location = 1875
+    ship = {
+        name= "Toushka"
+        type = manowar
+    }
+    ship = {
+        name= "Sharm El-Sheikh"
+        type = manowar
+    }
+
+    ship = {
+        name= "Damyat"
+        type = manowar
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+}
+
+navy = {
+    name = "Indian Flotilla"
+    location = 1305
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Suez"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Aboukir"
+        type = manowar
+    }
+
+    ship = {
+        name= "Najim al Zafir"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Cairo"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Al Iskandariyah"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Aswan"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Port Said"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Marsa Matruh"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Bur Tawfiq"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Al Ghardaqah"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Bur Safajah"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "1st transport flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+
+    ship = {
+        name = "Transport Ship"
+        type = clipper_transport
+    }
+}
+
 army = {
     name = "Army of Egypt"
     location = 1745
@@ -133,6 +463,12 @@ army = {
     }
 
     regiment = {
+        name= "3.1 Sipahis"
+        type = cavalry
+        home = 1873
+    }
+
+    regiment = {
         name= "1.1 Infantry"
         type = infantry
         home = 1745
@@ -141,7 +477,7 @@ army = {
     regiment = {
         name= "2.1 Infantry"
         type = infantry
-        home = 1745
+        home = 1872
     }
 
     regiment = {
@@ -171,7 +507,7 @@ army = {
 
 army = {
     name = "Army of Ziqaziq"
-    location = 1749
+    location = 1305
 
     regiment = {
         name= "1.3 Infantry"
@@ -192,39 +528,103 @@ army = {
     }
 
     regiment = {
-        name= "1.4th Division"
+        name= "4.3 Infantry"
         type = infantry
         home = 1749
     }
 
     regiment = {
-        name= "2.4th Division"
-        type = infantry
+        name= "1.4th Division"
+        type = cavalry
         home = 1765
     }
 
     regiment = {
-        name= "3.4th Division"
-        type = infantry
+        name= "2.4th Division"
+        type = cavalry
         home = 1764
     }
 
+    regiment = {
+        name= "3.4th Division"
+        type = cavalry
+        home = 1751
+    }
+
+    regiment = {
+        name= "1.5th Division"
+        type = artillery
+        home = 1751
+    }
+
+    regiment = {
+        name= "2.5th Division"
+        type = artillery
+        home = 1751
+    }
+
+    regiment = {
+        name= "3.5th Division"
+        type = artillery
+        home = 1762 
+    }
+
+    regiment = {
+        name= "4.5th Division"
+        type = artillery
+        home = 1746
+    }
 }
 
-leader = {
-    name = "Ibrahim Pasha"
-    type = land
-    date="1832.1.1"
-    personality = defiant
-    background = expert_raider
-    prestige = 0.3
-}
+army = {
+    name = "Army of Assab"
+    location = 1875
 
-leader = {
-    name = "Suleyman Pasha"
-    type = land
-    date="1832.1.1"
-    personality = balanced_p
-    background = drillmaster
-    prestige = 0.1
+    regiment = {
+        name = "Nilotic Cuirassiers"
+        type = cuirassier
+        home = 1841
+    }
+
+    regiment = {
+        name = "Nilotic Cuirassiers"
+        type = cuirassier
+        home = 1842
+    }
+
+    regiment = {
+        name = "Nilotic Cuirassiers"
+        type = cuirassier
+        home = 1827
+    }
+
+    regiment = {
+        name = "Nilotic Cuirassiers"
+        type = cuirassier
+        home = 1827
+    }
+
+    regiment = {
+        name = "1.6th Division"
+        type = artillery
+        home = 1828
+    }
+
+    regiment = {
+        name = "2.6th Division"
+        type = artillery
+        home = 1829
+    }
+
+    regiment = {
+        name = "1.7th Division"
+        type = infantry
+        home = 1830
+    }
+
+    regiment = {
+        name = "1.7th Division"
+        type = infantry
+        home = 1831
+    }
 }

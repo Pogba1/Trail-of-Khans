@@ -3,31 +3,31 @@
 #Saint Helena (4000/1000 POPS)
 2129 = {
     bureaucrats = {
-        culture = south_italian
+        culture = roman
         religion = catholic
         size = 12
     }
 
     clergymen = {
-        culture = south_italian
+        culture = roman
         religion = catholic
         size = 25
     }
 
     soldiers = {
-        culture = south_italian
+        culture = roman
         religion = catholic
         size = 20
     }
 
     artisans = {
-        culture = south_italian
+        culture = roman
         religion = catholic
         size = 50
     }
 
     farmers = {
-        culture = south_italian
+        culture = roman
         religion = catholic
         size = 245
     }

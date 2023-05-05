@@ -1,0 +1,165 @@
+political_decisions = {
+	the_indian_company = {
+		potential = {
+			tag = EGY
+			NOT = {
+				has_country_flag = the_indian_company
+			}
+		}
+		allow = {
+			war = no
+			is_secondary_power = yes			
+		}
+		effect = {
+			badboy = 15
+			prestige = 25
+			add_casus_belli = {
+				target = BNG
+				type = conquest
+				months = 12
+			}
+		}
+	}
+	modernize_nile_irrigation = {
+		picture = vietnam_coffee
+		potential = {
+			OR = {
+				tag = EGY
+				tag = ARA
+				tag = CLP
+				tag = ADL
+				tag = JER
+				tag = BYZ
+				tag = SVF
+			}
+			EGY_1745 = { 
+				owned_by = THIS
+			}		
+			NOT = {
+				has_country_flag = modernize_nile_irrigation
+			}
+			1766 = { owned_by = THIS }
+			1768 = { owned_by = THIS }
+			1767 = { owned_by = THIS }
+			1769 = { owned_by = THIS }
+			2559 = { owned_by = THIS }
+			1762 = { owned_by = THIS }
+			1764 = { owned_by = THIS }
+			1765 = { owned_by = THIS }
+			1763 = { owned_by = THIS }
+		}
+		allow = {
+			compound_steam_engines = 1
+			invention = artificial_fertilizers
+			OR = {
+				1766 = {is_colonial = no}
+				1768 = {is_colonial = no}
+				1767 = {is_colonial = no}
+				1769 = {is_colonial = no}
+				2559 = {is_colonial = no}
+				1762 = {is_colonial = no}
+				1764 = {is_colonial = no}
+				1765 = {is_colonial = no}
+				1763 = {is_colonial = no}
+			}
+		}
+		effect = {
+			prestige = 10
+			1766 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1768 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1767 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1769 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			2559 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1762 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1764 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1765 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1763 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1745 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1749 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1748 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1746 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1750 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1747 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+			1751 = {add_province_modifier = {name = modernized_irrigation duration = 7300}}
+
+			set_country_flag = modernize_nile_irrigation
+		}
+	}
+
+	reclaim_arabia = {
+		potential = {
+			tag = EGY
+			NOT = {
+				has_country_flag = reclaim_arabia
+			}
+		}
+		allow = {
+			HDJ = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			YEM = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			state_n_government = 1
+		}
+		effect = {
+			prestige = 25
+			HDJ = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			YEM = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_casus_belli = {
+				target = NEJ
+				type = conquest
+				months = 12
+			}
+			add_casus_belli = {
+				target = OMA
+				type = conquest
+				months = 12
+			}
+			1151 = {
+				add_province_modifier = {
+					name = holy_city
+					duration = -1
+				}
+			}
+			set_country_flag = reclaim_arabia
+		}
+	}
+	nejd_custodianship = {
+		potential = {
+			tag = EGY
+			has_country_flag = reclaim_arabia
+			NOT = {
+				has_country_flag = nejd_custodianship
+			}
+		}
+		allow = {
+			NEJ = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			NEJ = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			prestige = 5
+			set_country_flag = nejd_custodianship
+		}
+	}
+}

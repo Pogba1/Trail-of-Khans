@@ -1,12 +1,5 @@
-owner = PAR
-controller = PAR
-add_core = PAR
+owner = RMR
+controller = RMR
 add_core = RMR
 trade_goods = iron
 life_rating = 35
-1861.1.1 = {
-    controller = ITA
-    owner = ITA
-    add_core = RMR
-}
-1861.1.1 = { railroad = 3 }

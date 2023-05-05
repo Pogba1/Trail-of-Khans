@@ -3,10 +3,10 @@ primary_culture = brazilian
 culture = platinean
 religion = catholic
 government = democracy
-plurality = 15.0
+plurality = 25
 nationalvalue = nv_equality
-literacy = 0.12
-non_state_culture_literacy = 0.05
+literacy = 0.01
+non_state_culture_literacy = 0.01
 civilized = yes
 prestige = 3
 

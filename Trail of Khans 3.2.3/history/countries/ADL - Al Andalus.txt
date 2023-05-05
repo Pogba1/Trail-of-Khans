@@ -3,10 +3,10 @@ primary_culture = portuguese
 culture = maghrebi
 religion = sunni
 government = absolute_monarchy
-plurality = 0.25
-nationalvalue = nv_tradition
-literacy = 0.279450
-non_state_culture_literacy = 0.15
+plurality = 15
+nationalvalue = nv_order
+literacy = 0.01
+non_state_culture_literacy = 0.01
 civilized = yes
 
 prestige = 30

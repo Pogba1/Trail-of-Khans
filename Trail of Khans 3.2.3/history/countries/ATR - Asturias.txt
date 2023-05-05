@@ -3,10 +3,10 @@ primary_culture = spanish
 culture = basque
 religion = catholic
 government = hms_government
-plurality = 0.10
+plurality = 25
 nationalvalue = nv_equality
-literacy = 0.40
-non_state_culture_literacy = 0.298563
+literacy = 0.01
+non_state_culture_literacy = 0.01
 civilized = yes
 
 prestige = 30

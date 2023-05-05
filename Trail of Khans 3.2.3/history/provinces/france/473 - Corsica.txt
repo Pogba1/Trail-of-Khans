@@ -1,7 +1,6 @@
-owner = GEN
-controller = GEN
-add_core = GEN
-add_core = RMR
-add_core = CRS
+owner = SYC
+controller = SYC
+add_core = SYC
+add_core = SAR
 trade_goods = fish
 life_rating = 34

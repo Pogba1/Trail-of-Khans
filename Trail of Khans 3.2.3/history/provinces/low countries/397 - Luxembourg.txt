@@ -1,12 +1,6 @@
-owner = LUX
-controller = LUX
+owner = NET
+controller = NET
+add_core = NET
 add_core = LUX
 trade_goods = coal
 life_rating = 35
-
-1861.1.1 = { railroad = 3 }
-1861.1.1 = {
-    owner = LUX
-    controller = LUX
-    remove_core = NET
-}

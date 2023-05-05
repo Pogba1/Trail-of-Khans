@@ -6,7 +6,8 @@ religion = orthodox
 government = hms_government
 plurality = 10.0
 nationalvalue = nv_productivity
-literacy = 0.08
+literacy = 0.01
+non_state_culture_literacy = 0.01
 civilized = yes
 prestige = 1
 

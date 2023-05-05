@@ -20,7 +20,8 @@ substate = {
     start_date = 1836.1.1
     end_date = 1936.1.1
 }
-substate = {
+
+vassal = {
     first = POL
     second = SLS
     start_date = 1836.1.1
@@ -99,14 +100,6 @@ vassal = {
     end_date = 1905.1.1
 }
 
-#Mongolia-Sikh Empire
-vassal = {
-    first = MGL
-    second = PNJ
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
 #Mongolia-Jurchen(Yuan)
 vassal = {
     first = MGL
@@ -127,6 +120,14 @@ vassal = {
 vassal = {
     first = BHA
     second = TIR
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+
+#Rome-Cisalpine
+substate = {
+    first = RMR
+    second = CIS
     start_date = 1836.1.1
     end_date = 1936.1.1
 }

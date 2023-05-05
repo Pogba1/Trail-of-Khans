@@ -3,55 +3,49 @@
 #Valetta (110000/27500 POPS)
 854 = {
     bureaucrats = {
-        culture = south_italian
+        culture = syracusean
         religion = catholic
-        size = 125
+        size = 150
     }
 
     soldiers = {
-        culture = south_italian
+        culture = french
         religion = catholic
         size = 6000
     }
 
     artisans = {
-        culture = south_italian
+        culture = french
         religion = catholic
         size = 150
     }
 
     aristocrats = {
-        culture = south_italian
+        culture = syracusean
         religion = catholic
         size = 600
     }
 
-    bureaucrats = {
-        culture = south_italian
-        religion = catholic
-        size = 25
-    }
-
     clergymen = {
-        culture = south_italian
+        culture = french
         religion = catholic
         size = 275
     }
 
     artisans = {
-        culture = south_italian
+        culture = syracusean
         religion = catholic
         size = 5500
     }
 
     soldiers = {
-        culture = south_italian
+        culture = syracusean
         religion = catholic
         size = 340
     }
 
     farmers = {
-        culture = south_italian
+        culture = syracusean
         religion = catholic
         size = 25475
     }

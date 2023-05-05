@@ -1,23 +1,26 @@
-capital = 744
-primary_culture = north_italian
+capital = 764
+primary_culture = syracusean
+culture = italiote
+culture = greek
 religion = catholic
-government = absolute_monarchy
-plurality = 25.0
+government = presidential_dictatorship
+plurality = 10
+prestige = 37
 nationalvalue = nv_order
-literacy = 0.20
 civilized = yes
-prestige = 5
-
+literacy = 0.01
+non_state_culture_literacy = 0.01
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = appointed
+upper_house_composition = party_appointed
 vote_franschise = none_voting
-public_meetings = yes_meeting
+public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
 political_parties = underground_parties
+conscription = mandatory_service
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -27,10 +30,6 @@ health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
-
-# New Reforms
-conscription = no_draft
- 
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
@@ -38,17 +37,9 @@ border_policy = open_borders
 
 set_country_flag = catholic_country
 
-ruling_party = TUS_reactionary
-upper_house = {
-    fascist = 0
-    liberal = 0
-    conservative = 85
-    reactionary = 15
-    anarcho_liberal = 0
-    socialist = 0
-    communist = 0
-}
+ruling_party = GRE_reactionary
 
+oob = "SYC_oob.txt"
 
 # Technologies
 post_napoleonic_thought = 1
@@ -57,10 +48,13 @@ bronze_muzzle_loaded_artillery = 1
 military_staff_system = 1
 army_command_principle = 1
 post_nelsonian_thought = 1
+battleship_column_doctrine = 1
 clipper_design = 1
 naval_design_bureaus = 1
+fire_control_systems = 1
 alphabetic_flag_signaling = 1
 the_command_principle = 1
+naval_professionalism = 1
 classicism_n_early_romanticism = 1
 late_enlightenment_philosophy = 1
 malthusian_thought = 1
@@ -75,11 +69,16 @@ piston_steam_engine = 1
 mechanical_production = 1
 hot_blast = 1
 basic_chemistry = 1
+high_pressure_steam_engine = 1
 
-#Inventions
+decision = SYC_1836_setup
 
-# Starting Consciousness
-consciousness = 3
-nonstate_consciousness = 1
-
-oob = "TUS_oob.txt"
+upper_house = {
+    fascist = 0
+    liberal = 0
+    conservative = 30
+    reactionary = 70
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
+}

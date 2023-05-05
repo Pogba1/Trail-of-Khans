@@ -873,31 +873,31 @@
 
     ######North Italians #750 pops
     aristocrats = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 150
     }
 
     soldiers = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 150
     }
 
     clergymen = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 150
     }
 
     farmers = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 200
     }
@@ -906,13 +906,13 @@
     ######British #250 soldiers + 157 civilians (sneed)
 
     soldiers = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 157
     }
@@ -954,31 +954,31 @@
 
     ######North Italians #500 pops
     aristocrats = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 100
     }
 
     soldiers = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 100
     }
@@ -986,13 +986,13 @@
 
     ######British #250 soldiers + 100 civilians
     soldiers = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 150
     }
@@ -1754,31 +1754,31 @@
 
     ### Catholics circa 2000
     aristocrats = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 600
     }
 
     soldiers = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 200
     }
 
     farmers = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 1000
     }
@@ -2014,25 +2014,25 @@
 #Hania or CHANIA (72000/18000 POPS)
 847 = {
     aristocrats = {
-        culture = north_italian
+        culture = syracusean
         religion = catholic
         size = 375
     }
 
     bureaucrats = {
-        culture = north_italian
+        culture = syracusean
         religion = catholic
         size = 125
     }
 
     officers = {
-        culture = north_italian
+        culture = syracusean
         religion = catholic
         size = 50
     }
 
     clergymen = {
-        culture = north_italian
+        culture = syracusean
         religion = catholic
         size = 100
     }
@@ -2044,7 +2044,7 @@
     }
 
     soldiers = {
-        culture = north_italian
+        culture = syracusean
         religion = catholic
         size = 200
     }
@@ -2088,13 +2088,13 @@
 #Iraklion (68000/17000 POPS)
 848 = {
     aristocrats = {
-        culture = north_italian
+        culture = syracusean
         religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = north_italian
+        culture = syracusean
         religion = catholic
         size = 100
     }

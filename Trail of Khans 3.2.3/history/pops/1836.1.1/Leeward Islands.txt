@@ -65,25 +65,25 @@
 #Montserrat (5300/1325 POPS) #still scottish Colony
 2225 = {
     aristocrats = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 10
     }
 
     clergymen = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 5
     }
 
     artisans = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 30
     }
 
     farmers = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 300
     }
@@ -101,7 +101,7 @@
     }
 
     soldiers = {
-        culture = north_italian
+        culture = roman
         religion = catholic
         size = 10
     }

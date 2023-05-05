@@ -2,11 +2,6 @@ HET = {
     value = -75
     level = 2
 }
-PNJ = {
-    value = 150
-    level = 5
-    influence_value = 50
-}
 MCK = {
     value = 150
     level = 5

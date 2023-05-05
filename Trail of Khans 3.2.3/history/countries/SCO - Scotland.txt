@@ -2,10 +2,10 @@ capital = 269
 primary_culture = scottish
 religion = catholic
 government = hms_government
-plurality = 0.1
+plurality = 25
 nationalvalue = nv_order
-literacy = 0.65
-non_state_culture_literacy = 0.32
+literacy = 0.01
+non_state_culture_literacy = 0.01
 civilized = yes
 
 #GreaterPowers = prestige

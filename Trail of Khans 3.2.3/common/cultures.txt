@@ -398,39 +398,6 @@ italian = {
         "von Donatz" "von Salis-Soglio" "von Steiger" "von Tavel" Wille Celio Cotti Fogliardi Motta Zeni
         Ador Calonder Chaudet Comtesse "de Prangins" Dufour Fornerod Guisan Ruchet Ruchonnet } 
 	}
-    north_italian = {
-        color = { 90 210 130}
-        first_names = { Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
-        Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
-        Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
-        Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
-        Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio }
-
-        last_names = { Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
-        Caviglia Ceccherini Cialdini Cusani d'Absburgo-Toscana d'Austria-Este Dezza "di Borbone di Parma" "di Robilant" "di Savoia"
-        "di Savoia-Aosta" Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti
-        Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux Perruchetti Pianelli Porro
-        Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari "Thaon di Revel" Vaccari Zupelli }
-    }
-    south_italian = {
-        color = { 40 150 90}
-        first_names = { Alessandro Armando Augusto Carlo Cesare Corrado Domenico Enrico Fabio Fabrizio
-        Ferdinando Francesco Gaetano Giacomo Giovanni Giulio Giuseppe Guglielmo Leopoldo Lorenzo
-        Ludovico Marcantonio Marino Mario Matteo Nicola Orazio Sigismondo Tommasso Vincenzo }
-
-        last_names = { Anfora Barberini-Colonna Bonaccorsi Caraga Cattaneo Chigi Clary Colonna "de Liguori" "de Riseis"
-        "della Rovere" "di Borbone della Due Sicilia" Diaz Ferrari Filangieri Gironda Gravina Grifeo Lanza Lombardo
-        Lunardi Molinelli Orsini Ottaviani Pironti Scammacca Torlonia Turrisi Vernazza Zunica }
-    }
-    maltese = {
-        color = {100 150 120}
-        primary = MLT
-        first_names = { Alessandru Beru Duminku Enrico Fernardu Frangisku Gabriel Ferlad Gorg Joseph
-        Karmenu Lawrenz Marju Mikiel Ninu Pawlu Rokku Saber Ugo Valent }
-
-        last_names = { Abela Adami Azzopardi Boffa Borg Buhagiar Cassar Farrugia Frendo Gonzi
-        Howard Mifsud Mintoff Mizzi Muscat Olivier Puli Pullicino Strickland Vella }
-    }
     roman = {   
         color = {255 0 0}
         first_names = { Appius Agrippa Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Opiter 
@@ -493,6 +460,31 @@ italian = {
         Emo Fant Fara Filomarin Garibaldi Giardi Govon Mambreta
         Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux
 		Solari Vaccor Tsupeli }
+    }
+	
+	romano_nuragic = {   
+        color = { 161 98 96 }
+        first_names = { Appius Agrippa Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Opiter 
+		Publius Postumus Proculus Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Volero Volumnius Octavius
+		Statius Tullus Volesus Vopiscus Caeso Paullus Hostus Numerius Sertor Potitus Vibius Cossus Arruns Camillus
+    	}
+
+ 
+        last_names = {
+		Aburius Aburia Aburii Aburia Accius Accia Accii Accian Acilius Acilia Acilii Acilian Acutius Acutia Acutii Acutian Aebutius Aebutia Aebutii Aebuti Aelius Aelia Aelii Aelian Aemilius Aemilia Aemilii Aemi Alienus Aliena Alienii Alien Anicius Anicia Anicii Anici Annius Annia Anni Annian Antius Antia Antii Antian Antistius Antistia Antistii Antistian
+		Antonius Antonia Antonii Antonian Appuleius Appuleia Appuleii Appuleian Apronius Apronia Apronii Apronian Aquillius Aquillia Aquillii Aquillian Atilius Atilia Atilii Atilian Atius Atia Atii Atian Aufidius Aufidia Aufidii Aufidian Aulius Aulia Aulii Aulian Blossius Blossia Blossii Blossian Aurelius Aurelia Aurelii Aurelian Caecinus Caecina Caecinii Caecinian
+		Caecilius Caecilia Caecilii Caecilian Calavius Calavia Calavii Calavia Calpurnius Calpurnia Calpurnii Calpurnian Cantius Cantia Cantii Cantian Carvilius Carvilia Carvilii Carvilian Cassius Cassia Cassii Cassian Catius Catia Catii Catian Centenius Centenia Centenii Centenian Cilnius Cilnia Cilnii Cilnian
+		Cispius Cispia Cispii Cispian Claudius Claudia Claudii Claudian Cloelius Cloelia Cloelii Cloelian Cominius Cominia Cominii Cominian Cornelius Cornelia Cornelii Cornelian Coruncanius Coruncania Coruncanii Coruncanian
+		Curiatius Curiatia Curiatii Curiatian	Curtius Curtia Curtii Curtian	Curius Curia Curii CurianDecius Decia Decii Decian	Domitius Domitia Domitii Domitian	Fabius Fabia Fabii Fabian Flavius Flavia Flavii Flavian	Foslius Foslia Foslii Foslian	Fulcinius Fulcinia Fulcinii Fulcinian	Fulvius Fulvia Fulvii Fulvian
+		Furius Furia Furii Furian	Funius Furnia Furnii Furnian	Gabinius Gabinia Gabinii Gabinian	Galerius Galeria Galerii Galerian	Gracchus Gracchia Gracchi Gracchian	Geganius Gegania Geganii Geganian	Gellius Gellia Gellii Gellian	Herminius Herminia Herminii Herminian Hortensius Hortensia Hortensii Hortensian
+		Hostilius Hostilia Hostilii Hostilian	Julius Julia Julii Julian	Junius Junia Junii Junian	Laetorius Laetoria Laetorii Laetorian	Lartius Lartia Lartii Lartian	Licinius Licinia Licinii Licinian	Livius Livia Livii Livian	Lucius Lucia Lucii Lucian	Lucretius Lucretia Lucretii Lucretian	Maelius Maelia Maelii Maelian
+		Maenius Maenia Maenii Maenian	Mamilius Mamilia Mamilii Mamilian	Manlius Manlia Manlii Manlian	Marius Maria Marii Marian	Memmius Memmia Memmii Memmian	Messius Messia Messii Messian	Metilius Metilia Metilii Metillian	Minucius Minucia Minucii Minucian Nigidius Nigidia Nigidii Nigidian	Ninnius Ninnia Ninnii Ninnian
+		Nonius Nonia Nonii Nonian	Numicius Numicia Numicii Numician	Numisius Numisia Numisii Numisian	Octavius Octavia Octavii Octavian	Ofilius Ofilia Ofilii Ofilian	Ogulnius Ogulnia Ogulnii Ogulnian	Opimius Opimia Opimii Opimian	Oppius Oppia Oppii Oppian	Octacilius Octacilia Octacilii Octacilian	Ovidius Ovidia Ovidii Ovidian
+		Papirius Papiria Papirii Papirian	Pinarius Pinaria Pinarii Pinarian	Plautius Plautia Plautii Plautian	Plinius Plinia Plinii Plinian	Postumius Postumia Postumii Postumian	Pompilius Pompilia Pompilii Pompillian Pomponius Pomponia Pomponii Pomponian	Popillius Popillia Popillii Popillian	Porcius Porcia Porcii Porcian
+		Publilius Publilia Publilii Publilian	Pupius Pupia Pupii Pupian Quinctius Quinctia Quinctii Quinctian	Rabirius Rabiria Rabirii Rabirian	Resius Resia Resii Resian Salonius Salonia Salonii Salonian	Salvius Salvia Salvii Salvian	Scribonius Scribonia Scribonii Scribonian	Sempronius Sempronia Sempronii Sempronian	Sergius Sergia Sergii Sergian
+		Sertorius Sertoria Sertorii Sertorian	Servilius Servilia Servilii Servilian	Sestius Sestia Sestii Sestian	Sextius Sextia Sextii Sextian Sicinius Sicinia Sicinii Sicinian	Silius Silia Silii Silian	Sulpicius Sulpicia Sulpicii Sulpician	Titius Titia Titii Titian	Tremulus Tremulia Tremulii Tremulan	Tullius Tullia Tullii Tullian
+		Ulpius Ulpia Ulpii Ulpian	Valerius Valeria Valerii Valerian	Verginius Verginia Verginii Verginian Vesuvius Vesuvia Vesuvii Vesuvian	Villius Villia Villii Villian	Viridius Viridia Viridii Viridian	Volumnius Volumnia Volumnii Volumnian
+	    }
     }
     union = RMR  
 
@@ -636,22 +628,6 @@ french = {
 south_slavic = {
     leader = european
     unit = AustriaHungaryGC
-    croat = {
-        color = {140 140 190}
-        first_names = { Andrija Antun Bazilije Breno Dragutin Dzivo Filip Franjo Gaspar Ivan
-        Janko Jero Jerolim Josip Juraj Karlo Kresimir Krsto Ljudevit Lucijan
-        Luka Marijan Marin Matej Matko Maximiliam Medo Mihajlo Mirko Miroslav
-        Niko Nikola Orsat Pavle Petar Rafo Sebastijan Sismundo Slavko Stjepan
-        Svetoslav Svetozar Teo Teodor Toma Tomislav Vicko Vladimir Vlaho Zlatan
-        }
-
-        last_names = { Alapic Bakaric Bettera Bilic Blazevic Bondic Boroevic Bosnajk Bunic Crnkovic
-        Cuvaj Draskovic Dzamanjic Eltz Erdödy Frankopan Gaj Getaldic Gradic Gregoric
-        Gucetic Gundulic Haulik Jelacic Kabuzic Keglevic Kostrencic Krstulovic Lagimja Mazuranic
-        Mihailovic Mohorovicic Mrazovic Natali Nazor Njegovan Palecek Pejacevic Philippovic Preradovic
-        Pucic Ranjina Sarkotic Sokcevic Sorkocevic Stankovaci Tomasic Tomlejnovic Vakanovic Vlasic
-        }
-    }
     serb = {
         color = {120 65 80}
         first_names = { Alenka Alfonz Alfred Andrej Anton Avgust Bartolomej Alaksandar Blagoje Bozidar Branko Danilo Dejan Djordje Dragan Dragisa Dragoljub
@@ -682,38 +658,6 @@ south_slavic = {
         Kutinchev Lazarov Lukov Marinkov Marinov Mutkorov Naydenov Nazlamov Nikiforov Nikolaev
         Pakov Petrov Radev Saksokoburggotski Savov Sirakov Solarov Stoyanov Tenev Todorov
         Tsaklev Valkov Valnarov Vasilev Vazov Velchev Zafirov Zhekov Zlatarev Zlatev
-        }
-    }
-    slovene = {
-        color = {0 90 128}
-        first_names = { Alenka Alfonz Alfred Andrej Anton Avgust Bartolomej Blaz Bojan Boris
-        Bostjian Bozidar Ciril Danilo Demeter Drago Dusan Franc Gregorij Ivan
-        Ivo Janez Jernej Joze Jurij Karpo Lado Leon Lojze Miha
-        Milan Mladen Odilo Pino Rado Radovan Rudolf Slavko Slavoj Stane
-        Stanko Tomasz Toncka Tone Viktor Vilko Vladimir Vladko Vojko Zeljko
-        }
-
-        last_names = { Arnic Avbelj Avsenik Bajuk Bitenc Cankar Cec Cernigoj Czipott Dolar
-        Drolc Duletic Globocnik Gobec Godina Golob Haus Hladnik Ivanek Kantuser
-        Kidric Komar Kopitar Kraigher Lipovsek Lipuscek Macek Maister Marinko Miklosic
-        Mravlajk Pengov Pesek Peterle Pirec Plecnik Rozman Rupnik Sarh Srebrnic
-        Tomazic Tomsic Urbancic Vega "Von Windisch-Grätz" Zagar Zerjal Zizke Zornada Zupancic
-        }
-    }
-    bosniak = {
-        color = {30 200 200}
-        first_names = { Abdulvehhab Adnan Ahmed Ali Alija Asim Atif Beriz Dzemal Dzemaludin
-        Elvir Enver Fikret Fuad Gazi Hakija Hamdija Hamid Haris Hasan
-        Husein Irfan Isa Ivan Izet Jusuf Mehmed Meho Mirsad Muhamed
-        Musa Mustafa Naser Osman Raif Rasim Refik Safet Safvet Sefer
-        Sejad Semezdin Semir Skender Sokollu Sulejman Vedad Zija Zlatko Zuko
-        }
-
-        last_names = { Abdic Arapovic Basgic Belkic Bijedic Catic Causevic Ceric Colakovic Dizdar
-        Dizdarevic Dzikic Dzumhur Ekrem Gradascevic Halilovic Husrev Ibisevic Ilhamija Imamovic
-        Isakovic Izetbegovic Kodro Konjic Kulenovic Lagumdzija Ljajic Ljubicic Ljubijankic Mehmedinovic
-        Muradbegovic Muzurovic Osmanagic Peco Plakalo Pozderac Prazina Rizvanbegovic Sabanadzovic Salihovic
-        Sarajlic Selimovic Silajdzic Sokolovic Spaho Terzic Tihic Turaljic Tükcan Ugljanin
         }
     }
 }
@@ -879,7 +823,6 @@ czecho_slovak_culture_group = {
         Masaryk Móry Moyses Rázus Rohácek Rudnay Selepcéni Sidor Skultéty-Gábris Smik
         Sokol Stefánik Suchon Sverma Tiso Trcka Tuka Turanec Viest Zoch }
     }
-
 }
 
 east_slavic = {
@@ -896,19 +839,6 @@ east_slavic = {
                           Dragomirov Frolov Golivin Grishin Gurko Ivanov Konev Konstantinov Kornilov
                           Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov
                           Nikolaevich Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev
-                          Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko }
-    }
-	daco_russian = {
-        color = {10 100 10}
-           first_names = { Alexandru Aleksandr Alexei Andrei Anton Boris Dmitri Theodor Fyodor 
-                         Giorgi Grigoriy Igor Ivan Kirill Konstantin Lavr Leonid Lev Maxim
-                         Mihail Nichita Nicolae Oleg Pavel Petre Roman Simion Serghei
-                         Valery Vasily Victor Vladimir Vladislav  Yevgeny Yuri Gennady}
-
-           last_names = { Alexseyev Anton Azar Badanov Brusilov Budyonny Chibisov Denikin
-                          Dragomir Frolov Golivin Grishin Gurko Ivan Konev Constantin Kornilov
-                          Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov
-                          Nicolaevici Ostrovski Pavlov Putyatin Romanov Rozhestvensky Skobelev
                           Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko }
     }
     byelorussian = {
@@ -1005,22 +935,6 @@ levantine = {
         Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
         Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos }#
 	}
-    greek = {
-        color = { 122  180  210 }
-        first_names = { Adamantios Alexandros Anastasios Andreas Antonios Aristidis Athanasios Augustinos Benizelos Charalambos
-        Charilaos Dimitrios Diomidis Eleftherios Emmanouil Epameinontas Evripidis Gennaios Georgios Ilias
-        Ionnis Kitsos Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
-        Nikolaos Odysseas Othon Panagiotis Pavlos Petros Sofoklis Sotiris Spyridion Spyros
-        Staikos Stefanos Stylianos Themistoklis Theodoros Tharyvoulos Tzannis Vasos Viktor Zinovios
-        }
-
-        last_names = { Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
-        Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
-        Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
-        Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
-        Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
-        }
-    }
     georgian = {
         color = {128 207 128}
         first_names = { Akaki Alexander Andria Bagrat Besarion David Dimitri Eduard Ekvtime Evgeni
@@ -1069,6 +983,62 @@ levantine = {
         Tavakyalian Tchartichian Tcholakhian Ter-Sarkayan Terzian Tigraniants Tigranov Toshian Varapetian Vartanian
         }
     }
+}
+
+hellenic = {
+	leader = european
+	
+    greek = {
+        color = { 122  180  210 }
+        first_names = { Adamantios Alexandros Anastasios Andreas Antonios Aristidis Athanasios Augustinos Benizelos Charalambos
+        Charilaos Dimitrios Diomidis Eleftherios Emmanouil Epameinontas Evripidis Gennaios Georgios Ilias
+        Ionnis Kitsos Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
+        Nikolaos Odysseas Othon Panagiotis Pavlos Petros Sofoklis Sotiris Spyridion Spyros
+        Staikos Stefanos Stylianos Themistoklis Theodoros Tharyvoulos Tzannis Vasos Viktor Zinovios
+        }
+
+        last_names = { Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
+        Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
+        Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
+        Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
+        Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
+        }
+    }
+	
+    italiote = {
+        color = { 49  153  205 }
+        first_names = { Adamantios Alexandros Anastasios Andreas Antonios Aristidis Athanasios Augustinos Benizelos Charalambos
+        Charilaos Dimitrios Diomidis Eleftherios Emmanouil Epameinontas Evripidis Gennaios Georgios Ilias
+        Ionnis Kitsos Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
+        Nikolaos Odysseas Othon Panagiotis Pavlos Petros Sofoklis Sotiris Spyridion Spyros
+        Staikos Stefanos Stylianos Themistoklis Theodoros Tharyvoulos Tzannis Vasos Viktor Zinovios
+        }
+
+        last_names = { Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
+        Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
+        Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
+        Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
+        Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
+        }
+    }
+	
+    syracusean = {
+        color = { 243  212  88 }
+        first_names = { Adamantios Alexandros Anastasios Andreas Antonios Aristidis Athanasios Augustinos Benizelos Charalambos
+        Charilaos Dimitrios Diomidis Eleftherios Emmanouil Epameinontas Evripidis Gennaios Georgios Ilias
+        Ionnis Kitsos Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
+        Nikolaos Odysseas Othon Panagiotis Pavlos Petros Sofoklis Sotiris Spyridion Spyros
+        Staikos Stefanos Stylianos Themistoklis Theodoros Tharyvoulos Tzannis Vasos Viktor Zinovios
+        }
+
+        last_names = { Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
+        Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
+        Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
+        Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
+        Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
+        }
+    }
+	union = BYZ
 }
 
 turko_semitic = {
@@ -1512,6 +1482,7 @@ central_asian = {
 
 south_asian = {
     leader = indian
+	is_overseas = no
     unit = IndianGC
     bihari = {
         color = {180 75 130}
@@ -1650,6 +1621,7 @@ south_asian = {
 
 indo_iranian = {
     leader = indian
+	is_overseas = no
     unit = IndianGC
     bengali = {
         color = {156 134 112}
@@ -1685,6 +1657,7 @@ indo_iranian = {
 
 southeast_asian = {
     leader = asian
+	is_overseas = no
     unit = AsianGC
     vietnamese = {
         color = {23 99 12}
@@ -1780,6 +1753,7 @@ southeast_asian = {
 
 east_asian = {
     leader = asian
+	is_overseas = no
     unit = ChineseGC
     beifaren = {
         color = {145 30 30}
@@ -2072,46 +2046,6 @@ native_american = {
         }
     }
 }
-
-american_cultures = {
-    leader = european
-    is_overseas = no
-    yankee = {
-        color = {65 65 129}
-        first_names = { Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses
-                Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
-                Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
-        }
-        last_names = { Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
-                Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates
-                Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
-                Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth
-                Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
-                Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
-                Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
-                Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
-                Wilson Wright Young
-        }
-    }
-    dixie = {
-        color = {129 129 129}
-        first_names = { Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard
-        Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre
-        Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
-        "Fitz Hugh" Carnot Ezra Wilton
-        }
-
-        last_names = { Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg
-        Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price
-        Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth
-        Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer
-        Davis Lane Posey Scales Warner Imboden Jenkins
-        }
-    }
-	
-    union = USA
-}
-
 
 neo_european_cultures = {
     leader = european

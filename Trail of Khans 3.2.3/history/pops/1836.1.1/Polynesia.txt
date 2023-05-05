@@ -93,26 +93,26 @@
     }
 
     clergymen = {
-        culture = yankee
-        religion = protestant
+        culture = polynesian
+        religion = animist
         size = 100
     }
 
     artisans = {
-        culture = yankee
-        religion = protestant
+        culture = polynesian
+        religion = animist
         size = 100
     }
 
     soldiers = {
-        culture = yankee
-        religion = protestant
+        culture = polynesian
+        religion = animist
         size = 100
     }
 
     farmers = {
-        culture = yankee
-        religion = protestant
+        culture = polynesian
+        religion = animist
         size = 100
     }
 }

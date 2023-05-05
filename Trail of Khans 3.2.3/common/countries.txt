@@ -332,18 +332,10 @@ WEI        = "countries/Saxe-Weimar.txt"
 WUR        = "countries/Wurttemberg.txt"
 
 # Italy
-LOM        = "countries/Lombardia.txt"
-LUC        = "countries/Lucca.txt"
-MOD        = "countries/Modena.txt"
-PAP        = "countries/Papal States.txt"
-PAR        = "countries/Parma.txt"
-SAR        = "countries/Sardinia-Piedmont.txt"
 NAP        = "countries/Naples.txt"
-SIC        = "countries/Two Sicilies.txt"
-TRE        = "countries/Trieste.txt"
-TUS        = "countries/Tuscany.txt"
-VEN        = "countries/Venice.txt"
-GEN		   = "countries/Genoa.txt"
+SYC        = "countries/Syracuse.txt"
+CIS        = "countries/Cisalpine.txt"
+SAR        = "countries/Sardinia.txt"
 
 # Eastern Europe
 NOV		   = "countries/Novgorod.txt"

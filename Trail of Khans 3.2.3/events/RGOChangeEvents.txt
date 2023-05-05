@@ -1069,6 +1069,14 @@ province_event = {
             }
             AND = {
                 OR = {
+                    province_id = 1629 #Wonsan
+                    province_id = 958 #Kiev
+                    province_id = 971 #Krivoy Rog
+                    province_id = 972 #Ekaterinoslav
+                    province_id = 961 #Cherkassy
+                    province_id = 1689 #Melilla
+                    province_id = 1688 #Ajdir
+                    province_id = 1681 #Wazzan
                     province_id = 1702 #Setif
                     province_id = 1270 #Gwalior, after 1880
                     province_id = 682 #Breslau, after 1890
