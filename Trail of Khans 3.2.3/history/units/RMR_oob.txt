@@ -1,0 +1,172 @@
+army = {
+    name = "Legio I"
+    location = 749
+
+    regiment = {
+        name = "Infantry Brigade"
+        type = infantry
+        home = 749
+    }
+    regiment = {
+        name = "Infantry Brigade"
+        type = infantry
+        home = 749
+    }
+    regiment = {
+        name = "Infantry Brigade"
+        type = infantry
+        home = 750
+    }
+    regiment = {
+        name = "Infantry Brigade"
+        type = infantry
+        home = 753
+    }
+    regiment = {
+        name = "Infantry Brigade"
+        type = infantry
+        home = 10
+    }
+    regiment = {
+        name = "Cuirassier Brigade"
+        type = cuirassier
+        home = 754
+    }
+    regiment = {
+        name = "Cuirassier Brigade"
+        type = cuirassier
+        home = 755
+    }
+    regiment = {
+        name = "Artillery Brigade"
+        type = artillery
+        home = 2567
+    }
+    regiment = {
+        name = "Artillery Brigade"
+        type = artillery
+        home = 748
+    }
+    regiment = {
+        name = "Artillery Brigade"
+        type = artillery
+        home = 745
+    }
+    regiment = {
+        name = "Artillery Brigade"
+        type = artillery
+        home = 757
+    }
+}
+
+army = {
+    name = "Legio II"
+    location = 724
+
+    regiment = {
+        name = "Cavalry Brigade"
+        type = cavalry
+        home = 724
+    }
+    regiment = {
+        name = "Cavalry Brigade"
+        type = cavalry
+        home = 724
+    }
+    regiment = {
+        name = "Hussar Brigade"
+        type = hussar
+        home = 723
+    }
+    regiment = {
+        name = "Infantry Brigade"
+        type = infantry
+        home = 472
+    }
+    regiment = {
+        name = "Infantry Brigade"
+        type = infantry
+        home = 725
+    }
+    regiment = {
+        name = "Infantry Brigade"
+        type = infantry
+        home = 738
+    }
+    regiment = {
+        name = "Artillery Brigade"
+        type = artillery
+        home = 739
+    }
+    regiment = {
+        name = "Artillery Brigade"
+        type = artillery
+        home = 741
+    }
+}
+
+navy = {
+    name = "Chassis I"
+    location = 749
+
+    ship = {
+        name = "Manowar"
+        type = manowar
+    }    ship = {
+        name = "Manowar"
+        type = manowar
+    }    ship = {
+        name = "Manowar"
+        type = manowar
+    }    ship = {
+        name = "Manowar"
+        type = manowar
+    }    ship = {
+        name = "Manowar"
+        type = manowar
+    }
+    ship = {
+        name = "Frigate"
+        type = frigate
+    }
+    ship = {
+        name = "Frigate"
+        type = frigate
+    }
+    ship = {
+        name = "Frigate"
+        type = frigate
+    }
+    ship = {
+        name = "Frigate"
+        type = frigate
+    }
+    ship = {
+        name = "Frigate"
+        type = frigate
+    }
+    ship = {
+        name = "Frigate"
+        type = frigate
+    }
+    ship = {
+        name = "Frigate"
+        type = frigate
+    }
+    ship = {
+        name = "Frigate"
+        type = frigate
+    }
+    ship = {
+        name = "Frigate"
+        type = frigate
+    }
+    ship = {
+        name = "Frigate"
+        type = frigate
+    }
+    ship = {
+        name = "Frigate"
+        type = frigate
+    }
+}

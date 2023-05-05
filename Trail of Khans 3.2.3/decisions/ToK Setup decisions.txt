@@ -266,6 +266,8 @@ political_decisions = {
                             has_pop_culture = dutch
                             has_pop_culture = swedish
                             has_pop_culture = french_canadian
+                            has_pop_culture = latvian
+                            has_pop_culture = estonian
                         }
                     }
                     literacy = 0.69
@@ -288,8 +290,6 @@ political_decisions = {
                             has_pop_culture = british_danish
                             has_pop_culture = danish
                             has_pop_culture = norwegian
-                            has_pop_culture = latvian
-                            has_pop_culture = estonian
                         }
                     }
                     literacy = 0.55
