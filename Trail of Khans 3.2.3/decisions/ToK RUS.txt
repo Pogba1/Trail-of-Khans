@@ -121,7 +121,7 @@ political_decisions = {
 							in_sphere = THIS
 							OR = {
 								is_vassal = no
-								vassl_of = THIS
+								vassal_of = THIS
 							}
 							war = no
 						}

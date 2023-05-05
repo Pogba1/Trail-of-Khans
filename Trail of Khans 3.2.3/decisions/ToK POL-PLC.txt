@@ -37,6 +37,7 @@ political_decisions = {
 		effect = {
 			country_event = {
 				id = 192803
+				days = 0
 			}
 		}
 	}
@@ -195,10 +196,8 @@ political_decisions = {
 			change_tag = PLC
 			any_country = {
 				limit = {
-					AND = {
-						vassal_of = THIS
-						in_sphere = THIS
-					}
+					vassal_of = THIS
+					in_sphere = THIS
 					primary_culture = polish
 					NOT = {
 						tag = BHA
@@ -289,10 +288,10 @@ political_decisions = {
 		}
 		effect = {
 			badboy = 5
-			RUS_978 = {
+			RUS_976 = {
 				add_core = THIS
 			}
-			RUS_973 = {
+			RUS_964 = {
 				add_core = THIS
 			}
 			set_country_flag = fulfilled_ambition
