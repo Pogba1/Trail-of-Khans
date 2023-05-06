@@ -117,8 +117,9 @@
 	soldiers = {
         culture = latin
         religion = catholic
-        size = 3000
+        size = 5770
     }
+	
 	aristocrats = {
         culture = latin
         religion = catholic
@@ -336,8 +337,9 @@
     soldiers = {
         culture = latin
         religion = catholic
-        size = 50
+        size = 2770
     }
+	
 	farmers = {
         culture = latin
         religion = catholic
@@ -415,7 +417,13 @@
         religion = catholic
         size = 75
     }
-
+	
+	soldiers = {
+        culture = latin
+        religion = catholic
+        size = 2770
+    }
+	
     clergymen = {
         culture = latin
         religion = catholic

@@ -3,6 +3,12 @@
 #Acre (52000/13000 POPS) #now part of Israel-Palestine  mashriqi-animist = druze
 916 = {
 	soldiers = {
+		culture = latin
+		religion = catholic
+		size = 2770
+	
+	}
+	soldiers = {
         culture = latin
         religion = catholic
         size = 300
@@ -283,6 +289,12 @@
 }
 #Nablus (44000/11000 POPS)
 918 = {
+	soldiers = {
+		culture = latin
+		religion = catholic
+		size = 2770
+	
+	}
 	farmers = {
 		culture = latin
 		religion = catholic
@@ -391,10 +403,11 @@
 #Jaffa (48000/12000 POPS)
 919 = {
 	soldiers = {
-        culture = latin
-        religion = catholic
-        size = 300
-    }
+		culture = latin
+		religion = catholic
+		size = 3070
+	
+	}
 	aristocrats = {
         culture = latin
         religion = catholic
@@ -542,6 +555,13 @@
         religion = sunni
         size = 125
     }
+	
+	soldiers = {
+		culture = latin
+		religion = catholic
+		size = 2770
+	
+	}
 
     farmers = {
         culture = mashriqi

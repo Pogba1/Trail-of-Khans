@@ -2,6 +2,11 @@
 #under the rule of Ottoman Empire in 1836
 #Nicosia (64000/16000 POPS)
 855 = {
+	soldiers = {
+        culture = latin
+        religion = catholic
+        size = 2770
+    }
     aristocrats = {
         culture = latin
         religion = catholic
@@ -88,6 +93,13 @@
 }
 #Limassol (44000/11000 POPS)
 856 = {
+
+	soldiers = {
+        culture = latin
+        religion = catholic
+        size = 2770
+    }
+	
     aristocrats = {
         culture = latin
         religion = catholic
@@ -144,6 +156,13 @@
 }
 #Famagusta (44000/11000 POPS)
 857 = {
+
+	soldiers = {
+        culture = latin
+        religion = catholic
+        size = 2770
+    }
+
     aristocrats = {
         culture = greek
         religion = orthodox

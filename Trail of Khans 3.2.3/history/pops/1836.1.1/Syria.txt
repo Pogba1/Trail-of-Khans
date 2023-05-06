@@ -286,15 +286,35 @@
 #under the rule of Egypt in 1836
 #Damascus (328000/82000 POPS)
 902 = {
+	soldiers = {
+		culture = latin
+		religion = catholic
+		size = 2770
+	
+	}
+	
+	farmers = {
+		culture = latin
+		religion = catholic
+		size = 1000
+	}
+	
+	aristocrats = {
+        culture = latin
+        religion = catholic
+        size = 750
+    }
+
+	
     aristocrats = {
         culture = mashriqi
         religion = sunni
-        size = 850
+        size = 150
     }
 
     bureaucrats = {
-        culture = mashriqi
-        religion = sunni
+        culture = latin
+        religion = catholic
         size = 687
     }
 
@@ -303,16 +323,22 @@
         religion = sunni
         size = 225
     }
-
+	
+	clergymen = {
+        culture = latin
+        religion = catholic
+        size = 375
+    }
+	
     clergymen = {
         culture = mashriqi
         religion = sunni
-        size = 575
+        size = 375
     }
 
     artisans = {
         culture = mashriqi
-        religion = sunni
+        religion = catholic
         size = 10000
     }
 
@@ -337,7 +363,13 @@
     farmers = {
         culture = mashriqi
         religion = sunni
-        size = 43200
+        size = 22200
+    }
+	
+	farmers = {
+        culture = mashriqi
+        religion = catholic
+        size = 22200
     }
 
     clergymen = {

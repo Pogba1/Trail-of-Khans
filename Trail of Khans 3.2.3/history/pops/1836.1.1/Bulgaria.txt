@@ -31,6 +31,12 @@
         religion = orthodox
         size = 28075
     }
+	
+	farmers = {
+        culture = thracian
+        religion = orthodox
+        size = 3075
+    }
 
     soldiers = {
         culture = greek
@@ -127,7 +133,7 @@
     }
 
     farmers = {
-        culture = greek
+        culture = thracian
         religion = orthodox
         size = 5442
     }
@@ -837,7 +843,13 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 31475
+        size = 27475
+    }
+	
+	farmers = {
+        culture = thracian
+        religion = orthodox
+        size = 4000
     }
 
     clergymen = {
@@ -901,7 +913,13 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 25275
+        size = 35275
+    }
+	
+	farmers = {
+        culture = thracian
+        religion = orthodox
+        size = 5275
     }
 
     artisans = {

@@ -11,8 +11,8 @@ leader = {
     name = "Sextus Curtius Calatinus"
     type = land
     date="1833.1.1"
-    personality = aweless
-    background = powerful_friends
+    personality = charismatic
+    background = cautious
     prestige = 0.1
 }
 
@@ -44,6 +44,13 @@ army = {
         type = infantry
         home = 917
     }
+	
+	regiment = {
+        name= "IV. Pedites"
+        type = infantry
+        home = 856
+    }
+	
 	regiment = {
         name= "I. Tormenta"
         type = artillery
@@ -60,9 +67,78 @@ army = {
         home = 913
     }
 	regiment = {
+        name= "IV. Tormenta"
+        type = artillery
+        home = 855
+    }
+	regiment = {
+        name= "V. Tormenta"
+        type = artillery
+        home = 857
+    }
+	regiment = {
 		name= "I. Equites"
 		type = cavalry
         home = 917
+	}
+}
+
+army = {
+    name = "Exercitus Tripolitanus"
+    location = 914
+    regiment = {
+        name= "I. Pedites"
+        type = infantry
+        home = 902
+    }
+
+    regiment = {
+        name= "II. Pedites"
+        type = infantry
+        home = 913
+    }
+
+    regiment = {
+        name= "III. Pedites"
+        type = infantry
+        home = 914
+    }
+	
+	regiment = {
+        name= "IV. Pedites"
+        type = infantry
+        home = 915
+    }
+	
+	regiment = {
+        name= "I. Tormenta"
+        type = artillery
+        home = 916
+    }
+	regiment = {
+        name= "II. Tormenta"
+        type = artillery
+        home = 916
+    }
+	regiment = {
+        name= "III. Tormenta"
+        type = artillery
+        home = 918
+    }
+	regiment = {
+        name= "IV. Tormenta"
+        type = artillery
+        home = 920
+    }
+	regiment = {
+        name= "V. Tormenta"
+        type = artillery
+        home = 919
+    }
+	regiment = {
+		name= "I. Equites"
+		type = cavalry
+        home = 919
 	}
 }
 

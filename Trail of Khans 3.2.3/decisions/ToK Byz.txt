@@ -572,6 +572,11 @@ political_decisions = {
 					remove_core = THR
 				}
 			}
+			MAC = {
+				all_core = {
+					remove_core = MAC
+				}
+			}
 			set_global_flag = pheonix_rises
 		}
 	}

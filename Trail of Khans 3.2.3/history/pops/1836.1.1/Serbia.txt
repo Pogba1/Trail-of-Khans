@@ -112,6 +112,7 @@
         size = 23325
     }
 
+
     farmers = {
         culture = serb
         religion = catholic
@@ -173,7 +174,7 @@
     }
 
     farmers = {
-        culture = serb
+        culture = romanian
         religion = orthodox
         size = 17600
     }
@@ -517,29 +518,35 @@
     farmers = {
         culture = serb
         religion = orthodox
-        size = 33360
+        size = 26360
+    }
+	
+	farmers = {
+        culture = thracian
+        religion = orthodox
+        size = 6360
     }
 
     clergymen = {
-        culture = romanian
+        culture = thracian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = romanian
+        culture = thracian
         religion = orthodox
         size = 500
     }
 
     soldiers = {
-        culture = romanian
+        culture = thracian
         religion = orthodox
         size = 400
     }
 
     farmers = {
-        culture = romanian
+        culture = thracian
         religion = orthodox
         size = 16000
     }
@@ -755,6 +762,12 @@
 
     farmers = {
         culture = greek
+        religion = orthodox
+        size = 7950
+    }
+	
+	farmers = {
+        culture = thracian
         religion = orthodox
         size = 7950
     }

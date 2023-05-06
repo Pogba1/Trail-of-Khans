@@ -67,6 +67,12 @@
         religion = orthodox
         size = 56350
     }
+	
+	farmers = {
+        culture = thracian
+        religion = orthodox
+        size = 10230
+    }
 
     aristocrats = {
         culture = greek
@@ -160,6 +166,12 @@
         culture = greek
         religion = orthodox
         size = 24075
+    }
+	
+	farmers = {
+        culture = thracian
+        religion = orthodox
+        size = 4075
     }
 
     soldiers = {
