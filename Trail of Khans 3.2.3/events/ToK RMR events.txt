@@ -179,8 +179,17 @@ country_event = {
 		
 		set_global_flag = the_roman_civil_war
 
-		prestige = 30
-		badboy = 20
+		any_country = {
+			limit = {
+				primary_culture = greek
+			}
+			relation = {
+				who = RMR
+				value = -200
+			}
+			leave_alliance = RMR
+		}
+		badboy = 25
 	}
 }
 
@@ -256,6 +265,7 @@ country_event = {
 				}
 			}
 		}
+		has_global_flag = pheonix_rises
 		has_global_flag = the_roman_civil_war
 	}
 
@@ -304,6 +314,46 @@ country_event = {
 				}
 			}
 			add_accepted_culture = roman
+		}
+	}
+}
+
+country_event = {
+	id = 456000
+	title = "EVTNAME456000"
+	desc = "EVTDESC456000"
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	trigger = {
+		tag = RMR
+		NOT = {
+			has_global_flag = pheonix_rises
+		}
+		all_core = {
+			owned_by = THIS
+		}
+		has_global_flag = the_roman_civil_war
+		BYZ = {
+			all_core = {
+				owned_by = THIS
+			}
+		}
+	}
+
+	option = {
+		name = "The Council was a Failure!"
+
+		clr_global_flag = the_roman_civil_war
+
+		prestige = 75
+		BYZ = {
+			all_core = {
+				add_core = THIS
+				remove_core = BYZ
+			}
 		}
 	}
 }

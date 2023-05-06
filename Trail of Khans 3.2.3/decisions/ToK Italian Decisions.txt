@@ -55,9 +55,6 @@ political_decisions = {
 				primary_culture = dalmatian
 				is_culture_group = italian 
 			}
-			NOT = { 
-				ITA = { exists = yes } 
-			} 
 			NOT = {
 				RMR = { 
 					exists = yes
@@ -67,7 +64,6 @@ political_decisions = {
  	    
 		allow = {
 			is_greater_power = yes
-			state_n_government = 1
 			war = no
 	 	    all_core= {
 		        OR = {

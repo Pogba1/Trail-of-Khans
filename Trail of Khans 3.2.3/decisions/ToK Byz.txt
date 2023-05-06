@@ -160,6 +160,9 @@ political_decisions = {
 			EGY_1745 = {
 				add_core = THIS
 			}
+			EGY_1746 = {
+				add_core = THIS
+			}
             set_country_flag = patriarchate_of_alexandria
             any_pop = {
                 limit = {
@@ -569,6 +572,7 @@ political_decisions = {
 					remove_core = THR
 				}
 			}
+			set_global_flag = pheonix_rises
 		}
 	}
 	

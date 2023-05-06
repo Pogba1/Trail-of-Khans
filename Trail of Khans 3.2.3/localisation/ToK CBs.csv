@@ -30,9 +30,9 @@ mongol_unification_cb_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;
 mongol_unification_cb_short;Acquire $STATE$;;;;;;;;;;;;;
 mongol_unification_cb;Mongol Unification;;;;;;;;;;;;;
 imperial_restoration_cb;Imperial Reconquest;x
-imperial_restoration_cb_short;Acquire $STATE$ from $RECIPIENT;x
+imperial_restoration_cb_short;Acquire $STATE$ from $RECIPIENT$;x
 imperial_restoration_cb_desc;This casus-belli will conquer a state, usable on people with Byzantine cores.;x
-imperial_restoration_cb_setup;Acquire $STATE$ from $RECIPIENT.;x
+imperial_restoration_cb_setup;Acquire $STATE$ from $RECIPIENT$.;x
 imperial_restoration_annex_cb;Imperial Reintegration;x
 imperial_restoration_annex_cb_setup;$RECIPIENT$ will be annexed to us.;x
 imperial_restoration_annex_cb_short;Imperial Reintegration;x
@@ -58,6 +58,6 @@ take_capital_america_short;Take Capital;x
 take_capital_america_desc;Take this country's capital;x
 take_capital_america_setup;Take $RECIPIENT$'s capital;x
 roman_civil_war_cb;Roman Civil War;x
-roman_civil_war_cb_short;Acquire $STATE$ from $RECIPIENT;x
+roman_civil_war_cb_short;Acquire $STATE$ from $RECIPIENT$;x
 roman_civil_war_cb_desc;Acquire $STATE$.;x
-roman_civil_war_cb_setup;Acquire $STATE$ from $RECIPIENT.;x
+roman_civil_war_cb_setup;Acquire $STATE$ from $RECIPIENT$.;x

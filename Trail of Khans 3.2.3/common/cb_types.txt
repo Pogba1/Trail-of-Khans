@@ -161,9 +161,20 @@ imperial_restoration_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		
-		
-		THIS = {OR = {tag = NCE tag = EPI tag = ATH tag = MEA tag = GAL tag = THR}}
+		THIS = {
+			OR = {
+				tag = NCE 
+				tag = EPI 
+				tag = ATH 
+				tag = MEA 
+				tag = GAL 
+				tag = THR
+				AND = {
+					tag = RMR
+					has_global_flag = the_roman_civil_war
+				}
+			}
+		}
 		NOT = {exists = BYZ}
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {
@@ -213,7 +224,20 @@ imperial_restoration_annex_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		THIS = {OR = {tag = NCE tag = EPI tag = ATH tag = MEA tag = GAL tag = THR}}
+		THIS = {
+			OR = {
+				tag = NCE 
+				tag = EPI 
+				tag = ATH 
+				tag = MEA 
+				tag = GAL 
+				tag = THR
+				AND = {
+					tag = RMR
+					has_global_flag = the_roman_civil_war
+				}
+			}
+		}		
 		NOT = {exists = BYZ}
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {
