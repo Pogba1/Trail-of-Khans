@@ -2584,31 +2584,31 @@
     }
 
     officers = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 150
     }
 
     clergymen = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 850
     }
 
     artisans = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 8000
     }
 
     soldiers = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 2000
     }
 
     farmers = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 70895
     }
@@ -2616,31 +2616,31 @@
 #Sassari (188000/47000 POPS)
 766 = {
     aristocrats = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 1100
     }
 
     clergymen = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 475
     }
 
     artisans = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 6500
     }
 
     soldiers = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 1100
     }
 
     farmers = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 43211
     }

@@ -50,5 +50,5 @@ nv_diplomacy = {
 	influence_modifier = 0.2
 	cb_generation_speed_modifier = 0.15
 	mobilisation_size = 0.015
-	badboy = -0.05
+	badboy = -0.02
 }

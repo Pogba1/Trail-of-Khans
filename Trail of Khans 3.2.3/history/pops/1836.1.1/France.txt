@@ -4177,23 +4177,23 @@
 473 = {
 
     aristocrats = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 150
     }
 
     artisans = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 1500
     }
     soldiers = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 1100
     }
     farmers = {
-        culture = romano_nuragic
+        culture = roman
         religion = catholic
         size = 48100
     }

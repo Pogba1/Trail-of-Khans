@@ -11,13 +11,13 @@ political_decisions = {
 			is_secondary_power = yes			
 		}
 		effect = {
-			badboy = 15
-			prestige = 25
-			add_casus_belli = {
+			war = {
 				target = BNG
-				type = conquest
-				months = 12
+				attacker_goal = {
+					casus_belli = establish_protectorate_casus_belli
+				}
 			}
+			set_country_flag = the_indian_company
 		}
 	}
 	modernize_nile_irrigation = {
