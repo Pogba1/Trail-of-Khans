@@ -1,3 +1,27 @@
+leader = {
+    name = "Publius Cornelius"
+    date = 1835.1.1
+    type = land
+    personality = efficient
+    background = bootlicker
+}
+
+leader = {
+    name = "Scipio Brutus"
+    date = 1830.1.1
+    type = land
+    personality = spartan
+    background = natural_born_leader
+}
+
+leader = {
+    name = "Quintilius Maximilianus"
+    date = 1835.1.1
+    type = land
+    personality = highlander
+    background = school_of_the_bayonet
+}
+
 army = {
     name = "Legio I"
     location = 749

@@ -39,10 +39,8 @@ political_decisions = {
 		allow = {
 			JER = {
 				all_core = {
-					NOT = {
-						is_core = CYP
-					}
-				owned_by = THIS
+					culture = mashriqi
+					owned_by = THIS
 				}
 			}		
 		}
@@ -97,20 +95,6 @@ political_decisions = {
 			AFG = {all_core = {add_core = THIS}}
 			add_accepted_culture = pashtun
 			add_accepted_culture = baluchi
-		}
-	}
-	misri_integration_svf = {
-		potential = {
-			tag = SVF
-			NOT = {has_country_flag = misri_integration_svf}
-		}
-		allow = {
-			nationalism_n_imperialism = 1
-			1745 = {owned_by = THIS}
-		}
-		effect = {
-			add_accepted_culture = misri
-			set_country_flag = misri_integration_svf
 		}
 	}
 	integrate_kurds = {
