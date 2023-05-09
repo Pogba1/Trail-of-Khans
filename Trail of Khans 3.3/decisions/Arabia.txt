@@ -616,7 +616,6 @@ political_decisions = {
         picture = map_arabia
         potential = {
             tag = ARA
-			NOT = {original_tag = EGY}
             NOT = {
                 has_country_flag = claim_arabian_peninsula
                 has_country_flag = created_externally
@@ -800,7 +799,6 @@ political_decisions = {
     claim_bahrain_qatar_peninsula = {
         picture = bahrain_trade
         potential = {
-		NOT = {original_tag = EGY}
             OR = {
                 AND = {
                     tag = TUR

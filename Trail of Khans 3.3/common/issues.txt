@@ -538,7 +538,6 @@ political_reforms = {
                 NOT = { has_country_flag = government_busy_with_something }
                 OR = {
                     is_culture_group = latin_american_cultures
-                    is_culture_group = american_cultures
                     is_culture_group = african_diaspora_cultures
                     is_culture_group = native_american
                     primary_culture = australian

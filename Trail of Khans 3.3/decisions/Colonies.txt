@@ -1707,7 +1707,6 @@ political_decisions = {
                         any_owned_province = {
                             OR = {
                                 region = SPA_1455
-                                region = SPA_1459
                                 region = SPA_1463
                             }
                         }
@@ -3452,7 +3451,6 @@ political_decisions = {
                             any_owned_province = {
                                 OR = {
                                     region = SPA_1455
-                                    region = SPA_1459
                                     region = SPA_1463
                                 }
                             }
@@ -3475,7 +3473,6 @@ political_decisions = {
                             any_owned_province = {
                                 OR = {
                                     region = SPA_1455
-                                    region = SPA_1459
                                     region = SPA_1463
                                 }
                             }
@@ -3484,7 +3481,6 @@ political_decisions = {
                             limit = {
                                 OR = {
                                     region = SPA_1455
-                                    region = SPA_1459
                                     region = SPA_1463
                                 }
                             }

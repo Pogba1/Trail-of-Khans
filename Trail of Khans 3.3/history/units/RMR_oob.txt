@@ -1,6 +1,6 @@
 leader = {
     name = "Publius Cornelius"
-    date = 1835.1.1
+    date = 1828.1.1
     type = land
     personality = efficient
     background = bootlicker
@@ -16,10 +16,18 @@ leader = {
 
 leader = {
     name = "Quintilius Maximilianus"
-    date = 1835.1.1
+    date = 1833.1.1
     type = land
     personality = highlander
     background = school_of_the_bayonet
+}
+
+leader = {
+    name = "Fabianus Scipio"
+    date = 1824.1.1
+    type = sea
+    personality = resolute
+    background = adventurer
 }
 
 army = {

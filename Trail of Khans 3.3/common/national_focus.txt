@@ -407,7 +407,7 @@ production_focus = {
         liquor = 200
         wine = 200
         glass = 200
-        icon = 200
+        icon = 30
         limit = {
         #    civilized = yes
             NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }

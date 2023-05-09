@@ -305,7 +305,7 @@ steel_factory = {
     goods_cost =
     {   
         machine_parts = 100
-        iron = 100
+        iron = 150
         cement = 200
     }
     time = 100
@@ -546,7 +546,7 @@ lumber_mill = {
     goods_cost =
     {
         machine_parts = 10
-        iron = 100
+        iron = 150
         cement = 200
     }
     time = 100
@@ -565,7 +565,7 @@ fabric_factory = {
     goods_cost =
     {
         machine_parts = 10
-		iron = 100
+		iron = 150
 		cement = 200
 		lumber = 200
     }
@@ -585,7 +585,7 @@ wool_fabric_factory = {
 	goods_cost =
 	{
         machine_parts = 10
-		iron = 100
+		iron = 150
 		cement = 200
 		lumber = 200
 	}
@@ -605,7 +605,7 @@ cement_factory = {
     goods_cost =
     {
         machine_parts = 10
-        iron = 100
+        iron = 150
         lumber = 200
     }
     time = 100
@@ -624,7 +624,7 @@ glass_factory = {
     goods_cost =
     {
         machine_parts = 40
-        iron = 100
+        iron = 150
         cement = 200
     }
     time = 100
@@ -644,7 +644,7 @@ fertilizer_factory = {
     goods_cost =
     {
         machine_parts = 200
-        iron = 100
+        iron = 150
         cement = 200
     }
     time = 100

@@ -108,7 +108,7 @@ political_decisions = {
 		}
 		allow = {
 			literacy = 0.40
-			compound_steam_engine = 1
+			compound_steam_engines = 1
 			WAL_665 = {
 				owned_by = THIS
 			}

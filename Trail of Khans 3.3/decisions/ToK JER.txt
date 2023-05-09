@@ -97,6 +97,7 @@ political_decisions = {
 			remove_country_modifier = jerusalem_monks
 			country_event = {
 				id = 2000000
+				days = 0
 			}
 		}
 	}

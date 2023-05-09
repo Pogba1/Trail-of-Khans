@@ -110,18 +110,6 @@ political_decisions = {
 				add_core = RMR
 			}
 			any_country = {
-				limit = { 
-					OR = {
-						primary_culture = north_italian
-						primary_culture = south_italian
-					}
-					NOT = {
-						tag = DLM
-					}
-				}
-				annex_to = THIS
-			}
-			any_country = {
 				limit = {
 					OR = {
 						in_sphere = THIS
