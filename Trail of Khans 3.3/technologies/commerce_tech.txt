@@ -802,7 +802,7 @@ government_interventionism = {
     year = 1900
     cost = 21600
 
-    influence = 0.1s
+    influence = 0.50
     ai_chance = {
         factor = 1.01
         modifier = {

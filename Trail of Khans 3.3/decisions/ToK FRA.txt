@@ -17,16 +17,6 @@ political_decisions = {
 			FRA_404 = {
 				add_core = THIS
 			}
-			405 = { remove_core = NET }
-			any_owned = {
-				limit = {
-					culture = picard
-				}
-				add_province_modifier = {
-					name = francization_of_the_picards
-					duration = 14600
-				}
-			}
 			set_country_flag = le_pas_de_calais
 		}
 	}

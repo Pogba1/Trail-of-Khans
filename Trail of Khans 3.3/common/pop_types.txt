@@ -1532,6 +1532,16 @@ assimilation_chance =
 			}
 		}
 	}
+#Assimilation for picard pops after France takes their decision
+	group = {
+		modifier = {
+			factor = 20
+			has_pop_culture = picard
+			country = {
+				has_country_flag = le_pas_de_calais
+			}
+		}
+	}
 
 #MILITANCY MODIFIFER - 
 #	group = {

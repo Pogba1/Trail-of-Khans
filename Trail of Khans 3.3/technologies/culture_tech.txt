@@ -477,7 +477,7 @@ positivism = {
                 tag = NGF
                 tag = GER
                 tag = ENG
-                tag = USA
+                
             }
         }
     }
@@ -527,7 +527,7 @@ functionalism = {
                 tag = NGF
                 tag = GER
                 tag = ENG
-                tag = USA
+                
             }
         }
     }
@@ -578,7 +578,7 @@ biologism = {
                 tag = NGF
                 tag = GER
                 tag = ENG
-                tag = USA
+                
             }
         }
     }
@@ -786,7 +786,7 @@ state_n_government = {
             OR = {
                 year = 1860
                 tag = SAR
-                tag = USA
+                
                 colonial_nation = yes
             }
         }
@@ -802,7 +802,6 @@ nationalism_n_imperialism = {
     cost = 14400
 
     max_national_focus = 1
-    #colonial_life_rating = -10
     cb_creation_speed = 0.1
 
     ai_chance = {
@@ -861,10 +860,8 @@ nationalism_n_imperialism = {
         }
         modifier = {
             factor = 100
-            AND = {
-                cultural_union = { exists = no }
-                is_greater_power = yes
-            }
+            cultural_union = { exists = no }
+            is_greater_power = yes
         }
     }
 }
