@@ -16,6 +16,9 @@ country_event = {
         tag = EGY
         owns = 1251
         money = 200000
+        NOT = {
+            has_country_flag = kolkata_trade_hub
+        }
         has_country_flag = the_indian_company
     }
 
@@ -28,6 +31,7 @@ country_event = {
                 name = capital_of_indian_trade
                 duration = -1
             }
+            set_country_flag = kolkata_trade_hub
             life_rating = 3
             fort = 1
             naval_base = 1
