@@ -42,12 +42,20 @@ country_event = {
         SYC = {
             treasury = 100000
         }
+        EGY = {
+            treasury = 100000
+        }
         any_country = {
             limit = {
                 exists = yes
                 is_secondary_power = yes
                 NOT = {
-                    tag = SVF
+                    OR = {
+                        tag = SVF
+                        tag = EGY
+                        tag = SYC
+                        tag = RMR
+                    }
                 }
             }
             treasury = 40000

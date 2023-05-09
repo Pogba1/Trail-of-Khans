@@ -23,24 +23,6 @@ political_decisions = {
 		}
 	}
 	
-	bulgarian_reintegration = {
-		picture = "reforge_byz"
-		potential = {
-		tag = BYZ
-		NOT = {has_country_flag = bulgarian_reintegration}
-		}
-		allow = {
-			809 = {owned_by = THIS}
-			817 = {owned_by = THIS}
-		}
-		effect = {
-			set_country_flag = bulgarian_reintegration
-			add_accepted_culture = bulgarian
-			TUR_809 = {add_core = THIS}
-		}
-	
-	}
-	
 	patriarchate_of_antioch = {
         picture = "build_teresina"
         potential = {
@@ -403,7 +385,6 @@ political_decisions = {
             war = no
             nationalism_n_imperialism = 1
 			idealism = 1
-			#muzzle_loaded_rifles = 1
         }
 
         effect = {
@@ -445,9 +426,6 @@ political_decisions = {
 		potential = {
 			NOT = {
 				has_country_flag = the_pheonix_rose_and_an_eagle_fell
-			}
-			RMR = {
-				exists = yes
 			}
 			NOT = {
 				has_country_flag = integrate_the_armenians
@@ -622,7 +600,6 @@ political_decisions = {
         }
 
         allow = {
-			has_country_flag = bulgarian_reintegration
             war = no
             is_greater_power = yes
 			all_core = {OR = {empty = yes owned_by = THIS}}
@@ -634,32 +611,14 @@ political_decisions = {
 			TUR_788 = { add_core = THIS }
 			MON_2582 = { add_core = THIS }
 			AUS_780 = { add_core = THIS }
+			AUS_777 = { add_core = THIS }
+			AUS_768 = { add_core = THIS }
+			AUS_771 = { add_core = THIS }
+			add_accepted_culture = serb
             set_country_flag = dominance_in_the_balkans
         }
         ai_will_do = { factor = 1 }
     }
-	
-	dominance_in_the_balkans_2 = {
-		picture = "conquest_adriatic"
-		potential = {
-			tag = BYZ
-			NOT = { has_country_flag = dominance_in_the_balkans_2 }
-		}
-		allow = {
-			has_country_flag = dominance_in_the_balkans
-			TUR_788 = { owned_by = THIS }
-			MON_2582 = { owned_by = THIS }
-			AUS_780 = { owned_by = THIS }
-			nationalism_n_imperialism = 1
-		}
-		effect = {
-			set_country_flag = dominance_in_the_balkans_2						
-			add_accepted_culture = serb
-			AUS_777 = { add_core = THIS }
-			AUS_768 = { add_core = THIS }
-			AUS_771 = { add_core = THIS }
-		}
-	}
 	
 	#Reused! This is Actually the Glory of the East decision!
 	integrate_the_armenians = {
@@ -680,6 +639,7 @@ political_decisions = {
 			917 = {owned_by = BYZ}
             war = no
             nationalism_n_imperialism = 1
+			year = 1860
         }
 
         effect = {
@@ -700,7 +660,6 @@ political_decisions = {
 			EGY_1762 = { add_core = THIS }
 			EGY_1771 = { add_core = THIS }
 			TUR_893 = { add_core = THIS }
-			badboy = 20
         }
         ai_will_do = {	factor = 0.45	}
 

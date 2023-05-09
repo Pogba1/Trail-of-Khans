@@ -34,22 +34,15 @@ political_decisions = {
 		effect = {
 			set_country_flag = retake_north
 			add_accepted_culture = breton 
-			418 = {
-				remove_core = IRE
+			IRE = {
+				all_core = {
+					NOT = {
+						is_core = GAE
+					}
+					add_core = THIS
+					remove_core = IRE
+				}
 			}
-			424 = {
-				add_core = THIS
-				remove_core = IRE
-			}
-			421 = {
-				add_core = THIS
-				remove_core = IRE
-			}
-			420 = {
-				add_core = THIS
-				remove_core = IRE
-			}
-			405 = {add_core = THIS}
 		}
 	}
 	reintegrate_lorraine = {
