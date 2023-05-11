@@ -26,12 +26,12 @@ country_event = {
         name = "Let the spice flow"
 
         money = -200000
+        set_country_flag = kolkata_trade_hub
         1251 = {
             add_province_modifier = {
                 name = capital_of_indian_trade
                 duration = -1
             }
-            set_country_flag = kolkata_trade_hub
             life_rating = 3
             fort = 1
             naval_base = 1
