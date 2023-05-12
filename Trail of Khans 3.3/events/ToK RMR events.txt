@@ -293,7 +293,6 @@ country_event = {
 					remove_core = BYZ
 				}
 			}
-			add_accepted_culture = greek
 		}
 		random_owned = {
 			limit = {
@@ -313,8 +312,9 @@ country_event = {
 					remove_core = RMR
 				}
 			}
-			add_accepted_culture = roman
 		}
+		add_accepted_culture = greek
+		add_accepted_culture = roman
 	}
 }
 
