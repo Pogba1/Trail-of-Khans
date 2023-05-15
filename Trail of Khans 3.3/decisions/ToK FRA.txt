@@ -30,14 +30,16 @@ political_decisions = {
 		allow = {
 			war = no
 			418 = {owned_by = THIS}
-			}
+		}
 		effect = {
 			set_country_flag = retake_north
 			add_accepted_culture = breton 
 			IRE = {
 				all_core = {
-					NOT = {
-						is_core = GAE
+					limit = {
+						NOT = {
+							is_core = GAE
+						}
 					}
 					add_core = THIS
 					remove_core = IRE

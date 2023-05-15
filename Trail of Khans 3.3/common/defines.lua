@@ -24,7 +24,7 @@ country = {
     CAMPAIGN_EVENT_MIN_TIME = 21 ,-- never more often than 3 weeks between
     CAMPAIGN_EVENT_STATE_SCALE = -3,    -- every non-colonial state reduces by 3 days.
     CAMPAIGN_DURATION = 6,    -- a campaign lasts these amount of months
-    COLONIAL_RANK = 16, -- Minimum rank a nation must have to send colonists
+    COLONIAL_RANK = 100, -- Minimum rank a nation must have to send colonists
     COLONY_TO_STATE_PRESTIGE_GAIN = 1, -- Prestige gain when turning colony to state
     COLONIAL_LIFERATING = 35,
     BASE_GREATPOWER_DAILY_INFLUENCE = 0.25, -- Influence value which is distributed each day
@@ -658,7 +658,7 @@ pops = {
 
     PDEF_BASE_CON = 20.0,            -- so half'ed effect.
 
-    NATIONAL_FOCUS_DIVIDER = 400000.0,
+    NATIONAL_FOCUS_DIVIDER = 1.0,
 
     POP_SAVINGS = 0.03,
 
