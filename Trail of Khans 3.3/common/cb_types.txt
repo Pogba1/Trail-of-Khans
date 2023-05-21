@@ -2026,7 +2026,6 @@ humiliate = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		has_recently_lost_war = no
 	}	
 	on_add = {
 		move_issue_percentage = { 
