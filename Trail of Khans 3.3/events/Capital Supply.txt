@@ -32,3 +32,28 @@ country_event = {
 		}
     }
 }
+
+country_event = {
+    id = 555454
+    title = "EVTNAME555454"
+    desc = "EVTDESC555454"
+
+    trigger = {
+        capital_scope = {
+            has_province_modifier = capital_supply
+        }
+        ai = yes
+    }
+
+    mean_time_to_happen = {
+        days = 0
+    }
+
+    option = {
+        name = "Sad!"
+
+        any_owned = {
+            remove_province_modifier = capital_supply
+        }
+    } 
+}
