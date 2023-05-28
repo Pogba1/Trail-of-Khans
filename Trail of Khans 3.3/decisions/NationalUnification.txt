@@ -501,8 +501,7 @@ political_decisions = {
             clr_country_flag = animist_country
 
             religion = hindu
-            set_country_flag = hindu_country
-
+            
             all_core = { remove_core = THIS }
             1303 = { add_core = HND }
             1312 = { add_core = HND }
