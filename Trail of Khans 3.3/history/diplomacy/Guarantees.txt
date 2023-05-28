@@ -9,3 +9,15 @@ SWE = {
         truce_until="1841.1.1"
     }
 }
+
+MGL = {
+    PNJ = {
+        truce_until="1841.1.1"
+    }
+}
+
+PNJ = {
+    MGL = {
+        truce_until="1841.1.1"
+    }
+}

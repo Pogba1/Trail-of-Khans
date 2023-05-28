@@ -80,8 +80,6 @@ very_hard_ai = {
 ##########################################################################
 
 overseas = {
-    assimilation_rate = -0.3
-    pop_militancy_modifier = -0.01
 }
 
 coastal = {
