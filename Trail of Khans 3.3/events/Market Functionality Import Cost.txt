@@ -1,36 +1,4 @@
 country_event = {
-    id = 241000
-    title = "Market Regulations grants us benefits"
-    desc = " "
-
-    trigger = {
-        NOT = {
-            economic_responsibility = 1
-        }
-        market_regulations = 1
-        civilized = yes
-        NOT = {
-            THIS = {
-                has_country_modifier = market_regulations_infamy
-            }
-        }
-    }
-
-    mean_time_to_happen = {
-        days = 0
-    }
-
-    option = {
-        name = "Great!"
-        add_country_modifier = {
-            name = market_regulations_infamy
-            duration = -1
-        }
-        remove_country_modifier = business_regulations_infamy
-    }
-}
-
-country_event = {
     id = 242000
     title = "Market Structure grants us benefits"
     desc = " "
@@ -43,6 +11,18 @@ country_event = {
         civilized = yes
         NOT = {
             has_country_modifier = market_structure_infamy
+        }
+        NOT = {
+            has_country_modifier = business_regulations_infamy
+        }
+        NOT = {
+            has_country_modifier = market_regulations_infamy
+        }
+        NOT = {
+            has_country_modifier = economic_responsibility_infamy
+        }
+        NOT = {
+            has_country_modifier = government_interventionism_infamy
         }
     }   
     option = {
@@ -68,6 +48,15 @@ country_event = {
         NOT = {
             has_country_modifier = business_regulations_infamy
         }
+        NOT = {
+            has_country_modifier = market_regulations_infamy
+        }
+        NOT = {
+            has_country_modifier = economic_responsibility_infamy
+        }
+        NOT = {
+            has_country_modifier = government_interventionism_infamy
+        }
     }   
     option = {
         name = "Great!"
@@ -80,8 +69,44 @@ country_event = {
 }
 
 country_event = {
+    id = 241000
+    title = "Market Regulations grants us benefits"
+    desc = " "
+
+    trigger = {
+        NOT = {
+            economic_responsibility = 1
+        }
+        market_regulations = 1
+        civilized = yes
+        NOT = {
+            has_country_modifier = market_regulations_infamy
+        }
+        NOT = {
+            has_country_modifier = economic_responsibility_infamy
+        }
+        NOT = {
+            has_country_modifier = government_interventionism_infamy
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 0
+    }
+
+    option = {
+        name = "Great!"
+        add_country_modifier = {
+            name = market_regulations_infamy
+            duration = -1
+        }
+        remove_country_modifier = business_regulations_infamy
+    }
+}
+
+country_event = {
     id = 245000
-    title = "Government Interventionism grants us benefits"
+    title = "Economic Responsibility grants us benefits"
     desc = " "
 
     trigger = {
@@ -92,6 +117,9 @@ country_event = {
         civilized = yes
         NOT = {
             has_country_modifier = economic_responsibility_infamy
+        }
+        NOT = {
+            has_country_modifier = government_interventionism_infamy
         }
     }   
     option = {
