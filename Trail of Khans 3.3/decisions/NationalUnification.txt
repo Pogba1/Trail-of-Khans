@@ -6,9 +6,6 @@ political_decisions = {
 				tag = MOL
 				tag = SIE
 			}
-			exists = WAL
-			exists = MOL
-			exists = SIE
 			NOT = { exists = ROM }
 		}
 

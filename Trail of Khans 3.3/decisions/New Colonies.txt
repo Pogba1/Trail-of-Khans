@@ -5769,7 +5769,6 @@ political_decisions = {
                             has_country_flag = catholic_country
                             has_country_flag = protestant_country
                             has_country_flag = coptic_country
-                            has_country_flag = protestant_country
                             has_country_flag = jewish_country
                         }
                     }
@@ -5868,7 +5867,6 @@ political_decisions = {
                             has_country_flag = catholic_country
                             has_country_flag = protestant_country
                             has_country_flag = coptic_country
-                            has_country_flag = protestant_country
                             has_country_flag = jewish_country
                         }
                     }

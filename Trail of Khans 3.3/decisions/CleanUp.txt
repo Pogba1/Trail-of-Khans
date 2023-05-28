@@ -3411,10 +3411,7 @@ political_decisions = {
                     primary_culture = japanese
                     overlord = { primary_culture = japanese }
                 }
-                AND = {
-                    
-                    overlord = { primary_culture = spanish }
-                }
+                overlord = { primary_culture = spanish }
             }
         }
 
