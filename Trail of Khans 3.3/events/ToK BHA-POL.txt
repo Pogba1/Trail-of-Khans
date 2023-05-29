@@ -203,9 +203,9 @@ country_event = {
         }
         any_owned = {
             limit = {
-                is_core = CIS
+                is_core = RMR
             }
-            secede_province = CIS
+            secede_province = RMR
         }
         any_owned = {
             limit = {
