@@ -1064,7 +1064,6 @@ province_event = {
         controlled_by = THIS
         owned_by = THIS
         is_colonial = no
-        is_overseas = no
         OR = {
             is_primary_culture = yes
             is_accepted_culture = yes
