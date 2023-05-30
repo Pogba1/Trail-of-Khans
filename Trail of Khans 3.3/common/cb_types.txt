@@ -1574,6 +1574,9 @@ free_peoples = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		THIS = {
+			ai = no
+		}
 	}
 
 	# THIS - us
@@ -1655,6 +1658,9 @@ liberate_country = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		THIS = {
+			ai = no
+		}
 	}
 
 	# THIS - us
