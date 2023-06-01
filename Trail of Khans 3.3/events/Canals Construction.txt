@@ -29,10 +29,10 @@ country_event = {
             owner = { set_variable = { which = owed_cash_money value = 3000 } }
         }
 
-        # random_owned = {
-            # owner = { country = { money = 3000000 } }
-            # limit = { owner = { money = -3000000 } }
-        # }
+        random_owned = {
+            owner = { country = { money = 3000000 } }
+            limit = { owner = { money = -3000000 } }
+        }
 
         set_global_flag = suez_canal_construction
         random_list = {
@@ -68,10 +68,10 @@ country_event = {
             owner = { set_variable = { which = owed_cash_money value = 2500 } }
         }
 
-        # random_owned = {
-            # limit = { owner = { money = 2500000 } }
-            # owner = { money = -2500000 }
-        # }
+        random_owned = {
+            limit = { owner = { money = 2500000 } }
+            owner = { money = -2500000 }
+        }
 
         set_global_flag = suez_canal_construction
         random_list = {
@@ -640,10 +640,10 @@ country_event = {
             }
             owner = { set_variable = { which = owed_cash_money value = 6000 } }
         }
-        # random_owned = {
-            # limit = { owner = { money = 6000000 } }
-            # owner = { money = -6000000 }
-        # }
+        random_owned = {
+            limit = { owner = { money = 6000000 } }
+            owner = { money = -6000000 }
+        }
         set_global_flag = panama_canal_construction
         random_list = {
             35 = { 1723 = { add_province_modifier = { name = panama_canal_construction duration = 2920 } } }
@@ -677,10 +677,10 @@ country_event = {
             }
             owner = { set_variable = { which = owed_cash_money value = 5000 } }
         }
-        # random_owned = {
-            # limit = { owner = { money = 5000000 } }
-            # owner = { money = -5000000 }
-        # }
+        random_owned = {
+            limit = { owner = { money = 5000000 } }
+            owner = { money = -5000000 }
+        }
         set_global_flag = panama_canal_construction
         random_list = {
             30 = { 1723 = { add_province_modifier = { name = panama_canal_construction duration = 2920 } } }
@@ -714,10 +714,10 @@ country_event = {
             }
             owner = { set_variable = { which = owed_cash_money value = 4000 } }
         }
-        # random_owned = {
-            # limit = { owner = { money = 4000000 } }
-            # owner = { money = -4000000 }
-        # }
+        random_owned = {
+            limit = { owner = { money = 4000000 } }
+            owner = { money = -4000000 }
+        }
         set_global_flag = panama_canal_construction
         random_list = {
             40 = { 1723 = { add_province_modifier = { name = panama_canal_construction duration = 2920 } } }
@@ -751,10 +751,10 @@ country_event = {
             }
             owner = { set_variable = { which = owed_cash_money value = 3000 } }
         }
-        # random_owned = {
-            # limit = { owner = { money = 3000000 } }
-            # owner = { money = -3000000 }
-        # }
+        random_owned = {
+            limit = { owner = { money = 3000000 } }
+            owner = { money = -3000000 }
+        }
         set_global_flag = panama_canal_construction
         random_list = {
             30 = { 1723 = { add_province_modifier = { name = panama_canal_construction duration = 3650 } } }

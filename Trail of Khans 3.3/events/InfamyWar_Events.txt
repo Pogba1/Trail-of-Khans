@@ -196,7 +196,7 @@ country_event = {
             war = {
                 target = THIS
                 attacker_goal = {
-                    casus_belli = dismantle_cb
+                    casus_belli = cut_down_to_size
                 }
                 call_ally = yes
             }
@@ -397,7 +397,7 @@ country_event = {
             war = {
                 target = THIS
                 attacker_goal = {
-                    casus_belli = dismantle_cb
+                    casus_belli = cut_down_to_size
                 }
                 call_ally = yes
             }
@@ -414,11 +414,6 @@ country_event = {
 
     trigger = {
         has_country_flag = coalition_member
-        OR = {
-            has_country_modifier = great_war
-            has_country_modifier = great_war2
-            has_country_modifier = great_war3
-        }
         ai = yes
         war = yes
         NOT = { has_country_modifier = end_the_war }
@@ -437,9 +432,6 @@ country_event = {
 
     option = {
         name = "EVT96145OPTA"
-        remove_country_modifier = great_war
-        remove_country_modifier = great_war2
-        remove_country_modifier = great_war3
         add_country_modifier = {
             name = end_the_war
             duration = 365

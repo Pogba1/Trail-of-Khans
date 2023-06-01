@@ -138,16 +138,23 @@ country_event = {
         NOT = {
             has_country_flag = prohibited_pogroms
         }
-        any_pop = {
-            has_pop_religion = jewish
-        }   
-        NOT = {
-            literacy = 0.6
+        any_owned_province = {
+            any_pop = {
+                has_pop_religion = jewish
+            }
         }
     }
 
     mean_time_to_happen = {
-        months = 12
+        months = 60
+        modifier = {
+            factor = 0.9
+            average_militancy = 3
+        }
+        modifier = {
+            factor = 0.9
+            average_militancy = 4
+        }
     }
 
     option = {
@@ -200,7 +207,7 @@ country_event = {
         any_pop = {
             limit = {
                 OR = {
-                    pop_majority_ideology = libereal
+                    pop_majority_ideology = liberal
                     pop_majority_ideology = socialist
                     pop_majority_ideology = communist
                 }

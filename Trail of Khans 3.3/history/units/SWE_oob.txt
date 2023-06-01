@@ -10,7 +10,7 @@ LUB = {
 }
 
 leader = {
-    name = "Carl Nordenskjöld"
+    name = "Carl Nordenskjï¿½ld"
     date = 1834.1.1
     type = sea
     personality = disciplined
@@ -28,7 +28,7 @@ leader = {
 }
 
 leader = {
-    name = "Axel Mörner"
+    name = "Axel Mï¿½rner"
     date = 1818.1.1
     type = land
     personality = unruly
@@ -46,7 +46,7 @@ leader = {
 }
 
 leader = {
-    name = "C. Cederström"
+    name = "C. Cederstrï¿½m"
     date = 1824.1.1
     type = land
     personality = strange
@@ -72,7 +72,7 @@ leader = {
     prestige = 0.1
 }
 army = {
-    name = "Indisk Armén"
+    name = "Indisk Armï¿½n"
     location = 1297
     regiment = {
         name= "1.1. Infanteridivision"
@@ -135,7 +135,7 @@ army = {
 }
 
 army = {
-    name = "Svenska Armén"
+    name = "Svenska Armï¿½n"
     location = 322
     regiment = {
         name= "Svea Livgarde"
@@ -144,13 +144,13 @@ army = {
     }
 
     regiment = {
-        name= "Södermanlands Regemente"
+        name= "Sï¿½dermanlands Regemente"
         type = infantry
         home = 326
     }
 
     regiment = {
-        name= "Första Livgrenadjärregementet"
+        name= "Fï¿½rsta Livgrenadjï¿½rregementet"
         type = infantry
         home = 325
     }
@@ -162,7 +162,7 @@ army = {
     }
 
     regiment = {
-        name= "Västgöta Regemente"
+        name= "Vï¿½stgï¿½ta Regemente"
         type = infantry
         home = 330
     }
@@ -174,13 +174,13 @@ army = {
     }
 
     regiment = {
-        name= "Jönköpings Regemente"
+        name= "Jï¿½nkï¿½pings Regemente"
         type = infantry
         home = 333
     }
 
     regiment = {
-        name= "Södra Skånska Infanteriregementet"
+        name= "Sï¿½dra Skï¿½nska Infanteriregementet"
         type = infantry
         home = 334
     }
@@ -207,7 +207,7 @@ navy = {
     }
 
     ship = {
-        name= "Fäderneslandet"
+        name= "Fï¿½derneslandet"
         type = manowar
     }
     ship = {
@@ -220,7 +220,7 @@ navy = {
         type = manowar
     }
 	ship = {
-        name= "Fäderneslandet"
+        name= "Fï¿½derneslandet"
         type = manowar
     }
 

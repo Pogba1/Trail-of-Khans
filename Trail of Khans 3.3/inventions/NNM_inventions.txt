@@ -1,96 +1,14 @@
-declaration_of_the_rights_of_man = {
-    limit = { enlightenment_thought = 1 }
-    news = no
-    chance = {
-        base = 2
-        modifier = {
-            factor = 2
-            ruling_party_ideology = liberal
-        }
-        modifier = {
-            factor = 5
-            average_militancy = 4
-        }
-        modifier = {
-            factor = -9
-            civilized = no
-        }
-    }
-    effect = {
-        rebel_org_gain = {
-            faction = liberal_rebels
-            value = 0.15
-        }
-        rebel_org_gain = {
-            faction = nationalist_rebels
-            value = 0.35
-        }
-        rebel_org_gain = {
-            faction = separatist_rebels
-            value = 0.25
-        }
-    }
-}
-
-
-spirit_of_freedom = {
-    limit = { enlightenment_thought = 1 }
-    news = no
-    chance = {
-        base = 2
-        modifier = {
-            factor = 5
-            nationalvalue = nv_liberty
-        }
-        modifier = {
-            factor = 5
-            nationalvalue = nv_equality
-        }
-        modifier = {
-            factor = 5
-            year = 1847
-        }
-        modifier = {
-            factor = -12
-            civilized = no
-        }
-    }
-    effect = {
-        rebel_org_gain = {
-            faction = liberal_rebels
-            value = 0.15
-        }
-    }
-}
-
 the_dark_continent = {
     limit = {
         has_country_flag = existing_country
         revolution_n_counterrevolution = 1
-        year = 1890
+        year = 18801
     }
     chance = {
         base = 0
         modifier = {
             factor = -60
-            NOT = { year = 1890 }
-        }
-        modifier = {
-            factor = -100
-            NOT = {
-                has_global_flag = called_congo_conference
-                year = 1890
-            }
-        }
-        modifier = {
-            factor = -100
-            NOT = { is_greater_power = yes }
-            OR = {
-                has_country_flag = congo_master
-                has_country_flag = historical_congo
-                has_country_flag = civilizing_congo
-                has_country_modifier = integrating_colony
-            }
+            NOT = { year = 1880 }
         }
         modifier = {
             factor = 20

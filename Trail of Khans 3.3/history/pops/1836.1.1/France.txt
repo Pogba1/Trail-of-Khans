@@ -1327,9 +1327,9 @@
 #Caen (1088000/272000 POPS)
 418 = {
 	craftsmen = {
-	culture = breton
-	religion = catholic
-	size = 12000
+        culture = french
+        religion = catholic
+        size = 12000
 	}
     aristocrats = {
         culture = irish

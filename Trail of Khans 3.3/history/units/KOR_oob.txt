@@ -1,12 +1,12 @@
-RUS = {
-    value = 100
+MGL = {
+    truce_until = "1840.1.1"
 }
 
 army = {
     name = "Korean Imperial Army"
     location = 1624
     regiment = {
-        name= "1.¨Royal Guard"
+        name= "1.ï¿½Royal Guard"
         type = irregular
         home = 1624
     }

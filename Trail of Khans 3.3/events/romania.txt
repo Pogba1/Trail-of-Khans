@@ -55,7 +55,7 @@ country_event = { #free romanian research points
 		664 = {
 			owned_by = THIS
 		}
-		invention = biologism
+		invention = darwinism
 		NOT = {
 			has_global_flag = bucharest_circle
 		}

@@ -219,7 +219,6 @@ country_event =  {
 	trigger = {
 		tag = LUB
 		has_global_flag = abolished_baltic_monopoly
-		government = merchant_republic
 		NOT = {
 			has_global_flag = baltic_monopoly
 		}
@@ -233,8 +232,6 @@ country_event =  {
 		name = "Impossible..."
 		prestige = -30
 		clr_country_flag = the_hansa
-
-		government = democracy
 		political_reform = universal_voting
 		political_reform = all_trade_unions
 		political_reform = free_press

@@ -30,7 +30,6 @@ reactionary_rebels = {
         democracy = presidential_dictatorship
         theocracy = absolute_monarchy
 		hetmanate_cossacks = absolute_monarchy
-		merchant_republic = bourgeois_dictatorship
         mongolian_dependency = absolute_monarchy
     }
 
@@ -322,7 +321,6 @@ fascist_rebels = {
         democracy = fascist_dictatorship
         theocracy = fascist_dictatorship
 		hetmanate_cossacks = fascist_dictatorship
-		merchant_republic = fascist_dictatorship
         mongolian_dependency = fascist_dictatorship
     }
 
@@ -566,7 +564,6 @@ communist_rebels = {
         democracy = proletarian_dictatorship
         theocracy = proletarian_dictatorship
 		hetmanate_cossacks = proletarian_dictatorship
-		merchant_republic = proletarian_dictatorship
         mongolian_dependency = proletarian_dictatorship
     }
 
@@ -827,7 +824,6 @@ anarcho_liberal_rebels = {
         democracy = bourgeois_dictatorship
         theocracy = bourgeois_dictatorship
 		hetmanate_cossacks = bourgeois_dictatorship
-		merchant_republic = bourgeois_dictatorship
         mongolian_dependency = bourgeois_dictatorship
     }
 
@@ -1078,7 +1074,6 @@ nationalist_rebels = {
         democracy = democracy
         theocracy = theocracy
 		hetmanate_cossacks = hetmanate_cossacks
-		merchant_republic = merchant_republic
         mongolian_dependency = mongolian_dependency
     }
 
@@ -1304,7 +1299,6 @@ pan_nationalist_rebels = {
         democracy = democracy
         theocracy = theocracy
 		hetmanate_cossacks = hetmanate_cossacks
-		merchant_republic = merchant_republic
         mongolian_dependency = mongolian_dependency
     }
 
@@ -1584,7 +1578,6 @@ red_shirts = {
         democracy = democracy
         theocracy = democracy
 		hetmanate_cossacks = hetmanate_cossacks
-		merchant_republic = merchant_republic
         mongolian_dependency = mongolian_dependency
     }
 
@@ -1828,7 +1821,6 @@ indian_nationalists = {
         democracy = democracy
         theocracy = theocracy
 		hetmanate_cossacks = hetmanate_cossacks
-		merchant_republic = merchant_republic
         mongolian_dependency = mongolian_dependency
     }
 
@@ -2051,7 +2043,6 @@ liberal_rebels = {
         democracy = democracy
         theocracy = democracy
 		hetmanate_cossacks = hetmanate_cossacks
-		merchant_republic = merchant_republic
         mongolian_dependency = mongolian_dependency
     }
 
@@ -2355,7 +2346,6 @@ unciv_reactionary_rebels = {
 		democracy = absolute_monarchy
 		theocracy = absolute_monarchy
 		hetmanate_cossacks = absolute_monarchy
-		merchant_republic = absolute_monarchy
         mongolian_dependency = absolute_monarchy
 	}
 	
@@ -2532,7 +2522,6 @@ separatist_rebels = {
         democracy = democracy
         theocracy = theocracy
 		hetmanate_cossacks = hetmanate_cossacks
-		merchant_republic = merchant_republic
         mongolian_dependency = mongolian_dependency
     }
 
@@ -2797,7 +2786,6 @@ socialist_rebels = {
         democracy = democracy
         theocracy = democracy
 		hetmanate_cossacks = democracy
-		merchant_republic = democracy
         mongolian_dependency = democracy
     }
 
@@ -3277,7 +3265,6 @@ independence_rebels = {
         democracy = democracy
         theocracy = theocracy
 		hetmanate_cossacks = hetmanate_cossacks
-		merchant_republic = merchant_republic
         mongolian_dependency = mongolian_dependency
     }
 
@@ -3445,7 +3432,6 @@ partisan_rebels = {
         democracy = democracy
         theocracy = theocracy
 		hetmanate_cossacks = hetmanate_cossacks
-		merchant_republic = merchant_republic
         mongolian_dependency = mongolian_dependency
     }
 
