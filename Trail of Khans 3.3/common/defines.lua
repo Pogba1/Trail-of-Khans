@@ -667,12 +667,12 @@ pops = {
     MIL_TO_JOIN_RISING = 8, -- Rebels over this will join a general rising
     MIL_TO_AUTORISE = 9, -- Rebels over this rise no matter what
     REDUCTION_AFTER_RISEING = 0.0, -- After a pop spawns a rebellion, its militancy will be reduced this much
-    REDUCTION_AFTER_DEFEAT = 7.0, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
+    REDUCTION_AFTER_DEFEAT = 3.0, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
                                                                 -- (if value < 1.0, the MIL will be increased) (Beware! value must be > 0)
 
     POP_TO_LEADERSHIP = 0.00015, -- how much leadership every 1000 officers gives each day.
-    ARTISAN_MIN_PRODUCTIVITY = 5, -- Minimum efficiency of an artisan
-    SLAVE_GROWTH_DIVISOR = 0.5, -- Slaves have N times lower growth
+    ARTISAN_MIN_PRODUCTIVITY = 1, -- Minimum efficiency of an artisan
+    SLAVE_GROWTH_DIVISOR = 2, -- Slaves have N times lower growth
 
     MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
     LUXURY_CON_CHANGE = 0.001, -- con boost from over-buying luxury goods
@@ -709,7 +709,7 @@ ai =
     NAVAL_SUPPLY_PENALTY_LIMIT = 0.2, -- AI will allow to have max X% of supply penalty (when too little naval bases)
     CHANCE_BUILD_RAILROAD = 0.7, -- chances in % of AI decisions (max value 1.0)
     CHANCE_BUILD_NAVAL_BASE = 0.6,
-    CHANCE_BUILD_FORT = 0.4,
+    CHANCE_BUILD_FORT = 0.15,
     CHANCE_INVEST_POP_PROJ = 0.4,
     CHANCE_FOREIGN_INVEST = 0.2,
     TWS_AWARENESS_SCORE_LOW_CAP = 0.2, -- AI will always add CBs if current warscore is less then that number (including TWS)
