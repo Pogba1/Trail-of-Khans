@@ -159,76 +159,39 @@ political_decisions = {
         }
         allow = {
             revolution_n_counterrevolution = 1
-            SAX_558 = {
-                owned_by = THIS
+            NGF = {
+                is_greater_power = no
             }
-            PRU_554 = {
-                owned_by = THIS
+            LUB = {
+                is_greater_power = no
+            }
+            GER = {
+                exists = no
             }
             war = no
             is_greater_power = yes
         }
         effect = {
-            SAX_558 = {
-                add_core = THIS
+            prestige = 75
+            badboy = 20
+            GER = {
+                all_core = {
+                    limit = {
+                        OR = {
+                            culture = north_german
+                            culture = south_german
+                        }
+                    }
+                    add_core = THIS
+                }
             }
-            PRU_554 = {
-                add_core = THIS
+            any_country = {
+                limit = {
+                    primary_culture = north_german
+                }
+                annex_to = THIS
             }
-            HES_2560 = {
-                add_core = THIS
-            }
-            PRU_578 = {
-                add_core = THIS
-            }
-            PRU_575 = {
-                add_core = THIS
-            }
-            prestige = 30
-            badboy = 17.5
             set_country_flag = further_conquests_ger
-        }
-    }
-    claims_in_north_italy = {
-        potential = {
-            tag = OTO
-            NOT = {
-                has_country_flag = further_conquests_rmr
-            }
-            NOT = {
-                has_country_flag = further_conquests_ger
-            }
-        }
-        allow = {
-            revolution_n_counterrevolution = 1
-            AUS_726 = {
-                owned_by = THIS
-            }
-            AUS_729 = {
-                owned_by = THIS
-            }
-            war = no
-            is_greater_power = yes
-        }
-        effect = {
-            AUS_726 = {
-                add_core = THIS
-            }
-            AUS_729 = {
-                add_core = THIS
-            }
-            SAR_720 = {
-                add_core = THIS
-            }
-            GEN_724 = {
-                add_core = THIS
-            }
-            PAP_741 = {
-                add_core = THIS
-            }
-            prestige = 30
-            badboy = 17.5
-            set_country_flag = further_conquests_rmr
         }
     }
 }
