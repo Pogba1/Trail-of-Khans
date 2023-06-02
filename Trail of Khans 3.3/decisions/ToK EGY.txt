@@ -118,15 +118,15 @@ political_decisions = {
 					add_core = THIS
 				}
 			}
-			add_casus_belli = {
-				target = NEJ
-				type = conquest
-				months = 12
+			NEJ = {
+				all_core = {
+					add_core = THIS
+				}
 			}
-			add_casus_belli = {
-				target = OMA
-				type = conquest
-				months = 12
+			OMA = {
+				all_core = {
+					add_core = THIS
+				}
 			}
 			1151 = {
 				add_province_modifier = {
@@ -135,31 +135,6 @@ political_decisions = {
 				}
 			}
 			set_country_flag = reclaim_arabia
-		}
-	}
-	nejd_custodianship = {
-		potential = {
-			tag = EGY
-			has_country_flag = reclaim_arabia
-			NOT = {
-				has_country_flag = nejd_custodianship
-			}
-		}
-		allow = {
-			NEJ = {
-				all_core = {
-					owned_by = THIS
-				}
-			}
-		}
-		effect = {
-			NEJ = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			prestige = 5
-			set_country_flag = nejd_custodianship
 		}
 	}
 }
