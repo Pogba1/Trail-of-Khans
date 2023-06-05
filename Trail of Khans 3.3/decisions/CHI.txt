@@ -34,6 +34,8 @@ political_decisions = {
 		add_accepted_culture = min
 		add_accepted_culture = beifaren
 		add_accepted_culture = nanfaren
+        add_accepted_culture = hakka
+        add_accepted_culture = yue
             prestige = 15
             clr_country_flag = crown_from_the_gutter
             clr_country_flag = secondary_union_formation
@@ -65,16 +67,4 @@ political_decisions = {
             factor = 1
         }
     }
-	
-	integrate_yue = {
-		potential = {tag = CHI NOT = {has_country_flag = integrate_yue}}
-		allow = {
-			1499 = {owned_by = THIS}
-		}
-		effect = {
-			set_country_flag = integrate_yue
-			add_accepted_culture = yue
-		}
-	}
-
 }

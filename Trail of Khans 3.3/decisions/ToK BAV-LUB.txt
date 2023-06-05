@@ -214,9 +214,7 @@ political_decisions = {
 	########
 	integrate_afro_german = {
 		potential = {
-			OR = {tag = LUB
-				  AND = {tag = GER primary_culture = north_german }
-			}
+			has_country_flag = the_hansa
 			NOT = {has_country_flag = integrate_afro_german}
 			any_owned_province = {is_core = UCA}
 		}

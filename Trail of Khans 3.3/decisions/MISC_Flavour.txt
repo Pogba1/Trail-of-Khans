@@ -67,7 +67,9 @@ political_decisions = {
                 owns = 400 #Dunkirk
                 owns = 401 #Arras
                 owns = 404 #Cambrai
-            has_global_flag = dutch_artois
+            NOT = {
+                has_country_flag = french_artois
+            }
         }
 
         allow = {
@@ -77,7 +79,7 @@ political_decisions = {
 
         effect = {
             prestige = 5
-            set_global_flag = french_artois
+            has_country_flag = french_artois
             399 = { change_province_name = "Lille" }
             400 = { change_province_name = "Dunkerque" }
             401 = { change_province_name = "Arras" }
@@ -85,7 +87,6 @@ political_decisions = {
                 change_province_name = "Cambrai"
                 state_scope = {    change_region_name = "Artois"    }
             }
-            clr_global_flag = dutch_artois
         }
 
         ai_will_do = { factor = 1 }

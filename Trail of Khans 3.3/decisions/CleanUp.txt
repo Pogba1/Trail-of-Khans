@@ -1,44 +1,4 @@
 political_decisions = {
-    ottoman_oppression_mil_gain = {
-        potential = {
-            ai = yes
-            exists = yes
-            OR = {
-                tag = SWI
-                AND = {
-                    OR = {
-                        SWI = { ai = no }
-                        SWI = { exists = no }
-                    }
-                    OR = {
-                        neighbour = TUR
-                        tag = TUR
-                    }
-                }
-            }
-            TUR = {
-                has_country_modifier = ottoman_oppression
-                NOT = { has_country_modifier = religious_minority_oppression }
-            }
-        }
-
-        allow = {
-        }
-
-        effect = {
-            TUR = {
-                any_pop = {
-                    limit = { is_state_religion = no }
-                    consciousness = 0.8
-                    militancy = 0.4
-                    money = -1000
-                }
-                add_country_modifier = { name = religious_minority_oppression duration = 365 }
-            }
-        }
-        ai_will_do = { factor = 1 }
-    }
-
     sanctions_lifted = {
         potential = {
             is_disarmed = yes
@@ -3568,24 +3528,4 @@ political_decisions = {
             }
         }
     }
-
-
-    # find_when_uk_flips_upper_house = {
-
-    # find_when_uk_flips_upper_house = {
-        # potential = {
-            # tag = ENG
-            # NOT = { has_country_flag = abandoned_two_party_system }
-        # }
-
-        # allow = {
-            # NOT = { upper_house_composition = appointed }
-        # }
-
-        # effect = {
-            # set_country_flag = abandoned_two_party_system
-        # }
-        # ai_will_do = { factor = 1 }
-    # }
-
 }
