@@ -66,22 +66,6 @@ neglected_education = {
     education_efficiency_modifier = -1
     icon = 19
 }
-dutch_east_india = {
-    trigger = {
-        exists = yes
-        capital_scope = { continent = europe }
-        1413 = {
-            is_colonial = yes
-            owned_by = THIS
-        }
-        1418 = {
-            is_colonial = yes
-            owned_by = THIS
-        }
-    }
-    prestige = 0.01
-    icon = 19
-}
 
 vassal_nation = {
     trigger = {
@@ -109,6 +93,8 @@ substate_nation = {
     max_military_spending = -0.25
     min_tariff = 1.2
     tax_efficiency = 0.3
+    land_defense_modifier = -1
+    land_attack_modifier = -1
 
     icon = 10
 }
@@ -165,33 +151,6 @@ own_panama_canal = {
 	tariff_efficiency_modifier = 0.05
 	tax_efficiency = 0.05
 	prestige = 0.02
-}
-
-small_but_efficient = {
-    trigger = {
-        exists = yes
-        capital_scope = { continent = europe }
-        civilized = yes
-        NOT = { number_of_states = 4 }
-        NOT = { num_of_cities = 8 }
-        NOT = { total_pops = 500000 }
-        NOT = { money = 1000000 }
-        NOT = { year = 1886 }
-        OR = {
-            NOT = {
-                is_culture_group = south_slavic
-                is_culture_group = pan_romanian
-                is_culture_group = levantine
-            }
-            NOT = { num_of_cities = 4 }
-        }
-    }
-
-    icon = 9
-    tax_efficiency = 0.5
-    administrative_efficiency_modifier = 0.4
-    tariff_efficiency_modifier = 0.4
-    supply_consumption = -0.95
 }
 
 landlocked_nation = {
@@ -274,9 +233,6 @@ baltic_monopoly = {
         }
         has_global_flag = baltic_monopoly
         NOT = {
-            has_global_flag = abolished_baltic_monopoly
-        }
-        NOT = {
             tag = LUB
         }
     }
@@ -291,9 +247,6 @@ baltic_monopoly_lub = {
             has_country_flag = the_hansa
         }
         has_global_flag = baltic_monopoly
-        NOT = {
-            has_global_flag = abolished_baltic_monopoly
-        }
     }
     tariff_efficiency_modifier = 0.20
     tax_efficiency = 0.05
