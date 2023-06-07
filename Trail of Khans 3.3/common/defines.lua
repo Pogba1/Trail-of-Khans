@@ -28,7 +28,7 @@ country = {
     COLONY_TO_STATE_PRESTIGE_GAIN = 1, -- Prestige gain when turning colony to state
     COLONIAL_LIFERATING = 35,
     BASE_GREATPOWER_DAILY_INFLUENCE = 0.25, -- Influence value which is distributed each day
-    AI_SUPPORT_REFORM = 0.025, -- At least this many % needs to support a reform for the AI to take it
+    AI_SUPPORT_REFORM = 0.05, -- At least this many % needs to support a reform for the AI to take it
     BASE_MONTHLY_DIPLOPOINTS = 0.3, -- Base value gain for diplomatic actions each month
     DIPLOMAT_TRAVEL_TIME = -1, -- sigma teleporting diplomat grindset
     PROVINCE_OVERSEAS_PENALTY = 0.015, -- Each province req. this many goods flagged as overseas penalty
@@ -44,22 +44,22 @@ country = {
     SUPPRESS_BUREAUCRAT_FACTOR = 0.5,
     WRONG_REFORM_MILITANCY_IMPACT = 2,
     SUPPRESSION_RADICALISATION_HIT = 10, -- % base added to a movements radicalness
-    INVESTMENT_SCORE_FACTOR = 0.001, -- how much foreign investment money counts towards your industry score
-    UNCIV_TECH_SPREAD_MAX = 0.15, --Max techs an unciv will get on westernizing
-    UNCIV_TECH_SPREAD_MIN = 0.10, --Minimum techs an unciv will get on westernizing
+    INVESTMENT_SCORE_FACTOR = 0.005, -- how much foreign investment money counts towards your industry score
+    UNCIV_TECH_SPREAD_MAX = 0.6, --Max techs an unciv will get on westernizing
+    UNCIV_TECH_SPREAD_MIN = 0.15, --Minimum techs an unciv will get on westernizing
     MIN_DELAY_BETWEEN_REFORMS = 6, -- months
     ECONOMIC_REFORM_UH_FACTOR = -0.40,
     MILITARY_REFORM_UH_FACTOR = -0.40,
     WRONG_REFORM_RADICAL_IMPACT = 15,
     TECH_YEAR_SPAN = 150,
-    TECH_FACTOR_VASSAL = 0.15, -- cost reduction factor if overlord has research the tech
+    TECH_FACTOR_VASSAL = 0.5, -- cost reduction factor if overlord has research the tech
     MAX_SUPPRESSION = 100,
     PRESTIGE_HIT_ON_BREAK_COUNTRY = -0.20, -- percentage reduction when country gets taken by rebels
     MIN_MOBILIZE_LIMIT = 3,
     POP_GROWTH_COUNTRY_CACHE_DAYS = 30, -- period of cached pop growth (used for player)
-    NEWSPAPER_PRINTING_FREQUENCY = 350, -- days frequency when the news attempt to be printed (may NOT print if NOT enough facts collected, and retry after aNOTher X days)
-    NEWSPAPER_TIMEOUT_PERIOD = 890, -- the max period for news that may be printed. The probability is decreased with time.
-    NEWSPAPER_MAX_TENSION = 750, -- when tension of printing gets this high, the newspaper will attempt to be printed immediately.
+    NEWSPAPER_PRINTING_FREQUENCY = 999999, -- days frequency when the news attempt to be printed (may NOT print if NOT enough facts collected, and retry after aNOTher X days)
+    NEWSPAPER_TIMEOUT_PERIOD = 999999, -- the max period for news that may be printed. The probability is decreased with time.
+    NEWSPAPER_MAX_TENSION = 999999, -- when tension of printing gets this high, the newspaper will attempt to be printed immediately.
     NAVAL_BASE_SUPPLY_SCORE_BASE = 10, -- base value that is powered by level of naval base. Determines the naval supplying capabilities.
     NAVAL_BASE_SUPPLY_SCORE_EMPTY = 2, -- min value for coastal provinces with no naval base.
     NAVAL_BASE_NON_CORE_SUPPLY_SCORE = 0.3, -- modifier for supply score for naval bases that are NOT in core provinces.
@@ -523,7 +523,7 @@ diplomacy = {
 
     -- effects of manually releasing a nation
     RELEASE_NATION_PRESTIGE = 0,
-    RELEASE_NATION_INFAMY = -2,
+    RELEASE_NATION_INFAMY = 0,
 
     INFAMY_CLEAR_UNION_SPHERE = 0, -- Infamy for asserting hegemony
 

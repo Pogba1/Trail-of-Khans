@@ -6,6 +6,10 @@ KOR = {
     truce_until = "1840.1.1"
 }
 
+JAP = {
+    value = 150
+}
+
 HET = {
     value = -75
     level = 2

@@ -157,7 +157,7 @@
 #Ismail (332000/83000 POPS)
 678 = {
     farmers = {
-        culture = gypsy
+        culture = romanian
         religion = orthodox
         size = 100
     }
@@ -517,7 +517,7 @@
     }
 
     labourers = {
-        culture = gypsy
+        culture = romanian
         religion = orthodox
         size = 1000
     }
@@ -779,7 +779,7 @@
     }
 
     labourers = {
-        culture = gypsy
+        culture = romanian
         religion = orthodox
         size = 4200
     }
@@ -889,7 +889,7 @@
     }
 
     labourers = {
-        culture = gypsy
+        culture = romanian
         religion = orthodox
         size = 1000
     }
@@ -2036,7 +2036,7 @@
 #Simferopol (126000/29000 POPS)
 964 = {
     farmers = {
-        culture = gypsy
+        culture = romanian
         religion = orthodox
         size = 150
     }
@@ -2897,7 +2897,7 @@
 #Pervomaisk (496000/124000 POPS)
 969 = {
     farmers = {
-        culture = gypsy
+        culture = romanian
         religion = orthodox
         size = 175
     }
@@ -3262,7 +3262,7 @@
 #Ekaterinoslav (252000/63000 POPS)
 972 = {
     farmers = {
-        culture = gypsy
+        culture = romanian
         religion = orthodox
         size = 135
     }

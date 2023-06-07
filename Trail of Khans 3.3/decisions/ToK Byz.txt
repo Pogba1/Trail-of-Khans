@@ -633,7 +633,6 @@ political_decisions = {
         }
 
         allow = {
-			1745 = {owned_by = BYZ}
 			1096 = {owned_by = BYZ}
 			893 = {owned_by = BYZ}
 			917 = {owned_by = BYZ}
@@ -656,6 +655,8 @@ political_decisions = {
 			PER_1112 = { add_core = THIS }
 			EGY_1755 = { add_core = THIS }
 			EGY_1745 = { add_core = THIS }
+			EGY_1746 = { add_core = THIS }
+			EGY_1752 = { add_core = THIS }
 			EGY_1758 = { add_core = THIS }
 			EGY_1762 = { add_core = THIS }
 			EGY_1771 = { add_core = THIS }

@@ -57,7 +57,7 @@
     }
 
     farmers = {
-        culture = gypsy
+        culture = romanian
         religion = catholic
         size = 2000
     }
@@ -373,7 +373,7 @@
     }
 
     farmers = {
-        culture = gypsy
+        culture = romanian
         religion = catholic
         size = 3000
     }

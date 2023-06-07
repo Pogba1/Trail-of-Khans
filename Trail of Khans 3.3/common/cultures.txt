@@ -375,12 +375,12 @@ gallic = {
         Edward Ernes Fionán Frank George Harry Jack James John Joseph
         Kevin Liam Michael Patrick Peter Richard Robert Séan Thomas William }
 
-        last_names = { Ó Murchadha Ó Briain Ó Cinnéide Ó Raghallaigh Ó Néill Mac Gabhann Ó Ruairc Breathnach 
-		Ó Muireadhaigh Ó Coileáin Ó Síorán Ó Súilleabháin Mac Carthaigh Ó Loinsigh Mac Giolla Phádraig Mac Suibhne
-		Ó Riagáin Ó Laoghaire Ó Maoláin Ó Maolagain Ó Riain Ó Cuinn Ó Ceallaigh Ó Faoláin Ó Meachair Meagher Ó hÓgáin
-		Ó Caoimh Ó Dubhuir Ó Buachalla Mac Diarmada Ó Conchobhair Ó Duinn Ó Donnabháin Ó Laighin Ó Donnghaile Mac Mathúna
-		Ó Cathasaigh Ó Cionaoith Ó Foghladh Ó Cléirigh Ó Dufaigh Ó Dubhthaigh Ó Mordha Muir Moir Ó Braonáin Ó Branáin Ó Dubhghaile
-		Ó Gallchobhair Mac Lochlainn Ó Dálaigh Ó Baoill Ó Séaghdha Ó Ferghail O’ Baire Caimbeul } 
+        last_names = { "Ó Murchadha" "Ó Briain" "Ó Cinnéide" "Ó Raghallaigh" "Ó Néill" Mac Gabhann "Ó Ruairc" Breathnach 
+		"Ó Muireadhaigh" "Ó Coileáin" "Ó Síorán" "Ó Súilleabháin" Mac Carthaigh "Ó Loinsigh" Mac Giolla Phádraig Mac Suibhne
+		"Ó Riagáin" "Ó Laoghaire" "Ó Maoláin" "Ó Maolagain" "Ó Riain" "Ó Cuinn" "Ó Ceallaigh" "Ó Faoláin" "Ó Meachair" Meagher "Ó hÓgáin"
+		"Ó Caoimh" "Ó Dubhuir" "Ó Buachalla" Mac Diarmada "Ó Conchobhair" "Ó Duinn" "Ó Donnabháin" "Ó Laighin" "Ó Donnghaile" Mac Mathúna
+		"Ó Cathasaigh" "Ó Cionaoith" "Ó Foghladh" "Ó Cléirigh" "Ó Dufaigh" "Ó Dubhthaigh" "Ó Mordha" Muir Moir "Ó Braonáin" "Ó Branáin" "Ó Dubhghaile"
+		"Ó Gallchobhair" Mac Lochlainn "Ó Dálaigh" "Ó Baoill" "Ó Séaghdha" "Ó Ferghail" "O’ Baire" Caimbeul } 
     }
 	union = GAU
 }
@@ -1263,13 +1263,6 @@ iranian_turanian = {
         last_names = {
             Beg Khan
         }
-    }
-
-    gypsy = {
-    color = {16 102 163}
-        first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
-
-        last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
     }
 }
 
