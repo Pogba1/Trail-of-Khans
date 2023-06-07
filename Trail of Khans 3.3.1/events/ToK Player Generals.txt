@@ -10,7 +10,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 1
+		days = 0
 	}
 	title = "He woke up!"
 	desc = "EVTDESC800000"
@@ -39,7 +39,7 @@ country_event = {
 		tag = ELI
 	}
 	mean_time_to_happen = {
-		days = 1
+		days = 0
 	}
 	title = "Alberto Barbosa"
 	desc = "EVTDESC800001"

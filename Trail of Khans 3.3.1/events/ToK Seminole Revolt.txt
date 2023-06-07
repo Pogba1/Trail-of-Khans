@@ -8,40 +8,43 @@ country_event = { #el seminole
         days = 1
     }
 
+    trigger = {
+		tag = LOU
+		any_owned_province = {
+			AND = {
+				OR = {
+					province_id = 198
+					province_id = 199 
+					province_id = 200
+				}
+				NOT = {
+					has_province_modifier = seminole_war
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = seminole_war
+		}
+    }
+
     option = {
         name = "EVTOPTA200101"
-	 any_owned = {
-		limit = {
-		OR = {
-			province_id = 198
-			province_id = 199 
-			province_id = 200
-		}
-		}
-		add_province_modifier = {name = seminole_war duration = -1}
-	 }
-	}
-	
-    trigger = {
-	AND = {
-	NOT = {primary_culture = seminoles}
-	NOT = {accepted_culture = seminoles}
-	}
-	NOT = {muzzle_loaded_rifles = 1}
-	
-		any_owned_province = {
-		AND = {
-			OR = {
-				province_id = 198
-				province_id = 199 
-				province_id = 200
+	 	any_owned = {
+			limit = {
+				OR = {
+					province_id = 198
+					province_id = 199 
+					province_id = 200
+				}
 			}
-			NOT = {has_province_modifier = seminole_war}
-		 }
-		}
-		
+			add_province_modifier = {
+				name = seminole_war 
+				duration = -1
+			}
+	 	}
+		set_country_flag = seminole_war
+	}
 	
-    }
 }
 
 country_event = { #el seminole rip
@@ -50,21 +53,24 @@ country_event = { #el seminole rip
     title = "The End of the Seminole Wars"
     desc = "The profiliation of the muzzle-loaded rifle has allowed us to effectively stop Seminole aggression in our lands."
 	allow_multiple_instances = no	
+
 	mean_time_to_happen = {
         days = 40
     }
 
-    option = {
-        name = "Hurray!"
-	 any_owned = {
-		remove_province_modifier = seminole_war
-	 }
-	}
-	
     trigger = {
-	muzzle_loaded_rifles = 1
 		any_owned_province = {
+			NOT = {
+				controlled_by_rebels = yes
+			}
 			has_province_modifier = seminole_war
 		}
     }
+
+    option = {
+        name = "Hurray!"
+		any_owned = {
+			remove_province_modifier = seminole_war
+		}
+	}
 }
