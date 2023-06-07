@@ -132,4 +132,66 @@ political_decisions = {
 
         ai_will_do = { factor = 1 }
     }
+	embrace_natives = {
+		potential = {
+			OR = {
+				tag = CEE
+				tag = GPN 
+			}
+			NOT = { has_country_flag = embrace_natives }
+		}
+		allow = {
+			civilized = yes
+			ideological_thought = 1
+		}
+		effect = {
+			add_accepted_culture = dakota
+			add_accepted_culture = native_american_minor
+			add_accepted_culture = inuit
+			add_accepted_culture = iroquois
+			add_accepted_culture = cherokee
+		    prestige = 15
+			set_country_flag = embrace_natives
+		}
+	}
+	retake_the_homeland = {
+		potential = {
+			tag = ENG
+			NOT = {has_country_flag = retake_the_homeland}
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			DEN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_accepted_culture = danish
+			set_country_flag = retake_the_homeland
+		}
+	}
+	
+	claim_wessex = {
+		potential = {
+			tag = ENG
+			NOT = {has_country_flag = claim_wessex}
+		}
+		allow = {
+		OR = {
+			is_secondary_power = yes
+			is_greater_power = yes
+			}
+		}
+		effect = {
+			SEX = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_accepted_culture = anglo_saxon
+			set_country_flag = claim_wessex
+		}
+	}
 }

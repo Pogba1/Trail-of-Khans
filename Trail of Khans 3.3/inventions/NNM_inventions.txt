@@ -2,7 +2,7 @@ the_dark_continent = {
     limit = {
         has_country_flag = existing_country
         revolution_n_counterrevolution = 1
-        year = 18801
+        year = 1880
     }
     chance = {
         base = 0

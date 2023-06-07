@@ -87,6 +87,9 @@ country_event = {
 			month = 4
 			year = 1837
 		}
+		NOT = {
+			tag = HAW
+		}
 	}
 	
 	mean_time_to_happen = {
