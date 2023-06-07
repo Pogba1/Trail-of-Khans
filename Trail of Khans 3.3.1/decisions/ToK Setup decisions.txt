@@ -216,30 +216,6 @@ political_decisions = {
             }
         }
     }
-
-    SYC_1836_setup = {
-        potential = {
-            tag = SYC
-            always = no
-        }
-        allow = {
-            always = no
-        }
-        effect = {
-            763 = {
-                add_province_modifier = {
-                    name = sicilian_sulphur
-                    duration = -1
-                }
-            }
-            764 = {
-                add_province_modifier = {
-                    name = sicilian_sulphur
-                    duration = -1
-                }
-            }
-        }
-    }
     
     LITERACY_1836_SETUP = {
         potential = {
