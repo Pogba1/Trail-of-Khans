@@ -11,8 +11,7 @@ country_event = {
 		NOT = {
 			has_country_flag = jap_railroad
 		}
-		any_owned = {
-			is_core = JAP
+		any_core = {
 			has_building = railroad
 		}
     }

@@ -77,7 +77,7 @@ country_event = { #free romanian research points
 		}
 		any_pop = {
 			limit = {
-				has_pop_type = clergymen
+				type = clergymen
 			}
 			militancy = 1
 			consciousness = 5

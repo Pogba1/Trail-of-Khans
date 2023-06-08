@@ -923,7 +923,7 @@ country_event = {
         NOT = {
             has_country_flag = national_anthem_poland
         }
-        date = 1843
+        year = 1843
     }
 
     mean_time_to_happen = {

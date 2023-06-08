@@ -1018,9 +1018,7 @@ country_event = {
                 NOT = { money = 50000 }
                 OR = {
                     tag = AUS
-                    tag = TUR
                     tag = RUS
-                    tag = USA
                 }
             }
             modifier = {

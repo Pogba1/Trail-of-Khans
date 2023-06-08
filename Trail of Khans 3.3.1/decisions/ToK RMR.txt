@@ -67,6 +67,7 @@ political_decisions = {
 				}
 			}
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	roman_syracuse = {
@@ -113,6 +114,7 @@ political_decisions = {
 				}
 			}
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	the_great_trilemma = {

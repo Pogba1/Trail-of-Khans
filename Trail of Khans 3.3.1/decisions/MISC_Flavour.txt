@@ -79,7 +79,7 @@ political_decisions = {
 
         effect = {
             prestige = 5
-            has_country_flag = french_artois
+            set_country_flag = french_artois
             399 = { change_province_name = "Lille" }
             400 = { change_province_name = "Dunkerque" }
             401 = { change_province_name = "Arras" }
