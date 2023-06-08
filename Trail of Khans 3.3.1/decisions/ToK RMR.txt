@@ -90,8 +90,17 @@ political_decisions = {
 				limit = {
 					has_pop_culture = syracusean
 				}
-				militancy = 2
+				militancy = -3
 				consciousness = 5
+			}
+			any_owned = {
+				limit = {
+					is_core = SYC
+				}
+				add_province_modifier = {
+					name = cultural_resurgence
+					duration = -1
+				}
 			}
 			SYC = {
 				all_core = {

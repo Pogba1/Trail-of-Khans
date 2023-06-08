@@ -3,7 +3,7 @@
 #Tunis (488000/122000 POPS)
 1725 = {
     aristocrats = {
-        culture = maghrebi
+        culture = syracusean
         religion = sunni
         size = 2350
     }
@@ -26,56 +26,40 @@
         size = 2400
     }
 
+    clergymen = {
+        culture = syracusean
+        religion = catholic
+        size = 465
+    }
+
     artisans = {
         culture = maghrebi
         religion = sunni
-        size = 10000
+        size = 17500
     }
+
 	artisans = {
         culture = syracusean
         religion = catholic
-        size = 2000
+        size = 14725
     }
 	
 	farmers = {
         culture = syracusean
         religion = catholic
-        size = 10525
+        size = 11950
     }
+
 	soldiers = {
 		culture = syracusean
         religion = catholic
-        size = 3000
-	}
-	
-    artisans = {
-        culture = maghrebi
-        religion = sunni
-        size = 10000
-    }
-
-    artisans = {
-        culture = maghrebi
-        religion = sunni
-        size = 7500
+        size = 6000
     }
 
     soldiers = {
         culture = maghrebi
         religion = sunni
-        size = 3000
-    }
-	
-	soldiers = {
-        culture = syracusean
-        religion = catholic
-        size = 3000
-    }
-
-    soldiers = {
-        culture = maghrebi
-        religion = sunni
-        size = 1000
+        size = 4000
     }
 
     farmers = {
@@ -83,40 +67,11 @@
         religion = sunni
         size = 96425
     }
-	 farmers = {
-        culture = syracusean
-        religion = catholic
-        size = 1425
-    }
 
     slaves = {
         culture = berber
         religion = sunni
         size = 5000
-    }
-
-    clergymen = {
-        culture = sephardic
-        religion = jewish
-        size = 75
-    }
-
-    artisans = {
-        culture = sephardic
-        religion = jewish
-        size = 3725
-    }
-
-    artisans = {
-        culture = syracusean
-        religion = catholic
-        size = 500
-    }
-
-    artisans = {
-        culture = syracusean
-        religion = catholic
-        size = 500
     }
 }
 #Bizerte (268000/67000 POPS)

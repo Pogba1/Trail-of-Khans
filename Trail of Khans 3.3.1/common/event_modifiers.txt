@@ -397,9 +397,8 @@ preparations_for_war = {
 }
 
 cultural_resurgence = {
-    assimilation_rate = 0.4
     immigrant_attract = 0.5
-    pop_militancy_modifier = 0.01
+    pop_militancy_modifier = -0.05
     icon = 7
 }
 

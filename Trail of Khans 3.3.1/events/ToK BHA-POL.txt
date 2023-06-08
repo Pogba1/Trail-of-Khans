@@ -905,12 +905,6 @@ country_event = {
             militancy = 4
             consciousness = 6
         }
-        HUN = {
-            country_event = {
-                id = 400004
-                days = 0
-            }
-        }
     }
 }
 

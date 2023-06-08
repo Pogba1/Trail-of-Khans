@@ -1,5 +1,5 @@
 MGL = {
-    value = 150
+    value = 80
 }
 
 leader = {
@@ -84,11 +84,142 @@ army = {
         home = 1638
     }
     regiment = {
+        name= "2.Infantry"
+        type = infantry
+        home = 1657
+    }
+    regiment = {
+        name= "2.Infantry"
+        type = infantry
+        home = 1657
+    }
+    regiment = {
         name= "1.Artillery"
         type = artillery
         home = 1638
     }
+    regiment = {
+        name= "1.Artillery"
+        type = artillery
+        home = 1657
+    }
+    regiment = {
+        name= "1.Artillery"
+        type = artillery
+        home = 1657
+    }
 }
+
+army = {
+    name = "Yanma Clan"
+    location = 1641
+    regiment = {
+        name= "1.Guard"
+        type = cavalry
+        home = 1641
+    }
+    regiment = {
+        name= "2.Guard"
+        type = cavalry
+        home = 1641
+    }
+    regiment = {
+        name= "3.Guard"
+        type = cavalry
+        home = 1641
+    }
+	regiment = {
+        name= "1.Infantry"
+        type = infantry
+        home = 1639
+    }
+    regiment = {
+        name= "2.Infantry"
+        type = irregular
+        home = 1639
+    }
+    regiment = {
+        name= "2.Infantry"
+        type = irregular
+        home = 1639
+    }
+    regiment = {
+        name= "2.Infantry"
+        type = infantry
+        home = 1640
+    }
+    regiment = {
+        name= "1.Guard"
+        type = cavalry
+        home = 1640
+    }
+    regiment = {
+        name= "1.Artillery"
+        type = artillery
+        home = 1640
+    }
+    regiment = {
+        name= "1.Artillery"
+        type = artillery
+        home = 1640
+    }
+}
+
+army = {
+    name = "Edo Clan"
+    location = 1641
+    regiment = {
+        name = "1.Infantry"
+        type = infantry
+        home = 1649
+    }
+    regiment = {
+        name = "1.Infantry"
+        type = infantry
+        home = 1649
+    }
+    regiment = {
+        name = "1.Infantry"
+        type = infantry
+        home = 1649
+    }
+    regiment = {
+        name = "1.Infantry"
+        type = infantry
+        home = 1649
+    }
+    regiment = {
+        name = "1.Dragoon"
+        type = dragoon
+        home = 1649
+    }
+    regiment = {
+        name = "1.Artillery"
+        type = artillery
+        home = 1649
+    }
+    regiment = {
+        name = "1.Artillery"
+        type = artillery
+        home = 1649
+    }
+    regiment = {
+        name = "1.Artillery"
+        type = artillery
+        home = 1651
+    }
+    regiment = {
+        name = "1.Artillery"
+        type = artillery
+        home = 1652
+    }
+    regiment = {
+        name = "1.Artillery"
+        type = artillery
+        home = 1650
+    }
+}
+
 
 navy = {
     name = "1st Fleet"
