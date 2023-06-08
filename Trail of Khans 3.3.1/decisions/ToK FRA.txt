@@ -29,7 +29,6 @@ political_decisions = {
 			NOT = {has_country_flag = retake_north}
 		}
 		allow = {
-			war = no
 			418 = {owned_by = THIS}
 		}
 		effect = {
