@@ -416,7 +416,7 @@ mechanized_fishing_vessels = {
 ironclads = {
     limit = {
         iron_steamers = 1
-        has_country_flag = existing_country
+        
     }
     chance = {
         base = 100
@@ -433,7 +433,7 @@ ironclads = {
 monitors = {
     limit = {
         iron_steamers = 1
-        has_country_flag = existing_country
+        
     }
     chance = {
         base = 5
@@ -516,7 +516,7 @@ torpedo_boats = {
 protected_cruisers = {
     limit = {
         steel_steamers = 1
-        has_country_flag = existing_country
+        
     }
     chance = {
         base = 100
@@ -528,7 +528,7 @@ protected_cruisers = {
 pre_dreadnought = {
     limit = {
         steel_steamers = 1
-        has_country_flag = existing_country
+        
     }
         chance = {
         base = 10
@@ -553,7 +553,7 @@ pre_dreadnought = {
 dreadnoughts = {
     limit = {
         steam_turbine_ships = 1
-        has_country_flag = existing_country
+        
     }
     chance = {
         base = 5
