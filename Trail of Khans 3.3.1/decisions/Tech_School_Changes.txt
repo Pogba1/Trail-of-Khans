@@ -15,6 +15,7 @@ political_decisions = {
 	}
 	hide_tech_schools = {
 		potential = {
+            ai = no
             civilized = yes
             has_country_flag = picking_up_a_tech_school
         }
