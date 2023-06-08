@@ -97,7 +97,7 @@
     soldiers = {
         culture = japanese
         religion = shinto
-        size = 5975
+        size = 6275
     }
 
     farmers = {
@@ -122,12 +122,6 @@
         culture = japanese
         religion = shinto
         size = 1500
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = shinto
-        size = 300
     }
 
     farmers = {
@@ -162,12 +156,6 @@
         size = 5100
     }
 
-    soldiers = {
-        culture = japanese
-        religion = shinto
-        size = 1025
-    }
-
     farmers = {
         culture = japanese
         religion = shinto
@@ -195,25 +183,7 @@
     soldiers = {
         culture = japanese
         religion = shinto
-        size = 3000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = shinto
-        size = 3000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = shinto
-        size = 3000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = shinto
-        size = 6275
+        size = 16300
     }
 
     farmers = {
@@ -806,43 +776,7 @@
     soldiers = {
         culture = japanese
         religion = shinto
-        size = 3000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = shinto
-        size = 3000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = shinto
-        size = 3000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = shinto
-        size = 3000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = shinto
-        size = 3000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = shinto
-        size = 3000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = shinto
-        size = 2075
+        size = 20775
     }
 
     farmers = {
@@ -879,12 +813,6 @@
         culture = japanese
         religion = shinto
         size = 7000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = shinto
-        size = 700
     }
 
     farmers = {
