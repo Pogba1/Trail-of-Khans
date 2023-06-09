@@ -3,7 +3,7 @@
 #Tunis (488000/122000 POPS)
 1725 = {
     aristocrats = {
-        culture = syracusean
+        culture = roman
         religion = sunni
         size = 2350
     }
@@ -27,7 +27,7 @@
     }
 
     clergymen = {
-        culture = syracusean
+        culture = roman
         religion = catholic
         size = 465
     }
@@ -39,19 +39,19 @@
     }
 
 	artisans = {
-        culture = syracusean
+        culture = roman
         religion = catholic
         size = 14725
     }
 	
 	farmers = {
-        culture = syracusean
+        culture = roman
         religion = catholic
         size = 11950
     }
 
 	soldiers = {
-		culture = syracusean
+		culture = roman
         religion = catholic
         size = 6000
     }

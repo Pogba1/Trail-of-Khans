@@ -125,9 +125,17 @@ vassal = {
 }
 
 #Rome-Cisalpine
-substate = {
+vassal = {
     first = RMR
     second = CIS
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+
+#Rome-Syracuse
+vassal = {
+    first = RMR
+    second = SYC
     start_date = 1836.1.1
     end_date = 1936.1.1
 }

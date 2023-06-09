@@ -44,10 +44,7 @@ political_decisions = {
 		allow = {
 			CIS = {
 				OR = {
-					AND = {
-						vassal_of = THIS
-						in_sphere = THIS
-					}
+					vassal_of = THIS
 					all_core = {
 						owned_by = THIS
 					}
@@ -78,15 +75,25 @@ political_decisions = {
 			}
 		}
 		allow = {
-			SYC_756 = {
-				owned_by = THIS
+			CIS = {
+				exists = no
 			}
-			SIC_763 = {
-				owned_by = THIS
+			SYC = {
+				OR = {
+					vassal_of = THIS
+					all_core = {
+						owned_by = THIS
+					}
+				}
 			}
+			is_greater_power = yes
 		}
 		effect = {
 			set_country_flag = roman_syracuse_flag
+			prestige = 15
+			SYC = {
+				annex_to = THIS
+			}
 			any_pop = {
 				limit = {
 					has_pop_culture = syracusean
@@ -101,16 +108,6 @@ political_decisions = {
 				add_province_modifier = {
 					name = cultural_resurgence
 					duration = -1
-				}
-			}
-			SYC = {
-				all_core = {
-					limit = {
-						NOT = {
-							culture = greek
-						}
-					}
-					add_core = THIS
 				}
 			}
 		}
