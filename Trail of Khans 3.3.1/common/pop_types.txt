@@ -994,7 +994,7 @@ emigration_chance =
 #general assimilation mtth, same for all pops
 assimilation_chance = 
 {
-	factor = 2
+	factor = 2.5
 
 
 #IMPORTANT DO NOT DELETE - blocks assimilation if the state is colonial and/or the country trying to assimilate pops is unciv and/or the pop is below 100% life needs.	
@@ -1784,7 +1784,7 @@ assimilation_chance =
 }
 #general conversion mtth, same for all pops
 conversion_chance = {
-	factor = 0.1
+	factor = 0
 
 	modifier = {
 		factor = -100
@@ -1810,7 +1810,6 @@ conversion_chance = {
 		factor = -0.95
 		OR = {
 			has_pop_religion = jewish
-			has_pop_religion = mormon
 			has_pop_religion = shiite
 			has_pop_religion = sunni
 			has_pop_religion = ibadi

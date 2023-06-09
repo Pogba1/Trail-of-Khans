@@ -157,7 +157,7 @@ political_decisions = {
 						NOT = { positivism = 1 }
 					}
 				}
-				onwer = { activate_technology = positivism }
+				owner = { activate_technology = positivism }
 			}
 			random_owned = {
 				limit = {
