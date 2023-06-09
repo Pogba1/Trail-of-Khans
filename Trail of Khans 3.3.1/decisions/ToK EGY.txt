@@ -137,4 +137,38 @@ political_decisions = {
 			set_country_flag = reclaim_arabia
 		}
 	}
+	education_reform_1 = {
+		potential = {
+			tag = EGY
+			NOT = {
+				has_country_flag = education_reform_1
+			}
+		}
+		allow = {
+			money = 350000
+			literacy = 0.15
+			ideological_thought = 1
+		}
+		effect = {
+			money = -350000
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { positivism = 1 }
+					}
+				}
+				onwer = { activate_technology = positivism }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						positivism = 1
+					}
+				}
+				owner = { activate_technology = functionalism }
+			}
+			social_reform = acceptable_schools
+			set_country_flag = education_reform_1
+		}
+	}
 }
