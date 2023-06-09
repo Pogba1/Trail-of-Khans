@@ -272,8 +272,6 @@ chinese_unification_cb = {
 	is_triggered_only = yes
 	months = 12
 	
-	construction_speed = 0.8
-	
 	badboy_factor = 0.5
 	prestige_factor = 5
 	peace_cost_factor = 0.15
@@ -508,6 +506,7 @@ conquest = {
 	sprite_index = 2
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 0.5
 	crisis = no
 	
 	can_use = {
@@ -570,6 +569,7 @@ conquest_low = {
 	sprite_index = 2
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 0.5
 	crisis = no
 	
 	can_use = {
@@ -631,6 +631,7 @@ conquest_tiny = {
 	sprite_index = 2
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 0.5
 	crisis = no
 	
 	can_use = {
@@ -692,6 +693,7 @@ conquest_miniscule = {
 	sprite_index = 2
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 0.5
 	crisis = no
 	
 	can_use = {
@@ -793,6 +795,7 @@ civil_war = {
 add_to_sphere = {
 	sprite_index = 3
 	is_triggered_only = yes
+	construction_speed = 0.5
 	months = 12
 	crisis = no
 
@@ -839,6 +842,7 @@ add_to_sphere = {
 take_from_sphere = {
 	sprite_index = 4
 	is_triggered_only = yes
+	construction_speed = 0.5
 	months = 12
 	
 	badboy_factor = 0.5
@@ -891,8 +895,6 @@ acquire_core_state = {
 	sprite_index = 5
 	is_triggered_only = yes
 	months = 12
-	
-	construction_speed = 0.8
 	
 	badboy_factor = 0
 	prestige_factor = 5
@@ -1049,7 +1051,7 @@ take_capital = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.25
+	construction_speed = 0.5
 	
 	badboy_factor = 2.2
 	prestige_factor = 10
@@ -1145,7 +1147,7 @@ take_capital_america = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.25
+	construction_speed = 0.5
 	
 	badboy_factor = 2.2
 	prestige_factor = 10
@@ -1425,6 +1427,7 @@ place_in_the_sun = {
 	sprite_index = 7
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 0.5
 
 	badboy_factor = 1
 	prestige_factor = 2
@@ -1515,6 +1518,7 @@ colonial_competition = {
 cut_down_to_size = {
 	sprite_index = 8
 	is_triggered_only = yes
+	construction_speed = 0.5
 	months = 12
 	
 	badboy_factor = 1.3
@@ -1554,6 +1558,7 @@ cut_down_to_size = {
 # Free Peoples
 free_peoples = {
 	sprite_index = 9
+	construction_speed = 0.5
 	is_triggered_only = yes
 	months = 12
 
@@ -1637,6 +1642,7 @@ free_peoples = {
 
 # Liberate country
 liberate_country = {
+	construction_speed = 0.5
 	sprite_index = 15
 	is_triggered_only = yes
 	months = 12
@@ -1719,6 +1725,7 @@ liberate_country = {
 
 # Dismantle fortifications (forts + naval bases)
 dismantle_forts = {
+	construction_speed = 0.5
 	sprite_index = 16
 	is_triggered_only = yes
 	months = 12
@@ -1861,6 +1868,7 @@ dismantle_forts = {
 #}
 # Release Puppet
 release_puppet = {
+	construction_speed = 0.5
 	sprite_index = 10
 	is_triggered_only = yes
 	months = 12
@@ -2015,6 +2023,7 @@ become_independent = {
 
 # Humiliate
 humiliate = {
+	construction_speed = 0.5
 	sprite_index = 11
 	is_triggered_only = yes
 	months = 12
@@ -2056,7 +2065,7 @@ demand_concession_casus_belli = {
 	sprite_index = 7
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 1.2
+	construction_speed = 0.5
 	crisis = no
 	
 	badboy_factor = 1.5
@@ -2113,8 +2122,7 @@ demand_concession_NI_casus_belli = {
 	is_triggered_only = yes
 	months = 0
 	crisis = no
-	
-	construction_speed = 1.2
+	construction_speed = 0.5
 	
 	badboy_factor = 1
 	prestige_factor = 1
@@ -2187,7 +2195,7 @@ establish_protectorate_casus_belli = {
 	sprite_index = 7
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 1.2
+	construction_speed = 0.5
 	crisis = no
 	
 	badboy_factor = 1.5
@@ -2245,8 +2253,7 @@ establish_protectorate_NI_casus_belli = {
 	is_triggered_only = yes
 	months = 0
 	crisis = no
-	
-	construction_speed = 0.8
+	construction_speed = 0.5
 	
 	badboy_factor = 1
 	prestige_factor = 1
