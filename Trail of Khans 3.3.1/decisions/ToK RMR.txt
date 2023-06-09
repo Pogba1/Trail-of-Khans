@@ -94,6 +94,9 @@ political_decisions = {
 			prestige = 15
 			SYC = {
 				annex_to = THIS
+				all_core = {
+					add_core = THIS
+				}
 			}
 			any_pop = {
 				limit = {
