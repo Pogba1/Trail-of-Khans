@@ -60,6 +60,7 @@ political_decisions = {
 			inherit = CIS
 			CIS = {
 				all_core = {
+					add_core = RMR
 					remove_core = CIS
 				}
 			}
