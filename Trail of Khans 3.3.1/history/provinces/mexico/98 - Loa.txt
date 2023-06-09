@@ -1,10 +1,2 @@
- 
-trade_goods = grain
+ trade_goods = grain
 life_rating = 30
-1861.1.1 = {
-    owner = USA
-    controller = USA
-    add_core = USA
-    remove_core = MEX
-    colonial = 0
-}
