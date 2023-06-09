@@ -5,8 +5,4 @@ trade_goods = grain
 life_rating = 30
 terrain = small_island
 colonial = 2
-1861.1.1 = {
-    owner = FRA
-    controller = FRA
-    naval_base = 1
-}
+

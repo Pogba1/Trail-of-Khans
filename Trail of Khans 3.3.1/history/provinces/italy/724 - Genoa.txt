@@ -4,12 +4,5 @@ add_core = RMR
 trade_goods = fruit
 life_rating = 40
 naval_base = 1
-1861.1.1 = {
-    controller = ITA
-    owner = ITA
-    add_core = RMR
-}
-1861.1.1 = {
-    railroad = 2
-    naval_base = 2
-}
+
+

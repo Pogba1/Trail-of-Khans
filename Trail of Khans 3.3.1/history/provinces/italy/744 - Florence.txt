@@ -8,9 +8,5 @@ state_building = {
     building = fabric_factory
     upgrade = yes
 }
-1861.1.1 = {
-    controller = ITA
-    owner = ITA
-    add_core = RMR
-}
-1861.1.1 = { railroad = 3 }
+
+
