@@ -285,6 +285,7 @@ country_event = {
 		clr_global_flag = the_roman_civil_war
 
 		prestige = 75
+		add_accepted_culture = greek
 		BYZ = {
 			all_core = {
 				add_core = THIS
