@@ -46718,31 +46718,31 @@
 
 # Kapan
 1100 = {
+    text_position = {
+        x = 3524.700000
+        y = 1430.900000
+    }
+
+    text_rotation = 0.207238
+    text_scale = 2.600000
     unit = {
         x = 3524.000000
         y = 1428.000000
     }
 
-    text_position = {
-        x = 3522.300049
-        y = 1424.800049
+    factory = {
+        x = 3513.000000
+        y = 1431.000000
     }
 
-    text_rotation = 5.585053
-    text_scale = 2.600000
     building_construction = {
         x = 3517.100098
         y = 1429.900024
     }
 
     military_construction = {
-        x = 3528.000000
-        y = 1422.000000
-    }
-
-    factory = {
-        x = 3513.000000
-        y = 1431.000000
+        x = 3531.900000
+        y = 1428.700000
     }
 
     building_position = {
@@ -46758,12 +46758,17 @@
 # Nakhichevan
 1101 = {
     text_position = {
-        x = 3514.800049
-        y = 1420.400024
+        x = 3525.100000
+        y = 1419.200000
     }
 
-    text_rotation = 5.672319
+    text_rotation = 0.035161
     text_scale = 2.500000
+    factory = {
+        x = 3508.399902
+        y = 1428.500000
+    }
+
     building_construction = {
         x = 3513.000000
         y = 1425.000000
@@ -46772,11 +46777,6 @@
     military_construction = {
         x = 3520.000000
         y = 1420.599976
-    }
-
-    factory = {
-        x = 3508.399902
-        y = 1428.500000
     }
 
     building_position = {
@@ -46916,8 +46916,8 @@
 # Ganja
 1105 = {
     text_position = {
-        x = 3529.480000
-        y = 1434.213333
+        x = 3522.020000
+        y = 1449.810000
     }
 
     text_scale = 3.099999
@@ -46959,8 +46959,8 @@
 # Agdam
 1106 = {
     text_position = {
-        x = 3547.586667
-        y = 1433.933333
+        x = 3542.380000
+        y = 1439.800000
     }
 
     text_scale = 3.499999
