@@ -616,7 +616,7 @@ freedom_of_trade = {
 market_structure = {
     area = market_functionality
     year = 1836
-    cost = 7200
+    cost = 4800
 
     influence = 0.2
 
@@ -671,7 +671,7 @@ market_structure = {
 business_regulations = {
     area = market_functionality
     year = 1836
-    cost = 10800
+    cost = 6000
 
     influence = 0.3
 
@@ -714,7 +714,7 @@ business_regulations = {
 market_regulations = {
     area = market_functionality
     year = 1850
-    cost = 14400
+    cost = 7500
 
     influence = 0.2
     rgo_goods_output = { precious_goods = 0.1 }
@@ -764,7 +764,7 @@ market_regulations = {
 economic_responsibility = {
     area = market_functionality
     year = 1870
-    cost = 18000
+    cost = 10000
 
     influence = 0.2
     rgo_goods_output = { precious_goods = 0.15 }
@@ -800,7 +800,7 @@ economic_responsibility = {
 government_interventionism = {
     area = market_functionality
     year = 1900
-    cost = 21600
+    cost = 15000
 
     influence = 0.50
     ai_chance = {
