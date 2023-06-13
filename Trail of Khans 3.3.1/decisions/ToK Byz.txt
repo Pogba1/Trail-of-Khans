@@ -427,9 +427,6 @@ political_decisions = {
 			NOT = {
 				has_country_flag = the_pheonix_rose_and_an_eagle_fell
 			}
-			NOT = {
-				has_country_flag = integrate_the_armenians
-			}
 			tag = BYZ
 		}
 		allow = {
@@ -626,10 +623,6 @@ political_decisions = {
         potential = {
 			tag = BYZ
 			NOT = {has_country_flag = integrate_the_armenians}
-			NOT = {has_country_flag = dreams_of_rome}
-			NOT = {
-				has_country_flag = the_pheonix_rose_and_an_eagle_fell
-			}
         }
 
         allow = {
