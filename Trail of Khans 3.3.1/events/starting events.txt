@@ -48,18 +48,47 @@ country_event = {
 	
 	option = {
         name = "Long live the Persian state!"
+		change_tag = NPS
 		set_global_flag = svf_start
 			relation = {
-				who = GOL
-				value = -20
+				who = MGL
+				value = -120
 			}
 			primary_culture = persian
 			add_accepted_culture = parsis
 			add_accepted_culture = hazara
 			remove_accepted_culture = mongol
-			any_pop = { limit = {has_pop_culture = persian} literacy = 0.25}
+			capital = 926
+			926 = {add_province_modifier = {name =new_capital duration = 3650}
 			any_pop = { limit = {is_accepted_culture = no} militancy = 2}
+			any_pop = { limit = {has_pop_culture = mongol} militancy = 5}
+			TUR_890 = {remove_core = THIS}
+			TUR_893 = {remove_core = THIS}
+			SVF_894 = {remove_core = THIS}
+			SVF_878 = {remove_core = THIS}
+			TUR_880 = {remove_core = THIS}
+			PER = {all_core = {add_core = NPS}}
+			PER = {all_core = {add_core = NPS}}
+			PER = {all_core={remove_core = PER}}
+			SVF = {all_core={remove_core = SVF}}
+        }
+	
+    }
+	
+	option = {
+        name = "Iranzamin will remain, but some reforms are in order."
+		set_global_flag = svf_start
+			relation = {
+				who = MGL
+				value = -20
+			}
+			primary_culture = persian
+			add_accepted_culture = parsis
+			add_accepted_culture = hazara
+			#remove_accepted_culture = mongol
+			any_pop = { limit = {is_accepted_culture = no} militancy = 1}
 			any_pop = { limit = {has_pop_culture = mongol} militancy = 2}
         }
 	
     }
+	

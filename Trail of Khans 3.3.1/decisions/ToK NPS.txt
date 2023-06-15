@@ -1,0 +1,105 @@
+political_decisions = {
+	press_baluchistan = {
+		picture = "destroy_turkmenistan"
+		potential = {
+			tag = NPS
+			
+			NOT = {has_country_flag = press_baluchistan}
+		}
+		allow = {
+			OR = {
+				AND = {
+				exists = BLC
+				OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+				}
+				OR = {BLC = {part_of_sphere = no} BLC = {in_sphere = THIS}}
+				}
+				1222 = {owned_by = THIS}
+				1146 = {owned_by = THIS}
+			}
+		}
+		effect = {
+		set_country_flag = press_baluchistan
+		badboy = 3
+			BLC = {all_core = {add_core = THIS}}
+			BLC = {country_event = 801}
+		}
+	
+	}
+	
+	push_east_nps = {
+		picture = "push_east"
+		potential = {
+			tag = NPS
+			NOT = {has_country_flag = push_east_nps}
+		}
+		allow = {
+			all_core = {owned_by = THIS}
+		}
+		effect = {
+		set_country_flag = push_east_nps
+			AFG = {all_core = {add_core = THIS}}
+			TKM = {all_core = {add_core = THIS}}
+			KAL_1221 = {add_core = THIS}
+			add_accepted_culture = pashtun
+		}
+	}
+	conquer_the_indus_valley = {
+		potential = {
+			tag = NPS
+			has_country_flag = push_east_nps
+			NOT = {has_country_flag = conquer_the_indus_valley}
+		}
+		
+		allow = {
+			1219 = {owned_by = THIS}
+		}
+		effect = {
+			PAN_1224 = {add_core = THIS}
+			PAN_1227 = {add_core = THIS}
+			SIN_1288 = {add_core = THIS}
+			set_country_flag = conquer_the_indus_valley
+		}
+	
+	}
+	
+	consolidate_our_conquest_of_the_valley = {
+		potential = {
+			tag = NPS
+			has_country_flag = conquer_the_indus_valley
+			NOT = {has_country_flag = consolidate_our_conquest_of_the_valley}
+		}
+		
+		allow = {
+			PAN_1224 = {owned_by = THIS}
+			PAN_1227 = {owned_by = THIS}
+			SIN_1288 = {owned_by = THIS}
+		}
+		effect = {
+			add_accepted_culture = panjabi
+			add_accepted_culture = sindi
+			ENG_1264 = {add_core = THIS}
+			ENG_1291 = {add_core = THIS}
+			set_country_flag = consolidate_our_conquest_of_the_valley
+		}
+	
+	}
+	
+	the_empire_renewed = {
+		potential = {
+			tag = NPS
+			has_country_flag = consolidate_our_conquest_of_the_valley
+			NOT = {has_country_flag = the_empire_renewed}
+		}
+		allow = {
+			HND={all_core = {limit={is_core = NPS}} owned_by = THIS}
+		}
+		effect = {
+			add_accepted_culture = marathi
+			add_accepted_culture = gujarati
+			set_country_flag = the_empire_renewed
+		}
+	}
+}

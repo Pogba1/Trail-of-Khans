@@ -1,0 +1,96 @@
+country_event = {
+    id = 801
+    title = "EVTNAME801"
+    desc = "EVTDESC801"
+
+       is_triggered_only = yes
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "We must accept."
+		NPS={country_event =802}
+		ai_chance = {factor = 100} 
+        
+    }
+	option = {
+        name = "NOOOOOO!!!!! NEVER!!!!!!!!1111111111111111"
+		NPS={country_event =803}
+		prestige = 10 
+    }
+}
+
+country_event = {
+    id = 802
+    title = "EVTNAME802"
+    desc = "EVTDESC802"
+
+       is_triggered_only = yes
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Another piece in our expansion plans."
+		prestige = 5
+		inherit = BLC
+        
+    }
+}
+
+country_event = {
+    id = 803
+    title = "EVTNAME803"
+    desc = "EVTDESC803"
+
+       is_triggered_only = yes
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "KILL! KILL! KILL!"
+    }
+}
+
+country_event = {
+	id = 804
+	title = "EVTNAME804"
+	desc = "EVTDESC804"
+	
+	major = yes
+	
+	trigger = {
+		tag = NPS
+		926 = {pop_majority_culture = persian}
+		926 = {owned_by = THIS}
+		TUR_923 = {owned_by = THIS}
+		TUR_931 = {owned_by = THIS}
+		TUR_935 = {owned_by = THIS}
+		PER_1132 = {owned_by = THIS}
+		NOT = {has_global_flag = fertile_crescent_assimilation_nps}
+	}
+	
+	mean_time_to_happen = 1
+	
+	option = {
+        name = "Let us assimilate the Fertile Crescent."
+		add_accepted_culture = assyrian
+		#should add 2 modifiers for all provinces in TUR_923, TUR_931, TUR_935 and PER_1132; One for the assimilation buff of 200% (duration = -1) and one for unaccepted pop militancy +0.1 in those provinces which lasts 10 years.
+		set_global_flag = fertile_crescent_assimilation_nps
+    }
+	
+	option = {
+        name = "Let us assimilate the Arabs, but integrate the Kurds."
+		add_accepted_culture = assyrian
+		add_accepted_culture = kurdish
+        #should add 2 modifiers for all provinces in TUR_923, TUR_931, TUR_935 and PER_1132, except for the kurd majority provinces; One for the assimilation buff of 200% and one for pop militancy +0.1 in those provinces.
+		#add a flat 12 militancy to all other pops in the fertile crescent, except the assyrians and kurds
+		set_global_flag = fertile_crescent_assimilation_nps
+	}
+
+}

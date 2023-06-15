@@ -2857,6 +2857,12 @@ mongolian_army_debuff_2 = {
     icon = 16
 }
 
+new_capital = {
+    assimilation_rate = 0.65
+	pop_militancy_modifier = -0.1 
+	icon = 1
+}
+
 capital_of_indian_trade = {
     tariff_efficiency_modifier = 0.1
     tax_efficiency = 0.1

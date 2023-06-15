@@ -11,7 +11,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = conquer_caucasus_svf
 			PNT = { all_core = { add_core = THIS } }
-			add_accepted_culture = azerbaijani
+			
 		}
 	}
 	destroy_turkmenistan = {
