@@ -3,8 +3,10 @@ political_decisions = {
 	fertile_crescent_agriculture = {
 		picture = vietnam_coffee
 		potential = {
+			OR = {
 			tag = NPS
-					
+			tag = SVF
+			}
 			NOT = {
 				has_country_flag = fertile_crescent_agriculture
 			}
