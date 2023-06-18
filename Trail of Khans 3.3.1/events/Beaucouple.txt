@@ -18,6 +18,8 @@ country_event = {
 			name = sans_culottes
 			duration = -1
 		}
+		any_pop = { limit = {has_pop_culture = louisianian} militancy = 8}
+		any_pop = { limit = {has_pop_culture = creole} militancy = 8}
 		set_global_flag = sans_culottes
 		set_country_flag = culottes_flag_cnt
         ai_chance = { factor = 1 }

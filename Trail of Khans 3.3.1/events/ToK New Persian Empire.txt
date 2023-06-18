@@ -71,7 +71,6 @@ country_event = {
 		TUR_923 = {owned_by = THIS}
 		TUR_931 = {owned_by = THIS}
 		TUR_935 = {owned_by = THIS}
-		PER_1132 = {owned_by = THIS}
 		NOT = {has_global_flag = fertile_crescent_assimilation_nps}
 	}
 	
@@ -80,16 +79,56 @@ country_event = {
 	option = {
         name = "Let us assimilate the Fertile Crescent."
 		add_accepted_culture = assyrian
-		#should add 2 modifiers for all provinces in TUR_923, TUR_931, TUR_935 and PER_1132; One for the assimilation buff of 200% (duration = -1) and one for unaccepted pop militancy +0.1 in those provinces which lasts 10 years.
+		#should add 2 modifiers for all provinces in TUR_923, TUR_931, TUR_935 and (PER_1132); One for the assimilation buff of 200% (duration = -1) and one for unaccepted pop militancy +0.1 in those provinces which lasts 10 years.
+		TUR_923 = {
+			add_province_modifier = {name = assimilate_the_fertile_crescent duration = -1}
+			add_province_modifier = {name = assimilation_unrest duration = 1825}
+		}
+		
+		TUR_931 = {
+			add_province_modifier = {name = assimilate_the_fertile_crescent duration = -1}
+			add_province_modifier = {name = assimilation_unrest duration = 1825}
+		}
+		
+		TUR_935 = {
+			add_province_modifier = {name = assimilate_the_fertile_crescent duration = -1}
+			add_province_modifier = {name = assimilation_unrest duration = 1825}
+		}
+		any_pop = { limit = {is_accepted_culture = no} militancy = 2}
 		set_global_flag = fertile_crescent_assimilation_nps
+		set_country_flag = assyrian
     }
 	
 	option = {
         name = "Let us assimilate the Arabs, but integrate the Kurds."
 		add_accepted_culture = assyrian
 		add_accepted_culture = kurdish
-        #should add 2 modifiers for all provinces in TUR_923, TUR_931, TUR_935 and PER_1132, except for the kurd majority provinces; One for the assimilation buff of 200% and one for pop militancy +0.1 in those provinces.
-		#add a flat 12 militancy to all other pops in the fertile crescent, except the assyrians and kurds
+		TUR_923 = {
+			add_province_modifier = {name = assimilate_the_fertile_crescent duration = -1}
+			add_province_modifier = {name = assimilation_unrest duration = 1825}
+			limit = {OR = {NOT = {pop_majority_culture = kurdish}} NOT = {pop_majority_culture = persian} NOT = {pop_majority_culture = assyrian}}
+			any_pop = { limit = {has_pop_culture = mashriqi} militancy = 8}
+			any_pop = { limit = {has_pop_culture = bedouin} militancy = 8}
+		}
+		
+		TUR_931 = {
+			add_province_modifier = {name = assimilate_the_fertile_crescent duration = -1}
+			add_province_modifier = {name = assimilation_unrest duration = 1825}
+			limit = {OR = {NOT = {pop_majority_culture = kurdish}} NOT = {pop_majority_culture = persian} NOT = {pop_majority_culture = assyrian}}
+			any_pop = { limit = {has_pop_culture = mashriqi} militancy = 8}
+			any_pop = { limit = {has_pop_culture = bedouin} militancy = 8}
+		}
+		
+		TUR_935 = {
+			add_province_modifier = {name = assimilate_the_fertile_crescent duration = -1}
+			add_province_modifier = {name = assimilation_unrest duration = 1825}
+			limit = {OR = {NOT = {pop_majority_culture = kurdish}} NOT = {pop_majority_culture = persian} NOT = {pop_majority_culture = assyrian}}
+			any_pop = { limit = {has_pop_culture = mashriqi} militancy = 8}
+			any_pop = { limit = {has_pop_culture = bedouin} militancy = 8}
+		}
+		
+        any_pop = { limit = {is_accepted_culture = no} militancy = 2}
+		set_country_flag = assyrian_kurdish
 		set_global_flag = fertile_crescent_assimilation_nps
 	}
 

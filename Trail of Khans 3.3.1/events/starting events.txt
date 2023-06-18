@@ -42,7 +42,7 @@ country_event = {
 	primary_culture = mongol
 	}
 	mean_time_to_happen = {
-	days = 30
+	days = 1
 	}
 	allow_multiple_instances = no
 	
@@ -59,7 +59,7 @@ country_event = {
 			add_accepted_culture = hazara
 			remove_accepted_culture = mongol
 			capital = 926
-			926 = {add_province_modifier = {name =new_capital duration = 3650}
+			926 = {add_province_modifier = {name =new_capital duration = 7300}
 			any_pop = { limit = {is_accepted_culture = no} militancy = 2}
 			any_pop = { limit = {has_pop_culture = mongol} militancy = 5}
 			TUR_890 = {remove_core = THIS}
