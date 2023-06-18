@@ -13,9 +13,9 @@ political_decisions = {
 			TUR_935 = { owned_by = THIS }
 		}
 		allow = {
-			926 = { 
-				NOT = {has_province_modifier = new_capital}
-			}
+			#926 = { 
+			#	NOT = {has_province_modifier = new_capital}
+			#}
 			compound_steam_engines = 1
 			invention = artificial_fertilizers
 			OR = {
