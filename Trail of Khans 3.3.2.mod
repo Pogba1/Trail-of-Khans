@@ -1,0 +1,8 @@
+name = "Trail of Khans 3.3.2" 
+path = "mod/Trail of Khans 3.3.2" 
+user_dir = "Trail of Khans 3.3.2" 
+replace_path = "decisions"
+replace_path = "events"
+replace_path = "history/provinces"
+replace_path = "history/countries"
+replace_path = "history/diplomacy"
