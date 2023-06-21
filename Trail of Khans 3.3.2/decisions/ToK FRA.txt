@@ -33,15 +33,45 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = retake_north
-			IRE = {
-				all_core = {
-					limit = {
+			random_owned = {
+				limit = {
+					owner = {
 						NOT = {
-							is_core = GAE
+							has_global_flag = attempt_reform_gaul
 						}
 					}
-					add_core = THIS
-					remove_core = IRE
+				}
+				owner = {
+					IRE = {
+						all_core = {
+							limit = {
+								NOT = {
+									is_core = GAE
+								}
+							}
+							add_core = THIS
+							remove_core = IRE
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						has_global_flag = attempt_reform_gaul
+					}
+				}
+				owner = {
+					IRE = {
+						all_core = {
+							limit = {
+								NOT = {
+									is_core = GAE
+								}
+							}
+							add_core = THIS
+						}
+					}
 				}
 			}
 		}
