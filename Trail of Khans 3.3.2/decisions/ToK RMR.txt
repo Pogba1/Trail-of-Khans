@@ -5,7 +5,7 @@ political_decisions = {
 			tag = RMR
 			has_country_flag = western_rome_flag
 			NOT = {
-				has_country_flag = occitan_brothers
+				has_country_flag = transalpine_gaul
 			}
 		}
 		allow = {
@@ -16,6 +16,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 30
+			set_country_flag = transalpine_gaul
 			SAR_466 = {
 				add_core = RMR
 			}
@@ -30,6 +31,76 @@ political_decisions = {
 			}
 			SWI_603 = {
 				add_core = RMR
+			}
+		}
+	}
+
+	occitan_brothers = {
+		potential = {
+			tag = RMR
+			has_country_flag = transalpine_gaul
+			NOT = {
+				accepted_culture = occitan
+			}
+			NOT = {
+				accepted_culture = spanish
+			}
+		}
+		allow = {
+			all_core = {
+				owned_by = THIS
+			}
+			FRA = {
+				all_core = {
+					culture = occitan
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			add_accepted_culture = occitan
+			prestige = 25
+			FRA = {
+				all_core = {
+					limit = {
+						culture = occitan
+					}
+					add_core = THIS
+				}
+			}
+		}
+	}
+
+	asturian_brothers = {
+		potential = {
+			tag = RMR
+			NOT = {
+				accepted_culture = spanish
+			}
+			NOT = {
+				accepted_culture = occitan
+			}
+			has_country_flag = western_rome_flag
+		}
+		allow = {
+			ATR = {
+				all_core = {
+					culture = spanish
+					owned_by = THIS
+				}
+			}
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			add_accepted_culture = spanish
+			prestige = 25
+			ATR = {
+				all_core = {
+					limit = {
+						culture = spanish
+					}
+					add_core = THIS
+				}
 			}
 		}
 	}

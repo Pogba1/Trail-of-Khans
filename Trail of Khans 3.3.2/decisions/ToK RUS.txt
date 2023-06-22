@@ -2,23 +2,6 @@ political_decisions = {
 	###################################################
 	#FORM RUS GLORY TO PUTIN DEATH TO UKRAINE :MUSCLE:#
 	###################################################
-	revoke_vladimirian_autonomy = {
-		picture = "neuschwanstein"
-		potential = {
-			NOT = {has_country_flag = revoke_vladimirian_autonomy}
-			tag = NOV
-		}
-		allow = {
-			VLD = {vassal_of = THIS}
-			year = 1838
-			war = no
-			has_recently_lost_war = no
-		}
-		effect = {
-			inherit = VLD
-			set_country_flag = revoke_vladimirian_autonomy
-		}
-	}
 	form_rus = {
 		picture = "national_value"
 		potential = {
