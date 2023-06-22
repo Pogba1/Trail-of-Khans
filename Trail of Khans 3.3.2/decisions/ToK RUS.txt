@@ -5,14 +5,11 @@ political_decisions = {
 	revoke_vladimirian_autonomy = {
 		picture = "neuschwanstein"
 		potential = {
-		NOT = {has_country_flag = revoke_vladimirian_autonomy}
+			NOT = {has_country_flag = revoke_vladimirian_autonomy}
 			tag = NOV
-		OR = {	
-			VLD = {vassal_of = THIS}
-			VLD = {substate_of = THIS}
-		}
 		}
 		allow = {
+			VLD = {vassal_of = THIS}
 			year = 1838
 			war = no
 			has_recently_lost_war = no
