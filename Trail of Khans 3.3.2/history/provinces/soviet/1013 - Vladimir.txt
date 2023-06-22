@@ -1,9 +1,7 @@
 owner = NOV
 controller = NOV
 add_core = VLD
-add_core = NOV
- 
 add_core = KIR
 add_core = RUS
 trade_goods = timber
-life_rating = 40
+life_rating = 35
