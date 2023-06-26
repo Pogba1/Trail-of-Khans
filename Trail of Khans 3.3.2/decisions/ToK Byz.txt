@@ -581,6 +581,11 @@ political_decisions = {
 					remove_core = MAC
 				}
 			}
+			
+			TUR_809 = {
+				add_core = BYZ
+			}
+			
 			set_global_flag = pheonix_rises
 		}
 	}
