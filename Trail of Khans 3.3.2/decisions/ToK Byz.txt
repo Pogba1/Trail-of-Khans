@@ -500,11 +500,8 @@ political_decisions = {
 					owned_by = THIS
 				}
 			}
-			GAL = {
-				all_core = {
-					owned_by = THIS
-				}
-			}
+			880 = {owned_by = THIS}
+			876 = {owned_by = THIS}
 			THR = {
 				all_core = {
 					owned_by = THIS
