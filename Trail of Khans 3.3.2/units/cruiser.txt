@@ -36,7 +36,7 @@ cruiser = {
 
     supply_consumption = 1.0
     supply_cost = {
-        steamer_convoy = 1
+        steamer_convoy = 1.1
         artillery = 0.5
         canned_food = 0.6
         fuel = 3

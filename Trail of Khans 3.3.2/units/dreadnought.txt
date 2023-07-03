@@ -38,8 +38,8 @@ dreadnought = {
 
     supply_consumption = 1.0
     supply_cost = {
-        steamer_convoy = 1.6
-        artillery = 0.8
+        steamer_convoy = 2.0
+        artillery = 0.9
         canned_food = 1
         telephones = 0.02
         fuel = 5
@@ -49,8 +49,8 @@ dreadnought = {
     }
 
     #Naval Abilities
-    hull = 120
-    gun_power = 100
+    hull = 130
+    gun_power = 105
     fire_range = 0.8
     evasion = 0
 }
