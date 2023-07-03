@@ -19,7 +19,6 @@ political_decisions = {
 			860 = {remove_core = GAL}
 			860 = {remove_core = MEA}
 			860 = {remove_core = ATH}
-			860 = {remove_core = ANA}
 			860 = {remove_core = MAC}
 			860 = {remove_core = GRE}
 			860 = {add_core = THIS}
@@ -97,7 +96,6 @@ political_decisions = {
 			883 = {
 				add_core = THIS
 			}
-			ANA = {all_core = {remove_core = ANA}}
             set_country_flag = patriarchate_of_antioch
             any_pop = {
                 limit = {
@@ -671,7 +669,6 @@ political_decisions = {
 			TUR_923 = { add_core = THIS }
 			TUR_931 = { add_core = THIS }
 			TUR_935 = { add_core = THIS }
-			PER_1132 = { add_core = THIS }
 			EGY_897 = { add_core = THIS }
 			EGY_915 = { add_core = THIS }
 			EGY_921 = { add_core = THIS }
