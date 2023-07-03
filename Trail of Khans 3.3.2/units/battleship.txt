@@ -38,10 +38,10 @@ battleship = {
 
     supply_consumption = 1.0
     supply_cost = {
-        steamer_convoy = 1.4
+        steamer_convoy = 1.5
         artillery = 0.7
         canned_food = 0.8
-        telephones = 0.01
+        #telephones = 0.01
         coal = 4
         ammunition = 0.6
         #regular_clothes = 0.3
@@ -49,8 +49,8 @@ battleship = {
     }
 
     #Naval Abilities
-    hull = 100
-    gun_power = 80
+    hull = 80
+    gun_power = 70
     fire_range = 0.75
     evasion = 0
 }
