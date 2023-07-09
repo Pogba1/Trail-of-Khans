@@ -214,7 +214,7 @@ political_decisions = {
 			tag = IRE
 			NOT = {exists = GAE}
 			NOT = {
-				has_country_flag = attempt_reform_gaul
+				has_global_flag = attempt_reform_gaul
 			}
 		}
 		allow = {
