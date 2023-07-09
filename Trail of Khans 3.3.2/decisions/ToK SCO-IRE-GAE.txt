@@ -41,7 +41,7 @@ political_decisions = {
 		potential = {
 			tag = IRE
 			NOT = {has_country_flag=hegemony_over_island}
-			NOT = {has_country_flag=attempt_reform_gaul}
+			NOT = {has_global_flag=attempt_reform_gaul}
 		}
 		allow = {
 			accepted_culture = welsh
@@ -123,7 +123,7 @@ political_decisions = {
 		potential = {
 			tag = IRE
 		    NOT={has_country_flag=cores_ireland_scotland}
-			NOT={has_country_flag=attempt_reform_gaul}
+			NOT={has_global_flag=attempt_reform_gaul}
 		}
 		allow = {
 			has_country_flag = hegemony_over_island
