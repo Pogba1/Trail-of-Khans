@@ -86,7 +86,7 @@ political_decisions = {
 					}
 				}
 			}
-			invention = manifest_destiny
+			nationalism_n_imperialism = 1
 			breech_loaded_rifles = 1
 		}
 		effect = {
@@ -198,7 +198,7 @@ political_decisions = {
 			MCK = {
 				exists = no
 			}
-			mass_politics = 1
+			revolution_n_counterrevolution = 1
 			social_science = 1
 		}
 		effect = {
