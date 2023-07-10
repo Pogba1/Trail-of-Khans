@@ -16,7 +16,7 @@ categories =  {
         farm_rgo_eff = 0.25
         mine_rgo_size = -0.5
         mine_rgo_eff = 0.25
-        supply_limit = 10
+        supply_limit = 12
     }
 
     arctic = {
@@ -26,10 +26,8 @@ categories =  {
         farm_rgo_eff = -0.4
         mine_rgo_size = 0.0
         mine_rgo_eff = -0.2
-        min_build_naval_base = 4
-        min_build_railroad = 4
-        min_build_fort = 1
-        attrition = 2
+        min_build_railroad = 3
+        attrition = 3
     }
 
     plains = {
@@ -50,7 +48,7 @@ categories =  {
         farm_rgo_eff = -0.1
         mine_rgo_size = 0.0
         mine_rgo_eff = 0.0
-        supply_limit = 4
+        supply_limit = 5
 
     }
 
@@ -61,7 +59,7 @@ categories =  {
         farm_rgo_eff = -0.15
         mine_rgo_size = 0.0
         mine_rgo_eff = 0.0
-        supply_limit = 4
+        supply_limit = 5
 
     }
 
@@ -73,7 +71,7 @@ categories =  {
         farm_rgo_eff = 0.0
         mine_rgo_size = 0.0
         mine_rgo_eff = 0.0
-        supply_limit = 6
+        supply_limit = 7
         combat_width = -0.20
     }
 
@@ -88,9 +86,8 @@ categories =  {
         mine_rgo_size = 0.0
         mine_rgo_eff = -0.2
 
-        supply_limit = 1
+        supply_limit = 2
         min_build_railroad = 3
-        min_build_fort = 1
         combat_width = -0.25
     }
 
@@ -105,9 +102,8 @@ categories =  {
         mine_rgo_size = -0.0
         mine_rgo_eff = -0.2
 
-        min_build_naval_base = 4
-        min_build_railroad = 4
-        min_build_fort = 1
+		supply_limit = 1
+        min_build_railroad = 3
         combat_width = -0.20
     }
 
@@ -121,7 +117,7 @@ categories =  {
         mine_rgo_size = 0.0
         mine_rgo_eff = 0.0
 
-        supply_limit = 6
+        supply_limit = 7
         min_build_railroad = 1
         combat_width = -0.33
     }
@@ -151,7 +147,7 @@ categories =  {
         mine_rgo_size = 0.0
         mine_rgo_eff = 0.0
 
-        supply_limit = 3
+        supply_limit = 4
         min_build_railroad = 1
         combat_width = -0.33
     }
@@ -165,7 +161,7 @@ categories =  {
         farm_rgo_eff = -0.3
         mine_rgo_size = -0.25
         mine_rgo_eff = -0.3
-        supply_limit = 3
+        supply_limit = 4
         min_build_railroad = 2
         combat_width = -0.25
     }
@@ -177,7 +173,7 @@ categories =  {
         farm_rgo_eff = 0.0
         mine_rgo_size = 0.0
         mine_rgo_eff = 0.0
-        supply_limit = 10
+        supply_limit = 12
     }
 
     mountain = {
@@ -188,7 +184,7 @@ categories =  {
         farm_rgo_eff = 0.0
         mine_rgo_size = 0.0
         mine_rgo_eff = 0.20
-        supply_limit = 2
+        supply_limit = 3
 
         combat_width = -0.6
 
@@ -205,9 +201,8 @@ categories =  {
         mine_rgo_size = 0.0
         mine_rgo_eff = 0.0
 
-        min_build_naval_base = 4
+        supply_limit = 1
         min_build_railroad = 4
-        min_build_fort = 1
 
         combat_width = -0.6
         attrition = 2
@@ -223,7 +218,7 @@ categories =  {
         mine_rgo_size = 0.0
         mine_rgo_eff = 0.0
 
-        supply_limit = 2
+        supply_limit = 3
 
         combat_width = -0.70
 
@@ -238,8 +233,8 @@ categories =  {
         farm_rgo_eff = -0.5
         mine_rgo_size = -0.8
         mine_rgo_eff = -0.5
-        min_build_railroad = 6
-        min_build_fort = 1
+		supply_limit = 1
+        min_build_railroad = 3
         attrition = 2
     }
 
@@ -263,8 +258,8 @@ categories =  {
         farm_rgo_eff = -0.2
         mine_rgo_size = 0.0
         mine_rgo_eff = -0.1
-        supply_limit = 2
-        min_build_railroad = 3
+        supply_limit = 3
+        min_build_railroad = 2
         attrition = 1
     }
 
