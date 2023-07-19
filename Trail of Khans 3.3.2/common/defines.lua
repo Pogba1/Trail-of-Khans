@@ -1,7 +1,7 @@
 defines = {
 
 start_date = '1836.1.1',
-end_date = '1936.1.1',
+end_date = '2000.1.1',
 
 country = {
     YEARS_OF_NATIONALISM     = 20,   -- Years of Nationalism
@@ -30,7 +30,7 @@ country = {
     BASE_GREATPOWER_DAILY_INFLUENCE = 0.25, -- Influence value which is distributed each day
     AI_SUPPORT_REFORM = 0.05, -- At least this many % needs to support a reform for the AI to take it
     BASE_MONTHLY_DIPLOPOINTS = 0.3, -- Base value gain for diplomatic actions each month
-    DIPLOMAT_TRAVEL_TIME = -1, -- sigma teleporting diplomat grindset
+    DIPLOMAT_TRAVEL_TIME = -1, -- sigma teleporting diplomat grindset (real) (<3)
     PROVINCE_OVERSEAS_PENALTY = 0.015, -- Each province req. this many goods flagged as overseas penalty
     NONCORE_TAX_PENALTY = -0.05, -- -5% for each non-core in state
     BASE_TARIFF_EFFICIENCY = 0.2, -- baseline tariff efficiency
@@ -52,7 +52,7 @@ country = {
     MILITARY_REFORM_UH_FACTOR = -0.40,
     WRONG_REFORM_RADICAL_IMPACT = 15,
     TECH_YEAR_SPAN = 150,
-    TECH_FACTOR_VASSAL = 0.5, -- cost reduction factor if overlord has research the tech
+    TECH_FACTOR_VASSAL = 0.25, -- cost reduction factor if overlord has research the tech
     MAX_SUPPRESSION = 100,
     PRESTIGE_HIT_ON_BREAK_COUNTRY = -0.20, -- percentage reduction when country gets taken by rebels
     MIN_MOBILIZE_LIMIT = 3,
@@ -150,7 +150,7 @@ military = {
     LEADER_AGE_DEATH_FACTOR = 4, -- higher value means leaders live longer
     LEADER_PRESTIGE_TO_MORALE_FACTOR = 0.9, -- f.ex. 100% of prestige = +10% morale
     LEADER_PRESTIGE_TO_MAX_ORG_FACTOR = 0.7, -- f.ex. 100% of prestige = +10 max org
-    LEADER_TRANSFER_PENALTY_ON_COUNTRY_PRESTIGE = 0.05, -- country prestige penalty on unassign leader (f.ex if leader has 100% prestige, the country loose 4% of its prestige)
+    LEADER_TRANSFER_PENALTY_ON_COUNTRY_PRESTIGE = 0.00, -- country prestige penalty on unassign leader (f.ex if leader has 100% prestige, the country loose 4% of its prestige)
     LEADER_PRESTIGE_LAND_GAIN = 0.3, -- extra speed gain on prestige for land combat
     LEADER_PRESTIGE_NAVAL_GAIN = 0.3, -- extra speed gain on prestige for naval combat
     NAVAL_COMBAT_SEEKING_CHANCE = 0.5, -- base chance of picking a target (increased by leader reconnaissance)
