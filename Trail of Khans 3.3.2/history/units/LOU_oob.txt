@@ -16,7 +16,7 @@ leader = {
 }
 
 army = {
-    name = "Armée de Beaucouplais"
+    name = "Armée de Grandeur Royal"
     location = 195
 
     regiment = {
@@ -43,7 +43,7 @@ army = {
     }
 	regiment = {
 		name = "1.Brigade de cavalerie"
-		type = cavalry
+		type = hussar
 		home = 197
 	}
 	regiment = {
@@ -70,6 +70,65 @@ army = {
 		name = "5.Brigade d'artillerie"
 		type = artillery
 		home = 207
+	}
+
+}
+
+army = {
+    name = "Armée de Roi de Beaucouplais"
+    location = 210
+
+    regiment = {
+        name= "5.Brigade d'infanterie"
+        type = infantry
+        home = 208
+    }
+
+    regiment = {
+        name= "6.Brigade d'infanterie"
+        type = infantry
+        home = 209
+    }
+
+    regiment = {
+        name= "7.Brigade d'infanterie"
+        type = infantry
+        home = 211
+    }
+	regiment = {
+        name= "8.Brigade d'infanterie"
+        type = infantry
+        home = 213
+    }
+	regiment = {
+		name = "2.Brigade de cavalerie"
+		type = hussar
+		home = 214
+	}
+	regiment = {
+		name = "6.Brigade d'artillerie"
+		type = artillery
+		home = 215
+	}
+	regiment = {
+		name = "7.Brigade d'artillerie"
+		type = artillery
+		home = 216
+	}
+	regiment = {
+		name = "8.Brigade d'artillerie"
+		type = artillery
+		home = 217
+	}
+	regiment = {
+		name = "9.Brigade d'artillerie"
+		type = artillery
+		home = 219
+	}
+	regiment = {
+		name = "10.Brigade d'artillerie"
+		type = artillery
+		home = 226
 	}
 
 }
