@@ -3,7 +3,7 @@
 #Tunis (488000/122000 POPS)
 1725 = {
     aristocrats = {
-        culture = roman
+        culture = maghrebi
         religion = sunni
         size = 2350
     }
@@ -11,67 +11,43 @@
     bureaucrats = {
         culture = maghrebi
         religion = sunni
-        size = 1125
+        size = 1425
     }
 
     officers = {
         culture = maghrebi
         religion = sunni
-        size = 325
+        size = 375
     }
 
     clergymen = {
         culture = maghrebi
         religion = sunni
-        size = 2400
-    }
-
-    clergymen = {
-        culture = roman
-        religion = catholic
-        size = 465
+        size = 3600
     }
 
     artisans = {
         culture = maghrebi
         religion = sunni
-        size = 17500
-    }
-
-	artisans = {
-        culture = roman
-        religion = catholic
-        size = 14725
-    }
-	
-	farmers = {
-        culture = roman
-        religion = catholic
-        size = 11950
-    }
-
-	soldiers = {
-		culture = roman
-        religion = catholic
-        size = 6000
+        size = 45000
     }
 
     soldiers = {
         culture = maghrebi
         religion = sunni
-        size = 4000
+        size = 12000
     }
 
     farmers = {
         culture = maghrebi
         religion = sunni
-        size = 96425
+        size = 150000
     }
 
     slaves = {
         culture = berber
         religion = sunni
-        size = 5000
+        size = 15000
     }
 }
 #Bizerte (268000/67000 POPS)
@@ -85,31 +61,31 @@
     clergymen = {
         culture = maghrebi
         religion = sunni
-        size = 675
+        size = 875
     }
 
     artisans = {
         culture = maghrebi
         religion = sunni
-        size = 3250
+        size = 13250
     }
 
     soldiers = {
         culture = maghrebi
         religion = sunni
-        size = 1100
+        size = 1400
     }
 
     farmers = {
         culture = maghrebi
         religion = sunni
-        size = 68575
+        size = 78575
     }
 
     slaves = {
         culture = berber
         religion = sunni
-        size = 2000
+        size = 12000
     }
 
     artisans = {
@@ -135,7 +111,7 @@
     artisans = {
         culture = maghrebi
         religion = sunni
-        size = 1250
+        size = 11250
     }
 
     soldiers = {
@@ -147,13 +123,13 @@
     farmers = {
         culture = maghrebi
         religion = sunni
-        size = 22025
+        size = 42025
     }
 
     slaves = {
         culture = berber
         religion = sunni
-        size = 3000
+        size = 13000
     }
 }
 #Kairouan (228000/57000 POPS)
@@ -173,7 +149,7 @@
     artisans = {
         culture = maghrebi
         religion = sunni
-        size = 2250
+        size = 7250
     }
 
     soldiers = {
@@ -185,7 +161,7 @@
     farmers = {
         culture = maghrebi
         religion = sunni
-        size = 50225
+        size = 70225
     }
 
     slaves = {
@@ -223,19 +199,19 @@
     artisans = {
         culture = maghrebi
         religion = sunni
-        size = 950
+        size = 1950
     }
 
     soldiers = {
         culture = maghrebi
         religion = sunni
-        size = 200
+        size = 400
     }
 
     farmers = {
         culture = maghrebi
         religion = sunni
-        size = 17300
+        size = 22300
     }
 
     slaves = {
@@ -261,7 +237,7 @@
     artisans = {
         culture = maghrebi
         religion = sunni
-        size = 2275
+        size = 6275
     }
 
     soldiers = {
@@ -273,13 +249,13 @@
     farmers = {
         culture = maghrebi
         religion = sunni
-        size = 40825
+        size = 60825
     }
 
     slaves = {
         culture = berber
         religion = sunni
-        size = 4000
+        size = 14000
     }
 
     artisans = {

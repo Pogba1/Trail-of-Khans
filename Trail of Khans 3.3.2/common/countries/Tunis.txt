@@ -1,4 +1,4 @@
-color = { 131  101  85 }
+color = { 255  128  0 }
 graphical_culture = MiddleEasternGC
 
 party = {
@@ -19,7 +19,7 @@ party = {
 party = {
     name = "TUN_liberal"
     start_date = 1820.1.1
-    end_date = 1936.1.1
+    end_date = 2000.1.1
 
     ideology = liberal
 
