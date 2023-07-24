@@ -2389,14 +2389,14 @@
     }
 
     aristocrats = {
-        culture = roman
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 1700
     }
 
     bureaucrats = {
-        culture = syracusean
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 2062
     }
 
@@ -2413,8 +2413,8 @@
     }
 
     clergymen = {
-        culture = roman
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 750
     }
 
@@ -2425,8 +2425,8 @@
     }
 
     artisans = {
-        culture = roman
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 6600
     }
 
@@ -2443,8 +2443,8 @@
     }
 
     farmers = {
-        culture = roman
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 55820
     }
 }
@@ -2481,8 +2481,8 @@
     }
 
     farmers = {
-        culture = roman
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 31670
     }
 
@@ -2502,8 +2502,8 @@
     }
 
     aristocrats = {
-        culture = roman
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 1485
     }
 
@@ -2532,8 +2532,8 @@
     }
 
     artisans = {
-        culture = roman
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 10100
     }
 
@@ -2556,8 +2556,8 @@
     }
 
     farmers = {
-        culture = roman
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 42000
     }
 
@@ -2845,8 +2845,8 @@
     }
 
     farmers = {
-        culture = roman
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 6120
     }
 }
@@ -2879,8 +2879,8 @@
     }
 
     farmers = {
-        culture = roman
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 14650
     }
 

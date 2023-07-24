@@ -49,6 +49,12 @@
         religion = sunni
         size = 15000
     }
+	
+	craftsmen = {
+        culture = maghrebi
+        religion = sunni
+        size = 5811
+    }
 }
 #Bizerte (268000/67000 POPS)
 1726 = {
@@ -93,6 +99,12 @@
         religion = jewish
         size = 250
     }
+	
+	craftsmen = {
+        culture = maghrebi
+        religion = sunni
+        size = 2500
+    }
 }
 #Gafsa (112000/28000 POPS)
 1727 = {
@@ -130,6 +142,12 @@
         culture = berber
         religion = sunni
         size = 13000
+    }
+	
+	craftsmen = {
+        culture = maghrebi
+        religion = sunni
+        size = 500
     }
 }
 #Kairouan (228000/57000 POPS)
@@ -181,6 +199,12 @@
         religion = jewish
         size = 245
     }
+	
+	craftsmen = {
+        culture = maghrebi
+        religion = sunni
+        size = 1000
+    }
 }
 #Tozeur (96000/24000 POPS)
 1729 = {
@@ -218,6 +242,12 @@
         culture = berber
         religion = sunni
         size = 5000
+    }
+	
+	craftsmen = {
+        culture = maghrebi
+        religion = sunni
+        size = 200
     }
 }
 #Gabes (200000/50000 POPS)
@@ -261,6 +291,12 @@
     artisans = {
         culture = sephardic
         religion = jewish
+        size = 500
+    }
+	
+	craftsmen = {
+        culture = maghrebi
+        religion = sunni
         size = 500
     }
 

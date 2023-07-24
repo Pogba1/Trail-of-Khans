@@ -91,6 +91,12 @@
         religion = jewish
         size = 1475
     }
+	
+	craftsmen = {
+        culture = maghrebi
+        religion = sunni
+        size = 2500
+    }
 }
 #Gharyan (40000/10000 POPS)
 1732 = {
@@ -238,6 +244,12 @@
         culture = sephardic
         religion = jewish
         size = 490
+    }
+	
+	craftsmen = {
+        culture = maghrebi
+        religion = sunni
+        size = 500
     }
 }
 #Sirt (100000/25000 POPS)

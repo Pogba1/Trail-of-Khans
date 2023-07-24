@@ -3,7 +3,7 @@ primary_culture = maghrebi
 culture = berber
 religion = sunni
 government = absolute_monarchy
-plurality = 0.0
+plurality = 10
 nationalvalue = nv_productivity
 literacy = 0.01
 non_state_culture_literacy = 0.01
@@ -17,6 +17,8 @@ press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
 political_parties = underground_parties
+
+prestige = 35
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -48,8 +50,40 @@ upper_house = {
 
 
 # Technologies
-military_staff_system = 1
+post_napoleonic_thought = 1
 flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+military_staff_system = 1
+army_command_principle = 1
+post_nelsonian_thought = 1
+clipper_design = 1
+steamers = 1
+naval_design_bureaus = 1
+alphabetic_flag_signaling = 1
+the_command_principle = 1
+private_banks = 1
+no_standard = 1
+early_classical_theory_and_critique = 1
+freedom_of_trade = 1
+guild_based_production = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+malthusian_thought = 1
+enlightenment_thought = 1
+introspectionism = 1
+piston_steam_engine = 1
+mechanical_production = 1
+hot_blast = 1
+experimental_railroad = 1
+basic_chemistry = 1
+
+battleship_column_doctrine = 1
+naval_professionalism = 1
+fire_control_systems = 1
+stock_exchange = 1
+ad_hoc_money_bill_printing = 1
+
+
 
 small_arms_production = yes
 ammunition_production = yes
@@ -60,7 +94,7 @@ ammunition_production = yes
 # Inventions
 
 # Starting Consciousness
-consciousness = 0
-nonstate_consciousness = 0
+consciousness = 4
+nonstate_consciousness = 2
 
 oob = "TUN_oob.txt"

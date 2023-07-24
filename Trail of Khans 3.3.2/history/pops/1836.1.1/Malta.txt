@@ -21,8 +21,8 @@
     }
 
     aristocrats = {
-        culture = syracusean
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 600
     }
 
@@ -47,7 +47,13 @@
     farmers = {
         culture = syracusean
         religion = catholic
-        size = 25475
+        size = 13475
+    }
+	
+	farmers = {
+        culture = maghrebi
+        religion = sunni
+        size = 12475
     }
 
 }

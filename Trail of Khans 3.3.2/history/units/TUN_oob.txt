@@ -18,28 +18,204 @@ army = {
         type = infantry
         home = 1726
     }
-
+	
+	regiment = {
+        name= "4.Askäris"
+        type = infantry
+        home = 762
+    }
+	
+	regiment = {
+        name= "1.Hisar"
+        type = hussar
+        home = 763
+    }
+	
+	regiment = {
+        name= "1.Almidfaeia"
+        type = artillery
+        home = 764
+    }
+	
+	regiment = {
+        name= "2.Almidfaeia"
+        type = artillery
+        home = 764
+    }	
+	
+	regiment = {
+        name= "3.Almidfaeia"
+        type = artillery
+        home = 854
+    }	
+	
+	regiment = {
+        name= "4.Almidfaeia"
+        type = artillery
+        home = 1702
+    }	
+	
+	regiment = {
+        name= "5.Almidfaeia"
+        type = artillery
+        home = 854
+    }	
 }
 
 army = {
-    name = "Army of Ifriqiya"
-    location = 1730
+    name = "Army of Siqiliya"
+    location = 763
     regiment = {
         name= "1.Kroumir"
-        type = irregular
+        type = infantry
         home = 1727
     }
 
     regiment = {
         name= "2.Kroumir"
-        type = irregular
+        type = infantry
         home = 1728
     }
 
     regiment = {
         name= "3.Kroumir"
-        type = irregular
+        type = infantry
         home = 1730
+    }
+
+}
+
+navy = {
+    name = "Ustul Alhaymana"
+    location = 1725
+    ship = {
+        name= "Majd"
+        type = manowar
+    }
+
+    ship = {
+        name= "Sharm El-Sheikh"
+        type = manowar
+    }
+
+    ship = {
+        name= "Al Fawz"
+        type = manowar
+    }
+
+    ship = {
+        name= "Bur Malta"
+        type = manowar
+    }
+
+    ship = {
+        name= "Al Morocco"
+        type = manowar
+    }
+
+    ship = {
+        name= "Bey Berber"
+        type = manowar
+    }
+
+    ship = {
+        name= "Mohammed"
+        type = manowar
+    }
+
+    ship = {
+        name= "Rasheed"
+        type = manowar
+    }
+
+    ship = {
+        name= "El Messana"
+        type = manowar
+    }
+
+    ship = {
+        name= "Al Syrakousai"
+        type = frigate
+    }
+
+    ship = {
+        name= "Aswan"
+        type = frigate
+    }
+
+    ship = {
+        name= "Bur Bougie"
+        type = frigate
+    }
+
+    ship = {
+        name= "Al Tripoli"
+        type = frigate
+    }
+
+    ship = {
+        name= "Bur Tawfiq"
+        type = frigate
+    }
+
+    ship = {
+        name= "Al Tunis"
+        type = frigate
+    }
+
+    ship = {
+        name= "Bur Algiers"
+        type = frigate
+    }
+
+    ship = {
+        name= "1st transport flotilla"
+        type = clipper_transport
+    }
+	
+	    ship = {
+        name= "2nd transport flotilla"
+        type = clipper_transport
+    }
+	
+	    ship = {
+        name= "3rd transport flotilla"
+        type = clipper_transport
+    }
+	
+	    ship = {
+        name= "4th transport flotilla"
+        type = clipper_transport
+    }
+	
+	    ship = {
+        name= "5th transport flotilla"
+        type = clipper_transport
+    }
+	
+	    ship = {
+        name= "6th transport flotilla"
+        type = clipper_transport
+    }
+	
+	    ship = {
+        name= "7th transport flotilla"
+        type = clipper_transport
+    }
+	
+	    ship = {
+        name= "8th transport flotilla"
+        type = clipper_transport
+    }
+	
+	    ship = {
+        name= "9th transport flotilla"
+        type = clipper_transport
+    }
+	
+	    ship = {
+        name= "10th transport flotilla"
+        type = clipper_transport
     }
 
 }

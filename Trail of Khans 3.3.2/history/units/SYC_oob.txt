@@ -119,7 +119,7 @@ army = {
 
 }
 navy = {
-    location = 764
+    location = 756
 
     ship = {
         name = "Manowar"
@@ -132,74 +132,6 @@ navy = {
     ship = {
         name = "Manowar"
         type = manowar
-    }
-    ship = {
-        name = "Manowar"
-        type = manowar
-    }
-    ship = {
-        name = "Manowar"
-        type = manowar
-    }
-    ship = {
-        name = "Manowar"
-        type = manowar
-    }
-    ship = {
-        name = "Manowar"
-        type = manowar
-    }
-    ship = {
-        name = "Frigate"
-        type = frigate
-    }
-    ship = {
-        name = "Frigate"
-        type = frigate
-    }
-    ship = {
-        name = "Frigate"
-        type = frigate
-    }
-    ship = {
-        name = "Frigate"
-        type = frigate
-    }
-    ship = {
-        name = "Frigate"
-        type = frigate
-    }
-    ship = {
-        name = "Frigate"
-        type = frigate
-    }
-    ship = {
-        name = "Frigate"
-        type = frigate
-    }
-    ship = {
-        name = "Frigate"
-        type = frigate
-    }
-    ship = {
-        name = "Frigate"
-        type = frigate
-    }
-    ship = {
-        name = "Frigate"
-        type = frigate
-    }
-    ship = {
-        name = "Frigate"
-        type = frigate
-    }
-    ship = {
-        name = "Frigate"
-        type = frigate
-    }
-    ship = {
-        name = "Frigate"
-        type = frigate
     }
     ship = {
         name = "Frigate"

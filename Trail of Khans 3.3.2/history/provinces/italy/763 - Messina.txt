@@ -4,6 +4,7 @@ add_core = TUN
 add_core = SYC
 trade_goods = sulphur
 life_rating = 35
+fort = 1
 #state_building = {
 #    level = 1
 #    building = winery
