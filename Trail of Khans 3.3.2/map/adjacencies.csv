@@ -1,7 +1,7 @@
 From;To;Type;Through;Data;Comment
-#
-# American Straits
-#
+#;;;;;
+# American Straits;;;;;
+#;;;;;
 13;14;sea;3011;0;Vancouver Crossing
 14;78;sea;3011;0;Vancouver Crossing
 62;75;sea;2946;0;Straits of Belle Isle
@@ -42,17 +42,17 @@ From;To;Type;Through;Data;Comment
 2219;2220;sea;2977;0;Bahamas-Turks & Caicos Strait
 2204;2206;sea;3001;0;Panama strait
 5;4;sea;3134;0;Aleutian Island-Dutch Harbor Strait
-
-#
-# African Straits
-#
+;;;;;
+#;;;;;
+# African Straits;;;;;
+#;;;;;
 2036;2048;sea;2901;0;Zanzibar Strait
 2123;2124;sea;2902;0;Comoros-Mayotte
 1772;1756;sea;2781;0;Suez strait
-
-#
-# European Straits
-#
+;;;;;
+#;;;;;
+# European Straits;;;;;
+#;;;;;
 254;271;sea;2737;0;Irish Strait
 324;348;sea;2706;0;Aland Strait #Uppsala to Aland #these were in V1
 334;372;sea;2711;0;ï¿½resund
@@ -89,11 +89,11 @@ From;To;Type;Through;Data;Comment
 780;782;land;2762;0;Mostar Bay
 1981;745;land;2751;0;Elba to Livorno
 690;695;land;2710;0;Konigsberg to Danzig 
-
-#
-# Asian Straits
-#
-
+;;;;;
+#;;;;;
+# Asian Straits;;;;;
+#;;;;;
+;;;;;
 1412;1875;sea;2783;0;Aden to Djibuti 
 1540;1538;sea;2826;0;Nantong - Shanghai through the Yantze River
 1540;1539;sea;2826;0;Nantong - Suzhou through the Yantze River
@@ -157,16 +157,16 @@ From;To;Type;Through;Data;Comment
 1679;1678;sea;2845;0;Amari-Okinawa Strait
 1637;1635;sea;2829;0;Cheju-Kwangju Strait
 12;1645;land;2841;0;Sado-Niigata Strait
-#
-# Oceanian Straits
-#
+#;;;;;
+# Oceanian Straits;;;;;
+#;;;;;
 2512;2516;sea;2876;0;Cook Strait #NZ
 2512;2516;sea;2881;0;Cook Strait #NZ
 2537;1531;sea;2858;0;Villan Strait #New Britain-New Ireland
-
-#
-# Impassables
-#
+;;;;;
+#;;;;;
+# Impassables;;;;;
+#;;;;;
 1252;1328;impassable;0;0;scare mountain
 1326;1589;impassable;0;0;scary mountain
 1326;1592;impassable;0;0;scary mountain
@@ -190,14 +190,14 @@ From;To;Type;Through;Data;Comment
 1226;1594;impassable;0;0;scary mountain
 1210;1594;impassable;0;0;scary mountain
 1208;1594;impassable;0;0;scary mountain
-
-#Carpathians
-
+;;;;;
+#Carpathians;;;;;
+;;;;;
 660;663;impassable;0;0;Secuime-Suceava
 660;672;impassable;0;0;Secuime-Bacau
-
-#Alps
-
+;;;;;
+#Alps;;;;;
+;;;;;
 #727;735;impassable;0;0;Bergamo-Bozen
 #727;734;impassable;0;0;Bergamo-Trent
 #732;735;impassable;0;0;Treviso-Bozen
@@ -218,24 +218,24 @@ From;To;Type;Through;Data;Comment
 #2568;722;impassable;0;0;Lugano-Novara
 609;722;impassable;0;0;Sitten-Novara
 606;722;impassable;0;0;Lucerne-Novara
-
-#Pyrenees
-
+;;;;;
+#Pyrenees;;;;;
+;;;;;
 457;496;impassable;0;0;Foix-Huesca 
 460;496;impassable;0;0;Pau-Huesca
 457;499;impassable;0;0;Foix-GÃ©rona
 457;500;impassable;0;0;FOix-LÃ©rida
-
-#Alaskan Panhandle
-
+;;;;;
+#Alaskan Panhandle;;;;;
+;;;;;
 2;6;impassable;0;0;
 2;17;impassable;0;0;
 1;15;impassable;0;0;
 1;16;impassable;0;0;
 1;17;impassable;0;0;
-
-#Siberia
-
+;;;;;
+#Siberia;;;;;
+;;;;;
 2687;2682;impassable;0;0;Northern urals
 2689;2682;impassable;0;0;Northern urals
 2689;1062;impassable;0;0;Northern urals
@@ -250,14 +250,65 @@ From;To;Type;Through;Data;Comment
 2655;2673;impassable;0;0;Yenisei-Yakut
 2655;2651;impassable;0;0;Yenisei-Yakut
 2675;2651;impassable;0;0;Yenisei-Yakut
-
-
-#
-# The canals
-#
+;;;;;
+;;;;;
+#;;;;;
+# The canals;;;;;
+#;;;;;
 2711;2721;canal;369;1;Kiel Canal
 2781;2769;canal;1755;2;Suez Canal
 2968;3001;canal;1723;3;Panama Canal
 #2773;2774;sea;860;4;Bosphorus Strait
 #2772;2773;sea;859;5;Dardanelles Strait
 #2724;2723;canal;301;6;English Channel
+;;;;;
+#Meme Rivers - Idea and Map Templates from Reno;;;;;
+;;;;;
+#Danube;;;;;
+675;678;sea;0;0;Tulcea to Izmail
+675;673;sea;0;0;Tulcea to Galati
+675;668;sea;0;0;Tulcea to Braila
+675;669;sea;0;0;Tulcea to Calarasi
+818;669;sea;0;0;Silistre to Calarasi
+818;664;sea;0;0;Silistre to Bucharest
+811;664;sea;0;0;Ruse to Bucharest
+810;664;sea;0;0;Vidin to Bucharest
+810;666;sea;0;0;Vidin to Craiova
+795;666;sea;0;0;Bor to Craiova
+795;665;sea;0;0;Bor to Tirgu Jiu
+795;653;sea;0;0;Bor to Resicabánya
+795;792;sea;0;0;Bor to Pancevo
+794;792;sea;0;0;Belgrade to Pancevo
+794;791;sea;0;0;Belgrade to Mitrovica
+794;786;sea;0;0;Belgrade to Tuzla
+794;787;sea;0;0;Belgrade to Foca
+791;786;sea;0;0;Mitrovica to Tuzla
+791;2538;sea;0;0;Mitrovica to Novi Sad
+786;793;sea;0;0;Tuzla to Vukovar
+786;777;sea;0;0;Tuzla to Pozega
+785;777;sea;0;0;Banja Luka to Pozega
+793;2538;sea;0;0;Vukovar to Novi Sad
+779;2538;sea;0;0;Osijek to Novi Sad
+640;645;sea;0;0;Pecs to Kecskemét
+644;645;sea;0;0;Kaposvár to Kecskemét
+643;645;sea;0;0;Székesfehérvár to Kecskemét
+643;641;sea;0;0;Székesfehérvár to Budapest
+642;641;sea;0;0;Gyor to Budapest
+642;646;sea;0;0;Gyor to Miskolc
+642;635;sea;0;0;Gyor to Nitra
+642;633;sea;0;0;Gyor to Bratislava
+623;633;sea;0;0;Sopron to Bratislava
+624;633;sea;0;0;Eisenstadt to Bratislava
+620;633;sea;0;0;Sankt Pölkten to Bratislava
+620;619;sea;0;0;Sankt Pölkten to Vienna
+620;621;sea;0;0;Sankt Pölkten to Krems
+622;621;sea;0;0;Linz to Krems
+622;602;sea;0;0;Linz to Regensburg
+600;602;sea;0;0;Landshut to Regensburg
+600;601;sea;0;0;Landshut to Ingolstadt
+592;595;sea;0;0;Augsburg to Nuremberg
+592;589;sea;0;0;Augsburg to Stuttgart
+593;589;sea;0;0;Ulm to Stuttgart
+593;594;sea;0;0;Ulm to Sigmaringen
+588;594;sea;0;0;Konstanz to Sigmaringen
+588;591;sea;0;0;Konstanz to Tübingen
