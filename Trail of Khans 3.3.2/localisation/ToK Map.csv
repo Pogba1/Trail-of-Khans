@@ -1,424 +1,424 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;;
-PROV1107;Shirvan;;;;;;;;;;;;x
-PROV806;Skoupoi;;;;;;;;;;;;x
-PROV817;Pyrgos;;;;;;;;;;;;x
-PROV815;Philippopolis;;;;;;;;;;;;x
-PROV808;Pautalia;;;;;;;;;;;;x
-PROV818;Silistra;;;;;;;;;;;;x
-PROV814;Odyssos;;;;;;;;;;;;x
-PROV813;Tirnovo;;;;;;;;;;;;x
-PROV811;Rozalia;;;;;;;;;;;;x
-PROV810;Diiu;;;;;;;;;;;;x
-PROV812;Nikopolis;;;;;;;;;;;;x
-PROV809;Sardike;;;;;;;;;;;;x
-PROV807;Vitólia;;;;;;;;;;;;x
-PROV1780;Deborus;;;;;;;;;;;;x
-PROV853;Argyrokastro;;;;;;;;;;;;x
-PROV851;Dyrrhachion;;;;;;;;;;;;x
-PROV849;Kroai;;;;;;;;;;;;x
-PROV850;Lissos;;;;;;;;;;;;x
-PROV852;Aulonas;;;;;;;;;;;;x
-PROV104;Nova Lisboa;;;;;;;;;;;;x
-PROV89;Gli Angeli;x
-PROV90;Santa Maria;x
-PROV88;Mohave;x
-PROV85;Castelo da Floresta;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV84;Vale Real;;;;;;;;;;;;x
-PROV86;Cidadenzo;;;;;;;;;;;;x
-PROV82;Grandes Pastagens;;;;;;;;;;;;;;;;;;;;x;
-PROV81;Novo Porto;;;;;;;;;;;;;;;;;;;;x;
-PROV83;Forte de Alberto;;;;;;;;;;;;;;;;;;;;x;
-USA_81;Douro Pacifico;x
-MEX_89;Gli Angeli;x
-ELI_104;Elisio;x
-USA_201;Nouveau-Montpellier;;;;;;;;;;;;;
-USA_2556;Beaucouple;;;;;;;;;;;;;
-USA_205;Beaucouple du Sud;x
-USA_188;Terre Cherokee;x
-USA_194;Nouvelle Orleans;x
-USA_139;Mississippi Occidentale;x
-USA_185;Phillipeville;x
-USA_218;Appalache-Nord;x
-USA_211;Nouveau-Bordeaux;x
-USA_219;Versailles Atlantique;x
-USA_223;Dijonnais Atlantique;x
-USA_231;Nieuw Armstel;x
-USA_243;Nieuw Brugge;x
-ENG_74;Vinland;x
-PROV659;Brasov;x
-PROV657;Sibiu;x
-PROV655;Brad;x
-PROV661;Satu Mare;x
-PROV304;Mannin;;;;;;;;;;;;;
-PROV265;Loch Garman;;;;;;;;;;;;;
-PROV264;Cill Dara;;;;;;;;;;;;;
-PROV263;Dubh Linn;;;;;;;;;;;;;
-PROV262;Port Lairge;;;;;;;;;;;;;
-PROV261;Luimneach;;;;;;;;;;;;;
-PROV260;Corcaigh;;;;;;;;;;;;;
-PROV259;Sligeach;;;;;;;;;;;;;
-PROV258;Dun Bhun na Gaillimhe;;;;;;;;;;;;;
-PROV257;Dun na nGall;;;;;;;;;;;;;
-PROV255;Daire;;;;;;;;;;;;;
-PROV254;Beal Feirsde;;;;;;;;;;;;;
-PROV273;Caerdydd;;;;;;;;;;;;;
-PROV274;Aberteifi;;;;;;;;;;;;;
-PROV276;Caergybi;;;;;;;;;;;;;
-PROV299;Isca Dumnoniorum;;;;;;;;;;;;;
-PROV297;Sorbiodunum;;;;;;;;;;;;;
-PROV303;Clausentum;;;;;;;;;;;;;
-PROV302;Noviomagus;;;;;;;;;;;;;
-PROV301;Durovemum;;;;;;;;;;;;;
-PROV285;Deva;;;;;;;;;;;;;
-PROV278;Mamucium;;;;;;;;;;;;;
-PROV284;Letocetum;;;;;;;;;;;;;
-PROV289;Ratea;;;;;;;;;;;;;
-PROV287;Vennonae;;;;;;;;;;;;;
-PROV283;Brigantius;;;;;;;;;;;;;
-PROV277;Learpholl;;;;;;;;;;;;;
-PROV279;Cathair Luail;;;;;;;;;;;;;
-PROV280;Caislean Nua;;;;;;;;;;;;;
-PROV286;Amwythig;;;;;;;;;;;;;
-PROV296;Brycg stowe;;;;;;;;;;;;;
-PROV294;Oxnaforda;;;;;;;;;;;;;
-PROV272;Dun Phris;;;;;;;;;;;;;
-PROV271;Glaschu;;;;;;;;;;;;;
-PROV270;Sruighlea;;;;;;;;;;;;;
-PROV269;Dun Eideann;;;;;;;;;;;;;
-PROV268;Dun De;;;;;;;;;;;;;
-PROV267;Inbhir Nis;;;;;;;;;;;;;
-PROV266;Aberdon;;;;;;;;;;;;;
-PROV1724;lNa h-Eileanan a Tuath;;;;;;;;;;;;;
-PROV419;Oileain Mhuir nIocht;;;;;;;;;;;;;
-PROV421;Sant-Briegon;;;;;;;;;;;;;
-PROV424;Roazhon;;;;;;;;;;;;;
-PROV422;Gwened;;;;;;;;;;;;;
-PROV388;Brugge;;;;;;;;;;;;;
-PROV389;Gent;;;;;;;;;;;;;
-PROV390;Antwerpen;;;;;;;;;;;;;
-PROV387;Brussel;;;;;;;;;;;;;
-PROV393;Doornik;;;;;;;;;;;;;
-PROV392;Namen;;;;;;;;;;;;;
-PROV394;Bregen;;;;;;;;;;;;;
-PROV381;Maastricht;;;;;;;;;;;;;
-PROV398;Aarlen;;;;;;;;;;;;;
-PROV395;Luik;;;;;;;;;;;;;
-PROV696;Olsztyn;;;;;;;;;;;;;
-PROV693;Elblag;;;;;;;;;;;;;
-PROV685;Katowice;;;;;;;;;;;;;
-PROV684;Opole;;;;;;;;;;;;;
-PROV688;Opava;;;;;;;;;;;;;
-PROV689;Cieszyn;;;;;;;;;;;;;
-PROV632;Olomouc;;;;;;;;;;;;;
-PROV625;Praha;;;;;;;;;;;;
-PROV628;Usti nad Labem;;;;;;;;;;;;
-PROV627;Karlovy Vary;;;;;;;;;;;;
-PROV720;Taurasia;;;;;;;;;;;;
-PROV472;Antipolis;;;;;;;;;;;;
-PROV724;Genua;;;;;;;;;;;;
-PROV745;Populonium;;;;;;;;;;;;
-PROV1981;Ilva;;;;;;;;;;;;
-PROV749;Roma;;;;;;;;;;;;
-PROV754;Napoli;;;;;;;;;;;;
-PROV729;Venezia;;;;;;;;;;;;
-PROV731;Adria;;;;;;;;;;;;
-PROV769;Postumia;;;;;;;;;;;;
-PROV1780;Diber;;;;;;;;;;;;
-PROV803;Prizreni;;;;;;;;;;;;
-PROV834;Athina;;;;;;;;;;;;
-PROV840;Korinthos;;;;;;;;;;;;
-PROV914;Tripolis;;;;;;;;;;;;
-PROV918;Nabulus;;;;;;;;;;;;
-PROV913;Berytus Nutrix;;;;;;;;;;;;
-PROV513;Garnatah;;;;;;;;;;;;
-PROV514;Malaqah;;;;;;;;;;;;
-PROV515;al-Mariyya;;;;;;;;;;;;
-PROV517;Jabal Tariq;;;;;;;;;;;;
-PROV516;Jayyan;;;;;;;;;;;;
-PROV507;Mursiya;;;;;;;;;;;;
-PROV509;Isbiliya;;;;;;;;;;;;
-PROV510;Qurtuba;;;;;;;;;;;;
-PROV511;Walbah;;;;;;;;;;;;
-PROV512;Al-Qadis;;;;;;;;;;;;
-PROV484;Bayt Al-Jaws;;;;;;;;;;;;
-PROV486;Qasr Al-Azad;;;;;;;;;;;;
-PROV506;Qartajin Al-Khalfa;;;;;;;;;;;;
-PROV526;Bajad Az-Zayt;;;;;;;;;;;;
-PROV527;Bur al-Harun;;;;;;;;;;;;
-PROV521;Al-Ushbuna;;;;;;;;;;;;
-PROV505;Al-Laqant;;;;;;;;;;;;
-PROV502;Juzur al-Bilyar;;;;;;;;;;;;
-PROV192;Rosalie;;;;;;;;;;;;
-PROV193;Branville;;;;;;;;;;;;
-PROV195;Fort Toulouse;;;;;;;;;;;;
-PROV196;Blois;;;;;;;;;;;;
-PROV198;Talahasie;;;;;;;;;;;;
-PROV200;Tanpa;;;;;;;;;;;;
-PROV199;Sainte Augustine;;;;;;;;;;;;
-PROV204;Nouveau-Montpellier;;;;;;;;;;;;
-PROV2555;Anne Elisabeth;;;;;;;;;;;;
-PROV201;Fort d'Appalache-Sud;;;;;;;;;;;;
-PROV205;Port-Charleroi;;;;;;;;;;;;
-PROV206;Talonie;;;;;;;;;;;;
-PROV210;Beaucouple;;;;;;;;;;;;
-PROV2556;Ville des Cendres;;;;;;;;;;;;
-PROV207;Saint-Hyacinthe;;;;;;;;;;;;
-PROV208;Tiverton;;;;;;;;;;;;
-PROV216;Roanoque;;;;;;;;;;;;
-PROV211;Plaineville;;;;;;;;;;;;
-PROV214;Nouveau-Bordeaux;;;;;;;;;;;;
-PROV60;Louiseville;;;;;;;;;;;;
-PROV213;Villefranche;;;;;;;;;;;;
-PROV212;Mana-Sur-Cannon;;;;;;;;;;;;
-PROV213;Mont-Mouscron;;;;;;;;;;;;
-PROV2146;Nouveau-Versailles;;;;;;;;;;;;
-PROV220;Bas-Antlantique;;;;;;;;;;;;
-PROV219;Brest-Atlantique;;;;;;;;;;;;
-PROV221;Fort d'Appalache-Nord;;;;;;;;;;;;
-PROV222;Rouen;;;;;;;;;;;;
-PROV223;Dijonnais;;;;;;;;;;;;
-PROV226;Lyonnais;;;;;;;;;;;;
-PROV227;Alsace-Sur-Trois-Rivieres;;;;;;;;;;;;
-PROV225;Auvergne;;;;;;;;;;;;
-PROV218;Becancour;;;;;;;;;;;;
-PROV217;Nouvelle-Savoie;;;;;;;;;;;;
-PROV189;Richelieu;;;;;;;;;;;;
-PROV188;Val-des-Bois;;;;;;;;;;;;
-PROV190;Mont-Laurier;;;;;;;;;;;;
-PROV191;Saint-Phillipe;;;;;;;;;;;;
-PROV187;Laval;;;;;;;;;;;;
-PROV184;Louisbourg;;;;;;;;;;;;
-PROV186;Phillipeville;;;;;;;;;;;;
-PROV185;Mont-Tremblant;;;;;;;;;;;;
-PROV194;Bilocci;;;;;;;;;;;;
-PROV233;Lange Eylandt;;;;;;;;;;;;
-PROV229;Sant Hoek;;;;;;;;;;;;
-PROV230;Barnde Gat;;;;;;;;;;;;
-PROV231;Nieuw Armstel;;;;;;;;;;;;
-PROV241;Huys de Goede Hoop;;;;;;;;;;;;
-PROV242;Roode Eylandt;;;;;;;;;;;;
-PROV243;Brendans tun;;;;;;;;;;;;
-PROV244;Nieuw Brugge;;;;;;;;;;;;
-PROV253;Foroyar;;;;;;;;;;;;
-PROV77;Soholm;;;;;;;;;;;;
-PROV75;Bjorvik;;;;;;;;;;;;
-PROV74;Holmeborg;;;;;;;;;;;;
-PROV73;Olvasstad;;;;;;;;;;;;
-PROV234;Beverwijck;;;;;;;;;;;;
-PROV215;Monts-Fumes;;;;;;;;;;;;
-PROV699;Poznan;;;;;;;;;;;;
-PROV700;Bydgoszcz;;;;;;;;;;;;
-PROV224;Nieuw Hilfercem;;;;;;;;;;;;
-PROV2627;Leithen;;;;;;;;;;;;
-PROV235;Treiectinsem;;;;;;;;;;;;
-PROV228;Campen;;;;;;;;;;;;
-PROV236;Islemuthen;;;;;;;;;;;;
-PROV238;Nieuw Rotterdam;;;;;;;;;;;;
-PROV240;Utwic;;;;;;;;;;;;
-PROV239;Puthem;;;;;;;;;;;;
-PROV245;Iudifax;;;;;;;;;;;;
-PROV246;Haltna;;;;;;;;;;;;
-PROV247;Hockesberghe;;;;;;;;;;;;
-PROV248;Ghesterne;;;;;;;;;;;;
-PROV249;Foldenheim;;;;;;;;;;;;
-PROV250;Irminlo;;;;;;;;;;;;
-PROV69;Dauentre;;;;;;;;;;;;
-PROV68;Nieuw Haga;;;;;;;;;;;;
-PROV71;Cattenbroecke;;;;;;;;;;;;
-PROV72;Bierflitha;;;;;;;;;;;;
-PROV70;Prinses Wilhelmina Eiland;;;;;;;;;;;;
-PROV66;Abcwoude;;;;;;;;;;;;
-PROV58;Nieuw Vene;;;;;;;;;;;;
-PROV64;Bambrug;;;;;;;;;;;;
-PROV62;Nieuw Islemuthen;;;;;;;;;;;;
-PROV63;Bomela;;;;;;;;;;;;
-PROV61;Zaelberch;;;;;;;;;;;;
-PROV65;Waetriloe;;;;;;;;;;;;
-PROV2625;Noordwest Rivier;;;;;;;;;;;;
-PROV76;Falckenberch;;;;;;;;;;;;
-PROV57;Arneym;;;;;;;;;;;;
-PROV56;Ceudiaco;;;;;;;;;;;;
-PROV46;Thelden;;;;;;;;;;;;
-PROV55;Dauentre;;;;;;;;;;;;
-PROV54;Haltna;;;;;;;;;;;;
-PROV53;Colouuidum;;;;;;;;;;;;
-PROV52;Naruthi;;;;;;;;;;;;
-PROV51;Hellenwich;;;;;;;;;;;;
-PROV50;Cruoninga;;;;;;;;;;;;
-PROV49;Appoldro;;;;;;;;;;;;
-PROV48;Axla;;;;;;;;;;;;
-PROV47;Quirnifurt;;;;;;;;;;;;
-PROV2628;Durninum;;;;;;;;;;;;
-PROV2594;Driberghe;;;;;;;;;;;;
-PROV2592;Haga;;;;;;;;;;;;
-PROV2626;Delf;;;;;;;;;;;;
-PROV59;Baerne;;;;;;;;;;;;
-PROV237;Almelo;;;;;;;;;;;;
-PROV9;Benlo;;;;;;;;;;;;
-PROV36;Breidervort;;;;;;;;;;;;
-PROV37;Hentheren;;;;;;;;;;;;
-PROV158;Gholthorne;;;;;;;;;;;;
-PROV157;Umme;;;;;;;;;;;;
-PROV160;Ostforne;;;;;;;;;;;;
-PROV161;Stochem;;;;;;;;;;;;
-PROV162;Tilliburgis;;;;;;;;;;;;
-PROV159;Wazovelde;;;;;;;;;;;;
-PROV177;Foranholte;;;;;;;;;;;;
-PROV176;Waetriloe;;;;;;;;;;;;
-PROV175;Wishem;;;;;;;;;;;;
-PROV174;Gunsela;;;;;;;;;;;;
-PROV173;Wunsdrech;;;;;;;;;;;;
-PROV163;Swolle;;;;;;;;;;;;
-PROV164;Subenhara;;;;;;;;;;;;
-PROV165;Wederden;;;;;;;;;;;;
-PROV171;Gunsela;;;;;;;;;;;;
-PROV172;Vroedenhout;;;;;;;;;;;;
-PROV170;Vrachel;;;;;;;;;;;;
-PROV169;Vehchele;;;;;;;;;;;;
-PROV180;Wedert;;;;;;;;;;;;
-PROV179;Rosmael;;;;;;;;;;;;
-PROV178;Risnen;;;;;;;;;;;;
-PROV181;Pulmeri;;;;;;;;;;;;
-PROV182;Marclo;;;;;;;;;;;;
-PROV183;Maeslandtsluis;;;;;;;;;;;;
-PROV608;Tahiti;;;;;;;;;;;;
-SPA_478:Castillia-Navarra;;;;;;;;;;;;
-SPA_475;Léon;;;;;;;;;;;;
-SAP_307;Sápmi;;;;;;;;;;;;
-SVF_894;Adana;;;;;;;;;;;;
-PROV3322;Warminsky;;;;;;;;;;;;
-PRU_690;Danzig & Konigsberg;;;;;;;;;;;;
-PRU_691;Pomeralia;;;;;;;;;;;;
-PRU_696;Prusy;;;;;;;;;;;;
-PROV3323;Naklo;;;;;;;;;;;;
-PROV3324;Zielona Gora;;;;;;;;;;;;
-PROV692;Walcz;;;;;;;;;;;;
-PROV3325;Landsberg;;;;;;;;;;;;
-POL_710;Lodzki;;;;;;;;;;;;
-PROV697;Gombin;;;;;;;;;;;;
-RUS1038;Novo Uzensk;;;;;;;;;;;;
-PROV926;Ctesiphon;x
-EGY_921;Jerusalem;x
-SVF_878;Kaisareia;x
-PROV300;Londinium;x
-PROV2346;Coilineacht;x
-PROV2344;Tailtair;x
-PROV2347;Garman Nua;x
-PROV2345;Lagair;x
-PROV2349;Junair;x
-PROV2350;Azulair;x
-PROV2353;Loch Deoch;x
-PROV2361;Spiorad Naomh;x
-PROV2363;Rhysair;x
-PROV2380;Mananua;x
-PROV2379;Chorcai Gallach;x
-PROV2360;Paranair;x
-PROV2359;Calanair;x
-PROV2357;Sligeach Nua;x
-PROV2381;Ceathrabhainn;x
-PROV2383;Naomh Luis;x
-PROV2384;Amhair;x
-ARG_2357;Sligeach Nua;x
-NGV_2358;Entre Rios;x
-PROV2251;Colombo;x
-BRZ_2447;Nouva Genova;x
-PROV2199;Tilmannburg;x
-PROV2200;Hugelsburg;x
-PROV2197;Flussdelta;x
-PROV2198;Seebad;x
-PROV2202;Golfburg;x
-PROV2201;Sankt Paul;x
-PROV2203;St Cristopher;x
-PROV2206;Hennyburg;x
-PROV1723;Neukiel;x
-PROV2208;Neukolberg;x
-PROV2204;Kristburg;x
-PROV2253;Flusschungel;x
-PROV3001;Gulf of David;x
-PROV2254;Neu Greifswald;x
-CLM_1723;David;x
-LUB_2254;Darienlucke;x
-UCA_2201;Golfburg;x
-UCA_2197;Tilmannburg;x
-USA_232;Nieuw Amsterdam;x
-SWI_607;Alpinal;x
-PROV994;Ingria;x
-PROV1039;Volga;x
-PROV43;Karlstadt;x
-PROV134;Johannestadt;x
-PROV133;Lukas;x
-PROV137;Eliastadt;x
-PROV3326;Colonia Real;x
-PROV3327;Ovedio;x
-SCO_296;East Midlands;x
-SCO_299;Londinium;x
-ENG_284;Brigantium;x
-D_906;Syrian Desert;x
-TUR_923;Assyria;x
-GEN_724;Liguria;x
-PROV3328;Calmes;x
-CHI_1511;Yellow River;x
-MCK_1491;Outer Mongolia;x
-SPA_478;Castillia-Navarra;x
-RUS_971;Yekaterinoslav;x
-RUS_976;Mariopul;x
-RUS_1038;Novo Uzensk;x
-RUS_1469;Tomsk;x
-BHA_563;Upper Franconia;x
-BUR_1345;Sittwe;x
-PROV3329;Kampen;x
-PROV3330;Almere;x
-AWD_1240;Allahabad;x
-ENG_1236;Delhi;x
-EGY_1746;Alexandria;x
-EGY_1752;Matruh;x
-PROV762;Panormos;x
-PROV763;Messana;x
-PROV764;Syrakousai;x
-PROV3331;Enna;x
-SIC_753;Campania;x
-PROV3332;Herakleia;x
-PROV759;Locri;x
-PROV760;Kroton;x
-PROV761;Potentia;x
-PROV10;Aeternum;x
-PROV753;Bovianum;x
-PROV757;Canusium;x
-SYC_757;Apulia;x
-PROV758;Brentesion;x
-PAP_752;Latium;x
-SAR_720;Transpadana;x
-AUS_726;Insubria;x
-PAP_741;Aemilla;x
-TUS_744;Tuscia;x
-SAR_765;Sardinia & Corsica;x
-SYC_756;Lucania;x
-PROV755;Velia;x
-PROV2567;Capua;x
-PROV751;Plestia;x
-PROV748;Cosea;x
-PROV750;Caere;x
-PROV747;Clusium;x
-PROV744;Florentia;x
-PROV746;Luca;x
-PROV725;Savo;x
-PROV723;Dertona;x
-PROV722;Novaria;x
-PROV721;Alpes Graiae;x
-PROV726;Mediolanum;x
-PROV2568;Vicus;x
-PROV2669;Alpes Rhaeticae;x
-PROV727;Lambrum;x
-PROV728;Bedriacum;x
-PROV734;Tridentium;x
-PROV730;Auraei;x
-PROV732;Tarvisium;x
-PROV733;Aquileia;x
-PROV8;Alpes Carnicae;x
-PROV765;Sardinia Australis;x
-PROV766;Sardinia Borealis;x
-PROV740;Portus Veneris;
-PROV739;Mutina;x
-PROV741;Bononia;x
-PROV742;Feraria;x
-PROV756;Barium;x
+PROV1107;Shirvan;;;;;;;;;;;;x;;;;;;;;
+PROV806;Skoupoi;;;;;;;;;;;;x;;;;;;;;
+PROV817;Pyrgos;;;;;;;;;;;;x;;;;;;;;
+PROV815;Philippopolis;;;;;;;;;;;;x;;;;;;;;
+PROV808;Pautalia;;;;;;;;;;;;x;;;;;;;;
+PROV818;Silistra;;;;;;;;;;;;x;;;;;;;;
+PROV814;Odyssos;;;;;;;;;;;;x;;;;;;;;
+PROV813;Tirnovo;;;;;;;;;;;;x;;;;;;;;
+PROV811;Rozalia;;;;;;;;;;;;x;;;;;;;;
+PROV810;Diiu;;;;;;;;;;;;x;;;;;;;;
+PROV812;Nikopolis;;;;;;;;;;;;x;;;;;;;;
+PROV809;Sardike;;;;;;;;;;;;x;;;;;;;;
+PROV807;Vitólia;;;;;;;;;;;;x;;;;;;;;
+PROV1780;Deborus;;;;;;;;;;;;x;;;;;;;;
+PROV853;Argyrokastro;;;;;;;;;;;;x;;;;;;;;
+PROV851;Dyrrhachion;;;;;;;;;;;;x;;;;;;;;
+PROV849;Kroai;;;;;;;;;;;;x;;;;;;;;
+PROV850;Lissos;;;;;;;;;;;;x;;;;;;;;
+PROV852;Aulonas;;;;;;;;;;;;x;;;;;;;;
+PROV104;Nova Lisboa;;;;;;;;;;;;x;;;;;;;;
+PROV89;Gli Angeli;x;;;;;;;;;;;;;;;;;;;
+PROV90;Santa Maria;x;;;;;;;;;;;;;;;;;;;
+PROV88;Mohave;x;;;;;;;;;;;;;;;;;;;
+PROV85;Castelo da Floresta;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;
+PROV84;Vale Real;;;;;;;;;;;;x;;;;;;;;
+PROV86;Cidadenzo;;;;;;;;;;;;x;;;;;;;;
+PROV82;Grandes Pastagens;;;;;;;;;;;;;;;;;;;;x
+PROV81;Novo Porto;;;;;;;;;;;;;;;;;;;;x
+PROV83;Forte de Alberto;;;;;;;;;;;;;;;;;;;;x
+USA_81;Douro Pacifico;x;;;;;;;;;;;;;;;;;;;
+MEX_89;Gli Angeli;x;;;;;;;;;;;;;;;;;;;
+ELI_104;Elisio;x;;;;;;;;;;;;;;;;;;;
+USA_201;Nouveau-Montpellier;;;;;;;;;;;;;;;;;;;;
+USA_2556;Beaucouple;;;;;;;;;;;;;;;;;;;;
+USA_205;Beaucouple du Sud;x;;;;;;;;;;;;;;;;;;;
+USA_188;Terre Cherokee;x;;;;;;;;;;;;;;;;;;;
+USA_194;Nouvelle Orleans;x;;;;;;;;;;;;;;;;;;;
+USA_139;Mississippi Occidentale;x;;;;;;;;;;;;;;;;;;;
+USA_185;Phillipeville;x;;;;;;;;;;;;;;;;;;;
+USA_218;Appalache-Nord;x;;;;;;;;;;;;;;;;;;;
+USA_211;Nouveau-Bordeaux;x;;;;;;;;;;;;;;;;;;;
+USA_219;Versailles Atlantique;x;;;;;;;;;;;;;;;;;;;
+USA_223;Dijonnais Atlantique;x;;;;;;;;;;;;;;;;;;;
+USA_231;Nieuw Armstel;x;;;;;;;;;;;;;;;;;;;
+USA_243;Nieuw Brugge;x;;;;;;;;;;;;;;;;;;;
+ENG_74;Vinland;x;;;;;;;;;;;;;;;;;;;
+PROV659;Brasov;x;;;;;;;;;;;;;;;;;;;
+PROV657;Sibiu;x;;;;;;;;;;;;;;;;;;;
+PROV655;Brad;x;;;;;;;;;;;;;;;;;;;
+PROV661;Satu Mare;x;;;;;;;;;;;;;;;;;;;
+PROV304;Mannin;;;;;;;;;;;;;;;;;;;;
+PROV265;Loch Garman;;;;;;;;;;;;;;;;;;;;
+PROV264;Cill Dara;;;;;;;;;;;;;;;;;;;;
+PROV263;Dubh Linn;;;;;;;;;;;;;;;;;;;;
+PROV262;Port Lairge;;;;;;;;;;;;;;;;;;;;
+PROV261;Luimneach;;;;;;;;;;;;;;;;;;;;
+PROV260;Corcaigh;;;;;;;;;;;;;;;;;;;;
+PROV259;Sligeach;;;;;;;;;;;;;;;;;;;;
+PROV258;Dun Bhun na Gaillimhe;;;;;;;;;;;;;;;;;;;;
+PROV257;Dun na nGall;;;;;;;;;;;;;;;;;;;;
+PROV255;Daire;;;;;;;;;;;;;;;;;;;;
+PROV254;Beal Feirsde;;;;;;;;;;;;;;;;;;;;
+PROV273;Caerdydd;;;;;;;;;;;;;;;;;;;;
+PROV274;Aberteifi;;;;;;;;;;;;;;;;;;;;
+PROV276;Caergybi;;;;;;;;;;;;;;;;;;;;
+PROV299;Isca Dumnoniorum;;;;;;;;;;;;;;;;;;;;
+PROV297;Sorbiodunum;;;;;;;;;;;;;;;;;;;;
+PROV303;Clausentum;;;;;;;;;;;;;;;;;;;;
+PROV302;Noviomagus;;;;;;;;;;;;;;;;;;;;
+PROV301;Durovemum;;;;;;;;;;;;;;;;;;;;
+PROV285;Deva;;;;;;;;;;;;;;;;;;;;
+PROV278;Mamucium;;;;;;;;;;;;;;;;;;;;
+PROV284;Letocetum;;;;;;;;;;;;;;;;;;;;
+PROV289;Ratea;;;;;;;;;;;;;;;;;;;;
+PROV287;Vennonae;;;;;;;;;;;;;;;;;;;;
+PROV283;Brigantius;;;;;;;;;;;;;;;;;;;;
+PROV277;Learpholl;;;;;;;;;;;;;;;;;;;;
+PROV279;Cathair Luail;;;;;;;;;;;;;;;;;;;;
+PROV280;Caislean Nua;;;;;;;;;;;;;;;;;;;;
+PROV286;Amwythig;;;;;;;;;;;;;;;;;;;;
+PROV296;Brycg stowe;;;;;;;;;;;;;;;;;;;;
+PROV294;Oxnaforda;;;;;;;;;;;;;;;;;;;;
+PROV272;Dun Phris;;;;;;;;;;;;;;;;;;;;
+PROV271;Glaschu;;;;;;;;;;;;;;;;;;;;
+PROV270;Sruighlea;;;;;;;;;;;;;;;;;;;;
+PROV269;Dun Eideann;;;;;;;;;;;;;;;;;;;;
+PROV268;Dun De;;;;;;;;;;;;;;;;;;;;
+PROV267;Inbhir Nis;;;;;;;;;;;;;;;;;;;;
+PROV266;Aberdon;;;;;;;;;;;;;;;;;;;;
+PROV1724;lNa h-Eileanan a Tuath;;;;;;;;;;;;;;;;;;;;
+PROV419;Oileain Mhuir nIocht;;;;;;;;;;;;;;;;;;;;
+PROV421;Sant-Briegon;;;;;;;;;;;;;;;;;;;;
+PROV424;Roazhon;;;;;;;;;;;;;;;;;;;;
+PROV422;Gwened;;;;;;;;;;;;;;;;;;;;
+PROV388;Brugge;;;;;;;;;;;;;;;;;;;;
+PROV389;Gent;;;;;;;;;;;;;;;;;;;;
+PROV390;Antwerpen;;;;;;;;;;;;;;;;;;;;
+PROV387;Brussel;;;;;;;;;;;;;;;;;;;;
+PROV393;Doornik;;;;;;;;;;;;;;;;;;;;
+PROV392;Namen;;;;;;;;;;;;;;;;;;;;
+PROV394;Bregen;;;;;;;;;;;;;;;;;;;;
+PROV381;Maastricht;;;;;;;;;;;;;;;;;;;;
+PROV398;Aarlen;;;;;;;;;;;;;;;;;;;;
+PROV395;Luik;;;;;;;;;;;;;;;;;;;;
+PROV696;Olsztyn;;;;;;;;;;;;;;;;;;;;
+PROV693;Elblag;;;;;;;;;;;;;;;;;;;;
+PROV685;Katowice;;;;;;;;;;;;;;;;;;;;
+PROV684;Opole;;;;;;;;;;;;;;;;;;;;
+PROV688;Opava;;;;;;;;;;;;;;;;;;;;
+PROV689;Cieszyn;;;;;;;;;;;;;;;;;;;;
+PROV632;Olomouc;;;;;;;;;;;;;;;;;;;;
+PROV625;Praha;;;;;;;;;;;;;;;;;;;;
+PROV628;Usti nad Labem;;;;;;;;;;;;;;;;;;;;
+PROV627;Karlovy Vary;;;;;;;;;;;;;;;;;;;;
+PROV720;Taurasia;;;;;;;;;;;;;;;;;;;;
+PROV472;Antipolis;;;;;;;;;;;;;;;;;;;;
+PROV724;Genua;;;;;;;;;;;;;;;;;;;;
+PROV745;Populonium;;;;;;;;;;;;;;;;;;;;
+PROV1981;Ilva;;;;;;;;;;;;;;;;;;;;
+PROV749;Roma;;;;;;;;;;;;;;;;;;;;
+PROV754;Napoli;;;;;;;;;;;;;;;;;;;;
+PROV729;Venezia;;;;;;;;;;;;;;;;;;;;
+PROV731;Adria;;;;;;;;;;;;;;;;;;;;
+PROV769;Postumia;;;;;;;;;;;;;;;;;;;;
+PROV1780;Diber;;;;;;;;;;;;;;;;;;;;
+PROV803;Prizreni;;;;;;;;;;;;;;;;;;;;
+PROV834;Athina;;;;;;;;;;;;;;;;;;;;
+PROV840;Korinthos;;;;;;;;;;;;;;;;;;;;
+PROV914;Tripolis;;;;;;;;;;;;;;;;;;;;
+PROV918;Nabulus;;;;;;;;;;;;;;;;;;;;
+PROV913;Berytus Nutrix;;;;;;;;;;;;;;;;;;;;
+PROV513;Garnatah;;;;;;;;;;;;;;;;;;;;
+PROV514;Malaqah;;;;;;;;;;;;;;;;;;;;
+PROV515;al-Mariyya;;;;;;;;;;;;;;;;;;;;
+PROV517;Jabal Tariq;;;;;;;;;;;;;;;;;;;;
+PROV516;Jayyan;;;;;;;;;;;;;;;;;;;;
+PROV507;Mursiya;;;;;;;;;;;;;;;;;;;;
+PROV509;Isbiliya;;;;;;;;;;;;;;;;;;;;
+PROV510;Qurtuba;;;;;;;;;;;;;;;;;;;;
+PROV511;Walbah;;;;;;;;;;;;;;;;;;;;
+PROV512;Al-Qadis;;;;;;;;;;;;;;;;;;;;
+PROV484;Bayt Al-Jaws;;;;;;;;;;;;;;;;;;;;
+PROV486;Qasr Al-Azad;;;;;;;;;;;;;;;;;;;;
+PROV506;Qartajin Al-Khalfa;;;;;;;;;;;;;;;;;;;;
+PROV526;Bajad Az-Zayt;;;;;;;;;;;;;;;;;;;;
+PROV527;Bur al-Harun;;;;;;;;;;;;;;;;;;;;
+PROV521;Al-Ushbuna;;;;;;;;;;;;;;;;;;;;
+PROV505;Al-Laqant;;;;;;;;;;;;;;;;;;;;
+PROV502;Juzur al-Bilyar;;;;;;;;;;;;;;;;;;;;
+PROV192;Rosalie;;;;;;;;;;;;;;;;;;;;
+PROV193;Branville;;;;;;;;;;;;;;;;;;;;
+PROV195;Fort Toulouse;;;;;;;;;;;;;;;;;;;;
+PROV196;Blois;;;;;;;;;;;;;;;;;;;;
+PROV198;Talahasie;;;;;;;;;;;;;;;;;;;;
+PROV200;Tanpa;;;;;;;;;;;;;;;;;;;;
+PROV199;Sainte Augustine;;;;;;;;;;;;;;;;;;;;
+PROV204;Nouveau-Montpellier;;;;;;;;;;;;;;;;;;;;
+PROV2555;Anne Elisabeth;;;;;;;;;;;;;;;;;;;;
+PROV201;Fort d'Appalache-Sud;;;;;;;;;;;;;;;;;;;;
+PROV205;Port-Charleroi;;;;;;;;;;;;;;;;;;;;
+PROV206;Talonie;;;;;;;;;;;;;;;;;;;;
+PROV210;Beaucouple;;;;;;;;;;;;;;;;;;;;
+PROV2556;Ville des Cendres;;;;;;;;;;;;;;;;;;;;
+PROV207;Saint-Hyacinthe;;;;;;;;;;;;;;;;;;;;
+PROV208;Tiverton;;;;;;;;;;;;;;;;;;;;
+PROV216;Roanoque;;;;;;;;;;;;;;;;;;;;
+PROV211;Plaineville;;;;;;;;;;;;;;;;;;;;
+PROV214;Nouveau-Bordeaux;;;;;;;;;;;;;;;;;;;;
+PROV60;Louiseville;;;;;;;;;;;;;;;;;;;;
+PROV213;Villefranche;;;;;;;;;;;;;;;;;;;;
+PROV212;Mana-Sur-Cannon;;;;;;;;;;;;;;;;;;;;
+PROV213;Mont-Mouscron;;;;;;;;;;;;;;;;;;;;
+PROV2146;Nouveau-Versailles;;;;;;;;;;;;;;;;;;;;
+PROV220;Bas-Antlantique;;;;;;;;;;;;;;;;;;;;
+PROV219;Brest-Atlantique;;;;;;;;;;;;;;;;;;;;
+PROV221;Fort d'Appalache-Nord;;;;;;;;;;;;;;;;;;;;
+PROV222;Rouen;;;;;;;;;;;;;;;;;;;;
+PROV223;Dijonnais;;;;;;;;;;;;;;;;;;;;
+PROV226;Lyonnais;;;;;;;;;;;;;;;;;;;;
+PROV227;Alsace-Sur-Trois-Rivieres;;;;;;;;;;;;;;;;;;;;
+PROV225;Auvergne;;;;;;;;;;;;;;;;;;;;
+PROV218;Becancour;;;;;;;;;;;;;;;;;;;;
+PROV217;Nouvelle-Savoie;;;;;;;;;;;;;;;;;;;;
+PROV189;Richelieu;;;;;;;;;;;;;;;;;;;;
+PROV188;Val-des-Bois;;;;;;;;;;;;;;;;;;;;
+PROV190;Mont-Laurier;;;;;;;;;;;;;;;;;;;;
+PROV191;Saint-Phillipe;;;;;;;;;;;;;;;;;;;;
+PROV187;Laval;;;;;;;;;;;;;;;;;;;;
+PROV184;Louisbourg;;;;;;;;;;;;;;;;;;;;
+PROV186;Phillipeville;;;;;;;;;;;;;;;;;;;;
+PROV185;Mont-Tremblant;;;;;;;;;;;;;;;;;;;;
+PROV194;Bilocci;;;;;;;;;;;;;;;;;;;;
+PROV233;Lange Eylandt;;;;;;;;;;;;;;;;;;;;
+PROV229;Sant Hoek;;;;;;;;;;;;;;;;;;;;
+PROV230;Barnde Gat;;;;;;;;;;;;;;;;;;;;
+PROV231;Nieuw Armstel;;;;;;;;;;;;;;;;;;;;
+PROV241;Huys de Goede Hoop;;;;;;;;;;;;;;;;;;;;
+PROV242;Roode Eylandt;;;;;;;;;;;;;;;;;;;;
+PROV243;Brendans tun;;;;;;;;;;;;;;;;;;;;
+PROV244;Nieuw Brugge;;;;;;;;;;;;;;;;;;;;
+PROV253;Foroyar;;;;;;;;;;;;;;;;;;;;
+PROV77;Soholm;;;;;;;;;;;;;;;;;;;;
+PROV75;Bjorvik;;;;;;;;;;;;;;;;;;;;
+PROV74;Holmeborg;;;;;;;;;;;;;;;;;;;;
+PROV73;Olvasstad;;;;;;;;;;;;;;;;;;;;
+PROV234;Beverwijck;;;;;;;;;;;;;;;;;;;;
+PROV215;Monts-Fumes;;;;;;;;;;;;;;;;;;;;
+PROV699;Poznan;;;;;;;;;;;;;;;;;;;;
+PROV700;Bydgoszcz;;;;;;;;;;;;;;;;;;;;
+PROV224;Nieuw Hilfercem;;;;;;;;;;;;;;;;;;;;
+PROV2627;Leithen;;;;;;;;;;;;;;;;;;;;
+PROV235;Treiectinsem;;;;;;;;;;;;;;;;;;;;
+PROV228;Campen;;;;;;;;;;;;;;;;;;;;
+PROV236;Islemuthen;;;;;;;;;;;;;;;;;;;;
+PROV238;Nieuw Rotterdam;;;;;;;;;;;;;;;;;;;;
+PROV240;Utwic;;;;;;;;;;;;;;;;;;;;
+PROV239;Puthem;;;;;;;;;;;;;;;;;;;;
+PROV245;Iudifax;;;;;;;;;;;;;;;;;;;;
+PROV246;Haltna;;;;;;;;;;;;;;;;;;;;
+PROV247;Hockesberghe;;;;;;;;;;;;;;;;;;;;
+PROV248;Ghesterne;;;;;;;;;;;;;;;;;;;;
+PROV249;Foldenheim;;;;;;;;;;;;;;;;;;;;
+PROV250;Irminlo;;;;;;;;;;;;;;;;;;;;
+PROV69;Dauentre;;;;;;;;;;;;;;;;;;;;
+PROV68;Nieuw Haga;;;;;;;;;;;;;;;;;;;;
+PROV71;Cattenbroecke;;;;;;;;;;;;;;;;;;;;
+PROV72;Bierflitha;;;;;;;;;;;;;;;;;;;;
+PROV70;Prinses Wilhelmina Eiland;;;;;;;;;;;;;;;;;;;;
+PROV66;Abcwoude;;;;;;;;;;;;;;;;;;;;
+PROV58;Nieuw Vene;;;;;;;;;;;;;;;;;;;;
+PROV64;Bambrug;;;;;;;;;;;;;;;;;;;;
+PROV62;Nieuw Islemuthen;;;;;;;;;;;;;;;;;;;;
+PROV63;Bomela;;;;;;;;;;;;;;;;;;;;
+PROV61;Zaelberch;;;;;;;;;;;;;;;;;;;;
+PROV65;Waetriloe;;;;;;;;;;;;;;;;;;;;
+PROV2625;Noordwest Rivier;;;;;;;;;;;;;;;;;;;;
+PROV76;Falckenberch;;;;;;;;;;;;;;;;;;;;
+PROV57;Arneym;;;;;;;;;;;;;;;;;;;;
+PROV56;Ceudiaco;;;;;;;;;;;;;;;;;;;;
+PROV46;Thelden;;;;;;;;;;;;;;;;;;;;
+PROV55;Dauentre;;;;;;;;;;;;;;;;;;;;
+PROV54;Haltna;;;;;;;;;;;;;;;;;;;;
+PROV53;Colouuidum;;;;;;;;;;;;;;;;;;;;
+PROV52;Naruthi;;;;;;;;;;;;;;;;;;;;
+PROV51;Hellenwich;;;;;;;;;;;;;;;;;;;;
+PROV50;Cruoninga;;;;;;;;;;;;;;;;;;;;
+PROV49;Appoldro;;;;;;;;;;;;;;;;;;;;
+PROV48;Axla;;;;;;;;;;;;;;;;;;;;
+PROV47;Quirnifurt;;;;;;;;;;;;;;;;;;;;
+PROV2628;Durninum;;;;;;;;;;;;;;;;;;;;
+PROV2594;Driberghe;;;;;;;;;;;;;;;;;;;;
+PROV2592;Haga;;;;;;;;;;;;;;;;;;;;
+PROV2626;Delf;;;;;;;;;;;;;;;;;;;;
+PROV59;Baerne;;;;;;;;;;;;;;;;;;;;
+PROV237;Almelo;;;;;;;;;;;;;;;;;;;;
+PROV9;Benlo;;;;;;;;;;;;;;;;;;;;
+PROV36;Breidervort;;;;;;;;;;;;;;;;;;;;
+PROV37;Hentheren;;;;;;;;;;;;;;;;;;;;
+PROV158;Gholthorne;;;;;;;;;;;;;;;;;;;;
+PROV157;Umme;;;;;;;;;;;;;;;;;;;;
+PROV160;Ostforne;;;;;;;;;;;;;;;;;;;;
+PROV161;Stochem;;;;;;;;;;;;;;;;;;;;
+PROV162;Tilliburgis;;;;;;;;;;;;;;;;;;;;
+PROV159;Wazovelde;;;;;;;;;;;;;;;;;;;;
+PROV177;Foranholte;;;;;;;;;;;;;;;;;;;;
+PROV176;Waetriloe;;;;;;;;;;;;;;;;;;;;
+PROV175;Wishem;;;;;;;;;;;;;;;;;;;;
+PROV174;Gunsela;;;;;;;;;;;;;;;;;;;;
+PROV173;Wunsdrech;;;;;;;;;;;;;;;;;;;;
+PROV163;Swolle;;;;;;;;;;;;;;;;;;;;
+PROV164;Subenhara;;;;;;;;;;;;;;;;;;;;
+PROV165;Wederden;;;;;;;;;;;;;;;;;;;;
+PROV171;Gunsela;;;;;;;;;;;;;;;;;;;;
+PROV172;Vroedenhout;;;;;;;;;;;;;;;;;;;;
+PROV170;Vrachel;;;;;;;;;;;;;;;;;;;;
+PROV169;Vehchele;;;;;;;;;;;;;;;;;;;;
+PROV180;Wedert;;;;;;;;;;;;;;;;;;;;
+PROV179;Rosmael;;;;;;;;;;;;;;;;;;;;
+PROV178;Risnen;;;;;;;;;;;;;;;;;;;;
+PROV181;Pulmeri;;;;;;;;;;;;;;;;;;;;
+PROV182;Marclo;;;;;;;;;;;;;;;;;;;;
+PROV183;Maeslandtsluis;;;;;;;;;;;;;;;;;;;;
+PROV608;Tahiti;;;;;;;;;;;;;;;;;;;;
+SPA_478:Castillia-Navarra;;;;;;;;;;;;;;;;;;;;;
+SPA_475;Léon;;;;;;;;;;;;;;;;;;;;
+SAP_307;Sápmi;;;;;;;;;;;;;;;;;;;;
+SVF_894;Adana;;;;;;;;;;;;;;;;;;;;
+PROV3322;Warminsky;;;;;;;;;;;;;;;;;;;;
+PRU_690;Danzig & Konigsberg;;;;;;;;;;;;;;;;;;;;
+PRU_691;Pomeralia;;;;;;;;;;;;;;;;;;;;
+PRU_696;Prusy;;;;;;;;;;;;;;;;;;;;
+PROV3323;Naklo;;;;;;;;;;;;;;;;;;;;
+PROV3324;Zielona Gora;;;;;;;;;;;;;;;;;;;;
+PROV692;Walcz;;;;;;;;;;;;;;;;;;;;
+PROV3325;Landsberg;;;;;;;;;;;;;;;;;;;;
+POL_710;Lodzki;;;;;;;;;;;;;;;;;;;;
+PROV697;Gombin;;;;;;;;;;;;;;;;;;;;
+RUS1038;Novo Uzensk;;;;;;;;;;;;;;;;;;;;
+PROV926;Ctesiphon;x;;;;;;;;;;;;;;;;;;;
+EGY_921;Jerusalem;x;;;;;;;;;;;;;;;;;;;
+SVF_878;Kaisareia;x;;;;;;;;;;;;;;;;;;;
+PROV300;Londinium;x;;;;;;;;;;;;;;;;;;;
+PROV2346;Coilineacht;x;;;;;;;;;;;;;;;;;;;
+PROV2344;Tailtair;x;;;;;;;;;;;;;;;;;;;
+PROV2347;Garman Nua;x;;;;;;;;;;;;;;;;;;;
+PROV2345;Lagair;x;;;;;;;;;;;;;;;;;;;
+PROV2349;Junair;x;;;;;;;;;;;;;;;;;;;
+PROV2350;Azulair;x;;;;;;;;;;;;;;;;;;;
+PROV2353;Loch Deoch;x;;;;;;;;;;;;;;;;;;;
+PROV2361;Spiorad Naomh;x;;;;;;;;;;;;;;;;;;;
+PROV2363;Rhysair;x;;;;;;;;;;;;;;;;;;;
+PROV2380;Mananua;x;;;;;;;;;;;;;;;;;;;
+PROV2379;Chorcai Gallach;x;;;;;;;;;;;;;;;;;;;
+PROV2360;Paranair;x;;;;;;;;;;;;;;;;;;;
+PROV2359;Calanair;x;;;;;;;;;;;;;;;;;;;
+PROV2357;Sligeach Nua;x;;;;;;;;;;;;;;;;;;;
+PROV2381;Ceathrabhainn;x;;;;;;;;;;;;;;;;;;;
+PROV2383;Naomh Luis;x;;;;;;;;;;;;;;;;;;;
+PROV2384;Amhair;x;;;;;;;;;;;;;;;;;;;
+ARG_2357;Sligeach Nua;x;;;;;;;;;;;;;;;;;;;
+NGV_2358;Entre Rios;x;;;;;;;;;;;;;;;;;;;
+PROV2251;Colombo;x;;;;;;;;;;;;;;;;;;;
+BRZ_2447;Nouva Genova;x;;;;;;;;;;;;;;;;;;;
+PROV2199;Tilmannburg;x;;;;;;;;;;;;;;;;;;;
+PROV2200;Hugelsburg;x;;;;;;;;;;;;;;;;;;;
+PROV2197;Flussdelta;x;;;;;;;;;;;;;;;;;;;
+PROV2198;Seebad;x;;;;;;;;;;;;;;;;;;;
+PROV2202;Golfburg;x;;;;;;;;;;;;;;;;;;;
+PROV2201;Sankt Paul;x;;;;;;;;;;;;;;;;;;;
+PROV2203;St Cristopher;x;;;;;;;;;;;;;;;;;;;
+PROV2206;Hennyburg;x;;;;;;;;;;;;;;;;;;;
+PROV1723;Neukiel;x;;;;;;;;;;;;;;;;;;;
+PROV2208;Neukolberg;x;;;;;;;;;;;;;;;;;;;
+PROV2204;Kristburg;x;;;;;;;;;;;;;;;;;;;
+PROV2253;Flusschungel;x;;;;;;;;;;;;;;;;;;;
+PROV3001;Gulf of David;x;;;;;;;;;;;;;;;;;;;
+PROV2254;Neu Greifswald;x;;;;;;;;;;;;;;;;;;;
+CLM_1723;David;x;;;;;;;;;;;;;;;;;;;
+LUB_2254;Darienlucke;x;;;;;;;;;;;;;;;;;;;
+UCA_2201;Golfburg;x;;;;;;;;;;;;;;;;;;;
+UCA_2197;Tilmannburg;x;;;;;;;;;;;;;;;;;;;
+USA_232;Nieuw Amsterdam;x;;;;;;;;;;;;;;;;;;;
+SWI_607;Alpinal;x;;;;;;;;;;;;;;;;;;;
+PROV994;Ingria;x;;;;;;;;;;;;;;;;;;;
+PROV1039;Volga;x;;;;;;;;;;;;;;;;;;;
+PROV43;Karlstadt;x;;;;;;;;;;;;;;;;;;;
+PROV134;Johannestadt;x;;;;;;;;;;;;;;;;;;;
+PROV133;Lukas;x;;;;;;;;;;;;;;;;;;;
+PROV137;Eliastadt;x;;;;;;;;;;;;;;;;;;;
+PROV3326;Colonia Real;x;;;;;;;;;;;;;;;;;;;
+PROV3327;Ovedio;x;;;;;;;;;;;;;;;;;;;
+SCO_296;East Midlands;x;;;;;;;;;;;;;;;;;;;
+SCO_299;Londinium;x;;;;;;;;;;;;;;;;;;;
+ENG_284;Brigantium;x;;;;;;;;;;;;;;;;;;;
+D_906;Syrian Desert;x;;;;;;;;;;;;;;;;;;;
+TUR_923;Assyria;x;;;;;;;;;;;;;;;;;;;
+GEN_724;Liguria;x;;;;;;;;;;;;;;;;;;;
+PROV3328;Calmes;x;;;;;;;;;;;;;;;;;;;
+CHI_1511;Yellow River;x;;;;;;;;;;;;;;;;;;;
+MCK_1491;Outer Mongolia;x;;;;;;;;;;;;;;;;;;;
+SPA_478;Castillia-Navarra;x;;;;;;;;;;;;;;;;;;;
+RUS_971;Yekaterinoslav;x;;;;;;;;;;;;;;;;;;;
+RUS_976;Mariopul;x;;;;;;;;;;;;;;;;;;;
+RUS_1038;Novo Uzensk;x;;;;;;;;;;;;;;;;;;;
+RUS_1469;Tomsk;x;;;;;;;;;;;;;;;;;;;
+BHA_563;Upper Franconia;x;;;;;;;;;;;;;;;;;;;
+BUR_1345;Sittwe;x;;;;;;;;;;;;;;;;;;;
+PROV3329;Kampen;x;;;;;;;;;;;;;;;;;;;
+PROV3330;Almere;x;;;;;;;;;;;;;;;;;;;
+AWD_1240;Allahabad;x;;;;;;;;;;;;;;;;;;;
+ENG_1236;Delhi;x;;;;;;;;;;;;;;;;;;;
+EGY_1746;Alexandria;x;;;;;;;;;;;;;;;;;;;
+EGY_1752;Matruh;x;;;;;;;;;;;;;;;;;;;
+PROV762;Panormos;x;;;;;;;;;;;;;;;;;;;
+PROV763;Messana;x;;;;;;;;;;;;;;;;;;;
+PROV764;Syrakousai;x;;;;;;;;;;;;;;;;;;;
+PROV3331;Enna;x;;;;;;;;;;;;;;;;;;;
+SIC_753;Campania;x;;;;;;;;;;;;;;;;;;;
+PROV3332;Herakleia;x;;;;;;;;;;;;;;;;;;;
+PROV759;Locri;x;;;;;;;;;;;;;;;;;;;
+PROV760;Kroton;x;;;;;;;;;;;;;;;;;;;
+PROV761;Potentia;x;;;;;;;;;;;;;;;;;;;
+PROV10;Aeternum;x;;;;;;;;;;;;;;;;;;;
+PROV753;Bovianum;x;;;;;;;;;;;;;;;;;;;
+PROV757;Canusium;x;;;;;;;;;;;;;;;;;;;
+SYC_757;Apulia;x;;;;;;;;;;;;;;;;;;;
+PROV758;Brentesion;x;;;;;;;;;;;;;;;;;;;
+PAP_752;Latium;x;;;;;;;;;;;;;;;;;;;
+SAR_720;Transpadana;x;;;;;;;;;;;;;;;;;;;
+AUS_726;Insubria;x;;;;;;;;;;;;;;;;;;;
+PAP_741;Aemilla;x;;;;;;;;;;;;;;;;;;;
+TUS_744;Tuscia;x;;;;;;;;;;;;;;;;;;;
+SAR_765;Sardinia & Corsica;x;;;;;;;;;;;;;;;;;;;
+SYC_756;Lucania;x;;;;;;;;;;;;;;;;;;;
+PROV755;Velia;x;;;;;;;;;;;;;;;;;;;
+PROV2567;Capua;x;;;;;;;;;;;;;;;;;;;
+PROV751;Plestia;x;;;;;;;;;;;;;;;;;;;
+PROV748;Cosea;x;;;;;;;;;;;;;;;;;;;
+PROV750;Caere;x;;;;;;;;;;;;;;;;;;;
+PROV747;Clusium;x;;;;;;;;;;;;;;;;;;;
+PROV744;Florentia;x;;;;;;;;;;;;;;;;;;;
+PROV746;Luca;x;;;;;;;;;;;;;;;;;;;
+PROV725;Savo;x;;;;;;;;;;;;;;;;;;;
+PROV723;Dertona;x;;;;;;;;;;;;;;;;;;;
+PROV722;Novaria;x;;;;;;;;;;;;;;;;;;;
+PROV721;Alpes Graiae;x;;;;;;;;;;;;;;;;;;;
+PROV726;Mediolanum;x;;;;;;;;;;;;;;;;;;;
+PROV2568;Vicus;x;;;;;;;;;;;;;;;;;;;
+PROV2669;Alpes Rhaeticae;x;;;;;;;;;;;;;;;;;;;
+PROV727;Lambrum;x;;;;;;;;;;;;;;;;;;;
+PROV728;Bedriacum;x;;;;;;;;;;;;;;;;;;;
+PROV734;Tridentium;x;;;;;;;;;;;;;;;;;;;
+PROV730;Auraei;x;;;;;;;;;;;;;;;;;;;
+PROV732;Tarvisium;x;;;;;;;;;;;;;;;;;;;
+PROV733;Aquileia;x;;;;;;;;;;;;;;;;;;;
+PROV8;Alpes Carnicae;x;;;;;;;;;;;;;;;;;;;
+PROV765;Sardinia Australis;x;;;;;;;;;;;;;;;;;;;
+PROV766;Sardinia Borealis;x;;;;;;;;;;;;;;;;;;;
+PROV740;Portus Veneris;;;;;;;;;;;;;;;;;;;;
+PROV739;Mutina;x;;;;;;;;;;;;;;;;;;;
+PROV741;Bononia;x;;;;;;;;;;;;;;;;;;;
+PROV742;Feraria;x;;;;;;;;;;;;;;;;;;;
+PROV756;Barium;x;;;;;;;;;;;;;;;;;;;
+FRA_3339;Auvergne;x;;;;;;;;;;;;;;;;;;;

@@ -190,7 +190,7 @@ BEL_394 = { 394 392 393 395 398 } #Wallonia
 
 FRA_399 = { 403 402 2570 } #Picardie
 
-FRA_400 = { 408 405 406 407 432 } #Champagne
+FRA_400 = { 408 405 407 432 } #Champagne
 
 FRA_404 = { 399 400 401 404 } #Nord-Pas-De-Calais/Artois
 
@@ -204,7 +204,7 @@ FRA_420 = { 420 421 422 424 423 } #Bretagne
 
 FRA_425 = { 425 426 427 } #Ile de France
 
-FRA_428 = { 428 429 431 430 433 } #Bourgogne
+FRA_428 = { 428 429 431 433 406 } #Bourgogne
 
 FRA_435 = { 435 434 437 } #Loire
 
@@ -214,17 +214,19 @@ FRA_442 = { 442 444 443 } #Poitou
 
 FRA_445 = { 445 446 447 450 } #Limousin
 
-FRA_451 = { 451 452 453 448 449 } #Rhone
+FRA_451 = { 451 453 3339 } #Rhone
 
 FRA_455 = { 455 457 456 } #Le Midi
 
 FRA_458 = { 458 459 460 } #Aquitaine
 
-FRA_461 = { 461 462 463 464 } #Languedoc
+FRA_461 = { 461 462 463 464 468 } #Languedoc
 
-SAR_466 = { 454 465 466 469} #Savoie
+SAR_466 = { 454 465 466 } #Savoie
 
-FRA_467 = { 467 468  470 471 } #Provence
+FRA_467 = { 467 470 471 469 } #Provence
+
+FRA_3339 = { 448 430 452 449 } #Auvergne
 
 
 ### Spain & Portugal
