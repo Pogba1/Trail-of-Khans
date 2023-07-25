@@ -312,3 +312,115 @@ From;To;Type;Through;Data;Comment
 593;594;sea;0;0;Ulm to Sigmaringen
 588;594;sea;0;0;Konstanz to Sigmaringen
 588;591;sea;0;0;Konstanz to Tübingen
+;;;;;
+#Ebro;;;;;
+493;494;sea;0;0;Pamplona to Logrono
+493;495;sea;0;0;Pamplona to Zaragoza
+496;495;sea;0;0;Huesca to Zaragoza
+500;495;sea;0;0;Lerida to Castellon
+501;504;sea;0;0;Tarragona to Castellon
+;;;;;
+#Po;;;;;
+722;723;sea;0;0;Novara to Alessandria
+726;723;sea;0;0;Milan to Alessandria
+726;738;sea;0;0;Milan to Parma
+727;738;sea;0;0;Bergamo to Parma
+728;738;sea;0;0;Brescia to Parma
+728;739;sea;0;0;Brescia to Modena
+730;739;sea;0;0;Verona to Modena
+730;742;sea;0;0;Verona to Ferrara
+731;742;sea;0;0;Padua to Ferrara
+;;;;;
+#Rhone;;;;;
+453;431;sea;0;0;Valence to Macon
+453;3339;sea;0;0;Valence to Ardéche
+467;468;sea;0;0;Marseilles to Avignon
+467;461;sea;0;0;Marseilles to Montpellier
+;;;;;
+#Loire;;;;;
+448;3339;sea;0;0;Clermont-Ferrand to Ardéche
+452;3339;sea;0;0;St. Etienne to Ardéche
+452;431;sea;0;0;St. Etienne to Macon
+430;431;sea;0;0;Moulins to Macon
+430;428;sea;0;0;Moulins to Dijon
+439;428;sea;0;0;Bourges to Dijon
+439;429;sea;0;0;Bourges to Auxerre
+439;438;sea;0;0;Bourges to Orleans
+440;438;sea;0;0;Blois to Orleans
+440;426;sea;0;0;Blois to Chatres
+440;436;sea;0;0;Blois to Le Mans
+441;436;sea;0;0;Tours to Le Mans
+434;436;sea;0;0;Angers to Le Mans
+434;435;sea;0;0;Angers to Laval
+434;423;sea;0;0;Angers to Nantes
+437;423;sea;0;0;La Roche to Nantes
+;;;;;
+#Seine;;;;;
+429;407;sea;0;0;Auxerre to Chaumont
+406;407;sea;0;0;Troyes to Chaumont
+406;408;sea;0;0;Troyes to Chalons
+438;427;sea;0;0;Orleans to Melun
+425;427;sea;0;0;Paris to Melun
+425;2570;sea;0;0;Paris to Beauvais
+416;2570;sea;0;0;Evreux to Beauvais
+416;415;sea;0;0;Evreux to Rouen
+;;;;;
+#Rhine;;;;;
+588;603;sea;0;0;Konstanz to Zürich
+587;603;sea;0;0;Freiburg to Zürich
+587;604;sea;0;0;Freiburg to Basel
+587;410;sea;0;0;Freiburg to Colmar
+587;409;sea;0;0;Freiburg to Straßburg
+586;409;sea;0;0;Karlsruhe to Straßburg
+586;571;sea;0;0;Karlsruhe to Kaiserslautern
+569;571;sea;0;0;Mannheim to Kaiserslautern
+2560;570;sea;0;0;Darmstadt to Mainz
+564;570;sea;0;0;Frankfurt to Mainz
+565;570;sea;0;0;Wiesbaden to Mainz
+565;574;sea;0;0;Wiesbaden to Kreuznach
+579;574;sea;0;0;Neuwied to Kreuznach
+2561;575;sea;0;0;Siegburg to Cologne
+578;575;sea;0;0;Düsseldorf to Cologne
+578;577;sea;0;0;Düsseldorf to Cleves
+581;577;sea;0;0;Münster to Cleves
+382;577;sea;0;0;Arnhem to Cleves
+3330;379;sea;0;0;Almere to Eindhoven
+377;380;sea;0;0;Utrecht to Breda
+377;378;sea;0;0;Utrecht to Middelburg
+376;378;sea;0;0;Rotterdam to Middleburg
+;;;;;
+#Elbe;;;;;
+627;628;sea;0;0;Karlsbad to Aussig
+560;558;sea;0;0;Chemnitz to Dresden
+559;558;sea;0;0;Leipzig to Dresden
+556;552;sea;0;0;Halle to Cottbus
+556;549;sea;0;0;Halle to Berlin
+555;549;sea;0;0;Dessau to Berlin
+553;549;sea;0;0;Magdeburg to Berlin
+557;549;sea;0;0;Stendal to Berlin
+557;551;sea;0;0;Stendal to Pritzwalk
+532;551;sea;0;0;Lüneburg to Pritzwalk
+532;544;sea;0;0;Lüneburg to Schwerin
+532;529;sea;0;0;Lüneburg to Lauenburg
+532;528;sea;0;0;Lüneburg to Hamburg
+531;528;sea;0;0;Stade to Hamburg
+;;;;;
+#Oder;;;;;
+688;689;sea;0;0;Troppau to Tesin
+688;685;sea;0;0;Troppau to Kattowitz
+682;685;sea;0;0;Breslau to Kattowitz
+682;684;sea;0;0;Breslau to Oppeln
+682;681;sea;0;0;Breslau to Küstrin
+552;681;sea;0;0;Cottbus to Küstrin
+550;681;sea;0;0;Prenzlau to Küstrin
+550;3325;sea;0;0;Prenzlau to Landsberg
+550;546;sea;0;0;Prenzlau to Stettin
+547;546;sea;0;0;Swinemünde to Stettin
+;;;;;
+#Vistula;;;;;
+685;2584;;;;Kattowitz to Bielsko
+685;703;;;;Kattowitz to Krakow
+716;703;;;;Kielce to Krakow
+716;714;;;;Kielce to Tarnow
+716;705;;;;Kielce to Przemysl
+713;705;;;;Radom to Przemysl
