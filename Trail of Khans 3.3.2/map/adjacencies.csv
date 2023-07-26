@@ -418,9 +418,70 @@ From;To;Type;Through;Data;Comment
 547;546;sea;0;0;Swinemünde to Stettin
 ;;;;;
 #Vistula;;;;;
-685;2584;;;;Kattowitz to Bielsko
-685;703;;;;Kattowitz to Krakow
-716;703;;;;Kielce to Krakow
-716;714;;;;Kielce to Tarnow
-716;705;;;;Kielce to Przemysl
-713;705;;;;Radom to Przemysl
+685;2584;sea;0;0;Kattowitz to Bielsko
+685;703;sea;0;0;Kattowitz to Krakow
+716;703;sea;0;0;Kielce to Krakow
+716;714;sea;0;0;Kielce to Tarnow
+716;705;sea;0;0;Kielce to Przemysl
+713;705;sea;0;0;Radom to Przemysl
+713;715;sea;0;0;Radom to Lublin
+713;711;sea;0;0;Radom to Siedlice
+706;711;sea;0;0;Warsaw to Siedlice
+706;708;sea;0;0;Warsaw to Plock
+717;708;sea;0;0;Kalisz to Plock
+717;694;sea;0;0;Kalisz to Torun
+700;694;sea;0;0;Bydgoszcz to Torun
+691;694;sea;0;0;Tuchel to Torun
+691;693;sea;0;0;Tuchel to Eblag
+690;3334;sea;0;0;Danzig to East Danzig
+;;;;;
+#Daugava;;;;;
+1007;999;sea;0;0;Velikiye Luki to Rzhev
+1007;945;sea;0;0;Velikiye Luki to Vitebsk
+1007;946;sea;0;0;Velikiye Luki to Polotsk
+1007;947;sea;0;0;Velikiye Luki to Pastavy
+356;947;sea;0;0;Daugavpils to Pastavy
+356;357;sea;0;0;Daugavpils to Jelgava
+355;357;sea;0;0;Valmiera to Jelgava
+354;357;sea;0;0;Riga to Jelgava
+;;;;;
+#Dniepr;;;;;
+943;999;sea;0;0;Smolensk to Rzhev
+944;945;sea;0;0;Orsha to Vitebsk
+944;948;sea;0;0;Orsha to Mogilev
+949;948;sea;0;0;Gomel to Mogilev
+949;942;sea;0;0;Gomel to Mozyr
+962;942;sea;0;0;Chernigov to Mozyr
+962;959;sea;0;0;Chernigov to Korosten
+962;958;sea;0;0;Chernigov to Kiev
+963;961;sea;0;0;Poltava to Cherkassy
+963;971;sea;0;0;Poltava to Krivoy Rog
+963;972;sea;0;0;Poltava to Yekaterinoslav
+974;972;sea;0;0;Bachmut to Yekaterinoslav
+973;972;sea;0;0;Melitopol to Yekaterinoslav
+973;971;sea;0;0;Melitopol to Krivoy Rog
+973;970;sea;0;0;Melitopol to Nikolaev
+965;970;sea;0;0;Kherson to Nikolaev
+;;;;;
+#Volga;;;;;
+1000;999;sea;0;0;Staritsa to Rzhev
+1000;1014;sea;0;0;Staritsa to Vyazma
+1000;1009;sea;0;0;Staritsa to Borodino
+998;1009;sea;0;0;Tver to Borodino
+998;1013;sea;0;0;Tver to Vladimir 
+998;1001;sea;0;0;Tver to Yaroslavl
+989;1001;sea;0;0;Vologda to Yaroslavl
+1023;1001;sea;0;0;Kostorma to Yaroslavl
+1023;1022;sea;0;0;Kostorma to Ivanovo
+1027;1022;sea;0;0;Vetluga to Ivanovo
+1027;1020;sea;0;0;Vetluga to Nizhni Novgorod
+1032;1030;sea;0;0;Chistopol to Kazan
+1034;1033;sea;0;0;Samara to Simbirsk
+1034;1035;sea;0;0;Samara to Syzran
+1043;1035;sea;0;0;Busuluk to Syzran
+1043;1037;sea;0;0;Busuluk to Saratov
+1038;1037;sea;0;0;Novo Uzensk to Saratov
+1040;1037;sea;0;0;Zarevka to Saratov
+1040;1039;sea;0;0;Zarevka to Volga
+1040;1041;sea;0;0;Zarevka to Elista
+1036;1041;sea;0;0;Astrakhan to Elista
