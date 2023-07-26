@@ -238,7 +238,7 @@
 }
 #Brandenburg Region (208000) #see Poland.txt for balance of region
 #under the rule of Prussia 1836
-#Kustrin (208000/52000 POPS) #Part of Poland since 1945
+#Kustrin (208000/52000 POPS) #Part of Poland since 1945 #Larp
 681 = {
     aristocrats = {
         culture = north_german
@@ -267,7 +267,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 21425
+        size = 11425
     }
 
     farmers = {
@@ -350,7 +350,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 105780
+        size = 115780
     }
 
     aristocrats = {

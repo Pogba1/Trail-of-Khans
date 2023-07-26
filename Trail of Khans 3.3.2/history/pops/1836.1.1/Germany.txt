@@ -1369,7 +1369,7 @@
     artisans = {
         culture = north_german
         religion = protestant
-        size = 40000
+        size = 50000
     }
 
     soldiers = {
@@ -1381,7 +1381,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 118300
+        size = 158300
     }
 
     clergymen = {
@@ -1833,7 +1833,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 103925
+        size = 63925
     }
 
     clergymen = {
@@ -2153,7 +2153,7 @@
     labourers = {
         culture = north_german
         religion = protestant
-        size = 227560
+        size = 187560
     }
 
     ######Jews
@@ -2223,7 +2223,7 @@
     labourers = {
         culture = north_german
         religion = protestant
-        size = 95755
+        size = 135755
     }
 }
 #Thuringia Region (865000)
@@ -5284,7 +5284,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 12900
+        size = 32900
     }
 	clergymen = {
         culture = south_german
@@ -5436,7 +5436,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 49175
+        size = 20175
     }
 }
 #Regensburg (248000/62000 POPS)
@@ -5468,7 +5468,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 31000
+        size = 50000
     }
     aristocrats = {
         culture = south_german

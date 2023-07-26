@@ -893,7 +893,7 @@
     labourers = {
         culture = basque
         religion = catholic
-        size = 55025
+        size = 45025
         
     }
 
@@ -968,7 +968,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 55850
+        size = 65850
     }
 
 }
@@ -1020,7 +1020,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 77100
+        size = 57100
     }
 
     clergymen = {
@@ -1064,7 +1064,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 35450
+        size = 55450
     }
 
     aristocrats = {
@@ -1387,7 +1387,7 @@
     farmers = {
         culture = catalan
         religion = catholic
-        size = 37850
+        size = 27850
         
     }
 
@@ -1614,7 +1614,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 31650
+        size = 41650
     }
 
     aristocrats = {

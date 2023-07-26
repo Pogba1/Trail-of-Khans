@@ -27,12 +27,12 @@
 	farmers = {
         culture = north_german
         religion = protestant
-        size = 36775
+        size = 26775
     }
     farmers = {
         culture = latvian
         religion = protestant
-        size = 36775
+        size = 26775
     }
 
     aristocrats = {
@@ -416,7 +416,7 @@
     farmers = {
         culture = latvian
         religion = protestant
-        size = 20275
+        size = 30275
     }
 
     aristocrats = {
@@ -428,7 +428,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 10275
+        size = 20275
     }
 	
     clergymen = {

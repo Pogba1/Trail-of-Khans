@@ -576,7 +576,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 186250
+        size = 146250
     }
 
     ####Czechs
@@ -740,7 +740,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 19925
+        size = 59925
     }
 }
 #Krems (240000/60000 POPS)
@@ -807,7 +807,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 50700
+        size = 70700
     }
 }
 #Linz (588000/147000 POPS)
@@ -880,7 +880,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 105900
+        size = 85900
     }
 }
 #Odenburg Region (196000) #see Hungary.txt for balance of region
