@@ -131,23 +131,6 @@ army = {
         home = 1035
     }
 
-    regiment = {
-        name= "Moriton"
-        type = cuirassier 
-        home = 1039
-    }
-
-    regiment = {
-        name= "Moriton"
-        type = cuirassier 
-        home = 1019
-    }
-	regiment = {
-        name= "Tuslakh Brigad"
-        type = artillery
-        home = 977
-    }
-
 }
 army = {
     name = "Mariopul Garrison"
@@ -232,7 +215,7 @@ army = {
 
 army = {
     name = "Adygei Ord"
-    location = 1050
+    location = 1041
     regiment = {
         name= "Moriton"
         type = cuirassier 
