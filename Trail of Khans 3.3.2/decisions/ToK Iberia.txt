@@ -248,19 +248,26 @@ political_decisions = {
 	embrace_catalan = {
 		picture = "embrace_minority"
 		potential = {
-			tag = ATR
+			OR = {
+				tag = ATR
+				tag = FRA
+				tag = IBE
+			}
 			NOT = {has_country_flag = embrace_catalan}
 		}
 		allow = {
 			war = no
 			all_core = {owned_by = THIS}
 			SPA_498 = {owned_by = THIS}
+			nationalism_n_imperialism = 1
 		}
 		effect = {
 			set_country_flag = embrace_catalan
 			add_accepted_culture = catalan
+			SPA_498 {
+				add_core = THIS
 			}
-	
+		}	
 	}
 
 	#######################
