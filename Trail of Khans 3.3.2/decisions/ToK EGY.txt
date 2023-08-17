@@ -1,25 +1,4 @@
 political_decisions = {
-	the_indian_company = {
-		potential = {
-			tag = EGY
-			NOT = {
-				has_country_flag = the_indian_company
-			}
-		}
-		allow = {
-			war = no
-			is_secondary_power = yes			
-		}
-		effect = {
-			war = {
-				target = BNG
-				attacker_goal = {
-					casus_belli = establish_protectorate_casus_belli
-				}
-			}
-			set_country_flag = the_indian_company
-		}
-	}
 	modernize_nile_irrigation = {
 		picture = vietnam_coffee
 		potential = {
