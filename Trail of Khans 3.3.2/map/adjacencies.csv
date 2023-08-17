@@ -753,3 +753,142 @@ From;To;Type;Through;Data;Comment
 2360;2348;sea;0;0;Paranair to Padraigair
 ;;;;;
 #Amazonas;;;;;
+2288;2286;sea;0;0;Yuncos to Iquitos
+2289;2286;sea;0;0;Puca Urco to Iquitos
+2263;2286;sea;0;0;El Encanto to Iquitos
+2401;2407;sea;0;0;Marabitanas to Tabatinga
+2403;2407;sea;0;0;Cachoeira to Tabatinga
+2403;2404;sea;0;0;Cachoeira to Tefe
+2402;2404;sea;0;0;Manaus to Tefe
+2312;2311;sea;0;0;Oruro to Cochabamba
+2310;2311;sea;0;0;Tiwanaku to Cochabamba
+2321;2319;sea;0;0;Cobija to Santa Ana
+2321;2550;sea;0;0;Cobija to Forte de Principe
+2404;2550;sea;0;0;Tefe to Forte de Principe
+2404;2405;sea;0;0;Tefe to Borba
+2402;2405;sea;0;0;Manaus to Borba
+2402;2411;sea;0;0;Manaus to Santarém
+2412;2411;sea;0;0;Obidos to Santarém
+2412;2410;sea;0;0;Obidos to Belém
+;;;;;
+#Orinoco;;;;;
+2278;2532;sea;0;0;San Fernando de Atabapo to Forte Sao Joaquím
+2278;2277;sea;0;0;San Fernando de Atabapo to El Jobal
+2261;2277;sea;0;0;Obando to El Jobal
+2262;2277;sea;0;0;Casanare to El Jobal
+2274;2277;sea;0;0;Barinas to El Jobal
+2266;2277;sea;0;0;Calabozo to El Jobal
+2266;2275;sea;0;0;Calabozo to Angostura
+2276;2275;sea;0;0;Curiapo to Angostura
+2276;2243;sea;0;0;Curiapo to Essequibo
+;;;;;
+#Rio Grande;;;;;
+2148;105;sea;0;0;Albuquerque to Santa Fe
+2662;105;sea;0;0;Animas to Santa Fe
+2662;136;sea;0;0;Animas to El Paso
+2143;136;sea;0;0;Ciudad Juarez to El Paso
+2144;136;sea;0;0;Delicias to El Paso
+2147;136;sea;0;0;Ciudad Acuna to El Paso
+2147;138;sea;0;0;Ciudad Acuna to Laredo
+2149;138;sea;0;0;Matamoros to Laredo
+;;;;;
+#St. Lawrence;;;;;
+56;239;sea;0;0;Ceudiaco to Puthem
+56;66;sea;0;0;Ceudiaco to Abewoude
+58;66;sea;0;0;Nieuw Vene to Abewoude
+64;66;sea;0;0;Bambrug to Abewoude
+65;66;sea;0;0;Waetriloe to Abewoude
+65;67;sea;0;0;Waetriloe to Rimouski
+;;;;;
+#Mississippi;;;;;
+218;178;sea;0;0;Becancour to Risnen
+218;183;sea;0;0;Becancour to Maeslandtsluis
+185;183;sea;0;0;Mont-Tremblant to Maeslandtsluis
+186;182;sea;0;0;Phillipeville to Marelo
+184;182;sea;0;0;Louisbourg to Marelo
+184;169;sea;0;0;Louisbourg to Vehchele
+184;170;sea;0;0;Louisbourg to Vrachel
+187;170;sea;0;0;Laval to Vrachel
+187;168;sea;0;0;Laval to Olney
+165;164;sea;0;0;Wederden to Subenhara
+165;166;sea;0;0;Wederden to Peoria
+167;166;sea;0;0;Springfield to Peoria
+160;155;sea;0;0;Superior to Fort Snelling
+162;155;sea;0;0;Tilliburgis to Fort Snelling
+162;153;sea;0;0;Tilliburgis to Cedar Rapids
+164;153;sea;0;0;Subenhara to Cedar Rapids
+166;153;sea;0;0;Peoria to Cedar Rapids
+166;152;sea;0;0;Peoria to Oskaloosa
+166;150;sea;0;0;Peoria to Kansas City
+118;119;sea;0;0;Fort James to Fort Union
+117;119;sea;0;0;Fort Clark to Fort Union
+120;121;sea;0;0;Fort Kiowa to Fort Cedar
+120;122;sea;0;0;Fort Kiowa to Fort Pierre
+120;124;sea;0;0;Fort Kiowa to Bordeaux's Post 
+120;123;sea;0;0;Fort Kiowa to Fort Robidoux
+154;123;sea;0;0;Sioux City to Fort Robdioux
+151;123;sea;0;0;Des Moines to Fort Robidoux
+150;123;sea;0;0;Kansas City to Fort Robidoux
+150;126;sea;0;0;Kansas City to Fort Leavenworth
+150;149;sea;0;0;Kansas City to Jefferson City
+150;146;sea;0;0;Kansas City to St Louis
+167;146;sea;0;0;Springfield to St Louis
+167;148;sea;0;0;Springfield to Malden
+168;148;sea;0;0;Olney to Malden
+187;148;sea;0;0;Laval to Malden
+189;148;sea;0;0;Richelieu to Malden
+189;143;sea;0;0;Richelieu to Little Rock
+193;143;sea;0;0;Branville to Little Rock
+130;129;sea;0;0;Fort Gibson to Guymon
+130;131;sea;0;0;Fort Gibson to Fort Washita
+145;144;sea;0;0;Fayetteville to Hotsprings
+143;144;sea;0;0;Little Rock to Hotsprings
+193;142;sea;0;0;Branville to Shreveport
+192;142;sea;0;0;Rosalie to Shreveport
+129;134;sea;0;0;Guymon to Fort Parker
+131;134;sea;0;0;Fort Washita to Fort Parker
+131;43;sea;0;0;Fort Parker to Clarksville
+144;43;sea;0;0;Hot Springs to Clarksville
+142;43;sea;0;0;Shreveport to Clarksville
+142;141;sea;0;0;Shreveport to Lake Charles
+140;139;sea;0;0;Baton Rouge to Nouvelle Orleans
+139;142;sea;0;0;Nouvelle Orleans to Shreveport
+139;141;sea;0;0;Nouvelle Orleans to Lake Charles
+;;;;;
+#River Impassability;;;;;
+2775;3333;impassable;0;0;Danube
+2748;3344;impassable;0;0;Ebro
+2761;3343;impassable;0;0;Po
+2749;3342;impassable;0;0;Rhone
+2728;3341;impassable;0;0;Loire
+2724;3340;impassable;0;0;Seine
+2723;3335;impassable;0;0;Rhine
+2721;3336;impassable;0;0;Elbe
+2710;3337;impassable;0;0;Oder
+2710;3338;impassable;0;0;Vistula
+2709;3346;impassable;0;0;Daugava
+2775;3345;impassable;0;0;Dniepr
+2779;3347;impassable;0;0;Volga
+2832;3348;impassable;0;0;Heilong Jiang/Amur
+2828;3350;impassable;0;0;Liao
+2828;3349;impassable;0;0;Amnok-Duman West
+2830;3349;impassable;0;0;Amnok-Duman East
+2828;3351;impassable;0;0;Yellow
+2826;3352;impassable;0;0;Yangtze
+2824;3353;impassable;0;0;Pearl
+2817;3354;impassable;0;0;Mekong
+2796;3355;impassable;0;0;Ganges
+2789;3356;impassable;0;0;Indus
+2788;3357;impassable;0;0;Tigris-Euphrates
+2768;3358;impassable;0;0;Nile West
+2769;3358;impassable;0;0;Nile East
+2917;3359;impassable;0;0;Congo
+2918;3360;impassable;0;0;Niger
+2989;3361;impassable;0;0;Uruguay
+2989;3362;impassable;0;0;Paraguay
+2982;3363;impassable;0;0;Amazonas
+2975;3364;impassable;0;0;Orinoco
+2961;3365;impassable;0;0;Rio Grande
+2960;3366;impassable;0;0;Mississippi
+2943;3367;impassable;0;0;St. Lawrence Ocean
+3112;3367;impassable;0;0;St. Lawrence Great Lakes
