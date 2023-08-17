@@ -57877,25 +57877,15 @@
 
 # Pakche
 1363 = {
-    unit = {
-        x = 4458.000000
-        y = 997.000000
-    }
-
     text_position = {
-        x = 4458.700195
-        y = 992.799988
+        x = 4466.558333
+        y = 995.741667
     }
 
     text_scale = 2.200000
-    building_construction = {
-        x = 4469.000000
-        y = 1002.000000
-    }
-
-    military_construction = {
-        x = 4456.600098
-        y = 991.599976
+    unit = {
+        x = 4466.675000
+        y = 998.133333
     }
 
     factory = {
@@ -57903,10 +57893,20 @@
         y = 1003.000000
     }
 
+    building_construction = {
+        x = 4469.000000
+        y = 1002.000000
+    }
+
+    military_construction = {
+        x = 4464.516667
+        y = 988.683333
+    }
+
     building_position = {
         fort = {
-            x = 4455.299805
-            y = 1002.599976
+            x = 4463.116667
+            y = 999.241667
         }
 
     }
@@ -79023,8 +79023,8 @@
 # Kassala
 1829 = {
     text_position = {
-        x = 3358.000000
-        y = 1002.000000
+        x = 3349.460000
+        y = 1004.260000
     }
 
     text_scale = 3.699999
@@ -79044,13 +79044,13 @@
     }
 
     building_construction = {
-        x = 3355.000000
-        y = 991.200012
+        x = 3354.616667
+        y = 1028.655000
     }
 
     military_construction = {
-        x = 3372.000000
-        y = 998.000000
+        x = 3350.253333
+        y = 986.608333
     }
 
     building_position = {

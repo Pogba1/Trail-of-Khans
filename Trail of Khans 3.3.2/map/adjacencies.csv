@@ -485,3 +485,271 @@ From;To;Type;Through;Data;Comment
 1040;1039;sea;0;0;Zarevka to Volga
 1040;1041;sea;0;0;Zarevka to Elista
 1036;1041;sea;0;0;Astrakhan to Elista
+;;;;;
+#Heilong Jiang/Amur;;;;;
+1078;1002;sea;0;0;Chita to Manzhouli
+1078;1553;sea;0;0;Chita to Aigun
+1081;1553;sea;0;0;Yakesa to Aigun
+2697;1553;sea;0;0;Jingkiri to Aigun
+1085;1553;sea;0;0;Hailanpao to Aigun
+2617;1553;sea;0;0;Saghalian Oula to Aigun
+2617;1552;sea;0;0;Saghalian Oula to Qiqihar
+2617;1554;sea;0;0;Saghalian Oula to Ninguta
+2617;1083;sea;0;0;Saghalian Oula to Boli
+1084;1083;sea;0;0;Utchan to Boli
+;;;;;
+#Liao;;;;;
+1534;1613;sea;0;0;Ulaan Chab Chuulghan to Chengde
+1533;1613;sea;0;0;Jirim Chuulgan to Chengde
+1533;1480;sea;0;0;Jirim Chuulgan to Jinzhou
+1479;1480;sea;0;0;Mukden to Jinzhou
+;;;;;
+#Amnok-Duman;;;;;
+1479;1620;sea;0;0;Mukden to Chonchon
+1555;1620;sea;0;0;Jilin to Chonchon
+1555;1623;sea;0;0;Jilin to Kimchaek
+1555;1622;sea;0;0;Jilin to Chongjin
+1554;1622;sea;0;0;Ninguta to Chongjin
+1082;1622;sea;0;0;Haishenwai to Chongjin
+;;;;;
+#Yellow;;;;;
+1557;1558;sea;0;0;Xining to Kegudo
+1557;1582;sea;0;0;Xining to Longan
+1557;1489;sea;0;0;Xining to Gongchang
+1490;1489;sea;0;0;Lanzhou to Gongchang
+1490;1491;sea;0;0;Lanzhou to Ningxia
+1535;1491;sea;0;0;Yeke Juu Chuulghan to Ningxia
+1532;1491;sea;0;0;Guihua Tumed to Ningxia
+1572;1561;sea;0;0;Taiyuan to Yenan
+1573;1561;sea;0;0;Fenzhou to Yenan
+1575;1561;sea;0;0;Pingyang to Yenan
+1575;2062;sea;0;0;Pingyang to Shangzhou
+1575;1510;sea;0;0;Pingyang to Luoyang
+1511;1510;sea;0;0;Zhengzhou to Luoyang
+1511;1508;sea;0;0;Zhengzhou to Kaifeng
+1515;1508;sea;0;0;Weihou to Kaifeng
+1515;1564;sea;0;0;Weihou to Caozhou
+1515;1568;sea;0;0;Weihou to Taian
+1563;1568;sea;0;0;Jinan to Taian
+1570;1567;sea;0;0;Wuding to Qingzhou
+;;;;;
+#Yangtze;;;;;
+1585;1601;sea;0;0;Yibin to Kunming
+1585;1505;sea;0;0;Yibin to Guiyang
+1583;1577;sea;0;0;Shunqing to Chongqing
+1581;1577;sea;0;0;Kuizhou to Chongqing
+1520;1521;sea;0;0;Jingzhou to Shinan
+1520;1528;sea;0;0;Jingzhou to Yuezhou
+1516;1528;sea;0;0;Hanyang to Yuezhou
+1516;1522;sea;0;0;Hanyang to Wuchang 
+1518;1522;sea;0;0;Huangzhou to Wuchang
+1518;1549;sea;0;0;Huangzhou to Jiujiang
+1470;1549;sea;0;0;Anqing to Jiujiang 
+1470;1471;sea;0;0;Anqing to Chizhou
+1474;1471;sea;0;0;Luzhou to Chizhou
+1474;1475;sea;0;0;Luzhou to Ningguo
+1477;1475;sea;0;0;Taiping to Ninggou
+1477;2221;sea;0;0;Taiping to Nanjing
+1543;2221;sea;0;0;Yangzhou to Nanjing
+1543;1544;sea;0;0;Yangzhou to Zhenjiang
+1541;1544;sea;0;0;Tongzhou to Zhenjiang
+1541;1537;sea;0;0;Tongzhou to Changzhou
+;;;;;
+#Pearl;;;;;
+1505;1502;sea;0;0;Guiyang to Nanning
+1503;1502;sea;0;0;Guilin to Nanning
+1504;1495;sea;0;0;Pingle to Maoming
+1504;1501;sea;0;0;Pingle to Zhaoqing
+1493;1501;sea;0;0;Canton to Zhaoqing
+1493;1498;sea;0;0;Canton to Macao
+;;;;;
+#Mekong;;;;;
+1603;1338;sea;0;0;Puer to Taunggyi
+1356;1338;sea;0;0;Luang Prabang to Taunggyi
+1356;2572;sea;0;0;Luang Prabang to Nan
+1356;1360;sea;0;0;Luang Prabang to Xiangabouli
+1357;1360;sea;0;0;Vientiane to Xiangabouli
+1357;1358;sea;0;0;Vietniane to Udon Thani
+1361;1358;sea;0;0;Savannakhet to Udon Thani
+1361;1359;sea;0;0;Savannakhet to Sisaket
+1362;1359;sea;0;0;Salavan to Sisaket
+1363;1359;sea;0;0;Pakse to Sisaket
+1363;1366;sea;0;0;Pakse to Battambang
+1368;1364;sea;0;0;Stongtreng to Phnom Penh
+1368;1367;sea;0;0;Stongtreng to Kampot
+1368;1382;sea;0;0;Stongtreng to Hà Tien
+1381;1382;sea;0;0;Dong Quai to Hà Tien
+1380;1382;sea;0;0;Saigon to Hà Tien
+1380;1383;sea;0;0;Saigon to Vinhlong
+;;;;;
+#Ganges;;;;;
+1239;1236;sea;0;0;Meerut to Delhi
+1239;1240;sea;0;0;Meerut to Agra
+1242;1240;sea;0;0;Lucknow to Agra
+1242;1241;sea;0;0;Lucknow to Cawnpore
+1242;1243;sea;0;0;Lucknow to Allahabad
+1244;1243;sea;0;0;Fyzabad to Allahabad
+1246;1245;sea;0;0;Gorakphur to Benares
+1246;1248;sea;0;0;Gorakphur to Gaya
+1247;1248;sea;0;0;Patna to Gaya
+1250;1248;sea;0;0;Bhagalpur to Gaya
+1250;1253;sea;0;0;Bhagalpur to Bardwan
+1252;1253;sea;0;0;Darjeeling to Bardwan
+1255;1253;sea;0;0;Rajshahi to Bardwan
+1255;1256;sea;0;0;Rajshahi to Jessore
+1254;1256;sea;0;0;Dacca to Jessore
+1256;1253;sea;0;0;Jessore to Bardwan
+1256;1251;sea;0;0;Jessore to Calcutta
+;;;;;
+#Indus;;;;;
+1235;1226;sea;0;0;Simla to Leh
+1224;1226;sea;0;0;Srinagar to Leh
+1224;1225;sea;0;0;Srinagar to Gilgit
+1224;1223;sea;0;0;Srinagar to Chitral
+1230;1218;sea;0;0;Attock to Peshawar
+1232;1218;sea;0;0;Shahpur to Peshawar
+1232;1219;sea;0;0;Shahpur to Quetta
+1228;1219;sea;0;0;Multan to Quetta
+1231;1219;sea;0;0;Bahawalpur to Quetta
+1231;1221;sea;0;0;Bahawalpur to Kalat
+1289;1221;sea;0;0;Sukkur to Kalat
+1290;1221;sea;0;0;Umerkot to Kalat
+1290;1288;sea;0;0;Umerkot to Karachi
+1293;1288;sea;0;0;Mandvi to Karachi
+;;;;;
+#Tigris-Euphrates;;;;;
+888;889;sea;0;0;Justinianopolis to Malatya
+893;889;sea;0;0;Diyarbakir to Malatya
+899;889;sea;0;0;Urfa to Malatya
+899;898;sea;0;0;Urfa to Antep
+901;897;sea;0;0;Raqqah to Aleppo
+901;907;sea;0;0;Raqqah to Deir ez-Zor
+901;931;sea;0;0;Raqqah to Rutbah
+927;931;sea;0;0;Samara to Rutbah
+927;929;sea;0;0;Samara to Karbala
+926;929;sea;0;0;Ctesiphon to Karbala
+930;929;sea;0;0;Kut to Karbala
+930;934;sea;0;0;Kut to Samawah
+930;933;sea;0;0;Kut to Nasiriyya
+924;1813;sea;0;0;Rewanduz to Hasakah
+924;923;sea;0;0;Rewanduz to Mosul
+925;923;sea;0;0;Sulaymania to Mosul
+925;927;sea;0;0;Sulaymania to Samarra
+928;927;sea;0;0;Baqubah to Samarra
+928;926;sea;0;0;Baqubah to Ctesiphon
+1133;930;sea;0;0;Dezful to Kut
+1131;930;sea;0;0;Ahvaz to Kut
+1131;933;sea;0;0;Ahvaz to Nasiriyya
+1132;932;sea;0;0;Abadan to Basra
+;;;;;
+#Nile;;;;;
+1998;2021;sea;0;0;Baramo to Masindi
+1998;1846;sea;0;0;Baramo to Lado
+1845;1846;sea;0;0;Bahr al Ghazal to Lado
+1843;1844;sea;0;0;Waw to Bor
+1840;1843;sea;0;0;Kaduqli to Waw
+1840;1844;sea;0;0;Kaduqli to Bor
+1844;1832;sea;0;0;Bor to Fashoda
+1840;1832;sea;0;0;Kaduqli to Fashoda
+1831;1832;sea;0;0;Rabak to Fashoda
+1831;1830;sea;0;0;Rabak to Sennar
+1827;1828;sea;0;0;Khartoum to Wad Madani
+1863;1855;sea;0;0;Jimma to Debre Markos
+1863;1854;sea;0;0;Jimma to Matamma
+1830;1854;sea;0;0;Sennar to Matamma
+1830;1829;sea;0;0;Sennar to Kassala
+1828;1829;sea;0;0;Wad Madani to Kassala
+1827;1829;sea;0;0;Khartoum to Kassala
+1837;1829;sea;0;0;Atbara to Kassala
+1837;1836;sea;0;0;Atbara to Hayya
+1837;1835;sea;0;0;Atbara to Dongola 
+2564;1835;sea;0;0;Salima to Dongola
+1806;1766;sea;0;0;Bayuda to Aswan
+1806;1768;sea;0;0;Bayuda to Idfu
+1767;1768;sea;0;0;Luxor to Idfu
+1767;1769;sea;0;0;Luxor to Qina
+1762;2559;sea;0;0;Asyut to Suhaj
+1762;1764;sea;0;0;Asyut to Minya
+1765;1764;sea;0;0;Fayyum to Minya
+1765;1763;sea;0;0;Fayyum to Bani Suwayf
+1750;1745;sea;0;0;Giza to Cairo
+1747;1745;sea;0;0;Tanta to Cairo
+1747;1748;sea;0;0;Tanta to Mansura
+1751;1746;sea;0;0;Alexandra to Dumyat
+1745;1749;sea;0;0;Cairo to Ziqaziq
+1748;1749;sea;0;0;Mansura to Ziqaziq
+1746;1755;sea;0;0;Dumyat to Suez
+;;;;;
+#Congo;;;;;
+1992;1996;sea;0;0;Basoko to Kisangani
+1993;1995;sea;0;0;Irebu to Gemena
+1993;1980;sea;0;0;Irebu to Djambala
+1993;1977;sea;0;0;Irebu to Nkuna
+1982;1977;sea;0;0;Kinshasa to Nkuna
+1982;1983;sea;0;0;Kinshasa to Boma
+2001;1983;sea;0;0;Mbanza to Boma
+;;;;;
+#Niger;;;;;
+1881;1794;sea;0;0;Dinguiraye to Bamako
+1798;1794;sea;0;0;Bougouni to Bamako
+1801;1794;sea;0;0;Mourdiah to Bamako
+1801;1800;sea;0;0;Mourdiah to Segu
+1802;1800;sea;0;0;Jenne to Segu
+1802;1804;sea;0;0;Jenne to Bandiagara
+1802;1805;sea;0;0;Jenne to Gao
+1803;1805;sea;0;0;Timbuktu to Gao
+1807;1805;sea;0;0;Tessalit to Gao
+1808;1809;sea;0;0;Niamey to Say
+1810;1809;sea;0;0;Dosso to Say
+1810;1921;sea;0;0;Dosso to Nikki
+1946;1938;sea;0;0;Kebbi to Bussa
+1940;1938;sea;0;0;Bida to Bussa
+1940;1927;sea;0;0;Bida to Ilorin
+1940;1929;sea;0;0;Bida to Akure
+1941;1929;sea;0;0;Abuja to Akure
+1930;1929;sea;0;0;Idah to Akure
+1930;1928;sea;0;0;Idah to Benin
+1933;1928;sea;0;0;Awka to Benin
+1933;1931;sea;0;0;Awka to Warri
+1933;1932;sea;0;0;Awka to Bonny
+1932;1931;sea;0;0;Bonny to Warri
+1931;1928;sea;0;0;Warri to Benin
+;;;;;
+#Uruguay;;;;;
+2463;2459;sea;0;0;Porto Allegre to Lajes
+2465;2459;sea;0;0;Passo Fundo to Lajes
+2465;2462;sea;0;0;Passo Fundo to Sao Miguel
+2465;2554;sea;0;0;Passo Fundo Misiones
+2465;2358;sea;0;0;Passo Fundo to Santo Tomás
+2466;2358;sea;0;0;Santa Maria to Santo Tomás
+2467;2358;sea;0;0;Alegrete to Santo Tomás
+2467;2357;sea;0;0;Alegrete to Sligeach
+2345;2357;sea;0;0;Lagair to Sligeach
+2345;2359;sea;0;0;Lagair to Calanair
+;;;;;
+#Paraguay;;;;;
+2419;2318;sea;0;0;Corumbá to Roboré
+2419;2338;sea;0;0;Corumbá to Puerto Guaraní
+2416;2338;sea;0;0;Dourados to Puerto Guaraní
+2420;2338;sea;0;0;Iguatemi to Puerto Guaraní
+2343;2338;sea;0;0;Concepción to Puerto Guaraní
+2343;2337;sea;0;0;Concepción to Fortin Falcon
+2342;2337;sea;0;0;Sao Pedro to Fortin Falcon
+2339;2337;sea;0;0;Asuncion to Fortin Falcon
+2337;2372;sea;0;0;Fortin Falcon to Rivadavia
+2337;2367;sea;0;0;Fortin Falcon to Xolotas
+2337;2366;sea;0;0;Fortin Falcon to Formosa
+2339;2366;sea;0;0;Asuncion to Formosa
+2340;2366;sea;0;0;Pilar to Formosa
+2340;2364;sea;0;0;Pilar to Resistencia
+2356;2364;sea;0;0;Corrientes to Resistencia
+2356;2362;sea;0;0;Corrientes to Reconquista
+2357;2362;sea;0;0;Sligeach Nua to Reconquista
+2357;2361;sea;0;0;Sligeach Nua to Spiorad Naomh
+2359;2361;sea;0;0;Calanair to Spiorad Naomh
+2360;2361;sea;0;0;Paranair to Spiorad Naomh
+2360;2363;sea;0;0;Paranair to Rhysair
+2360;2349;sea;0;0;Paranair to Junair
+2360;2348;sea;0;0;Paranair to Padraigair
+;;;;;
+#Amazonas;;;;;
