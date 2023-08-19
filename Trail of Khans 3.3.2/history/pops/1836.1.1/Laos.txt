@@ -79,6 +79,11 @@
         religion = animist
         size = 6000
     }
+    farmers = {
+        culture = thai
+        religion = theravada
+        size = 6375
+    }
 }
 #Vientiane (88000/22000 POPS)
 1357 = {
@@ -239,7 +244,7 @@
     farmers = {
         culture = thai
         religion = theravada
-        size = 21096
+        size = 17096
     }
 
     aristocrats = {
@@ -334,12 +339,6 @@
         religion = theravada
         size = 75
     }
-
-    farmers = {
-        culture = thai
-        religion = theravada
-        size = 6375
-    }
 }
 #Pakse (60000/15000 POPS)
 1363 = {
@@ -370,7 +369,7 @@
     farmers = {
         culture = thai
         religion = theravada
-        size = 13700
+        size = 20700
     }
 
 }

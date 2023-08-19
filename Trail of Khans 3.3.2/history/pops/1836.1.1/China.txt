@@ -1702,7 +1702,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 205500
+        size = 305500
     }
 
     aristocrats = {
@@ -1788,7 +1788,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 335600
+        size = 235600
     }
 
     aristocrats = {
@@ -1910,7 +1910,7 @@
     farmers = {
         culture = yuanese
         religion = mahayana
-        size = 58350
+        size = 92350
     }
 
     slaves = {
@@ -1976,7 +1976,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 60975
+        size = 30975
     }
 }
 #Pingliang (3168000/792000 POPS)
@@ -2360,13 +2360,13 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 201775
+        size = 101775
     }
 
     slaves = {
         culture = yue
         religion = mahayana
-        size = 150000
+        size = 100000
     }
 
     bureaucrats = {
@@ -2593,6 +2593,36 @@
         culture = yue
         religion = mahayana
         size = 200000
+    }
+	
+	    aristocrats = {
+        culture = yue
+        religion = mahayana
+        size = 2275
+    }
+
+    clergymen = {
+        culture = yue
+        religion = mahayana
+        size = 1175
+    }
+
+    artisans = {
+        culture = yue
+        religion = mahayana
+        size = 5850
+    }
+
+    soldiers = {
+        culture = yue
+        religion = mahayana
+        size = 1175
+    }
+
+    farmers = {
+        culture = yue
+        religion = mahayana
+        size = 66525
     }
 }
 
@@ -3014,13 +3044,13 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 103150
+        size = 153150
     }
 
     slaves = {
         culture = yue
         religion = mahayana
-        size = 100000
+        size = 150000
     }
 }
 #Ruled by Portugal in 1836
@@ -3553,36 +3583,6 @@
     }
 
     aristocrats = {
-        culture = yue
-        religion = mahayana
-        size = 2275
-    }
-
-    clergymen = {
-        culture = yue
-        religion = mahayana
-        size = 1175
-    }
-
-    artisans = {
-        culture = yue
-        religion = mahayana
-        size = 5850
-    }
-
-    soldiers = {
-        culture = yue
-        religion = mahayana
-        size = 1175
-    }
-
-    farmers = {
-        culture = yue
-        religion = mahayana
-        size = 66525
-    }
-
-    aristocrats = {
         culture = miao
         religion = animist
         size = 20
@@ -3611,6 +3611,13 @@
         religion = animist
         size = 900
     }
+	
+    farmers = {
+        culture = yue
+        religion = mahayana
+        size = 53150
+    }
+	
 }
 #Guizhou Region (5516000)
 #under the rule of China in 1836
@@ -3661,7 +3668,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 241025
+        size = 331025
     }
 
     aristocrats = {
@@ -6233,12 +6240,6 @@
         size = 61250
     }
 
-    farmers = {
-        culture = yuanese
-        religion = gelugpa
-        size = 34000
-    }
-
     clergymen = {
         culture = yuanese
         religion = mahayana
@@ -6347,7 +6348,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 3650
+        size = 103650
     }
 
 }
@@ -6386,7 +6387,7 @@
     farmers = {
         culture = yuanese
         religion = mahayana
-        size = 7000
+        size = 57000
     }
 }
 #Yeke Juu Chuulghan (456000/114000 POPS)
@@ -6418,7 +6419,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 101925
+        size = 131925
     }
 
     clergymen = {
@@ -8504,7 +8505,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 25000
+        size = 20000
     }
 
     farmers = {
@@ -11169,7 +11170,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 190400
+        size = 100400
     }
 
     aristocrats = {
@@ -11865,6 +11866,12 @@
         religion = mahayana
         size = 56525
     }
+	
+    farmers = {
+        culture = thai
+        religion = theravada
+        size = 10000
+    }	
 }
 #Zhejiang Region (9948000)
 #under the rule of China in 1836
@@ -12747,7 +12754,7 @@
     farmers = {
         culture = yuanese
         religion = mahayana
-        size = 900000
+        size = 850000
     }
 
     farmers = {
@@ -12795,7 +12802,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 119000
+        size = 19000
     }
 }
 #Daming (3364000/841000 POPS)

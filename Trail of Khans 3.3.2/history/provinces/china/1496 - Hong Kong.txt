@@ -2,6 +2,7 @@ owner = DAI
 controller = DAI
 add_core = DAI
 add_core = CHI
+add_core = GXI
 trade_goods = precious_goods
 life_rating = 35
 terrain = urban

@@ -3291,7 +3291,7 @@
     farmers = {
         culture = armenian
         religion = coptic
-        size = 33850
+        size = 40850
     }
 	farmers = {
         culture = armenian
@@ -3364,7 +3364,7 @@
     farmers = {
         culture = turkmen
         religion = sunni
-        size = 10100
+        size = 20100
     }
 
     soldiers = {
@@ -3388,7 +3388,7 @@
     farmers = {
         culture = armenian
         religion = coptic
-        size = 11200
+        size = 4200
     }
 
     soldiers = {
@@ -4500,7 +4500,7 @@
     farmers = {
         culture = turkmen
         religion = sunni
-        size = 16500
+        size = 6500
     }
 
     aristocrats = {

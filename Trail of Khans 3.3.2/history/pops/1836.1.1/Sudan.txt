@@ -465,12 +465,6 @@
         size = 75
     }
 
-    farmers = {
-        culture = nilotic
-        religion = animist
-        size = 6450
-    }
-
     aristocrats = {
         culture = nilotic
         religion = animist
@@ -1060,33 +1054,51 @@
 #Taoudenni - Now Bayuda (8000/2000 POPS)
 1806 = {
     aristocrats = {
-        culture = nilotic
-        religion = coptic
-        size = 25
+        culture = misri
+        religion = sunni
+        size = 300
     }
 
     clergymen = {
-        culture = nilotic
+        culture = misri
+        religion = sunni
+        size = 175
+    }
+
+    artisans = {
+        culture = misri
+        religion = sunni
+        size = 850
+    }
+
+    soldiers = {
+        culture = misri
+        religion = sunni
+        size = 200
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 15475
+    }
+
+    clergymen = {
+        culture = misri
         religion = coptic
         size = 50
     }
 
     artisans = {
-        culture = nilotic
+        culture = misri
         religion = coptic
         size = 100
     }
 
-    soldiers = {
-        culture = nilotic
-        religion = coptic
-        size = 25
-    }
-
     farmers = {
-        culture = nilotic
+        culture = misri
         religion = coptic
-        size = 500
+        size = 1850
     }
 }
 #Kordofan Region (524000)
@@ -1262,7 +1274,7 @@
     farmers = {
         culture = nilotic
         religion = animist
-        size = 14775
+        size = 21225
     }
 }
 #Darnilotic Region (376000)
@@ -1438,7 +1450,7 @@
     farmers = {
         culture = nilotic
         religion = animist
-        size = 5525
+        size = 34525
     }
 
     slaves = {
@@ -1577,18 +1589,6 @@
         religion = animist
         size = 275
     }
-
-    farmers = {
-        culture = nilotic
-        religion = animist
-        size = 15775
-    }
-
-    slaves = {
-        culture = nilotic
-        religion = animist
-        size = 10000
-    }
 }
 #Yambio (140000/35000 POPS)
 1845 = {
@@ -1643,7 +1643,7 @@
     farmers = {
         culture = nilotic
         religion = animist
-        size = 21100
+        size = 40200
     }
 
     slaves = {
@@ -1676,12 +1676,6 @@
         culture = nilotic
         religion = animist
         size = 250
-    }
-
-    farmers = {
-        culture = nilotic
-        religion = animist
-        size = 22100
     }
 
     aristocrats = {

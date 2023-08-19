@@ -451,7 +451,7 @@
     farmers = {
         culture = mashriqi
         religion = sunni
-        size = 80525
+        size = 50525
     }
 	farmers = {
         culture = mashriqi
@@ -624,7 +624,7 @@
     farmers = {
         culture = mashriqi
         religion = sunni
-        size = 15475
+        size = 5475
     }
 
     aristocrats = {
@@ -686,7 +686,7 @@
     farmers = {
         culture = mashriqi
         religion = sunni
-        size = 10975
+        size = 40975
     }
 
     aristocrats = {
@@ -802,7 +802,7 @@
     farmers = {
         culture = mashriqi
         religion = sunni
-        size = 7300
+        size = 10300
     }
 
     aristocrats = {
@@ -942,7 +942,7 @@
     farmers = {
         culture = mashriqi
         religion = shiite
-        size = 17525
+        size = 24525
     }
 }
 #Badiyat al-Sham Region (8000)  #see Jordan.txt, Syria.txt & Saudi Arabia.txt for balance of region
@@ -1180,7 +1180,7 @@
     farmers = {
         culture = mashriqi
         religion = shiite
-        size = 25825
+        size = 15825
     }
 }
 #Najaf (96000/24000 POPS)

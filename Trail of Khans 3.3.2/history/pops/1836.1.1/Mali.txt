@@ -145,7 +145,7 @@
     farmers = {
         culture = hausa
         religion = animist
-        size = 67800
+        size = 87850
     }
 
     aristocrats = {
@@ -336,12 +336,6 @@
         culture = hausa
         religion = animist
         size = 450
-    }
-
-    farmers = {
-        culture = hausa
-        religion = animist
-        size = 20050
     }
 
     aristocrats = {
@@ -1135,7 +1129,7 @@
     farmers = {
         culture = tuareg
         religion = sunni
-        size = 6300
+        size = 1300
     }
 
     aristocrats = {
@@ -1253,7 +1247,7 @@
     farmers = {
         culture = tuareg
         religion = sunni
-        size = 2625
+        size = 7625
     }
 
     aristocrats = {

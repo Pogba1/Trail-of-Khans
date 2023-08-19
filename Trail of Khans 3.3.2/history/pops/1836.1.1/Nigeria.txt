@@ -502,12 +502,6 @@
         size = 800
     }
 
-    farmers = {
-        culture = hausa
-        religion = animist
-        size = 45750
-    }
-
     slaves = {
         culture = hausa
         religion = animist
@@ -601,6 +595,12 @@
         culture = hausa
         religion = animist
         size = 34050
+    }
+	
+    farmers = {
+        culture = hausa
+        religion = animist
+        size = 45750
     }
 
     slaves = {

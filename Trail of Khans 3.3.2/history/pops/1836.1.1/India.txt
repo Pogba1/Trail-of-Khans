@@ -146,7 +146,7 @@
     farmers = {
         culture = pashtun
         religion = sunni
-        size = 37000
+        size = 20000
     }
 
 }
@@ -199,6 +199,12 @@
         culture = pashtun
         religion = sunni
         size = 10000
+    }
+	
+    farmers = {
+        culture = panjabi
+        religion = sunni
+        size = 40000
     }
 }
 #Dalbandin (88000/22000 POPS)
@@ -281,6 +287,12 @@
         culture = forest_bantu #african_minor
         religion = animist
         size = 4000
+    }
+	
+    farmers = {
+        culture = sindi
+        religion = sunni
+        size = 30000
     }
 }
 #Under the Rule of Makran 1836
@@ -405,7 +417,7 @@
     farmers = {
         culture = kashmiri
         religion = hindu
-        size = 29975
+        size = 45975
     }
 
     aristocrats = {
@@ -449,6 +461,13 @@
         religion = sunni
         size = 114825
     }
+	
+    farmers = {
+        culture = pashtun
+        religion = sunni
+        size = 17000
+    }
+
 }
 #Gilgit (264000/66000 POPS)
 1225 = {
@@ -503,7 +522,7 @@
     farmers = {
         culture = kashmiri
         religion = sunni
-        size = 36725
+        size = 20725
     }
 
     aristocrats = {
@@ -589,7 +608,7 @@
     farmers = {
         culture = tibetan
         religion = mahayana
-        size = 38675
+        size = 20675
     }
 
 }
@@ -782,7 +801,7 @@
     farmers = {
         culture = panjabi
         religion = sunni
-        size = 124500
+        size = 84500
     }
 
     aristocrats = {
@@ -1487,6 +1506,12 @@
         religion = catholic
         size = 100
     }
+	
+    farmers = {
+        culture = tibetan
+        religion = mahayana
+        size = 18000
+    }
 
 }
 #United Provinces Region - 25884000
@@ -1626,6 +1651,11 @@
         culture = french
         religion = catholic
         size = 187
+    }
+    farmers = {
+        culture = panjabi
+        religion = sunni
+        size = 157625
     }
 }
 #Panipat (1280000/320000 POPS)
@@ -1885,12 +1915,6 @@
         religion = hindu
         size = 188000
     }
-
-    farmers = {
-        culture = panjabi
-        religion = sunni
-        size = 157625
-    }
 }
 #Agra (4180000/1045000 POPS)
 1240 = {
@@ -2111,7 +2135,7 @@
     farmers = {
         culture = kanauji
         religion = hindu
-        size = 482500
+        size = 282500
     }
 
     aristocrats = {
@@ -2222,7 +2246,7 @@
     farmers = {
         culture = kanauji
         religion = hindu
-        size = 507250
+        size = 207250
     }
 }
 #Gorakhpur (2476000/619000 POPS)
@@ -2302,7 +2326,7 @@
     farmers = {
         culture = kanauji
         religion = hindu
-        size = 526250
+        size = 826250
     }
 }
 #Ruled by Awadh in 1836 (4820000)
@@ -2449,7 +2473,7 @@
     farmers = {
         culture = avadhi
         religion = hindu
-        size = 356500
+        size = 156500
     }
 
     farmers = {
@@ -2542,6 +2566,12 @@
         culture = avadhi
         religion = hindu
         size = 100000
+    }
+	
+    farmers = {
+        culture = kanauji
+        religion = hindu
+        size = 282500
     }
 
 }
@@ -2927,7 +2957,7 @@
     farmers = {
         culture = bengali
         religion = hindu
-        size = 936500
+        size = 736500
     }
 
     aristocrats = {
@@ -3147,7 +3177,7 @@
     farmers = {
         culture = bengali
         religion = hindu
-        size = 939875
+        size = 839875
     }
 
     clergymen = {
@@ -3172,6 +3202,11 @@
         culture = bengali
         religion = sunni
         size = 86500
+    }
+    farmers = {
+        culture = avadhi
+        religion = hindu
+        size = 200000
     }
 }
 #Dacca (5276000/1319000 POPS)
@@ -3423,7 +3458,7 @@
     farmers = {
         culture = bengali
         religion = hindu
-        size = 201500
+        size = 501500
     }
 }
 #Chittagong (5884000/1471000 POPS)
@@ -6163,7 +6198,7 @@
     farmers = {
         culture = sindi
         religion = sunni
-        size = 164125
+        size = 104125
     }
 
     aristocrats = {
@@ -6255,7 +6290,7 @@
     farmers = {
         culture = sindi
         religion = sunni
-        size = 73300
+        size = 43300
     }
 
     aristocrats = {
@@ -6906,7 +6941,7 @@
     farmers = {
         culture = sindi
         religion = sunni
-        size = 10780
+        size = 70780
     }
 
 }

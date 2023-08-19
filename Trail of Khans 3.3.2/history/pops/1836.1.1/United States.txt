@@ -1973,7 +1973,7 @@ aristocrats = {
     farmers = {
         culture = native_american_minor
         religion = animist
-        size = 900
+        size = 1700
     }
 }
 #Dupree (8000/2000 POPS)
@@ -1988,7 +1988,7 @@ aristocrats = {
     farmers = {
         culture = dakota
         religion = animist
-        size = 1800
+        size = 1000
     }
 }
 #Rapid City (8000/2000 POPS)
@@ -2199,7 +2199,13 @@ aristocrats = {
     farmers = {
         culture = native_american_minor
         religion = animist
-        size = 300
+        size = 1300
+    }
+	
+    farmers = {
+        culture = mexican
+        religion = catholic
+        size = 1000
     }
 }
 #Tahlequah (12000/3000 POPS)
@@ -2216,7 +2222,7 @@ aristocrats = {
     farmers = {
          culture = native_american_minor
         religion = animist
-        size = 1600
+        size = 600
     }
 
     farmers = {
@@ -2231,11 +2237,6 @@ aristocrats = {
         size = 100
     }
 
-    farmers = {
-        culture = mexican
-        religion = catholic
-        size = 900
-    }
 }
 #Okmulgee (8000/2000 POPS)
 131 = {
@@ -2251,12 +2252,6 @@ aristocrats = {
         culture = native_american_minor
         religion = animist
         size = 100
-    }
-
-    farmers = {
-        culture = mexican
-        religion = catholic
-        size = 500
     }
 
     farmers = {
@@ -2281,6 +2276,12 @@ aristocrats = {
         culture = native_american_minor
         religion = animist
         size = 1800
+    }
+	
+    farmers = {
+        culture = mexican
+        religion = catholic
+        size = 400
     }
 }
 #Texas Region (67400)
@@ -2841,7 +2842,7 @@ aristocrats = {
 	farmers = {
         culture = louisianian
         religion = catholic
-        size = 20000
+        size = 10000
     }
 
     farmers = {
@@ -2872,6 +2873,12 @@ aristocrats = {
         culture = afro_american
         religion = catholic
         size = 3000
+    }
+	
+    farmers = {
+        culture = mexican
+		religion = catholic
+        size = 2000
     }
 	
 	#Rebels
@@ -2951,7 +2958,7 @@ aristocrats = {
     farmers = {
         culture = louisianian
 		religion = catholic
-        size = 2330
+        size = 12330
     }
 
     aristocrats = {
@@ -3057,7 +3064,7 @@ aristocrats = {
     farmers = {
         culture = mexican
 		religion = catholic
-        size = 8225
+        size = 6225
     }
 
     clergymen = {
@@ -3219,13 +3226,6 @@ aristocrats = {
 		religion = catholic
         size = 5000
     }
-
-    farmers = {
-        culture = native_american_minor
-		religion = animist
-        size = 2500
-    }
-
     
 }
 #Joplin (25000/5000 POPS)
@@ -3305,14 +3305,9 @@ aristocrats = {
     farmers = {
         culture = native_american_minor
 		religion = catholic
-        size = 40075
+        size = 49075
     }
 
-    farmers = {
-        culture = native_american_minor
-        religion = animist
-        size = 6500
-    }
 }
 #Iowa Region (44000)
 #ruled by the USA/parts de facto under Native Control
@@ -3444,7 +3439,7 @@ aristocrats = {
     farmers = {
         culture = native_american_minor
         religion = animist
-        size = 900
+        size = 500
     }
 }
 #Granite Falls (8000/2000 POPS)
@@ -3518,7 +3513,7 @@ aristocrats = {
     farmers = {
         culture = native_american_minor
         religion = animist
-        size = 10493
+        size = 2493
     }
 }
 #Duluth (8000/2000 POPS)
@@ -3544,7 +3539,7 @@ aristocrats = {
     farmers = {
         culture = iroquois
         religion = catholic
-        size = 963
+        size = 9163
     }
 }
 #Wisconsin Region (36000)
@@ -3756,7 +3751,7 @@ aristocrats = {
     farmers = {
         culture = iroquois
         religion = animist
-        size = 1000
+        size = 1200
     }
 	farmers = {
         culture = iroquois

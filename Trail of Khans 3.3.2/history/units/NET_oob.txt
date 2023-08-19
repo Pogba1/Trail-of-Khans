@@ -44,6 +44,11 @@ LOR = {
     influence_value = 50
 }
 
+PLT = {
+    value = 150
+    level = 5
+    influence_value = 25
+}
 
 SIA = {
     value = 150
