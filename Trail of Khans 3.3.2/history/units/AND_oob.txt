@@ -79,7 +79,7 @@ army = {
     }
 	regiment = {
         name= "10. Liwa' alfursan"
-        type = cavalry
+        type = hussar
         home = 514
     }
 }
@@ -137,7 +137,7 @@ army = {
     }
 	regiment = {
         name= "10. Liwa' alfursan"
-        type = cavalry
+        type = hussar
         home = 2134
     }
 }
@@ -246,5 +246,196 @@ navy = {
         name= "Abdur Rahmaan el-Qazi"
         type = manowar
     }
-
+	
+    ship = {
+        name= "Rajul ya Harb wahidatan"
+        type = manowar
+    }
+	
+    ship = {
+        name= "ya Rajul Alharb althaania"
+        type = manowar
+    }
+	
+    ship = {
+        name= "ya Rajul Alharb althalatha"
+        type = manowar
+    }
+	
+    ship = {
+        name= "ya Rajul Alharb alraabiea"
+        type = manowar
+    }
+	
+    ship = {
+        name= "ya Rajul Alharb alkhamisa"
+        type = manowar
+    }
+	
+    ship = {
+        name= "ya Rajul Alharb sita"
+        type = manowar
+    }
+    ship = {
+        name= "ya Rajul Alharb alsaabiea"
+        type = manowar
+    }
+    ship = {
+        name= "Rajul ya Harb thamania"
+        type = manowar
+    }
+	
+    ship = {
+        name= "Rajul ya Harb tisea"
+        type = manowar
+    }
+	
+    ship = {
+        name= "Rajul ya Alharb aleashira"
+        type = manowar
+    }
+	
+    ship = {
+        name= "Rajul Alharb 'ahad eashar"
+        type = manowar
+    }
+	
+    ship = {
+        name= "ya Rajul Alharb althaaniat eashra"
+        type = manowar
+    }
+	
+    ship = {
+        name= "ya Rajul Alharb thalathat eashar"
+        type = manowar
+    }
+	
+    ship = {
+        name= "ya Rajul Alharb 'arbaeat eashar"
+        type = manowar
+    }
+	
+    ship = {
+        name= "Rajul Alharb khamsat eashar"
+        type = manowar
+    }
 }
+
+army = {
+    name = "Aljaysh tunus"
+    location = 1725
+    regiment = {
+        name= "1. Liwa' mushaa"
+        type = infantry
+        home = 1701
+    }
+
+    regiment = {
+        name= "2. Liwa' mushaa"
+        type = infantry
+        home = 1725
+    }
+
+    regiment = {
+        name= "3. Liwa' mushaa"
+        type = infantry
+        home = 1726
+    }
+	regiment = {
+        name= "4. Liwa' mushaa"
+        type = infantry
+        home = 1728
+    }
+	 regiment = {
+        name= "5. Liwa' almidfaeia"
+        type = artillery
+        home = 1731
+    }
+
+    regiment = {
+        name= "6. Liwa' almidfaeia"
+        type = artillery
+        home = 1703
+    }
+
+    regiment = {
+        name= "7. Liwa' almidfaeia"
+        type = artillery
+        home = 1680
+    }
+	regiment = {
+        name= "8. Liwa' almidfaeia"
+        type = artillery
+        home = 1713
+    }
+	regiment = {
+        name= "9. Liwa' almidfaeia"
+        type = artillery
+        home = 854
+    }
+	regiment = {
+        name= "10. Liwa' alfursan"
+        type = hussar
+        home = 854
+    }
+}
+
+army = {
+    name = "Aljaysh siqiliya"
+    location = 764
+    regiment = {
+        name= "1. Liwa' mushaa"
+        type = infantry
+        home = 764
+    }
+
+    regiment = {
+        name= "2. Liwa' mushaa"
+        type = infantry
+        home = 764
+    }
+
+    regiment = {
+        name= "3. Liwa' mushaa"
+        type = infantry
+        home = 763
+    }
+	regiment = {
+        name= "4. Liwa' mushaa"
+        type = infantry
+        home = 762
+    }
+	 regiment = {
+        name= "5. Liwa' almidfaeia"
+        type = artillery
+        home = 762
+    }
+
+    regiment = {
+        name= "6. Liwa' almidfaeia"
+        type = artillery
+        home = 762
+    }
+
+    regiment = {
+        name= "7. Liwa' almidfaeia"
+        type = artillery
+        home = 3332
+    }
+	regiment = {
+        name= "8. Liwa' almidfaeia"
+        type = artillery
+        home = 854
+    }
+	regiment = {
+        name= "9. Liwa' almidfaeia"
+        type = artillery
+        home = 1732
+    }
+	regiment = {
+        name= "10. Liwa' alfursan"
+        type = hussar
+        home = 1733
+    }
+}
+

@@ -1,6 +1,5 @@
-owner = TUN
-controller = TUN
-add_core = TUN
+owner = ADL
+controller = ADL
 add_core = SYC
 life_rating = 35
 trade_goods = grain

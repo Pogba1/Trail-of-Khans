@@ -1,503 +1,506 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-move_the_capital_to_constantinople_title;Move The Capital;x
-move_the_capital_to_constantinople_desc;Though we have not yet reformed our ancient empire, Constantinople is still ours and naturally sits on the best position possible to govern Greece and Asia Minor.;x
-fertile_crescent_agriculture_title;Modernize Agriculture in the Fertile Crescent;x
-fertile_crescent_agriculture_desc; ;x
-the_empire_renewed_title;The Empire Renewed;x
-the_empire_renewed_desc; ;x
-consolidate_our_conquest_of_the_valley_title;Consolidate our Valley Conquest;x
-consolidate_our_conquest_of_the_valley_desc; ;x
-conquer_the_indus_valley_title;Conquer the Indus Valley;x
-conquer_the_indus_valley_desc; ;x
-push_east_nps_title;Push East;x
-push_east_nps_desc; ;x
-press_baluchistan_title;Press Baluchistan;x
-press_baluchistan_desc; ;x
+move_the_capital_to_constantinople_title;Move The Capital;x;;;;;;;;;;;;;
+move_the_capital_to_constantinople_desc;Though we have not yet reformed our ancient empire, Constantinople is still ours and naturally sits on the best position possible to govern Greece and Asia Minor.;x;;;;;;;;;;;;;
+fertile_crescent_agriculture_title;Modernize Agriculture in the Fertile Crescent;x;;;;;;;;;;;;;
+fertile_crescent_agriculture_desc; ;x;;;;;;;;;;;;;
+the_empire_renewed_title;The Empire Renewed;x;;;;;;;;;;;;;
+the_empire_renewed_desc; ;x;;;;;;;;;;;;;
+consolidate_our_conquest_of_the_valley_title;Consolidate our Valley Conquest;x;;;;;;;;;;;;;
+consolidate_our_conquest_of_the_valley_desc; ;x;;;;;;;;;;;;;
+conquer_the_indus_valley_title;Conquer the Indus Valley;x;;;;;;;;;;;;;
+conquer_the_indus_valley_desc; ;x;;;;;;;;;;;;;
+push_east_nps_title;Push East;x;;;;;;;;;;;;;
+push_east_nps_desc; ;x;;;;;;;;;;;;;
+press_baluchistan_title;Press Baluchistan;x;;;;;;;;;;;;;
+press_baluchistan_desc; ;x;;;;;;;;;;;;;
 storm_the_southern_italians_title;The Italic Wars;;;;;;;;;;;;;;x
-storm_the_southern_italians_desc;The time has come. The senate and more importantly, the people, have spoken their wishes to unite the peninsula. Italia shall be one, undivided and prosperous once again. But these rump states in south still cling on to their status quo and will not budge to unite any time soon. It is time to show them war. Sicilia delanda est!;x
-the_papal_states_title;The question of the holy see;;;;;;;;;;;;;
-the_papal_states_desc;The papacy has for long ruled over rome, ever since the year 759 AD. The heart of catholicism, this place holds tremendous value to the people of our nation and of many more. Thus, with the blessing of Pope Pius IX, the papal states shall now be subservient to Genoa. This will be our first step to restoring an old fantasy.;x
-form_rome_title;The Legend of Romulus and Remus @RMR;;;;;;;;;;;;;
-form_rome_desc;Romulus and Remus were abandonned at birth, left as orphans in the wilderness of the forest on the river Tiber. Romolus and Remus grew up nurtured by a she-wolf until adopted by shepherd as his sons. Faustulus was his name and alonside his wife they raised them into adulthood. The brothers then sought to found a city, but they disputed over it's location. This tension boiled over when Remus and his followers attacked Romolus, but the gods had chosen Romolus that day and Remus was killed. In the aftermath of this fratricide, Rome was to be founded in the XVIIIth century BC by Romolus. This story is now true once again, as we have vanquished our brothers in italia, we now will found not the city of Rome, but the state of Rome. Roma Eterna!;;;;;;;;;;;;;
-assimilate_trent_title;Assimilate Trent;;;;;;;;;;;;;
-assimilate_trent_desc;;;;;;;;;;;;;;
-assimilate_savoie_title;Assimilate Savoie;;;;;;;;;;;;;
-assimilate_savoie_desc;Rome must continue it's integration of italians into latin culture. The province of savoie has for long been occupied by the french speaking lower burgundians. This has now changed and they will once again call themselves roman.;;;;;;;;;;;;;
-the_greeks_title;The Greek Question;;;;;;;;;;;;;
-the_greeks_desc;It is time to weigh in on Greek affairs;;;;;;;;;;;;;
-roman_architecture_title;Architectura Romana;;;;;;;;;;;;;
-roman_architecture_desc;Every road leads to Rome;;;;;;;;;;;;;
-integrate_the_greeks_title;Integrate the Greeks;;;;;;;;;;;;;
-integrate_the_greeks_desc;We have pressed our claim over Graecia, it is now time to integrate greek culture into roman society.;;;;;;;;;;;;;
-administrate_the_greeks_title;Administrate Graecia;;;;;;;;;;;;;
-administrate_the_greeks_desc;After multiple decades of living side-by-side with greeks and conquering their homeland, It is now time to directly administrate the greek lands.;;;;;;;;;;;;;
-the_march_north_title;The Italic Wars;;;;;;;;;;;;;
-the_march_north_desc;Our King has spoken, we have asserted our hold over southern italy and the papacy, now lays the Genoan Republic north to be vanquished in battle. Their decadent and pretentious state will be abolished and Italy shall be one.;;;;;;;;;;;;;
-the_second_phase_language_title;The Second Stage of Latinisation;;;;;;;;;;;;;
-the_second_phase_language_desc;Our people have now grown to be somewhat accustomed to speaking latin and using latin, but it is still in a transitory period of usage.;;;;;;;;;;;;;
-the_last_phase_language_title;A Latin Society.;;;;;;;;;;;;;
-the_last_phase_language_desc;We are finally done with our transition into a classical latin society, we shall now enjoy a level of cultural unity in Italia that has never been seen before.;;;;;;;;;;;;;
-oversee_the_papacy_title;Direct Oversight of the Papacy.;;;;;;;;;;;;;
-oversee_the_papacy_desc;The Papacy has been under our subjugation for some time now, it is time that we integrate directly into our kingdom.;;;;;;;;;;;;;
-the_pheonix_rose_and_an_eagle_fell_title;The Pheonix rose and an Eagle fell.;;;;;;;;;;;;;
-the_pheonix_rose_and_an_eagle_fell_desc;Rome was recently proclaimed in direct opposition to our Byzantine Empire, but the pretenders are no more, we control part of their lands and their people.;;;;;;;;;;;;;
-the_pheonix_rose_and_an_eagle_fell_2_title;The Remaining Roman Lands.;;;;;;;;;;;;;
-the_pheonix_rose_and_an_eagle_fell_2_desc;After our establishment as the sole and unique Rome, we must push north in the Italian peninsula and capture the remainder of the Roman territories.;;;;;;;;;;;;;
-demote_crats_title;Fire All Minority Bureaucrats;;;;;;;;;;;;;x
-demote_crats_desc;Fire all minority bureaucrats and demote them to farmers and labourers, however this may affect our administrative effiency short-term.;;;;;;;;;;;;;x
-dominance_in_the_channel_title;Dominance in the Channel;;;;;;;;;;;;;
-dominance_in_the_channel_desc;Our isles are very interlinked with the Channel, this leads us to question whether or not we should establish Mare Britannicum as being under our firm control.;;;;;;;;;;;;;
-integrate_kurds_title;Integrate the Kurdish;;;;;;;;;;;;;
-integrate_kurds_desc;The Kurdish people are close brothers to the Persian people, we must consider them part of our society.;;;;;;;;;;;;;
-dominance_in_the_balkans_2_title;Restoring Order in the Balkans;;;;;;;;;;;;;
-dominance_in_the_balkans_2_desc;Our Empire had long held control over the Dalmatian coast, the Adriatic and its people. It is time to now establish our rule over the entirety of the Balkans and integrate their people in our society.;;;;;;;;;;;;
-the_caucasian_title;The Caucasians;;;;;;;;;;;;;
-the_caucasian_desc; ;;;;;;;;;;;;;
-request_cernauti_title;Request control over Cernauti;;;;;;;;;;;;;
-request_cernauti_desc; ;;;;;;;;;;;;;
-end_the_pogroms_title;Crackdown on Pogroms;;;;;;;;;;;;;
-end_the_pogroms_desc; ;;;;;;;;;;;;;
-subjugate_illyricum_title;Subjugate Illyricum;;;;;;;;;;;;;
-subjugate_illyricum_desc; ;;;;;;;;;;;;; 
-integrate_the_illyrians_title;Integrate the Illyrians;x
-integrate_the_illyrians_desc; ;x
-the_caucasians_title;The Caucasians;;;;;;;;;;;;;
-the_caucasians_desc; ;;;;;;;;;;;;;
-form_kievan_rus_title;Proclaim the Kievan-Rus @KIR;;;;;;;;;;;;;
-form_kievan_rus_desc; ;;;;;;;;;;;;;
-heartland_of_ruthenia_title;The Heartland of Ruthenia;;;;;;;;;;;;;
-heartland_of_ruthenia_desc; ;;;;;;;;;;;;;
-ukrainian_integration_title;The Treaty of Kiev;;;;;;;;;;;;;
-ukrainian_integration_desc;With our influence over the Ukrainian lands unconteste we can proclaim the Ukrainian people as a part of our cultural hegemony over most of Eastern Europe.;;;;;;;;;;;;;
-form_ruthenia_title;Form Ruthenia @RUT;;;;;;;;;;;;;
-form_ruthenia_desc; ;;;;;;;;;;;;;
-the_resettlement_of_africa_title;The Resettlement of North Africa;x
-the_resettlement_of_africa_desc;The province of Africa, also refered to as Africa Proconsularis, was one of the central parts of the Roman Republic until the overtaking of the Ptolemaic Egypt in the year 30 B.C. This has led to us seeking out this province once again for a larger grain supply to feed our populus as we reimplement the grain dole not only in Rome but all across the country;x 
-pelsovs_plain_title;The Great Pelsov Plain;x
-pelsovs_plain_desc;The untamed plains of Pelsov remain open for territorial expansion, we must lay claim to it under the name of our God and country;x
-form_ottokaria_title;Realise Ottokar II's ambition @OTO;x
-form_ottokaria_desc; ;x
-west_has_fallen_title;The West has fallen;x
-west_has_fallen_desc;Goodbye Mom!;x
-integrate_small_poles_title;Integrate the Small Poles;x
-integrate_small_poles_desc;The Pruthenians and the Wends have a long kinship with the Polish people, tracing back our origins to the same tribes and all 3 being catholics. It is now time to fully integrate them into our bureaucracy and state.;x
-abolish_silesian_duchy_title;Abolish the Silesian Duchy;x
-abolish_silesian_duchy_desc;With the death of Duke Friedrich Kmiecik so goes the autonomy of the Silesian Duchy. As written in his will, the lands of the House of Kmiecik will be inherited to King Stanislaus of Jagiellon.;x
-uneasy_plc_title;Uneasy Unification of the Jagiellon holdings @PLC;x
-uneasy_plc_desc;The Jagiellon holdings have for too long been disunited by old Personal Unions, this cannot last if we are to recover from the blow delt by the Bohemians.;x
-ruthenian_ambition_title;Ruthenian Ambition;x
-ruthenian_ambition_desc;Our King Stanislaus has been greatly influenced by the exploits of Kazimierz, the former Hetman Cossacks. This has sparked a fire within Stanislaus to cultivate a cultural bond between the Ruthenian people and the Poles. The move has garnered quite the attention from the Polish nobility which feel like he is neglecting his duties as the Polish king and instead focusing on some fantasy spurred on by a decrepit Kazimierz.;x
-fulfill_ruthenian_ambition_title;Fulfill our Ambition for Ruthenia;x
-fulfill_ruthenian_ambition_desc;As we have conquered the West bank of the Dniper, we must push further and conquer the rest of the Ruthenian lands so that we may truly be considered protectors of the Ruthenians.;x
-construct_north_germany_title;Construct North Germany;x
-construct_north_germany_desc;Our neighboring Germans have long been disunited by Petty Kingdoms and former princes of the HRE, this has left a power vacuum filled partly by the Hansa and the Dutch, but this influence is very fragile and we ought to get involved in this playground.;x
-integrate_holstein_pomerania_title;Integrate Hostlein into Pomerania;x
-integrate_holstein_pomerania_desc;The lands of Holstein should be handled by the Pomeranians to facilitate adminstration and grow our client state's power.;x
-add_hanover_title;The Treaty of Hanover;x
-add_hanover_desc;With our influence over Hanover total, there is no one left to defend Hanover from our might. We shall seize Hanoverian lands and give it to our subjects in North Germany;x
-add_brunswick_title;The Treaty of Brunswick;x
-add_brunswick_desc;Brunswick clearly stands in the way of our Elbian Hegemony, with our influence established over it we shall integrate it into Saxony;x
-add_coburg_title;Saxon integration of Saxe-Coburg-Gotha;x
-add_coburg_desc;Gotha holds strategic importance to the defence of the Elbe and shall be integrated to Saxony;x
-add_detmold_title;Saxon integrationf of Detmold;x
-add_detmold_desc;Another peace in the Elbian puzzle, Detmold gives us an important footing on the other side of the Elbe.;x
-czech_integration_title;Czech Integration;x
-czech_integration_desc;It has taken a long time but with our similarities in language, the Czechs are now properly integrated into Jagiellonian society and culture;x
-the_second_bohemian_war_title;The Aftermath of the Second War for Bohemia;x
-the_second_bohemian_war_desc;Wladislaus has finally crushed the Bohemian Crown in war and the people's complaints have been quelled.;x
-late_plc_title;Unification finally? @PLC;x
-late_plc_desc;After many decades of political struggle for Wladislaus and a second war over Bohemia, we have finally manage to proclaim a unified Jagiellonia!;x
+storm_the_southern_italians_desc;The time has come. The senate and more importantly, the people, have spoken their wishes to unite the peninsula. Italia shall be one, undivided and prosperous once again. But these rump states in south still cling on to their status quo and will not budge to unite any time soon. It is time to show them war. Sicilia delanda est!;x;;;;;;;;;;;;;
+the_papal_states_title;The question of the holy see;;;;;;;;;;;;;;
+the_papal_states_desc;The papacy has for long ruled over rome, ever since the year 759 AD. The heart of catholicism, this place holds tremendous value to the people of our nation and of many more. Thus, with the blessing of Pope Pius IX, the papal states shall now be subservient to Genoa. This will be our first step to restoring an old fantasy.;x;;;;;;;;;;;;;
+form_rome_title;The Legend of Romulus and Remus @RMR;;;;;;;;;;;;;;
+form_rome_desc;Romulus and Remus were abandonned at birth, left as orphans in the wilderness of the forest on the river Tiber. Romolus and Remus grew up nurtured by a she-wolf until adopted by shepherd as his sons. Faustulus was his name and alonside his wife they raised them into adulthood. The brothers then sought to found a city, but they disputed over it's location. This tension boiled over when Remus and his followers attacked Romolus, but the gods had chosen Romolus that day and Remus was killed. In the aftermath of this fratricide, Rome was to be founded in the XVIIIth century BC by Romolus. This story is now true once again, as we have vanquished our brothers in italia, we now will found not the city of Rome, but the state of Rome. Roma Eterna!;;;;;;;;;;;;;;
+assimilate_trent_title;Assimilate Trent;;;;;;;;;;;;;;
+assimilate_trent_desc;;;;;;;;;;;;;;;
+assimilate_savoie_title;Assimilate Savoie;;;;;;;;;;;;;;
+assimilate_savoie_desc;Rome must continue it's integration of italians into latin culture. The province of savoie has for long been occupied by the french speaking lower burgundians. This has now changed and they will once again call themselves roman.;;;;;;;;;;;;;;
+the_greeks_title;The Greek Question;;;;;;;;;;;;;;
+the_greeks_desc;It is time to weigh in on Greek affairs;;;;;;;;;;;;;;
+roman_architecture_title;Architectura Romana;;;;;;;;;;;;;;
+roman_architecture_desc;Every road leads to Rome;;;;;;;;;;;;;;
+integrate_the_greeks_title;Integrate the Greeks;;;;;;;;;;;;;;
+integrate_the_greeks_desc;We have pressed our claim over Graecia, it is now time to integrate greek culture into roman society.;;;;;;;;;;;;;;
+administrate_the_greeks_title;Administrate Graecia;;;;;;;;;;;;;;
+administrate_the_greeks_desc;After multiple decades of living side-by-side with greeks and conquering their homeland, It is now time to directly administrate the greek lands.;;;;;;;;;;;;;;
+the_march_north_title;The Italic Wars;;;;;;;;;;;;;;
+the_march_north_desc;Our King has spoken, we have asserted our hold over southern italy and the papacy, now lays the Genoan Republic north to be vanquished in battle. Their decadent and pretentious state will be abolished and Italy shall be one.;;;;;;;;;;;;;;
+the_second_phase_language_title;The Second Stage of Latinisation;;;;;;;;;;;;;;
+the_second_phase_language_desc;Our people have now grown to be somewhat accustomed to speaking latin and using latin, but it is still in a transitory period of usage.;;;;;;;;;;;;;;
+the_last_phase_language_title;A Latin Society.;;;;;;;;;;;;;;
+the_last_phase_language_desc;We are finally done with our transition into a classical latin society, we shall now enjoy a level of cultural unity in Italia that has never been seen before.;;;;;;;;;;;;;;
+oversee_the_papacy_title;Direct Oversight of the Papacy.;;;;;;;;;;;;;;
+oversee_the_papacy_desc;The Papacy has been under our subjugation for some time now, it is time that we integrate directly into our kingdom.;;;;;;;;;;;;;;
+the_pheonix_rose_and_an_eagle_fell_title;The Pheonix rose and an Eagle fell.;;;;;;;;;;;;;;
+the_pheonix_rose_and_an_eagle_fell_desc;Rome was recently proclaimed in direct opposition to our Byzantine Empire, but the pretenders are no more, we control part of their lands and their people.;;;;;;;;;;;;;;
+the_pheonix_rose_and_an_eagle_fell_2_title;The Remaining Roman Lands.;;;;;;;;;;;;;;
+the_pheonix_rose_and_an_eagle_fell_2_desc;After our establishment as the sole and unique Rome, we must push north in the Italian peninsula and capture the remainder of the Roman territories.;;;;;;;;;;;;;;
+demote_crats_title;Fire All Minority Bureaucrats;;;;;;;;;;;;;x;
+demote_crats_desc;Fire all minority bureaucrats and demote them to farmers and labourers, however this may affect our administrative effiency short-term.;;;;;;;;;;;;;x;
+dominance_in_the_channel_title;Dominance in the Channel;;;;;;;;;;;;;;
+dominance_in_the_channel_desc;Our isles are very interlinked with the Channel, this leads us to question whether or not we should establish Mare Britannicum as being under our firm control.;;;;;;;;;;;;;;
+integrate_kurds_title;Integrate the Kurdish;;;;;;;;;;;;;;
+integrate_kurds_desc;The Kurdish people are close brothers to the Persian people, we must consider them part of our society.;;;;;;;;;;;;;;
+dominance_in_the_balkans_2_title;Restoring Order in the Balkans;;;;;;;;;;;;;;
+dominance_in_the_balkans_2_desc;Our Empire had long held control over the Dalmatian coast, the Adriatic and its people. It is time to now establish our rule over the entirety of the Balkans and integrate their people in our society.;;;;;;;;;;;;;;
+the_caucasian_title;The Caucasians;;;;;;;;;;;;;;
+the_caucasian_desc; ;;;;;;;;;;;;;;
+request_cernauti_title;Request control over Cernauti;;;;;;;;;;;;;;
+request_cernauti_desc; ;;;;;;;;;;;;;;
+end_the_pogroms_title;Crackdown on Pogroms;;;;;;;;;;;;;;
+end_the_pogroms_desc; ;;;;;;;;;;;;;;
+subjugate_illyricum_title;Subjugate Illyricum;;;;;;;;;;;;;;
+subjugate_illyricum_desc; ;;;;;;;;;;;;; ;
+integrate_the_illyrians_title;Integrate the Illyrians;x;;;;;;;;;;;;;
+integrate_the_illyrians_desc; ;x;;;;;;;;;;;;;
+the_caucasians_title;The Caucasians;;;;;;;;;;;;;;
+the_caucasians_desc; ;;;;;;;;;;;;;;
+form_kievan_rus_title;Proclaim the Kievan-Rus @KIR;;;;;;;;;;;;;;
+form_kievan_rus_desc; ;;;;;;;;;;;;;;
+heartland_of_ruthenia_title;The Heartland of Ruthenia;;;;;;;;;;;;;;
+heartland_of_ruthenia_desc; ;;;;;;;;;;;;;;
+ukrainian_integration_title;The Treaty of Kiev;;;;;;;;;;;;;;
+ukrainian_integration_desc;With our influence over the Ukrainian lands unconteste we can proclaim the Ukrainian people as a part of our cultural hegemony over most of Eastern Europe.;;;;;;;;;;;;;;
+form_ruthenia_title;Form Ruthenia @RUT;;;;;;;;;;;;;;
+form_ruthenia_desc; ;;;;;;;;;;;;;;
+the_resettlement_of_africa_title;The Resettlement of North Africa;x;;;;;;;;;;;;;
+the_resettlement_of_africa_desc;The province of Africa, also refered to as Africa Proconsularis, was one of the central parts of the Roman Republic until the overtaking of the Ptolemaic Egypt in the year 30 B.C. This has led to us seeking out this province once again for a larger grain supply to feed our populus as we reimplement the grain dole not only in Rome but all across the country;x ;;;;;;;;;;;;;
+pelsovs_plain_title;The Great Pelsov Plain;x;;;;;;;;;;;;;
+pelsovs_plain_desc;The untamed plains of Pelsov remain open for territorial expansion, we must lay claim to it under the name of our God and country;x;;;;;;;;;;;;;
+form_ottokaria_title;Realise Ottokar II's ambition @OTO;x;;;;;;;;;;;;;
+form_ottokaria_desc; ;x;;;;;;;;;;;;;
+west_has_fallen_title;The West has fallen;x;;;;;;;;;;;;;
+west_has_fallen_desc;Goodbye Mom!;x;;;;;;;;;;;;;
+integrate_small_poles_title;Integrate the Small Poles;x;;;;;;;;;;;;;
+integrate_small_poles_desc;The Pruthenians and the Wends have a long kinship with the Polish people, tracing back our origins to the same tribes and all 3 being catholics. It is now time to fully integrate them into our bureaucracy and state.;x;;;;;;;;;;;;;
+abolish_silesian_duchy_title;Abolish the Silesian Duchy;x;;;;;;;;;;;;;
+abolish_silesian_duchy_desc;With the death of Duke Friedrich Kmiecik so goes the autonomy of the Silesian Duchy. As written in his will, the lands of the House of Kmiecik will be inherited to King Stanislaus of Jagiellon.;x;;;;;;;;;;;;;
+uneasy_plc_title;Uneasy Unification of the Jagiellon holdings @PLC;x;;;;;;;;;;;;;
+uneasy_plc_desc;The Jagiellon holdings have for too long been disunited by old Personal Unions, this cannot last if we are to recover from the blow delt by the Bohemians.;x;;;;;;;;;;;;;
+ruthenian_ambition_title;Ruthenian Ambition;x;;;;;;;;;;;;;
+ruthenian_ambition_desc;Our King Stanislaus has been greatly influenced by the exploits of Kazimierz, the former Hetman Cossacks. This has sparked a fire within Stanislaus to cultivate a cultural bond between the Ruthenian people and the Poles. The move has garnered quite the attention from the Polish nobility which feel like he is neglecting his duties as the Polish king and instead focusing on some fantasy spurred on by a decrepit Kazimierz.;x;;;;;;;;;;;;;
+fulfill_ruthenian_ambition_title;Fulfill our Ambition for Ruthenia;x;;;;;;;;;;;;;
+fulfill_ruthenian_ambition_desc;As we have conquered the West bank of the Dniper, we must push further and conquer the rest of the Ruthenian lands so that we may truly be considered protectors of the Ruthenians.;x;;;;;;;;;;;;;
+construct_north_germany_title;Construct North Germany;x;;;;;;;;;;;;;
+construct_north_germany_desc;Our neighboring Germans have long been disunited by Petty Kingdoms and former princes of the HRE, this has left a power vacuum filled partly by the Hansa and the Dutch, but this influence is very fragile and we ought to get involved in this playground.;x;;;;;;;;;;;;;
+integrate_holstein_pomerania_title;Integrate Hostlein into Pomerania;x;;;;;;;;;;;;;
+integrate_holstein_pomerania_desc;The lands of Holstein should be handled by the Pomeranians to facilitate adminstration and grow our client state's power.;x;;;;;;;;;;;;;
+add_hanover_title;The Treaty of Hanover;x;;;;;;;;;;;;;
+add_hanover_desc;With our influence over Hanover total, there is no one left to defend Hanover from our might. We shall seize Hanoverian lands and give it to our subjects in North Germany;x;;;;;;;;;;;;;
+add_brunswick_title;The Treaty of Brunswick;x;;;;;;;;;;;;;
+add_brunswick_desc;Brunswick clearly stands in the way of our Elbian Hegemony, with our influence established over it we shall integrate it into Saxony;x;;;;;;;;;;;;;
+add_coburg_title;Saxon integration of Saxe-Coburg-Gotha;x;;;;;;;;;;;;;
+add_coburg_desc;Gotha holds strategic importance to the defence of the Elbe and shall be integrated to Saxony;x;;;;;;;;;;;;;
+add_detmold_title;Saxon integrationf of Detmold;x;;;;;;;;;;;;;
+add_detmold_desc;Another peace in the Elbian puzzle, Detmold gives us an important footing on the other side of the Elbe.;x;;;;;;;;;;;;;
+czech_integration_title;Czech Integration;x;;;;;;;;;;;;;
+czech_integration_desc;It has taken a long time but with our similarities in language, the Czechs are now properly integrated into Jagiellonian society and culture;x;;;;;;;;;;;;;
+the_second_bohemian_war_title;The Aftermath of the Second War for Bohemia;x;;;;;;;;;;;;;
+the_second_bohemian_war_desc;Wladislaus has finally crushed the Bohemian Crown in war and the people's complaints have been quelled.;x;;;;;;;;;;;;;
+late_plc_title;Unification finally? @PLC;x;;;;;;;;;;;;;
+late_plc_desc;After many decades of political struggle for Wladislaus and a second war over Bohemia, we have finally manage to proclaim a unified Jagiellonia!;x;;;;;;;;;;;;;
 the_iles_title;The Iles;;;;;;;;;;;;;;
 the_iles_desc; ;;;;;;;;;;;;;;
 the_iles_2_title;The rest of Britannia;;;;;;;;;;;;;;
 the_iles_2_desc; ;;;;;;;;;;;;;;
-le_pas_de_calais_title;Le Pas-de-Calais;;;;;;;;;;;;;
-le_pas_de_calais_desc;The Pas-de-Calais has long been appropriated by the Dutch, they have gone to many lengths to try to remove the French influence in the Picard language, but their efforts were not enough. Our deep cultural ties with the Picard are still visible to this day, we will teach the Picards to be part of our culture once again.;;;;;;;;;;;;;
-demote_crafts_title;Demote All Unaccepted Craftsmen and Clerks;;;;;;;;;;;;;x
-demote_crafts_desc;Using this decision will demote all unaccepted craftsmen and clerks on your own cores, to make way for your own accepted pop crafts..;;;;;;;;;;;;;x
-cores_scotland_ireland_title;Our Rule over Albion;;;;;;;;;;;;;
-cores_scotland_ireland_desc;We have for long vyed to have dominion over Albion at the expense of the Irish. After finally pushing them out of Britannia proper, it is time to invade Ierne and finally unify the celts under one flag.;;;;;;;;;;;;;
-cores_ireland_scotland_title;Our Rule over Albion;;;;;;;;;;;;;
-cores_ireland_scotland_desc;The Scots have long been a rebellious people who have caused us much trouble over the history of the Emerald Island. Ierne has long endured these hardships, but we cannot tolerate this any longer. It is time to push into the heartland of the Scots.;;;;;;;;;;;;;
-hegemony_over_the_island_IRE_title;The Conquest of Britannia;;;;;;;;;;;;;
-hegemony_over_the_island_IRE_desc;The Scots have been increasing their threats of war for the rest of Britannia and Wales, we must no longer sit by idly stand by and watch as they encroach upon our territory. Britannia cannot remain as the Status Quo is, it must be under our direct rule.;;;;;;;;;;;;;
-embrace_natives_title;Embrace Our Native Brothers;;;;;;;;;;;;;
-embrace_natives_desc;For many centuries we have co-existed with various different tribes. These all have a culture and history that is ancestral to this land and we need to put the status of tribe behind us and unite as one.;;;;;;;;;;;;;
-growth_of_natives;Growth of the Natives;;;;;;;;;;;;;
-growth_of_natives; ;;;;;;;;;;;;;
-assimilation_of_the_euros;Assimilation of the European Invaders;;;;;;;;;;;;;
-assimilation_of_the_euros_desc; ;;;;;;;;;;;;;
-end_baltic_monopoly_title;End the Hanseatic monopoly;x
-end_baltic_monopoly_desc; ;x
-unite_plc_title;Unite the Polish Empire @PLC;x
-unite_plc_desc; ;x
-remove_ai_immigration_title;§R Lower AI immigration;x
-remove_ai_immigration_desc;§R Taking this option will lower immigration for all AI controlled countries in the world, this decision is irreversable.;x
-reclaim_antioch_title;Reclaim Antioch;x
-reclaim_antioch_desc;Antioch has for long been a holy site of the Christian faith and has held religious importance since the early days of the Church.;x
-the_bohemian_dream_title;The Bohemian Dream;x
-the_bohemian_dream_desc;Ever since our loss in the War for Bohemia, King Wladislaus has never been truly the same, always extremely quiet once Bohemia is mentioned, never able to do any diplomacy with the Bohemians without getting violently angry and proclaiming the lands of Bohemia are ruled under a bastard King. But today is a day of hope, not sadness, as King Wladislaus has accomplished his life-long dream of restoring order in Bohemia.;x
-integrate_frisian_duchy_LUB_title;Integrate the Frisian Duchy;x
-integrate_frisian_duchy_LUB_desc; ;x
-integrate_frisian_duchy_NET_title;Integrate the Frisian Duchy;x
-integrate_frisian_duchy_NET_desc; ;x
-form_inca_title;Tawantinsuyu, Land of the Incans @INC;x
-form_inca_desc; ;x
-form_sigmanistan_title;Form Sigmanistan @SIG;x
-form_sigmanistan_desc;So true;x
-form_bns_title;Form Bengalistan @BNS;x
-form_bns_desc; ;x
-form_gau_title;Form Gaul @GAU;x
-form_gau_desc;schizo;x
-form_china_title;Form China @CHI;x
-form_china_desc; ;x
-form_rom_title;Form Romania @ROM;x
-form_rom_desc; ;x
-form_gae_SCO_title;Form Gaellia @GAE;x
-form_gae_SCO_desc; ;x
-form_gae_IRE_title;Form Gaellia @GAE;x
-form_gae_IRE_desc; ;x
-form_rus_title;Form Russia @RUS;x
-form_rus_desc; ;x
-new_frontier_eli;The New Frontier;x
-new_frontier_eli_desc; ;x
-develop_santa_maria_title;Develop Santa Maria;x
-develop_santa_maria_desc; ;x
-the_port_of_constanta_title;The Port of Constanta;x
-the_port_of_constanta_desc;Constanta, or in more ancient times, Tomis, is in a prime position to be our main port to the Black Sea, by building a bridge over the Danube and encouraging migration to it, we shall surely have a bright future in commerce.;x
-conquer_sami_title;Conquer Sami;x
-conquer_sami_desc; ;x
-misri_integration_svf_title;Misri Integration;x
-misri_integration_svf_desc; ;x
-conquest_of_salish_title;Conquest of Salish;x
-conquest_of_salish_desc; ;x
-sieze_the_pacific_coast_title;Seize the Pacific Coast;x
-sieze_the_pacific_coast_desc; ;x
-the_true_masters_of_the_coast_title;The True Masters of the Coast;x
-the_true_masters_of_the_coast_desc; ;x
-cuban_integration_title;Cuban Integration;x
-cuban_integration_desc; ;x
-afro_vespuccian_int_title;Afro-Vespuccian Integration;x
-afro_vespuccian_int_desc; ;x
-burmese_integration_title;Burmese Integration;x
-vietnamese_integration_title;Vietnamese Integration;x
-burmese_integration_desc; ;x
-vietnamese_integration_desc; ;x
-retake_the_homeland_title;Retake the Homeland;x
-retake_the_homeland_desc; ;x
-claim_wessex_title;Claim Wessex;
-claim_wessex_desc; ;x
-integrate_afro_german_title;Integrate Afro-Germans;x
-integrate_afro_german_desc; ;x
-liberate_gujarati_title;Liberate Gujarat;x
-liberate_gujarati_desc; ;x
-liberate_panjabi_title;Liberate Punjab;x
-liberate_panjabi_desc; ;x
-integrate_telegu_title;Integrate Telegu;x
-integrate_telegu_desc; ;x
-integrate_marathi_title;Integrate Marathi;x
-integrate_marathi_desc; ;x
-integrate_kannada_title;Integrate Marathi;x
-integrate_kannada_desc; ;x
-liberation_of_the_west_bns_title;Liberation of the West;x
-liberation_of_the_west_bns_desc;zneed;x
-annex_burgundy_title;Annex the Burgundian Duchies;x
-annex_burgundy_desc; ;x
-attempt_reform_gaulII_title;Conquer Central Gaul;x
-attempt_reform_gaulII_desc; ;x
-attempt_reform_gaulIII_title;Cisalpine Gaul;x
-attempt_reform_gaulIII_desc; ;x
-unite_eth_title;Unite Ethiopia;x
-unite_eth_desc;Ethiopia as of now is fairly decentralized, with regional autonomy, due to the rights of our vassals. Revoking these rights would bring us more prosperity, but it would also anger some under the rule of these vassals, including said vassals. Thankfully, our superiour technology, granted to us by the Crusaders in Jerusalem, due to our efforts to help them in their efforts to spread christianity, allows us to unite these lands without much of a hassle.;x 
-attempt_reform_gaul_title;Attempt to Reform Gaul;x
-attempt_reform_gaul_desc; ;x
-teach_gallic;Teach Gallic;x
-picking_up_a_tech_school_title;Change Tech School Decisions;x
-picking_up_a_tech_school_desc; ;x
-welsh_integration_title;Welsh Integration;x
-welsh_integration_desc; ;x
-raid_pontus_title;Raid Kafkasos;x
-raid_pontus_desc; ;x
-beifaren_integration_title;Beifaren Integration;x
-beifaren_integration_desc; ;x
-restore_the_empire_title;Restore the Empire;x
-restore_the_empire_desc; ;x
-all_welcome_in_the_horde_title;All are Welcome In the Horde;x
-all_welcome_in_the_horde_desc;reno...reno don't turn the africans into 4 cultures renooo;x
-heartland_of_the_empire_sigma_title;Heartland of the Empire;x
-heartland_of_the_empire_sigma_desc; ;x
-bangkok_renovated;Bangkok Renovated;x
-renovate_bangkok_title;Renovate Bangkok;x
-renovate_bangkok_desc;reno;x
-integrate_yue_title;Integrate the Yue;x
-integrate_yue_desc; ;x
-cambodian_integration_title;Cambodian Integration;x
-cambodian_integration_desc; ;x
-the_malay_reconquest_title;Malay Reconquest;x
-the_malay_reconquest_desc; ;x
-little_paris_title;Little Paris;x
-little_paris_desc; ;x
-develop_jer_title;Develop Jerusalem;x
-develop_jer_desc; ;x
-conquest_egy_jer_title;Conquest of Egypt;x
-conquest_egy_jer_desc; ;x
-western_technology_title;Western Technology;x
-western_technology_desc; ;x
-education_reform_rom;Education Reform;x
-reform_education_title;Reform Education;x
-reform_education_desc; ;x
-conquer_caucasus_svf_title;Conquer the Caucasus;x
-conquer_caucasus_svf_desc; ;x
-destroy_turkmenistan_title;Conquer Turkmenistan;x
-destroy_turkmenistan_desc; ;x
-integrate_turkmen_title;Integrate Turkmen;x
-integrate_turkmen_desc; ;x
-push_east_svf_title;Push East;x
-push_east_svf_desc; ;x
-liberate_jerusalem_title;Liberate Jerusalem;x
-liberate_jerusalem_desc; ;x
-secede_land_new_title;Secede Land to Vinland;x
-secede_land_new_desc; ;x
-reclaim_the_danelaw_title;Reclaim the Danelaw;x
-reclaim_the_danelaw_desc; ;x
-self_governance_vinland_title;Self Governance for Vinland;x
-self_governance_vinland_desc; ;x
-secure_nouvelle_orleans_title;Secure Nouvelle Orleans;x
-secure_nouvelle_orleans_desc; ;x
-federation_of_america_title;Federation of America @NAM;
-federation_of_america_desc; ;x
-inherit_pontus_title;Inherit Kafkasos;x
-inherit_pontus_desc; ;x
-bulgarian_reintegration_title;Bulgarian Reintegration;x
-bulgarian_reintegration_desc; ;x
-integrate_amerikaans_title;Integrate the Amerikaans;
-integrate_amerikaans_desc; ;x
-develop_singapore_title;Develop Singapore;x
-develop_singapore_desc; ;x
-develop_singapore;Develop Singapore;x
-spread_our_influence_title;Spread Our Influence;x
-spread_our_influence_desc; ;x
-conquer_saxony_title;Conquer Saxony;x
-conquer_saxony_desc; ;x
-north_sea_coast_title;North Sea Coast;x
-north_sea_coast_desc; ;x
-hegemony_over_the_island_SCO_title;Hegemony Over Britannia & Wales;x
-hegemony_over_the_island_SCO_desc; ;x
-britannic_integration_title;Britannic Integration;x
-britannic_integration_desc; ;x
-british_danish_integration_title;Mend Relations with The Danish;x
-british_danish_integration_desc; ;x
-unify_rhine_title;Unify the Rhine;x
-unify_rhine_desc; ;x
-south_german_unity_title;South German Unity;x
-south_german_unity_desc; ;x
-dominate_austria_title;Dominate Austria;x
-dominate_austria_desc; ;x
-alpine_hegemony_title;Alpine Hegemony;x
-alpine_hegemony_desc; ;x
-magna_lacus_title;Magna Lacus;x
-magna_lacus_desc; ;x
-amazon_expansion_title;Amazon Expansion;x
-amazon_expansion_desc; ;x
-outlaw_slavery_title;Outlaw Slavery;x
-outlaw_slavery_desc; ;x
-manifest_arg_title;Cinniuint follasach;x
-manifest_arg_desc; ;x
-embrace_catalan_title;Embrace Catalan Culture;x
-embrace_catalan_desc; ;x
-revoke_vladimirian_autonomy_title;Revoke Vladimirian Autonomy;x
-revoke_vladimirian_autonomy_desc; ;x
-farmland_for_immigrants_title;Farmland for Immigrants;x
-farmland_for_immigrants_desc; ;x
-retake_the_north_title;Retake the North;x
-retake_the_north_desc; ;x
-assert_northern_dominance_title;Assert Northern Dominance;x
-assert_northern_dominance_desc; ;x
-integrate_occitans_title;Integrate the Occitans;x
-integrate_occitans_desc; ;x
-reintegrate_lorraine_title;Reintegrate Lorraine;x
-reintegrate_lorraine_desc; ;x
-reintegrate_lower_burgundy_title;Reintegrate Lower Burgundy;x
-reintegrate_lower_burgundy_desc; ;x
-conquer_serbia_title;Conquest of Serbia;x
-conquer_serbia_desc; ;x
-south_slavic_compromise_title;South Slavic Compromise;x
-south_slavic_compromise_desc;The South Slavs have existed in our lands for centuries,yet not as long as us, even so, we should allow them some forms of representation to appease them.;x
-conquer_tripoli_title;Conquer Tripoli;x
-conquer_tripoli_desc; ;x
-egyptian_conquest_title;Egyptian Conquest;x
-egyptian_conquest_desc; ;x
-the_caliphate_title;The Caliphate @CLP;x
-the_caliphate_desc; ;x
-rebuild_the_caliphate_title;Rebuild the Caliphate;x
-rebuild_the_caliphate_desc;Taking this decision will lock you out of the "Unite the Peninsula" decision ;x
-unite_the_peninsula_title;Unite The Peninsula;x
-unite_the_peninsula_desc;After many centuries of separation, it has become clear that even with out religious differences, we are not so different, sharing many customs. Even our languages are mostly the same, bar the arabs in the south, both of them stem from Latin and are very closely related. It is thus fitting that we attempt to unite under one, even with innevitable bloodshed. (Taking this decision will lock you out of the Caliphate Path of Al Andalus);x
-unite_the_peninsula_2_title;Unite the Peninsula;x
-unite_the_peninsula_2_desc; ;x
-form_iberia_atr_title;Form Iberia @IBE;x
-form_iberia_atr_desc; ;x
-form_iberia_adl_title;Iberia United;x
-form_iberia_adl_desc; ;x
-reforge_byzantium_title;Reforge Byzantium @BYZ;x
-reforge_byzantium_desc;The Failure of the Emperor in 1834 to defend Crete against the Italian states was catastrophic, humiliating the empire and himself. This lead to the themes of the empire to rise up against him, proclaiming themselves as the new emperors, or in some cases, the populace overthrew their noble leaders and replaced them with republics, which is what these themes would do to the empire. Our strong position allows us to reunite the Empire once again, like a phoenix from the ashes.;x
-end_the_seminole_wars_title;End The Seminole Wars;x
-end_the_seminole_wars_desc; ;x
-secede_to_italy_title;Secede Land to Italy;x
-secede_to_italy_desc; ;x
-recently_renovated_city;Recently Renovated City;x
-jewel_of_the_danube_title;Jewel of the Danube;x
-jewel_of_the_danube_desc; ;x
-natural_borders_II_title;Reclaim Moesia;x
-natural_borders_II_desc; ;x
-partition_natives_title;Partition Natives;x
-partition_natives_desc; ;x
-settle_alaska;Settle Alaska;x
-settle_alaska_desc; ;x
-settle_alaska_title;Settle Alaska;x
-secede_land_lsk_title;Secede Land to Our Alaskan Colony;x
-secede_land_lsk_desc; ;x
-alaskan_gold_rush;Alaskan Gold Rush;x
-alaskan_gold_rush_country;Alaskan Gold Rush;x
-alaskan_gold_rush_country_desc; ;x
-assert_control_over_our_sea_title;Assert Control Over Our Sea;x
-assert_control_over_our_sea_desc; ;x
-settle_outer_manchuria_title;Settle Outer Manchuria;x
-settle_outer_manchuria_desc; ;x
-the_eastern_capital_title;The Eastern Capital;x
-the_eastern_capital_desc;Move our seat of Government to a new city: Tokyo;x
-transfer_lithuania_to_ubd_title;Transfer Lithuania to the UBD;x
-transfer_lithuania_to_ubd_desc; ;x
-el_tofo_title;Darraghare Mine;x
-el_tofo_desc; ;x
-united_sam_title;Unite Sudamericano Italians;x
-united_sam_desc; ;x
-natural_borders_title;Our Natural Borders;x
-natural_borders_desc; ;x
-reform_saf_title;Colonial Reform in Zuid-Afrika;x
-reform_saf_desc; ;x
-reform_tasmania_title;Reform Tasmanian Colonial Administration;x
-reform_tasmania_desc;Discovered by Dutch explorers, Tasmania is relatively low populated, being one of our most recently acquired colonial holdings. Reforming the administration and attracting immigrants to the colony might help us in the long run, especially since it would be quite likely that the new semi-independent colony would ask for reintegration.;x
-integrate_picards_title;Integrate the Picards;x
-integrate_picards_desc; ;x
-crimea_rightful_title;Rifhtful Byzantine Claims Over Crimea;x
-crimea_rightful_desc;ye;x
-crush_circassia_title;Crush the Circassians;x
-crush_circassia_desc;The Circassians have been a thorn in our European side for quite a while, carrying out numerous raids on local establishments and preventing us from properly taxing their local populous.;x
-new_frontiers_title;New Frontiers;x
-new_frontiers_desc;We will support our Cossacks in colonizing Siberia with grain and cattle. This decision applies to provinces you own in Siberia, the more you have the more valuable it is.;x
-jewel_of_the_pacific_title;Jewel Of The Pacific;x
-jewel_of_the_pacific_desc;Vladivostok!;x
-trans_siberian_title;Trans-Siberian Railway;x
-trans_siberian_desc;Russian Empire government ministers personally appointed by the Emperor Alexander III of Russia and by his son, the Tsarevich Nicholas (later Emperor Nicholas II from 1894), supervised the building of the railway between 1891 and 1916. Even before its completion, the line attracted travelers who wrote of their adventures.The Trans-Siberian Railway has directly connected Moscow with Vladivostok since 1916.;x
-integrate_the_finns_title;Integrate the Finnish;x
-integrate_the_finns_desc;As we control the Finnish heartland, we can give them a more autonomous status in our nation.;x
-scandinavian_federalism_title;The North Sea Empire;x
-scandinavian_federalism_desc;Our advantageous position allows us to unite the Northern Countries into one single federation.;x
-dacian_oil_title;Romanian Oil;x
-dacian_oil_desc; ;x
-south_slavic_compromise_title;South Slavic Compromise;x
-south_slavic_compromise_desc; ;x
-japan_korea_annexation_treaty_title;Japan-Korea Annexation Treaty;x
-japan_korea_annexation_treaty_desc; ;x
-send_students_to_foreign_countries_title;Send Students to Foreign Countries;x
-send_students_to_foreign_countries_desc;We must send out our young students to study in foreign, more advanced, technologically-wise, nations for our own benefit. §RThis decision will make you sphered by a random country which is a great power and has atleast 100 relations with you. If you want a specific country to be your spherelord, make sure it is the only one with over 100 relations with you;x
-wallachian_agriculture_title;Reform Agriculture;x
-wallachian_agriculture_desc;The Fertile valleys of Muntenia are perfect for facilitating large quantities of food.;x
-vatican_treaty_title;Vatican Treaty;x
-vatican_treaty_desc;The time has come to bury the hatchet.;x
-papal_compromise_title;Papal Compromise;x
-papal_compromise_desc;Picking this will not allow us to confiscate Papal Wealth;x
-papal_compromise;The Pope is Content;x
-reform_the_papacy_title;Reform the Papacy;x
-reform_the_papacy_desc; ;x
-confiscate_papal_wealth_title;Confiscate Papal Wealth;x
-confiscate_papal_wealth_desc; ;x
-integrate_the_armenians_title;The Glory of the East;x
-integrate_the_armenians_desc;Restore the True Glory of Rome: Its Rich Eastern Lands! (You cannot go for the decision 'Dreams of Rome', or it's equivalent if Rome forms, if you go down this path) ;x
-modernize_nile_irrigation_title;Modernize Nile Irrigation;x
-modernize_nile_irrigation_desc; ;x
-patriarchate_of_rome_title;The Patriarch of Rome;x
-patriarchate_of_rome_desc; ;x
-patriarchate_of_alexandria_title;Restore the Patriarch of Alexandria;x
-patriarchate_of_alexandria_desc; ;x
-sack_mecca_medina_title;The Sack of Mecca and Medina;x
-sack_mecca_medina_desc; ;x
-byz_the_holy_city_title;Holy City of Jerusalem;x
-byz_the_holy_city_desc; ;x
-turkish_compromise_title;Turkmen Compromise;x
-turkish_compromise_desc;Taking this will not allow us to reassert the supremacy of Greek culture.;
-reassert_greek_superiority;Greek Cultural Supremacy;x
-reassert_greek_superiority_title;Reassert the Supremacy of Greek Culture;x
-reassert_greek_superiority_desc;Taking this will not allow us to create a compromise with the Turkmen population.;x
-dreams_of_rome_title;Dreams of Rome;x
-dreams_of_rome_desc;The Origin of our peoples is in Rome! We must reconquer our peoples ancient lands! (You cannot go for 'The Glory of the East' decision if you decide to go down this path) ;x
-dominance_in_the_balkans_title;Dominance in the Balkans;x
-dominance_in_the_balkans_desc; ;x
-patriarchate_of_antioch_title;Restore the Patriarch of Antioch;x
-patriarchate_of_antioch_desc; ;x
-settle_the_aegean_coast;Settle the Aegean Coast;x
-settle_the_aegean_coast_title;Settle the Aegean Coast;x
-settle_the_aegean_coast_desc; ;x
-release_tasmania_title;Release Tasmania;x
-release_tasmania_desc;Dominion Gaming;x
-release_saf_title;Release South Africa;
-release_saf_desc;Dominion Gaming;x
-language_reform_title;Language Reform;x
-language_reform_desc;Various dialects in our country could be taught the correct form of our language to increase efficency.;x
-will_receive_title;Request a Grant;x
-will_receive_desc;Times in our nation are not the best, let us pray for international aid.;x
-will_not_receive_title;Disable Recieving Grants;x
-will_not_receive_desc;Disable Recieving Grants;x
-will_give_title;Enable Giving Grants;x
-will_give_desc;Let the world know that $COUNRTY_ADJ$ are a generous people.;x
-will_not_give_title;Disable Giving Grants;x
-will_not_give_desc;Our generosity has run its course.;x
-reform_order_clergy_title;Reform the Clergy of Jerusalem;x
-reform_order_clergy_desc;For long the clergy of Jerusalem has held massive influence over the government and it's laws, this was fine during the conquests but we cannot continue this way;x
-secularizing_jerusalem_title;The Secularization of Jerusalem;x
-secularizing_jerusalem_desc;Our First Step to Secularization shall be taken now, we shall strip powers from the clergy and hand them over to state offices.;x
-secularizing_jerusalem_2_title;The Last Stage of Secularization;x
-secularizing_jerusalem_2_desc;We have stripped away the clergy's offices, now we must completely separate all religious functions from the state.;x
-italians_cleanup_title;Cleanup leftover Italian pops;x
-italians_cleanup_desc;Take this decision to get rid of any North Italian or South Italian pops that are leftover in colonial states or other non-majority North/South Italian provinces.;x
-tame_the_north_mex_title;Tame the North;x
-tame_the_north_mex_desc; ;x
-cisalpine_gaul_title;Restore Order in Cisalpine Gaul;x
-cisalpine_gaul_desc; ;x
-annex_illyricum_title;Integrate our puppet in Illyricum;x
-annex_illyricum_desc; ;x
-abolish_yuan_title;Abolish the Mandate of Yuan;x
-abolish_yuan_desc;Ever since the start of the Second Mongolian Empire, we have kept a presence in China, although not directly. This presence has over time gradually diminished into becoming the rump state of Jijig Yuwan, a shadow of it's former hold over China it serves no purpose to us as being kept seperate from our empire.;x
-mongol_army_reform_title;First phase of Eldegai's Reform;x
-mongol_army_reform_desc;Our military has suffered numerous setbacks due to it's dated methods and weapons, we must invest into a reform of the army at the head of our field marshall Eldegai.;x
-final_army_reform_title;Finalisation of Eldegai's Reforms;x
-final_army_reform_desc;After decades of study and theorization, our generals have finished what Eldegai started decades ago and we now have a new modernized army.;x
-the_wild_regions_title;The Mongol Steppe;x
-the_wild_regions_desc; ;x
-yuanese_rights_title;Yuanese Language Program;x
-yuanese_rights_desc;After many hundreds of years of control over Yuan, the people have slowly adopted Mongolian customs and a heavily Mongolian influenced language. To the untrained ear and eye, they seem to be one in the same.;x
-claims_in_north_italy_title;Expansion into North Italy;x
-claims_in_north_italy_desc;Taking this decision will block out the ability to take the "Consolidate our Germanic Holdings" decision;x;x
-further_conquests_germany_title;Consolidate our Germanic Holdings;x
-further_conquests_germany_desc;Taking this decision will block out the ability to take the "Expansion in North Italy" decision;x
-reclaim_arabia_title;The Holy Lands;x
-reclaim_arabia_desc;After many centuries of decline, our Sultanate is resurgent and is seeking to retake our former lands, starting with the Holy City and Arabia;x
-nejd_custodianship_title;Nejd Custodianship;x
-nejd_custodianship_desc;The Nejd desert is a very import part of Arabian folk lore and Sunni theology, having a host of scholars and thinkers situated in these deserts.;x
-the_indian_company_title;The Bengali Charter;x
-the_indian_company_desc;Our ancestors explored much of Asia and the Indian continent before the europeans even set foot around the Cape, but after the crusaders landed in the levant we were stripped of valuable land which allowed us to fund these expeditions. Now after our rebirth we must kickstart our colonization by conquering the Bengal Delta. §RThis decision declares war on Bengal for an establish protectorate cb and gives you 15 infamy;x
-roman_syracuse_title;Crush the Syracusean Despotate;x
-roman_syracuse_desc; ;x
-the_great_trilemma_title;The Great Trilemma;x
-the_great_trilemma_desc;The Italian peninsula has been secured, now we must convene. §RThis event contains 3 options, two of which will give you infamy, one is 15 infamy and the other is 25 infamy, so be careful when clicking this decision;x
-transalpine_gaul_title;Transalpine Gaul;x
-transalpine_gaul_desc; ;x
-hide_tech_schools_title;Hide Tech School decisions;x
-hide_tech_schools_desc; ;x
-the_shukensen_riekensen_title;Shukensen-Riekensen Doctrine;x
-the_shukensen_riekensen_desc; ;x
-breton_assimilation_title;Assimilation of the Bretons;x
-breton_assimilation_desc;This decision increases the base assimilation chance for Breton pops, although the decision only gives prestige and militancy;x
-education_reform_1_title;Education Reform;x
-education_reform_1_desc; ;x
+le_pas_de_calais_title;Le Pas-de-Calais;;;;;;;;;;;;;;
+le_pas_de_calais_desc;The Pas-de-Calais has long been appropriated by the Dutch, they have gone to many lengths to try to remove the French influence in the Picard language, but their efforts were not enough. Our deep cultural ties with the Picard are still visible to this day, we will teach the Picards to be part of our culture once again.;;;;;;;;;;;;;;
+demote_crafts_title;Demote All Unaccepted Craftsmen and Clerks;;;;;;;;;;;;;x;
+demote_crafts_desc;Using this decision will demote all unaccepted craftsmen and clerks on your own cores, to make way for your own accepted pop crafts..;;;;;;;;;;;;;x;
+cores_scotland_ireland_title;Our Rule over Albion;;;;;;;;;;;;;;
+cores_scotland_ireland_desc;We have for long vyed to have dominion over Albion at the expense of the Irish. After finally pushing them out of Britannia proper, it is time to invade Ierne and finally unify the celts under one flag.;;;;;;;;;;;;;;
+cores_ireland_scotland_title;Our Rule over Albion;;;;;;;;;;;;;;
+cores_ireland_scotland_desc;The Scots have long been a rebellious people who have caused us much trouble over the history of the Emerald Island. Ierne has long endured these hardships, but we cannot tolerate this any longer. It is time to push into the heartland of the Scots.;;;;;;;;;;;;;;
+hegemony_over_the_island_IRE_title;The Conquest of Britannia;;;;;;;;;;;;;;
+hegemony_over_the_island_IRE_desc;The Scots have been increasing their threats of war for the rest of Britannia and Wales, we must no longer sit by idly stand by and watch as they encroach upon our territory. Britannia cannot remain as the Status Quo is, it must be under our direct rule.;;;;;;;;;;;;;;
+embrace_natives_title;Embrace Our Native Brothers;;;;;;;;;;;;;;
+embrace_natives_desc;For many centuries we have co-existed with various different tribes. These all have a culture and history that is ancestral to this land and we need to put the status of tribe behind us and unite as one.;;;;;;;;;;;;;;
+growth_of_natives;Growth of the Natives;;;;;;;;;;;;;;
+growth_of_natives; ;;;;;;;;;;;;;;
+assimilation_of_the_euros;Assimilation of the European Invaders;;;;;;;;;;;;;;
+assimilation_of_the_euros_desc; ;;;;;;;;;;;;;;
+end_baltic_monopoly_title;End the Hanseatic monopoly;x;;;;;;;;;;;;;
+end_baltic_monopoly_desc; ;x;;;;;;;;;;;;;
+unite_plc_title;Unite the Polish Empire @PLC;x;;;;;;;;;;;;;
+unite_plc_desc; ;x;;;;;;;;;;;;;
+remove_ai_immigration_title;§R Lower AI immigration;x;;;;;;;;;;;;;
+remove_ai_immigration_desc;§R Taking this option will lower immigration for all AI controlled countries in the world, this decision is irreversable.;x;;;;;;;;;;;;;
+reclaim_antioch_title;Reclaim Antioch;x;;;;;;;;;;;;;
+reclaim_antioch_desc;Antioch has for long been a holy site of the Christian faith and has held religious importance since the early days of the Church.;x;;;;;;;;;;;;;
+the_bohemian_dream_title;The Bohemian Dream;x;;;;;;;;;;;;;
+the_bohemian_dream_desc;Ever since our loss in the War for Bohemia, King Wladislaus has never been truly the same, always extremely quiet once Bohemia is mentioned, never able to do any diplomacy with the Bohemians without getting violently angry and proclaiming the lands of Bohemia are ruled under a bastard King. But today is a day of hope, not sadness, as King Wladislaus has accomplished his life-long dream of restoring order in Bohemia.;x;;;;;;;;;;;;;
+integrate_frisian_duchy_LUB_title;Integrate the Frisian Duchy;x;;;;;;;;;;;;;
+integrate_frisian_duchy_LUB_desc; ;x;;;;;;;;;;;;;
+integrate_frisian_duchy_NET_title;Integrate the Frisian Duchy;x;;;;;;;;;;;;;
+integrate_frisian_duchy_NET_desc; ;x;;;;;;;;;;;;;
+form_inca_title;Tawantinsuyu, Land of the Incans @INC;x;;;;;;;;;;;;;
+form_inca_desc; ;x;;;;;;;;;;;;;
+form_sigmanistan_title;Form Sigmanistan @SIG;x;;;;;;;;;;;;;
+form_sigmanistan_desc;So true;x;;;;;;;;;;;;;
+form_bns_title;Form Bengalistan @BNS;x;;;;;;;;;;;;;
+form_bns_desc; ;x;;;;;;;;;;;;;
+form_gau_title;Form Gaul @GAU;x;;;;;;;;;;;;;
+form_gau_desc;schizo;x;;;;;;;;;;;;;
+form_china_title;Form China @CHI;x;;;;;;;;;;;;;
+form_china_desc; ;x;;;;;;;;;;;;;
+form_rom_title;Form Romania @ROM;x;;;;;;;;;;;;;
+form_rom_desc; ;x;;;;;;;;;;;;;
+form_gae_SCO_title;Form Gaellia @GAE;x;;;;;;;;;;;;;
+form_gae_SCO_desc; ;x;;;;;;;;;;;;;
+form_gae_IRE_title;Form Gaellia @GAE;x;;;;;;;;;;;;;
+form_gae_IRE_desc; ;x;;;;;;;;;;;;;
+form_rus_title;Form Russia @RUS;x;;;;;;;;;;;;;
+form_rus_desc; ;x;;;;;;;;;;;;;
+new_frontier_eli;The New Frontier;x;;;;;;;;;;;;;
+new_frontier_eli_desc; ;x;;;;;;;;;;;;;
+develop_santa_maria_title;Develop Santa Maria;x;;;;;;;;;;;;;
+develop_santa_maria_desc; ;x;;;;;;;;;;;;;
+the_port_of_constanta_title;The Port of Constanta;x;;;;;;;;;;;;;
+the_port_of_constanta_desc;Constanta, or in more ancient times, Tomis, is in a prime position to be our main port to the Black Sea, by building a bridge over the Danube and encouraging migration to it, we shall surely have a bright future in commerce.;x;;;;;;;;;;;;;
+conquer_sami_title;Conquer Sami;x;;;;;;;;;;;;;
+conquer_sami_desc; ;x;;;;;;;;;;;;;
+misri_integration_svf_title;Misri Integration;x;;;;;;;;;;;;;
+misri_integration_svf_desc; ;x;;;;;;;;;;;;;
+conquest_of_salish_title;Conquest of Salish;x;;;;;;;;;;;;;
+conquest_of_salish_desc; ;x;;;;;;;;;;;;;
+sieze_the_pacific_coast_title;Seize the Pacific Coast;x;;;;;;;;;;;;;
+sieze_the_pacific_coast_desc; ;x;;;;;;;;;;;;;
+the_true_masters_of_the_coast_title;The True Masters of the Coast;x;;;;;;;;;;;;;
+the_true_masters_of_the_coast_desc; ;x;;;;;;;;;;;;;
+cuban_integration_title;Cuban Integration;x;;;;;;;;;;;;;
+cuban_integration_desc; ;x;;;;;;;;;;;;;
+afro_vespuccian_int_title;Afro-Vespuccian Integration;x;;;;;;;;;;;;;
+afro_vespuccian_int_desc; ;x;;;;;;;;;;;;;
+burmese_integration_title;Burmese Integration;x;;;;;;;;;;;;;
+vietnamese_integration_title;Vietnamese Integration;x;;;;;;;;;;;;;
+burmese_integration_desc; ;x;;;;;;;;;;;;;
+vietnamese_integration_desc; ;x;;;;;;;;;;;;;
+retake_the_homeland_title;Retake the Homeland;x;;;;;;;;;;;;;
+retake_the_homeland_desc; ;x;;;;;;;;;;;;;
+claim_wessex_title;Claim Wessex;;;;;;;;;;;;;;
+claim_wessex_desc; ;x;;;;;;;;;;;;;
+integrate_afro_german_title;Integrate Afro-Germans;x;;;;;;;;;;;;;
+integrate_afro_german_desc; ;x;;;;;;;;;;;;;
+liberate_gujarati_title;Liberate Gujarat;x;;;;;;;;;;;;;
+liberate_gujarati_desc; ;x;;;;;;;;;;;;;
+liberate_panjabi_title;Liberate Punjab;x;;;;;;;;;;;;;
+liberate_panjabi_desc; ;x;;;;;;;;;;;;;
+integrate_telegu_title;Integrate Telegu;x;;;;;;;;;;;;;
+integrate_telegu_desc; ;x;;;;;;;;;;;;;
+integrate_marathi_title;Integrate Marathi;x;;;;;;;;;;;;;
+integrate_marathi_desc; ;x;;;;;;;;;;;;;
+integrate_kannada_title;Integrate Marathi;x;;;;;;;;;;;;;
+integrate_kannada_desc; ;x;;;;;;;;;;;;;
+liberation_of_the_west_bns_title;Liberation of the West;x;;;;;;;;;;;;;
+liberation_of_the_west_bns_desc;zneed;x;;;;;;;;;;;;;
+annex_burgundy_title;Annex the Burgundian Duchies;x;;;;;;;;;;;;;
+annex_burgundy_desc; ;x;;;;;;;;;;;;;
+attempt_reform_gaulII_title;Conquer Central Gaul;x;;;;;;;;;;;;;
+attempt_reform_gaulII_desc; ;x;;;;;;;;;;;;;
+attempt_reform_gaulIII_title;Cisalpine Gaul;x;;;;;;;;;;;;;
+attempt_reform_gaulIII_desc; ;x;;;;;;;;;;;;;
+unite_eth_title;Unite Ethiopia;x;;;;;;;;;;;;;
+unite_eth_desc;Ethiopia as of now is fairly decentralized, with regional autonomy, due to the rights of our vassals. Revoking these rights would bring us more prosperity, but it would also anger some under the rule of these vassals, including said vassals. Thankfully, our superiour technology, granted to us by the Crusaders in Jerusalem, due to our efforts to help them in their efforts to spread christianity, allows us to unite these lands without much of a hassle.;x ;;;;;;;;;;;;;
+attempt_reform_gaul_title;Attempt to Reform Gaul;x;;;;;;;;;;;;;
+attempt_reform_gaul_desc; ;x;;;;;;;;;;;;;
+teach_gallic;Teach Gallic;x;;;;;;;;;;;;;
+picking_up_a_tech_school_title;Change Tech School Decisions;x;;;;;;;;;;;;;
+picking_up_a_tech_school_desc; ;x;;;;;;;;;;;;;
+welsh_integration_title;Welsh Integration;x;;;;;;;;;;;;;
+welsh_integration_desc; ;x;;;;;;;;;;;;;
+raid_pontus_title;Raid Kafkasos;x;;;;;;;;;;;;;
+raid_pontus_desc; ;x;;;;;;;;;;;;;
+beifaren_integration_title;Beifaren Integration;x;;;;;;;;;;;;;
+beifaren_integration_desc; ;x;;;;;;;;;;;;;
+restore_the_empire_title;Restore the Empire;x;;;;;;;;;;;;;
+restore_the_empire_desc; ;x;;;;;;;;;;;;;
+all_welcome_in_the_horde_title;All are Welcome In the Horde;x;;;;;;;;;;;;;
+all_welcome_in_the_horde_desc;reno...reno don't turn the africans into 4 cultures renooo;x;;;;;;;;;;;;;
+heartland_of_the_empire_sigma_title;Heartland of the Empire;x;;;;;;;;;;;;;
+heartland_of_the_empire_sigma_desc; ;x;;;;;;;;;;;;;
+bangkok_renovated;Bangkok Renovated;x;;;;;;;;;;;;;
+renovate_bangkok_title;Renovate Bangkok;x;;;;;;;;;;;;;
+renovate_bangkok_desc;reno;x;;;;;;;;;;;;;
+integrate_yue_title;Integrate the Yue;x;;;;;;;;;;;;;
+integrate_yue_desc; ;x;;;;;;;;;;;;;
+cambodian_integration_title;Cambodian Integration;x;;;;;;;;;;;;;
+cambodian_integration_desc; ;x;;;;;;;;;;;;;
+the_malay_reconquest_title;Malay Reconquest;x;;;;;;;;;;;;;
+the_malay_reconquest_desc; ;x;;;;;;;;;;;;;
+little_paris_title;Little Paris;x;;;;;;;;;;;;;
+little_paris_desc; ;x;;;;;;;;;;;;;
+develop_jer_title;Develop Jerusalem;x;;;;;;;;;;;;;
+develop_jer_desc; ;x;;;;;;;;;;;;;
+conquest_egy_jer_title;Conquest of Egypt;x;;;;;;;;;;;;;
+conquest_egy_jer_desc; ;x;;;;;;;;;;;;;
+western_technology_title;Western Technology;x;;;;;;;;;;;;;
+western_technology_desc; ;x;;;;;;;;;;;;;
+education_reform_rom;Education Reform;x;;;;;;;;;;;;;
+reform_education_title;Reform Education;x;;;;;;;;;;;;;
+reform_education_desc; ;x;;;;;;;;;;;;;
+conquer_caucasus_svf_title;Conquer the Caucasus;x;;;;;;;;;;;;;
+conquer_caucasus_svf_desc; ;x;;;;;;;;;;;;;
+destroy_turkmenistan_title;Conquer Turkmenistan;x;;;;;;;;;;;;;
+destroy_turkmenistan_desc; ;x;;;;;;;;;;;;;
+integrate_turkmen_title;Integrate Turkmen;x;;;;;;;;;;;;;
+integrate_turkmen_desc; ;x;;;;;;;;;;;;;
+push_east_svf_title;Push East;x;;;;;;;;;;;;;
+push_east_svf_desc; ;x;;;;;;;;;;;;;
+liberate_jerusalem_title;Liberate Jerusalem;x;;;;;;;;;;;;;
+liberate_jerusalem_desc; ;x;;;;;;;;;;;;;
+secede_land_new_title;Secede Land to Vinland;x;;;;;;;;;;;;;
+secede_land_new_desc; ;x;;;;;;;;;;;;;
+reclaim_the_danelaw_title;Reclaim the Danelaw;x;;;;;;;;;;;;;
+reclaim_the_danelaw_desc; ;x;;;;;;;;;;;;;
+self_governance_vinland_title;Self Governance for Vinland;x;;;;;;;;;;;;;
+self_governance_vinland_desc; ;x;;;;;;;;;;;;;
+secure_nouvelle_orleans_title;Secure Nouvelle Orleans;x;;;;;;;;;;;;;
+secure_nouvelle_orleans_desc; ;x;;;;;;;;;;;;;
+federation_of_america_title;Federation of America @NAM;;;;;;;;;;;;;;
+federation_of_america_desc; ;x;;;;;;;;;;;;;
+inherit_pontus_title;Inherit Kafkasos;x;;;;;;;;;;;;;
+inherit_pontus_desc; ;x;;;;;;;;;;;;;
+bulgarian_reintegration_title;Bulgarian Reintegration;x;;;;;;;;;;;;;
+bulgarian_reintegration_desc; ;x;;;;;;;;;;;;;
+integrate_amerikaans_title;Integrate the Amerikaans;;;;;;;;;;;;;;
+integrate_amerikaans_desc; ;x;;;;;;;;;;;;;
+develop_singapore_title;Develop Singapore;x;;;;;;;;;;;;;
+develop_singapore_desc; ;x;;;;;;;;;;;;;
+develop_singapore;Develop Singapore;x;;;;;;;;;;;;;
+spread_our_influence_title;Spread Our Influence;x;;;;;;;;;;;;;
+spread_our_influence_desc; ;x;;;;;;;;;;;;;
+conquer_saxony_title;Conquer Saxony;x;;;;;;;;;;;;;
+conquer_saxony_desc; ;x;;;;;;;;;;;;;
+north_sea_coast_title;North Sea Coast;x;;;;;;;;;;;;;
+north_sea_coast_desc; ;x;;;;;;;;;;;;;
+hegemony_over_the_island_SCO_title;Hegemony Over Britannia & Wales;x;;;;;;;;;;;;;
+hegemony_over_the_island_SCO_desc; ;x;;;;;;;;;;;;;
+britannic_integration_title;Britannic Integration;x;;;;;;;;;;;;;
+britannic_integration_desc; ;x;;;;;;;;;;;;;
+british_danish_integration_title;Mend Relations with The Danish;x;;;;;;;;;;;;;
+british_danish_integration_desc; ;x;;;;;;;;;;;;;
+unify_rhine_title;Unify the Rhine;x;;;;;;;;;;;;;
+unify_rhine_desc; ;x;;;;;;;;;;;;;
+south_german_unity_title;South German Unity;x;;;;;;;;;;;;;
+south_german_unity_desc; ;x;;;;;;;;;;;;;
+dominate_austria_title;Dominate Austria;x;;;;;;;;;;;;;
+dominate_austria_desc; ;x;;;;;;;;;;;;;
+alpine_hegemony_title;Alpine Hegemony;x;;;;;;;;;;;;;
+alpine_hegemony_desc; ;x;;;;;;;;;;;;;
+magna_lacus_title;Magna Lacus;x;;;;;;;;;;;;;
+magna_lacus_desc; ;x;;;;;;;;;;;;;
+amazon_expansion_title;Amazon Expansion;x;;;;;;;;;;;;;
+amazon_expansion_desc; ;x;;;;;;;;;;;;;
+outlaw_slavery_title;Outlaw Slavery;x;;;;;;;;;;;;;
+outlaw_slavery_desc; ;x;;;;;;;;;;;;;
+manifest_arg_title;Cinniuint follasach;x;;;;;;;;;;;;;
+manifest_arg_desc; ;x;;;;;;;;;;;;;
+embrace_catalan_title;Embrace Catalan Culture;x;;;;;;;;;;;;;
+embrace_catalan_desc; ;x;;;;;;;;;;;;;
+revoke_vladimirian_autonomy_title;Revoke Vladimirian Autonomy;x;;;;;;;;;;;;;
+revoke_vladimirian_autonomy_desc; ;x;;;;;;;;;;;;;
+farmland_for_immigrants_title;Farmland for Immigrants;x;;;;;;;;;;;;;
+farmland_for_immigrants_desc; ;x;;;;;;;;;;;;;
+retake_the_north_title;Retake the North;x;;;;;;;;;;;;;
+retake_the_north_desc; ;x;;;;;;;;;;;;;
+assert_northern_dominance_title;Assert Northern Dominance;x;;;;;;;;;;;;;
+assert_northern_dominance_desc; ;x;;;;;;;;;;;;;
+integrate_occitans_title;Integrate the Occitans;x;;;;;;;;;;;;;
+integrate_occitans_desc; ;x;;;;;;;;;;;;;
+reintegrate_lorraine_title;Reintegrate Lorraine;x;;;;;;;;;;;;;
+reintegrate_lorraine_desc; ;x;;;;;;;;;;;;;
+reintegrate_lower_burgundy_title;Reintegrate Lower Burgundy;x;;;;;;;;;;;;;
+reintegrate_lower_burgundy_desc; ;x;;;;;;;;;;;;;
+conquer_serbia_title;Conquest of Serbia;x;;;;;;;;;;;;;
+conquer_serbia_desc; ;x;;;;;;;;;;;;;
+south_slavic_compromise_title;South Slavic Compromise;x;;;;;;;;;;;;;
+south_slavic_compromise_desc;The South Slavs have existed in our lands for centuries,yet not as long as us, even so, we should allow them some forms of representation to appease them.;x;;;;;;;;;;;;;
+conquer_tripoli_title;Conquer Tripoli;x;;;;;;;;;;;;;
+conquer_tripoli_desc; ;x;;;;;;;;;;;;;
+egyptian_conquest_title;Egyptian Conquest;x;;;;;;;;;;;;;
+egyptian_conquest_desc; ;x;;;;;;;;;;;;;
+the_caliphate_title;The Caliphate @CLP;x;;;;;;;;;;;;;
+the_caliphate_desc; ;x;;;;;;;;;;;;;
+rebuild_the_caliphate_title;Rebuild the Caliphate;x;;;;;;;;;;;;;
+rebuild_the_caliphate_desc;"Taking this decision will lock you out of the ""Unite the Peninsula"" decision. You will be able to accept Asturian and get cores on Iberia though if you complete all the Caliphate decisions and form the Caliphate.";x;;;;;;;;;;;;;
+unite_the_peninsula_title;Unite The Peninsula;x;;;;;;;;;;;;;
+unite_the_peninsula_desc;(Taking this decision will lock you out of the Caliphate Path of Al Andalus, but will give you more accepted pops in the short term) After many centuries of separation, it has become clear that even with out religious differences, we are not so different, sharing many customs. Even our languages are mostly the same, bar the arabs in the south, both of them stem from Latin and are very closely related. It is thus fitting that we attempt to unite under one, even with innevitable bloodshed. ;x;;;;;;;;;;;;;
+unite_the_peninsula_2_title;Unite the Peninsula;x;;;;;;;;;;;;;
+unite_the_peninsula_2_desc; ;x;;;;;;;;;;;;;
+form_iberia_atr_title;Form Iberia @IBE;x;;;;;;;;;;;;;
+form_iberia_atr_desc; ;x;;;;;;;;;;;;;
+form_iberia_adl_title;Iberia United;x;;;;;;;;;;;;;
+form_iberia_adl_desc; ;x;;;;;;;;;;;;;
+reforge_byzantium_title;Reforge Byzantium @BYZ;x;;;;;;;;;;;;;
+reforge_byzantium_desc;The Failure of the Emperor in 1834 to defend Crete against the Italian states was catastrophic, humiliating the empire and himself. This lead to the themes of the empire to rise up against him, proclaiming themselves as the new emperors, or in some cases, the populace overthrew their noble leaders and replaced them with republics, which is what these themes would do to the empire. Our strong position allows us to reunite the Empire once again, like a phoenix from the ashes.;x;;;;;;;;;;;;;
+end_the_seminole_wars_title;End The Seminole Wars;x;;;;;;;;;;;;;
+end_the_seminole_wars_desc; ;x;;;;;;;;;;;;;
+secede_to_italy_title;Secede Land to Italy;x;;;;;;;;;;;;;
+secede_to_italy_desc; ;x;;;;;;;;;;;;;
+recently_renovated_city;Recently Renovated City;x;;;;;;;;;;;;;
+jewel_of_the_danube_title;Jewel of the Danube;x;;;;;;;;;;;;;
+jewel_of_the_danube_desc; ;x;;;;;;;;;;;;;
+natural_borders_II_title;Reclaim Moesia;x;;;;;;;;;;;;;
+natural_borders_II_desc; ;x;;;;;;;;;;;;;
+partition_natives_title;Partition Natives;x;;;;;;;;;;;;;
+partition_natives_desc; ;x;;;;;;;;;;;;;
+settle_alaska;Settle Alaska;x;;;;;;;;;;;;;
+settle_alaska_desc; ;x;;;;;;;;;;;;;
+settle_alaska_title;Settle Alaska;x;;;;;;;;;;;;;
+secede_land_lsk_title;Secede Land to Our Alaskan Colony;x;;;;;;;;;;;;;
+secede_land_lsk_desc; ;x;;;;;;;;;;;;;
+alaskan_gold_rush;Alaskan Gold Rush;x;;;;;;;;;;;;;
+alaskan_gold_rush_country;Alaskan Gold Rush;x;;;;;;;;;;;;;
+alaskan_gold_rush_country_desc; ;x;;;;;;;;;;;;;
+assert_control_over_our_sea_title;Assert Control Over Our Sea;x;;;;;;;;;;;;;
+assert_control_over_our_sea_desc; ;x;;;;;;;;;;;;;
+settle_outer_manchuria_title;Settle Outer Manchuria;x;;;;;;;;;;;;;
+settle_outer_manchuria_desc; ;x;;;;;;;;;;;;;
+the_eastern_capital_title;The Eastern Capital;x;;;;;;;;;;;;;
+the_eastern_capital_desc;Move our seat of Government to a new city: Tokyo;x;;;;;;;;;;;;;
+transfer_lithuania_to_ubd_title;Transfer Lithuania to the UBD;x;;;;;;;;;;;;;
+transfer_lithuania_to_ubd_desc; ;x;;;;;;;;;;;;;
+el_tofo_title;Darraghare Mine;x;;;;;;;;;;;;;
+el_tofo_desc; ;x;;;;;;;;;;;;;
+united_sam_title;Unite Sudamericano Italians;x;;;;;;;;;;;;;
+united_sam_desc; ;x;;;;;;;;;;;;;
+natural_borders_title;Our Natural Borders;x;;;;;;;;;;;;;
+natural_borders_desc; ;x;;;;;;;;;;;;;
+reform_saf_title;Colonial Reform in Zuid-Afrika;x;;;;;;;;;;;;;
+reform_saf_desc; ;x;;;;;;;;;;;;;
+reform_tasmania_title;Reform Tasmanian Colonial Administration;x;;;;;;;;;;;;;
+reform_tasmania_desc;Discovered by Dutch explorers, Tasmania is relatively low populated, being one of our most recently acquired colonial holdings. Reforming the administration and attracting immigrants to the colony might help us in the long run, especially since it would be quite likely that the new semi-independent colony would ask for reintegration.;x;;;;;;;;;;;;;
+integrate_picards_title;Integrate the Picards;x;;;;;;;;;;;;;
+integrate_picards_desc; ;x;;;;;;;;;;;;;
+crimea_rightful_title;Rifhtful Byzantine Claims Over Crimea;x;;;;;;;;;;;;;
+crimea_rightful_desc;ye;x;;;;;;;;;;;;;
+crush_circassia_title;Crush the Circassians;x;;;;;;;;;;;;;
+crush_circassia_desc;The Circassians have been a thorn in our European side for quite a while, carrying out numerous raids on local establishments and preventing us from properly taxing their local populous.;x;;;;;;;;;;;;;
+new_frontiers_title;New Frontiers;x;;;;;;;;;;;;;
+new_frontiers_desc;We will support our Cossacks in colonizing Siberia with grain and cattle. This decision applies to provinces you own in Siberia, the more you have the more valuable it is.;x;;;;;;;;;;;;;
+jewel_of_the_pacific_title;Jewel Of The Pacific;x;;;;;;;;;;;;;
+jewel_of_the_pacific_desc;Vladivostok!;x;;;;;;;;;;;;;
+trans_siberian_title;Trans-Siberian Railway;x;;;;;;;;;;;;;
+trans_siberian_desc;Russian Empire government ministers personally appointed by the Emperor Alexander III of Russia and by his son, the Tsarevich Nicholas (later Emperor Nicholas II from 1894), supervised the building of the railway between 1891 and 1916. Even before its completion, the line attracted travelers who wrote of their adventures.The Trans-Siberian Railway has directly connected Moscow with Vladivostok since 1916.;x;;;;;;;;;;;;;
+integrate_the_finns_title;Integrate the Finnish;x;;;;;;;;;;;;;
+integrate_the_finns_desc;As we control the Finnish heartland, we can give them a more autonomous status in our nation.;x;;;;;;;;;;;;;
+scandinavian_federalism_title;The North Sea Empire;x;;;;;;;;;;;;;
+scandinavian_federalism_desc;Our advantageous position allows us to unite the Northern Countries into one single federation.;x;;;;;;;;;;;;;
+dacian_oil_title;Romanian Oil;x;;;;;;;;;;;;;
+dacian_oil_desc; ;x;;;;;;;;;;;;;
+south_slavic_compromise_title;South Slavic Compromise;x;;;;;;;;;;;;;
+south_slavic_compromise_desc; ;x;;;;;;;;;;;;;
+japan_korea_annexation_treaty_title;Japan-Korea Annexation Treaty;x;;;;;;;;;;;;;
+japan_korea_annexation_treaty_desc; ;x;;;;;;;;;;;;;
+send_students_to_foreign_countries_title;Send Students to Foreign Countries;x;;;;;;;;;;;;;
+send_students_to_foreign_countries_desc;We must send out our young students to study in foreign, more advanced, technologically-wise, nations for our own benefit. §RThis decision will make you sphered by a random country which is a great power and has atleast 100 relations with you. If you want a specific country to be your spherelord, make sure it is the only one with over 100 relations with you;x;;;;;;;;;;;;;
+wallachian_agriculture_title;Reform Agriculture;x;;;;;;;;;;;;;
+wallachian_agriculture_desc;The Fertile valleys of Muntenia are perfect for facilitating large quantities of food.;x;;;;;;;;;;;;;
+vatican_treaty_title;Vatican Treaty;x;;;;;;;;;;;;;
+vatican_treaty_desc;The time has come to bury the hatchet.;x;;;;;;;;;;;;;
+papal_compromise_title;Papal Compromise;x;;;;;;;;;;;;;
+papal_compromise_desc;Picking this will not allow us to confiscate Papal Wealth;x;;;;;;;;;;;;;
+papal_compromise;The Pope is Content;x;;;;;;;;;;;;;
+reform_the_papacy_title;Reform the Papacy;x;;;;;;;;;;;;;
+reform_the_papacy_desc; ;x;;;;;;;;;;;;;
+confiscate_papal_wealth_title;Confiscate Papal Wealth;x;;;;;;;;;;;;;
+confiscate_papal_wealth_desc; ;x;;;;;;;;;;;;;
+integrate_the_armenians_title;The Glory of the East;x;;;;;;;;;;;;;
+integrate_the_armenians_desc;Restore the True Glory of Rome: Its Rich Eastern Lands! (You cannot go for the decision 'Dreams of Rome', or it's equivalent if Rome forms, if you go down this path) ;x;;;;;;;;;;;;;
+modernize_nile_irrigation_title;Modernize Nile Irrigation;x;;;;;;;;;;;;;
+modernize_nile_irrigation_desc;Modernizing the dilapidated irrigation systems of the Nile will improve the output of farms across the Nile massively and surely bring a baby boom with it!;x;;;;;;;;;;;;;
+patriarchate_of_rome_title;The Patriarch of Rome;x;;;;;;;;;;;;;
+patriarchate_of_rome_desc;Restoring the Patriach to the Eternal City will bring us great Prestige and show the illegitimate Papists that God is on our side.;x;;;;;;;;;;;;;
+patriarchate_of_alexandria_title;Restore the Patriarch of Alexandria;x;;;;;;;;;;;;;
+patriarchate_of_alexandria_desc;The Seat of the Patriach of Alexandria has been lost centuries ago. Let us restore this holy site to its rightful faith and cement our victory over the Arab Kingdoms.;x;;;;;;;;;;;;;
+sack_mecca_medina_title;The Sack of Mecca and Medina;x;;;;;;;;;;;;;
+sack_mecca_medina_desc; ;x;;;;;;;;;;;;;
+byz_the_holy_city_title;Holy City of Jerusalem;x;;;;;;;;;;;;;
+byz_the_holy_city_desc;We have reconquered the Holy City! Our ultimate victory over the Arab Emirates and illegitimate Crusader States is moments away!;x;;;;;;;;;;;;;
+turkish_compromise_title;Turkmen Compromise;x;;;;;;;;;;;;;
+turkish_compromise_desc;Taking this will not allow us to reassert the supremacy of Greek culture.;;;;;;;;;;;;;;
+reassert_greek_superiority;Greek Cultural Supremacy;x;;;;;;;;;;;;;
+reassert_greek_superiority_title;Reassert the Supremacy of Greek Culture;x;;;;;;;;;;;;;
+reassert_greek_superiority_desc;Taking this will not allow us to create a compromise with the Turkmen population.;x;;;;;;;;;;;;;
+dreams_of_rome_title;Dreams of Rome;x;;;;;;;;;;;;;
+dreams_of_rome_desc;The Origin of our peoples is in Rome! We must reconquer our peoples ancient lands! (You cannot go for 'The Glory of the East' decision if you decide to go down this path) ;x;;;;;;;;;;;;;
+dominance_in_the_balkans_title;Dominance in the Balkans;x;;;;;;;;;;;;;
+dominance_in_the_balkans_desc;Dominate the Balkan states and establish our glorious rule in these unruly lands.;x;;;;;;;;;;;;;
+patriarchate_of_antioch_title;Restore the Patriarch of Antioch;x;;;;;;;;;;;;;
+patriarchate_of_antioch_desc;Restore the Patriach of Antioch to his rightful seat. Soon Christendom will fully return to the Levant and God Willing to the entire Middle East.;x;;;;;;;;;;;;;
+settle_the_aegean_coast;Settle the Aegean Coast;x;;;;;;;;;;;;;
+settle_the_aegean_coast_title;Settle the Aegean Coast;x;;;;;;;;;;;;;
+settle_the_aegean_coast_desc;Settle the Aegean Coast with Greeks, restoring our historic lands and bringing prosperity to our state.;x;;;;;;;;;;;;;
+release_tasmania_title;Release Tasmania;x;;;;;;;;;;;;;
+release_tasmania_desc;Dominion Gaming;x;;;;;;;;;;;;;
+release_saf_title;Release South Africa;;;;;;;;;;;;;;
+release_saf_desc;Dominion Gaming;x;;;;;;;;;;;;;
+language_reform_title;Language Reform;x;;;;;;;;;;;;;
+language_reform_desc;Various dialects in our country could be taught the correct form of our language to increase efficency.;x;;;;;;;;;;;;;
+will_receive_title;Request a Grant;x;;;;;;;;;;;;;
+will_receive_desc;Times in our nation are not the best, let us pray for international aid.;x;;;;;;;;;;;;;
+will_not_receive_title;Disable Recieving Grants;x;;;;;;;;;;;;;
+will_not_receive_desc;Disable Recieving Grants;x;;;;;;;;;;;;;
+will_give_title;Enable Giving Grants;x;;;;;;;;;;;;;
+will_give_desc;Let the world know that $COUNRTY_ADJ$ are a generous people.;x;;;;;;;;;;;;;
+will_not_give_title;Disable Giving Grants;x;;;;;;;;;;;;;
+will_not_give_desc;Our generosity has run its course.;x;;;;;;;;;;;;;
+reform_order_clergy_title;Reform the Clergy of Jerusalem;x;;;;;;;;;;;;;
+reform_order_clergy_desc;For long the clergy of Jerusalem has held massive influence over the government and it's laws, this was fine during the conquests but we cannot continue this way;x;;;;;;;;;;;;;
+secularizing_jerusalem_title;The Secularization of Jerusalem;x;;;;;;;;;;;;;
+secularizing_jerusalem_desc;Our First Step to Secularization shall be taken now, we shall strip powers from the clergy and hand them over to state offices.;x;;;;;;;;;;;;;
+secularizing_jerusalem_2_title;The Last Stage of Secularization;x;;;;;;;;;;;;;
+secularizing_jerusalem_2_desc;We have stripped away the clergy's offices, now we must completely separate all religious functions from the state.;x;;;;;;;;;;;;;
+italians_cleanup_title;Cleanup leftover Italian pops;x;;;;;;;;;;;;;
+italians_cleanup_desc;Take this decision to get rid of any North Italian or South Italian pops that are leftover in colonial states or other non-majority North/South Italian provinces.;x;;;;;;;;;;;;;
+tame_the_north_mex_title;Tame the North;x;;;;;;;;;;;;;
+tame_the_north_mex_desc; ;x;;;;;;;;;;;;;
+cisalpine_gaul_title;Restore Order in Cisalpine Gaul;x;;;;;;;;;;;;;
+cisalpine_gaul_desc; ;x;;;;;;;;;;;;;
+annex_illyricum_title;Integrate our puppet in Illyricum;x;;;;;;;;;;;;;
+annex_illyricum_desc; ;x;;;;;;;;;;;;;
+abolish_yuan_title;Abolish the Mandate of Yuan;x;;;;;;;;;;;;;
+abolish_yuan_desc;Ever since the start of the Second Mongolian Empire, we have kept a presence in China, although not directly. This presence has over time gradually diminished into becoming the rump state of Jijig Yuwan, a shadow of it's former hold over China it serves no purpose to us as being kept seperate from our empire.;x;;;;;;;;;;;;;
+mongol_army_reform_title;First phase of Eldegai's Reform;x;;;;;;;;;;;;;
+mongol_army_reform_desc;Our military has suffered numerous setbacks due to it's dated methods and weapons, we must invest into a reform of the army at the head of our field marshall Eldegai.;x;;;;;;;;;;;;;
+final_army_reform_title;Finalisation of Eldegai's Reforms;x;;;;;;;;;;;;;
+final_army_reform_desc;After decades of study and theorization, our generals have finished what Eldegai started decades ago and we now have a new modernized army.;x;;;;;;;;;;;;;
+the_wild_regions_title;The Mongol Steppe;x;;;;;;;;;;;;;
+the_wild_regions_desc; ;x;;;;;;;;;;;;;
+yuanese_rights_title;Yuanese Language Program;x;;;;;;;;;;;;;
+yuanese_rights_desc;After many hundreds of years of control over Yuan, the people have slowly adopted Mongolian customs and a heavily Mongolian influenced language. To the untrained ear and eye, they seem to be one in the same.;x;;;;;;;;;;;;;
+claims_in_north_italy_title;Expansion into North Italy;x;;;;;;;;;;;;;
+claims_in_north_italy_desc;"Taking this decision will block out the ability to take the ""Consolidate our Germanic Holdings"" decision";x;x;;;;;;;;;;;;
+further_conquests_germany_title;Consolidate our Germanic Holdings;x;;;;;;;;;;;;;
+further_conquests_germany_desc;"Taking this decision will block out the ability to take the ""Expansion in North Italy"" decision";x;;;;;;;;;;;;;
+reclaim_arabia_title;The Holy Lands;x;;;;;;;;;;;;;
+reclaim_arabia_desc;After many centuries of decline, our Sultanate is resurgent and is seeking to retake our former lands, starting with the Holy City and Arabia;x;;;;;;;;;;;;;
+nejd_custodianship_title;Nejd Custodianship;x;;;;;;;;;;;;;
+nejd_custodianship_desc;The Nejd desert is a very import part of Arabian folk lore and Sunni theology, having a host of scholars and thinkers situated in these deserts.;x;;;;;;;;;;;;;
+the_indian_company_title;The Bengali Charter;x;;;;;;;;;;;;;
+the_indian_company_desc;Our ancestors explored much of Asia and the Indian continent before the europeans even set foot around the Cape, but after the crusaders landed in the levant we were stripped of valuable land which allowed us to fund these expeditions. Now after our rebirth we must kickstart our colonization by conquering the Bengal Delta. §RThis decision declares war on Bengal for an establish protectorate cb and gives you 15 infamy;x;;;;;;;;;;;;;
+roman_syracuse_title;Crush the Syracusean Despotate;x;;;;;;;;;;;;;
+roman_syracuse_desc; ;x;;;;;;;;;;;;;
+the_great_trilemma_title;The Great Trilemma;x;;;;;;;;;;;;;
+the_great_trilemma_desc;The Italian peninsula has been secured, now we must convene. §RThis event contains 3 options, two of which will give you infamy, one is 15 infamy and the other is 25 infamy, so be careful when clicking this decision;x;;;;;;;;;;;;;
+transalpine_gaul_title;Transalpine Gaul;x;;;;;;;;;;;;;
+transalpine_gaul_desc; ;x;;;;;;;;;;;;;
+hide_tech_schools_title;Hide Tech School decisions;x;;;;;;;;;;;;;
+hide_tech_schools_desc; ;x;;;;;;;;;;;;;
+the_shukensen_riekensen_title;Shukensen-Riekensen Doctrine;x;;;;;;;;;;;;;
+the_shukensen_riekensen_desc; ;x;;;;;;;;;;;;;
+breton_assimilation_title;Assimilation of the Bretons;x;;;;;;;;;;;;;
+breton_assimilation_desc;This decision increases the base assimilation chance for Breton pops, although the decision only gives prestige and militancy;x;;;;;;;;;;;;;
+education_reform_1_title;Education Reform;x;;;;;;;;;;;;;
+education_reform_1_desc; ;x;;;;;;;;;;;;;
+conquer_the_peninsula_title;Conquer the Iberian Peninsula;x;;;;;;;;;;;;;
+conquer_the_peninsula_desc;It is our god given right to conquer the entire Iberian Peninsula! Soon the Caliphate will rule from the Galician Hillsides to the Deserts of Oman! Inshallah!;x;;;;;;;;;;;;;
+accept_asturian_clp_title;Integrate the Asturians;x;;;;;;;;;;;;;
+accept_asturian_clp_desc;Now that we conquered the entire Peninsula and destroyed the Asturian Kings we can claim to be the rightful rulers of Iberia. Let peace and prosperity convince the Asturians to finally accept their new overlords and integrate them into loyal subjects of the Caliphate.;x;;;;;;;;;;;;;

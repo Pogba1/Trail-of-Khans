@@ -14,69 +14,6 @@ leader = {
     personality = cartographer
 }
 
-
-
-army = {
-    name = "Frouros ton Syrakouson"
-    location = 764
-
-    regiment = {
-        name = "Infantry Brigade"
-        type = infantry
-        home = 764
-    }
-    regiment = {
-        name = "Infantry Brigade"
-        type = infantry
-        home = 764
-    }
-    regiment = {
-        name = "Infantry Brigade"
-        type = infantry
-        home = 3332
-    }
-    regiment = {
-        name = "French Infantry Brigade"
-        type = infantry
-        home = 854
-    }
-    regiment = {
-        name = "Hussar Brigade"
-        type = hussar
-        home = 764
-    }
-    regiment = {
-        name = "Cuirassier Brigade"
-        type = cuirassier
-        home = 764
-    }
-    regiment = {
-        name = "Cuirassier Brigade"
-        type = cuirassier
-        home = 763
-    }
-    regiment = {
-        name = "Cuirassier Brigade"
-        type = cuirassier
-        home = 763
-    }
-    regiment = {
-        name = "Artillery Brigade"
-        type = artillery
-        home = 762
-    }
-    regiment = {
-        name = "Artillery Brigade"
-        type = artillery
-        home = 762
-    }
-    regiment = {
-        name = "Artillery Brigade"
-        type = artillery
-        home = 762
-    }
-}
-
 army = {
     name = "Brentesion Spartans"
     location = 758

@@ -1,6 +1,5 @@
-owner = TUN
-controller = TUN
-add_core = TUN
+owner = ADL
+controller = ADL
 add_core = SYC
 trade_goods = sulphur
 life_rating = 35

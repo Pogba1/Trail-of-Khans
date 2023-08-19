@@ -1,52 +1,6 @@
-
-army = {
-    name = "Army of the Sultan of Morocco"
-    location = 1681
-    regiment = {
-        name= "1. Infantry Brigade 'Askäria'"
-        type = irregular
-        home = 1680
-    }
-
-    regiment = {
-        name= "2. Infantry Brigade"
-        type = irregular
-        home = 1681
-    }
-
-    regiment = {
-        name= "3. Infantry Brigade"
-        type = irregular
-        home = 1682
-    }
-
-}
-
-army = {
-    name = "Army of the Atlas"
-    location = 1684
-    regiment = {
-        name= "4. Infantry Brigade 'Ait 'Atta'"
-        type = irregular
-        home = 1683
-    }
-
-    regiment = {
-        name= "5. Infantry Brigade"
-        type = irregular
-        home = 1688
-    }
-
-    regiment = {
-        name= "6. Infantry Brigade 'Ait Mnad'"
-        type = irregular
-        home = 1694
-    }
-}
-
 army = {
     name = "Army of Sahara"
-    location = 1698
+    location = 1690
     regiment = {
         name= "7. Infantry Brigade 'Dawi Mani'"
         type = irregular
@@ -63,23 +17,6 @@ army = {
         name= "9. Infantry Brigade"
         type = irregular
         home = 1691
-    }
-
-}
-
-army = {
-    name = "Army of the Rif"
-    location = 1685
-    regiment = {
-        name= "10. Infantry Brigade"
-        type = irregular
-        home = 1686
-    }
-
-    regiment = {
-        name= "12. Infantry Brigade"
-        type = irregular
-        home = 1685
     }
 
 }
