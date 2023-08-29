@@ -1333,6 +1333,7 @@ basic_chemistry = {
     cost = 3600
 
     activate_building = fertilizer_factory
+	pop_growth = 0.0001
     ai_chance = {
         factor = 20
         modifier = {
@@ -1351,6 +1352,7 @@ medicine = {
     cost = 7200
 
     supply_limit = 0.25
+	pop_growth = 0.0003
 
     ai_chance = {
         factor = 100
@@ -1378,7 +1380,7 @@ inorganic_chemistry = {
     cost = 10800
 
     supply_limit = 0.25
-	
+	pop_growth = 0.0002
     ai_chance = {
         factor = 5
         modifier = {
@@ -1486,6 +1488,7 @@ electricity = {
 
     supply_limit = 0.50
     factory_throughput = 0.1
+	pop_growth = 0.0002
     ai_chance = {
         factor = 5
         modifier = {

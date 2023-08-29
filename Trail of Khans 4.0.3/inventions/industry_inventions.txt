@@ -1008,7 +1008,6 @@ aerial_bacteria_and_antiseptic_principle = {
         }
     }
     effect = {
-        pop_growth = 0.0001
         land_attrition = -0.05
         soldier_to_pop_loss = 0.01
     }
@@ -1029,7 +1028,6 @@ vaccination = {
     effect = {
         land_attrition = -0.05
         soldier_to_pop_loss = 0.01
-        pop_growth = 0.0001
     }
 }
 chemotherapy = {
@@ -1063,7 +1061,6 @@ genetics_heredity = {
         }
     }
     effect = {
-        pop_growth = 0.0001
     }
 }
 clinical_thermometers_and_binaural_stethoscopes = {
@@ -1080,7 +1077,6 @@ clinical_thermometers_and_binaural_stethoscopes = {
         }
     }
     effect = {
-        pop_growth = 0.0001
     }
 }
 prophylaxis_against_malaria = {
@@ -1144,7 +1140,6 @@ germ_theory = {
         }
     }
     effect = {
-        pop_growth = 0.0002
     }
 }
 
@@ -1327,7 +1322,6 @@ x_rays = {
         }
     }
     effect = {
-        pop_growth = 0.0002
         land_attrition = -0.02
     }
 }

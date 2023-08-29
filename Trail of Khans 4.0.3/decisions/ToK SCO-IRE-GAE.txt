@@ -396,7 +396,6 @@ political_decisions = {
 			has_global_flag = attempt_reform_gaulIII
 		}
 		allow = {
-			NOT = {exist = FRA}
 			all_core = {owned_by = THIS}
 		}
 		effect = {
