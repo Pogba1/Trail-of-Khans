@@ -400,6 +400,8 @@ country_event = {
     title = "Literacy Setup 2"
     desc = " "
 
+    allow_multiple_instances = no
+
     mean_time_to_happen = {
         days = 0
     }
