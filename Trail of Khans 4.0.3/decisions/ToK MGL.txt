@@ -90,7 +90,7 @@ political_decisions = {
 			breech_loaded_rifles = 1
 		}
 		effect = {
-			badboy = 15
+			badboy = 11
 			release_vassal = MCK
 			diplomatic_influence = {
 				who = MCK
