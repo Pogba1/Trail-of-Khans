@@ -92,7 +92,7 @@ roman_civil_war_cb = {
 
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.16
+	peace_cost_factor = 0.33
 	penalty_factor = 1
 	always = yes
 
@@ -148,7 +148,7 @@ imperial_restoration_cb = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.185
+	peace_cost_factor = 0.25
 	penalty_factor = 1
 	always = yes
 
@@ -274,7 +274,7 @@ chinese_unification_cb = {
 	
 	badboy_factor = 0.5
 	prestige_factor = 5
-	peace_cost_factor = 0.185
+	peace_cost_factor = 0.25
 	penalty_factor = 1
 	always = yes
 
@@ -898,7 +898,7 @@ acquire_core_state = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.13
+	peace_cost_factor = 0.2
 	penalty_factor = 1
 	always = yes
 
@@ -999,7 +999,7 @@ acquire_substate_region = {
 	
 	badboy_factor = 2
 	prestige_factor = 2
-	peace_cost_factor = 0.185
+	peace_cost_factor = 0.4
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1055,7 +1055,7 @@ take_capital = {
 	
 	badboy_factor = 2.2
 	prestige_factor = 10
-	peace_cost_factor = 0.4
+	peace_cost_factor = 0.8
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1151,7 +1151,7 @@ take_capital_america = {
 	
 	badboy_factor = 2.2
 	prestige_factor = 10
-	peace_cost_factor = 0.4
+	peace_cost_factor = 0.8
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1243,7 +1243,7 @@ acquire_state = {
 	
 	badboy_factor = 2
 	prestige_factor = 2
-	peace_cost_factor = 0.185
+	peace_cost_factor = 0.33
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1342,7 +1342,7 @@ acquire_state_america = {
 	
 	badboy_factor = 1.2
 	prestige_factor = 2
-	peace_cost_factor = 0.13
+	peace_cost_factor = 0.33
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1431,7 +1431,7 @@ place_in_the_sun = {
 
 	badboy_factor = 1
 	prestige_factor = 2
-	peace_cost_factor = 0.1
+	peace_cost_factor = 0.2
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2070,7 +2070,7 @@ demand_concession_casus_belli = {
 	
 	badboy_factor = 1.5
 	prestige_factor = 0.1
-	peace_cost_factor = 0.11
+	peace_cost_factor = 0.2
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2126,7 +2126,7 @@ demand_concession_NI_casus_belli = {
 	
 	badboy_factor = 1
 	prestige_factor = 1
-	peace_cost_factor = 0.07
+	peace_cost_factor = 0.15
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
