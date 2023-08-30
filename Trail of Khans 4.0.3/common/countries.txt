@@ -561,3 +561,11 @@ D51        = "countries/D51.txt"
 #Fuck you David
 
 SIG        = "countries/Sigmanistan.txt"
+
+# Special countries
+TIN		= 	"countries/Tiny State.txt"
+SMA		= 	"countries/Small State.txt"
+MED		=	"countries/Medium State.txt"
+LRG		=	"countries/Large State.txt"
+HUG		=	"countries/Huge State.txt"
+STR		=	"countries/Strategic State.txt"

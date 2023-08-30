@@ -421,7 +421,40 @@ hyperinflation = {
         factory_cost = 0.1
     }
 }
-#eary_classical_theory
+#eary_classical_theory and critique
+industrial_furniture_production = {
+    limit = { early_classical_theory_and_critique = 1 }
+    news = no
+    chance = {
+        base = 100
+    }
+    effect = {
+        activate_building = furniture_factory
+    }
+}
+
+industrial_luxury_furniture_production = {
+    limit = { early_classical_theory_and_critique = 1 }
+    news = no
+    chance = {
+        base = 100  
+    }
+    effect = {
+        activate_building = luxury_furniture_factory
+    }
+}
+
+industrial_sawmills = {
+    limit = { early_classical_theory_and_critique = 1 }
+    news = no
+    chance = {
+        base = 100
+    }
+    effect = {
+        activate_building = lumber_mill
+    }
+}
+#late classical theory
 john_ramsay_mcculloch = {
     limit = { late_classical_theory = 1 }
     news = no
@@ -1329,6 +1362,27 @@ friedrich_hayek = {
         permanent_prestige = 1
     }
 }
+#Freedom of Trade
+industrial_paper_production = {
+    limit = { freedom_of_trade = 1 }
+    news = no
+    chance = {
+        base = 100
+    }
+    effect = {
+        activate_building = paper_mill
+    }
+}
+portland_cement = {
+    limit = { freedom_of_trade = 1 }
+    news = no
+    chance = {
+        base = 100
+    }
+    effect = {
+        activate_building = cement_factory
+    }
+}
 #market_structure
 polypoly_structure = {
     news = no
@@ -1714,6 +1768,16 @@ import_substitution_industrialization = {
 }
 
 #guild_based_production
+canning_process = {
+    limit = { guild_based_production = 1 }
+    news = no
+    chance = {
+        base = 100
+    }
+    effect = {
+        activate_building = canned_food_factory
+    }
+}
 modern_winemaking = {
     limit = {
         guild_based_production = 1

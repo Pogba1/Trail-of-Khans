@@ -1,190 +1,336 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-GC_NAME;Schizo Campaign;x
-GC_DESC;You forgot your pills again! You just woke up in a strange world where Hyperborean Byzantium is real and the Mongol empire did a large amount of trolling, Poland is very epic and the Italians colonized the Americas.;x
-post_napoleonic_thought;Post-Revolutionary Thought;x
-post_napoleonic_army_doctrine;Post-Revolutionary Army Doctrine;x
-mongolian_dependency;Mongolian Tribute State;x
-mongolian_dependency_ruler;Prince;x
-mongolian_tech_school;Jochid School of Thought;x
-no_personality;No bonus;;;;;;;;;;;
-active_p;No bonus;;;;;;;;;;;
-au_fait;§G+3 Attack;;;;;;;;;;;
-audacious;§G+2 Attack §G+2 Defense;;;;;;;;;;;
-able;No bonus;;;;;;;;;;;
-aweless;No bonus;;;;;;;;;;;
-aggressive;§G+1 Attack;;;;;;;;;;;
-arrogant;No bonus;;;;;;;;;;;
-balanced_p;§G+1 Defense;;;;;;;;;;;
-bigoted;No bonus;;;;;;;;;;;
-brilliant;No bonus;;;;;;;;;;;
-brutish;§G+1 Attack;;;;;;;;;;;
-bold;§G+1 Attack;;;;;;;;;;;
-brash;§G+ Attack;;;;;;;;;;;
-ballsy;No bonus;;;;;;;;;;;
-bastard;§R-1 Defense;;;;;;;;;;;
-cautious;§G+3 Defense;;;;;;;;;;;
-coward;No bonus;;;;;;;;;;;
-chickenhearted;§R-2 Attack;;;;;;;;;;;
-craven;No bonus;;;;;;;;;;;
-competent;No bonus;;;;;;;;;;;
-clever;No bonus;;;;;;;;;;;
-careless;No bonus;;;;;;;;;;;
-calm;§R-1 Attack;;;;;;;;;;;
-coolminded;§G+2 Defense;;;;;;;;;;;
-careful;No bonus;;;;;;;;;;;
-choleric;§G+1 Attack;;;;;;;;;;;
-charismatic;No bonus;;;;;;;;;;;
-chivalrous;§G+2 Attack;;;;;;;;;;;
-confident;No bonus;;;;;;;;;;;
-doughty;No bonus;;;;;;;;;;;
-defiant;§G+3 Defense;;;;;;;;;;;
-disciplined;§G+2 Attack;;;;;;;;;;;
-dauntless;No bonus;;;;;;;;;;;
-daring;§G+3 Attack;;;;;;;;;;;
-disorderly;No bonus;;;;;;;;;;;
+GC_NAME;Schizo Campaign;x;;;;;;;;;;;;
+GC_DESC;You forgot your pills again! You just woke up in a strange world where Hyperborean Byzantium is real and the Mongol empire did a large amount of trolling, Poland is very epic and the Italians colonized the Americas.;x;;;;;;;;;;;;
+post_napoleonic_thought;Post-Revolutionary Thought;x;;;;;;;;;;;;
+post_napoleonic_army_doctrine;Post-Revolutionary Army Doctrine;x;;;;;;;;;;;;
+mongolian_dependency;Mongolian Tribute State;x;;;;;;;;;;;;
+mongolian_dependency_ruler;Prince;x;;;;;;;;;;;;
+mongolian_tech_school;Jochid School of Thought;x;;;;;;;;;;;;
+no_personality;No bonus;;;;;;;;;;;;;
+active_p;No bonus;;;;;;;;;;;;;
+au_fait;§G+3 Attack;;;;;;;;;;;;;
+audacious;§G+2 Attack §G+2 Defense;;;;;;;;;;;;;
+able;No bonus;;;;;;;;;;;;;
+aweless;No bonus;;;;;;;;;;;;;
+aggressive;§G+1 Attack;;;;;;;;;;;;;
+arrogant;No bonus;;;;;;;;;;;;;
+balanced_p;§G+1 Defense;;;;;;;;;;;;;
+bigoted;No bonus;;;;;;;;;;;;;
+brilliant;No bonus;;;;;;;;;;;;;
+brutish;§G+1 Attack;;;;;;;;;;;;;
+bold;§G+1 Attack;;;;;;;;;;;;;
+brash;§G+ Attack;;;;;;;;;;;;;
+ballsy;No bonus;;;;;;;;;;;;;
+bastard;§R-1 Defense;;;;;;;;;;;;;
+cautious;§G+3 Defense;;;;;;;;;;;;;
+coward;No bonus;;;;;;;;;;;;;
+chickenhearted;§R-2 Attack;;;;;;;;;;;;;
+craven;No bonus;;;;;;;;;;;;;
+competent;No bonus;;;;;;;;;;;;;
+clever;No bonus;;;;;;;;;;;;;
+careless;No bonus;;;;;;;;;;;;;
+calm;§R-1 Attack;;;;;;;;;;;;;
+coolminded;§G+2 Defense;;;;;;;;;;;;;
+careful;No bonus;;;;;;;;;;;;;
+choleric;§G+1 Attack;;;;;;;;;;;;;
+charismatic;No bonus;;;;;;;;;;;;;
+chivalrous;§G+2 Attack;;;;;;;;;;;;;
+confident;No bonus;;;;;;;;;;;;;
+doughty;No bonus;;;;;;;;;;;;;
+defiant;§G+3 Defense;;;;;;;;;;;;;
+disciplined;§G+2 Attack;;;;;;;;;;;;;
+dauntless;No bonus;;;;;;;;;;;;;
+daring;§G+3 Attack;;;;;;;;;;;;;
+disorderly;No bonus;;;;;;;;;;;;;
 decisive;No bonus;;;;;;;;;;;;;
 dumb;No bonus;;;;;;;;;;;;;
-diplomatic;No bonus;;;;;;;;;;;
-deeply_religious;§R-1 Attack §R-1 Defense;;;;;;;;;;;
-expert;No bonus;;;;;;;;;;;
-efficient;§G+2 Attack;;;;;;;;;;;
-earnest;No bonus;;;;;;;;;;;
-fanatic;No bonus;;;;;;;;;;;
-gallant;No bonus;;;;;;;;;;;
-glory_hound;No bonus;;;;;;;;;;;
-gutsy;§G+1 Defense;;;;;;;;;;;
-harsh;§G+1 Attack §G+1 Defense;;;;;;;;;;;
-hellbent;No bonus;;;;;;;;;;;
-heroic;No bonus;;;;;;;;;;;
-inspiring;No bonus;;;;;;;;;;;
-impetuous;§R-2 Defense;;;;;;;;;;;
-implacable;§G+3 Attack §G+3 Defense;;;;;;;;;;;
-imperious;§G+1 Attack §R-2 Defense;;;;;;;;;;;
-irate;§G+1 Attack;;;;;;;;;;;
-intuitive;No bonus;;;;;;;;;;;
-impulsive;No bonus;;;;;;;;;;;
-incapable;No bonus;;;;;;;;;;;
-indifferent;No bonus;;;;;;;;;;;
-intelligent;No bonus;;;;;;;;;;;
-inept;§R-1 Attack;;;;;;;;;;;
-inefficient;§R-2 Attack;;;;;;;;;;;
-keen;No bonus;;;;;;;;;;;
-lilylivered;§R-2 Attack;;;;;;;;;;;
-lackluster;No bonus;;;;;;;;;;;
-merciless;§G+2 Attack §G+2 Defense;;;;;;;;;;;
-meticulous;No bonus;;;;;;;;;;;
-manful;No bonus;;;;;;;;;;;
-madman;No bonus;;;;;;;;;;;
-mediocre;No bonus;;;;;;;;;;;
-maladroit;No bonus;;;;;;;;;;;
-openminded;No bonus;;;;;;;;;;;
-persistant;No bonus;;;;;;;;;;;
-polite;No bonus;;;;;;;;;;;
-pusillanimous;No bonus;;;;;;;;;;;
-pisspoor;§R-2 Attack;;;;;;;;;;;
-perverse;No bonus;;;;;;;;;;;
-resourceful;§R-1 Defense;;;;;;;;;;;
+diplomatic;No bonus;;;;;;;;;;;;;
+deeply_religious;§R-1 Attack §R-1 Defense;;;;;;;;;;;;;
+expert;No bonus;;;;;;;;;;;;;
+efficient;§G+2 Attack;;;;;;;;;;;;;
+earnest;No bonus;;;;;;;;;;;;;
+fanatic;No bonus;;;;;;;;;;;;;
+gallant;No bonus;;;;;;;;;;;;;
+glory_hound;No bonus;;;;;;;;;;;;;
+gutsy;§G+1 Defense;;;;;;;;;;;;;
+harsh;§G+1 Attack §G+1 Defense;;;;;;;;;;;;;
+hellbent;No bonus;;;;;;;;;;;;;
+heroic;No bonus;;;;;;;;;;;;;
+inspiring;No bonus;;;;;;;;;;;;;
+impetuous;§R-2 Defense;;;;;;;;;;;;;
+implacable;§G+3 Attack §G+3 Defense;;;;;;;;;;;;;
+imperious;§G+1 Attack §R-2 Defense;;;;;;;;;;;;;
+irate;§G+1 Attack;;;;;;;;;;;;;
+intuitive;No bonus;;;;;;;;;;;;;
+impulsive;No bonus;;;;;;;;;;;;;
+incapable;No bonus;;;;;;;;;;;;;
+indifferent;No bonus;;;;;;;;;;;;;
+intelligent;No bonus;;;;;;;;;;;;;
+inept;§R-1 Attack;;;;;;;;;;;;;
+inefficient;§R-2 Attack;;;;;;;;;;;;;
+keen;No bonus;;;;;;;;;;;;;
+lilylivered;§R-2 Attack;;;;;;;;;;;;;
+lackluster;No bonus;;;;;;;;;;;;;
+merciless;§G+2 Attack §G+2 Defense;;;;;;;;;;;;;
+meticulous;No bonus;;;;;;;;;;;;;
+manful;No bonus;;;;;;;;;;;;;
+madman;No bonus;;;;;;;;;;;;;
+mediocre;No bonus;;;;;;;;;;;;;
+maladroit;No bonus;;;;;;;;;;;;;
+openminded;No bonus;;;;;;;;;;;;;
+persistant;No bonus;;;;;;;;;;;;;
+polite;No bonus;;;;;;;;;;;;;
+pusillanimous;No bonus;;;;;;;;;;;;;
+pisspoor;§R-2 Attack;;;;;;;;;;;;;
+perverse;No bonus;;;;;;;;;;;;;
+resourceful;§R-1 Defense;;;;;;;;;;;;;
 respectful;No bonus;;;;;;;;;;;;;
-romantic;No bonus;;;;;;;;;;;
-relentless;§G+2 Attack;;;;;;;;;;;
-reserved;§R-1 Attack;;;;;;;;;;;
-resolute;§G+2 Defense;;;;;;;;;;;
-skilled;§G+1 Attack;;;;;;;;;;;
-shrinking_violet;No bonus;;;;;;;;;;;
-strange;No bonus;;;;;;;;;;;
-stout;§G+1 Defense;;;;;;;;;;;
-soldierly;§G+1 Attack;;;;;;;;;;;
-spirited;§G+2 Defense;;;;;;;;;;;
-stalwart;§G+1 Attack §G+1 Defense;;;;;;;;;;;
-soft;§R-2 Attack;;;;;;;;;;;
-spineless;§R-2 Attack;;;;;;;;;;;
-stouthearted;§G+1 Attack;;;;;;;;;;;
-steadfast;§G+2 Attack;;;;;;;;;;;
-scared;§R-1 Defense;;;;;;;;;;;
-shirker;§R-1 Defense;;;;;;;;;;;
-smart_p;No bonus;;;;;;;;;;;
-sharp;No bonus;;;;;;;;;;;
-timid;§R-1 Attack;;;;;;;;;;;
-tactful;No bonus;;;;;;;;;;;
-unflinching;§G+3 Attack;;;;;;;;;;;
-unruly;No bonus;;;;;;;;;;;
-undisciplined;No bonus;;;;;;;;;;;
+romantic;No bonus;;;;;;;;;;;;;
+relentless;§G+2 Attack;;;;;;;;;;;;;
+reserved;§R-1 Attack;;;;;;;;;;;;;
+resolute;§G+2 Defense;;;;;;;;;;;;;
+skilled;§G+1 Attack;;;;;;;;;;;;;
+shrinking_violet;No bonus;;;;;;;;;;;;;
+strange;No bonus;;;;;;;;;;;;;
+stout;§G+1 Defense;;;;;;;;;;;;;
+soldierly;§G+1 Attack;;;;;;;;;;;;;
+spirited;§G+2 Defense;;;;;;;;;;;;;
+stalwart;§G+1 Attack §G+1 Defense;;;;;;;;;;;;;
+soft;§R-2 Attack;;;;;;;;;;;;;
+spineless;§R-2 Attack;;;;;;;;;;;;;
+stouthearted;§G+1 Attack;;;;;;;;;;;;;
+steadfast;§G+2 Attack;;;;;;;;;;;;;
+scared;§R-1 Defense;;;;;;;;;;;;;
+shirker;§R-1 Defense;;;;;;;;;;;;;
+smart_p;No bonus;;;;;;;;;;;;;
+sharp;No bonus;;;;;;;;;;;;;
+timid;§R-1 Attack;;;;;;;;;;;;;
+tactful;No bonus;;;;;;;;;;;;;
+unflinching;§G+3 Attack;;;;;;;;;;;;;
+unruly;No bonus;;;;;;;;;;;;;
+undisciplined;No bonus;;;;;;;;;;;;;
 unforgiving;No bonus;;;;;;;;;;;;;
-unmanly;§R-3 Attack;;;;;;;;;;;
-unsound;No bonus;;;;;;;;;;;
-vainglorious;No bonus;;;;;;;;;;;
-vicious;§G+2 Attack;;;;;;;;;;;
-wrathful;§G+2 Attack;;;;;;;;;;;
-wretched;§R-1 Attack;;;;;;;;;;;
-yellow;§R-4 Attack;;;;;;;;;;;
-no_background;§R-2 Attack §R-2 Defense;;;;;;;;;;;
+unmanly;§R-3 Attack;;;;;;;;;;;;;
+unsound;No bonus;;;;;;;;;;;;;
+vainglorious;No bonus;;;;;;;;;;;;;
+vicious;§G+2 Attack;;;;;;;;;;;;;
+wrathful;§G+2 Attack;;;;;;;;;;;;;
+wretched;§R-1 Attack;;;;;;;;;;;;;
+yellow;§R-4 Attack;;;;;;;;;;;;;
+no_background;§R-2 Attack §R-2 Defense;;;;;;;;;;;;;
 ambitious_careerist;No bonus;;;;;;;;;;;;;
 architect;No bonus;;;;;;;;;;;;;
-armchair_general;No bonus;;;;;;;;;;;
-artillerist;§R-1 Defense;;;;;;;;;;;
-amateur;§R-1 Defense;;;;;;;;;;;
-aristocrat;No bonus;;;;;;;;;;;
-adventurer;§G+2 Attack;;;;;;;;;;;
-butcher;No bonus;;;;;;;;;;;
-bureaucrat_speed;No bonus;;;;;;;;;;;
-brownnoser;§G+1 Attack;;;;;;;;;;;
+armchair_general;No bonus;;;;;;;;;;;;;
+artillerist;§R-1 Defense;;;;;;;;;;;;;
+amateur;§R-1 Defense;;;;;;;;;;;;;
+aristocrat;No bonus;;;;;;;;;;;;;
+adventurer;§G+2 Attack;;;;;;;;;;;;;
+butcher;No bonus;;;;;;;;;;;;;
+bureaucrat_speed;No bonus;;;;;;;;;;;;;
+brownnoser;§G+1 Attack;;;;;;;;;;;;;
 brilliant_strategist;No bonus;;;;;;;;;;;;;
-bootlicker;§G+1 Defense;;;;;;;;;;;
-cavalry_school;§G+2 Attack;;;;;;;;;;;
-colonial_1;§R-2 Defense;;;;;;;;;;;
-cartographer;No bonus;;;;;;;;;;;
-cursed_luck;§G+2 Attack §G+2 Defense;;;;;;;;;;;
-corrupt;No bonus;;;;;;;;;;;
-clueless;§R-1 Attack;;;;;;;;;;;
-debutante;No bonus;;;;;;;;;;;
-disgraced;No bonus;;;;;;;;;;;
-drillmaster;No bonus;;;;;;;;;;;
-diplomat;No bonus;;;;;;;;;;;
-engineer_1;No bonus;;;;;;;;;;;
-exranker;No bonus;;;;;;;;;;;
-expert_raider;§G+2 Attack;;;;;;;;;;;
-eccentric_genius;§G+2 Attack;;;;;;;;;;;
-elderly;No bonus;;;;;;;;;;;
-gifted_administrator;No bonus;;;;;;;;;;;
-generals_aide;§G+1 Defense;;;;;;;;;;;
-hated;§G+1 Attack §G+1 Defense;;;;;;;;;;;
-innovative_tactician;§G+1 Attack;;;;;;;;;;;
-immoral;No bonus;;;;;;;;;;;
-incompetent;No bonus;;;;;;;;;;;
-megalomaniac;§R-2 Attack;;;;;;;;;;;
-natural_born_leader;§G+1 Attack;;;;;;;;;;;
+bootlicker;§G+1 Defense;;;;;;;;;;;;;
+cavalry_school;§G+2 Attack;;;;;;;;;;;;;
+colonial_1;§R-2 Defense;;;;;;;;;;;;;
+cartographer;No bonus;;;;;;;;;;;;;
+cursed_luck;§G+2 Attack §G+2 Defense;;;;;;;;;;;;;
+corrupt;No bonus;;;;;;;;;;;;;
+clueless;§R-1 Attack;;;;;;;;;;;;;
+debutante;No bonus;;;;;;;;;;;;;
+disgraced;No bonus;;;;;;;;;;;;;
+drillmaster;No bonus;;;;;;;;;;;;;
+diplomat;No bonus;;;;;;;;;;;;;
+engineer_1;No bonus;;;;;;;;;;;;;
+exranker;No bonus;;;;;;;;;;;;;
+expert_raider;§G+2 Attack;;;;;;;;;;;;;
+eccentric_genius;§G+2 Attack;;;;;;;;;;;;;
+elderly;No bonus;;;;;;;;;;;;;
+gifted_administrator;No bonus;;;;;;;;;;;;;
+generals_aide;§G+1 Defense;;;;;;;;;;;;;
+hated;§G+1 Attack §G+1 Defense;;;;;;;;;;;;;
+innovative_tactician;§G+1 Attack;;;;;;;;;;;;;
+immoral;No bonus;;;;;;;;;;;;;
+incompetent;No bonus;;;;;;;;;;;;;
+megalomaniac;§R-2 Attack;;;;;;;;;;;;;
+natural_born_leader;§G+1 Attack;;;;;;;;;;;;;
 nationalist;§G+1 Attack;;;;;;;;;;;;;
-old_school;§G+1 Attack §R-2 Defense;;;;;;;;;;;
-poet;§R-1 Attack;;;;;;;;;;;
-priest;No bonus;;;;;;;;;;;
-professor;§R-1 Attack §R-1 Defense;;;;;;;;;;;
-powerful_friends;No bonus;;;;;;;;;;;
-pawn;No bonus;;;;;;;;;;;
-politician;No bonus;;;;;;;;;;;
-rising_star;No bonus;;;;;;;;;;;
-spoiled;§G+2 Attack;;;;;;;;;;;
-school_of_defense;§G+3 Defense;;;;;;;;;;;
-school_of_offense;§G+1 Attack;;;;;;;;;;;
-school_of_the_bayonet;§G+2 Attack §G+1 Defense;;;;;;;;;;;
-school_of_firepower;§G+1 Attack;;;;;;;;;;;
-sad_sack;§R-2 Attack;;;;;;;;;;;
-sucker;§R-1 Attack;;;;;;;;;;;
-sycophant;No bonus;;;;;;;;;;;
-toady;§G+1 Attack;;;;;;;;;;;
+old_school;§G+1 Attack §R-2 Defense;;;;;;;;;;;;;
+poet;§R-1 Attack;;;;;;;;;;;;;
+priest;No bonus;;;;;;;;;;;;;
+professor;§R-1 Attack §R-1 Defense;;;;;;;;;;;;;
+powerful_friends;No bonus;;;;;;;;;;;;;
+pawn;No bonus;;;;;;;;;;;;;
+politician;No bonus;;;;;;;;;;;;;
+rising_star;No bonus;;;;;;;;;;;;;
+spoiled;§G+2 Attack;;;;;;;;;;;;;
+school_of_defense;§G+3 Defense;;;;;;;;;;;;;
+school_of_offense;§G+1 Attack;;;;;;;;;;;;;
+school_of_the_bayonet;§G+2 Attack §G+1 Defense;;;;;;;;;;;;;
+school_of_firepower;§G+1 Attack;;;;;;;;;;;;;
+sad_sack;§R-2 Attack;;;;;;;;;;;;;
+sucker;§R-1 Attack;;;;;;;;;;;;;
+sycophant;No bonus;;;;;;;;;;;;;
+toady;§G+1 Attack;;;;;;;;;;;;;
 turncoat;No bonus;;;;;;;;;;;;;
-uncommonly_young;§G+1 Attack §G+1 Defense;;;;;;;;;;;
-unfit;§R-2 Attack;;;;;;;;;;;
-unqualified;No bonus;;;;;;;;;;;
-warmonger;No bonus;;;;;;;;;;;
-war_college;§G+1 Attack;;;;;;;;;;;
-spartan;§G+2 Attack §G+2 Defense;;;;;;;;;;;
-highlander;§G+2 Attack;;;;;;;;;;;
-yesman;No Bonus;;;;;;;;;;;
-roman_syracuse_flag;Crush the Syracusean Despotate;x
-cisalpine_gaul_flag;Restore Order in Cisalpine Gaul;x
+uncommonly_young;§G+1 Attack §G+1 Defense;;;;;;;;;;;;;
+unfit;§R-2 Attack;;;;;;;;;;;;;
+unqualified;No bonus;;;;;;;;;;;;;
+warmonger;No bonus;;;;;;;;;;;;;
+war_college;§G+1 Attack;;;;;;;;;;;;;
+spartan;§G+2 Attack §G+2 Defense;;;;;;;;;;;;;
+highlander;§G+2 Attack;;;;;;;;;;;;;
+yesman;No Bonus;;;;;;;;;;;;;
+roman_syracuse_flag;Crush the Syracusean Despotate;x;;;;;;;;;;;;
+cisalpine_gaul_flag;Restore Order in Cisalpine Gaul;x;;;;;;;;;;;;
 generic_conservative;Generic Conservative;;;;;;;;;;;;;x
 generic_reactionary;Generic Reactionary;;;;;;;;;;;;;x
 generic_liberal;Generic Liberal;;;;;;;;;;;;;x
 generic_socialist;Generic Socialist;;;;;;;;;;;;;x
 generic_communist;Generic Communist;;;;;;;;;;;;;x
 generic_fascist;Generic Fascist;;;;;;;;;;;;;x
+#############State Nations (Pero Credit)##############;;;;;;;;;;;;;;x
+TIN;§GTiny State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1836 - 1870 §WLess than 100k POPs\n§Y1870 - 1900 §WLess than 150k POPs\n§Y1900+ §WLess than 200k POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W4% Warscore\n§YAcquire State: §W12% Warscore\n§YDemand Concession: §W8% Warscore\n§YPlace in the Sun: §W4% Warscore\n§YFree Peoples: §W12% Warscore\n§YTake Capital: §W66% Warscore;;;;;;;;;;;;;x
+SMA;§GSmall State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1836 - 1870 §W100k to 400k POPs\n§Y1870 - 1900 §W150k to 600k POPs\n§Y1900+ §W200k to 800k POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W12% Warscore\n§YAcquire State: §W24% Warscore\n§YDemand Concession: §W16% Warscore\n§YPlace in the Sun: §W8% Warscore\n§YFree Peoples: §W24% Warscore\n§YTake Capital: §W66% Warscore;;;;;;;;;;;;;x
+MED;§GMedium State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1836 - 1870 §W400k to 700k POPs\n§Y1870 - 1900 §W600k to 1M POPs\n§Y1900+ §W800k to 1.4M POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W16% Warscore\n§YAcquire State: §W32% Warscore\n§YDemand Concession: §W24% Warscore\n§YPlace in the Sun: §W12% Warscore\n§YFree Peoples: §W32% Warscore\n§YTake Capital: §W66% Warscore;;;;;;;;;;;;;x
+LRG;§GLarge State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1836 - 1870 §W700k to 1M POPs\n§Y1870 - 1900 §W1M to 1.5M POPs\n§Y1900+ §W1.4M to 2M POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W24% Warscore\n§YAcquire State: §W48% Warscore\n§YDemand Concession: §W32% Warscore\n§YPlace in the Sun: §W16% Warscore\n§YFree Peoples: §W48% Warscore\n§YTake Capital: §W66% Warscore;;;;;;;;;;;;;x
+HUG;§GHuge State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1836 - 1870 §WGreater than 1M POPs\n§Y1870 - 1900 §WGreater than 1.5M POPs\n§Y1900+ §WGreater than 2M POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W32% Warscore\n§YAcquire State: §W64% Warscore\n§YDemand Concession: §W40% Warscore\n§YPlace in the Sun: §W20% Warscore\n§YFree Peoples: §W64% Warscore\n§YTake Capital: §W66% Warscore;;;;;;;;;;;;;x
+STR;§GDebug Tag;;;;;;;;;;;;;x
+STR_ADJ;Debug;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+#Additional CBs;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+acquire_core_state_tiny;Acquire Tiny Core;;;;;;;;;;;x
+acquire_core_state_tiny_short;Acquire $STATE$;;;;;;;;;;;x
+acquire_core_state_tiny_desc;Aquire an enemy §Ytiny state§W where we have §Ycore provinces.§W;;;;;;;;;;;x
+acquire_core_state_tiny_setup;Acquire tiny core $STATE$ from $RECIPIENT$.;;;;;;;;;;;x
+acquire_core_state_small;Acquire Small Core;;;;;;;;;;;x
+acquire_core_state_small_short;Acquire $STATE$;;;;;;;;;;;x
+acquire_core_state_small_desc;Aquire an enemy §Ysmall state§W where we have §Ycore provinces.§W;;;;;;;;;;;x
+acquire_core_state_small_setup;Acquire small core $STATE$ from $RECIPIENT$.;;;;;;;;;;;x
+acquire_core_state_medium;Acquire Medium Core;;;;;;;;;;;x
+acquire_core_state_medium_short;Acquire $STATE$;;;;;;;;;;;x
+acquire_core_state_medium_desc;Aquire an enemy §Ymedium state§W where we have §Ycore provinces.§W;;;;;;;;;;;x
+acquire_core_state_medium_setup;Acquire medium core $STATE$ from $RECIPIENT$.;;;;;;;;;;;x
+acquire_core_state_large;Acquire Large Core;;;;;;;;;;;x
+acquire_core_state_large_short;Acquire $STATE$;;;;;;;;;;;x
+acquire_core_state_large_desc;Aquire an enemy §Ylarge state§W where we have §Ycore provinces.§W;;;;;;;;;;;x
+acquire_core_state_large_setup;Acquire large core $STATE$ from $RECIPIENT$.;;;;;;;;;;;x
+acquire_core_state_huge;Acquire Huge Core;;;;;;;;;;;x
+acquire_core_state_huge_short;Acquire $STATE$;;;;;;;;;;;x
+acquire_core_state_huge_desc;Aquire an enemy §Yhuge state§W where we have §Ycore provinces.§W;;;;;;;;;;;x
+acquire_core_state_huge_setup;Acquire huge core $STATE$ from $RECIPIENT$.;;;;;;;;;;;x
+demand_concession_casus_belli_china;Chinese Core Concession;;;;;;;;;;;x
+demand_concession_casus_belli_china_short;Demand $STATE$ from China;;;;;;;;;;;x
+demand_concession_casus_belli_china_desc;Force China to concede core territory.;;;;;;;;;;;x
+demand_concession_casus_belli_china_setup;Demand that $RECIPIENT$ cede territory.;;;;;;;;;;;x
+take_capital_earlygame;Take Capital Earlygame;;;;;;;;;;;x
+take_capital_earlygame_short;Acquire capital $STATE$.;;;;;;;;;;;x
+take_capital_earlygame_desc;Force target to concede its capital $STATE$.;;;;;;;;;;;x
+take_capital_earlygame_setup;Demand that $RECIPIENT$ cede its capital.;;;;;;;;;;;x
+take_capital_midgame;Take Capital Midgame;;;;;;;;;;;x
+take_capital_midgame_short;Acquire capital $STATE$.;;;;;;;;;;;x
+take_capital_midgame_desc;Force target to concede its capital $STATE$.;;;;;;;;;;;x
+take_capital_midgame_setup;Demand that $RECIPIENT$ cede its capital.;;;;;;;;;;;x
+take_capital_lategame;Take Capital Lategame;;;;;;;;;;;x
+take_capital_lategame_short;Acquire capital $STATE$.;;;;;;;;;;;x
+take_capital_lategame_desc;Force target to concede its capital $STATE$.;;;;;;;;;;;x
+take_capital_lategame_setup;Demand that $RECIPIENT$ cede its capital.;;;;;;;;;;;x
+acquire_state_tiny;Acquire Tiny State;;;;;;;;;;;x
+acquire_state_tiny_short;Acquire Tiny State $STATE$.;;;;;;;;;;;x
+acquire_state_tiny_desc;Aquire an enemy §Ytiny state§W.;;;;;;;;;;;x
+acquire_state_tiny_setup;Demand that $RECIPIENT$ cede its tiny state.;;;;;;;;;;;x
+acquire_state_small;Acquire Small State;;;;;;;;;;;x
+acquire_state_small_short;Acquire Small State $STATE$.;;;;;;;;;;;x
+acquire_state_small_desc;Aquire an enemy §Ysmall state§W.;;;;;;;;;;;x
+acquire_state_small_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;x
+acquire_state_small_americas;Acquire Small State;;;;;;;;;;;x
+acquire_state_small_americas_short;Acquire Small State $STATE$.;;;;;;;;;;;x
+acquire_state_small_americas_desc;Aquire an enemy §Ysmall state§W.;;;;;;;;;;;x
+acquire_state_small_americas_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;x
+acquire_state_medium;Acquire Medium State;;;;;;;;;;;x
+acquire_state_medium_short;Acquire Medium State $STATE$.;;;;;;;;;;;x
+acquire_state_medium_desc;Aquire an enemy §Ymedium state§W.;;;;;;;;;;;x
+acquire_state_medium_setup;Demand that $RECIPIENT$ cede its medium state.;;;;;;;;;;;x
+acquire_state_large;Acquire Large State;;;;;;;;;;;x
+acquire_state_large_short;Acquire Large State $STATE$.;;;;;;;;;;;x
+acquire_state_large_desc;Aquire an enemy §Ylarge state§W.;;;;;;;;;;;x
+acquire_state_large_setup;Demand that $RECIPIENT$ cede its large state.;;;;;;;;;;;x
+acquire_state_huge;Acquire Huge State;;;;;;;;;;;x
+acquire_state_huge_short;Acquire Huge State $STATE$.;;;;;;;;;;;x
+acquire_state_huge_desc;Aquire an enemy §Yhuge state§W.;;;;;;;;;;;x
+acquire_state_huge_setup;Demand that $RECIPIENT$ cede its huge state.;;;;;;;;;;;x
+demand_concession_casus_belli_tiny;Tiny State Concession;;;;;;;;;;;x
+demand_concession_casus_belli_tiny_short;Demand Tiny State $STATE$.;;;;;;;;;;;x
+demand_concession_casus_belli_tiny_desc;Demand a §Ytiny state§W concession.;;;;;;;;;;;x
+demand_concession_casus_belli_tiny_setup;Demand that $RECIPIENT$ cede its tiny state.;;;;;;;;;;;x
+demand_concession_casus_belli_small;Small State Concession;;;;;;;;;;;x
+demand_concession_casus_belli_small_short;Demand Small State $STATE$.;;;;;;;;;;;x
+demand_concession_casus_belli_small_desc;Demand a §Ysmall state§W concession.;;;;;;;;;;;x
+demand_concession_casus_belli_small_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;x
+demand_concession_casus_belli_small_exception;Small State Concession;;;;;;;;;;;x
+demand_concession_casus_belli_small_exception_short;Demand Small State $STATE$.;;;;;;;;;;;x
+demand_concession_casus_belli_small_exception_desc;Demand a §Ysmall state§W concession.;;;;;;;;;;;x
+demand_concession_casus_belli_small_exception_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;x
+demand_concession_casus_belli_medium;Medium State Concession;;;;;;;;;;;x
+demand_concession_casus_belli_medium_short;Demand Medium State $STATE$.;;;;;;;;;;;x
+demand_concession_casus_belli_medium_desc;Demand a §Ymedium state§W concession.;;;;;;;;;;;x
+demand_concession_casus_belli_medium_setup;Demand that $RECIPIENT$ cede its medium state.;;;;;;;;;;;x
+demand_concession_casus_belli_medium_exception;Medium State Concession;;;;;;;;;;;x
+demand_concession_casus_belli_medium_exception_short;Demand Medium State $STATE$.;;;;;;;;;;;x
+demand_concession_casus_belli_medium_exception_desc;Demand a §Ymedium state§W concession.;;;;;;;;;;;x
+demand_concession_casus_belli_medium_exception_setup;Demand that $RECIPIENT$ cede its medium state.;;;;;;;;;;;x
+demand_concession_casus_belli_large;Large State Concession;;;;;;;;;;;x
+demand_concession_casus_belli_large_short;Demand Large State $STATE$.;;;;;;;;;;;x
+demand_concession_casus_belli_large_desc;Demand a §Ylarge state§W concession.;;;;;;;;;;;x
+demand_concession_casus_belli_large_setup;Demand that $RECIPIENT$ cede its large state.;;;;;;;;;;;x
+demand_concession_casus_belli_large_exception;Large State Concession;;;;;;;;;;;x
+demand_concession_casus_belli_large_exception_short;Demand Large State $STATE$.;;;;;;;;;;;x
+demand_concession_casus_belli_large_exception_desc;Demand a §Ylarge state§W concession.;;;;;;;;;;;x
+demand_concession_casus_belli_large_exception_setup;Demand that $RECIPIENT$ cede its large state.;;;;;;;;;;;x
+demand_concession_casus_belli_huge;Huge State Concession;;;;;;;;;;;x
+demand_concession_casus_belli_huge_short;Demand Huge State $STATE$.;;;;;;;;;;;x
+demand_concession_casus_belli_huge_desc;Demand a §Yhuge state§W concession.;;;;;;;;;;;x
+demand_concession_casus_belli_huge_setup;Demand that $RECIPIENT$ cede its huge state.;;;;;;;;;;;x
+demand_concession_casus_belli_huge_exception;Huge State Concession;;;;;;;;;;;x
+demand_concession_casus_belli_huge_exception_short;Demand Huge State $STATE$.;;;;;;;;;;;x
+demand_concession_casus_belli_huge_exception_desc;Demand a §Yhuge state§W concession.;;;;;;;;;;;x
+demand_concession_casus_belli_huge_exception_setup;Demand that $RECIPIENT$ cede its huge state.;;;;;;;;;;;x
+place_in_the_sun_tiny;Tiny Place in the Sun;;;;;;;;;;;x
+place_in_the_sun_tiny_short;Acquire Tiny State $STATE$.;;;;;;;;;;;x
+place_in_the_sun_tiny_desc;Demand a §Ytiny state§W colony.;;;;;;;;;;;x
+place_in_the_sun_tiny_setup;Acquire Tiny State $STATE$ from $RECIPIENT$.;;;;;;;;;;;x
+place_in_the_sun_small;Small Place in the Sun;;;;;;;;;;;x
+place_in_the_sun_small_short;Acquire Small State $STATE$.;;;;;;;;;;;x
+place_in_the_sun_small_desc;Demand a §Ysmall state§W colony.;;;;;;;;;;;x
+place_in_the_sun_small_setup;Acquire Small State $STATE$ from $RECIPIENT$.;;;;;;;;;;;x
+place_in_the_sun_medium;Medium Place in the Sun;;;;;;;;;;;x
+place_in_the_sun_medium_short;Acquire Medium State $STATE$.;;;;;;;;;;;x
+place_in_the_sun_medium_desc;Demand a §Ymedium state§W colony.;;;;;;;;;;;x
+place_in_the_sun_medium_setup;Acquire Medium State $STATE$ from $RECIPIENT$.;;;;;;;;;;;x
+place_in_the_sun_large;Large Place in the Sun;;;;;;;;;;;x
+place_in_the_sun_large_short;Acquire Large State $STATE$.;;;;;;;;;;;x
+place_in_the_sun_large_desc;Demand a §Ylarge state§W colony.;;;;;;;;;;;x
+place_in_the_sun_large_setup;Acquire Large State $STATE$ from $RECIPIENT$.;;;;;;;;;;;x
+place_in_the_sun_huge;Huge Place in the Sun;;;;;;;;;;;x
+place_in_the_sun_huge_short;Acquire Huge State $STATE$.;;;;;;;;;;;x
+place_in_the_sun_huge_desc;Demand a §Yhuge state§W colony.;;;;;;;;;;;x
+place_in_the_sun_huge_setup;Acquire Huge State $STATE$ from $RECIPIENT$.;;;;;;;;;;;x
+free_peoples_tiny;Free People Tiny State;;;;;;;;;;;x
+free_peoples_tiny_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;x
+free_peoples_tiny_desc;Liberate a §Ycountry§W's state from its oppressors.;;;;;;;;;;;x
+free_peoples_tiny_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;x
+free_peoples_small;Free People Small State;;;;;;;;;;;x
+free_peoples_small_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;x
+free_peoples_small_desc;Liberate a §Ycountry§W's state from its oppressors.;;;;;;;;;;;x
+free_peoples_small_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;x
+free_peoples_medium;Free People Medium State;;;;;;;;;;;x
+free_peoples_medium_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;x
+free_peoples_medium_desc;Liberate a §Ycountry§W's state from its oppressors.;;;;;;;;;;;x
+free_peoples_medium_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;x
+free_peoples_large;Free People Large State;;;;;;;;;;;x
+free_peoples_large_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;x
+free_peoples_large_desc;Liberate a §Ycountry§W's state from its oppressors.;;;;;;;;;;;x
+free_peoples_large_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;x
+free_peoples_huge;Free People Huge State;;;;;;;;;;;x
+free_peoples_huge_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;x
+free_peoples_huge_desc;Liberate a §Ycountry§W's state from its oppressors.;;;;;;;;;;;x
+free_peoples_huge_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;x

@@ -14,6 +14,27 @@ torpedo_attacks = {
 }
 
 #battleship_column_doctrine
+young_school_doctrine = {
+    limit = {
+        battleship_column_doctrine = 1
+        tech_school = naval_tech_school
+    }
+    #news = no
+    chance = {
+        base = 10
+        modifier = {
+            factor = -10
+            NOT = { tech_school = naval_tech_school }
+        }
+        modifier = {
+            factor = -10
+            has_country_modifier = academic_confusion
+        }
+    }
+    effect = {
+        colonial_points = 200
+    }
+}
 long_range_fire_tactic = {
     limit = { battleship_column_doctrine = 1 }
     chance = {
@@ -35,6 +56,27 @@ long_range_fire_tactic = {
 }
 
 #raider_group_doctrine
+fleet_in_being_doctrine = {
+    limit = {
+        raider_group_doctrine = 1
+        tech_school = naval_tech_school
+    }
+    #news = no
+    chance = {
+        base = 25
+        modifier = {
+            factor = -25
+            NOT = { tech_school = naval_tech_school }
+        }
+        modifier = {
+            factor = -25
+            has_country_modifier = academic_confusion
+        }
+    }
+    effect = {
+        colonial_points = 200
+    }
+}
 big_ship_competitor = {
     limit = { raider_group_doctrine = 1 }
     chance = {
@@ -80,6 +122,27 @@ standard_raider_group_doctrine = {
     }
 }
 #blue_and_brown_water_schools
+sea_power_doctrine = {
+    limit = {
+        blue_and_brown_water_schools = 1
+        tech_school = naval_tech_school
+    }
+    #news = no
+    chance = {
+        base = 50
+        modifier = {
+            factor = -50
+            NOT = { tech_school = naval_tech_school }
+        }
+        modifier = {
+            factor = -50
+            has_country_modifier = academic_confusion
+        }
+    }
+    effect = {
+        colonial_points = 300
+    }
+}
 blue_water_school = {
     limit = { blue_and_brown_water_schools = 1 }
     chance = {
@@ -227,6 +290,35 @@ naval_firepower_doctrine = {
     }
 }
 #clipper_design
+modern_sail_ships = {
+    limit = { clipper_design = 1 }
+    chance = {
+        base = 10
+        modifier = {
+            factor = 10
+            alphabetic_flag_signaling = 1
+        }
+    }
+    effect = {
+        clipper_transport = {
+            maximum_speed = 9
+            fire_range = 0.2
+        }
+        frigate = {
+            maximum_speed = 9
+            hull = 1
+            gun_power = 1
+            fire_range = 0.25
+            evasion = 0.15
+        }
+        manowar = {
+            maximum_speed = 7
+            hull = 1
+            gun_power = 2
+            fire_range = 0.3
+        }
+    }
+}
 building_station_shipyards = {
     limit = { clipper_design = 1 }
     chance = {
@@ -513,6 +605,27 @@ torpedo_boats = {
     }
 }
 #steel_steamers
+neocolonialism_doctrine = {
+    limit = {
+        steel_steamers = 1
+        tech_school = naval_tech_school
+    }
+    #news = no
+    chance = {
+        base = 80
+        modifier = {
+            factor = -80
+            NOT = { tech_school = naval_tech_school }
+        }
+        modifier = {
+            factor = -80
+            has_country_modifier = academic_confusion
+        }
+    }
+    effect = {
+        colonial_points = 300
+    }
+}
 protected_cruisers = {
     limit = {
         steel_steamers = 1
@@ -550,6 +663,18 @@ pre_dreadnought = {
     }
 }
 #steam_turbine_ships
+fish_trawlers = {
+    limit = {
+        steam_turbine_ships = 1
+    }
+    #news = no
+    chance = {
+        base = 6
+    }
+    effect = {
+        rgo_goods_output = { fish = 0.3 }
+    }
+}
 dreadnoughts = {
     limit = {
         steam_turbine_ships = 1

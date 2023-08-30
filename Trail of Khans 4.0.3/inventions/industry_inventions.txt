@@ -788,6 +788,22 @@ coke = {
     }
 }
 #Regenerative Furnaces
+dynamite = {
+    limit = {
+        regenerative_furnaces = 1
+        year = 1860
+    }
+    #news = no
+    chance = {
+        base = 6
+    }
+    effect = {
+        rgo_goods_output = { coal = 0.25 }
+        rgo_size = { coal = 0.25 }
+        rgo_size = { iron = 0.25 }
+        rgo_size = { sulphur = 0.25 }
+    }
+}
 advanced_ore_roasting_processes = {
     limit = { regenerative_furnaces = 1 }
     chance = {
@@ -913,6 +929,23 @@ thomas_steel = {
         }
     }
 }
+#Drilling and Blasting
+trinitrotoluene = {
+    limit = {
+        drilling_and_blasting = 1
+        year = 1895
+    }
+    #news = no
+    chance = {
+        base = 6
+    }
+    effect = {
+        rgo_goods_output = { coal = 0.25 }
+        rgo_size = { coal = 0.25 }
+        rgo_size = { iron = 0.25 }
+        rgo_size = { sulphur = 0.25 }
+    }
+}
 #advanced_metallurgy
 electric_rolling_techniques = {
     limit = { advanced_metallurgy = 1 }
@@ -953,6 +986,46 @@ steel_alloys = {
 }
 
 #electric_furnace
+shrinkage_stoping = {
+    limit = {
+        electric_furnace = 1
+    }
+    #news = no
+    chance = {
+        base = 6
+    }
+    effect = {
+        rgo_goods_output = { coal = 0.4 }
+    }
+}
+froth_flotation = {
+    limit = {
+        electric_furnace = 1
+    }
+    #news = no
+    chance = {
+        base = 6
+    }
+    effect = {
+        rgo_goods_output = { iron = 0.3 }
+        rgo_goods_output = { sulphur = 0.3 }
+    }
+}
+
+hydraulic_excavator = {
+    limit = {
+        electric_furnace = 1
+        year = 1920
+    }
+    #news = no
+    chance = {
+        base = 6
+    }
+    effect = {
+        rgo_goods_output = { iron = 0.5 }
+        rgo_goods_output = { coal = 0.5 }
+    }
+}
 stainless_steel = {
     limit = { electric_furnace = 1 }
     chance = {

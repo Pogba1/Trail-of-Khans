@@ -1453,6 +1453,56 @@ separatism = {
 }
 
 #revolution_n_counterrevolution
+the_dark_continent = {
+    limit = {
+        revolution_n_counterrevolution = 1
+        year = 1880
+    }
+    chance = {
+        base = 0
+        modifier = {
+            factor = -60
+            NOT = { year = 1880 }
+        }
+        modifier = {
+            factor = 20
+            biologism = 1
+        }
+        modifier = {
+            factor = 20
+            military_logistics  = 1
+        }
+        modifier = {
+            factor = 20
+            steel_steamers = 1
+        }
+        modifier = {
+            factor = 10
+            any_greater_power = {
+                invention = the_dark_continent
+            }
+        }
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                invention = the_dark_continent
+            }
+        }
+        modifier = {
+            factor = -10
+            is_greater_power = no
+            is_secondary_power = yes
+        }
+        modifier = {
+            factor = -10
+            is_greater_power = no
+            is_secondary_power = no
+        }
+    }
+    effect = {
+        colonial_life_rating = -5
+    }
+}
 dogma_of_violence = {
     limit = { revolution_n_counterrevolution = 1 }
     news = no

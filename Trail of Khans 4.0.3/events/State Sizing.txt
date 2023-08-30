@@ -1,0 +1,642 @@
+country_event = {
+	id = 700700
+	title = "State Sizing Early Game"
+
+	trigger = {
+		tag = SIK
+		NOT = { has_country_modifier = sizing_cooldown }
+		NOT = { year = 1870 }
+	}
+
+	immediate = {
+		add_country_modifier = {
+			name = sizing_cooldown
+			duration = 365
+		}
+	}
+
+	option = {
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						NOT = { total_pops = 100000 }
+					}
+				}
+				add_core = TIN
+				remove_core = SMA
+				remove_core = MED 
+				remove_core = LRG 
+				remove_core = HUG 
+			}
+		}
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 100000
+						NOT = { total_pops = 400000 }
+					}
+				}
+				add_core = SMA 
+				remove_core = TIN
+				remove_core = MED 
+				remove_core = LRG 
+				remove_core = HUG 
+			}
+		}
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 400000 
+						NOT = { total_pops = 700000 }
+					} 
+				} 
+				add_core = MED
+				remove_core = TIN
+				remove_core = SMA 
+				remove_core = LRG 
+				remove_core = HUG 
+			} 
+		}		
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = {
+				limit = {
+					state_scope = { 
+						total_pops = 700000 
+						NOT = { total_pops = 1000000 }
+					} 
+				} 
+			add_core = LRG
+			remove_core = TIN
+			remove_core = SMA 
+			remove_core = MED 
+			remove_core = HUG 
+			} 
+		}
+		any_country = {
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 1000000
+					}
+				}
+				add_core = HUG 
+				remove_core = TIN
+				remove_core = SMA 
+				remove_core = MED 
+				remove_core = LRG 
+			} 
+		}
+	}
+}	
+
+country_event = {
+	id = 700701
+	title = "State Sizing Mid Game"
+
+	trigger = {
+		tag = SIK
+		NOT = { has_country_modifier = sizing_cooldown }
+		year = 1870
+		NOT = { year = 1900 }
+	}
+
+	immediate = {
+		add_country_modifier = {
+			name = sizing_cooldown
+			duration = 365
+		}
+	}
+
+	option = {
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						NOT = { total_pops = 150000 }
+					}
+				}
+				add_core = TIN
+				remove_core = SMA
+				remove_core = MED 
+				remove_core = LRG 
+				remove_core = HUG 
+			}
+		}
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 150000
+						NOT = { total_pops = 600000 }
+					}
+				}
+				add_core = SMA 
+				remove_core = TIN
+				remove_core = MED 
+				remove_core = LRG 
+				remove_core = HUG 
+			}
+		}
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 600000 
+						NOT = { total_pops = 1000000 }
+					} 
+				} 
+				add_core = MED
+				remove_core = TIN
+				remove_core = SMA 
+				remove_core = LRG 
+				remove_core = HUG 
+			} 
+		}		
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = {
+				limit = {
+					state_scope = { 
+						total_pops = 1000000 
+						NOT = { total_pops = 1500000 }
+					} 
+				} 
+			add_core = LRG
+			remove_core = TIN
+			remove_core = SMA 
+			remove_core = MED 
+			remove_core = HUG 
+			} 
+		}
+		any_country = {
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 1500000
+					}
+				}
+				add_core = HUG 
+				remove_core = TIN
+				remove_core = SMA 
+				remove_core = MED 
+				remove_core = LRG 
+			} 
+		}
+	}
+}
+
+country_event = {
+	id = 700702
+	title = "State Sizing Late Game"
+
+	trigger = {
+		tag = SIK
+		NOT = { has_country_modifier = sizing_cooldown }
+		year = 1900
+	}
+
+	immediate = {
+		add_country_modifier = {
+			name = sizing_cooldown
+			duration = 365
+		}
+	}
+
+	option = {
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						NOT = { total_pops = 200000 }
+					}
+				}
+				add_core = TIN
+				remove_core = SMA
+				remove_core = MED 
+				remove_core = LRG 
+				remove_core = HUG 
+			}
+		}
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 200000
+						NOT = { total_pops = 800000 }
+					}
+				}
+				add_core = SMA 
+				remove_core = TIN
+				remove_core = MED 
+				remove_core = LRG 
+				remove_core = HUG 
+			}
+		}
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 800000 
+						NOT = { total_pops = 1400000 }
+					} 
+				} 
+				add_core = MED
+				remove_core = TIN
+				remove_core = SMA 
+				remove_core = LRG 
+				remove_core = HUG 
+			} 
+		}		
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = {
+				limit = {
+					state_scope = { 
+						total_pops = 1400000 
+						NOT = { total_pops = 2000000 }
+					} 
+				} 
+			add_core = LRG
+			remove_core = TIN
+			remove_core = SMA 
+			remove_core = MED 
+			remove_core = HUG 
+			} 
+		}
+		any_country = {
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SCO
+							tag = ENG
+							tag = POL
+							tag = SLS
+							tag = HUN
+							tag = BHA
+							tag = SHW
+							tag = GON
+							tag = KAF
+							tag = HAR
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 2000000
+					}
+				}
+				add_core = HUG 
+				remove_core = TIN
+				remove_core = SMA 
+				remove_core = MED 
+				remove_core = LRG 
+			} 
+		}
+	}
+}
