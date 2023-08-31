@@ -27,9 +27,21 @@ SIE = {
     level = 5
     influence_value = 0
 }
-
-
-
+KIE = {
+    value = 75
+    level = 5
+    influence_value = 100
+}
+HET = {
+    value = 75
+    level = 5
+    influence_value = 100
+}
+MOL = {
+    value = 150
+    level = 5
+    influence_value = 100
+}
 
 
 
