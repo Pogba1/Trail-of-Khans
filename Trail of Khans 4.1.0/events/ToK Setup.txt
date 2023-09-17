@@ -124,15 +124,19 @@ country_event = {
         }
         any_pop = {
             limit = {
+                has_pop_culture = spanish
+            }
+            literacy = 0.47
+        }
+        any_pop = {
+            limit = {
                 OR = {
                     has_pop_culture = french
                     has_pop_culture = breton
                     has_pop_culture = greek
                     has_pop_culture = finnish
                     has_pop_culture = lithuanian
-                    has_pop_culture = spanish
                     has_pop_culture = japanese
-                    has_pop_culture = ainu
                 }
             }
             literacy = 0.39
@@ -469,7 +473,6 @@ country_event = {
                     has_pop_culture = lithuanian
                     has_pop_culture = spanish
                     has_pop_culture = japanese
-                    has_pop_culture = ainu
                 }
             }
             literacy = 0.39

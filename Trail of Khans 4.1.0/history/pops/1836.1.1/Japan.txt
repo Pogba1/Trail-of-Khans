@@ -294,31 +294,31 @@
     }
 
     aristocrats = {
-        culture = ainu
+        culture = japanese
         religion = animist
         size = 20
     }
 
     clergymen = {
-        culture = ainu
+        culture = japanese
         religion = animist
         size = 20
     }
 
     artisans = {
-        culture = ainu
+        culture = japanese
         religion = animist
         size = 160
     }
 
     soldiers = {
-        culture = ainu
+        culture = japanese
         religion = animist
         size = 100
     }
 
     farmers = {
-        culture = ainu
+        culture = japanese
         religion = animist
         size = 3600
     }
@@ -326,19 +326,19 @@
 #Ishikara (15000/5000 POPS)
 1643 = {
     aristocrats = {
-        culture = ainu
+        culture = japanese
         religion = animist
         size = 30
     }
 
     artisans = {
-        culture = ainu
+        culture = japanese
         religion = animist
         size = 130
     }
 
     farmers = {
-        culture = ainu
+        culture = japanese
         religion = animist
         size = 4840
     }
@@ -370,25 +370,25 @@
 #Nemuru - Meakan (15000/4000 POPS)
 1644 = {
     aristocrats = {
-        culture = ainu
+        culture = japanese
         religion = animist
         size = 20
     }
 
     artisans = {
-        culture = ainu
+        culture = japanese
         religion = animist
         size = 100
     }
 
     soldiers = {
-        culture = ainu
+        culture = japanese
         religion = animist
         size = 100
     }
 
     farmers = {
-        culture = ainu
+        culture = japanese
         religion = animist
         size = 3780
     }

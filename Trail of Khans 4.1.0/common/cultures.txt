@@ -1764,11 +1764,6 @@ far_east_asian = {
         last_names = { Yi Jo Bak Hong Seo Jeong Jang Shin Lim Song Jin Jun Hwang Jeon Min Yoon Ahn Ko Joon Bae Nam An "Dong Hyun" Sung Ha Baek MinSu Cha Im Won Jihun Seong "Sang Min" Minwoo Minho "Ji Hoon" Joo Woo Woojin Donghyun Jongmin Jaehyun Ji "Seung Hyun" "Sung Min" Seungmin Jihoon "Jong-un" "Jong-il" "Pong-ju" "Yong-rim" "Yong-nam" "Ryong-hae" "Yong-ho"
         }
     }
-    ainu = {
-        color = {130 130 130}
-        first_names = { Seimei Resaak Akihi Petennouk Unayanke Shiratekka Apniainu Pasekur Munkeke Shitekka Shinriki Shiromainu Menkakush }
-        last_names = { Aterui Shakushine Koshamine Harukor Turushno Isonash Keutoranke }
-    }
 }
 
 oceanic = {
