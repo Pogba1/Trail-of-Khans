@@ -23,7 +23,7 @@
     soldiers = {
         culture = greek
         religion = orthodox
-        size = 3000
+        size = 3500
     }
 
     farmers = {
@@ -42,12 +42,6 @@
         culture = greek
         religion = orthodox
         size = 110
-    }
-
-    soldiers = {
-        culture = greek
-        religion = orthodox
-        size = 200
     }
 
     clergymen = {
@@ -86,12 +80,6 @@
         size = 110
     }
 
-    soldiers = {
-        culture = greek
-        religion = orthodox
-        size = 200
-    }
-
     clergymen = {
         culture = greek
         religion = orthodox
@@ -111,12 +99,6 @@
     }
 
     aristocrats = {
-        culture = sephardic
-        religion = jewish
-        size = 100
-    }
-
-    soldiers = {
         culture = sephardic
         religion = jewish
         size = 100
@@ -147,7 +129,7 @@
     soldiers = {
         culture = greek
         religion = orthodox
-        size = 1200
+        size = 2775
     }
 
     clergymen = {
@@ -172,12 +154,6 @@
         culture = thracian
         religion = orthodox
         size = 4075
-    }
-
-    soldiers = {
-        culture = serb
-        religion = orthodox
-        size = 200
     }
 
     clergymen = {
@@ -240,22 +216,10 @@
         size = 1300
     }
 
-    soldiers = {
-        culture = greek
-        religion = orthodox
-        size = 1100
-    }
-
     farmers = {
         culture = greek
         religion = orthodox
         size = 1975
-    }
-
-    soldiers = {
-        culture = greek
-        religion = orthodox
-        size = 175
     }
 
     clergymen = {
@@ -274,12 +238,6 @@
         culture = greek
         religion = orthodox
         size = 9475
-    }
-
-    soldiers = {
-        culture = sephardic
-        religion = jewish
-        size = 100
     }
 
     clergymen = {
