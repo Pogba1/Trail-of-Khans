@@ -819,7 +819,7 @@
     soldiers = {
         culture = greek
         religion = orthodox
-        size = 600
+        size = 1125
     }
 
     clergymen = {
@@ -832,12 +832,6 @@
         culture = greek
         religion = orthodox
         size = 450
-    }
-
-    soldiers = {
-        culture = greek
-        religion = orthodox
-        size = 225
     }
 
     farmers = {
@@ -853,12 +847,6 @@
     }
 
     clergymen = {
-        culture = greek
-        religion = orthodox
-        size = 300
-    }
-
-    soldiers = {
         culture = greek
         religion = orthodox
         size = 300

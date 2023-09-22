@@ -24,13 +24,11 @@ army = {
         type = infantry
         home = 806
     }
-
     regiment = {
         name= "II. Sýntagma Pezikoú"
         type = infantry
         home = 807
     }
-
     regiment = {
         name= "III. Sýntagma Pezikoú"
         type = infantry
@@ -74,6 +72,64 @@ army = {
 
     
 }   
+
+army = {
+	
+	army = "Bangarang"
+	location = 829
+	
+    regiment = {
+        name= "I. Sýntagma Pezikoú"
+        type = infantry
+        home = 815
+    }
+    regiment = {
+        name= "II. Sýntagma Pezikoú"
+        type = infantry
+        home = 817
+    }
+    regiment = {
+        name= "III. Sýntagma Pezikoú"
+        type = infantry
+        home = 830
+    }
+	regiment = {
+        name= "IV. Sýntagma Pezikoú"
+        type = infantry
+        home = 823
+    }
+	regiment = {
+        name= "I. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 822
+    }
+	regiment = {
+        name= "II. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 805
+    }
+	regiment = {
+        name= "III. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 821
+    }
+	regiment = {
+        name= "IV. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 819
+    }
+	regiment = {
+        name= "V. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 832
+    }
+	regiment = {
+		name= "I. Sýntagma Ippikoú"
+		type = cavalry
+        home = 824
+	}
+}
+	
 
 navy = {
     name = "Hyperborean Fleet"
