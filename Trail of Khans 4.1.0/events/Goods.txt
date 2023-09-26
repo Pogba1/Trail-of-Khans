@@ -58,7 +58,7 @@ province_event = {
         or = {
             province_id = 89            # Los Angeles
             province_id = 90            # San Diego
-            province_id = 695            # Königsberg
+            province_id = 695            # Kï¿½nigsberg
             province_id = 2470            # Port Macquaire Australia
             province_id = 2471            # Bathurst Australia
             province_id = 1084            # Utchan
@@ -560,16 +560,19 @@ province_event = {
     trigger = {
 		year = 1870
         OR = {
-                    province_id = 1102        # Baku
-                    province_id = 1205        # Kizil Arvat
-                    province_id = 1104        # Sheki 1871
-                    province_id = 1186        # Alma Ata 1872
-                    province_id = 1202        # Kokand 1873
-                    province_id = 1107        # Lankaran 1874
-                    province_id = 667        # Tirgoviste 1876
-                    province_id = 672        # Bacau 1877
-                    province_id = 1168        # Dubai 1879
-                }
+            province_id = 1102        # Baku
+            province_id = 1205        # Kizil Arvat
+            province_id = 1104        # Sheki 1871
+            province_id = 1186        # Alma Ata 1872
+            province_id = 1202        # Kokand 1873
+            province_id = 1107        # Lankaran 1874
+            province_id = 667        # Tirgoviste 1876
+            province_id = 672        # Bacau 1877
+            province_id = 1168        # Dubai 1879
+            province_id = 132        # Houston
+            province_id = 90        # San Diego
+            province_id = 133        # Austin
+        }
         not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -604,7 +607,31 @@ province_event = {
     option = {
         name = "EVTOPTA1109"
         trade_goods = oil
-       # life_rating = 3
+        add_province_modifier = {
+            name = gold_rush
+            duration = 1095
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    capital_scope = {
+                        location = {
+                            OR = {
+                                continent = north_america
+                                continent = south_america
+                                continent = australia_new_zealand
+                            }
+                        }
+                    }
+                }
+            }
+            owner = { 
+                add_country_modifier = { 
+                    name = gold_rush_country 
+                    duration = 1095 
+                } 
+            }
+        }
     }
 }
 province_event = {
@@ -614,19 +641,46 @@ province_event = {
     trigger = {
 		year = 1881
         OR = {
-                    province_id = 1399        # Palembang 1883
-                    province_id = 112        # Cheyenne
-                    province_id = 1055        # Grozny 1883
-                    province_id = 126        # Topeka 1883
-                    province_id = 1393        # Brunei 1885
-                    province_id = 1401        # Siak 1885
-                    province_id = 1425        # Tarakan 1885
-                    province_id = 1432        # Mamuju 1885
-                    province_id = 1335        # Kyaukse 1886
-                    province_id = 43        # Dallas 1886
-                    province_id = 705        # Przemysl 1886
-                    province_id = 1260        # Dibrugarh 1889
-                }
+            province_id = 1399        # Palembang 1883
+            province_id = 112        # Cheyenne
+            province_id = 1055        # Grozny 1883
+            province_id = 126        # Topeka 1883
+            province_id = 1393        # Brunei 1885
+            province_id = 1401        # Siak 1885
+            province_id = 1425        # Tarakan 1885
+            province_id = 1432        # Mamuju 1885
+            province_id = 1335        # Kyaukse 1886
+            province_id = 43        # Dallas 1886
+            province_id = 705        # Przemysl 1886
+            province_id = 1260        # Dibrugarh 1889
+            province_id = 1132        # Abadan
+            province_id = 26        # Calgary 1913
+            province_id = 2291        # Piura 1915
+            province_id = 849        # Tirana 1917
+            province_id = 2237        # Trinidad 1917
+            province_id = 928        # Mendeli 1923
+            province_id = 923        # Mosul 1927
+            province_id = 1086        # Pogobi
+            province_id = 131        # Oklahoma City 1893
+            province_id = 1680        # Fez 1893
+            province_id = 2173        # Queretaro 1894
+            province_id = 87        # Monterey 1896
+            province_id = 2162        # Veracruz 1896
+            province_id = 2163        # Tampico 1896
+            province_id = 702        # Lvov 1896
+            province_id = 1932		# Bonny 1932
+            province_id = 1957		# Buea 1957
+            province_id = 2001		# Mbanza 2001
+            province_id = 2237        # Trinidad
+            province_id = 2396        # Rawson 1907
+            province_id = 1131        # Ahvaz 1907
+            province_id = 1732        # Ghayran 1910
+            province_id = 1720        # Timimoun 1910
+            province_id = 1167        # Abu Dhabi 1910
+            province_id = 1163        # Qatif 1910
+            province_id = 2270        # Maracaibo 1910
+            province_id = 1170        # Nizwa  1910
+        }
         not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -661,221 +715,33 @@ province_event = {
     option = {
         name = "EVTOPTA1109"
         trade_goods = oil
-       # life_rating = 3
-    }
-}
-province_event = {
-
-    id = 99997 #new
-
-    trigger = {
-		year = 1892
-        OR = {
-                    province_id = 1086        # Pogobi
-                    province_id = 131        # Oklahoma City 1893
-                    province_id = 1680        # Fez 1893
-                    province_id = 2173        # Queretaro 1894
-                    province_id = 87        # Monterey 1896
-                    province_id = 2162        # Veracruz 1896
-                    province_id = 2163        # Tampico 1896
-                    province_id = 702        # Lvov 1896
-					province_id = 1932		# Bonny 1932
-					province_id = 1957		# Buea 1957
-					province_id = 2001		# Mbanza 2001
+        add_province_modifier = {
+            name = gold_rush
+            duration = 1095
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    capital_scope = {
+                        location = {
+                            OR = {
+                                continent = north_america
+                                continent = south_america
+                                continent = australia_new_zealand
+                            }
+                        }
+                    }
                 }
-        not = { trade_goods = oil }
-		OR = {
-			owner = {
-				part_of_sphere = yes
-				sphere_owner = {
-					or = {
-						invention = daimlers_automobile
-						invention = cracking
-						invention = protected_cruisers
-					}
-				}
-			}
-			owner = {
-				or = {
-					invention = daimlers_automobile
-					invention = cracking
-					invention = protected_cruisers
-				}
-			}
-		}
-    }
-
-    fire_only_once = yes
-
-    mean_time_to_happen = {
-        months = 8
-    }
-
-    title = "EVTNAME1109"
-    desc = "EVTDESC1109"
-
-    option = {
-        name = "EVTOPTA1109"
-        trade_goods = oil
-       # life_rating = 3
+            }
+            owner = { 
+                add_country_modifier = { 
+                    name = gold_rush_country 
+                    duration = 1095 
+                } 
+            }
+        }
     }
 }
-province_event = {
-
-    id = 99998 #new
-
-    trigger = {
-		year = 1902
-        OR = {
-                    province_id = 2237        # Trinidad
-                    province_id = 2396        # Rawson 1907
-                    province_id = 1131        # Ahvaz 1907
-                    province_id = 1732        # Ghayran 1910
-                    province_id = 1720        # Timimoun 1910
-                    province_id = 1167        # Abu Dhabi 1910
-                    province_id = 1163        # Qatif 1910
-                    province_id = 2270        # Maracaibo 1910
-                    province_id = 1170        # Nizwa  1910
-                }
-        not = { trade_goods = oil }
-		OR = {
-			owner = {
-				part_of_sphere = yes
-				sphere_owner = {
-					or = {
-						invention = daimlers_automobile
-						invention = cracking
-						invention = protected_cruisers
-					}
-				}
-			}
-			owner = {
-				or = {
-					invention = daimlers_automobile
-					invention = cracking
-					invention = protected_cruisers
-				}
-			}
-		}
-    }
-
-    fire_only_once = yes
-
-    mean_time_to_happen = {
-        months = 8
-    }
-
-    title = "EVTNAME1109"
-    desc = "EVTDESC1109"
-
-    option = {
-        name = "EVTOPTA1109"
-        trade_goods = oil
-       # life_rating = 3
-    }
-}
-province_event = {
-
-    id = 99999 #new
-
-    trigger = {
-		year = 1912
-        OR = {
-                    province_id = 1132        # Abadan
-                    province_id = 26        # Calgary 1913
-                    province_id = 2291        # Piura 1915
-                    province_id = 849        # Tirana 1917
-                    province_id = 2237        # Trinidad 1917
-                    province_id = 928        # Mendeli 1923
-                    province_id = 923        # Mosul 1927
-                }
-        not = { trade_goods = oil }
-		OR = {
-			owner = {
-				part_of_sphere = yes
-				sphere_owner = {
-					or = {
-						invention = daimlers_automobile
-						invention = cracking
-						invention = protected_cruisers
-					}
-				}
-			}
-			owner = {
-				or = {
-					invention = daimlers_automobile
-					invention = cracking
-					invention = protected_cruisers
-				}
-			}
-		}
-    }
-
-    fire_only_once = yes
-
-    mean_time_to_happen = {
-        months = 8
-    }
-
-    title = "EVTNAME1109"
-    desc = "EVTDESC1109"
-
-    option = {
-        name = "EVTOPTA1109"
-        trade_goods = oil
-       # life_rating = 3
-    }
-}
-
-province_event = {
-
-    id = 1109
-
-    trigger = {
-		year = 1878
-        OR = {
-			province_id = 132        # Houston
-			province_id = 90        # San Diego
-			province_id = 133        # Austin
-                }
-        not = { trade_goods = oil }
-		OR = {
-			owner = {
-				part_of_sphere = yes
-				sphere_owner = {
-					or = {
-						invention = daimlers_automobile
-						invention = cracking
-						invention = protected_cruisers
-					}
-				}
-			}
-			owner = {
-				or = {
-					invention = daimlers_automobile
-					invention = cracking
-					invention = protected_cruisers
-				}
-			}
-		}
-    }
-
-    fire_only_once = yes
-
-    mean_time_to_happen = {
-        months = 8
-    }
-
-    title = "EVTNAME1109"
-    desc = "EVTDESC1109"
-
-    option = {
-        name = "EVTOPTA1109"
-        trade_goods = oil
-       # life_rating = 3
-    }
-}
-
 
 province_event = {
 
