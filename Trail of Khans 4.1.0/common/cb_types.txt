@@ -70,8 +70,10 @@ dismantle_forts
 humiliate
 demand_concession_casus_belli
 demand_concession_NI_casus_belli
+demand_concession_rev_casus_belli
 establish_protectorate_casus_belli
 establish_protectorate_NI_casus_belli
+establish_protectorate_REV_casus_belli
 unification_humiliate_cb
 unification_release_puppet_cb
 unification_casus_belli
@@ -2154,12 +2156,12 @@ demand_concession_NI_casus_belli = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = {
-			revolution_n_counterrevolution = 1
-		}
 		THIS = {
 			civilized = yes
 			nationalism_n_imperialism = 1
+			NOT = {
+				revolution_n_counterrevolution = 1
+			}
 		}
 		civilized = no
 		number_of_states = 2
@@ -2212,7 +2214,7 @@ demand_concession_REV_casus_belli = {
 	is_triggered_only = yes
 	months = 0
 	crisis = no
-	construction_speed = 0.25
+	construction_speed = 1
 	
 	badboy_factor = 0.5
 	prestige_factor = 1
@@ -2365,12 +2367,12 @@ establish_protectorate_NI_casus_belli = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = {
-			revolution_n_counterrevolution = 1
-		}
 		THIS = {
 			civilized = yes
 			nationalism_n_imperialism = 1
+			NOT = {
+				revolution_n_counterrevolution = 1
+			}
 		}
 		civilized = no
 		NOT = {
@@ -2408,7 +2410,7 @@ establish_protectorate_REV_casus_belli = {
 	is_triggered_only = yes
 	months = 0
 	crisis = no
-	construction_speed = 0.25
+	construction_speed = 1
 	
 	badboy_factor = 0.5
 	prestige_factor = 1

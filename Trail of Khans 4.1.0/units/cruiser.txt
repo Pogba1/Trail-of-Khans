@@ -42,8 +42,7 @@ cruiser = {
         fuel = 3
         coal = 0.5
         ammunition = 0.4
-        #regular_clothes = 0.25
-        #tobacco = 1.2
+        regular_clothes = 0.25
     }
 
     #Naval Abilities

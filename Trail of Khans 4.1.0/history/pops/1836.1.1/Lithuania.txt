@@ -697,19 +697,19 @@
     }
     
     artisans = {
-        culture = pruthenian
+        culture = polish
         religion = catholic
         size = 789
     }
 
     clergymen = {
-        culture = pruthenian
+        culture = polish
         religion = catholic
         size = 230
     }
 
     farmers = {
-        culture = pruthenian
+        culture = polish
         religion = catholic
         size = 8390
     }

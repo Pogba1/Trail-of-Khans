@@ -74,39 +74,6 @@ political_decisions = {
 		}
 	}
 
-	integrate_small_poles = {
-		potential = {
-			OR = {
-				tag = PLC
-				tag = POL
-			}
-			NOT = {
-				accepted_culture = western_slavic
-			}
-			NOT = {
-				accepted_culture = pruthenian
-			}
-		}
-		allow = {
-			functionalism = 1
-			PRU_701 = {
-				owned_by = THIS
-			}
-			PRU_696 = {
-				owned_by = THIS
-			}
-			PRU_691 = {
-				owned_by = THIS
-			}
-			war = no
-		}
-		effect = {
-			add_accepted_culture = western_slavic
-			add_accepted_culture = pruthenian
-			prestige = 15
-		}
-	}
-
 	abolish_silesian_duchy = {
 		potential = {
 			tag = POL

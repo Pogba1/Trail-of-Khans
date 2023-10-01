@@ -3473,11 +3473,17 @@
         religion = protestant
         size = 3100
     }
+    
+    craftsmen = {
+        culture = dutch
+        religion = protestant
+        size = 12000
+    }
 
 	farmers = {
         culture = dutch
         religion = protestant
-		size = 76250
+		size = 64250
 	}
 	
     ######Jews
@@ -3550,16 +3556,28 @@
         size = 2000
     }
 
+    craftsmen = {
+        culture = dutch
+        religion = catholic
+        size = 10000
+    }
+
+    craftsmen = {
+        culture = north_german
+        religion = catholic
+        size = 14000
+    }
+
     farmers = {
         culture = north_german
         religion = catholic
-        size = 36450
+        size = 22450
     }
 	
 	farmers = {
 		culture = dutch
 		religion = catholic
-		size = 75000
+		size = 65000
 	}
 }
 #Kleves (356000/89000 POPS)
@@ -3586,6 +3604,12 @@
         culture = dutch
         religion = catholic
         size = 2000
+    }  
+
+    craftsmen = {
+        culture = dutch
+        religion = protestant
+        size = 14000
     }
 
     farmers = {
@@ -3597,7 +3621,7 @@
 	farmers = {
 		culture = dutch
 		religion = catholic
-		size = 74000
+		size = 62000
 	}
 
     artisans = {
@@ -5724,19 +5748,19 @@
     }
 
     artisans = {
-        culture = pruthenian
+        culture = polish
         religion = catholic
         size = 1730
     }
 
     clergymen = {
-        culture = pruthenian
+        culture = polish
         religion = catholic
         size = 530
     }
 
     farmers = {
-        culture = pruthenian
+        culture = polish
         religion = catholic
         size = 28390
     }
