@@ -1,7 +1,18 @@
 SYC = {
+    value = 150
+}
+
+CIS = {
+    value = 150
+}
+
+ADL = {
     value = -150
 }
 
+ATR = {
+    value = 85
+}
 
 leader = {
     name = "Publius Cornelius"
