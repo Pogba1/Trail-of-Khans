@@ -481,7 +481,7 @@ regular_clothes_factory = {
         fabric = 40        #72    total input+maint = 82
     }
     output_goods = regular_clothes
-    value = 30            #92.8, from 87/15. Profit margin is 11.63% - total profit is 10.8
+    value = 24            #92.8, from 87/15. Profit margin is 11.63% - total profit is 10.8
     bonus = {
         trigger = { has_building = fabric_factory }
         value = 0.25
