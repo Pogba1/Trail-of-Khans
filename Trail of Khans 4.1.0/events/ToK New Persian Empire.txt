@@ -74,7 +74,9 @@ country_event = {
 		NOT = {has_global_flag = fertile_crescent_assimilation_nps}
 	}
 	
-	mean_time_to_happen = 1
+	mean_time_to_happen = {
+		days = 1
+	}
 	
 	option = {
         name = "Let us assimilate the Fertile Crescent."

@@ -115,12 +115,15 @@ migration_target =
 			has_pop_type = farmers
 			has_pop_type = labourers
 		}
-		unemployment_by_type = {
-			OR = {
+		OR = {
+			unemployment_by_type = {
 				type = farmers
-				type = labourers
+				value = 0.01
 			}
-			value = 0.01
+			unemployment_by_type = {
+				type = labourers
+				value = 0.01
+			}
 		}
 	}
 	

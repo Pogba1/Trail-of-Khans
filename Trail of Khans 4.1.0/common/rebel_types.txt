@@ -1509,25 +1509,6 @@ pan_nationalist_rebels = {
         prestige_factor = -0.3
         random_owned = {
             limit = {
-                owner = {
-                    is_culture_group = italian
-                    NOT = { exists = ITA }
-                    has_country_flag = made_the_call_to_union
-                }
-            }
-            owner = { country_event = 11103 }
-        }
-        random_owned = {
-            limit = {
-                owner = {
-                    is_culture_group = italian
-                    NOT = { has_country_flag = made_the_call_to_union }
-                }
-            }
-            owner = { country_event = 96205 }
-        }
-        random_owned = {
-            limit = {
                 owner = { is_culture_group = germanic }
             }
             owner = { country_event = 96210 }
@@ -1547,7 +1528,6 @@ pan_nationalist_rebels = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { is_culture_group = italian }
                     NOT = { is_culture_group = germanic }
                     NOT = { is_culture_group = pan_romanian }
                     NOT = { is_culture_group = scandinavian }

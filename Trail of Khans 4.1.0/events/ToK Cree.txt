@@ -137,7 +137,7 @@ country_event = {
 				is_colonial = no
 				has_province_modifier = assimilation_of_the_euros
 			}
-			remove_province_modifier = { assimilation_of_the_euros }
+			remove_province_modifier = assimilation_of_the_euros
 			add_province_modifier = {
 				name = assimilation_of_the_euros
 				duration = -1

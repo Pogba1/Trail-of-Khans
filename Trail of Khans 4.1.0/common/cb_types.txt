@@ -1602,7 +1602,6 @@ free_peoples = {
 						OR = {
 							tag = GER
 							tag = SCA
-							tag = ITA
 							tag = YUG
 							tag = ROM
 						}
@@ -1687,7 +1686,6 @@ liberate_country = {
 					OR = {
 						tag = GER
 						tag = SCA
-						tag = ITA
 					}
 				}
 			}

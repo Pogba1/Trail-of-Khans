@@ -128,20 +128,6 @@ party = {
 }
 
 party = {
-	name = "INC_social_liberal" # Ayni Party
-	start_date = 1880.1.1
-	end_date = 2000.1.1
-	
-	ideology = social_liberal
-	
-	economic_policy = interventionism
-	trade_policy = free_trade
-	religious_policy = secularized
-	citizenship_policy = full_citizenship
-	war_policy = anti_military
-}
-
-party = {
 	name = "INC_fascist" # Sons of the Sun
 	start_date = 1905.1.1
 	end_date = 2000.1.1

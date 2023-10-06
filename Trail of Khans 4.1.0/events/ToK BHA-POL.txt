@@ -498,7 +498,7 @@ country_event = {
         }
         set_country_flag = seized_lithuania
 
-        ai_will_do = {
+        ai_chance = {
             factor = 60
         }
     }
@@ -515,7 +515,7 @@ country_event = {
             }
         }
 
-        ai_will_do = {
+        ai_chance = {
             factor = 40
         } 
     }
@@ -524,8 +524,8 @@ country_event = {
         name = "We will abide by the treaty"
         set_country_flag = respected_riga
 
-        ai_will_do = {
-            factor = 0
+        ai_chance = {
+            factor = 20
         }
     }
 }

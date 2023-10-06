@@ -157,7 +157,6 @@ landlocked_nation = {
     trigger = {
         exists = yes
         NOT = { total_num_of_ports = 1 }
-        NOT = { has_country_modifier = trek_boers }
     }
     
     global_immigrant_attract = -1.5

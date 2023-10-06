@@ -186,10 +186,10 @@ country_event = {
 				days = 7
 			}
 		}
-		has_country_flag = our_path_independence
+		set_country_flag = our_path_independence
 		prestige = 10
 		money = 40000
-		ai_will_do = {
+		ai_chance = {
 			factor = 60
 		}
 	}
@@ -204,8 +204,8 @@ country_event = {
 			militancy = 3
 			consciousness = 5
 		}
-		has_country_flag = our_path_independence
-		ai_will_do = {
+		set_country_flag = our_path_independence
+		ai_chance = {
 			factor = 40
 		}
 	}

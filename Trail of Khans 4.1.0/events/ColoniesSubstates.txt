@@ -4,29 +4,33 @@ country_event = {
     title = "Land Ceded" #Territory Ceded
     desc = "These territories will be better administrated by a colonial government."
     picture = "theatre"
+
 	is_triggered_only = yes
-    mean_time_to_happen = {
-	days = 1
-	
+    
+	mean_time_to_happen = {
+		days = 1
 	}
+
     option = {
         name = "They better." #Grant Province
 		NEW = {
 		relation = {
 				who = THIS
-				value = 10
+				value = 100
 			}
 		}
 		diplomatic_influence = {
 				who = NEW
 				value = 50
-			}
-        any_owned = {
-		             limit={
-		                    continent = north_america
-			                NOT={is_core = THIS}
-			         }
-        }
-		secede_province = NEW
 		}
-    }
+        any_owned = {
+			limit = {
+				continent = north_america
+				NOT = {
+					is_core = THIS
+				}
+			}
+			secede_province = NEW
+        }
+	}
+}

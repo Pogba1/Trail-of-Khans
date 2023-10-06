@@ -421,7 +421,6 @@ malthusian_thought = {
         modifier = {
             factor = 20
             capital_scope = { continent = europe }
-            NOT = { tag = TUR }
             not = { literacy = 0.30 }
             OR = {
                 is_greater_power = yes
@@ -457,7 +456,6 @@ positivism = {
         modifier = {
             factor = 5
             capital_scope = { continent = europe }
-            NOT = { tag = TUR }
             OR = {
                 not = { literacy = 0.40 }
                 tag = ENG
@@ -507,7 +505,6 @@ functionalism = {
         modifier = {
             factor = 5
             capital_scope = { continent = europe }
-            NOT = { tag = TUR }
             OR = {
                 not = { literacy = 0.50 }
                 tag = ENG
@@ -557,7 +554,6 @@ biologism = {
         modifier = {
             factor = 10
             capital_scope = { continent = europe }
-            NOT = { tag = TUR }
             OR = {
                 not = { literacy = 0.7 }
                 year = 1880
@@ -609,7 +605,6 @@ social_science = {
         modifier = {
             factor = 10
             capital_scope = { continent = europe }
-            NOT = { tag = TUR }
             OR = {
                 not = { literacy = 0.75 }
                 year = 1890

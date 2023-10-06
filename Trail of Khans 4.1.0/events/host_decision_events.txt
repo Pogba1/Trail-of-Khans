@@ -3393,13 +3393,6 @@ country_event = {
 		random_country = {
 			limit = {
 				tag = FROM
-				tag = ITA
-			}
-			THIS = { change_tag_no_core_switch = ITA }
-		}
-		random_country = {
-			limit = {
-				tag = FROM
 				tag = ICL
 			}
 			THIS = { change_tag_no_core_switch = ICL }
@@ -12120,26 +12113,6 @@ country_event = {
 			THIS = {
 				clr_country_flag = host_nation
 				change_tag_no_core_switch = JAP
-			}
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				tag = ITA
-				NOT = { has_global_flag = host_flag_tagmove }
-			}
-			THIS = { change_tag_no_core_switch = ITA }
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				tag = ITA
-				has_global_flag = host_flag_tagmove
-			}
-			FROM = { set_country_flag = host_nation }
-			THIS = {
-				clr_country_flag = host_nation
-				change_tag_no_core_switch = ITA
 			}
 		}
 		random_country = {
@@ -20920,26 +20893,6 @@ country_event = {
 			THIS = {
 				clr_country_flag = host_nation
 				change_tag_no_core_switch = JAP
-			}
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				tag = ITA
-				NOT = { has_global_flag = host_flag_tagmove }
-			}
-			THIS = { change_tag_no_core_switch = ITA }
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				tag = ITA
-				has_global_flag = host_flag_tagmove
-			}
-			FROM = { set_country_flag = host_nation }
-			THIS = {
-				clr_country_flag = host_nation
-				change_tag_no_core_switch = ITA
 			}
 		}
 		random_country = {

@@ -71,9 +71,7 @@ country_event = {
         }
         FROM = {
             country_event = 820001
-            days = 0
         }
-
         any_pop = {
             limit = {
                 has_pop_culture = romanian

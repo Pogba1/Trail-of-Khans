@@ -2035,14 +2035,10 @@ army_delegated_power = {
 army_wargames = {
     limit = { army_risk_management = 1 }
     chance = {
-        base = 2
+        base = 3
         modifier = {
             factor = 1
             state_n_government = 1
-        }
-        modifier = {
-            factor = 1
-            invention = staff_command_support
         }
     }
     effect = {
