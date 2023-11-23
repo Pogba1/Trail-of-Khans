@@ -1,8 +1,6 @@
 owner = IRE
 controller = IRE
-add_core = IRE 
-add_core = GAE
-add_core = ARG
+add_core = IRE
 trade_goods = wool
 life_rating = 30
 colonial = 2

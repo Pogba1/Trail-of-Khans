@@ -1,7 +1,25 @@
-owner = ENG
-controller = ENG
-add_core = ENG
-add_core = SCO 
+owner = SCA
+controller = SCA
+add_core = SCA
+add_core = ENG 
 add_core = GAE
 trade_goods = grain
 life_rating = 35
+
+state_building = {
+    level = 1
+    building = regular_clothes_factory
+    upgrade = yes
+}
+
+state_building = {
+    level = 1
+    building = canned_food_factory
+    upgrade = yes
+}
+
+state_building = {
+    level = 1
+    building = liquor_distillery
+    upgrade = yes
+}

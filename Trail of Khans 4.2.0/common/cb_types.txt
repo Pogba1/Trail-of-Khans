@@ -86,6 +86,7 @@ install_communist_gov_cb
 uninstall_communist_gov_cb
 great_war_penalty_cb 
 negotiated_transfer_cb
+seperate_truce
 }
 
 roman_civil_war_cb = {
@@ -518,6 +519,15 @@ conquest = {
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
+		NOT = {
+			primary_culture = hausa
+		}
+		NOT = {
+			primary_culture = tuareg
+		}
+		NOT = {
+			primary_culture = forest_bantu
+		}
 		OR = {
 			AND = {
 				civilized = yes
@@ -582,6 +592,15 @@ conquest_low = {
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
+		NOT = {
+			primary_culture = hausa
+		}
+		NOT = {
+			primary_culture = tuareg
+		}
+		NOT = {
+			primary_culture = forest_bantu
+		}
 		OR = {
 			AND = {
 				civilized = yes
@@ -644,6 +663,15 @@ conquest_tiny = {
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
+		NOT = {
+			primary_culture = hausa
+		}
+		NOT = {
+			primary_culture = tuareg
+		}
+		NOT = {
+			primary_culture = forest_bantu
+		}
 		OR = {
 			AND = {
 				civilized = yes
@@ -705,6 +733,15 @@ conquest_miniscule = {
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
+		NOT = {
+			primary_culture = hausa
+		}
+		NOT = {
+			primary_culture = tuareg
+		}
+		NOT = {
+			primary_culture = forest_bantu
+		}
 		OR = {
 			AND = {
 				civilized = yes
@@ -2843,3 +2880,40 @@ great_war_penalty_cb = {
 	}
 }
 
+
+seperate_truce = {
+	sprite_index = 1
+	is_triggered_only = yes
+	months = 12
+	
+	construction_speed = 0.8
+	
+	badboy_factor = 0
+	prestige_factor = 0
+	peace_cost_factor = 1
+	penalty_factor = 0
+	always = yes
+
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 60
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+
+	can_use = {
+		war_with = THIS
+	}
+	
+	war_name = WAR_TAKE_CORE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}

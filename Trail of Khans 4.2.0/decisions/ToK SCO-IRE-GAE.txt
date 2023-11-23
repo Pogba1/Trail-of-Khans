@@ -7,9 +7,10 @@ political_decisions = {
 		allow = {
 			state_n_government = 1
 			war=no
-			OR = {
-			all_core = {owned_by = THIS}
-			ENL = {all_core = {owned_by = THIS}}
+			ENL = {
+				all_core = {
+					owned_by = THIS
+				}
 			}
 		}
 		effect = {
@@ -36,114 +37,6 @@ political_decisions = {
 		}
 	
 	}
-	
-	hegemony_over_the_island_IRE = {
-		potential = {
-			tag = IRE
-			NOT = {has_country_flag=hegemony_over_island}
-			NOT = {has_global_flag=attempt_reform_gaul}
-		}
-		allow = {
-			accepted_culture = welsh
-			war = no
-			state_n_government = 1
-			is_greater_power = yes
-			all_core = {
-				owned_by = THIS
-			}
-			ENG_300 = {
-				owned_by = THIS
-			}
-			SCO_296 = {
-				owned_by = THIS
-			}
-		}
-        effect = {
-			SCO_296 = {add_core=THIS}
-			ENG_284 = {add_core=THIS}
-			ENG_291 = {add_core=THIS}
-			ENG_300 = {add_core=THIS}
-			prestige = 15
-			set_country_flag = hegemony_over_island
-		}
-	}
-	
-	hegemony_over_the_island_SCO = {
-		potential = {
-			tag = SCO
-			NOT = {has_country_flag = hegemony_over_island}
-		}
-		allow = {
-			accepted_culture = british
-			war=no
-			all_core = {owned_by = THIS}
-			state_n_government = 1
-			is_greater_power = yes
-			SCO_299 = {owned_by = THIS}
-		}
-		effect = {
-			ENG_273 = {
-				add_core=THIS
-			}
-			SCO_299 = {
-				add_core = THIS
-			}
-			set_country_flag = hegemony_over_island
-			prestige = 15
-		}
-	}
-	
-	cores_scotland_ireland = {
-		potential = {
-			tag = SCO
-			NOT = {
-				has_country_flag=cores_scotland_ireland
-			}
-		}
-		allow = {
-			has_country_flag = hegemony_over_island
-			war = no
-			all_core = {
-				owned_by = THIS
-			}
-			is_greater_power = yes
-			nationalism_n_imperialism = 1
-		}
-		effect = {
-			ENG_254 = {add_core=THIS}
-			ENG_258 = {add_core=THIS}
-			ENG_260 = {add_core=THIS} 
-			ENG_263 = {add_core=THIS}
-			prestige = 15
-			set_country_flag=cores_scotland_ireland
-		}
-	}
-	
-	cores_ireland_scotland = {
-		potential = {
-			tag = IRE
-		    NOT={has_country_flag=cores_ireland_scotland}
-			NOT={has_global_flag=attempt_reform_gaul}
-		}
-		allow = {
-			has_country_flag = hegemony_over_island
-			war = no
-			all_core = {
-				is_core = GAE
-				owned_by = THIS
-			}
-			is_greater_power = yes
-			nationalism_n_imperialism = 1
-		}
-		effect = {
-			ENG_266 = {add_core=THIS}
-			ENG_271 = {add_core=THIS}
-			ENG_277 = {add_core=THIS}
-			ENG_280 = {add_core=THIS}
-			prestige = 15
-			set_country_flag=cores_ireland_scotland
-		}
-	}	
 	
 	form_gae_SCO = {
 		potential ={

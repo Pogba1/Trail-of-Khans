@@ -71,6 +71,58 @@ leader = {
     background = exranker
     prestige = 0.1
 }
+
+army = {
+    name = "Garrison of the Iles"
+    location = 290
+
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 290
+    }
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 288
+    }
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 295
+    }
+    regiment = {
+        name = "Guard"
+        type = guard
+        home = 289
+    }
+    regiment = {
+        name = "Guard"
+        type = guard
+        home = 281
+    }
+    regiment = {
+        name = "Guard"
+        type = guard
+        home = 291
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 293
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 292
+    }
+    regiment = {
+        name = "Artillery"
+        type = artillery
+        home = 292
+    }
+}
+
 army = {
     name = "Indisk Arm�n"
     location = 1297

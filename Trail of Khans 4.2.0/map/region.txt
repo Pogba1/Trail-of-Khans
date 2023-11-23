@@ -111,7 +111,7 @@ USA_247 = { 247 246 248 249 250 } #New England
 
 ### United Kingdom
 
-ENG_254 = { 254 255 256 } #Ulster
+ENG_254 = { 254 255 256 304 } #Ulster
 
 ENG_258 = { 258 259 257 } #Connacht
 
@@ -125,11 +125,11 @@ ENG_271 = { 271 269 270 272 } #Lowlands
 
 ENG_273 = { 273 274 275 276 } #Wales
 
-ENG_277 = { 277 278 279 285 304 } #North West England
+ENG_277 = { 278 282 283 285 } #North West England
 
-ENG_280 = { 280 281 290 } #North East England
+ENG_280 = { 277 279 280 } #North East England
 
-ENG_284 = { 288 289 282 283 } #West Midlands
+ENG_284 = { 290 288 289 281 } #West Midlands
 
 ENG_291 = { 291 292 293 295 } #Eastern Counties
 

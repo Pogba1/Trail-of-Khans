@@ -14,16 +14,6 @@ leader = {
 }
 
 leader = {
-    name = "Liam Minnagh"
-    picture = eng_adm_codrington
-    date = 1836.1.1
-    type = sea
-    personality = daring
-    background = expert_raider
-    prestige = 0.3
-}
-
-leader = {
     name = "Shane Dunphy"
     picture = eng_adm_cockburn
     date = 1812.1.1
@@ -50,16 +40,6 @@ leader = {
     personality = indifferent
     background = gifted_administrator
     prestige = 0.1
-}
-
-leader = {
-    name = "Jaxon MacTraynor"
-    picture = european_general_34
-    date = 1810.1.1
-    type = land
-    personality = heroic
-    background = school_of_defense
-    prestige = 0.8
 }
 
 leader = {
@@ -152,7 +132,7 @@ leader = {
 
 army = {
     name = "1st Army"
-    location = 254
+    location = 260
     regiment = {
         name= "Artillery Brigade"
         type = artillery
@@ -209,7 +189,7 @@ army = {
 
 army = {
     name = "2nd Army"
-    location = 256
+    location = 262
     regiment = {
         name= "Artillery Brigade"
         type = artillery
@@ -264,7 +244,7 @@ army = {
 
 army = {
     name = "Royal Guard"
-    location = 263
+    location = 261
 	regiment = {
         name= "Infantry Brigade"
         type = infantry
@@ -324,7 +304,7 @@ army = {
 
 navy = {
     name = "Cabhlach Gaelach"
-    location = 263 #Southampton
+    location = 260 #Southampton
     ship = {
         name= "Saint Vincent"
         type = manowar

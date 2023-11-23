@@ -38,7 +38,9 @@ political_decisions = {
 		allow = {
 			JER = {
 				all_core = {
-					culture = mashriqi
+					NOT = {
+						is_core = CYP
+					}
 					owned_by = THIS
 				}
 			}		

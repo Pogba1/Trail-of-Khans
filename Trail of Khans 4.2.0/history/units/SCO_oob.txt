@@ -63,15 +63,6 @@ leader = {
     prestige = 0.1
 }
 
-leader = {
-    name = "Kaiden McGowan"
-    picture = european_general_34
-    date = 1810.1.1
-    type = land
-    personality = heroic
-    background = school_of_defense
-    prestige = 0.8
-}
 
 leader = {
     name = "Francis Cumming"
@@ -164,7 +155,7 @@ leader = {
 
 army = {
     name = "1st Army"
-    location = 289
+    location = 269
     regiment = {
         name= "Light Brigade"
         type = hussar
@@ -335,7 +326,7 @@ army = {
 #Channel Fleet
 navy = {
     name = "Channel Fleet"
-    location = 303
+    location = 271
 
     ship = {
         name= "Belleisle" #-
@@ -464,182 +455,10 @@ navy = {
 
 }
 
-#Reserve Fleet
-#navy = {
-#    name = "Reserve Squadron"
-#    location = 296 #Bristol
-#
-#    ship = {
-#        name= "Cambridge"
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Cornwallis"
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Defence"
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Hercules" #-
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Howe" #-
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Nelson"
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Thunderer"
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Vanguard"
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Vengeance"
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Waterloo"
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Amazon"
-#        type = frigate
-#    }
-#
-#    ship = {
-#        name= "Fisguard"
-#        type = frigate
-#    }
-#
-#    ship = {
-#        name= "Isis"
-#        type = frigate
-#    }
-#
-#    ship = {
-#        name= "Latona"
-#        type = frigate
-#    }
-#
-#    ship = {
-#        name= "Melampus"
-#        type = frigate
-#    }
-#
-#    ship = {
-#        name= "Minerva"
-#        type = frigate
-#    }
-#
-#    ship = {
-#        name= "Nereus"
-#        type = frigate
-#    }
-#
-#    ship = {
-#        name= "Seringapatam"
-#        type = frigate
-#    }
-#
-#    ship = {
-#        name= "Southampton"
-#        type = frigate
-#    }
-#
-#    ship = {
-#        name= "Venus"
-#        type = frigate
-#    }
-#
-#}
-
-#Mediterranean Fleet
-
-
-#North America Station
-
-#South Atlantic Station
-
-
-##East Indies Station
-#navy = {
-#    name = "East Indies Station"
-#    location = 1297 #Bombay
-#
-#    ship = {
-#        name= "Asia"
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Bombay"
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Calcutta"
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Ganges"
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Malabar"
-#        type = manowar
-#    }
-#
-#    ship = {
-#        name= "Madagascar"
-#        type = frigate
-#    }
-#
-#    ship = {
-#        name= "Portland"
-#        type = frigate
-#    }
-#
-#    ship = {
-#        name= "Winchester"
-#        type = frigate
-#    }
-#
-#    ship = {
-#        name= "Leonidas"
-#        type = frigate
-#    }
-#
-#    ship = {
-#        name= "Naiad"
-#        type = frigate
-#    }
-#
-#}
-
 #Transport
 navy = {
     name = "1st Transport Squadron"
-    location = 301 #Canterbury
+    location = 271 #Canterbury
     ship = {
         name= "1st Transport Flotilla"
         type = steam_transport
