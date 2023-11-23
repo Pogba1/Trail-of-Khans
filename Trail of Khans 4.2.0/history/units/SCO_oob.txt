@@ -1,16 +1,16 @@
 #Sphere of Influence
 #GPs
-IRE = { value = -100 }
+IRE = { value = -150 }
 
-NOR = {
-    value = 100
-    level = 5
-    influence_value = 100
-}
-
-SWE = {
+WHA = {
     value = 150
     level = 5
+    influence_value = 50
+}
+
+ENL = {
+    value = 50
+    level = 2
     influence_value = 50
 }
 
@@ -452,13 +452,6 @@ navy = {
         name= "Medea"
         type = frigate
     }
-
-}
-
-#Transport
-navy = {
-    name = "1st Transport Squadron"
-    location = 271 #Canterbury
     ship = {
         name= "1st Transport Flotilla"
         type = steam_transport
@@ -611,4 +604,5 @@ navy = {
         name= "Owen Glendower"
         type = frigate
     }
+
 }

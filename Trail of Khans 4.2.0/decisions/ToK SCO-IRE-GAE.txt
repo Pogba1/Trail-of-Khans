@@ -7,14 +7,32 @@ political_decisions = {
 		allow = {
 			state_n_government = 1
 			war=no
-			ENL = {
+			ENG = {
 				all_core = {
 					owned_by = THIS
 				}
 			}
 		}
 		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = {
+							tag = GAE
+						}
+					}
+				}
+				owner = {
+					badboy = 10
+				}
+			}
+			prestige = 15
 			add_accepted_culture = british
+			ENG = {
+				all_core = {
+					add_core = THIS
+				}
+			}
 			set_country_flag = britannic_integration
 		}
 	
@@ -26,17 +44,39 @@ political_decisions = {
 			NOT = {has_country_flag = british_danish_integration}
 		}
 		allow = {
-			accepted_culture = british
 			war=no
-			all_core = {owned_by = THIS}
+			ENL = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
 			nationalism_n_imperialism = 1
 		}
 		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = {
+							tag = GAE
+						}
+					}
+				}
+				owner = {
+					badboy = 10
+				}
+			}
+			prestige = 15
 			add_accepted_culture = british_danish
+			ENL = {
+				all_core = {
+					add_core = THIS
+				}
+			}
 			set_country_flag = british_danish_integration
 		}
-	
 	}
+
+
 	
 	form_gae_SCO = {
 		potential ={
@@ -45,6 +85,7 @@ political_decisions = {
 		}
 		allow = {
 			is_greater_power = yes
+			nationalism_n_imperialism = 1
 			GAE = {
 				all_core = {
 					OR = {
@@ -70,6 +111,8 @@ political_decisions = {
 					OR = {
 						primary_culture = irish
 						primary_culture = scottish
+						primary_culture = british
+						primary_culture = welsh
 					}
 					in_sphere = THIS
 					OR = {
@@ -102,211 +145,150 @@ political_decisions = {
 		}
 	}
 	
-	form_gae_IRE = {
-		potential ={
-			tag = IRE
-			NOT = {exists = GAE}
-			NOT = {
-				has_global_flag = attempt_reform_gaul
-			}
-		}
-		allow = {
-			is_greater_power = yes
-			GAE = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-							OR = {
-								is_vassal = no
-								vassal_of = THIS
-							}
-							war = no
-							is_greater_power = no
-						}
-					}
-				}
-			}
-		}
-		effect = {
-			change_tag = GAE
-			any_country = {
-				limit = {
-					OR = {
-						primary_culture = irish
-						primary_culture = scottish
-					}
-					in_sphere = THIS
-					OR = {
-						is_vassal = no
-						vassal_of = THIS
-					}
-					is_greater_power = no
-				}
-				annex_to = THIS
-			}
-			SCO = {
-				all_core = {
-					remove_core = SCO
-				}
-			}
-			IRE = {
-				all_core = {
-					remove_core = IRE
-				}
-			}
-			add_accepted_culture = scottish
-			add_accepted_culture = british
-			add_accepted_culture = breton
-			prestige = 30
-		}
-	}
-	
 	#######################
 	#SCHIZOPHRENIC IRELAND#
 	#######################
 	
-	welsh_integration = {
-		potential = {
-		OR = {
-			primary_culture = irish
-			tag = GAU
-		}
-			NOT = {has_country_flag = welsh_integration}
-		}
-		allow = {
-			war=no
-			273 = {owned_by = THIS}
-			state_n_government = 1
-		}
-		effect = {
-			add_accepted_culture = welsh
-			set_country_flag = welsh_integration
-		}
-	
-	}
-	cuban_integration = {
-		potential = {
-			OR = {
-				primary_culture = irish
-				tag = GAU
-			}
-			NOT = {accepted_culture = cuban}
-		}
-		allow = {
-			war=no
-			2209 = {owned_by = THIS}
-			state_n_government = 1
-		}
-		effect = {
-			add_accepted_culture = cuban
-			prestige = -15
-		}
-	
-	}
-	attempt_reform_gaul = {
-		potential = {
-			NOT = {exists = GAU}
-			tag = IRE
-			NOT = {has_global_flag = attempt_reform_gaul}
-			NOT = {has_country_flag = hegemony_over_island}
-		}
-		allow = {
-			417 = {owned_by = THIS} #Alencon
-			423 = {owned_by = THIS} #Nantes
-		}
-		effect = {
-			set_global_flag = attempt_reform_gaul
-			FRA_420 = {add_core = IRE} #Britanny
-			FRA_435 = {add_core = IRE} #Loire
-			FRA_418 = {add_core = IRE} #Normandy
-			badboy = 2.5
-		}
-	}
-	
-	attempt_reform_gaulII = {
-		potential = {
-			NOT = {exists = GAU}
-			tag = IRE
-			NOT = {has_global_flag = attempt_reform_gaulII}
-			NOT = {has_global_flag = hegemony_over_island}
-			has_global_flag = attempt_reform_gaul
-		}
-		allow = {
-			417 = {owned_by = THIS} #Alencon			
-			423 = {owned_by = THIS} #Nantes
-			FRA_435 = {owned_by = THIS} #Loire
-			FRA_425 = {owned_by = THIS} #Ile-de-France
-			state_n_government = 1
-		}
-		effect = {
-			set_global_flag = attempt_reform_gaulII
-			FRA_425 = {add_core = IRE} #Ile-de-France
-			FRA_438 = {add_core = IRE} #Region Centre
-			FRA_442 = {add_core = IRE} #Charente-Dordogne
-			badboy = 15
-		}
-	}
-	attempt_reform_gaulIII = {
-		potential = {
-			tag = IRE
-			NOT = {exists = GAU}
-			NOT = {has_global_flag = attempt_reform_gaulIII}
-			NOT = {has_global_flag = hegemony_over_island}
-			has_global_flag = attempt_reform_gaulII
-		}
-		allow = {
-			417 = {owned_by = THIS} #Alencon			
-			423 = {owned_by = THIS} #Nantes
-			FRA_435 = {owned_by = THIS}	#Loire		
-			FRA_442 = {owned_by = THIS} #Charente-Dordogne
-			FRA_425 = {owned_by = THIS} #Ile-de-France
-			FRA_438 = {owned_by = THIS} #Region Centre
-			FRA_428 = {owned_by = THIS} #Bourgogne
-			FRA_458 = {owned_by = THIS} #Aquitaine
-			FRA_455 = {owned_by = THIS} #Le Midi
-			nationalism_n_imperialism = 1
-		}
-		effect = {
-			set_global_flag = attempt_reform_gaulIII
-			FRA_458 = {add_core = IRE} #Aquitaine			
-			FRA_455 = {add_core = IRE} #Le Midi
-			FRA_461 = {add_core = IRE} #Languedoc	
-			FRA_3339 = {add_core = IRE} #Auvergne
-			FRA_428 = {add_core = IRE} #Bourgogne			
-			FRA_451 = {add_core = IRE} #Rhone
-			FRA_467 = {add_core = IRE} #Provence
-			badboy = 10
-		}
-	}
-	
-	form_gau = {
-		potential = {
-			primary_culture = irish
-			NOT = {exists = GAU}
-			NOT = {has_country_flag = hegemony_over_island}
-			has_global_flag = attempt_reform_gaulIII
-		}
-		allow = {
-			all_core = {owned_by = THIS}
-		}
-		effect = {
-			change_tag = GAU
-			prestige = 10
-			capital = 425
-			primary_culture = gallic
-			add_accepted_culture = irish
-			add_accepted_culture = celtic
-			FRA_420 = {
-				assimilate = yes
-			}
-			FRA = {all_core = {remove_core = FRA}}
-			IRE = {all_core = {remove_core = IRE add_core = GAU}}
-			any_owned = {
-				limit = {is_core = GAU}
-				add_province_modifier = {name = teach_gallic duration = -1}
-			}
-		}
-	}
+#	welsh_integration = {
+#		potential = {
+#		OR = {
+#			primary_culture = irish
+#			tag = GAU
+#		}
+#			NOT = {has_country_flag = welsh_integration}
+#		}
+#		allow = {
+#			war=no
+#			273 = {owned_by = THIS}
+#			state_n_government = 1
+#		}
+#		effect = {
+#			add_accepted_culture = welsh
+#			set_country_flag = welsh_integration
+##		}
+#	
+#	}
+#	cuban_integration = {
+#		potential = {
+#			OR = {
+#				primary_culture = irish
+#				tag = GAU
+##			}
+#			NOT = {accepted_culture = cuban}
+##		}
+#		allow = {
+#			war=no
+#			2209 = {owned_by = THIS}
+#			state_n_government = 1
+#		}
+##		effect = {
+#			add_accepted_culture = cuban
+#			prestige = -15
+#		}
+#	
+#	}
+#	attempt_reform_gaul = {
+#		potential = {
+#			NOT = {exists = GAU}
+#			tag = IRE
+#			NOT = {has_global_flag = attempt_reform_gaul}
+#			NOT = {has_country_flag = hegemony_over_island}
+#		}
+#		allow = {
+#			417 = {owned_by = THIS} #Alencon
+#			423 = {owned_by = THIS} #Nantes
+#		}
+#		effect = {
+#			set_global_flag = attempt_reform_gaul
+#			FRA_420 = {add_core = IRE} #Britanny
+#			FRA_435 = {add_core = IRE} #Loire
+#			FRA_418 = {add_core = IRE} #Normandy
+#			badboy = 2.5
+#		}
+#	}
+#	
+#	attempt_reform_gaulII = {
+#		potential = {
+#			NOT = {exists = GAU}
+#			tag = IRE
+#			NOT = {has_global_flag = attempt_reform_gaulII}
+#			NOT = {has_global_flag = hegemony_over_island}
+#			has_global_flag = attempt_reform_gaul
+#		}
+#		allow = {
+#			417 = {owned_by = THIS} #Alencon			
+#			423 = {owned_by = THIS} #Nantes
+#			FRA_435 = {owned_by = THIS} #Loire
+#			FRA_425 = {owned_by = THIS} #Ile-de-France
+#			state_n_government = 1
+#		}
+#		effect = {
+#			set_global_flag = attempt_reform_gaulII
+#			FRA_425 = {add_core = IRE} #Ile-de-France
+#			FRA_438 = {add_core = IRE} #Region Centre
+#			FRA_442 = {add_core = IRE} #Charente-Dordogne
+#			badboy = 15
+#		}
+#	}
+#	attempt_reform_gaulIII = {
+#		potential = {
+#			tag = IRE
+#			NOT = {exists = GAU}
+#			NOT = {has_global_flag = attempt_reform_gaulIII}
+#			NOT = {has_global_flag = hegemony_over_island}
+#			has_global_flag = attempt_reform_gaulII
+#		}
+#		allow = {
+#			417 = {owned_by = THIS} #Alencon			
+#			423 = {owned_by = THIS} #Nantes
+#			FRA_435 = {owned_by = THIS}	#Loire		
+#			FRA_442 = {owned_by = THIS} #Charente-Dordogne
+#			FRA_425 = {owned_by = THIS} #Ile-de-France
+#			FRA_438 = {owned_by = THIS} #Region Centre
+#			FRA_428 = {owned_by = THIS} #Bourgogne
+#			FRA_458 = {owned_by = THIS} #Aquitaine
+#			FRA_455 = {owned_by = THIS} #Le Midi
+#			nationalism_n_imperialism = 1
+#		}
+#		effect = {
+#			set_global_flag = attempt_reform_gaulIII
+#			FRA_458 = {add_core = IRE} #Aquitaine			
+#			FRA_455 = {add_core = IRE} #Le Midi
+#			FRA_461 = {add_core = IRE} #Languedoc	
+#			FRA_3339 = {add_core = IRE} #Auvergne
+#			FRA_428 = {add_core = IRE} #Bourgogne			
+#			FRA_451 = {add_core = IRE} #Rhone
+#			FRA_467 = {add_core = IRE} #Provence
+#			badboy = 10
+#		}
+#	}
+#	
+#	form_gau = {
+#		potential = {
+#			primary_culture = irish
+#			NOT = {exists = GAU}
+#			NOT = {has_country_flag = hegemony_over_island}
+#			has_global_flag = attempt_reform_gaulIII
+#		}
+##		allow = {
+#			all_core = {owned_by = THIS}
+#		}
+#		effect = {
+#			change_tag = GAU
+#			prestige = 10
+#			capital = 425
+#			primary_culture = gallic
+#			add_accepted_culture = irish
+#			add_accepted_culture = celtic
+#			FRA_420 = {
+#				assimilate = yes
+#			}
+#			FRA = {all_core = {remove_core = FRA}}
+#			IRE = {all_core = {remove_core = IRE add_core = GAU}}
+#			any_owned = {
+#				limit = {is_core = GAU}
+#				add_province_modifier = {name = teach_gallic duration = -1}
+#			}
+#		}
+#	}
 }

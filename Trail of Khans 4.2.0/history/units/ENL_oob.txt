@@ -1,0 +1,77 @@
+leader = {
+    name = "Nicobul Mambreta"
+    date = 1836.1.1
+    type = land
+    personality = balanced_p
+    background = generals_aide
+    prestige = 0.15
+}
+
+leader = {
+    name = "Gennaro Cavigli"
+    date = 1836.1.1
+    type = land
+    personality = stalwart
+    background = eccentric_genius
+    prestige = 0.1
+}
+
+leader = {
+    name = "Innocento Convinum"
+    date = 1836.1.1
+    type = sea
+    personality = efficient
+    background = expert_raider
+}
+
+army = {
+    location = 300
+    name = "Legio Londinensis"
+
+    regiment = {
+        name = "Legio I"
+        type = infantry
+        home = 300
+    }
+    regiment = {
+        name = "Legio II"
+        type = infantry
+        home = 301
+    }
+    regiment = {
+        name = "Legio III"
+        type = infantry
+        home = 302
+    }
+    regiment = {
+        name = "Legio IV"
+        type = infantry
+        home = 303
+    }
+    regiment = {
+        name = "Equites"
+        type = dragoon
+        home = 300
+    }
+    regiment = {
+        name = "Tormentum I"
+        type = artillery
+        home = 297
+    }
+    regiment = {
+        name = "Tormentum II"
+        type = artillery
+        home = 298
+    }
+    regiment = {
+        name = "Tormentum III"
+        type = artillery
+        home = 299
+    }
+    regiment = {
+        name = "Tormentum IV"
+        type = artillery
+        home = 299
+    }
+}
+
