@@ -530,3 +530,74 @@ navy = {
         type = clipper_transport
     }
 }
+
+navy = {
+    name = "Indian Transport Fleet"
+    location = 1297
+
+
+    ship = {
+        name = "Escort Frigate"
+        type = frigate
+    }
+    ship = {
+        name = "Escort Frigate"
+        type = frigate
+    }
+
+    ship = {
+        name = "Escort Frigate"
+        type = frigate
+    }
+
+    ship = {
+        name = "Escort Frigate"
+        type = frigate
+    }
+
+    ship = {
+        name = "Escort Frigate"
+        type = frigate
+    }
+
+    ship = {
+        name = "Escort Frigate"
+        type = frigate
+    }
+    ship = {
+        name = "Transport Flotilla"
+        type = clipper_transport
+    }
+    ship = {
+        name = "Transport Flotilla"
+        type = clipper_transport
+    }
+    ship = {
+        name = "Transport Flotilla"
+        type = clipper_transport
+    }
+    ship = {
+        name = "Transport Flotilla"
+        type = clipper_transport
+    }
+    ship = {
+        name = "Transport Flotilla"
+        type = clipper_transport
+    }
+    ship = {
+        name = "Transport Flotilla"
+        type = clipper_transport
+    }
+    ship = {
+        name = "Transport Flotilla"
+        type = clipper_transport
+    }
+    ship = {
+        name = "Transport Flotilla"
+        type = clipper_transport
+    }
+    ship = {
+        name = "Transport Flotilla"
+        type = clipper_transport
+    }
+}
