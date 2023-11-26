@@ -95,19 +95,6 @@ country_event = {
     is_triggered_only = yes
 
     option = {
-        name = "Friedrich Kmiecik, the Duke of Silesia"
-        prestige = -5
-        any_pop = {
-            limit = {
-                has_pop_culture = polish
-            }
-            militancy = 2
-            consciousness = 2
-        }
-        set_country_flag = regent_friedrich_kmiecik
-    }
-
-    option = {
         name = "Sobieski, influencial Noble and General"
         prestige = 10
         set_country_flag = regent_sobieski
@@ -770,39 +757,6 @@ country_event = {
     }
 }
 
-#Friedrich's Influence
-
-country_event = {
-    id = 18810
-    title = "EVTNAME18810"
-    desc = "EVTDESC18810"
-
-    trigger = {
-        tag = POL
-        has_country_flag = stanislaus_power
-        has_country_flag = regent_friedrich_kmiecik
-        NOT = {
-            has_country_flag = regent_sobieski
-        }
-        NOT = {
-            has_country_flag = regent_kazimierz
-        }
-        NOT = {
-            has_country_flag = friedrich_influence
-        }
-    }
-
-    mean_time_to_happen = {
-        months = 1
-    }
-
-    option = {
-        name = "Let me guide you as your savior, niemcy"
-        set_country_flag = friedrich_influence
-        clr_country_flag = regent_friedrich_kmiecik
-    }
-}
-
 #Sobieski's Influence
 
 country_event = {
@@ -814,9 +768,6 @@ country_event = {
         tag = POL
         has_country_flag = stanislaus_power
         has_country_flag = regent_sobieski
-        NOT = {
-            has_country_flag = regent_friedrich_kmiecik
-        }
         NOT = {
             has_country_flag = regent_kazimierz
         }
@@ -847,9 +798,6 @@ country_event = {
         tag = POL
         has_country_flag = stanislaus_power
         has_country_flag = regent_kazimierz
-        NOT = {
-            has_country_flag = regent_friedrich_kmiecik
-        }
         NOT = {
             has_country_flag = regent_sobieski
         }

@@ -77,7 +77,10 @@ political_decisions = {
 	abolish_silesian_duchy = {
 		potential = {
 			tag = POL
-			has_country_flag = friedrich_influence
+			OR = {
+				has_country_flag = kazimierz_influence
+				has_country_flag = sobieski_influence
+			}
 			NOT = {
 				has_country_flag = annexed_silesia
 			}
