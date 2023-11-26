@@ -92,21 +92,6 @@ party = {
 }
 
 party = {
-    name = "SCA_liberal_2"
-    start_date = 1830.1.1
-    end_date = 2000.1.1
-
-    ideology = liberal
-
-    social_policy = no_position_set
-    economic_policy = interventionism
-    trade_policy = protectionism
-    religious_policy = pluralism
-    citizenship_policy = residency
-    war_policy = pro_military
-}
-
-party = {
     name = "SCA_liberal_3"
     start_date = 1830.1.1
     end_date = 2000.1.1
