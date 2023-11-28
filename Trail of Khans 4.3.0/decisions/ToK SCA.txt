@@ -189,6 +189,9 @@ political_decisions = {
 			}
 		}
 		allow = {
+			GAE = {
+				exists = no
+			}
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
 			SCO = {
