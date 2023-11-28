@@ -1398,7 +1398,7 @@ military_reforms = {
             #unit stats improve
             land_organisation = 0.1
             min_military_spending = 0.05
-            technology_cost = 8500
+            technology_cost = 7500
             civilization_progress_modifier = 0.05
             research_points_on_conquer = 0.15
 
@@ -1433,7 +1433,7 @@ military_reforms = {
         }
         yes_foreign_weapons = {
             land_defense_modifier = 0.1
-            technology_cost = 8500
+            technology_cost = 7500
             civilization_progress_modifier = 0.05
             research_points_on_conquer = 0.15
 
@@ -1467,7 +1467,7 @@ military_reforms = {
             core_pop_consciousness_modifier = -0.01
         }
         yes_military_constructions = {
-            technology_cost = 8500
+            technology_cost = 7500
             civilization_progress_modifier = 0.05
             allow = {
                 OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes }
@@ -1513,7 +1513,7 @@ military_reforms = {
         }
         yes_foreign_officers = {
             leadership_modifier = 0.1
-            technology_cost = 8500
+            technology_cost = 7500
             civilization_progress_modifier = 0.05
             research_points_on_conquer = 0.15
             allow = {
@@ -1548,7 +1548,7 @@ military_reforms = {
         yes_army_schools = {
             land_unit_start_experience = 10
             min_military_spending = 0.05
-            technology_cost = 8500
+            technology_cost = 7500
             civilization_progress_modifier = 0.05
             research_points_on_conquer = 0.15
             allow = {
@@ -1583,7 +1583,7 @@ military_reforms = {
         }
         yes_foreign_naval_officers = {
             tariff_efficiency_modifier = 0.2
-            technology_cost = 10000
+            technology_cost = 7500
             civilization_progress_modifier = 0.05
             research_points_on_conquer = 0.15
 
@@ -1622,7 +1622,7 @@ military_reforms = {
         }
         yes_naval_schools = {
             naval_unit_start_experience = 10
-            technology_cost = 10000
+            technology_cost = 7500
             civilization_progress_modifier = 0.05
             research_points_on_conquer = 0.15
 
@@ -1663,7 +1663,7 @@ military_reforms = {
         yes_foreign_navies = {
             naval_attack_modifier = 0.2
             naval_defense_modifier = 0.2
-            technology_cost = 12000
+            technology_cost = 7500
             civilization_progress_modifier = 0.05
             research_points_on_conquer = 0.15
 
@@ -1674,7 +1674,7 @@ military_reforms = {
             on_execute = {
                 effect = {
                     activate_technology = clipper_design
-                    activate_technology = steamers
+                    activate_technology = naval_design_bureaus
                     set_country_flag = using_foreign_ships
 
                     any_pop = {
@@ -1701,7 +1701,7 @@ military_reforms = {
         }
 
         yes_western_shipyards = {
-            technology_cost = 12000
+            technology_cost = 7500
             civilization_progress_modifier = 0.05
 
             allow = {
@@ -1740,7 +1740,7 @@ military_reforms = {
             supply_consumption = -0.1
         }
         yes_foreign_artillery = {
-            technology_cost = 8500
+            technology_cost = 7500
             civilization_progress_modifier = 0.05
             research_points_on_conquer = 0.15
 

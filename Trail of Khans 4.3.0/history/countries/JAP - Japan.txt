@@ -56,6 +56,9 @@ post_napoleonic_thought = 1
 bronze_muzzle_loaded_artillery = 1
 army_command_principle = 1
 malthusian_thought = 1
+post_nelsonian_thought = 1
+clipper_design = 1
+naval_design_bureaus = 1
 
 #Unciv Reforms
 land_reform = yes_land_reform
@@ -72,8 +75,8 @@ foreign_officers = no_foreign_officers
 army_schools = yes_army_schools
 foreign_naval_officers = no_foreign_naval_officers
 naval_schools = no_naval_schools
-foreign_navies = no_foreign_navies
-western_shipyards = no_western_shipyards
+foreign_navies = yes_foreign_navies
+western_shipyards = yes_western_shipyards
 foreign_weapons = yes_foreign_weapons
 military_constructions = yes_military_constructions
 foreign_artillery = yes_foreign_artillery
