@@ -106,18 +106,16 @@ country_event = {
                     has_pop_culture = irish
                     has_pop_culture = scottish
                     has_pop_culture = czech
+                    has_pop_culture = british_danish
+                    has_pop_culture = danish
+                    has_pop_culture = norwegian
                 }
             }
             literacy = 0.64
         }
         any_pop = {
             limit = {
-                OR = {
-                    has_pop_culture = picard
-                    has_pop_culture = british_danish
-                    has_pop_culture = danish
-                    has_pop_culture = norwegian
-                }
+                has_pop_culture = picard
             }
             literacy = 0.55
         }
@@ -170,6 +168,7 @@ country_event = {
                     has_pop_culture = british
                     has_pop_culture = basque
                     has_pop_culture = platinean
+                    has_pop_culture = mongol
                 }
             }
             literacy = 0.265
@@ -178,8 +177,6 @@ country_event = {
             limit = {
                 OR = {
                     has_pop_culture = western_slavic
-                    has_pop_culture = kazak
-                    has_pop_culture = manchu
                     has_pop_culture = persian
                     has_pop_culture = azerbaijani
                     has_pop_culture = catalan
@@ -224,6 +221,8 @@ country_event = {
                     has_pop_culture = ukrainian
                     has_pop_culture = armenian
                     has_pop_culture = byelorussian
+                    has_pop_culture = kazak
+                    has_pop_culture = manchu
                 }
             }
             literacy = 0.14
@@ -442,18 +441,16 @@ country_event = {
                     has_pop_culture = irish
                     has_pop_culture = scottish
                     has_pop_culture = czech
+                    has_pop_culture = british_danish
+                    has_pop_culture = danish
+                    has_pop_culture = norwegian
                 }
             }
             literacy = 0.64
         }
         any_pop = {
             limit = {
-                OR = {
-                    has_pop_culture = picard
-                    has_pop_culture = british_danish
-                    has_pop_culture = danish
-                    has_pop_culture = norwegian
-                }
+                has_pop_culture = picard
             }
             literacy = 0.55
         }
@@ -475,7 +472,6 @@ country_event = {
             limit = {
                 OR = {
                     has_pop_culture = roman
-                    has_pop_culture = tatar
                     has_pop_culture = polish
                     has_pop_culture = louisianian
                 }
@@ -485,7 +481,6 @@ country_event = {
         any_pop = {
             limit = {
                 OR = {
-                    has_pop_culture = russian
                     has_pop_culture = anglo_saxon
                     has_pop_culture = dalmatian
                     has_pop_culture = elysian
@@ -501,7 +496,6 @@ country_event = {
                     has_pop_culture = occitan
                     has_pop_culture = korean
                     has_pop_culture = british
-                    has_pop_culture = byelorussian
                     has_pop_culture = basque
                     has_pop_culture = platinean
                     has_pop_culture = mongol
@@ -538,6 +532,7 @@ country_event = {
                     has_pop_culture = cree
                     has_pop_culture = mexican
                     has_pop_culture = latin
+                    has_pop_culture = russian
                 }
             }
             literacy = 0.17
@@ -557,6 +552,7 @@ country_event = {
                     has_pop_culture = armenian
                     has_pop_culture = kazak
                     has_pop_culture = manchu
+                    has_pop_culture = byelorussian
                 }
             }
             literacy = 0.14
@@ -575,6 +571,7 @@ country_event = {
                     is_culture_group = southeast_asian
                     has_pop_culture = iroquois
                     has_pop_culture = cherokee
+                    has_pop_culture = tatar
                 }
             }
             literacy = 0.09
