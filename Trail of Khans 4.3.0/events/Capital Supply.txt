@@ -5,6 +5,7 @@ country_event = {
 
     trigger = {
         ai = no
+        war = no
         capital_scope = {
             NOT = {
                 has_province_modifier = capital_supply
@@ -56,4 +57,32 @@ country_event = {
             remove_province_modifier = capital_supply
         }
     } 
+}
+
+country_event = {
+    id = 565454
+    title = "EVTNAME565454"
+    desc = "EVTDESC565454"
+
+    trigger = {
+        capital_scope = {
+            has_province_modifier = capital_supply
+        }
+        war = yes
+        ai = no
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+    immediate = {
+        any_owned = {
+            remove_province_modifier = capital_supply
+        }
+    }
+
+    option = {
+        name = "The Supply Depot has fallen"
+    }
 }
