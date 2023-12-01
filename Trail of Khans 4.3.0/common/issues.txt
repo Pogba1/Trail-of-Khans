@@ -1201,7 +1201,7 @@ economic_reforms = {
         }
 
         yes_research_reform = {
-            technology_cost = 17500
+            technology_cost = 20000
             education_efficiency_modifier = 0.1
             civilization_progress_modifier = 0.20
             allow = { OR = { NOT = { has_country_flag = lacking_writing_system } ai = yes } }
