@@ -69,10 +69,7 @@ country_event = {
             has_province_modifier = capital_supply
         }
         war = yes
-        any_country = {
-            limit = {
-                war_with = THIS
-            }
+        war_countries = {
             ai = no
         }
         ai = no
