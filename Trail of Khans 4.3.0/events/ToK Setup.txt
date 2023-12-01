@@ -75,10 +75,13 @@ country_event = {
 
     is_triggered_only = yes
 
+    immediate = {
+        set_country_flag = lit_setup
+    }
+
     option = {
         name = "Cool"
 
-        set_country_flag = lit_setup
         any_pop = {
             limit = {
                 OR = {
