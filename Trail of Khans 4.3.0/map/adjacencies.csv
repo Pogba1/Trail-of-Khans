@@ -72,7 +72,6 @@ From;To;Type;Through;Data;Comment
 843;869;sea;2772;0;Izmir Strait
 860;861;land;2773;0;Golden Horn
 104;85;land;3009;0;Hasan Piker Strait
-400;301;sea;2724;0;Straits of Dover
 859;865;sea;2773;0;Dardanelles Strait
 759;763;sea;2760;0;Strait of Messina
 759;763;sea;2757;0;Strait of Messina
@@ -276,7 +275,7 @@ From;To;Type;Through;Data;Comment
 810;666;sea;0;0;Vidin to Craiova
 795;666;sea;0;0;Bor to Craiova
 795;665;sea;0;0;Bor to Tirgu Jiu
-795;653;sea;0;0;Bor to Resicabánya
+795;653;sea;0;0;Bor to Resicabï¿½nya
 795;792;sea;0;0;Bor to Pancevo
 794;792;sea;0;0;Belgrade to Pancevo
 794;791;sea;0;0;Belgrade to Mitrovica
@@ -289,19 +288,19 @@ From;To;Type;Through;Data;Comment
 785;777;sea;0;0;Banja Luka to Pozega
 793;2538;sea;0;0;Vukovar to Novi Sad
 779;2538;sea;0;0;Osijek to Novi Sad
-640;645;sea;0;0;Pecs to Kecskemét
-644;645;sea;0;0;Kaposvár to Kecskemét
-643;645;sea;0;0;Székesfehérvár to Kecskemét
-643;641;sea;0;0;Székesfehérvár to Budapest
+640;645;sea;0;0;Pecs to Kecskemï¿½t
+644;645;sea;0;0;Kaposvï¿½r to Kecskemï¿½t
+643;645;sea;0;0;Szï¿½kesfehï¿½rvï¿½r to Kecskemï¿½t
+643;641;sea;0;0;Szï¿½kesfehï¿½rvï¿½r to Budapest
 642;641;sea;0;0;Gyor to Budapest
 642;646;sea;0;0;Gyor to Miskolc
 642;635;sea;0;0;Gyor to Nitra
 642;633;sea;0;0;Gyor to Bratislava
 623;633;sea;0;0;Sopron to Bratislava
 624;633;sea;0;0;Eisenstadt to Bratislava
-620;633;sea;0;0;Sankt Pölkten to Bratislava
-620;619;sea;0;0;Sankt Pölkten to Vienna
-620;621;sea;0;0;Sankt Pölkten to Krems
+620;633;sea;0;0;Sankt Pï¿½lkten to Bratislava
+620;619;sea;0;0;Sankt Pï¿½lkten to Vienna
+620;621;sea;0;0;Sankt Pï¿½lkten to Krems
 622;621;sea;0;0;Linz to Krems
 622;602;sea;0;0;Linz to Regensburg
 600;602;sea;0;0;Landshut to Regensburg
@@ -311,7 +310,7 @@ From;To;Type;Through;Data;Comment
 593;589;sea;0;0;Ulm to Stuttgart
 593;594;sea;0;0;Ulm to Sigmaringen
 588;594;sea;0;0;Konstanz to Sigmaringen
-588;591;sea;0;0;Konstanz to Tübingen
+588;591;sea;0;0;Konstanz to Tï¿½bingen
 ;;;;;
 #Ebro;;;;;
 493;494;sea;0;0;Pamplona to Logrono
@@ -333,13 +332,13 @@ From;To;Type;Through;Data;Comment
 ;;;;;
 #Rhone;;;;;
 453;431;sea;0;0;Valence to Macon
-453;3339;sea;0;0;Valence to Ardéche
+453;3339;sea;0;0;Valence to Ardï¿½che
 467;468;sea;0;0;Marseilles to Avignon
 467;461;sea;0;0;Marseilles to Montpellier
 ;;;;;
 #Loire;;;;;
-448;3339;sea;0;0;Clermont-Ferrand to Ardéche
-452;3339;sea;0;0;St. Etienne to Ardéche
+448;3339;sea;0;0;Clermont-Ferrand to Ardï¿½che
+452;3339;sea;0;0;St. Etienne to Ardï¿½che
 452;431;sea;0;0;St. Etienne to Macon
 430;431;sea;0;0;Moulins to Macon
 430;428;sea;0;0;Moulins to Dijon
@@ -366,12 +365,12 @@ From;To;Type;Through;Data;Comment
 416;415;sea;0;0;Evreux to Rouen
 ;;;;;
 #Rhine;;;;;
-588;603;sea;0;0;Konstanz to Zürich
-587;603;sea;0;0;Freiburg to Zürich
+588;603;sea;0;0;Konstanz to Zï¿½rich
+587;603;sea;0;0;Freiburg to Zï¿½rich
 587;604;sea;0;0;Freiburg to Basel
 587;410;sea;0;0;Freiburg to Colmar
-587;409;sea;0;0;Freiburg to Straßburg
-586;409;sea;0;0;Karlsruhe to Straßburg
+587;409;sea;0;0;Freiburg to Straï¿½burg
+586;409;sea;0;0;Karlsruhe to Straï¿½burg
 586;571;sea;0;0;Karlsruhe to Kaiserslautern
 569;571;sea;0;0;Mannheim to Kaiserslautern
 2560;570;sea;0;0;Darmstadt to Mainz
@@ -380,9 +379,9 @@ From;To;Type;Through;Data;Comment
 565;574;sea;0;0;Wiesbaden to Kreuznach
 579;574;sea;0;0;Neuwied to Kreuznach
 2561;575;sea;0;0;Siegburg to Cologne
-578;575;sea;0;0;Düsseldorf to Cologne
-578;577;sea;0;0;Düsseldorf to Cleves
-581;577;sea;0;0;Münster to Cleves
+578;575;sea;0;0;Dï¿½sseldorf to Cologne
+578;577;sea;0;0;Dï¿½sseldorf to Cleves
+581;577;sea;0;0;Mï¿½nster to Cleves
 382;577;sea;0;0;Arnhem to Cleves
 3330;379;sea;0;0;Almere to Eindhoven
 377;380;sea;0;0;Utrecht to Breda
@@ -399,10 +398,10 @@ From;To;Type;Through;Data;Comment
 553;549;sea;0;0;Magdeburg to Berlin
 557;549;sea;0;0;Stendal to Berlin
 557;551;sea;0;0;Stendal to Pritzwalk
-532;551;sea;0;0;Lüneburg to Pritzwalk
-532;544;sea;0;0;Lüneburg to Schwerin
-532;529;sea;0;0;Lüneburg to Lauenburg
-532;528;sea;0;0;Lüneburg to Hamburg
+532;551;sea;0;0;Lï¿½neburg to Pritzwalk
+532;544;sea;0;0;Lï¿½neburg to Schwerin
+532;529;sea;0;0;Lï¿½neburg to Lauenburg
+532;528;sea;0;0;Lï¿½neburg to Hamburg
 531;528;sea;0;0;Stade to Hamburg
 ;;;;;
 #Oder;;;;;
@@ -410,12 +409,12 @@ From;To;Type;Through;Data;Comment
 688;685;sea;0;0;Troppau to Kattowitz
 682;685;sea;0;0;Breslau to Kattowitz
 682;684;sea;0;0;Breslau to Oppeln
-682;681;sea;0;0;Breslau to Küstrin
-552;681;sea;0;0;Cottbus to Küstrin
-550;681;sea;0;0;Prenzlau to Küstrin
+682;681;sea;0;0;Breslau to Kï¿½strin
+552;681;sea;0;0;Cottbus to Kï¿½strin
+550;681;sea;0;0;Prenzlau to Kï¿½strin
 550;3325;sea;0;0;Prenzlau to Landsberg
 550;546;sea;0;0;Prenzlau to Stettin
-547;546;sea;0;0;Swinemünde to Stettin
+547;546;sea;0;0;Swinemï¿½nde to Stettin
 682;699;sea;0;0;Breslau to Posen
 #Vistula;;;;;
 685;2584;sea;0;0;Kattowitz to Bielsko
@@ -577,9 +576,9 @@ From;To;Type;Through;Data;Comment
 1363;1366;sea;0;0;Pakse to Battambang
 1368;1364;sea;0;0;Stongtreng to Phnom Penh
 1368;1367;sea;0;0;Stongtreng to Kampot
-1368;1382;sea;0;0;Stongtreng to Hà Tien
-1381;1382;sea;0;0;Dong Quai to Hà Tien
-1380;1382;sea;0;0;Saigon to Hà Tien
+1368;1382;sea;0;0;Stongtreng to Hï¿½ Tien
+1381;1382;sea;0;0;Dong Quai to Hï¿½ Tien
+1380;1382;sea;0;0;Saigon to Hï¿½ Tien
 1380;1383;sea;0;0;Saigon to Vinhlong
 ;;;;;
 #Ganges;;;;;
@@ -720,20 +719,20 @@ From;To;Type;Through;Data;Comment
 2465;2459;sea;0;0;Passo Fundo to Lajes
 2465;2462;sea;0;0;Passo Fundo to Sao Miguel
 2465;2554;sea;0;0;Passo Fundo Misiones
-2465;2358;sea;0;0;Passo Fundo to Santo Tomás
-2466;2358;sea;0;0;Santa Maria to Santo Tomás
-2467;2358;sea;0;0;Alegrete to Santo Tomás
+2465;2358;sea;0;0;Passo Fundo to Santo Tomï¿½s
+2466;2358;sea;0;0;Santa Maria to Santo Tomï¿½s
+2467;2358;sea;0;0;Alegrete to Santo Tomï¿½s
 2467;2357;sea;0;0;Alegrete to Sligeach
 2345;2357;sea;0;0;Lagair to Sligeach
 2345;2359;sea;0;0;Lagair to Calanair
 ;;;;;
 #Paraguay;;;;;
-2419;2318;sea;0;0;Corumbá to Roboré
-2419;2338;sea;0;0;Corumbá to Puerto Guaraní
-2416;2338;sea;0;0;Dourados to Puerto Guaraní
-2420;2338;sea;0;0;Iguatemi to Puerto Guaraní
-2343;2338;sea;0;0;Concepción to Puerto Guaraní
-2343;2337;sea;0;0;Concepción to Fortin Falcon
+2419;2318;sea;0;0;Corumbï¿½ to Roborï¿½
+2419;2338;sea;0;0;Corumbï¿½ to Puerto Guaranï¿½
+2416;2338;sea;0;0;Dourados to Puerto Guaranï¿½
+2420;2338;sea;0;0;Iguatemi to Puerto Guaranï¿½
+2343;2338;sea;0;0;Concepciï¿½n to Puerto Guaranï¿½
+2343;2337;sea;0;0;Concepciï¿½n to Fortin Falcon
 2342;2337;sea;0;0;Sao Pedro to Fortin Falcon
 2339;2337;sea;0;0;Asuncion to Fortin Falcon
 2337;2372;sea;0;0;Fortin Falcon to Rivadavia
@@ -767,12 +766,12 @@ From;To;Type;Through;Data;Comment
 2404;2550;sea;0;0;Tefe to Forte de Principe
 2404;2405;sea;0;0;Tefe to Borba
 2402;2405;sea;0;0;Manaus to Borba
-2402;2411;sea;0;0;Manaus to Santarém
-2412;2411;sea;0;0;Obidos to Santarém
-2412;2410;sea;0;0;Obidos to Belém
+2402;2411;sea;0;0;Manaus to Santarï¿½m
+2412;2411;sea;0;0;Obidos to Santarï¿½m
+2412;2410;sea;0;0;Obidos to Belï¿½m
 ;;;;;
 #Orinoco;;;;;
-2278;2532;sea;0;0;San Fernando de Atabapo to Forte Sao Joaquím
+2278;2532;sea;0;0;San Fernando de Atabapo to Forte Sao Joaquï¿½m
 2278;2277;sea;0;0;San Fernando de Atabapo to El Jobal
 2261;2277;sea;0;0;Obando to El Jobal
 2262;2277;sea;0;0;Casanare to El Jobal

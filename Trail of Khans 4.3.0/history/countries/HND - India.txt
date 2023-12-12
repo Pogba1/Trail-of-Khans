@@ -6,17 +6,8 @@ plurality = 0.0
 nationalvalue = nv_equality
 literacy = 0.01
 non_state_culture_literacy = 0.01
+is_releasable_vassal = no
 
-ruling_party = HND_conservative
-upper_house = {
-    fascist = 0
-    liberal = 11
-    conservative = 73
-    reactionary = 16
-    anarcho_liberal = 0
-    socialist = 0
-    communist = 0
-}
 
 # Starting Consciousness
 consciousness = 0
@@ -52,7 +43,7 @@ schools = developing_tech_school
 
 # Inventions
 #bottling_process = yes
-modern_winemaking = yes
+#modern_winemaking = yes
 #big_sail_ships = yes
 #sail_ships_transport = yes
 #big_sail_support = yes

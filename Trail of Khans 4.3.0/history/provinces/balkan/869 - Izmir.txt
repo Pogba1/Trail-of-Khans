@@ -4,11 +4,3 @@ add_core = NCE
 add_core = BYZ
 trade_goods = sulphur
 life_rating = 40
-#state_building = {
-#    level = 1
-#    building = winery
-#    upgrade = yes
-#}
-
-
-}

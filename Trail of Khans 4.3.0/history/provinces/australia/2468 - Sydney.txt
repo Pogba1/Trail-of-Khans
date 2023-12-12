@@ -5,11 +5,3 @@ trade_goods = grain
 life_rating = 35
 colonial = 2
 naval_base = 1
-
-    state_building = {
-        level = 1
-        building = lumber_mill
-        upgrade = yes
-    }
-}
-
