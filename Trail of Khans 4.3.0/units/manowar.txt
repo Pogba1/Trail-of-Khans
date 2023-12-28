@@ -23,12 +23,12 @@ manowar = {
     #Building Costs
     build_time = 360
     build_cost = {
-        clipper_convoy = 50 #2100£ | was 15 - 630£
-        artillery = 30 #1800 £ |was 10 - 600£
-        canned_food = 20 #320£ |was 8 - 128£
-        #regular_clothes = 20 #116 £ | was 12 - 69.6£
+        clipper_convoy = 50 #2100ï¿½ | was 15 - 630ï¿½
+        artillery = 30 #1800 ï¿½ |was 10 - 600ï¿½
+        canned_food = 20 #320ï¿½ |was 8 - 128ï¿½
+        regular_clothes = 20 #116 ï¿½ | was 12 - 69.6ï¿½
     }
-    #Total: 4336£ - was 1427.6 £
+    #Total: 4336ï¿½ - was 1427.6 ï¿½
     min_port_level = 1
     limit_per_port = -1
     supply_consumption_score = 2

@@ -22,6 +22,7 @@ tank = {
 		artillery = 10
 		canned_food = 10
 		fuel = 5
+		regular_clothes = 10
 	}
 	
 	supply_consumption = 1.0

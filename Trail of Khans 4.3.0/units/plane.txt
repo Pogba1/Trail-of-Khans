@@ -23,6 +23,7 @@ plane = {
 		canned_food = 10
 		wine = 10
 		fuel = 5
+		luxury_clothes = 10
 	}
 	
 	supply_consumption = 1.0
