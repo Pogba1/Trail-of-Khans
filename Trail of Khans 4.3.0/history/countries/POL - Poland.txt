@@ -61,6 +61,8 @@ piston_steam_engine = 1
 mechanical_production = 1
 hot_blast = 1
 basic_chemistry = 1
+ad_hoc_money_bill_printing = 1
+experimental_railroad = 1
 
 oob = "POL_oob.txt"
 
