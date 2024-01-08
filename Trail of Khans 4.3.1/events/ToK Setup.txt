@@ -73,14 +73,12 @@ country_event = {
     title = "Literacy Setup"
     desc = " "
 
-    is_triggered_only = yes
-
-    immediate = {
-        set_country_flag = lit_setup
-    }
+    is_triggered_only = yes 
 
     option = {
         name = "Cool"
+
+        set_country_flag = lit_setup
 
         any_pop = {
             limit = {
@@ -414,6 +412,7 @@ country_event = {
     }
 
     trigger = {
+        ai = yes
         NOT = {
             has_country_flag = lit_setup
         }
