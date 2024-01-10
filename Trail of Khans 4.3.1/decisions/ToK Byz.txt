@@ -149,6 +149,7 @@ political_decisions = {
         allow = {
             war = no
             is_greater_power = yes
+			nationalism_n_imperialism = 1
 			all_core = {OR = {empty = yes owned_by = THIS}}
 			SER = { all_core = { owned_by = THIS } }
         }
