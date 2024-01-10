@@ -23,7 +23,7 @@ frigate = {
     build_cost = {
         clipper_convoy = 25 #1050 | was 10 - 420�
         artillery = 10 #600 | was 5 - 300�
-        regular_clothes = 10 #58�
+        regular_clothes = 5 #58�
         canned_food = 10 #160�
     }
     #Total: 1868� | was 720�

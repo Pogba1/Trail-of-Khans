@@ -26,7 +26,7 @@ manowar = {
         clipper_convoy = 50 #2100� | was 15 - 630�
         artillery = 30 #1800 � |was 10 - 600�
         canned_food = 20 #320� |was 8 - 128�
-        regular_clothes = 20 #116 � | was 12 - 69.6�
+        regular_clothes = 10 #116 � | was 12 - 69.6�
     }
     #Total: 4336� - was 1427.6 �
     min_port_level = 1
