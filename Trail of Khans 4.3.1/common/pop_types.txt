@@ -295,7 +295,7 @@ demotion_chance = {
 #general migration chance mtth, same for all pops
 migration_chance = 
 {
-	factor = 0.25
+	factor = 1
 	
 #If pop group meets at least 10%/20%/30%/40%/50%/60%/70%/80%/90%/99% of its luxury needs, then -0.05% chance to migrate to aNOTher state per threshold.	(-0.5% total)
 	group = {
