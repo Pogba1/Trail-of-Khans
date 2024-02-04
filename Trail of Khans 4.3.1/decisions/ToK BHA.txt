@@ -188,6 +188,8 @@ political_decisions = {
             any_country = {
                 limit = {
                     primary_culture = north_german
+                    in_sphere = THIS
+                    ai = no
                 }
                 annex_to = THIS
             }
