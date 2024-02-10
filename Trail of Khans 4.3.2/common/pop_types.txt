@@ -1529,7 +1529,7 @@ assimilation_chance =
 			factor = 40
 			has_pop_culture = syracusean
 			country = {
-				has_country_flag = roman_syracuse
+				has_country_flag = cisalpine_gaul_flag
 			}
 		}
 	}
