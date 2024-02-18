@@ -156,4 +156,39 @@ political_decisions = {
 			set_country_flag = annex_burgundy
 		}
 	}
+	integrate_small_french = {
+		potential = {
+			tag = FRA
+			NOT = {
+				accepted_culture = occitan
+			}
+		}
+		allow = {
+			war = no 
+			nationalism_n_imperialism = 1
+			FRA = {
+				all_core = {
+					NOT = {
+						OR = {
+							culture = french
+							culture = breton
+							culture = picard 
+							culture = south_german
+						}
+					}
+					owned_by = THIS
+				}
+			}
+			UBR = {
+				exists = no
+			}
+			LBR = {
+				exists = no
+			}
+		}
+		effect = {
+			add_accepted_culture = occitan
+			prestige = 20
+		}
+	}
 }

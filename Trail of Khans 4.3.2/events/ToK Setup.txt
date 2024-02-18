@@ -164,7 +164,6 @@ country_event = {
             limit = {
                 OR = {
                     has_pop_culture = syracusean
-                    has_pop_culture = occitan
                     has_pop_culture = korean
                     has_pop_culture = british
                     has_pop_culture = basque
@@ -207,6 +206,7 @@ country_event = {
                     has_pop_culture = cree
                     has_pop_culture = mexican
                     has_pop_culture = latin
+                    has_pop_culture = occitan
                 }
             }
             literacy = 0.17
@@ -501,7 +501,6 @@ country_event = {
             limit = {
                 OR = {
                     has_pop_culture = syracusean
-                    has_pop_culture = occitan
                     has_pop_culture = korean
                     has_pop_culture = british
                     has_pop_culture = basque
@@ -544,6 +543,7 @@ country_event = {
                     has_pop_culture = mexican
                     has_pop_culture = latin
                     has_pop_culture = russian
+                    has_pop_culture = occitan
                 }
             }
             literacy = 0.17

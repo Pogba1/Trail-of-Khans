@@ -1543,6 +1543,19 @@ assimilation_chance =
 			}
 		}
 	}
+	
+	group = {
+		modifier = {
+			factor = -25
+			has_pop_culture = occitan
+			THIS = {
+				tag = FRA
+				NOT = {
+					accepted_culture = occitan
+				}
+			}
+		}
+	}
 
 #MILITANCY MODIFIFER - 
 #	group = {
