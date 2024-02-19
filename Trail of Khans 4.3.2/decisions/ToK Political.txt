@@ -329,7 +329,10 @@ political_decisions = {
 	switch_high_taxes = {
 		potential = {
 			has_country_flag = tax_menu
-			economic_policy = planned_economy 
+			OR = {
+				economic_policy = planned_economy
+				economic_policy = state_capitalism
+			}
 		}
 		allow = {
 			NOT = {
