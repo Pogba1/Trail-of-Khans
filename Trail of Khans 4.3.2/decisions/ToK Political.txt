@@ -205,7 +205,7 @@ political_decisions = {
 		allow = {
 		}
 		effect = {
-			remove_country_flag = tax_menu
+			clr_country_flag = tax_menu
 		}
 	}
 
