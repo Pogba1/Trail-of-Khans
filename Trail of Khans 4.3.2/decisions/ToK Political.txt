@@ -188,6 +188,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = tax_menu
 			}
+			civilized = yes
 		}
 		allow = {
 		}

@@ -4,6 +4,7 @@ country_event = {
     desc = "EVTDESC777"
 
     trigger = {
+        civilized = yes
         OR = {
             AND = {
                 economic_policy = planned_economy
