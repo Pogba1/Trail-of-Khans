@@ -334,7 +334,7 @@ tanzimat_land_reform = {
 }
 
 war_economy_ships = {
-    local_ship_build = -0.75
+    local_ship_ild = -0.75
     icon = 17
 }
 
@@ -2166,7 +2166,6 @@ neutrality_modifier = {
 
 ### NV Changes ###
 national_confusion = {
-    research_points_modifier = -0.01
     global_pop_consciousness_modifier = 0.01
     global_pop_militancy_modifier = 0.01
     prestige = -0.01
@@ -2874,10 +2873,6 @@ assimilation_unrest = {
     icon = 4
 }
 
-
-capital_of_indian_trade = {
-    tariff_efficiency_modifier = 0.1
-    tax_efficiency = 0.1
-    local_rgo_output = 0.25
-    immigrant_attract = 0.50
+tax_cooldown = {
+    icon = 8
 }

@@ -14,7 +14,6 @@ party_issues = {
     }
     economic_policy = {
         laissez_faire = {
-            max_tax = 0.5
             factory_owner_cost = 0.3
             factory_output = 0.1
             import_cost = -0.1
@@ -65,7 +64,6 @@ party_issues = {
             }
         }
         state_capitalism = {
-            min_tax = 0.25
             factory_owner_cost = 0.6
 
             rules = {
@@ -87,7 +85,6 @@ party_issues = {
             }
         }
         planned_economy = {
-            min_tax = 0.5
             factory_throughput = 0.05
             factory_owner_cost = -1    #negative costs, can't build.
 
@@ -145,8 +142,8 @@ party_issues = {
             is_jingoism = yes
             cb_generation_speed_modifier = 0.3
             mobilization_impact = 4
-            org_regain = 0.5
-            reinforce_speed = 0.5
+            org_regain = 0.2
+            reinforce_speed = 0.2
         }
         pro_military = {
             max_military_spending = 1.0
@@ -154,8 +151,8 @@ party_issues = {
             war_exhaustion_effect = 0.7
             cb_generation_speed_modifier = 0.2
             mobilization_impact = 3
-            org_regain = 0.25
-            reinforce_speed = 0.25
+            org_regain = 0.1
+            reinforce_speed = 0.1
         }
         anti_military = {
             max_military_spending = 0.5
@@ -163,8 +160,8 @@ party_issues = {
             war_exhaustion_effect = 1.2
             cb_generation_speed_modifier = -0.2
             mobilization_impact = 2
-            org_regain = -0.25
-            reinforce_speed = -0.25
+            org_regain = -0.15
+            reinforce_speed = -0.15
         }
         pacifism = {
             max_military_spending = 0.4
@@ -467,7 +464,7 @@ political_reforms = {
             mobilisation_size = 0.045
             mobilisation_economy_impact = 0.30
             global_immigrant_attract = -0.10
-            education_efficiency_modifier = -0.10
+            poor_everyday_needs = 0.20
             allow = {
                 NOT = { has_country_flag = government_busy_with_something }
             }
@@ -476,6 +473,7 @@ political_reforms = {
             mobilisation_size = 0.0375
             mobilisation_economy_impact = 0.15
             global_immigrant_attract = -0.04
+            poor_everyday_needs = 0.15
             allow = {
                 NOT = { has_country_flag = government_busy_with_something }
             }
@@ -483,6 +481,7 @@ political_reforms = {
         two_year_draft = {
             mobilisation_size = 0.03
             mobilisation_economy_impact = 0.05
+            poor_everyday_needs = 0.10
             allow = {
                 NOT = { has_country_flag = government_busy_with_something }
             }
@@ -490,6 +489,7 @@ political_reforms = {
         one_year_draft = {
             mobilisation_size = 0.02
             global_immigrant_attract = 0.04
+            poor_everyday_needs = 0.05
             allow = {
                 NOT = { has_country_flag = government_busy_with_something }
                 OR = {
@@ -549,6 +549,46 @@ political_reforms = {
             global_immigrant_attract = 0.05
             allow = {
                 NOT = { has_country_flag = government_busy_with_something }
+            }
+        }
+    }
+
+    tax_policy = {
+        very_low_taxes = {
+            max_tax = 0.15
+            allow = {
+                always = no
+            }
+        }
+        low_taxes = {
+            min_tax = 0.15
+            max_tax = 0.30
+            administrative_multiplier = 1
+            allow = {
+                always = no
+            }
+        }
+        medium_taxes = {
+            min_tax = 0.30
+            max_tax = 0.45
+            administrative_multiplier = 2
+            allow = {
+                always = no
+            }
+        }
+        high_taxes = {
+            min_tax = 0.45
+            max_tax = 0.65
+            administrative_multiplier = 3
+            allow = {
+                always = no
+            }
+        }
+        very_high_taxes = {
+            min_tax = 0.65
+            administrative_multiplier = 5
+            allow = {
+                always = no
             }
         }
     }

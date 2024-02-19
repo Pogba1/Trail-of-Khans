@@ -1,0 +1,86 @@
+country_event = {
+    id = 777
+    title = "EVTNAME777"
+    desc = "EVTDESC777"
+
+    trigger = {
+        OR = {
+            AND = {
+                economic_policy = planned_economy
+                NOT = {
+                    tax_policy = very_high_taxes
+                }
+            }
+            AND = {
+                economic_policy = state_capitalism
+                OR = {
+                    tax_policy = very_low_taxes
+                    tax_policy = low_taxes
+                }
+            }
+            AND = {
+                economic_policy = interventionism
+                OR = {
+                    tax_policy = very_low_taxes
+                    tax_policy = very_high_taxes
+                }
+            }
+            AND = {
+                economic_policy = laissez_faire
+                tax_policy = medium_taxes
+                tax_policy = high_taxdes
+                tax_policy = very_high_taxes
+            }
+        }
+        war = no
+    }
+    
+    mean_time_to_happen = {
+        months = 1
+    }
+
+    option = {
+        name = "So be it"
+
+        random_owned = {
+            limit = {
+                owner = {
+                    economic_policy = laissez_faire
+                }
+            }
+            owner = {
+                political_reform = low_taxes
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    economic_policy = interventionism
+                }
+            }
+            owner = {
+                political_reform = medium_taxes
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    economic_policy = state_capitalism
+                }
+            }
+            owner = {
+                political_reform = high_taxes
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    economic_policy = planned_economy
+                }
+            }
+            owner = { 
+                political_reform = very_high_taxes
+            }
+        }
+    }
+}

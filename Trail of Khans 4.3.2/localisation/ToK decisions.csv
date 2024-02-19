@@ -512,3 +512,17 @@ iles_lordship_title;Lordship over the Iles;x
 iles_lordship_desc;skibidi dob dob dob yes yes, skibidi dob dob dob di di;x 
 integrate_small_french_title;Integrate the Small French;x
 integrate_small_french_desc; ;x
+show_tax_policy_title;Show Taxation decisions;x
+show_tax_policy_desc;This will show the decisions for taxation.\n§RNote that you can only see the decisions for tax policy that are available for your economic policy.\n§BLaissez-faire has the choice between very low and low\n§BInterventionism has the choice between low, medium and high\n§BState Capitalism has the choice between medium, high and very high\n§BPlanned economy is locked to very high.;x
+hide_tax_policy_title;Hide Taxation decisions;x
+hide_tax_policy_desc;This will hide the decisions for taxation.\n§RNote that you can only see the decisions for tax policy that are available for your economic policy.\n§BLaissez-faire has the choice between very low and low\n§BInterventionism has the choice between low, medium and high\n§BState Capitalism has the choice between medium, high and very high\n§BPlanned economy is locked to very high.;x
+switch_very_low_taxes_title;Switch to Very Low taxes;x
+switch_very_low_taxes_desc;This decision will switch you to the Taxation Policy of "Very Low Taxes".;x
+switch_low_taxes_title;Switch to Low taxes;x
+switch_low_taxes_desc;This decision will switch you to the Taxation Policy of "Low Taxes".;x
+switch_medium_taxes_title;Switch to Medium taxes;x
+switch_medium_taxes_desc;This decision will switch you to the Taxation Policy of "Medium Taxes".;x
+switch_high_taxes_title;Switch to High taxes;x
+switch_high_taxes_desc;This decision will switch you to the Taxation Policy of "High Taxes".;x
+switch_very_high_taxes;Switch to Very High taxes;
+switch_very_high_taxes_desc;This decision will switch you to the Taxation Policy of "Very High Taxes".;x
