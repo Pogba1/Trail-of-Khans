@@ -50,3 +50,5 @@ upper_house = {
 decision = LITERACY_1836_SETUP
 
 oob = "SIK_oob.txt"
+
+ tax_policy = low_taxes

@@ -97,3 +97,5 @@ upper_house = {
     communist = 0
 }
 oob = "ENG_oob.txt"
+
+ tax_policy = medium_taxes

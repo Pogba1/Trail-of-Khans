@@ -83,3 +83,5 @@ upper_house = {
 decision = MGL_1836_setup
 
 oob = "MGL_oob.txt"
+
+ tax_policy = medium_taxes
