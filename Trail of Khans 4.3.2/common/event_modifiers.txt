@@ -334,7 +334,7 @@ tanzimat_land_reform = {
 }
 
 war_economy_ships = {
-    local_ship_ild = -0.75
+    local_ship_build = -0.75
     icon = 17
 }
 
