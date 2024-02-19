@@ -325,3 +325,39 @@ ai_buffs_war = {
     supply_consumption = -0.15
     reinforce_speed = 0.15
 }
+
+4_militancy_debuff = {
+    trigger = {
+        exists = yes
+        ai = no
+        civilized = yes
+        average_militancy = 4
+        NOT = {
+            average_militancy = 5
+        }
+    }
+    tax_efficiency = -0.1
+}
+
+5_militancy_debuff = {
+    trigger = {
+        exists = yes
+        ai = no
+        civilized = yes
+        average_militancy = 5
+        NOT = {
+            average_militancy = 8
+        }
+    }
+    tax_efficiency = -0.2
+}
+
+8_militancy_debuff = {
+    trigger = {
+        exists = yes
+        ai = no
+        civilized = yes
+        average_militancy = 8
+    }
+    tax_efficiency = -0.3
+}

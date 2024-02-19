@@ -570,22 +570,22 @@ political_reforms = {
         }
         medium_taxes = {
             min_tax = 0.30
-            max_tax = 0.45
+            max_tax = 0.50
             administrative_multiplier = 2
             allow = {
                 always = no
             }
         }
         high_taxes = {
-            min_tax = 0.45
-            max_tax = 0.65
+            min_tax = 0.50
+            max_tax = 0.70
             administrative_multiplier = 3
             allow = {
                 always = no
             }
         }
         very_high_taxes = {
-            min_tax = 0.65
+            min_tax = 0.70
             administrative_multiplier = 5
             allow = {
                 always = no

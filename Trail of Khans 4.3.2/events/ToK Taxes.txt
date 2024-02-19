@@ -17,12 +17,14 @@ country_event = {
                 OR = {
                     tax_policy = very_low_taxes
                     tax_policy = low_taxes
+                    tax_policy = very_high_taxes
                 }
             }
             AND = {
                 economic_policy = interventionism
                 OR = {
                     tax_policy = very_low_taxes
+                    tax_policy = high_taxes
                     tax_policy = very_high_taxes
                 }
             }
@@ -32,6 +34,9 @@ country_event = {
                 tax_policy = high_taxdes
                 tax_policy = very_high_taxes
             }
+        }
+        NOT = {
+            has_country_flag = national_emergency
         }
         war = no
     }
@@ -81,6 +86,56 @@ country_event = {
             }
             owner = { 
                 political_reform = very_high_taxes
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 778
+    title = "EVTNAME778"
+    desc = "EVTDESC778"
+    
+    trigger = {
+        war = no
+        has_country_flag = national_emergency 
+    }
+    
+    mean_time_to_happen = {
+        days = 14
+    }
+    option = {
+        name = "Peace at last"
+
+        clr_country_flag = national_emergency
+        random_owned = {
+            limit = {
+                owner = {
+                    economic_policy = laissez_faire
+                }
+            }
+            owner = {
+                political_reform = low_taxes
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    economic_policy = interventionism
+                }
+            }
+            owner = {
+                political_reform = medium_taxes
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    economic_policy = state_capitalism
+                }
+            }
+            owner = {
+                political_reform = high_taxes
             }
         }
     }

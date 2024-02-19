@@ -330,8 +330,8 @@ political_decisions = {
 		potential = {
 			has_country_flag = tax_menu
 			OR = {
-				economic_policy = interventionism
 				economic_policy = state_capitalism
+				economic_policy = planned_economy 
 			}
 		}
 		allow = {
@@ -360,11 +360,6 @@ political_decisions = {
 					tax_policy = medium_taxes
 					tax_policy = very_high_taxes
 				}
-			}
-			modifier = {
-				factor = 20
-				economic_policy = interventionism
-				tax_policy = medium_taxes
 			}
 		}
 	}
@@ -400,6 +395,30 @@ political_decisions = {
 				economic_policy = state_capitalism
 				tax_policy = high_taxes
 			}
+		}
+	}
+
+	declare_national_emergency = {
+		potential = {
+			war = yes
+			NOT = {
+				has_country_flag = national_emergency
+			}
+		}
+		allow = {
+			war_policy = jingoism
+			war_exhaustion = 25
+		}
+		effect = {
+			political_reform = very_high_taxes
+			war_exhaustion = -10
+			scaled_militancy = { factor = 5 ideology_issue = liberal }
+			scaled_militancy = { factor = 4 ideology_issue = socialist }
+			scaled_militancy = { factor = 3 ideology_issue = conservative }
+			scaled_militancy = { factor = 2 ideology_issue = reactionary }
+			scaled_militancy = { factor = 1 ideology_issue = fascist }
+			scaled_militancy = { factor = 1 ideology_issue = communist }
+			set_country_flag = national_emergency
 		}
 	}
 }
