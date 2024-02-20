@@ -123,7 +123,7 @@ flexible_firepower = {
             defence = 1
         }
         artillery = {
-            defence = 0.5
+            defence = 0.25
         }
         dragoon = {
             defence = 1
@@ -166,7 +166,7 @@ synchronized_heavy_support = {
             defence = 1
         }
         artillery = {
-            defence = 0.5
+            defence = 0.25
         }
         dragoon = {
             defence = 1
@@ -210,7 +210,7 @@ barbed_wire_defense = {
             defence = 0.5
         }
         artillery = {
-            defence = 0.75
+            defence = 0.5
         }
         irregular = {
             defence = 0.5
@@ -241,7 +241,7 @@ trench_systems = {
             defence = 1
         }
         artillery = {
-            defence = 0.75
+            defence = 0.5
         }
         dragoon = {
             defence = 1
@@ -326,9 +326,6 @@ elastic_defense_system = {
         }
         engineer = {
             defence = 1
-        }
-        artillery = {
-            defence = 0.75
         }
         dragoon = {
             defence = 1
@@ -759,31 +756,31 @@ muzzle_loaded_rifle_armament = {
     }
     effect = {
         infantry = {
-            attack = 1
+            attack = 2
             discipline = 0.05
             supply_consumption = 0.10
         }
         engineer = {
-            attack = 1
+            attack = 2
             discipline = 0.05
             supply_consumption = 0.10
         }
         hussar = {
-            attack = 1
+            attack = 2
             discipline = 0.05
             supply_consumption = 0.10
         } 
         dragoon = {
-            attack = 1
+            attack = 2
             discipline = 0.05
             supply_consumption = 0.10
         }
         cavalry = {
-            attack = 0.5
+            attack = 1
             supply_consumption = 0.10
         }
         irregular = {
-            attack = 0.5
+            attack = 1
             supply_consumption = 0.10
         }
     }
@@ -807,7 +804,7 @@ breech_loaded_rifle_armament = {
             supply_consumption = 0.20
         }
         guard = {
-            attack = 1
+            attack = 2
             discipline = 0.05
             supply_consumption = 0.20
         }
@@ -827,11 +824,11 @@ breech_loaded_rifle_armament = {
             supply_consumption = 0.20
         }
         cavalry = {
-            attack = 0.5
+            attack = 1
             supply_consumption = 0.20
         }
         irregular = {
-            attack = 0.5
+            attack = 1
             supply_consumption = 0.20
         }
     }
@@ -845,40 +842,48 @@ machine_gun_armament = {
     }
     effect = {
         infantry = {
+            attack = 2
             defence = 4
             discipline = 0.05
             supply_consumption = 0.20
         }
         guard = {
+            attack = 2
             defence = 4
             discipline = 0.05
             supply_consumption = 0.20
         }
         engineer = {
+            attack = 2
             defence = 4
             discipline = 0.05
             supply_consumption = 0.20
         }
         cuirassier = {
+            attack = 2
             defence = 1
             discipline = 0.05
             supply_consumption = 0.20
         }
         dragoon = {
+            attack = 2
             defence = 2
             discipline = 0.05
             supply_consumption = 0.20
         }
         hussar = {
+            attack = 2
             defence = 3
             discipline = 0.05
             supply_consumption = 0.20
         }
         cavalry = {
+            attack = 1
             defence = 1
             supply_consumption = 0.20
         }
         irregular = {
+            attack = 1
             defence = 1
             supply_consumption = 0.20
         }
@@ -1097,7 +1102,7 @@ schrapnel_standard_design = {
     }
     effect = {
         artillery = {
-            attack = 0.75
+            attack = 1
         }
     }
 }

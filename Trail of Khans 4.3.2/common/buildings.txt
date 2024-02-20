@@ -414,6 +414,46 @@ regular_clothes_factory = {
     pop_build_factory = yes
 }
 
+regular_clothes_factory_2 = {
+    type = factory
+    on_completion = factory
+    completion_size = 0.2
+    max_level = 99
+    goods_cost =
+    {
+        machine_parts = 50
+        iron = 200
+        cement = 100
+        lumber = 200
+    }
+    time = 100
+    visibility = yes
+    onmap = no
+
+    production_type = regular_clothes_factory_2
+    pop_build_factory = no
+}
+
+regular_clothes_factory_3 = {
+    type = factory
+    on_completion = factory
+    completion_size = 0.2
+    max_level = 99
+    goods_cost =
+    {
+        machine_parts = 50
+        iron = 200
+        cement = 100
+        lumber = 200
+    }
+    time = 100
+    visibility = yes
+    onmap = no
+
+    production_type = regular_clothes_factory_3
+    pop_build_factory = no
+}
+
 explosives_factory = {
     type = factory
     on_completion = factory

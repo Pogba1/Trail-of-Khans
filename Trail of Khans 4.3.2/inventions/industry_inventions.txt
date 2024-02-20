@@ -367,6 +367,26 @@ precision_work = {
     }
 }
 
+basic_clothes_factory_cotton = {
+    limit = { mechanical_production = 1 }
+    chance = {
+        base = 100
+    }
+    effect = {
+        activate_building = regular_clothes_factory_2
+    }
+}
+
+basic_clothes_factory_wool = {
+    limit = { mechanical_production = 1 }
+    chance = {
+        base = 100
+    }
+    effect = {
+        activate_building = regular_clothes_factory_3
+    }
+}
+
 #semi_automatization
 machine_tools = {
     limit = { semi_automatization = 1 }
@@ -1313,7 +1333,7 @@ catalytic_fermentative_process = {
 }
 #organic_chemistry
 synthetic_dye = {
-    limit = { basic_chemistry = 1 }
+    limit = { inorganic_chemistry = 1 }
     chance = {
         base = 100
     }

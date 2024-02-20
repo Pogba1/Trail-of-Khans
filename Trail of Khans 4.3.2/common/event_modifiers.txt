@@ -2737,7 +2737,6 @@ curtailed_conscription = {
 center_of_baltic_trade = {
     local_artisan_throughput = 0.25
     local_factory_throughput = 0.15
-    local_RGO_output = 0.30
     immigrant_attract = 0.25
     rich_income_modifier = 0.20
     middle_income_modifier = 0.10

@@ -488,6 +488,32 @@ regular_clothes_factory = {
     }
 }
 
+regular_clothes_factory_2 = {
+    template = factory_template
+    input_goods = {
+        cotton = 24
+    }
+    output_goods = regular_clothes
+    value = 24
+    bonus = {
+        trigger = { trade_goods_in_state = cotton }
+        value = 0.25
+    }
+}
+
+regular_clothes_factory_3 = {
+    template = factory_template
+    input_goods = {
+        wool = 60
+    }
+    output_goods = regular_clothes
+    value = 24
+    bonus = {
+        trigger = { trade_goods_in_state = wool }
+        value = 0.25
+    }
+}
+
 explosives_factory = {
     template = factory_template
     input_goods = {
