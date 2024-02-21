@@ -1,6 +1,7 @@
 political_decisions = {
 	picking_up_a_tech_school = {
 		potential = {
+            ai = no
             civilized = yes
             NOT = {has_country_flag = picking_up_a_tech_school}
         }
@@ -38,29 +39,9 @@ political_decisions = {
         }
         allow = {
             NOT = { has_country_modifier = academic_confusion }
-            OR = {
-                AND = {
-                    war_policy = jingoism
-                    NOT = { economic_policy = laissez_faire }
-                }
-                AND = {
-                    war_policy = pro_military
-                    OR = {
-                        economic_policy = state_capitalism
-                        economic_policy = planned_economy
-                    }
-                }
-            }
-            OR = {
-                jingoism = 3
-                pro_military = 3
-            }
-            military_score = 100
-            prestige = 45
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
-            prestige = -15
             add_country_modifier = {
                 name = academic_confusion
                 duration = 3650
@@ -81,31 +62,9 @@ political_decisions = {
         }
         allow = {
             NOT = { has_country_modifier = academic_confusion }
-            any_owned_province = { is_colonial = yes }
-            OR = {
-                AND = {
-                    war_policy = pro_military
-                    NOT = {
-                        economic_policy = state_capitalism
-                        economic_policy = planned_economy
-                    }
-                }
-                AND = {
-                    economic_policy = laissez_faire
-                    NOT = { war_policy = pacifism }
-                }
-            }
-            OR = {
-                pro_military = 3
-                laissez_faire = 3
-            }
-            prestige = 45
-            military_score = 100
-            total_amount_of_ships = 30
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
-            prestige = -15
             add_country_modifier = {
                 name = academic_confusion
                 duration = 3650
@@ -133,17 +92,9 @@ political_decisions = {
         }
         allow = {
             NOT = { has_country_modifier = academic_confusion }
-            OR = {
-                pacifism = 3
-                secularized = 3
-            }
-            prestige = 100
-            literacy = 0.7
-            average_consciousness = 7
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
-            prestige = -15
             add_country_modifier = {
                 name = academic_confusion
                 duration = 3650
@@ -171,30 +122,9 @@ political_decisions = {
         }
         allow = {
             NOT = { has_country_modifier = academic_confusion }
-            NOT = { economic_policy = planned_economy }
-            OR = {
-                AND = {
-                    trade_policy = free_trade
-                    OR = {
-                        economic_policy = laissez_faire
-                        economic_policy = interventionism
-                    }
-                }
-                AND = {
-                    economic_policy = laissez_faire
-                    trade_policy = protectionism
-                }
-            }
-            OR = {
-                laissez_faire = 3
-                free_trade = 3
-            }
-            prestige = 45
-            industrial_score = 100
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
-            prestige = -15
             add_country_modifier = {
                 name = academic_confusion
                 duration = 3650
@@ -223,29 +153,9 @@ political_decisions = {
         }
         allow = {
             NOT = { has_country_modifier = academic_confusion }
-            OR = {
-                AND = {
-                    trade_policy = protectionism
-                    OR = {
-                        economic_policy = interventionism
-                        economic_policy = state_capitalism
-                    }
-                }
-                AND = {
-                    economic_policy = interventionism
-                    trade_policy = free_trade
-                }
-            }
-            OR = {
-                interventionism = 3
-                protectionism = 3
-            }
-            prestige = 45
-            industrial_score = 100
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
-            prestige = -15
             add_country_modifier = {
                 name = academic_confusion
                 duration = 3650
