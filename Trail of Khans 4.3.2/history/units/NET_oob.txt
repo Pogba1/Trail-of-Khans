@@ -227,27 +227,6 @@ army = {
 		home = 1415
 	}
 }
-	
-	
-army = {
-    name = "Nieuw Amsterdam Garnizoen"
-    location = 232
-    regiment = {
-        name= "1e Infanterie Brigade"
-        type = infantry
-        home = 241
-        }
-	regiment = {
-        name= "2e Infanterie Brigade"
-        type = infantry
-        home = 243
-        }
-	regiment = {
-        name= "1e Artillerie Brigade"
-        type = artillery
-        home = 232
-        }
-    }
 
 army = {
     name = "Cochin Garnizoen"

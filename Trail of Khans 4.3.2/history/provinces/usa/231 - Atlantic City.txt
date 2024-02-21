@@ -1,7 +1,6 @@
-owner = NET
-controller = NET
-add_core = QUE
-add_core = NET
+owner = RNA
+controller = RNA
+add_core = RNA
 trade_goods = fish
 naval_base = 1
 life_rating = 35

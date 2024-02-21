@@ -8483,7 +8483,7 @@ aristocrats = {
     soldiers = {
         culture = french_canadian
         religion = catholic
-        size = 6000
+        size = 6050
     }
 
     farmers = {
@@ -8502,12 +8502,6 @@ aristocrats = {
         culture = french_canadian
         religion = catholic
         size = 4000
-    }
-
-    soldiers = {
-        culture = french_canadian
-        religion = catholic
-        size = 50
     }
 
     farmers = {
@@ -8607,7 +8601,7 @@ aristocrats = {
     soldiers = {
         culture = french_canadian
         religion = catholic
-        size = 2000
+        size = 2050
     }
 
     farmers = {
@@ -8638,12 +8632,6 @@ aristocrats = {
         culture = french_canadian
         religion = catholic
         size = 250
-    }
-
-    soldiers = {
-        culture = french_canadian
-        religion = catholic
-        size = 50
     }
 
     farmers = {
