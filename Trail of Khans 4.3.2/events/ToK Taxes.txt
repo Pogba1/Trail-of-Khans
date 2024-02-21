@@ -5,6 +5,7 @@ country_event = {
 
     trigger = {
         civilized = yes
+        ai = no
         OR = {
             AND = {
                 economic_policy = planned_economy
@@ -98,6 +99,7 @@ country_event = {
     
     trigger = {
         war = no
+        ai = no
         has_country_flag = national_emergency 
     }
     

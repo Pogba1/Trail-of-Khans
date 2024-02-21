@@ -221,13 +221,7 @@ political_decisions = {
 			add_country_modifier = { name = tax_cooldown duration = 1460 }
 		}
 		ai_will_do = {
-			factor = 0.1
-			modifier = {
-				factor = 20
-				economic_policy = laissez_faire
-				tax_policy = low_taxes
-				ruling_party_ideology = liberal
-			}
+			factor = 0
 		}
 	}
 
@@ -249,33 +243,11 @@ political_decisions = {
 			add_country_modifier = { name = tax_cooldown duration = 1460 }
 		}
 		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				factor = 45
-				economic_policy = laissez_faire
-				tax_policy = very_low_taxes
-				ruling_party_ideology = liberal
-			}
+			factor = 0
 			modifier = {
 				factor = 100
-				economic_policy = laissez_faire
-				OR = {
-					tax_policy = medium_taxes
-					tax_policy = high_taxes
-					tax_policy = very_high_taxes
-				}
-				ruling_party_ideology = liberal
-			}
-			modifier = {
-				factor = 100
-				economic_policy = laissez_faire
 				tax_policy = very_low_taxes
-				ruling_party_ideology = conservative
-			}
-			modifier = {
-				factor = 15
-				economic_policy = interventionism
-				tax_policy = medium_taxes
+				economic_policy = laissez_faire
 			}
 		}
 	}
@@ -298,28 +270,12 @@ political_decisions = {
 			add_country_modifier = { name = tax_cooldown duration = 1460 }
 		}
 		ai_will_do = {
-			factor = 0.5
+			factor = 0
 			modifier = {
 				factor = 100
 				economic_policy = interventionism
 				OR = {
 					tax_policy = very_low_taxes
-					tax_policy = very_high_taxes
-				}
-			}
-			modifier = {
-				factor = 35
-				economic_policy = interventionism
-				OR = {
-					tax_policy = low_taxes
-					tax_policy = high_taxes
-				}
-			}
-			modifier = {
-				factor = 10
-				economic_policy = state_capitalism
-				OR = {
-					tax_policy = high_taxes
 					tax_policy = very_high_taxes
 				}
 			}
@@ -344,21 +300,12 @@ political_decisions = {
 			add_country_modifier = { name = tax_cooldown duration = 1460 }
 		}
 		ai_will_do = {
-			factor = 0.6
+			factor = 0
 			modifier = {
 				factor = 100
 				economic_policy = state_capitalism
-				OR = {
-					tax_policy = very_low_taxes
-					tax_policy = low_taxes
-				}
-			}
-			modifier = {
-				factor = 40
-				economic_policy = state_capitalism
-				OR = {
-					tax_policy = medium_taxes
-					tax_policy = very_high_taxes
+				NOT = {
+					economic_policy = very_high_taxes
 				}
 			}
 		}
@@ -378,21 +325,7 @@ political_decisions = {
 			political_reform = very_high_taxes
 			add_country_modifier = { name = tax_cooldown duration = 1460 }
 		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 100
-				economic_policy = planned_economy
-				NOT = {
-					tax_policy = very_high_taxes
-				}
-			}
-			modifier = {
-				factor = 10
-				economic_policy = state_capitalism
-				tax_policy = high_taxes
-			}
-		}
+		ai_will_do = { factor = 1 }
 	}
 
 	declare_national_emergency = {
@@ -417,5 +350,6 @@ political_decisions = {
 			scaled_militancy = { factor = 1 ideology_issue = communist }
 			set_country_flag = national_emergency
 		}
+		ai_will_do = { factor = 1 }
 	}
 }

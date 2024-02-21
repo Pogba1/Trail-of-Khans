@@ -33,46 +33,19 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = retake_north
-			random_owned = {
-				limit = {
-					owner = {
+			IRE = {
+				all_core = {
+					limit = {
 						NOT = {
-							has_global_flag = attempt_reform_gaul
+							is_core = GAE
 						}
 					}
-				}
-				owner = {
-					IRE = {
-						all_core = {
-							limit = {
-								NOT = {
-									is_core = GAE
-								}
-							}
-							add_core = THIS
-							remove_core = IRE
-						}
-					}
+					add_core = THIS
+					remove_core = IRE
 				}
 			}
-			random_owned = {
-				limit = {
-					owner = {
-						has_global_flag = attempt_reform_gaul
-					}
-				}
-				owner = {
-					IRE = {
-						all_core = {
-							limit = {
-								NOT = {
-									is_core = GAE
-								}
-							}
-							add_core = THIS
-						}
-					}
-				}
+			405 = {
+				add_core = THIS
 			}
 		}
 	}
@@ -166,18 +139,8 @@ political_decisions = {
 		allow = {
 			war = no 
 			nationalism_n_imperialism = 1
-			FRA = {
-				all_core = {
-					NOT = {
-						OR = {
-							culture = french
-							culture = breton
-							culture = picard 
-							culture = south_german
-						}
-					}
-					owned_by = THIS
-				}
+			451 = {
+				owned_by = THIS
 			}
 			UBR = {
 				exists = no
