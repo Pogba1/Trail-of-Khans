@@ -215,6 +215,10 @@ political_decisions = {
 			economic_policy = laissez_faire
 		}
 		allow = {
+			NOT = {
+				tax_policy = very_low_taxes
+				has_country_modifier = tax_cooldown
+			}
 		}
 		effect = {
 			social_reform = very_low_taxes
@@ -235,6 +239,7 @@ political_decisions = {
 		}
 		allow = {
 			NOT = {
+				tax_policy = low_taxes
 				has_country_modifier = tax_cooldown
 			}
 		}
@@ -263,6 +268,7 @@ political_decisions = {
 		allow = {
 			NOT = {
 				has_country_modifier = tax_cooldown
+				tax_policy = medium_taxes
 			}
 		}
 		effect = {
@@ -293,6 +299,7 @@ political_decisions = {
 		allow = {
 			NOT = {
 				has_country_modifier = tax_cooldown
+				tax_policy = high_taxes
 			}
 		}
 		effect = {
@@ -319,6 +326,7 @@ political_decisions = {
 		allow = {
 			NOT = {
 				has_country_modifier = tax_cooldown
+				tax_policy = very_high_taxes
 			}
 		}
 		effect = {
