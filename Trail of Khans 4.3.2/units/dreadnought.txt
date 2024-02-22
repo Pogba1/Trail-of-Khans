@@ -40,12 +40,11 @@ dreadnought = {
     supply_cost = {
         steamer_convoy = 2.0
         artillery = 0.9
-        canned_food = 1
+        canned_food = 0.16
         telephones = 0.02
         fuel = 5
-        ammunition = 0.8
-        #regular_clothes = 0.5
-        #tobacco = 2
+        ammunition = 2
+        regular_clothes = 0.01
     }
 
     #Naval Abilities

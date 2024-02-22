@@ -38,11 +38,11 @@ cruiser = {
     supply_cost = {
         steamer_convoy = 1.1
         artillery = 0.5
-        canned_food = 0.6
+        canned_food = 0.16
         fuel = 3
         coal = 0.5
-        ammunition = 0.4
-        regular_clothes = 0.25
+        ammunition = 0.7
+        regular_clothes = 0.01
     }
 
     #Naval Abilities
