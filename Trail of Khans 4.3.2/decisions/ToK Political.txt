@@ -217,7 +217,7 @@ political_decisions = {
 		allow = {
 		}
 		effect = {
-			political_reform = very_low_taxes
+			social_reform = very_low_taxes
 			add_country_modifier = { name = tax_cooldown duration = 1460 }
 		}
 		ai_will_do = {
@@ -239,7 +239,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			political_reform = low_taxes
+			social_reform = low_taxes
 			add_country_modifier = { name = tax_cooldown duration = 1460 }
 		}
 		ai_will_do = {
@@ -266,7 +266,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			political_reform = medium_taxes
+			social_reform = medium_taxes
 			add_country_modifier = { name = tax_cooldown duration = 1460 }
 		}
 		ai_will_do = {
@@ -296,7 +296,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			political_reform = high_taxes
+			social_reform = high_taxes
 			add_country_modifier = { name = tax_cooldown duration = 1460 }
 		}
 		ai_will_do = {
@@ -305,7 +305,7 @@ political_decisions = {
 				factor = 100
 				economic_policy = state_capitalism
 				NOT = {
-					economic_policy = very_high_taxes
+					tax_policy = very_high_taxes
 				}
 			}
 		}
@@ -322,7 +322,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			political_reform = very_high_taxes
+			social_reform = very_high_taxes
 			add_country_modifier = { name = tax_cooldown duration = 1460 }
 		}
 		ai_will_do = { factor = 1 }
@@ -340,7 +340,7 @@ political_decisions = {
 			war_exhaustion = 25
 		}
 		effect = {
-			political_reform = very_high_taxes
+			social_reform = very_high_taxes
 			war_exhaustion = -10
 			scaled_militancy = { factor = 5 ideology_issue = liberal }
 			scaled_militancy = { factor = 4 ideology_issue = socialist }

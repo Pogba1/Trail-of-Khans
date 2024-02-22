@@ -56,7 +56,7 @@ country_event = {
                 }
             }
             owner = {
-                political_reform = low_taxes
+                social_reform = low_taxes
             }
         }
         random_owned = {
@@ -66,7 +66,7 @@ country_event = {
                 }
             }
             owner = {
-                political_reform = medium_taxes
+                social_reform = medium_taxes
             }
         }
         random_owned = {
@@ -76,7 +76,7 @@ country_event = {
                 }
             }
             owner = {
-                political_reform = high_taxes
+                social_reform = high_taxes
             }
         }
         random_owned = {
@@ -86,7 +86,7 @@ country_event = {
                 }
             }
             owner = { 
-                political_reform = very_high_taxes
+                social_reform = very_high_taxes
             }
         }
     }
@@ -117,7 +117,7 @@ country_event = {
                 }
             }
             owner = {
-                political_reform = low_taxes
+                social_reform = low_taxes
             }
         }
         random_owned = {
@@ -127,7 +127,7 @@ country_event = {
                 }
             }
             owner = {
-                political_reform = medium_taxes
+                social_reform = medium_taxes
             }
         }
         random_owned = {
@@ -137,7 +137,7 @@ country_event = {
                 }
             }
             owner = {
-                political_reform = high_taxes
+                social_reform = high_taxes
             }
         }
     }

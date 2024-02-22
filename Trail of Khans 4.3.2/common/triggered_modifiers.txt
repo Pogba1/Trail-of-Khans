@@ -31,7 +31,6 @@ social_reformed_nation = {
 			pensions = good_pensions
 			health_care = good_health_care
 			school_reforms = good_schools
-			OR = { penal_system = incarceration penal_system = rehabilitation }
             citizens_rights = all_voting_pops
 			child_labor = child_labor_illegal
 			
