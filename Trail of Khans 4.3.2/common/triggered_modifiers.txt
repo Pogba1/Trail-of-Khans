@@ -325,6 +325,25 @@ ai_buffs_war = {
     reinforce_speed = 0.15
 }
 
+ai_tariff_free_trade = {
+    trigger = {
+        exists = yes
+        ai = yes
+        trade_policy = free_trade
+    }
+    min_tariff = 1.25
+    max_tariff = 0.5
+}
+
+ai_tariff_free_trade = {
+    trigger = {
+        exists = yes
+        ai = yes
+        trade_policy = protectionism
+    }
+    min_tariff = 0.75
+}
+
 4_militancy_debuff = {
     trigger = {
         exists = yes
