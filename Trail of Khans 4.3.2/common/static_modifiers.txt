@@ -244,12 +244,12 @@ generalised_debt_default = {
 }
 
 total_occupation = {
-	war_exhaustion = 0.05 				#increased by war exhaustion.
+	war_exhaustion = 0.075				#increased by war exhaustion.
 	prestige = -0.1
 }
 
 total_blockaded = {
-	war_exhaustion = 0.05				#increased by war exhaustion.  
+	war_exhaustion = 0.075				#increased by war exhaustion.  
 	prestige = -0.1
 }
 
