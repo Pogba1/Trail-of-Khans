@@ -16,7 +16,7 @@ rotary_kiln = {
             NOT = { private_banks = 1 }
         }
     }
-    effect = { factory_goods_output = { cement = 0.15 } }
+    effect = { factory_goods_output = { cement = 0.25 } }
 }
 
 daimlers_automobile = {
@@ -41,7 +41,7 @@ daimlers_automobile = {
     effect = {
         activate_building = automobile_factory
         factory_goods_output = {
-            machine_parts = 0.01
+            machine_parts = 0.1
         }
     }
 }
@@ -67,7 +67,7 @@ wright_n_langleys_aeroplanes = {
     effect = {
         activate_building = aeroplane_factory
         factory_goods_output = {
-            machine_parts = 0.02
+            machine_parts = 0.1
         }
     }
 }
@@ -86,13 +86,14 @@ tractors = {
         }
     }
     effect = {
-        rgo_goods_output = { cotton = 0.03 }
-        rgo_goods_output = { coffee = 0.05 }
-        rgo_goods_output = { grain = 0.03 }
-        rgo_goods_output = { opium = 0.03 }
-        rgo_goods_output = { fruit = 0.03 }
-        rgo_goods_output = { cattle = 0.03 }
-		farm_rgo_eff = 0.50
+        rgo_goods_output = { cotton = 0.50 }
+        rgo_goods_output = { coffee = 0.25 }
+        rgo_goods_output = { tea = 0.25 }
+        rgo_goods_output = { opium = 0.2 }
+        rgo_goods_output = { tobacco = 0.25 }
+        rgo_goods_output = { grain = 0.50 }
+        rgo_goods_output = { fruit = 0.50 }
+        rgo_goods_output = { cattle = 0.15 }
     }
 }
 #electrical_power_generation
@@ -255,7 +256,7 @@ mechanical_saw = {
             timber = 0.15
         }
         rgo_goods_output = {
-            tropical_wood = 0.1
+            tropical_wood = 0.25
         }
     }
 }
@@ -403,7 +404,7 @@ machine_tools = {
     }
     effect = {
         factory_goods_output = {
-            machine_parts = 0.02
+            machine_parts = 0.1
         }
         factory_throughput = 0.05
         mine_RGO_eff = 0.50
@@ -424,7 +425,7 @@ whitney_n_colts_standardized_small_arms = {
     }
     effect = {
         factory_goods_output = {
-            small_arms = 0.02
+            small_arms = 0.1
         }
     }
 }
@@ -443,7 +444,7 @@ food_packing_system = {
     }
     effect = {
         factory_goods_output = {
-            canned_food = 0.02
+            canned_food = 0.1
         }
     }
 }
@@ -462,7 +463,7 @@ integral_distillery_process = {
     }
     effect = {
         factory_goods_output = {
-            liquor = 0.02
+            liquor = 0.1
         }
     }
 }
@@ -481,10 +482,10 @@ jiggs = {
     }
     effect = {
         factory_goods_output = {
-            furniture = 0.02
+            furniture = 0.2
         }
         factory_goods_output = {
-            luxury_furniture = 0.02
+            luxury_furniture = 0.2
         }
     }
 }
@@ -503,7 +504,7 @@ dobby_loom = {
     }
     effect = {
         factory_goods_throughput = { fabric = 0.1 }
-        #rgo_goods_output = { silk = 0.2 }
+        rgo_goods_output = { silk = 0.2 }
     }
 }
 
@@ -539,7 +540,7 @@ lancashire_loom = {
         }
     }
     effect = {
-        factory_goods_output = { fabric = 0.05 }
+        factory_goods_output = { fabric = 0.15 }
     }
 }
 #pneumatic_and_hydraulics
@@ -559,12 +560,15 @@ electric_machinery = {
     effect = {
         factory_cost = 0.05
         rgo_goods_output = {
-            timber = 0.15
+            timber = 0.50
         }
     }
 }
 oil_pumping_machinery = {
-    limit = { pneumatic_and_hydraulics = 1 }
+    limit = { 
+        assembly_line = 1 
+        invention = cracking
+    }
     chance = {
         base = 2
         modifier = {
@@ -578,10 +582,29 @@ oil_pumping_machinery = {
     }
     effect = {
         rgo_goods_output = {
-            oil = 0.1
+            oil = 0.15
         }
     }
 }
+mechanized_workshops = {
+    limit = { pneumatic_and_hydraulics = 1 }
+    chance = {
+        base = 2
+        modifier = {
+            factor = 2 
+            invention = machine_tools
+        }
+        modifier = {
+            factor = 2
+            steam_turbine = 1
+        }
+    }
+    effect = {
+        factory_throughput = 0.2
+        factory_cost = 0.2
+    }
+}
+
 drying_techniques = {
     limit = { pneumatic_and_hydraulics = 1 }
     chance = {
@@ -714,19 +737,19 @@ refrigerator_technology = {
     }
     effect = {
         rgo_goods_output = {
-            cattle = 0.15
+            cattle = 0.25
         }
         rgo_goods_output = {
-            fruit = 0.15
+            fruit = 0.25
         }
         rgo_goods_output = {
-            fish = 0.15
+            fish = 0.25
         }
         factory_goods_output = {
-            liquor = 0.02
+            liquor = 0.15
         }
         factory_goods_output = {
-            wine = 0.02
+            wine = 0.05
         }
     }
 }
@@ -819,9 +842,23 @@ dynamite = {
     }
     effect = {
         rgo_goods_output = { coal = 0.25 }
+        rgo_goods_output = {
+            iron = 0.25
+        }
+        rgo_goods_output = {
+            sulphur = 0.25
+        }
+        rgo_goods_output = {
+            precious_goods = 0.25
+        }
+        rgo_goods_output = {
+            precious_metal = 0.25
+        }
         rgo_size = { coal = 0.25 }
         rgo_size = { iron = 0.25 }
         rgo_size = { sulphur = 0.25 }
+        rgo_size = { precious_goods = 0.25 }
+        rgo_size = { precious_metal = 0.25 }
     }
 }
 advanced_ore_roasting_processes = {
@@ -1250,8 +1287,10 @@ artificial_fertilizers = {
         }
     }
     effect = {
-        farm_rgo_eff = 0.15
-        factory_goods_output = { fertilizer = 0.05 }
+        rgo_goods_output = {
+            grain = 0.50
+        }
+        factory_goods_output = { fertilizer = 0.20 }
     }
 }
 nitroglycerin = {
@@ -1269,9 +1308,23 @@ nitroglycerin = {
     }
     effect = {
         factory_goods_output = {
-            explosives = 0.02
+            explosives = 0.25
         }
-	mine_RGO_eff = 0.50
+        rgo_goods_output = {
+            coal = 0.5
+        }
+        rgo_goods_output = {
+            iron = 0.5
+        }
+        rgo_goods_output = {
+            sulphur = 0.5
+        }
+        rgo_goods_output = {
+            precious_metal = 0.5
+        }
+        rgo_goods_output = {
+            precious_goods = 0.5
+        }
     }
 }
 chemical_wood_pulp_process = {
@@ -1624,6 +1677,47 @@ frasch_process = {
     effect = {
         rgo_goods_output = {
             sulphur = 0.5
+        }
+    }
+}
+
+automatic_irrigation = {
+    limit = {
+        steam_turbine = 1
+    }
+    chance = {
+        base = 5
+        modifier = {
+            factor = 5 
+            early_railroad = 1
+        }
+        modifier = {
+            factor = 5
+            iron_railroad = 1
+        }
+        modifier = {
+            factor = 5
+            steel_railroad = 1
+        }
+    }
+    effect = {
+        rgo_goods_output = {
+            cotton = 0.5
+        }
+        rgo_goods_output = {
+            grain = 0.5
+        }
+        rgo_goods_output = {
+            coffee = 0.5
+        }
+        rgo_goods_output = {
+            tea = 0.5
+        }
+        rgo_goods_output = {
+            fruit = 0.5
+        }
+        rgo_goods_output = {
+            tobacco = 0.5
         }
     }
 }

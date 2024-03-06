@@ -482,6 +482,19 @@ steamer_automatic_construction_plants = {
         }
     }
 }
+commercial_steamer_usage = {
+    limit = {
+        steamers = 1
+    }
+    chance = {
+        base = 5
+    }
+    effect = {
+        rgo_goods_output = {
+            fish = 0.25
+        }
+    }
+}
 mechanized_fishing_vessels = {
     limit = { iron_steamers = 1 }
     chance = {
@@ -501,7 +514,7 @@ mechanized_fishing_vessels = {
     }
     effect = {
         rgo_goods_output = {
-            fish = 0.5
+            fish = 0.25
         }
     }
 }
@@ -672,7 +685,7 @@ fish_trawlers = {
         base = 6
     }
     effect = {
-        rgo_goods_output = { fish = 0.3 }
+        rgo_goods_output = { fish = 0.5 }
     }
 }
 dreadnoughts = {
@@ -1906,5 +1919,35 @@ naval_exercises = {
     }
     effect = {
         naval_attrition = -0.1
+    }
+}
+offshore_drilling = {
+    limit = {
+        naval_logistics = 1
+        invention = oil_pumping_machinery
+    }
+    chance = {
+        base = 2
+        modifier = {
+            factor = 2
+            steel_steamers = 1
+        }
+        modifier = {
+            factor = 2
+            invention = protected_cruisers
+        }
+        modifier = {
+            factor = 2
+            invention = pre_dreadnought
+        }
+        modifier = {
+            factor = 2
+            invention = dreadnoughts
+        }
+    }
+    effect = {
+        rgo_goods_output = {
+            oil = 0.50
+        }
     }
 }
