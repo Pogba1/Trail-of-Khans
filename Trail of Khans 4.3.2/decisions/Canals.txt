@@ -1,4 +1,30 @@
 political_decisions = {
+
+    canal_menu = {
+        potential = {
+            civilized = yes
+            NOT = { has_country_flag = canal_menu }
+        }
+        allow = {
+        }
+        effect = {
+            set_country_flag = canal_menu
+        }
+    }
+
+    hide_canal_menu = {
+        potential = {
+            ai = no
+            civilized = yes
+            has_country_flag = canal_menu 
+        }
+        allow = {
+        }
+        effect = {
+            clr_country_flag = canal_menu
+        }
+    }
+
     build_kiel_canal = {
         picture = build_kiel_canal
         news = yes
@@ -14,6 +40,7 @@ political_decisions = {
                 is_secondary_power = yes
             }
 			NOT = { is_culture_group = scandinavian }
+            has_country_flag = canal_menu
         }
 
         allow = {
@@ -54,6 +81,7 @@ political_decisions = {
         potential = {
             NOT = { is_canal_enabled = 2 }
             NOT = { has_global_flag = suez_canal_built }
+            has_country_flag = canal_menu
         }
 
         allow = {
@@ -122,6 +150,7 @@ political_decisions = {
             NOT = { is_canal_enabled = 2 }
             NOT = { has_global_flag = suez_canal_built }
             NOT = { has_global_flag = suez_canal_company_founded }
+            has_country_flag = canal_menu
         }
 
         allow = {
@@ -223,6 +252,7 @@ political_decisions = {
         potential = {
             NOT = { has_global_flag = panama_under_construction }
             NOT = { is_canal_enabled = 3 }
+            has_country_flag = canal_menu
         }
         allow = {
             invention = machine_tools
