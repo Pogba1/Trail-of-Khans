@@ -564,7 +564,7 @@ guiTypes = {
 				minValue = 0
 				maxValue = 2000
 				stepSize = 2
-				startValue = 100
+				startValue = 0
 				horizontal = 1
 				
 				guiButtonType = {
