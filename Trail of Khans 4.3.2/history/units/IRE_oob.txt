@@ -133,21 +133,6 @@ leader = {
 army = {
     name = "1st Army"
     location = 260
-    regiment = {
-        name= "Artillery Brigade"
-        type = artillery
-        home = 263
-    }
-	regiment = {
-        name= "Artillery Brigade"
-        type = artillery
-        home = 264
-    }
-	regiment = {
-        name= "Artillery Brigade"
-        type = artillery
-        home = 265
-    }
 	regiment = {
         name= "Artillery Brigade"
         type = artillery
@@ -157,17 +142,6 @@ army = {
         name= "Artillery Brigade"
         type = artillery
         home = 261
-    }
-    regiment = {
-        name= "Cavalry Brigade"
-        type = cuirassier
-        home = 263
-    }
-
-    regiment = {
-        name= "Infantry Brigade"
-        type = infantry
-        home = 263
     }
 	regiment = {
         name= "Infantry Brigade"
@@ -190,36 +164,6 @@ army = {
 army = {
     name = "2nd Army"
     location = 262
-    regiment = {
-        name= "Artillery Brigade"
-        type = artillery
-        home = 256
-    }
-	regiment = {
-        name= "Artillery Brigade"
-        type = artillery
-        home = 256
-    }
-	regiment = {
-        name= "Artillery Brigade"
-        type = artillery
-        home = 256
-    }
-	regiment = {
-        name= "Artillery Brigade"
-        type = artillery
-        home = 254
-    }
-	regiment = {
-        name= "Artillery Brigade"
-        type = artillery
-        home = 254
-    }
-    regiment = {
-        name= "Cavalry Brigade"
-        type = cuirassier
-        home = 254
-    }
     regiment = {
         name= "Infantry Brigade"
         type = infantry
@@ -245,21 +189,6 @@ army = {
 army = {
     name = "Royal Guard"
     location = 261
-	regiment = {
-        name= "Infantry Brigade"
-        type = infantry
-        home = 263
-    }
-	regiment = {
-        name= "Infantry Brigade"
-        type = infantry
-        home = 255
-    }
-	regiment = {
-        name= "Guard Brigade"
-        type = guard
-        home = 256
-    }
 	regiment = {
         name= "Guard Brigade"
         type = guard
@@ -435,7 +364,7 @@ navy = {
 #Transport
 navy = {
     name = "1st Transport Squadron"
-    location = 263 #Canterbury
+    location = 257 #Canterbury
     ship = {
         name= "1st Transport Flotilla"
         type = clipper_transport

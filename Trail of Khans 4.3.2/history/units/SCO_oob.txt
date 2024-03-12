@@ -323,6 +323,52 @@ army = {
     
 }
 
+army = {
+    name = "Irish Army"
+    location = 254
+    
+    regiment = {
+        name = "1st Infantry Brigade"
+        type = infantry
+        home = 264
+    }
+    regiment = {
+        name = "2nd Infantry Brigade"
+        type = infantry
+        home = 263
+    }
+    regiment = {
+        name = "3rd Infantry Brigade"
+        type = infantry
+        home = 263
+    }
+    regiment = {
+        name = "2nd Light Brigade"
+        type = cavalry
+        home = 265
+    }
+    regiment = {
+        name = "Loyal Guard"
+        type = guard
+        home = 271
+    }
+    regiment = {
+        name = "2nd Light Brigade"
+        type = guard
+        home = 271
+    }
+    regiment = {
+        name = "1st Artillery Brigade"
+        type = artillery
+        home = 256
+    }
+    regiment = {
+        name = "2nd Artilleryf Brigade"
+        type = artillery
+        home = 256
+    }
+}
+
 #Channel Fleet
 navy = {
     name = "Channel Fleet"
