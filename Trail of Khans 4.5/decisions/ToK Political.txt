@@ -183,181 +183,27 @@ political_decisions = {
 		}
 	}
 
-	show_tax_policy = {
-		potential = {
-			NOT = {
-				has_country_flag = tax_menu
-			}
-			civilized = yes
-		}
-		allow = {
-		}
-		effect = {
-			set_country_flag = tax_menu
-		}
-	}
-
-	hide_tax_policy = {
-		potential = {
-			ai = no
-			has_country_flag = tax_menu
-		}
-		allow = {
-		}
-		effect = {
-			clr_country_flag = tax_menu
-		}
-	}
-
-	switch_very_low_taxes = {
-		potential = {
-			has_country_flag = tax_menu
-			economic_policy = laissez_faire
-		}
-		allow = {
-			NOT = {
-				tax_policy = very_low_taxes
-				has_country_modifier = tax_cooldown
-			}
-		}
-		effect = {
-			social_reform = very_low_taxes
-			add_country_modifier = { name = tax_cooldown duration = 1460 }
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	switch_low_taxes = {
-		potential = {
-			has_country_flag = tax_menu
-			OR = {
-				economic_policy = laissez_faire
-				economic_policy = interventionism
-			}
-		}
-		allow = {
-			NOT = {
-				tax_policy = low_taxes
-				has_country_modifier = tax_cooldown
-			}
-		}
-		effect = {
-			social_reform = low_taxes
-			add_country_modifier = { name = tax_cooldown duration = 1460 }
-		}
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 100
-				tax_policy = very_low_taxes
-				economic_policy = laissez_faire
-			}
-		}
-	}
-
-	switch_medium_taxes = {
-		potential = {
-			has_country_flag = tax_menu
-			OR = {
-				economic_policy = interventionism
-				economic_policy = state_capitalism
-			}
-		}
-		allow = {
-			NOT = {
-				has_country_modifier = tax_cooldown
-				tax_policy = medium_taxes
-			}
-		}
-		effect = {
-			social_reform = medium_taxes
-			add_country_modifier = { name = tax_cooldown duration = 1460 }
-		}
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 100
-				economic_policy = interventionism
-				OR = {
-					tax_policy = very_low_taxes
-					tax_policy = very_high_taxes
-				}
-			}
-		}
-	}
-
-	switch_high_taxes = {
-		potential = {
-			has_country_flag = tax_menu
-			OR = {
-				economic_policy = planned_economy
-				economic_policy = state_capitalism
-			}
-		}
-		allow = {
-			NOT = {
-				has_country_modifier = tax_cooldown
-				tax_policy = high_taxes
-			}
-		}
-		effect = {
-			social_reform = high_taxes
-			add_country_modifier = { name = tax_cooldown duration = 1460 }
-		}
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 100
-				economic_policy = state_capitalism
-				NOT = {
-					tax_policy = very_high_taxes
-				}
-			}
-		}
-	}
-
-	switch_very_high_taxes = {
-		potential = {
-			has_country_flag = tax_menu
-			economic_policy = planned_economy
-		}
-		allow = {
-			NOT = {
-				has_country_modifier = tax_cooldown
-				tax_policy = very_high_taxes
-			}
-		}
-		effect = {
-			social_reform = very_high_taxes
-			add_country_modifier = { name = tax_cooldown duration = 1460 }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	declare_national_emergency = {
-		potential = {
-			war = yes
-			NOT = {
-				has_country_flag = national_emergency
-			}
-		}
-		allow = {
-			war_policy = jingoism
-			war_exhaustion = 25
-		}
-		effect = {
-			social_reform = very_high_taxes
-			war_exhaustion = -10
-			scaled_militancy = { factor = 5 ideology_issue = liberal }
-			scaled_militancy = { factor = 4 ideology_issue = socialist }
-			scaled_militancy = { factor = 3 ideology_issue = conservative }
-			scaled_militancy = { factor = 2 ideology_issue = reactionary }
-			scaled_militancy = { factor = 1 ideology_issue = fascist }
-			scaled_militancy = { factor = 1 ideology_issue = communist }
-			set_country_flag = national_emergency
-		}
-		ai_will_do = { factor = 1 }
-	}
+	#declare_national_emergency = {
+	#	potential = {
+	#		war = yes
+	#		NOT = {
+	#			has_country_flag = national_emergency
+	#		}
+	#	}
+	#	allow = {
+	#		war_policy = jingoism
+	#		war_exhaustion = 25
+	#	}
+	#	effect = {
+	#		war_exhaustion = -10
+	#		scaled_militancy = { factor = 5 ideology = liberal }
+	#		scaled_militancy = { factor = 4 ideology = socialist }
+	#		scaled_militancy = { factor = 3 ideology = conservative }
+	#		scaled_militancy = { factor = 2 ideology = reactionary }
+	#		scaled_militancy = { factor = 1 ideology = fascist }
+	#		scaled_militancy = { factor = 1 ideology = communist }
+	#		set_country_flag = national_emergency
+	#	}
+	#	ai_will_do = { factor = 1 }
+	#}
 }

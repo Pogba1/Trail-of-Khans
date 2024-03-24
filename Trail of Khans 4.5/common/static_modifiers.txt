@@ -221,10 +221,9 @@ civ_nation = {
 }
 
 unciv_nation = {
-    mobilisation_size = 0.0
+    mobilisation_size = -0.1
     diplomatic_points_modifier = 1
     cb_generation_speed_modifier = 0.8
-    badboy = -0.1
 }
 
 
@@ -244,12 +243,12 @@ generalised_debt_default = {
 }
 
 total_occupation = {
-	war_exhaustion = 0.075				#increased by war exhaustion.
+	war_exhaustion = 0.1				#increased by war exhaustion.
 	prestige = -0.1
 }
 
 total_blockaded = {
-	war_exhaustion = 0.075				#increased by war exhaustion.  
+	war_exhaustion = 0.5				#increased by war exhaustion.  
 	prestige = -0.1
 }
 
@@ -258,6 +257,6 @@ in_bankrupcy = {
     min_tariff = 0.75
     min_tax = 0.45
     max_military_spending = -0.2
-    #max_social_spending = 0.5
+    max_social_spending = 0.5
     ruling_party_support = -0.75
 }

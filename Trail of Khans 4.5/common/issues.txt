@@ -17,6 +17,7 @@ party_issues = {
             factory_owner_cost = 0.3
             factory_output = 0.1
             import_cost = -0.1
+            max_tax = 0.5
 
             rules = {
                 build_factory = no
@@ -40,7 +41,6 @@ party_issues = {
         }
         interventionism = {
             factory_owner_cost = 0.45
-
             rules = {
                 build_factory = no
                 expand_factory = yes
@@ -65,7 +65,7 @@ party_issues = {
         }
         state_capitalism = {
             factory_owner_cost = 0.6
-
+            min_tax = 0.25
             rules = {
                 build_factory = yes
                 expand_factory = yes
@@ -87,7 +87,7 @@ party_issues = {
         planned_economy = {
             factory_throughput = 0.05
             factory_owner_cost = -1    #negative costs, can't build.
-
+            min_tax = 0.5
             rules = {
                 build_factory = yes
                 expand_factory = yes
@@ -559,49 +559,6 @@ political_reforms = {
 # Social reforms.
 ##########################################
 social_reforms = {
-
-    tax_policy = {
-        administrative = yes
-        next_step_only = yes
-        very_low_taxes = {
-            max_tax = 0.15
-            allow = {
-                always = no
-            }
-        }
-        low_taxes = {
-            min_tax = 0.15
-            max_tax = 0.30
-            administrative_multiplier = 1
-            allow = {
-                always = no
-            }
-        }
-        medium_taxes = {
-            min_tax = 0.30
-            max_tax = 0.50
-            administrative_multiplier = 2
-            allow = {
-                always = no
-            }
-        }
-        high_taxes = {
-            min_tax = 0.50
-            max_tax = 0.70
-            administrative_multiplier = 3
-            allow = {
-                always = no
-            }
-        }
-        very_high_taxes = {
-            min_tax = 0.70
-            administrative_multiplier = 5
-            allow = {
-                always = no
-            }
-        }
-    }
-
     wage_reform = {
 		administrative = yes
 		next_step_only = yes
