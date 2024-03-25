@@ -64,3 +64,240 @@ roman_civil_war_cb;Roman Civil War;x
 roman_civil_war_cb_short;Acquire $STATE$ from $RECIPIENT$;x
 roman_civil_war_cb_desc;Acquire $STATE$.;x
 roman_civil_war_cb_setup;Acquire $STATE$ from $RECIPIENT$.;x
+#############################################;;;;;;;;;;;;;;x
+#State Sized CBs (Thanks Reno);;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+acquire_core_state_tiny;Acquire Tiny Core;;;;;;;;;;;
+acquire_core_state_tiny_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_tiny_desc;Aquire an enemy §Ytiny state§W where we have §Ycore provinces.§W;;;;;;;;;;;
+acquire_core_state_tiny_setup;Acquire tiny core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_small;Acquire Small Core;;;;;;;;;;;
+acquire_core_state_small_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_small_desc;Aquire an enemy §Ysmall state§W where we have §Ycore provinces.§W;;;;;;;;;;;
+acquire_core_state_small_setup;Acquire small core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_medium;Acquire Medium Core;;;;;;;;;;;
+acquire_core_state_medium_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_medium_desc;Aquire an enemy §Ymedium state§W where we have §Ycore provinces.§W;;;;;;;;;;;
+acquire_core_state_medium_setup;Acquire medium core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_large;Acquire Large Core;;;;;;;;;;;
+acquire_core_state_large_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_large_desc;Aquire an enemy §Ylarge state§W where we have §Ycore provinces.§W;;;;;;;;;;;
+acquire_core_state_large_setup;Acquire large core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_huge;Acquire Huge Core;;;;;;;;;;;
+acquire_core_state_huge_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_huge_desc;Aquire an enemy §Yhuge state§W where we have §Ycore provinces.§W;;;;;;;;;;;
+acquire_core_state_huge_setup;Acquire huge core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+demand_concession_casus_belli_china;Chinese Core Concession;;;;;;;;;;;
+demand_concession_casus_belli_china_short;Demand $STATE$ from China;;;;;;;;;;;
+demand_concession_casus_belli_china_desc;Force China to concede core territory.;;;;;;;;;;;
+demand_concession_casus_belli_china_setup;Demand that $RECIPIENT$ cede territory.;;;;;;;;;;;
+take_capital_earlygame;Take Capital Earlygame;;;;;;;;;;;
+take_capital_earlygame_short;Acquire capital $STATE$.;;;;;;;;;;;
+take_capital_earlygame_desc;Force target to concede its capital $STATE$.;;;;;;;;;;;
+take_capital_earlygame_setup;Demand that $RECIPIENT$ cede its capital.;;;;;;;;;;;
+take_capital_midgame;Take Capital Midgame;;;;;;;;;;;
+take_capital_midgame_short;Acquire capital $STATE$.;;;;;;;;;;;
+take_capital_midgame_desc;Force target to concede its capital $STATE$.;;;;;;;;;;;
+take_capital_midgame_setup;Demand that $RECIPIENT$ cede its capital.;;;;;;;;;;;
+take_capital_lategame;Take Capital Lategame;;;;;;;;;;;
+take_capital_lategame_short;Acquire capital $STATE$.;;;;;;;;;;;
+take_capital_lategame_desc;Force target to concede its capital $STATE$.;;;;;;;;;;;
+take_capital_lategame_setup;Demand that $RECIPIENT$ cede its capital.;;;;;;;;;;;
+acquire_state_tiny;Acquire Tiny State;;;;;;;;;;;
+acquire_state_tiny_short;Acquire Tiny State $STATE$.;;;;;;;;;;;
+acquire_state_tiny_desc;Aquire an enemy §Ytiny state§W.;;;;;;;;;;;
+acquire_state_tiny_setup;Demand that $RECIPIENT$ cede its tiny state.;;;;;;;;;;;
+acquire_state_small;Acquire Small State;;;;;;;;;;;
+acquire_state_small_short;Acquire Small State $STATE$.;;;;;;;;;;;
+acquire_state_small_desc;Aquire an enemy §Ysmall state§W.;;;;;;;;;;;
+acquire_state_small_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;
+acquire_state_small_americas;Acquire Small State;;;;;;;;;;;
+acquire_state_small_americas_short;Acquire Small State $STATE$.;;;;;;;;;;;
+acquire_state_small_americas_desc;Aquire an enemy §Ysmall state§W.;;;;;;;;;;;
+acquire_state_small_americas_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;
+acquire_state_medium;Acquire Medium State;;;;;;;;;;;
+acquire_state_medium_short;Acquire Medium State $STATE$.;;;;;;;;;;;
+acquire_state_medium_desc;Aquire an enemy §Ymedium state§W.;;;;;;;;;;;
+acquire_state_medium_setup;Demand that $RECIPIENT$ cede its medium state.;;;;;;;;;;;
+acquire_state_large;Acquire Large State;;;;;;;;;;;
+acquire_state_large_short;Acquire Large State $STATE$.;;;;;;;;;;;
+acquire_state_large_desc;Aquire an enemy §Ylarge state§W.;;;;;;;;;;;
+acquire_state_large_setup;Demand that $RECIPIENT$ cede its large state.;;;;;;;;;;;
+acquire_state_huge;Acquire Huge State;;;;;;;;;;;
+acquire_state_huge_short;Acquire Huge State $STATE$.;;;;;;;;;;;
+acquire_state_huge_desc;Aquire an enemy §Yhuge state§W.;;;;;;;;;;;
+acquire_state_huge_setup;Demand that $RECIPIENT$ cede its huge state.;;;;;;;;;;;
+demand_concession_casus_belli_tiny;Tiny State Concession;;;;;;;;;;;
+demand_concession_casus_belli_tiny_short;Demand Tiny State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_tiny_desc;Demand a §Ytiny state§W concession.;;;;;;;;;;;
+demand_concession_casus_belli_tiny_setup;Demand that $RECIPIENT$ cede its tiny state.;;;;;;;;;;;
+demand_concession_casus_belli_small;Small State Concession;;;;;;;;;;;
+demand_concession_casus_belli_small_short;Demand Small State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_small_desc;Demand a §Ysmall state§W concession.;;;;;;;;;;;
+demand_concession_casus_belli_small_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;
+demand_concession_casus_belli_small_exception;Small State Concession;;;;;;;;;;;
+demand_concession_casus_belli_small_exception_short;Demand Small State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_small_exception_desc;Demand a §Ysmall state§W concession.;;;;;;;;;;;
+demand_concession_casus_belli_small_exception_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;
+demand_concession_casus_belli_medium;Medium State Concession;;;;;;;;;;;
+demand_concession_casus_belli_medium_short;Demand Medium State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_medium_desc;Demand a §Ymedium state§W concession.;;;;;;;;;;;
+demand_concession_casus_belli_medium_setup;Demand that $RECIPIENT$ cede its medium state.;;;;;;;;;;;
+demand_concession_casus_belli_medium_exception;Medium State Concession;;;;;;;;;;;
+demand_concession_casus_belli_medium_exception_short;Demand Medium State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_medium_exception_desc;Demand a §Ymedium state§W concession.;;;;;;;;;;;
+demand_concession_casus_belli_medium_exception_setup;Demand that $RECIPIENT$ cede its medium state.;;;;;;;;;;;
+demand_concession_casus_belli_large;Large State Concession;;;;;;;;;;;
+demand_concession_casus_belli_large_short;Demand Large State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_large_desc;Demand a §Ylarge state§W concession.;;;;;;;;;;;
+demand_concession_casus_belli_large_setup;Demand that $RECIPIENT$ cede its large state.;;;;;;;;;;;
+demand_concession_casus_belli_large_exception;Large State Concession;;;;;;;;;;;
+demand_concession_casus_belli_large_exception_short;Demand Large State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_large_exception_desc;Demand a §Ylarge state§W concession.;;;;;;;;;;;
+demand_concession_casus_belli_large_exception_setup;Demand that $RECIPIENT$ cede its large state.;;;;;;;;;;;
+demand_concession_casus_belli_huge;Huge State Concession;;;;;;;;;;;
+demand_concession_casus_belli_huge_short;Demand Huge State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_huge_desc;Demand a §Yhuge state§W concession.;;;;;;;;;;;
+demand_concession_casus_belli_huge_setup;Demand that $RECIPIENT$ cede its huge state.;;;;;;;;;;;
+demand_concession_casus_belli_huge_exception;Huge State Concession;;;;;;;;;;;
+demand_concession_casus_belli_huge_exception_short;Demand Huge State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_huge_exception_desc;Demand a §Yhuge state§W concession.;;;;;;;;;;;
+demand_concession_casus_belli_huge_exception_setup;Demand that $RECIPIENT$ cede its huge state.;;;;;;;;;;;
+place_in_the_sun_tiny;Tiny Place in the Sun;;;;;;;;;;;
+place_in_the_sun_tiny_short;Acquire Tiny State $STATE$.;;;;;;;;;;;
+place_in_the_sun_tiny_desc;Demand a §Ytiny state§W colony.;;;;;;;;;;;
+place_in_the_sun_tiny_setup;Acquire Tiny State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+place_in_the_sun_small;Small Place in the Sun;;;;;;;;;;;
+place_in_the_sun_small_short;Acquire Small State $STATE$.;;;;;;;;;;;
+place_in_the_sun_small_desc;Demand a §Ysmall state§W colony.;;;;;;;;;;;
+place_in_the_sun_small_setup;Acquire Small State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+place_in_the_sun_medium;Medium Place in the Sun;;;;;;;;;;;
+place_in_the_sun_medium_short;Acquire Medium State $STATE$.;;;;;;;;;;;
+place_in_the_sun_medium_desc;Demand a §Ymedium state§W colony.;;;;;;;;;;;
+place_in_the_sun_medium_setup;Acquire Medium State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+place_in_the_sun_large;Large Place in the Sun;;;;;;;;;;;
+place_in_the_sun_large_short;Acquire Large State $STATE$.;;;;;;;;;;;
+place_in_the_sun_large_desc;Demand a §Ylarge state§W colony.;;;;;;;;;;;
+place_in_the_sun_large_setup;Acquire Large State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+place_in_the_sun_huge;Huge Place in the Sun;;;;;;;;;;;
+place_in_the_sun_huge_short;Acquire Huge State $STATE$.;;;;;;;;;;;
+place_in_the_sun_huge_desc;Demand a §Yhuge state§W colony.;;;;;;;;;;;
+place_in_the_sun_huge_setup;Acquire Huge State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+free_peoples_tiny;Free People Tiny State;;;;;;;;;;;
+free_peoples_tiny_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;
+free_peoples_tiny_desc;Liberate a §Ycountry§W's state from its oppressors.;;;;;;;;;;;
+free_peoples_tiny_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;
+free_peoples_small;Free People Small State;;;;;;;;;;;
+free_peoples_small_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;
+free_peoples_small_desc;Liberate a §Ycountry§W's state from its oppressors.;;;;;;;;;;;
+free_peoples_small_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;
+free_peoples_medium;Free People Medium State;;;;;;;;;;;
+free_peoples_medium_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;
+free_peoples_medium_desc;Liberate a §Ycountry§W's state from its oppressors.;;;;;;;;;;;
+free_peoples_medium_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;
+free_peoples_large;Free People Large State;;;;;;;;;;;
+free_peoples_large_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;
+free_peoples_large_desc;Liberate a §Ycountry§W's state from its oppressors.;;;;;;;;;;;
+free_peoples_large_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;
+free_peoples_huge;Free People Huge State;;;;;;;;;;;
+free_peoples_huge_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;
+free_peoples_huge_desc;Liberate a §Ycountry§W's state from its oppressors.;;;;;;;;;;;
+free_peoples_huge_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;
+take_capital;Take Capital;;;;;;;;;;;;;x
+take_capital_desc;Take the Capital region of a 即country劬 and force them to move their capital elsewhere;;;;;;;;;;;;;x
+take_capital_setup;Take Capital region $STATE$ of $RECIPIENT$;;;;;;;;;;;;;x
+take_capital_short;Takes Capital from $RECIPIENT$;;;;;;;;;;;;;x
+take_capital_midgame;Take Capital Midgame;;;;;;;;;;;;;x
+take_capital_midgame_desc;Take the Capital region of a 即country劬 and force them to move their capital elsewhere for 33% less warscore.;;;;;;;;;;;;;x
+take_capital_midgame_setup;Take Capital region $STATE$ of $RECIPIENT$;;;;;;;;;;;;;x
+take_capital_midgame_short;Takes Capital from $RECIPIENT$;;;;;;;;;;;;;x
+take_capital_late;Take Capital Lategame;;;;;;;;;;;;;x
+take_capital_late_desc;Take the Capital region of a 即country劬 and force them to move their capital elsewhere for 55% less warscore.;;;;;;;;;;;;;x
+take_capital_late_setup;Take Capital region $STATE$ of $RECIPIENT$;;;;;;;;;;;;;x
+take_capital_late_short;Takes Capital from $RECIPIENT$;;;;;;;;;;;;;x
+minor_conquest;Minor Conquest;;;;;;;;;;;;;x
+minor_conquest_desc;Annex a 即country劬 of small size and population by conquest;;;;;;;;;;;;;x
+minor_conquest_setup;Annex minor nation of $RECIPIENT$;;;;;;;;;;;;;x
+minor_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+make_puppet_small;Make Small Puppet;;;;;;;;;;;;;x
+make_puppet_small_desc;Puppet a 即country劬 of small size and population by aggression;;;;;;;;;;;;;x
+make_puppet_small_setup;Puppet the minor nation of $RECIPIENT$;;;;;;;;;;;;;x
+make_puppet_small_short;Puppet $RECIPIENT$;;;;;;;;;;;;;x
+make_puppet_large;Make Large Puppet;;;;;;;;;;;;;x
+make_puppet_large_desc;Puppet a 即country劬 of respectable size and population by aggression;;;;;;;;;;;;;x
+make_puppet_large_setup;Puppet the nation of $RECIPIENT$;;;;;;;;;;;;;x
+make_puppet_large_short;Puppet $RECIPIENT$;;;;;;;;;;;;;x
+negotiated_transfer;Negotiated Transfer;;;;;;;;;;;;x
+negotiated_transfer_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism;;;;;;;;;;;;x
+negotiated_transfer_short;$RECIPIENT$ receives $STATE$ from us;;;;;;;;;;;;;x
+negotiated_transfer_setup;Transfer $STATE$ from our country to $RECIPIENT$;;;;;;;;;;;;x
+NORMAL_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
+AGRESSION_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
+acquire_state;Acquire State Earlygame;;;;;;;;;;;;;x
+acquire_state_short;Acquire $STATE$;;;;;;;;;;;;;x
+acquire_state_desc;Acquire an enemy 即state劬.;;;;;;;;;;;;;x
+acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
+acquire_state_midgame;Acquire State Midgame;;;;;;;;;;;;;x
+acquire_state_midgame_short;Acquire $STATE$;;;;;;;;;;;;;x
+acquire_state_midgame_desc;Acquire an enemy 即state劬 for 33% less warscore;;;;;;;;;;;;;x
+acquire_state_midgame_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
+acquire_state_late;Acquire State Lategame;;;;;;;;;;;;;x
+acquire_state_late_short;Acquire $STATE$;;;;;;;;;;;;;x
+acquire_state_late_desc;Acquire an enemy 即state劬 for 55% less warscore.;;;;;;;;;;;;;x
+acquire_state_late_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
+demand_concession_casus_belli_player_early_for_puppet;Demand Concession Early for Puppet;Demande de concession;Konzession verlangen;;;;;;;;;;;
+demand_concession_casus_belli_player_early_for_puppet_short;Demand $STATE$ for a puppet for 100% more warscore.;Demander $STATE$;Fordern Sie $STATE$;;;;;;;;;;;
+demand_concession_casus_belli_player_early_for_puppet_desc;Force the 即uncivilized country劬 to secede territory to your puppet for 100% more warscore.;Obligez un 即pays non civilis擏W ?faire s嶰ession d'un territoire pour former une concession coloniale.;Zwingen Sie ein 即unzivilisiertes Land劬, Gebiete zur Grdung einer Kolonialkonzession abzuspalten.;;;;;;;;;;;
+demand_concession_casus_belli_player_early_for_puppet_setup;Demand that $RECIPIENT$ secede territory to a puppet.;Demandez ?ce que $RECIPIENT$ fasse s嶰ession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Grdung einer Kolonialkonzession abspaltet.;;;;;;;;;;;
+demand_concession_casus_belli_ai_early_for_puppet;Demand Concession Early for Puppet;Demande de concession;Konzession verlangen;;;;;;;;;;;
+demand_concession_casus_belli_ai_early_for_puppet_short;Demand $STATE$ for a puppet for 10% more warscore.;Demander $STATE$;Fordern Sie $STATE$;;;;;;;;;;;
+demand_concession_casus_belli_ai_early_for_puppet_desc;Force the 即uncivilized country劬 to secede territory to your puppet for 100% more warscore.;Obligez un 即pays non civilis擏W ?faire s嶰ession d'un territoire pour former une concession coloniale.;Zwingen Sie ein 即unzivilisiertes Land劬, Gebiete zur Grdung einer Kolonialkonzession abzuspalten.;;;;;;;;;;;
+demand_concession_casus_belli_player_early_for_puppet_setup;Demand that $RECIPIENT$ secede territory to a puppet.;Demandez ?ce que $RECIPIENT$ fasse s嶰ession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Grdung einer Kolonialkonzession abspaltet.;;;;;;;;;;;
+demand_concession_casus_belli_for_puppet;Demand Concession for a Puppet;Demande de concession;Konzession verlangen;;;;;;;;;;;
+demand_concession_casus_belli_for_puppet_short;Demand $STATE$ for a puppet.;Demander $STATE$;Fordern Sie $STATE$;;;;;;;;;;;
+demand_concession_casus_belli_for_puppet_desc;Force an 即uncivilized country劬 to secede territory to your puppet.;Obligez un 即pays non civilis擏W ?faire s嶰ession d'un territoire pour former une concession coloniale.;Zwingen Sie ein 即unzivilisiertes Land劬, Gebiete zur Grdung einer Kolonialkonzession abzuspalten.;;;;;;;;;;;
+demand_concession_casus_belli_for_puppet_setup;Demand that $RECIPIENT$ secede territory to a puppet.;Demandez ?ce que $RECIPIENT$ fasse s嶰ession d'un territoire pour former une concession coloniale.;Verlangen Sie, dass $RECIPIENT$ Gebiete zur Grdung einer Kolonialkonzession abspaltet.;;;;;;;;;;;
+place_in_the_sun_for_puppet;Place in the sun for a Puppet;Une place au soleil;Ein Platz an der Sonne;;;;;;;;;;;
+place_in_the_sun_for_puppet_short;Acquire $STATE$ for a puppet.;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;
+place_in_the_sun_for_puppet_desc;Aquire an enemy 即colonial state劬 for a puppet.;Prendre un 即尒at colonial劬 ennemi;Erobern Sie einen feindlichen 即Kolonialstaat劬.;;;;;;;;;;;
+place_in_the_sun_for_puppet_setup;Acquire colony $STATE$ from $RECIPIENT$ for a puppet.;Prendre colonie $STATE$ de $RECIPIENT$;Kolonie $STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;
+place_in_the_sun_late_for_puppet;Place in the sun for a Puppet;Une place au soleil;Ein Platz an der Sonne;;;;;;;;;;;
+place_in_the_sun_late_for_puppet_short;Acquire $STATE$ 20% less for a puppet.;Prendre $STATE$;$STATE$ erwerben;;;;;;;;;;;
+place_in_the_sun_late_for_puppet_desc;Aquire an enemy 即colonial state劬 20% less for a puppet.;Prendre un 即尒at colonial劬 ennemi;Erobern Sie einen feindlichen 即Kolonialstaat劬.;;;;;;;;;;;
+place_in_the_sun_late_for_puppet_setup;Acquire colony $STATE$ 20% cheaper from $RECIPIENT$ for a puppet.;Prendre colonie $STATE$ de $RECIPIENT$;Kolonie $STATE$ von $RECIPIENT$ erwerben;;;;;;;;;;;
+acquire_state_for_puppet;Acquire State Earlygame for Puppet;;;;;;;;;;;;;x
+acquire_state_for_puppet_desc;Acquire the state of a 即country劬 for a puppet.;;;;;;;;;;;;;x
+acquire_state_for_puppet_short;Aquire an enemy 即state劬 for a puppet.;;;;;;;;;;;;;x
+acquire_state_for_puppet_setup;Acquire $STATE$ from $RECIPIENT$ for a puppet.;;;;;;;;;;;;;x
+acquire_state_midgame_for_puppet;Acquire State Midgame for Puppet;;;;;;;;;;;;;x
+acquire_state_midgame_for_puppet_short;Acquire $STATE$ for a puppet.;;;;;;;;;;;;;x
+acquire_state_midgame_for_puppet_desc;Acquire the state of a 即country劬 for a puppet. using 33% less warscore;;;;;;;;;;;;;x
+acquire_state_midgame_for_puppet_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
+acquire_state_late_for_puppet;Acquire State Lategame for Puppet;;;;;;;;;;;;;x
+acquire_state_late_for_puppet_short;Acquire $STATE$ for a puppet.;;;;;;;;;;;;;x
+acquire_state_late_for_puppet_desc;Acquire the state of a 即country劬 for a puppet using 55% less warscore.;;;;;;;;;;;;;x
+acquire_state_late_for_puppet_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
+total_war_state_for_puppet;Total War Acquire State for Puppet;;;;;;;;;;;
+total_war_state_for_puppet_short;The time has come to wipe the very idea of $RECIPIENT$ from the annals of history;;;;;;;;;;;;;x,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+total_war_state_for_puppet_desc;Acquire an enemy country's state for 0 warscore & 0 infamy.;;;;;;;;;;;
+total_war_state_for_puppet_setup;The peoples of $RECIPIENT$$ stand in the way of a better world;;;;;;;;;;;;;x,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+total_war_place_in_the_sun_for_puppet;Total War Acquire Colony for Puppet;;;;;;;;;;;
+total_war_place_in_the_sun_for_puppet_short;The time has come to wipe the very idea of $RECIPIENT$ from the annals of history;;;;;;;;;;;;;x,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+total_war_place_in_the_sun_for_puppet_desc;Acquire an enemy country's colony for a puppet costing 0 warscore & 0 infamy.;;;;;;;;;;;
+total_war_place_in_the_sun_for_puppet_setup;The peoples of $RECIPIENT$$ stand in the way of a better world;;;;;;;;;;;;;x,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+negotiated_transfer_for_puppet;Negotiated Transfer for Puppet;;;;;;;;;;;;x
+negotiated_transfer_for_puppet_desc;Transfer a state or colonial region to another country's puppet for low inamy, 0 prestige, no jingoism;;;;;;;;;;;;x
+negotiated_transfer_for_puppet_short;$RECIPIENT$ receives $STATE$ from us;;;;;;;;;;;;;x
+negotiated_transfer_for_puppet_setup;Transfer $STATE$ to $RECIPIENT$;;;;;;;;;;;;x
+take_capital_for_puppet;Take Capital for Puppet;;;;;;;;;;;;;x
+take_capital_for_puppet_desc;Take the Capital region of a 即country劬 for a puppet and force them to move their capital elsewhere;;;;;;;;;;;;;x
+take_capital_for_puppet_setup;Take Capital region $STATE$ of $RECIPIENT$ for a puppet.;;;;;;;;;;;;;x
+take_capital_for_puppet_short;Takes Capital from $RECIPIENT$;;;;;;;;;;;;;x
+take_capital_midgame_for_puppet;Take Capital Midgame for Puppet;;;;;;;;;;;;;x
+take_capital_midgame_for_puppet_desc;Take the Capital region of a 即country劬 for a puppet and force them to move their capital elsewhere for 33% less warscore.;;;;;;;;;;;;;x
+take_capital_midgame_for_puppet_setup;Take Capital region $STATE$ of $RECIPIENT$ for a puppet.;;;;;;;;;;;;;x
+take_capital_midgame_for_puppet_short;Takes Capital from $RECIPIENT$;;;;;;;;;;;;;x
+take_capital_late_for_puppet;Take Capital Lategame for Puppet;;;;;;;;;;;;;x
+take_capital_late_for_puppet_desc;Take the Capital region of a 即country劬 for a puppet and force them to move their capital elsewhere for 55% less warscore.;;;;;;;;;;;;;x
+take_capital_late_for_puppet_setup;Take Capital region $STATE$ of $RECIPIENT$ for a puppet.;;;;;;;;;;;;;x
+take_capital_late_for_puppet_short;Takes Capital from $RECIPIENT$;;;;;;;;;;;;;x
