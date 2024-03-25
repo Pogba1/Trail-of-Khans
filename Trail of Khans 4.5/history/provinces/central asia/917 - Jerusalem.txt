@@ -1,9 +1,8 @@
-owner = JER
-controller = JER
+owner = SVF
+controller = SVF
 add_core = JER
 add_core = PLS
 trade_goods = grain
 life_rating = 37
 terrain = dryhills
-
-
+colonial = 2

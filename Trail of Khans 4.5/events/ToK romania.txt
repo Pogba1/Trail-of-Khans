@@ -70,11 +70,7 @@ country_event = { #free romanian research points
 		set_global_flag = bucharest_circle
 		prestige = 15
 
-		years_of_research = 1
-		add_country_modifier = {
-			name = students_in_foreign 
-			duration = 3650
-		}
+		years_of_research = 0.5
 		any_pop = {
 			limit = {
 				type = clergymen

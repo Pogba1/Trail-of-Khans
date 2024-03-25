@@ -64,3 +64,7 @@ roman_civil_war_cb;Roman Civil War;x
 roman_civil_war_cb_short;Acquire $STATE$ from $RECIPIENT$;x
 roman_civil_war_cb_desc;Acquire $STATE$.;x
 roman_civil_war_cb_setup;Acquire $STATE$ from $RECIPIENT$.;x
+third_party_transfer;Negotiated State Transfer (3rd Party);;;;;;;;;;;;;
+third_party_transfer_desc;Transfer a state or colonial region from the 1st country to the 2nd country with no effect on infamy, prestige, or jingoism and without a truce at the end;;;;;;;;;;;;;
+third_party_transfer_short;Transfer $STATE$ to an ally;;;;;;;;;;;;;
+third_party_transfer_setup;Transfer $STATE$ from $RECIPIENT$ to an ally;;;;;;;;;;;;;

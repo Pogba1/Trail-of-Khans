@@ -1,23 +1,11 @@
-owner = THR
-controller = THR
-add_core = THR
+owner = EPI
+controller = EPI
+add_core = EPI
 add_core = BYZ
-trade_goods = precious_goods 
+trade_goods = precious_goods
 life_rating = 45
 naval_base = 1
 fort = 1
-state_building = {
-    level = 1
-    building = cement_factory
-    upgrade = yes
-}
-state_building = {
-    level = 1
-    building = winery
-    upgrade = yes
-}
-state_building = {
-    level = 1
-    building = canned_food_factory
-    upgrade = yes
-}
+state_building = { level = 1 building = cement_factory upgrade = yes } 
+state_building = { level = 1 building = winery upgrade = yes } 
+state_building = { level = 1 building = canned_food_factory upgrade = yes } 

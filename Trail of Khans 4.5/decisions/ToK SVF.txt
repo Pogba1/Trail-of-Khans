@@ -29,40 +29,6 @@ political_decisions = {
 			TKM = {all_core = {add_core = THIS}}
 		}
 	}
-	liberate_jerusalem = {
-		picture = "jerusalem"
-		potential = {
-			tag = SVF
-			NOT = {has_country_flag = liberate_jerusalem}
-		}
-		allow = {
-			JER = {
-				all_core = {
-					NOT = {
-						is_core = CYP
-					}
-					owned_by = THIS
-				}
-			}		
-		}
-		effect = {
-			JER = {
-				all_core = {
-					limit = {
-						NOT = {
-							is_core = CYP
-						}
-					}
-				add_core = THIS
-				}
-			}
-			897 = {
-				add_core = THIS
-			}
-			set_country_flag = liberate_jerusalem
-			add_accepted_culture = mashriqi
-		}
-	}
 	integrate_turkmen = {
 		picture = "unite_turkestan"
 		potential = {

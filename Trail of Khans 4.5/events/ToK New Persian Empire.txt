@@ -1,63 +1,4 @@
 country_event = {
-    id = 801
-    title = "EVTNAME801"
-    desc = "EVTDESC801"
-
-       is_triggered_only = yes
-
-    mean_time_to_happen = {
-        days = 1
-    }
-
-    option = {
-        name = "We must accept."
-		NPS={country_event =802}
-		ai_chance = {factor = 100} 
-        
-    }
-	option = {
-        name = "NOOOOOO!!!!! NEVER!!!!!!!!1111111111111111"
-		NPS={country_event =803}
-		prestige = 10 
-    }
-}
-
-country_event = {
-    id = 802
-    title = "EVTNAME802"
-    desc = "EVTDESC802"
-
-       is_triggered_only = yes
-
-    mean_time_to_happen = {
-        days = 1
-    }
-
-    option = {
-        name = "Another piece in our expansion plans."
-		prestige = 5
-		inherit = BLC
-        
-    }
-}
-
-country_event = {
-    id = 803
-    title = "EVTNAME803"
-    desc = "EVTDESC803"
-
-       is_triggered_only = yes
-
-    mean_time_to_happen = {
-        days = 1
-    }
-
-    option = {
-        name = "KILL! KILL! KILL!"
-    }
-}
-
-country_event = {
 	id = 804
 	title = "EVTNAME804"
 	desc = "EVTDESC804"
@@ -65,7 +6,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		tag = NPS
+		tag = SVF
 		926 = {pop_majority_culture = persian}
 		926 = {owned_by = THIS}
 		TUR_923 = {owned_by = THIS}

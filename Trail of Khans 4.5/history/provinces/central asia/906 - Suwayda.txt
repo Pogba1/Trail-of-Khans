@@ -1,7 +1,8 @@
-#owner = JER
-#controller = JER
-#add_core = JER
-add_core = SYR
+# owner = JER
+# controller = JER
+# add_core = JER
+add_core = SVF
 trade_goods = grain
 life_rating = 10
-
+owner = SVF
+controller = SVF

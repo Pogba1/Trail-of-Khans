@@ -16,6 +16,12 @@ UBR = {
 	influence_value = 25
 }
 
+ATR = {
+    value = 125
+    level = 5
+    influence_value = 50
+}
+
 army = {
     name = "L'arm�e de L'Occident"
 	location = 425
