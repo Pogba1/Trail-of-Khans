@@ -11,8 +11,38 @@ party_issues = {
             max_tariff = 0.25
             min_tariff = -1
         }
+		world_bank = {
+			max_tariff = 0.01
+			min_tariff = 0
+		}		
     }
     economic_policy = {
+		world_bank_economics = {
+			max_tax = 1
+			min_tax = 0.99
+			
+			rules = {
+				build_factory = yes
+				expand_factory = yes
+				open_factory = yes
+				destroy_factory = no
+				build_railway = no
+				factory_priority = yes
+				can_subsidise = yes
+				pop_build_factory = no
+				pop_expand_factory = no
+				pop_open_factory = no
+				delete_factory_if_no_input = no
+				pop_build_factory_invest = no
+				pop_expand_factory_invest = no
+				open_factory_invest = no
+				build_factory_invest = no
+				expand_factory_invest = no
+				build_railway_invest = no
+				allow_foreign_investment = no
+				can_invest_in_pop_projects = no
+			}
+		}	
         laissez_faire = {
             factory_owner_cost = 0.3
             factory_output = 0.1

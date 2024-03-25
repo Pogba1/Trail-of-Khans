@@ -501,6 +501,14 @@ JAP        = "countries/Japan.txt"
 #new for 1.2
 ICL        ="countries/Iceland.txt"
 
+# Special countries... thanks Reno <3
+TIN		= 	"countries/Tiny State.txt"
+SMA		= 	"countries/Small State.txt"
+MED		=	"countries/Medium State.txt"
+LRG		=	"countries/Large State.txt"
+HUG		=	"countries/Huge State.txt"
+GHO 		= 	"countries/Ghost Country.txt"
+
 ##NNM and Vanilla Scrapped tags
 BYZ        ="countries/Byzantium.txt"
 BAB        ="countries/Babylonia.txt"
