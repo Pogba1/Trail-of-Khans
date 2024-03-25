@@ -898,12 +898,11 @@ acquire_core_state_tiny = {
 	is_triggered_only = yes
 	months = 12
 	
-	construction_speed = 2
-	
 	badboy_factor = 0
 	prestige_factor = 5
 	peace_cost_factor = 0.001
 	penalty_factor = 1
+	always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
@@ -933,6 +932,7 @@ acquire_core_state_tiny = {
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
+			is_core = TIN
 		}
 	}
 	
@@ -968,6 +968,7 @@ acquire_core_state_small = {
 	prestige_factor = 5
 	peace_cost_factor = 0.003
 	penalty_factor = 1
+	always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
@@ -997,6 +998,7 @@ acquire_core_state_small = {
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
+			is_core = SMA
 		}
 	}
 	
@@ -1032,6 +1034,7 @@ acquire_core_state_medium = {
 	prestige_factor = 5
 	peace_cost_factor = 0.004
 	penalty_factor = 1
+	always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
@@ -1061,6 +1064,7 @@ acquire_core_state_medium = {
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
+			is_core = MED
 		}
 	}
 	
@@ -1096,6 +1100,7 @@ acquire_core_state_large = {
 	prestige_factor = 5
 	peace_cost_factor = 0.006
 	penalty_factor = 1
+	always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
@@ -1125,6 +1130,7 @@ acquire_core_state_large = {
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
+			is_core = LRG
 		}
 	}
 	
@@ -1160,6 +1166,7 @@ acquire_core_state_huge = {
 	prestige_factor = 5
 	peace_cost_factor = 0.008
 	penalty_factor = 1
+	always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
@@ -1189,6 +1196,7 @@ acquire_core_state_huge = {
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
+			is_core = HUG
 		}
 	}
 	
