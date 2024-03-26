@@ -494,7 +494,7 @@ regular_clothes_factory_2 = {
         cotton = 24
     }
     output_goods = regular_clothes
-    value = 24
+    value = 12
     bonus = {
         trigger = { trade_goods_in_state = cotton }
         value = 0.25
@@ -507,7 +507,7 @@ regular_clothes_factory_3 = {
         wool = 60
     }
     output_goods = regular_clothes
-    value = 24
+    value = 12
     bonus = {
         trigger = { trade_goods_in_state = wool }
         value = 0.25
