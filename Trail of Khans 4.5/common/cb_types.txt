@@ -1523,7 +1523,7 @@ acquire_state_tiny = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2.2
 	prestige_factor = 2
 	peace_cost_factor = 0.0825
 	penalty_factor = 1
@@ -1626,7 +1626,7 @@ acquire_state_small = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2.2
 	prestige_factor = 2
 	peace_cost_factor = 0.20
 	penalty_factor = 1
@@ -1730,7 +1730,7 @@ acquire_state_medium = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2.2
 	prestige_factor = 2
 	peace_cost_factor = 0.25
 	penalty_factor = 1
@@ -1834,7 +1834,7 @@ acquire_state_large = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2.2
 	prestige_factor = 2
 	peace_cost_factor = 0.375
 	penalty_factor = 1
@@ -1938,7 +1938,7 @@ acquire_state_huge = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2.2
 	prestige_factor = 2
 	peace_cost_factor = 0.50
 	penalty_factor = 1
@@ -2043,7 +2043,7 @@ place_in_the_sun_tiny = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 0.5
+	badboy_factor = 1
 	prestige_factor = 2
 	peace_cost_factor = 0.03125
 	penalty_factor = 1
@@ -2125,7 +2125,7 @@ place_in_the_sun_small = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 0.5
+	badboy_factor = 1
 	prestige_factor = 2
 	peace_cost_factor = 0.0625
 	penalty_factor = 1
@@ -2206,7 +2206,7 @@ place_in_the_sun_medium = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 0.5
+	badboy_factor = 1
 	prestige_factor = 2
 	peace_cost_factor = 0.0825
 	penalty_factor = 1
@@ -2287,7 +2287,7 @@ place_in_the_sun_large = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 0.5
+	badboy_factor = 1
 	prestige_factor = 2
 	peace_cost_factor = 0.125
 	penalty_factor = 1
@@ -2368,7 +2368,7 @@ place_in_the_sun_huge = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 0.5
+	badboy_factor = 1
 	prestige_factor = 2
 	peace_cost_factor = 0.15625
 	penalty_factor = 1
@@ -2526,7 +2526,7 @@ free_peoples_tiny = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 0.66
+	badboy_factor = 1.32
 	prestige_factor = 1
 	peace_cost_factor = 0.0825
 	penalty_factor = 1
@@ -2608,7 +2608,7 @@ free_peoples_small = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 0.66
+	badboy_factor = 1.32
 	prestige_factor = 1
 	peace_cost_factor = 0.2
 	penalty_factor = 1
@@ -2690,7 +2690,7 @@ free_peoples_medium = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 0.66
+	badboy_factor = 1.32
 	prestige_factor = 1
 	peace_cost_factor = 0.25
 	penalty_factor = 1
@@ -2772,7 +2772,7 @@ free_peoples_large = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 0.66
+	badboy_factor = 1.32
 	prestige_factor = 1
 	peace_cost_factor = 0.375
 	penalty_factor = 1
@@ -2854,7 +2854,7 @@ free_peoples_huge = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 0.66
+	badboy_factor = 1.32
 	prestige_factor = 1
 	peace_cost_factor = 0.5
 	penalty_factor = 1
@@ -3357,7 +3357,7 @@ demand_concession_casus_belli_tiny = {
 	construction_speed = 0.5
 	crisis = no
 	
-	badboy_factor = 0.5
+	badboy_factor = 1
 	prestige_factor = 0.1
 	peace_cost_factor = 0.0625
 	penalty_factor = 1
@@ -3433,7 +3433,7 @@ demand_concession_casus_belli_small = {
 	construction_speed = 0.5
 	crisis = no
 	
-	badboy_factor = 0.5
+	badboy_factor = 1
 	prestige_factor = 0.1
 	peace_cost_factor = 0.125
 	penalty_factor = 1
@@ -3509,7 +3509,7 @@ demand_concession_casus_belli_medium = {
 	construction_speed = 0.5
 	crisis = no
 	
-	badboy_factor = 0.5
+	badboy_factor = 1
 	prestige_factor = 0.1
 	peace_cost_factor = 0.20
 	penalty_factor = 1
@@ -3585,7 +3585,7 @@ demand_concession_casus_belli_large = {
 	construction_speed = 0.5
 	crisis = no
 	
-	badboy_factor = 0.5
+	badboy_factor = 1
 	prestige_factor = 0.1
 	peace_cost_factor = 0.25
 	penalty_factor = 1
@@ -3661,7 +3661,7 @@ demand_concession_casus_belli_huge = {
 	construction_speed = 0.5
 	crisis = no
 	
-	badboy_factor = 0.5
+	badboy_factor = 1
 	prestige_factor = 0.1
 	peace_cost_factor = 0.3125
 	penalty_factor = 1
