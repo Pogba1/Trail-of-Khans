@@ -900,7 +900,7 @@ acquire_core_state_tiny = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.001
+	peace_cost_factor = 0.04125
 	penalty_factor = 1
 	always = yes
 
@@ -966,7 +966,7 @@ acquire_core_state_small = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.003
+	peace_cost_factor = 0.10
 	penalty_factor = 1
 	always = yes
 
@@ -1032,7 +1032,7 @@ acquire_core_state_medium = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.004
+	peace_cost_factor = 0.125
 	penalty_factor = 1
 	always = yes
 
@@ -1098,7 +1098,7 @@ acquire_core_state_large = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.006
+	peace_cost_factor = 0.1875
 	penalty_factor = 1
 	always = yes
 
@@ -1164,7 +1164,7 @@ acquire_core_state_huge = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.008
+	peace_cost_factor = 0.25
 	penalty_factor = 1
 	always = yes
 
@@ -1525,7 +1525,7 @@ acquire_state_tiny = {
 	
 	badboy_factor = 1.1
 	prestige_factor = 2
-	peace_cost_factor = 0.003
+	peace_cost_factor = 0.0825
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1628,7 +1628,7 @@ acquire_state_small = {
 	
 	badboy_factor = 1.1
 	prestige_factor = 2
-	peace_cost_factor = 0.006
+	peace_cost_factor = 0.20
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1732,7 +1732,7 @@ acquire_state_medium = {
 	
 	badboy_factor = 1.1
 	prestige_factor = 2
-	peace_cost_factor = 0.008
+	peace_cost_factor = 0.25
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1836,7 +1836,7 @@ acquire_state_large = {
 	
 	badboy_factor = 1.1
 	prestige_factor = 2
-	peace_cost_factor = 0.012
+	peace_cost_factor = 0.375
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1940,7 +1940,7 @@ acquire_state_huge = {
 	
 	badboy_factor = 1.1
 	prestige_factor = 2
-	peace_cost_factor = 0.016
+	peace_cost_factor = 0.50
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2045,7 +2045,7 @@ place_in_the_sun_tiny = {
 
 	badboy_factor = 0.5
 	prestige_factor = 2
-	peace_cost_factor = 0.001
+	peace_cost_factor = 0.03125
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2127,7 +2127,7 @@ place_in_the_sun_small = {
 
 	badboy_factor = 0.5
 	prestige_factor = 2
-	peace_cost_factor = 0.002
+	peace_cost_factor = 0.0625
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2208,7 +2208,7 @@ place_in_the_sun_medium = {
 
 	badboy_factor = 0.5
 	prestige_factor = 2
-	peace_cost_factor = 0.003
+	peace_cost_factor = 0.0825
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2289,7 +2289,7 @@ place_in_the_sun_large = {
 
 	badboy_factor = 0.5
 	prestige_factor = 2
-	peace_cost_factor = 0.004
+	peace_cost_factor = 0.125
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2370,7 +2370,7 @@ place_in_the_sun_huge = {
 
 	badboy_factor = 0.5
 	prestige_factor = 2
-	peace_cost_factor = 0.005
+	peace_cost_factor = 0.15625
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2528,7 +2528,7 @@ free_peoples_tiny = {
 	
 	badboy_factor = 0.66
 	prestige_factor = 1
-	peace_cost_factor = 0.003
+	peace_cost_factor = 0.0825
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2610,7 +2610,7 @@ free_peoples_small = {
 	
 	badboy_factor = 0.66
 	prestige_factor = 1
-	peace_cost_factor = 0.006
+	peace_cost_factor = 0.2
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2692,7 +2692,7 @@ free_peoples_medium = {
 	
 	badboy_factor = 0.66
 	prestige_factor = 1
-	peace_cost_factor = 0.008
+	peace_cost_factor = 0.25
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2774,7 +2774,7 @@ free_peoples_large = {
 	
 	badboy_factor = 0.66
 	prestige_factor = 1
-	peace_cost_factor = 0.012
+	peace_cost_factor = 0.375
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2856,7 +2856,7 @@ free_peoples_huge = {
 	
 	badboy_factor = 0.66
 	prestige_factor = 1
-	peace_cost_factor = 0.016
+	peace_cost_factor = 0.5
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -3359,7 +3359,7 @@ demand_concession_casus_belli_tiny = {
 	
 	badboy_factor = 0.5
 	prestige_factor = 0.1
-	peace_cost_factor = 0.002
+	peace_cost_factor = 0.0625
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -3435,7 +3435,7 @@ demand_concession_casus_belli_small = {
 	
 	badboy_factor = 0.5
 	prestige_factor = 0.1
-	peace_cost_factor = 0.004
+	peace_cost_factor = 0.125
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -3511,7 +3511,7 @@ demand_concession_casus_belli_medium = {
 	
 	badboy_factor = 0.5
 	prestige_factor = 0.1
-	peace_cost_factor = 0.006
+	peace_cost_factor = 0.20
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -3587,7 +3587,7 @@ demand_concession_casus_belli_large = {
 	
 	badboy_factor = 0.5
 	prestige_factor = 0.1
-	peace_cost_factor = 0.008
+	peace_cost_factor = 0.25
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -3663,7 +3663,7 @@ demand_concession_casus_belli_huge = {
 	
 	badboy_factor = 0.5
 	prestige_factor = 0.1
-	peace_cost_factor = 0.01
+	peace_cost_factor = 0.3125
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1

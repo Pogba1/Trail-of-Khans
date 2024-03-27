@@ -1,3 +1,4 @@
+#Credit to Reno
 country_event = {
 	id = 700700
 	title = "State Sizing Early Game"
@@ -27,6 +28,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -59,6 +61,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -92,6 +95,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -125,6 +129,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -158,6 +163,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -212,6 +218,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -244,6 +251,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -277,6 +285,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -310,6 +319,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -343,6 +353,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -396,6 +407,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -428,6 +440,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -461,6 +474,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -494,6 +508,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
@@ -527,6 +542,7 @@ country_event = {
 							tag = SLS
 							tag = HUN
 							tag = BHA
+							tag = LUB
 						}
 						NOT = { 
 							year = 1837 
