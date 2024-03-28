@@ -1523,7 +1523,7 @@ acquire_state_tiny = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 2.2
+	badboy_factor = 1
 	prestige_factor = 2
 	peace_cost_factor = 0.0825
 	penalty_factor = 1
