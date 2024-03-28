@@ -1,7 +1,7 @@
 capital = 1121
 primary_culture = persian
-accepted_culture = parsis
-accepted_culture = hazara
+culture = parsis
+culture = hazara
 religion = shiite
 government = absolute_monarchy
 plurality = 15

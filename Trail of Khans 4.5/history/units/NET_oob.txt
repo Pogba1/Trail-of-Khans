@@ -118,6 +118,28 @@ WOL = {
 SUL = {
     value = 100
 }
+HES = {
+    value = 150
+    level = 5
+    influence_value = 50
+}
+NAS = {
+    value = 150
+    level = 5
+    influence_value = 50
+}
+HEK = {
+    value = 150
+    level = 5
+    influence_value = 50
+}
+FRM = {
+    value = 150
+    level = 5
+    influence_value = 50
+}
+
+
 army = {
 	name = "Gurkhas"
 	location = 377 
