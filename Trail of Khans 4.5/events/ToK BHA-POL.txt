@@ -312,7 +312,7 @@ country_event = {
         }
         LIT = {
             all_core = {
-                add_core = LIT
+                add_core = PLC
             }
         }
 		change_tag = PLC
