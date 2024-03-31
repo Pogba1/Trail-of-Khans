@@ -40,8 +40,6 @@
 # Order that CBs are executed in a peace treaty
 peace_order = {
 roman_civil_war_cb
-imperial_restoration_cb 
-imperial_restoration_annex_cb
 chinese_unification_cb
 add_to_sphere 
 take_from_sphere

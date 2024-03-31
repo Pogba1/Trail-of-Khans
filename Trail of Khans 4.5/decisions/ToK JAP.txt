@@ -19,10 +19,6 @@ political_decisions = {
         }
 
         effect = {
-			add_country_modifier = {
-                name = students_in_foreign 
-                duration = 1825
-            }
             random_country = {
                 limit = {
                     is_greater_power = yes
