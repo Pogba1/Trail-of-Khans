@@ -134,7 +134,7 @@ roman_civil_war_cb = {
 			}
 		}
 		OR = {
-			tag = RMR
+			primary_culture = roman
 			tag = BYZ
 		}
 		NOT = {
