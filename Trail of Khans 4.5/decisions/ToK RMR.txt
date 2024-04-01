@@ -177,6 +177,7 @@ political_decisions = {
 			all_core = {
 				owned_by = THIS
 			}
+			has_country_flag = cisalpine_gaul_flag
 			state_n_government = 1
 			war = no
 		}
