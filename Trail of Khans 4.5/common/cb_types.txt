@@ -3377,23 +3377,23 @@ demand_concession_casus_belli_tiny = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		this = { NOT = { badboy = 1 } }
-		NOT = { 
-			OR = { 
-#
-#
+		OR = {
+			NOT = {
+				capital_scope = {
+					location = {
+						continent = africa
+					}
+				}
+				OR = {
+					primary_culture = forest_bantu
+					primary_culture = tuareg
+					primary_culture = hausa
+				}
+			}
+			THIS = {
+				revolution_n_counterrevolution = 1
 			}
 		}
-		THIS = { NOT = {
-				OR = {
-	#
-	#
-				}
-			 } 
-		}
-		THIS = {
-#
-		}
-#
 		THIS = {
 			civilized = yes
 		}
@@ -3406,7 +3406,6 @@ demand_concession_casus_belli_tiny = {
 			is_core = TIN
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -3453,23 +3452,23 @@ demand_concession_casus_belli_small = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		this = { NOT = { badboy = 1 } }
-		NOT = { 
-			OR = { 
-#
-#
+		OR = {
+			NOT = {
+				capital_scope = {
+					location = {
+						continent = africa
+					}
+				}
+				OR = {
+					primary_culture = forest_bantu
+					primary_culture = tuareg
+					primary_culture = hausa
+				}
+			}
+			THIS = {
+				revolution_n_counterrevolution = 1
 			}
 		}
-		THIS = { NOT = {
-				OR = {
-	#
-	#
-				}
-			 } 
-		}
-		THIS = {
-#
-		}
-#
 		THIS = {
 			civilized = yes
 		}
@@ -3482,7 +3481,6 @@ demand_concession_casus_belli_small = {
 			is_core = SMA
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -3529,23 +3527,23 @@ demand_concession_casus_belli_medium = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		this = { NOT = { badboy = 1 } }
-		NOT = { 
-			OR = { 
-#
-#
+		OR = {
+			NOT = {
+				capital_scope = {
+					location = {
+						continent = africa
+					}
+				}
+				OR = {
+					primary_culture = forest_bantu
+					primary_culture = tuareg
+					primary_culture = hausa
+				}
+			}
+			THIS = {
+				revolution_n_counterrevolution = 1
 			}
 		}
-		THIS = { NOT = {
-				OR = {
-	#
-	#
-				}
-			 } 
-		}
-		THIS = {
-#
-		}
-#
 		THIS = {
 			civilized = yes
 		}
@@ -3558,7 +3556,6 @@ demand_concession_casus_belli_medium = {
 			is_core = MED
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -3605,23 +3602,23 @@ demand_concession_casus_belli_large = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		this = { NOT = { badboy = 1 } }
-		NOT = { 
-			OR = { 
-#
-#
+		OR = {
+			NOT = {
+				capital_scope = {
+					location = {
+						continent = africa
+					}
+				}
+				OR = {
+					primary_culture = forest_bantu
+					primary_culture = tuareg
+					primary_culture = hausa
+				}
+			}
+			THIS = {
+				revolution_n_counterrevolution = 1
 			}
 		}
-		THIS = { NOT = {
-				OR = {
-	#
-	#
-				}
-			 } 
-		}
-		THIS = {
-#
-		}
-#
 		THIS = {
 			civilized = yes
 		}
@@ -3634,7 +3631,6 @@ demand_concession_casus_belli_large = {
 			is_core = LRG
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -3681,23 +3677,23 @@ demand_concession_casus_belli_huge = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		this = { NOT = { badboy = 1 } }
-		NOT = { 
-			OR = { 
-#
-#
+		OR = {
+			NOT = {
+				capital_scope = {
+					location = {
+						continent = africa
+					}
+				}
+				OR = {
+					primary_culture = forest_bantu
+					primary_culture = tuareg
+					primary_culture = hausa
+				}
+			}
+			THIS = {
+				revolution_n_counterrevolution = 1
 			}
 		}
-		THIS = { NOT = {
-				OR = {
-	#
-	#
-				}
-			 } 
-		}
-		THIS = {
-#
-		}
-#
 		THIS = {
 			civilized = yes
 		}
@@ -3710,7 +3706,6 @@ demand_concession_casus_belli_huge = {
 			is_core = HUG
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
