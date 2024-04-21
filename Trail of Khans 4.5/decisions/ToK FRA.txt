@@ -137,16 +137,21 @@ political_decisions = {
 			}
 		}
 		allow = {
-			war = no 
-			nationalism_n_imperialism = 1
-			451 = {
-				owned_by = THIS
-			}
-			UBR = {
-				exists = no
-			}
-			LBR = {
-				exists = no
+			war = no
+			OR = {
+				AND = {
+					nationalism_n_imperialism = 1
+					451 = {
+						owned_by = THIS
+					}
+					UBR = {
+						exists = no
+					}
+					LBR = {
+						exists = no
+					}
+				}
+				year = 1870
 			}
 		}
 		effect = {

@@ -1540,7 +1540,7 @@ acquire_state_tiny = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 #
@@ -1643,7 +1643,7 @@ acquire_state_small = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 #
@@ -1747,7 +1747,7 @@ acquire_state_medium = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 #
@@ -1851,7 +1851,7 @@ acquire_state_large = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 #
@@ -1955,7 +1955,7 @@ acquire_state_huge = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 #
@@ -2060,7 +2060,7 @@ place_in_the_sun_tiny = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 #
@@ -2142,7 +2142,7 @@ place_in_the_sun_small = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 #
@@ -2223,7 +2223,7 @@ place_in_the_sun_medium = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 #
@@ -2304,7 +2304,7 @@ place_in_the_sun_large = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 #
@@ -2385,7 +2385,7 @@ place_in_the_sun_huge = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 #
@@ -3376,7 +3376,7 @@ demand_concession_casus_belli_tiny = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		OR = {
 			NOT = {
 				capital_scope = {
@@ -3451,7 +3451,7 @@ demand_concession_casus_belli_small = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		OR = {
 			NOT = {
 				capital_scope = {
@@ -3526,7 +3526,7 @@ demand_concession_casus_belli_medium = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		OR = {
 			NOT = {
 				capital_scope = {
@@ -3601,7 +3601,7 @@ demand_concession_casus_belli_large = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		OR = {
 			NOT = {
 				capital_scope = {
@@ -3676,7 +3676,7 @@ demand_concession_casus_belli_huge = {
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		OR = {
 			NOT = {
 				capital_scope = {

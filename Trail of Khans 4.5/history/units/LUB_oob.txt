@@ -12,7 +12,7 @@ leader = {
     type = land
     date = "1836.1.1"
     personality = cautious
-    background = cursed_luck
+    background = stalwart
     prestige = 0.45
 }
 leader = {
@@ -20,7 +20,7 @@ leader = {
     type = sea
     date="1836.1.1"
     personality = audacious
-    background = expert_raider
+    background = stalwart
 }
 
 SCA = {

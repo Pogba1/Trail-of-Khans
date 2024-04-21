@@ -154,12 +154,6 @@
         size = 2300
     }
 
-    soldiers = {
-        culture = mashriqi
-        religion = sunni
-        size = 175
-    }
-
     farmers = {
         culture = mashriqi
         religion = sunni
@@ -221,7 +215,7 @@
 	soldiers = {
 		culture = latin
         religion = catholic
-		size = 15000
+		size = 5000
 	}
     bureaucrats = {
         culture = latin
@@ -245,12 +239,6 @@
         culture = latin
         religion = catholic
         size = 6900
-    }
-
-    soldiers = {
-        culture = latin
-        religion = catholic
-        size = 175
     }
 
     farmers = {
@@ -405,7 +393,7 @@
 	soldiers = {
 		culture = latin
 		religion = catholic
-		size = 3070
+		size = 925
 	
 	}
 	aristocrats = {
@@ -452,12 +440,6 @@
         culture = mashriqi
         religion = sunni
         size = 1100
-    }
-
-    soldiers = {
-        culture = mashriqi
-        religion = sunni
-        size = 125
     }
 
     farmers = {
@@ -522,11 +504,6 @@
         size = 250
     }
 
-    soldiers = {
-        culture = latin
-        religion = catholic
-        size = 300
-    }
 	farmers = {
         culture = latin
         religion = catholic
@@ -549,17 +526,11 @@
         religion = sunni
         size = 1250
     }
-
-    soldiers = {
-        culture = mashriqi
-        religion = sunni
-        size = 125
-    }
 	
 	soldiers = {
 		culture = latin
 		religion = catholic
-		size = 2770
+		size = 1000
 	
 	}
 

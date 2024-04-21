@@ -690,7 +690,6 @@ country_event = {
         name = "All that's thine shall be mine"
         prestige = 15
         set_country_flag = stanislaus_enthroned
-        clr_country_flag = wladislaus_abdicates
     }
 }
 
