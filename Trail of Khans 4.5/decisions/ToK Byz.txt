@@ -1,5 +1,30 @@
 political_decisions = {
 
+	conquest_of_cyprus = {
+		potential = {
+			primary_culture = greek
+			NOT = {
+				TUR_855 = {
+					is_core = THIS
+				}
+			}
+		}
+		allow = {
+			TUR_855 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			prestige = 10
+			CYP = {
+				all_core = {
+					add_core = THIS
+					remove_core = CYP
+				}
+			}
+		}
+	}
+
 	###############
 	reforge_byzantium = {
 		picture = "reforge_byz"
