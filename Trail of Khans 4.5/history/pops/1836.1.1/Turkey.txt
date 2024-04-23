@@ -821,7 +821,7 @@
     bureaucrats = {
         culture = greek
         religion = orthodox
-        size = 812
+        size = 2512
     }
 
     officers = {
@@ -1248,6 +1248,12 @@
         culture = greek
         religion = orthodox
         size = 875
+    }
+
+    bureaucrats = {
+        culture = greek
+        religion = orthodox
+        size = 350
     }
 
     clergymen = {

@@ -28,61 +28,61 @@ army = {
 	
 	regiment = {
 	    name = "Compagnie de Rouen"
-		type = "infantry"
+		type = infantry
 		home = 415
     }
 	
 	regiment = {
 	    name = "Compagnie de d'�vreux"
-		type = "infantry"
+		type = infantry
 		home = 416
     }
 	
 	regiment = {
 	    name = "Cuirassiers d'Alen�on"
-		type = "cuirassier"
+		type = cuirassier
 		home = 417
     }
 	
 	regiment = {
 	    name = "Guardes du Roi Louis"
-		type = "guard"
+		type = guard
 		home = 426
     }
 
 	regiment = {
 	    name = "Guardes de Paris"
-		type = "guard"
+		type = guard
 		home = 425
     }
 	
 		regiment = {
 	    name = "1i�re division des Explosifs"
-		type = "artillery"
+		type = artillery
 		home = 427
     }
 	
 		regiment = {
 	    name = "2i�me division des Explosifs"
-		type = "artillery"
+		type = artillery
 		home = 406
     }
 
 		regiment = {
 	    name = "3i�me division des Explosifs"
-		type = "artillery"
+		type = artillery
 		home = 438
     }
 	
 		regiment = {
 	    name = "4i�me division des Explosifs"
-		type = "artillery"
+		type = artillery
 		home = 440
     }
 
 		regiment = {
 	    name = "5i�me division des Explosifs"
-		type = "artillery"
+		type = artillery
 		home = 430
     }
 	

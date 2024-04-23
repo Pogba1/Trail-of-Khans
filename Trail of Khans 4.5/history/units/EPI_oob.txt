@@ -17,55 +17,55 @@ leader = {
 
 
 army = {
-    name = "Stratós Ipeírou"
+    name = "Stratï¿½s Ipeï¿½rou"
     location = 821
     regiment = {
-        name= "I. Sýntagma Pezikoú"
+        name= "I. Sï¿½ntagma Pezikoï¿½"
         type = infantry
         home = 806
     }
     regiment = {
-        name= "II. Sýntagma Pezikoú"
+        name= "II. Sï¿½ntagma Pezikoï¿½"
         type = infantry
         home = 807
     }
     regiment = {
-        name= "III. Sýntagma Pezikoú"
+        name= "III. Sï¿½ntagma Pezikoï¿½"
         type = infantry
         home = 816
     }
 	regiment = {
-        name= "IV. Sýntagma Pezikoú"
+        name= "IV. Sï¿½ntagma Pezikoï¿½"
         type = infantry
         home = 819
     }
 	regiment = {
-        name= "I. Sýntagma Pyrovolikoú"
+        name= "I. Sï¿½ntagma Pyrovolikoï¿½"
         type = artillery
         home = 807
     }
 	regiment = {
-        name= "II. Sýntagma Pyrovolikoú"
+        name= "II. Sï¿½ntagma Pyrovolikoï¿½"
         type = artillery
         home = 825
     }
 	regiment = {
-        name= "III. Sýntagma Pyrovolikoú"
+        name= "III. Sï¿½ntagma Pyrovolikoï¿½"
         type = artillery
         home = 850
     }
 	regiment = {
-        name= "IV. Sýntagma Pyrovolikoú"
+        name= "IV. Sï¿½ntagma Pyrovolikoï¿½"
         type = artillery
         home = 806
     }
 	regiment = {
-        name= "V. Sýntagma Pyrovolikoú"
+        name= "V. Sï¿½ntagma Pyrovolikoï¿½"
         type = artillery
         home = 849
     }
 	regiment = {
-		name= "I. Sýntagma Ippikoú"
+		name= "I. Sï¿½ntagma Ippikoï¿½"
 		type = cavalry
         home = 808
 	}
@@ -79,52 +79,52 @@ army = {
 	location = 829
 	
     regiment = {
-        name= "I. Sýntagma Pezikoú"
+        name= "I. Sï¿½ntagma Pezikoï¿½"
         type = infantry
         home = 815
     }
     regiment = {
-        name= "II. Sýntagma Pezikoú"
+        name= "II. Sï¿½ntagma Pezikoï¿½"
         type = infantry
         home = 817
     }
     regiment = {
-        name= "III. Sýntagma Pezikoú"
+        name= "III. Sï¿½ntagma Pezikoï¿½"
         type = infantry
         home = 830
     }
 	regiment = {
-        name= "IV. Sýntagma Pezikoú"
+        name= "IV. Sï¿½ntagma Pezikoï¿½"
         type = infantry
         home = 823
     }
 	regiment = {
-        name= "I. Sýntagma Pyrovolikoú"
+        name= "I. Sï¿½ntagma Pyrovolikoï¿½"
         type = artillery
         home = 822
     }
 	regiment = {
-        name= "II. Sýntagma Pyrovolikoú"
+        name= "II. Sï¿½ntagma Pyrovolikoï¿½"
         type = artillery
         home = 805
     }
 	regiment = {
-        name= "III. Sýntagma Pyrovolikoú"
+        name= "III. Sï¿½ntagma Pyrovolikoï¿½"
         type = artillery
         home = 821
     }
 	regiment = {
-        name= "IV. Sýntagma Pyrovolikoú"
+        name= "IV. Sï¿½ntagma Pyrovolikoï¿½"
         type = artillery
         home = 819
     }
 	regiment = {
-        name= "V. Sýntagma Pyrovolikoú"
+        name= "V. Sï¿½ntagma Pyrovolikoï¿½"
         type = artillery
         home = 832
     }
 	regiment = {
-		name= "I. Sýntagma Ippikoú"
+		name= "I. Sï¿½ntagma Ippikoï¿½"
 		type = dragoon
         home = 824
 	}
@@ -176,7 +176,67 @@ navy = {
     }
 
     ship = {
-        name= "Larp 9"
+        name= "Larp 8"
         type = frigate
+    }
+
+    ship = {
+        name= "Larp 8"
+        type = frigate
+    }
+
+    ship = {
+        name= "Larp 8"
+        type = frigate
+    }
+
+    ship = {
+        name= "Larp 8"
+        type = frigate
+    }
+
+    ship = {
+        name= "Larp 8"
+        type = frigate
+    }
+
+    ship = {
+        name= "Larp 8"
+        type = frigate
+    }
+
+    ship = {
+        name= "Larp 9"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Larp 9"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Larp 9"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Larp 9"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Larp 9"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Larp 9"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Larp 9"
+        type = clipper_transport
     }
 }

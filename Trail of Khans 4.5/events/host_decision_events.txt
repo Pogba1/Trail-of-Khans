@@ -2336,13 +2336,6 @@ country_event = {
 		random_country = {
 			limit = {
 				tag = FROM
-				tag = SAR
-			}
-			THIS = { change_tag_no_core_switch = SAR }
-		}
-		random_country = {
-			limit = {
-				tag = FROM
 				tag = NAP
 			}
 			THIS = { change_tag_no_core_switch = NAP }
@@ -9087,14 +9080,6 @@ country_event = {
 				clr_country_flag = host_nation
 				change_tag_no_core_switch = PAR
 			}
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				tag = SAR
-				NOT = { has_global_flag = host_flag_tagmove }
-			}
-			THIS = { change_tag_no_core_switch = SAR }
 		}
 		random_country = {
 			limit = {
@@ -17847,14 +17832,6 @@ country_event = {
 				clr_country_flag = host_nation
 				change_tag_no_core_switch = PAR
 			}
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				tag = SAR
-				NOT = { has_global_flag = host_flag_tagmove }
-			}
-			THIS = { change_tag_no_core_switch = SAR }
 		}
 		random_country = {
 			limit = {
