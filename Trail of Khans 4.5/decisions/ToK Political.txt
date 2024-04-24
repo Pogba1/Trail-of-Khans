@@ -7,11 +7,11 @@ political_decisions = {
 		}
 		allow = {
 			sphere_owner = {
-				NOT = { 
+				NOT = {
 					relation = {
-								who = THIS
-								value = 0
-						}
+						who = THIS
+						value = 0
+					}
 					truce_with = THIS
 				}
 			}
@@ -51,28 +51,12 @@ political_decisions = {
 		potential = {
 			civilized = yes
 			OR = {
-				AND = {
-					conscription = no_draft
-					NOT = { has_country_flag = in_great_war }
-				}
-				AND = {
-					conscription = one_year_draft
-					NOT = { has_country_flag = in_great_war }
-				}
-				AND = {
-					conscription = two_year_draft
-					NOT = { has_country_flag = in_great_war }
-				}
-				AND = {
-					NOT = { conscription = mandatory_service }
-					OR = {
-						conscription = four_year_draft
-						government = fascist_dictatorship
-						government = proletarian_dictatorship
-						has_country_flag = in_great_war
-					}
-				}
+				conscription = no_draft
+				conscription = one_year_draft
+				conscription = two_year_draft
+				conscription = four_year_draft
 			}
+			
 		}
 			
 		allow = {
@@ -80,34 +64,10 @@ political_decisions = {
 			NOT = {
 				has_country_modifier = mongolian_army_debuff_1
 			}
-			OR = {
-				has_country_flag = in_great_war
-				AND = {
-					NOT = { war_policy = pacifism }
-					conscription = no_draft
-				}
-				AND = {
-					NOT = { OR = { war_policy = pacifism war_policy = anti_military } }
-					OR = {
-						conscription = one_year_draft
-						conscription = two_year_draft
-					}
-				}
-				AND = {
-					conscription = four_year_draft
-					OR = {
-						war_policy = jingoism
-						government = fascist_dictatorship
-						government = proletarian_dictatorship
-						government = bourgeois_dictatorship
-						has_country_flag = in_great_war
-					}
-				}
-			}
 		}
 			
 		effect = {
-			add_country_modifier = { name = law_changed_by_force duration = 3650 }
+			add_country_modifier = { name = law_changed_by_force duration = 1825 }
 			random_owned = {
 				limit = {
 					owner = {
@@ -180,6 +140,39 @@ political_decisions = {
 					ruling_party_ideology = reactionary
 				}
 			}
+		}
+	}
+
+	decrease_conscription = {
+		picture = marching_soldiers
+		alert = no
+		potential = {
+			civilized = yes
+			OR = {
+				conscription = one_year_draft
+				conscription = two_year_draft 
+				conscription = four_year_draft
+				conscription = mandatory_service
+			}
+		}
+			
+		allow = {
+			NOT = { has_country_modifier = law_changed_by_force }
+			NOT = {
+				has_country_modifier = mongolian_army_debuff_1
+			}
+		}
+			
+		effect = {
+			add_country_modifier = { name = law_changed_by_force duration = 1825 }
+			random_owned = { limit = { owner = { conscription = mandatory_service } } owner = { political_reform = four_year_draft } }
+			random_owned = { limit = { owner = { conscription = four_year_draft } } owner = { political_reform = two_year_draft } }
+			random_owned = { limit = { owner = { conscription = two_year_draft } } owner = { political_reform = one_year_draft } }
+			random_owned = { limit = { owner = { conscription = one_year_draft } } owner = { political_reform = no_draft } }
+		}
+
+		ai_will_do = {
+			factor = 0
 		}
 	}
 
