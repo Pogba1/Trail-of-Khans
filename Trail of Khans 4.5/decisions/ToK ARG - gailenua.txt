@@ -64,6 +64,7 @@ political_decisions = {
 		effect = {
 			ARG_2368 = {add_core = THIS}
 			BOL_2305 = {add_core = THIS}
+			set_country_flag = manifest_arg
 		}
 	}
 }
