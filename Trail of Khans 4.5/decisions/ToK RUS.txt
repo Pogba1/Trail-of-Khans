@@ -63,8 +63,6 @@ political_decisions = {
 			change_tag = RUS
 			any_country = {
            		limit = {
-               		NOT = { is_greater_power = yes }
-                	NOT = { has_country_flag = post_colonial_country }
 					OR = {
 						primary_culture = russian
 						primary_culture = byelorussian
@@ -75,59 +73,21 @@ political_decisions = {
                     	vassal_of = THIS
                 	}
             	}
-            	country_event = 11101
+            	annex_to = THIS
          	}
-		}
-	}
-
-	form_ruthenia = {
-		potential = {
-			primary_culture = ukrainian
-			NOT = {
-				exists = RUT
-			}
-			NOT = {
-				exists = KIR
-			}
-		}
-		allow = {
-			is_vassal = no
-			war = no
-			UKR = {
+			NOV = {
 				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-							OR = {
-								is_vassal = no
-								vassal_of = THIS
-							}
-							war = no
-						}
-					}
+					remove_core = NOV
 				}
 			}
-			state_n_government = 1
-		}
-		effect = {
-			capital = 958
-			change_tag = RUT
-			UKR = {
+			VLD = {
 				all_core = {
-					add_core = RUT
+					remove_core = VLD
 				}
 			}
-			RUS_1048 = {
-				add_core = THIS
-			}
-			prestige = 20
-			GOL = {
+			BYE = {
 				all_core = {
-					limit = {
-						is_core = RUT
-					}
-				remove_core = GOL
+					remove_core = BYE
 				}
 			}
 		}
@@ -136,58 +96,6 @@ political_decisions = {
 	##################################
 	#Post-russian formation decisions#
 	##################################
-
-	heartland_of_ruthenia = {
-		potential = {
-			tag = RUS
-			NOT = {
-				has_country_flag = heartland_of_ruthenia
-			}
-		}
-		allow = {
-			718 = {
-				owned_by = THIS
-			}
-			948 = {
-				owned_by = THIS
-			}
-			958 = {
-				controlled_by = THIS
-			}
-			959 = {
-				controlled_by = THIS
-			}
-			962 = {
-				controlled_by = THIS
-			}
-			963 = {
-				controlled_by = THIS
-			}
-			1040 = {
-				controlled_by = THIS
-			}
-			romanticism = 1
-		}
-		effect = {
-			KIE = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			HET = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			968 = {
-				add_core = THIS
-			}
-			970 = {
-				add_core = THIS
-			}
-			set_country_flag = heartland_of_ruthenia
-		}
-	}
 
 	form_kievan_rus = {
 		potential = {
@@ -291,34 +199,47 @@ political_decisions = {
 			UKR = {
 				all_core = {
 					add_core = THIS
+					remove_core = UKR
 				}
 			}
 			RUS = {
 				all_core = {
 					add_core = THIS
+					remove_core = RUS
 				}
 			}
             any_country = {
                 limit = {
-                    NOT = { tag = RUT }
-					NOT = { tag = RUS }
                     OR = {
                         primary_culture = russian
                         primary_culture = ukrainian
                     }
                     in_sphere = THIS
-                    NOT = { tag = THIS }
-                    NOT = { has_country_flag = post_colonial_country }
                     OR = {
                         is_vassal = no
                         vassal_of = THIS
                     }
                 }
-                country_event = 11106
+                annex_to = THIS
             }
 			country_event = {
 				id = 810000
 				days = 0
+			}
+			CHG = {
+				all_core = {
+					remove_core = CHG
+				}
+			}
+			KIE = {
+				all_core = {
+					remove_core = KIE
+				}
+			}
+			HET = {
+				all_core = {
+					remove_core = HET
+				}
 			}
 		}
 	}

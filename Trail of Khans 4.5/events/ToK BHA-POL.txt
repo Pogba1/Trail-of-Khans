@@ -285,8 +285,6 @@ country_event = {
                     is_vassal = no
                     vassal_of = THIS
                 }
-                is_mobilised = no
-                is_greater_power = no
                 war = no					
 			}
 			annex_to = THIS
@@ -305,6 +303,10 @@ country_event = {
 				secede_province = THIS
 			}
 		}
+		change_tag = PLC
+        add_accepted_culture = slovak
+        add_accepted_culture = ashkenazi
+        add_accepted_culture = hungarian
         HUN = {
             all_core = {
                 add_core = PLC
@@ -315,10 +317,11 @@ country_event = {
                 add_core = PLC
             }
         }
-		change_tag = PLC
-        add_accepted_culture = slovak
-        add_accepted_culture = ashkenazi
-        add_accepted_culture = hungarian        
+        POL = {
+            all_core = {
+                remove_core = POL
+            }
+        }    
     }
 }
 

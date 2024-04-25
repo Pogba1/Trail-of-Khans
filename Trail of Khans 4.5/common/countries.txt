@@ -336,7 +336,6 @@ CIS        = "countries/Cisalpine.txt"
 # Eastern Europe
 NOV		   = "countries/Novgorod.txt"
 VLD		   = "countries/Vladimir.txt"
-GOL        = "countries/Golden Horde.txt"
 MEA		   = "countries/Morea.txt"
 BOH        = "countries/Bohemia-Moravia.txt"
 KRA        = "countries/Krakow.txt"
@@ -389,7 +388,6 @@ ZAN        ="countries/Zanzibar.txt"
 ZUL        ="countries/Zulu.txt"
 
 # Cental Asia
-OIR		   = "countries/Oirat.txt"
 ABU        ="countries/Abu Dhabi.txt"
 AFG        ="countries/Afghanistan.txt"
 ARM        ="countries/Armenia.txt"

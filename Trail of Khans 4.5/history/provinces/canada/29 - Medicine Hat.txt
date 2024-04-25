@@ -1,8 +1,7 @@
 owner = MGL
 controller = MGL
-add_core = OIR
 add_core = MGL
 add_core = BUK
 trade_goods = fruit
 terrain = desert
-life_rating = 15
+life_rating = 30
