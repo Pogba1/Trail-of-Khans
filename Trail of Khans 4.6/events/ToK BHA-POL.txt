@@ -63,12 +63,22 @@ country_event = {
     }
 
     option = {
-        name = "The people were right after all..."
-        prestige = -20
+        name = "The people were right after all...(Ukrainian path)"
+        prestige = -15
+        set_country_flag = regent_kazimierz
         set_country_flag = wladislaus_abdicates
-        country_event = {
-            id = 188801
-            days = 14
+        any_pop = {
+            limit = {
+                has_pop_culture = polish
+            }
+            militancy = 2
+            consciousness = 1.5
+        }
+        any_pop = {
+            limit = {
+                has_pop_culture = ukrainian
+            }
+            militancy = -3
         }
     }
 
@@ -83,58 +93,6 @@ country_event = {
             consciousness = 4
         }
         set_country_flag = wladislaus_refuses
-    }
-}
-
-#The Candidates
-country_event = {
-    id = 188801
-    title = "EVTNAME188801"
-    desc = "EVTDESC188801"
-
-    is_triggered_only = yes
-
-    option = {
-        name = "Sobieski, influencial Noble and General"
-        prestige = 10
-        set_country_flag = regent_sobieski
-        any_pop = {
-            limit = {
-                has_pop_culture = polish
-                strata = rich
-            }
-            militancy = -2
-        }
-        any_pop = {
-            limit = {
-                has_pop_culture = polish
-                OR = {
-                    strata = poor
-                    strata = middle
-                }
-            }
-            militancy = 1
-            consciousness = -2
-        }
-    }
-
-    option = {
-        name = "Kazimierz Pocisk, former Hetman of the Cossacks"
-        prestige = -15
-        set_country_flag = regent_kazimierz
-        any_pop = {
-            limit = {
-                has_pop_culture = polish
-            }
-            militancy = 2
-            consciousness = 1.5
-        }
-        any_pop = {
-            limit = {
-                has_pop_culture = ukrainian
-            }
-            militancy = -3
-        }
     }
 }
 
@@ -759,36 +717,6 @@ country_event = {
     }
 }
 
-#Sobieski's Influence
-
-country_event = {
-    id = 18811
-    title = "EVTNAME18811"
-    desc = "EVTDESC18811"
-
-    trigger = {
-        tag = POL
-        has_country_flag = stanislaus_power
-        has_country_flag = regent_sobieski
-        NOT = {
-            has_country_flag = regent_kazimierz
-        }
-        NOT = {
-            has_country_flag = sobieski_influence
-        }
-    }
-
-    mean_time_to_happen = {
-        months = 1
-    }
-    option = {
-        name = "The Jagiellon holdings will be unified"
-        set_country_flag = sobieski_influence
-        clr_country_flag = regent_sobieski
-
-    }
-}
-
 #Kazimierz's Influence
 
 country_event = {
@@ -814,6 +742,11 @@ country_event = {
 
     option = {
         name = "Perhaps this Jagiellon thing isn't worth it..."
+        PLC = {
+            all_core = {
+                remove_core = PLC
+            }
+        }
         set_country_flag = kazimierz_influence
         clr_country_flag = regent_kazimierz
     }
@@ -829,6 +762,9 @@ country_event = {
     trigger = {
         tag = POL
         has_country_flag = kazimierz_influence
+        HUN = {
+            vassal_of = THIS
+        }
         NOT = {
             has_country_flag = hungary_gone
         }

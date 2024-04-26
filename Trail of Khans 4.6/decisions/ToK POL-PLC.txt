@@ -210,12 +210,10 @@ political_decisions = {
 		}
 		allow = {
 			nationalism_n_imperialism = 1
-			citizens_rights = culture_voting_only
-			
 			war = no
 		}
 		effect = {
-			prestige = -20
+			prestige = 25
 			social_reform = all_voting_pops
 			add_accepted_culture = ukrainian
 			set_country_flag = ruthenian_plan
@@ -225,10 +223,12 @@ political_decisions = {
 			RUS_971 = {
 				add_core = THIS
 			}
+			RUS_977 = {
+				add_core = THIS
+			}
 			MOL_676 = {
 				add_core = THIS
 			}
-			badboy = 10
 		}
 	}
 

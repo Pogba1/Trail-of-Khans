@@ -43,17 +43,7 @@ MOL = {
     influence_value = 100
 }
 
-
-
-#Other GP's
-SCO = { value = -10 }
-FRA = { value = 0 }
-NOV = { value = 0 }
-GOL = { value = 0 } #lowered to -200 via even
-IRE = { value = 25 }
-ADL = { value = -50 }
-AST = { value = 10 }
-#Army
+#army
 
 army = {
     name = "1. Armia"
