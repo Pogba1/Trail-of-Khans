@@ -2490,15 +2490,6 @@ german_boom = {
 	icon = 17
 }
 
-mongol_larp = {
-	mobilisation_size = 0.02
-    land_organisation = 0.15
-    land_unit_start_experience = 5
-    mobilization_economy_impact = -0.15
-    supply_consumption = 0.1
-	icon = 17
-}
-
 new_slavic_metropolis = {
 	poor_life_needs = -0.1
 	middle_life_needs = -0.1
@@ -2833,24 +2824,6 @@ mongolian_tribute_paid = {
 mongolian_tribute = {
     tax_efficiency = 0.10
     icon = 5
-}
-
-mongolian_army_debuff_1 = {
-    mobilisation_size = -0.02
-    land_organisation = -0.10
-    supply_consumption = -0.1
-    land_unit_start_experience = -5
-    max_military_spending = -0.25
-    army_tech_research_bonus = -0.10
-    icon = 16
-}
-
-mongolian_army_debuff_2 = {
-    mobilisation_size = -0.01
-    land_organisation = -0.05
-    max_military_spending = -0.10
-    army_tech_research_bonus = -0.05
-    icon = 16
 }
 
 new_capital = {

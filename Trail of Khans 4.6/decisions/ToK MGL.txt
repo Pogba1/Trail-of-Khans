@@ -103,7 +103,9 @@ political_decisions = {
 	mongol_army_reform = {
 		potential = {
 			tag = MGL
-			has_country_modifier = mongolian_army_debuff_1
+			NOT = {
+				has_country_flag = mongol_army_reform_1
+			}
 		}
 		allow = {
 			strategic_mobility = 1
@@ -114,11 +116,6 @@ political_decisions = {
 			is_disarmed = no
 		}
 		effect = {
-			remove_country_modifier = mongolian_army_debuff_1
-			add_country_modifier = {
-				name = mongolian_army_debuff_2
-				duration = -1
-			}
 			money = -350000
 			prestige = 15
 			random_owned = {
@@ -153,28 +150,27 @@ political_decisions = {
 				}
 				owner = { activate_technology = iron_muzzle_loaded_artillery }
 			}
+			set_country_flag = mongol_army_reform_1
 		}
 	}
 	final_army_reform = {
 		potential = {
 			tag = MGL
-			has_country_modifier = mongolian_army_debuff_2
+			has_country_flag = mongol_army_reform_1
+			NOT = {
+				has_country_flag = mongol_army_reform_2 
+			}
 		}
 		allow = {
 			machine_guns = 1
-			year = 1872
-			money = 600000
+			money = 300000
 			military_spending = 0.89
 			is_disarmed = no 
 		}
 		effect = {
-			remove_country_modifier = mongolian_army_debuff_2
-			add_country_modifier = {
-				name = mongol_larp
-				duration = -1
-			}
+			add_country_flag = mongol_army_reform_2 
 			tech_school = mongolian_tech_school
-			money = -600000
+			money = -300000
 		}
 	}
 	yuanese_rights = {
