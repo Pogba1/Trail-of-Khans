@@ -428,7 +428,7 @@ guiTypes = {
 			listboxType = {
 				name ="decision_listbox"
 				position = { x = 24 y = 80 }
-				size = { x=572 y = 504 }
+				size = { x=572 y = 619 }
 				Orientation = "UPPER_LEFT"
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
