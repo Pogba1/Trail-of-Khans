@@ -107,7 +107,6 @@ political_decisions = {
             clr_country_flag = secondary_union_formation
             random_owned = { limit = { owner = { accepted_culture = french } } owner = { remove_accepted_culture = french } }
             random_owned = { limit = { owner = { accepted_culture = polish } } owner = { remove_accepted_culture = polish } }
-            random_owned = { limit = { owner = { accepted_culture = danish } } owner = { remove_accepted_culture = danish } }
             random_owned = { limit = { owner = { accepted_culture = hungarian } } owner = { remove_accepted_culture = hungarian } }
             prestige = 10
             FRA_412 = { add_core = GER }
@@ -209,16 +208,6 @@ political_decisions = {
             random_owned = { 
                 limit = { 
                     owner = { 
-                        accepted_culture = danish 
-                    } 
-                } 
-                owner = { 
-                    remove_accepted_culture = danish 
-                } 
-            }
-            random_owned = { 
-                limit = { 
-                    owner = { 
                         accepted_culture = hungarian 
                     } 
                 } 
@@ -248,10 +237,7 @@ political_decisions = {
             FRA_412 = { add_core = GER }
             any_country = {
                 limit = {
-                    OR = {
-                        primary_culture = north_german
-                        tag = SCH
-                    }
+s
                     in_sphere = THIS
                     NOT = { tag = THIS }
                     NOT = { has_country_flag = post_colonial_country }
@@ -383,7 +369,6 @@ political_decisions = {
             add_accepted_culture = south_german
             random_owned = { limit = { owner = { accepted_culture = french } } owner = { remove_accepted_culture = french } }
             random_owned = { limit = { owner = { accepted_culture = polish } } owner = { remove_accepted_culture = polish } }
-            random_owned = { limit = { owner = { accepted_culture = danish } } owner = { remove_accepted_culture = danish } }
             random_owned = { limit = { owner = { accepted_culture = hungarian } } owner = { remove_accepted_culture = hungarian } }
             set_global_flag = 3hurrahs
             any_country = {
@@ -403,10 +388,7 @@ political_decisions = {
             any_country = {
                 limit = {
                     in_sphere = THIS
-                    OR = {
-                        is_culture_group = germanic
-                        tag = SCH
-                    }
+                    is_culture_group = germanic
                     OR = {
                         is_vassal = no
                         vassal_of = THIS

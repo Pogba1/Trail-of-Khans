@@ -2010,7 +2010,7 @@ guiTypes = {
 	
 	windowType = {
 		name = "decision_entry"
-		size = { x=175 y=126 }
+		size = { x=175 y=77 }
 		moveable = 0
 		
 		iconType = {
@@ -2032,13 +2032,13 @@ guiTypes = {
 		iconType = {
 			name ="decision_image"
 			spriteType = "GFX_no_decision_image"
-			position = { x= 12 y = 27 }
+			position = { x= 8 y = 24 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = { 
 			name = "decision_desc"
-			position = { x = 114 y = 27 }
+			position = { x = 64 y = 24 }
 			font = "Arial12_black"
 			text = "lorem ipsum"	
 			maxWidth = 435
@@ -2049,21 +2049,21 @@ guiTypes = {
 		iconType = {
 			name ="requirements"
 			spriteType = "GFX_decision_info"
-			position = { x= 462 y = 102 }
+			position = { x= 462 y = 57 }
 			Orientation = "UPPER_LEFT"
 		}
 	
 		guiButtonType = {
 			name = "ignore_checkbox"
 			quadTextureSprite ="GFX_checkbox_square"
-			position = { x = 480 y = 95 }
+			position = { x = 480 y = 50 }
 			Orientation = "UPPER_LEFT"
 		}
 	
 		guiButtonType = {
 			name = "make_decision"
 			quadTextureSprite ="GFX_decision_confirm"
-			position = { x = 509 y = 103 }
+			position = { x = 509 y = 58 }
 			Orientation = "UPPER_LEFT"
 		}
 	}

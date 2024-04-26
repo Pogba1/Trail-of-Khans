@@ -40,7 +40,7 @@
     }
 
     clergymen = {
-        culture = danish
+        culture = norse
         religion = protestant
         size = 10
     }
@@ -6497,7 +6497,7 @@
     }
 
     bureaucrats = {
-        culture = swedish
+        culture = norse
         religion = protestant
         size = 25
     }
@@ -7122,31 +7122,31 @@
     }
 
     aristocrats = {
-        culture = swedish
+        culture = norse
         religion = protestant
         size = 1125
     }
 
     bureaucrats = {
-        culture = swedish
+        culture = norse
         religion = protestant
         size = 625
     }
 
     officers = {
-        culture = swedish
+        culture = norse
         religion = protestant
         size = 500
     }
 
     clergymen = {
-        culture = swedish
+        culture = norse
         religion = protestant
         size = 125
     }
 
     soldiers = {
-        culture = swedish
+        culture = norse
         religion = protestant
         size = 3000
     }

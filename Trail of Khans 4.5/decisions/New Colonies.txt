@@ -3,10 +3,7 @@ political_decisions = {
 	secede_land_new = {
 	    picture = "deseret_complete_cores"
         potential = {
-            OR = {
-                tag = SCA 
-                tag = NOR
-            }
+            tag = SCA 
             OR = {
                 NEW = {
                     substate_of = THIS

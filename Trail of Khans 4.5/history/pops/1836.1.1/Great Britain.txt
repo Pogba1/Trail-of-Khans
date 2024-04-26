@@ -966,7 +966,7 @@
     }
 
     labourers = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 5000
     }
@@ -1385,61 +1385,61 @@
 #Nottingham (484000/121000 POPS)
 288 = {
     aristocrats = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 750
     }
 
     officers = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 1100
     }
 
     bureaucrats = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 1875
     }
 
     clergymen = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 500
     }
 
     capitalists = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 100
     }
 
     clerks = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 200
     }
 
     craftsmen = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 5000
     }
 
     artisans = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 3000
     }
 
     soldiers = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 1100
     }
 
     labourers = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 10000
     }
@@ -1457,7 +1457,7 @@
     }
 
     farmers = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 3000
     }
@@ -1490,31 +1490,31 @@
 #Leicester (404000/101000 POPS)
 289 = {
     aristocrats = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 375
     }
 
     artisans = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 6000
     }
 
     soldiers = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 1100
     }
 
     labourers = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 10000
     }
@@ -1577,7 +1577,7 @@
     }
 	
 	labourers = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 3500
     }
@@ -1633,7 +1633,7 @@
         size = 500
     }
 	clergymen = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 500
     }
@@ -1643,7 +1643,7 @@
         size = 2500
     }
 	artisans = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 2500
     }
@@ -1726,7 +1726,7 @@
     }
 	
 	clergymen = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 375
     }
@@ -1762,7 +1762,7 @@
     }
 	
 	labourers = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 10000
     }
@@ -1892,7 +1892,7 @@
     }
 	
 	aristocrats = {
-        culture = swedish
+        culture = norse
         religion = catholic
         size = 50
     }

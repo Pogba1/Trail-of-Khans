@@ -3,25 +3,25 @@
 #Saint Thomas (44000/11000 POPS)
 2223 = {
     aristocrats = {
-        culture = danish
+        culture = norse
         religion = protestant
         size = 200
     }
 
     bureaucrats = {
-        culture = danish
+        culture = norse
         religion = protestant
         size = 62
     }
 
     artisans = {
-        culture = danish
+        culture = norse
         religion = protestant
         size = 175
     }
 
     farmers = {
-        culture = danish
+        culture = norse
         religion = protestant
         size = 200
     }

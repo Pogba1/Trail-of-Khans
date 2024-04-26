@@ -3,10 +3,7 @@ political_decisions = {
 		picture = "bahrain_trade"
 		potential = {
 		NOT = {has_global_flag = self_governance_vinland}
-		OR = {
 		tag = SCA
-		tag = NOR
-		}
 		any_owned_province = {is_core = NEW}
 		}
 		allow = {
@@ -47,10 +44,7 @@ political_decisions = {
 	conquer_sami = {
 		potential = {
 			NOT = {has_country_flag = conquer_sami}
-			OR = {
-				tag = SCA
-				tag = SWE
-			}
+			tag = SCA
 		}
 		allow = {
 			SMI = {
@@ -69,15 +63,12 @@ political_decisions = {
 		 	set_country_flag = conquer_sami
 			RUS_343 = {
 				add_core = SCA
-				add_core = SWE
 			}
 			RUS_336 = {
 				add_core = SCA
-				add_core = SWE
 			}
 			RUS_339 = {
 				add_core = SCA
-				add_core = SWE
 			}
 		}
 		ai_will_do = { factor = 1 }
@@ -87,15 +78,11 @@ political_decisions = {
 	integrate_the_finns = {
 		picture = "greater_finland"
 		potential = {
-		OR = {
-		tag = SCA
-		tag = SWE
-		tag = NOR
-		}
-		any_owned_province = {
-			is_core = FIN
-		}
-		NOT = {accepted_culture = finnish}
+			tag = SCA
+			any_owned_province = {
+				is_core = FIN
+			}
+			NOT = {accepted_culture = finnish}
 		}
 		allow = {
 		state_n_government = 1
@@ -108,10 +95,7 @@ political_decisions = {
 	kiruna_mine = {
 		picture = "essen_ruhr"
 		potential = {
-			OR = {
 				tag = SCA
-				tag = NOR
-			}
 			NOT = {
 				has_global_flag = kiruna_mine
 			}

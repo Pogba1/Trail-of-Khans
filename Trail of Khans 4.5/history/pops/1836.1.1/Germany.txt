@@ -100,25 +100,25 @@
     ########
 
     clergymen = {
-        culture = danish
+        culture = norse
         religion = protestant
         size = 100
     }
 
     artisans = {
-        culture = danish
+        culture = norse
         religion = protestant
         size = 200
     }
 
     soldiers = {
-        culture = danish
+        culture = norse
         religion = protestant
         size = 100
     }
 
     farmers = {
-        culture = danish
+        culture = norse
         religion = protestant
         size = 4600
     }
