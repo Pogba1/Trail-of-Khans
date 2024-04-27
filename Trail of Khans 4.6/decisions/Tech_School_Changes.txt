@@ -7,7 +7,6 @@ political_decisions = {
         }
         allow = {
             NOT = { has_country_modifier = academic_confusion }
-			NOT = { has_country_modifier = mongolian_army_debuff_1 }
         }
         effect = {
             set_country_flag = picking_up_a_tech_school
