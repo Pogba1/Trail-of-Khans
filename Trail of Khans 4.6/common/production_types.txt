@@ -552,26 +552,47 @@ ammunition_factory = {
     }
 }
 
-canned_food_factory = {
+canned_fish_factory = {
     template = cheap_factory_template
     input_goods = {
         steel = 0.5     #2.35
         cattle = 4         #8
         grain = 4         #8.8
-        fish = 4         #6    total input+maint = 29.15
     }
     output_goods = canned_food
-    value = 3            #48 - profit = 18.85
+    value = 2            #48 - profit = 18.85
     bonus = {
         trigger = { trade_goods_in_state = grain }
         value = 0.075
     }
     bonus = {
         trigger = {
-            OR = {
-                trade_goods_in_state = fish
-                trade_goods_in_state = cattle
-            }
+            trade_goods_in_state = cattle
+        }
+        value = 0.075
+    }
+    bonus = {
+        trigger = { has_building = steel_factory }
+        value = 0.1
+    }
+}
+
+canned_meat_factory = {
+    template = cheap_factory_template
+    input_goods = {
+        steel = 0.5     #2.35
+        grain = 4         #8.8
+        fish = 4         #6    total input+maint = 29.15
+    }
+    output_goods = canned_food
+    value = 2            #48 - profit = 18.85
+    bonus = {
+        trigger = { trade_goods_in_state = grain }
+        value = 0.075
+    }
+    bonus = {
+        trigger = {
+            trade_goods_in_state = fish
         }
         value = 0.075
     }

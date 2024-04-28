@@ -495,7 +495,7 @@ ammunition_factory = {
     pop_build_factory = yes
 }
 
-canned_food_factory = {
+canned_meat_factory = {
     type = factory
 
     on_completion = factory
@@ -511,7 +511,27 @@ canned_food_factory = {
     visibility = yes
     onmap = no
 
-    production_type = canned_food_factory
+    production_type = canned_meat_factory
+    pop_build_factory = yes
+}
+
+canned_fish_factory = {
+    type = factory
+
+    on_completion = factory
+    completion_size = 0.2
+    max_level = 99
+    goods_cost =
+    {
+        machine_parts = 80
+        steel = 200
+        cement = 200
+    }
+    time = 100
+    visibility = yes
+    onmap = no
+
+    production_type = canned_fish_factory
     pop_build_factory = yes
 }
 

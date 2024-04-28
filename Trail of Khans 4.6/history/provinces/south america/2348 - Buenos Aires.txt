@@ -7,6 +7,6 @@ naval_base = 1
 railroad = 1
 state_building = {
     level = 1
-    building = canned_food_factory
+    building = canned_meat_factory
     upgrade = yes
 }

@@ -1775,7 +1775,17 @@ canning_process = {
         base = 100
     }
     effect = {
-        activate_building = canned_food_factory
+        activate_building = canned_meat_factory
+    }
+}
+canning_process_2 = {
+    limit = { guild_based_production = 1 }
+    news = no
+    chance = {
+        base = 100
+    }
+    effect = {
+        activate_building = canned_fish_factory
     }
 }
 modern_winemaking = {

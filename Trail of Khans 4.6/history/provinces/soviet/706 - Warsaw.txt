@@ -6,7 +6,7 @@ trade_goods = cattle
 life_rating = 40
 state_building = {
     level = 1
-    building = canned_food_factory
+    building = canned_meat_factory
     upgrade = yes
 }
 state_building = {
