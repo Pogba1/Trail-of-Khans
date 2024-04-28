@@ -131,39 +131,6 @@ political_decisions = {
 		}
 	}
 	
-	patriarchate_of_rome = {
-        picture = "build_teresina"
-        potential = {
-           tag = BYZ
-		   NOT={has_country_flag=patriarchate_of_rome}
-        }
-
-        allow = {
-			has_country_flag=patriarchate_of_antioch
-            war = no
-            749 = {owned_by = BYZ}
-        }
-
-        effect = {
-            prestige = 15
-			749 = {add_core = BYZ}
-			749 = {add_province_modifier={name = rome_renovated duration = 365}}
-			capital = 749
-            set_country_flag = patriarchate_of_rome
-            any_pop = {
-                limit = {
-                    OR={has_pop_religion = orthodox
-						has_pop_religion = catholic
-						has_pop_religion = protestant
-						has_pop_religion = coptic
-						}
-                }
-                militancy = -5
-            }
-        }
-        ai_will_do = { factor = 0 }
-    }
-	
 	dominance_in_the_balkans = {
         picture = "conquest_adriatic"
         potential = {
@@ -213,14 +180,10 @@ political_decisions = {
         effect = {
             prestige = 25
             set_country_flag = integrate_the_armenians
-			TUR_923 = { add_core = THIS }
-			TUR_931 = { add_core = THIS }
-			TUR_935 = { add_core = THIS }
 			EGY_897 = { add_core = THIS }
 			EGY_915 = { add_core = THIS }
 			EGY_921 = { add_core = THIS }
 			RUS_1102 = { add_core = THIS }
-			PER_1112 = { add_core = THIS }
 			EGY_1755 = { add_core = THIS }
 			EGY_1745 = { add_core = THIS }
 			EGY_1746 = { add_core = THIS }
@@ -385,42 +348,6 @@ political_decisions = {
 			add_accepted_culture = georgian
 		}
 	}
-	
-	patriarchate_of_alexandria = {
-        picture = "build_teresina"
-        potential = {
-           tag = BYZ
-		   NOT={has_country_flag=patriarchate_of_alexandria}
-        }
-
-        allow = {
-			has_country_flag=patriarchate_of_antioch
-            war = no
-            1751 = {owned_by = BYZ}
-        }
-
-        effect = {
-            prestige = 5
-			EGY_1745 = {
-				add_core = THIS
-			}
-			EGY_1746 = {
-				add_core = THIS
-			}
-            set_country_flag = patriarchate_of_alexandria
-            any_pop = {
-                limit = {
-                    OR={has_pop_religion = orthodox
-						has_pop_religion = catholic
-						has_pop_religion = protestant
-						has_pop_religion = coptic
-						}
-                }
-                militancy = -1
-            }
-        }
-        ai_will_do = { factor = 1 }
-    }
 	
 	byz_the_holy_city = {
         picture = "founding_yadanabon"
@@ -682,36 +609,5 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
-
-	the_pheonix_rose_and_an_eagle_fell = {
-		picture = "reforge_byz"
-		potential = {
-			NOT = {
-				has_country_flag = the_pheonix_rose_and_an_eagle_fell
-			}
-			tag = BYZ
-		}
-		allow = {
-			has_country_flag = patriarchate_of_antioch
-			nationalism_n_imperialism = 1
-			war = no
-			is_greater_power = yes
-			RMR = {
-				all_core = {
-					owned_by = THIS
-				}
-			}
-		}
-		effect = {
-			prestige = 50
-			add_accepted_culture = roman
-			RMR = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			set_country_flag = the_pheonix_rose_and_an_eagle_fell
-		}
-	}
 }
 

@@ -2540,42 +2540,6 @@ settle_tuaregs = {
 	icon = 19
 }
 
-roman_military_prowess = {
-    land_organisation = 0.1
-    land_unit_start_experience = 5
-    mobilisation_size = 0.01
-	org_regain = 0.1
-	leadership_modifier = 0.2
-	supply_consumption = -0.1
-}
-
-roman_architecture = {
-    tax_efficiency = 0.05
-    rgo_output = 0.05
-    import_cost = -0.1
-} 
-
-a_new_language_1 = {
-    education_efficiency_modifier = -0.10
-    tax_efficiency = -0.05
-    administrative_efficiency_modifier = -0.05
-    rgo_output = -0.05
-    factory_throughput = -0.1
-    global_pop_militancy_modifier = 0.01
-}
-				
-a_new_language_2 = {
-    education_efficiency_modifier = -0.05
-    factory_throughput = -0.05
-    global_pop_militancy_modifier = 0.005
-}
-
-a_new_language_3 = {
-    education_efficiency_modifier = 0.10
-    tax_efficiency = 0.05
-    administrative_efficiency_modifier = 0.05
-}
-
 recently_demoted = {
 	icon = 8
 }
@@ -2641,6 +2605,7 @@ resettle_africa_2 = {
 african_grain = {
 	pension_level = 0.30
     min_social_spending = 0.4
+    poor_everyday_needs = -0.1
 	pop_militancy_modifier = -0.05
     icon = 13
 }
@@ -2678,12 +2643,6 @@ andalusian_caliphate = {
 	administrative_efficiency_modifier = 0.05
 	assimilation_rate = 0.15
     icon = 7
-}
-
-sicilian_sulphur = {
-    mine_rgo_eff = 0.6
-    mine_rgo_size = 0.6
-    icon = 13
 }
 
 government_interventionism_infamy = {

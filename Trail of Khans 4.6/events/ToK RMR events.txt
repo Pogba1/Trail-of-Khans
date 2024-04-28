@@ -8,17 +8,25 @@ country_event = {
 	trigger = {
 		has_country_flag = the_resettlement_of_africa
 		tag = RMR
-		FRA_1700 = {
-			NOT = {
-				has_province_modifier = resettle_africa
-			}
+		1725 = {
+			owned_by = THIS
 		}
-		TUN_1726 = {
-			NOT = {
-				has_province_modifier = resettle_africa
-			}
+		1726 = {
+			owned_by = THIS
+		}
+		1728 = {
+			owned_by = THIS
+		}
+		FRA_1700 = {
+			owned_by = THIS
 		}
 	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+
 	
 	option = {
 		name = "Let the Grain flow"
@@ -39,15 +47,20 @@ country_event = {
 	
 	trigger = {
 		tag = RMR
-		FRA_1700 = {
-			NOT = {
+		NOT = {
+			1725 = {
 				owned_by = THIS
 			}
-		}
-		TUN_1726 = {
-			NOT = {
+			1726 = {
 				owned_by = THIS
 			}
+			1728 = {
+				owned_by = THIS
+			}
+			FRA_1700 = {
+				owned_by = THIS
+			}
+
 		}
 		has_country_flag = african_grain
 	}
@@ -55,73 +68,11 @@ country_event = {
 	option = {
 		name = "What will we do now?"
 		remove_country_modifier = african_grain
+		clr_country_flag = african_grain
 		prestige = -20
 		any_pop = {
 			militancy = 1
 		}
-	}
-}
-
-country_event = {
-	id = 453000
-	title = "EVTNAME453000"
-	desc = "EVTDESC453000"
-
-	is_triggered_only = yes
-
-	option = {
-		name = "Italia and the Dalmatians are more than enough"
-
-		set_country_flag = magna_italia_flag
-
-		prestige = 40
-		inherit = DLM
-		DLM = {
-			all_core = {
-				add_core = RMR
-			}
-		}
-	}
-
-	option = {
-		name = "We shall be the masters of the Western Mediterranean Sea and our cultural kin"
-
-		set_country_flag = western_rome_flag
-
-		prestige = 25
-		badboy = 15
-		add_accepted_culture = catalan
-		FRA_461 = {
-			add_core = THIS
-		}
-		FRA_467 = {
-			add_core = THIS
-		}
-		SPA_498 = {
-			add_core = THIS
-		}
-		SPA_503 = {
-			add_core = THIS
-		}
-	}
-
-	option = {
-		name = "We must crush the pretenders in Greece (This grants access to a special CB for you and Byzantium)"
-
-		
-		set_global_flag = the_roman_civil_war
-
-		any_country = {
-			limit = {
-				primary_culture = greek
-			}
-			relation = {
-				who = RMR
-				value = -200
-			}
-			leave_alliance = RMR
-		}
-		badboy = 25
 	}
 }
 
@@ -160,137 +111,5 @@ country_event = {
 	
 		set_country_flag = cisalpine_breaks_free
 		prestige = -10
-	}
-}
-
-country_event = {
-	id = 455000
-	title = "EVTNAME455000"
-	desc = "EVTDESC455000"
-
-	mean_time_to_happen = {
-		days = 0
-	}
-	
-	trigger = {
-		war = no
-		OR = {
-			tag = RMR
-			tag = BYZ
-		}
-		all_core = {
-			owned_by = THIS
-		}
-		OR = {
-			RMR = {
-				NOT = {
-					any_owned_province = {
-						is_core = RMR
-					}
-				}
-			}
-			BYZ = {
-				NOT = {
-					any_owned_province = {
-						is_core = BYZ
-					}
-				}
-			}
-		}
-		has_global_flag = pheonix_rises
-		has_global_flag = the_roman_civil_war
-	}
-
-	option = {
-		name = "It is finally over. We are victorious!"
-
-		clr_global_flag = the_roman_civil_war
-
-		prestige = 100
-		add_country_modifier = {
-				name = roman_military_prowess 
-				duration = -1
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					tag = RMR
-				}
-			}
-			any_country = {
-				limit = {
-					primary_culture = greek
-				}
-				annex_to = THIS
-			}
-			BYZ = {
-				all_core = {
-					add_core = THIS
-					remove_core = BYZ
-				}
-			}
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					tag = BYZ
-				}
-			}
-			any_country = {
-				limit = {
-					primary_culture = roman
-				}
-				annex_to = THIS
-			}
-			RMR = {
-				all_core = {
-					add_core = THIS
-					remove_core = RMR
-				}
-			}
-		}
-		add_accepted_culture = greek
-		add_accepted_culture = roman
-	}
-}
-
-country_event = {
-	id = 456000
-	title = "EVTNAME456000"
-	desc = "EVTDESC456000"
-
-	mean_time_to_happen = {
-		days = 0
-	}
-
-	trigger = {
-		tag = RMR
-		NOT = {
-			has_global_flag = pheonix_rises
-		}
-		all_core = {
-			owned_by = THIS
-		}
-		has_global_flag = the_roman_civil_war
-		BYZ = {
-			all_core = {
-				owned_by = THIS
-			}
-		}
-	}
-
-	option = {
-		name = "The Council was a Failure! Roma Invicta!"
-
-		clr_global_flag = the_roman_civil_war
-
-		prestige = 75
-		add_accepted_culture = greek
-		BYZ = {
-			all_core = {
-				add_core = THIS
-				remove_core = BYZ
-			}
-		}
 	}
 }

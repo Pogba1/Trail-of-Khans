@@ -1,131 +1,5 @@
 political_decisions = { 
 
-	transalpine_gaul = {
-		potential = {
-			tag = RMR
-			has_country_flag = western_rome_flag
-			NOT = {
-				has_country_flag = transalpine_gaul
-			}
-		}
-		allow = {
-			revolution_n_counterrevolution = 1
-			all_core = {
-				owned_by = THIS
-			}
-		}
-		effect = {
-			prestige = 30
-			set_country_flag = transalpine_gaul
-			SAR_466 = {
-				add_core = RMR
-			}
-			FRA_455 = {
-				add_core = RMR
-			}
-			FRA_451 = {
-				add_core = RMR
-			}
-			SWI_607 = {
-				add_core = RMR
-			}
-			SWI_603 = {
-				add_core = RMR
-			}
-		}
-	}
-
-	occitan_brothers = {
-		potential = {
-			tag = RMR
-			has_country_flag = transalpine_gaul
-			NOT = {
-				accepted_culture = occitan
-			}
-			NOT = {
-				accepted_culture = spanish
-			}
-		}
-		allow = {
-			all_core = {
-				owned_by = THIS
-			}
-			FRA_451 = {
-				owned_by = THIS
-			}
-			FRA_3339 = {
-				owned_by = THIS
-			}
-			FRA_442 = {
-				owned_by = THIS
-			}
-			FRA_455 = {
-				owned_by = THIS
-			}
-			FRA_458 = {
-				owned_by = THIS
-			}
-		}
-		effect = {
-			add_accepted_culture = occitan
-			prestige = 25
-			FRA = {
-				all_core = {
-					limit = {
-						culture = occitan
-					}
-					add_core = THIS
-				}
-			}
-		}
-	}
-
-	asturian_brothers = {
-		potential = {
-			tag = RMR
-			NOT = {
-				accepted_culture = spanish
-			}
-			NOT = {
-				accepted_culture = occitan
-			}
-			has_country_flag = western_rome_flag
-		}
-		allow = {
-			all_core = {
-				owned_by = THIS
-			}
-			SPA_492 = {
-				owned_by = THIS
-			}
-			SPA_487 = {
-				owned_by = THIS
-			}
-			SPA_478 = {
-				owned_by = THIS
-			}
-			SPA_475 = {
-				owned_by = THIS
-			}
-			SPA_474 = {
-				owned_by = THIS
-			}
-			revolution_n_counterrevolution = 1
-		}
-		effect = {
-			add_accepted_culture = spanish
-			prestige = 25
-			ATR = {
-				all_core = {
-					limit = {
-						culture = spanish
-					}
-					add_core = THIS
-				}
-			}
-		}
-	}
-
 	cisalpine_gaul = {
 		potential = {
 			tag = RMR
@@ -166,27 +40,34 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 
-	the_great_trilemma = {
+	abolish_dalmatia = {
 		potential = {
 			tag = RMR
 			NOT = {
-				has_country_flag = the_great_trilemma_flag
+				has_country_flag = magna_italia_flag
 			}
 		}
 		allow = {
 			all_core = {
 				owned_by = THIS
 			}
-			has_country_flag = cisalpine_gaul_flag
+			CIS = {
+				exists = no
+			}
 			state_n_government = 1
 			war = no
 		}
 		effect = {
-			country_event = {
-				id = 453000
-				days = 0
+			set_country_flag = magna_italia_flag
+			prestige = 40
+			badboy = 10
+			inherit = DLM
+			DLM = {
+				all_core = {
+					add_core = RMR
+					remove_core = DLM
+				}
 			}
-			set_country_flag = the_great_trilemma_flag
 		}
 	}
 
@@ -198,7 +79,7 @@ political_decisions = {
 		}
 		allow = {
 			romanticism = 1
-			early_railroad = 1
+			iron_railroad = 1
 			money = 1000000
 			war = no
 			all_core = {
@@ -212,10 +93,6 @@ political_decisions = {
 					life_rating = 35
 				}
 				life_rating = 2
-			}
-			add_country_modifier = {
-				name = roman_architecture 
-				duration = -1
 			}
 			set_country_flag = roman_architecture
 			money = -1000000

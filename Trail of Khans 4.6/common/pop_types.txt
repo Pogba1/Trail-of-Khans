@@ -1526,7 +1526,7 @@ assimilation_chance =
 #Assimilation for syracusean pops after Rome takes their decision
 	group = {
 		modifier = {
-			factor = 25
+			factor = 2.5
 			has_pop_culture = syracusean
 			country = {
 				has_country_flag = cisalpine_gaul_flag
@@ -1536,7 +1536,7 @@ assimilation_chance =
 #Assimilation for picard pops after France takes their decision
 	group = {
 		modifier = {
-			factor = 10
+			factor = 30
 			has_pop_culture = breton
 			country = {
 				has_country_flag = breton_assimilation
