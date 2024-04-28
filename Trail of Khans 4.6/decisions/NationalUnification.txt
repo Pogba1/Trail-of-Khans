@@ -237,7 +237,6 @@ political_decisions = {
             FRA_412 = { add_core = GER }
             any_country = {
                 limit = {
-s
                     in_sphere = THIS
                     NOT = { tag = THIS }
                     NOT = { has_country_flag = post_colonial_country }

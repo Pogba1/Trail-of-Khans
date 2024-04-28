@@ -1,7 +1,9 @@
-owner = MAT
-controller = MAT
+owner = SAF
+controller = SAF
 add_core = MAT
 add_core = BSH
+add_core = SAF
 terrain = savanna
 trade_goods = grain
-life_rating = 20
+life_rating = 35
+colonial = 2

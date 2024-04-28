@@ -15,6 +15,7 @@ country_event = {
                 OR = {
                     has_pop_culture = north_german
                     has_pop_culture = south_german
+                    has_pop_culture = dutch
                 }
             }
             literacy = 0.74
@@ -22,11 +23,12 @@ country_event = {
         any_pop = {
             limit = {
                 OR = {
-                    has_pop_culture = dutch
                     has_pop_culture = norse
                     has_pop_culture = french_canadian
                     has_pop_culture = latvian
                     has_pop_culture = estonian
+                    has_pop_culture = boer
+                    has_pop_culture = tasmanian
                 }
             }
             literacy = 0.69
@@ -354,6 +356,7 @@ country_event = {
                 OR = {
                     has_pop_culture = north_german
                     has_pop_culture = south_german
+                    has_pop_culture = dutch
                 }
             }
             literacy = 0.74

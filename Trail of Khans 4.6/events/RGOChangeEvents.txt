@@ -478,7 +478,7 @@ province_event = {
         }
         OR = {
             terrain = forest
-            terrain = montane_forest
+            
             terrain = boreal
             terrain = hills
             terrain = jungle
@@ -580,7 +580,7 @@ province_event = {
         }
         OR = {
             terrain = jungle
-            terrain = montane_forest
+            
         }
     }
 

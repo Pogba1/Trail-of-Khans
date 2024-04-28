@@ -1,3 +1,17 @@
+#Relations
+
+SAF = {
+    value = 200
+    level = 5
+    influence_value  = 50
+}
+
+AST = {
+    value = 200
+    level = 5 
+    influence_value = 50
+}
+
 MYS = {
     value = 100
     level = 5

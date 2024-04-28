@@ -74,7 +74,7 @@ country_event = {
             is_overseas = no
             NOT = {
                 terrain = desert
-                terrain = montane_tundra
+                
                 terrain = arctic
                 has_province_modifier = homeland_drought
                 has_province_modifier = severe_homeland_drought
@@ -133,7 +133,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }
@@ -153,7 +153,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }
@@ -173,7 +173,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }
@@ -193,7 +193,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }
@@ -213,7 +213,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }
@@ -233,7 +233,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }
@@ -253,7 +253,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }
@@ -275,7 +275,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }
@@ -295,7 +295,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }
@@ -315,7 +315,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }
@@ -335,7 +335,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }
@@ -355,7 +355,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }
@@ -375,7 +375,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }
@@ -395,7 +395,7 @@ country_event = {
                                 is_overseas = no
                                 NOT = {
                                     terrain = desert
-                                    terrain = montane_tundra
+                                    
                                     terrain = arctic
                                 }
                             }

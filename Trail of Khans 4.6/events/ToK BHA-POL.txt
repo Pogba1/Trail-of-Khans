@@ -791,6 +791,7 @@ country_event = {
             militancy = 4
             consciousness = 6
         }
+        set_country_flag = hungary_gone
     }
 }
 

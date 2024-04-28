@@ -27,12 +27,6 @@ SCA = {
     value = -100
 }
 
-NOR = {
-	value = 100
-	influence_value = 50
-	level = 4
-}
-
 BRN = {
 	value = 150
 	influence_value = 100
