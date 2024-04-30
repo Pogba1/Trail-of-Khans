@@ -492,7 +492,7 @@ political_reforms = {
         next_step_only = yes
         mandatory_service = {
             mobilisation_size = 0.045
-            mobilisation_economy_impact = 0.30
+            mobilisation_economy_impact = 1
             global_immigrant_attract = -0.10
             poor_everyday_needs = 0.10
             allow = {
@@ -501,7 +501,7 @@ political_reforms = {
         }
         four_year_draft = {
             mobilisation_size = 0.0375
-            mobilisation_economy_impact = 0.15
+            mobilisation_economy_impact = 0.8
             global_immigrant_attract = -0.04
             poor_everyday_needs = 0.075
             allow = {
@@ -510,7 +510,7 @@ political_reforms = {
         }
         two_year_draft = {
             mobilisation_size = 0.03
-            mobilisation_economy_impact = 0.1
+            mobilisation_economy_impact = 0.6
             poor_everyday_needs = 0.05
             allow = {
                 NOT = { has_country_flag = government_busy_with_something }
@@ -518,7 +518,7 @@ political_reforms = {
         }
         one_year_draft = {
             mobilisation_size = 0.02
-            mobilisation_economy_impact = 0.05
+            mobilisation_economy_impact = 0.4
             poor_everyday_needs = 0.025
             allow = {
                 NOT = { has_country_flag = government_busy_with_something }
@@ -530,6 +530,7 @@ political_reforms = {
         }
         no_draft = {
 			mobilisation_size = 0.01
+            mobilisation_economy_impact = 0.2
             global_immigrant_attract = 0.10
             allow = {
                 NOT = { has_country_flag = government_busy_with_something }
