@@ -78,47 +78,6 @@ political_decisions = {
 		
 		ai_will_do = { factor = 0 }
 	}
-	
-	switch_to_education = {
-		picture = switch_to_education
-		potential = {
-			NOT = { nationalvalue = nv_education }
-			#NOT = { has_country_flag = switched_nv }
-			has_country_flag = nv_change
-		}
-		
-		allow = {
-			war = no
-			NOT = { has_country_modifier = national_confusion }
-			NOT = { num_of_revolts = 1 }
-		}
-		
-		effect = {
-			clr_country_flag = nv_change
-			set_country_flag = switched_nv
-			nationalvalue = nv_education
-			add_country_modifier = {
-				name = national_confusion
-				duration = 7300
-			}
-			any_pop = {
-				scaled_militancy = {
-					ideology = reactionary
-					factor = 3
-				}
-				scaled_militancy = {
-					ideology = conservative
-					factor = 2
-				}
-				scaled_militancy = {
-					ideology = liberal
-					factor = -2
-				}
-			}
-		}
-		
-		ai_will_do = { factor = 0 }
-	}
 
 	switch_to_order = {
 		picture = switch_to_order
