@@ -552,7 +552,7 @@ ammunition_factory = {
     }
 }
 
-canned_fish_factory = {
+canned_meat_factory = {
     template = cheap_factory_template
     input_goods = {
         steel = 0.5     #2.35
@@ -577,7 +577,7 @@ canned_fish_factory = {
     }
 }
 
-canned_meat_factory = {
+canned_fish_factory = {
     template = cheap_factory_template
     input_goods = {
         steel = 0.5     #2.35
