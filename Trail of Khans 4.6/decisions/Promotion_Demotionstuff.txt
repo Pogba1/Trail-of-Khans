@@ -11,7 +11,7 @@ political_decisions = {
 		effect = {
 			add_country_modifier = {
 				name = recently_demoted
-				duration = 3650
+				duration = 1825
 				}
 				
 				

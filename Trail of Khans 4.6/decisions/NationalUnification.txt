@@ -34,6 +34,21 @@ political_decisions = {
 				country_event = 11101
 			}
 			capital = 664
+            WAL = {
+                all_core = {
+                    remove_core = WAL
+                }
+            }
+            MOL = {
+                all_core = {
+                    remove_core = MOL
+                }
+            }
+            SIE = {
+                all_core = {
+                    remove_core = SIE
+                }
+            }
 		}
 
 		ai_will_do = {
