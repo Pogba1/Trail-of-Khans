@@ -2,12 +2,14 @@
 
 SAF = {
     value = 200
+    military_access = yes
     level = 5
     influence_value  = 50
 }
 
 AST = {
     value = 200
+    military_access = yes
     level = 5 
     influence_value = 50
 }

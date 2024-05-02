@@ -1,0 +1,55 @@
+army = {
+    name = "Kaapstad Garnizoen"
+    location = 2087
+    
+    regiment = {
+        name = "1. Infanterie"
+        type = infantry
+        home = 2087
+    }
+    regiment = {
+        name = "2. Infanterie"
+        type = infantry
+        home = 2087
+    }
+    regiment = {
+        name = "3. Infanterie"
+        type = infantry
+        home = 2087
+    }
+    regiment = {
+        name = "4. Infanterie"
+        type = infantry
+        home = 2091
+    }
+    regiment = {
+        name = "1. Hussar"
+        type = hussar
+        home = 2092
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 2098
+    }
+    regiment = {
+        name = "2. Artillery"
+        type = artillery
+        home = 2099
+    }
+    regiment = {
+        name = "3. Artillery"
+        type = artillery
+        home = 2100
+    }
+    regiment = {
+        name = "4. Artillery"
+        type = artillery
+        home = 2101
+    }
+    regiment = {
+        name = "5. Artillery"
+        type = artillery
+        home = 2104
+    }
+}

@@ -1,0 +1,25 @@
+army = {
+    name = "Tasmanian Devils"
+    location = 2476
+    
+    regiment = {
+        name = "1. Infanterie"
+        type = infantry
+        home = 2468
+    }
+    regiment = {
+        name = "1. Infanterie"
+        type = infantry
+        home = 2468
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 2469
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 2469
+    }
+}

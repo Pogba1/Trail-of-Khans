@@ -58,24 +58,56 @@ political_decisions = {
 			factor = 0
 		}
 	}
-	disable_crisis = {
-	picture = disable_crisis
-		potential = {
+	annex_saf_net = {
+		potential  = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_nation
-			NOT = { has_global_flag = crisis_disabled }
-			NOT = { year = 1837 }
+			SAF = {
+				exists = yes
+			}
 		}
-	
 		allow = {
 		}
-		
 		effect = {
-			set_global_flag = crisis_disabled
-			SIK = { country_event = 1000001 }
+			SAF = {
+				all_core = {
+					add_core = NET
+				}
+			}
+			NET = {
+				any_country = {
+					limit = {
+						primary_culture = boer
+					}
+					country_event = 999980
+				}
+			}
 		}
-		ai_will_do = {
-			factor = 0
+	}
+	annex_ast_net = {
+		potential  = {
+			has_country_flag = showing_host_decisions
+			has_country_flag = host_nation
+			SAF = {
+				exists = yes
+			}
+		}
+		allow = {
+		}
+		effect = {
+			AST = {
+				all_core = {
+					add_core = NET
+				}
+			}
+			NET = {
+				any_country = {
+					limit = {
+						primary_culture = tasmanian
+					}
+					country_event = 999980
+				}
+			}
 		}
 	}
 	ally_all_countries = {

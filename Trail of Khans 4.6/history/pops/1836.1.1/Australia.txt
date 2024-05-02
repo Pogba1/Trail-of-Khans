@@ -17,7 +17,7 @@
 	soldiers = {
 		culture = tasmanian
 		religion = protestant
-		size = 3000
+		size = 3175
 	
 	}
 	clergymen = {
@@ -29,13 +29,6 @@
         culture = aborigine
         religion = animist
         size = 25
-    }
-
-
-    soldiers = {
-        culture = aborigine
-        religion = animist
-        size = 175
     }
 
     farmers = {
@@ -61,7 +54,7 @@
 	soldiers = {
 		culture = tasmanian
 		religion = protestant
-		size = 3000
+		size = 3265
 	
 	}
 	clergymen = {
@@ -74,12 +67,6 @@
         culture = aborigine
         religion = animist
         size = 10
-    }
-
-    soldiers = {
-        culture = aborigine
-        religion = animist
-        size = 265
     }
 
     farmers = {

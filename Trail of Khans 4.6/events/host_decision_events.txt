@@ -32,6 +32,20 @@ country_event = {
 	}
 }
 country_event = {
+	id = 999980
+	title = "EVTNAMEId"
+	desc = "EVTDESCId"
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAId"	
+        any_owned = {
+                secede_province = FROM
+        }
+        FROM = { inherit = THIS }
+	}
+}
+country_event = {
 	id = 999992
 	title = "GTFO"
 	desc = "ur kicked"
