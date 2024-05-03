@@ -207,10 +207,6 @@ political_decisions = {
             tag = MGL
         }
         effect = {
-            add_country_modifier = {
-                name = mongolian_army_debuff_1
-                duration = -1
-            }
             MCK = {
                 government = mongolian_dependency
             }
