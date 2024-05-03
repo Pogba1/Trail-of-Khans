@@ -29,7 +29,6 @@ political_decisions = {
     switch_to_army_tech = {
         potential = {
             civilized = yes
-            tech_school = traditional_academic
             NOT = { has_country_modifier = interment_camps }
             OR = {
                 ai = yes
@@ -52,7 +51,6 @@ political_decisions = {
     switch_to_navy_tech = {
         potential = {
             civilized = yes
-            tech_school = traditional_academic
             NOT = { has_country_modifier = interment_camps }
             OR = {
                 ai = yes
@@ -82,7 +80,6 @@ political_decisions = {
     switch_to_culture_tech = {
         potential = {
             civilized = yes
-            tech_school = traditional_academic
             NOT = { has_country_modifier = interment_camps }
             OR = {
                 ai = yes
@@ -112,7 +109,6 @@ political_decisions = {
     switch_to_trade_tech = {
         potential = {
             civilized = yes
-            tech_school = traditional_academic
             NOT = { has_country_modifier = interment_camps }
             OR = {
                 ai = yes
@@ -143,7 +139,6 @@ political_decisions = {
     switch_to_industry_tech = {
         potential = {
             civilized = yes
-            tech_school = traditional_academic
             NOT = { has_country_modifier = interment_camps }
             OR = {
                 ai = yes
