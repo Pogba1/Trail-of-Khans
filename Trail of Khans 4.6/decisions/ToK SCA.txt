@@ -75,23 +75,6 @@ political_decisions = {
 	
 	}
 	
-	integrate_the_finns = {
-		picture = "greater_finland"
-		potential = {
-			tag = SCA
-			any_owned_province = {
-				is_core = FIN
-			}
-			NOT = {accepted_culture = finnish}
-		}
-		allow = {
-		state_n_government = 1
-		RUS_343 = {owned_by = THIS}
-		}
-		effect = {add_accepted_culture = finnish}
-		ai_will_do = { factor = 1 }
-	}
-	
 	kiruna_mine = {
 		picture = "essen_ruhr"
 		potential = {
