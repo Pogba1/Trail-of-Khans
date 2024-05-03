@@ -159,10 +159,10 @@ political_decisions = {
 			
 		effect = {
 			add_country_modifier = { name = law_changed_by_force duration = 1825 }
-			random_owned = { limit = { owner = { conscription = mandatory_service } } owner = { political_reform = four_year_draft } }
-			random_owned = { limit = { owner = { conscription = four_year_draft } } owner = { political_reform = two_year_draft } }
-			random_owned = { limit = { owner = { conscription = two_year_draft } } owner = { political_reform = one_year_draft } }
 			random_owned = { limit = { owner = { conscription = one_year_draft } } owner = { political_reform = no_draft } }
+			random_owned = { limit = { owner = { conscription = two_year_draft } } owner = { political_reform = one_year_draft } }
+			random_owned = { limit = { owner = { conscription = four_year_draft } } owner = { political_reform = two_year_draft } }
+			random_owned = { limit = { owner = { conscription = mandatory_service } } owner = { political_reform = four_year_draft } }
 		}
 
 		ai_will_do = {
