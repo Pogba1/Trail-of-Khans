@@ -36,7 +36,7 @@ social_reformed_nation = {
 			
 		}
 		
-	social_reform_desire = -1.0
+	social_reform_desire = -10
 	icon = 13
 }
 
@@ -162,28 +162,6 @@ landlocked_nation = {
     icon = 8
 }
 
-educational_spen = {
-        trigger = {
-            ai = yes
-            exists = yes
-            administration_spending = 0.74
-        }
-
-    education_efficiency_modifier = 0.3
-    icon = 16
-}
-
-admin_spen = {
-        trigger = {
-            ai = yes
-            exists = yes
-            administration_spending = 0.74
-        }
-
-    administrative_efficiency_modifier = 0.3
-    icon = 16
-}
-
 hormuz_strait = {
         trigger = {
             exists = yes
@@ -255,12 +233,10 @@ trinket_health_care_funding = {
         exists = yes
         civilized = yes
         health_care = trinket_health_care
-        NOT = {
-            social_spending = 0.20
-        }
+        social_spending = 0.20
     }
-    poor_luxury_needs = 0.025
-    middle_luxury_needs = 0.025
+    poor_luxury_needs = -0.025
+    middle_luxury_needs = -0.025
 }
 
 low_health_care_funding = {
@@ -268,12 +244,10 @@ low_health_care_funding = {
         exists = yes
         civilized = yes
         health_care = low_health_care
-        NOT = {
-            social_spending = 0.40
-        }
+        social_spending = 0.40
     }
-    poor_luxury_needs = 0.05
-    middle_luxury_needs = 0.05
+    poor_luxury_needs = -0.05
+    middle_luxury_needs = -0.05
 }
 
 acceptable_health_care_funding = {
@@ -281,12 +255,10 @@ acceptable_health_care_funding = {
         exists = yes
         civilized = yes
         health_care = acceptable_health_care
-        NOT = {
-            social_spending = 1
-        }
+        social_spending = 0.75
     }
-    poor_luxury_needs = 0.075
-    middle_luxury_needs = 0.075
+    poor_luxury_needs = -0.075
+    middle_luxury_needs = -0.075
     global_population_growth = 0.001
 }
 
@@ -295,12 +267,10 @@ good_health_care_funding = {
         exists = yes
         civilized = yes
         health_care = good_health_care
-        NOT = {
-            social_spending = 1
-        }
+        social_spending = 1
     }
-    poor_luxury_needs = 0.1
-    middle_luxury_needs = 0.1
+    poor_luxury_needs = -0.1
+    middle_luxury_needs = -0.1
     global_population_growth = 0.001
 }
 

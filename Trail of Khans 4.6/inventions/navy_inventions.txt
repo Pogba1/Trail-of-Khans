@@ -694,28 +694,7 @@ dreadnoughts = {
         
     }
     chance = {
-        base = 5
-        modifier = {
-            factor = 2
-            invention = pre_dreadnought
-        }
-        modifier = {
-            factor = 2
-            naval_logistics = 1
-        }
-        modifier = {
-            factor = 1
-            any_neighbor_country = { invention = dreadnoughts }
-        }
-        modifier = {
-            factor = 2
-            war = yes
-            war_countries = { invention = dreadnoughts }
-        }
-        modifier = {
-            factor = 2
-            oil_driven_ships = 1
-        }
+        base = 100
     }
     effect = {
         activate_unit = dreadnought
