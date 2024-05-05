@@ -1744,23 +1744,7 @@ import_substitution_industrialization = {
     }
     news = no
     chance = {
-        base = 0
-        modifier = {
-            factor = 4
-            economic_policy = planned_economy
-        }
-        modifier = {
-            factor = 3
-            economic_policy = state_capitalism
-        }
-        modifier = {
-            factor = 2
-            economic_policy = interventionism
-        }
-        modifier = {
-            factor = 1
-            trade_policy = protectionism
-        }
+        base = 100
     }
     effect = {
         activate_building = synthetic_oil_factory
