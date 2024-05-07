@@ -184,13 +184,6 @@ political_decisions = {
 			EGY_915 = { add_core = THIS }
 			EGY_921 = { add_core = THIS }
 			RUS_1102 = { add_core = THIS }
-			EGY_1755 = { add_core = THIS }
-			EGY_1745 = { add_core = THIS }
-			EGY_1746 = { add_core = THIS }
-			EGY_1752 = { add_core = THIS }
-			EGY_1758 = { add_core = THIS }
-			EGY_1762 = { add_core = THIS }
-			EGY_1771 = { add_core = THIS }
 			TUR_893 = { add_core = THIS }
         }
         ai_will_do = {	factor = 0.45	}
