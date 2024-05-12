@@ -1071,7 +1071,6 @@ assimilation_chance =
 	group = {
 		modifier = {
 			factor = 10
-			has_culture_core = yes
 		}
 		modifier = {
 			factor = -9.9
@@ -1558,116 +1557,116 @@ assimilation_chance =
 	}
 
 #MILITANCY MODIFIFER - 
-	group = {
-		modifier = {
-			factor = -1
-			militancy = 1
-		}
-		modifier = {
-			factor = 0.99
-			has_culture_core = no
-			militancy = 1
-		}
-	}
-	group = {
-		modifier = {
-			factor = -1
-			militancy = 2
-		}
-		modifier = {
-			factor = 0.99
-			has_culture_core = no
-			militancy = 2
-		}
-	}
-	group = {
-		modifier = {
-			factor = -1
-			militancy = 3
-		}
-		modifier = {
-			factor = 0.99
-			has_culture_core = no
-			militancy = 3
-		}
-	}
-	group = {
-		modifier = {
-			factor = -1
-			militancy = 4
-		}
-		modifier = {
-			factor = 0.99
-			has_culture_core = no
-			militancy = 4
-		}
-	}
-	group = {
-		modifier = {
-			factor = -1
-			militancy = 5
-		}
-		modifier = {
-			factor = 0.99
-			has_culture_core = no
-			militancy = 5
-		}
-	}
-	group = {
-		modifier = {
-			factor = -2
-			militancy = 6
-		}
-		modifier = {
-			factor = 1.98
-			has_culture_core = no
-			militancy = 6
-		}
-	}
-	group = {
-		modifier = {
-			factor = -2
-			militancy = 7
-		}
-		modifier = {
-			factor = 1.98
-			has_culture_core = no
-			militancy = 7
-		}
-	}
-	group = {
-		modifier = {
-			factor = -2
-			militancy = 8
-		}
-		modifier = {
-			factor = 1.98
-			has_culture_core = no
-			militancy = 8
-		}
-	}
-	group = {
-		modifier = {
-			factor = -2
-			militancy = 9
-		}
-		modifier = {
-			factor = 1.98
-			has_culture_core = no
-			militancy = 9
-		}
-	}
-	group = {	
-		modifier = {
-			factor = -2
-			militancy = 10
-		}
-		modifier = {
-			factor = 1.98
-			has_culture_core = no
-			militancy = 10
-		}
-	}
+#	group = {
+#		modifier = {
+#			factor = -1
+#			militancy = 1
+#		}
+#		modifier = {
+#			factor = 0.99
+#			has_culture_core = no
+#			militancy = 1
+#		}
+#	}
+#	group = {
+#		modifier = {
+#			factor = -1
+#			militancy = 2
+#		}
+#		modifier = {
+#			factor = 0.99
+#			has_culture_core = no
+#			militancy = 2
+#		}
+#	}
+#	group = {
+#		modifier = {
+#			factor = -1
+##			militancy = 3
+#		}
+#		modifier = {
+#			factor = 0.99
+#			has_culture_core = no
+#			militancy = 3
+#		}
+#	}
+#	group = {
+#		modifier = {
+#			factor = -1
+#			militancy = 4
+#		}
+#		modifier = {
+#			factor = 0.99
+#			has_culture_core = no
+#			militancy = 4
+#		}
+#	}
+#	group = {
+#		modifier = {
+#			factor = -1
+#			militancy = 5
+#		}
+#		modifier = {
+#			factor = 0.99
+#			has_culture_core = no
+#			militancy = 5
+#		}
+#	}
+#	group = {
+#		modifier = {
+#			factor = -2
+#			militancy = 6
+#		}
+#		modifier = {
+#			factor = 1.98
+#			has_culture_core = no
+#			militancy = 6
+#		}
+#	}
+#	group = {
+#		modifier = {
+#			factor = -2
+#			militancy = 7
+#		}
+#		modifier = {
+#			factor = 1.98
+#			has_culture_core = no
+#			militancy = 7
+#		}
+#	}
+#	group = {
+#		modifier = {
+#			factor = -2
+#			militancy = 8
+#		}
+#		modifier = {
+#			factor = 1.98
+#			has_culture_core = no
+#			militancy = 8
+#		}
+#	}
+#	group = {
+#		modifier = {
+#			factor = -2
+#			militancy = 9
+#		}
+#		modifier = {
+#			factor = 1.98
+#			has_culture_core = no
+#			militancy = 9
+#		}
+#	}
+#	group = {	
+#		modifier = {
+#			factor = -2
+#			militancy = 10
+#		}
+#		modifier = {
+#			factor = 1.98
+#			has_culture_core = no
+#			militancy = 10
+#		}
+#	}
 #UNEMPLOYMENT MODIFIER - Reduces assimilation rate, starting at 10% unemployment, by 0.0000396 per 10% unemployment up to 99% unemployment. (At 99% unemployment, completely counters base assimilation.)
 	group = {
 		modifier = {

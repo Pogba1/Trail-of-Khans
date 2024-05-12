@@ -2,85 +2,74 @@ sprite = 3
 color = { 234 227 40 }
 strata = middle
 
-research_points = 3    #if max %, then 2 extra research points.
-research_optimum = 0.02    #2%
+research_points = 3	#if max %, then 2 extra research points.
+research_optimum = 0.02	#2%
+
+demote_migrant = yes
 
 rebel =
 {
-    infantry = 0.5
-    irregular = 0.5
+	infantry = 0.5
+	irregular = 0.5
 }
+
 
 can_reduce_consciousness = yes
 
 life_needs_income = {
-    type = education
-    weight = 1
+	type = education
+	weight = 1
 }
 
 everyday_needs_income = {
-    type = education
-    weight = 1
+	type = education
+	weight = 1
 }
 
 luxury_needs_income =
 {
-    type = reforms
-    weight = 1
+	type = reforms
+	weight = 1
 }
 
-#Total = 22
-life_needs = {
-    cattle = 1.5
-    wool =  1.5
-    fish =  2
-    fruit =  2
-    grain =  5
-}
-
-#Total cash needed: 126.9 - Vanilla value: 119.1
-everyday_needs = {
-    coal = 2            #4.6
-    liquor = 4            #17.6
-    regular_clothes = 5 #29
-    furniture = 4        #19.6
-    paper = 10            #17
-    glass = 1            #2.9
-    tobacco = 3            #3.3
-    tea = 5                #13
-    coffee = 3            #4.2
-    cattle = 2.5
-}
-
-#Total cash needed: 388.6 - Vanilla value: 383.4
 luxury_needs = {
-    steel = 0.25
-    cement = 0.25
-    lumber = 0.25
-    canned_food = 0.75
-    fruit = 1
-    wool = 3
-    opium = 1
-    luxury_clothes = 1
-    luxury_furniture = 1
-    telephones = 1.25
-    automobiles = 1
-    wine = 10
-    aeroplanes = 0.4
-    radio = 1
-    fuel = 0.2
+	opium = 1
+	luxury_clothes = 2
+	luxury_furniture = 2
+	coffee = 2
+	telephones = 1
+	automobiles = 1
+	wine = 5
+	#aeroplanes = 0.4
+	radio = 1.0
+	#fuel = 0.2
 }
+
+everyday_needs = {
+	coal = 1
+	liquor = 5
+	regular_clothes = 5
+	furniture = 4
+	paper = 5
+	glass = 1
+	tobacco = 3
+	tea = 3
+	cattle = 2.5
+}
+
+life_needs = {
+	cattle = 0.75
+	wool =  0.85
+	fish =  1.05
+	fruit =  1
+	grain =  2.5
+}
+
 
 country_migration_target =
 {
 	factor = 1
 
-	modifier = {
-		factor = 0
-		OR = {
-			has_country_flag = ghostland
-		}
-	}
 	modifier = {
 		factor = 0.9
 		unemployment = 0.05
@@ -113,127 +102,51 @@ country_migration_target =
 		factor = 0.1
 		unemployment = 0.5
 	}
-	modifier = {
-		factor = -10000.0
-		NOT = { has_country_flag = new_world_nation }
-	}
 #	modifier = {
 #		factor = 10.0
 #		has_country_flag = new_world_nation
 #		nationalvalue = nv_liberty
 #	}
 	modifier = {
-		factor = 10.0
-		has_country_flag = north_american_immigrant_nation
-		OR = {
-			AND = {
-				year = 1836
-				month = 0
-				NOT = { month = 1 }
-			}
-			AND = {
-				year = 1836
-				month = 2
-				NOT = { month = 3 }
-			}
-			AND = {
-				year = 1836
-				month = 4
-				NOT = { month = 5 }
-			}
-			AND = {
-				year = 1836
-				month = 6
-				NOT = { month = 7 }
-			}
-			AND = {
-				year = 1836
-				month = 8
-				NOT = { month = 9 }
-			}
-			AND = {
-				year = 1836
-				month = 10
-				NOT = { month = 11 }
-			}
-		}
-	}
-	modifier = {
-		factor = 10.0
-		has_country_flag = south_american_immigrant_nation
-		OR = {
-			AND = {
-				year = 1836
-				month = 1
-				NOT = { month = 2 }
-			}
-			AND = {
-				year = 1836
-				month = 3
-				NOT = { month = 4 }
-			}
-			AND = {
-				year = 1836
-				month = 5
-				NOT = { month = 6 }
-			}
-			AND = {
-				year = 1836
-				month = 7
-				NOT = { month = 8 }
-			}
-			AND = {
-				year = 1836
-				month = 9
-				NOT = { month = 10 }
-			}
-		}
-	}
-	modifier = {
-        factor = -1000.0
+        factor = -10.0
 		has_global_flag = fuck_ai_immigration
 		ai = yes
     }
-#	modifier = {
-#		factor = 0.1
-#		has_country_flag = new_world_nation
-#		nationalvalue = nv_liberty
-#		NOT = {
-#			any_owned_province = {
-#				OR = {
-#					AND = {
-#						has_pop_type = labourers
-#						NOT = { unemployment_by_type = { value = 0.1 type = labourers } }
-#					}
-#					AND = {
-#						has_pop_type = farmers
-#						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
-#					}
-#					AND = {
-#						state_scope = { has_factories = yes }
-#						NOT = { unemployment_by_type = { value = 0.1 type = craftsmen } }
-#					}
-#				}
-#			}
-#		}
-#	}
+5	modifier = {
+		factor = 0.1
+		has_country_flag = new_world_nation
+		nationalvalue = nv_liberty
+		NOT = {
+			any_owned_province = {
+				OR = {
+					AND = {
+						has_pop_type = labourers
+						NOT = { unemployment_by_type = { value = 0.1 type = labourers } }
+					}
+					AND = {
+						has_pop_type = farmers
+						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
+					}
+					AND = {
+						state_scope = { has_factories = yes }
+						NOT = { unemployment_by_type = { value = 0.1 type = craftsmen } }
+					}
+				}
+			}
+		}
+	}
 }
 
 migration_target =
 {
 	factor = 0.01
 	
-	modifier = {
-		factor = 0.1
-		unemployment = 0.1
-		state_scope = {
-			has_factories = no
-			}
-	}
+	factor = 0.01
+	
 	modifier = {
 		factor = 1.2
 		total_pops = 150000
-	}
+	}	
 	modifier = {
 		factor = 1.2
 		total_pops = 250000
@@ -245,20 +158,6 @@ migration_target =
 	modifier = {
 		factor = 1.2
 		total_pops = 750000
-	}	
-	
-	modifier = {
-		factor = 0
-					AND = {
-				state_scope = {
-					has_factories = no
-				}
-				can_build_factory = no
-			}
-		OR = { 
-			unemployment_by_type = { type = farmers value = 0.1  }
-			unemployment_by_type = { type = labourers value = 0.1  }
-		}
 	}
 	modifier = {
     		factor = 4
@@ -268,6 +167,12 @@ migration_target =
 		factor = 4
 		has_pop_culture = THIS
 	}
+	modifier = {
+		factor = 2
+		state_scope = {
+			has_factories = yes
+		}
+	}	
 	modifier = {
 		factor = 1.2
 		has_pop_religion = THIS
@@ -293,23 +198,6 @@ migration_target =
 	modifier = {
 		factor = 1.05
 		is_coastal = yes
-	}
-	
-	modifier = {
-		factor = 0.6
-		terrain = mountain
-	}
-	modifier = {
-		factor = 0.1
-		terrain = desert
-	}
-	modifier = {
-		factor = 0.6
-		terrain = marsh
-	}
-	modifier = {
-		factor = 0.01
-		terrain = arctic
 	}
 	modifier = {
 		factor = 2
@@ -359,7 +247,7 @@ promote_to =
 		modifier = {
 			factor = -100
 			state_scope = {
-				officers = 0.002
+				officers = 0.004
 			}
 		}		
 
@@ -389,29 +277,6 @@ promote_to =
 			factor = -1000 
 			NOT = { is_accepted_culture = yes }
 			NOT = { is_primary_culture = yes }
-		}
-		group = {
-		modifier = {
-			factor = -200 
-			state_scope = {
-				total_pops = 800000
-				bureaucrats = 0.035 
-			}
-		}
-		modifier = {
-			factor = -200 
-			state_scope = {
-				total_pops = 2000000
-				bureaucrats = 0.025 
-			}
-		}
-		modifier = {
-			factor = -200 
-			state_scope = {
-				total_pops = 5000000
-				bureaucrats = 0.020 
-			}
-		}
 		}
 		group = {
 			modifier = {
@@ -782,12 +647,10 @@ promote_to =
 		}
 		modifier = {
 			factor = -40
-			AND = {
 				state_scope = {
 					has_factories = no
 				}
 				can_build_factory = no
-			}
 		}
 		modifier = {
 			factor = -100
@@ -804,6 +667,7 @@ promote_to =
 
 	craftsmen = {
 		factor = 0.01
+		
 		group = {
 			modifier = {
 				factor =  2
@@ -854,12 +718,10 @@ promote_to =
 		}
 		modifier = {
 			factor = -40
-			AND = {
 				state_scope = {
 					has_factories = no
 				}
 				can_build_factory = no
-			}
 		}
 		modifier = {
 			factor = -100
@@ -1346,10 +1208,6 @@ ideologies = {
 		modifier = {
 			factor = 1.1
 			NOT = { is_ideology_enabled = anarcho_liberal }
-		}
-		modifier = {
-			factor = 1.1
-			nationalvalue = nv_liberty
 		}
 		modifier = {
 			factor = 1.1
@@ -2168,31 +2026,6 @@ issues =
 		modifier = {
 			factor = 0 
 			NOT = { consciousness  = 5}
-		}
-		modifier = {
-			factor = 1.1
-			nationalvalue = nv_liberty 
-			consciousness = 5
-		}
-		modifier = {
-			factor = 1.1
-			nationalvalue = nv_liberty 
-			consciousness = 6
-		}
-		modifier = {
-			factor = 1.1
-			nationalvalue = nv_liberty 
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.1
-			nationalvalue = nv_liberty 
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.1
-			nationalvalue = nv_liberty 
-			consciousness = 9
 		}
 		modifier = {
 			factor = 1.1

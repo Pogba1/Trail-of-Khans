@@ -64,7 +64,6 @@ political_decisions = {
 							trade_goods = dye
 							trade_goods = grain
 						}
-						is_core = THIS
 					}
 				}
 				pop_type = farmers		
@@ -86,7 +85,6 @@ political_decisions = {
 							trade_goods = timber
 							trade_goods = rubber
 						}
-						is_core = THIS
 					}
 				}
 				pop_type = labourers		
@@ -96,9 +94,6 @@ political_decisions = {
 					is_primary_culture = no
 					is_accepted_culture = no
 					type = clerks
-					location = {
-						is_core = THIS
-					}
 				}
 				pop_type = artisans		
 			}
