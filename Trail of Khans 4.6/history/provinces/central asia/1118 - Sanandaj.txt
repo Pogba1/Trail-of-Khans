@@ -2,7 +2,6 @@ owner = SVF
 controller = SVF
 add_core = SVF
 add_core = PER
-add_core = RDL
 add_core = KDS
 trade_goods = wool
 life_rating = 35

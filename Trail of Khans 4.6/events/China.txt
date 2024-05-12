@@ -34,7 +34,6 @@ country_event = {
         GXI = { all_core = { add_core = CHI } }
         GNG = { all_core = { add_core = CHI } }
         FJN = { all_core = { add_core = CHI } }
-        KML = { all_core = { add_core = CHI } }
         random_owned = {
             limit = {
                 owner = {

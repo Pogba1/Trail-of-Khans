@@ -2612,7 +2612,7 @@ free_peoples_tiny = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT tag = YUG tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT  tag = ROM tag = CZH tag = PLC } }
 			}
 		}
 		
@@ -2694,7 +2694,7 @@ free_peoples_small = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT tag = YUG tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT  tag = ROM tag = CZH tag = PLC } }
 			}
 		}
 		
@@ -2776,7 +2776,7 @@ free_peoples_medium = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT tag = YUG tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT  tag = ROM tag = CZH tag = PLC } }
 			}
 		}
 		
@@ -2858,7 +2858,7 @@ free_peoples_large = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT tag = YUG tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT  tag = ROM tag = CZH tag = PLC } }
 			}
 		}
 		
@@ -2940,7 +2940,7 @@ free_peoples_huge = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT tag = YUG tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT  tag = ROM tag = CZH tag = PLC } }
 			}
 		}
 		
