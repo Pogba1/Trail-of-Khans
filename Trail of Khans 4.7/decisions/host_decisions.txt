@@ -83,6 +83,9 @@ political_decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 0
+		}
 	}
 	annex_ast_net = {
 		potential  = {
@@ -108,6 +111,9 @@ political_decisions = {
 					country_event = 999980
 				}
 			}
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 	ally_all_countries = {
