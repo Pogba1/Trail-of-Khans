@@ -88,7 +88,7 @@ political_decisions = {
 		potential  = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_nation
-			SAF = {
+			AST = {
 				exists = yes
 			}
 		}
