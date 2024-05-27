@@ -40,9 +40,9 @@ country_event = {
 	option = {
 		name = "EVTOPTAId"	
         any_owned = {
-                secede_province = FROM
+                secede_province = NET
         }
-        FROM = { inherit = THIS }
+        NET = { inherit = THIS }
 	}
 }
 country_event = {
