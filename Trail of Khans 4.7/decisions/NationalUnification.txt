@@ -252,7 +252,11 @@ political_decisions = {
             FRA_412 = { add_core = GER }
             any_country = {
                 limit = {
-                    in_sphere = THIS
+                    primary_culture = north_german
+                    OR = {
+                        in_sphere = THIS
+                        exists = no
+                    }
                     NOT = { tag = THIS }
                     NOT = { has_country_flag = post_colonial_country }
                     OR = {
@@ -261,6 +265,7 @@ political_decisions = {
                     }
                 }
                 country_event = 11106
+                country_event = 11105
             }
         }
     }

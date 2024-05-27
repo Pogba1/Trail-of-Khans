@@ -232,7 +232,6 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = iles_lordship
-			badboy = 17.5
 			prestige = 40
 			GAE = {
 				all_core = {

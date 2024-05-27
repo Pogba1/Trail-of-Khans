@@ -295,6 +295,9 @@ country_event = {
                 months = 36
             }
         }
+        any_owned = {
+                secede_province = FROM
+        }
         FROM = { inherit = THIS }
         ai_chance = {
             factor = 75
