@@ -77,13 +77,10 @@ political_decisions = {
 	abolish_silesian_duchy = {
 		potential = {
 			tag = POL
-			OR = {
-				has_country_flag = kazimierz_influence
-				has_country_flag = sobieski_influence
-			}
 			NOT = {
 				has_country_flag = annexed_silesia
 			}
+			has_country_flag = kazimierz_influence
 			SLS = {
 				exists = yes
 			}
@@ -113,14 +110,10 @@ political_decisions = {
 	uneasy_plc = {
 		potential = {
 			tag = POL
-			OR = {
-				has_country_flag = sobieski_influence
-				has_country_flag = wladislaus_refuses
-			}
+			has_country_flag = wladislaus_refuses
 		}
 		allow = {
 			revolution_n_counterrevolution = 1
-			
 			war = no
 			all_core = {
 				OR = {
@@ -307,8 +300,6 @@ political_decisions = {
 		allow = {
 			revolution_n_counterrevolution = 1
 			war = no
-			
-			citizens_rights = all_voting_pops
 			PLC = {
 				all_core = {
 					OR = {
