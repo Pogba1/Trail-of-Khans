@@ -737,7 +737,7 @@ kinda_bad_badboy = {
     land_organisation = -0.1
     naval_organisation = -0.1
     prestige = -0.03
-    war_exhaustion = 0.04
+    war_exhaustion = 0.5
     icon = 8
 }
 
@@ -759,7 +759,7 @@ bad_badboy = {
     land_organisation = -0.2
     naval_organisation = -0.2
     prestige = -0.06
-    war_exhaustion = 0.08
+    war_exhaustion = 1
     research_points_modifier = -0.4
     cb_generation_speed_modifier = -0.3
     icon = 8

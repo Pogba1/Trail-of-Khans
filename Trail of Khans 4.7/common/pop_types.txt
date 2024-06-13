@@ -1065,18 +1065,6 @@ assimilation_chance =
 			}
 		}
 	}
-	
-#BASELINE ASSIMILATION	- averages to 0.000396 rate. (averages 39.6 people assimilating per month in a 100k province)
-#IMPORTANT NOTE - If a pop has_culture_core = no, it must have its bonuses scaled down to a 100th less magnitude. (if base is factor 10, has_culture_core = no must be 0.1) This must be reflected in all future modifiers.
-	group = {
-		modifier = {
-			factor = 10
-		}
-		modifier = {
-			factor = -9.9
-			has_culture_core = no
-		}
-	}
 #LITERACY MODIFIERS - averages 0.00000396 additional rate per 10% literacy up to 0.0000396 additional rate at 99% literacy. (averages 3.96 people assimilating per month at 99% literacy in a 100k province)
 	group = {
 		modifier = {
