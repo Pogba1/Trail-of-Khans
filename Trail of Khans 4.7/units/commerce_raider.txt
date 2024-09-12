@@ -8,6 +8,7 @@ commerce_raider = {
     unit_type = light_ship
     move_sound = steam_move
     select_sound = steam_selected
+    transport = yes
     floating_flag = yes
     colonial_points = 4
 

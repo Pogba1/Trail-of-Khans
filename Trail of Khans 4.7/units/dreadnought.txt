@@ -9,6 +9,7 @@ dreadnought = {
     active = no
     move_sound = steam_move
     select_sound = steam_selected
+    transport = yes
     floating_flag = yes
     can_build_overseas = no
     colonial_points = 30

@@ -9,6 +9,7 @@ monitor = {
     active = no
     move_sound = steam_move
     select_sound = steam_selected
+    transport = yes
     can_build_overseas = yes
     colonial_points = 15
 
