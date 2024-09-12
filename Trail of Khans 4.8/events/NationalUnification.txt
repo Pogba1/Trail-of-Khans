@@ -35,9 +35,6 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { tag = AUS }
-                    NOT = { tag = MOL }
-                    NOT = { tag = SIE }
                     NOT = { tag = LUX }
                     NOT = { is_culture_group = south_asian }
                     NOT = { is_culture_group = scandinavian }
@@ -112,97 +109,6 @@ country_event = {
                 factor = 0.1
                 government = proletarian_dictatorship
                 FROM = { government = fascist_dictatorship }
-            }
-        }
-    }
-
-    option = {
-        name = "EVTOPTB11101"
-        clr_country_flag = wants_to_unify
-        prestige = 1
-        leave_alliance = FROM
-        relation = {
-            who = FROM
-            value = -200
-        }
-        FROM = {
-            diplomatic_influence = {
-                who = THIS
-                value = -200
-            }
-        }
-        any_country = {
-            limit = {
-                exists = yes
-                vassal_of = THIS
-                in_sphere = FROM
-            }
-            leave_alliance = FROM
-            end_military_access = FROM
-            relation = { who = FROM value = -200 }
-            set_country_flag = failed_unification_remove_from_sphere
-        }
-        any_pop = {
-            limit = { is_primary_culture = yes }
-            militancy = 3
-            consciousness = 2
-        }
-        ai_chance = {
-            factor = 25
-            modifier = {
-                factor = 0
-                has_country_flag = wants_to_unify
-            }
-            modifier = {
-                factor = 0
-                vassal_of = FROM
-            }
-            modifier = {
-                factor = 0.75
-                is_secondary_power = no
-            }
-            modifier = {
-                factor = 0.75
-                part_of_sphere = no
-            }
-            modifier = {
-                factor = 1.5
-                truce_with = FROM
-            }
-            modifier = {
-                factor = 1.5
-                NOT = {
-                    relation = { who = FROM value = 0 }
-                }
-            }
-            modifier = {
-                factor = 0.25
-                in_sphere = FROM
-            }
-            modifier = {
-                factor = 0.25
-                government = fascist_dictatorship
-                FROM = { government = fascist_dictatorship }
-            }
-            modifier = {
-                factor = 0.25
-                government = proletarian_dictatorship
-                FROM = { government = proletarian_dictatorship }
-            }
-            modifier = {
-                factor = 0.25
-                OR = {
-                    government = democracy
-                    government = prussian_constitutionalism
-                    government = hms_government
-                }
-                FROM = {
-                    OR = {
-                        government = democracy
-                        government = prussian_constitutionalism
-                        government = hms_government
-                    }
-                }
             }
         }
     }
