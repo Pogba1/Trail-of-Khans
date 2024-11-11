@@ -179,6 +179,7 @@ political_decisions = {
                 }
             }
             set_country_flag = the_hansa
+            set_global_flag = baltic_monopoly
         }
     }
 

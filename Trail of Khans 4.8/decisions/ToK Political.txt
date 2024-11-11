@@ -32,6 +32,7 @@ political_decisions = {
     }
 
 	remove_ai_immigration = {
+		alert = no
 		potential = {
 			ai = no
 			NOT = {
@@ -45,10 +46,132 @@ political_decisions = {
 		}
 	}
 
+    open_government_decision_menu = {
+		potential = {
+			NOT = {
+				has_country_flag = government_decisions_on
+			}
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = government_decisions_on
+		}
+	}
+
+    close_government_decision_menu = {
+		potential = {
+			has_country_flag = government_decisions_on
+			ai = no
+		}
+		allow = {
+		}
+		effect = {
+			clr_country_flag = government_decisions_on
+		}
+	}
+
+	demote_crats = {
+		alert = no
+		potential = {
+			NOT = { has_country_modifier = recently_demoted }
+			has_country_flag = government_decisions_on
+		}
+		allow = {
+		}
+		effect = {
+			add_country_modifier = {
+				name = recently_demoted
+				duration = 1825
+			}
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
+					type = bureaucrats
+				}
+				pop_type = artisans	
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	demote_crafts = {
+		alert = no
+		potential = {
+			NOT = { has_country_modifier = recently_demoted_crafts }
+			has_country_flag = government_decisions_on
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = recently_demoted_crafts
+				duration = 3650
+			}
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
+					type = craftsmen
+					location = {
+						OR = {
+							trade_goods = fish
+							trade_goods = cattle
+							trade_goods = fruit
+							trade_goods = wool
+							trade_goods = cotton
+							trade_goods = tea
+							trade_goods = coffee
+							trade_goods = tobacco
+							trade_goods = silk
+							trade_goods = opium
+							trade_goods = dye
+							trade_goods = grain
+						}
+					}
+				}
+				pop_type = farmers		
+			}
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
+					type = craftsmen
+					location = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = tropical_wood
+							trade_goods = sulphur
+							trade_goods = precious_metal
+							trade_goods = oil
+							trade_goods = timber
+							trade_goods = rubber
+						}
+					}
+				}
+				pop_type = labourers		
+			}
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
+					type = clerks
+				}
+				pop_type = artisans		
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
 	increase_conscription = {
 		picture = marching_soldiers
 		alert = no
 		potential = {
+			has_country_flag = government_decisions_on
 			civilized = yes
 			OR = {
 				conscription = no_draft
@@ -144,6 +267,7 @@ political_decisions = {
 		picture = marching_soldiers
 		alert = no
 		potential = {
+			has_country_flag = government_decisions_on
 			civilized = yes
 			OR = {
 				conscription = one_year_draft
@@ -170,27 +294,100 @@ political_decisions = {
 		}
 	}
 
-	#declare_national_emergency = {
-	#	potential = {
-	#		war = yes
-	#		NOT = {
-	#			has_country_flag = national_emergency
-	#		}
-	#	}
-	#	allow = {
-	#		war_policy = jingoism
-	#		war_exhaustion = 25
-	#	}
-	#	effect = {
-	#		war_exhaustion = -10
-	#		scaled_militancy = { factor = 5 ideology = liberal }
-	#		scaled_militancy = { factor = 4 ideology = socialist }
-	#		scaled_militancy = { factor = 3 ideology = conservative }
-	#		scaled_militancy = { factor = 2 ideology = reactionary }
-	#		scaled_militancy = { factor = 1 ideology = fascist }
-	#		scaled_militancy = { factor = 1 ideology = communist }
-	#		set_country_flag = national_emergency
-	#	}
-	#	ai_will_do = { factor = 1 }
-	#}
+	increase_healthcare = {
+		potential = {
+			has_country_flag = government_decisions_on
+			civilized = yes
+			OR = {
+				health_care = no_health_care
+				health_care = trinket_health_care
+				health_care = low_health_care
+				health_care = acceptable_health_care
+			}
+		}
+		allow = {
+			OR = {
+				THIS = {
+					health_care = no_health_care
+					has_country_flag = medicine_invented
+					money = 200000
+				}
+				THIS = {
+					health_care = trinket_health_care
+					has_country_flag = germs_invented
+					money = 300000
+				}
+				THIS = {
+					health_care = low_health_care
+					has_country_flag = gaslights_invented
+					money = 400000
+				}
+				THIS = {
+					health_care = acceptable_health_care
+					has_country_flag = electricity_invented
+					money = 500000
+				}
+			}
+			NOT = { has_country_modifier = health_care_change }
+		}
+		effect = {
+			add_country_modifier = { name = health_care_change duration = 1825 }
+			random_owned = { limit = { owner = { health_care = acceptable_health_care } } owner = { social_reform = good_health_care money = -500000 } }
+			random_owned = { limit = { owner = { health_care = low_health_care } } owner = { social_reform = acceptable_health_care money = -400000 } }
+			random_owned = { limit = { owner = { health_care = trinket_health_care } } owner = { social_reform = low_health_care money = -300000 } }
+			random_owned = { limit = { owner = { health_care = no_health_care } } owner = { social_reform = trinket_health_care money = -200000 } }
+		}
+	}
+
+	increase_school_system = {
+		potential = {
+			has_country_flag = government_decisions_on
+			civilized = yes
+			OR = {
+				school_reforms = no_schools
+				school_reforms = low_schools
+				school_reforms = decent_schools
+				school_reforms = acceptable_schools
+				school_reforms = good_schools
+			}
+		}
+		allow = {
+			OR = {
+				THIS = {
+					school_reforms = no_schools
+					malthusian_thought = 1
+					money = 100000
+				}
+				THIS = {
+					school_reforms = low_schools
+					positivism = 1
+					money = 150000
+				}
+				THIS = {
+					school_reforms = decent_schools
+					functionalism = 1
+					money = 200000
+				}
+				THIS = {
+					school_reforms = acceptable_schools
+					biologism = 1
+					money = 250000
+				}
+				THIS = {
+					school_reforms = good_schools
+					social_science = 1
+					money = 300000
+				}
+			}
+			NOT = { has_country_modifier = schooling_change }
+		}
+		effect = {
+			add_country_modifier = { name = schooling_change duration = 1825 }
+			random_owned = { limit = { owner = { school_reforms = good_schools } } owner = { school_reforms = mandatory_schools money = -300000 } }
+			random_owned = { limit = { owner = { school_reforms = acceptable_schools } } owner = { school_reforms = good_schools money = -250000 } }
+			random_owned = { limit = { owner = { school_reforms = decent_schools } } owner = { school_reforms = acceptable_schools money = -200000 } }
+			random_owned = { limit = { owner = { school_reforms = low_schools } } owner = { school_reforms = decent_schools money = -150000 } }
+			random_owned = { limit = { owner = { school_reforms = no_schools } } owner = { school_reforms = low_schools money = -100000 } }
+		}
+	}
 }

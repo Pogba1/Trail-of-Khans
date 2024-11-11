@@ -699,30 +699,10 @@ darwinism = {
     limit = { biologism = 1 }
     news = no
     chance = {
-        base = 15
-        modifier = {
-            factor = 10
-            year = 1851
-        }
-        modifier = {
-            factor = 15
-            year = 1852
-        }
-        modifier = {
-            factor = 20
-            year = 1853
-        }
-        modifier = {
-            factor = 20
-            year = 1854
-        }
-        modifier = {
-            factor = 20
-            year = 1855
-        }
+        base = 4
     }
     effect = {
-        education_efficiency = 0.5
+        education_efficiency = 0.1
     }
 }
 social_darwinism = {

@@ -1068,110 +1068,110 @@ assimilation_chance =
 #LITERACY MODIFIERS - averages 0.00000396 additional rate per 10% literacy up to 0.0000396 additional rate at 99% literacy. (averages 3.96 people assimilating per month at 99% literacy in a 100k province)
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			literacy = 0.1
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			literacy = 0.1
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			literacy = 0.2
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			literacy = 0.2
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			literacy = 0.3
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			literacy = 0.3
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			literacy = 0.4
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			literacy = 0.4
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			literacy = 0.5
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			literacy = 0.5
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			literacy = 0.6
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			literacy = 0.6
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			literacy = 0.7
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			literacy = 0.7
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			literacy = 0.8
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			literacy = 0.8
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			literacy = 0.9
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			literacy = 0.9
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			literacy = 0.99
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			literacy = 0.99
 			has_culture_core = no
 		}
@@ -1179,110 +1179,110 @@ assimilation_chance =
 #LUXURY GOODS MODIFIERS - averages 0.0000396 additional rate per 10% luxury goods up to 0.000396 additional rate at 99% luxury goods. (averages 39.6 people assimilating per month at 99% luxury goods in a 100k province)(doubles base rate)
 	group = {
 		modifier = {
-			factor = 0.5
+			factor = 5
 			luxury_needs = 0.1
 		}
 		modifier = {
-			factor = -0.495
+			factor = -4.95
 			luxury_needs = 0.1
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.5
+			factor = 5
 			luxury_needs = 0.2
 		}
 		modifier = {
-			factor = -0.495
+			factor = -4.95
 			luxury_needs = 0.2
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.5
+			factor = 5
 			luxury_needs = 0.3
 		}
 		modifier = {
-			factor = -0.495
+			factor = -4.95
 			luxury_needs = 0.3
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.5
+			factor = 5
 			luxury_needs = 0.4
 		}
 		modifier = {
-			factor = -0.495
+			factor = -4.95
 			luxury_needs = 0.4
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.5
+			factor = 5
 			luxury_needs = 0.5
 		}
 		modifier = {
-			factor = -0.495
+			factor = -4.95
 			luxury_needs = 0.5
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.5
+			factor = 5
 			luxury_needs = 0.6
 		}
 		modifier = {
-			factor = -0.495
+			factor = -4.95
 			luxury_needs = 0.6
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.5
+			factor = 5
 			luxury_needs = 0.7
 		}
 		modifier = {
-			factor = -0.495
+			factor = -4.95
 			luxury_needs = 0.7
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.5
+			factor = 5
 			luxury_needs = 0.8
 		}
 		modifier = {
-			factor = -0.495
+			factor = -4.95
 			luxury_needs = 0.8
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.5
+			factor = 5
 			luxury_needs = 0.9
 		}
 		modifier = {
-			factor = -0.495
+			factor = -4.95
 			luxury_needs = 0.9
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.5
+			factor = 5
 			luxury_needs = 0.99
 		}
 		modifier = {
-			factor = -0.495
+			factor = -4.95
 			luxury_needs = 0.99
 			has_culture_core = no
 		}
@@ -1290,110 +1290,110 @@ assimilation_chance =
 #EVERY DAY GOODS MODIFIER - averages 0.00000396 additional rate per 10% everyday goods up to 0.0000396 additional rate at 99% everyday goods. (averages 3.96 people assimilating per month at 99% everyday goods in a 100k province)
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			everyday_needs = 0.1
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			everyday_needs = 0.1
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			everyday_needs = 0.2
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			everyday_needs = 0.2
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			everyday_needs = 0.3
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			everyday_needs = 0.3
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			everyday_needs = 0.4
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			everyday_needs = 0.4
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			everyday_needs = 0.5
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			everyday_needs = 0.5
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			everyday_needs = 0.6
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			everyday_needs = 0.6
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			everyday_needs = 0.7
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			everyday_needs = 0.7
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			everyday_needs = 0.8
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			everyday_needs = 0.8
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			everyday_needs = 0.9
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			everyday_needs = 0.9
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 2.5
 			everyday_needs = 0.99
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -2.475
 			everyday_needs = 0.99
 			has_culture_core = no
 		}
@@ -1401,119 +1401,118 @@ assimilation_chance =
 #LIFE NEEDS MODIFIER - Starting at 99% life needs, and decreasing by 0.0000396 per 10% missing life needs down to -0.000396 assimilation chance. (counters base)
 	group = {
 		modifier = {
-			factor = -1
+			factor = -10
 			NOT = { life_needs = 0.99 }
 		}
 		modifier = {
-			factor = 0.99
+			factor = 9.9
 			has_culture_core = no
 			NOT = { life_needs = 0.99 }
 		}
 	}
 	group = {
 		modifier = {
-			factor = -1
+			factor = -10
 			NOT = { life_needs = 0.9 }
 		}
 		modifier = {
-			factor = 0.99
+			factor = 9.9
 			has_culture_core = no
 			NOT = { life_needs = 0.9 }
 		}
 	}
 	group = {
 		modifier = {
-			factor = -1
+			factor = -10
 			NOT = { life_needs = 0.8 }
 		}
 		modifier = {
-			factor = 0.99
+			factor = 9.9
 			has_culture_core = no
 			NOT = { life_needs = 0.8 }
 		}
 	}
 	group = {
 		modifier = {
-			factor = -1
+			factor = -10
 			NOT = { life_needs = 0.7 }
 		}
 		modifier = {
-			factor = 0.99
+			factor = 9.9
 			has_culture_core = no
 			NOT = { life_needs = 0.7 }
 		}
 	}
 	group = {
 		modifier = {
-			factor = -1
+			factor = -10
 			NOT = { life_needs = 0.6 }
 		}
 		modifier = {
-			factor = 0.99
+			factor = 9.9
 			has_culture_core = no
 			NOT = { life_needs = 0.6 }
 		}
 	}
 	group = {
 		modifier = {
-			factor = -2
+			factor = -20
 			NOT = { life_needs = 0.5 }
 		}
 		modifier = {
-			factor = 1.98
+			factor = 19.8
 			has_culture_core = no
 			NOT = { life_needs = 0.5 }
 		}
 	}
 	group = {
 		modifier = {
-			factor = -2
+			factor = -20
 			NOT = { life_needs = 0.4 }
 		}
 		modifier = {
-			factor = 1.98
+			factor = 19.8
 			has_culture_core = no
 			NOT = { life_needs = 0.4 }
 		}
 	}
 	group = {
 		modifier = {
-			factor = -2
+			factor = -20
 			NOT = { life_needs = 0.3 }
 		}
 		modifier = {
-			factor = 1.98
+			factor = 19.8
 			has_culture_core = no
 			NOT = { life_needs = 0.3 }
 		}
 	}
 	group = {
 		modifier = {
-			factor = -2
+			factor = -20
 			NOT = { life_needs = 0.2 }
 		}
 		modifier = {
-			factor = 1.98
+			factor = 19.8
 			has_culture_core = no
 			NOT = { life_needs = 0.2 }
 		}
 	}
 	group = {
 		modifier = {
-			factor = -2
+			factor = -20
 			NOT = { life_needs = 0.1 }
 		}
 		modifier = {
-			factor = 1.98
+			factor = 19.8
 			has_culture_core = no
 			NOT = { life_needs = 0.1 }
 		}
 	}
-
 #Assimilation for syracusean pops after Rome takes their decision
 	group = {
 		modifier = {
-			factor = 2.5
+			factor = 5
 			has_pop_culture = syracusean
 			country = {
 				has_country_flag = cisalpine_gaul_flag
@@ -1523,7 +1522,7 @@ assimilation_chance =
 #Assimilation for picard pops after France takes their decision
 	group = {
 		modifier = {
-			factor = 30
+			factor = 50
 			has_pop_culture = breton
 			country = {
 				has_country_flag = breton_assimilation
@@ -1533,13 +1532,10 @@ assimilation_chance =
 	
 	group = {
 		modifier = {
-			factor = -25
+			factor = -100
 			has_pop_culture = occitan
 			country = {
-				tag = FRA
-				NOT = {
-					accepted_culture = occitan
-				}
+				primary_culture = french
 			}
 		}
 	}

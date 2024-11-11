@@ -36,7 +36,7 @@ social_reformed_nation = {
 			
 		}
 		
-	social_reform_desire = -10
+	social_reform_desire = -1
 	icon = 13
 }
 
@@ -123,7 +123,7 @@ own_kiel_canal = {
 	}
 	icon = 9
 	tariff_efficiency_modifier = 0.1
-	tax_efficiency = 0.1
+	tax_efficiency = 0.05
 }
 
 own_suez_canal = {
@@ -135,7 +135,7 @@ own_suez_canal = {
 	}
 	icon = 9
 	tariff_efficiency_modifier = 0.2
-	tax_efficiency = 0.2
+	tax_efficiency = 0.05
 	prestige = 0.01
 }
 
@@ -147,7 +147,7 @@ own_panama_canal = {
 		is_canal_enabled = 3
 	}
 	icon = 9
-	tariff_efficiency_modifier = 0.05
+	tariff_efficiency_modifier = 0.15
 	tax_efficiency = 0.05
 	prestige = 0.02
 }
@@ -202,20 +202,6 @@ no_safety_pop = {
     global_population_growth = -0.0005
 }
 
-baltic_monopoly = {
-    trigger = {
-        exists = yes
-        capital_scope = {
-            continent = europe
-        }
-        has_global_flag = baltic_monopoly
-        NOT = {
-            tag = LUB
-        }
-    }
-    tariff_efficiency_modifier = -0.15
-}
-
 baltic_monopoly_lub = {
     trigger = {
         exists = yes
@@ -233,33 +219,41 @@ trinket_health_care_funding = {
     trigger = {
         exists = yes
         civilized = yes
-        health_care = trinket_health_care
-        social_spending = 0.20
+        OR = {
+            health_care = trinket_health_care
+            health_care = low_health_care
+            health_care = acceptable_health_care
+            health_care = good_health_care
+        }
+        administration_spending  = 0.25
     }
-    poor_luxury_needs = -0.025
-    middle_luxury_needs = -0.025
+    global_population_growth = 0.001
 }
 
 low_health_care_funding = {
     trigger = {
         exists = yes
         civilized = yes
-        health_care = low_health_care
-        social_spending = 0.40
+        OR = {
+            health_care = low_health_care
+            health_care = acceptable_health_care
+            health_care = good_health_care
+        }
+        administration_spending  = 0.50
     }
-    poor_luxury_needs = -0.05
-    middle_luxury_needs = -0.05
+    global_population_growth = 0.001
 }
 
 acceptable_health_care_funding = {
     trigger = {
         exists = yes
         civilized = yes
-        health_care = acceptable_health_care
-        social_spending = 0.75
+        OR = {
+            health_care = acceptable_health_care
+            health_care = good_health_care
+        }
+        administration_spending  = 0.75
     }
-    poor_luxury_needs = -0.075
-    middle_luxury_needs = -0.075
     global_population_growth = 0.001
 }
 
@@ -268,10 +262,8 @@ good_health_care_funding = {
         exists = yes
         civilized = yes
         health_care = good_health_care
-        social_spending = 1
+        administration_spending = 1
     }
-    poor_luxury_needs = -0.1
-    middle_luxury_needs = -0.1
     global_population_growth = 0.001
 }
 

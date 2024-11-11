@@ -1070,7 +1070,7 @@ guiTypes = {
 			windowType = {
 				name = "school_reforms"
 				backGround =""
-				position = { x = 536 y = 380 }
+				position = { x = 384 y = 380 }
 				size = { x=151 y=100 }
 				moveable = 0
 				dontRender = ""

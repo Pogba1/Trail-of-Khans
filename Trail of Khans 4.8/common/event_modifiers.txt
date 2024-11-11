@@ -583,6 +583,16 @@ law_changed_by_force = {
     icon = 6
 }
 
+health_care_change = {
+    diplomatic_points_modifier = -0.01
+    icon = 6
+}
+
+schooling_change = {
+    diplomatic_points_modifier = -0.01
+    icon = 6
+}
+
 wahhabism_in_nejd = {
     mobilisation_size = 0.1
     mobilisation_economy_impact = -0.1

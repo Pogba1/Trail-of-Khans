@@ -1,6 +1,7 @@
 political_decisions = {
 
     canal_menu = {
+        alert = no
         potential = {
             civilized = yes
             NOT = { has_country_flag = canal_menu }
@@ -13,6 +14,7 @@ political_decisions = {
     }
 
     hide_canal_menu = {
+        alert = no
         potential = {
             ai = no
             civilized = yes
