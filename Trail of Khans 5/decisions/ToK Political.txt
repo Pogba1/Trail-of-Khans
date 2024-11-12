@@ -383,11 +383,11 @@ political_decisions = {
 		}
 		effect = {
 			add_country_modifier = { name = schooling_change duration = 1825 }
-			random_owned = { limit = { owner = { school_reforms = good_schools } } owner = { school_reforms = mandatory_schools money = -300000 } }
-			random_owned = { limit = { owner = { school_reforms = acceptable_schools } } owner = { school_reforms = good_schools money = -250000 } }
-			random_owned = { limit = { owner = { school_reforms = decent_schools } } owner = { school_reforms = acceptable_schools money = -200000 } }
-			random_owned = { limit = { owner = { school_reforms = low_schools } } owner = { school_reforms = decent_schools money = -150000 } }
-			random_owned = { limit = { owner = { school_reforms = no_schools } } owner = { school_reforms = low_schools money = -100000 } }
+			random_owned = { limit = { owner = { school_reforms = good_schools } } owner = { social_reform = mandatory_schools money = -300000 } }
+			random_owned = { limit = { owner = { school_reforms = acceptable_schools } } owner = { social_reform = good_schools money = -250000 } }
+			random_owned = { limit = { owner = { school_reforms = decent_schools } } owner = { social_reform = acceptable_schools money = -200000 } }
+			random_owned = { limit = { owner = { school_reforms = low_schools } } owner = { social_reform = decent_schools money = -150000 } }
+			random_owned = { limit = { owner = { school_reforms = no_schools } } owner = { social_reform = low_schools money = -100000 } }
 		}
 	}
 }
