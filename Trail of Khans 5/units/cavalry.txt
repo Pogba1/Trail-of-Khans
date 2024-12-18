@@ -37,7 +37,7 @@ cavalry = {
 	reconnaissance = 1
 	attack = 3
 	defence = 1
-	discipline = 1.0
+	discipline = 0.75
 	support = 0.0
 	maneuver = 2
 	
