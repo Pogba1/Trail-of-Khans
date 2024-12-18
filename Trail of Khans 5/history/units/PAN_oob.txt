@@ -2,6 +2,10 @@ MGL = {
     truce_until="1838.1.1"
 }
 
+SVF = {
+    truce_until="1840.1.1"
+}
+
 AFG = {
     value = 110
 }

@@ -1,8 +1,8 @@
-owner = TKM
-controller = TKM
+owner = SVF
+controller = SVF
 add_core = TKM
 add_core = SVF
-add_core = PER
+
 trade_goods = cotton
 life_rating = 35
 terrain = dryhills

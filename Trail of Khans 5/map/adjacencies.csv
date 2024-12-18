@@ -1,7 +1,7 @@
 From;To;Type;Through;Data;Comment
-#;;;;;
-# American Straits;;;;;
-#;;;;;
+#
+# American Straits
+#
 13;14;sea;3011;0;Vancouver Crossing
 14;78;sea;3011;0;Vancouver Crossing
 62;75;sea;2946;0;Straits of Belle Isle
@@ -42,17 +42,17 @@ From;To;Type;Through;Data;Comment
 2219;2220;sea;2977;0;Bahamas-Turks & Caicos Strait
 2204;2206;sea;3001;0;Panama strait
 5;4;sea;3134;0;Aleutian Island-Dutch Harbor Strait
-;;;;;
-#;;;;;
-# African Straits;;;;;
-#;;;;;
+
+#
+# African Straits
+#
 2036;2048;sea;2901;0;Zanzibar Strait
 2123;2124;sea;2902;0;Comoros-Mayotte
 1772;1756;sea;2781;0;Suez strait
-;;;;;
-#;;;;;
-# European Straits;;;;;
-#;;;;;
+
+#
+# European Straits
+#
 254;271;sea;2737;0;Irish Strait
 324;348;sea;2706;0;Aland Strait #Uppsala to Aland #these were in V1
 334;372;sea;2711;0;�resund
@@ -61,7 +61,7 @@ From;To;Type;Through;Data;Comment
 353;349;sea;2709;0;�selsund
 353;358;sea;2709;0;Strait of Riga
 372;373;sea;2711;0;Fyn-Sjaelland
-371;373;sea;2711;0;Fyn-Jylland
+366;373;sea;2711;0;Fyn-Jylland
 2557;373;sea;2711;0;Fyn-Esbjerg
 375;385;sea;2722;0;Bay of Holland
 473;766;sea;2751;0;Sassari Strait
@@ -87,12 +87,12 @@ From;To;Type;Through;Data;Comment
 267;1724;sea;2735;0;Inverness - Orkney Strait
 780;782;land;2762;0;Mostar Bay
 1981;745;land;2751;0;Elba to Livorno
-3334;695;land;2710;0;Konigsberg to East Danzig
-;;;;;
-#;;;;;
-# Asian Straits;;;;;
-#;;;;;
-;;;;;
+690;695;land;2710;0;Konigsberg to Danzig 
+
+#
+# Asian Straits
+#
+
 1412;1875;sea;2783;0;Aden to Djibuti 
 1540;1538;sea;2826;0;Nantong - Shanghai through the Yantze River
 1540;1539;sea;2826;0;Nantong - Suzhou through the Yantze River
@@ -156,16 +156,16 @@ From;To;Type;Through;Data;Comment
 1679;1678;sea;2845;0;Amari-Okinawa Strait
 1637;1635;sea;2829;0;Cheju-Kwangju Strait
 12;1645;land;2841;0;Sado-Niigata Strait
-#;;;;;
-# Oceanian Straits;;;;;
-#;;;;;
+#
+# Oceanian Straits
+#
 2512;2516;sea;2876;0;Cook Strait #NZ
 2512;2516;sea;2881;0;Cook Strait #NZ
 2537;1531;sea;2858;0;Villan Strait #New Britain-New Ireland
-;;;;;
-#;;;;;
-# Impassables;;;;;
-#;;;;;
+
+#
+# Impassables
+#
 1252;1328;impassable;0;0;scare mountain
 1326;1589;impassable;0;0;scary mountain
 1326;1592;impassable;0;0;scary mountain
@@ -189,14 +189,14 @@ From;To;Type;Through;Data;Comment
 1226;1594;impassable;0;0;scary mountain
 1210;1594;impassable;0;0;scary mountain
 1208;1594;impassable;0;0;scary mountain
-;;;;;
-#Carpathians;;;;;
-;;;;;
+
+#Carpathians
+
 660;663;impassable;0;0;Secuime-Suceava
 660;672;impassable;0;0;Secuime-Bacau
-;;;;;
-#Alps;;;;;
-;;;;;
+
+#Alps
+
 #727;735;impassable;0;0;Bergamo-Bozen
 #727;734;impassable;0;0;Bergamo-Trent
 #732;735;impassable;0;0;Treviso-Bozen
@@ -217,24 +217,24 @@ From;To;Type;Through;Data;Comment
 #2568;722;impassable;0;0;Lugano-Novara
 609;722;impassable;0;0;Sitten-Novara
 606;722;impassable;0;0;Lucerne-Novara
-;;;;;
-#Pyrenees;;;;;
-;;;;;
+
+#Pyrenees
+
 457;496;impassable;0;0;Foix-Huesca 
 460;496;impassable;0;0;Pau-Huesca
 457;499;impassable;0;0;Foix-Gérona
 457;500;impassable;0;0;FOix-Lérida
-;;;;;
-#Alaskan Panhandle;;;;;
-;;;;;
+
+#Alaskan Panhandle
+
 2;6;impassable;0;0;
 2;17;impassable;0;0;
 1;15;impassable;0;0;
 1;16;impassable;0;0;
 1;17;impassable;0;0;
-;;;;;
-#Siberia;;;;;
-;;;;;
+
+#Siberia
+
 2687;2682;impassable;0;0;Northern urals
 2689;2682;impassable;0;0;Northern urals
 2689;1062;impassable;0;0;Northern urals
@@ -249,645 +249,20 @@ From;To;Type;Through;Data;Comment
 2655;2673;impassable;0;0;Yenisei-Yakut
 2655;2651;impassable;0;0;Yenisei-Yakut
 2675;2651;impassable;0;0;Yenisei-Yakut
-;;;;;
-;;;;;
-#;;;;;
-# The canals;;;;;
-#;;;;;
+
+
+#
+# The canals
+#
 2711;2721;canal;369;1;Kiel Canal
 2781;2769;canal;1755;2;Suez Canal
 2968;3001;canal;1723;3;Panama Canal
-#2773;2774;sea;860;4;Bosphorus Strait
-#2772;2773;sea;859;5;Dardanelles Strait
-#2724;2723;canal;301;6;English Channel
-;;;;;
-#Meme Rivers - Idea and Map Templates from Reno;;;;;
-;;;;;
-#Danube;;;;;
-675;678;sea;0;0;Tulcea to Izmail
-675;673;sea;0;0;Tulcea to Galati
-675;668;sea;0;0;Tulcea to Braila
-675;669;sea;0;0;Tulcea to Calarasi
-818;669;sea;0;0;Silistre to Calarasi
-818;664;sea;0;0;Silistre to Bucharest
-811;664;sea;0;0;Ruse to Bucharest
-810;664;sea;0;0;Vidin to Bucharest
-810;666;sea;0;0;Vidin to Craiova
-795;666;sea;0;0;Bor to Craiova
-795;665;sea;0;0;Bor to Tirgu Jiu
-795;653;sea;0;0;Bor to Resicab�nya
-795;792;sea;0;0;Bor to Pancevo
-794;792;sea;0;0;Belgrade to Pancevo
-794;791;sea;0;0;Belgrade to Mitrovica
-794;786;sea;0;0;Belgrade to Tuzla
-794;787;sea;0;0;Belgrade to Foca
-791;786;sea;0;0;Mitrovica to Tuzla
-791;2538;sea;0;0;Mitrovica to Novi Sad
-786;793;sea;0;0;Tuzla to Vukovar
-786;777;sea;0;0;Tuzla to Pozega
-785;777;sea;0;0;Banja Luka to Pozega
-793;2538;sea;0;0;Vukovar to Novi Sad
-779;2538;sea;0;0;Osijek to Novi Sad
-640;645;sea;0;0;Pecs to Kecskem�t
-644;645;sea;0;0;Kaposv�r to Kecskem�t
-643;645;sea;0;0;Sz�kesfeh�rv�r to Kecskem�t
-643;641;sea;0;0;Sz�kesfeh�rv�r to Budapest
-642;641;sea;0;0;Gyor to Budapest
-642;646;sea;0;0;Gyor to Miskolc
-642;635;sea;0;0;Gyor to Nitra
-642;633;sea;0;0;Gyor to Bratislava
-623;633;sea;0;0;Sopron to Bratislava
-624;633;sea;0;0;Eisenstadt to Bratislava
-620;633;sea;0;0;Sankt P�lkten to Bratislava
-620;619;sea;0;0;Sankt P�lkten to Vienna
-620;621;sea;0;0;Sankt P�lkten to Krems
-622;621;sea;0;0;Linz to Krems
-622;602;sea;0;0;Linz to Regensburg
-600;602;sea;0;0;Landshut to Regensburg
-600;601;sea;0;0;Landshut to Ingolstadt
-592;595;sea;0;0;Augsburg to Nuremberg
-592;589;sea;0;0;Augsburg to Stuttgart
-593;589;sea;0;0;Ulm to Stuttgart
-593;594;sea;0;0;Ulm to Sigmaringen
-588;594;sea;0;0;Konstanz to Sigmaringen
-588;591;sea;0;0;Konstanz to T�bingen
-;;;;;
-#Ebro;;;;;
-493;494;sea;0;0;Pamplona to Logrono
-493;495;sea;0;0;Pamplona to Zaragoza
-496;495;sea;0;0;Huesca to Zaragoza
-500;495;sea;0;0;Lerida to Castellon
-501;504;sea;0;0;Tarragona to Castellon
-;;;;;
-#Po;;;;;
-722;723;sea;0;0;Novara to Alessandria
-726;723;sea;0;0;Milan to Alessandria
-726;738;sea;0;0;Milan to Parma
-727;738;sea;0;0;Bergamo to Parma
-728;738;sea;0;0;Brescia to Parma
-728;739;sea;0;0;Brescia to Modena
-730;739;sea;0;0;Verona to Modena
-730;742;sea;0;0;Verona to Ferrara
-731;742;sea;0;0;Padua to Ferrara
-;;;;;
-#Rhone;;;;;
-453;431;sea;0;0;Valence to Macon
-453;3339;sea;0;0;Valence to Ard�che
-467;468;sea;0;0;Marseilles to Avignon
-467;461;sea;0;0;Marseilles to Montpellier
-;;;;;
-#Loire;;;;;
-448;3339;sea;0;0;Clermont-Ferrand to Ard�che
-452;3339;sea;0;0;St. Etienne to Ard�che
-452;431;sea;0;0;St. Etienne to Macon
-430;431;sea;0;0;Moulins to Macon
-430;428;sea;0;0;Moulins to Dijon
-439;428;sea;0;0;Bourges to Dijon
-439;429;sea;0;0;Bourges to Auxerre
-439;438;sea;0;0;Bourges to Orleans
-440;438;sea;0;0;Blois to Orleans
-440;426;sea;0;0;Blois to Chatres
-440;436;sea;0;0;Blois to Le Mans
-441;436;sea;0;0;Tours to Le Mans
-434;436;sea;0;0;Angers to Le Mans
-434;435;sea;0;0;Angers to Laval
-434;423;sea;0;0;Angers to Nantes
-437;423;sea;0;0;La Roche to Nantes
-;;;;;
-#Seine;;;;;
-429;407;sea;0;0;Auxerre to Chaumont
-406;407;sea;0;0;Troyes to Chaumont
-406;408;sea;0;0;Troyes to Chalons
-438;427;sea;0;0;Orleans to Melun
-425;427;sea;0;0;Paris to Melun
-425;2570;sea;0;0;Paris to Beauvais
-416;2570;sea;0;0;Evreux to Beauvais
-416;415;sea;0;0;Evreux to Rouen
-;;;;;
-#Rhine;;;;;
-588;603;sea;0;0;Konstanz to Z�rich
-587;603;sea;0;0;Freiburg to Z�rich
-587;604;sea;0;0;Freiburg to Basel
-587;410;sea;0;0;Freiburg to Colmar
-587;409;sea;0;0;Freiburg to Stra�burg
-586;409;sea;0;0;Karlsruhe to Stra�burg
-586;571;sea;0;0;Karlsruhe to Kaiserslautern
-569;571;sea;0;0;Mannheim to Kaiserslautern
-2560;570;sea;0;0;Darmstadt to Mainz
-564;570;sea;0;0;Frankfurt to Mainz
-565;570;sea;0;0;Wiesbaden to Mainz
-565;574;sea;0;0;Wiesbaden to Kreuznach
-579;574;sea;0;0;Neuwied to Kreuznach
-2561;575;sea;0;0;Siegburg to Cologne
-578;575;sea;0;0;D�sseldorf to Cologne
-578;577;sea;0;0;D�sseldorf to Cleves
-581;577;sea;0;0;M�nster to Cleves
-382;577;sea;0;0;Arnhem to Cleves
-3330;379;sea;0;0;Almere to Eindhoven
-377;380;sea;0;0;Utrecht to Breda
-377;378;sea;0;0;Utrecht to Middelburg
-376;378;sea;0;0;Rotterdam to Middleburg
-;;;;;
-#Elbe;;;;;
-627;628;sea;0;0;Karlsbad to Aussig
-560;558;sea;0;0;Chemnitz to Dresden
-559;558;sea;0;0;Leipzig to Dresden
-556;552;sea;0;0;Halle to Cottbus
-556;549;sea;0;0;Halle to Berlin
-555;549;sea;0;0;Dessau to Berlin
-553;549;sea;0;0;Magdeburg to Berlin
-557;549;sea;0;0;Stendal to Berlin
-557;551;sea;0;0;Stendal to Pritzwalk
-532;551;sea;0;0;L�neburg to Pritzwalk
-532;544;sea;0;0;L�neburg to Schwerin
-532;529;sea;0;0;L�neburg to Lauenburg
-532;528;sea;0;0;L�neburg to Hamburg
-531;528;sea;0;0;Stade to Hamburg
-;;;;;
-#Oder;;;;;
-688;689;sea;0;0;Troppau to Tesin
-688;685;sea;0;0;Troppau to Kattowitz
-682;685;sea;0;0;Breslau to Kattowitz
-682;684;sea;0;0;Breslau to Oppeln
-682;681;sea;0;0;Breslau to K�strin
-552;681;sea;0;0;Cottbus to K�strin
-550;681;sea;0;0;Prenzlau to K�strin
-550;3325;sea;0;0;Prenzlau to Landsberg
-550;546;sea;0;0;Prenzlau to Stettin
-547;546;sea;0;0;Swinem�nde to Stettin
-682;699;sea;0;0;Breslau to Posen
-#Vistula;;;;;
-685;2584;sea;0;0;Kattowitz to Bielsko
-685;703;sea;0;0;Kattowitz to Krakow
-716;703;sea;0;0;Kielce to Krakow
-716;714;sea;0;0;Kielce to Tarnow
-716;705;sea;0;0;Kielce to Przemysl
-713;705;sea;0;0;Radom to Przemysl
-713;715;sea;0;0;Radom to Lublin
-713;711;sea;0;0;Radom to Siedlice
-706;711;sea;0;0;Warsaw to Siedlice
-706;708;sea;0;0;Warsaw to Plock
-717;708;sea;0;0;Kalisz to Plock
-717;694;sea;0;0;Kalisz to Torun
-700;694;sea;0;0;Bydgoszcz to Torun
-691;694;sea;0;0;Tuchel to Torun
-691;693;sea;0;0;Tuchel to Eblag
-690;3334;sea;0;0;Danzig to East Danzig
-;;;;;
-#Daugava;;;;;
-1007;999;sea;0;0;Velikiye Luki to Rzhev
-1007;945;sea;0;0;Velikiye Luki to Vitebsk
-1007;946;sea;0;0;Velikiye Luki to Polotsk
-1007;947;sea;0;0;Velikiye Luki to Pastavy
-356;947;sea;0;0;Daugavpils to Pastavy
-356;357;sea;0;0;Daugavpils to Jelgava
-355;357;sea;0;0;Valmiera to Jelgava
-354;357;sea;0;0;Riga to Jelgava
-;;;;;
-#Dniepr;;;;;
-943;999;sea;0;0;Smolensk to Rzhev
-944;945;sea;0;0;Orsha to Vitebsk
-944;948;sea;0;0;Orsha to Mogilev
-949;948;sea;0;0;Gomel to Mogilev
-949;942;sea;0;0;Gomel to Mozyr
-962;942;sea;0;0;Chernigov to Mozyr
-962;959;sea;0;0;Chernigov to Korosten
-962;958;sea;0;0;Chernigov to Kiev
-963;961;sea;0;0;Poltava to Cherkassy
-963;971;sea;0;0;Poltava to Krivoy Rog
-963;972;sea;0;0;Poltava to Yekaterinoslav
-974;972;sea;0;0;Bachmut to Yekaterinoslav
-973;972;sea;0;0;Melitopol to Yekaterinoslav
-973;971;sea;0;0;Melitopol to Krivoy Rog
-973;970;sea;0;0;Melitopol to Nikolaev
-965;970;sea;0;0;Kherson to Nikolaev
-;;;;;
-#Volga;;;;;
-1000;999;sea;0;0;Staritsa to Rzhev
-1000;1014;sea;0;0;Staritsa to Vyazma
-1000;1009;sea;0;0;Staritsa to Borodino
-998;1009;sea;0;0;Tver to Borodino
-998;1013;sea;0;0;Tver to Vladimir 
-998;1001;sea;0;0;Tver to Yaroslavl
-989;1001;sea;0;0;Vologda to Yaroslavl
-1023;1001;sea;0;0;Kostorma to Yaroslavl
-1023;1022;sea;0;0;Kostorma to Ivanovo
-1027;1022;sea;0;0;Vetluga to Ivanovo
-1027;1020;sea;0;0;Vetluga to Nizhni Novgorod
-1032;1030;sea;0;0;Chistopol to Kazan
-1034;1033;sea;0;0;Samara to Simbirsk
-1034;1035;sea;0;0;Samara to Syzran
-1043;1035;sea;0;0;Busuluk to Syzran
-1043;1037;sea;0;0;Busuluk to Saratov
-1038;1037;sea;0;0;Novo Uzensk to Saratov
-1040;1037;sea;0;0;Zarevka to Saratov
-1040;1039;sea;0;0;Zarevka to Volga
-1040;1041;sea;0;0;Zarevka to Elista
-1036;1041;sea;0;0;Astrakhan to Elista
-;;;;;
-#Heilong Jiang/Amur;;;;;
-1078;1002;sea;0;0;Chita to Manzhouli
-1078;1553;sea;0;0;Chita to Aigun
-1081;1553;sea;0;0;Yakesa to Aigun
-2697;1553;sea;0;0;Jingkiri to Aigun
-1085;1553;sea;0;0;Hailanpao to Aigun
-2617;1553;sea;0;0;Saghalian Oula to Aigun
-2617;1552;sea;0;0;Saghalian Oula to Qiqihar
-2617;1554;sea;0;0;Saghalian Oula to Ninguta
-2617;1083;sea;0;0;Saghalian Oula to Boli
-1084;1083;sea;0;0;Utchan to Boli
-;;;;;
-#Liao;;;;;
-1534;1613;sea;0;0;Ulaan Chab Chuulghan to Chengde
-1533;1613;sea;0;0;Jirim Chuulgan to Chengde
-1533;1480;sea;0;0;Jirim Chuulgan to Jinzhou
-1479;1480;sea;0;0;Mukden to Jinzhou
-;;;;;
-#Amnok-Duman;;;;;
-1479;1620;sea;0;0;Mukden to Chonchon
-1555;1620;sea;0;0;Jilin to Chonchon
-1555;1623;sea;0;0;Jilin to Kimchaek
-1555;1622;sea;0;0;Jilin to Chongjin
-1554;1622;sea;0;0;Ninguta to Chongjin
-1082;1622;sea;0;0;Haishenwai to Chongjin
-;;;;;
-#Yellow;;;;;
-1557;1558;sea;0;0;Xining to Kegudo
-1557;1582;sea;0;0;Xining to Longan
-1557;1489;sea;0;0;Xining to Gongchang
-1490;1489;sea;0;0;Lanzhou to Gongchang
-1490;1491;sea;0;0;Lanzhou to Ningxia
-1535;1491;sea;0;0;Yeke Juu Chuulghan to Ningxia
-1532;1491;sea;0;0;Guihua Tumed to Ningxia
-1572;1561;sea;0;0;Taiyuan to Yenan
-1573;1561;sea;0;0;Fenzhou to Yenan
-1575;1561;sea;0;0;Pingyang to Yenan
-1575;2062;sea;0;0;Pingyang to Shangzhou
-1575;1510;sea;0;0;Pingyang to Luoyang
-1511;1510;sea;0;0;Zhengzhou to Luoyang
-1511;1508;sea;0;0;Zhengzhou to Kaifeng
-1515;1508;sea;0;0;Weihou to Kaifeng
-1515;1564;sea;0;0;Weihou to Caozhou
-1515;1568;sea;0;0;Weihou to Taian
-1563;1568;sea;0;0;Jinan to Taian
-1570;1567;sea;0;0;Wuding to Qingzhou
-;;;;;
-#Yangtze;;;;;
-1585;1601;sea;0;0;Yibin to Kunming
-1585;1505;sea;0;0;Yibin to Guiyang
-1583;1577;sea;0;0;Shunqing to Chongqing
-1581;1577;sea;0;0;Kuizhou to Chongqing
-1520;1521;sea;0;0;Jingzhou to Shinan
-1520;1528;sea;0;0;Jingzhou to Yuezhou
-1516;1528;sea;0;0;Hanyang to Yuezhou
-1516;1522;sea;0;0;Hanyang to Wuchang 
-1518;1522;sea;0;0;Huangzhou to Wuchang
-1518;1549;sea;0;0;Huangzhou to Jiujiang
-1470;1549;sea;0;0;Anqing to Jiujiang 
-1470;1471;sea;0;0;Anqing to Chizhou
-1474;1471;sea;0;0;Luzhou to Chizhou
-1474;1475;sea;0;0;Luzhou to Ningguo
-1477;1475;sea;0;0;Taiping to Ninggou
-1477;2221;sea;0;0;Taiping to Nanjing
-1543;2221;sea;0;0;Yangzhou to Nanjing
-1543;1544;sea;0;0;Yangzhou to Zhenjiang
-1541;1544;sea;0;0;Tongzhou to Zhenjiang
-1541;1537;sea;0;0;Tongzhou to Changzhou
-;;;;;
-#Pearl;;;;;
-1505;1502;sea;0;0;Guiyang to Nanning
-1503;1502;sea;0;0;Guilin to Nanning
-1504;1495;sea;0;0;Pingle to Maoming
-1504;1501;sea;0;0;Pingle to Zhaoqing
-1493;1501;sea;0;0;Canton to Zhaoqing
-1493;1498;sea;0;0;Canton to Macao
-;;;;;
-#Mekong;;;;;
-1603;1338;sea;0;0;Puer to Taunggyi
-1356;1338;sea;0;0;Luang Prabang to Taunggyi
-1356;2572;sea;0;0;Luang Prabang to Nan
-1356;1360;sea;0;0;Luang Prabang to Xiangabouli
-1357;1360;sea;0;0;Vientiane to Xiangabouli
-1357;1358;sea;0;0;Vietniane to Udon Thani
-1361;1358;sea;0;0;Savannakhet to Udon Thani
-1361;1359;sea;0;0;Savannakhet to Sisaket
-1362;1359;sea;0;0;Salavan to Sisaket
-1363;1359;sea;0;0;Pakse to Sisaket
-1363;1366;sea;0;0;Pakse to Battambang
-1368;1364;sea;0;0;Stongtreng to Phnom Penh
-1368;1367;sea;0;0;Stongtreng to Kampot
-1368;1382;sea;0;0;Stongtreng to H� Tien
-1381;1382;sea;0;0;Dong Quai to H� Tien
-1380;1382;sea;0;0;Saigon to H� Tien
-1380;1383;sea;0;0;Saigon to Vinhlong
-;;;;;
-#Ganges;;;;;
-1239;1236;sea;0;0;Meerut to Delhi
-1239;1240;sea;0;0;Meerut to Agra
-1242;1240;sea;0;0;Lucknow to Agra
-1242;1241;sea;0;0;Lucknow to Cawnpore
-1242;1243;sea;0;0;Lucknow to Allahabad
-1244;1243;sea;0;0;Fyzabad to Allahabad
-1246;1245;sea;0;0;Gorakphur to Benares
-1246;1248;sea;0;0;Gorakphur to Gaya
-1247;1248;sea;0;0;Patna to Gaya
-1250;1248;sea;0;0;Bhagalpur to Gaya
-1250;1253;sea;0;0;Bhagalpur to Bardwan
-1252;1253;sea;0;0;Darjeeling to Bardwan
-1255;1253;sea;0;0;Rajshahi to Bardwan
-1255;1256;sea;0;0;Rajshahi to Jessore
-1254;1256;sea;0;0;Dacca to Jessore
-1256;1253;sea;0;0;Jessore to Bardwan
-1256;1251;sea;0;0;Jessore to Calcutta
-;;;;;
-#Indus;;;;;
-1235;1226;sea;0;0;Simla to Leh
-1224;1226;sea;0;0;Srinagar to Leh
-1224;1225;sea;0;0;Srinagar to Gilgit
-1224;1223;sea;0;0;Srinagar to Chitral
-1230;1218;sea;0;0;Attock to Peshawar
-1232;1218;sea;0;0;Shahpur to Peshawar
-1232;1219;sea;0;0;Shahpur to Quetta
-1228;1219;sea;0;0;Multan to Quetta
-1231;1219;sea;0;0;Bahawalpur to Quetta
-1231;1221;sea;0;0;Bahawalpur to Kalat
-1289;1221;sea;0;0;Sukkur to Kalat
-1290;1221;sea;0;0;Umerkot to Kalat
-1290;1288;sea;0;0;Umerkot to Karachi
-1293;1288;sea;0;0;Mandvi to Karachi
-;;;;;
-#Tigris-Euphrates;;;;;
-888;889;sea;0;0;Justinianopolis to Malatya
-893;889;sea;0;0;Diyarbakir to Malatya
-899;889;sea;0;0;Urfa to Malatya
-899;898;sea;0;0;Urfa to Antep
-901;897;sea;0;0;Raqqah to Aleppo
-901;907;sea;0;0;Raqqah to Deir ez-Zor
-901;931;sea;0;0;Raqqah to Rutbah
-927;931;sea;0;0;Samara to Rutbah
-927;929;sea;0;0;Samara to Karbala
-926;929;sea;0;0;Ctesiphon to Karbala
-930;929;sea;0;0;Kut to Karbala
-930;934;sea;0;0;Kut to Samawah
-930;933;sea;0;0;Kut to Nasiriyya
-924;1813;sea;0;0;Rewanduz to Hasakah
-924;923;sea;0;0;Rewanduz to Mosul
-925;923;sea;0;0;Sulaymania to Mosul
-925;927;sea;0;0;Sulaymania to Samarra
-928;927;sea;0;0;Baqubah to Samarra
-928;926;sea;0;0;Baqubah to Ctesiphon
-1133;930;sea;0;0;Dezful to Kut
-1131;930;sea;0;0;Ahvaz to Kut
-1131;933;sea;0;0;Ahvaz to Nasiriyya
-1132;932;sea;0;0;Abadan to Basra
-;;;;;
-#Nile;;;;;
-1998;2021;sea;0;0;Baramo to Masindi
-1998;1846;sea;0;0;Baramo to Lado
-1845;1846;sea;0;0;Bahr al Ghazal to Lado
-1843;1844;sea;0;0;Waw to Bor
-1840;1843;sea;0;0;Kaduqli to Waw
-1840;1844;sea;0;0;Kaduqli to Bor
-1844;1832;sea;0;0;Bor to Fashoda
-1840;1832;sea;0;0;Kaduqli to Fashoda
-1831;1832;sea;0;0;Rabak to Fashoda
-1831;1830;sea;0;0;Rabak to Sennar
-1827;1828;sea;0;0;Khartoum to Wad Madani
-1863;1855;sea;0;0;Jimma to Debre Markos
-1863;1854;sea;0;0;Jimma to Matamma
-1830;1854;sea;0;0;Sennar to Matamma
-1830;1829;sea;0;0;Sennar to Kassala
-1828;1829;sea;0;0;Wad Madani to Kassala
-1827;1829;sea;0;0;Khartoum to Kassala
-1837;1829;sea;0;0;Atbara to Kassala
-1837;1836;sea;0;0;Atbara to Hayya
-1837;1835;sea;0;0;Atbara to Dongola 
-2564;1835;sea;0;0;Salima to Dongola
-1806;1766;sea;0;0;Bayuda to Aswan
-1806;1768;sea;0;0;Bayuda to Idfu
-1767;1768;sea;0;0;Luxor to Idfu
-1767;1769;sea;0;0;Luxor to Qina
-1762;2559;sea;0;0;Asyut to Suhaj
-1762;1764;sea;0;0;Asyut to Minya
-1765;1764;sea;0;0;Fayyum to Minya
-1765;1763;sea;0;0;Fayyum to Bani Suwayf
-1750;1745;sea;0;0;Giza to Cairo
-1747;1745;sea;0;0;Tanta to Cairo
-1747;1748;sea;0;0;Tanta to Mansura
-1751;1746;sea;0;0;Alexandra to Dumyat
-1745;1749;sea;0;0;Cairo to Ziqaziq
-1748;1749;sea;0;0;Mansura to Ziqaziq
-1746;1755;sea;0;0;Dumyat to Suez
-;;;;;
-#Congo;;;;;
-1992;1996;sea;0;0;Basoko to Kisangani
-1993;1995;sea;0;0;Irebu to Gemena
-1993;1980;sea;0;0;Irebu to Djambala
-1993;1977;sea;0;0;Irebu to Nkuna
-1982;1977;sea;0;0;Kinshasa to Nkuna
-1982;1983;sea;0;0;Kinshasa to Boma
-2001;1983;sea;0;0;Mbanza to Boma
-;;;;;
-#Niger;;;;;
-1881;1794;sea;0;0;Dinguiraye to Bamako
-1798;1794;sea;0;0;Bougouni to Bamako
-1801;1794;sea;0;0;Mourdiah to Bamako
-1801;1800;sea;0;0;Mourdiah to Segu
-1802;1800;sea;0;0;Jenne to Segu
-1802;1804;sea;0;0;Jenne to Bandiagara
-1802;1805;sea;0;0;Jenne to Gao
-1803;1805;sea;0;0;Timbuktu to Gao
-1807;1805;sea;0;0;Tessalit to Gao
-1808;1809;sea;0;0;Niamey to Say
-1810;1809;sea;0;0;Dosso to Say
-1810;1921;sea;0;0;Dosso to Nikki
-1946;1938;sea;0;0;Kebbi to Bussa
-1940;1938;sea;0;0;Bida to Bussa
-1940;1927;sea;0;0;Bida to Ilorin
-1940;1929;sea;0;0;Bida to Akure
-1941;1929;sea;0;0;Abuja to Akure
-1930;1929;sea;0;0;Idah to Akure
-1930;1928;sea;0;0;Idah to Benin
-1933;1928;sea;0;0;Awka to Benin
-1933;1931;sea;0;0;Awka to Warri
-1933;1932;sea;0;0;Awka to Bonny
-1932;1931;sea;0;0;Bonny to Warri
-1931;1928;sea;0;0;Warri to Benin
-;;;;;
-#Uruguay;;;;;
-2463;2459;sea;0;0;Porto Allegre to Lajes
-2465;2459;sea;0;0;Passo Fundo to Lajes
-2465;2462;sea;0;0;Passo Fundo to Sao Miguel
-2465;2554;sea;0;0;Passo Fundo Misiones
-2465;2358;sea;0;0;Passo Fundo to Santo Tom�s
-2466;2358;sea;0;0;Santa Maria to Santo Tom�s
-2467;2358;sea;0;0;Alegrete to Santo Tom�s
-2467;2357;sea;0;0;Alegrete to Sligeach
-2345;2357;sea;0;0;Lagair to Sligeach
-2345;2359;sea;0;0;Lagair to Calanair
-;;;;;
-#Paraguay;;;;;
-2419;2318;sea;0;0;Corumb� to Robor�
-2419;2338;sea;0;0;Corumb� to Puerto Guaran�
-2416;2338;sea;0;0;Dourados to Puerto Guaran�
-2420;2338;sea;0;0;Iguatemi to Puerto Guaran�
-2343;2338;sea;0;0;Concepci�n to Puerto Guaran�
-2343;2337;sea;0;0;Concepci�n to Fortin Falcon
-2342;2337;sea;0;0;Sao Pedro to Fortin Falcon
-2339;2337;sea;0;0;Asuncion to Fortin Falcon
-2337;2372;sea;0;0;Fortin Falcon to Rivadavia
-2337;2367;sea;0;0;Fortin Falcon to Xolotas
-2337;2366;sea;0;0;Fortin Falcon to Formosa
-2339;2366;sea;0;0;Asuncion to Formosa
-2340;2366;sea;0;0;Pilar to Formosa
-2340;2364;sea;0;0;Pilar to Resistencia
-2356;2364;sea;0;0;Corrientes to Resistencia
-2356;2362;sea;0;0;Corrientes to Reconquista
-2357;2362;sea;0;0;Sligeach Nua to Reconquista
-2357;2361;sea;0;0;Sligeach Nua to Spiorad Naomh
-2359;2361;sea;0;0;Calanair to Spiorad Naomh
-2360;2361;sea;0;0;Paranair to Spiorad Naomh
-2360;2363;sea;0;0;Paranair to Rhysair
-2360;2349;sea;0;0;Paranair to Junair
-2360;2348;sea;0;0;Paranair to Padraigair
-;;;;;
-#Amazonas;;;;;
-2288;2286;sea;0;0;Yuncos to Iquitos
-2289;2286;sea;0;0;Puca Urco to Iquitos
-2263;2286;sea;0;0;El Encanto to Iquitos
-2401;2407;sea;0;0;Marabitanas to Tabatinga
-2403;2407;sea;0;0;Cachoeira to Tabatinga
-2403;2404;sea;0;0;Cachoeira to Tefe
-2402;2404;sea;0;0;Manaus to Tefe
-2312;2311;sea;0;0;Oruro to Cochabamba
-2310;2311;sea;0;0;Tiwanaku to Cochabamba
-2321;2319;sea;0;0;Cobija to Santa Ana
-2321;2550;sea;0;0;Cobija to Forte de Principe
-2404;2550;sea;0;0;Tefe to Forte de Principe
-2404;2405;sea;0;0;Tefe to Borba
-2402;2405;sea;0;0;Manaus to Borba
-2402;2411;sea;0;0;Manaus to Santar�m
-2412;2411;sea;0;0;Obidos to Santar�m
-2412;2410;sea;0;0;Obidos to Bel�m
-;;;;;
-#Orinoco;;;;;
-2278;2532;sea;0;0;San Fernando de Atabapo to Forte Sao Joaqu�m
-2278;2277;sea;0;0;San Fernando de Atabapo to El Jobal
-2261;2277;sea;0;0;Obando to El Jobal
-2262;2277;sea;0;0;Casanare to El Jobal
-2274;2277;sea;0;0;Barinas to El Jobal
-2266;2277;sea;0;0;Calabozo to El Jobal
-2266;2275;sea;0;0;Calabozo to Angostura
-2276;2275;sea;0;0;Curiapo to Angostura
-2276;2243;sea;0;0;Curiapo to Essequibo
-;;;;;
-#Rio Grande;;;;;
-2148;105;sea;0;0;Albuquerque to Santa Fe
-2662;105;sea;0;0;Animas to Santa Fe
-2662;136;sea;0;0;Animas to El Paso
-2143;136;sea;0;0;Ciudad Juarez to El Paso
-2144;136;sea;0;0;Delicias to El Paso
-2147;136;sea;0;0;Ciudad Acuna to El Paso
-2147;138;sea;0;0;Ciudad Acuna to Laredo
-2149;138;sea;0;0;Matamoros to Laredo
-;;;;;
-#St. Lawrence;;;;;
-56;239;sea;0;0;Ceudiaco to Puthem
-56;66;sea;0;0;Ceudiaco to Abewoude
-58;66;sea;0;0;Nieuw Vene to Abewoude
-64;66;sea;0;0;Bambrug to Abewoude
-65;66;sea;0;0;Waetriloe to Abewoude
-65;67;sea;0;0;Waetriloe to Rimouski
-;;;;;
-#Mississippi;;;;;
-218;178;sea;0;0;Becancour to Risnen
-218;183;sea;0;0;Becancour to Maeslandtsluis
-185;183;sea;0;0;Mont-Tremblant to Maeslandtsluis
-186;182;sea;0;0;Phillipeville to Marelo
-184;182;sea;0;0;Louisbourg to Marelo
-184;169;sea;0;0;Louisbourg to Vehchele
-184;170;sea;0;0;Louisbourg to Vrachel
-187;170;sea;0;0;Laval to Vrachel
-187;168;sea;0;0;Laval to Olney
-165;164;sea;0;0;Wederden to Subenhara
-165;166;sea;0;0;Wederden to Peoria
-167;166;sea;0;0;Springfield to Peoria
-160;155;sea;0;0;Superior to Fort Snelling
-162;155;sea;0;0;Tilliburgis to Fort Snelling
-162;153;sea;0;0;Tilliburgis to Cedar Rapids
-164;153;sea;0;0;Subenhara to Cedar Rapids
-166;153;sea;0;0;Peoria to Cedar Rapids
-166;152;sea;0;0;Peoria to Oskaloosa
-166;150;sea;0;0;Peoria to Kansas City
-118;119;sea;0;0;Fort James to Fort Union
-117;119;sea;0;0;Fort Clark to Fort Union
-120;121;sea;0;0;Fort Kiowa to Fort Cedar
-120;122;sea;0;0;Fort Kiowa to Fort Pierre
-120;124;sea;0;0;Fort Kiowa to Bordeaux's Post 
-120;123;sea;0;0;Fort Kiowa to Fort Robidoux
-154;123;sea;0;0;Sioux City to Fort Robdioux
-151;123;sea;0;0;Des Moines to Fort Robidoux
-150;123;sea;0;0;Kansas City to Fort Robidoux
-150;126;sea;0;0;Kansas City to Fort Leavenworth
-150;149;sea;0;0;Kansas City to Jefferson City
-150;146;sea;0;0;Kansas City to St Louis
-167;146;sea;0;0;Springfield to St Louis
-167;148;sea;0;0;Springfield to Malden
-168;148;sea;0;0;Olney to Malden
-187;148;sea;0;0;Laval to Malden
-189;148;sea;0;0;Richelieu to Malden
-189;143;sea;0;0;Richelieu to Little Rock
-193;143;sea;0;0;Branville to Little Rock
-130;129;sea;0;0;Fort Gibson to Guymon
-130;131;sea;0;0;Fort Gibson to Fort Washita
-145;144;sea;0;0;Fayetteville to Hotsprings
-143;144;sea;0;0;Little Rock to Hotsprings
-193;142;sea;0;0;Branville to Shreveport
-192;142;sea;0;0;Rosalie to Shreveport
-129;134;sea;0;0;Guymon to Fort Parker
-131;134;sea;0;0;Fort Washita to Fort Parker
-131;43;sea;0;0;Fort Parker to Clarksville
-144;43;sea;0;0;Hot Springs to Clarksville
-142;43;sea;0;0;Shreveport to Clarksville
-142;141;sea;0;0;Shreveport to Lake Charles
-140;139;sea;0;0;Baton Rouge to Nouvelle Orleans
-139;142;sea;0;0;Nouvelle Orleans to Shreveport
-139;141;sea;0;0;Nouvelle Orleans to Lake Charles
-;;;;;
-#River Impassability;;;;;
-2775;3333;impassable;0;0;Danube
-2748;3344;impassable;0;0;Ebro
-2761;3343;impassable;0;0;Po
-2749;3342;impassable;0;0;Rhone
-2728;3341;impassable;0;0;Loire
-2724;3340;impassable;0;0;Seine
-2723;3335;impassable;0;0;Rhine
-2721;3336;impassable;0;0;Elbe
-2710;3337;impassable;0;0;Oder
-2710;3338;impassable;0;0;Vistula
-2709;3346;impassable;0;0;Daugava
-2775;3345;impassable;0;0;Dniepr
-2779;3347;impassable;0;0;Volga
-2832;3348;impassable;0;0;Heilong Jiang/Amur
-2828;3350;impassable;0;0;Liao
-2828;3349;impassable;0;0;Amnok-Duman West
-2830;3349;impassable;0;0;Amnok-Duman East
-2828;3351;impassable;0;0;Yellow
-2826;3352;impassable;0;0;Yangtze
-2824;3353;impassable;0;0;Pearl
-2817;3354;impassable;0;0;Mekong
-2796;3355;impassable;0;0;Ganges
-2789;3356;impassable;0;0;Indus
-2788;3357;impassable;0;0;Tigris-Euphrates
-2768;3358;impassable;0;0;Nile West
-2769;3358;impassable;0;0;Nile East
-2917;3359;impassable;0;0;Congo
-2918;3360;impassable;0;0;Niger
-2989;3361;impassable;0;0;Uruguay
-2989;3362;impassable;0;0;Paraguay
-2982;3363;impassable;0;0;Amazonas
-2975;3364;impassable;0;0;Orinoco
-2961;3365;impassable;0;0;Rio Grande
-2960;3366;impassable;0;0;Mississippi
-2943;3367;impassable;0;0;St. Lawrence Ocean
-3112;3367;impassable;0;0;St. Lawrence Great Lakes
+2773;2774;canal;860;4;Bosphorus Strait
+2772;2773;canal;859;5;Dardanelles Strait
+3333;2711;canal;372;6;Norse Straits #Kopenhagen
+3333;2832;canal;372;7;Norse Straits #Kopenhagen
+2747;2746;canal;517;8;Strait of Gibraltar #Gibraltar
+2925;2746;canal;1686;9;Strait of Gibraltar #Tangier
+2776;2777;canal;966;10;Kerch Strait #Kerch
+2801;3334;canal;1402;11;Johor Strait
+2814;3334;canal;1402;12;Johor Strait

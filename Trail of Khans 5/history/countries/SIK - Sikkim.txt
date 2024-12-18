@@ -47,8 +47,7 @@ upper_house = {
     communist = 0
 }
 
-decision = LITERACY_1836_SETUP
-
 oob = "SIK_oob.txt"
-
  
+decision = literacy_setup_1836
+decision = canal_setup

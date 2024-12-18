@@ -1,7 +1,7 @@
-owner = TKM
-controller = TKM
+owner = SVF
+controller = SVF
+add_core = SVF
 add_core = TKM
 add_core = KHI
-terrain = desert
 trade_goods = opium
 life_rating = 15

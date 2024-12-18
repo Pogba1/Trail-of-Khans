@@ -2,6 +2,10 @@ BUK = {
     value = 50
 }
 
+PNJ = {
+    truce_until = "1840.1.1"
+}
+
 KHI = { value = 300 }
 
 leader = {

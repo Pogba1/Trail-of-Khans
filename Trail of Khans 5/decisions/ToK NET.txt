@@ -59,23 +59,6 @@ political_decisions = {
 		}
 	}
 	
-	integrate_picards = {
-		potential = {
-		tag = NET
-		NOT = {has_country_flag = integrate_picards}
-		}
-		allow = {
-			war = no
-		    state_n_government = 1
-			FRA_404 = {owned_by = THIS}
-		}
-		effect = {
-		set_country_flag = integrate_picards
-		add_accepted_culture = picard
-		FRA_404 = {add_core = THIS}
-		}
-	}
-	
 	end_the_javanese_sultanates = {
         picture = map_java
         potential = {

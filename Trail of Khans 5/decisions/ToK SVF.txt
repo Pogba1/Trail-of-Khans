@@ -10,58 +10,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = conquer_caucasus_svf
-			PNT = { all_core = { add_core = THIS } }
-			
-		}
-	}
-	destroy_turkmenistan = {
-		picture = "destroy_turkmenistan"
-		potential = {
-			tag = SVF
-			NOT = {has_country_flag = destroy_turkmenistan}
-		}
-		allow = {
-			all_core = {owned_by = THIS}
-			1148 = {owned_by = THIS}
-		}
-		effect = {
-		set_country_flag = destroy_turkmenistan
-			TKM = {all_core = {add_core = THIS}}
-		}
-	}
-	integrate_turkmen = {
-		picture = "unite_turkestan"
-		potential = {
-			tag = SVF
-			has_country_flag = destroy_turkmenistan
-			NOT = {has_country_flag = integrate_turkmen}
-		}
-		allow = {
-			TKM = {all_core = {owned_by = THIS}}
-		}
-		effect = {
-		set_country_flag = integrate_turkmen
-			add_accepted_culture = turkmen
-		}
-	
-	}
-	push_east_svf = {
-		picture = "push_east"
-		potential = {
-			tag = SVF
-			has_country_flag = destroy_turkmenistan
-			NOT = {has_country_flag = push_east_svf}
-		}
-		allow = {
-			all_core = {owned_by = THIS}
-			1144 = {owned_by = THIS}
-		}
-		effect = {
-		set_country_flag = push_east_svf
-			BLC = {all_core = {add_core = THIS}}
-			AFG = {all_core = {add_core = THIS}}
-			add_accepted_culture = pashtun
-			add_accepted_culture = baluchi
+			PNT = { all_core = { add_core = THIS } }			
 		}
 	}
 	integrate_kurds = {
@@ -75,6 +24,24 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = kurdish
 			prestige = 10
+		}
+	}
+	conquest_of_north_caucasia = {
+		potential = {
+			tag = SVF
+			NOT = { has_country_flag = north_caucasian_conquest }
+		}
+		allow = {
+			RUS_1052 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			prestige = 25
+			RUS_1052 = {
+				add_core = THIS
+			}
+			set_country_flag = north_caucasian_conquest
 		}
 	}
 }

@@ -1,6 +1,6 @@
 capital = 375
 primary_culture = dutch
-#culture = flemish
+culture = picard
 culture = boer
 culture = tasmanian
 religion = protestant
@@ -98,3 +98,4 @@ nonstate_consciousness = 1
 oob = "NET_oob.txt"
 
  
+decision = literacy_setup_1836

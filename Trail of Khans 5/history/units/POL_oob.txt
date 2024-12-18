@@ -1,11 +1,13 @@
 #Sphere of Influence
 
 SLS = {
+    military_access = yes
     value = 125
     level = 5
     influence_value = 100
 }
 HUN = {
+    military_access = yes
     value = 125
     level = 5
     influence_value = 100

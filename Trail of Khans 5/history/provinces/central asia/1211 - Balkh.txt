@@ -1,6 +1,7 @@
-owner = AFG
-controller = AFG
+owner = SVF
+controller = SVF
 add_core = AFG
+add_core = SVF
 terrain = dryhills
 trade_goods = grain
 life_rating = 35
