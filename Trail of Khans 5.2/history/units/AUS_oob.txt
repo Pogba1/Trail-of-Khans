@@ -9,6 +9,7 @@ TIR = {
     level = 5 
     influence_value = 100
 }
+
 leader = {
     name = "Josef Radetzky"
     date = 1830.1.1
@@ -120,6 +121,11 @@ army = {
 		home = 629
 	}
 	regiment = {
+		name = "2rd artillery Brigade"		
+		type = artillery
+		home = 618
+	}
+	regiment = {
 		name = "3rd Infantry Brigade"		
 		type = infantry
 		home = 627
@@ -228,6 +234,62 @@ army = {
 		name = "1st Infantry Brigade"
 		type = infantry
 		home = 768
+	}
+}
+
+army = {
+	name = "Einsatzgruppen"
+	location = 630
+	
+	regiment = {
+		name = "Adolf Hitler Corps"
+		type = guard
+		home = 595
+	}
+	regiment = {
+		name = "1st SS division"
+		type = guard
+		home = 595
+	}
+	regiment = {
+		name = "2nd SS division"
+		type = infantry
+		home = 595
+	}
+	regiment = {
+		name = "3rd SS division"
+		type = infantry
+		home = 617
+	}
+	regiment = {
+		name = "Dirlewanger Brigade"
+		type = hussar
+		home = 598
+	}
+	regiment = {
+		name = "1. Cannonier Battalion"
+		type = artillery
+		home = 617
+	}
+	regiment = {
+		name = "2. Cannonier Battalion"
+		type = artillery
+		home = 598
+	}
+	regiment = {
+		name = "3. Cannonier Battalion"
+		type = artillery
+		home = 616
+	}
+	regiment = {
+		name = "4. Cannonier Battalion"
+		type = artillery
+		home = 598
+	}
+	regiment = {
+		name = "5. Cannonier Battalion"
+		type = artillery
+		home = 618
 	}
 }
 	

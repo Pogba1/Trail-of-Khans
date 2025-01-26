@@ -4955,7 +4955,7 @@
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 2000
+        size = 10100
     }
 
     farmers = {
@@ -4982,12 +4982,6 @@
         size = 5500
     }
 
-    soldiers = {
-        culture = south_german
-        religion = protestant
-        size = 1500
-    }
-
     farmers = {
         culture = south_german
         religion = protestant
@@ -5002,12 +4996,6 @@
     }
 
     officers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    soldiers = {
         culture = ashkenazi
         religion = jewish
         size = 100
@@ -5119,7 +5107,7 @@
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 600
+        size = 8900
     }
 
     farmers = {
@@ -5138,12 +5126,6 @@
         culture = south_german
         religion = protestant
         size = 4900
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = protestant
-        size = 900
     }
 
     farmers = {

@@ -61,6 +61,7 @@ political_decisions = {
 				add_core = RUS
 			}
 			change_tag = RUS
+			add_accepted_culture = byelorussian
 			any_country = {
            		limit = {
 					OR = {

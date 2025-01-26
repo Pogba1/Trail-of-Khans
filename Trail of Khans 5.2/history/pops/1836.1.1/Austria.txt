@@ -406,12 +406,6 @@
         size = 3900
     }
 
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 700
-    }
-
     craftsmen = {
         culture = czech
         religion = catholic
@@ -444,7 +438,7 @@
     soldiers = {
         culture = czech
         religion = catholic
-        size = 1100
+        size = 3000
     }
 
     farmers = {
@@ -463,12 +457,6 @@
         culture = south_german
         religion = catholic
         size = 950
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size = 1200
     }
 
     farmers = {
