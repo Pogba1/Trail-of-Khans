@@ -4,17 +4,4 @@ add_core = LUB
 add_core = GER
 add_core = POM
 trade_goods = grain
-life_rating = 39
-naval_base = 2
-
-state_building = {
-    level = 1
-	building = artillery_factory
-	upgrade = yes
-}  
-
-state_building = {
-	level = 1
-	building = clipper_shipyard
-	upgrade = yes
-}
+life_rating = 37

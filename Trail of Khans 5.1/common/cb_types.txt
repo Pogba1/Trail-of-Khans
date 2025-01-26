@@ -3453,6 +3453,27 @@ demand_concession_casus_belli_tiny = {
 		any_owned_province = {
 			is_core = TIN
 			is_colonial = no
+			OR = { 
+				NOT = {
+					is_core = CHI
+				}
+				state_id = CHI_1485
+				state_id = CHI_1496
+				state_id = CHI_1498
+				state_id = CHI_1499
+				owner = {
+					NOT = {
+						primary_culture = beifaren
+						primary_culture = nanfaren
+						primary_culture = hakka
+						primary_culture = min
+						primary_culture = yue
+						primary_culture = yi
+						primary_culture = zhuang
+						primary_culture = miao
+					}
+				}
+			}
 		}
 	}
 	
@@ -3528,6 +3549,9 @@ demand_concession_casus_belli_small = {
 		any_owned_province = {
 			is_core = SMA
 			is_colonial = no
+			NOT = {
+				is_core = CHI
+			}
 		}
 	}
 	
@@ -3603,6 +3627,9 @@ demand_concession_casus_belli_medium = {
 		any_owned_province = {
 			is_core = MED
 			is_colonial = no
+			NOT = {
+				is_core = CHI
+			}
 		}
 	}
 	
@@ -3678,6 +3705,9 @@ demand_concession_casus_belli_large = {
 		any_owned_province = {
 			is_core = LRG
 			is_colonial = no
+			NOT = {
+				is_core = CHI
+			}
 		}
 	}
 	
@@ -3753,6 +3783,9 @@ demand_concession_casus_belli_huge = {
 		any_owned_province = {
 			is_core = HUG
 			is_colonial = no
+			NOT = {
+				is_core = CHI
+			}
 		}
 	}
 	
@@ -3824,6 +3857,21 @@ establish_protectorate_casus_belli = {
 				primary_culture = hausa
 			}
 		}
+		NOT = {
+			OR = {
+				primary_culture = beifaren
+				primary_culture = nanfaren
+				primary_culture = hakka
+				primary_culture = min
+				primary_culture = yue
+				primary_culture = yi
+				primary_culture = zhuang
+				primary_culture = miao
+			}
+			any_owned_province = {
+				is_core = CHI
+			}
+		}
 		civilized = no
 	}
 	
@@ -3888,6 +3936,21 @@ establish_protectorate_NI_casus_belli = {
 				primary_culture = hausa
 			}
 		}
+		NOT = {
+			OR = {
+				primary_culture = beifaren
+				primary_culture = nanfaren
+				primary_culture = hakka
+				primary_culture = min
+				primary_culture = yue
+				primary_culture = yi
+				primary_culture = zhuang
+				primary_culture = miao
+			}
+			any_owned_province = {
+				is_core = CHI
+			}
+		}
 	}
 	
 	po_annex = yes
@@ -3935,6 +3998,21 @@ establish_protectorate_REV_casus_belli = {
 		civilized = no
 		NOT = {
 			number_of_states = 7
+		}
+		NOT = {
+			OR = {
+				primary_culture = beifaren
+				primary_culture = nanfaren
+				primary_culture = hakka
+				primary_culture = min
+				primary_culture = yue
+				primary_culture = yi
+				primary_culture = zhuang
+				primary_culture = miao
+			}
+			any_owned_province = {
+				is_core = CHI
+			}
 		}
 	}
 	

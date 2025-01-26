@@ -134,7 +134,6 @@ country_event = {
         }
         BHA = {
             release = BOH
-            release = AUS
             all_core = {
                 remove_core = BHA
             }

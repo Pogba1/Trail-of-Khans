@@ -3,21 +3,4 @@ controller = SAX
 add_core = SAX
 add_core = GER
 trade_goods = coal
-life_rating = 40
-state_building = {
-    level = 1
-    building = fabric_factory
-    upgrade = yes
-}
-
-state_building = {
-    level = 1
-    building = glass_factory
-    upgrade = yes
-}
-
-state_building = {
-    level = 1
-    building = steel_factory
-    upgrade = yes
-}
+life_rating = 37

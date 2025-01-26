@@ -3,9 +3,4 @@ controller = EAS
 add_core = EAS
 add_core = GER
 trade_goods = fish
-life_rating = 39
-state_building = {
-    level = 1
-    building = glass_factory
-    upgrade = yes
-}
+life_rating = 37

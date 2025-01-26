@@ -3,14 +3,4 @@ controller = POL
 add_core = POL
 add_core = PLC
 trade_goods = cattle
-life_rating = 40
-state_building = {
-    level = 1
-    building = canned_meat_factory
-    upgrade = yes
-}
-state_building = {
-    level = 1 
-    building = winery
-    upgrade = yes
-}
+life_rating = 35

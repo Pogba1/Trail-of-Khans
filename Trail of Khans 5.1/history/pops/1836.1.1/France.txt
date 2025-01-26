@@ -529,43 +529,43 @@
 #Strasbourg (552000/138000 POPS)
 409 = {
     aristocrats = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 300
     }
 
     officers = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 60
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 625
     }
 
     clergymen = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 375
     }
 
     artisans = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 5500
     }
 
     soldiers = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 350
     }
 
     farmers = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 56165
     }
@@ -695,42 +695,41 @@
 #Mulhausen (424000/106000 POPS)
 410 = {
 	craftsmen = {
-	culture = south_german
-	religion = catholic
-	size = 3500
-	
+        culture = french
+        religion = catholic
+        size = 3500
 	}
 	craftsmen = {
-	culture = french
-	religion = catholic
-	size = 2000
+        culture = french
+        religion = catholic
+        size = 2000
 	}
     aristocrats = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 300
     }
 
     clergymen = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 300
     }
 
     artisans = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 1500
     }
 
     soldiers = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 300
     }
 
     farmers = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 37600
     }
@@ -1000,7 +999,7 @@
     farmers = {
         culture = french
         religion = protestant
-        size = 6275
+        size = 66275
     }
 
     ######Jews
@@ -1032,25 +1031,25 @@
     #####
 
     aristocrats = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 450
     }
 
     clergymen = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 475
     }
 
     artisans = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 5500
     }
 
     soldiers = {
-        culture = south_german
+        culture = french
         religion = catholic
         size = 200
     }
@@ -1058,7 +1057,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 77775
+        size = 17775
     }
 }
 #Verdun (320000/80000 POPS)

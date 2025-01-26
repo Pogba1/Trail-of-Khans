@@ -192,9 +192,9 @@ FRA_400 = { 408 405 406 407 432 } #Champagne
 
 FRA_404 = { 399 400 401 404 } #Nord-Pas-De-Calais/Artois
 
-FRA_411 = { 411 413 414 } #Ardennes
+FRA_411 = { 411 412 413 414 } #Ardennes
 
-FRA_412 = { 409 410 412 } #Alsace
+FRA_412 = { 409 410 } #Alsace
 
 FRA_418 = { 418 416 417 } #Normandie
 
@@ -313,9 +313,9 @@ AUS_612 = { 612 613 614 615 735 } #Tirol
 
 AUS_613 = { 616 617 618 } #K�rnten-Steiermark
 
-AUS_619 = { 619 620 621 622 624 } #�sterreich
+AUS_619 = { 619 620 621 622 } #�sterreich
 
-AUS_623 = { 639 623 640 642 643 644 } #Transdanubia
+AUS_623 = { 639 623 624 640 642 643 644 } #Transdanubia
 
 AUS_625 = { 625 626 627 628 629 630 } #Bohemia
 
