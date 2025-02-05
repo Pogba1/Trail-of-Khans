@@ -31,21 +31,6 @@ political_decisions = {
 		}
     }
 
-	remove_ai_immigration = {
-		alert = no
-		potential = {
-			ai = no
-			NOT = {
-				has_global_flag = fuck_ai_immigration
-			}
-		}
-		allow = {
-		}
-		effect = {
-			set_global_flag = fuck_ai_immigration
-		}
-	}
-
     open_government_decision_menu = {
 		potential = {
 			NOT = {

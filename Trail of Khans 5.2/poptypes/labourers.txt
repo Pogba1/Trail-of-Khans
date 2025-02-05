@@ -76,11 +76,6 @@ country_migration_target =
 		unemployment = 0.5
 	}
 	modifier = {
-        factor = -10.0
-		has_global_flag = fuck_ai_immigration
-		ai = yes
-    }
-	modifier = {
 		factor = 0.1
 		nationalvalue = nv_liberty
 		NOT = {

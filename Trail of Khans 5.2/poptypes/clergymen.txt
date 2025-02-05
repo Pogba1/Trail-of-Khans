@@ -107,11 +107,6 @@ country_migration_target =
 #		has_country_flag = new_world_nation
 #		nationalvalue = nv_liberty
 #	}
-	modifier = {
-        factor = -10.0
-		has_global_flag = fuck_ai_immigration
-		ai = yes
-    }
 5	modifier = {
 		factor = 0.1
 		has_country_flag = new_world_nation

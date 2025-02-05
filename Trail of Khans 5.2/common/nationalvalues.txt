@@ -2,6 +2,7 @@ nv_order = {
 	land_organisation = 0.2
 	org_regain = 0.05
 	land_unit_start_experience = 25
+	mobilisation_size = 0.01
 }
 
 nv_liberty = {

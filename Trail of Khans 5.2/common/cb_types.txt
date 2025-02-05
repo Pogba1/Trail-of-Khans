@@ -39,7 +39,6 @@
 
 # Order that CBs are executed in a peace treaty
 peace_order = {
-roman_civil_war_cb
 chinese_unification_cb
 add_to_sphere 
 take_from_sphere
@@ -92,7 +91,6 @@ establish_protectorate_casus_belli
 establish_protectorate_NI_casus_belli
 establish_protectorate_REV_casus_belli
 unification_humiliate_cb
-unification_release_puppet_cb
 unification_casus_belli
 unification_annex_casus_belli
 rude_boy
@@ -102,61 +100,6 @@ uninstall_communist_gov_cb
 great_war_penalty_cb 
 negotiated_transfer_cb
 seperate_truce
-}
-
-roman_civil_war_cb = {
-	sprite_index = 5
-	is_triggered_only = yes
-	months = 12
-	constructing_cb = no
-
-	badboy_factor = 0
-	prestige_factor = 5
-	peace_cost_factor = 0.16
-	penalty_factor = 1
-	always = yes
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		has_global_flag = the_roman_civil_war
-		THIS = {
-			OR = {
-				tag = RMR
-				tag = BYZ
-			}
-		}
-		OR = {
-			primary_culture = roman
-			tag = BYZ
-		}
-		NOT = {
-			is_our_vassal = THIS
-		}
-		any_owned_province = {
-			OR = {
-				is_core = BYZ
-				is_core = RMR
-			}
-		}
-	}	
-
-	allowed_states = {
-		is_colonial = no
-	}
-
-	po_demand_state = yes
-	po_gunboat = yes
-	
-	war_name = WAR_TAKE_CORE_NAME
-
 }
 
 chinese_unification_cb = {
@@ -522,8 +465,6 @@ conquest = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 	
-	construction_speed = 0.5
-	
 	on_add = {
 		move_issue_percentage = { 
 			from = jingoism 
@@ -592,8 +533,6 @@ conquest_low = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
-	
-	construction_speed = 0.5
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -664,8 +603,6 @@ conquest_tiny = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 	
-	construction_speed = 0.5
-	
 	on_add = {
 		move_issue_percentage = { 
 			from = jingoism 
@@ -733,8 +670,6 @@ conquest_miniscule = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
-	
-	construction_speed = 0.5
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -2541,13 +2476,11 @@ war_reparations = {
 		war_with = THIS
 		NOT = {
 			is_our_vassal = THIS
-			has_country_modifier = neutrality
 			has_country_modifier = no_more_war
 			has_country_flag = in_great_war
 		}
 		THIS = {
 			civilized = yes
-			NOT = { has_country_modifier = neutrality }
 		}
 	}
 	
@@ -2612,7 +2545,7 @@ free_peoples_tiny = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT  tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA    tag = ROM tag = PLC } }
 			}
 		}
 		
@@ -2694,7 +2627,7 @@ free_peoples_small = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT  tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA    tag = ROM tag = PLC } }
 			}
 		}
 		
@@ -2776,7 +2709,7 @@ free_peoples_medium = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT  tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA    tag = ROM tag = PLC } }
 			}
 		}
 		
@@ -2858,7 +2791,7 @@ free_peoples_large = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT  tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA    tag = ROM tag = PLC } }
 			}
 		}
 		
@@ -2940,7 +2873,7 @@ free_peoples_huge = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT  tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA    tag = ROM tag = PLC } }
 			}
 		}
 		
@@ -3457,22 +3390,11 @@ demand_concession_casus_belli_tiny = {
 				NOT = {
 					is_core = CHI
 				}
-				state_id = CHI_1485
-				state_id = CHI_1496
-				state_id = CHI_1498
-				state_id = CHI_1499
-				owner = {
-					NOT = {
-						primary_culture = beifaren
-						primary_culture = nanfaren
-						primary_culture = hakka
-						primary_culture = min
-						primary_culture = yue
-						primary_culture = yi
-						primary_culture = zhuang
-						primary_culture = miao
-					}
-				}
+				region = CHI_1485
+				region = CHI_1496
+				region = CHI_1498
+				region = CHI_1499
+
 			}
 		}
 	}
@@ -3549,8 +3471,15 @@ demand_concession_casus_belli_small = {
 		any_owned_province = {
 			is_core = SMA
 			is_colonial = no
-			NOT = {
-				is_core = CHI
+			OR = { 
+				NOT = {
+					is_core = CHI
+				}
+				region = CHI_1485
+				region = CHI_1496
+				region = CHI_1498
+				region = CHI_1499
+
 			}
 		}
 	}
@@ -3627,8 +3556,15 @@ demand_concession_casus_belli_medium = {
 		any_owned_province = {
 			is_core = MED
 			is_colonial = no
-			NOT = {
-				is_core = CHI
+			OR = { 
+				NOT = {
+					is_core = CHI
+				}
+				region = CHI_1485
+				region = CHI_1496
+				region = CHI_1498
+				region = CHI_1499
+
 			}
 		}
 	}
@@ -3705,8 +3641,15 @@ demand_concession_casus_belli_large = {
 		any_owned_province = {
 			is_core = LRG
 			is_colonial = no
-			NOT = {
-				is_core = CHI
+			OR = { 
+				NOT = {
+					is_core = CHI
+				}
+				region = CHI_1485
+				region = CHI_1496
+				region = CHI_1498
+				region = CHI_1499
+
 			}
 		}
 	}
@@ -3783,8 +3726,15 @@ demand_concession_casus_belli_huge = {
 		any_owned_province = {
 			is_core = HUG
 			is_colonial = no
-			NOT = {
-				is_core = CHI
+			OR = { 
+				NOT = {
+					is_core = CHI
+				}
+				region = CHI_1485
+				region = CHI_1496
+				region = CHI_1498
+				region = CHI_1499
+
 			}
 		}
 	}
