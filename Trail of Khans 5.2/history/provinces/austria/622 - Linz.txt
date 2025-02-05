@@ -2,6 +2,7 @@ owner = BHA
 controller = BHA
 add_core = BHA
 add_core = BOH
+add_core = PLC
 trade_goods = sulphur
 life_rating = 35
 
