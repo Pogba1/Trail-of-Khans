@@ -17,17 +17,18 @@ leader = {
 
 
 army = {
-    name = "Strat�s Ipe�rou"
+    name = "Stratos Ipeorou"
     location = 821
+
     regiment = {
         name= "I. S�ntagma Peziko�"
         type = infantry
-        home = 806
+        home = 822
     }
     regiment = {
         name= "II. S�ntagma Peziko�"
         type = infantry
-        home = 807
+        home = 850
     }
     regiment = {
         name= "III. S�ntagma Peziko�"
@@ -67,17 +68,14 @@ army = {
 	regiment = {
 		name= "I. S�ntagma Ippiko�"
 		type = cavalry
-        home = 808
+        home = 824
 	}
-
-    
 }   
 
 army = {
-	
-	army = "Bangarang"
+	name = "Bangarang"
 	location = 829
-	
+
     regiment = {
         name= "I. S�ntagma Peziko�"
         type = infantry
@@ -101,7 +99,7 @@ army = {
 	regiment = {
         name= "I. S�ntagma Pyrovoliko�"
         type = artillery
-        home = 822
+        home = 805
     }
 	regiment = {
         name= "II. S�ntagma Pyrovoliko�"
@@ -128,8 +126,63 @@ army = {
 		type = dragoon
         home = 824
 	}
+}   
+
+army = {
+	name = "Bangarang 2"
+	location = 860
+
+    regiment = {
+        name= "I. S�ntagma Peziko�"
+        type = infantry
+        home = 860
+    }
+    regiment = {
+        name= "II. S�ntagma Peziko�"
+        type = infantry
+        home = 860
+    }
+    regiment = {
+        name= "III. S�ntagma Peziko�"
+        type = infantry
+        home = 860
+    }
+	regiment = {
+        name= "IV. S�ntagma Peziko�"
+        type = infantry
+        home = 859
+    }
+	regiment = {
+        name= "I. S�ntagma Pyrovoliko�"
+        type = artillery
+        home = 828
+    }
+	regiment = {
+        name= "II. S�ntagma Pyrovoliko�"
+        type = artillery
+        home = 828
+    }
+	regiment = {
+        name= "III. S�ntagma Pyrovoliko�"
+        type = artillery
+        home = 808
+    }
+	regiment = {
+        name= "IV. S�ntagma Pyrovoliko�"
+        type = artillery
+        home = 806
+    }
+	regiment = {
+        name= "V. S�ntagma Pyrovoliko�"
+        type = artillery
+        home = 1780
+    }
+	regiment = {
+		name= "I. S�ntagma Ippiko�"
+		type = dragoon
+        home = 851
+	}
 }
-	
 
 navy = {
     name = "Hyperborean Fleet"

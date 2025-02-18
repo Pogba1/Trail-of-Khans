@@ -249,7 +249,7 @@
 	craftsmen = {
 		culture = norse
 		religion = protestant
-		size = 3000
+		size = 28000
 	}
 }
 #Falun (144000/36000 POPS)
@@ -482,6 +482,12 @@
         culture = norse
         religion = protestant
         size = 2200
+    }
+
+    craftsmen = {
+        culture = norse
+        religion = catholic
+        size = 16450
     }
 
     farmers = {

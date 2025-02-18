@@ -84,10 +84,11 @@ army = {
     }
 	regiment = {
         name= "I. Kavaleriyskaya brigada"
-        type = cavalry
+        type = dragoon
         home = 1022
     }
 }
+
 army = {
     name = "Vtoraya armiya"
     location = 1022
@@ -142,8 +143,63 @@ army = {
     }
 	regiment = {
         name= "I. Kavaleriyskaya brigada"
-        type = cavalry
+        type = dragoon
         home = 997
+    }
+}
+
+army = {
+    name = "Something something Army"
+    location = 1003
+    regiment = {
+        name= "I. Pekhotnaya brigada"
+        type = infantry
+        home = 1003
+    }
+    regiment = {
+        name= "II. Pekhotnaya brigada"
+        type = infantry
+        home = 996
+    }
+    regiment = {
+        name= "III. Pekhotnaya brigada"
+        type = infantry
+        home = 996
+    }
+	regiment = {
+        name= "IV. Pekhotnaya brigada"
+        type = infantry
+        home = 991
+    }
+	 regiment = {
+        name= "I. Artilleriyskaya brigada"
+        type = artillery
+        home = 999
+    }
+    regiment = {
+        name= "II. Artilleriyskaya brigada"
+        type = artillery
+        home = 1009
+    }
+    regiment = {
+        name= "III. Artilleriyskaya brigada"
+        type = artillery
+        home = 1014
+    }
+	regiment = {
+        name= "IV. Artilleriyskaya brigada"
+        type = artillery
+        home = 1015
+    }
+	regiment = {
+        name= "V. Artilleriyskaya brigada"
+        type = artillery
+        home = 1010
+    }
+	regiment = {
+        name= "I. Kavaleriyskaya brigada"
+        type = dragoon
+        home = 1008
     }
 }
 

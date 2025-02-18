@@ -953,12 +953,6 @@
         size = 1100
     }
 
-    craftsmen = {
-        culture = british_danish
-        religion = catholic
-        size = 16450
-    }
-
     labourers = {
         culture = british_danish
         religion = catholic
@@ -1420,12 +1414,6 @@
         size = 200
     }
 
-    craftsmen = {
-        culture = norse
-        religion = catholic
-        size = 5000
-    }
-
     artisans = {
         culture = norse
         religion = catholic
@@ -1562,12 +1550,6 @@
         culture = british_danish
         religion = catholic
         size = 1100
-    }
-
-    craftsmen = {
-        culture = british_danish
-        religion = catholic
-        size = 24350
     }
 
     labourers = {
@@ -1754,12 +1736,6 @@
         religion = catholic
         size = 64125
     }
-
-    craftsmen = {
-        culture = british_danish
-        religion = catholic
-        size = 13000
-    }
 	
 	labourers = {
         culture = norse
@@ -1913,12 +1889,6 @@
         culture = british_danish
         religion = catholic
         size = 1100
-    }
-
-    craftsmen = {
-        culture = british_danish
-        religion = catholic
-        size = 17650
     }
 
     labourers = {

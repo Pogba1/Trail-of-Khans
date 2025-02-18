@@ -94,19 +94,41 @@ army = {
         type = guard
         home = 1121
     }
-
+    regiment = {
+        name= "Royal Guard"
+        type = irregular
+        home = 1129
+    }
+    regiment = {
+        name= "Royal Guard"
+        type = infantry
+        home = 1148
+    }
+    regiment = {
+        name= "Royal Guard"
+        type = infantry
+        home = 1145
+    }
     regiment = {
         name= "1. Zamburak"
         type = artillery
         home = 1147
     }
-
     regiment = {
         name= "8. Zamburak"
         type = artillery
         home = 1108
     }
-
+    regiment = {
+        name= "8. Zamburak"
+        type = artillery
+        home = 1126
+    }
+    regiment = {
+        name= "8. Zamburak"
+        type = artillery
+        home = 1127
+    }
     regiment = {
         name= "1. Nezam-Atlin"
         type = cavalry
@@ -133,6 +155,30 @@ army = {
         name= "6. Nezam"
         type = infantry
         home = 1122
+    }
+
+    regiment = {
+        name= "6. Nezam"
+        type = infantry
+        home = 1135
+    }
+
+    regiment = {
+        name= "6. Nezam"
+        type = infantry
+        home = 1137
+    }
+
+    regiment = {
+        name= "6. Nezam"
+        type = infantry
+        home = 1127
+    }
+
+    regiment = {
+        name= "6. Nezam"
+        type = infantry
+        home = 1120
     }
 
     regiment = {
@@ -182,6 +228,12 @@ army = {
     }
 
     regiment = {
+        name = "Hussar"
+        type = hussar
+        home = 1111
+    }
+
+    regiment = {
         name= "2. Zamburak"
         type = artillery
         home = 923
@@ -190,19 +242,25 @@ army = {
     regiment = {
         name= "3. Zamburak"
         type = artillery
-        home = 899
+        home = 1108
     }
 
     regiment = {
         name= "4. Zamburak"
         type = artillery
-        home = 878
+        home = 1112
     }
 	
-	    regiment = {
+	regiment = {
         name= "9. Zamburak"
         type = artillery
         home = 898
+    }
+	
+	regiment = {
+        name= "9. Zamburak"
+        type = artillery
+        home = 1112
     }
 
 }
