@@ -79,11 +79,6 @@
 #under the rule of Ottoman Empire in 1836
 #Sofia (260000/65000 POPS)
 809 = {
-	soldiers = {
-        culture = greek
-        religion = orthodox
-        size = 300
-    }
     aristocrats = {
         culture = greek
         religion = orthodox
@@ -109,12 +104,6 @@
     }
 
     artisans = {
-        culture = greek
-        religion = orthodox
-        size = 500
-    }
-
-    soldiers = {
         culture = greek
         religion = orthodox
         size = 500
@@ -153,7 +142,7 @@
     soldiers = {
         culture = greek
         religion = orthodox
-        size = 2000
+        size = 3150
     }
 
     farmers = {
@@ -173,13 +162,6 @@
         religion = orthodox
         size = 110
     }
-
-    soldiers = {
-        culture = greek
-        religion = orthodox
-        size = 150
-    }
-
     clergymen = {
         culture = greek
         religion = orthodox
@@ -218,12 +200,6 @@
         culture = sephardic
         religion = jewish
         size = 100
-    }
-
-    soldiers = {
-        culture = sephardic
-        religion = jewish
-        size = 200
     }
 
     clergymen = {
@@ -485,16 +461,10 @@
     soldiers = {
         culture = greek
         religion = orthodox
-        size = 600
+        size = 1100
     }
 	
     clergymen = {
-        culture = greek
-        religion = orthodox
-        size = 500
-    }
-
-    soldiers = {
         culture = greek
         religion = orthodox
         size = 500

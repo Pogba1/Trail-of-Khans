@@ -4,3 +4,14 @@ add_core = HAN
 add_core = GER
 trade_goods = fruit
 life_rating = 37
+state_building = {
+    level = 1
+    building = small_arms_factory
+    upgrade = yes
+}
+state_building = {
+    level = 1
+    building = ammunition_factory
+    upgrade = yes
+}
+

@@ -6,17 +6,49 @@ army = {
         type = infantry
         home = 664
     }
-
     regiment = {
         name= "2nd Wallachia Infantry"
         type = infantry
         home = 668
     }
-
     regiment = {
         name= "3rd Wallachia Infantry"
         type = infantry
         home = 669
     }
-
+    regiment = {
+        name= "3rd Wallachia Infantry"
+        type = infantry
+        home = 664
+    }
+    regiment = {
+        name= "Hussar"
+        type = hussar
+        home = 667
+    }
+    regiment = {
+        name= "Artillery"
+        type = artillery
+        home = 665
+    }
+    regiment = {
+        name= "Artillery"
+        type = artillery
+        home = 665
+    }
+    regiment = {
+        name= "Artillery"
+        type = artillery
+        home = 666
+    }
+    regiment = {
+        name= "Artillery"
+        type = artillery
+        home = 812
+    }
+    regiment = {
+        name= "Artillery"
+        type = artillery
+        home = 809
+    }
 }

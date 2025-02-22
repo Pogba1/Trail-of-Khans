@@ -4,3 +4,21 @@ add_core = RHI
 add_core = GER
 trade_goods = coal
 life_rating = 37
+railroad = 1
+
+state_building = {
+    level = 1
+    building = explosives_factory
+    upgrade = yes
+}
+state_building = {
+    level = 1
+    building = fertilizer_factory
+    upgrade = yes
+}
+state_building = {
+    level = 1
+    building = canned_meat_factory
+    upgrade = yes
+}
+

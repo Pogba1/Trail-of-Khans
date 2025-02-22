@@ -4,3 +4,9 @@ add_core = SAX
 add_core = GER
 trade_goods = iron
 life_rating = 37
+
+state_building = {
+    level = 1
+    building = explosives_factory
+    upgrade = yes
+}
