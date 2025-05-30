@@ -155,6 +155,7 @@ base_values = {
 
 war = {
     max_war_exhaustion = 100            #base max at war.
+    supply_consumption = -0.5
     badboy = -0.1
 }
 
