@@ -71,5 +71,7 @@ hot_blast = 1
 experimental_railroad = 1
 basic_chemistry = 1
 stock_exchange = 1
- 
+
+oob = "UBR_oob.txt"
+
 decision = literacy_setup_1836

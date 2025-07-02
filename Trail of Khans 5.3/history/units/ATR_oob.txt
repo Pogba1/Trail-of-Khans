@@ -26,54 +26,54 @@ leader = {
 }
 
 army = {
-    name = "Primer Ejército"
+    name = "Primer Ejï¿½rcito"
     location = 487
     regiment = {
-        name= "I. Brigada de Infantería"
+        name= "I. Brigada de Infanterï¿½a"
         type = infantry
         home = 474
     }
 
     regiment = {
-        name= "II. Brigada de Infantería"
+        name= "II. Brigada de Infanterï¿½a"
         type = infantry
         home = 474
     }
 
     regiment = {
-        name= "III. Brigada de Infantería"
+        name= "III. Brigada de Infanterï¿½a"
         type = infantry
         home = 475
     }
 	regiment = {
-        name= "IV. Brigada de Infantería"
+        name= "IV. Brigada de Infanterï¿½a"
         type = infantry
         home = 475
     }
 	 regiment = {
-        name= "I. Brigada de Artillería"
+        name= "I. Brigada de Artillerï¿½a"
         type = artillery
         home = 476
     }
 
     regiment = {
-        name= "II. Brigada de Artillería"
+        name= "II. Brigada de Artillerï¿½a"
         type = artillery
         home = 477
     }
 
     regiment = {
-        name= "III. Brigada de Artillería"
+        name= "III. Brigada de Artillerï¿½a"
         type = artillery
         home = 477
     }
 	regiment = {
-        name= "IV. Brigada de Artillería"
+        name= "IV. Brigada de Artillerï¿½a"
         type = artillery
         home = 481
     }
 	regiment = {
-        name= "V. Brigada de Artillería"
+        name= "V. Brigada de Artillerï¿½a"
         type = artillery
         home = 482
     }
@@ -84,48 +84,48 @@ army = {
     }
 }
 army = {
-    name = "Segundo Ejército"
+    name = "Segundo Ejï¿½rcito"
     location = 477
     regiment = {
-        name= "I. Brigada de Infantería"
+        name= "I. Brigada de Infanterï¿½a"
         type = infantry
         home = 487
     }
 
     regiment = {
-        name= "II. Brigada de Infantería"
+        name= "II. Brigada de Infanterï¿½a"
         type = infantry
         home = 497
     }
 
     regiment = {
-        name= "III. Brigada de Infantería"
+        name= "III. Brigada de Infanterï¿½a"
         type = infantry
         home = 503
     }
 	regiment = {
-        name= "IV. Brigada de Infantería"
+        name= "IV. Brigada de Infanterï¿½a"
         type = infantry
         home = 811
     }
 	 regiment = {
-        name= "I. Brigada de Artillería"
+        name= "I. Brigada de Artillerï¿½a"
         type = artillery
         home = 487
     }
 
     regiment = {
-        name= "II. Brigada de Artillería"
+        name= "II. Brigada de Artillerï¿½a"
         type = artillery
         home = 488
     }
 	regiment = {
-        name= "III. Brigada de Artillería"
+        name= "III. Brigada de Artillerï¿½a"
         type = artillery
         home = 489
     }
 	regiment = {
-        name= "IV. Brigada de Artillería"
+        name= "IV. Brigada de Artillerï¿½a"
         type = artillery
         home = 489
     }
@@ -172,6 +172,26 @@ navy = {
 
     ship = {
         name= "Santander"
+        type = frigate
+    }
+
+    ship = {
+        name= "La Coruna"
+        type = frigate
+    }
+
+    ship = {
+        name= "La Coruna"
+        type = frigate
+    }
+
+    ship = {
+        name= "La Coruna"
+        type = frigate
+    }
+
+    ship = {
+        name= "La Coruna"
         type = frigate
     }
 

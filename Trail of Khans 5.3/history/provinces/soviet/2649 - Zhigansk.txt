@@ -1,4 +1,6 @@
-add_core = YAK
+owner = MGL
+add_core = MGL
+controller = MGL
 trade_goods = grain
 terrain = boreal
 life_rating = 10

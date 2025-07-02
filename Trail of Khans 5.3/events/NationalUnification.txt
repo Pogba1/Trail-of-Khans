@@ -35,7 +35,6 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    NOT = { tag = LUX }
                     NOT = { is_culture_group = south_asian }
                     NOT = { is_culture_group = scandinavian }
                     NOT = { is_culture_group = arab }

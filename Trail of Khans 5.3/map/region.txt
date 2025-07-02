@@ -321,7 +321,9 @@ AUS_625 = { 625 626 627 628 629 630 } #Bohemia
 
 AUS_627 = { 631 688 632 689 } #Lower Silesia
 
-AUS_633 = { 633 634 635 636 637 638 950 } #Slovakia
+AUS_633 = { 633 634 635 636 } #Western Slovakia
+
+AUS_637 = { 637 638 950 } #Eastern Slovakia
 
 AUS_641 = { 641 645 646 648 649 650 } #Central Hungary
 
@@ -581,7 +583,7 @@ JAP_1086 = { 1086 1087 1088 1089 } #Sakhalin
 
 RUS_1182 = { 1182 1183 1194 2610 2702 } #Uralsk
 
-RUS_1184 = { 1181 1184 2612 2611 } #Akmolinsk
+RUS_1184 = { 1059 1181 1184 2658 2612 2611 } #Akmolinsk
 
 RUS_1185 = { 1185 1186 1187 1188 1197 2606 1193 } #Semireche - Zhetysu
 
@@ -599,11 +601,9 @@ RUS_2618 = { 1072 2641 2618 2620 2638 2639 1073 2660 } #Upper Okhotsk - Magadan
 
 #RUS_2621 = { } #Inner Chukotka
 
-RUS_2653 = { 2646 2690 1065 1062 } #North Siberia
-
 RUS_2668 = { 2668 2643 2665 2667 2672 2621 2619 2642 } #North Yakutsk
 
-RUS_2685 = { 1058 2685 1059 2614 2658 } #Ural
+RUS_2685 = { 1058 2685 2614 2646 2690 1065 1062 } #Ural
 
 #RUS_2694 = {  } #Middle Siberia - Evensk
 

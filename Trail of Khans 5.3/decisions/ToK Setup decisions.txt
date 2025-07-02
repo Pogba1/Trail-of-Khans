@@ -547,4 +547,52 @@ political_decisions = {
             enable_canal = 14
         }
     }
+	1836_states = {
+		potential = {
+			tag = SIK
+			NOT = { has_country_flag = 1836 }
+		}
+		allow = {
+		}
+		effect = { 
+			country_event = 700700
+			set_country_flag = 1836
+		}
+	}
+    1836_player_generals = {
+        potential = {
+            tag = SIK
+            always = no
+        }
+        allow = {
+            tag = SIK
+        }
+        effect = {
+            any_country = {
+                limit = {
+                    exists = yes
+                    ai = no
+                }
+                country_event = 800000
+            }
+        }
+    }
+    1836_capital_supply = {
+        potential = {
+            tag = SIK
+            always = no
+        }
+        allow = {
+            tag = SIK
+        }
+        effect = {
+            any_country = {
+                limit = {
+                    exists = yes
+                    ai = no
+                }
+                country_event = 545454
+            }
+        }
+    }
 }

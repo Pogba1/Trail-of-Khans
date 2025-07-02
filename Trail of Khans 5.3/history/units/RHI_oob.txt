@@ -1,0 +1,28 @@
+leader = {
+    name = "Albrecht Von Aschaffenburg"
+    date = 1836.1.1
+    type = land
+    personality = resolute
+    background = cartographer
+    prestige = 0.05
+}
+army = {
+    name = "Armee auf die Rhein"
+    location = 578
+    
+    regiment = {
+        name = "1. Infantry"
+        type = infantry
+        home = 578
+    }
+    regiment = {
+        name = "1. Cuirassier"
+        type = cuirassier
+        home = 578
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 2561
+    }
+}

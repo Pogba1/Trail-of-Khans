@@ -1,0 +1,44 @@
+leader = {
+    name = "Adolf Hitler"
+    date = 1836.1.1
+    type = land
+    personality = imperius
+    background = eccentric_genius
+    prestige = 0.05
+}
+
+army = {
+    name = "West... Rising?"
+    location = 581
+    
+    regiment = {
+        name = "1. Infantry"
+        type = infantry
+        home = 580
+    }
+    regiment = {
+        name = "2. Infantry"
+        type = infantry
+        home = 580
+    }
+    regiment = {
+        name = "3. Infantry"
+        type = infantry
+        home = 581
+    }
+    regiment = {
+        name = "4. Infantry"
+        type = infantry
+        home = 581
+    }
+    regiment = {
+        name = "1. Hussar"
+        type = hussar
+        home = 582
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 584
+    }
+}

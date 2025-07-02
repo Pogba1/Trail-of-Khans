@@ -20,12 +20,6 @@
         size = 25
     }
 
-    soldiers = {
-        culture = russian
-        religion = orthodox
-        size = 250
-    }
-
     aristocrats = {
         culture = georgian
         religion = orthodox
@@ -59,7 +53,7 @@
     soldiers = {
         culture = georgian
         religion = orthodox
-        size = 1100
+        size = 1500
     }
 
     farmers = {
@@ -91,13 +85,6 @@
         religion = orthodox
         size = 150
     }
-
-    soldiers = {
-        culture = circassian
-        religion = orthodox
-        size = 25
-    }
-
     farmers = {
         culture = circassian
         religion = orthodox
@@ -120,12 +107,6 @@
         culture = armenian
         religion = coptic
         size = 450
-    }
-
-    soldiers = {
-        culture = armenian
-        religion = coptic
-        size = 50
     }
 
     farmers = {
@@ -156,12 +137,6 @@
         culture = turkmen
         religion = sunni
         size = 150
-    }
-
-    soldiers = {
-        culture = turkmen
-        religion = sunni
-        size = 25
     }
 
     farmers = {
@@ -483,7 +458,7 @@
     soldiers = {
         culture = georgian
         religion = orthodox
-        size = 50
+        size = 1200
     }
 
     farmers = {
@@ -510,12 +485,6 @@
         size = 450
     }
 
-    soldiers = {
-        culture = russian
-        religion = orthodox
-        size = 100
-    }
-
     farmers = {
         culture = circassian
         religion = orthodox
@@ -538,12 +507,6 @@
         culture = circassian
         religion = sunni
         size = 250
-    }
-
-    soldiers = {
-        culture = circassian
-        religion = sunni
-        size = 50
     }
 
     farmers = {

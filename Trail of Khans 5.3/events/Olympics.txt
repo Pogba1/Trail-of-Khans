@@ -18,7 +18,6 @@ country_event = {
         OR = {
             is_greater_power = yes # Nation is a great power
             prestige = 500 # Non-Euro/non GP need to be high prestige to get invite in this era
-            tag = GRE # Greece projected to host first games so has to get invite
             AND = {
                 capital_scope = { continent = europe } # European nation with > 25 prestige
                 prestige = 50
@@ -36,10 +35,6 @@ country_event = {
         modifier = {
             factor = 0.8
             year = 1895
-        }
-        modifier = {
-            factor = 0.25
-            tag = GRE
         }
         modifier = {
             factor = 0.9
@@ -97,7 +92,6 @@ country_event = {
     id = 23401
 
     trigger = {
-        tag = GRE # Greece hosted 1896 Olympics
         has_country_flag = IOCMember
         NOT = {
             OR = {

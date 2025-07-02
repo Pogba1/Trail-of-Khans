@@ -118,11 +118,13 @@ political_decisions = {
 			LBR = {
 				all_core = {
 					add_core = THIS
+					remove_core = LBR
 				}
 			}
 			UBR = {
 				all_core = {
 					add_core = THIS
+					remove_core = UBR
 				}
 			}
 			prestige = 15

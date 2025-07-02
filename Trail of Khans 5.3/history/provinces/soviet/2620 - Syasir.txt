@@ -1,4 +1,6 @@
-add_core = KAM
+owner = MGL
+add_core = MGL
+controller = MGL
 trade_goods = cattle
 terrain = boreal
 life_rating = 15

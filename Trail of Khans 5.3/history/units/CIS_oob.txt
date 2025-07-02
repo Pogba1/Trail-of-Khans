@@ -1,0 +1,64 @@
+leader = {
+    name = "Paullus Maenian"
+    date = 1836.1.1
+    type = land
+    personality = personality
+    background = background
+    prestige = 0.1
+}
+
+army = {
+    name = "Legio I"
+    location = 729
+    
+    regiment = {
+        name = "1. Infantry"
+        type = infantry
+        home = 729
+    }
+    regiment = {
+        name = "2. Infantry"
+        type = infantry
+        home = 729
+    }
+    regiment = {
+        name = "3. Infantry"
+        type = infantry
+        home = 729
+    }
+    regiment = {
+        name = "4. Infantry"
+        type = infantry
+        home = 729
+    }
+    regiment = {
+        name = "5. Infantry"
+        type = infantry
+        home = 726
+    }
+    regiment = {
+        name = "6. Infantry"
+        type = infantry
+        home = 726
+    }
+    regiment = {
+        name = "1. Dragoon"
+        type = dragoon
+        home = 720
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 720
+    }
+    regiment = {
+        name = "2. Artillery"
+        type = artillery
+        home = 730
+    }
+    regiment = {
+        name = "3. Artillery"
+        type = artillery
+        home = 731
+    }
+}

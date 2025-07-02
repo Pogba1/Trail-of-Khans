@@ -540,6 +540,53 @@ navy = {
         name= "10th Transport Flotilla"
         type = clipper_transport
     }
+
+    ship = {
+        name= "1st Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "2nd Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "3rd Transport Flotilla"
+        type = clipper_transport
+    }
+	ship = {
+        name= "4th Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "5th Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "6th Transport Flotilla"
+        type = clipper_transport
+    }
+	ship = {
+        name= "7th Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "8th Transport Flotilla"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "9th Transport Flotilla"
+        type = clipper_transport
+    }
+	ship = {
+        name= "10th Transport Flotilla"
+        type = clipper_transport
+    }
 }
 
 navy = {

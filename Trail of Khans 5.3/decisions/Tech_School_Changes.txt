@@ -46,6 +46,7 @@ political_decisions = {
             }
             tech_school = army_tech_school
         }
+        ai_will_do = { factor = 0}
     }
 
     switch_to_navy_tech = {
@@ -68,13 +69,7 @@ political_decisions = {
             }
             tech_school = naval_tech_school
         }
-        ai_will_do = {
-            factor = 1
-            modifier = {
-                factor = 0
-                government = proletarian_dictatorship
-            }
-        }
+        ai_will_do = { factor = 0}
     }
 
     switch_to_culture_tech = {
@@ -97,13 +92,7 @@ political_decisions = {
             }
             tech_school = culture_tech_school
         }
-        ai_will_do = {
-            factor = 1
-            modifier = {
-                factor = 0
-                NOT = { revanchism = 0 }
-            }
-        }
+        ai_will_do = { factor = 0}
     }
 
     switch_to_trade_tech = {
@@ -126,14 +115,7 @@ political_decisions = {
             }
             tech_school = commerce_tech_school
         }
-
-        ai_will_do = {
-            factor = 1
-            modifier = {
-                factor = 0
-                NOT = { revanchism = 0 }
-            }
-        }
+        ai_will_do = { factor = 0}
     }
 
     switch_to_industry_tech = {
@@ -156,14 +138,7 @@ political_decisions = {
             }
             tech_school = industrial_tech_school
         }
-
-        ai_will_do = {
-            factor = 1
-            modifier = {
-                factor = 0
-                NOT = { revanchism = 0 }
-            }
-        }
+        ai_will_do = { factor = 0}
     }
 
     switch_to_traditional_academic = {

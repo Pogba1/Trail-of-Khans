@@ -41,7 +41,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 84350
+        size = 104350
     }
 
     bureaucrats = {
@@ -71,13 +71,7 @@
     farmers = {
         culture = yuanese
         religion = gelugpa
-        size = 3300
-    }
-
-    slaves = {
-        culture = uighur
-        religion = sunni
-        size = 6000
+        size = 10000
     }
 }
 #Dalandzadgad (212000/53000 POPS)
@@ -91,31 +85,25 @@
     clergymen = {
         culture = mongol
         religion = gelugpa
-        size = 550
+        size = 800
     }
 
     artisans = {
         culture = mongol
         religion = gelugpa
-        size = 2650
+        size = 4000
     }
 
     soldiers = {
         culture = mongol
         religion = gelugpa
-        size = 550
+        size = 4550
     }
 
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 44200
-    }
-
-    slaves = {
-        culture = uighur
-        religion = sunni
-        size = 5000
+        size = 110000
     }
 }
 #Bayan Tumen (176000/44000 POPS)
@@ -129,7 +117,7 @@
     clergymen = {
         culture = mongol
         religion = gelugpa
-        size = 425
+        size = 700
     }
 
     artisans = {
@@ -141,13 +129,13 @@
     soldiers = {
         culture = mongol
         religion = gelugpa
-        size = 425
+        size = 2425
     }
 
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 42275
+        size = 72275
     }
 
     aristocrats = {
@@ -174,7 +162,7 @@
         size = 25
     }
 
-    slaves = {
+    farmers = {
         culture = yakut
         religion = animist
         size = 3000
@@ -185,13 +173,13 @@
     aristocrats = {
         culture = mongol
         religion = gelugpa
-        size = 650
+        size = 1500
     }
 
     clergymen = {
         culture = mongol
         religion = gelugpa
-        size = 350
+        size = 1000
     }
 
     artisans = {
@@ -203,19 +191,13 @@
     soldiers = {
         culture = mongol
         religion = gelugpa
-        size = 350
+        size = 8000
     }
 
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 31900
-    }
-
-    slaves = {
-        culture = uighur
-        religion = sunni
-        size = 2000
+        size = 175900
     }
 }
 
@@ -262,7 +244,7 @@
     clergymen = {
         culture = mongol
         religion = gelugpa
-        size = 375
+        size = 600
     }
 	bureaucrats = {
 		culture = mongol
@@ -272,7 +254,7 @@
     artisans = {
         culture = mongol
         religion = gelugpa
-        size = 1500
+        size = 3500
     }
     soldiers = {
         culture = mongol
@@ -282,7 +264,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 35000
+        size = 80000
     }
 }
 #Bulgan (84000/21000 POPS)

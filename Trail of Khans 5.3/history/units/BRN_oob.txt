@@ -1,0 +1,49 @@
+leader = {
+    name = "Prince Friedrich III"
+    date = 1836.1.1
+    type = land
+    personality = relentless
+    background = cavalry_school
+    prestige = 0.1
+}
+
+army = {
+    name = "Branderburger Corps"
+    location = 549
+    
+    regiment = {
+        name = "1. Infantry"
+        type = infantry
+        home = 549
+    }
+    regiment = {
+        name = "2. Infantry"
+        type = infantry
+        home = 549
+    }
+    regiment = {
+        name = "3. Infantry"
+        type = infantry
+        home = 550
+    }
+    regiment = {
+        name = "1. Dragoon"
+        type = dragoon
+        home = 551
+    }
+    regiment = {
+        name = "1. Cuirassier"
+        type = cuirassier
+        home = 552
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 553
+    }
+    regiment = {
+        name = "2. Artillery"
+        type = artillery
+        home = 557
+    }
+}

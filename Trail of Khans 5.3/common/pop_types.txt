@@ -465,14 +465,6 @@ migration_chance =
 			location = { controlled_by = owner }
 		}
 	}
-
-#If country is uncivilized it will not internally migrate
-	modifier = {
-		factor = -1000
-		country = {
-			civilized = no
-		}
-	}
 }
 
 #general colonial migration mtth, same for all pops
@@ -1004,6 +996,7 @@ assimilation_chance =
 			state_scope = { is_colonial = yes }
 			country = {	
 				civilized = no
+				ai = yes
 			}
 		}
 	}

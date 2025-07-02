@@ -83,5 +83,6 @@ upper_house = {
     communist = 0
 }
 
+oob = "CIS_oob.txt"
  
 decision = literacy_setup_1836

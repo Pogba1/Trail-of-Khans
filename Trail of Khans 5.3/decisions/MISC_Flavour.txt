@@ -18,9 +18,7 @@ political_decisions = {
                 is_secondary_power = yes
             }
             nationalism_n_imperialism = 1
-            KOK = { exists = no }
             BUK = { exists = no }
-            KHI = { exists = no }
         }
 
         effect = {
@@ -31,10 +29,10 @@ political_decisions = {
             1204 = { change_province_name = "Ashkhabad" life_rating = 1 fort = 1 }
             1205 = { change_province_name = "Krasnovodsk" life_rating = 1 }
 
-            RUS_1185 = { remove_core = KOK remove_core = BUK remove_core = KHI }
-            KOK_1190 = { remove_core = KOK remove_core = BUK remove_core = KHI }
-            KHI_1191 = { remove_core = KOK remove_core = BUK remove_core = KHI }
-            RUS_1196 = { remove_core = KOK remove_core = BUK remove_core = KHI }
+            RUS_1185 = {  remove_core = BUK  }
+            KOK_1190 = {  remove_core = BUK  }
+            KHI_1191 = {  remove_core = BUK  }
+            RUS_1196 = {  remove_core = BUK  }
 
             RUS_1185 = { add_core = KAZ }
             KHI_1191 = { add_core = UZB }

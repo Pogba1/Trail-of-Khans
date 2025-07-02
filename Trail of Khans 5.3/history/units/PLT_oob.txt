@@ -1,0 +1,44 @@
+leader = {
+    name = "Baron von Mainz"
+    date = 1836.1.1
+    type = land
+    personality = daring
+    background = toady
+    prestige = 0.05
+}
+
+army = {
+    name = "Palatinate Guard Corps"
+    location = 570
+    
+    regiment = {
+        name = "1. Infantry"
+        type = infantry
+        home = 570
+    }
+    regiment = {
+        name = "2. Infantry"
+        type = infantry
+        home = 570
+    }
+    regiment = {
+        name = "3. Infantry"
+        type = infantry
+        home = 571
+    }
+    regiment = {
+        name = "1. Hussar"
+        type = hussar
+        home = 571
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 573
+    }
+    regiment = {
+        name = "1. Engineer"
+        type = engineer
+        home = 574
+    }
+}

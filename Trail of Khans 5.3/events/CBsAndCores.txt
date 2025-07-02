@@ -1630,3 +1630,396 @@ country_event = {
         }
     }
 }
+
+#Removing dead country cores, Isles and Germany
+#Scottish Cores
+country_event = {
+    id = 8790
+    title = "EVTNAME8790"
+    desc = "EVTDESC8790"
+    
+    trigger = {
+        has_country_flag = iles_lordship
+        tag = SCA
+        SCO = {
+            exists = no
+            all_core = {
+                owned_by = THIS
+            }
+        }
+        NOT = {
+            has_global_flag = end_of_scotland
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 12
+    }
+
+    option = {
+        name = "With this the Scottish cause is over"
+        SCO = {
+            all_core = {
+                remove_core = SCO
+            }
+        }
+        prestige = 50
+        set_global_flag = end_of_scotland
+    }
+}
+#Ireland
+country_event = {
+    id = 8791
+    title = "EVTNAME8791"
+    desc = "EVTDESC8791"
+    
+    trigger = {
+        has_country_flag = iles_lordship
+        tag = SCA
+        IRE = {
+            exists = no
+            all_core = {
+                owned_by = THIS
+            }
+        }
+        NOT = {
+            has_global_flag = end_of_ireland
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 12
+    }
+
+    option = {
+        name = "With this the Irish cause is over"
+        IRE = {
+            all_core = {
+                remove_core = IRE
+            }
+        }
+        prestige = 50
+        set_global_flag = end_of_ireland
+    }
+}
+#Wales
+country_event = {
+    id = 8792
+    title = "EVTNAME8792"
+    desc = "EVTDESC8792"
+    
+    trigger = {
+        has_country_flag = iles_lordship
+        tag = SCA
+        WHA = {
+            exists = no
+            all_core = {
+                owned_by = THIS
+            }
+        }
+        NOT = {
+            has_global_flag = end_of_wales
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 12
+    }
+
+    option = {
+        name = "With this the Welsh cause is over"
+        WHA = {
+            all_core = {
+                remove_core = WHA
+            }
+        }
+        prestige = 50
+        set_global_flag = end_of_wales
+    }
+}
+#Britannia
+country_event = {
+    id = 8793
+    title = "EVTNAME8793"
+    desc = "EVTDESC8793"
+    
+    trigger = {
+        tag = SCA
+        has_country_flag = iles_lordship
+        ENL = {
+            exists = no
+            all_core = {
+                owned_by = THIS
+            }
+        }
+        NOT = {
+            has_global_flag = end_of_britannia
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 12
+    }
+
+    option = {
+        name = "With this the Brittanic cause is over"
+        ENL = {
+            all_core = {
+                remove_core = ENL
+            }
+        }
+        prestige = 50
+        set_global_flag = end_of_britannia
+    }
+}
+#German minors
+country_event = {
+    id = 8794
+    title = "German minor cores"
+    desc = " "
+
+    mean_time_to_happen = {
+        months = 6
+    }
+
+    trigger = {
+        tag = SIK
+        OR = {
+            HAN = {
+                exists = no
+            }
+            BRN = {
+                exists = no
+            }
+            SAX = {
+                exists = no
+            }
+            EAS = {
+                exists = no
+            }
+            WES = {
+                exists = no
+            }
+            LIP = {
+                exists = no
+            }
+            BRA = {
+                exists = no
+            }
+            BAV = {
+                exists = no
+            }
+            BAD = {
+                exists = no
+            }
+            WUR = {
+                exists = no
+            }
+            RHI = {
+                exists = no
+            }
+            ANH = {
+                exists = no
+            }
+            COB = {
+                exists = no
+            }
+            HEK = {
+                exists = no
+            }
+            HES = {
+                exists = no
+            }
+            NAS = {
+                exists = no
+            }
+        }
+    }
+
+    option = {
+        name = "Remove cores"
+        
+        random_owned = {
+            limit = {
+                HAN = { exists = no }
+            }
+            HAN = {
+                all_core = {
+                    remove_core = HAN
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                BRN = { exists = no }
+            }
+            BRN = {
+                all_core = {
+                    remove_core = BRN
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                SAX = { exists = no }
+            }
+            SAX = {
+                all_core = {
+                    remove_core = SAX
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                EAS = { exists = no }
+            }
+            EAS = {
+                all_core = {
+                    remove_core = EAS
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                WES = { exists = no }
+            }
+            WES = {
+                all_core = {
+                    remove_core = WES
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                LIP = { exists = no }
+            }
+            LIP = {
+                all_core = {
+                    remove_core = LIP
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                BRA = { exists = no }
+            }
+            BRA = {
+                all_core = {
+                    remove_core = BRA
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                BAV = { exists = no }
+            }
+            BAV = {
+                all_core = {
+                    remove_core = BAV
+                }
+                set_country_flag = cores_removed
+            }
+        }
+        random_owned = {
+            limit = {
+                BAD = { exists = no }
+            }
+            BAD = {
+                all_core = {
+                    remove_core = BAD
+                }
+                set_country_flag = cores_removed
+            }
+        }
+        random_owned = {
+            limit = {
+                WUR = { exists = no }
+            }
+            WUR = {
+                all_core = {
+                    remove_core = WUR
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                RHI = { exists = no }
+            }
+            RHI = {
+                all_core = {
+                    remove_core = RHI
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                PLT = { exists = no }
+            }
+            PLT = {
+                all_core = {
+                    remove_core = PLT
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                FRM = { exists = no }
+            }
+            FRM = {
+                all_core = {
+                    remove_core = FRM
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                ANH = { exists = no }
+            }
+            ANH = {
+                all_core = {
+                    remove_core = ANH
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                COB = { exists = no }
+            }
+            COB = {
+                all_core = {
+                    remove_core = COB
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                HEK = { exists = no }
+            }
+            HEK = {
+                all_core = {
+                    remove_core = HEK
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                HES = { exists = no }
+            }
+            HES = {
+                all_core = {
+                    remove_core = HES
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                NAS = { exists = no }
+            }
+            NAS = {
+                all_core = {
+                    remove_core = NAS
+                }
+            }
+        }
+    }
+}

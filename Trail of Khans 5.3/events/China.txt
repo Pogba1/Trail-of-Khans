@@ -29,10 +29,8 @@ country_event = {
         MCK = { all_core = { add_core = CHI } }
         XBI = { all_core = { add_core = CHI } }
         XIN = { all_core = { add_core = CHI } }
-        SZC = { all_core = { add_core = CHI } }
         YNN = { all_core = { add_core = CHI } }
         GXI = { all_core = { add_core = CHI } }
-        GNG = { all_core = { add_core = CHI } }
         FJN = { all_core = { add_core = CHI } }
         random_owned = {
             limit = {
@@ -101,10 +99,8 @@ country_event = {
             tag = MCK
             tag = XBI
             tag = XIN
-            tag = SZC
             tag = YNN
             tag = GXI
-            tag = GNG
             tag = FJN
         }
     }

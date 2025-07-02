@@ -2474,7 +2474,7 @@
     soldiers = {
         culture = greek
         religion = orthodox
-        size = 1000
+        size = 1400
     }
 
     bureaucrats = {
@@ -2530,12 +2530,6 @@
         size = 110
     }
 
-    soldiers = {
-        culture = greek
-        religion = orthodox
-        size = 200
-    }
-
     clergymen = {
         culture = greek
         religion = orthodox
@@ -2564,12 +2558,6 @@
         culture = armenian
         religion = coptic
         size = 110
-    }
-
-    soldiers = {
-        culture = armenian
-        religion = coptic
-        size = 200
     }
 
     clergymen = {
@@ -2757,7 +2745,7 @@
     soldiers = {
         culture = greek
         religion = orthodox
-        size = 700
+        size = 1500
     }
 
     farmers = {
@@ -2777,13 +2765,6 @@
         religion = coptic
         size = 110
     }
-
-    soldiers = {
-        culture = armenian
-        religion = coptic
-        size = 110
-    }
-
     clergymen = {
         culture = armenian
         religion = coptic
@@ -2803,11 +2784,6 @@
     }
 
     ######Jews
-    soldiers = {
-        culture = sephardic
-        religion = jewish
-        size = 100
-    }
 
     clergymen = {
         culture = sephardic
@@ -2835,12 +2811,6 @@
     }
 
     officers = {
-        culture = greek
-        religion = orthodox
-        size = 110
-    }
-
-    soldiers = {
         culture = greek
         religion = orthodox
         size = 110
@@ -2888,11 +2858,6 @@
         size = 1100
     }
 
-    soldiers = {
-        culture = kurdish
-        religion = sunni
-        size = 275
-    }
 
     farmers = {
         culture = kurdish
@@ -2923,19 +2888,13 @@
     soldiers = {
         culture = armenian
         religion = coptic
-        size = 575
+        size = 1700
     }
+    
 	farmers = {
         culture = armenian
         religion = coptic
         size = 10200
-    }
-    
-
-    soldiers = {
-        culture = armenian
-        religion = coptic
-        size = 110
     }
 
     clergymen = {
@@ -2954,12 +2913,6 @@
         culture = armenian
         religion = coptic
         size = 28200
-    }
-
-    soldiers = {
-        culture = greek
-        religion = orthodox
-        size = 150
     }
 
     clergymen = {
@@ -2996,12 +2949,6 @@
         culture = kurdish
         religion = sunni
         size = 1950
-    }
-
-    soldiers = {
-        culture = kurdish
-        religion = sunni
-        size = 575
     }
 
     farmers = {

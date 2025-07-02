@@ -44,4 +44,42 @@ political_decisions = {
 			set_country_flag = north_caucasian_conquest
 		}
 	}
+	fertile_crescent_agriculture = {
+		picture = vietnam_coffee
+		potential = {
+			tag = SVF
+			NOT = {
+				has_country_flag = fertile_crescent_agriculture
+			}
+			TUR_923 = { owned_by = THIS }
+			TUR_931 = { owned_by = THIS }
+			TUR_935 = { owned_by = THIS }
+		}
+		allow = {
+			#926 = { 
+			#	NOT = {has_province_modifier = new_capital}
+			#}
+			compound_steam_engines = 1
+			invention = artificial_fertilizers
+			OR = {
+				TUR_923 = {is_colonial = no}
+				TUR_931 = {is_colonial = no}
+				TUR_935 = {is_colonial = no}
+			}
+		}
+		effect = {
+			prestige = 7
+			TUR_931 = {add_province_modifier = {name = modernized_irrigation duration = 2738}}
+			932 = {add_province_modifier = {name = modernized_irrigation duration = 2738}}
+			933 = {add_province_modifier = {name = modernized_irrigation duration = 2738}}
+			930 = {add_province_modifier = {name = modernized_irrigation duration = 2738}}
+			929 = {add_province_modifier = {name = modernized_irrigation duration = 2738}}
+			923 = {add_province_modifier = {name = modernized_irrigation duration = 2738}}
+			924 = {add_province_modifier = {name = modernized_irrigation duration = 2738}}
+			923 = {add_province_modifier = {name = modernized_irrigation duration = 2738}}
+			901 = {add_province_modifier = {name = modernized_irrigation duration = 2738}}
+
+			set_country_flag = fertile_crescent_agriculture
+		}
+	}
 }

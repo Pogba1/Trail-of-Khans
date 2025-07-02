@@ -2,6 +2,5 @@ owner = EPI
 controller = EPI
 add_core = EPI
 add_core = BYZ
-add_core = GRE
 trade_goods = grain
 life_rating = 40

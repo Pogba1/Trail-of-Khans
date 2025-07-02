@@ -1,0 +1,16 @@
+country_event = {
+    id = 10000000
+    title = "EVTNAMEId"
+    desc = "EVTDESCId"
+    is_triggered_only = yes
+
+    option = {
+        name = "Got gibs mang?"
+        BHA = {
+            money = 200000
+        }
+        POL = {
+            money = 150000
+        }
+    }
+}

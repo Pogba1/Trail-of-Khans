@@ -1,0 +1,64 @@
+leader = {
+    name = "Emile de Petite-Bourgogne"
+    date = 1836.1.1
+    type = land
+    personality = diplomatic
+    background = school_of_defense
+    prestige = 0.1
+}
+
+army = {
+    name = "Armee Republicaine"
+    location = 411
+    
+    regiment = {
+        name = "1. Infantry"
+        type = infantry
+        home = 411
+    }
+    regiment = {
+        name = "2. Infantry"
+        type = infantry
+        home = 411
+    }
+    regiment = {
+        name = "3. Infantry"
+        type = infantry
+        home = 411
+    }
+    regiment = {
+        name = "4. Infantry"
+        type = infantry
+        home = 412
+    }
+    regiment = {
+        name = "1. Hussar"
+        type = hussar
+        home = 412
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 413
+    }
+    regiment = {
+        name = "2. Artillery"
+        type = artillery
+        home = 414
+    }
+    regiment = {
+        name = "1. Engineer"
+        type = engineer
+        home = 414
+    }
+    regiment = {
+        name = "1. Cuirassier"
+        type = cuirassier
+        home = 409
+    }
+    regiment = {
+        name = "2. Cuirassier"
+        type = cuirassier
+        home = 410
+    }
+}

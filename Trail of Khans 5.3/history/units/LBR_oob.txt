@@ -1,0 +1,104 @@
+leader = {
+    name = "Valentin Grotin"
+    date = 1836.1.1
+    type = land
+    personality = highlander
+    background = hated
+    prestige = 0.1
+}
+
+leader = {
+    name = "Thomas de Chambéry"
+    date = 1836.1.1
+    type = land
+    personality = timid
+    background = bootlicker
+    prestige = 0.15
+}
+
+army = {
+    name = "Armada D'Oc"
+    location = 451
+    
+    regiment = {
+        name = "1. Guard"
+        type = guard
+        home = 451
+    }
+    regiment = {
+        name = "2. Guard"
+        type = guard
+        home = 451
+    }
+    regiment = {
+        name = "1. Guard"
+        type = infantry
+        home = 451
+    }
+    regiment = {
+        name = "2. Infantry"
+        type = infantry
+        home = 453
+    }
+    regiment = {
+        name = "3. Infantry"
+        type = infantry
+        home = 453
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 454
+    }
+    regiment = {
+        name = "2. Artillery"
+        type = artillery
+        home = 454
+    }
+}
+
+army = {
+    name = "Armada de Toulon"
+    location = 470
+    
+    regiment = {
+        name = "1. Infantry"
+        type = infantry
+        home = 467
+    }
+    regiment = {
+        name = "2. Infantry"
+        type = infantry
+        home = 467
+    }
+    regiment = {
+        name = "3. Infantry"
+        type = infantry
+        home = 470
+    }
+    regiment = {
+        name = "1. Dragoon"
+        type = dragoon
+        home = 470
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 468
+    }
+    regiment = {
+        name = "2. Artillery"
+        type = artillery
+        home = 469
+    }
+    regiment = {
+        name = "3. Artillery"
+        type = artillery
+        home = 471
+    }
+    regiment = {
+        name = "4. Artillery"
+        type = artillery
+        home = 466
+    }
+}

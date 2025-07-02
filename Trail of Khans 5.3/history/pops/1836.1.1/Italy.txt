@@ -53,7 +53,7 @@
     soldiers = {
         culture = roman
         religion = catholic
-        size = 5000
+        size = 5200
     }
 
     farmers = {
@@ -64,12 +64,6 @@
 
     ######Jews
     aristocrats = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    soldiers = {
         culture = ashkenazi
         religion = jewish
         size = 100
@@ -96,12 +90,6 @@
 
     ########north_italian Pops
     capitalists = {
-        culture = roman
-        religion = catholic
-        size = 100
-    }
-
-    soldiers = {
         culture = roman
         religion = catholic
         size = 100
@@ -429,7 +417,7 @@
     soldiers = {
         culture = roman
         religion = catholic
-        size = 3350
+        size = 4100
     }
 
     farmers = {
@@ -440,12 +428,6 @@
 
     ######Jews
     aristocrats = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    soldiers = {
         culture = ashkenazi
         religion = jewish
         size = 100
@@ -481,12 +463,6 @@
         culture = roman
         religion = catholic
         size = 75
-    }
-
-    soldiers = {
-        culture = roman
-        religion = catholic
-        size = 175
     }
 
     craftsmen = {
@@ -638,7 +614,7 @@
     soldiers = {
         culture = roman
         religion = catholic
-        size = 9050
+        size = 9150
     }
 	
 	craftsmen = {
@@ -655,12 +631,6 @@
 
     ######Jews
     aristocrats = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    soldiers = {
         culture = ashkenazi
         religion = jewish
         size = 100
@@ -1673,7 +1643,7 @@
     soldiers = {
         culture = roman
         religion = catholic
-        size = 2000
+        size = 3200
     }
 
     farmers = {
@@ -1684,12 +1654,6 @@
 
     ######Jews
     aristocrats = {
-        culture = sephardic
-        religion = jewish
-        size = 100
-    }
-
-    soldiers = {
         culture = sephardic
         religion = jewish
         size = 100
@@ -1713,12 +1677,6 @@
         size = 500
     }
     ########
-
-    soldiers = {
-        culture = roman
-        religion = catholic
-        size = 1100
-    }
 }
 #Viterbo (180000/45000 POPS)
 750 = {
@@ -2033,13 +1991,7 @@
     soldiers = {
         culture = roman
         religion = catholic
-        size = 400
-    }
-
-    soldiers = {
-        culture = roman
-        religion = catholic
-        size = 1100
+        size = 1500
     }
 
     farmers = {

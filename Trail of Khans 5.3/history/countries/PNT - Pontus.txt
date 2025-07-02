@@ -77,5 +77,6 @@ upper_house = {
     communist = 0
 }
 
+oob = "PNT_oob.txt"
  
 decision = literacy_setup_1836

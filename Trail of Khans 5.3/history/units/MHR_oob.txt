@@ -3,10 +3,6 @@ NEJ = {
     value = -150
 }
 
-HAL = {
-    value = -50
-}
-
 FDL = {
     value = -200        #relation
 }
@@ -15,9 +11,6 @@ KTH = {
     value = -200        #relation
 }
 
-NYE = {
-    value = -50
-}
 
 ENG = {
     value = 0        #relation

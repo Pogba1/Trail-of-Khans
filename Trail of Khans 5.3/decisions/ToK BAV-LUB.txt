@@ -267,6 +267,7 @@ political_decisions = {
 			HAN = {
 				all_core = {
 					add_core = THIS
+					remove_core = HAN
 				}
 			}
 			casus_belli = {
@@ -322,9 +323,8 @@ political_decisions = {
 				annex_to = THIS
 				all_core = {
 					add_core = THIS
+					remove_core = EAS
 				}
-				primary_culture = north_german
-				remove_accepted_culture = dutch
 			}
 		}
 	}

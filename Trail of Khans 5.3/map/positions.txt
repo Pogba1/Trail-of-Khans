@@ -44522,6 +44522,14 @@
         y = 1917.000000
     }
 
+    building_position = {
+        naval_base = {
+            x = 5303.958333
+            y = 1876.708333
+        }
+
+    }
+
     building_rotation = {
         naval_base = 0.698132
     }
@@ -45620,18 +45628,22 @@
 } # Kapan
 
 1100 = {
+    text_position = {
+        x = 3524.100000
+        y = 1432.550000
+    }
+
+    text_scale = 2.600000
     unit = {
         x = 3524.000000
         y = 1428.000000
     }
 
-    text_position = {
-        x = 3522.300049
-        y = 1424.800049
+    factory = {
+        x = 3513.000000
+        y = 1431.000000
     }
 
-    text_rotation = 5.585053
-    text_scale = 2.600000
     building_construction = {
         x = 3517.100098
         y = 1429.900024
@@ -45640,11 +45652,6 @@
     military_construction = {
         x = 3528.000000
         y = 1422.000000
-    }
-
-    factory = {
-        x = 3513.000000
-        y = 1431.000000
     }
 
     building_position = {
@@ -45813,10 +45820,11 @@
 
 1105 = {
     text_position = {
-        x = 3529.480000
-        y = 1434.213333
+        x = 3522.246667
+        y = 1448.846667
     }
 
+    text_rotation = 5.650706
     text_scale = 3.099999
     unit = {
         x = 3527.800000
@@ -111498,6 +111506,11 @@
             y = 1919.250000
         }
 
+        naval_base = {
+            x = 5455.270000
+            y = 1903.393333
+        }
+
     }
 
     building_rotation = {
@@ -112293,6 +112306,11 @@
             y = 2014.895000
         }
 
+        naval_base = {
+            x = 5569.070000
+            y = 2036.840000
+        }
+
     }
 
     building_rotation = {
@@ -112405,6 +112423,11 @@
             y = 2040.520000
         }
 
+        naval_base = {
+            x = 5576.000000
+            y = 2103.733333
+        }
+
     }
 
     building_rotation = {
@@ -112446,6 +112469,11 @@
             y = 1895.000000
         }
 
+        naval_base = {
+            x = 5246.856667
+            y = 1886.373333
+        }
+
     }
 
     building_rotation = {
@@ -112474,6 +112502,14 @@
     building_construction = {
         x = 5095.000000
         y = 1865.000000
+    }
+
+    building_position = {
+        naval_base = {
+            x = 5120.313333
+            y = 1831.993333
+        }
+
     }
 
     building_rotation = {
@@ -113440,6 +113476,11 @@
         railroad = {
             x = 5410.750000
             y = 1937.458333
+        }
+
+        naval_base = {
+            x = 5377.416667
+            y = 1943.083333
         }
 
     }

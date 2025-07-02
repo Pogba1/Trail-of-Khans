@@ -10,12 +10,6 @@ QNG ={
     level = 0
 }
 
-KWT = {
-    value = 125        #relation
-    level = 5        #3=cordial, 4 = friendly, 5 sphere
-    influence_value = 0
-}
-
 BTL = {
     value = 125        #relation
     level = 5        #3=cordial, 4 = friendly, 5 sphere
@@ -41,11 +35,6 @@ BDN = {
 }
 
 #Middle East
-HAL = {
-    value = 150
-    level = 4
-    influence_value = 0
-}
 NEJ = {
     value = -25
     level = 0
@@ -55,22 +44,12 @@ HDJ = {
     level = 5        #3=cordial, 4 = friendly, 5 = sphere
     influence_value = 0
 }
-NYE = {
-    value = -100
-}
 
 BHR = {
     value = 125        #relation
     level = 5        #3=cordial, 4 = friendly, 5 = sphere
     influence_value = 0
 }
-
-QAT = {
-    value = 125        #relation
-    level = 5        #3=cordial, 4 = friendly, 5 = sphere
-    influence_value = 0
-}
-
 #Africa
 EGY = {
     value = -50        #relation
@@ -122,37 +101,37 @@ army = {
     location = 861
 
     regiment = {
-        name= "4. Tümeni Firkasi"
+        name= "4. Tï¿½meni Firkasi"
         type = infantry
         home = 802
     }
 
     regiment = {
-        name= "5. Tümeni Firkasi"
+        name= "5. Tï¿½meni Firkasi"
         type = infantry
         home = 803
     }
 
     regiment = {
-        name= "1. Süvari Firkasi"
+        name= "1. Sï¿½vari Firkasi"
         type = cuirassier
         home = 798
     }
 
     regiment = {
-        name= "2. Süvari Firkasi"
+        name= "2. Sï¿½vari Firkasi"
         type = cuirassier
         home = 799
     }
 
     regiment = {
-        name= "3. Süvari Firkasi"
+        name= "3. Sï¿½vari Firkasi"
         type = cuirassier
         home = 853
     }
 
     regiment = {
-        name= "1. Topçu Firkas"
+        name= "1. Topï¿½u Firkas"
         type = artillery
         home = 861
     }
@@ -353,7 +332,7 @@ leader = {
 }
 
 leader = {
-    name = "Abdülkerim Pasha"
+    name = "Abdï¿½lkerim Pasha"
     date = 1836.1.1
     type = land
     personality = active_p

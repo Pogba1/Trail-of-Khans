@@ -57,12 +57,6 @@ COB = {
 	level = 5
 }
 
-BRE = {
-	value = 50
-	influence_value = 50
-	level = 3
-}
-
 OLD = {
 	value = 50
 	influence_value = 50
@@ -101,7 +95,7 @@ army = {
 	regiment = {
         name= "5th Division"
         type = cavalry
-        home = 355
+        home = 547
     }
 	regiment = {
         name= "6th Division"
@@ -151,12 +145,12 @@ army = {
 	regiment = {
         name= "4th Division"
         type = infantry
-        home = 548
+        home = 354
     }
 	regiment = {
         name= "5th Division"
         type = cavalry
-        home = 547
+        home = 355
     }
 	regiment = {
         name= "6th Division"

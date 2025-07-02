@@ -1,0 +1,48 @@
+leader = {
+    name = "Marquis Des Hetres"
+    date = 1836.1.1
+    type = land
+    personality = chivalrous
+    background = natural_born_leader
+    prestige = 0.25
+}
+army = {
+    name = "L'Armée de grandeur moyenne"
+    location = 607
+    
+    regiment = {
+        name = "1. Infantry"
+        type = infantry
+        home = 432
+    }
+    regiment = {
+        name = "2. Infantry"
+        type = infantry
+        home = 433
+    }
+    regiment = {
+        name = "3. Infantry"
+        type = infantry
+        home = 604
+    }
+    regiment = {
+        name = "1. Hussar"
+        type = hussar
+        home = 605
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 607
+    }
+    regiment = {
+        name = "2. Artillery"
+        type = artillery
+        home = 607
+    }
+    regiment = {
+        name = "3. Artillery"
+        type = artillery
+        home = 609
+    }
+}

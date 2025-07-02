@@ -1,0 +1,25 @@
+army = {
+    name = "Wales Army"
+    location = 273
+    
+    regiment = {
+        name = "1. Infantry"
+        type = infantry
+        home = 273
+    }
+    regiment = {
+        name = "2. Infantry"
+        type = infantry
+        home = 274
+    }
+    regiment = {
+        name = "1. Cuirassier"
+        type = cuirassier
+        home = 275
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 275
+    }
+}

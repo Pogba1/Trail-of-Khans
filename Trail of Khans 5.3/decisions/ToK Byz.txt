@@ -35,18 +35,7 @@ political_decisions = {
 			}
 		}
 		allow = {
-			all_core = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						in_sphere = THIS
-						OR = {
-							vassal_of = THIS
-							is_vassal = no
-						}
-					}
-				}
-			}
+			war = no
 			BYZ = {
 				all_core = {
 					OR = {
@@ -57,6 +46,8 @@ political_decisions = {
 								vassal_of = THIS
 								is_vassal = no
 							}
+							war = no
+							is_mobilised = no
 						}
 					}
 				}
@@ -84,6 +75,7 @@ political_decisions = {
                         is_vassal = no
                         vassal_of = THIS
                     }
+					war = no
                 }
                 country_event = 11106
             }
@@ -211,7 +203,6 @@ political_decisions = {
 			860 = {remove_core = MEA}
 			860 = {remove_core = ATH}
 			860 = {remove_core = MAC}
-			860 = {remove_core = GRE}
 			860 = {add_core = THIS}
 			
 			TUR_860 = {remove_province_modifier = war_torn}
@@ -221,23 +212,18 @@ political_decisions = {
 	crimea_rightful = {
 		picture = unite_with_greece
 		potential = {
-			967 = {owned_by = THIS}
-		    966 = {owned_by = THIS}
-		OR = {
 			tag = BYZ
-			tag = GRE
-			}
-		NOT = {has_country_flag = crimea_rightful}
+			NOT = {has_country_flag = crimea_rightful}
 		}
 		allow = {
-		         967 = {owned_by = THIS}
-		         966 = {owned_by = THIS}
+			967 = {owned_by = THIS}
+			966 = {owned_by = THIS}
 		}
 		effect = {
-		set_country_flag = crimea_rightful
-		967 = {add_core = THIS}
-		966 = {add_core = THIS}
-		prestige = 10
+			set_country_flag = crimea_rightful
+			967 = {add_core = THIS}
+			966 = {add_core = THIS}
+			prestige = 10
 		}
 	}
 	
@@ -334,6 +320,7 @@ political_decisions = {
 			PNT = {
 				all_core = {
 					add_core = THIS
+					remove_core = PNT
 				}
 			}
 			set_country_flag = inherit_pontus
@@ -378,111 +365,6 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
-	
-	sack_mecca_medina = {
-        picture = "conquest_of_the_south"
-        potential = {
-           tag = BYZ
-		   NOT = {has_country_flag = sack_mecca_medina}
-        }
-
-        allow = {
-			has_country_flag=the_holy_city
-            1153 = {owned_by = BYZ}
-			1151 = {owned_by = BYZ}
-        }
-
-        effect = {
-             any_pop = {
-                limit = {
-                    OR={has_pop_religion = sunni
-						has_pop_religion = shiite
-						has_pop_religion = ibadi
-						has_pop_religion = druze
-						}
-                }
-                militancy = 10
-				consciousness = 2
-            }
-			prestige = 15
-			badboy = 20
-			1151 = {add_province_modifier={name=recently_sacked duration = 720}}
-			1153 = {add_province_modifier={name=recently_sacked duration = 720}}
-			1151 = {
-			any_pop = {
-			limit = {
-			 OR={has_pop_religion = sunni
-						has_pop_religion = shiite
-						has_pop_religion = ibadi
-						has_pop_religion = druze
-						}
-			OR={
-			strata=middle
-			strata=rich
-			}
-			}
-				
-			reduce_pop = 0.5
-			}
-			any_pop = {
-			limit = {
-			 OR={has_pop_religion = sunni
-						has_pop_religion = shiite
-						has_pop_religion = ibadi
-						has_pop_religion = druze
-						}
-			
-			strata=poor
-			
-			}
-				
-			reduce_pop = 0.75
-			}
-			
-			}
-			1153 = {
-			any_pop = {
-			limit = {
-			 OR={has_pop_religion = sunni
-						has_pop_religion = shiite
-						has_pop_religion = ibadi
-						has_pop_religion = druze
-						}
-			OR={
-			strata=middle
-			strata=rich
-			}
-			}
-				
-			reduce_pop = 0.5
-			}
-			any_pop = {
-			limit = {
-			 OR={has_pop_religion = sunni
-						has_pop_religion = shiite
-						has_pop_religion = ibadi
-						has_pop_religion = druze
-						}
-			
-			strata=poor
-			
-			}
-				
-			reduce_pop = 0.75
-			}
-			
-			}
-			any_country = { limit = {OR={religion = sunni religion = shiite religion = ibadi religion = druze}}
-									relation = {
-									who = BYZ
-									value = -200
-										}
-							}
-			set_country_flag = sack_mecca_medina
-        }
-        ai_will_do = { factor = 0 }
-    }
-	
 	settle_the_aegean_coast = {
         picture = "bytown_1853"
         potential = {
@@ -550,32 +432,6 @@ political_decisions = {
 			869 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
 			872 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1095}}
             set_country_flag = settle_the_aegean_coast
-        }
-        ai_will_do = { factor = 1 }
-    }
-	
-	reassert_greek_superiority = {
-        picture = "founding_yadanabon"
-        potential = {
-           tag = BYZ
-		   NOT = {has_country_flag = turkish_compromise}
-		   NOT = {has_country_flag = reassert_greek_superiority}
-        }
-
-        allow = {
-			has_country_flag=patriarchate_of_antioch
-            war = no
-            nationalism_n_imperialism = 1
-			idealism = 1
-			muzzle_loaded_rifles = 1
-        }
-
-        effect = {
-            any_owned = {
-			limit = {is_core = BYZ continent = oceania}
-			add_province_modifier = {name = reassert_greek_superiority duration = -1}
-			}
-			set_country_flag = reassert_greek_superiority
         }
         ai_will_do = { factor = 1 }
     }

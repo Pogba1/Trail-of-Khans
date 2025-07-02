@@ -1,0 +1,39 @@
+leader = {
+    name = "Gregorios"
+    date = 1836.1.1
+    type = land
+    personality = skilled
+    background = gifted_administrator
+    prestige = 0.05
+}
+
+army = {
+    name = "Taxis Armenica"
+    location = 882
+    
+    regiment = {
+        name = "1. Infantry"
+        type = infantry
+        home = 882
+    }
+    regiment = {
+        name = "2. Infantry"
+        type = infantry
+        home = 885
+    }
+    regiment = {
+        name = "3. Infantry"
+        type = infantry
+        home = 886
+    }
+    regiment = {
+        name = "1. Cavalry"
+        type = cavalry
+        home = 1090
+    }
+    regiment = {
+        name = "1. Artillery"
+        type = artillery
+        home = 1095
+    }
+}

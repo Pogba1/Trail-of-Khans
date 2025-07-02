@@ -80,7 +80,7 @@ political_decisions = {
 		potential = {
 				tag = SCA
 			NOT = {
-				has_global_flag = kiruna_mine
+				has_country_flag = kiruna_mine
 			}
 		}
 		allow = {
@@ -90,30 +90,16 @@ political_decisions = {
 			306 = {owned_by = THIS}
 			iron_railroad = 1
 			drilling_and_blasting = 1
-			money = 10000
+			money = 100000
 		}
 		effect = {
-			treasury = -10000
-			set_global_flag = kiruna_mine
+			treasury = -100000
+			set_country_flag = kiruna_mine
 			321 = {add_province_modifier = {name = kiruna_mine duration = -1}}
 			321 = {trade_goods = iron}
 			321 = {infrastructure = 3}
 			321 = {life_rating = 20}
 			306 = {infrastructure = 3}
-			any_owned = {
-				limit = {
-					OR = {
-						trade_goods = iron 
-						trade_goods = coal
-					} 
-					is_core = THIS 
-					continent = europe
-				} 
-				add_province_modifier = {
-					name = scandinavian_mines 
-					duration = -1
-				}
-			}
 		}
 	 	ai_will_do = { factor = 1 }
 	}
@@ -151,6 +137,9 @@ political_decisions = {
 			tag = SCA
 			NOT = {
 				has_country_flag = iles_lordship
+			}
+			NOT = {
+				has_country_flag = give_up_claims
 			}
 		}
 		allow = {
@@ -237,6 +226,45 @@ political_decisions = {
 					add_core = THIS
 				}
 			}
+			ENG = {
+				all_core = {
+					remove_core = ENG
+				}
+			}
+		}
+	}
+	give_up_claims = {
+		potential = {
+			tag = SCA
+			NOT = {
+				has_country_flag = give_up_claims
+			}
+			NOT = {
+				has_country_flag = iles_lordship
+			}
+			ENG_284 = {
+				NOT = {
+					owned_by = THIS
+				}
+			}
+			ENG_291 = {
+				NOT = {
+					owned_by = THIS
+				}
+			}
+		}
+		allow = {
+		}
+		effect = {
+			ENG_284 = {
+				remove_core = THIS
+			}
+			ENG_291 = {
+				remove_core = THIS
+			}
+			badboy = -10
+			prestige = 15
+			set_country_flag = give_up_claims
 		}
 	}
 }
