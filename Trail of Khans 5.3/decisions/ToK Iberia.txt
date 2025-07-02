@@ -28,7 +28,6 @@ political_decisions = {
 			add_accepted_culture = berber
 			add_accepted_culture = syracusean
 			add_accepted_culture = italiote
-			badboy = 10
 		}
 	}
 	unite_the_peninsula_2 = {
@@ -74,7 +73,6 @@ political_decisions = {
 			SPA_512 = {
 				add_core = THIS
 			}
-			badboy = 15
 		}
 	}
 	form_iberia_adl = {
@@ -468,7 +466,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = unite_the_peninsula
 			prestige = 20
-			badboy = 25
 			SPA_474 = { add_core = THIS }
 			SPA_487 = { add_core = THIS }
 			SPA_503 = { add_core = THIS }
