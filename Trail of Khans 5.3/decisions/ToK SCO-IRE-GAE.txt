@@ -54,6 +54,26 @@ political_decisions = {
 					remove_core = IRE
 				}
 			}
+			ENL = {
+				all_core = {
+					remove_core = ENL
+				}
+			}
+			ENG = {
+				all_core = {
+					remove_core = ENG
+				}
+			}
+			WHA = {
+				all_core = {
+					remove_core = WHA
+				}
+			}
+			SEX = {
+				all_core = {
+					remove_core = SEX
+				}
+			}
 			any_owned = {
 				limit = {
 					is_core = FRA
