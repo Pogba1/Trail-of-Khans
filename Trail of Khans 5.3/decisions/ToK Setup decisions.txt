@@ -575,6 +575,9 @@ political_decisions = {
                 }
                 country_event = 800000
             }
+            any_country = {
+                leadership = 60
+            }
         }
     }
     1836_capital_supply = {
