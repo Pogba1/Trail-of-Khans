@@ -106,22 +106,19 @@ political_decisions = {
 			}
 		}
 		allow = {
-			NOT = {
-				in_sphere = NET 
+			OR = {
+				NOT = {
+					in_sphere = NET 
+				}
+				NET = {
+					is_greater_power = no
+					has_recently_lost_war = yes
+				}
 			}
 			NOT = {
 				relation = {
 					who = NET
 					value = -100
-				}
-			}
-			OR = {
-				NET = {
-					brigades_compare = 1
-				}
-				NET = {
-					is_greater_power = no
-					has_recently_lost_war = yes
 				}
 			}
 		}
