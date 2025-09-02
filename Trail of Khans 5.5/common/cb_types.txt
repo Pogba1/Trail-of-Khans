@@ -1538,12 +1538,6 @@ take_capital = {
 			}
 			any_owned_province = { continent = south_africa}
 		}
-		NOT = { 
-			THIS = { 
-				tag = AST
-				has_country_flag = net_dominion
-			} 
-		}
 		NOT = {
 			AND = {
 				THIS = {
@@ -1662,15 +1656,6 @@ acquire_state_tiny = {
 			}
 			any_owned_province = { continent = south_africa}
 		}
-		OR = { 
-			NOT = { 
-				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			any_owned_province = { continent = australia_new_zealand}
-		}
 		NOT = {
 			AND = {
 				THIS = {
@@ -1749,15 +1734,6 @@ acquire_state_tiny = {
 
 			continent = south_africa
 		}
-		OR = { 
-			NOT = { 
-				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			continent = australia_new_zealand
-		}
 		is_colonial = no
 		any_owned_province = {
 			is_core = TIN
@@ -1811,15 +1787,6 @@ acquire_state_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = { 
-			NOT = { 
-				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			any_owned_province = { continent = australia_new_zealand}
-		}
 		OR = { 
 			NOT = { 
 				THIS = { 
@@ -1898,15 +1865,6 @@ acquire_state_small = {
 	}
 	
 	allowed_states = {
-		OR = { 
-			NOT = { 
-				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			continent = australia_new_zealand
-		}
 		OR = { 
 			NOT = { 
 				THIS = { 
@@ -1973,15 +1931,6 @@ acquire_state_medium = {
 		OR = { 
 			NOT = { 
 				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			any_owned_province = { continent = australia_new_zealand}
-		}
-		OR = { 
-			NOT = { 
-				THIS = { 
 					tag = SAF
 					has_country_flag = net_dominion
 				} 
@@ -2057,15 +2006,6 @@ acquire_state_medium = {
 	}
 	
 	allowed_states = {
-		OR = { 
-			NOT = { 
-				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			continent = australia_new_zealand
-		}
 		OR = { 
 			NOT = { 
 				THIS = { 
@@ -2132,15 +2072,6 @@ acquire_state_large = {
 		OR = { 
 			NOT = { 
 				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			any_owned_province = { continent = australia_new_zealand}
-		}
-		OR = { 
-			NOT = { 
-				THIS = { 
 					tag = SAF
 					has_country_flag = net_dominion
 				} 
@@ -2216,15 +2147,6 @@ acquire_state_large = {
 	}
 	
 	allowed_states = {
-		OR = { 
-			NOT = { 
-				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			continent = australia_new_zealand
-		}
 		OR = { 
 			NOT = { 
 				THIS = { 
@@ -2291,15 +2213,6 @@ acquire_state_huge = {
 		OR = { 
 			NOT = { 
 				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			any_owned_province = { continent = australia_new_zealand}
-		}
-		OR = { 
-			NOT = { 
-				THIS = { 
 					tag = SAF
 					has_country_flag = net_dominion
 				} 
@@ -2375,15 +2288,6 @@ acquire_state_huge = {
 	}
 	
 	allowed_states = {
-		OR = { 
-			NOT = { 
-				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			continent = australia_new_zealand
-		}
 		OR = { 
 			NOT = { 
 				THIS = { 
@@ -2451,15 +2355,6 @@ place_in_the_sun_tiny = {
 		OR = { 
 			NOT = { 
 				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			any_owned_province = { continent = australia_new_zealand}
-		}
-		OR = { 
-			NOT = { 
-				THIS = { 
 					tag = SAF
 					has_country_flag = net_dominion
 				} 
@@ -2515,15 +2410,6 @@ place_in_the_sun_tiny = {
 	}
 	
 	allowed_states = {
-		OR = { 
-			NOT = { 
-				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			continent = australia_new_zealand
-		}
 		OR = { 
 			NOT = { 
 				THIS = { 
@@ -2594,15 +2480,6 @@ place_in_the_sun_small = {
 		OR = { 
 			NOT = { 
 				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			any_owned_province = { continent = australia_new_zealand}
-		}
-		OR = { 
-			NOT = { 
-				THIS = { 
 					tag = SAF
 					has_country_flag = net_dominion
 				} 
@@ -2658,15 +2535,6 @@ place_in_the_sun_small = {
 	}
 	
 	allowed_states = {
-		OR = { 
-			NOT = { 
-				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			continent = australia_new_zealand
-		}
 		OR = { 
 			NOT = { 
 				THIS = { 
@@ -2736,15 +2604,6 @@ place_in_the_sun_medium = {
 		OR = { 
 			NOT = { 
 				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			any_owned_province = { continent = australia_new_zealand}
-		}
-		OR = { 
-			NOT = { 
-				THIS = { 
 					tag = SAF
 					has_country_flag = net_dominion
 				} 
@@ -2800,15 +2659,6 @@ place_in_the_sun_medium = {
 	}
 	
 	allowed_states = {
-		OR = { 
-			NOT = { 
-				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			continent = australia_new_zealand
-		}
 		OR = { 
 			NOT = { 
 				THIS = { 
@@ -2875,15 +2725,6 @@ place_in_the_sun_large = {
 		OR = { 
 			NOT = { 
 				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			any_owned_province = { continent = australia_new_zealand}
-		}
-		OR = { 
-			NOT = { 
-				THIS = { 
 					tag = SAF 
 					has_country_flag = net_dominion
 				} 
@@ -2941,15 +2782,6 @@ place_in_the_sun_large = {
 	}
 	
 	allowed_states = {
-		OR = { 
-			NOT = { 
-				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			continent = australia_new_zealand
-		}
 		OR = { 
 			NOT = { 
 				THIS = { 
@@ -3013,15 +2845,6 @@ place_in_the_sun_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {  
-			NOT = { 
-				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			any_owned_province = { continent = australia_new_zealand}
-		}
 		OR = { 
 			NOT = { 
 				THIS = { 
@@ -3080,15 +2903,6 @@ place_in_the_sun_huge = {
 	}
 	
 	allowed_states = {
-		OR = { 
-			NOT = { 
-				THIS = { 
-					tag = AST 
-					has_country_flag = net_dominion
-				} 
-			}
-			continent = australia_new_zealand
-		}
 		OR = { 
 			NOT = { 
 				THIS = { 
@@ -3193,6 +3007,11 @@ cut_down_to_size = {
 	
 	can_use = {
 		NOT = {
+			THIS = {
+				has_country_flag = net_dominion
+			}
+		}
+		NOT = {
 			AND = {
 				THIS = {
 					tag = BHA
@@ -3245,6 +3064,11 @@ war_reparations = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = {
+			THIS = {
+				has_country_flag = net_dominion
+			}
+		}
 		NOT = {
 			AND = {
 				THIS = {
@@ -3313,13 +3137,6 @@ free_peoples_tiny = {
 	can_use = {
 		NOT = { 
 			THIS = { 
-				tag = AST 
-				has_country_flag = net_dominion
-			} 
-		}
-		NOT = { 
-			THIS = { 
-				tag = SAF 
 				has_country_flag = net_dominion
 			} 
 		}
@@ -3424,14 +3241,7 @@ free_peoples_small = {
 
 	can_use = {
 		NOT = { 
-			THIS = { 
-				tag = AST 
-				has_country_flag = net_dominion
-			} 
-		}
-		NOT = { 
-			THIS = { 
-				tag = SAF 
+			THIS = {
 				has_country_flag = net_dominion
 			} 
 		}
@@ -3536,14 +3346,7 @@ free_peoples_medium = {
 
 	can_use = {
 		NOT = { 
-			THIS = { 
-				tag = AST 
-				has_country_flag = net_dominion
-			} 
-		}
-		NOT = { 
-			THIS = { 
-				tag = SAF 
+			THIS = {
 				has_country_flag = net_dominion
 			} 
 		}
@@ -3649,13 +3452,6 @@ free_peoples_large = {
 	can_use = {
 		NOT = { 
 			THIS = { 
-				tag = AST 
-				has_country_flag = net_dominion
-			} 
-		}
-		NOT = { 
-			THIS = { 
-				tag = SAF 
 				has_country_flag = net_dominion
 			} 
 		}
@@ -3761,13 +3557,6 @@ free_peoples_huge = {
 	can_use = {
 		NOT = { 
 			THIS = { 
-				tag = AST 
-				has_country_flag = net_dominion
-			} 
-		}
-		NOT = { 
-			THIS = { 
-				tag = SAF 
 				has_country_flag = net_dominion
 			} 
 		}
@@ -3875,13 +3664,6 @@ liberate_country = {
 	can_use = {
 		NOT = { 
 			THIS = { 
-				tag = AST 
-				has_country_flag = net_dominion
-			} 
-		}
-		NOT = { 
-			THIS = { 
-				tag = SAF 
 				has_country_flag = net_dominion
 			} 
 		}
@@ -3985,6 +3767,11 @@ dismantle_forts = {
 	
 	
 	can_use = {
+		NOT = {
+			THIS = {
+				has_country_flag = net_dominion
+			}
+		}
 		NOT = {
 			AND = {
 				THIS = {
@@ -4146,14 +3933,7 @@ release_puppet = {
 
 	can_use = {
 		NOT = { 
-			THIS = { 
-				tag = AST 
-				has_country_flag = net_dominion
-			} 
-		}
-		NOT = { 
-			THIS = { 
-				tag = SAF 
+			THIS = {
 				has_country_flag = net_dominion
 			} 
 		}
@@ -4235,14 +4015,7 @@ make_puppet = {
 			}
 		}
 		NOT = { 
-			THIS = { 
-				tag = AST 
-				has_country_flag = net_dominion
-			} 
-		}
-		NOT = { 
-			THIS = { 
-				tag = SAF 
+			THIS = {
 				has_country_flag = net_dominion
 			} 
 		}
@@ -4374,7 +4147,7 @@ humiliate = {
 	is_triggered_only = yes
 	months = 12
 
-	badboy_factor = 1.5
+	badboy_factor = 500
 	prestige_factor = 10
 	peace_cost_factor = 0.004
 	penalty_factor = 1
@@ -4395,6 +4168,11 @@ humiliate = {
 	war_name = WAR_HUMILIATE_NAME
 
 	can_use = {
+		NOT = {
+			THIS = {
+				has_country_flag = net_dominion
+			}
+		}
 		NOT = {
 			AND = {
 				THIS = {
@@ -4462,12 +4240,6 @@ demand_concession_casus_belli_tiny = {
 				tag = SAF
 				revolution_n_counterrevolution = 1
 			}
-		}
-		NOT = { 
-			THIS = { 
-				tag = AST
-				has_country_flag = net_dominion
-			} 
 		}
 		NOT = {
 			AND = {
@@ -4591,12 +4363,6 @@ demand_concession_casus_belli_small = {
 				revolution_n_counterrevolution = 1
 			}
 		}
-		NOT = { 
-			THIS = { 
-				tag = AST
-				has_country_flag = net_dominion
-			} 
-		}
 		NOT = {
 			AND = {
 				THIS = {
@@ -4705,12 +4471,6 @@ demand_concession_casus_belli_medium = {
 	always = no
 
 	can_use = {
-		NOT = { 
-			THIS = { 
-				tag = AST
-				has_country_flag = net_dominion
-			} 
-		}
 		OR = { 
 			NOT = { 
 				THIS = { 
@@ -4850,12 +4610,6 @@ demand_concession_casus_belli_large = {
 				revolution_n_counterrevolution = 1
 			}
 		}
-		NOT = { 
-			THIS = { 
-				tag = AST
-				has_country_flag = net_dominion
-			} 
-		}
 		NOT = {
 			AND = {
 				THIS = {
@@ -4980,12 +4734,6 @@ demand_concession_casus_belli_huge = {
 				revolution_n_counterrevolution = 1
 			}
 		}
-		NOT = { 
-			THIS = { 
-				tag = AST
-				has_country_flag = net_dominion
-			} 
-		}
 		NOT = {
 			AND = {
 				THIS = {
@@ -5107,12 +4855,6 @@ establish_protectorate_casus_belli = {
 				continent = south_africa
 			}
 		}
-		NOT = { 
-			THIS = { 
-				tag = AST 
-				has_country_flag = net_dominion
-			}
-		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			civilized = yes
@@ -5189,12 +4931,6 @@ establish_protectorate_NI_casus_belli = {
 				continent = south_africa
 			}
 		}
-		NOT = { 
-			THIS = { 
-				tag = AST 
-				has_country_flag = net_dominion
-			}
-		}
 		THIS = {
 			civilized = yes
 			nationalism_n_imperialism = 1
@@ -5261,12 +4997,6 @@ establish_protectorate_REV_casus_belli = {
 	always = no
 	
 	can_use = {
-		NOT = { 
-			THIS = { 
-				tag = AST 
-				has_country_flag = net_dominion
-			}
-		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			civilized = yes
@@ -5799,6 +5529,11 @@ treaty_port_casus_belli = {
 	always = no
 
 	can_use = {
+		NOT = {
+			THIS = {
+				has_country_flag = net_dominion
+			}
+		}
 		THIS = {
 			civilized = yes
 			NOT = {

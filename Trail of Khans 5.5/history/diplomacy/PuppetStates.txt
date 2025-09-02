@@ -84,6 +84,14 @@ vassal = {
 	end_date = 1936.1.1
 }
 
+#Netherlands-Tasmania
+vassal = {
+    first = NET
+    second = AST
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+
 #Mongolia-Jurchen(Yuan)
 vassal = {
     first = MGL

@@ -91,12 +91,9 @@ political_decisions = {
         }
     }
 
-	dominion_independence = {
+	dominion_independence_saf = {
 		potential = {
-			NOT = {
-				has_country_flag = dominion_independence
-			}
-			has_country_flag = net_dominion
+			tag = SAF
 			OR = {
 				is_secondary_power = yes
 				is_greater_power = yes
@@ -149,4 +146,19 @@ political_decisions = {
 		}
 	}
 
+	dominion_independence_ast = {
+		potential = {
+			tag = SIK
+			AST = {
+				is_vassal = no 
+			}
+		}
+		allow = {
+		}
+		effect = {
+			AST = {
+				clr_country_flag = net_dominion
+			}
+		}
+	}
 }
