@@ -133,31 +133,31 @@
     }
 
     clergymen = {
-        culture = afro_brazilian
+        culture = afro_irish
         religion = catholic
         size = 50
     }
 
     artisans = {
-        culture = afro_brazilian
+        culture = afro_irish
         religion = catholic
         size = 250
     }
 
     soldiers = {
-        culture = afro_brazilian
+        culture = afro_irish
         religion = catholic
         size = 50
     }
 
     farmers = {
-        culture = afro_brazilian
+        culture = afro_irish
         religion = catholic
         size = 150
     }
 
     slaves = {
-        culture = afro_brazilian
+        culture = afro_irish
         religion = catholic
         size = 9500
     }
@@ -402,8 +402,8 @@
         size = 910
     }
 
-    slaves = {
-        culture = afro_brazilian
+    farmers = {
+        culture = afro_irish
         religion = catholic
         size = 2500
     }

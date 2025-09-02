@@ -20,11 +20,10 @@ political_decisions = {
                         }
                         war = no
                         is_mobilised = no
-                        is_greater_power = no
                     }
                 }
             }
-            BAV = {
+            OTO = {
                 all_core = {
                     OR = {
                         owned_by = THIS
@@ -35,76 +34,7 @@ political_decisions = {
                                 vassal_of = THIS
                             }
                             war = no
-                            is_mobilised = no 
-                            is_greater_power = no
-                        }
-                    }
-                }
-            }
-            WUR = {
-                all_core = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            in_sphere = THIS
-                            OR = {
-                                is_vassal = no
-                                vassal_of = THIS
-                            }
-                            war = no
-                            is_mobilised = no 
-                            is_greater_power = no
-                        }
-                    }
-                }
-            }
-            BAD = {
-                all_core = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            in_sphere = THIS
-                            OR = {
-                                is_vassal = no
-                                vassal_of = THIS
-                            }
-                            war = no
-                            is_mobilised = no 
-                            is_greater_power = no
-                        }
-                    }
-                }
-            }
-            HES = {
-                all_core = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            in_sphere = THIS
-                            OR = {
-                                is_vassal = no
-                                vassal_of = THIS
-                            }
-                            war = no
-                            is_mobilised = no 
-                            is_greater_power = no
-                        }
-                    }
-                }
-            }
-            TIR = {
-                all_core = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            in_sphere = THIS
-                            OR = {
-                                is_vassal = no
-                                vassal_of = THIS
-                            }
-                            war = no
-                            is_mobilised = no 
-                            is_greater_power = no
+                            is_mobilised = no
                         }
                     }
                 }
@@ -121,41 +51,6 @@ political_decisions = {
                     remove_core = BHA
                 }
             }
-            BAV = {
-                all_core = {
-                    add_core = OTO
-                    remove_core = BAV
-                }
-            }
-            WUR = {
-                all_core = {
-                    add_core = OTO
-                    remove_core = WUR
-                }
-            }
-            BAD = {
-                all_core = {
-                    add_core = OTO
-                    remove_core = BAD
-                }
-            }
-            HES = {
-                all_core = {
-                    add_core = OTO
-                    remove_core = HES 
-                }
-            }
-            TIR = {
-                all_core = {
-                    add_core = OTO
-                    remove_core = TIR 
-                }
-            }
-            PLT = {
-                all_core = {
-                    add_core = OTO
-                }
-            } 
             FRA_412 = {
                 add_core = OTO
             } 
@@ -164,7 +59,55 @@ political_decisions = {
                     in_sphere = THIS
                     primary_culture = south_german
                 }
-                annex_to = THIS
+                country_event = 11101
+            }
+        }
+    }
+    
+    force_treaty_bohemia = {
+        potential = {
+            tag = BHA
+            war_with = POL
+            has_global_flag = war_for_bohemia
+        }
+        allow = {
+            OR = {
+                POL = { 
+                    NOT = {
+                        war_countries = {
+                            NOT = { tag = THIS }
+                            ai = no
+                        }
+                    }
+                    national_provinces_occupied = 0.33
+                }
+                POL = { 
+                    war_countries = {
+                        NOT = { tag = THIS }
+                        ai = no
+                    }
+                    national_provinces_occupied = 0.66
+                }
+            }
+            year = 1837
+        }
+        effect = {
+            THIS = {
+                end_war = POL
+                end_war = SLS
+                end_war = HUN
+            }
+            clr_global_flag = war_for_bohemia
+            set_global_flag = bohemian_victory
+            add_country_modifier = {
+                name = truce_timer
+                duration = 1825
+            }
+            POL = {
+                add_country_modifier = {
+                    name = truce_timer
+                    duration = 1825
+                }
             }
         }
     }

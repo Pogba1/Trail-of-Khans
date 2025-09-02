@@ -654,6 +654,35 @@ emigration_chance =
 {
 	factor = 0.75
 
+###Thracian/Greek migration treaty in Moesia
+
+	modifier = {
+		factor = 10
+		culture = greek
+		country = {
+			has_country_flag = greco_romanian_treaty
+		}
+		OR = {
+			location = { province_id = 810 }
+			location = { province_id = 811 }
+		}
+	}
+
+	modifier = {
+		factor = 10
+		culture = thracian
+		country = {
+			has_country_flag = greco_romanian_treaty
+		}
+		OR = {
+			location =  { province_id = 809 }
+			location =  { province_id = 812 }
+			location =  { province_id = 813 }
+			location =  { province_id = 814 }
+		}
+	}
+
+
 ###Positive Factors for Emigration (bad)###
 
 #If pop group is NOT primary or accepted culture and has at least 1/2/3/4/5/6/7/8/9/9.9 militancy, then +0.1% chance to emigrate for each threshold.	(+1% total)

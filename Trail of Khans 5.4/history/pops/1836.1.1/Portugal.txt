@@ -116,10 +116,17 @@
         religion = sunni
         size = 56500
     }
+
 	farmers = {
         culture = spanish
         religion = catholic
-        size = 66500
+        size = 36500
+    }
+
+	slaves = {
+        culture = spanish
+        religion = catholic
+        size = 30000
     }
 
 }
@@ -205,10 +212,17 @@
         religion = sunni
         size = 79800
     }
+
 	farmers = {
         culture = spanish
         religion = catholic
-        size = 59800
+        size = 39800
+    }
+
+	slaves = {
+        culture = spanish
+        religion = catholic
+        size = 20000
     }
 }
 #Abrantes (140000/35000 POPS)

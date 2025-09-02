@@ -48,23 +48,4 @@ political_decisions = {
 			}
 		}
 	}
-	
-	manifest_arg = {
-		picture = ""
-		potential = {
-			tag = ARG
-			not={has_country_flag = manifest_arg}
-		}
-		allow = {
-			2375 = {owned_by = THIS}
-			2322 = {owned_by = THIS}
-			2373 = {owned_by = THIS}
-			nationalism_n_imperialism = 1
-		}
-		effect = {
-			ARG_2368 = {add_core = THIS}
-			BOL_2305 = {add_core = THIS}
-			set_country_flag = manifest_arg
-		}
-	}
 }

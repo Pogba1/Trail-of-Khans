@@ -63,11 +63,6 @@ political_decisions = {
         picture = map_java
         potential = {
             tag = NET
-            JAV = {
-                vassal_of = THIS
-                exists = yes
-                civilized = no
-                }
             NOT = { has_country_flag = javanese_integrated }
         }
 
@@ -77,6 +72,11 @@ political_decisions = {
         }
 
         effect = {
+            JAV = {
+                vassal_of = THIS
+                exists = yes
+                civilized = no
+            }
             set_country_flag = javanese_integrated
 			inherit = JAV
 			inherit = DJA
@@ -90,4 +90,66 @@ political_decisions = {
             modifier = { factor = 0 badboy = 0.95 }
         }
     }
+
+	dominion_independence = {
+		potential = {
+			NOT = {
+				has_country_flag = dominion_independence
+			}
+			has_country_flag = net_dominion
+			OR = {
+				is_secondary_power = yes
+				is_greater_power = yes
+			}
+			NOT = {
+				truce_with = NET
+			}
+		}
+		allow = {
+			NOT = {
+				in_sphere = NET 
+			}
+			NOT = {
+				relation = {
+					who = NET
+					value = -100
+				}
+			}
+			OR = {
+				NET = {
+					brigades_compare = 1
+				}
+				NET = {
+					is_greater_power = no
+					has_recently_lost_war = yes
+				}
+			}
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						is_greater_power = yes
+					}
+				}
+				owner = {
+					clr_country_flag = net_dominion
+					set_country_flag = dominion_independence
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						is_secondary_power = yes
+					}
+				}
+				owner = {				
+					NET = { country_event = { id = 66600 days = 1 } }
+					set_country_flag = dominion_independence
+				}
+			}
+			prestige = 10
+		}
+	}
+
 }

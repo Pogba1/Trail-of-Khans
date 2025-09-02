@@ -660,12 +660,6 @@
         size = 400
     }
 
-    soldiers = {
-        culture = north_german
-        religion = protestant
-        size = 100
-    }
-
     farmers = {
         culture = north_german
         religion = protestant
@@ -687,7 +681,7 @@
     soldiers = {
         culture = polish
         religion = catholic
-        size = 1560
+        size = 2860
     }
 
     farmers = {
@@ -714,12 +708,6 @@
         size = 8390
     }
     ######Jews
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
 
     clergymen = {
         culture = ashkenazi
@@ -750,12 +738,6 @@
         culture = lithuanian
         religion = catholic
         size = 950
-    }
-
-    soldiers = {
-        culture = lithuanian
-        religion = catholic
-        size = 1100
     }
 
     farmers = {

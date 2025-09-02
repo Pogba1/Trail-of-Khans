@@ -2335,7 +2335,7 @@
 #Palermo (744000/186000 POPS)
 762 = {
     aristocrats = {
-        culture = syracusean
+        culture = portuguese
         religion = catholic
         size = 2800
     }
@@ -2391,7 +2391,13 @@
     farmers = {
         culture = syracusean
         religion = catholic
-        size = 135172
+        size = 85172
+    }
+
+    slaves = {
+        culture = syracusean
+        religion = catholic
+        size = 50000
     }
 
     farmers = {
@@ -2403,8 +2409,8 @@
 #Messina (352000/88000 POPS)
 763 = {
     aristocrats = {
-        culture = syracusean
-        religion = catholic
+        culture = portuguese
+        religion = sunni
         size = 2450
     }
 
@@ -2429,7 +2435,13 @@
     farmers = {
         culture = syracusean
         religion = catholic
-        size = 84196
+        size = 50196
+    }
+
+    slaves = {
+        culture = syracusean
+        religion = catholic
+        size = 34000
     }
 
     farmers = {
@@ -2441,28 +2453,28 @@
     farmers = {
         culture = italiote
         religion = catholic
-        size = 22750
+        size = 14750
+    }
+
+    slaves = {
+        culture = italiote
+        religion = catholic
+        size = 8000
     }
 
 }
 #Catania (720000/180000 POPS)
 764 = {
     aristocrats = {
-        culture = syracusean
-        religion = catholic
+        culture = portuguese
+        religion = sunni
         size = 15000
     }
 
     aristocrats = {
         culture = maghrebi
         religion = sunni
-        size = 1485
-    }
-
-    aristocrats = {
-        culture = italiote
-        religion = catholic
-        size = 2515
+        size = 4000
     }
 
     clergymen = {
@@ -2504,7 +2516,13 @@
     farmers = {
         culture = syracusean
         religion = catholic
-        size = 151046
+        size = 91046
+    }
+
+    slaves = {
+        culture = syracusean
+        religion = catholic
+        size = 60000
     }
 
     farmers = {
@@ -2516,7 +2534,13 @@
     farmers = {
         culture = italiote
         religion = orthodox
-        size = 74000
+        size = 40000
+    }
+
+    slaves = {
+        culture = italiote
+        religion = orthodox
+        size = 34000
     }
 }
 #Sardinia Region (524000)
@@ -2793,7 +2817,13 @@
     farmers = {
         culture = syracusean
         religion = catholic
-        size = 20510
+        size = 12510
+    }
+
+    slaves = {
+        culture = syracusean
+        religion = catholic
+        size = 8000
     }
 
     farmers = {
@@ -2827,7 +2857,13 @@
     farmers = {
         culture = syracusean
         religion = catholic
-        size = 40450
+        size = 24450
+    }
+
+    slaves = {
+        culture = syracusean
+        religion = catholic
+        size = 16000
     }
 
     farmers = {

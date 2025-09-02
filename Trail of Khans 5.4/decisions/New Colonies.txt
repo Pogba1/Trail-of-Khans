@@ -244,7 +244,7 @@ political_decisions = {
                         NOT = { has_global_flag = libya_organized }
                     }
                 }
-                2585 = { secede_province = THIS add_core = CYR any_pop = { literacy = -0.99 } }
+                2585 = { secede_province = THIS any_pop = { literacy = -0.99 } }
                 owner = { prestige = 1 }
             }
             #Owner of Al Jaghbub gets Al Jawf, Libya
@@ -262,10 +262,6 @@ political_decisions = {
             random_owned = {
                 limit = { owner = { 1741 = { owned_by = THIS is_core = THIS } } }
                 1742 = { add_core = THIS }
-            }
-            random_owned = {
-                limit = { owner = { 1738 = { owned_by = THIS is_core = THIS } } }
-                2585 = { add_core = THIS add_core = CYR }
             }
             #Owner of Baris gets Farafra, Egypt
             random_owned = {

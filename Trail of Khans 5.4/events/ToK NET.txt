@@ -1,0 +1,70 @@
+country_event = {
+    id = 66600
+    title = "EVTNAME66600"
+    desc = "EVTDESC66600"
+    picture = Picture
+    is_triggered_only = yes
+
+    option = {
+        name = "We cannot allow our dominion to break away!"
+        relation = { who = FROM value = -200 }
+        add_casus_belli = {
+            target = FROM
+            type = restore_dominion
+            months = 12
+        }
+        war = {
+            target = FROM
+            attacker_goal = {
+                casus_belli = restore_dominion
+            }
+            defender_goal = {
+                casus_belli = become_independent
+            }
+        }
+        FROM = {
+            country_event = {
+                id = 66602
+                days = 0
+            }
+        }
+    }
+    
+    option = {
+        name = "We shall grant them their independence"
+        FROM = {
+            country_event = {
+                id = 66601
+                days = 0
+            }
+        }
+        prestige = -25
+        relation = { who = FROM value = 150 }
+    }
+}
+
+country_event = {
+    id = 66601
+    title = "EVTNAME66601"
+    desc = "EVTDESC66601"
+    picture = Picture
+    is_triggered_only = yes
+
+    option = {
+        name = "Great!"
+        clr_country_flag = net_dominion
+    }
+}
+
+country_event = {
+    id = 66602
+    title = "EVTNAME66602"
+    desc = "EVTDESC66602"
+    picture = Picture
+    is_triggered_only = yes
+
+    option = {
+        name = "The fools"
+        clr_country_flag = net_dominion
+    }
+}

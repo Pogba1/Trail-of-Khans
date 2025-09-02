@@ -1,7 +1,7 @@
 
 army = {
     name = "Esercito Repubblicano"
-    location = 2429
+    location = 2447
     regiment = {
         name= "1. Brigata di fanteria"
         type = infantry
@@ -147,7 +147,7 @@ leader = {
 
 navy = {
     name = "Vespuccian Navy"
-    location = 2410
+    location = 2447
     ship = {
         name = "Tarquinia Tesoro"
         type = manowar

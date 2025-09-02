@@ -67,6 +67,7 @@ demand_concession_casus_belli_small
 demand_concession_casus_belli_medium
 demand_concession_casus_belli_large
 demand_concession_casus_belli_huge
+treaty_port_casus_belli
 acquire_substate_region
 take_capital
 place_in_the_sun_tiny
@@ -314,6 +315,24 @@ negotiated_transfer_cb = {
 
 	can_use = {
 		number_of_states = 2 # annex if you want their last state
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		is_vassal = no
 		ai = no
 		THIS = { civilized = yes }
@@ -361,6 +380,24 @@ third_party_transfer = {
 
 	can_use = {
 		number_of_states = 2 # annex if you want their last state
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		is_vassal = no
 		ai = no
 		THIS = { civilized = yes }
@@ -416,18 +453,25 @@ conquest = {
 	crisis = no
 	
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			capital_scope = { continent = south_africa}
+			THIS = { 
+				is_greater_power = yes 
+			}
+		}
 		total_pops = 400000
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
-		NOT = {
-			primary_culture = hausa
-		}
-		NOT = {
-			primary_culture = tuareg
-		}
-		NOT = {
-			primary_culture = forest_bantu
+		AND = {
+			THIS = { capital_scope = { continent = africa } }
+			capital_scope = { continent = africa }
 		}
 		OR = {
 			AND = {
@@ -486,19 +530,26 @@ conquest_low = {
 	crisis = no
 	
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			capital_scope = { continent = south_africa}
+			THIS = { 
+				is_greater_power = yes 
+			}
+		}
 		total_pops = 100000
 		NOT = {	total_pops = 400000 }
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
-		NOT = {
-			primary_culture = hausa
-		}
-		NOT = {
-			primary_culture = tuareg
-		}
-		NOT = {
-			primary_culture = forest_bantu
+		AND = {
+			THIS = { capital_scope = { continent = africa } }
+			capital_scope = { continent = africa }
 		}
 		OR = {
 			AND = {
@@ -555,19 +606,26 @@ conquest_tiny = {
 	crisis = no
 	
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			capital_scope = { continent = south_africa}
+			THIS = { 
+				is_greater_power = yes 
+			}
+		}
         total_pops = 10000
         NOT = { total_pops = 100000 }
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
-		NOT = {
-			primary_culture = hausa
-		}
-		NOT = {
-			primary_culture = tuareg
-		}
-		NOT = {
-			primary_culture = forest_bantu
+		AND = {
+			THIS = { capital_scope = { continent = africa } }
+			capital_scope = { continent = africa }
 		}
 		OR = {
 			AND = {
@@ -624,18 +682,25 @@ conquest_miniscule = {
 	crisis = no
 	
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			capital_scope = { continent = south_africa}
+			THIS = { 
+				is_greater_power = yes 
+			}
+		}
         NOT = { total_pops = 10000 }
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
-		NOT = {
-			primary_culture = hausa
-		}
-		NOT = {
-			primary_culture = tuareg
-		}
-		NOT = {
-			primary_culture = forest_bantu
+		AND = {
+			THIS = { capital_scope = { continent = africa } }
+			capital_scope = { continent = africa }
 		}
 		OR = {
 			AND = {
@@ -748,6 +813,24 @@ add_to_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		this = { is_greater_power = yes }
 		is_greater_power = no
@@ -794,6 +877,24 @@ take_from_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		this = { is_greater_power = yes }
 		is_greater_power = yes
@@ -833,7 +934,7 @@ acquire_core_state_tiny = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.04125
+	peace_cost_factor = 0.001
 	penalty_factor = 1
 	always = yes
 
@@ -847,6 +948,24 @@ acquire_core_state_tiny = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { 
@@ -899,7 +1018,7 @@ acquire_core_state_small = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.10
+	peace_cost_factor = 0.003
 	penalty_factor = 1
 	always = yes
 
@@ -913,6 +1032,24 @@ acquire_core_state_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { 
@@ -965,7 +1102,7 @@ acquire_core_state_medium = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.125
+	peace_cost_factor = 0.004
 	penalty_factor = 1
 	always = yes
 
@@ -979,6 +1116,24 @@ acquire_core_state_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { 
@@ -1031,7 +1186,7 @@ acquire_core_state_large = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.1875
+	peace_cost_factor = 0.006
 	penalty_factor = 1
 	always = yes
 
@@ -1045,6 +1200,24 @@ acquire_core_state_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { 
@@ -1097,7 +1270,7 @@ acquire_core_state_huge = {
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 0.25
+	peace_cost_factor = 0.008
 	penalty_factor = 1
 	always = yes
 
@@ -1111,6 +1284,24 @@ acquire_core_state_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { 
@@ -1178,6 +1369,24 @@ annex_core_country = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {
 			is_core = THIS
@@ -1214,7 +1423,7 @@ acquire_substate_region = {
 	
 	badboy_factor = 2
 	prestige_factor = 2
-	peace_cost_factor = 0.185
+	peace_cost_factor = 0.006
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1227,6 +1436,33 @@ acquire_substate_region = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		num_of_substates = 1 # if has any substate
 		any_substate = {
@@ -1239,6 +1475,16 @@ acquire_substate_region = {
 	}
 	
 	allowed_substate_regions = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+
+			continent = south_africa
+		}
 		is_colonial = no
 		owner = { NOT = { in_sphere = THIS } }
 		any_owned_province = {
@@ -1248,7 +1494,7 @@ acquire_substate_region = {
 	}
 
 	po_demand_state = yes
-	po_gunboat = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -1268,9 +1514,9 @@ take_capital = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 2.2
+	badboy_factor = 3
 	prestige_factor = 10
-	peace_cost_factor = 0.4
+	peace_cost_factor = 0.016
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1283,102 +1529,39 @@ take_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			NOT = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
 			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = no
-				}
-			}
+			any_owned_province = { continent = south_africa}
 		}
-	}
-	
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			NOT = {	is_core = THIS }
-			is_colonial = no
+		NOT = { 
+			THIS = { 
+				tag = AST
+				has_country_flag = net_dominion
+			} 
 		}
-		any_owned_province = { is_capital = yes }
 		NOT = {
 			AND = {
 				THIS = {
-					capital_scope = {
-						OR = {
-							continent = north_america
-							continent = south_america
-						}
-					}
+					tag = BHA
+					has_country_modifier = truce_timer
 				}
-				OR = {
-					continent = north_america
-					continent = south_america
-				}
+				tag = POL
 			}
 		}
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
 			}
 		}
-	}		
-
-	po_demand_state = yes
-	po_gunboat = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-
-take_capital_america = {
-	sprite_index = 6
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 2.2
-	prestige_factor = 10
-	peace_cost_factor = 0.4
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -1405,27 +1588,25 @@ take_capital_america = {
 				}
 			}
 		}
-		THIS = {
-			capital_scope = {
-				OR = {
-					continent = north_america
-					continent = south_america
-				}
-			}
-		}
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+
+			continent = south_africa
+		}
 		is_colonial = no
 		any_owned_province = {
 			NOT = {	is_core = THIS }
 			is_colonial = no
 		}
 		any_owned_province = { is_capital = yes }
-		OR = {
-			continent = north_america
-			continent = south_america
-		}
 	}
 	
 	allowed_states_in_crisis = {
@@ -1437,6 +1618,7 @@ take_capital_america = {
 	}		
 
 	po_demand_state = yes
+	po_remove_prestige = yes
 	
 	war_name = WAR_TAKE_NAME
 	
@@ -1458,7 +1640,7 @@ acquire_state_tiny = {
 	
 	badboy_factor = 1
 	prestige_factor = 2
-	peace_cost_factor = 0.0825
+	peace_cost_factor = 0.003
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1471,6 +1653,42 @@ acquire_state_tiny = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = australia_new_zealand}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -1521,6 +1739,25 @@ acquire_state_tiny = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+
+			continent = south_africa
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = australia_new_zealand
+		}
 		is_colonial = no
 		any_owned_province = {
 			is_core = TIN
@@ -1561,7 +1798,7 @@ acquire_state_small = {
 	
 	badboy_factor = 2.2
 	prestige_factor = 2
-	peace_cost_factor = 0.20
+	peace_cost_factor = 0.006
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1574,6 +1811,42 @@ acquire_state_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = australia_new_zealand}
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -1625,6 +1898,25 @@ acquire_state_small = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = australia_new_zealand
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+
+			continent = south_africa
+		}
 		is_colonial = no
 		any_owned_province = {
 			is_core = SMA
@@ -1665,7 +1957,7 @@ acquire_state_medium = {
 	
 	badboy_factor = 2.2
 	prestige_factor = 2
-	peace_cost_factor = 0.25
+	peace_cost_factor = 0.008
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1678,6 +1970,42 @@ acquire_state_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = australia_new_zealand}
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -1729,6 +2057,25 @@ acquire_state_medium = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = australia_new_zealand
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+
+			continent = south_africa
+		}
 		is_colonial = no
 		any_owned_province = {
 			is_core = MED
@@ -1769,7 +2116,7 @@ acquire_state_large = {
 	
 	badboy_factor = 2.2
 	prestige_factor = 2
-	peace_cost_factor = 0.375
+	peace_cost_factor = 0.012
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1782,6 +2129,42 @@ acquire_state_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = australia_new_zealand}
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -1833,6 +2216,25 @@ acquire_state_large = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = australia_new_zealand
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+
+			continent = south_africa
+		}
 		is_colonial = no
 		any_owned_province = {
 			is_core = LRG
@@ -1873,7 +2275,7 @@ acquire_state_huge = {
 	
 	badboy_factor = 2.2
 	prestige_factor = 2
-	peace_cost_factor = 0.50
+	peace_cost_factor = 0.016
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1886,6 +2288,42 @@ acquire_state_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = australia_new_zealand}
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -1937,6 +2375,25 @@ acquire_state_huge = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = australia_new_zealand
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+
+			continent = south_africa
+		}
 		is_colonial = no
 		any_owned_province = {
 			is_core = HUG
@@ -1978,7 +2435,7 @@ place_in_the_sun_tiny = {
 
 	badboy_factor = 1
 	prestige_factor = 2
-	peace_cost_factor = 0.03125
+	peace_cost_factor = 0.001
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1991,6 +2448,45 @@ place_in_the_sun_tiny = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = australia_new_zealand}
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+			THIS = {
+				revolution_n_counterrevolution = 1 
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -2019,6 +2515,28 @@ place_in_the_sun_tiny = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = australia_new_zealand
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+ 
+			continent = south_africa
+			THIS = { 
+				revolution_n_counterrevolution = 1 
+			}
+		}
 		any_owned_province = {
 			is_core = TIN
 		}
@@ -2060,7 +2578,7 @@ place_in_the_sun_small = {
 
 	badboy_factor = 1
 	prestige_factor = 2
-	peace_cost_factor = 0.0625
+	peace_cost_factor = 0.002
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2073,6 +2591,45 @@ place_in_the_sun_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = australia_new_zealand}
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+			THIS = {
+				revolution_n_counterrevolution = 1 
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -2101,6 +2658,28 @@ place_in_the_sun_small = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = australia_new_zealand
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+
+			continent = south_africa
+			THIS = { 
+				revolution_n_counterrevolution = 1 
+			}
+		}
 		any_owned_province = {
 			is_core = SMA
 		}
@@ -2141,7 +2720,7 @@ place_in_the_sun_medium = {
 
 	badboy_factor = 1
 	prestige_factor = 2
-	peace_cost_factor = 0.0825
+	peace_cost_factor = 0.003
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2154,6 +2733,45 @@ place_in_the_sun_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = australia_new_zealand}
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+			THIS = {
+				revolution_n_counterrevolution = 1 
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -2182,6 +2800,25 @@ place_in_the_sun_medium = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = australia_new_zealand
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+		    continent = south_africa
+			THIS = { revolution_n_counterrevolution = 1 }
+		}
 		any_owned_province = {
 			is_core = MED
 		}
@@ -2222,7 +2859,7 @@ place_in_the_sun_large = {
 
 	badboy_factor = 1
 	prestige_factor = 2
-	peace_cost_factor = 0.125
+	peace_cost_factor = 0.004
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2235,6 +2872,47 @@ place_in_the_sun_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = australia_new_zealand}
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF 
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+			THIS = {
+				revolution_n_counterrevolution = 1 
+			}
+		}
+		OR = {
+			NOT = {
+				AND = {
+					THIS = {
+						tag = BHA
+						has_country_modifier = truce_timer
+					}
+					tag = POL
+				}
+			}
+			NOT = {
+				AND = {
+					THIS = {
+						tag = POL
+						has_country_modifier = truce_timer
+					}
+					tag = BHA
+				}
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -2263,6 +2941,25 @@ place_in_the_sun_large = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = australia_new_zealand
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+
+			THIS = { revolution_n_counterrevolution = 1 }
+		}
 		any_owned_province = {
 			is_core = LRG
 		}
@@ -2303,7 +3000,7 @@ place_in_the_sun_huge = {
 
 	badboy_factor = 1
 	prestige_factor = 2
-	peace_cost_factor = 0.15625
+	peace_cost_factor = 0.005
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2316,6 +3013,45 @@ place_in_the_sun_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {  
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = australia_new_zealand}
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF 
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+			THIS = {
+				revolution_n_counterrevolution = 1 
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
@@ -2344,6 +3080,25 @@ place_in_the_sun_huge = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = AST 
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = australia_new_zealand
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+
+			THIS = { revolution_n_counterrevolution = 1 }
+		}
 		any_owned_province = {
 			is_core = HUG
 		}
@@ -2437,6 +3192,24 @@ cut_down_to_size = {
 	war_name = WAR_NAME
 	
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		is_disarmed = no
 	}
@@ -2472,6 +3245,24 @@ war_reparations = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		THIS = { ai = no }
 		war_with = THIS
 		NOT = {
@@ -2507,7 +3298,7 @@ free_peoples_tiny = {
 	
 	badboy_factor = 1.32
 	prestige_factor = 1
-	peace_cost_factor = 0.0825
+	peace_cost_factor = 0.003
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2520,6 +3311,36 @@ free_peoples_tiny = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { 
+			THIS = { 
+				tag = AST 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = { 
+			THIS = { 
+				tag = SAF 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 #
@@ -2589,7 +3410,7 @@ free_peoples_small = {
 	
 	badboy_factor = 1.32
 	prestige_factor = 1
-	peace_cost_factor = 0.2
+	peace_cost_factor = 0.006
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2602,6 +3423,36 @@ free_peoples_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { 
+			THIS = { 
+				tag = AST 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = { 
+			THIS = { 
+				tag = SAF 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK tag = GHO  tag = TIN tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 #
@@ -2671,7 +3522,7 @@ free_peoples_medium = {
 	
 	badboy_factor = 1.32
 	prestige_factor = 1
-	peace_cost_factor = 0.25
+	peace_cost_factor = 0.008
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2684,6 +3535,36 @@ free_peoples_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { 
+			THIS = { 
+				tag = AST 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = { 
+			THIS = { 
+				tag = SAF 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 #
@@ -2753,7 +3634,7 @@ free_peoples_large = {
 	
 	badboy_factor = 1.32
 	prestige_factor = 1
-	peace_cost_factor = 0.375
+	peace_cost_factor = 0.012
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2766,6 +3647,36 @@ free_peoples_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { 
+			THIS = { 
+				tag = AST 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = { 
+			THIS = { 
+				tag = SAF 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 #
@@ -2835,7 +3746,7 @@ free_peoples_huge = {
 	
 	badboy_factor = 1.32
 	prestige_factor = 1
-	peace_cost_factor = 0.5
+	peace_cost_factor = 0.016
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2848,6 +3759,36 @@ free_peoples_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { 
+			THIS = { 
+				tag = AST 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = { 
+			THIS = { 
+				tag = SAF 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 #
@@ -2918,7 +3859,7 @@ liberate_country = {
 
 	badboy_factor = 2
 	prestige_factor = 1
-	peace_cost_factor = 1
+	peace_cost_factor = 0.9
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2932,6 +3873,36 @@ liberate_country = {
 	
 	
 	can_use = {
+		NOT = { 
+			THIS = { 
+				tag = AST 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = { 
+			THIS = { 
+				tag = SAF 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			ai = no
@@ -3014,6 +3985,24 @@ dismantle_forts = {
 	
 	
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 	}
 
@@ -3156,6 +4145,36 @@ release_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { 
+			THIS = { 
+				tag = AST 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = { 
+			THIS = { 
+				tag = SAF 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 	}
@@ -3204,6 +4223,47 @@ make_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = { 
+			NOT = {
+				any_owned_province = {
+					is_capital = yes
+					continent = africa
+				}
+			}
+			THIS = {
+				revolution_n_counterrevolution = 1
+			}
+		}
+		NOT = { 
+			THIS = { 
+				tag = AST 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = { 
+			THIS = { 
+				tag = SAF 
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { number_of_states = 5 }
 		is_greater_power = no
@@ -3256,6 +4316,24 @@ become_independent = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		is_our_vassal = THIS
 	}
 	
@@ -3298,7 +4376,7 @@ humiliate = {
 
 	badboy_factor = 1.5
 	prestige_factor = 10
-	peace_cost_factor = 15
+	peace_cost_factor = 0.004
 	penalty_factor = 1
 	
 	break_truce_prestige_factor = 1
@@ -3317,6 +4395,24 @@ humiliate = {
 	war_name = WAR_HUMILIATE_NAME
 
 	can_use = {
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 	}	
 	on_add = {
@@ -3338,7 +4434,7 @@ demand_concession_casus_belli_tiny = {
 	
 	badboy_factor = 1
 	prestige_factor = 0.1
-	peace_cost_factor = 0.0625
+	peace_cost_factor = 0.002
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -3353,28 +4449,48 @@ demand_concession_casus_belli_tiny = {
 	always = no
 
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+
+			THIS = {
+				tag = SAF
+				revolution_n_counterrevolution = 1
+			}
+		}
+		NOT = { 
+			THIS = { 
+				tag = AST
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		
-		OR = {
-			NOT = {
-				capital_scope = {
-					location = {
-						continent = africa
-					}
-				}
-				OR = {
-					primary_culture = forest_bantu
-					primary_culture = tuareg
-					primary_culture = hausa
-				}
-			}
-			THIS = {
-				revolution_n_counterrevolution = 1
-			}
-		}
 		THIS = {
 			civilized = yes
 		}
@@ -3383,7 +4499,25 @@ demand_concession_casus_belli_tiny = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = south_africa
+			THIS = {
+				revolution_n_counterrevolution = 1
+			}
+		}
 		any_owned_province = {
+			OR = {
+				NOT = { continent = africa }		
+				THIS = {
+					revolution_n_counterrevolution = 1
+				}
+			}
 			is_core = TIN
 			is_colonial = no
 			OR = { 
@@ -3394,7 +4528,12 @@ demand_concession_casus_belli_tiny = {
 				region = CHI_1496
 				region = CHI_1498
 				region = CHI_1499
-
+				region = CHI_2632
+				region = CHI_1566
+				region = CHI_1606
+				region = CHI_1608
+				region = CHI_1609
+				region = CHI_1538
 			}
 		}
 	}
@@ -3423,7 +4562,7 @@ demand_concession_casus_belli_small = {
 	
 	badboy_factor = 1
 	prestige_factor = 0.1
-	peace_cost_factor = 0.125
+	peace_cost_factor = 0.004
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -3438,28 +4577,48 @@ demand_concession_casus_belli_small = {
 	always = no
 
 	can_use = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+
+			THIS = {
+				tag = SAF
+				revolution_n_counterrevolution = 1
+			}
+		}
+		NOT = { 
+			THIS = { 
+				tag = AST
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		
-		OR = {
-			NOT = {
-				capital_scope = {
-					location = {
-						continent = africa
-					}
-				}
-				OR = {
-					primary_culture = forest_bantu
-					primary_culture = tuareg
-					primary_culture = hausa
-				}
-			}
-			THIS = {
-				revolution_n_counterrevolution = 1
-			}
-		}
 		THIS = {
 			civilized = yes
 		}
@@ -3468,7 +4627,25 @@ demand_concession_casus_belli_small = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = south_africa
+			THIS = {
+				revolution_n_counterrevolution = 1
+			}
+		}
 		any_owned_province = {
+			OR = {
+				NOT = { continent = africa }		
+				THIS = {
+					revolution_n_counterrevolution = 1
+				}
+			}
 			is_core = SMA
 			is_colonial = no
 			OR = { 
@@ -3479,7 +4656,12 @@ demand_concession_casus_belli_small = {
 				region = CHI_1496
 				region = CHI_1498
 				region = CHI_1499
-
+				region = CHI_2632
+				region = CHI_1566
+				region = CHI_1606
+				region = CHI_1608
+				region = CHI_1609
+				region = CHI_1538
 			}
 		}
 	}
@@ -3508,7 +4690,7 @@ demand_concession_casus_belli_medium = {
 	
 	badboy_factor = 1
 	prestige_factor = 0.1
-	peace_cost_factor = 0.20
+	peace_cost_factor = 0.006
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -3523,28 +4705,50 @@ demand_concession_casus_belli_medium = {
 	always = no
 
 	can_use = {
+		NOT = { 
+			THIS = { 
+				tag = AST
+				has_country_flag = net_dominion
+			} 
+		}
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+
+			THIS = {
+				tag = SAF
+				revolution_n_counterrevolution = 1
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		
-		OR = {
-			NOT = {
-				capital_scope = {
-					location = {
-						continent = africa
-					}
-				}
-				OR = {
-					primary_culture = forest_bantu
-					primary_culture = tuareg
-					primary_culture = hausa
-				}
-			}
-			THIS = {
-				revolution_n_counterrevolution = 1
-			}
-		}
+
 		THIS = {
 			civilized = yes
 		}
@@ -3553,7 +4757,25 @@ demand_concession_casus_belli_medium = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = south_africa
+			THIS = {
+				revolution_n_counterrevolution = 1
+			}
+		}
 		any_owned_province = {
+			OR = {
+				NOT = { continent = africa }		
+				THIS = {
+					revolution_n_counterrevolution = 1
+				}
+			}
 			is_core = MED
 			is_colonial = no
 			OR = { 
@@ -3564,7 +4786,12 @@ demand_concession_casus_belli_medium = {
 				region = CHI_1496
 				region = CHI_1498
 				region = CHI_1499
-
+				region = CHI_2632
+				region = CHI_1566
+				region = CHI_1606
+				region = CHI_1608
+				region = CHI_1609
+				region = CHI_1538
 			}
 		}
 	}
@@ -3593,7 +4820,7 @@ demand_concession_casus_belli_large = {
 	
 	badboy_factor = 1
 	prestige_factor = 0.1
-	peace_cost_factor = 0.25
+	peace_cost_factor = 0.008
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -3608,28 +4835,51 @@ demand_concession_casus_belli_large = {
 	always = no
 
 	can_use = {
+
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+
+			THIS = {
+				tag = SAF
+				revolution_n_counterrevolution = 1
+			}
+		}
+		NOT = { 
+			THIS = { 
+				tag = AST
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		
-		OR = {
-			NOT = {
-				capital_scope = {
-					location = {
-						continent = africa
-					}
-				}
-				OR = {
-					primary_culture = forest_bantu
-					primary_culture = tuareg
-					primary_culture = hausa
-				}
-			}
-			THIS = {
-				revolution_n_counterrevolution = 1
-			}
-		}
+
 		THIS = {
 			civilized = yes
 		}
@@ -3638,8 +4888,25 @@ demand_concession_casus_belli_large = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = south_africa 
+			THIS = {
+				revolution_n_counterrevolution = 1
+			}
+		}
 		any_owned_province = {
-			is_core = LRG
+			OR = {
+				NOT = { continent = africa }		
+				THIS = {
+					revolution_n_counterrevolution = 1
+				}
+			}			is_core = LRG
 			is_colonial = no
 			OR = { 
 				NOT = {
@@ -3649,7 +4916,12 @@ demand_concession_casus_belli_large = {
 				region = CHI_1496
 				region = CHI_1498
 				region = CHI_1499
-
+				region = CHI_2632
+				region = CHI_1566
+				region = CHI_1606
+				region = CHI_1608
+				region = CHI_1609
+				region = CHI_1538
 			}
 		}
 	}
@@ -3678,7 +4950,7 @@ demand_concession_casus_belli_huge = {
 	
 	badboy_factor = 1
 	prestige_factor = 0.1
-	peace_cost_factor = 0.3125
+	peace_cost_factor = 0.01
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -3693,28 +4965,51 @@ demand_concession_casus_belli_huge = {
 	always = no
 
 	can_use = {
+
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			any_owned_province = { continent = south_africa}
+
+			THIS = {
+				tag = SAF
+				revolution_n_counterrevolution = 1
+			}
+		}
+		NOT = { 
+			THIS = { 
+				tag = AST
+				has_country_flag = net_dominion
+			} 
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = BHA
+					has_country_modifier = truce_timer
+				}
+				tag = POL
+			}
+		}
+		NOT = {
+			AND = {
+				THIS = {
+					tag = POL
+					has_country_modifier = truce_timer
+				}
+				tag = BHA
+			}
+		}
 		NOT = { tag = SIK }
 		NOT = { tag = GHO }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		
-		OR = {
-			NOT = {
-				capital_scope = {
-					location = {
-						continent = africa
-					}
-				}
-				OR = {
-					primary_culture = forest_bantu
-					primary_culture = tuareg
-					primary_culture = hausa
-				}
-			}
-			THIS = {
-				revolution_n_counterrevolution = 1
-			}
-		}
+
 		THIS = {
 			civilized = yes
 		}
@@ -3723,8 +5018,25 @@ demand_concession_casus_belli_huge = {
 	}
 	
 	allowed_states = {
+		OR = { 
+			NOT = { 
+				THIS = { 
+					tag = SAF
+					has_country_flag = net_dominion
+				} 
+			}
+			continent = south_africa
+			THIS = {
+				revolution_n_counterrevolution = 1
+			}
+		}
 		any_owned_province = {
-			is_core = HUG
+			OR = {
+				NOT = { continent = africa }		
+				THIS = {
+					revolution_n_counterrevolution = 1
+				}
+			}			is_core = HUG
 			is_colonial = no
 			OR = { 
 				NOT = {
@@ -3734,7 +5046,12 @@ demand_concession_casus_belli_huge = {
 				region = CHI_1496
 				region = CHI_1498
 				region = CHI_1499
-
+				region = CHI_2632
+				region = CHI_1566
+				region = CHI_1606
+				region = CHI_1608
+				region = CHI_1609
+				region = CHI_1538
 			}
 		}
 	}
@@ -3778,35 +5095,33 @@ establish_protectorate_casus_belli = {
 	always = no
 	
 	can_use = {
+		OR = {
+			NOT = { 
+				THIS = { 
+					tag = SAF 
+					has_country_flag = net_dominion
+				}
+			}
+			any_owned_province = { 
+				is_capital = yes
+				continent = south_africa
+			}
+		}
+		NOT = { 
+			THIS = { 
+				tag = AST 
+				has_country_flag = net_dominion
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			civilized = yes
 		}
 		THIS = { NOT = { nationalism_n_imperialism = 1 } }
-		OR = {
-			NOT = {
-				number_of_states = 2 
-			}
-			AND = {
-				THIS = {
-						is_greater_power = yes
-						nationalism_n_imperialism = 1
-				}
-				NOT = { number_of_states = 5 }
-			}
-		}
 		NOT = {
-			capital_scope = {
-				location = {
-					continent = africa
-				}
-			}
-			OR = {
-				primary_culture = forest_bantu
-				primary_culture = tuareg
-				primary_culture = hausa
-			}
+			number_of_states = 2 
 		}
+		NOT = { capital_scope = { continent = africa } }
 		NOT = {
 			OR = {
 				primary_culture = beifaren
@@ -3862,7 +5177,24 @@ establish_protectorate_NI_casus_belli = {
 	always = no
 	
 	can_use = {
-		NOT = { is_our_vassal = THIS }
+		OR = {
+			NOT = { 
+				THIS = { 
+					tag = SAF 
+					has_country_flag = net_dominion
+				}
+			}
+			any_owned_province = { 
+				is_capital = yes
+				continent = south_africa
+			}
+		}
+		NOT = { 
+			THIS = { 
+				tag = AST 
+				has_country_flag = net_dominion
+			}
+		}
 		THIS = {
 			civilized = yes
 			nationalism_n_imperialism = 1
@@ -3874,18 +5206,7 @@ establish_protectorate_NI_casus_belli = {
 		NOT = {
 			number_of_states = 7
 		}
-		NOT = {
-			capital_scope = {
-				location = {
-					continent = africa
-				}
-			}
-			OR = {
-				primary_culture = forest_bantu
-				primary_culture = tuareg
-				primary_culture = hausa
-			}
-		}
+		NOT = { capital_scope = { continent = africa } }
 		NOT = {
 			OR = {
 				primary_culture = beifaren
@@ -3940,6 +5261,12 @@ establish_protectorate_REV_casus_belli = {
 	always = no
 	
 	can_use = {
+		NOT = { 
+			THIS = { 
+				tag = AST 
+				has_country_flag = net_dominion
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			civilized = yes
@@ -4011,7 +5338,12 @@ unification_humiliate_cb = {
 			is_greater_power = yes
 		}
 		is_greater_power = yes
-		is_culture_group = THIS
+		OR = {
+			is_culture_group = THIS
+			any_sphere_member = {
+				is_culture_group = THIS
+			}
+		}
 		NOT = { is_cultural_union = THIS }
 		has_cultural_sphere = yes
 	}
@@ -4404,5 +5736,115 @@ seperate_truce = {
 			to = pro_military
 			value = 0.25
 		}
+	}
+}
+
+restore_dominion = {
+	sprite_index = 10
+	is_triggered_only = yes
+	months = 12
+	constructing_cb = no
+
+	badboy_factor = 0
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	always = no
+
+	can_use = {} # This part must be empty, or the CB will cause lag
+
+	po_make_puppet = yes
+
+	on_po_accepted = {
+		clr_country_flag = dominion_independence
+		set_country_flag = net_dominion
+	}
+
+	on_add = { }
+
+	war_name = WAR_PUPPET_NAME
+}
+
+#Treaty port
+treaty_port_casus_belli = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	badboy_factor = 0.5
+	prestige_factor = 1
+	peace_cost_factor = 10
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 4
+	break_truce_infamy_factor = 4
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 0
+	
+	always = no
+
+	can_use = {
+		THIS = {
+			civilized = yes
+			NOT = {
+				is_culture_group = east_asian
+			}
+		}
+		NOT = { tag = SIK }
+		NOT = { is_our_vassal = THIS }
+		AND = {
+			is_culture_group = east_asian
+			civilized = no
+		}
+	}
+	allowed_states = {
+		any_owned_province = {
+			OR = {
+				province_id = 1499
+				province_id = 1498
+				province_id = 1496
+				province_id = 1608
+				province_id = 1606
+				province_id = 1538
+				province_id = 1569
+				province_id = 1566
+				province_id = 2632
+				province_id = 1609
+			}
+		}
+	}
+	
+	po_demand_state = yes
+	po_reparations = yes
+	
+	tws_battle_factor = 1.5
+	
+	war_name = PUNITIVE_EXPEDITION_WAR_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.1
+		}
+	}
+	
+	on_po_accepted = {
+
 	}
 }

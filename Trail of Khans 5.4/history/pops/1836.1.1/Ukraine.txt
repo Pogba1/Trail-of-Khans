@@ -504,12 +504,6 @@
         size = 4200
     }
 
-    soldiers = {
-        culture = ukrainian
-        religion = orthodox
-        size = 1000
-    }
-
     farmers = {
         culture = ukrainian
         religion = orthodox
@@ -552,22 +546,18 @@
         size = 3250
     }
 
-    soldiers = {
-        culture = polish
-        religion = catholic
-        size = 650
-    }
-
     farmers = {
         culture = polish
         religion = catholic
         size = 124725
     }
+
 	soldiers = {
         culture = polish
         religion = catholic
-        size = 3000
+        size = 4825
     }
+
     aristocrats = {
         culture = ashkenazi
         religion = jewish
@@ -586,12 +576,6 @@
         size = 2800
     }
 
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 125
-    }
-
     farmers = {
         culture = ashkenazi
         religion = jewish
@@ -605,12 +589,6 @@
     }
 
     artisans = {
-        culture = hungarian
-        religion = catholic
-        size = 100
-    }
-
-    soldiers = {
         culture = hungarian
         religion = catholic
         size = 100
@@ -633,7 +611,7 @@
 	soldiers = {
         culture = polish
         religion = catholic
-        size = 3000
+        size = 4150
     }
     clergymen = {
         culture = ukrainian
@@ -645,12 +623,6 @@
         culture = ukrainian
         religion = orthodox
         size = 2550
-    }
-
-    soldiers = {
-        culture = ukrainian
-        religion = orthodox
-        size = 500
     }
 
     farmers = {
@@ -677,12 +649,6 @@
         size = 2100
     }
 
-    soldiers = {
-        culture = polish
-        religion = catholic
-        size = 450
-    }
-
     farmers = {
         culture = polish
         religion = catholic
@@ -699,12 +665,6 @@
         culture = ashkenazi
         religion = jewish
         size = 1400
-    }
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
     }
 
     farmers = {
@@ -725,12 +685,6 @@
         size = 100
     }
 
-    soldiers = {
-        culture = hungarian
-        religion = catholic
-        size = 100
-    }
-
     farmers = {
         culture = hungarian
         religion = catholic
@@ -742,28 +696,18 @@
 	soldiers = {
         culture = polish
         religion = catholic
-        size = 6000
+        size = 11900
     }
     clergymen = {
         culture = ukrainian
         religion = orthodox
         size = 1950
     }
-	soldiers = {
-        culture = polish
-        religion = catholic
-        size = 3000
-    }
+
     artisans = {
         culture = ukrainian
         religion = orthodox
         size = 9900
-    }
-
-    soldiers = {
-        culture = ukrainian
-        religion = orthodox
-        size = 1950
     }
 
     farmers = {
@@ -802,12 +746,6 @@
         size = 3400
     }
 
-    soldiers = {
-        culture = polish
-        religion = catholic
-        size = 700
-    }
-
     farmers = {
         culture = polish
         religion = catholic
@@ -824,12 +762,6 @@
         culture = ashkenazi
         religion = jewish
         size = 3400
-    }
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 150
     }
 
     farmers = {
@@ -850,11 +782,6 @@
         size = 100
     }
 
-    soldiers = {
-        culture = hungarian
-        religion = catholic
-        size = 100
-    }
 
     farmers = {
         culture = hungarian
@@ -874,12 +801,6 @@
         culture = ukrainian
         religion = orthodox
         size = 2650
-    }
-
-    soldiers = {
-        culture = ukrainian
-        religion = orthodox
-        size = 525
     }
 
     farmers = {
@@ -915,7 +836,7 @@
     soldiers = {
         culture = polish
         religion = catholic
-        size = 3025
+        size = 3750
     }
 	
     farmers = {
@@ -936,12 +857,6 @@
         size = 1400
     }
 
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
     farmers = {
         culture = ashkenazi
         religion = jewish
@@ -955,12 +870,6 @@
     }
 
     artisans = {
-        culture = hungarian
-        religion = catholic
-        size = 100
-    }
-
-    soldiers = {
         culture = hungarian
         religion = catholic
         size = 100
@@ -1226,12 +1135,6 @@
         size = 2400
     }
 
-    soldiers = {
-        culture = ukrainian
-        religion = orthodox
-        size = 1000
-    }
-
     farmers = {
         culture = ukrainian
         religion = orthodox
@@ -1265,7 +1168,7 @@
     soldiers = {
         culture = polish
         religion = catholic
-        size = 150
+        size = 1275
     }
 
     farmers = {
@@ -1284,12 +1187,6 @@
         culture = ashkenazi
         religion = jewish
         size = 2600
-    }
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 125
     }
 
     farmers = {
@@ -1312,12 +1209,6 @@
         size = 2350
     }
 
-    soldiers = {
-        culture = ukrainian
-        religion = orthodox
-        size = 4400
-    }
-
     farmers = {
         culture = polish
         religion = catholic
@@ -1335,11 +1226,13 @@
         religion = catholic
         size = 2300
     }
+
 	soldiers = {
         culture = polish
         religion = catholic
-        size = 3000
+        size = 7650
     }
+
     clergymen = {
         culture = polish
         religion = catholic
@@ -1350,12 +1243,6 @@
         culture = polish
         religion = catholic
         size = 600
-    }
-
-    soldiers = {
-        culture = polish
-        religion = catholic
-        size = 125
     }
 
     farmers = {
@@ -1374,12 +1261,6 @@
         culture = ashkenazi
         religion = jewish
         size = 2600
-    }
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 125
     }
 
     farmers = {

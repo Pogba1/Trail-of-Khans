@@ -1,7 +1,6 @@
-owner = CUS
-controller = CUS
-add_core = CUS
-add_core = INC
+owner = SAM
+controller = SAM
+add_core = SAM
 trade_goods = sulphur
  
 life_rating = 31

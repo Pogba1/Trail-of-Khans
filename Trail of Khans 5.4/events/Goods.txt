@@ -16,19 +16,20 @@ province_event = {
             province_id = 2153            # Durango
             province_id = 2157            # Culiacan
             province_id = 2179            # Acapulco
-            #province_id = 2323            # La Serena
+            province_id = 2323            # La Serena
             province_id = 2575            # Ipoh
-            #province_id = 1659            # Kobe
+            province_id = 1659            # Kobe
             province_id = 2142            # Chihuahua
             province_id = 2252            # Medellin
             province_id = 1187            # Semipalatinsk
             province_id = 1070            # Yeniseysk - Russia
         }
         NOT = {
-            year = 1890
+            year = 1870
             trade_goods = precious_metal
             trade_goods = coal
             trade_goods = iron
+            trade_goods = oil
         }
     }
 

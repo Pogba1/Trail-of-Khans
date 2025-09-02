@@ -58,6 +58,26 @@ luxury_needs = {
 country_migration_target =
 {
 	factor = 1
+
+	modifier = {
+		factor = 50
+		THIS = { has_pop_culture = greek }
+		primary_culture = greek
+		has_country_flag = greco_romanian_treaty
+	}
+
+	modifier = {
+		factor = 50
+		THIS = { has_pop_culture = thracian }
+		primary_culture = romanian
+		has_country_flag = greco_romanian_treaty
+	}
+
+	modifier = {
+		factor = 2
+		THIS = { has_pop_culture = dutch }
+		has_country_flag = net_dominion
+	}
 	modifier = {
 		factor = 0.9
 		unemployment = 0.05

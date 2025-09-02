@@ -87,7 +87,6 @@ political_decisions = {
         potential = {
             OR = {
                 tag = GEL
-                tag = MAJ
                 tag = WRL
             }
             NOT = { has_global_flag = somalia_united }

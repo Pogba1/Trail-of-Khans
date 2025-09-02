@@ -7,17 +7,17 @@ nationalvalue = nv_liberty
 literacy = 0.01
 non_state_culture_literacy = 0.01
 civilized = yes
-prestige = 5
+prestige = 20
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = universal_weighted_voting
 public_meetings = yes_meeting
 press_rights = free_press
-trade_unions = all_trade_unions
+trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = gerrymandering
+political_parties = non_secret_ballots
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -29,7 +29,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # Political reforms
-conscription = one_year_draft
+conscription = two_year_draft
  
 
 child_labor = child_labor_legal
@@ -55,7 +55,7 @@ upper_house = {
 post_napoleonic_thought = 1
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
-#military_staff_system = 1
+military_staff_system = 1
 army_command_principle = 1
 post_nelsonian_thought = 1
 battleship_column_doctrine = 1

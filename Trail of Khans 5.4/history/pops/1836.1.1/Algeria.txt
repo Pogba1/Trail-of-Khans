@@ -315,90 +315,79 @@
 #sigma
 1704 = {
 	aristocrats = {
-        culture = french
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 100
     }
 
     bureaucrats = {
-        culture = french
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 125
     }
 
     clergymen = {
-        culture = french
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 25
     }
 
     artisans = {
-        culture = french
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 1500
     }
 
     soldiers = {
-        culture = french
-        religion = catholic
-        size = 2000
+        culture = maghrebi
+        religion = sunni
+        size = 1000
     }
 
     farmers = {
-        culture = french
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 225
     }
 	aristocrats = {
-        culture = french
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 25
     }
 
     clergymen = {
-        culture = french
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 625
     }
 
-    soldiers = {
-        culture = french
-        religion = catholic
-        size = 1100
-    }
-
     farmers = {
-        culture = french
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 200
     }
     aristocrats = {
-        culture = french
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 50
     }
 
     clergymen = {
-        culture = french
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 25
     }
 
     artisans = {
-        culture = french
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 800
     }
 
-    soldiers = {
-        culture = french
-        religion = catholic
-        size = 875
-    }
 
     farmers = {
-        culture = french
-        religion = catholic
+        culture = maghrebi
+        religion = sunni
         size = 200
     }
 

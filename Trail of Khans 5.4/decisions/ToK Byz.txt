@@ -114,9 +114,15 @@ political_decisions = {
 					remove_core = MAC
 				}
 			}
-			
-			TUR_809 = {
-				add_core = BYZ
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { has_country_flag = treaty_with_romanians }
+					}
+				}
+				owner = {
+					TUR_809 = { add_core = THIS }
+				}
 			}
 			
 			set_global_flag = pheonix_rises
@@ -435,5 +441,45 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
+
+	treaty_with_romanians = {
+		potential = {
+			OR = {
+				tag = EPI
+				tag = BYZ
+			}
+			NOT = { has_country_flag = treaty_with_romanians }
+		}
+		allow = {
+			TUR_809 = {
+				owner = {
+					in_sphere = THIS
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+					}
+					primary_culture = romanian
+				}
+			}
+		}
+		effect = {
+			random_country = {
+				limit = {
+					owns = 814
+					owns = 809
+					owns = 811
+					owns = 812
+					owns = 813
+					owns = 814
+				}
+				country_event = {
+					id = 145300
+					days = 0
+				}
+			}
+			set_country_flag = treaty_with_romanians
+		}
+	}
+
 }
 

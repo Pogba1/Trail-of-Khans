@@ -305,3 +305,7 @@ take_capital_late_for_puppet;Take Capital Lategame for Puppet;;;;;;;;;;;;;x
 take_capital_late_for_puppet_desc;Take the Capital region of a 即country劬 for a puppet and force them to move their capital elsewhere for 55% less warscore.;;;;;;;;;;;;;x
 take_capital_late_for_puppet_setup;Take Capital region $STATE$ of $RECIPIENT$ for a puppet.;;;;;;;;;;;;;x
 take_capital_late_for_puppet_short;Takes Capital from $RECIPIENT$;;;;;;;;;;;;;x
+restore_dominion;Restore control over a dominion;x
+restore_dominion_desc;$RECIPIENT$ has declared independence and we shall restore our authority over it;x
+restore_dominion_setup;Puppet $RECIPIENT$;x
+restore_dominion_short;Puppet $RECIPIENT$;X

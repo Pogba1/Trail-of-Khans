@@ -508,7 +508,7 @@
         religion = sunni
         size = 63700
     }
-	farmers = {
+	slaves = {
         culture = spanish
         religion = catholic
         size = 6370
@@ -550,7 +550,8 @@
         religion = sunni
         size = 58725
     }
-	farmers = {
+
+	slaves = {
         culture = spanish
         religion = catholic
         size = 5872
@@ -1754,12 +1755,12 @@
         religion = sunni
         size = 62375
     }
-	farmers = {
+	slaves = {
         culture = spanish
         religion = catholic
         size = 6237
     }
-	farmers = {
+	slaves = {
         culture = catalan
         religion = catholic
         size = 6237
@@ -1796,7 +1797,7 @@
         religion = sunni
         size = 41025
     }
-	farmers = {
+	slaves = {
         culture = spanish
         religion = catholic
         size = 4102

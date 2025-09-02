@@ -1775,7 +1775,7 @@ country_event = {
 #German minors
 country_event = {
     id = 8794
-    title = "German minor cores"
+    title = "Culture core removal"
     desc = " "
 
     mean_time_to_happen = {
@@ -1831,6 +1831,15 @@ country_event = {
                 exists = no
             }
             NAS = {
+                exists = no
+            }
+            ATH = {
+                exists = no
+            }
+            MEA = {
+                exists = no
+            }
+            NCE = {
                 exists = no
             }
         }
@@ -2018,6 +2027,46 @@ country_event = {
             NAS = {
                 all_core = {
                     remove_core = NAS
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                ATH = { exists = no }
+            }
+            ATH = {
+                all_core = {
+                    remove_core = ATH
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                MEA = { exists = no }
+            }
+            MEA = {
+                all_core = {
+                    remove_core = MEA
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                NCE = { exists = no }
+            }
+            NCE = {
+                all_core = {
+                    remove_core = NCE
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                CRE = { exists = no }
+            }
+            CRE = {
+                all_core = {
+                    remove_core = CRE
                 }
             }
         }

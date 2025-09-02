@@ -1,35 +1,4 @@
 political_decisions = {
-	united_sam = {
-		potential = {
-			primary_culture = brazilian
-			NOT = {exists = SAM}
-		}
-		allow = {
-			2410 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			2447 = {OR = {owned_by = THIS owner = {in_sphere = THIS}}}
-			
-			
-		}
-		effect = {
-			BRZ = {all_core = {add_core = THIS}}
-			NGV = {all_core = {add_core = THIS}}
-			change_tag = SAM
-			any_country = {
-                limit = {
-                    primary_culture = brazilian
-                    in_sphere = THIS
-                    NOT = { tag = THIS }
-                    OR = {
-                        is_vassal = no
-                        vassal_of = THIS
-                    }
-                }
-                country_event = 11106
-            }
-			
-			prestige = 10
-		}
-	}
 	afro_vespuccian_int = {
 		potential = {
 			tag = SAM

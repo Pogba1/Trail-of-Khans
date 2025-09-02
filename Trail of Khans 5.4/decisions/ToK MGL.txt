@@ -73,7 +73,6 @@ political_decisions = {
 						}
 					}
 					AND = {
-						is_vassal = no
 						any_core = {
 							owned_by = JAP
 						}

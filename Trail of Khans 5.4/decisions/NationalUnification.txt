@@ -1,84 +1,5 @@
 political_decisions = {
-	unite_moldavia_wallachia = {
-		potential = {
-			OR = {
-				tag = WAL
-				tag = MOL
-				tag = SIE
-			}
-			NOT = { exists = ROM }
-		}
-
-		allow = {
-			
-			OR = {
-			state_n_government = 1
-			AND = {
-				664 = {OR = {owned_by = THIS owner = {vassal_of = THIS}}} 
-				670 = {OR = {owned_by = THIS owner = {vassal_of = THIS}}} 
-				2533 = {OR = {owned_by = THIS owner = {vassal_of = THIS}}} 
-				656 = {OR = {owned_by = THIS owner = {vassal_of = THIS}}}
-			 }	
-			}
-			
-		}
-
-		effect = {
-			prestige = 10
-			add_accepted_culture = thracian
-			change_tag = ROM
-			any_country = {
-				limit = {
-					primary_culture = romanian
-				}
-				country_event = 11101
-			}
-			capital = 664
-            WAL = {
-                all_core = {
-                    remove_core = WAL
-                }
-            }
-            MOL = {
-                all_core = {
-                    remove_core = MOL
-                }
-            }
-            SIE = {
-                all_core = {
-                    remove_core = SIE
-                }
-            }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	form_rom = {
-		potential = {
-			primary_culture = romanian
-			NOT = {exists = ROM}
-			OR = {
-				NOT = {	exists = WAL }
-				NOT = { exists = MOL }
-				NOT = { exists = SIE }
-			}
-		}
-		allow = {
-			670 = {owned_by = THIS}
-			664 = {owned_by = THIS}
-			AUS_654={owned_by=THIS}
-			AUS_657={owned_by=THIS}
-		}
-		effect = {
-			prestige = 10
-			add_accepted_culture = thracian
-			change_tag = ROM
-			capital = 664
-		}
-	}
-	
+    
     form_south_german_confederation = {
         potential = {
             capital_scope = { continent = europe }
@@ -283,6 +204,7 @@ political_decisions = {
                 is_culture_group = gallic
                 is_culture_group = british
                 is_culture_group = hellenic
+                is_culture_group = czecho_slovak_culture_group
             }
         }
 

@@ -1495,4 +1495,33 @@ political_decisions = {
             }
         }
     }
+
+    bohemia_and_poland_truce_timer = {
+        potential = {
+            tag = SIK
+            OR = {
+                BHA = { has_country_modifier = truce_timer }
+                POL = { has_country_modifier = truce_timer }
+            }
+            BHA = {
+                war_with = POL
+            }
+            POL = {
+                OR = {
+                    war_with = BHA
+                    war_with = OTO
+                }
+            }
+        }
+        allow = {
+        }
+        effect = {
+            BHA = {
+                remove_country_modifier = truce_timer
+            }
+            POL = {
+                remove_country_modifier = truce_timer
+            }
+        }
+    }
 }

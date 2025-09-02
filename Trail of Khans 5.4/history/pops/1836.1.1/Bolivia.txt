@@ -3,118 +3,76 @@
 #La Paz (392000/98000 POPS)
 2310 = {
     aristocrats = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 3300
     }
 
     bureaucrats = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 1000
     }
 
     officers = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 325
     }
 
     clergymen = {
-        culture = quechua
-        religion = animist
-        size = 650
+        culture = platinean
+        religion = catholic
+        size = 975
     }
 
     artisans = {
-        culture = quechua
-        religion = animist
-        size = 5825
+        culture = platinean
+        religion = catholic
+        size = 8500
     }
 
     soldiers = {
-        culture = quechua
-        religion = animist
-        size = 3000
-    }
-
-    soldiers = {
-        culture = quechua
-        religion = animist
-        size = 100
+        culture = platinean
+        religion = catholic
+        size = 3150
     }
 
     farmers = {
         culture = quechua
         religion = animist
-        size = 25000
-    }
-
-    clergymen = {
-        culture = aimara
-        religion = animist
-        size = 300
-    }
-
-    artisans = {
-        culture = aimara
-        religion = animist
-        size = 2525
+        size = 27775
     }
 
     farmers = {
         culture = aimara
         religion = animist
-        size = 128175
-    }
-
-    clergymen = {
-        culture = quechua
-        religion = animist
-        size = 25
-    }
-
-    artisans = {
-        culture = quechua
-        religion = animist
-        size = 150
-    }
-
-    soldiers = {
-        culture = quechua
-        religion = animist
-        size = 50
+        size = 28175
     }
 
     farmers = {
-        culture = quechua
-        religion = animist
-        size = 2775
+        culture = platinean
+        religion = catholic
+        size = 108175
     }
 }
 #Cochabamba (352000/88000 POPS)
 2311 = {
     aristocrats = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 1700
     }
 
     clergymen = {
-        culture = quechua
-        religion = animist
-        size = 550
-    }
-
-    artisans = {
-        culture = quechua
-        religion = animist
-        size = 1150
+        culture = platinean
+        religion = catholic
+        size = 850
     }
 
     soldiers = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 2100
     }
 
@@ -124,47 +82,41 @@
         size = 21600
     }
 
-    clergymen = {
-        culture = quechua
-        religion = animist
-        size = 300
-    }
-
     artisans = {
-        culture = quechua
-        religion = animist
-        size = 3250
+        culture = platinean
+        religion = catholic
+        size = 4400
     }
 
     farmers = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 61500
     }
 }
 #Oruro (40000/10000 POPS)
 2312 = {
     aristocrats = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 225
     }
 
     clergymen = {
-        culture = quechua
-        religion = animist
-        size = 50
+        culture = platinean
+        religion = catholic
+        size = 125
     }
 
     artisans = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 150
     }
 
     soldiers = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 50
     }
 
@@ -174,21 +126,15 @@
         size = 2525
     }
 
-    clergymen = {
-        culture = aimara
-        religion = animist
-        size = 75
-    }
-
     artisans = {
-        culture = aimara
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 350
     }
 
     farmers = {
-        culture = aimara
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 6575
     }
 }
@@ -197,39 +143,39 @@
 #Chuquisaca (116000/29000 POPS)
 2313 = {
     aristocrats = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 600
     }
 
     bureaucrats = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 187
     }
 
     officers = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 75
     }
 
     clergymen = {
-        culture = quechua
-        religion = animist
-        size = 175
+        culture = platinean
+        religion = catholic
+        size = 300
     }
 
     artisans = {
-        culture = quechua
-        religion = animist
-        size = 250
+        culture = platinean
+        religion = catholic
+        size = 1450
     }
 
     soldiers = {
-        culture = quechua
-        religion = animist
-        size = 1050
+        culture = platinean
+        religion = catholic
+        size = 2100
     }
 
     farmers = {
@@ -238,133 +184,97 @@
         size = 4825
     }
 
-    clergymen = {
-        culture = quechua
-        religion = animist
-        size = 125
-    }
-
-    artisans = {
-        culture = quechua
-        religion = animist
-        size = 1200
-    }
-
-    soldiers = {
-        culture = quechua
-        religion = animist
-        size = 1050
-    }
-
     farmers = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 23325
     }
 }
 #Potosi (120000/30000 POPS)
 2314 = {
     aristocrats = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 625
     }
 
     clergymen = {
-        culture = quechua
-        religion = animist
-        size = 150
+        culture = platinean
+        religion = catholic
+        size = 275
     }
 
     artisans = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 150
     }
 
     soldiers = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 25
     }
 
     farmers = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 2050
     }
 
-    clergymen = {
-        culture = aimara
-        religion = animist
-        size = 125
-    }
-
     artisans = {
-        culture = aimara
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 1350
     }
 
     farmers = {
         culture = aimara
         religion = animist
-        size = 25525
+        size = 5525
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
+        size = 20525
     }
 }
 #Tarija (52000/13000 POPS)
 2315 = {
     aristocrats = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 275
     }
 
     clergymen = {
-        culture = quechua
-        religion = animist
-        size = 75
-    }
-
-    artisans = {
-        culture = quechua
-        religion = animist
-        size = 50
-    }
-
-    soldiers = {
-        culture = quechua
-        religion = animist
-        size = 25
-    }
-
-    farmers = {
-        culture = quechua
-        religion = animist
-        size = 575
-    }
-
-    clergymen = {
-        culture = quechua
-        religion = animist
-        size = 50
-    }
-
-    artisans = {
-        culture = quechua
-        religion = animist
-        size = 600
-    }
-
-    soldiers = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
         size = 125
     }
 
+    artisans = {
+        culture = platinean
+        religion = catholic
+        size = 650
+    }
+
     farmers = {
-        culture = quechua
-        religion = animist
+        culture = platinean
+        religion = catholic
+        size = 575
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = catholic
+        size = 150
+    }
+
+    farmers = {
+        culture = platinean
+        religion = catholic
         size = 11225
     }
 }

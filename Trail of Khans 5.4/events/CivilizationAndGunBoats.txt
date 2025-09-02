@@ -3856,35 +3856,6 @@ country_event = {
 	}
 }
 
-#Algerian claims
-country_event = {
-	id = 90953
-	title = "EVTNAME90953"
-	desc = "EVTDESC90953"
-	picture = "arab_revolt"
-	
-	fire_only_once = yes
-	
-	trigger = {
-			1714 = { empty = no }
-			1718 = { empty = no }
-			1714 = { NOT = { is_core = ALD } }
-			1718 = { NOT = { is_core = ALD } }
-			OR = {
-				owns = 1714
-				owns = 1718
-			}
-			NOT = { has_global_flag = algeria_claimed_sahara }
-		}
-
-	option = {
-		name = "EVTOPTA90953"
-		set_global_flag = algeria_claimed_sahara
-#		ALD_1714 = { add_core = ALD }
-		ALD_1718 = { add_core = ALD }
-	}
-}
-
 #Treaty Ports
 province_event = {
 	id = 90954
@@ -3893,24 +3864,16 @@ province_event = {
 		
 	trigger = {
 		OR = {
+			province_id = 1499
 			province_id = 1498
 			province_id = 1496
-			AND = {
-				province_id = 1569
-				NOT = { total_pops = 30000 }
-			}
-			AND = {
-				province_id = 1566
-				NOT = { total_pops = 30000 }
-			}
-			AND = {
-				province_id = 2632
-				NOT = { total_pops = 30000 }
-			}
-			AND = {
-				province_id = 1538
-				NOT = { total_pops = 90000 }
-			}
+			province_id = 1608
+			province_id = 1606
+			province_id = 1538
+			province_id = 1569
+			province_id = 1566
+			province_id = 2632
+			province_id = 1609
 		}
 		port = yes
 		NOT = { has_province_modifier = treaty_port }
@@ -3946,12 +3909,16 @@ province_event = {
 		
 		trade_goods = precious_goods
 		OR = {
+			province_id = 1499
 			province_id = 1498
 			province_id = 1496
-			province_id = 1566
-			province_id = 1569
-			province_id = 2632
+			province_id = 1608
+			province_id = 1606
 			province_id = 1538
+			province_id = 1569
+			province_id = 1566
+			province_id = 2632
+			province_id = 1609
 		}
 	}
 

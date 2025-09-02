@@ -1,7 +1,8 @@
 owner = BHA
 controller = BHA
 add_core = BHA
+add_core = OTO
 add_core = BAV
-add_core = GER
+add_core = OTOadd_core = GER
 trade_goods = grain
 life_rating = 37

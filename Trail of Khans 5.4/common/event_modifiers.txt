@@ -2804,6 +2804,24 @@ assimilation_unrest = {
     icon = 4
 }
 
-tax_cooldown = {
-    icon = 8
+truce_timer = {
+    icon = 6
+}
+
+greco_romanian_treaty = {
+    icon = 17
+}
+
+#Strait crossings and canals
+
+canal_notification = {
+	icon = 22
+}
+
+land_crossing_notification = {
+	icon = 24
+}
+
+sea_crossing_notification = {
+	icon = 23
 }

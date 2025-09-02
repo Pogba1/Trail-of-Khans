@@ -120,3 +120,7 @@ government_interventionism_infamy_desc; ;x
 capital_of_indian_trade;Capital of Indian Trade;x
 health_care_change;Healthcare Law recently changed;x
 schooling_change;Schooling System recently changed;x
+truce_timer;Truce Timer;x
+truce_timer_desc;This is to simulate a truce timer in the context of ending a war through decision/event, will be removed for both parties if they are at war with each other;x
+greco_romanian_treaty;Greco-Romanian Migration Treaty;x
+greco_romanian_treaty_desc; ;x

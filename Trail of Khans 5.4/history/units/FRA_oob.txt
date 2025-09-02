@@ -159,7 +159,7 @@ army = {
 }
 
 army = {
-    name = "Arm�e d'Algerie"
+    name = "Armée de Languedoc"
 	
     leader = {
         name = "Bertrand Clauzel"
@@ -170,57 +170,57 @@ army = {
         prestige = 0.1
     }
 
-    location = 1704
+    location = 461
     regiment = {
-        name= "1.4�me Division d'Infanterie"
+        name= "1.4ème Division d'Infanterie"
         type = infantry
         home = 425
     }
 
     regiment = {
-        name= "2.4�me Division d'Infanterie"
+        name= "2.4ème Division d'Infanterie"
         type = infantry
         home = 423
     }
 
     regiment = {
-        name= "3.4�me Division d'Infanterie"
+        name= "3.4ème Division d'Infanterie"
         type = infantry
         home = 432
     }
 
     regiment = {
-        name= "1.5�me Division d'Infanterie"
+        name= "1.5ème Division d'Infanterie"
         type = infantry
         home = 439
     }
 
     regiment = {
-        name= "2.5�me Division d'Infanterie"
+        name= "2.5ème Division d'Infanterie"
         type = infantry
         home = 433
     }
 
     regiment = {
-        name= "3.5�me Division d'Infanterie"
+        name= "3.5ème Division d'Infanterie"
         type = infantry
         home = 431
     }
 
     regiment = {
-        name= "1�me Division d'Artillerie"
+        name= "1ère Division d'Artillerie"
         type = artillery
         home = 442
     }
 
     regiment = {
-        name= "2�re Division d'Artillerie"
+        name= "2ème Division d'Artillerie"
         type = artillery
         home = 459
     }
 
     regiment = {
-        name= "3�me Division d'Artillerie"
+        name= "3ème Division d'Artillerie"
         type = artillery
         home = 429
     }
@@ -229,7 +229,7 @@ army = {
 
 army = {
     name = "1�re Division de cavalerie"
-    location = 1704
+    location = 461
     regiment = {
         name= "1.1�re Division de cavalerie"
         type = dragoon

@@ -2,10 +2,6 @@ LOA = {
     value = 30
 }
 
-LBA = {
-    value = 60
-}
-
 KZB = {
     value = 40
 }
@@ -16,18 +12,6 @@ LUN = {
 
 KON = {
     value = 30
-}
-
-BRD = {
-    value = 25
-}
-
-BUG = {
-    value = 25
-}
-
-RWA = {
-    value = 25
 }
 
 army = {

@@ -80,13 +80,29 @@ political_decisions = {
 		}
 		allow = {
 			war = no
-			411 = {owned_by = THIS}
-			409 = {owned_by = THIS}
+			LOR = {
+                all_core = {
+                    OR = {
+						owned_by = THIS
+                        NOT = { culture = french }
+                    }
+                }
+            }
 		}
 		effect = {
 			set_country_flag = reintegrate_lorraine
-			FRA_411 = {add_core = THIS}
-			FRA_412 = {add_core = THIS}
+			prestige = 10
+			LOR = {
+				all_core = {
+					limit = {
+						culture = french
+					}
+					add_core = FRA
+					remove_core = LOR
+				}
+				primary_culture = south_german
+				remove_accepted_culture = french
+			}
 		}
 	}
 	annex_burgundy = {

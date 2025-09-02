@@ -5,7 +5,7 @@
 	soldiers = {
         culture = platinean
         religion = catholic
-        size = 20100
+        size = 26100
     }
     aristocrats = {
         culture = platinean
@@ -35,12 +35,6 @@
         culture = platinean
         religion = catholic
         size = 15000
-    }
-
-    soldiers = {
-        culture = platinean
-        religion = catholic
-        size = 6000
     }
 	farmers = {
 		culture = scottish
@@ -375,7 +369,7 @@
     farmers = {
         culture = platinean
         religion = catholic
-        size = 45015
+        size = 50015
     }
 
     clergymen = {
@@ -388,12 +382,6 @@
         culture = guarani
         religion = animist
         size = 22750
-    }
-
-    slaves = {
-        culture = afro_irish
-        religion = catholic
-        size = 5000
     }
 }
 #Curuzu Cuatia (16000/4000 POPS)
@@ -443,13 +431,13 @@
     }
 
     clergymen = {
-        culture = brazilian
+        culture = platinean
         religion = catholic
         size = 50
     }
 
     farmers = {
-        culture = brazilian
+        culture = platinean
         religion = catholic
         size = 1825
     }

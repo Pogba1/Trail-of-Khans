@@ -133,7 +133,6 @@ country_event = {
             consciousness = -4
         }
         BHA = {
-            release = BOH
             all_core = {
                 remove_core = BHA
             }
@@ -157,7 +156,13 @@ country_event = {
             }
             secede_province = BAV
         }
-        create_vassal = BOH
+        any_owned = {
+            limit = {
+                culture = czech
+            }
+            add_core = BOH
+        }
+        release_vassal = BOH
         create_alliance = BOH
         diplomatic_influence = {
             who = BOH
@@ -415,7 +420,7 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        days = 14
+        months = 1
     }
 
     option = {

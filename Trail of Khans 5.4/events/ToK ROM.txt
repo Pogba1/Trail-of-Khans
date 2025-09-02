@@ -1,0 +1,234 @@
+#Legiuirea pentru emanciparea tuturor țiganilor din Principatul Țării Românești
+
+
+country_event = { #romanian nationalism
+    id = 400602
+	picture = "pioneer_column"
+    title = "Romanian Nationalism"
+    desc = "Horror!"
+	allow_multiple_instances = no	
+	
+    trigger = {
+		year = 1860
+		any_owned_province = {
+			is_core = ROM
+		}
+		NOT = {
+			has_global_flag = romanian_nationalism
+		}
+		NOT = {
+			primary_culture = romanian 
+		}
+    }
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "On god?"
+		any_pop = {
+			limit = {
+				has_pop_culture = romanian
+			}
+			militancy = 5
+			consciousness = 7
+		}
+		set_global_flag = romanian_nationalism
+	}
+	
+}
+
+country_event = { #free romanian research points
+    id = 400603
+	picture = "treaty_of_petropolis"
+    title = "Bucharest Circle"
+    desc = "EVTDSC400603"
+
+	allow_multiple_instances = no
+
+    trigger = {
+		OR = {
+			primary_culture = romanian
+			is_greater_power = yes
+		}
+		664 = {
+			owned_by = THIS
+		}
+		invention = darwinism
+		NOT = {
+			has_global_flag = bucharest_circle
+		}
+	}
+
+	mean_time_to_happen = {
+        months = 12
+    }
+
+    option = {
+        name = "Interesting."
+		set_global_flag = bucharest_circle
+		prestige = 15
+
+		years_of_research = 0.5
+		any_pop = {
+			limit = {
+				type = clergymen
+			}
+			militancy = 1
+			consciousness = 5
+		}
+	}
+
+}
+
+#Greco-Romanian treaty
+
+country_event = {
+	id = 145300
+	title = "EVTNAME145300"
+	desc = "EVTDESC145300"
+	is_triggered_only = yes
+	
+	option = {
+		name = "We accept!"
+		809 = {
+			secede_province = FROM
+			remove_core = WAL
+			remove_core = ROM
+		}
+		812 = {
+			secede_province = FROM
+			remove_core = WAL
+			remove_core = ROM
+		}
+		813 = {
+			secede_province = FROM
+			remove_core = WAL
+			remove_core = ROM
+		}
+		814 = {
+			secede_province = FROM
+			remove_core = WAL
+			remove_core = ROM
+		}
+		810 = {
+			remove_core = BYZ
+		}
+		811 = {
+			remove_core = BYZ
+		}
+		relation = {
+			who = FROM
+			value = 200
+		}
+		add_country_modifier = { name = greco_romanian_treaty duration = 3650 }
+		FROM = {
+			country_event = {
+				id = 145301
+				days = 0
+			}
+		}
+		set_country_flag = greco_romanian_treaty
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+	
+	option = {
+		name = "We refuse!"
+		FROM = {
+			country_event = {
+				id = 145302
+				days = 0
+			}
+		}
+		ai_will_do = {
+			factor = 0.3
+		}
+	}
+}
+
+#Romanians accept
+
+country_event = {
+	id = 145301
+	title = "EVTNAME145301"
+	desc = "EVTDESC145301"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Great!"
+
+		prestige = 15
+		809 = {
+			add_core = THIS
+		}
+		812 = {
+			add_core = THIS
+		}
+		813 = {
+			add_core = THIS
+		}
+		814 = {
+			add_core = THIS
+		}
+		add_country_modifier = { name = greco_romanian_treaty duration = 3650 }
+		set_country_flag = greco_romanian_treaty
+	}
+}
+
+
+#Romanian refusal
+
+country_event = {
+	id = 145302
+	title = "EVTNAME145302"
+	desc = "EVTDESC145302"
+	is_triggered_only = yes
+	
+	option = {
+		name = "The insolence!"
+
+		prestige = -15
+		relation = {
+			who = FROM
+			value = -50
+		}
+		diplomatic_influence = {
+			who = FROM
+			value = -100
+		}
+	}
+}
+
+#End of the migration treaty
+
+country_event = {
+	id = 145303
+	title = "The End of the Migration Treaty"
+	desc = " "
+
+	trigger = {
+		has_country_flag = greco_romanian_treaty
+		NOT = {
+			has_country_modifier = greco_romanian_treaty
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "Good to know"
+
+		clr_country_flag = greco_romanian_treaty
+		any_country = {
+			limit = {
+				has_country_flag = greco_romanian_treaty
+			}
+			clr_country_flag = greco_romanian_treaty
+		}
+	}
+}

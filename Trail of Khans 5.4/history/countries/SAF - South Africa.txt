@@ -3,10 +3,11 @@ primary_culture = boer
 religion = protestant
 government = hms_government
 plurality = 25
-nationalvalue = nv_liberty
+nationalvalue = nv_order
 literacy = 0.01
 non_state_culture_literacy = 0.01
 civilized = yes
+prestige = 10
 
 # Political reforms
 slavery = no_slavery
@@ -14,7 +15,7 @@ upper_house_composition = state_equal_weight
 vote_franschise = wealth_voting
 public_meetings = yes_meeting
 press_rights = free_press
-trade_unions = all_trade_unions
+trade_unions = no_trade_unions
 voting_system = jefferson_method
 political_parties = non_secret_ballots
 
@@ -22,7 +23,7 @@ political_parties = non_secret_ballots
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = trinket_safety
-health_care = trinket_health_care
+health_care = no_health_care
 unemployment_subsidies = trinket_subsidies
 pensions = no_pensions
 school_reforms = low_schools
@@ -78,5 +79,7 @@ upper_house = {
     socialist = 0
     communist = 0
 }
+
+set_country_flag = net_dominion
  
 decision = literacy_setup_1836

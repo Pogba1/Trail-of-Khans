@@ -10,6 +10,10 @@ TIR = {
     influence_value = 100
 }
 
+SAX = {
+	value = -150
+}
+
 leader = {
     name = "Josef Radetzky"
     date = 1830.1.1

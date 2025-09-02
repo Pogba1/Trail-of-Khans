@@ -6954,21 +6954,29 @@
         religion = hindu
         size = 17600
     }
+
 	bureaucrats = {
 		culture = parsis
 		religion = yazidi
-        size = 50000
-	
+        size = 3000
 	}
+
 	clergymen = {
 		culture = parsis
 		religion = yazidi
-		size = 16000
+		size = 8000
 	}
+
+	farmers = {
+		culture = parsis
+		religion = yazidi
+		size = 53000
+	}
+
     aristocrats = {
         culture = marathi
         religion = hindu
-        size = 26000
+        size = 16000
     }
 
     clergymen = {
@@ -6980,13 +6988,13 @@
     bureaucrats = {
         culture = marathi
         religion = hindu
-        size = 3750
+        size = 1750
     }
 
     artisans = {
         culture = marathi
         religion = hindu
-        size = 10000
+        size = 12000
     }
 
     artisans = {
