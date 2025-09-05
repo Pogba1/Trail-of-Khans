@@ -107,8 +107,8 @@ From;To;Type;Through;Data;Comment
 1162;1165;sea;2788;0;Bahrain Strait
 1309;1322;sea;2794;0;Palk Strait #Ceylon-S India
 1310;1322;sea;2794;0;Palk Strait #Ceylon-S India
-1384;1402;sea;2814;0;Straits of Johore
-1384;1385;sea;2814;0;Straits of Johore to Singapore
+1384;1402;sea;3334;0;Straits of Johore
+1384;1385;sea;3334;0;Straits of Johore to Singapore
 1403;1413;land;2805;0;Sunda Strait
 1418;1421;sea;2811;0;Strait of Madura
 1420;1438;sea;2811;0;Bali Strait
@@ -122,7 +122,7 @@ From;To;Type;Through;Data;Comment
 1667;1659;sea;2843;0;Setto Strait
 1411;1408;sea;2803;0;Gunungsitoli Strait
 1404;1399;land;2813;0;Palak Panang Strait
-1402;1398;sea;2814;0;Tanjungpinang Strait
+1402;1398;sea;3334;0;Tanjungpinang Strait
 1458;1455;land;2848;0;Mindoro Strait
 1458;1459;sea;2848;0;Mindoro Strait
 1458;1460;land;2850;0;Mindoro Strait

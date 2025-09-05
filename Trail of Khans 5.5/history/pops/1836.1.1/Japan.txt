@@ -1562,12 +1562,7 @@
     clergymen = {
         culture = japanese
         religion = shinto
-        size = 1850
-    }
-	clergymen = {
-        culture = portuguese
-        religion = catholic
-        size = 1850
+        size = 3900
     }
 
     artisans = {

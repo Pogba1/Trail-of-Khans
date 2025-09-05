@@ -461,9 +461,6 @@ conquest = {
 				} 
 			}
 			capital_scope = { continent = south_africa}
-			THIS = { 
-				is_greater_power = yes 
-			}
 		}
 		total_pops = 400000
 		NOT = { is_our_vassal = THIS }
@@ -538,9 +535,6 @@ conquest_low = {
 				} 
 			}
 			capital_scope = { continent = south_africa}
-			THIS = { 
-				is_greater_power = yes 
-			}
 		}
 		total_pops = 100000
 		NOT = {	total_pops = 400000 }
@@ -614,9 +608,6 @@ conquest_tiny = {
 				} 
 			}
 			capital_scope = { continent = south_africa}
-			THIS = { 
-				is_greater_power = yes 
-			}
 		}
         total_pops = 10000
         NOT = { total_pops = 100000 }
@@ -690,9 +681,6 @@ conquest_miniscule = {
 				} 
 			}
 			capital_scope = { continent = south_africa}
-			THIS = { 
-				is_greater_power = yes 
-			}
 		}
         NOT = { total_pops = 10000 }
 		NOT = { is_our_vassal = THIS }
@@ -1600,6 +1588,18 @@ take_capital = {
 			NOT = {	is_core = THIS }
 			is_colonial = no
 		}
+		OR = {
+			NOT = {
+				continent = china
+			}
+			THIS = { tag = DAI }
+			THIS = {
+				capital_scope = { continent = china }
+			}
+			owner = {
+				civilized = yes
+			}
+		}
 		any_owned_province = { is_capital = yes }
 	}
 	
@@ -1740,6 +1740,18 @@ acquire_state_tiny = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
+		OR = {
+			NOT = {
+				continent = china
+			}
+			THIS = { tag = DAI }
+			THIS = {
+				capital_scope = { continent = china }
+			}
+			owner = {
+				civilized = yes
+			}
+		}
 		not = { any_owned_province = { is_capital = yes } }
 	}
 	
@@ -1874,6 +1886,18 @@ acquire_state_small = {
 			}
 
 			continent = south_africa
+		}
+		OR = {
+			NOT = {
+				continent = china
+			}
+			THIS = { tag = DAI }
+			THIS = {
+				capital_scope = { continent = china }
+			}
+			owner = {
+				civilized = yes
+			}
 		}
 		is_colonial = no
 		any_owned_province = {
@@ -2022,6 +2046,18 @@ acquire_state_medium = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
+		OR = {
+			NOT = {
+				continent = china
+			}
+			THIS = { tag = DAI }
+			THIS = {
+				capital_scope = { continent = china }
+			}
+			owner = {
+				civilized = yes
+			}
+		}
 		not = { any_owned_province = { is_capital = yes } }
 	}
 	
@@ -2163,6 +2199,18 @@ acquire_state_large = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
+		OR = {
+			NOT = {
+				continent = china
+			}
+			THIS = { tag = DAI }
+			THIS = {
+				capital_scope = { continent = china }
+			}
+			owner = {
+				civilized = yes
+			}
+		}
 		not = { any_owned_province = { is_capital = yes } }
 	}
 	
@@ -2303,6 +2351,18 @@ acquire_state_huge = {
 			is_core = HUG
 			not = {	is_core = THIS }
 			is_colonial = no
+		}
+		OR = {
+			NOT = {
+				continent = china
+			}
+			THIS = { tag = DAI }
+			THIS = {
+				capital_scope = { continent = china }
+			}
+			owner = {
+				civilized = yes
+			}
 		}
 		not = { any_owned_province = { is_capital = yes } }
 	}
