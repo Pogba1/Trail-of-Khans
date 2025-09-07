@@ -12,7 +12,7 @@ political_decisions = {
 			}
 		}
 		allow = {
-			is_vassal = no
+			war = no
 			state_n_government = 1
 			1003 = {OR = {
                         owned_by = THIS
