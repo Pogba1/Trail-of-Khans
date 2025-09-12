@@ -466,9 +466,12 @@ conquest = {
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
-		AND = {
-			THIS = { capital_scope = { continent = africa } }
-			capital_scope = { continent = africa }
+		OR = {
+			AND = {
+				THIS = { capital_scope = { continent = africa } }
+				capital_scope = { continent = africa }
+			}
+			NOT = { capital_scope = { continent = africa } }
 		}
 		OR = {
 			AND = {
@@ -541,9 +544,12 @@ conquest_low = {
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
-		AND = {
-			THIS = { capital_scope = { continent = africa } }
-			capital_scope = { continent = africa }
+		OR = {
+			AND = {
+				THIS = { capital_scope = { continent = africa } }
+				capital_scope = { continent = africa }
+			}
+			NOT = { capital_scope = { continent = africa } }
 		}
 		OR = {
 			AND = {
@@ -614,9 +620,12 @@ conquest_tiny = {
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
-		AND = {
-			THIS = { capital_scope = { continent = africa } }
-			capital_scope = { continent = africa }
+		OR = {
+			AND = {
+				THIS = { capital_scope = { continent = africa } }
+				capital_scope = { continent = africa }
+			}
+			NOT = { capital_scope = { continent = africa } }
 		}
 		OR = {
 			AND = {
@@ -686,9 +695,12 @@ conquest_miniscule = {
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
-		AND = {
-			THIS = { capital_scope = { continent = africa } }
-			capital_scope = { continent = africa }
+		OR = {
+			AND = {
+				THIS = { capital_scope = { continent = africa } }
+				capital_scope = { continent = africa }
+			}
+			NOT = { capital_scope = { continent = africa } }
 		}
 		OR = {
 			AND = {
