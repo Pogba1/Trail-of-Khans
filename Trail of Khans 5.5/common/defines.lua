@@ -29,7 +29,7 @@ country = {
     COLONIAL_LIFERATING = 35,
     BASE_GREATPOWER_DAILY_INFLUENCE = 0.25, -- Influence value which is distributed each day
     AI_SUPPORT_REFORM = 0.05, -- At least this many % needs to support a reform for the AI to take it
-    BASE_MONTHLY_DIPLOPOINTS = 0.3, -- Base value gain for diplomatic actions each month
+    BASE_MONTHLY_DIPLOPOINTS = 9, -- Base value gain for diplomatic actions each month
     DIPLOMAT_TRAVEL_TIME = -1, -- sigma teleporting diplomat grindset (real) (<3)
     PROVINCE_OVERSEAS_PENALTY = 0.015, -- Each province req. this many goods flagged as overseas penalty
     NONCORE_TAX_PENALTY = -0.05, -- -5% for each non-core in state
@@ -408,7 +408,7 @@ diplomacy = {
 
     PEACE_RELATION_ON_ACCEPT = 0,
     PEACE_RELATION_ON_DECLINE = 0,
-    PEACE_DIPLOMATIC_COST = 0,
+    PEACE_DIPLOMATIC_COST = 9,
 
     ALLIANCE_RELATION_ON_ACCEPT = 0,
     ALLIANCE_RELATION_ON_DECLINE = 0,
@@ -452,10 +452,10 @@ diplomacy = {
 
     INCREASERELATION_RELATION_ON_ACCEPT = 15,
     INCREASERELATION_RELATION_ON_DECLINE = 0,
-    INCREASERELATION_DIPLOMATIC_COST = 2,
+    INCREASERELATION_DIPLOMATIC_COST = 4,
 
     DECREASERELATION_RELATION_ON_ACCEPT = -25,
-    DECREASERELATION_DIPLOMATIC_COST = 1,
+    DECREASERELATION_DIPLOMATIC_COST = 3,
 
     ADDTOSPHERE_RELATION_ON_ACCEPT = 0,
     ADDTOSPHERE_INFLUENCE_COST = 100,
