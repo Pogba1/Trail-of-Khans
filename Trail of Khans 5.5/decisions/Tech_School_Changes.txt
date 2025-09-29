@@ -184,7 +184,7 @@ political_decisions = {
             tech_school = traditional_academic
         }
         ai_will_do = {
-            factor = 1
+            factor = 0
         }
     }
 
@@ -197,6 +197,7 @@ political_decisions = {
         }
 
         allow = {
+            NOT = { has_country_modifier = academic_confusion }
             regenerative_furnaces = 1
             iron_breech_loaded_artillery = 1
             industrial_score = 150

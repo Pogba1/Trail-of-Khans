@@ -2,7 +2,6 @@ DAR = {
     value = 80
 }
 
-
 GON = {
     value = 75
 }
@@ -25,7 +24,7 @@ leader = {
     date = "1828.1.1"
     personality = merciless
     background = resolute
-    prestige = 0.35
+    prestige = 0.05
 }
 
 leader = {
@@ -34,7 +33,7 @@ leader = {
     date = "1823.1.1"
     personality = relentless
     background = old_school
-    prestige = 0.8
+    prestige = 0.1
 }
 
 leader = {
@@ -43,7 +42,7 @@ leader = {
     date="1832.1.1"
     personality = defiant
     background = expert_raider
-    prestige = 0.3
+    prestige = 0.05
 }
 
 leader = {
@@ -52,7 +51,7 @@ leader = {
     date="1832.1.1"
     personality = balanced_p
     background = drillmaster
-    prestige = 0.1
+    prestige = 0.05
 }
 
 
@@ -61,106 +60,6 @@ navy = {
     location = 1751
     ship = {
         name= "Toushka"
-        type = manowar
-    }
-
-    ship = {
-        name= "Sharm El-Sheikh"
-        type = manowar
-    }
-
-    ship = {
-        name= "Damyat"
-        type = manowar
-    }
-
-    ship = {
-        name= "Rasheed"
-        type = manowar
-    }
-
-    ship = {
-        name= "El Suez"
-        type = manowar
-    }
-
-    ship = {
-        name= "Rasheed"
-        type = manowar
-    }
-
-    ship = {
-        name= "El Suez"
-        type = manowar
-    }
-
-    ship = {
-        name= "Rasheed"
-        type = manowar
-    }
-
-    ship = {
-        name= "El Suez"
-        type = manowar
-    }
-
-    ship = {
-        name= "Rasheed"
-        type = manowar
-    }
-
-    ship = {
-        name= "El Suez"
-        type = manowar
-    }
-
-    ship = {
-        name= "Rasheed"
-        type = manowar
-    }
-
-    ship = {
-        name= "El Suez"
-        type = manowar
-    }
-
-    ship = {
-        name= "Rasheed"
-        type = manowar
-    }
-
-    ship = {
-        name= "El Suez"
-        type = manowar
-    }
-
-    ship = {
-        name= "Rasheed"
-        type = manowar
-    }
-
-    ship = {
-        name= "El Suez"
-        type = manowar
-    }
-
-    ship = {
-        name= "Rasheed"
-        type = manowar
-    }
-
-    ship = {
-        name= "El Suez"
-        type = manowar
-    }
-
-    ship = {
-        name= "Rasheed"
-        type = manowar
-    }
-
-    ship = {
-        name= "El Suez"
         type = manowar
     }
 
@@ -194,104 +93,6 @@ navy = {
         type = frigate
     }
 
-    ship = {
-        name= "Marsa Matruh"
-        type = frigate
-    }
-
-    ship = {
-        name= "Bur Tawfiq"
-        type = frigate
-    }
-
-    ship = {
-        name= "Al Ghardaqah"
-        type = frigate
-    }
-
-    ship = {
-        name= "Bur Safajah"
-        type = frigate
-    }
-
-    ship = {
-        name= "1st transport flotilla"
-        type = clipper_transport
-    }
-
-    ship = {
-        name = "Transport Ship"
-        type = clipper_transport
-    }
-
-    ship = {
-        name = "Transport Ship"
-        type = clipper_transport
-    }
-
-    ship = {
-        name = "Transport Ship"
-        type = clipper_transport
-    }
-
-    ship = {
-        name = "Transport Ship"
-        type = clipper_transport
-    }
-
-    ship = {
-        name = "Transport Ship"
-        type = clipper_transport
-    }
-
-    ship = {
-        name = "Transport Ship"
-        type = clipper_transport
-    }
-
-    ship = {
-        name = "Transport Ship"
-        type = clipper_transport
-    }
-
-    ship = {
-        name = "Transport Ship"
-        type = clipper_transport
-    }
-
-    ship = {
-        name = "Transport Ship"
-        type = clipper_transport
-    }
-
-    ship = {
-        name = "Transport Ship"
-        type = clipper_transport
-    }
-
-    ship = {
-        name = "Transport Ship"
-        type = clipper_transport
-    }
-
-}
-
-navy = {
-    name = "Red Sea Squadron"
-    location = 1875
-    ship = {
-        name= "Toushka"
-        type = manowar
-    }
-    ship = {
-        name= "Sharm El-Sheikh"
-        type = manowar
-    }
-
-    ship = {
-        name= "Damyat"
-        type = manowar
-    }
 }
 
 army = {
@@ -323,25 +124,25 @@ army = {
 
     regiment = {
         name= "1.1 Infantry"
-        type = infantry
+        type = irregular
         home = 1745
     }
 
     regiment = {
         name= "2.1 Infantry"
-        type = infantry
+        type = irregular
         home = 1872
     }
 
     regiment = {
         name= "3.1 Infantry"
-        type = infantry
+        type = irregular
         home = 1750
     }
 
     regiment = {
         name= "1.2 Infantry"
-        type = infantry
+        type = irregular
         home = 1751
     }
 
@@ -370,32 +171,20 @@ army = {
 
     regiment = {
         name = "Nilotic Cuirassiers"
-        type = cuirassier
+        type = cavalry
         home = 1842
     }
 
     regiment = {
         name = "Nilotic Cuirassiers"
-        type = cuirassier
+        type = cavalry
         home = 1827
     }
 
     regiment = {
         name = "Nilotic Cuirassiers"
-        type = cuirassier
+        type = cavalry
         home = 1827
-    }
-
-    regiment = {
-        name = "1.6th Division"
-        type = artillery
-        home = 1828
-    }
-
-    regiment = {
-        name = "2.6th Division"
-        type = artillery
-        home = 1829
     }
 
     regiment = {

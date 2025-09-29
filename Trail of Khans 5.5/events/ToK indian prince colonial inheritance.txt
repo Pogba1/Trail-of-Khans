@@ -63,3 +63,44 @@ country_event = {
         inherit = FROM
     }
 }
+
+country_event = {
+    id = 177600
+    title = "EVTNAME177600"
+    desc = "EVTDESC177600"
+    is_triggered_only = yes
+    
+        
+    option = {
+        name = "We shall integrate the people"
+        change_tag = NAM
+        add_accepted_culture = louisianian
+        add_accepted_culture = french_canadian
+    }
+    
+    option = {
+        name = "We shall seek a political union"
+        change_tag = NAM
+        inherit = QUE
+        inherit = LOU
+        inherit = RNA
+        QUE = {
+            all_core = {
+                add_core = NAM
+                remove_core = QUE
+            }
+        }
+        LOU = {
+            all_core = {
+                add_core = NAM
+                remove_core = LOU
+            }
+        }
+        RNA = {
+            all_core = {
+                add_core = NAM
+                remove_core = RNA
+            }
+        }
+    }
+}

@@ -637,7 +637,7 @@
     farmers = {
         culture = misri
         religion = sunni
-        size = 116725
+        size = 145702
     }
 
     bureaucrats = {
@@ -656,12 +656,6 @@
         culture = misri
         religion = coptic
         size = 750
-    }
-
-    craftsmen = {
-        culture = misri
-        religion = sunni
-        size = 28977
     }
 
     farmers = {

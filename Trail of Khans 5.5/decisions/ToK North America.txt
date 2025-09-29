@@ -53,97 +53,25 @@ political_decisions = {
 			}
 		}
 		allow = {
-			LOU = {
-				all_core = {
-					OR = {
-						owned_by = THIS 
-						owner = {
-							in_sphere = THIS
-							OR = {
-								is_vassal = no
-								vassal_of = THIS
-							}
-							war = no
-							is_mobilised = no
-							is_greater_power = no
-						}
-					}
-				}
+			all_core = {
+				owned_by = THIS
 			}
-			QUE = {
-				all_core = {
-					OR = {
-						empty = yes
-						owned_by = THIS 
-						owner = {
-							in_sphere = THIS
-							OR = {
-								is_vassal = no
-								vassal_of = THIS
-							}
-							war = no
-							is_mobilised = no
-							is_greater_power = no
-						}
-					}
-				}
-			}
-			is_greater_power = yes
 			war = no
 			nationalism_n_imperialism = 1
 		}
 		effect = {
-			change_tag = NAM
-			any_country = {
-				limit = {
-					in_sphere = THIS
-					OR = {
-						is_vassal = no
-						vassal_of = THIS
-					}
-					capital_scope = {
-						continent = north_america
-					} 
-					OR = {
-						primary_culture = french_canadian
-						primary_culture = louisianian
-					}
-				}
-				annex_to = THIS
+			country_event = {
+				id = 177600
+				days = 0
 			}
-			LOU = {
-				all_core = {
-					add_core = NAM
-					remove_core = LOU
-				}
-			}
-			QUE = {
-				all_core = {
-					add_core = NAM
-					remove_core = QUE
-				}
-			}
-			CEE = {
-				all_core = {
-					add_core = NAM
-					remove_core = CEE
-				}
-			}
-			IRO = {
-				all_core = {
-					add_core = NAM
-					remove_core = IRO
-				}
-			}
-			add_accepted_culture = louisianian
-			add_accepted_culture = french_canadian
+			prestige = 15
 		}
 	}
 
 	pelsovs_plain = {
 		potential = {
 			OR = {
-				tag = NAM
+				has_country_flag = north_american_ambitions
 				tag = MEX
 				tag = ELI
 				tag = CEE 
@@ -203,6 +131,7 @@ political_decisions = {
 			}
 		}
 	}
+
 	the_true_masters_of_the_coast = {
 		potential = {
 			NOT = {
@@ -231,6 +160,34 @@ political_decisions = {
 				}
 			}
 			add_accepted_culture = elysian
+		}
+	}
+
+	conquer_nieuw_amsterdam = {
+		potential = {
+			tag = QUE
+			NOT = {
+				has_country_flag = conquer_nieuw_amsterdam_flag
+			}
+		}
+		allow = {
+			RNA = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			state_n_government = 1
+			war = no
+		}
+		effect = {
+			RNA = {
+				all_core = {
+					add_core = THIS
+					remove_core = RNA
+				}
+			}
+			prestige = 10
+			set_country_flag = conquer_nieuw_amsterdam_flag
 		}
 	}
 }

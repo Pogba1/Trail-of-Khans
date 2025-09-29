@@ -1,4 +1,5 @@
 political_decisions = {
+
 	conquer_caucasus_svf = {
 		picture = "unite_caucasus"
 		potential={
@@ -13,6 +14,7 @@ political_decisions = {
 			PNT = { all_core = { add_core = THIS } }			
 		}
 	}
+
 	integrate_kurds = {
 		potential = {
 			tag = SVF
@@ -26,6 +28,7 @@ political_decisions = {
 			prestige = 10
 		}
 	}
+
 	conquest_of_north_caucasia = {
 		potential = {
 			tag = SVF
@@ -44,6 +47,7 @@ political_decisions = {
 			set_country_flag = north_caucasian_conquest
 		}
 	}
+
 	fertile_crescent_agriculture = {
 		picture = vietnam_coffee
 		potential = {
@@ -80,6 +84,33 @@ political_decisions = {
 			901 = {add_province_modifier = {name = modernized_irrigation duration = 2738}}
 
 			set_country_flag = fertile_crescent_agriculture
+		}
+	}
+
+	levantine_integration = {
+		potential = { 
+			tag = SVF
+			NOT = {
+				has_country_flag = levantine_integration
+			}
+		}
+		allow = {
+			JER = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			state_n_government = 1
+		}
+	
+		effect = {
+			JER = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			prestige = 10
+			set_country_flag = levantine_integration
 		}
 	}
 }
