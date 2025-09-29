@@ -48,6 +48,8 @@ germanic = {
         "von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach"
         "von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
     }
+	german = {
+	}
 	 
     union = GER
 }
@@ -323,6 +325,8 @@ british = {
 
         last_names = { Smith Brown Wilson Robertson Thomson Campbell Stewart Anderson Scott Murray MacDonald Reid Taylor Clark Ross Young Mitchell Watson Paterson Morrison Sanders    }
     }
+	gaelobrittanic = {
+	}
 	union = GAE
 }
 gallic = {
@@ -520,6 +524,8 @@ iberian = {
         Nunes Ortigéo Pereira Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha
         Ribeiro Rodrigues Salazar Sampaio Sérgio Silveira Tavares Teixeira Vidigal Vieira }
 	}
+	iberian = {
+	}
 	
 	union = IBE
 }
@@ -640,6 +646,8 @@ pan_romanian = {
         Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
         }
     }
+	romanianb = {
+	}
     union = ROM
 }
 
@@ -731,7 +739,8 @@ czecho_slovak_culture_group = {
         Masaryk Móry Moyses Rázus Rohácek Rudnay Selepcéni Sidor Skultéty-Gábris Smik
         Sokol Stefánik Suchon Sverma Tiso Trcka Tuka Turanec Viest Zoch }
     }
-	
+	czechoslovak = {
+	}
 	union = OTO
 }
 
@@ -772,6 +781,8 @@ east_slavic = {
                             Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko"
                             Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
         }
+	eastslavic = {
+	}
 	union = KIR
 }
 
@@ -934,6 +945,9 @@ hellenic = {
         Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
         }
     }
+	
+	grecoroman = {
+	}
 	union = BYZ
 }
 
