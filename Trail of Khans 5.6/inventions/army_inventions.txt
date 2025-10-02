@@ -783,6 +783,9 @@ muzzle_loaded_rifle_armament = {
             attack = 1
             supply_consumption = 0.10
         }
+        artillery = {   
+            attack = 0.25
+        }
     }
 }
 
@@ -830,6 +833,9 @@ breech_loaded_rifle_armament = {
         irregular = {
             attack = 1
             supply_consumption = 0.20
+        }
+        artillery = {   
+            attack = 0.25
         }
     }
 }
@@ -886,6 +892,9 @@ machine_gun_armament = {
             attack = 1
             defence = 1
             supply_consumption = 0.20
+        }
+        artillery = {   
+            attack = 0.5
         }
     }
 }
