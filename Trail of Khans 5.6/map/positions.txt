@@ -116153,33 +116153,32 @@
 } # Straits of Obokk
 
 2783 = {
-    unit = {
-        x = 3528.000000
-        y = 950.000000
-    }
-
     text_position = {
-        x = 3528.100098
-        y = 950.400024
+        x = 3481.500000
+        y = 967.500000
     }
 
-    text_rotation = 0.261799
-    text_scale = 4.799998
+    text_rotation = 5.961435
+    unit = {
+        x = 3481.300000
+        y = 966.800000
+    }
+
 } # Bal el Mandeb
 
 2784 = {
-    unit = {
-        x = 3606.000000
-        y = 977.000000
-    }
-
     text_position = {
-        x = 3606.699951
-        y = 977.099976
+        x = 3561.350000
+        y = 966.066667
     }
 
     text_rotation = 0.349066
-    text_scale = 4.599998
+    text_scale = 8
+    unit = {
+        x = 3564.100000
+        y = 967.166667
+    }
+
 } # Coast of Mascate
 
 2785 = {

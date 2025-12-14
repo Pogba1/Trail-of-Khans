@@ -1,4 +1,5 @@
 add_core = SVF
+add_core = IRQ
 trade_goods = fruit
 life_rating = 10
 owner = SVF
